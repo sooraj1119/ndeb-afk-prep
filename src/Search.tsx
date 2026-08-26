@@ -64,6 +64,8 @@ export function Search() {
     setExpandedId(expandedId === id ? null : id);
   };
 
+  const displayResults = isPremium ? results : results.slice(0, 5);
+
   return (
     <motion.div 
       initial={{ opacity: 0, y: 20 }}
