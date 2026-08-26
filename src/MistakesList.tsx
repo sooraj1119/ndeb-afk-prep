@@ -4,11 +4,13 @@ import { loadAllQuestions, getQuestions } from './lib/questionsStore';
 import { RefreshCw, Play, Trash2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+import { ArrowLeft } from 'lucide-react';
 interface Props {
+  onBack?: () => void;
   onStartMistakesQuiz: () => void;
 }
 
-export function MistakesList({ onStartMistakesQuiz }: Props) {
+export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
   const [loading, setLoading] = useState(true);
   const [mistakes, setMistakes] = useState<any[]>([]);
 
@@ -43,6 +45,11 @@ export function MistakesList({ onStartMistakesQuiz }: Props) {
     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} style={{ maxWidth: '800px', margin: '0 auto', paddingBottom: '80px' }}>
       <div className="glass-panel" style={{ padding: '2rem', marginBottom: '2rem', display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'center', justifyContent: 'space-between', background: 'linear-gradient(to right, var(--surface-color), rgba(239, 68, 68, 0.1))' }}>
         <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '1.5rem' }}>
+          {onBack && (
+            <button onClick={onBack} style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '50%', color: 'var(--text-primary)' }}>
+              <ArrowLeft size={24} />
+            </button>
+          )}
           <div style={{ background: 'rgba(239, 68, 68, 0.1)', padding: '1.2rem', borderRadius: '50%', color: '#ef4444' }}>
             <AlertCircle size={32} />
           </div>

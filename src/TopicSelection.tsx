@@ -130,6 +130,40 @@ export function TopicSelection({ onSelect }: Props) {
           </div>
           <ChevronRight size={32} opacity={0.8} />
         </motion.div>
+
+        <motion.div 
+          onClick={() => {
+            if (!isPremium) setShowPaywall(true);
+            else onSelect('mistakes_list');
+          }}
+          whileHover={{ y: -5, boxShadow: 'var(--shadow-md)' }}
+          style={{
+            background: 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)',
+            padding: '2rem',
+            borderRadius: 'var(--radius-lg)',
+            color: 'white',
+            cursor: 'pointer',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            boxShadow: 'var(--shadow-sm)',
+            gridColumn: '1 / -1'
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+            <div style={{ background: 'rgba(255,255,255,0.2)', padding: '1rem', borderRadius: '50%' }}>
+              {!isPremium ? <Lock size={32} color="white" /> : <Flame size={32} color="white" />}
+            </div>
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
+                <h3 style={{ fontSize: '1.5rem', margin: 0, fontWeight: 700 }}>Review Mistakes</h3>
+                {!isPremium && <span style={{ background: '#eab308', color: '#854d0e', padding: '0.2rem 0.6rem', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px' }}><Crown size={12} /> PRO</span>}
+              </div>
+              <p style={{ margin: 0, opacity: 0.9, fontSize: '1.1rem' }}>Drill incorrectly answered questions to master your weak points</p>
+            </div>
+          </div>
+          <ChevronRight size={32} opacity={0.8} />
+        </motion.div>
       </div>
 
       <motion.div 
