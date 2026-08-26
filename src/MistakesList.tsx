@@ -43,15 +43,15 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
 
   return (
     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} style={{ maxWidth: '800px', margin: '0 auto', paddingBottom: '80px' }}>
-      <div className="glass-panel" style={{ padding: '2rem', marginBottom: '2rem', display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'center', justifyContent: 'space-between', background: 'linear-gradient(to right, var(--surface-color), rgba(239, 68, 68, 0.1))' }}>
-        <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '1.5rem' }}>
+      <div className="glass-panel" style={{ padding: '2rem', marginBottom: '2rem', display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'flex-start', justifyContent: 'space-between', flexDirection: 'column', background: 'linear-gradient(to right, var(--surface-color), rgba(239, 68, 68, 0.1))' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', width: '100%' }}>
           {onBack && (
             <button onClick={onBack} style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '50%', color: 'var(--text-primary)' }}>
               <ArrowLeft size={24} />
             </button>
           )}
-          <div style={{ background: 'rgba(239, 68, 68, 0.1)', padding: '1.2rem', borderRadius: '50%', color: '#ef4444' }}>
-            <AlertCircle size={32} />
+          <div style={{ background: 'rgba(239, 68, 68, 0.1)', padding: '0.8rem', borderRadius: '50%', flexShrink: 0, color: '#ef4444' }}>
+            <AlertCircle size={24} />
           </div>
           <div>
             <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.5rem', color: 'var(--text-primary)' }}>Review Mistakes</h3>
@@ -62,7 +62,7 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
           onClick={onStartMistakesQuiz}
           disabled={mistakes.length === 0}
           className="primary-btn"
-          style={{ padding: '0.8rem 1.5rem', borderRadius: 'var(--radius-md)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: mistakes.length === 0 ? 0.5 : 1, cursor: mistakes.length === 0 ? 'not-allowed' : 'pointer', background: mistakes.length === 0 ? 'var(--accent-color)' : '#ef4444' }}
+          style={{ width: '100%', padding: '1rem', borderRadius: 'var(--radius-md)', fontWeight: 600, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', opacity: mistakes.length === 0 ? 0.5 : 1, cursor: mistakes.length === 0 ? 'not-allowed' : 'pointer', background: mistakes.length === 0 ? 'var(--accent-color)' : '#ef4444' }}
         >
           <Play size={18} />
           Drill Mistakes

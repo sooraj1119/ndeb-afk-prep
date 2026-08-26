@@ -74,7 +74,7 @@ export function TopicSelection({ onSelect }: Props) {
           whileHover={dueReviewCount > 0 ? { y: -5, boxShadow: 'var(--shadow-md)' } : {}}
           style={{
             background: dueReviewCount > 0 ? 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)' : 'var(--surface-hover)',
-            padding: '2rem',
+            padding: '1.5rem',
             borderRadius: 'var(--radius-lg)',
             color: dueReviewCount > 0 ? 'white' : 'var(--text-secondary)',
             cursor: dueReviewCount > 0 ? 'pointer' : 'default',
@@ -86,8 +86,8 @@ export function TopicSelection({ onSelect }: Props) {
             opacity: dueReviewCount > 0 ? 1 : 0.6
           }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
-            <div style={{ background: dueReviewCount > 0 ? 'rgba(255,255,255,0.2)' : 'var(--border-color)', padding: '1rem', borderRadius: '50%' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+              <div style={{ background: dueReviewCount > 0 ? 'rgba(255,255,255,0.2)' : 'var(--border-color)', padding: '0.8rem', borderRadius: '50%', flexShrink: 0 }}>
               <CalendarDays size={32} color={dueReviewCount > 0 ? "white" : "var(--text-secondary)"} />
             </div>
             <div>
@@ -99,7 +99,7 @@ export function TopicSelection({ onSelect }: Props) {
               </p>
             </div>
           </div>
-          {dueReviewCount > 0 && <ChevronRight size={32} opacity={0.8} />}
+          {dueReviewCount > 0 && <ChevronRight size={28} opacity={0.8} style={{ flexShrink: 0 }} />}
         </motion.div>
 
         {/* Simulation Mode Banner */}
@@ -108,7 +108,7 @@ export function TopicSelection({ onSelect }: Props) {
           whileHover={{ y: -5, boxShadow: 'var(--shadow-md)' }}
           style={{
             background: 'linear-gradient(135deg, #3b82f6 0%, #2563eb 100%)',
-            padding: '2rem',
+            padding: '1.5rem',
             borderRadius: 'var(--radius-lg)',
             color: 'white',
             cursor: 'pointer',
@@ -119,8 +119,8 @@ export function TopicSelection({ onSelect }: Props) {
             gridColumn: '1 / -1'
           }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
-            <div style={{ background: 'rgba(255,255,255,0.2)', padding: '1rem', borderRadius: '50%' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+              <div style={{ background: 'rgba(255,255,255,0.2)', padding: '0.8rem', borderRadius: '50%', flexShrink: 0 }}>
               <Activity size={32} color="white" />
             </div>
             <div>
@@ -128,7 +128,7 @@ export function TopicSelection({ onSelect }: Props) {
               <p style={{ margin: 0, opacity: 0.9, fontSize: '1.1rem' }}>100 random questions | 2.5 hour timer</p>
             </div>
           </div>
-          <ChevronRight size={32} opacity={0.8} />
+          <ChevronRight size={28} opacity={0.8} style={{ flexShrink: 0 }} />
         </motion.div>
 
         <motion.div 
@@ -139,7 +139,7 @@ export function TopicSelection({ onSelect }: Props) {
           whileHover={{ y: -5, boxShadow: 'var(--shadow-md)' }}
           style={{
             background: 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)',
-            padding: '2rem',
+            padding: '1.5rem',
             borderRadius: 'var(--radius-lg)',
             color: 'white',
             cursor: 'pointer',
@@ -150,19 +150,19 @@ export function TopicSelection({ onSelect }: Props) {
             gridColumn: '1 / -1'
           }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
-            <div style={{ background: 'rgba(255,255,255,0.2)', padding: '1rem', borderRadius: '50%' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+              <div style={{ background: 'rgba(255,255,255,0.2)', padding: '0.8rem', borderRadius: '50%', flexShrink: 0 }}>
               {!isPremium ? <Lock size={32} color="white" /> : <Flame size={32} color="white" />}
             </div>
             <div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
+              <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
                 <h3 style={{ fontSize: '1.5rem', margin: 0, fontWeight: 700 }}>Review Mistakes</h3>
                 {!isPremium && <span style={{ background: '#eab308', color: '#854d0e', padding: '0.2rem 0.6rem', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px' }}><Crown size={12} /> PRO</span>}
               </div>
               <p style={{ margin: 0, opacity: 0.9, fontSize: '1.1rem' }}>Drill incorrectly answered questions to master your weak points</p>
             </div>
           </div>
-          <ChevronRight size={32} opacity={0.8} />
+          <ChevronRight size={28} opacity={0.8} style={{ flexShrink: 0 }} />
         </motion.div>
       </div>
 
