@@ -193,7 +193,52 @@ export function Search() {
             );
           })}
         </div>
+
+        {!isPremium && results.length > 5 && (
+          <motion.div 
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            style={{
+              background: 'linear-gradient(135deg, rgba(245,158,11,0.1) 0%, rgba(217,119,6,0.1) 100%)',
+              border: '2px solid rgba(245,158,11,0.3)',
+              borderRadius: 'var(--radius-lg)',
+              padding: '2rem',
+              textAlign: 'center',
+              marginTop: '2rem',
+              cursor: 'pointer'
+            }}
+            onClick={() => setShowPaywall(true)}
+            whileHover={{ y: -2, boxShadow: '0 10px 25px -5px rgba(245,158,11,0.15)' }}
+          >
+            <Crown size={32} color="#f59e0b" style={{ margin: '0 auto 1rem' }} />
+            <h3 style={{ fontSize: '1.25rem', color: 'var(--text-primary)', margin: '0 0 0.5rem' }}>
+              Unlock {results.length - 5} more results
+            </h3>
+            <p style={{ color: 'var(--text-secondary)', margin: '0 0 1.5rem', fontSize: '0.95rem' }}>
+              Subscribe to Pro to search the entire 7,500+ question databank instantly.
+            </p>
+            <button
+              style={{
+                background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+                color: '#fff',
+                border: 'none',
+                padding: '0.75rem 1.5rem',
+                borderRadius: 'var(--radius-md)',
+                fontWeight: 600,
+                fontSize: '1rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '0.5rem',
+                margin: '0 auto'
+              }}
+            >
+              <Crown size={16} /> Upgrade to Pro
+            </button>
+          </motion.div>
+        )}
       </div>
+      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="Unlimited Search" />
     </motion.div>
   );
 }
