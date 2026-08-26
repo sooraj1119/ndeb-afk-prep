@@ -2,10 +2,14 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { getQuestions, loadAllQuestions } from './lib/questionsStore';
 import { topics } from './lib/data';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search as SearchIcon, ChevronDown, ChevronUp, Sparkles, CheckCircle2, Loader2 } from 'lucide-react';
+import { Search as SearchIcon, ChevronDown, ChevronUp, Sparkles, CheckCircle2, Loader2, Crown } from 'lucide-react';
+import { getIsPremium } from './lib/storage';
+import { PaywallModal } from './PaywallModal';
 
 
 export function Search() {
+  const isPremium = getIsPremium();
+  const [showPaywall, setShowPaywall] = useState(false);
   const [questions, setQuestions] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [query, setQuery] = useState('');
@@ -111,7 +115,7 @@ export function Search() {
         )}
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-          {results.map((q) => {
+          {displayResults.map((q) => {
             const topic = topics.find(t => t.id === q.topicId);
             const isExpanded = expandedId === q.id;
 
