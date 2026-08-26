@@ -1,13 +1,24 @@
-import React, { useState, useMemo } from 'react';
-import { getQuestions } from './lib/questionsStore';
+import React, { useState, useMemo, useEffect } from 'react';
+import { getQuestions, loadAllQuestions } from './lib/questionsStore';
 import { topics } from './lib/data';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search as SearchIcon, ChevronDown, ChevronUp, Sparkles, CheckCircle2 } from 'lucide-react';
+import { Search as SearchIcon, ChevronDown, ChevronUp, Sparkles, CheckCircle2, Loader2 } from 'lucide-react';
 
 
 export function Search() {
-  const questions = getQuestions();
-    const [query, setQuery] = useState('');
+  const [questions, setQuestions] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [query, setQuery] = useState('');
+  
+  useEffect(() => {
+    const init = async () => {
+      setLoading(true);
+      await loadAllQuestions();
+      setQuestions(getQuestions());
+      setLoading(false);
+    };
+    init();
+  }, []);
   const [expandedId, setExpandedId] = useState<number | null>(null);
   const [generatingIds, setGeneratingIds] = useState<Record<number, boolean>>({});
   const [generatedExplanations, setGeneratedExplanations] = useState<Record<number, string>>({});
@@ -67,7 +78,7 @@ export function Search() {
           type="text" 
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search for 'Amoxicillin', 'Mandible', 'Class II'..."
+          placeholder={loading ? "Loading question bank..." : "Search for 'Amoxicillin', 'Mandible', 'Class II'..."} disabled={loading}
           style={{ 
             width: '100%', 
             padding: '1.5rem 1.5rem 1.5rem 4rem', 
