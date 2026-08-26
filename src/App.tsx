@@ -3,7 +3,8 @@ import { TopicSelection } from './TopicSelection';
 import { Quiz } from './Quiz';
 import { Results } from './Results';
 import { Dashboard } from './Dashboard';
-import { Search as SearchComponent } from './Search';
+import { Search as SearchComponent } from './Search';
+import { MistakesList } from './MistakesList';
 import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, ShieldCheck, Moon, Sun, Flame, Download, Share, X, Globe } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { hasAcceptedDisclaimer, acceptDisclaimer, logDailyVisit } from './lib/storage';
@@ -209,7 +210,7 @@ function App() {
               padding: '0 1rem calc(1.5rem + env(safe-area-inset-bottom))',
             }}
           >
-            {/* Card Ã¢â‚¬â€ stop click propagation so tapping card doesn't close */}
+            {/* Card ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â stop click propagation so tapping card doesn't close */}
             <motion.div
               initial={{ y: 60, opacity: 0 }}
               animate={{ y: 0,  opacity: 1 }}
@@ -246,7 +247,7 @@ function App() {
               </div>
 
               <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.55 }}>
-                Add this app to your Home Screen for a full-screen native experience Ã¢â‚¬â€ no App Store needed!
+                Add this app to your Home Screen for a full-screen native experience ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â no App Store needed!
               </p>
 
               {/* Steps */}
@@ -261,7 +262,7 @@ function App() {
                 </div>
                 <div style={{ background: 'var(--surface-hover)', padding: '0.9rem 1rem', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', gap: '0.8rem', color: 'var(--text-primary)', fontSize: '0.9rem' }}>
                   <span style={{ background: 'var(--success-color)', color: 'white', borderRadius: '50%', width: '24px', height: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '0.8rem', flexShrink: 0 }}>3</span>
-                  <span>Tap <strong>Add</strong> Ã¢â‚¬â€ done! Ã°Å¸Å½â€°</span>
+                  <span>Tap <strong>Add</strong> ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â done! ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€¦Ã‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â°</span>
                 </div>
               </div>
             </motion.div>
@@ -304,7 +305,7 @@ function App() {
                   The information in this app <strong>does not constitute medical or clinical advice</strong>, diagnosis, or treatment. It must never be used as a substitute for professional clinical judgment, official dental guidelines, or peer-reviewed medical literature. Do not use this application for real-world patient care or clinical decision-making.
                 </p>
                 <p style={{ fontStyle: 'italic', opacity: 0.9, fontSize: '0.85rem' }}>
-                  <strong>Trademark Notice:</strong> NDEBÃ‚Â® and AFKÃ‚Â® are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study tool and is <strong>not affiliated with, endorsed by, or sponsored by the NDEB.</strong>
+                  <strong>Trademark Notice:</strong> NDEBÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â® and AFKÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â® are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study tool and is <strong>not affiliated with, endorsed by, or sponsored by the NDEB.</strong>
                 </p>
               </div>
 
@@ -320,7 +321,7 @@ function App() {
         )}
       </AnimatePresence>
 
-      {/* Ã¢â€â‚¬Ã¢â€â‚¬ Navbar: two-row mobile layout Ã¢â€â‚¬Ã¢â€â‚¬ */}
+      {/* ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ Navbar: two-row mobile layout ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ */}
       <nav style={{ 
         borderBottom: '1px solid var(--border-color)', 
         background: 'var(--surface-color)',
@@ -381,7 +382,8 @@ function App() {
         <div style={{ display: 'flex', padding: '0 0.75rem 0.6rem', gap: '0.25rem' }}>
           {[
             { id: 'practice', label: 'Study Topics', Icon: LibraryBig },
-            { id: 'search',   label: 'Search',       Icon: Search },
+            { id: 'search',   label: 'Search',       Icon: Search },
+              { id: 'mistakes', label: 'Mistakes',    Icon: AlertTriangle },
             { id: 'dashboard',label: 'Dashboard',    Icon: LayoutDashboard },
           ].map(({ id, label, Icon }) => (
             <button
@@ -436,6 +438,12 @@ function App() {
             >
               <SearchComponent />
             </motion.div>
+          )}
+
+          {currentView === 'mistakes' && (
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }}>
+              <MistakesList onStartMistakesQuiz={() => handleTopicSelect('mistakes')} />
+            </motion.div>
           )}
 
           {activeTab === 'practice' && !selectedTopic && (
@@ -505,7 +513,7 @@ function App() {
             Questions and explanations are simulated and AI-generated to mimic the style of the NDEB AFK exam. AI models may occasionally hallucinate or provide inaccurate information. Do not use this application for clinical decision-making or real-world patient care.
           </p>
           <p style={{ margin: 0, fontSize: '0.8rem', fontStyle: 'italic', opacity: 0.8 }}>
-            <strong>Trademark Notice:</strong> NDEBÃ‚Â® and AFKÃ‚Â® are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study tool and is not affiliated with, endorsed by, or sponsored by the NDEB.
+            <strong>Trademark Notice:</strong> NDEBÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â® and AFKÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â® are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study tool and is not affiliated with, endorsed by, or sponsored by the NDEB.
           </p>
           <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', opacity: 0.7 }}>
             &copy; {new Date().getFullYear()} NDEB AFK Prep Pro. All rights reserved.
