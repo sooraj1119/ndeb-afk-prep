@@ -6,8 +6,6 @@ import puppeteer from 'puppeteer';
   await context.clearPermissionOverrides();
   
   const page = await browser.newPage();
-  
-  // Disable cache to bypass Service Worker
   await page.setCacheEnabled(false);
   
   const client = await page.target().createCDPSession();
@@ -20,11 +18,12 @@ import puppeteer from 'puppeteer';
   await page.goto('https://sooraj1119.github.io/ndeb-afk-prep/');
   await new Promise(r => setTimeout(r, 2000));
   
-  console.log('Clicking on anatomy...');
+  console.log('Clicking on Dashboard tab...');
   await page.evaluate(() => {
-    const els = document.querySelectorAll('.glass-panel');
+    // the nav items have icons. We can just click the one that says "Dashboard"
+    const els = document.querySelectorAll('div');
     for (let i = 0; i < els.length; i++) {
-      if (els[i].textContent.includes('Anatomy')) {
+      if (els[i].textContent === 'Dashboard' || els[i].innerText === 'Dashboard') {
         els[i].click();
         break;
       }
@@ -32,9 +31,8 @@ import puppeteer from 'puppeteer';
   });
   
   await new Promise(r => setTimeout(r, 2000));
-  
   const bodyText = await page.evaluate(() => document.body.innerText);
-  console.log('BODY TEXT START:', bodyText.substring(0, 500));
+  console.log('BODY TEXT:', bodyText.substring(0, 300));
   
   await browser.close();
 })();

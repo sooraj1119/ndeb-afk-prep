@@ -5,7 +5,7 @@ import { getQuestions } from './lib/questionsStore';
 import { motion } from 'framer-motion';
 import { PaywallModal } from './PaywallModal';
 import { Lock } from 'lucide-react';
-import { Trophy, Target, BookOpen, Bookmark, Play, AlertOctagon, TrendingUp, XCircle } from 'lucide-react';
+import { Trophy, Target, BookOpen, Bookmark, Play, AlertOctagon, TrendingUp, XCircle, AlertCircle } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 
@@ -214,7 +214,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           ) : (
             getGamification().badges.map((badge, idx) => (
               <div key={idx} className="glass-panel" style={{ padding: '1rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
-                <div style={{ fontSize: '2.5rem' }}>ðŸ†</div>
+                <div style={{ fontSize: '2.5rem' }}>Ã°Å¸Ââ€ </div>
                 <div style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{badge}</div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--success-color)' }}>Unlocked!</div>
               </div>
