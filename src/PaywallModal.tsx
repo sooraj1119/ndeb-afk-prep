@@ -16,7 +16,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
     // For testing purposes before RevenueCat integration
     setIsPremium(true);
     onClose();
-    alert("Successfully upgraded to PRO! (Test Mode)");
+    console.log('Upgraded to PRO');
     window.location.reload();
   };
 
