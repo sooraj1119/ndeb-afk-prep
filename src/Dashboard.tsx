@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { getProgress, TopicProgress, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt } from './lib/storage';
+import { getProgress, TopicProgress, getIsPremium, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt } from './lib/storage';
 import { topics } from './lib/data';
 import { getQuestions } from './lib/questionsStore';
 import { motion } from 'framer-motion';
+import { PaywallModal } from './PaywallModal';
+import { Lock } from 'lucide-react';
 import { Trophy, Target, BookOpen, Bookmark, Play, AlertOctagon, TrendingUp, XCircle } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
@@ -19,6 +21,8 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
   const [flaggedCount, setFlaggedCount] = useState(0);
   const [mistakesCount, setMistakesCount] = useState(0);
   const [history, setHistory] = useState<QuizAttempt[]>([]);
+    const [showPaywall, setShowPaywall] = useState(false);
+    const isPremium = getIsPremium();
 
   useEffect(() => {
     setProgress(getProgress());
@@ -172,26 +176,29 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
       </div>
 
       {/* Mistakes Review Section */}
-      <div className="glass-panel" style={{ padding: '2rem', marginBottom: '2rem', display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'center', justifyContent: 'space-between', background: 'linear-gradient(to right, var(--surface-color), rgba(239, 68, 68, 0.1))' }}>
-        <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '1.5rem' }}>
-          <div style={{ background: 'rgba(239, 68, 68, 0.1)', padding: '1.2rem', borderRadius: '50%', color: '#ef4444' }}>
-            <XCircle size={32} />
+              <div className="glass-panel" style={{ padding: '2rem', marginBottom: '2rem', display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'center', justifyContent: 'space-between', background: 'linear-gradient(to right, var(--surface-color), rgba(239, 68, 68, 0.1))' }}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '1.5rem' }}>
+            <div style={{ background: 'rgba(239, 68, 68, 0.1)', padding: '1.2rem', borderRadius: '50%', color: '#ef4444' }}>
+              <AlertCircle size={32} />
+            </div>
+            <div>
+              <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.3rem', color: 'var(--text-primary)' }}>Weakness Drilling</h3>
+              <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong>{mistakesCount}</strong> past mistakes to conquer.</p>
+            </div>
           </div>
-          <div>
-            <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.3rem', color: 'var(--text-primary)' }}>Weakness Drilling</h3>
-            <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong>{mistakesCount}</strong> past mistakes to conquer.</p>
-          </div>
+          <button 
+            onClick={() => {
+              if (!isPremium) setShowPaywall(true);
+              else onStartMistakesQuiz();
+            }}
+            disabled={mistakesCount === 0 && isPremium}
+            className="primary-btn"
+            style={{ padding: '0.8rem 1.5rem', borderRadius: 'var(--radius-md)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: (mistakesCount === 0 && isPremium) ? 0.5 : 1, cursor: (mistakesCount === 0 && isPremium) ? 'not-allowed' : 'pointer', background: (mistakesCount === 0 && isPremium) ? 'var(--accent-color)' : '#ef4444' }}
+          >
+            {!isPremium ? <Lock size={18} /> : <Play size={18} />}
+            {!isPremium ? 'Unlock Pro' : 'Drill Mistakes'}
+          </button>
         </div>
-        <button 
-          onClick={onStartMistakesQuiz}
-          disabled={mistakesCount === 0}
-          className="primary-btn"
-          style={{ padding: '0.8rem 1.5rem', borderRadius: 'var(--radius-md)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: mistakesCount === 0 ? 0.5 : 1, cursor: mistakesCount === 0 ? 'not-allowed' : 'pointer', background: mistakesCount === 0 ? 'var(--accent-color)' : '#ef4444' }}
-        >
-          <Play size={18} />
-          Drill Mistakes
-        </button>
-      </div>
 
       {/* Gamification / Badges Section */}
       <div style={{ marginBottom: '3rem' }}>
@@ -207,7 +214,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           ) : (
             getGamification().badges.map((badge, idx) => (
               <div key={idx} className="glass-panel" style={{ padding: '1rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
-                <div style={{ fontSize: '2.5rem' }}>🏆</div>
+                <div style={{ fontSize: '2.5rem' }}>ðŸ†</div>
                 <div style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{badge}</div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--success-color)' }}>Unlocked!</div>
               </div>

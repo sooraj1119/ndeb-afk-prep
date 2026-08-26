@@ -257,6 +257,25 @@ export const awardBadge = (badgeId: string) => {
   }
 };
 
+// --- Premium State ---
+const PREMIUM_KEY = 'ndeb_prep_is_premium';
+
+export const getIsPremium = (): boolean => {
+  try {
+    return localStorage.getItem(PREMIUM_KEY) === 'true';
+  } catch (error) {
+    return false;
+  }
+};
+
+export const setIsPremium = (status: boolean) => {
+  try {
+    localStorage.setItem(PREMIUM_KEY, status ? 'true' : 'false');
+    // Dispatch an event so components can update instantly
+    window.dispatchEvent(new Event('premium_status_changed'));
+  } catch (error) {}
+};
+
 // --- History / Learning Curve ---
 const HISTORY_KEY = 'ndeb_prep_history';
 

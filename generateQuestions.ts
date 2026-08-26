@@ -47,15 +47,23 @@ async function run() {
       
       const prompt = `You are a strict, expert examiner writing questions for the Canadian NDEB AFK exam.
 Generate exactly ${fetchCount} highly realistic, challenging multiple-choice questions for the topic of "${topicId}".
+
+CRITICAL NDEB AFK EXAM GUIDELINES:
+1. FORMAT: Exactly 4 options per question. NEVER 3, NEVER 5.
+2. NO NEGATIVE PHRASING: NEVER use 'EXCEPT', 'NOT', or 'LEAST LIKELY' in the question text.
+3. CLINICAL FOCUS: At least 50% of the questions MUST be clinical vignettes (patient scenarios with age, gender, symptoms, clinical findings).
+4. RIGOROUS EXPLANATIONS: Every explanation must act as a tutor. It MUST explain exactly why the correct answer is right AND explicitly state why the other 3 options are incorrect.
+5. UNIQUENESS: Ensure these questions are unique and do not repeat typical generic questions.
+
 Return ONLY a valid JSON array of objects. Do not include markdown code blocks.
-Each object must match this interface:
+Each object must match this exact interface:
 {
-  "id": number, // random unique number
+  "id": number, // random unique 9-digit number
   "topicId": "${topicId}",
-  "text": string, // The question text. Make it a clinical vignette or scenario if possible. NO EXCEPT/NOT questions.
+  "question": string, // The question text adhering to the strict guidelines above.
   "options": string[], // Exactly 4 options.
-  "correctAnswer": number, // Index (0-3) of correct option.
-  "explanation": string // Detailed explanation of why it's correct and why others are wrong.
+  "correctAnswer": number, // Index (0-3) of the correct option.
+  "explanation": string // Rigorous tutor-level explanation covering all options.
 }`;
 
       try {

@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { topics } from './lib/data';
 import { PlayCircle, Clock, Trophy, Flame, ChevronRight, Activity, CalendarDays, LibraryBig } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { getIsPremium } from './lib/storage';
+import { PaywallModal } from './PaywallModal';
+import { Lock, Crown } from 'lucide-react';
 import { getTopicProgress, getDueSRSQuestions } from './lib/storage';
 import { loadAllQuestions } from './lib/questionsStore';
 
@@ -11,6 +14,8 @@ interface Props {
 }
 
 export function TopicSelection({ onSelect }: Props) {
+  const [showPaywall, setShowPaywall] = useState(false);
+  const isPremium = getIsPremium();
   const [topicCounts, setTopicCounts] = useState<Record<string, number>>({});
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [dueReviewCount, setDueReviewCount] = useState(0);
@@ -44,10 +49,20 @@ export function TopicSelection({ onSelect }: Props) {
   };
 
   return (
-    <div style={{ maxWidth: '900px', margin: '0 auto', padding: '1rem' }}>
-      
-      <div style={{ marginBottom: '3rem', textAlign: 'center' }}>
-        <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
+          <div style={{ maxWidth: '900px', margin: '0 auto', padding: '1rem' }}>
+        
+        <div style={{ marginBottom: '3rem', textAlign: 'center', position: 'relative' }}>
+          {!isPremium && (
+            <button 
+              onClick={() => setShowPaywall(true)}
+              style={{ position: 'absolute', top: 0, right: 0, display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)', color: '#fff', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '20px', fontWeight: 600, cursor: 'pointer', boxShadow: '0 4px 15px rgba(245,158,11,0.4)', transition: 'transform 0.2s' }}
+              onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
+              onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+            >
+              <Crown size={18} /> Upgrade to Pro
+            </button>
+          )}
+          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
         <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Master fundamental knowledge with AI-driven explanations.</p>
       </div>
 
