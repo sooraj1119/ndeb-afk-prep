@@ -214,7 +214,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           ) : (
             getGamification().badges.map((badge, idx) => (
               <div key={idx} className="glass-panel" style={{ padding: '1rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
-                <div style={{ fontSize: '2.5rem' }}>Ã°Å¸Ââ€ </div>
+                <div style={{ fontSize: '2.5rem' }}>ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â°ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â </div>
                 <div style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{badge}</div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--success-color)' }}>Unlocked!</div>
               </div>
@@ -315,6 +315,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           Reset All Progress
         </button>
       </div>
+    <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="Pro Features" />
     </motion.div>
   );
 }

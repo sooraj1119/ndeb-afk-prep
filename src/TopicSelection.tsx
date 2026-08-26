@@ -245,6 +245,7 @@ export function TopicSelection({ onSelect }: Props) {
           );
         })}
       </motion.div>
+      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="Pro Features" />
     </div>
   );
 }
