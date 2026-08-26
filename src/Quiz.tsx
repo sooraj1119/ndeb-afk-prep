@@ -1,0 +1,558 @@
+import React, { useState, useEffect, useRef } from 'react';
+import { getQuestions, loadTopicQuestions, getTopicQuestions } from './lib/questionsStore';
+import { topics } from './lib/data';
+import { ArrowLeft, AlertCircle, CheckCircle2, ArrowRight, Sparkles, Bookmark, BookmarkCheck, Clock, Volume2, VolumeX, Shuffle, RefreshCw } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { getTopicProgress, saveProgress, getFlaggedQuestions, toggleFlagQuestion, logSRSAnswer, getDueSRSQuestions, logQuizAttempt, getActiveMockExam, saveActiveMockExam, clearActiveMockExam, getMistakes, logMistake, removeMistake } from './lib/storage';
+
+
+interface Props {
+  topicId: string;
+  onFinish: (score: number, total: number, breakdown?: Record<string, { correct: number; total: number }>) => void;
+  onBack: () => void;
+}
+
+export function Quiz({ topicId, onFinish, onBack }: Props) {
+  const questions = getQuestions();
+    // Modes
+  const isFlaggedMode = topicId === 'flagged';
+  const isSimulatedMode = topicId === 'simulated';
+  const isSRSMode = topicId === 'srs_review';
+  const isMistakesMode = topicId === 'mistakes';
+  
+  const breakdownRef = useRef<Record<string, { correct: number; total: number }>>({});
+  
+  const [topicQuestions, setTopicQuestions] = useState<any[]>([]);
+  const [topicName, setTopicName] = useState("");
+  
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [score, setScore] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
+  const [isFlagged, setIsFlagged] = useState(false);
+  const [initialized, setInitialized] = useState(false);
+  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+  
+  // Timer state for Simulated Mode (2.5 hours = 9000 seconds)
+  const [timeLeft, setTimeLeft] = useState(9000);
+  const [isShuffled, setIsShuffled] = useState(false);
+
+  // Initialize questions
+  useEffect(() => {
+    const init = async () => {
+      let qList: any[] = [];
+      if (isSimulatedMode) {
+        const activeMock = getActiveMockExam();
+        if (activeMock && activeMock.questions.length > 0) {
+          qList = activeMock.questions;
+          setCurrentIndex(activeMock.currentIndex);
+          setScore(activeMock.score);
+          if (activeMock.endTime) {
+            const remaining = Math.floor((activeMock.endTime - Date.now()) / 1000);
+            setTimeLeft(Math.max(0, remaining));
+          } else {
+            const newEndTime = Date.now() + 9000 * 1000;
+            setTimeLeft(9000);
+            saveActiveMockExam({ ...activeMock, endTime: newEndTime });
+          }
+        } else {
+          qList = [...getQuestions()].sort(() => Math.random() - 0.5).slice(0, 100);
+          const endTime = Date.now() + 9000 * 1000;
+          setTimeLeft(9000);
+          saveActiveMockExam({ questions: qList, currentIndex: 0, score: 0, endTime });
+        }
+        setTopicName("Simulated AFK Exam");
+      } else if (isFlaggedMode) {
+        const flags = getFlaggedQuestions();
+        qList = getQuestions().filter((q: any) => flags.includes(q.id));
+        setTopicName("Flagged Review");
+      } else if (isMistakesMode) {
+        const mistakes = getMistakes();
+        qList = getQuestions().filter((q: any) => mistakes.includes(q.id));
+        setTopicName("Weakness Drilling");
+      } else if (isSRSMode) {
+        const dueIds = getDueSRSQuestions();
+        qList = getQuestions().filter((q: any) => dueIds.includes(q.id));
+        setTopicName("Daily SRS Review");
+      } else {
+        // Lazy-load just this topic Ã¢â‚¬â€ fast even on mobile data!
+        qList = await loadTopicQuestions(topicId);
+        setTopicName(topics.find(t => t.id === topicId)?.name || "");
+        const progress = getTopicProgress(topicId);
+        if (progress && !progress.isFinished) {
+          setCurrentIndex(progress.currentIndex);
+          setScore(progress.currentScore);
+        }
+      }
+      setTopicQuestions(qList);
+      setInitialized(true);
+    };
+    init();
+  }, [topicId, isSimulatedMode, isFlaggedMode, isSRSMode]);
+
+  useEffect(() => {
+    if (topicQuestions.length > 0 && initialized) {
+      const qId = topicQuestions[currentIndex]?.id;
+      if (qId) {
+          const currentFlags = getFlaggedQuestions();
+          setIsFlagged(currentFlags.includes(qId));
+      }
+    }
+  }, [currentIndex, topicQuestions, initialized]);
+
+  useEffect(() => {
+    if (!isSimulatedMode || !initialized || topicQuestions.length === 0) return;
+    
+    if (timeLeft <= 0) {
+      onFinish(score, topicQuestions.length, breakdownRef.current);
+      return;
+    }
+    
+    const timerId = setInterval(() => {
+      setTimeLeft(t => t - 1);
+    }, 1000);
+    
+    return () => clearInterval(timerId);
+  }, [isSimulatedMode, initialized, timeLeft, score, topicQuestions.length, onFinish]);
+
+  // Clean up audio when component unmounts
+  useEffect(() => {
+    return () => {
+      if (window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, []);
+
+  // ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ Derived values (before handlers so they can reference them) ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬
+  const question = topicQuestions[currentIndex] ?? null;
+  const isAnswered = selectedAnswer !== null;
+  const isCorrect = question ? selectedAnswer === question.correctAnswer : false;
+  const progressPercentage = topicQuestions.length > 0
+    ? ((currentIndex + (isAnswered ? 1 : 0)) / topicQuestions.length) * 100
+    : 0;
+
+  // ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ Handlers (reference question / isAnswered from above) ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬
+  const handleSelect = (index: number) => {
+    if (!question || isAnswered) return;
+    setSelectedAnswer(index);
+    const isAnsCorrect = index === question.correctAnswer;
+    let newScore = score;
+    if (isAnsCorrect) { newScore = score + 1; setScore(newScore); }
+    
+    // Mistakes tracking
+    if (!isAnsCorrect) {
+      logMistake(question.id);
+    } else if (isMistakesMode) {
+      removeMistake(question.id);
+    }
+
+    if (isSimulatedMode) {
+      const breakdown = breakdownRef.current;
+      if (!breakdown[question.topicId]) {
+        breakdown[question.topicId] = { correct: 0, total: 0 };
+      }
+      breakdown[question.topicId].total += 1;
+      if (isAnsCorrect) breakdown[question.topicId].correct += 1;
+    }
+    
+    if (!isSimulatedMode && !isFlaggedMode && !isMistakesMode) logSRSAnswer(question.id, isAnsCorrect);
+    if (!isFlaggedMode && !isSimulatedMode && !isSRSMode && !isMistakesMode) {
+      saveProgress(topicId, newScore, topicQuestions.length, currentIndex, false, currentIndex + 1);
+    }
+    if (isSimulatedMode) {
+      const activeMock = getActiveMockExam();
+      saveActiveMockExam({ questions: topicQuestions, currentIndex, score: newScore, endTime: activeMock?.endTime });
+    }
+  };
+
+  const stopAudio = () => {
+    if (window.speechSynthesis) { window.speechSynthesis.cancel(); setIsPlayingAudio(false); }
+  };
+
+  const handleNext = () => {
+    if (!question) return;
+    stopAudio();
+    if (currentIndex < topicQuestions.length - 1) {
+      const nextIdx = currentIndex + 1;
+      setCurrentIndex(nextIdx);
+      setSelectedAnswer(null);
+      
+      if (!isFlaggedMode && !isSimulatedMode && !isSRSMode) {
+        saveProgress(topicId, score, topicQuestions.length, nextIdx, false, currentIndex + 1);
+      }
+      if (isSimulatedMode) {
+        const activeMock = getActiveMockExam();
+        saveActiveMockExam({ questions: topicQuestions, currentIndex: nextIdx, score, endTime: activeMock?.endTime });
+      }
+    } else {
+      if (!isFlaggedMode && !isSimulatedMode && !isSRSMode && !isMistakesMode) {
+        saveProgress(topicId, score, topicQuestions.length, 0, true, topicQuestions.length);
+      }
+      if (isSimulatedMode) {
+        clearActiveMockExam();
+      }
+      logQuizAttempt(topicId, score, topicQuestions.length);
+      onFinish(score, topicQuestions.length, breakdownRef.current);
+    }
+  };
+
+  const handleFlag = () => {
+    if (!question) return;
+    const flagged = toggleFlagQuestion(question.id);
+    setIsFlagged(flagged);
+  };
+
+  const handleToggleShuffle = () => {
+    if (!isShuffled) {
+      setTopicQuestions(prev => {
+        const done = prev.slice(0, currentIndex);
+        const remaining = [...prev.slice(currentIndex)].sort(() => Math.random() - 0.5);
+        return [...done, ...remaining];
+      });
+    } else {
+      if (!isFlaggedMode && !isSimulatedMode && !isSRSMode)
+        setTopicQuestions(questions.filter((q: any) => q.topicId === topicId));
+    }
+    setIsShuffled(prev => !prev);
+    setSelectedAnswer(null);
+  };
+
+  const handleRestartMockExam = () => {
+    clearActiveMockExam();
+    const qList = [...getQuestions()].sort(() => Math.random() - 0.5).slice(0, 100);
+    const endTime = Date.now() + 9000 * 1000;
+    setTimeLeft(9000);
+    saveActiveMockExam({ questions: qList, currentIndex: 0, score: 0, endTime });
+    
+    breakdownRef.current = {};
+    setTopicQuestions(qList);
+    setCurrentIndex(0);
+    setScore(0);
+    setSelectedAnswer(null);
+  };
+
+  const handleBackClick = () => { stopAudio(); onBack(); };
+
+  // ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ Keyboard shortcuts ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.target as HTMLElement)?.tagName === 'INPUT') return;
+      if (!isAnswered) {
+        if (e.key === 'a' || e.key === 'A' || e.key === '1') handleSelect(0);
+        else if (e.key === 'b' || e.key === 'B' || e.key === '2') handleSelect(1);
+        else if (e.key === 'c' || e.key === 'C' || e.key === '3') handleSelect(2);
+        else if (e.key === 'd' || e.key === 'D' || e.key === '4') handleSelect(3);
+      } else {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleNext(); }
+      }
+      if (e.key === 'f' || e.key === 'F') handleFlag();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isAnswered, currentIndex, question]);
+
+  // ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ Swipe gestures ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬
+  useEffect(() => {
+    let startX = 0;
+    let startY = 0;
+    const onStart = (e: TouchEvent) => { startX = e.touches[0].clientX; startY = e.touches[0].clientY; };
+    const onEnd = (e: TouchEvent) => {
+      const dx = e.changedTouches[0].clientX - startX;
+      const dy = e.changedTouches[0].clientY - startY;
+      if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+        if (dx < 0 && isAnswered) handleNext();
+        else if (dx > 0 && currentIndex === 0) handleBackClick();
+      }
+    };
+    document.addEventListener('touchstart', onStart, { passive: true });
+    document.addEventListener('touchend', onEnd, { passive: true });
+    return () => { document.removeEventListener('touchstart', onStart); document.removeEventListener('touchend', onEnd); };
+  }, [isAnswered, currentIndex]);
+
+  if (!initialized) return null;
+
+  if (topicQuestions.length === 0) {
+    return (
+      <div style={{ padding: '2rem', textAlign: 'center', marginTop: '4rem' }}>
+        <h2>
+            {isFlaggedMode ? "You haven't flagged any questions yet." : 
+             isSRSMode ? "You have no questions due for review today! Great job!" : 
+             "No questions available."}
+        </h2>
+        <button onClick={onBack} className="primary-btn" style={{ marginTop: '2rem' }}>Go Back</button>
+      </div>
+    );
+  }
+  
+  if (!question) return null;
+
+
+  const formatTime = (seconds: number) => {
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = seconds % 60;
+    if (h > 0) return `${h}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+    return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+  };
+
+  const playAudio = (elementId: string, fallbackText: string) => {
+    if (!window.speechSynthesis) return;
+    if (isPlayingAudio) { window.speechSynthesis.cancel(); setIsPlayingAudio(false); return; }
+    setIsPlayingAudio(true);
+    
+    const el = document.getElementById(elementId);
+    let textToRead = fallbackText;
+    if (el) {
+      textToRead = el.innerText || fallbackText;
+    }
+    
+    const utterance = new SpeechSynthesisUtterance(textToRead);
+    
+    const isFrench = document.cookie.includes('googtrans=/en/fr');
+    utterance.lang = isFrench ? 'fr-FR' : 'en-US';
+    
+    utterance.onend = () => setIsPlayingAudio(false);
+    utterance.onerror = () => setIsPlayingAudio(false);
+    window.speechSynthesis.speak(utterance);
+  };
+
+  return (
+    <div style={{ padding: '1rem', maxWidth: '800px', margin: '0 auto', width: '100%' }}>
+      <button 
+        onClick={handleBackClick}
+        style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
+      >
+        <ArrowLeft size={20} /> Back
+      </button>
+
+      <div style={{ width: '100%', height: '6px', background: '#e2e8f0', borderRadius: '3px', marginBottom: '1.5rem', overflow: 'hidden' }}>
+        <motion.div 
+          initial={{ width: 0 }}
+          animate={{ width: `${progressPercentage}%` }}
+          transition={{ duration: 0.4, ease: "easeOut" }}
+          style={{ height: '100%', background: isSimulatedMode ? '#3b82f6' : isSRSMode ? '#f59e0b' : 'var(--accent-color)', borderRadius: '3px' }}
+        />
+      </div>
+
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+          <h2 style={{ color: 'var(--text-primary)', margin: 0, fontSize: '1.5rem', fontWeight: 700 }}>{topicName}</h2>
+          {isSimulatedMode && (
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(239, 68, 68, 0.1)', color: 'var(--error-color)', padding: '0.4rem 0.8rem', borderRadius: 'var(--radius-sm)', fontWeight: 700 }}>
+              <Clock size={16} /> {formatTime(timeLeft)}
+            </div>
+          )}
+        </div>
+        
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.7rem', flexWrap: 'wrap' }}>
+          {!isSimulatedMode && !isFlaggedMode && !isSRSMode && (
+            <button
+              onClick={handleToggleShuffle}
+              title={isShuffled ? 'Shuffled ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â click to restore order' : 'Shuffle questions'}
+              style={{
+                display: 'flex', alignItems: 'center', gap: '0.4rem',
+                color: isShuffled ? 'var(--accent-color)' : 'var(--text-secondary)',
+                background: isShuffled ? 'rgba(2,132,199,0.1)' : 'transparent',
+                border: 'none', cursor: 'pointer', padding: '0.4rem 0.6rem',
+                borderRadius: 'var(--radius-sm)', transition: 'all 0.2s', fontWeight: 600
+              }}
+            >
+              <Shuffle size={16} />
+              <span style={{ fontSize: '0.85rem' }}>{isShuffled ? 'On' : 'Shuffle'}</span>
+            </button>
+          )}
+          {isSimulatedMode && (
+            <button 
+              onClick={() => {
+                if (window.confirm('Are you sure you want to restart this mock exam? Your current progress will be lost.')) {
+                  handleRestartMockExam();
+                }
+              }}
+              style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--error-color)', background: 'rgba(239, 68, 68, 0.1)', border: 'none', cursor: 'pointer', padding: '0.4rem 0.8rem', borderRadius: '20px', fontWeight: 600, fontSize: '0.85rem' }}
+            >
+              <RefreshCw size={16} /> <span className="desktop-only">Restart</span>
+            </button>
+          )}
+          <button 
+            onClick={handleFlag}
+            style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: isFlagged ? '#eab308' : 'var(--text-secondary)', background: 'none', border: 'none', cursor: 'pointer', padding: '0.4rem', margin: '0 -0.4rem' }}
+          >
+            {isFlagged ? <BookmarkCheck fill="#eab308" /> : <Bookmark />} 
+            <span className="desktop-only" style={{ fontWeight: 600 }}>{isFlagged ? 'Flagged' : 'Flag'}</span>
+          </button>
+          <span style={{ background: 'var(--surface-hover)', color: 'var(--accent-color)', padding: '0.4rem 0.6rem', borderRadius: 'var(--radius-sm)', fontSize: '0.85rem', fontWeight: 600 }}>
+            {currentIndex + 1} / {topicQuestions.length}
+          </span>
+        </div>
+      </div>
+
+      <div style={{ position: 'relative', minHeight: '60vh' }}>
+        <AnimatePresence mode="wait">
+          <motion.div 
+            key={currentIndex}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.2 }}
+            className="glass-panel" 
+            style={{ padding: '2.5rem' }}
+          >
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', marginBottom: '2rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <h3 id="current-question-text" style={{ fontSize: '1.3rem', margin: 0, lineHeight: '1.5', color: 'var(--text-primary)', fontWeight: 600 }}>{question.question}</h3>
+              {question.imageUrl && (
+                <img 
+                  src={question.imageUrl} 
+                  alt="Question reference" 
+                  style={{ maxWidth: '100%', maxHeight: '300px', objectFit: 'contain', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-color)', marginTop: '0.5rem' }} 
+                />
+              )}
+            </div>
+            <button 
+              onClick={() => playAudio('current-question-text', question.question)}
+              title="Listen to question"
+              style={{ flexShrink: 0, background: 'var(--surface-hover)', border: 'none', padding: '0.6rem', borderRadius: '50%', color: 'var(--accent-color)', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s' }}
+            >
+              {isPlayingAudio ? <VolumeX size={20} /> : <Volume2 size={20} />}
+            </button>
+          </div>
+          
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', marginBottom: '1rem' }}>
+            {question.options.map((option: string, idx: number) => {
+              let bg = 'var(--surface-color)';
+              let border = '1px solid var(--border-color)';
+              let textColor = 'var(--text-primary)';
+              
+              if (isAnswered) {
+                if (idx === question.correctAnswer) {
+                  bg = 'rgba(16, 185, 129, 0.15)'; 
+                  border = '1px solid var(--success-color)';
+                  textColor = 'var(--success-color)'; 
+                } else if (idx === selectedAnswer) {
+                  bg = 'rgba(239, 68, 68, 0.15)'; 
+                  border = '1px solid var(--error-color)';
+                  textColor = 'var(--error-color)'; 
+                }
+              }
+
+              return (
+                <button
+                  key={idx}
+                  onClick={() => handleSelect(idx)}
+                  disabled={isAnswered}
+                  style={{
+                    padding: '1.2rem',
+                    borderRadius: 'var(--radius-md)',
+                    background: bg,
+                    border: border,
+                    color: textColor,
+                    textAlign: 'left',
+                    fontSize: '1.05rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '1rem',
+                    opacity: isAnswered && idx !== selectedAnswer && idx !== question.correctAnswer ? 0.35 : 1,
+                    cursor: isAnswered ? 'default' : 'pointer',
+                    boxShadow: !isAnswered ? 'var(--shadow-sm)' : 'none',
+                    transition: 'opacity 0.2s ease, background 0.2s ease'
+                  }}
+                >
+                  <div style={{ 
+                    width: '32px', height: '32px', borderRadius: '50%', 
+                    background: isAnswered && idx === question.correctAnswer ? 'var(--success-color)' : isAnswered && idx === selectedAnswer ? 'var(--error-color)' : '#f1f5f9', 
+                    color: isAnswered && (idx === question.correctAnswer || idx === selectedAnswer) ? 'white' : 'var(--text-secondary)',
+                    display: 'flex', 
+                    alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', flexShrink: 0,
+                    fontSize: '0.95rem'
+                  }}>
+                    {String.fromCharCode(65 + idx)}
+                  </div>
+                  <span style={{ lineHeight: '1.4' }}>{option}</span>
+                </button>
+              );
+            })}
+          </div>
+
+        </motion.div>
+      </AnimatePresence>
+      </div>
+
+      {/* ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ Fixed Bottom Sheet: slides up when answered, never moves the question card ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ */}
+      <AnimatePresence>
+        {isAnswered && (
+          <motion.div
+            key="bottom-sheet"
+            initial={{ y: '100%' }}
+            animate={{ y: 0 }}
+            exit={{ y: '100%' }}
+            transition={{ type: 'spring', damping: 28, stiffness: 220 }}
+            style={{
+              position: 'fixed',
+              bottom: 0,
+              left: 0,
+              right: 0,
+              background: 'var(--surface-color)',
+              borderTop: `4px solid ${isCorrect ? 'var(--success-color)' : 'var(--error-color)'}`,
+              boxShadow: '0 -8px 32px rgba(0,0,0,0.18)',
+              zIndex: 200,
+              padding: '1.25rem 1.5rem',
+              paddingBottom: 'calc(1.25rem + env(safe-area-inset-bottom))',
+              maxHeight: '55vh',
+              overflowY: 'auto'
+            }}
+          >
+            <div style={{ maxWidth: '780px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
+
+              {/* Header row: result label + Next button */}
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 700, color: isCorrect ? 'var(--success-color)' : 'var(--error-color)', fontSize: '1.2rem' }}>
+                  {isCorrect ? <CheckCircle2 size={22} /> : <AlertCircle size={22} />}
+                  {isCorrect ? 'Correct!' : 'Incorrect'}
+                </div>
+                <button
+                  onClick={handleNext}
+                  className="primary-btn"
+                  style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', margin: 0 }}
+                >
+                  {currentIndex < topicQuestions.length - 1 ? 'Next' : 'Finish'} <ArrowRight size={18} />
+                </button>
+              </div>
+
+              {/* Explanation ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â only on wrong answers outside exam mode */}
+              {!isCorrect && !isSimulatedMode && (
+                <div style={{ background: 'var(--surface-hover)', padding: '1.1rem', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-color)' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.7rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--accent-color)', fontWeight: 700, fontSize: '0.9rem' }}>
+                      <Sparkles size={16} /> Tutor Explanation
+                    </div>
+                    <button
+                      onClick={() => playAudio('current-explanation-text', question.explanation || `The correct answer is: ${question.options[question.correctAnswer]}`)}
+                      title="Listen"
+                      style={{ background: 'transparent', border: 'none', color: 'var(--accent-color)', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+                    >
+                      {isPlayingAudio ? <VolumeX size={17} /> : <Volume2 size={17} />}
+                    </button>
+                  </div>
+                  <div id="current-explanation-text" style={{ color: 'var(--text-primary)', lineHeight: '1.6', fontSize: '0.97rem' }}>
+                    {question.explanation || `The correct answer is: ${question.options[question.correctAnswer]}`}
+                  </div>
+                </div>
+              )}
+
+              {currentIndex < topicQuestions.length - 1 && (
+                <p style={{ margin: 0, textAlign: 'center', fontSize: '0.73rem', color: 'var(--text-secondary)', opacity: 0.5, letterSpacing: '0.02em' }}>
+                  swipe left or press Enter for next
+                </p>
+              )}
+
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+
+
+
+

@@ -1,0 +1,794 @@
+{
+  "templateName": "bentz",
+  "templateSettings": {
+    "colorScheme": "onyx",
+    "fontStyle": "mixed",
+    "density": "M",
+    "layout": "center"
+  },
+  "language": "en",
+  "firstName": "Sooraj",
+  "lastName": "Bhaskar Ajith",
+  "position": "Sr. Business Systems Analyst",
+  "email": "sooraj1119@gmail.com",
+  "phoneNumber": "+1(437)679-0527",
+  "address": "295 Dufferin Street",
+  "city": "Toronto",
+  "postalCode": "M6K 3G2",
+  "country": "CA",
+  "linkedin": "https://www.linkedin.com/in/soorajbhaskar/",
+  "source": "file",
+  "userId": "fezbXDOzjHSWmnrPdLkyIGj0COq1",
+  "type": "resume",
+  "id": "IjpXaqzjUyGhRuyD5r8K",
+  "sections": [
+    {
+      "type": "work",
+      "order": 2,
+      "title": "Employment history",
+      "id": "8I2wLsAkOi4O_BeIuPa_e",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "summary",
+      "order": 1,
+      "title": "Professional summary",
+      "id": "Cn6oYc3I5WgK5MSzApEli",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "language",
+      "order": 6,
+      "title": "Languages",
+      "id": "NtuHZDpryNHJaXH-S9d9x",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "contact",
+      "order": 0,
+      "title": "Contact information",
+      "id": "TnPoMYRDH167V636Ho0aX",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "order": 5,
+      "title": "Skills",
+      "id": "dVDFc6DPbbWjTgoav9dIk",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "education",
+      "order": 3,
+      "title": "Education",
+      "id": "liJR3GmDoGZruJfR0IMFd",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "course",
+      "order": 4,
+      "title": "Courses",
+      "id": "pdSp5Egl4yPVIZ8Z6DKrm",
+      "createdAt": 1787276560198
+    }
+  ],
+  "cards": [
+    {
+      "type": "language",
+      "sectionId": "NtuHZDpryNHJaXH-S9d9x",
+      "order": 0,
+      "name": "English",
+      "level": 5,
+      "id": "3ovF6R_Tirq2SMll7DkUw",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 8,
+      "name": "GitHub",
+      "id": "6ClkImdVLzOIqqzr-OgIj",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 10,
+      "name": "Scrum",
+      "id": "6pU-tbEBGyYaslkM6jRTL",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 1,
+      "name": "Apache Hadoop",
+      "id": "8s2GCi0eJMmJd7qOe_psD",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "work",
+      "sectionId": "8I2wLsAkOi4O_BeIuPa_e",
+      "order": 1,
+      "position": "Business System Analyst",
+      "employer": "TATA CONSULTANCY SERVICES",
+      "location": "India",
+      "dateFrom": "Oct 2020",
+      "dateTo": "Mar 2022",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Developed "
+                      },
+                      {
+                        "type": "text",
+                        "text": "machine learning-powered dashboards and KPIs",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": ", enhancing analytics and improving decision-making by "
+                      },
+                      {
+                        "type": "text",
+                        "text": "75%",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Collaborated with data scientists to optimize classification models using "
+                      },
+                      {
+                        "type": "text",
+                        "text": "IBM SPSS",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Transformed and applied complex business rules from EDW for accurate data processing and seamless delivery."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Led machine learning-driven data cleaning on large datasets for successful migration and integration."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "B47p9CpL9CINJnY9-3wWV",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 14,
+      "name": "Confluence",
+      "id": "D8lP7SCxEXf8mNJ7-Y5oG",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "education",
+      "sectionId": "liJR3GmDoGZruJfR0IMFd",
+      "order": 1,
+      "institution": "Amrita University",
+      "degree": "B. Tech in Electronics and Communication Engineering",
+      "id": "FXhSFJzDZH_aGF3PzibvD",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 15,
+      "name": "ServiceNow",
+      "id": "GMRV5l4L2n8usAi35bnMs",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "education",
+      "sectionId": "liJR3GmDoGZruJfR0IMFd",
+      "order": 0,
+      "institution": "University of Guelph \u2013 Humber College",
+      "degree": "PostGraduate - Business Insights and Analytics",
+      "id": "HLOEvQ6sWnBdPXDVB7qFb",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 12,
+      "name": "SDLC",
+      "id": "Hq24R76m4aL0CvB2Zqvc0",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 2,
+      "name": "PySpark",
+      "id": "Pviqjmu2zCkp-_fmRke96",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "course",
+      "sectionId": "pdSp5Egl4yPVIZ8Z6DKrm",
+      "order": 0,
+      "institution": "Microsoft",
+      "course": "Career Essentials in Business Analysis",
+      "dateFrom": "",
+      "dateTo": "",
+      "id": "QZewx_t5UhWGP6AwGfnXk",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "language",
+      "sectionId": "NtuHZDpryNHJaXH-S9d9x",
+      "order": 1,
+      "name": "Malayalam",
+      "level": 5,
+      "id": "UXyFM7TitjFBr_41Sk5K8",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 5,
+      "name": "SQL Scripting",
+      "id": "ViadILfAr10d1C9pTp9c6",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 11,
+      "name": "Kanban",
+      "id": "Y9xp2Qam2nbksd9j41O-r",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "course",
+      "sectionId": "pdSp5Egl4yPVIZ8Z6DKrm",
+      "order": 1,
+      "institution": "IBM",
+      "course": "IBM Data Science Methodology",
+      "dateFrom": "",
+      "dateTo": "",
+      "id": "ZuyFUF5WWjVT3hkfgAKWc",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 6,
+      "name": "Python",
+      "id": "b9WXY7kqFH91-oXIZEEyi",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 7,
+      "name": "Visio",
+      "id": "bLo7AQl0YcsdXaly1OdBC",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "work",
+      "sectionId": "8I2wLsAkOi4O_BeIuPa_e",
+      "order": 0,
+      "position": "Sr. Business Systems Analyst / IT Business Analyst",
+      "employer": "TD BANK",
+      "location": "Toronto",
+      "dateFrom": "May 2023",
+      "dateTo": "NOW",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Led API & Data-driven HR & Finance system (wealth management) integrations, automating data flows and improving real-time data extraction, achieving "
+                      },
+                      {
+                        "type": "text",
+                        "text": "70% performance improvement",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Spearheaded PeopleSoft to Workday migration with "
+                      },
+                      {
+                        "type": "text",
+                        "text": "100% success",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": ", managing requirements, STTM data mapping, validation, and minimal-downtime cutover."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Designed and implemented on-prem to EDF (Data Warehouse) data pipelines using "
+                      },
+                      {
+                        "type": "text",
+                        "text": "SQL, Python, and PySpark in Azure Databricks",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " for large-scale data cleaning, profiling, and analysis."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Delivered API integrations, leveraging "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Swagger (OpenAPI)",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " for documentation and "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Postman",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " for testing, ensuring seamless system communication."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Authored "
+                      },
+                      {
+                        "type": "text",
+                        "text": "SRS/BRD",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": ", performed gap analysis, and ensured "
+                      },
+                      {
+                        "type": "text",
+                        "text": "PIA governance compliance",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": ", collaborating with TIBCO on data extraction."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Managed Agile delivery (sprints, epics, Jira backlog grooming) and improved stakeholder alignment using "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Figma & Visio",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Ingested "
+                      },
+                      {
+                        "type": "text",
+                        "text": "ServiceNow",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " data into SRZ and developed "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Power BI dashboards",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " on CZ for real-time analytics."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "fFwqC9ToyMz9EsvfW8eLN",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "work",
+      "sectionId": "8I2wLsAkOi4O_BeIuPa_e",
+      "order": 2,
+      "position": "Business Analyst",
+      "employer": "TATA CONSULTANCY SERVICES",
+      "location": "India",
+      "dateFrom": "Nov 2018",
+      "dateTo": "Oct 2020",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Led end-to-end development of a performance dashboard and API-driven workflows, delivering actionable insights aligned with business and compliance goals."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Defined API specs and data mappings, collaborating with architects, developers, and stakeholders to support seamless system integration."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Designed "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Power BI visualizations",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " and optimized lifecycle flows, translating raw data into strategic business intelligence."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Acted as SME, guiding cross-functional teams on business/system decisions and aligning UX/UI expectations through wireframes and user journeys."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Drove UAT and backlog refinement, ensuring project priorities matched business needs and supported continuous improvement."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "gqqRd4OJ6sbAdtJNlv6wP",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 19,
+      "name": "Figma",
+      "id": "hdSjbE_ZuaLzn1HRZKLq5",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 4,
+      "name": "Tableau",
+      "id": "iqhYXMjbQEFtKR5LfAzDn",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 9,
+      "name": "Selenium",
+      "id": "jQjVlTrgyvgvOGmIWjeO7",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 17,
+      "name": "Swagger",
+      "id": "jwFQyW8Bi37-QNIZ8mMPg",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 16,
+      "name": "Lean Six Sigma",
+      "id": "klVNefu1SQOGDvS6aVPPm",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 0,
+      "name": "Azure Databricks",
+      "id": "oMQEccooR-_n6sGO9ZegX",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 3,
+      "name": "Power BI",
+      "id": "tBdi1dz3gBB9ltQWKTisj",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 18,
+      "name": "Postman",
+      "id": "twitsmdUKTINDy-tz2S8d",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 20,
+      "name": "AutoCAD",
+      "id": "wtv8c9xf9k2yb1NyE5pVh",
+      "createdAt": 1787276560199
+    },
+    {
+      "type": "course",
+      "sectionId": "pdSp5Egl4yPVIZ8Z6DKrm",
+      "order": 2,
+      "institution": "TCS",
+      "course": "Certification in Business Analytics",
+      "dateFrom": "",
+      "dateTo": "",
+      "id": "wwD-ciBLB7Mv7f3O-R9a-",
+      "createdAt": 1787276560198
+    },
+    {
+      "type": "skill",
+      "sectionId": "dVDFc6DPbbWjTgoav9dIk",
+      "order": 13,
+      "name": "Jira",
+      "id": "ylugWf2yhL4efCfWTOtQW",
+      "createdAt": 1787276560199
+    }
+  ],
+  "summary": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Results-driven Business Systems Analyst with 7+ years of proven expertise in IT, specializing in Banking, Healthcare, and HR domains. Skilled in data analysis, stakeholder management, and project coordination, I excel at translating business needs into strategic solutions. Passionate about driving process efficiencies, enhancing decision-making, and delivering high-impact solutions that fuel organizational growth."
+          }
+        ]
+      }
+    ]
+  },
+  "createdAt": 1787276560200,
+  "updatedAt": 1787276733861
+}

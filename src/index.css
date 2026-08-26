@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #f0f6ff;
+  --surface-color: rgba(255, 255, 255, 0.92);
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --accent-color: #0284c7;
+  --success-color: #10b981;
+  --error-color: #ef4444;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  --surface-hover: #f1f5f9;
+  
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+}
+
+html.dark {
+  --bg-color: #0b1220;
+  --surface-color: rgba(22, 33, 55, 0.9);
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --accent-color: #38bdf8;
+  --success-color: #34d399;
+  --error-color: #f87171;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  --surface-hover: rgba(255, 255, 255, 0.06);
+}
+
+/* ── Base ── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  background-color: var(--bg-color);
+  background-image: radial-gradient(ellipse at 20% 10%, rgba(56, 189, 248, 0.10) 0%, transparent 60%),
+                    radial-gradient(ellipse at 80% 90%, rgba(16, 185, 129, 0.08) 0%, transparent 60%);
+  transition: background-color 0.3s ease;
+  pointer-events: none;
+}
+
+html {
+  color: var(--text-primary);
+  min-height: 100dvh;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+  background-color: transparent !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+  /* iOS safe areas padding on body */
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+html.dark::before {
+  background-color: var(--bg-color);
+  background-image: radial-gradient(ellipse at 20% 10%, rgba(56, 189, 248, 0.06) 0%, transparent 60%),
+                    radial-gradient(ellipse at 80% 90%, rgba(52, 211, 153, 0.05) 0%, transparent 60%);
+}
+
+/* ── Glass Panel ── */
+.glass-panel {
+  background: var(--surface-color);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+/* ── Buttons ── */
+.primary-btn {
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.4rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.1s;
+  box-shadow: 0 4px 12px -2px rgba(2, 132, 199, 0.35);
+  white-space: nowrap;
+}
+
+.primary-btn:hover  { opacity: 0.88; }
+.primary-btn:active { transform: scale(0.97); }
+
+.secondary-btn {
+  background: var(--surface-hover);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 0.75rem 1.4rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.secondary-btn:hover { background: var(--border-color); }
+
+/* ── Nav button ── */
+.nav-btn {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.nav-btn:hover { background: var(--surface-hover); }
+
+/* ── Bottom sheet safe area ── */
+.bottom-sheet {
+  padding-bottom: calc(1.25rem + env(safe-area-inset-bottom));
+}
+
+/* ── Shake animation (legacy) ── */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60%  { transform: translateX(-5px); }
+  40%, 80%  { transform: translateX(5px); }
+}
+.shake { animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both; }
+
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* ── Mobile responsive ── */
+@media (max-width: 600px) {
+  /* Compact quiz panel on small screens */
+  .glass-panel { border-radius: var(--radius-md) !important; }
+
+  /* Hide logo text on tiny screens to save space */
+  .logo-text { display: none; }
+
+  /* Full-width buttons in quiz answer bottom sheet */
+  .bottom-sheet .primary-btn { font-size: 0.95rem; padding: 0.7rem 1rem; }
+
+  /* Reduce option padding on mobile */
+  .option-btn { padding: 0.9rem !important; font-size: 0.97rem !important; }
+}
+
+@media (max-width: 400px) {
+  .logo-text { display: none; }
+  .hide-on-mobile { display: none !important; }
+}
+
