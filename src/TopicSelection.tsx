@@ -53,16 +53,18 @@ export function TopicSelection({ onSelect }: Props) {
   return (
           <div style={{ maxWidth: '900px', margin: '0 auto', padding: '1rem' }}>
         
-        <div style={{ marginBottom: '3rem', textAlign: 'center', position: 'relative' }}>
+        <div style={{ marginBottom: '3rem', textAlign: 'center' }}>
           {!isPremium && (
-            <button 
-              onClick={() => setShowPaywall(true)}
-              style={{ position: 'absolute', top: 0, right: 0, display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)', color: '#fff', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '20px', fontWeight: 600, cursor: 'pointer', boxShadow: '0 4px 15px rgba(245,158,11,0.4)', transition: 'transform 0.2s' }}
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
+              <button 
+                onClick={() => setShowPaywall(true)}
+                style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)', color: '#fff', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '20px', fontWeight: 600, cursor: 'pointer', boxShadow: '0 4px 15px rgba(245,158,11,0.4)', transition: 'transform 0.2s' }}
               onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
               onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
-            >
-              <Crown size={18} /> Upgrade to Pro
-            </button>
+              >
+                <Crown size={18} /> Upgrade to Pro
+              </button>
+            </div>
           )}
           <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
         <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Master fundamental knowledge with AI-driven explanations.</p>

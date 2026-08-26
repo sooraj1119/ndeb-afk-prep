@@ -1,82 +1,106 @@
-import { chromium } from 'playwright';
+import puppeteer from 'puppeteer';
 
 (async () => {
-  console.log("Launching browser...");
-  const browser = await chromium.launch();
-  const context = await browser.newContext({ viewport: { width: 412, height: 915 } });
-  const page = await context.newPage();
+  const browser = await puppeteer.launch({ headless: true });
+  const page = await browser.newPage();
   
+  // Disable cache to ensure we test the latest deployed version
+  const client = await page.target().createCDPSession();
+  await client.send('Network.clearBrowserCache');
+  await client.send('Network.setBypassServiceWorker', { bypass: true });
+  
+  let errors = [];
+  page.on('pageerror', err => {
+    errors.push('Page Error: ' + err.toString());
+  });
+
   try {
-    console.log("Navigating to app...");
-    await page.goto('http://localhost:5173');
-    
-    // Accept disclaimer
-    try {
-      await page.waitForSelector('button:has-text("I Agree & Continue")', { timeout: 3000 });
-      await page.click('button:has-text("I Agree & Continue")');
-      console.log("Accepted disclaimer");
-    } catch(e) {
-      console.log("No disclaimer found, continuing...");
+    console.log('1. Loading app...');
+    await page.goto('https://sooraj1119.github.io/ndeb-afk-prep/');
+    await new Promise(r => setTimeout(r, 3000));
+
+    // Handle disclaimer if present
+    const bodyText = await page.evaluate(() => document.body.innerText);
+    if (bodyText.includes('Medical Disclaimer')) {
+      await page.evaluate(() => {
+        const btns = Array.from(document.querySelectorAll('button'));
+        const accept = btns.find(b => b.innerText.includes('I Understand'));
+        if (accept) accept.click();
+      });
+      await new Promise(r => setTimeout(r, 1000));
     }
 
-    // Go to Simulated Mock Exam
-    console.log("Starting Simulated Mock Exam...");
-    await page.click('div:has-text("Simulated Mock Exam")');
-    await page.waitForTimeout(1000);
+    console.log('2. Verifying Topic Selection (Home)...');
+    const homeText = await page.evaluate(() => document.body.innerText);
+    if (!homeText.includes('Simulated Mock Exam')) errors.push('Mock Exam banner missing');
+    if (!homeText.includes('Review Mistakes')) errors.push('Review Mistakes banner missing');
+
+    console.log('3. Verifying Quiz Flow (Anatomy)...');
+    await page.evaluate(() => {
+      const cards = Array.from(document.querySelectorAll('h3'));
+      const anatomy = cards.find(h => h.innerText === 'Anatomy');
+      if (anatomy) anatomy.parentElement.parentElement.click();
+    });
+    await new Promise(r => setTimeout(r, 2000));
+    const quizText = await page.evaluate(() => document.body.innerText);
+    if (!quizText.includes('Question 1 of')) errors.push('Quiz UI failed to load');
     
-    // Get initial timer text
-    const initialTimer = await page.locator('div', { has: page.locator('svg.lucide-clock') }).textContent();
-    console.log(`Initial timer: ${initialTimer.trim()}`);
+    // Go back to home
+    await page.goto('https://sooraj1119.github.io/ndeb-afk-prep/');
+    await new Promise(r => setTimeout(r, 3000));
+
+    console.log('4. Verifying Search Tab...');
+    await page.evaluate(() => {
+      const spans = Array.from(document.querySelectorAll('span'));
+      const searchTab = spans.find(s => s.innerText === 'Search');
+      if (searchTab) searchTab.parentElement.click();
+    });
+    await new Promise(r => setTimeout(r, 1500));
     
-    // Select first option
-    console.log("Selecting option A...");
-    await page.click('button:has-text("A")');
-    await page.waitForTimeout(500);
-    
-    // Click Next
-    console.log("Clicking Next...");
-    await page.click('button:has-text("Next")');
-    await page.waitForTimeout(1000);
-    
-    // Wait for timer to tick down
-    console.log("Waiting 3 seconds...");
-    await page.waitForTimeout(3000);
-    
-    // Get timer before back
-    const beforeBackTimer = await page.locator('div', { has: page.locator('svg.lucide-clock') }).textContent();
-    console.log(`Timer before going back: ${beforeBackTimer.trim()}`);
-    
-    // Click Back
-    console.log("Clicking Back...");
-    await page.click('button:has-text("Back")');
-    await page.waitForTimeout(1000);
-    
-    // Go to Simulated Mock Exam again
-    console.log("Resuming Simulated Mock Exam...");
-    await page.click('div:has-text("Simulated Mock Exam")');
-    await page.waitForTimeout(1000);
-    
-    // Get resumed timer
-    const resumedTimer = await page.locator('div', { has: page.locator('svg.lucide-clock') }).textContent();
-    console.log(`Resumed timer: ${resumedTimer.trim()}`);
-    
-    // Check if it's on question 2
-    const countText = await page.locator('span', { hasText: '/' }).textContent();
-    console.log(`Current progress count: ${countText.trim()}`);
-    
-    if (initialTimer === resumedTimer) {
-      console.log("❌ Timer reset bug still present (Initial == Resumed)");
-    } else {
-      console.log("✅ Timer correctly continued ticking");
+    await page.type('input[type="text"]', 'Amoxicillin');
+    await new Promise(r => setTimeout(r, 2000));
+    const searchText = await page.evaluate(() => document.body.innerText);
+    if (!searchText.includes('Endodontics') && !searchText.includes('Microbiology')) {
+      errors.push('Search failed to return expected results for Amoxicillin');
     }
+
+    console.log('5. Verifying Dashboard Tab...');
+    await page.evaluate(() => {
+      const spans = Array.from(document.querySelectorAll('span'));
+      const dashTab = spans.find(s => s.innerText === 'Dashboard');
+      if (dashTab) dashTab.parentElement.click();
+    });
+    await new Promise(r => setTimeout(r, 1500));
+    const dashText = await page.evaluate(() => document.body.innerText);
+    if (!dashText.includes('Your Progress')) errors.push('Dashboard failed to load');
+
+    console.log('6. Verifying Mistakes Banner click...');
+    await page.goto('https://sooraj1119.github.io/ndeb-afk-prep/');
+    await new Promise(r => setTimeout(r, 3000));
     
-    // Take screenshot to check alignment
-    await page.screenshot({ path: 'C:/Users/sooraj/.gemini/antigravity/brain/5c9ff53c-3a20-4bb5-bf9d-4269cb96d384/e2e_alignment.png' });
-    console.log("Screenshot saved to check mobile alignment.");
-    
-  } catch (error) {
-    console.error("Test failed:", error);
-  } finally {
-    await browser.close();
+    // The Mistakes banner triggers paywall if not premium.
+    await page.evaluate(() => {
+      const h3s = Array.from(document.querySelectorAll('h3'));
+      const mistakes = h3s.find(h => h.innerText === 'Review Mistakes');
+      if (mistakes) mistakes.parentElement.parentElement.parentElement.click();
+    });
+    await new Promise(r => setTimeout(r, 1500));
+    const mistakesText = await page.evaluate(() => document.body.innerText);
+    // Since it's a fresh session (not premium), clicking it should pop up the paywall
+    if (!mistakesText.includes('Unlock Full Access') && !mistakesText.includes('saved for review')) {
+      errors.push('Review Mistakes click failed (neither paywall nor list appeared)');
+    }
+
+  } catch (e) {
+    errors.push('Script execution error: ' + e.message);
   }
+
+  if (errors.length > 0) {
+    console.error('\n❌ TESTS FAILED WITH THE FOLLOWING ERRORS:');
+    errors.forEach(e => console.error('  -', e));
+  } else {
+    console.log('\n✅ ALL E2E TESTS PASSED SUCCESSFULLY! No crashes detected.');
+  }
+
+  await browser.close();
 })();
