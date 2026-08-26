@@ -48,7 +48,8 @@ export function Search() {
     const lowerQuery = query.toLowerCase();
     
     return questions.filter(q => {
-      const qMatch = q.question.toLowerCase().includes(lowerQuery);
+      const qText = q.question || q.text || '';
+      const qMatch = qText.toLowerCase().includes(lowerQuery);
       const optMatch = q.options.some((o: string) => o.toLowerCase().includes(lowerQuery));
       const expMatch = q.explanation && q.explanation.toLowerCase().includes(lowerQuery);
       return qMatch || optMatch || expMatch;
