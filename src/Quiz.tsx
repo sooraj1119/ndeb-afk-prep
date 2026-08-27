@@ -176,16 +176,25 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
     if (window.speechSynthesis) { window.speechSynthesis.cancel(); setIsPlayingAudio(false); }
   };
 
-    const handleNext = () => {
-    if (currentIndex < topicQuestions.length - 1) {
-      setCurrentIndex(prev => prev + 1);
-      setSelectedAnswer(null);
-    } else {
-      if (!getIsPremium() && topicId !== 'simulated' && topicId !== 'flagged' && topicId !== 'srs_review' && topicId !== 'mistakes') {
-         setShowPaywall(true);
+        const handleNext = () => {
+      if (currentIndex < topicQuestions.length - 1) {
+        setCurrentIndex(prev => prev + 1);
+        setSelectedAnswer(null);
+      } else {
+        // End of quiz reached
+        if (!getIsPremium() && topicId !== 'simulated' && topicId !== 'flagged' && topicId !== 'srs_review' && topicId !== 'mistakes') {
+           setShowPaywall(true);
+        } else {
+           if (!isFlaggedMode && !isSimulatedMode && !isSRSMode && !isMistakesMode) {
+             saveProgress(topicId, score, topicQuestions.length, 0, true, topicQuestions.length);
+           }
+           if (isSimulatedMode) {
+             clearActiveMockExam();
+           }
+           onFinish(score, topicQuestions.length, breakdownRef.current);
+        }
       }
-    }
-  };
+    };
 
   const handleFlag = () => {
     if (!question) return;
