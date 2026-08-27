@@ -342,7 +342,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
       </div>
 
       <h3 style={{ fontSize: '1.5rem', color: 'var(--text-primary)', marginBottom: '1.5rem' }}>Topic Breakdown</h3>
-      <div className="glass-panel" style={{ overflow: 'hidden' }}>
+      <div className="topic-grid">
         {topics.map((topic, idx) => {
           const topicProg = progress[topic.id];
           const hasAttempted = !!topicProg;
@@ -352,11 +352,8 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           let attemptedCount = 0;
           
           if (hasAttempted) {
-             // For completion, we just look at how many questions they answered
              attemptedCount = topicProg.isFinished ? topicProg.totalQuestions : (topicProg.questionsAnswered || 0);
              completionProgress = Math.round((attemptedCount / topicProg.totalQuestions) * 100);
-             
-             // For accuracy, we calculate based on what they got right vs what they answered
              if (attemptedCount > 0) {
                  const correctCount = topicProg.isFinished ? topicProg.highestScore : (topicProg.currentScore || 0);
                  accuracy = Math.round((correctCount / attemptedCount) * 100);
@@ -364,28 +361,40 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           }
           
           return (
-            <div key={topic.id} style={{ 
+            <div key={topic.id} className="glass-panel topic-card" style={{ 
               padding: '1.5rem', 
-              borderBottom: idx !== topics.length - 1 ? '1px solid var(--border-color)' : 'none',
-              display: 'grid',
-              gridTemplateColumns: '1fr auto',
-              alignItems: 'center',
-              gap: '1.5rem'
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '1rem',
+              position: 'relative'
             }}>
-              <div style={{ minWidth: 0 }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '0.8rem', flexWrap: 'wrap', gap: '0.5rem' }}>
-                  <div style={{ fontWeight: 600, fontSize: '1.1rem', color: 'var(--text-primary)', display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
-                    <span>{topic.name}</span>
-                    {hasAttempted && !topicProg.isFinished && topicProg.currentIndex > 0 && (
-                      <span style={{ fontSize: '0.75rem', background: 'var(--surface-hover)', color: 'var(--text-secondary)', padding: '0.2rem 0.5rem', borderRadius: '4px' }}>In Progress</span>
-                    )}
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '0.5rem' }}>
+                <div style={{ fontWeight: 600, fontSize: '1.1rem', color: 'var(--text-primary)', lineHeight: 1.3, flex: 1 }}>
+                  {topic.name}
+                </div>
+                <div style={{ textAlign: 'right', flexShrink: 0 }}>
+                  <div style={{ fontWeight: 800, color: hasAttempted && attemptedCount > 0 ? 'var(--text-primary)' : 'var(--text-secondary)', fontSize: '1.2rem' }}>
+                    {hasAttempted && attemptedCount > 0 ? `${accuracy}%` : '--'}
                   </div>
-                  <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', whiteSpace: 'nowrap' }}>
-                    {hasAttempted ? `${attemptedCount} / ${topicProg.totalQuestions} Completed` : '0 Completed'}
+                  <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 600 }}>
+                    Acc
                   </div>
                 </div>
+              </div>
+              
+              <div style={{ marginTop: 'auto' }}>
+                <div className="stats-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
+                  <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 500 }}>
+                    {hasAttempted ? `${attemptedCount} / ${topicProg.totalQuestions}` : '0 Completed'}
+                  </span>
+                  {hasAttempted && !topicProg.isFinished && topicProg.currentIndex > 0 && (
+                    <span className="completed-badge" style={{ fontSize: '0.75rem', background: 'var(--surface-hover)', color: 'var(--text-secondary)', padding: '0.2rem 0.5rem', borderRadius: '4px', fontWeight: 600 }}>In Progress</span>
+                  )}
+                  {hasAttempted && topicProg.isFinished && (
+                    <span className="completed-badge" style={{ fontSize: '0.75rem', background: 'rgba(16, 185, 129, 0.1)', color: 'var(--success-color)', padding: '0.2rem 0.5rem', borderRadius: '4px', fontWeight: 600 }}>Completed</span>
+                  )}
+                </div>
                 
-                {/* Completion Progress Bar Background */}
                 <div style={{ width: '100%', height: '8px', background: 'var(--surface-hover)', borderRadius: '4px', overflow: 'hidden' }}>
                   <motion.div 
                     initial={{ width: 0 }}
@@ -397,15 +406,6 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
                       borderRadius: '4px'
                     }}
                   />
-                </div>
-              </div>
-              
-              <div style={{ textAlign: 'right' }}>
-                <div style={{ fontWeight: 800, color: hasAttempted && attemptedCount > 0 ? 'var(--text-primary)' : 'var(--text-secondary)', fontSize: '1.2rem' }}>
-                  {hasAttempted && attemptedCount > 0 ? `${accuracy}%` : '--'}
-                </div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 600 }}>
-                  Accuracy
                 </div>
               </div>
             </div>
