@@ -3,6 +3,10 @@ import { Trophy, RefreshCw, Star, BarChart2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { topics } from './lib/data';
+import { Crown } from 'lucide-react';
+import { getIsPremium } from './lib/storage';
+import { PaywallModal } from './PaywallModal';
+import { useState } from 'react';
 
 interface Props {
   score: number;
@@ -12,6 +16,8 @@ interface Props {
 }
 
 export function Results({ score, total, onRestart, breakdown }: Props) {
+  const isPremium = getIsPremium();
+  const [showPaywall, setShowPaywall] = useState(false);
   const percentage = Math.round((score / total) * 100);
   
   let message = "";
