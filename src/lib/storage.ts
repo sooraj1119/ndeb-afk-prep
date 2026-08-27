@@ -371,3 +371,26 @@ export const removeMistake = (questionId: number) => {
   const updated = mistakes.filter(id => id !== questionId);
   localStorage.setItem(MISTAKES_KEY, JSON.stringify(updated));
 };
+
+
+// --- Study Pacing ---
+const EXAM_DATE_KEY = 'ndeb_prep_exam_date';
+
+export const getExamDate = (): number | null => {
+  try {
+    const d = localStorage.getItem(EXAM_DATE_KEY);
+    return d ? parseInt(d) : null;
+  } catch (error) {
+    return null;
+  }
+};
+
+export const setExamDate = (timestamp: number | null): void => {
+  try {
+    if (timestamp === null) {
+      localStorage.removeItem(EXAM_DATE_KEY);
+    } else {
+      localStorage.setItem(EXAM_DATE_KEY, timestamp.toString());
+    }
+  } catch (error) {}
+};
