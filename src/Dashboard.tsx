@@ -17,18 +17,30 @@ interface Props {
 
 export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
   const questions = getQuestions();
-    const [progress, setProgress] = useState<Record<string, TopicProgress>>({});
+  const [progress, setProgress] = useState<Record<string, TopicProgress>>({});
   const [flaggedCount, setFlaggedCount] = useState(0);
   const [mistakesCount, setMistakesCount] = useState(0);
   const [history, setHistory] = useState<QuizAttempt[]>([]);
-    const [showPaywall, setShowPaywall] = useState(false);
-    const isPremium = getIsPremium();
+  const [showPaywall, setShowPaywall] = useState(false);
+  const isPremium = getIsPremium();
+  
+  const [examDate, setExamDateState] = useState<number | null>(null);
+  const [isEditingDate, setIsEditingDate] = useState(false);
+  const [tempDate, setTempDate] = useState("");
 
   useEffect(() => {
     setProgress(getProgress());
     setFlaggedCount(getFlaggedQuestions().length);
     setMistakesCount(getMistakes().length);
     setHistory(getHistory());
+    
+    if (typeof window !== 'undefined' && window.localStorage) {
+      const ed = localStorage.getItem('ndeb_prep_exam_date');
+      if (ed) {
+        setExamDateState(parseInt(ed));
+        setTempDate(new Date(parseInt(ed)).toISOString().split('T')[0]);
+      }
+    }
   }, []);
 
   const totalQuestionsAvailable = questions.length;
