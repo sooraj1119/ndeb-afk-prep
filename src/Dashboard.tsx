@@ -5,7 +5,7 @@ import { getQuestions } from './lib/questionsStore';
 import { motion } from 'framer-motion';
 import { PaywallModal } from './PaywallModal';
 import { Lock } from 'lucide-react';
-import { Trophy, Target, BookOpen, Bookmark, Play, AlertOctagon, TrendingUp, XCircle, AlertCircle } from 'lucide-react';
+import { Trophy, Target, BookOpen, Bookmark, Play, AlertOctagon, TrendingUp, XCircle, AlertCircle, CalendarDays, Edit2, Check } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 
