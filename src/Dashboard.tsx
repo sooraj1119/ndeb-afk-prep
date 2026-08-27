@@ -37,8 +37,17 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
     if (typeof window !== 'undefined' && window.localStorage) {
       const ed = localStorage.getItem('ndeb_prep_exam_date');
       if (ed) {
-        setExamDateState(parseInt(ed));
-        setTempDate(new Date(parseInt(ed)).toISOString().split('T')[0]);
+        const parsed = parseInt(ed);
+        if (!isNaN(parsed)) {
+          setExamDateState(parsed);
+          try {
+            setTempDate(new Date(parsed).toISOString().split('T')[0]);
+          } catch (e) {
+            // Ignore RangeError on corrupted dates
+          }
+        } else {
+          localStorage.removeItem('ndeb_prep_exam_date');
+        }
       }
     }
   }, []);
