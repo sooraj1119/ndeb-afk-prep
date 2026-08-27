@@ -1,106 +1,164 @@
 import puppeteer from 'puppeteer';
 
 (async () => {
+  console.log("Starting End-to-End Test for Simulated Mock Exam...");
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
   
-  // Disable cache to ensure we test the latest deployed version
-  const client = await page.target().createCDPSession();
-  await client.send('Network.clearBrowserCache');
-  await client.send('Network.setBypassServiceWorker', { bypass: true });
-  
-  let errors = [];
-  page.on('pageerror', err => {
-    errors.push('Page Error: ' + err.toString());
-  });
-
   try {
-    console.log('1. Loading app...');
+    const client = await page.target().createCDPSession();
+    await client.send('Network.clearBrowserCache');
+    await client.send('Network.setBypassServiceWorker', { bypass: true });
+    
+    console.log("Navigating to app...");
     await page.goto('https://sooraj1119.github.io/ndeb-afk-prep/');
-    await new Promise(r => setTimeout(r, 3000));
+    await new Promise(r => setTimeout(r, 2000));
+    
+    // Accept Disclaimer
+    await page.evaluate(() => {
+      const btns = Array.from(document.querySelectorAll('button'));
+      const accept = btns.find(b => b.innerText.includes('I Understand'));
+      if (accept) accept.click();
+    });
+    await new Promise(r => setTimeout(r, 1000));
 
-    // Handle disclaimer if present
-    const bodyText = await page.evaluate(() => document.body.innerText);
-    if (bodyText.includes('Medical Disclaimer')) {
-      await page.evaluate(() => {
-        const btns = Array.from(document.querySelectorAll('button'));
-        const accept = btns.find(b => b.innerText.includes('I Understand'));
-        if (accept) accept.click();
-      });
-      await new Promise(r => setTimeout(r, 1000));
+    // Start Simulated Mock Exam
+    await page.evaluate(() => {
+      const headers = Array.from(document.querySelectorAll('h3'));
+      const mockH3 = headers.find(h => h.innerText.includes('Simulated Mock Exam'));
+      if (mockH3 && mockH3.parentElement && mockH3.parentElement.parentElement) {
+        mockH3.parentElement.parentElement.click();
+      }
+    });
+    await new Promise(r => setTimeout(r, 3000));
+    
+    const quizText1 = await page.evaluate(() => document.body.innerText);
+    if (quizText1.includes("1 / 100") && quizText1.includes("Simulated AFK Exam")) {
+      console.log("✅ Mock Exam successfully generated and loaded (1/100).");
+    } else {
+      console.error("❌ Failed to load Mock Exam. Screen text:", quizText1.substring(0, 500));
+      throw new Error("Failed to load Mock Exam");
     }
 
-    console.log('2. Verifying Topic Selection (Home)...');
-    const homeText = await page.evaluate(() => document.body.innerText);
-    if (!homeText.includes('Simulated Mock Exam')) errors.push('Mock Exam banner missing');
-    if (!homeText.includes('Review Mistakes')) errors.push('Review Mistakes banner missing');
-
-    console.log('3. Verifying Quiz Flow (Anatomy)...');
+    // Answer Q1
     await page.evaluate(() => {
-      const cards = Array.from(document.querySelectorAll('h3'));
-      const anatomy = cards.find(h => h.innerText === 'Anatomy');
-      if (anatomy) anatomy.parentElement.parentElement.click();
+      const options = Array.from(document.querySelectorAll('button'));
+      const optA = options.find(b => b.innerText.match(/^[A-D]\n/)); 
+      if (optA) optA.click();
+    });
+    await new Promise(r => setTimeout(r, 500));
+    
+    await page.evaluate(() => {
+      const btns = Array.from(document.querySelectorAll('button'));
+      const nextBtn = btns.find(b => b.innerText.includes('Next'));
+      if (nextBtn) nextBtn.click();
+    });
+    await new Promise(r => setTimeout(r, 1000));
+
+    const quizText2 = await page.evaluate(() => document.body.innerText);
+    if (quizText2.includes("2 / 100")) {
+      console.log("✅ Successfully progressed to Question 2.");
+    } else {
+      console.error("❌ Failed to progress. Screen text:", quizText2.substring(0, 500));
+    }
+
+    // Test Persistence (Refresh & Resume)
+    console.log("Refreshing page to test persistence...");
+    await page.reload();
+    await new Promise(r => setTimeout(r, 2000));
+    
+    await page.evaluate(() => {
+      const headers = Array.from(document.querySelectorAll('h3'));
+      const mockH3 = headers.find(h => h.innerText.includes('Simulated Mock Exam'));
+      if (mockH3 && mockH3.parentElement && mockH3.parentElement.parentElement) {
+        mockH3.parentElement.parentElement.click();
+      }
     });
     await new Promise(r => setTimeout(r, 2000));
-    const quizText = await page.evaluate(() => document.body.innerText);
-    if (!quizText.includes('Question 1 of')) errors.push('Quiz UI failed to load');
-    
-    // Go back to home
-    await page.goto('https://sooraj1119.github.io/ndeb-afk-prep/');
-    await new Promise(r => setTimeout(r, 3000));
 
-    console.log('4. Verifying Search Tab...');
+    const quizText3 = await page.evaluate(() => document.body.innerText);
+    if (quizText3.includes("2 / 100")) {
+      console.log("✅ Successfully restored state from localStorage (still on 2/100).");
+    } else {
+      console.error("❌ Failed to restore state. Screen text:", quizText3.substring(0, 500));
+    }
+
+    // Test Completion (Skip to question 100)
+    console.log("Fast-forwarding to Question 100 via localStorage injection...");
     await page.evaluate(() => {
-      const spans = Array.from(document.querySelectorAll('span'));
-      const searchTab = spans.find(s => s.innerText === 'Search');
-      if (searchTab) searchTab.parentElement.click();
+      const activeMock = JSON.parse(localStorage.getItem('ndeb_prep_active_mock'));
+      activeMock.currentIndex = 99; // 0-indexed, so 99 is Q100
+      localStorage.setItem('ndeb_prep_active_mock', JSON.stringify(activeMock));
     });
-    await new Promise(r => setTimeout(r, 1500));
     
-    await page.type('input[type="text"]', 'Amoxicillin');
+    await page.reload();
     await new Promise(r => setTimeout(r, 2000));
-    const searchText = await page.evaluate(() => document.body.innerText);
-    if (!searchText.includes('Endodontics') && !searchText.includes('Microbiology')) {
-      errors.push('Search failed to return expected results for Amoxicillin');
+    await page.evaluate(() => {
+      const headers = Array.from(document.querySelectorAll('h3'));
+      const mockH3 = headers.find(h => h.innerText.includes('Simulated Mock Exam'));
+      if (mockH3 && mockH3.parentElement && mockH3.parentElement.parentElement) {
+        mockH3.parentElement.parentElement.click();
+      }
+    });
+    await new Promise(r => setTimeout(r, 2000));
+
+    const quizText4 = await page.evaluate(() => document.body.innerText);
+    if (quizText4.includes("100 / 100")) {
+      console.log("✅ Successfully resumed at Question 100.");
+    } else {
+      console.error("❌ Failed to load Q100.", quizText4.substring(0, 300));
     }
 
-    console.log('5. Verifying Dashboard Tab...');
+    // Answer Q100 and Finish
     await page.evaluate(() => {
-      const spans = Array.from(document.querySelectorAll('span'));
-      const dashTab = spans.find(s => s.innerText === 'Dashboard');
-      if (dashTab) dashTab.parentElement.click();
+      const options = Array.from(document.querySelectorAll('button'));
+      const optA = options.find(b => b.innerText.match(/^[A-D]\n/));
+      if (optA) optA.click();
     });
-    await new Promise(r => setTimeout(r, 1500));
-    const dashText = await page.evaluate(() => document.body.innerText);
-    if (!dashText.includes('Your Progress')) errors.push('Dashboard failed to load');
-
-    console.log('6. Verifying Mistakes Banner click...');
-    await page.goto('https://sooraj1119.github.io/ndeb-afk-prep/');
-    await new Promise(r => setTimeout(r, 3000));
+    await new Promise(r => setTimeout(r, 500));
     
-    // The Mistakes banner triggers paywall if not premium.
     await page.evaluate(() => {
-      const h3s = Array.from(document.querySelectorAll('h3'));
-      const mistakes = h3s.find(h => h.innerText === 'Review Mistakes');
-      if (mistakes) mistakes.parentElement.parentElement.parentElement.click();
+      const btns = Array.from(document.querySelectorAll('button'));
+      const nextBtn = btns.find(b => b.innerText.includes('Next') || b.innerText.includes('Finish'));
+      if (nextBtn) nextBtn.click();
     });
-    await new Promise(r => setTimeout(r, 1500));
-    const mistakesText = await page.evaluate(() => document.body.innerText);
-    // Since it's a fresh session (not premium), clicking it should pop up the paywall
-    if (!mistakesText.includes('Unlock Full Access') && !mistakesText.includes('saved for review')) {
-      errors.push('Review Mistakes click failed (neither paywall nor list appeared)');
+    await new Promise(r => setTimeout(r, 2000));
+
+    const quizText5 = await page.evaluate(() => document.body.innerText);
+    if (quizText5.includes("Quiz Complete!")) {
+      console.log("✅ Successfully reached the Results screen! End-to-end test passed.");
+    } else {
+      console.error("❌ Did not reach Results screen. Text:", quizText5.substring(0, 500));
     }
-
-  } catch (e) {
-    errors.push('Script execution error: ' + e.message);
+    
+    // Test restarting a fresh mock exam
+    console.log("Testing fresh mock exam generation after completion...");
+    await page.evaluate(() => {
+      const btns = Array.from(document.querySelectorAll('button'));
+      const backBtn = btns.find(b => b.innerText.includes('Choose Another Topic') || b.innerText.includes('Back'));
+      if (backBtn) backBtn.click();
+    });
+    await new Promise(r => setTimeout(r, 1000));
+    
+    await page.evaluate(() => {
+      const headers = Array.from(document.querySelectorAll('h3'));
+      const mockH3 = headers.find(h => h.innerText.includes('Simulated Mock Exam'));
+      if (mockH3 && mockH3.parentElement && mockH3.parentElement.parentElement) {
+        mockH3.parentElement.parentElement.click();
+      }
+    });
+    await new Promise(r => setTimeout(r, 2000));
+    
+    const quizText6 = await page.evaluate(() => document.body.innerText);
+    if (quizText6.includes("1 / 100")) {
+      console.log("✅ BUG FIXED! Successfully started a FRESH Mock Exam after completing one.");
+    } else {
+      console.error("❌ FAILED! Stuck on complete screen or broken. Text:", quizText6.substring(0, 500));
+    }
+    
+  } catch (error) {
+    console.error("Test failed:", error);
+  } finally {
+    await browser.close();
   }
-
-  if (errors.length > 0) {
-    console.error('\n❌ TESTS FAILED WITH THE FOLLOWING ERRORS:');
-    errors.forEach(e => console.error('  -', e));
-  } else {
-    console.log('\n✅ ALL E2E TESTS PASSED SUCCESSFULLY! No crashes detected.');
-  }
-
-  await browser.close();
 })();

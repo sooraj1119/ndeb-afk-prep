@@ -180,8 +180,17 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
 
         const handleNext = () => {
       if (currentIndex < topicQuestions.length - 1) {
-        setCurrentIndex(prev => prev + 1);
+        const nextIdx = currentIndex + 1;
+        setCurrentIndex(nextIdx);
         setSelectedAnswer(null);
+        
+        if (!isFlaggedMode && !isSimulatedMode && !isSRSMode && !isMistakesMode) {
+          saveProgress(topicId, score, topicQuestions.length, nextIdx, false, currentIndex + 1);
+        }
+        if (isSimulatedMode) {
+          const activeMock = getActiveMockExam();
+          saveActiveMockExam({ questions: topicQuestions, currentIndex: nextIdx, score, endTime: activeMock?.endTime });
+        }
       } else {
         // End of quiz reached
         if (!getIsPremium() && topicId !== 'simulated' && topicId !== 'flagged' && topicId !== 'srs_review' && topicId !== 'mistakes') {
