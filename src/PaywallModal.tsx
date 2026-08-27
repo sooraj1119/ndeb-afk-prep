@@ -111,14 +111,18 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
               ))}
             </div>
 
-            {/* Pricing */}
+                        {/* Pricing */}
             <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.6rem', marginBottom: '0.4rem' }}>
+                <span style={{ fontSize: '1.2rem', fontWeight: 600, color: 'var(--text-secondary)', textDecoration: 'line-through', opacity: 0.7 }}>$15.99/mo</span>
+                <span style={{ background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)', color: 'white', padding: '0.2rem 0.6rem', borderRadius: '12px', fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.05em', boxShadow: '0 2px 5px rgba(16,185,129,0.3)' }}>56% OFF</span>
+              </div>
               <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'center', gap: '0.2rem' }}>
                 <span style={{ fontSize: '1.2rem', fontWeight: 600, color: 'var(--text-secondary)' }}>$</span>
-                <span style={{ fontSize: '3rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1 }}>6.99</span>
+                <span style={{ fontSize: '3.2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1 }}>6.99</span>
                 <span style={{ fontSize: '1rem', color: 'var(--text-secondary)' }}>/mo</span>
               </div>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', margin: '0.5rem 0 0' }}>Cancel anytime. Auto-renews monthly.</p>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', margin: '0.5rem 0 0' }}>Launch Special! Cancel anytime. Auto-renews monthly.</p>
             </div>
 
             {/* CTA */}
