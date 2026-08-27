@@ -181,7 +181,8 @@ export function TopicSelection({ onSelect }: Props) {
         variants={containerVariants}
         initial="hidden"
         animate="show"
-        style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '1.5rem' }}
+        className="topic-grid"
+          style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '1.5rem' }}
       >
         {topics.map((topic) => {
           const Icon = topic.icon;
@@ -197,23 +198,22 @@ export function TopicSelection({ onSelect }: Props) {
               onClick={() => onSelect(topic.id)}
               onMouseEnter={() => setHoveredId(topic.id)}
               onMouseLeave={() => setHoveredId(null)}
-              className="glass-panel"
+              className="glass-panel topic-card"
               style={{ padding: '1.5rem', cursor: 'pointer', position: 'relative', overflow: 'hidden' }}
               whileHover={{ y: -5, boxShadow: 'var(--shadow-md)' }}
               whileTap={{ scale: 0.98 }}
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.5rem' }}>
-                <div style={{ 
+                <div className="icon-wrapper" style={{ 
                   background: isHovered ? 'var(--accent-color)' : 'var(--surface-hover)', 
-                  padding: '1rem', 
-                  borderRadius: 'var(--radius-md)',
+                  padding: '1rem', borderRadius: 'var(--radius-md)',
                   transition: 'all 0.3s ease'
                 }}>
                   <Icon size={28} color={isHovered ? 'white' : 'var(--accent-color)'} />
                 </div>
                 
                 {progress?.isFinished && (
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: 'rgba(16, 185, 129, 0.1)', color: 'var(--success-color)', padding: '0.4rem 0.8rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: 700 }}>
+                  <div className="completed-badge" style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: 'rgba(16, 185, 129, 0.1)', color: 'var(--success-color)', padding: '0.4rem 0.8rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: 700 }}>
                     <Trophy size={14} /> Completed
                   </div>
                 )}
@@ -221,7 +221,7 @@ export function TopicSelection({ onSelect }: Props) {
 
               <h3 style={{ fontSize: '1.25rem', margin: '0 0 0.5rem 0', color: 'var(--text-primary)', fontWeight: 700 }}>{topic.name}</h3>
               
-              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+              <div className="stats-row" style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
                 <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
                   <LibraryBig size={16} /> <span>{topicCount}</span> Questions
                 </span>
