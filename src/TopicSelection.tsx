@@ -61,7 +61,7 @@ export function TopicSelection({ onSelect }: Props) {
                   <span>Unlock Your Full Potential</span>
                 </div>
                 <p style={{ color: 'var(--text-secondary)', textAlign: 'center', margin: '0 0 1.5rem 0', fontSize: '1rem', maxWidth: '450px', lineHeight: '1.5' }}>
-                  Get instant access to all <strong style={{color: 'var(--text-primary)'}}>7,500+ questions</strong>, detailed AI explanations, spaced repetition, and advanced analytics.
+                  Get instant access to all <strong style={{color: 'var(--text-primary)'}}>7,500+ questions</strong>, detailed customized explanations, spaced repetition, and advanced analytics.
                 </p>
                 <button
                   onClick={() => setShowPaywall(true)}
@@ -74,7 +74,7 @@ export function TopicSelection({ onSelect }: Props) {
               </div>
             )}
             <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
-        <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Master fundamental knowledge with AI-driven explanations.</p>
+        <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Master fundamental knowledge with detailed, customized explanations.</p>
       </div>
 
       <div style={{ display: 'grid', gap: '1.5rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', marginBottom: '3rem' }}>
