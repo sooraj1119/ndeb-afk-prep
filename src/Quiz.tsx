@@ -46,7 +46,9 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
       const isPremium = getIsPremium();
       if (isSimulatedMode) {
         const activeMock = getActiveMockExam();
-        if (activeMock && activeMock.questions.length > 0) {
+        const isExpired = activeMock?.endTime ? (activeMock.endTime - Date.now()) <= 0 : false;
+        const isCompleted = activeMock ? activeMock.currentIndex >= activeMock.questions.length : false;
+        if (activeMock && activeMock.questions.length > 0 && !isExpired && !isCompleted) {
           qList = activeMock.questions;
           setCurrentIndex(activeMock.currentIndex);
           setScore(activeMock.score);
