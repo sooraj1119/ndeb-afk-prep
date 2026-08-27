@@ -4,7 +4,7 @@ import { PlayCircle, Clock, Trophy, Flame, ChevronRight, Activity, CalendarDays,
 import { motion } from 'framer-motion';
 import { getIsPremium } from './lib/storage';
 import { PaywallModal } from './PaywallModal';
-import { Lock, Crown } from 'lucide-react';
+import { Lock, Crown, Sparkles } from 'lucide-react';
 import { getTopicProgress, getDueSRSQuestions, getMistakes } from './lib/storage';
 import { loadAllQuestions } from './lib/questionsStore';
 
@@ -53,20 +53,27 @@ export function TopicSelection({ onSelect }: Props) {
   return (
           <div style={{ maxWidth: '900px', margin: '0 auto', padding: '1rem' }}>
         
-        <div style={{ marginBottom: '3rem', textAlign: 'center' }}>
-          {!isPremium && (
-            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
-              <button 
-                onClick={() => setShowPaywall(true)}
-                style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)', color: '#fff', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '20px', fontWeight: 600, cursor: 'pointer', boxShadow: '0 4px 15px rgba(245,158,11,0.4)', transition: 'transform 0.2s' }}
-              onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
-              onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
-              >
-                <Crown size={18} /> Upgrade to Pro
-              </button>
-            </div>
-          )}
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
+                  <div style={{ marginBottom: '3rem', textAlign: 'center' }}>
+            {!isPremium && (
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '2.5rem', background: 'linear-gradient(to bottom, rgba(245, 158, 11, 0.08), transparent)', padding: '2rem 1.5rem', borderRadius: 'var(--radius-lg)', border: '1px solid rgba(245, 158, 11, 0.15)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#d97706', marginBottom: '0.6rem', fontWeight: 800, fontSize: '1.2rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                  <Sparkles size={22} />
+                  <span>Unlock Your Full Potential</span>
+                </div>
+                <p style={{ color: 'var(--text-secondary)', textAlign: 'center', margin: '0 0 1.5rem 0', fontSize: '1rem', maxWidth: '450px', lineHeight: '1.5' }}>
+                  Get instant access to all <strong style={{color: 'var(--text-primary)'}}>7,500+ questions</strong>, detailed AI explanations, spaced repetition, and advanced analytics.
+                </p>
+                <button
+                  onClick={() => setShowPaywall(true)}
+                  style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)', color: '#fff', border: 'none', padding: '0.9rem 2.2rem', borderRadius: '30px', fontWeight: 700, fontSize: '1.1rem', cursor: 'pointer', boxShadow: '0 8px 20px rgba(245,158,11,0.3)', transition: 'all 0.2s' }}
+                onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 10px 25px rgba(245,158,11,0.4)'; }}
+                onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 8px 20px rgba(245,158,11,0.3)'; }}
+                >
+                  <Crown size={22} /> Upgrade to Pro
+                </button>
+              </div>
+            )}
+            <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
         <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Master fundamental knowledge with AI-driven explanations.</p>
       </div>
 
