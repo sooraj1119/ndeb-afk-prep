@@ -69,6 +69,33 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
     ? Math.round((totalAnsweredCorrectly / totalAttemptedQuestions) * 100) 
     : 0;
 
+  // --- Pacing Engine Logic ---
+  const totalBankQuestions = 7500; 
+  let answeredSoFar = 0;
+  Object.values(progress).forEach(p => {
+    answeredSoFar += p.questionsAnswered || 0;
+  });
+  
+  let daysLeft = 0;
+  let dailyQuota = 0;
+  if (examDate) {
+    const msLeft = examDate - Date.now();
+    daysLeft = Math.max(1, Math.ceil(msLeft / (1000 * 60 * 60 * 24)));
+    const remainingQuestions = Math.max(0, totalBankQuestions - answeredSoFar);
+    dailyQuota = Math.ceil(remainingQuestions / daysLeft);
+  }
+
+  const handleSaveDate = () => {
+    if (!tempDate) return;
+    const ms = new Date(tempDate).getTime();
+    if (typeof window !== 'undefined' && window.localStorage) {
+      localStorage.setItem('ndeb_prep_exam_date', ms.toString());
+    }
+    setExamDateState(ms);
+    setIsEditingDate(false);
+  };
+  // ---------------------------
+
   // Prepare chart data: format timestamp to a short date string, and calculate percentage
   const chartData = history.map((attempt, index) => {
     const date = new Date(attempt.timestamp);
