@@ -34,7 +34,7 @@ html.dark {
   --surface-hover: rgba(255, 255, 255, 0.06);
 }
 
-/* ── Base ── */
+/* â”€â”€ Base â”€â”€ */
 *, *::before, *::after { box-sizing: border-box; }
 
 html::before {
@@ -75,7 +75,7 @@ html.dark::before {
                     radial-gradient(ellipse at 80% 90%, rgba(52, 211, 153, 0.05) 0%, transparent 60%);
 }
 
-/* ── Glass Panel ── */
+/* â”€â”€ Glass Panel â”€â”€ */
 .glass-panel {
   background: var(--surface-color);
   backdrop-filter: blur(16px);
@@ -86,7 +86,7 @@ html.dark::before {
   transition: all 0.3s ease;
 }
 
-/* ── Buttons ── */
+/* â”€â”€ Buttons â”€â”€ */
 .primary-btn {
   background: var(--accent-color);
   color: white;
@@ -117,7 +117,7 @@ html.dark::before {
 }
 .secondary-btn:hover { background: var(--border-color); }
 
-/* ── Nav button ── */
+/* â”€â”€ Nav button â”€â”€ */
 .nav-btn {
   background: none;
   border: 1px solid var(--border-color);
@@ -133,12 +133,12 @@ html.dark::before {
 }
 .nav-btn:hover { background: var(--surface-hover); }
 
-/* ── Bottom sheet safe area ── */
+/* â”€â”€ Bottom sheet safe area â”€â”€ */
 .bottom-sheet {
   padding-bottom: calc(1.25rem + env(safe-area-inset-bottom));
 }
 
-/* ── Shake animation (legacy) ── */
+/* â”€â”€ Shake animation (legacy) â”€â”€ */
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
   20%, 60%  { transform: translateX(-5px); }
@@ -148,7 +148,7 @@ html.dark::before {
 
 @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-/* ── Mobile responsive ── */
+/* â”€â”€ Mobile responsive â”€â”€ */
 @media (max-width: 600px) {
   /* Compact quiz panel on small screens */
   .glass-panel { border-radius: var(--radius-md) !important; }
@@ -170,6 +170,12 @@ html.dark::before {
 
 
 
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
 @media (max-width: 640px) {
   .topic-grid {
     grid-template-columns: repeat(2, 1fr) !important;
