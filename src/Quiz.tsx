@@ -314,6 +314,22 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
         <ArrowLeft size={20} /> Back
       </button>
 
+      {!isPremium && !isSimulatedMode && !isFlaggedMode && !isSRSMode && !isMistakesMode && (
+        <div 
+          onClick={() => setShowPaywall(true)}
+          style={{ background: 'linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(217, 119, 6, 0.1) 100%)', border: '1px solid rgba(245, 158, 11, 0.3)', padding: '0.8rem 1rem', borderRadius: 'var(--radius-md)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', cursor: 'pointer', flexWrap: 'wrap', gap: '0.5rem' }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#d97706', fontSize: '0.9rem', fontWeight: 600 }}>
+            <span style={{display: 'inline-block', verticalAlign: 'middle'}}><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"/></svg></span>
+            <span>Free Tier Preview: Viewing 100 of 500 questions.</span>
+          </div>
+          <button style={{ background: '#f59e0b', color: '#fff', border: 'none', padding: '0.5rem 1rem', borderRadius: 'var(--radius-sm)', fontSize: '0.85rem', fontWeight: 600, cursor: 'pointer' }}>
+            Unlock All 500
+          </button>
+        </div>
+      )}
+
+
       <div style={{ width: '100%', height: '6px', background: '#e2e8f0', borderRadius: '3px', marginBottom: '1.5rem', overflow: 'hidden' }}>
         <motion.div 
           initial={{ width: 0 }}
