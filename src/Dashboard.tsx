@@ -86,8 +86,15 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
   }
 
   const handleSaveDate = () => {
-    if (!tempDate) return;
-    const ms = new Date(tempDate).getTime();
+    if (!tempDate) {
+      setIsEditingDate(false);
+      return;
+    }
+    // Safari iOS bug fix: explicitly parse YYYY-MM-DD instead of relying on new Date(string)
+    const [year, month, day] = tempDate.split('-');
+    const dateObj = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+    const ms = dateObj.getTime();
+    
     if (typeof window !== 'undefined' && window.localStorage) {
       localStorage.setItem('ndeb_prep_exam_date', ms.toString());
     }
