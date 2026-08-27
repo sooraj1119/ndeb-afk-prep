@@ -237,51 +237,51 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
       </div>
 
       {/* Learning Curve Analytics Graph */}
-      <div style={{ marginBottom: '2rem' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
-          <div style={{ background: 'rgba(56, 189, 248, 0.1)', padding: '0.8rem', borderRadius: '50%', color: 'var(--accent-color)' }}>
-            <TrendingUp size={24} />
+        <div className="glass-panel" style={{ padding: '2rem', marginBottom: '2rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
+            <div style={{ background: 'rgba(56, 189, 248, 0.1)', padding: '0.8rem', borderRadius: '50%', color: 'var(--accent-color)' }}>
+              <TrendingUp size={24} />
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.4rem', margin: 0, color: 'var(--text-primary)' }}>Progress Learning Curve</h3>
+              <p style={{ margin: '0.2rem 0 0', color: 'var(--text-secondary)', fontSize: '0.85rem' }}>Milestone accuracy mapped per 100 questions completed</p>
+            </div>
           </div>
-          <h3 style={{ fontSize: '1.4rem', margin: 0, color: 'var(--text-primary)' }}>Learning Curves by Topic</h3>
+          
+          {chartData.length > 0 ? (
+            <div style={{ width: '100%', height: '350px' }}>
+              <ResponsiveContainer>
+                <LineChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="var(--border-color)" />
+                  <XAxis dataKey="name" stroke="var(--text-secondary)" fontSize={12} tickMargin={10} />
+                  <YAxis stroke="var(--text-secondary)" fontSize={12} domain={[0, 100]} tickFormatter={(val) => `${val}%`} />
+                  <Tooltip 
+                    contentStyle={{ backgroundColor: 'var(--surface-color)', borderColor: 'var(--border-color)', borderRadius: '8px' }}
+                    itemStyle={{ fontWeight: 'bold' }}
+                    formatter={(value: number, name: string) => [`${value}%`, name]}
+                  />
+                  {activeTopicNames.map((name, idx) => (
+                    <Line 
+                      key={name}
+                      type="monotone" 
+                      dataKey={name} 
+                      stroke={CHART_COLORS[idx % CHART_COLORS.length]} 
+                      strokeWidth={3}
+                      connectNulls
+                      activeDot={{ r: 6, strokeWidth: 2 }}
+                    />
+                  ))}
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+          ) : (
+            <div style={{ textAlign: 'center', padding: '3rem 1rem', color: 'var(--text-secondary)' }}>
+              <p style={{ margin: 0 }}>Complete 100 questions in any topic to unlock your learning curve.</p>
+            </div>
+          )}
         </div>
-        
-        {Object.keys(groupedChartData).length > 0 ? (
-          <div className="topic-grid">
-            {Object.values(groupedChartData).map((chartGroup, idx) => (
-              <div key={idx} className="glass-panel" style={{ padding: '1.5rem' }}>
-                <h4 style={{ margin: '0 0 1.5rem 0', color: 'var(--text-primary)', fontSize: '1.1rem' }}>{chartGroup.name}</h4>
-                <div style={{ width: '100%', height: '200px' }}>
-                  <ResponsiveContainer>
-                    <LineChart data={chartGroup.data} margin={{ top: 5, right: 5, left: -25, bottom: 0 }}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="var(--border-color)" />
-                      <XAxis dataKey="name" stroke="var(--text-secondary)" fontSize={10} tickMargin={10} />
-                      <YAxis stroke="var(--text-secondary)" fontSize={10} domain={[0, 100]} tickFormatter={(val) => `${val}%`} />
-                      <Tooltip 
-                        contentStyle={{ backgroundColor: 'var(--surface-color)', borderColor: 'var(--border-color)', borderRadius: '8px' }}
-                        itemStyle={{ color: 'var(--accent-color)', fontWeight: 'bold' }}
-                        formatter={(value: number) => [`${value}%`, 'Accuracy']}
-                      />
-                      <Line 
-                        type="monotone" 
-                        dataKey="score" 
-                        stroke="var(--accent-color)" 
-                        strokeWidth={3}
-                        activeDot={{ r: 6, fill: 'var(--accent-color)', stroke: 'var(--surface-color)', strokeWidth: 2 }}
-                      />
-                    </LineChart>
-                  </ResponsiveContainer>
-                </div>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="glass-panel" style={{ textAlign: 'center', padding: '3rem 1rem', color: 'var(--text-secondary)' }}>
-            <p style={{ margin: 0 }}>Complete a quiz to see your learning curve.</p>
-          </div>
-        )}
-      </div>
-
-      {/* Flagged Review Section */}
+  
+        {/* Flagged Review Section */}
       <div className="glass-panel" style={{ padding: '2rem', marginBottom: '1rem', display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'center', justifyContent: 'space-between', background: 'linear-gradient(to right, var(--surface-color), rgba(251, 191, 36, 0.1))' }}>
         <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '1.5rem' }}>
           <div style={{ background: 'rgba(217, 119, 6, 0.1)', padding: '1.2rem', borderRadius: '50%', color: '#d97706' }}>
