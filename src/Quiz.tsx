@@ -59,7 +59,9 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
             saveActiveMockExam({ ...activeMock, endTime: newEndTime });
           }
         } else {
-          qList = [...getQuestions()].sort(() => Math.random() - 0.5).slice(0, 100);
+          const store = await import('./lib/questionsStore');
+            await store.loadAllQuestions();
+            qList = [...store.getQuestions()].sort(() => Math.random() - 0.5).slice(0, 100);
           const endTime = Date.now() + 9000 * 1000;
           setTimeLeft(9000);
           saveActiveMockExam({ questions: qList, currentIndex: 0, score: 0, endTime });
