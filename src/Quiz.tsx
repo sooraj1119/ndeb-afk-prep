@@ -24,6 +24,8 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
   const breakdownRef = useRef<Record<string, { correct: number; total: number }>>({});
   
   const [topicQuestions, setTopicQuestions] = useState<any[]>([]);
+  const [showPaywall, setShowPaywall] = useState(false);
+  const isPremium = getIsPremium();
   const [topicName, setTopicName] = useState("");
   
   const [currentIndex, setCurrentIndex] = useState(0);

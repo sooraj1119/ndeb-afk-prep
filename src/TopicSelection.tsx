@@ -216,7 +216,7 @@ export function TopicSelection({ onSelect }: Props) {
               
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
                 <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-                  <LibraryBig size={16} /> <span>{!isPremium ? `100 / ${topicCount}` : topicCount}</span> Questions
+                  <LibraryBig size={16} /> <span>{topicCount}</span> Questions
                 </span>
                 {progress && progress.currentIndex > 0 && !progress.isFinished && (
                   <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#eab308' }}>
