@@ -74,10 +74,73 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
       animate={{ opacity: 1, y: 0 }}
       style={{ maxWidth: '1000px', margin: '0 auto', padding: '1rem' }}
     >
-      <div style={{ marginBottom: '3rem', textAlign: 'center' }}>
-        <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Your Progress Dashboard</h2>
-        <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Track your exam readiness and review your weak points.</p>
-      </div>
+              <div style={{ marginBottom: '3rem', textAlign: 'center' }}>
+          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Your Progress Dashboard</h2>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Track your exam readiness and review your weak points.</p>
+        </div>
+        
+        {/* Dynamic Study Pacing Engine */}
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          style={{ marginBottom: '2.5rem', background: 'linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)', borderRadius: 'var(--radius-lg)', padding: '1.5rem 2rem', border: '1px solid #bbf7d0', display: 'flex', flexDirection: 'column', gap: '1rem', boxShadow: '0 4px 15px rgba(22, 163, 74, 0.1)' }}
+        >
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+              <div style={{ background: '#22c55e', color: 'white', padding: '0.75rem', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 10px rgba(34,197,94,0.3)' }}>
+                <CalendarDays size={24} />
+              </div>
+              <div>
+                <h3 style={{ margin: 0, fontSize: '1.3rem', color: '#166534', fontWeight: 700 }}>Dynamic Study Pacer</h3>
+                <p style={{ margin: '0.2rem 0 0', color: '#15803d', fontSize: '0.95rem' }}>Automated planning for your exam date</p>
+              </div>
+            </div>
+            
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              {isEditingDate ? (
+                <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+                  <input 
+                    type="date" 
+                    value={tempDate} 
+                    onChange={(e) => setTempDate(e.target.value)}
+                    style={{ padding: '0.5rem', borderRadius: '8px', border: '1px solid #86efac', outline: 'none' }}
+                  />
+                  <button onClick={handleSaveDate} style={{ background: '#16a34a', color: 'white', border: 'none', padding: '0.5rem', borderRadius: '8px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Check size={18} /></button>
+                </div>
+              ) : (
+                <button 
+                  onClick={() => setIsEditingDate(true)}
+                  style={{ background: 'white', color: '#15803d', border: '1px solid #bbf7d0', padding: '0.5rem 1rem', borderRadius: '20px', fontSize: '0.9rem', fontWeight: 600, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.4rem', boxShadow: '0 2px 5px rgba(0,0,0,0.05)' }}
+                >
+                  <Edit2 size={14} /> {examDate ? new Date(examDate).toLocaleDateString(undefined, {month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC'}) : "Set Exam Date"}
+                </button>
+              )}
+            </div>
+          </div>
+          
+          {examDate ? (
+            <div style={{ background: 'white', borderRadius: '12px', padding: '1.5rem', display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', marginTop: '0.5rem' }}>
+              <div style={{ textAlign: 'center' }}>
+                <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#16a34a', lineHeight: 1 }}>{dailyQuota}</div>
+                <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Questions / Day</div>
+              </div>
+              <div style={{ height: '50px', width: '1px', background: '#e5e7eb', display: typeof window !== 'undefined' && window.innerWidth > 500 ? 'block' : 'none' }} />
+              <div style={{ textAlign: 'center' }}>
+                <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#3b82f6', lineHeight: 1 }}>{daysLeft}</div>
+                <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Days Left</div>
+              </div>
+              <div style={{ height: '50px', width: '1px', background: '#e5e7eb', display: typeof window !== 'undefined' && window.innerWidth > 500 ? 'block' : 'none' }} />
+              <div style={{ textAlign: 'center' }}>
+                <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#f59e0b', lineHeight: 1 }}>{totalBankQuestions - answeredSoFar}</div>
+                <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Remaining in Bank</div>
+              </div>
+            </div>
+          ) : (
+            <div style={{ background: 'white', borderRadius: '12px', padding: '1.5rem', textAlign: 'center', marginTop: '0.5rem' }}>
+              <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '1.05rem' }}>Set your exam date to instantly generate a personalized daily study quota.</p>
+            </div>
+          )}
+        </motion.div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem', marginBottom: '2rem' }}>
         
