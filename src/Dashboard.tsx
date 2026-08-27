@@ -113,18 +113,47 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
   // ---------------------------
 
   // Prepare chart data: format timestamp to a short date string, and calculate percentage
-  const groupedChartData = history.reduce((acc, attempt) => {
-    const date = new Date(attempt.timestamp);
-    const shortDate = `${date.getMonth() + 1}/${date.getDate()} ${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
-    const dataPoint = {
-      name: shortDate,
-      score: Math.round((attempt.score / attempt.total) * 100),
-      topic: topics.find(t => t.id === attempt.topicId)?.name || attempt.topicId
-    };
-    if (!acc[attempt.topicId]) acc[attempt.topicId] = { name: dataPoint.topic, data: [] };
-    acc[attempt.topicId].data.push(dataPoint);
+  const topicHistories = history.reduce((acc, attempt) => {
+    if (!acc[attempt.topicId]) acc[attempt.topicId] = [];
+    acc[attempt.topicId].push(attempt);
     return acc;
-  }, {} as Record<string, { name: string, data: any[] }>);
+  }, {} as Record<string, QuizAttempt[]>);
+
+  const topicMilestones: Record<string, Record<number, number>> = {};
+  let maxMilestone = 0;
+
+  for (const [topicId, attempts] of Object.entries(topicHistories)) {
+    let cumulativeTotal = 0;
+    let cumulativeScore = 0;
+    let nextTarget = 100;
+    topicMilestones[topicId] = {};
+
+    for (const attempt of attempts) {
+      cumulativeTotal += attempt.total;
+      cumulativeScore += attempt.score;
+
+      while (cumulativeTotal >= nextTarget) {
+        topicMilestones[topicId][nextTarget] = Math.round((cumulativeScore / cumulativeTotal) * 100);
+        if (nextTarget > maxMilestone) maxMilestone = nextTarget;
+        nextTarget += 100;
+      }
+    }
+  }
+
+  const chartData: any[] = [];
+  for (let m = 100; m <= maxMilestone; m += 100) {
+    const dataPoint: any = { name: `${m} Qs` };
+    for (const topicId of Object.keys(topicHistories)) {
+      if (topicMilestones[topicId][m] !== undefined) {
+        const topicName = topics.find(t => t.id === topicId)?.name || topicId;
+        dataPoint[topicName] = topicMilestones[topicId][m];
+      }
+    }
+    chartData.push(dataPoint);
+  }
+
+  const CHART_COLORS = ['#0ea5e9', '#ef4444', '#f59e0b', '#84cc16', '#a855f7', '#6366f1', '#f97316', '#22c55e', '#ec4899'];
+  const activeTopicNames = Object.keys(topicHistories).map(id => topics.find(t => t.id === id)?.name || id);
 
   return (
     <motion.div 
