@@ -6772,5 +6772,131 @@
     ],
     "correctAnswer": 1,
     "explanation": "An unfavorable root length-to-crown ratio (such as 1:2) combined with severe attachment loss drastically reduces the tooth's ability to withstand functional occlusal loads, conferring a poor long-term prognosis. Class I furcation involvements and mild pockets are much more favorable and predictable to manage."
+  },
+  {
+    "id": 105726039,
+    "topicId": "periodontology",
+    "difficulty": "hard",
+    "question": "A 48-year-old male presents with generalized gingival inflammation, bleeding on probing (BOP) in 70% of sites, and persistent probing depths (PDs) ranging from 4-7mm. Radiographs show horizontal bone loss affecting the coronal third of the roots across most dentition, with some localized vertical defects on posterior teeth. He has lost two teeth due to periodontal disease in the past five years. He smokes 15 cigarettes daily.",
+    "options": [
+      "Stage II Grade B Generalized Periodontitis",
+      "Stage III Grade C Generalized Periodontitis",
+      "Stage IV Grade B Generalized Periodontitis",
+      "Stage II Grade C Localized Periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stage III is indicated by interdental CAL ≥5mm at ≥2 non-adjacent teeth, with radiographic bone loss extending to the middle third of the root (or up to 4 teeth lost due to periodontitis). The patient's PDs up to 7mm and two lost teeth fit Stage III. His smoking status (15 cigarettes/day) makes it a Grade C, indicating rapid progression or high risk. Stage IV would involve loss of 5 or more teeth or severe complex functional problems."
+  },
+  {
+    "id": 412263457,
+    "topicId": "periodontology",
+    "difficulty": "hard",
+    "question": "Which of the following host-derived enzymes is primarily responsible for the irreversible destruction of collagen fibers in the periodontal ligament and alveolar bone during periodontitis progression?",
+    "options": [
+      "Lactoferrin",
+      "Myeloperoxidase (MPO)",
+      "Matrix Metalloproteinases (MMPs)",
+      "Cathepsin G"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Matrix Metalloproteinases (MMPs), particularly collagenases, are the key host-derived enzymes involved in the breakdown of the extracellular matrix components, including collagen, in periodontal tissues, leading to irreversible tissue destruction. Lactoferrin and Myeloperoxidase are antimicrobial proteins/enzymes involved in immune defense but not directly in collagen degradation. Cathepsin G is a serine protease involved in host defense, but MMPs are the primary collagenases."
+  },
+  {
+    "id": 991292066,
+    "topicId": "periodontology",
+    "difficulty": "hard",
+    "question": "A 55-year-old female patient completed generalized scaling and root planing 3 months ago for Stage III Grade B Generalized Periodontitis. At her re-evaluation, all clinical parameters have improved significantly except for persistent bleeding on probing and a 6mm probing depth on the disto-buccal aspect of tooth #36, which also exhibits a Class II furcation involvement. The adjacent teeth show good response to therapy.",
+    "options": [
+      "Prescribe systemic antibiotics (e.g., amoxicillin + metronidazole)",
+      "Refer for periodontal surgical intervention (e.g., osseous surgery or regenerative procedure)",
+      "Repeat scaling and root planing in that specific area",
+      "Schedule a 6-month recall for re-assessment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Persistent deep probing depths (≥5mm) with bleeding after initial non-surgical therapy, especially in a furcation area, suggest a site refractory to conventional treatment. Such sites often indicate a need for surgical intervention to gain access for thorough debridement, address anatomical defects, or attempt regeneration. Repeating SRP is unlikely to provide a definitive solution, and systemic antibiotics are typically reserved for generalized aggressive or refractory cases, not an isolated site."
+  },
+  {
+    "id": 153572165,
+    "topicId": "periodontology",
+    "difficulty": "hard",
+    "question": "Which of the following conditions is generally considered the *most* favorable anatomical defect for successful guided tissue regeneration (GTR) in periodontics?",
+    "options": [
+      "Class III furcation involvement",
+      "Horizontal bone loss",
+      "Wide, shallow two-wall intrabony defect",
+      "Deep, narrow three-wall intrabony defect"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Deep, narrow three-wall intrabony defects offer the best prognosis for GTR because they provide a contained space for the blood clot and regenerating tissues, maximizing the number of remaining bony walls to support the space-maintaining membrane and limit epithelial migration. Class III furcations and horizontal bone loss are generally less predictable for regeneration. Wide, shallow two-wall defects offer less containment compared to three-wall defects."
+  },
+  {
+    "id": 470475034,
+    "topicId": "periodontology",
+    "difficulty": "hard",
+    "question": "A 60-year-old non-smoking patient presents for a routine check-up. She has a dental implant in the #46 region placed 8 years ago. Clinically, there is redness and swelling of the peri-implant tissues, probing depths are 7mm all around the implant, and pus can be expressed. Radiographs show saucerization of the bone around the implant platform, with approximately 3mm of bone loss compared to baseline radiographs taken 5 years ago.",
+    "options": [
+      "Peri-implant mucositis",
+      "Peri-implantitis",
+      "Implant failure",
+      "Peri-implant trauma from occlusion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Peri-implantitis is characterized by inflammation in the peri-implant soft tissues (redness, swelling, suppuration, increased probing depths) and progressive bone loss beyond the initial bone remodeling, often compared to baseline radiographs. The presence of both inflammation and documented progressive bone loss (3mm) definitively indicates peri-implantitis. Peri-implant mucositis involves inflammation without bone loss, and implant failure implies loss of osseointegration leading to mobility."
+  },
+  {
+    "id": 488958016,
+    "topicId": "periodontology",
+    "difficulty": "hard",
+    "question": "A patient with poorly controlled Type 2 Diabetes Mellitus is undergoing periodontal treatment. Which of the following is a primary reason why diabetic patients often exhibit more severe periodontitis and less predictable treatment outcomes?",
+    "options": [
+      "Increased salivary glucose levels promoting cariogenic bacteria",
+      "Enhanced production of protective antioxidants in the gingival crevicular fluid",
+      "Impaired neutrophil function and increased production of pro-inflammatory cytokines",
+      "Accelerated epithelialization and collagen synthesis in healing tissues"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Poorly controlled diabetes leads to more severe periodontitis due to impaired immune cell function (e.g., reduced neutrophil chemotaxis and phagocytosis) and an exaggerated inflammatory response, characterized by increased production of pro-inflammatory cytokines. These factors exacerbate tissue destruction and impair healing. Increased salivary glucose primarily impacts caries, not directly periodontitis severity, and healing is typically delayed, not accelerated."
+  },
+  {
+    "id": 706531249,
+    "topicId": "periodontology",
+    "difficulty": "hard",
+    "question": "A 42-year-old female successfully completed active periodontal therapy for generalized Stage III Grade B periodontitis a year ago. She achieved significant reductions in probing depths (all ≤4mm), no bleeding on probing, and maintains excellent oral hygiene with a plaque score of 10%. She is a non-smoker and has no systemic conditions.",
+    "options": [
+      "Every 3 months",
+      "Every 6 months",
+      "Every 9 months",
+      "Every 12 months"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Patients with a history of moderate to severe periodontitis, even after successful active therapy, are at high risk for recurrence. A 3-month periodontal maintenance recall interval is generally recommended for such patients to ensure ongoing control of biofilm, early detection of any re-infection or disease progression, and reinforcement of oral hygiene, optimizing long-term stability. Longer intervals are typically reserved for patients with gingivitis or very stable, mild periodontitis without a significant disease history."
+  },
+  {
+    "id": 431130010,
+    "topicId": "periodontology",
+    "difficulty": "hard",
+    "question": "Systemic antibiotics, when used as an adjunct to scaling and root planing (SRP), are most commonly indicated for which of the following periodontal conditions?",
+    "options": [
+      "Chronic gingivitis unresponsive to oral hygiene instruction",
+      "Localized aggressive periodontitis",
+      "Peri-implant mucositis",
+      "Mild chronic periodontitis with localized 5mm probing depths"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Systemic antibiotics are most strongly indicated as an adjunct to SRP for aggressive forms of periodontitis (e.g., localized or generalized aggressive periodontitis) due to their often rapid progression and association with specific virulent pathogens, where SRP alone may be insufficient. They are also considered for severe generalized chronic periodontitis or refractory cases. Chronic gingivitis and peri-implant mucositis are typically managed effectively with mechanical debridement alone."
+  },
+  {
+    "id": 152335284,
+    "topicId": "periodontology",
+    "difficulty": "hard",
+    "question": "A 28-year-old male presents with severe, sudden onset pain, interdental necrosis, pseudomembrane formation, and generalized foul odor, primarily affecting the anterior mandibular region. He reports recent high stress levels and is a heavy smoker. Probing reveals superficial ulcerations and bleeding with minimal pressure.",
+    "options": [
+      "Acute Pericoronitis",
+      "Periodontal Abscess",
+      "Acute Necrotizing Ulcerative Gingivitis (ANUG)",
+      "Herpes Simplex Gingivostomatitis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The classic triad of symptoms – pain, interdental necrosis (punched-out papillae), and pseudomembrane formation, combined with predisposing factors like stress and smoking, are highly characteristic of Acute Necrotizing Ulcerative Gingivitis (ANUG). Acute pericoronitis is localized inflammation around an erupting tooth. A periodontal abscess presents as a localized swelling and tenderness. Herpes Simplex Gingivostomatitis typically involves widespread painful vesicles and ulcers, often involving attached gingiva and other oral mucosa."
   }
 ]

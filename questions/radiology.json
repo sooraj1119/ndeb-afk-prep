@@ -6661,5 +6661,243 @@
     ],
     "correctAnswer": 2,
     "explanation": "Periapical granulomas and periapical cysts are histologically distinct inflammatory lesions at the apex of a non-vital tooth, but they present identically on conventional radiographs as round or ovoid radiolucencies with loss of the lamina dura. Definitive differentiation requires histopathological examination, although cysts tend to be larger."
+  },
+  {
+    "id": 155797905,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A 45-year-old male patient presents for a routine dental check-up. The dentist recommends a full mouth series (FMS) of periapical and bitewing radiographs. Compared to the effective dose from natural background radiation for an average Canadian annually, a full mouth series typically contributes what approximate fraction?",
+    "options": [
+      "Less than 1% of annual background radiation.",
+      "Approximately 5-10% of annual background radiation.",
+      "About 20-30% of annual background radiation.",
+      "Greater than 50% of annual background radiation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A full mouth series using digital receptors typically delivers an effective dose ranging from 0.01 to 0.1 mSv. The average annual natural background radiation in Canada is approximately 1.8 mSv. Therefore, 0.1 mSv is roughly 5-10% of 1.8 mSv, making option B the most accurate. The other options significantly overestimate or underestimate the contribution of dental radiography to annual background radiation."
+  },
+  {
+    "id": 275833303,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A 30-year-old female presents with a non-vital mandibular first molar. Radiographically, a 1.5 cm well-defined, unilocular radiolucency is noted at the apex, associated with the root. The lamina dura is lost locally, and a thin, sclerotic border is visible peripherally. The most probable diagnosis for this lesion is a:",
+    "options": [
+      "Periapical granuloma",
+      "Periapical cyst (radicular cyst)",
+      "Apical scar",
+      "Periapical cemento-osseous dysplasia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The description of a well-defined, unilocular radiolucency of 1.5 cm with a sclerotic border associated with a non-vital tooth is highly characteristic of a periapical (radicular) cyst. While a granuloma can also be associated with a non-vital tooth, it typically appears as a smaller, less well-defined radiolucency. An apical scar would follow root canal treatment and is not primarily a lesion of necrosis. Periapical cemento-osseous dysplasia is a vital pulp condition and would present differently, often with mixed radiolucent/radiopaque features in later stages."
+  },
+  {
+    "id": 695995786,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A panoramic radiograph of a 55-year-old male patient shows that the anterior teeth are severely narrowed and blurred, while the posterior teeth appear widened. This artifact is most likely caused by the patient's head being positioned:",
+    "options": [
+      "Too far forward in the focal trough",
+      "Too far back in the focal trough",
+      "With the chin tipped too high",
+      "With the chin tipped too low"
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a patient's anterior teeth are positioned too far forward in the panoramic focal trough, they appear narrowed and blurred due to being outside the optimal focal plane. Conversely, when anterior teeth are too far back, they appear widened. Chin tipped too high would result in a flat occlusal plane and condyles off the superior edge, while chin tipped too low would lead to an exaggerated smile line and ghosting of the hyoid bone."
+  },
+  {
+    "id": 772945797,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "Which of the following is a significant advantage of using Charged Couple Device (CCD) or Complementary Metal-Oxide-Semiconductor (CMOS) digital sensors for intraoral radiography compared to Photo Stimulable Phosphor (PSP) plates?",
+    "options": [
+      "They are more flexible and comfortable for the patient.",
+      "They have a wider dynamic range, reducing exposure errors.",
+      "They offer instant image display without a separate scanning step.",
+      "They are generally less expensive to purchase and maintain."
+    ],
+    "correctAnswer": 2,
+    "explanation": "CCD/CMOS sensors provide instant image display because they are directly wired to the computer, eliminating the need for a separate scanning step required by PSP plates. PSP plates are generally more flexible and comfortable for patients. While both digital systems have a wider dynamic range than film, this isn't exclusive to CCD/CMOS over PSP. CCD/CMOS sensors are typically more expensive upfront than PSP systems, though long-term costs vary."
+  },
+  {
+    "id": 467993373,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A 25-year-old male presents with swelling in the posterior mandible. A panoramic radiograph reveals a large, multilocular radiolucency extending from the body to the ramus, involving the angle of the mandible. The lesion shows cortical expansion and displacement of the inferior alveolar canal. Which of the following is the most likely diagnosis?",
+    "options": [
+      "Radicular cyst",
+      "Dentigerous cyst",
+      "Odontogenic keratocyst (OKC) / Keratocystic Odontogenic Tumor (KCOT)",
+      "Ameloblastoma"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A large, multilocular radiolucency causing cortical expansion and displacement of the inferior alveolar canal is highly characteristic of an Ameloblastoma, a benign but locally aggressive odontogenic tumor. While an OKC/KCOT can be multilocular and expansive, its classic presentation is often in the posterior mandible, but ameloblastoma is a stronger fit for 'large, multilocular, expansive' features. Radicular and dentigerous cysts are typically unilocular. The size and aggressive nature described lean towards Ameloblastoma among the options."
+  },
+  {
+    "id": 924148007,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A 40-year-old male requires assessment for implant placement in the posterior maxilla, specifically to evaluate the bone quantity and quality relative to the maxillary sinus floor and adjacent anatomical structures. Which imaging modality is considered the gold standard for this pre-surgical evaluation?",
+    "options": [
+      "Panoramic radiograph",
+      "Periapical radiograph",
+      "Lateral cephalometric radiograph",
+      "Cone Beam Computed Tomography (CBCT)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For detailed pre-surgical implant planning, including assessment of bone quantity, quality, and relationship to critical anatomical structures like the maxillary sinus and inferior alveolar nerve, CBCT is the gold standard. It provides true three-dimensional imaging. Panoramic and periapical radiographs are 2D images that superimpose structures and do not provide accurate buccolingual dimensions. Lateral cephalometric radiographs are used for orthodontic and orthognathic surgery assessment, not typically for implant planning."
+  },
+  {
+    "id": 329719759,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "Which of the following cellular components is considered most radiosensitive, making it a critical target for radiation damage?",
+    "options": [
+      "Mature erythrocytes (red blood cells)",
+      "Nerve cells",
+      "Lymphocytes",
+      "Muscle cells"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lymphocytes are among the most radiosensitive cells in the body due to their high mitotic activity and specialized function in the immune system. Mature erythrocytes, nerve cells, and muscle cells are relatively radioresistant because they are highly differentiated and have low mitotic rates. The sensitivity of cells to radiation is directly proportional to their reproductive capacity and inversely proportional to their degree of differentiation (Law of Bergonié and Tribondeau)."
+  },
+  {
+    "id": 923186937,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A bitewing radiograph of a 60-year-old patient reveals horizontal bone loss extending to the middle third of the root of several mandibular posterior teeth, along with angular bone defects in some interproximal areas. There is also evidence of slight tooth mobility clinically. These radiographic findings are most consistent with:",
+    "options": [
+      "Gingivitis",
+      "Mild chronic periodontitis",
+      "Moderate chronic periodontitis",
+      "Aggressive periodontitis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Horizontal bone loss extending to the middle third of the root (approximately 30-50% bone loss), combined with angular bone defects, indicates moderate periodontitis. Mild periodontitis would show less than 30% bone loss. Gingivitis does not involve radiographic bone loss. While aggressive periodontitis involves rapid bone loss, the scenario describes 'horizontal bone loss' and 'angular bone defects' typical of chronic forms, and the age (60) also makes chronic more likely than aggressive."
+  },
+  {
+    "id": 570871134,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A patient expresses concern about receiving dental radiographs. According to Canadian dental standards, what is the most appropriate action for the dentist to take regarding informed consent for radiographs?",
+    "options": [
+      "Proceed with radiographs as they are essential for diagnosis, assuming implied consent.",
+      "Obtain verbal consent only after explaining the necessity and risks, then proceed.",
+      "Inform the patient about the necessity, benefits, risks (including radiation exposure), and alternatives to radiographs, allowing the patient to make an informed decision.",
+      "Provide a standardized consent form for all dental procedures, including radiographs, for the patient to sign."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Informed consent requires discussing the necessity, benefits, risks (including radiation exposure), and any alternatives to the proposed procedure, allowing the patient to make an autonomous decision. Implied consent is insufficient for radiographs. While verbal consent is acceptable for minor procedures, the depth of discussion described in option C ensures true informed consent. A standardized form (option D) without a thorough discussion is also inadequate for true informed consent."
+  },
+  {
+    "id": 191049135,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "During an intraoral periapical radiograph using the paralleling technique for the maxillary molars, the resulting image shows the cusps of the molars appearing significantly shorter than their actual clinical height, with the palatal roots appearing disproportionately long. This error is most likely due to:",
+    "options": [
+      "Insufficient vertical angulation of the X-ray tube head.",
+      "Excessive vertical angulation of the X-ray tube head.",
+      "Incorrect horizontal angulation of the X-ray tube head.",
+      "Film/sensor placement too far from the palatal vault."
+    ],
+    "correctAnswer": 1,
+    "explanation": "When using the paralleling technique, excessive vertical angulation of the X-ray tube head causes foreshortening, where the image appears shorter than the actual object. Conversely, insufficient vertical angulation leads to elongation. Incorrect horizontal angulation would cause overlapping of contacts, not foreshortening/elongation. While film/sensor placement too far from the palatal vault can occur, the primary cause of foreshortening is excessive vertical angulation."
+  },
+  {
+    "id": 523148912,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A panoramic radiograph of a 7-year-old child shows multiple developing teeth that are impacted and appear to be displacing adjacent tooth buds. Additionally, some unerupted permanent teeth show a surrounding follicular space greater than 3mm. The child also presents with short stature and an abnormal clavicular appearance clinically. Which developmental anomaly should be strongly considered?",
+    "options": [
+      "Amelogenesis imperfecta",
+      "Dentigerous cyst",
+      "Cleidocranial dysplasia",
+      "Gardner syndrome"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The constellation of multiple impacted and supernumerary teeth, delayed eruption, abnormally large follicular spaces (suggesting potential dentigerous cysts), along with short stature and clavicular abnormalities (hypoplastic or absent clavicles), is highly characteristic of Cleidocranial dysplasia. Amelogenesis imperfecta affects enamel formation. While dentigerous cysts can occur, the widespread impactions and extra-skeletal findings point to a systemic condition. Gardner syndrome is characterized by osteomas, epidermoid cysts, and polyps, not primarily widespread dental impactions and clavicular abnormalities."
+  },
+  {
+    "id": 738478187,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "When taking intraoral radiographs, the primary purpose of using a rectangular collimator instead of a circular collimator is to:",
+    "options": [
+      "Increase the intensity of the X-ray beam.",
+      "Reduce the focal spot size, improving image sharpness.",
+      "Decrease the size of the X-ray beam, thereby reducing patient radiation exposure.",
+      "Filter out low-energy X-rays, increasing beam penetration."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A rectangular collimator significantly reduces the size of the X-ray beam to just slightly larger than the image receptor, thereby minimizing the volume of tissue irradiated and reducing patient radiation exposure by up to 60-70% compared to circular collimation. It does not increase beam intensity or reduce focal spot size. Filtration, not collimation, is responsible for removing low-energy X-rays to increase beam penetration and reduce surface dose."
+  },
+  {
+    "id": 264057216,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A 35-year-old female presents with chronic, diffuse pain and clicking in the right temporomandibular joint (TMJ) for several months. Clinical examination reveals tenderness upon palpation of the joint and muscles of mastication. Initial radiographic assessment of the TMJ for osseous changes should primarily utilize:",
+    "options": [
+      "Transpharyngeal radiograph",
+      "Transcranial radiograph",
+      "Panoramic radiograph with specific TMJ projections",
+      "CBCT of the TMJ"
+    ],
+    "correctAnswer": 3,
+    "explanation": "While transcranial and transpharyngeal radiographs were historically used, and panoramic radiographs can offer some basic views, CBCT is now considered the superior method for initial assessment of osseous changes in the TMJ due to its ability to provide accurate 3D images with minimal superimposition and low dose compared to conventional CT. It allows for detailed evaluation of condylar and fossa morphology, cortical integrity, and joint space, which 2D radiographs cannot reliably achieve."
+  },
+  {
+    "id": 975266340,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A patient presents with persistent facial pain, swelling, and suspected involvement of a minor salivary gland in the upper lip. Clinically, a soft, mobile nodule is palpable. Which imaging modality would be most appropriate for characterizing the soft tissue lesion and evaluating its extent without significant radiation exposure?",
+    "options": [
+      "Periapical radiograph",
+      "Panoramic radiograph",
+      "Magnetic Resonance Imaging (MRI)",
+      "Cone Beam Computed Tomography (CBCT)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "MRI is the gold standard for imaging soft tissue lesions due to its excellent soft tissue contrast resolution and lack of ionizing radiation. For a suspected minor salivary gland lesion in the upper lip, where soft tissue characterization is paramount, MRI would be most appropriate. Periapical and panoramic radiographs are primarily for hard tissue and offer poor soft tissue visualization. CBCT provides excellent bone detail but limited soft tissue contrast, and it involves radiation exposure."
+  },
+  {
+    "id": 914447702,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A 50-year-old patient reports recurrent swelling and pain in the submandibular region, especially during meals. A panoramic radiograph reveals a well-defined, radiopaque, ovoid structure measuring approximately 3x5 mm located inferior to the mandibular molars, overlying the inferior border of the mandible. This finding is most consistent with:",
+    "options": [
+      "Tonsilolith",
+      "Phlebolith",
+      "Sialolith",
+      "Idiopathic osteosclerosis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The clinical symptoms (recurrent swelling and pain during meals in the submandibular region) combined with the radiographic finding of a well-defined, ovoid radiopacity in the area of the submandibular gland duct are classic signs of a sialolith (salivary gland stone). Tonsiloliths are found in the tonsillar crypts, phleboliths are calcified thrombi within veins, and idiopathic osteosclerosis is a dense bone island, none of which fit the clinical presentation or typical location as well as a sialolith."
+  },
+  {
+    "id": 561931206,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "In dental radiography, an increase in milliamperage (mA) will directly result in which of the following changes to the X-ray beam and the resultant image?",
+    "options": [
+      "Increased beam penetration and higher contrast.",
+      "Increased quantity of X-rays produced and increased image density.",
+      "Decreased beam intensity and reduced patient dose.",
+      "Increased average energy of the X-ray photons."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Milliamperage (mA) controls the number of electrons generated at the cathode filament, which in turn determines the quantity (number) of X-ray photons produced. An increase in mA directly increases the number of X-rays, leading to a darker, more dense image. Kilovoltage peak (kVp) primarily controls beam penetration and contrast. Decreased beam intensity is incorrect, and average energy is mainly determined by kVp and filtration."
+  },
+  {
+    "id": 543408981,
+    "topicId": "radiology",
+    "difficulty": "hard",
+    "question": "A 60-year-old diabetic patient presents with a painful, diffuse swelling of the left mandible and purulent discharge. A panoramic radiograph shows ill-defined, mottled radiolucencies interspersed with areas of sclerotic bone, along with widening of the periodontal ligament spaces and resorption of cortical bone. These findings are highly suggestive of:",
+    "options": [
+      "Osteoradionecrosis",
+      "Osteomyelitis",
+      "Paget's disease of bone",
+      "Fibrous dysplasia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The clinical presentation (painful, diffuse swelling, purulent discharge in a diabetic patient, which is a risk factor) coupled with radiographic findings of ill-defined radiolucencies, sclerotic bone, widened PDL, and cortical bone resorption are classic signs of osteomyelitis. Osteoradionecrosis would be seen in a patient with a history of radiation therapy. Paget's disease presents with a 'cotton-wool' appearance and bone enlargement, while fibrous dysplasia typically shows a 'ground-glass' appearance, neither matching the mixed lytic/sclerotic pattern with infection."
   }
 ]

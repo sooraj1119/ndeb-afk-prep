@@ -6701,5 +6701,299 @@
     ],
     "correctAnswer": 2,
     "explanation": "Lorazepam (along with oxazepam and temazepam) undergoes Phase II metabolism (glucuronidation) directly, bypassing the CYP450 enzyme system, which makes its clearance less susceptible to hepatic impairment or drug interactions. Diazepam, midazolam, and triazolam rely heavily on CYP3A4 and CYP2C19 oxidation in the liver, leading to prolonged half-lives in liver disease."
+  },
+  {
+    "id": 903288565,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 45-year-old male with a history of a prosthetic heart valve requires a dental extraction. He has no known drug allergies. According to current Canadian guidelines, what is the recommended antibiotic prophylaxis regimen?",
+    "options": [
+      "Amoxicillin 2g orally, 1 hour prior to the procedure.",
+      "Clindamycin 600mg orally, 1 hour prior to the procedure.",
+      "Azithromycin 500mg orally, 1 hour prior to the procedure.",
+      "Amoxicillin 500mg orally, 30 minutes prior to the procedure."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For patients with prosthetic heart valves requiring dental procedures that involve manipulation of gingival tissue or the periapical region of teeth, Amoxicillin 2g orally 30-60 minutes before the procedure is the standard first-line prophylaxis. Clindamycin and Azithromycin are alternatives for patients with penicillin allergies, and option D uses an incorrect dosage."
+  },
+  {
+    "id": 228248713,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 68-year-old male presents for restorative treatment. His medical history includes stable angina pectoris, managed with nitroglycerin and a beta-blocker. He reports no known drug allergies. What is the most appropriate local anesthetic regimen for this patient, considering his cardiac status?",
+    "options": [
+      "Articaine 4% with 1:100,000 epinephrine, limiting to 2 carpules.",
+      "Lidocaine 2% with 1:50,000 epinephrine, limiting to 1 carpule.",
+      "Mepivacaine 3% plain, limiting to 3 carpules.",
+      "Bupivacaine 0.5% with 1:200,000 epinephrine, limiting to 2 carpules."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For stable cardiac patients, local anesthetics with a lower concentration of epinephrine (1:100,000 or 1:200,000) are generally preferred and considered safe with prudent limits (typically 2 carpules). Articaine is an effective choice. While Mepivacaine plain avoids epinephrine, it offers shorter duration and less profound anesthesia, potentially requiring more injections and causing more stress. 1:50,000 epinephrine should be avoided due to higher vasoconstrictor load, and Bupivacaine's very long duration might be unnecessary and increases potential systemic toxicity if overdosed."
+  },
+  {
+    "id": 212125530,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 55-year-old female presents with acute pain from pericoronitis. Her medical history includes uncontrolled hypertension, peptic ulcer disease, and severe asthma. She has no known drug allergies. Which analgesic would be LEAST appropriate for her initial pain management?",
+    "options": [
+      "Ibuprofen 400mg every 6 hours.",
+      "Acetaminophen 500mg every 6 hours.",
+      "Codeine 30mg with acetaminophen 325mg every 4-6 hours.",
+      "Naproxen 220mg every 12 hours."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ibuprofen (an NSAID) is contraindicated in patients with severe asthma (risk of bronchospasm), uncontrolled hypertension, and peptic ulcer disease (risk of GI bleeding). Naproxen is also an NSAID and shares similar contraindications. Acetaminophen and opioid combinations are generally safer alternatives given her significant systemic conditions."
+  },
+  {
+    "id": 173294797,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "Which of the following describes the primary mechanism of action of opioid analgesics?",
+    "options": [
+      "Inhibition of cyclooxygenase enzymes, reducing prostaglandin synthesis.",
+      "Binding to specific opioid receptors in the central nervous system, modulating pain perception.",
+      "Blocking sodium channels in nerve membranes, preventing nerve impulse conduction.",
+      "Enhancing gamma-aminobutyric acid (GABA) activity, leading to generalized CNS depression."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Opioid analgesics exert their primary effects by binding to specific opioid receptors (mu, delta, kappa) located in the central nervous system and peripheral tissues, altering pain transmission and perception. Option A describes NSAIDs, option C describes local anesthetics, and option D describes benzodiazepines."
+  },
+  {
+    "id": 944584956,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 32-year-old male patient becomes overly sedated and unresponsive following administration of oral triazolam for dental anxiety. Respiratory depression is noted. Which drug is indicated to reverse the effects of triazolam?",
+    "options": [
+      "Naloxone",
+      "Flumazenil",
+      "Epinephrine",
+      "Dexamethasone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Flumazenil is a specific benzodiazepine receptor antagonist that reverses the sedative and respiratory depressant effects of benzodiazepines like triazolam. Naloxone reverses opioid overdose, epinephrine is used for anaphylaxis, and dexamethasone is a corticosteroid used for inflammation or allergic reactions, not benzodiazepine reversal."
+  },
+  {
+    "id": 359145703,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 72-year-old male on warfarin for atrial fibrillation requires extraction of a mobile tooth. His INR was 2.5 yesterday. Which over-the-counter analgesic should he AVOID using for post-extraction pain, due to potential interaction with warfarin?",
+    "options": [
+      "Acetaminophen",
+      "Ibuprofen",
+      "Codeine with acetaminophen",
+      "Tramadol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ibuprofen, an NSAID, inhibits platelet aggregation and can potentiate the anticoagulant effect of warfarin, significantly increasing the risk of bleeding. Acetaminophen, codeine, and tramadol do not significantly interact with warfarin to increase bleeding risk at usual dental doses, making them safer alternatives for pain management in this patient."
+  },
+  {
+    "id": 979275979,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 60-year-old female, recently completed a course of broad-spectrum antibiotics, presents with white, cottage-cheese-like lesions on her buccal mucosa that wipe off, leaving erythematous bases. A diagnosis of pseudomembranous candidiasis is made. Which antifungal medication is most appropriate for initial topical treatment?",
+    "options": [
+      "Fluconazole 100mg orally daily.",
+      "Nystatin oral suspension 100,000 units/mL, 5mL swish and swallow, 4 times daily.",
+      "Clotrimazole troches 10mg, 5 times daily.",
+      "Ketoconazole 200mg orally daily."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For pseudomembranous candidiasis localized to the oral cavity in an otherwise healthy patient, topical antifungals are the first-line treatment. Nystatin oral suspension is a widely used and effective topical agent. Clotrimazole troches are also effective topical options, but Nystatin liquid is often preferred for more diffuse lesions. Fluconazole and Ketoconazole are systemic antifungals, generally reserved for more severe, refractory, or systemic cases, or in immunocompromised patients."
+  },
+  {
+    "id": 519705312,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "Which of the following best describes the primary mechanism of action of corticosteroids when used therapeutically in dentistry (e.g., for TMJ inflammation or pulp capping)?",
+    "options": [
+      "Inhibition of bacterial cell wall synthesis.",
+      "Direct analgesic effect on nerve endings.",
+      "Suppression of the inflammatory and immune responses.",
+      "Enhancement of osteoblastic activity, promoting bone repair."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Corticosteroids are potent anti-inflammatory and immunosuppressive agents. Their primary mechanism involves inhibiting phospholipase A2, thereby reducing the synthesis of inflammatory mediators like prostaglandins and leukotrienes. Option A describes antibiotics, option B is not their primary action, and option D is incorrect."
+  },
+  {
+    "id": 767804590,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A patient presents with a recurrent odontogenic infection that has not responded to multiple courses of penicillin. Which of the following is the most common mechanism of bacterial resistance to penicillin in oral infections?",
+    "options": [
+      "Alteration of drug target site (e.g., ribosomes).",
+      "Efflux pumps actively removing the drug from the bacterial cell.",
+      "Production of beta-lactamase enzymes.",
+      "Decreased bacterial cell wall permeability to the antibiotic."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The most common mechanism of bacterial resistance to penicillin and other beta-lactam antibiotics in oral infections is the production of beta-lactamase enzymes (e.g., penicillinase), which hydrolyze the beta-lactam ring of the antibiotic, rendering it inactive. Other mechanisms, such as target site alteration or efflux pumps, are more common for other antibiotic classes or broader resistance patterns."
+  },
+  {
+    "id": 992923229,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "Which of the following routes of drug administration is most susceptible to significant first-pass metabolism in the liver, potentially reducing drug bioavailability?",
+    "options": [
+      "Intravenous",
+      "Sublingual",
+      "Oral",
+      "Intramuscular"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Drugs administered orally are absorbed from the gastrointestinal tract and then enter the portal circulation, which passes through the liver before reaching systemic circulation. The liver can metabolize a significant portion of the drug during this 'first pass,' reducing the amount that reaches its target (bioavailability). Intravenous, sublingual, and intramuscular routes largely bypass or significantly reduce first-pass metabolism."
+  },
+  {
+    "id": 684751342,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 28-year-old pregnant patient in her second trimester presents with a painful irreversible pulpitis requiring emergency pulpectomy. She is anxious and in pain. Which of the following drugs is generally considered SAFE for pain control and anxiety management during pregnancy?",
+    "options": [
+      "Tetracycline",
+      "Ibuprofen",
+      "Lidocaine with epinephrine (Category B)",
+      "Benzodiazepines (e.g., Triazolam)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lidocaine with epinephrine is classified as an FDA Pregnancy Category B drug and is generally considered safe for use during pregnancy, especially in the second trimester, with appropriate dosing. Tetracyclines are contraindicated due to risk of tooth discoloration. Ibuprofen should be avoided in the third trimester due to risk of premature ductus arteriosus closure, and used cautiously, if at all, earlier. Benzodiazepines are generally Category D/X and should be avoided due to risks of fetal abnormalities (first trimester) and neonatal depression."
+  },
+  {
+    "id": 800727917,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 78-year-old male patient with multiple systemic conditions (hypertension, type 2 diabetes, chronic kidney disease) is prescribed an antibiotic for an odontogenic infection. Compared to a younger adult, how might his physiological changes affect drug pharmacokinetics?",
+    "options": [
+      "Increased renal excretion, requiring higher doses.",
+      "Decreased liver metabolism and renal excretion, potentially requiring lower doses.",
+      "Increased gastrointestinal absorption, leading to faster onset of action.",
+      "Enhanced protein binding, increasing the free drug concentration."
+    ],
+    "correctAnswer": 1,
+    "explanation": "In elderly patients, age-related physiological changes often include reduced liver function (affecting metabolism) and decreased renal function (affecting excretion). These changes can prolong drug half-lives and increase systemic drug levels, often necessitating lower drug doses to avoid toxicity. Gastrointestinal absorption and protein binding generally do not increase significantly to impact pharmacokinetics positively in the elderly, and often decrease."
+  },
+  {
+    "id": 360380202,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "Beyond its vasoconstrictive properties, what is another significant benefit of adding epinephrine to a local anesthetic solution for dental procedures?",
+    "options": [
+      "Directly enhances the anesthetic's ability to block sodium channels.",
+      "Increases the duration of the anesthetic by decreasing its systemic absorption.",
+      "Reduces the risk of allergic reaction to the local anesthetic agent.",
+      "Acts as an analgesic by stimulating peripheral opioid receptors."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Epinephrine causes vasoconstriction, which keeps the local anesthetic in the desired area longer, thereby increasing the duration and depth of anesthesia. By reducing systemic absorption, it also decreases the risk of systemic toxicity and reduces bleeding at the injection site. Epinephrine does not directly enhance sodium channel blockade, reduce allergic reactions to the anesthetic, or act as an opioid agonist."
+  },
+  {
+    "id": 507844456,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 40-year-old patient suddenly develops widespread urticaria, dyspnea, hypotension, and angioedema immediately after receiving penicillin. What is the most critical immediate step in managing this severe anaphylactic reaction in an adult?",
+    "options": [
+      "Administer diphenhydramine 50mg intramuscularly.",
+      "Administer epinephrine 0.3-0.5mg (1:1000) intramuscularly.",
+      "Administer oxygen via nasal cannula.",
+      "Administer hydrocortisone 100mg intravenously."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Epinephrine is the definitive first-line treatment for anaphylaxis due to its rapid and profound alpha- and beta-adrenergic effects, which counteract vasodilation, bronchoconstriction, and edema. Diphenhydramine (antihistamine) and corticosteroids (hydrocortisone) are important adjuncts but are not immediate life-saving interventions for severe anaphylaxis. Oxygen is supportive but not the primary pharmacologic intervention."
+  },
+  {
+    "id": 864238621,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 65-year-old male on Dabigatran (Pradaxa), a direct oral anticoagulant (DOAC), needs a simple extraction. His physician recommends discontinuing the medication for 24 hours prior to the procedure. What is the primary reason for this recommendation?",
+    "options": [
+      "Dabigatran has a long half-life, requiring significant time for its effects to wear off.",
+      "Dabigatran has a high risk of drug interaction with local anesthetics.",
+      "Dabigatran's anticoagulant effect is non-reversible by common dental hemostatic agents.",
+      "Discontinuation allows for platelet function recovery to normal levels."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The primary concern with DOACs like Dabigatran is that their anticoagulant effects are not easily reversible by vitamin K or fresh frozen plasma, unlike warfarin. While specific reversal agents for DOACs exist (e.g., idarucizumab for dabigatran), they are not routinely used for minor dental procedures. A brief interruption (24-48 hours, depending on renal function and procedure risk) allows for the drug to clear sufficiently to reduce bleeding risk, given its relatively short half-life compared to warfarin. DOACs do not directly affect platelet function significantly."
+  },
+  {
+    "id": 67907608,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "Which of the following is a significant contraindication for the use of tetracycline antibiotics in a pediatric patient?",
+    "options": [
+      "Concurrent use of acetaminophen.",
+      "Age under 8 years.",
+      "History of penicillin allergy.",
+      "Mild hepatic impairment."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tetracycline antibiotics are significantly contraindicated in children under 8 years of age and in pregnant/lactating women. This is due to their potential to cause permanent discoloration (staining) of developing teeth (yellow-grey-brown) and hypoplasia of enamel, as well as inhibition of bone growth. The other options are not primary contraindications for tetracyclines in pediatric patients."
+  },
+  {
+    "id": 937844781,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 40-year-old male is prescribed metronidazole for an acute necrotizing ulcerative gingivitis (ANUG) infection. He informs you that he enjoys an alcoholic beverage daily. What specific advice regarding alcohol consumption should you provide him?",
+    "options": [
+      "Alcohol consumption is safe as it does not interact with metronidazole.",
+      "Avoid alcohol entirely during and for at least 3 days after completing metronidazole, due to a disulfiram-like reaction.",
+      "Moderate alcohol consumption (one drink) is acceptable, but avoid binge drinking.",
+      "Alcohol enhances metronidazole's antimicrobial activity, so it is recommended."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Metronidazole can cause a severe disulfiram-like reaction (characterized by nausea, vomiting, flushing, headache, and abdominal cramps) when consumed with alcohol. Patients must be strongly advised to avoid all alcohol-containing products, including mouthwashes, during therapy and for at least 72 hours (3 days) after the last dose to prevent this adverse interaction."
+  },
+  {
+    "id": 960869679,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "Which of the following conditions is a significant contraindication for the use of nitrous oxide-oxygen sedation in a dental setting?",
+    "options": [
+      "Mild to moderate asthma.",
+      "Controlled hypertension.",
+      "Claustrophobia.",
+      "Recent ophthalmic surgery involving intraocular gas bubble."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Nitrous oxide can diffuse into closed air spaces within the body and cause expansion. In a patient with a recent ophthalmic surgery involving an intraocular gas bubble (e.g., for retinal detachment repair), nitrous oxide can cause expansion of the bubble, leading to increased intraocular pressure and potentially permanent vision loss. Mild to moderate asthma and controlled hypertension are generally not contraindications. Claustrophobia might make N2O use difficult but is not a physiological contraindication."
+  },
+  {
+    "id": 641836480,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 58-year-old female undergoing chemotherapy for breast cancer presents for a dental check-up. Which of the following oral complications is she LEAST likely to experience as a direct consequence of her chemotherapy?",
+    "options": [
+      "Mucositis",
+      "Xerostomia",
+      "Oral Candidiasis",
+      "Dental Caries (directly due to chemotherapy)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chemotherapy does not directly cause dental caries. However, it frequently causes mucositis (inflammation of oral mucosa), xerostomia (dry mouth due to salivary gland damage or dehydration), and increases susceptibility to opportunistic infections like oral candidiasis due to immunosuppression. Xerostomia can indirectly increase caries risk, but the chemotherapy itself doesn't cause cavities."
+  },
+  {
+    "id": 145229036,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A patient reports taking omeprazole daily for gastroesophageal reflux disease (GERD). What is the primary mechanism of action of omeprazole and other proton pump inhibitors (PPIs)?",
+    "options": [
+      "Neutralizing stomach acid through direct buffering action.",
+      "Blocking histamine H2 receptors, reducing acid secretion.",
+      "Irreversibly inhibiting the H+/K+-ATPase (proton pump) in gastric parietal cells.",
+      "Forming a protective barrier over the gastric mucosa."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Proton pump inhibitors (PPIs) like omeprazole work by irreversibly binding to and inhibiting the H+/K+-ATPase (proton pump) in the gastric parietal cells. This action effectively prevents the release of gastric acid into the stomach lumen, providing potent acid suppression. Option A describes antacids, option B describes H2 blockers, and option D describes cytoprotective agents like sucralfate."
+  },
+  {
+    "id": 734468727,
+    "topicId": "pharmacology",
+    "difficulty": "hard",
+    "question": "A 68-year-old male presents for an urgent extraction of tooth #30 due to irreversible pulpitis. His medical history includes atrial fibrillation, for which he takes Rivaroxaban (Xarelto), hypertension managed with Ramipril, and Type 2 Diabetes controlled with Metformin. The extraction is uncomplicated. Considering his medications, which of the following post-operative pain management strategies is MOST appropriate?",
+    "options": [
+      "Ibuprofen 600mg every 6 hours as needed.",
+      "Acetaminophen 500mg every 6 hours as needed.",
+      "Acetaminophen 325mg with Codeine 30mg every 4 hours as needed.",
+      "Celecoxib 200mg once daily."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Acetaminophen is the most appropriate choice as it provides effective analgesia without increasing the risk of bleeding in patients on anticoagulants like Rivaroxaban, nor does it significantly interact with Ramipril regarding renal function or blood pressure control at therapeutic doses. NSAIDs (Ibuprofen, Celecoxib) are contraindicated or used with extreme caution due to their antiplatelet effects (increasing bleeding risk with Rivaroxaban) and potential for renal dysfunction and antagonism of antihypertensive effects when combined with ACE inhibitors like Ramipril. While acetaminophen with codeine avoids NSAID risks, plain acetaminophen is generally preferred as a first-line option for uncomplicated extractions to minimize opioid-related side effects in an elderly, polymedicated patient, unless pain is severe."
   }
 ]
