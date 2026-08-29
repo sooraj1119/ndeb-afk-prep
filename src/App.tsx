@@ -7,6 +7,7 @@ import { Search as SearchComponent } from './Search';
 import { MistakesList } from './MistakesList';
 import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, ShieldCheck, Moon, Sun, Flame, Download, Share, X, Globe } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { initializeRevenueCat } from './lib/revenuecat';
 import { hasAcceptedDisclaimer, acceptDisclaimer, logDailyVisit } from './lib/storage';
 
 const ToothStencil = ({ style, className = '' }: { style: React.CSSProperties, className?: string }) => (
