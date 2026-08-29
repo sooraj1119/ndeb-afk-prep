@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/ndeb-afk-prep/',
+  base: process.env.NODE_ENV === 'production' ? './' : '/',
   plugins: [
     react(),
     tailwindcss(),

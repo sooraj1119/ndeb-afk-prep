@@ -5218,5 +5218,1685 @@
     ],
     "correctAnswer": 1,
     "explanation": "Patients with NYHA Class III heart failure have significant limitations due to symptoms even with mild exertion. Limiting appointment duration, avoiding the supine position (to prevent orthopnea), and potentially using oxygen are crucial. Vasoconstrictors should be used cautiously, if at all, to avoid increasing cardiac workload."
+  },
+  {
+    "id": 935452967,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 55-year-old patient with type 2 diabetes presents for an urgent extraction. His HbA1c is 9.5%, and he reports recent polydipsia and polyuria. Which of the following is the most appropriate initial management before proceeding with the extraction?",
+    "options": [
+      "Administer a high dose of local anesthetic with epinephrine to control pain and bleeding.",
+      "Proceed with the extraction immediately, as it is an urgent procedure.",
+      "Prescribe prophylactic antibiotics and schedule the extraction for a later date.",
+      "Refer the patient to their physician for blood glucose optimization and defer the extraction."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Uncontrolled diabetes (HbA1c >8.0%) significantly increases the risk of infection and delayed wound healing. It is crucial to optimize blood glucose levels before elective or urgent dental procedures when systemic control is poor."
+  },
+  {
+    "id": 803594076,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient on warfarin for atrial fibrillation requires a single tooth extraction. Their last INR, taken 2 days ago, was 2.8. What is the most appropriate action for the dentist?",
+    "options": [
+      "Advise the patient to stop warfarin 5 days prior to the extraction.",
+      "Proceed with the extraction and use local hemostatic measures.",
+      "Request the patient's physician to switch warfarin to heparin prior to the procedure.",
+      "Order a new INR immediately before the extraction."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For minor oral surgery like a single extraction, an INR between 2.0-3.0 is generally acceptable, and warfarin does not need to be stopped. Local hemostatic measures are sufficient to manage bleeding."
+  },
+  {
+    "id": 901694746,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 60-year-old patient presents for a routine dental cleaning. Their blood pressure reading is 170/105 mmHg. The patient reports no symptoms. What is the most appropriate next step?",
+    "options": [
+      "Proceed with the cleaning but monitor BP throughout the appointment.",
+      "Administer a sedative to lower the patient's anxiety and re-check BP.",
+      "Re-take the blood pressure measurement after 5 minutes and refer to a physician if still elevated.",
+      "Cancel the appointment and refer the patient immediately to the emergency department."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A single elevated reading warrants a repeat measurement after a few minutes. If it remains elevated (Stage 2 Hypertension: >=160/100 mmHg), dental treatment, especially elective, should be deferred, and the patient referred to a physician."
+  },
+  {
+    "id": 366461809,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with well-controlled asthma uses an albuterol inhaler occasionally. Which of the following dental considerations is most appropriate for this patient?",
+    "options": [
+      "Avoid aspirin or NSAIDs due to the risk of precipitating an asthma attack.",
+      "Advise the patient to discontinue their albuterol inhaler for 24 hours prior to the appointment.",
+      "Prescribe prophylactic antibiotics before any invasive dental procedure.",
+      "Restrict the use of local anesthetics containing epinephrine."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Approximately 10% of asthmatics have aspirin-exacerbated respiratory disease (AERD). NSAIDs, including aspirin, can precipitate an asthma attack in susceptible individuals."
+  },
+  {
+    "id": 978828699,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with untreated hyperthyroidism presents for dental treatment. Which of the following is a significant concern during the appointment?",
+    "options": [
+      "Increased risk of bleeding due to coagulopathy.",
+      "Increased susceptibility to dental caries.",
+      "Exaggerated response to vasoconstrictors, potentially leading to a thyroid crisis.",
+      "Delayed wound healing and increased risk of infection."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Patients with untreated hyperthyroidism are highly sensitive to catecholamines, and the use of vasoconstrictors like epinephrine can precipitate a thyroid storm (crisis), characterized by tachycardia, arrhythmias, fever, and confusion."
+  },
+  {
+    "id": 739445698,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "According to current guidelines, which of the following cardiac conditions absolutely requires antibiotic prophylaxis before dental procedures likely to cause bacteremia?",
+    "options": [
+      "Mitral valve prolapse with regurgitation.",
+      "Bicuspid aortic valve without stenosis.",
+      "Prosthetic cardiac valve.",
+      "History of coronary artery bypass graft (CABG) surgery."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Current guidelines recommend antibiotic prophylaxis for patients with prosthetic cardiac valves, a history of infective endocarditis, unrepaired cyanotic congenital heart disease, or cardiac transplant recipients who develop valvulopathy."
+  },
+  {
+    "id": 653332338,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with a history of Addison's disease is scheduled for a surgical extraction. What is the most critical consideration for their dental management?",
+    "options": [
+      "Ensure adequate pain control to prevent a hypertensive crisis.",
+      "Administer prophylactic antibiotics due to immunosuppression.",
+      "Assess the need for corticosteroid supplementation (stress dose) to prevent an adrenal crisis.",
+      "Avoid local anesthetics with epinephrine due to increased risk of arrhythmia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Patients with adrenal insufficiency on long-term corticosteroid therapy may require a stress dose of corticosteroids before surgical procedures to prevent an acute adrenal crisis due to the inability of their adrenal glands to respond to stress."
+  },
+  {
+    "id": 23219242,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with severe chronic liver disease (cirrhosis) presents for a dental extraction. Which of the following is the most significant concern?",
+    "options": [
+      "Increased risk of antibiotic resistance.",
+      "Impaired drug metabolism and increased bleeding tendency.",
+      "Exacerbated gag reflex during treatment.",
+      "Higher incidence of oral candidiasis."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Severe liver disease impairs the synthesis of clotting factors (leading to increased bleeding risk) and the metabolism of many drugs, including local anesthetics and sedatives, requiring careful dosing."
+  },
+  {
+    "id": 119314996,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with end-stage renal disease on hemodialysis requires a dental extraction. When is the most appropriate time to schedule the appointment relative to their dialysis session?",
+    "options": [
+      "Immediately before a dialysis session.",
+      "On a non-dialysis day.",
+      "The same day, immediately after a dialysis session.",
+      "The day after a dialysis session."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The day after dialysis is generally preferred as heparin (used during dialysis) has been cleared, and the patient's fluid and electrolyte balance are usually more stable."
+  },
+  {
+    "id": 531141354,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with well-controlled HIV (undetectable viral load, CD4 count >500 cells/mm3) requires a routine dental filling. Which of the following is the most appropriate management?",
+    "options": [
+      "Prescribe prophylactic antibiotics before the procedure.",
+      "Defer treatment until a medical consult confirms the patient's immune status.",
+      "Proceed with standard dental care, adhering to universal precautions.",
+      "Avoid aerosol-generating procedures to prevent transmission."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For patients with well-controlled HIV, standard dental care following universal precautions is appropriate. Prophylactic antibiotics are not routinely indicated unless specific indications exist."
+  },
+  {
+    "id": 773561402,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 68-year-old patient with a history of an ischemic stroke 6 months ago, now on aspirin therapy, presents for a crown preparation. What is the primary dental consideration for this patient?",
+    "options": [
+      "Request the patient to discontinue aspirin prior to the appointment.",
+      "Monitor for signs of another stroke during the procedure.",
+      "Ensure shorter appointments and monitor for signs of postural hypotension.",
+      "Prescribe prophylactic antibiotics due to increased infection risk."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Patients post-stroke may have residual physical or cognitive deficits and an increased risk of postural hypotension. Shorter appointments with careful positioning are advisable. Aspirin is usually continued for minor procedures."
+  },
+  {
+    "id": 121885463,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with well-controlled epilepsy on anticonvulsant medication presents for a dental procedure. Which of the following is the most important emergency preparedness measure for this patient?",
+    "options": [
+      "Have an oxygen tank readily available.",
+      "Ensure padded tongue blades are available to prevent tongue biting.",
+      "Have diazepam (or similar benzodiazepine) readily available in case of a seizure.",
+      "Administer a sedative premedication to prevent anxiety-induced seizures."
+    ],
+    "correctAnswer": 2,
+    "explanation": "While oxygen and injury prevention are important, the most critical measure for managing a prolonged or recurrent seizure in the dental chair is the availability of an anticonvulsant like parenteral diazepam or midazolam. Padded tongue blades are contraindicated."
+  },
+  {
+    "id": 355341495,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient reports chronic heartburn and regurgitation, suggesting gastroesophageal reflux disease (GERD). Which oral manifestation is most commonly associated with GERD?",
+    "options": [
+      "Angular cheilitis.",
+      "Lingual erosion of tooth enamel.",
+      "Fissured tongue.",
+      "Xerostomia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The regurgitation of gastric acid into the oral cavity in patients with GERD commonly leads to erosion of the lingual surfaces of maxillary anterior teeth and occlusal surfaces of posterior teeth."
+  },
+  {
+    "id": 588444450,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 70-year-old patient taking oral alendronate for osteoporosis for 5 years requires a single tooth extraction. What is the most significant risk associated with this procedure?",
+    "options": [
+      "Increased risk of severe hemorrhage.",
+      "Delayed healing of the extraction socket.",
+      "Osteonecrosis of the jaw (ONJ).",
+      "Allergic reaction to local anesthetic."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Patients on bisphosphonates, especially for prolonged periods, are at risk for medication-related osteonecrosis of the jaw (MRONJ) following invasive dental procedures like extractions."
+  },
+  {
+    "id": 240562313,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient presents with pallor, fatigue, and angular cheilitis. Blood tests reveal microcytic hypochromic anemia. Which oral manifestation is most likely to be observed in this patient?",
+    "options": [
+      "Erythroplakia.",
+      "Atrophic glossitis (bald, red tongue).",
+      "Pemphigus vulgaris.",
+      "Hairy leukoplakia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Atrophic glossitis, characterized by a smooth, red, and often painful tongue, is a common oral manifestation of iron deficiency anemia and vitamin B deficiencies."
+  },
+  {
+    "id": 109647955,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with type 1 diabetes is scheduled for a morning dental appointment that may involve moderate stress and last for 1.5 hours. The patient usually takes insulin at 7:00 AM and eats breakfast. What is the most appropriate instruction regarding their insulin and meal plan for the appointment day?",
+    "options": [
+      "Instruct the patient to skip their morning insulin dose and breakfast.",
+      "Instruct the patient to take their full morning insulin dose and have a normal breakfast.",
+      "Instruct the patient to take their usual morning insulin dose but defer breakfast until after the appointment.",
+      "Instruct the patient to take half of their usual morning insulin dose and have a light breakfast."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Skipping both insulin and breakfast is dangerous. Taking a full dose without a meal or with a delayed meal increases hypoglycemia risk. Taking half the insulin and having a light breakfast helps maintain glycemic control and reduces the risk of hypoglycemia during the appointment while providing some carbohydrate intake."
+  },
+  {
+    "id": 858914968,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient reports gingival enlargement, which they attribute to a medication they started taking recently for hypertension. Which class of antihypertensive medications is most likely responsible for this oral side effect?",
+    "options": [
+      "ACE inhibitors (e.g., lisinopril).",
+      "Beta-blockers (e.g., metoprolol).",
+      "Thiazide diuretics (e.g., hydrochlorothiazide).",
+      "Calcium channel blockers (e.g., amlodipine)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Gingival enlargement (gingival overgrowth) is a well-known side effect of several medications, including calcium channel blockers (e.g., nifedipine, amlodipine, verapamil, diltiazem), phenytoin, and cyclosporine."
+  },
+  {
+    "id": 973444014,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 25-year-old patient has a history of rheumatic fever as a child but reports no current cardiac symptoms and their physician states there is no evidence of residual valvular damage. Is antibiotic prophylaxis for infective endocarditis required for dental procedures?",
+    "options": [
+      "Yes, because any history of rheumatic fever necessitates prophylaxis.",
+      "No, only if there is residual valvular damage.",
+      "Yes, but only for invasive procedures like extractions.",
+      "No, unless the patient also has a congenital heart defect."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A history of rheumatic fever alone is not an indication for antibiotic prophylaxis unless it resulted in rheumatic heart disease with residual valvular damage."
+  },
+  {
+    "id": 774982797,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient presents to the dental office with a persistent cough, night sweats, and weight loss, and mentions they were recently diagnosed with active pulmonary tuberculosis. What is the most appropriate action for the dental team?",
+    "options": [
+      "Proceed with urgent dental treatment, ensuring the patient wears a surgical mask.",
+      "Defer all elective dental treatment and refer the patient for medical management, isolating the patient from other patients and staff.",
+      "Prescribe prophylactic antibiotics and reschedule for 2 weeks later.",
+      "Perform necessary treatment using only hand instruments to avoid aerosol generation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Active pulmonary tuberculosis is highly contagious. Elective dental treatment should be deferred until the patient is no longer infectious, and urgent care should be managed in an isolated setting with appropriate infection control measures (N95 respirators, negative pressure rooms if possible)."
+  },
+  {
+    "id": 664955923,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "During a routine dental appointment, a patient suddenly becomes breathless, reports chest tightness, dizziness, and tingling in their fingers, appearing visibly anxious and hyperventilating. What is the most appropriate initial management for this medical emergency?",
+    "options": [
+      "Administer sublingual nitroglycerin immediately.",
+      "Position the patient supine and elevate their legs.",
+      "Reassure the patient, position them upright, and encourage slow, deep breathing.",
+      "Administer a bronchodilator such as albuterol."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The symptoms described are classic for a panic attack with hyperventilation. Reassurance, an upright position, and encouraging slow, deep breathing helps restore normal CO2 levels and alleviate symptoms."
+  },
+  {
+    "id": 112213902,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 65-year-old male patient presents for an urgent extraction. His medical history includes hypertension controlled with an ACE inhibitor and a recent myocardial infarction 3 months ago. He also takes clopidogrel daily. Which of the following is the MOST appropriate immediate action?",
+    "options": [
+      "Proceed with the extraction, as clopidogrel cessation is not typically required for minor oral surgery.",
+      "Prescribe antibiotics and schedule the extraction for when his cardiologist clears him, ideally after 6 months post-MI.",
+      "Consult his cardiologist regarding the recent MI and clopidogrel, considering the urgency of the extraction.",
+      "Discontinue clopidogrel for 5-7 days prior to the extraction to reduce bleeding risk."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A recent myocardial infarction (within 6 months) is a significant risk factor for dental procedures. Additionally, clopidogrel significantly increases bleeding risk, and its management should be coordinated with the patient's cardiologist, especially in an urgent scenario."
+  },
+  {
+    "id": 208026708,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with poorly controlled Type 2 Diabetes Mellitus presents for periodontal scaling and root planing. Her HbA1c is 9.5%. Which of the following is the MOST significant concern for this patient's dental treatment?",
+    "options": [
+      "Increased risk of xerostomia and candidiasis.",
+      "Reduced efficacy of local anesthetics.",
+      "Increased susceptibility to infection and impaired wound healing.",
+      "Higher incidence of oral cancer."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Poorly controlled diabetes significantly impairs the immune response and wound healing processes, making patients more susceptible to post-operative infections and delayed healing, which are critical considerations for invasive dental procedures."
+  },
+  {
+    "id": 398259317,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with a history of a prosthetic heart valve requires a dental extraction. According to current guidelines (e.g., AHA 2017), which antibiotic regimen is MOST appropriate for infective endocarditis prophylaxis?",
+    "options": [
+      "Amoxicillin 2g orally 30-60 minutes before the procedure.",
+      "Clindamycin 600mg orally 30-60 minutes before the procedure.",
+      "Azithromycin 500mg orally 1 hour before the procedure.",
+      "No prophylaxis is needed for prosthetic heart valves."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Patients with prosthetic heart valves are at high risk for infective endocarditis. Amoxicillin 2g orally (or ampicillin/cefazolin/ceftriaxone parenterally) is the recommended first-line antibiotic prophylaxis for dental procedures involving manipulation of gingival tissue or the periapical region."
+  },
+  {
+    "id": 116419470,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following conditions is MOST likely to lead to increased bleeding during a routine dental extraction?",
+    "options": [
+      "Controlled essential hypertension.",
+      "Hypothyroidism treated with levothyroxine.",
+      "Chronic renal failure on hemodialysis.",
+      "Well-controlled Type 1 Diabetes Mellitus."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Patients with chronic renal failure, especially those on hemodialysis, often have uremia-induced platelet dysfunction and may also be on anticoagulants, leading to an increased risk of bleeding during dental procedures."
+  },
+  {
+    "id": 589609972,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient taking long-term systemic corticosteroids for an autoimmune condition requires a dental extraction. What is the PRIMARY concern for this patient during dental treatment?",
+    "options": [
+      "Increased risk of adrenal crisis due to stress.",
+      "Delayed healing and increased risk of infection.",
+      "Exacerbation of the underlying autoimmune condition.",
+      "Increased risk of osteonecrosis of the jaw."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Patients on long-term systemic corticosteroids may have adrenal suppression, making them unable to mount an adequate stress response. Dental procedures can induce stress, potentially precipitating an adrenal crisis, which is a life-threatening emergency."
+  },
+  {
+    "id": 899409106,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient presents with recurrent oral candidiasis, unexplained weight loss, and chronic fatigue. Which systemic condition should the dentist consider as a potential underlying cause?",
+    "options": [
+      "Gastroesophageal Reflux Disease (GERD).",
+      "Human Immunodeficiency Virus (HIV) infection.",
+      "Hypothyroidism.",
+      "Anemia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Recurrent oral candidiasis, along with constitutional symptoms like unexplained weight loss and chronic fatigue, are classic signs and symptoms that may indicate underlying HIV infection or other immunocompromised states."
+  },
+  {
+    "id": 814206913,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "What is the MOST appropriate dental management modification for a patient with severe, uncontrolled asthma presenting for a routine dental cleaning?",
+    "options": [
+      "Administer nitrous oxide/oxygen sedation to reduce anxiety.",
+      "Avoid general anesthesia and restrict local anesthesia with epinephrine.",
+      "Postpone elective treatment until the asthma is better controlled.",
+      "Prescribe a bronchodilator pre-operatively to prevent an attack."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Severe, uncontrolled asthma increases the risk of an acute asthma attack during dental treatment. It is safest to postpone elective procedures until the patient's asthma is stabilized and well-controlled by their physician."
+  },
+  {
+    "id": 328036951,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient reports experiencing chest pain that is relieved by rest or nitroglycerin. This symptom is characteristic of which cardiovascular condition?",
+    "options": [
+      "Myocardial Infarction.",
+      "Unstable Angina.",
+      "Stable Angina Pectoris.",
+      "Pericarditis."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Stable angina pectoris is characterized by predictable chest pain or discomfort that occurs with exertion or stress and is relieved by rest or nitroglycerin. This differentiates it from unstable angina or myocardial infarction, where pain is less predictable or not relieved by rest/nitroglycerin."
+  },
+  {
+    "id": 657604237,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which medication is MOST likely to cause gingival hyperplasia as a significant side effect?",
+    "options": [
+      "Lisinopril (ACE inhibitor).",
+      "Metformin (antidiabetic).",
+      "Amlodipine (calcium channel blocker).",
+      "Hydrochlorothiazide (diuretic)."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Calcium channel blockers, such as amlodipine, nifedipine, and verapamil, are well-known to cause drug-induced gingival hyperplasia. This side effect is a common concern for dentists."
+  },
+  {
+    "id": 600176856,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 45-year-old female patient reports dry mouth, dry eyes, and bilateral parotid gland enlargement. Her medical history is otherwise unremarkable. These symptoms are highly suggestive of:",
+    "options": [
+      "Sjögren's Syndrome.",
+      "Sialolithiasis.",
+      "Mumps.",
+      "Thyroid disease."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The classic triad of symptoms for Sjögren's Syndrome includes xerostomia (dry mouth), xerophthalmia (dry eyes), and often parotid gland enlargement, which are all present in this patient's description."
+  },
+  {
+    "id": 661061119,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient experiences sudden onset of facial weakness, slurred speech, and difficulty raising one arm during dental treatment. The MOST appropriate immediate action is to:",
+    "options": [
+      "Administer oxygen and monitor vital signs.",
+      "Elevate the patient's legs to improve blood flow to the brain.",
+      "Call emergency medical services (EMS) immediately.",
+      "Give the patient a sugary drink to rule out hypoglycemia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "These symptoms are classic signs of a stroke (cerebrovascular accident). A stroke is a medical emergency requiring immediate activation of emergency medical services for rapid diagnosis and treatment to minimize brain damage."
+  },
+  {
+    "id": 346542049,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following is an absolute contraindication to dental treatment?",
+    "options": [
+      "History of infective endocarditis.",
+      "Uncontrolled hypertension (BP >180/110 mmHg).",
+      "Patient undergoing radiation therapy to the head and neck.",
+      "Acute myocardial infarction within the last 3 months."
+    ],
+    "correctAnswer": 3,
+    "explanation": "An acute myocardial infarction within 3-6 months is generally considered an absolute contraindication to elective dental treatment due to the high risk of reinfarction. Uncontrolled hypertension is a relative contraindication, and the others require significant modifications but are not absolute contraindications to all treatment."
+  },
+  {
+    "id": 983839397,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with a history of cirrhosis due to chronic alcohol abuse requires multiple extractions. Which of the following laboratory values would be MOST critical to assess before proceeding?",
+    "options": [
+      "Fasting blood glucose.",
+      "Thyroid-stimulating hormone (TSH).",
+      "International Normalized Ratio (INR).",
+      "Complete blood count (CBC)."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cirrhosis severely impairs the liver's ability to produce clotting factors, leading to coagulopathy. Therefore, assessing the International Normalized Ratio (INR), which measures prothrombin time, is critical to evaluate the patient's bleeding risk before any invasive procedure."
+  },
+  {
+    "id": 700728662,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "The MOST common oral manifestation of Systemic Lupus Erythematosus (SLE) is:",
+    "options": [
+      "Hairy leukoplakia.",
+      "Aphthous-like ulcers and erythematous lesions.",
+      "Gingival hyperplasia.",
+      "Linear IgA disease."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aphthous-like ulcers and erythematous lesions (often nonspecific) are common oral manifestations found in patients with Systemic Lupus Erythematosus. Other signs can include cheilitis and desquamative gingivitis, but aphthous-like lesions are frequently reported."
+  },
+  {
+    "id": 884085257,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient reports taking bisphosphonates orally for osteoporosis for the past 5 years. This puts them at increased risk for:",
+    "options": [
+      "Medication-Related Osteonecrosis of the Jaw (MRONJ).",
+      "Oral candidiasis.",
+      "Gingival recession.",
+      "Dental caries."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Long-term use of bisphosphonates, particularly in oral forms for osteoporosis, is a known risk factor for Medication-Related Osteonecrosis of the Jaw (MRONJ), especially following invasive dental procedures like extractions."
+  },
+  {
+    "id": 628380530,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "During a dental appointment, a patient with a history of generalized tonic-clonic seizures suddenly stiffens, loses consciousness, and begins jerking rhythmically. What is the PRIMARY action the dental professional should take?",
+    "options": [
+      "Place a tongue depressor between the patient's teeth to prevent tongue biting.",
+      "Restrain the patient to prevent injury.",
+      "Clear the area of instruments, protect the patient from injury, and allow the seizure to run its course.",
+      "Administer supplemental oxygen immediately."
+    ],
+    "correctAnswer": 2,
+    "explanation": "During a generalized tonic-clonic seizure, the priority is to protect the patient from injury by moving objects away and cushioning the head. Attempting to restrain the patient or place objects in their mouth can cause harm. Oxygen can be administered after safety is ensured, but clearing the area is primary."
+  },
+  {
+    "id": 659838070,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which condition is characterized by a 'butterfly rash' on the face and often presents with arthralgia and photosensitivity?",
+    "options": [
+      "Pemphigus vulgaris.",
+      "Systemic Lupus Erythematosus (SLE).",
+      "Rosacea.",
+      "Scleroderma."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'butterfly rash' (malar rash) across the bridge of the nose and cheeks, along with arthralgia (joint pain) and photosensitivity, are classic diagnostic features of Systemic Lupus Erythematosus (SLE)."
+  },
+  {
+    "id": 516271060,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient scheduled for an extraction reports taking warfarin. Their last INR was 2.8. What is the MOST appropriate action regarding their anticoagulant medication for a single tooth extraction?",
+    "options": [
+      "Have the patient stop warfarin 3-5 days prior to the extraction.",
+      "Consult with the prescribing physician to determine if warfarin can be safely continued or temporarily modified.",
+      "Administer vitamin K pre-operatively to reverse the anticoagulant effect.",
+      "Proceed with the extraction, but use local hemostatic measures."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a patient on warfarin with an INR within the therapeutic range (typically 2.0-3.0 for most indications), a single tooth extraction can often be performed without interruption of warfarin, provided local hemostatic measures are used. However, consultation with the prescribing physician is crucial to confirm the INR, assess bleeding risk, and manage the medication safely, considering the patient's specific medical history."
+  },
+  {
+    "id": 231782328,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "An unvaccinated dental professional has a percutaneous exposure to blood from a patient who is positive for Hepatitis B surface antigen (HBsAg). What is the MOST appropriate post-exposure prophylaxis?",
+    "options": [
+      "Administer Hepatitis B vaccine only.",
+      "Administer Hepatitis B immune globulin (HBIG) only.",
+      "Administer both Hepatitis B vaccine and Hepatitis B immune globulin (HBIG).",
+      "No prophylaxis is necessary if the professional has no symptoms."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For an unvaccinated individual with percutaneous exposure to HBsAg-positive blood, immediate post-exposure prophylaxis involves administering both Hepatitis B vaccine and Hepatitis B immune globulin (HBIG) to provide both passive and active immunity."
+  },
+  {
+    "id": 725646141,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "What is the primary concern for a pregnant patient in her third trimester undergoing routine dental scaling?",
+    "options": [
+      "Increased risk of supine hypotensive syndrome.",
+      "Teratogenic effects of local anesthetics.",
+      "Increased bleeding tendency.",
+      "Risk of premature labor from stress."
+    ],
+    "correctAnswer": 0,
+    "explanation": "In the third trimester, the enlarged uterus can compress the inferior vena cava when the patient is in the supine position, leading to supine hypotensive syndrome. This can cause a sudden drop in blood pressure and fetal distress, making proper positioning (e.g., left lateral tilt) crucial."
+  },
+  {
+    "id": 793893133,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 65-year-old male patient presents for an extraction. His medical history includes hypertension well-controlled with hydrochlorothiazide and lisinopril, and type 2 diabetes managed with metformin. His last blood pressure reading was 138/86 mmHg. Which of the following is the MOST appropriate immediate action regarding his antihypertensive medication on the day of his appointment?",
+    "options": [
+      "Instruct him to skip his lisinopril dose to prevent orthostatic hypotension.",
+      "Instruct him to take all medications as usual.",
+      "Administer nitrous oxide/oxygen sedation to help lower his blood pressure.",
+      "Refer him back to his physician for re-evaluation before proceeding with treatment."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Patients should generally continue their antihypertensive medications as usual on the day of dental treatment, as skipping doses can lead to rebound hypertension. Hydrochlorothiazide and lisinopril are typically not associated with significant interactions requiring dose modification for routine dental procedures."
+  },
+  {
+    "id": 79279232,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 55-year-old patient with type 1 diabetes, controlled with insulin pump therapy, presents for a routine dental cleaning. He reports his last HbA1c was 7.2%. What is the most critical consideration for this patient during his dental visit?",
+    "options": [
+      "The need for antibiotic prophylaxis due to his diabetes.",
+      "The timing of his insulin dosage relative to the appointment and meals.",
+      "The increased risk of xerostomia and subsequent caries.",
+      "The potential for a hypertensive crisis during treatment."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Patients with diabetes are prone to medical emergencies like hypoglycemia or hyperglycemia. Ensuring they have taken their insulin and eaten appropriately before their appointment is crucial to prevent these events. Antibiotic prophylaxis is not routinely indicated for controlled diabetes, and while xerostomia is a concern, it's not the most critical immediate consideration."
+  },
+  {
+    "id": 89627836,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient taking warfarin for atrial fibrillation requires a tooth extraction. Their last INR, taken yesterday, was 2.8. What is the MOST appropriate management strategy for this patient?",
+    "options": [
+      "Discontinue warfarin for 3 days prior to the extraction.",
+      "Consult with the patient's physician regarding temporary interruption or dose reduction of warfarin.",
+      "Proceed with the extraction, employing local hemostatic measures.",
+      "Prescribe prophylactic antibiotics to prevent bleeding complications."
+    ],
+    "correctAnswer": 2,
+    "explanation": "An INR of 2.8 is generally considered acceptable for most minor oral surgical procedures with local hemostatic measures. However, physician consultation is always prudent for patients on anticoagulants, especially before an extraction, to discuss the risks and benefits of potential adjustments or local hemostasis, ensuring patient safety."
+  },
+  {
+    "id": 949214689,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 40-year-old patient with a history of severe persistent asthma controlled with inhaled corticosteroids and a long-acting beta-agonist presents for dental treatment. She reports experiencing occasional shortness of breath when stressed. Which of the following is the MOST appropriate management consideration?",
+    "options": [
+      "Avoid local anesthetics containing epinephrine due to potential bronchoconstriction.",
+      "Schedule short appointments and keep her inhaler readily available.",
+      "Prescribe an oral corticosteroid taper prior to the appointment.",
+      "Administer supplemental oxygen throughout the procedure as a prophylactic measure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "While it is important to keep the patient's inhaler available, the question asks for the MOST appropriate management consideration. For severe persistent asthma, avoiding epinephrine in local anesthetics can be prudent, as sulfites, often found as a preservative with epinephrine, can trigger asthmatic attacks in sensitive individuals. Short appointments and stress reduction are also important."
+  },
+  {
+    "id": 698310177,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following conditions definitively requires antibiotic prophylaxis prior to dental procedures that involve manipulation of gingival tissue or the periapical region of teeth?",
+    "options": [
+      "History of rheumatic fever without valvular damage.",
+      "Coronary artery bypass graft (CABG) surgery 5 years ago.",
+      "Prosthetic cardiac valve.",
+      "Pacemaker insertion 2 years ago."
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to current guidelines, antibiotic prophylaxis is definitively recommended for patients with prosthetic cardiac valves due to their high risk of developing infective endocarditis. A history of rheumatic fever without valvular damage, past CABG, or a pacemaker are not indications for prophylaxis."
+  },
+  {
+    "id": 742532610,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with diagnosed Gastroesophageal Reflux Disease (GERD) is taking a proton pump inhibitor daily. During their dental examination, you notice generalized enamel erosion, particularly on the palatal surfaces of maxillary anterior teeth. What advice should be given to this patient?",
+    "options": [
+      "Switch to a stronger mouthwash to combat acid.",
+      "Rinse with water or a fluoride rinse immediately after reflux episodes.",
+      "Increase the dosage of their proton pump inhibitor.",
+      "Brush vigorously after each meal to remove acid."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rinsing with water or a fluoride rinse immediately after reflux episodes helps to neutralize the acid and replenish fluoride to the enamel, protecting it from further erosion. Brushing immediately after an acid attack can worsen erosion by abrading softened enamel."
+  },
+  {
+    "id": 554110467,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 70-year-old patient presents with a medical history significant for a stroke 6 months ago, resulting in mild right-sided weakness. He is currently taking clopidogrel. What is the MOST important consideration for his dental management?",
+    "options": [
+      "Administer antibiotic prophylaxis due to increased infection risk.",
+      "Avoid dental treatment to prevent a recurrent stroke.",
+      "Assess his ability to tolerate a supine position and potential for altered hemostasis.",
+      "Prescribe a sedative to manage anxiety due to his neurological condition."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For stroke patients on antiplatelet medications like clopidogrel, assessing the risk of bleeding is paramount. Additionally, patients with recent strokes may have difficulty tolerating certain dental positions and may have communication or swallowing difficulties. Antibiotic prophylaxis is not indicated for a history of stroke alone."
+  },
+  {
+    "id": 475594674,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with end-stage renal disease (ESRD) on hemodialysis requires a dental extraction. Which of the following is the MOST appropriate timing for the dental procedure?",
+    "options": [
+      "Immediately before a dialysis session.",
+      "On a non-dialysis day.",
+      "Immediately after a dialysis session.",
+      "Any day is acceptable, as long as blood work is recent."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The most appropriate time for dental procedures for patients on hemodialysis is on a non-dialysis day, to allow for recovery from the procedure and potential effects on fluid balance, and to avoid complications from anticoagulation administered during dialysis. If a procedure is necessary on a dialysis day, it should be after dialysis."
+  },
+  {
+    "id": 381745169,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 50-year-old female patient with rheumatoid arthritis (RA) is taking methotrexate and prednisone. She reports significant temporomandibular joint (TMJ) pain and stiffness. What is the MOST important consideration for her dental management?",
+    "options": [
+      "The need for antibiotic prophylaxis due to her immunosuppression.",
+      "The potential for adrenal crisis due to long-term prednisone use.",
+      "Avoiding local anesthetics with vasoconstrictors.",
+      "The increased risk of xerostomia from methotrexate."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Patients on long-term corticosteroids like prednisone may have adrenal suppression and are at risk for an adrenal crisis if they experience significant stress during dental procedures. While immunosuppression increases infection risk, the potential for adrenal crisis is a more acute and severe concern requiring careful management. Xerostomia can occur, but isn't the primary concern related to treatment stress."
+  },
+  {
+    "id": 783951260,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient reports taking levothyroxine for hypothyroidism. Her last thyroid-stimulating hormone (TSH) level was within normal limits. She requires an urgent extraction. Which of the following is the MOST appropriate action?",
+    "options": [
+      "Delay the extraction until a new TSH level can be obtained.",
+      "Proceed with the extraction, avoiding epinephrine in local anesthetics.",
+      "Proceed with the extraction, as her condition is well-controlled.",
+      "Prescribe a stress dose of corticosteroids prior to the extraction."
+    ],
+    "correctAnswer": 2,
+    "explanation": "If a patient's hypothyroidism is well-controlled, as indicated by a normal TSH level, routine dental treatment including extractions can proceed without special precautions related to the thyroid condition itself. There is no contraindication to epinephrine in well-controlled hypothyroidism."
+  },
+  {
+    "id": 179163875,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 60-year-old patient with a history of stable angina pectoris, managed with nitroglycerin PRN, reports chest pain during a stressful dental procedure. His blood pressure is 150/95 mmHg, and pulse is 90 bpm. What is the IMMEDIATE next step?",
+    "options": [
+      "Administer a sublingual nitroglycerin tablet.",
+      "Administer oxygen via nasal cannula.",
+      "Call emergency medical services (EMS).",
+      "Terminate the procedure and reassure the patient."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a patient with a history of stable angina experiencing chest pain, the immediate action is to administer sublingual nitroglycerin, which helps to dilate coronary arteries and relieve symptoms. Oxygen can also be administered, and if symptoms persist, EMS should be called, but nitroglycerin is the first-line medication."
+  },
+  {
+    "id": 238217335,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient taking an ACE inhibitor for hypertension requires pain management after a difficult extraction. Which analgesic would be LEAST suitable for long-term management in this patient?",
+    "options": [
+      "Acetaminophen (Tylenol)",
+      "Ibuprofen (Advil)",
+      "Codeine with acetaminophen",
+      "Tramadol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NSAIDs like ibuprofen can reduce the antihypertensive effects of ACE inhibitors and may increase the risk of acute kidney injury, particularly with long-term use. Acetaminophen, opioids, and tramadol are generally safer alternatives for pain management in these patients."
+  },
+  {
+    "id": 379127316,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 28-year-old pregnant patient in her second trimester presents for a dental filling. She has no significant medical history. Which of the following is the MOST appropriate approach to local anesthetic administration?",
+    "options": [
+      "Avoid local anesthetics with vasoconstrictors entirely.",
+      "Use local anesthetics without vasoconstrictors to prevent fetal hypoxia.",
+      "Use lidocaine with epinephrine, limiting the dose to minimize systemic absorption.",
+      "Delay all dental treatment until after delivery to ensure fetal safety."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lidocaine with epinephrine (Category B for pregnancy) is considered safe for pregnant patients when used in appropriate doses, as the vasoconstrictor helps to prolong anesthesia and reduce systemic absorption of the anesthetic, which is beneficial. Untreated dental infections pose a greater risk than controlled local anesthetic use."
+  },
+  {
+    "id": 769691419,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "During a routine dental cleaning, a 22-year-old healthy patient suddenly becomes pale, diaphoretic, and reports feeling lightheaded, then loses consciousness. His pulse is weak and slow. What is the MOST likely cause of this event?",
+    "options": [
+      "Anaphylaxis",
+      "Hypoglycemia",
+      "Seizure",
+      "Vasovagal syncope"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The symptoms described (pallor, diaphoresis, lightheadedness, slow/weak pulse, and loss of consciousness in a healthy young patient) are classic signs of vasovagal syncope, a common dental emergency often triggered by anxiety or fear. Other options present with different clinical pictures."
+  },
+  {
+    "id": 865780887,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with a history of von Willebrand disease requires a simple extraction. Which of the following is the MOST crucial pre-operative consideration for this patient?",
+    "options": [
+      "Administer prophylactic antibiotics.",
+      "Obtain recent coagulation studies and consult with a hematologist.",
+      "Prescribe an anxiolytic to reduce stress-induced bleeding.",
+      "Perform the extraction without local anesthetic to avoid hematoma formation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Von Willebrand disease is a common inherited bleeding disorder. Prior to any invasive dental procedure, it is crucial to consult with the patient's hematologist to review recent coagulation studies and determine if any prophylactic measures (e.g., desmopressin, antifibrinolytics, factor replacement) are needed to prevent excessive bleeding."
+  },
+  {
+    "id": 183209563,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with well-controlled HIV infection, indicated by a high CD4 count and undetectable viral load, requires a complex dental procedure. What is the MOST appropriate management consideration?",
+    "options": [
+      "Administer antibiotic prophylaxis to prevent opportunistic infections.",
+      "Treat the patient using universal precautions, as no special modifications are needed.",
+      "Delay the procedure until a new viral load is confirmed to be undetectable.",
+      "Refer the patient to a hospital dental clinic due to the complexity of the case."
+    ],
+    "correctAnswer": 1,
+    "explanation": "With well-controlled HIV (high CD4 count, undetectable viral load), no special modifications beyond strict adherence to universal precautions are generally needed for routine or complex dental procedures. The patient's immune status is stable, and the risk of transmission or opportunistic infection is significantly reduced."
+  },
+  {
+    "id": 977803949,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient presents with a severe gag reflex and reports chronic fatigue, loud snoring, and witnessed apneic episodes by his spouse. These symptoms are suggestive of obstructive sleep apnea (OSA). What is a common oral manifestation or consequence associated with untreated OSA?",
+    "options": [
+      "Increased prevalence of aphthous ulcers.",
+      "Increased risk of dental caries due to xerostomia.",
+      "Bruxism and tooth wear.",
+      "Gingival hypertrophy due to mouth breathing."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bruxism and associated tooth wear are common oral manifestations in patients with OSA, thought to be a protective mechanism to open the airway during apneic events. While mouth breathing can lead to gingival inflammation and xerostomia, bruxism is particularly characteristic of OSA."
+  },
+  {
+    "id": 89212388,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 75-year-old patient with congestive heart failure (CHF), classified as NYHA Class III, presents for an emergency tooth extraction. He reports shortness of breath on mild exertion. Which of the following is the MOST important consideration for his dental management?",
+    "options": [
+      "Prescribe prophylactic antibiotics to prevent infective endocarditis.",
+      "Limit the use of local anesthetics with vasoconstrictors.",
+      "Manage appointments in a semi-supine or upright position.",
+      "Perform the extraction under general anesthesia to minimize stress."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Patients with NYHA Class III CHF have significant symptoms with minimal exertion and may not tolerate a supine position due to orthopnea. Managing them in a semi-supine or upright position is crucial to prevent respiratory distress. While vasoconstrictors should be used cautiously, position management is often the most immediate concern."
+  },
+  {
+    "id": 694340630,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with a history of generalized tonic-clonic seizures, controlled with phenytoin, presents for dental treatment. What is a significant oral side effect commonly associated with long-term phenytoin use?",
+    "options": [
+      "Increased risk of fungal infections.",
+      "Gingival hyperplasia.",
+      "Severe xerostomia.",
+      "Discoloration of teeth."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gingival hyperplasia (overgrowth of gingival tissue) is a well-known and common side effect of long-term phenytoin therapy, affecting a significant percentage of patients. It requires careful oral hygiene and sometimes surgical intervention."
+  },
+  {
+    "id": 332148426,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 80-year-old patient taking multiple medications, including a beta-blocker, a diuretic, and an antidepressant, reports dizziness upon standing quickly from the dental chair. This is most likely a manifestation of:",
+    "options": [
+      "An acute allergic reaction to local anesthetic.",
+      "Hypoglycemia due to skipped meal.",
+      "Orthostatic hypotension from polypharmacy.",
+      "A transient ischemic attack (TIA)."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Orthostatic hypotension, characterized by dizziness or lightheadedness upon standing, is a common side effect of many medications, particularly in elderly patients taking multiple drugs (polypharmacy) such as beta-blockers and diuretics, which affect blood pressure regulation."
+  },
+  {
+    "id": 631457957,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 65-year-old male patient with controlled hypertension, managed with an ACE inhibitor and a thiazide diuretic, presents for a routine dental cleaning. Which of the following is a common oral side effect associated with his medication regimen?",
+    "options": [
+      "Xerostomia",
+      "Gingival hyperplasia",
+      "Oral candidiasis",
+      "Metallic taste"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Thiazide diuretics, a common class of antihypertensives, are well-known to cause xerostomia (dry mouth) as a side effect. This can increase the risk of caries and other oral health issues."
+  },
+  {
+    "id": 402931878,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with poorly controlled Type 2 Diabetes Mellitus (HbA1c 9.5%) presents for multiple extractions. Which of the following is the most significant concern for the dental practitioner?",
+    "options": [
+      "Increased risk of local anesthetic failure",
+      "Delayed wound healing and increased susceptibility to infection",
+      "Higher incidence of xerostomia leading to rampant caries",
+      "Increased risk of hypoglycemia during treatment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Poorly controlled diabetes significantly impairs the body's immune response and wound healing capabilities, leading to higher risks of post-operative infections and delayed healing following surgical procedures."
+  },
+  {
+    "id": 416473009,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 72-year-old patient on warfarin for atrial fibrillation requires a simple extraction. The most appropriate management strategy regarding his anticoagulant medication is to:",
+    "options": [
+      "Discontinue warfarin 3-5 days prior to the extraction.",
+      "Perform the extraction only if the INR is between 2.0-3.0 and use local hemostatic measures.",
+      "Switch warfarin to low-molecular-weight heparin (LMWH) for 24 hours prior.",
+      "Double the warfarin dose the day before to achieve a therapeutic effect."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For most minor oral surgical procedures in patients on warfarin, maintaining the INR within the therapeutic range (2.0-3.0) and employing excellent local hemostatic measures is generally considered safe and avoids the risks of stopping or bridging anticoagulation."
+  },
+  {
+    "id": 85026933,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with well-controlled asthma presents for a dental procedure. Which of the following is an important consideration for this patient during dental treatment?",
+    "options": [
+      "Avoidance of NSAIDs due to potential for aspirin-exacerbated respiratory disease.",
+      "Prescription of prophylactic antibiotics to prevent respiratory infections.",
+      "Use of nitrous oxide sedation is absolutely contraindicated.",
+      "High risk of adrenal crisis if on inhaled corticosteroids."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A subset of asthmatic patients experiences aspirin-exacerbated respiratory disease (AERD), where NSAIDs can precipitate bronchospasm. Therefore, NSAIDs should be used with caution or avoided, especially in patients with a history of aspirin sensitivity."
+  },
+  {
+    "id": 146247667,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "According to current guidelines, which of the following dental procedures would most likely require infective endocarditis prophylaxis in a patient with a prosthetic heart valve?",
+    "options": [
+      "Taking dental radiographs.",
+      "Administration of local anesthetic (non-intra-ligamentary).",
+      "Routine scaling and root planing.",
+      "Placement of orthodontic appliances."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Infective endocarditis prophylaxis is recommended for dental procedures involving manipulation of gingival tissue or the periapical region of teeth, or perforation of the oral mucosa, in high-risk patients like those with prosthetic heart valves. Routine scaling and root planing falls into this category."
+  },
+  {
+    "id": 986883258,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient on long-term oral corticosteroids for rheumatoid arthritis is scheduled for a complex extraction. What is the primary concern for this patient during the dental appointment?",
+    "options": [
+      "Increased risk of bleeding due to steroid-induced thrombocytopenia.",
+      "Impaired wound healing and increased susceptibility to infection.",
+      "Risk of an acute adrenal crisis due to stress.",
+      "Hypertension due to steroid mineralocorticoid effects."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Long-term corticosteroid use can suppress the adrenal glands. Stress from a dental procedure can precipitate an acute adrenal crisis if the patient's steroid dosage is not appropriately managed (steroid cover)."
+  },
+  {
+    "id": 940730829,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient presents with a known history of chronic Hepatitis C. Which of the following is the most appropriate infection control measure in a dental setting for this patient?",
+    "options": [
+      "Use of standard universal precautions for all patients.",
+      "Performing treatment only in an isolated operatory.",
+      "Requesting a recent viral load test before treatment.",
+      "Postponing treatment until the patient is virally suppressed."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Universal precautions are designed to prevent the transmission of bloodborne pathogens, including Hepatitis C, from all patients, regardless of their known infection status. No special additional measures are typically required beyond these standard precautions."
+  },
+  {
+    "id": 398796369,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient had a myocardial infarction 3 months ago and is stable on medications. He requires a local anesthetic with a vasoconstrictor for a restorative procedure. What is the most appropriate approach regarding epinephrine in this scenario?",
+    "options": [
+      "Epinephrine should be strictly avoided due to the risk of inducing another MI.",
+      "A maximum of 0.04mg epinephrine (2 cartridges of 1:100,000 solution) is generally safe for cardiac patients.",
+      "Only mepivacaine 3% without vasoconstrictor should be used.",
+      "Only articaine 4% with epinephrine 1:200,000 should be used, as it has less systemic absorption."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For stable cardiac patients, including those with a history of MI (especially after 6 months), a limited amount of epinephrine (up to 0.04mg) is generally considered safe. The benefits of adequate local anesthesia often outweigh the risks of endogenous epinephrine release due to pain."
+  },
+  {
+    "id": 822195919,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with uncontrolled hyperthyroidism (Graves' disease) requires an urgent dental extraction. Which of the following is a significant concern for this patient during dental treatment?",
+    "options": [
+      "Increased risk of bleeding due to coagulation factor deficiencies.",
+      "Risk of thyroid storm precipitated by stress and epinephrine.",
+      "Hypersensitivity to local anesthetics, requiring reduced doses.",
+      "Increased susceptibility to oral candidiasis due to immunosuppression."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Patients with uncontrolled hyperthyroidism are at risk of a thyroid storm, a life-threatening medical emergency, which can be triggered by stress, infection, or the exogenous administration of epinephrine."
+  },
+  {
+    "id": 667305483,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with end-stage renal disease undergoing hemodialysis requires a dental extraction. When is the most appropriate time to schedule the dental appointment relative to their dialysis session?",
+    "options": [
+      "Immediately before the dialysis session to avoid fluid retention.",
+      "On the same day, immediately after the dialysis session.",
+      "On a non-dialysis day, preferably the day after dialysis.",
+      "Any day, as long as prophylactic antibiotics are given."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The day after dialysis is generally preferred as the patient's anticoagulant levels (from heparin during dialysis) would have diminished, and they would be less fatigued and better hydrated than immediately post-dialysis."
+  },
+  {
+    "id": 242444786,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient reports chronic heartburn and takes a proton pump inhibitor daily for gastroesophageal reflux disease (GERD). Which oral manifestation is most commonly associated with GERD?",
+    "options": [
+      "Cervical lymphadenopathy",
+      "Erosion of tooth enamel on palatal surfaces",
+      "Angular cheilitis",
+      "Increased risk of oral squamous cell carcinoma"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chronic exposure to gastric acid refluxing into the oral cavity can lead to significant erosion of tooth enamel, typically observed on the palatal surfaces of maxillary anterior teeth."
+  },
+  {
+    "id": 567959549,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 30-year-old patient with epilepsy controlled by phenytoin presents with significant gingival overgrowth. From a dental perspective, which of the following is the most appropriate initial management strategy?",
+    "options": [
+      "Immediate surgical gingivectomy.",
+      "Consultation with the physician for a medication change.",
+      "Initiation of systemic antifungal therapy.",
+      "Emphasizing meticulous oral hygiene and frequent professional debridement."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Meticulous oral hygiene and frequent professional debridement are crucial for managing phenytoin-induced gingival overgrowth by controlling inflammation. While medication changes or surgery may be necessary, these are often secondary or adjunctive measures."
+  },
+  {
+    "id": 696280254,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 70-year-old female patient has been taking oral alendronate for osteoporosis for 5 years. She requires an extraction of a non-restorable tooth. What is the most significant risk associated with this procedure?",
+    "options": [
+      "Increased risk of medication-related osteonecrosis of the jaw (MRONJ).",
+      "Delayed healing due to osteoporosis.",
+      "Enhanced risk of post-operative infection.",
+      "Increased bleeding due to alendronate's effect on platelets."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Patients on oral bisphosphonates, especially for an extended period, are at an increased risk of developing Medication-Related Osteonecrosis of the Jaw (MRONJ) following invasive dental procedures like extractions."
+  },
+  {
+    "id": 760365114,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient suffered a cerebrovascular accident (CVA) 6 months ago and now experiences mild right-sided hemiparesis. Which of the following is an important consideration for his dental care?",
+    "options": [
+      "Routine dental treatment should be postponed indefinitely.",
+      "Increased risk of aspiration during dental procedures due to impaired swallowing reflex.",
+      "Strict avoidance of all local anesthetics containing vasoconstrictors.",
+      "Prophylactic antibiotics are required before any invasive dental procedure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Following a CVA, patients may experience impaired oral motor function and swallowing reflexes, increasing the risk of aspiration of dental materials or fluids during treatment. Careful positioning and suction are crucial."
+  },
+  {
+    "id": 248062528,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with HIV, whose CD4 count is 350 cells/mm³ and viral load is undetectable, requires a complex dental procedure. Which of the following is the most appropriate approach to his dental management?",
+    "options": [
+      "Prophylactic antibiotics are mandatory for all invasive procedures.",
+      "Dental treatment should be deferred until the CD4 count is above 500 cells/mm³.",
+      "Standard universal precautions are sufficient, and treatment can proceed as planned.",
+      "Nitrous oxide sedation is contraindicated due to potential immunosuppression."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For well-controlled HIV (CD4 > 200 cells/mm³ and undetectable viral load), standard universal infection control precautions are sufficient, and most dental procedures can be performed safely without additional prophylaxis or deferral."
+  },
+  {
+    "id": 900169504,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient presents with pallor, fatigue, and a history of chronic iron-deficiency anemia (Hb 8.0 g/dL). Which of the following oral manifestations might be present, and what is the primary dental concern for invasive procedures?",
+    "options": [
+      "Oral candidiasis; high risk of opportunistic infections.",
+      "Atrophic glossitis; reduced tissue healing and oxygenation.",
+      "Angular cheilitis; increased risk of systemic lupus erythematosus.",
+      "Petechiae; risk of severe thrombocytopenia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Atrophic glossitis (smooth, red, painful tongue) is a common oral sign of severe iron-deficiency anemia. Severe anemia compromises tissue oxygen delivery and can impair healing, making invasive procedures riskier due to systemic compromise."
+  },
+  {
+    "id": 588659919,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 55-year-old patient develops a lacy white pattern on the buccal mucosa bilaterally after starting a new antihypertensive medication. Which of the following types of oral reactions is most likely occurring?",
+    "options": [
+      "Oral candidiasis",
+      "Lichenoid drug reaction",
+      "Geographic tongue",
+      "Aphthous stomatitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lichenoid drug reactions often present as a white, lacy (Wickham's striae-like) pattern on the buccal mucosa, resembling oral lichen planus, and are known side effects of various medications, including some antihypertensives."
+  },
+  {
+    "id": 636628606,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "During a dental appointment, a 60-year-old male patient with a history of stable angina complains of sudden, crushing chest pain radiating to his left arm. What is the most appropriate immediate action for the dental team?",
+    "options": [
+      "Administer 100% oxygen by nasal cannula.",
+      "Administer sublingual nitroglycerin (if not contraindicated and patient has own supply/prescription).",
+      "Call for emergency medical services (EMS) immediately.",
+      "Place the patient in a supine position and monitor vital signs."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a patient with a known history of stable angina experiencing chest pain, the immediate step is to administer sublingual nitroglycerin to cause vasodilation and relieve symptoms. If pain persists after 3 doses or worsens, EMS should be activated."
+  },
+  {
+    "id": 772318714,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient insists on receiving antibiotics for a localized dental abscess that can be drained surgically. What is the most appropriate response from the dentist regarding antibiotic prescription?",
+    "options": [
+      "Prescribe antibiotics as requested to ensure patient satisfaction.",
+      "Explain that antibiotics are not indicated when drainage is possible, to prevent antibiotic resistance.",
+      "Prescribe a narrow-spectrum antibiotic to minimize side effects.",
+      "Prescribe antibiotics only if the patient reports systemic signs of infection."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For localized dental abscesses, drainage is the definitive treatment. Prescribing antibiotics unnecessarily contributes to antibiotic resistance and should be avoided unless there are signs of systemic infection or spreading cellulitis."
+  },
+  {
+    "id": 543066373,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient is currently taking an ACE inhibitor for hypertension. Which of the following commonly prescribed dental medications could potentially reduce the effectiveness of their antihypertensive medication?",
+    "options": [
+      "Acetaminophen",
+      "Amoxicillin",
+      "Ibuprofen",
+      "Clindamycin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen can interfere with the hypotensive effects of ACE inhibitors by inhibiting prostaglandin synthesis, which can lead to an increase in blood pressure."
+  },
+  {
+    "id": 901402790,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 55-year-old male presents for an extraction of tooth #30. His medical history reveals Type 2 Diabetes Mellitus, well-controlled with metformin, and an HbA1c of 6.8%. He reports taking his medication and eating normally this morning. Which of the following is the most appropriate initial action BEFORE proceeding with the extraction?",
+    "options": [
+      "Request a fasting blood glucose test immediately.",
+      "Proceed with the extraction as his HbA1c is within acceptable limits.",
+      "Measure his current blood glucose level chairside.",
+      "Administer insulin as a precautionary measure to prevent hyperglycemia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "While HbA1c indicates long-term control, the current blood glucose level is crucial for immediate dental treatment, especially for invasive procedures. It helps identify potential hypoglycemia or acute hyperglycemia, which could impact healing or precipitate an emergency during the appointment. It is generally recommended for diabetic patients undergoing invasive procedures to have a blood glucose reading taken on the day of the appointment."
+  },
+  {
+    "id": 397660139,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 68-year-old patient with a history of myocardial infarction 3 months ago, currently on clopidogrel, presents for a simple tooth extraction. Which of the following is the most appropriate management strategy for their clopidogrel medication?",
+    "options": [
+      "Instruct the patient to discontinue clopidogrel 7 days prior to the extraction.",
+      "Refer the patient to their cardiologist for evaluation and potential temporary cessation of clopidogrel.",
+      "Proceed with the extraction without altering clopidogrel, but ensure excellent local hemostasis.",
+      "Prescribe a vitamin K antagonist to counteract the effects of clopidogrel before the procedure."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Discontinuing antiplatelet medications like clopidogrel without medical consultation can significantly increase the risk of serious cardiovascular events, especially within the first year post-MI. For simple extractions, consulting the patient's cardiologist to weigh the risk of bleeding versus the risk of thrombosis is crucial. Often, simple extractions can be performed without discontinuing clopidogrel with careful local hemostasis, but a cardiology consultation is paramount for patient safety."
+  },
+  {
+    "id": 895854878,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with a medical history of asthma reports using a salbutamol inhaler several times a week for symptom control. What is the most important consideration for this patient during dental treatment?",
+    "options": [
+      "Avoid the use of local anesthetics containing epinephrine.",
+      "Schedule longer appointments to reduce stress.",
+      "Ensure the patient has their bronchodilator inhaler readily available.",
+      "Administer prophylactic oral corticosteroids before the appointment."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Patients with asthma, particularly those requiring frequent use of their rescue inhaler, are at higher risk of an acute asthma exacerbation triggered by stress or anxiety during dental procedures. Ensuring their bronchodilator (e.g., salbutamol) is immediately accessible and that they have taken their regular medications is critical for managing potential respiratory distress."
+  },
+  {
+    "id": 68227835,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following conditions is an absolute contraindication for elective dental treatment?",
+    "options": [
+      "Uncontrolled hypertension (e.g., BP 180/110 mmHg).",
+      "Stable angina pectoris.",
+      "Previous myocardial infarction 6 months ago.",
+      "Controlled Type 1 Diabetes Mellitus."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Uncontrolled severe hypertension (Stage 2 or Hypertensive Crisis) presents a significant risk of stroke, myocardial infarction, or renal failure during dental treatment due to the stress and potential vasoconstrictor effects of local anesthetics. Elective dental treatment should be postponed until blood pressure is adequately controlled. The other conditions listed, if stable or controlled, generally allow for elective dental treatment with appropriate precautions."
+  },
+  {
+    "id": 671638652,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 30-year-old pregnant patient in her second trimester requires a dental filling. Which of the following is the most appropriate approach regarding local anesthetic administration?",
+    "options": [
+      "Avoid all local anesthetics due to potential fetal harm.",
+      "Use local anesthetics without epinephrine.",
+      "Lidocaine with epinephrine (1:100,000) in minimal effective doses is generally considered safe.",
+      "Prescribe oral analgesics instead of local anesthetics."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lidocaine with epinephrine (1:100,000) is generally considered the local anesthetic of choice for pregnant patients, used in the minimal effective dose. The small amount of epinephrine is rapidly metabolized and does not pose a significant risk to the fetus, while controlling pain prevents the release of endogenous catecholamines from stress, which can be more harmful. The second trimester is the safest period for dental treatment."
+  },
+  {
+    "id": 152803732,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient on chronic corticosteroid therapy for an autoimmune condition needs a tooth extraction. What is the primary concern regarding this medication?",
+    "options": [
+      "Increased risk of bleeding.",
+      "Potential for adrenal crisis.",
+      "Impaired wound healing.",
+      "Risk of drug interactions with local anesthetics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Patients on chronic corticosteroid therapy may experience adrenal suppression, leading to adrenal insufficiency. Surgical stress (like an extraction) can precipitate an adrenal crisis due to the inability of the adrenal glands to produce sufficient cortisol. Stress-dosing (supplemental corticosteroids) may be required for invasive procedures, and medical consultation is essential."
+  },
+  {
+    "id": 139059506,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following medical conditions typically requires antibiotic prophylaxis prior to certain dental procedures to prevent infective endocarditis?",
+    "options": [
+      "Mitral valve prolapse with regurgitation.",
+      "History of rheumatic fever without valvular damage.",
+      "Unrepaired cyanotic congenital heart disease.",
+      "Presence of an artificial heart valve."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Current guidelines from the American Heart Association recommend antibiotic prophylaxis for patients with prosthetic cardiac valves or prosthetic material used for cardiac valve repair, a history of infective endocarditis, specific congenital heart diseases, and cardiac transplantation recipients who develop valvulopathy."
+  },
+  {
+    "id": 903727,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient presents with unexplained gingival bleeding and easy bruising. He also reports fatigue and pallor. Which hematologic condition should be primarily considered?",
+    "options": [
+      "Polycythemia vera.",
+      "Thrombocytopenia.",
+      "Hemophilia B.",
+      "Sickle cell anemia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gingival bleeding and easy bruising are classic signs of impaired hemostasis, often related to platelet dysfunction or low platelet count (thrombocytopenia). Fatigue and pallor could indicate associated anemia. Hemophilia B causes bleeding but typically not widespread bruising as prominently as thrombocytopenia. Polycythemia vera increases blood viscosity, and sickle cell anemia is a red blood cell disorder."
+  },
+  {
+    "id": 336200172,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with a history of a cerebrovascular accident (stroke) 6 months ago, currently taking aspirin daily, needs routine dental cleaning. What is the most appropriate action regarding their aspirin medication?",
+    "options": [
+      "Discontinue aspirin 5 days before the appointment.",
+      "Instruct the patient to double their aspirin dose to reduce inflammation.",
+      "Continue aspirin as prescribed and proceed with routine cleaning with caution.",
+      "Request a consultation with their neurologist for medication adjustment."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For routine dental cleanings and most minor dental procedures, patients taking aspirin for secondary stroke prevention should continue their medication as prescribed. The risk of discontinuing aspirin (increased risk of recurrent stroke) far outweighs the minimal risk of bleeding from routine cleaning, which can be managed with local measures."
+  },
+  {
+    "id": 741984954,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following is the most appropriate initial management for a patient experiencing a grand mal seizure in the dental chair?",
+    "options": [
+      "Restrain the patient's limbs to prevent injury.",
+      "Insert a tongue depressor between the teeth to protect the tongue.",
+      "Place the patient in a supine position and elevate their legs.",
+      "Clear the area of instruments, position the patient on their side, and protect their head."
+    ],
+    "correctAnswer": 3,
+    "explanation": "During a grand mal seizure, the primary goal is to prevent injury. Clearing the surrounding area, carefully positioning the patient on their side to prevent aspiration, and protecting their head are critical steps. Restraining limbs or inserting objects into the mouth can cause further injury to the patient or the dental staff."
+  },
+  {
+    "id": 378932063,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with newly diagnosed Graves' disease (hyperthyroidism) needs urgent dental treatment. Which dental management consideration is most critical?",
+    "options": [
+      "Avoid general anesthesia.",
+      "Restrict the use of local anesthetics containing epinephrine.",
+      "Schedule long appointments to reduce stress.",
+      "Monitor for signs of hypoglycemia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Patients with uncontrolled hyperthyroidism are sensitive to catecholamines. Epinephrine in local anesthetics can exacerbate symptoms like tachycardia, palpitations, and increase the risk of a thyroid storm. Limiting or avoiding epinephrine is crucial. Urgent treatment should be managed with extreme caution, and medical consultation is advised."
+  },
+  {
+    "id": 54377414,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following statements about Human Immunodeficiency Virus (HIV) and dental treatment is most accurate?",
+    "options": [
+      "Patients with HIV should avoid all invasive dental procedures.",
+      "Standard infection control precautions are sufficient for treating HIV-positive patients.",
+      "HIV is highly transmissible in the dental setting through aerosols.",
+      "HIV-positive patients are contraindicated for dental radiography."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Standard universal infection control precautions, including barrier protection, instrument sterilization, and surface disinfection, are effective in preventing the transmission of HIV in the dental setting. HIV is not highly transmissible through aerosols, and there are no contraindications for radiography or invasive procedures if the patient's CD4 count and viral load are stable and within acceptable limits."
+  },
+  {
+    "id": 618285172,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with chronic obstructive pulmonary disease (COPD) presents for dental treatment. Which of the following is the most important dental management consideration?",
+    "options": [
+      "Administer supplemental oxygen to all COPD patients.",
+      "Position the patient in a supine position to aid breathing.",
+      "Avoid dental materials that produce strong odors.",
+      "Avoid long appointments and maintain a semi-supine or upright position."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Patients with severe COPD may experience orthopnea or dyspnea when lying flat. Positioning them in a semi-supine or more upright position can significantly improve their comfort and breathing. Long appointments can also exacerbate their respiratory distress. Supplemental oxygen should only be administered if indicated and in consultation with their physician, as excessive oxygen can suppress the respiratory drive in some COPD patients."
+  },
+  {
+    "id": 484284747,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "What is the primary concern when providing dental care to a patient with end-stage renal disease undergoing hemodialysis?",
+    "options": [
+      "Increased risk of infective endocarditis.",
+      "Elevated risk of bleeding and infection.",
+      "Hypoglycemia due to impaired glucose metabolism.",
+      "Reduced efficacy of local anesthetics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Patients with end-stage renal disease often have impaired platelet function, anemia, and may be on anticoagulant therapy, leading to an increased risk of bleeding. They are also immunocompromised, increasing their susceptibility to infections. Dental treatment should ideally be performed on a non-dialysis day to minimize bleeding risks, and consultation with their nephrologist is crucial."
+  },
+  {
+    "id": 854269772,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient develops sudden onset of chest pain radiating to the left arm and jaw, accompanied by shortness of breath and profuse sweating. What is the most likely medical emergency?",
+    "options": [
+      "Acute anxiety attack.",
+      "Angina pectoris.",
+      "Myocardial infarction.",
+      "Esophageal spasm."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The sudden onset of severe chest pain radiating to the arm and jaw, along with shortness of breath and diaphoresis (profuse sweating), are classic symptoms indicative of an acute myocardial infarction (heart attack). While angina also causes chest pain, it's typically relieved by rest or nitroglycerin and less often accompanied by profuse sweating and severe shortness of breath at onset."
+  },
+  {
+    "id": 246237828,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient reports persistent heartburn and regurgitation, often worse when lying down. They also note erosion on the palatal surfaces of their maxillary anterior teeth. Which condition is most likely responsible for these dental findings?",
+    "options": [
+      "Bulimia nervosa.",
+      "Gastroesophageal Reflux Disease (GERD).",
+      "Sjögren's syndrome.",
+      "Pernicious anemia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gastroesophageal Reflux Disease (GERD) is characterized by the reflux of stomach acid into the esophagus and potentially the oral cavity. This chronic acid exposure can lead to dental erosion, particularly on the palatal surfaces of maxillary anterior teeth, as well as symptoms like heartburn and regurgitation. Bulimia nervosa also causes palatal erosion, but is typically associated with self-induced vomiting and distinct behavioral patterns."
+  },
+  {
+    "id": 338735186,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "For a patient with a history of an anaphylactic reaction to penicillin, what is the most appropriate antibiotic choice for infective endocarditis prophylaxis?",
+    "options": [
+      "Amoxicillin.",
+      "Azithromycin.",
+      "Clindamycin.",
+      "Cephalexin."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For patients with a history of penicillin allergy, macrolides like azithromycin or clarithromycin, or lincosamides like clindamycin, are the recommended alternatives for infective endocarditis prophylaxis. Amoxicillin is a penicillin derivative, and cephalexin (a cephalosporin) has a risk of cross-reactivity with penicillin in patients with a history of severe allergic reactions."
+  },
+  {
+    "id": 796214894,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient presents with a history of osteoporosis and is currently taking alendronate (a bisphosphonate) for 5 years. What is the primary dental concern associated with this medication?",
+    "options": [
+      "Increased risk of periodontal disease.",
+      "Potential for osteonecrosis of the jaw (MRONJ).",
+      "Enhanced susceptibility to dental caries.",
+      "Interference with local anesthetic efficacy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Long-term use of bisphosphonates, especially for over 4 years, increases the risk of medication-related osteonecrosis of the jaw (MRONJ). This condition is characterized by exposed bone in the maxillofacial region that fails to heal after dental extractions or other oral surgical procedures. Thorough risk assessment and careful management are crucial."
+  },
+  {
+    "id": 708923477,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "What is the typical dental consideration for a patient with well-controlled Tuberculosis (TB) who is taking medication and has received clearance from their physician?",
+    "options": [
+      "Avoid all aerosol-generating procedures.",
+      "Treat only in a specialized isolation facility.",
+      "Treat as a normal patient with standard precautions.",
+      "Delay all dental treatment until medication is completed."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For patients with well-controlled (non-infectious) Tuberculosis who are undergoing treatment and have medical clearance, routine dental treatment can proceed using standard infection control precautions. If the TB is active or infectious, dental treatment should be limited to emergencies in an isolated setting, but this question specifies 'well-controlled' and 'clearance'."
+  },
+  {
+    "id": 255513340,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following conditions is most likely to be exacerbated by anxiety and stress during a dental appointment?",
+    "options": [
+      "Hypothyroidism.",
+      "Hemochromatosis.",
+      "Pheochromocytoma.",
+      "GERD."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pheochromocytoma is a rare tumor of the adrenal glands that results in the overproduction of catecholamines (epinephrine and norepinephrine). Stress and anxiety can trigger the release of more catecholamines, potentially leading to a hypertensive crisis, severe tachycardia, or arrhythmia, making it extremely dangerous in the dental setting. While GERD can also be exacerbated by stress, the systemic and life-threatening implications of pheochromocytoma make it a more critical concern in this context."
+  },
+  {
+    "id": 89644895,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 68-year-old patient with a history of myocardial infarction 3 months ago, managed with dual antiplatelet therapy (aspirin and clopidogrel), requires an extraction of tooth #30. Which of the following is the most appropriate initial management step regarding their medication for this procedure?",
+    "options": [
+      "Discontinue clopidogrel 7 days prior to the extraction.",
+      "Discontinue aspirin 7 days prior to the extraction.",
+      "Perform the extraction without altering the antiplatelet therapy.",
+      "Consult with the patient's cardiologist to assess the risk of discontinuing either medication."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Discontinuation of dual antiplatelet therapy (DAPT) in a patient with a recent MI carries a high risk of stent thrombosis and adverse cardiovascular events. The most appropriate step is to consult with the patient's cardiologist to weigh the risks of bleeding against the risks of discontinuing therapy and to determine a safe management plan."
+  },
+  {
+    "id": 645668262,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient presents with a blood pressure reading of 165/102 mmHg at two separate dental visits. They deny any symptoms. According to JNC 8 guidelines, this patient is in which hypertension category?",
+    "options": [
+      "Normal blood pressure",
+      "Elevated blood pressure",
+      "Stage 1 Hypertension",
+      "Stage 2 Hypertension"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Stage 2 hypertension is defined as systolic blood pressure ≥ 140 mmHg or diastolic blood pressure ≥ 90 mmHg. A reading of 165/102 mmHg falls into this category, requiring medical referral and management."
+  },
+  {
+    "id": 944814236,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following conditions is considered a high-risk cardiac condition for which antibiotic prophylaxis is recommended before certain dental procedures to prevent infective endocarditis?",
+    "options": [
+      "Mitral valve prolapse with regurgitation",
+      "Previous coronary artery bypass graft (CABG)",
+      "Unrepaired cyanotic congenital heart disease",
+      "Rheumatic heart disease without valvular dysfunction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Unrepaired cyanotic congenital heart disease is one of the specific high-risk cardiac conditions for which antibiotic prophylaxis is recommended. Mitral valve prolapse, previous CABG, and rheumatic heart disease without valvular dysfunction are generally not indications for prophylaxis."
+  },
+  {
+    "id": 782778216,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A 55-year-old patient with Type 2 diabetes, controlled with metformin, presents for routine dental care. Their last HbA1c was 8.2%. What is the most significant dental concern for this patient?",
+    "options": [
+      "Increased risk of developing insulin shock during treatment.",
+      "Higher susceptibility to periodontal disease and impaired wound healing.",
+      "Increased risk of candidiasis due to metformin use.",
+      "Potential for adrenal crisis during stressful dental procedures."
+    ],
+    "correctAnswer": 1,
+    "explanation": "An HbA1c of 8.2% indicates poorly controlled diabetes. This significantly increases the risk for periodontal disease due to altered host response, and impairs wound healing post-operatively. Metformin does not typically cause candidiasis or adrenal crisis."
+  },
+  {
+    "id": 47497774,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient on chronic corticosteroid therapy for an autoimmune condition requires an urgent tooth extraction. What is the primary concern for this patient during the dental procedure?",
+    "options": [
+      "Increased risk of bleeding.",
+      "Decreased ability to metabolize local anesthetics.",
+      "Adrenal suppression and potential for adrenal crisis.",
+      "Exacerbation of their autoimmune condition."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Long-term corticosteroid use can lead to adrenal suppression, impairing the body's stress response. During a stressful dental procedure, this can precipitate an adrenal crisis, which is a life-threatening medical emergency."
+  },
+  {
+    "id": 9356948,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following is the most appropriate management for a patient experiencing a mild asthmatic attack in the dental chair?",
+    "options": [
+      "Administer oral diphenhydramine.",
+      "Place the patient in supine position and provide oxygen.",
+      "Administer the patient's own albuterol inhaler (two puffs) and monitor.",
+      "Call emergency services immediately."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a mild asthmatic attack, the most appropriate initial step is to administer the patient's own bronchodilator (e.g., albuterol) and monitor their response. Only if the symptoms do not improve or worsen should emergency services be called."
+  },
+  {
+    "id": 830526811,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient on warfarin therapy for atrial fibrillation presents for multiple extractions. Their current INR is 2.8. What is the most appropriate management approach?",
+    "options": [
+      "Discontinue warfarin for 3 days prior to the extractions.",
+      "Proceed with extractions and use local hemostatic measures.",
+      "Administer vitamin K to reverse the anticoagulation effect.",
+      "Consult with the physician to consider a 'bridging' therapy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For multiple extractions and an INR of 2.8, which is within the therapeutic range, proceeding with local hemostatic measures is often sufficient. Discontinuing warfarin or administering vitamin K without physician consultation can put the patient at risk of thromboembolic events, and bridging therapy is generally discouraged for minor oral surgery."
+  },
+  {
+    "id": 794535531,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Oral candidiasis is commonly observed in patients with which of the following systemic conditions?",
+    "options": [
+      "Hyperthyroidism",
+      "Iron deficiency anemia",
+      "HIV/AIDS",
+      "Gastroesophageal reflux disease (GERD)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Oral candidiasis is an opportunistic infection frequently seen in immunocompromised individuals, such as those with HIV/AIDS. While other conditions can influence oral health, HIV/AIDS is a primary systemic risk factor for candidiasis."
+  },
+  {
+    "id": 968419183,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with a history of Hepatitis C requests dental treatment. What is the primary concern for the dental team?",
+    "options": [
+      "Increased risk of oral cancer.",
+      "Potential for impaired wound healing.",
+      "Risk of transmission of the virus to healthcare providers.",
+      "Decreased efficacy of local anesthetics."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hepatitis C is a blood-borne virus, posing a risk of transmission to healthcare providers through percutaneous injury or mucous membrane exposure. Standard precautions are critical. While chronic liver disease can affect wound healing, the primary immediate concern during treatment is infection control."
+  },
+  {
+    "id": 587765534,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient who reports feeling 'shaky' and 'confused' during a long dental appointment, also has a history of Type 1 diabetes. What is the most likely immediate cause of these symptoms?",
+    "options": [
+      "Hyperglycemia",
+      "Hypoglycemia",
+      "Diabetic ketoacidosis",
+      "Hypertensive crisis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Confusion, shakiness, sweating, and weakness are classic symptoms of hypoglycemia (low blood sugar), which can occur in diabetic patients, especially with missed meals or increased stress. This requires immediate intervention with oral glucose."
+  },
+  {
+    "id": 977176023,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following oral manifestations is most characteristic of pernicious anemia?",
+    "options": [
+      "Gingival hypertrophy",
+      "Red, burning, smooth tongue (atrophic glossitis)",
+      "Multiple oral petechiae and ecchymoses",
+      "Sialolithiasis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pernicious anemia, caused by vitamin B12 deficiency, commonly presents with a red, burning, smooth, and atrophic tongue (glossitis). This is a hallmark oral manifestation of the condition."
+  },
+  {
+    "id": 713155848,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with end-stage renal disease (ESRD) undergoing hemodialysis requires a dental extraction. When is the safest time to schedule the dental appointment relative to their dialysis session?",
+    "options": [
+      "Immediately before a dialysis session.",
+      "On the same day, a few hours after a dialysis session.",
+      "The day after a dialysis session.",
+      "It does not matter when the appointment is scheduled relative to dialysis."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The day after a dialysis session is generally preferred. This allows time for heparin, which is administered during dialysis, to be cleared from the system, reducing the risk of bleeding. Also, patients are often fatigued immediately after dialysis."
+  },
+  {
+    "id": 112073220,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient reports taking bisphosphonate medication (alendronate) for osteoporosis for 5 years. They present with a non-healing extraction socket exposing bone. This condition is most likely:",
+    "options": [
+      "Chronic osteomyelitis",
+      "Necrotizing sialometaplasia",
+      "Osteoradionecrosis",
+      "Medication-related osteonecrosis of the jaw (MRONJ)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A history of bisphosphonate use combined with exposed, non-healing bone in the jaw is highly indicative of Medication-Related Osteonecrosis of the Jaw (MRONJ). Osteoradionecrosis is related to radiation therapy, not bisphosphonates."
+  },
+  {
+    "id": 380976890,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "What is the primary dental consideration for a patient with well-controlled epilepsy who takes phenytoin?",
+    "options": [
+      "Increased risk of postoperative infection.",
+      "Gingival hyperplasia as a common side effect.",
+      "Reduced efficacy of local anesthetics.",
+      "Increased bleeding tendency during oral surgery."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Phenytoin, an anticonvulsant medication, is well-known for causing gingival hyperplasia as a side effect in many patients. This requires meticulous oral hygiene and sometimes surgical management."
+  },
+  {
+    "id": 934115835,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient with known angina pectoris reports chest pain during a stressful dental procedure. What is the immediate first step in managing this situation?",
+    "options": [
+      "Administer oral aspirin.",
+      "Place the patient in a supine position and elevate their legs.",
+      "Stop the procedure, administer the patient's nitroglycerin, and provide oxygen.",
+      "Call for emergency medical services immediately."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a patient with known angina, the immediate steps are to stop the procedure, place them in a comfortable, semi-upright position, administer their prescribed nitroglycerin (up to 3 doses), and provide oxygen. If pain persists after 3 doses, then call emergency services."
+  },
+  {
+    "id": 855236927,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following is a common oral manifestation associated with Sjögren's Syndrome?",
+    "options": [
+      "Recurrent aphthous ulcers",
+      "Xerostomia and increased caries rate",
+      "Melanotic macules on the buccal mucosa",
+      "Geographic tongue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sjögren's Syndrome is an autoimmune disorder characterized by dry eyes and dry mouth (xerostomia) due to salivary gland dysfunction. This severe xerostomia significantly increases the risk for dental caries and oral candidiasis."
+  },
+  {
+    "id": 931576592,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient on a calcium channel blocker (e.g., nifedipine) for hypertension may exhibit which common oral side effect?",
+    "options": [
+      "Oral lichen planus",
+      "Angioedema of the lips",
+      "Gingival hyperplasia",
+      "Metallic taste"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Calcium channel blockers, such as nifedipine, verapamil, and diltiazem, are known to cause drug-induced gingival hyperplasia as a common side effect in a significant percentage of patients."
+  },
+  {
+    "id": 660989477,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "When managing a patient with chronic obstructive pulmonary disease (COPD) for dental treatment, which of the following positions should generally be avoided?",
+    "options": [
+      "Semi-supine position",
+      "Upright position",
+      "Supine position",
+      "Trendelenburg position"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Patients with severe COPD often experience orthopnea and difficulty breathing when lying flat. The supine position should generally be avoided; a semi-supine or upright position is usually more comfortable and allows for better respiration."
+  },
+  {
+    "id": 187943156,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "A patient suddenly develops hives, generalized itching, and difficulty breathing immediately after receiving local anesthesia. What is the most likely diagnosis and initial treatment?",
+    "options": [
+      "Anxiety attack; provide reassurance.",
+      "Vasovagal syncope; recline the patient.",
+      "Anaphylaxis; administer epinephrine intramuscularly.",
+      "Allergic reaction to epinephrine; administer an antihistamine."
+    ],
+    "correctAnswer": 2,
+    "explanation": "These symptoms (hives, itching, dyspnea) occurring rapidly after allergen exposure (local anesthesia) are classic signs of anaphylaxis, a life-threatening allergic reaction requiring immediate intramuscular epinephrine administration."
+  },
+  {
+    "id": 804394880,
+    "topicId": "general-medicine",
+    "difficulty": "medium",
+    "question": "Which of the following medical conditions requires routine prophylactic antibiotic coverage prior to invasive dental procedures, according to current AHA guidelines?",
+    "options": [
+      "Prosthetic joint replacement within the last 2 years",
+      "Uncontrolled diabetes mellitus",
+      "History of infective endocarditis",
+      "Rheumatic fever without cardiac complications"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A history of infective endocarditis is a high-risk cardiac condition that warrants antibiotic prophylaxis for invasive dental procedures. Prosthetic joint guidelines have changed, and prophylaxis is generally not recommended routinely. Uncontrolled diabetes and rheumatic fever without cardiac complications are not indications for prophylaxis."
   }
 ]

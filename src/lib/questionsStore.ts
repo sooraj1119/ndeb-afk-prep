@@ -13,7 +13,9 @@ export const loadTopicQuestions = async (topicId: string): Promise<any[]> => {
 export const loadAllQuestions = async (): Promise<void> => {
   const res = await fetch(import.meta.env.BASE_URL + "questions/manifest.json");
   const manifest = await res.json();
-  await Promise.all(manifest.map((t: { id: string }) => loadTopicQuestions(t.id)));
+  for (const t of manifest) {
+    await loadTopicQuestions(t.id);
+  }
 };
 
 export const getQuestions = (): any[] => {
