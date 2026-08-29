@@ -161,9 +161,20 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
       animate={{ opacity: 1, y: 0 }}
       style={{ maxWidth: '1000px', margin: '0 auto', padding: '1rem' }}
     >
-              <div style={{ marginBottom: '3rem', textAlign: 'center' }}>
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Your Progress Dashboard</h2>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Track your exam readiness and review your weak points.</p>
+              <div style={{ marginBottom: '3rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '1rem' }}>
+          <div style={{ textAlign: 'left' }}>
+            <h2 style={{ fontSize: '2.5rem', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>Your Progress Dashboard</h2>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Track your exam readiness and review your weak areas.</p>
+          </div>
+          {!isPremium && (
+            <button 
+              onClick={() => setShowPaywall(true)}
+              className="primary-btn pulse-glow"
+              style={{ padding: '0.8rem 1.5rem', background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.1rem', fontWeight: 700 }}
+            >
+              <Lock size={20} /> Upgrade to Pro
+            </button>
+          )}
         </div>
         
         {/* Dynamic Study Pacing Engine */}
