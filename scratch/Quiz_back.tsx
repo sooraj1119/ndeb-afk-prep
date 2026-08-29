@@ -195,14 +195,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
     if (window.speechSynthesis) { window.speechSynthesis.cancel(); setIsPlayingAudio(false); }
   };
 
-        const handlePrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-      setSelectedAnswer(null);
-    }
-  };
-
-  const handleNext = () => {
+        const handleNext = () => {
       if (currentIndex < topicQuestions.length - 1) {
         const nextIdx = currentIndex + 1;
         setCurrentIndex(nextIdx);

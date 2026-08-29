@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? './' : '/',
+  base: './',
   plugins: [
     react(),
     tailwindcss(),
@@ -20,7 +20,7 @@ export default defineConfig({
         display: 'standalone',
         orientation: 'portrait',
         icons: [
-          { src: '/favicon.ico', sizes: '64x64', type: 'image/x-icon' }
+          { src: './favicon.ico', sizes: '64x64', type: 'image/x-icon' }
         ]
       },
       workbox: {
@@ -36,4 +36,3 @@ export default defineConfig({
     chunkSizeWarningLimit: 700,
   }
 });
-

@@ -3538,5 +3538,565 @@
     ],
     "correctAnswer": 2,
     "explanation": "While patient confidentiality is a cornerstone of ethical practice, it is not absolute. In cases where a patient poses a clear, imminent, and serious danger to identifiable third parties, and especially when public health laws mandate reporting of specific communicable diseases, it is ethically permissible, and often legally required, to breach confidentiality to protect public safety. This is a narrow exception justified by the duty to protect the community from harm."
+  },
+  {
+    "id": 485020549,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 68-year-old male patient, fully competent, with a history of recurrent periodontal disease, requires extensive deep scaling and root planing, along with potential extractions of several periodontally compromised teeth. Despite clear explanations of the long-term benefits and risks of non-treatment (e.g., tooth loss, systemic health implications), the patient firmly refuses the recommended periodontal therapy, citing financial constraints and a preference for simple maintenance cleanings. What is the dentist's primary ethical obligation in this situation?",
+    "options": [
+      "Persuade the patient aggressively by emphasizing dire consequences of non-treatment.",
+      "Proceed with the patient's preferred simple maintenance cleanings, documenting the refusal.",
+      "Refer the patient to a periodontist for a second opinion, without further discussion.",
+      "Respect the patient's autonomous decision, ensuring they understand the risks of refusal, and document thoroughly."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The dentist's primary ethical obligation is to respect the patient's autonomy, provided the patient is competent and has received sufficient information to make an informed decision. While it's important to educate, aggressive persuasion infringes on autonomy. Proceeding with a clearly inadequate treatment without acknowledging refusal risks could be seen as substandard care. Referring without further discussion bypasses the immediate ethical duty to respect the patient's current informed choice."
+  },
+  {
+    "id": 418691623,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 45-year-old female patient, undergoing complex endodontic treatment, explicitly informs her dentist that she does not wish any information about her dental condition to be shared with her husband or any other family member, despite her husband routinely accompanying her to appointments. During a subsequent visit, the husband approaches the reception desk asking for an update on his wife's progress. What is the most appropriate action for the dental team?",
+    "options": [
+      "Provide a brief, general update without specific details, to maintain goodwill.",
+      "Inform the husband that due to patient confidentiality, no information can be disclosed.",
+      "Ask the patient for her explicit consent to share information with her husband at her next appointment.",
+      "Suggest the husband discuss the matter directly with his wife."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Maintaining patient confidentiality is a paramount ethical and legal obligation. Since the patient explicitly stated she does not wish information shared, the dental team must respect this directive. Disclosing even general information without consent violates this principle. While obtaining consent for future sharing might be an option, the immediate duty is to refuse disclosure. Suggesting the husband speak with his wife is also appropriate but the primary and most direct ethical action concerning the dental team is to state they cannot disclose due to confidentiality."
+  },
+  {
+    "id": 950795876,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "You observe your colleague, Dr. Smith, a general dentist in the same practice, exhibiting increasingly slurred speech, tremors, and impaired judgment, particularly in the afternoons. You suspect substance abuse. Several patients have also subtly complained about Dr. Smith's performance. What is your immediate ethical obligation?",
+    "options": [
+      "Confront Dr. Smith directly and offer support, keeping the matter private.",
+      "Document your observations and monitor Dr. Smith's behavior for a few more weeks.",
+      "Report your concerns to the provincial regulatory body (e.g., RCDSO) and/or practice owner.",
+      "Anonymously report Dr. Smith to the hospital where he occasionally practices."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dentists have a professional and ethical obligation to protect the public. If a colleague's impairment poses a risk to patient safety, reporting to the appropriate regulatory body or practice owner is mandatory. While offering support is compassionate, patient safety takes precedence over personal loyalty or privacy. Monitoring without action prolongs the risk. Reporting to a hospital is insufficient if Dr. Smith primarily practices in a private clinic and the regulatory body is the ultimate authority for professional conduct."
+  },
+  {
+    "id": 749448794,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 32-year-old female patient presents seeking a \"Hollywood smile.\" She has healthy dentition with minor spacing and slight discoloration. Her current dentist proposes extensive full-mouth porcelain veneers, explaining it will achieve her desired aesthetic. The procedure is costly and requires significant irreversible tooth reduction. What ethical principle is most at risk if this treatment proceeds without exploring less invasive alternatives?",
+    "options": [
+      "Autonomy",
+      "Justice",
+      "Beneficence/Non-maleficence",
+      "Veracity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The ethical principles of beneficence (acting in the patient's best interest) and non-maleficence (doing no harm) are most at risk here. Proposing an irreversible, highly invasive, and costly procedure for purely cosmetic reasons on healthy teeth, without first exploring conservative options like whitening, bonding, or orthodontics, potentially constitutes overtreatment and unnecessary harm. Autonomy is protected if the patient is fully informed but the dentist's role is to ensure the treatment proposed is ethically sound. Justice and veracity are less directly implicated in the *choice* of treatment in this specific scenario."
+  },
+  {
+    "id": 867057152,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "Dr. Lee owns shares in a dental implant manufacturing company. When presenting treatment options for missing teeth to patients, Dr. Lee consistently recommends implants from this specific company, even when other, equally effective and sometimes less expensive, options (like bridges or removable prostheses) might be suitable. He does not explicitly disclose his financial interest to the patients. What ethical concern does this situation primarily represent?",
+    "options": [
+      "Breach of confidentiality",
+      "Violation of patient autonomy",
+      "Conflict of interest",
+      "Lack of cultural competence"
+    ],
+    "correctAnswer": 2,
+    "explanation": "This scenario primarily exemplifies a conflict of interest. Dr. Lee's personal financial gain from the implant company could unduly influence his professional judgment, potentially leading him to prioritize his financial interest over the patient's best interest or the presentation of all unbiased treatment options. While it could indirectly affect autonomy if patients are not fully informed, the core issue is the conflict. Confidentiality and cultural competence are unrelated to this specific ethical problem."
+  },
+  {
+    "id": 779279309,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 14-year-old patient presents with a severe carious lesion requiring endodontic treatment. The patient expresses understanding of the procedure and wishes to proceed. However, her parents, who hold strong beliefs against root canal treatment, insist on extraction instead. The patient is deemed a 'mature minor' by the dentist, capable of understanding the implications of her decision. What is the most ethically appropriate course of action for the dentist?",
+    "options": [
+      "Proceed with the extraction as per the parents' wishes, as they are the legal guardians.",
+      "Perform the root canal as requested by the patient, informing the parents of the patient's choice.",
+      "Decline to treat and refer the family to another dentist to resolve the dispute.",
+      "Attempt to mediate between the patient and parents, explaining the pros and cons of both options, while prioritizing the mature minor's best interest and decision."
+    ],
+    "correctAnswer": 3,
+    "explanation": "In Canadian law and ethics, a mature minor capable of understanding the treatment and its consequences has the right to make their own healthcare decisions. The dentist's role is to ensure the minor is indeed mature and fully informed. Refusing to treat or directly proceeding with extraction or root canal against one party's wishes without mediation could escalate conflict. The most ethically sound approach is to mediate, emphasizing shared decision-making, while ultimately respecting the mature minor's autonomous, informed decision, especially if it aligns with their best interest. Referral should be a last resort if mediation fails and the dentist feels unable to proceed."
+  },
+  {
+    "id": 305731336,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A patient, Mr. Davies, requests a complete copy of his dental records, including radiographs, clinical notes, and billing information, to transfer to a new dentist. The front desk staff informs him there's an administrative fee for copying the records and that it will take two weeks to prepare them. Mr. Davies insists he needs them sooner and believes he shouldn't be charged. What is the dentist's ethical and professional obligation regarding record release?",
+    "options": [
+      "Charge a reasonable fee for the administrative costs of reproduction and prepare the records within a reasonable timeframe.",
+      "Refuse to release the records until all outstanding balances are paid in full.",
+      "Release only the radiographs and a summary, keeping the detailed clinical notes.",
+      "Provide immediate access to all digital records free of charge, as they are the patient's property."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Patients have a right to access their dental records, which technically belong to the dentist but the information within belongs to the patient. Dentists can charge a reasonable administrative fee for copying and preparation, and must provide them within a reasonable timeframe (typically stipulated by provincial colleges, e.g., 30 days). Withholding records due to outstanding balances or incomplete records is professionally unethical and illegal in most jurisdictions. While digital access is becoming more common, immediate free access to all records is not universally mandated."
+  },
+  {
+    "id": 338372692,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A dental clinic's advertisement prominently features the slogan 'We guarantee you'll never feel pain again!' and showcases unverified patient testimonials claiming 'miraculous transformations' from a single visit. The advertisement also offers a 'limited-time discount' that is perpetually available. Which ethical principle or guideline is this advertisement most likely violating?",
+    "options": [
+      "Confidentiality",
+      "Veracity and professionalism in advertising",
+      "Justice in healthcare provision",
+      "Patient autonomy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This advertisement violates the ethical principles of veracity (truthfulness) and professional guidelines for advertising. Making absolute guarantees (e.g., 'never feel pain again') is misleading and unethical, as pain is subjective and unpredictable. Unverified testimonials and perpetually 'limited-time' offers are deceptive practices. Professional advertising must be factual, verifiable, and not mislead the public. Confidentiality, justice, and autonomy are not directly addressed by the content of this advertisement."
+  },
+  {
+    "id": 713206372,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 7-year-old child presents for a routine check-up. You notice multiple fractured anterior teeth, unexplained bruising around the face, and the child appears withdrawn and fearful, avoiding eye contact with the accompanying adult (not the parent). The adult provides inconsistent explanations for the injuries. What is your primary ethical and legal obligation?",
+    "options": [
+      "Document the findings thoroughly in the patient's chart and advise the adult to be more careful.",
+      "Confront the adult about the suspected abuse directly and immediately.",
+      "Report your suspicions to child protective services or the appropriate authorities.",
+      "Refer the child to a specialist for further evaluation of the injuries."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dentists, like all healthcare professionals in Canada, have a mandatory legal and ethical duty to report suspected child abuse to child protective services or the appropriate authorities. Documenting is essential but insufficient as a sole action. Confronting the adult could put the child at further risk. While referral for specialist evaluation might be part of the subsequent management, the immediate and primary obligation is to report the suspicion to protect the child."
+  },
+  {
+    "id": 606099305,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 55-year-old male patient, a Jehovah's Witness, presents with severe oral hemorrhage following a dental extraction. His condition rapidly deteriorates, and significant blood loss indicates an urgent need for blood transfusion to save his life. The patient, fully conscious and competent, explicitly refuses blood products based on his religious beliefs, even after understanding the potential fatal consequences. What is the most ethically appropriate action for the dental team?",
+    "options": [
+      "Override his refusal and proceed with the blood transfusion, citing the principle of beneficence.",
+      "Seek a court order to compel the transfusion, as it is a life-threatening situation.",
+      "Respect the patient's autonomous decision and continue to provide all other available supportive care.",
+      "Attempt to persuade the patient's family to convince him to accept the transfusion."
+    ],
+    "correctAnswer": 2,
+    "explanation": "When a competent adult patient makes an informed decision to refuse treatment, even life-saving treatment, their autonomy must be respected. Overriding a competent patient's refusal, even under the principle of beneficence, is a violation of their fundamental rights. Seeking a court order is generally not appropriate for competent adults in such situations. While family involvement can be helpful, the ultimate decision rests with the patient. The ethical obligation is to respect the patient's choice while providing all other ethically permissible care."
+  },
+  {
+    "id": 941975457,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "Dr. Khan is asked by a close personal friend, who is a general dentist, to perform a complex surgical extraction that is beyond the friend's documented skill set and experience. Dr. Khan knows his friend is trying to avoid referring the patient out to a specialist to maintain patient loyalty and income. The patient, unaware of the friend's limitations, trusts the friend's judgment. What is Dr. Khan's primary ethical consideration?",
+    "options": [
+      "Accept the referral to help his friend maintain his practice and improve his skills.",
+      "Decline the referral, explaining his concerns about the friend's competency to the patient directly.",
+      "Accept the referral but insist on the friend being present for the procedure to learn.",
+      "Decline the referral, explaining the potential risks to the patient if the friend proceeds, and advise the friend to refer to a qualified specialist."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Dr. Khan's primary ethical duty is to the patient's best interest (beneficence and non-maleficence). Accepting a referral from a colleague known to be practicing beyond their competence, especially for financial reasons, puts the patient at risk. While supporting a friend is understandable, it cannot override patient safety. Directly discussing the friend's competency with the patient could breach professional courtesy and potentially harm the friend's reputation without justification from the patient. The most ethical approach is to decline and advise the friend to refer to a genuinely qualified specialist, protecting the patient and upholding professional standards."
+  },
+  {
+    "id": 269701145,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "In a busy public health dental clinic serving a low-income community, a limited number of appointments are available for urgent care each day. Two patients arrive simultaneously: a 40-year-old male with severe, debilitating toothache requiring extraction, and a 6-year-old child with multiple large carious lesions requiring extensive restorative work over several appointments to prevent future pain and infection. Only one can be seen immediately. Which ethical principle is most central to the decision-making process in this resource-constrained scenario?",
+    "options": [
+      "Autonomy",
+      "Veracity",
+      "Justice",
+      "Confidentiality"
+    ],
+    "correctAnswer": 2,
+    "explanation": "This scenario presents a challenge in the fair allocation of limited resources, which directly relates to the ethical principle of justice. The dental team must decide how to distribute care equitably and prioritize needs when not everyone can be helped immediately. While other principles are always relevant, justice is the primary one guiding the decision of who receives care first under these circumstances. Autonomy, veracity, and confidentiality are not the central ethical considerations in this specific triage situation."
+  },
+  {
+    "id": 179326605,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "Dr. Evans begins dating his dental hygienist, Sarah, who also works in his private practice. Over time, he starts providing her with free dental treatment, including cosmetic procedures, during office hours. He rationalizes this as a perk of their relationship and her employment. Which ethical principle or professional boundary is most significantly compromised by Dr. Evans' actions?",
+    "options": [
+      "Confidentiality",
+      "Patient autonomy",
+      "Professional boundaries and conflict of interest",
+      "Justice in billing practices"
+    ],
+    "correctAnswer": 2,
+    "explanation": "This situation most significantly compromises professional boundaries and introduces a conflict of interest. A romantic relationship with a subordinate employee, especially one where the dentist also acts as the healthcare provider, blurs professional lines, creates potential for exploitation, and impacts the objectivity of treatment decisions. While billing practices and confidentiality might be secondary concerns, the fundamental issue is the dual relationship and inherent power imbalance. Patient autonomy is not directly compromised as the hygienist is a consenting adult, but the 'patient' role is compromised by the relationship."
+  },
+  {
+    "id": 904188461,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A patient asks Dr. Chen about the success rate of a newly introduced ceramic implant system, which Dr. Chen has recently started using and invested heavily in. Dr. Chen, keen to promote its use, tells the patient it has a \"near 100% success rate\" and is \"superior to all other implant systems currently on the market,\" despite knowing that long-term studies are still limited and established titanium implants have comparable, well-documented success rates. What ethical principle is Dr. Chen violating?",
+    "options": [
+      "Confidentiality",
+      "Beneficence",
+      "Veracity",
+      "Non-maleficence"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dr. Chen is violating the ethical principle of veracity, which requires truthfulness and honesty in interactions with patients. Exaggerating success rates and making unsubstantiated claims about superiority are deceptive and undermine the patient's ability to make a truly informed decision. While beneficence (acting in the patient's best interest) might also be compromised if the patient makes a suboptimal choice based on false information, the direct and most evident violation is the lack of truthfulness. Confidentiality and non-maleficence are not directly breached by this misleading statement itself."
+  },
+  {
+    "id": 974694514,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "An 80-year-old female patient, Mrs. Miller, presents for a comprehensive dental exam. Her daughter informs you that Mrs. Miller has been diagnosed with early-stage Alzheimer's disease, and she often has difficulty remembering appointments or detailed instructions. During the exam, Mrs. Miller appears coherent but repeatedly asks the same questions and seems confused when presented with complex treatment plans. Who has the primary responsibility to consent for treatment in this situation?",
+    "options": [
+      "The daughter, as she is the designated substitute decision-maker.",
+      "Mrs. Miller, provided she understands the specific treatment at the time of consent.",
+      "The dentist, based on what is in Mrs. Miller's best interest.",
+      "Both Mrs. Miller and her daughter must consent jointly."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Capacity to consent is treatment-specific and fluid. Even with an Alzheimer's diagnosis, a patient retains the right to consent as long as they can understand the specific information relevant to the proposed treatment at that moment and appreciate the consequences. If Mrs. Miller's capacity is questionable for complex plans, the dentist should simplify explanations and assess her understanding. Only if she clearly lacks capacity for that specific decision, based on a proper assessment, would a substitute decision-maker (like the daughter) assume primary responsibility. The dentist does not make the decision; they provide options. Joint consent is not the standard primary approach."
+  },
+  {
+    "id": 897173283,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A patient, Mr. Henderson, asks you to backdate a dental procedure on his insurance claim form by two months so that it falls within his previous insurance policy's coverage period. He explains that he simply forgot to submit the claim in time and would otherwise face significant out-of-pocket expenses. What is your ethical obligation in response to this request?",
+    "options": [
+      "Backdate the form to help the patient, as it's a minor administrative adjustment.",
+      "Inform the patient that doing so would constitute insurance fraud and is unethical and illegal.",
+      "Suggest he resubmit with the correct date and hope the insurance company makes an exception.",
+      "Advise him to contact his previous insurance provider directly to see if they can accommodate his late submission."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Falsifying dental records or insurance claims is a serious ethical violation and constitutes insurance fraud. Dentists have a professional and legal obligation to maintain accurate records and submit truthful claims. While empathizing with the patient's financial situation, the dentist cannot engage in fraudulent activity. Suggesting the patient contact their insurance company directly for a late submission is an appropriate option for the patient to explore, but the dentist must refuse to backdate the form."
+  },
+  {
+    "id": 314130937,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 28-year-old female patient from a specific cultural background expresses strong reluctance to accept a recommendation for a fixed partial denture (bridge) to replace a missing molar, despite it being the optimal functional and aesthetic solution from a Western perspective. She prefers a removable partial denture, explaining that in her culture, it is considered more respectful to 'remove' artificial parts from the body, especially during prayer or sleep. What is the most appropriate ethical response from the dentist?",
+    "options": [
+      "Insist on the fixed partial denture, explaining its superior long-term prognosis and comfort.",
+      "Proceed with the removable partial denture, ensuring the patient is fully informed of the pros and cons of both options.",
+      "Refer the patient to a different dentist who might be more persuasive about the optimal treatment.",
+      "Document the patient's cultural beliefs and refusal, then provide no treatment for the missing tooth."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Respecting patient autonomy and cultural competence are paramount. If the patient, after being fully informed of all options (including pros, cons, and alternatives), makes a decision based on cultural or personal beliefs, that decision should be respected, provided the chosen treatment is not harmful and meets a reasonable standard of care. Insisting on one treatment ignores autonomy. Referring for persuasion is unethical. Providing no treatment without ensuring informed refusal of all options would not be in the patient's best interest. The most appropriate action is to proceed with the chosen, acceptable treatment, ensuring informed consent."
+  },
+  {
+    "id": 107732854,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "Dr. Pham regularly posts photos from his dental practice's holiday parties, including staff members and sometimes even anonymized patient success stories (e.g., 'Before and After' smile makeovers where faces are obscured, but unique dental work is visible) on his personal social media accounts. He also frequently engages in heated political debates, expressing strong opinions, on these public platforms. What ethical considerations should Dr. Pham be most concerned about?",
+    "options": [
+      "Breaching patient confidentiality, maintaining professional image, and public trust.",
+      "The legality of posting holiday party photos without staff consent.",
+      "The potential for copyright infringement on 'Before and After' photos.",
+      "Patient autonomy regarding their choice of dentist."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dr. Pham should be most concerned about breaching patient confidentiality (even anonymized photos can sometimes be identifiable) and maintaining his professional image and public trust. While the face might be obscured, unique dental work could still allow for identification, and implied consent for social media posts is insufficient. A dentist's online presence, even on 'personal' accounts, reflects on their professionalism and can erode public trust, especially when engaging in aggressive or highly polarizing content. Staff consent for photos is a general privacy concern but less directly related to dental ethics than patient confidentiality and professional conduct."
+  },
+  {
+    "id": 414116853,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 35-year-old unconscious male patient is brought to your dental office by emergency services after a severe motorcycle accident. He has extensive facial and oral trauma, including multiple fractured teeth, luxated teeth, and lacerations, leading to significant bleeding and compromised airway. No family is present, and his medical history is unknown. What is the most ethically appropriate course of action for the dentist?",
+    "options": [
+      "Await the arrival of family or a legal guardian to obtain consent for any treatment.",
+      "Provide only palliative care until the patient regains consciousness or a substitute decision-maker is found.",
+      "Administer necessary life-saving and urgent treatment based on implied consent.",
+      "Refer the patient immediately to the nearest hospital emergency department without providing any treatment."
+    ],
+    "correctAnswer": 2,
+    "explanation": "In emergency situations where a patient is unconscious and unable to provide consent, and immediate treatment is required to save their life or prevent serious harm, implied consent is ethically and legally recognized. The dentist has a duty of beneficence and non-maleficence to provide necessary urgent care. Waiting for consent or only providing palliative care while the patient's condition deteriorates would be unethical. While referral to a hospital is likely part of the overall management, the dentist should stabilize the immediate life-threatening oral/facial injuries first, if competent to do so."
+  },
+  {
+    "id": 270184380,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "You become aware that a colleague in your shared-space dental clinic routinely bills insurance companies for services not rendered, or exaggerates the complexity of procedures to receive higher remuneration. You have witnessed this on several occasions. What is your primary ethical obligation in this situation according to Canadian dental professional guidelines?",
+    "options": [
+      "Discuss your concerns confidentially with the colleague, advising them to stop.",
+      "Ignore the situation, as it does not directly involve your patients or practice.",
+      "Report the observed fraudulent billing practices to the provincial dental regulatory body.",
+      "Warn patients who might be affected by these practices without naming the colleague."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dentists have a professional and ethical obligation to uphold the integrity of the profession and protect the public. Fraudulent billing practices are a serious breach of ethics and legality. While direct discussion might be a first step for minor issues, persistent or severe misconduct, especially fraud, requires reporting to the provincial dental regulatory body. Ignoring the issue or only warning patients indirectly is insufficient and fails to address the misconduct at its source or protect the broader public. The regulatory body is empowered to investigate and take disciplinary action."
+  },
+  {
+    "id": 493255891,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 78-year-old male patient presents with moderate Alzheimer's disease, diagnosed 3 years ago. He is generally cooperative but often confused and has difficulty recalling recent events. He needs extraction of a severely carious tooth (#30) that is causing him intermittent pain. His daughter holds a Power of Attorney for Personal Care. When you explain the procedure, the patient nods but then immediately asks if you're his grandson. Who has the primary authority to provide informed consent for this procedure?",
+    "options": [
+      "The patient, as he is still capable of expressing some desires.",
+      "The daughter, based on the Power of Attorney for Personal Care.",
+      "A court-appointed guardian, as the patient lacks full cognitive capacity.",
+      "The dentist, acting in the patient's best interest given the clear need for treatment."
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Canada, if a patient is deemed to lack the capacity to make their own healthcare decisions, a substitute decision-maker (SDM) steps in. A Power of Attorney for Personal Care designates an individual to make such decisions when the patient becomes incapacitated. While the dentist assesses capacity, the daughter holding the POA is legally empowered to provide consent for her father's treatment when he lacks capacity."
+  },
+  {
+    "id": 241064194,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A dentist discovers during a routine examination that an otherwise healthy 35-year-old female patient, who works as a critical care nurse, has extensive erosion and signs of frequent vomiting, strongly suggesting bulimia nervosa. The patient confides in the dentist that she is struggling and fears losing her job if her condition becomes known. What is the dentist's primary ethical obligation in this situation?",
+    "options": [
+      "Maintain strict confidentiality, as the patient explicitly requested it.",
+      "Report the patient to her professional nursing regulatory body due to public safety concerns.",
+      "Advise the patient to seek immediate medical and psychological help, documenting the recommendation.",
+      "Inform the patient's immediate family, as they may be able to provide support and intervention."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The dentist's primary ethical obligation is to the patient's well-being while respecting confidentiality. Advising the patient to seek appropriate medical and psychological help, and documenting this discussion, fulfills the dentist's duty of beneficence and non-maleficence. Breaching confidentiality by reporting to her employer or family without consent would be inappropriate unless there was a clear and imminent risk of harm to identifiable third parties, which is not immediately evident here, or if legally mandated."
+  },
+  {
+    "id": 160953213,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "Dr. Lee owns a significant stake in a dental laboratory that specializes in custom porcelain veneers. She routinely recommends and places porcelain veneers for her patients, citing the 'superior quality' of products from 'her' lab. She does not explicitly disclose her financial interest in the lab to her patients. Which ethical principle is Dr. Lee primarily violating?",
+    "options": [
+      "Autonomy, by limiting patient choice in materials.",
+      "Veracity, by not being transparent about a potential conflict of interest.",
+      "Justice, by potentially overcharging patients for specific lab services.",
+      "Non-maleficence, by risking poorer quality if her lab isn't truly superior."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dr. Lee is primarily violating the principle of veracity (truth-telling) by failing to disclose her financial interest in the lab. This creates a conflict of interest that can influence her recommendations and erode patient trust. While it could indirectly impact autonomy or non-maleficence, the direct and primary ethical breach is the lack of transparency about her financial stake."
+  },
+  {
+    "id": 22185929,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 45-year-old male patient presents with a history of intravenous drug use and an aggressive, rapidly spreading oral cellulitis originating from an abscessed mandibular molar. He is coherent but adamantly refuses hospitalization and intravenous antibiotics, stating he distrusts hospitals and prefers to 'deal with it himself.' You explain the life-threatening risks, but he remains steadfast in his refusal. What is the most ethically appropriate next step?",
+    "options": [
+      "Insist on hospitalization and threaten to involve legal authorities if he refuses.",
+      "Provide palliative local care and prescribe oral antibiotics, respecting his autonomy.",
+      "Document the patient's informed refusal, obtain his signature, and offer harm reduction advice.",
+      "Contact the patient's emergency contact to inform them of his decision and the associated risks."
+    ],
+    "correctAnswer": 2,
+    "explanation": "When an adult patient with capacity makes an informed refusal of treatment, their autonomy must be respected, even if the decision puts their life at risk. The dentist's ethical duty is to ensure the patient fully understands the risks and benefits of their decision, thoroughly document this discussion, and obtain their signed refusal. Offering harm reduction advice (e.g., advising on signs of worsening infection) is also appropriate within the bounds of respecting their decision. Overriding his decision or involving family without consent would violate his autonomy and confidentiality."
+  },
+  {
+    "id": 28123041,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "In a publicly funded dental clinic serving a low-income community, resources are extremely limited, and there is a long waiting list for complex restorative and orthodontic treatments. A 10-year-old child presents with severe dental trauma requiring extensive restorative work and possible future orthodontic intervention, while an 8-year-old child with good oral hygiene requires minor preventive sealants and a check-up. Ethically, which principle should guide the allocation of resources in this scenario?",
+    "options": [
+      "First-come, first-served basis, as it is the most impartial.",
+      "The ability to pay, prioritizing those who can contribute to costs.",
+      "Beneficence, prioritizing the child with the most acute and impactful need.",
+      "Justice, ensuring an equitable distribution of available care based on need and potential for long-term impact."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The principle of justice in healthcare allocation emphasizes fair and equitable distribution of resources, often prioritizing those with the greatest need or those for whom treatment would have the most significant positive impact on their health and quality of life. In this case, prioritizing the child with severe dental trauma aligns with both justice and beneficence, as their need is more acute and delaying care would have a more detrimental impact than delaying preventive care for the other child. While 'beneficence' is close, 'justice' more directly addresses the fair allocation across a population."
+  },
+  {
+    "id": 884287462,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "Dr. Chen accidentally perforates the maxillary sinus during an extraction of tooth #16 on a 55-year-old female patient. The perforation is small (2mm) and manageable, requiring specific post-operative instructions but no immediate surgical repair. Dr. Chen is concerned about the patient's reaction and potential litigation. What is Dr. Chen's primary ethical obligation in this situation?",
+    "options": [
+      "Inform the patient about the perforation, explain the potential consequences, and outline the necessary post-operative care.",
+      "Monitor the patient closely without immediately disclosing, to avoid undue alarm if no complications arise.",
+      "Document the incident thoroughly in the patient's chart, but only inform the patient if complications develop.",
+      "Refer the patient immediately to an oral surgeon, allowing the specialist to disclose the incident."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dentists have an ethical and professional obligation (veracity) to inform patients of any procedural errors or adverse events, regardless of their perceived severity. Full disclosure builds trust and allows the patient to make informed decisions about their ongoing care. Failing to disclose or delaying disclosure would be a breach of this duty, potentially leading to greater harm to the dentist-patient relationship and legal repercussions if complications arise later."
+  },
+  {
+    "id": 45728317,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 6-year-old patient presents with multiple untreated carious lesions, significant plaque accumulation, and clear signs of neglect, including poor hygiene and malnourishment. The child's parents consistently miss appointments and show little concern for their child's oral health. The dental team suspects child neglect. What is the dentist's primary ethical and legal responsibility?",
+    "options": [
+      "Obtain explicit consent from the parents before reporting to child protective services.",
+      "Provide extensive patient education to the parents, hoping to improve the situation.",
+      "Document the findings thoroughly and make a report to the appropriate child protective services agency.",
+      "Refuse to treat the child until the parents demonstrate a commitment to their child's health."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dentists in Canada have a legal and ethical duty to report suspected child abuse or neglect to child protective services, even without parental consent, as children are considered vulnerable and require protection. This duty overrides patient confidentiality when there is a reasonable suspicion of harm. Documenting findings is crucial, but the primary action is the report to the appropriate agency."
+  },
+  {
+    "id": 523215463,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "Dr. Kim, a general dentist, delegates the placement of a subgingival restorative material in a deep Class II cavity to his registered dental hygienist (RDH) to save time, even though this procedure falls outside the RDH's regulated scope of practice in their province. Both Dr. Kim and the RDH are aware of the scope limitations. Which ethical principle is primarily being violated by Dr. Kim?",
+    "options": [
+      "Autonomy, as the patient is not given a choice in who performs the procedure.",
+      "Justice, as it creates an unfair distribution of tasks among team members.",
+      "Non-maleficence, by potentially exposing the patient to harm from an inadequately trained provider.",
+      "Beneficence, by prioritizing convenience over the best interests of the patient."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dr. Kim is primarily violating the principle of non-maleficence (do no harm) by delegating a procedure outside an RDH's regulated scope of practice. This action risks patient safety due to the RDH potentially lacking the specific training and legal authority for that complex task. While beneficence is related, the direct and most serious violation here is the increased risk of harm to the patient due to improper delegation."
+  },
+  {
+    "id": 102815935,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A dental assistant, Sarah, takes a photo of an X-ray showing a particularly unusual odontoma in a 14-year-old patient. Without obtaining explicit consent, she posts the image on her private social media account with the caption, 'Look at this crazy tooth today! Patient was a trooper!' No identifying patient information (name, face) is visible. Has Sarah violated any ethical principles or professional guidelines?",
+    "options": [
+      "No, as long as no identifying information is visible, it is permissible for educational purposes.",
+      "Yes, she has violated patient confidentiality and privacy, regardless of whether identifying information is present.",
+      "Only if the patient or guardian explicitly stated they did not want any images shared.",
+      "Only if the post was on a public account, as private accounts are generally exempt."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Yes, Sarah has violated patient confidentiality and privacy. Any clinical image, even if de-identified, implicitly belongs to the patient and generally requires explicit consent for sharing, especially on social media. Using patient data for personal social media posts, even without overt identifiers, can still be a breach of trust and professional boundaries, and can lead to identification given other contextual clues."
+  },
+  {
+    "id": 689341209,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A dentist is invited by a pharmaceutical company to participate in a clinical trial for a new local anesthetic. The company offers a substantial financial incentive for each patient recruited and successfully followed through the trial. The dentist plans to recruit eligible patients from their existing practice. What is the most significant ethical consideration for the dentist?",
+    "options": [
+      "Ensuring the informed consent process is robust and truly voluntary, free from coercion.",
+      "Confirming the new anesthetic is truly superior to existing options.",
+      "Managing the administrative burden of participating in a clinical trial.",
+      "Ensuring the financial incentive is reasonable and not excessive."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The most significant ethical consideration in research is protecting the autonomy and well-being of the participants. The financial incentive creates a potential conflict of interest, where the dentist's desire for financial gain could influence patient recruitment. Therefore, a meticulously thorough and unbiased informed consent process is paramount to ensure patients' participation is entirely voluntary and not influenced by undue pressure or the dentist's financial interest."
+  },
+  {
+    "id": 369856352,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "Dr. Patel advertises his dental practice with the slogan: 'Guaranteed Pain-Free Dentistry – The ONLY office where you'll never feel a thing!' He also offers a 'free whitening consultation' with a voucher found in a local coupon book. Which aspect of his advertising is ethically questionable according to NDEB standards?",
+    "options": [
+      "Offering a 'free whitening consultation' is an inducement to treatment.",
+      "Claiming 'Guaranteed Pain-Free Dentistry' is misleading and potentially false.",
+      "Using a slogan that implies superiority over other dentists.",
+      "Advertising in a local coupon book, which can be seen as undignified."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ethical advertising guidelines prohibit claims that are misleading, unverifiable, or create unrealistic expectations. Guaranteeing 'pain-free dentistry' is not scientifically possible or professionally verifiable, as individual pain thresholds vary, and some discomfort is inherent to many dental procedures. Such a claim misleads patients and violates the principle of veracity. While implying superiority can also be an issue, the guarantee is a more direct and serious ethical breach."
+  },
+  {
+    "id": 359109605,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "You observe a senior colleague, Dr. Sharma, frequently appearing fatigued, disoriented, and occasionally slurring his words in the dental office. You've also noticed prescription drug bottles in his waste bin. He has a long-standing reputation and is highly respected. What is your primary ethical obligation?",
+    "options": [
+      "Confront Dr. Sharma directly and offer support, suggesting he seek help.",
+      "Maintain confidentiality and avoid involving yourself, as it's a personal matter.",
+      "Report your concerns confidentially to the provincial dental regulatory body.",
+      "Inform the office manager, as it's an administrative issue."
+    ],
+    "correctAnswer": 2,
+    "explanation": "When a dentist suspects a colleague is impaired, their primary ethical and professional obligation is to protect the public. This duty generally overrides collegiality and requires reporting concerns to the provincial dental regulatory body, which has mechanisms for investigating and assisting impaired practitioners while safeguarding patient safety. Direct confrontation might be appropriate but does not replace the formal reporting duty to the governing body."
+  },
+  {
+    "id": 114330064,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 90-year-old terminally ill patient, with capacity, explicitly states he no longer wishes to receive any dental treatment, including palliative care for a mouth ulcer that is causing him mild discomfort. His distraught family insists you provide treatment to 'keep him comfortable.' What is your ethical obligation?",
+    "options": [
+      "Treat the patient as requested by the family, prioritizing beneficence.",
+      "Respect the patient's autonomous decision to refuse treatment, despite family wishes.",
+      "Attempt to persuade the patient to accept palliative care, explaining the benefits.",
+      "Seek a legal opinion to determine whether the patient's capacity is truly intact."
+    ],
+    "correctAnswer": 1,
+    "explanation": "When a patient with capacity makes an autonomous decision to refuse treatment, that decision must be respected, even if it goes against the wishes of their family or the dentist's belief about what is best for them. The principle of autonomy takes precedence over beneficence when the patient is capable of making their own informed choices. While education is important, once the patient has made an informed decision, it should be honored."
+  },
+  {
+    "id": 336497433,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 25-year-old male patient presents to your office with an aggressive Ludwig's Angina, having delayed seeking care for days. He is conscious but shows signs of airway compromise. He requires immediate intubation and surgical intervention, but he is refusing treatment, citing religious beliefs that prohibit medical intervention. His medical chart indicates he has capacity. What is the most ethically defensible course of action?",
+    "options": [
+      "Contact the local police and emergency services for an involuntary admission due to immediate life threat.",
+      "Respect his autonomy and document his informed refusal, continuing to offer palliative care.",
+      "Administer necessary life-saving treatment, overriding his refusal due to the imminent threat to life.",
+      "Engage an ethics committee or legal counsel immediately to determine the appropriate intervention."
+    ],
+    "correctAnswer": 0,
+    "explanation": "While respecting patient autonomy is paramount, in cases of immediate life-threatening emergencies where a patient with capacity refuses life-saving treatment, the principle of non-maleficence (to prevent harm) and the duty to preserve life can ethically, and sometimes legally, override autonomy. This is a complex situation where involving emergency services and possibly legal intervention to protect the patient from imminent, preventable death is often considered ethically defensible, particularly when the patient's capacity may be compromised by their critical condition itself, even if they appear coherent. This is a rare exception to autonomy."
+  },
+  {
+    "id": 204946815,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "Dr. Ramirez consistently recommends expensive dental implants for posterior tooth replacement to almost all her adult patients, even when less costly and equally effective treatment options (like fixed bridges or removable partial dentures) are available and clinically indicated. She emphasizes the 'long-term benefits and modern approach' of implants without thoroughly presenting or discussing the alternatives, their pros, and cons. Which ethical principle is Dr. Ramirez primarily neglecting?",
+    "options": [
+      "Justice, by not offering more affordable options to patients.",
+      "Autonomy, by not providing comprehensive information for informed decision-making.",
+      "Non-maleficence, by recommending an overly invasive procedure.",
+      "Veracity, by not being entirely truthful about the comparative benefits."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dr. Ramirez is primarily neglecting the principle of autonomy by failing to provide comprehensive information about all viable treatment options, including their respective risks, benefits, and costs. This prevents patients from making a truly informed decision that aligns with their values and financial situation. While it touches on veracity by potentially overstating benefits, the core issue is the deprivation of information necessary for autonomous decision-making."
+  },
+  {
+    "id": 102249916,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 16-year-old female patient presents seeking information about contraception. She explicitly requests that you do not inform her parents, as she fears their reaction. In her province, the age of majority for healthcare consent is 16, and she demonstrates mature understanding of the information and consequences. What is your ethical obligation regarding confidentiality?",
+    "options": [
+      "Inform the parents, as she is still a minor and they have a right to know.",
+      "Maintain her confidentiality, as she is a mature minor and has attained the age of consent.",
+      "Encourage her to tell her parents, but ultimately respect her decision if she refuses.",
+      "Refer her to a physician, as contraception is a medical, not dental, issue."
+    ],
+    "correctAnswer": 1,
+    "explanation": "In provinces where the age of consent for healthcare is 16, and a minor demonstrates maturity and understanding, they have the right to confidential healthcare decisions. The dentist's ethical and legal obligation is to respect her autonomy and maintain confidentiality, as she has the capacity to make this decision. While encouraging communication with parents is helpful, it cannot override the mature minor's right to privacy once capacity is established."
+  },
+  {
+    "id": 999362208,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A grateful 60-year-old male patient, after receiving extensive, complex implant surgery from Dr. Green, attempts to give Dr. Green a personalized, high-value watch as a token of his appreciation. Dr. Green feels uncomfortable accepting such an expensive gift. What is the most ethically appropriate response?",
+    "options": [
+      "Accept the gift to avoid offending the patient, and quietly donate it to charity.",
+      "Politely decline the gift, explaining that professional ethics guidelines prohibit accepting such valuable gifts.",
+      "Suggest the patient make a donation to a dental charity in Dr. Green's name instead.",
+      "Accept the gift, but document it in the patient's file to maintain transparency."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Accepting significant gifts from patients can create the appearance of a conflict of interest, compromise professional boundaries, or imply a reciprocal obligation, which can undermine the professional relationship. The most ethically appropriate action is to politely but firmly decline the gift, clearly explaining that professional standards do not permit accepting gifts of such value, while still acknowledging the patient's gratitude. This upholds professional boundaries and avoids any perception of undue influence or obligation."
+  },
+  {
+    "id": 904282094,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A new immigrant patient from a collectivist culture expresses discomfort with making independent decisions about her treatment plan for extensive periodontal disease, stating that her elder brother typically makes all major family decisions. She insists her brother be present to provide consent, even though she appears to understand the proposed treatment. What is the most ethically appropriate approach?",
+    "options": [
+      "Insist that the patient must make her own decision, emphasizing patient autonomy as a Canadian value.",
+      "Delay treatment until the patient is comfortable making the decision independently.",
+      "Respect her cultural preference, ensuring her brother is fully informed and she still assents to treatment.",
+      "Refer the patient to a dentist from her cultural background who may better understand her needs."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ethical practice includes cultural competence, which involves respecting patients' cultural values and preferences while still upholding core ethical principles. In this scenario, the most appropriate approach is to accommodate her cultural preference by including her brother in the discussion for decision-making, while ensuring the patient herself still understands the treatment and assents to it. This respects her autonomy within her cultural context and facilitates trust, rather than imposing an individualistic model that might alienate her."
+  },
+  {
+    "id": 619963469,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "Dr. Davies is faced with a complex ethical dilemma: a patient is demanding a potentially harmful procedure that is not clinically indicated, threatening negative online reviews if refused, and has presented conflicting information about their medical history. Dr. Davies feels pressured and unsure how to proceed. Which step is most crucial in navigating this ethical dilemma effectively?",
+    "options": [
+      "Immediately consult with a lawyer to understand potential legal liabilities.",
+      "Refer the patient to another dentist to avoid the conflict entirely.",
+      "Apply a structured ethical decision-making framework to analyze the situation systematically.",
+      "Prioritize maintaining a positive patient relationship to avoid negative reviews."
+    ],
+    "correctAnswer": 2,
+    "explanation": "When facing complex ethical dilemmas, applying a structured ethical decision-making framework is the most crucial step. This systematic approach (e.g., identify the problem, gather information, identify ethical principles, explore alternatives, implement, evaluate) helps dentists analyze the situation objectively, consider all relevant factors, identify conflicting principles, and arrive at a justifiable resolution, rather than reacting impulsively or solely on emotion. Consulting a lawyer might be a *later* step, but not the initial crucial step in *navigating the ethical dilemma itself*."
+  },
+  {
+    "id": 605660067,
+    "topicId": "ethics",
+    "difficulty": "hard",
+    "question": "A 40-year-old male patient requests a complete copy of his dental records, including radiographs, progress notes, and billing statements, for the past 5 years. He states he is moving to another province and wishes to have them for his new dentist. What is the dentist's primary ethical and legal obligation?",
+    "options": [
+      "Provide a summary of the patient's dental history, retaining the originals.",
+      "Release the entire patient record, including radiographs, directly to the patient or a designated party, upon written request.",
+      "Charge a significant fee for the duplication and administrative time involved in compiling the records.",
+      "Send the records directly to the new dentist only, to ensure continuity of care."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Patients have a fundamental right to access their own health records. Upon a valid written request, dentists are ethically and legally obligated to provide a complete copy of the patient's record, including all diagnostic images and notes, to the patient or to a party authorized by the patient. While a reasonable fee for copying may be charged, denying access or only providing a summary is generally not permissible. The records can be sent to the new dentist, but the primary request here is for the patient himself, which must be fulfilled."
   }
 ]
