@@ -58,13 +58,14 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
   let totalAttemptedQuestions = 0;
   
   Object.values(progress).forEach(p => {
-    let correct = p.highestScore;
-    let attempted = p.totalQuestions;
+    // Only include real topics in the global stats
+    if (!topics.find(t => t.id === p.topicId)) return;
+
+    const attempted = p.isFinished ? p.totalQuestions : (p.questionsAnswered || 0);
+    let correct = p.isFinished ? p.highestScore : (p.currentScore || 0);
     
-    if (!p.isFinished && p.highestScore === 0) {
-      correct = p.currentScore || 0;
-      attempted = p.questionsAnswered || 0;
-    }
+    // Safety clamp to guarantee it never exceeds 100% mathematically
+    correct = Math.min(correct, attempted);
     
     totalAnsweredCorrectly += correct;
     totalAttemptedQuestions += attempted;
@@ -405,7 +406,8 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
              attemptedCount = topicProg.isFinished ? topicProg.totalQuestions : (topicProg.questionsAnswered || 0);
              completionProgress = Math.round((attemptedCount / topicProg.totalQuestions) * 100);
              if (attemptedCount > 0) {
-                 const correctCount = topicProg.isFinished ? topicProg.highestScore : (topicProg.currentScore || 0);
+                 let correctCount = topicProg.isFinished ? topicProg.highestScore : (topicProg.currentScore || 0);
+                 correctCount = Math.min(correctCount, attemptedCount);
                  accuracy = Math.round((correctCount / attemptedCount) * 100);
              }
           }
