@@ -25,6 +25,8 @@ export function ResultBottomSheet({
   isPlayingAudio,
   onToggleAudio,
   onNext,
+  onPrev,
+  currentIndex = 0,
   isLastQuestion
 }: ResultBottomSheetProps) {
   return (
