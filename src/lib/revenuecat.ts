@@ -3,8 +3,8 @@ import { Capacitor } from '@capacitor/core';
 import { setIsPremium } from './storage';
 
 // Replace these with your actual Public App API Keys from RevenueCat dashboard
-const RC_APPLE_API_KEY = "appl_YOUR_APPLE_KEY_HERE";
-const RC_GOOGLE_API_KEY = "goog_YOUR_GOOGLE_KEY_HERE";
+const RC_APPLE_API_KEY = "test_MjHrqQSKbVtxlQruiZRbXVwXyta";
+const RC_GOOGLE_API_KEY = "goog_TfLGwDtMnsNJMIhfJggjkOrlqJe";
 
 // The entitlement identifier you configure in RevenueCat (e.g., 'pro')
 const ENTITLEMENT_ID = 'pro';
