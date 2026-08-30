@@ -6,7 +6,7 @@ import { topics } from './lib/data';
 import { Crown } from 'lucide-react';
 import { getIsPremium } from './lib/storage';
 import { PaywallModal } from './PaywallModal';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface Props {
   score: number;
@@ -18,6 +18,13 @@ interface Props {
 export function Results({ score, total, onRestart, breakdown }: Props) {
   const isPremium = getIsPremium();
   const [showPaywall, setShowPaywall] = useState(false);
+  useEffect(() => {
+    if (!isPremium) {
+      const t = setTimeout(() => setShowPaywall(true), 1200);
+      return () => clearTimeout(t);
+    }
+  }, [isPremium]);
+
   const percentage = Math.round((score / total) * 100);
   
   let message = "";
@@ -102,6 +109,28 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
         >
           <RefreshCw size={20} /> Choose Another Topic
         </motion.button>
+
+        {!isPremium && (
+          <div
+            onClick={() => setShowPaywall(true)}
+            style={{
+              marginTop: '2rem', padding: '2rem', borderRadius: 'var(--radius-lg)',
+              background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.1) 100%)',
+              border: '1px dashed var(--success-color)', cursor: 'pointer'
+            }}
+          >
+            <Crown size={32} color="#10b981" style={{ marginBottom: '1rem' }} />
+            <h3 style={{ margin: '0 0 0.5rem', color: 'var(--text-primary)' }}>Want more questions?</h3>
+            <p style={{ margin: '0 0 1.5rem', color: 'var(--text-secondary)', fontSize: '0.95rem' }}>
+              You've completed the free preview. Unlock all 7,500+ questions and full simulated exams to maximize your score.
+            </p>
+            <button className="primary-btn" style={{ background: 'var(--success-color)' }}>
+              Upgrade to Pro
+            </button>
+          </div>
+        )}
+
+        <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="all 7,500 questions" />
       </motion.div>
     </div>
   );
