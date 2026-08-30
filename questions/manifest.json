@@ -1,62 +1,90 @@
 [
-  {
-    "id": "anatomy",
-    "count": 500
-  },
-  {
-    "id": "pharmacology",
-    "count": 500
-  },
-  {
-    "id": "endodontics",
-    "count": 500
-  },
-  {
-    "id": "anesthesia",
-    "count": 500
-  },
-  {
-    "id": "pathology",
-    "count": 500
-  },
-  {
-    "id": "operative-dentistry",
-    "count": 500
-  },
-  {
-    "id": "prosthodontics",
-    "count": 500
-  },
-  {
-    "id": "general-medicine",
-    "count": 500
-  },
-  {
-    "id": "ethics",
-    "count": 320
-  },
-  {
-    "id": "biochemistry",
-    "count": 500
-  },
-  {
-    "id": "microbiology",
-    "count": 500
-  },
-  {
-    "id": "dental-materials",
-    "count": 500
-  },
-  {
-    "id": "periodontology",
-    "count": 500
-  },
-  {
-    "id": "oral-pathology",
-    "count": 500
-  },
-  {
-    "id": "radiology",
-    "count": 500
-  }
+    {
+        "id":  "anatomy",
+        "count":  500
+    },
+    {
+        "id":  "pharmacology",
+        "count":  500
+    },
+    {
+        "id":  "endodontics",
+        "count":  500
+    },
+    {
+        "id":  "anesthesia",
+        "count":  500
+    },
+    {
+        "id":  "pathology",
+        "count":  500
+    },
+    {
+        "id":  "operative-dentistry",
+        "count":  500
+    },
+    {
+        "id":  "prosthodontics",
+        "count":  500
+    },
+    {
+        "id":  "general-medicine",
+        "count":  500
+    },
+    {
+        "id":  "ethics",
+        "count":  500
+    },
+    {
+        "id":  "biochemistry",
+        "count":  500
+    },
+    {
+        "id":  "microbiology",
+        "count":  500
+    },
+    {
+        "id":  "dental-materials",
+        "count":  500
+    },
+    {
+        "id":  "periodontology",
+        "count":  500
+    },
+    {
+        "id":  "oral-pathology",
+        "count":  500
+    },
+    {
+        "id":  "radiology",
+        "count":  500
+    },
+    {
+        "id":  "oral-medicine",
+        "count":  0
+    },
+    {
+        "id":  "oral-surgery",
+        "count":  0
+    },
+    {
+        "id":  "implants",
+        "count":  0
+    },
+    {
+        "id":  "emergencies",
+        "count":  0
+    },
+    {
+        "id":  "orthodontics",
+        "count":  0
+    },
+    {
+        "id":  "pedodontics",
+        "count":  0
+    },
+    {
+        "id":  "infection-control",
+        "count":  0
+    }
 ]
