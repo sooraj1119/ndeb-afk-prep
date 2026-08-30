@@ -8,7 +8,9 @@ import { MistakesList } from './MistakesList';
 import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, ShieldCheck, Moon, Sun, Flame, Download, Share, X, Globe } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { initializeRevenueCat } from './lib/revenuecat';
-import { hasAcceptedDisclaimer, acceptDisclaimer, logDailyVisit } from './lib/storage';
+import { hasAcceptedDisclaimer, acceptDisclaimer, logDailyVisit, getIsPremium } from './lib/storage';
+import { PaywallModal } from './PaywallModal';
+import { Lock } from 'lucide-react';
 
 const ToothStencil = ({ style, className = '' }: { style: React.CSSProperties, className?: string }) => (
   <svg 
@@ -29,7 +31,10 @@ const ToothStencil = ({ style, className = '' }: { style: React.CSSProperties, c
 import { loadAllQuestions } from './lib/questionsStore';
 
 function App() {
-  const [questionsLoaded, setQuestionsLoaded] = useState(true); // always show immediately
+  
+  const isPremium = getIsPremium();
+  const [showPaywall, setShowPaywall] = useState(false);
+const [questionsLoaded, setQuestionsLoaded] = useState(true); // always show immediately
   const [activeTab, setActiveTab] = useState<'practice' | 'dashboard' | 'search'>('practice');
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [quizFinished, setQuizFinished] = useState(false);
@@ -269,6 +274,7 @@ function App() {
             </motion.div>
           </motion.div>
         )}
+      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="Pro Features" />
       </AnimatePresence>
 
       <AnimatePresence>
@@ -347,7 +353,20 @@ function App() {
           </div>
 
           {/* Util buttons */}
-          <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+          <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+            {!isPremium && (
+              <button 
+                onClick={() => setShowPaywall(true)}
+                style={{ 
+                  background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)', 
+                  border: 'none', borderRadius: 'var(--radius-md)', padding: '0.45rem 0.6rem', 
+                  cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.3rem', 
+                  color: 'white', fontWeight: 700, fontSize: '0.82rem' 
+                }}
+              >
+                <Lock size={14} /> PRO
+              </button>
+            )}
             {streak > 0 && (
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#f97316', fontWeight: 700, background: 'rgba(249,115,22,0.1)', padding: '0.4rem 0.6rem', borderRadius: 'var(--radius-md)', fontSize: '0.9rem' }}>
                 <Flame size={17} /><span>{streak}</span>
