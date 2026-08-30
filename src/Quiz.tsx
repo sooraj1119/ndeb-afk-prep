@@ -363,7 +363,24 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#d97706', fontSize: '0.9rem', fontWeight: 600 }}>
             <span>Free Tier Preview: Viewing 100 questions.</span>
           </div>
-          <button className="upgrade-badge">Unlock All</button>
+          <button 
+            onClick={(e) => { e.stopPropagation(); setShowPaywall(true); }}
+            style={{
+              background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+              color: 'white',
+              border: 'none',
+              padding: '0.4rem 1rem',
+              borderRadius: '20px',
+              fontWeight: 700,
+              fontSize: '0.85rem',
+              cursor: 'pointer',
+              boxShadow: '0 2px 8px rgba(217, 119, 6, 0.3)',
+              textTransform: 'uppercase',
+              letterSpacing: '0.05em'
+            }}
+          >
+            Unlock All
+          </button>
         </div>
       )}
 
