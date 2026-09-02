@@ -651,7 +651,7 @@ function App() {
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', cursor: 'pointer', flexShrink: 0 }} onClick={() => { setActiveTab('practice'); resetState(); }}>
 
-            <img src="./icons/icon-192.webp?v=1788321605430" alt="NDEB AFK Prep Logo" style={{ width: '36px', height: '36px', borderRadius: '8px', objectFit: 'cover', boxShadow: 'var(--shadow-sm)' }} />
+            <img src="./icons/icon-192.webp?v=1788321851229" alt="NDEB AFK Prep Logo" style={{ width: '36px', height: '36px', borderRadius: '8px', objectFit: 'cover', boxShadow: 'var(--shadow-sm)' }} />
 
             <h1 className="logo-text" style={{ fontSize: '1.1rem', margin: 0, fontWeight: 700, letterSpacing: '-0.02em', color: 'var(--text-primary)', whiteSpace: 'nowrap' }}>NDEB AFK Prep Pro</h1>
 
