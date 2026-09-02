@@ -811,7 +811,7 @@ function App() {
 
 
 
-      <main style={{ padding: '1rem', maxWidth: '1200px', margin: '0 auto', overflowX: 'hidden' }}>
+      <main style={{ padding: 'clamp(0.5rem, 3vw, 1rem)', maxWidth: '1200px', margin: '0 auto', overflowX: 'hidden' }}>
 
         <AnimatePresence mode="wait">
 

@@ -327,7 +327,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
       const dy = e.changedTouches[0].clientY - startY;
       if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
         if (dx < 0 && selectedAnswer !== null) handleNext();
-        else if (dx > 0 && currentIndex === 0) handleBackClick();
+        else if (dx > 0) { if (currentIndex === 0) handleBackClick(); else handlePrev(); }
       }
     };
     document.addEventListener('touchstart', onStart, { passive: true });
@@ -348,7 +348,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
   const progressPercentage = (currentIndex + (selectedAnswer !== null ? 1 : 0)) / topicQuestions.length * 100;
 
   return (
-    <div style={{ padding: '1rem', maxWidth: '800px', margin: '0 auto', width: '100%' }}>
+    <div style={{ padding: 'clamp(0.5rem, 3vw, 1rem)', maxWidth: '800px', margin: '0 auto', width: '100%' }}>
       <button 
         onClick={handleBackClick}
         style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}

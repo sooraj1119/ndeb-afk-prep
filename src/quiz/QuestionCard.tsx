@@ -30,11 +30,11 @@ export function QuestionCard({
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.2 }}
           className="glass-panel"
-          style={{ padding: '2.5rem' }}
+          style={{ padding: 'clamp(1rem, 5vw, 2.5rem)' }}
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', marginBottom: '2rem' }}>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <h3 id="current-question-text" style={{ fontSize: '1.3rem', margin: 0, lineHeight: '1.5', color: 'var(--text-primary)', fontWeight: 600 }}>{question.question}</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flex: 1 }}>
+              <h3 id="current-question-text" style={{ fontSize: 'clamp(1.05rem, 4.5vw, 1.3rem)', margin: 0, lineHeight: '1.5', color: 'var(--text-primary)', fontWeight: 600 }}>{question.question}</h3>
               {question.imageUrl && (
                 <img
                   src={question.imageUrl}
@@ -76,13 +76,13 @@ export function QuestionCard({
                   onClick={() => onSelect(idx)}
                   disabled={isAnswered}
                   style={{
-                    padding: '1.2rem',
+                    padding: 'clamp(0.8rem, 3vw, 1.2rem)',
                     borderRadius: 'var(--radius-md)',
                     background: bg,
                     border: border,
                     color: textColor,
                     textAlign: 'left',
-                    fontSize: '1.05rem',
+                    fontSize: 'clamp(0.9rem, 4vw, 1.05rem)',
                     display: 'flex',
                     alignItems: 'center',
                     gap: '1rem',

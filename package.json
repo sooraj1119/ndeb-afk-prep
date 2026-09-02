@@ -12,6 +12,7 @@
         "deploy": "npm run build && npx cap sync android && npx cap sync ios && npx gh-pages -d dist"
     },
     "dependencies": {
+        "@capacitor/app": "^8.1.1",
         "@capacitor/core": "^8.5.0",
         "@capacitor/device": "^8.0.3",
         "@capacitor/ios": "^8.5.0",

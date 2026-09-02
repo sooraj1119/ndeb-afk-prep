@@ -39,7 +39,7 @@ export function QuizHeader({
 }: QuizHeaderProps) {
   return (
     <>
-      <div style={{ width: '100%', height: '6px', background: '#e2e8f0', borderRadius: '3px', marginBottom: '1.5rem', overflow: 'hidden' }}>
+      <div style={{ width: '100%', height: '6px', background: '#e2e8f0', borderRadius: '3px', marginBottom: 'clamp(0.75rem, 3vw, 1.5rem)', overflow: 'hidden' }}>
         <motion.div
           initial={{ width: 0 }}
           animate={{ width: `${progressPercentage}%` }}
@@ -48,9 +48,9 @@ export function QuizHeader({
         />
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 'clamp(0.75rem, 3vw, 1.5rem)', flexWrap: 'wrap', gap: '1rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
-          <h2 style={{ color: 'var(--text-primary)', margin: 0, fontSize: '1.5rem', fontWeight: 700 }}>{topicName}</h2>
+          <h2 style={{ color: 'var(--text-primary)', margin: 0, fontSize: 'clamp(1.2rem, 5vw, 1.5rem)', fontWeight: 700 }}>{topicName}</h2>
           {isSimulatedMode && (
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(239, 68, 68, 0.1)', color: 'var(--error-color)', padding: '0.4rem 0.8rem', borderRadius: 'var(--radius-sm)', fontWeight: 700 }}>
               <Clock size={16} /> {formatTime(timeLeft)}
