@@ -162,10 +162,10 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
       animate={{ opacity: 1, y: 0 }}
       style={{ maxWidth: '1000px', margin: '0 auto', padding: '1rem' }}
     >
-              <div style={{ marginBottom: '3rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '1rem' }}>
+              <div style={{ marginBottom: 'clamp(1rem, 4vw, 1.5rem)', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '1rem' }}>
           <div style={{ textAlign: 'left' }}>
-            <h2 style={{ fontSize: 'clamp(1.75rem, 6vw, 2.5rem)', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>Your Progress Dashboard</h2>
-            <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.95rem, 4vw, 1.1rem)' }}>Track your exam readiness and review your weak areas.</p>
+            <h2 style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>Your Progress Dashboard</h2>
+            <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.85rem, 4vw, 1rem)' }}>Track your exam readiness and review your weak areas.</p>
           </div>
           {!isPremium && (
             <button 
@@ -182,7 +182,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
         <motion.div 
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          style={{ marginBottom: '2.5rem', background: 'linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)', borderRadius: 'var(--radius-lg)', padding: '1.25rem 1rem', border: '1px solid #bbf7d0', display: 'flex', flexDirection: 'column', gap: '1rem', boxShadow: '0 4px 15px rgba(22, 163, 74, 0.1)' }}
+          style={{ marginBottom: 'clamp(1rem, 4vw, 1.5rem)', background: 'linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)', borderRadius: 'var(--radius-lg)', padding: 'clamp(0.85rem, 3vw, 1.25rem) clamp(0.75rem, 3vw, 1rem)', border: '1px solid #bbf7d0', display: 'flex', flexDirection: 'column', gap: '1rem', boxShadow: '0 4px 15px rgba(22, 163, 74, 0.1)' }}
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
@@ -190,7 +190,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
                 <CalendarDays size={24} />
               </div>
               <div>
-                <h3 style={{ margin: 0, fontSize: '1.3rem', color: '#166534', fontWeight: 700 }}>Dynamic Study Pacer</h3>
+                <h3 style={{ margin: 0, fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', color: '#166534', fontWeight: 700 }}>Dynamic Study Pacer</h3>
                 <p style={{ margin: '0.2rem 0 0', color: '#15803d', fontSize: '0.95rem' }}>Automated planning for your exam date</p>
               </div>
             </div>
@@ -220,17 +220,17 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           {examDate ? (
             <div style={{ background: 'white', borderRadius: '12px', padding: '1.5rem', display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', marginTop: '0.5rem' }}>
               <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: 'clamp(1.75rem, 6vw, 2.5rem)', fontWeight: 800, color: '#16a34a', lineHeight: 1 }}>{dailyQuota}</div>
+                <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#16a34a', lineHeight: 1 }}>{dailyQuota}</div>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Questions / Day</div>
               </div>
               <div style={{ height: '50px', width: '1px', background: '#e5e7eb', display: typeof window !== 'undefined' && window.innerWidth > 500 ? 'block' : 'none' }} />
               <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: 'clamp(1.75rem, 6vw, 2.5rem)', fontWeight: 800, color: '#3b82f6', lineHeight: 1 }}>{daysLeft}</div>
+                <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#3b82f6', lineHeight: 1 }}>{daysLeft}</div>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Days Left</div>
               </div>
               <div style={{ height: '50px', width: '1px', background: '#e5e7eb', display: typeof window !== 'undefined' && window.innerWidth > 500 ? 'block' : 'none' }} />
               <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: 'clamp(1.75rem, 6vw, 2.5rem)', fontWeight: 800, color: '#f59e0b', lineHeight: 1 }}>{totalBankQuestions - answeredSoFar}</div>
+                <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#f59e0b', lineHeight: 1 }}>{totalBankQuestions - answeredSoFar}</div>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Remaining in Bank</div>
               </div>
             </div>
@@ -241,50 +241,50 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           )}
         </motion.div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))', gap: '0.75rem', marginBottom: '1.5rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))', gap: '0.75rem', marginBottom: 'clamp(1rem, 4vw, 1.5rem)' }}>
         
         {/* Stat Card 1 */}
-        <div className="glass-panel" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.75rem' }}>
+        <div className="glass-panel" style={{ padding: 'clamp(0.75rem, 3vw, 1rem)', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.75rem' }}>
           <div style={{ background: 'rgba(52, 211, 153, 0.1)', padding: '0.8rem', borderRadius: '50%', color: 'var(--success-color)' }}>
             <Trophy size={24} />
           </div>
           <div>
-            <div style={{ fontSize: '1.2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}>{averageAccuracy}%</div>
+            <div style={{ fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}>{averageAccuracy}%</div>
             <div style={{ color: 'var(--text-secondary)', fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Avg Accuracy</div>
           </div>
         </div>
 
         {/* Stat Card 2 */}
-        <div className="glass-panel" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.75rem' }}>
+        <div className="glass-panel" style={{ padding: 'clamp(0.75rem, 3vw, 1rem)', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.75rem' }}>
           <div style={{ background: 'rgba(56, 189, 248, 0.1)', padding: '0.8rem', borderRadius: '50%', color: 'var(--accent-color)' }}>
             <Target size={24} />
           </div>
           <div>
-            <div style={{ fontSize: '1.2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}>{completionPercentage}%</div>
+            <div style={{ fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}>{completionPercentage}%</div>
             <div style={{ color: 'var(--text-secondary)', fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Bank Completed</div>
           </div>
         </div>
 
         {/* Stat Card 3 */}
-        <div className="glass-panel" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.75rem' }}>
+        <div className="glass-panel" style={{ padding: 'clamp(0.75rem, 3vw, 1rem)', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.75rem' }}>
           <div style={{ background: 'rgba(217, 70, 239, 0.1)', padding: '0.8rem', borderRadius: '50%', color: '#d946ef' }}>
             <BookOpen size={24} />
           </div>
           <div>
-            <div style={{ fontSize: '1.2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}>{totalAttemptedQuestions} / {totalQuestionsAvailable}</div>
+            <div style={{ fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}>{totalAttemptedQuestions} / {totalQuestionsAvailable}</div>
             <div style={{ color: 'var(--text-secondary)', fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Questions Attempted</div>
           </div>
         </div>
       </div>
 
       {/* Learning Curve Analytics Graph */}
-        <div className="glass-panel" style={{ padding: '1.25rem', marginBottom: '2rem' }}>
+        <div className="glass-panel" style={{ padding: 'clamp(0.85rem, 3vw, 1.25rem)', marginBottom: 'clamp(1rem, 4vw, 1.5rem)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
             <div style={{ background: 'rgba(56, 189, 248, 0.1)', padding: '0.8rem', borderRadius: '50%', color: 'var(--accent-color)' }}>
               <TrendingUp size={24} />
             </div>
             <div>
-              <h3 style={{ fontSize: '1.4rem', margin: 0, color: 'var(--text-primary)' }}>Progress Learning Curve</h3>
+              <h3 style={{ fontSize: 'clamp(1.1rem, 4vw, 1.3rem)', margin: 0, color: 'var(--text-primary)' }}>Progress Learning Curve</h3>
               <p style={{ margin: '0.2rem 0 0', color: 'var(--text-secondary)', fontSize: '0.85rem' }}>Milestone accuracy mapped per 100 questions completed</p>
             </div>
           </div>
@@ -323,13 +323,13 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
         </div>
   
         {/* Flagged Review Section */}
-      <div className="glass-panel" style={{ padding: '1.25rem', marginBottom: '1rem', display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'center', justifyContent: 'space-between', background: 'linear-gradient(to right, var(--surface-color), rgba(251, 191, 36, 0.1))' }}>
+      <div className="glass-panel" style={{ padding: 'clamp(0.85rem, 3vw, 1.25rem)', marginBottom: 'clamp(0.75rem, 3vw, 1rem)', display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'center', justifyContent: 'space-between', background: 'linear-gradient(to right, var(--surface-color), rgba(251, 191, 36, 0.1))' }}>
         <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '1.5rem' }}>
           <div style={{ background: 'rgba(217, 119, 6, 0.1)', padding: '0.8rem', borderRadius: '50%', color: '#d97706' }}>
             <Bookmark size={24} />
           </div>
           <div>
-            <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.3rem', color: 'var(--text-primary)' }}>Review Flagged Questions</h3>
+            <h3 style={{ margin: '0 0 0.5rem 0', fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', color: 'var(--text-primary)' }}>Review Flagged Questions</h3>
             <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong>{flaggedCount}</strong> questions saved for review.</p>
           </div>
         </div>
@@ -345,13 +345,13 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
       </div>
 
       {/* Mistakes Review Section */}
-              <div className="glass-panel" style={{ padding: '1.25rem', marginBottom: '2rem', display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'center', justifyContent: 'space-between', background: 'linear-gradient(to right, var(--surface-color), rgba(239, 68, 68, 0.1))' }}>
+              <div className="glass-panel" style={{ padding: 'clamp(0.85rem, 3vw, 1.25rem)', marginBottom: 'clamp(1rem, 4vw, 1.5rem)', display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'center', justifyContent: 'space-between', background: 'linear-gradient(to right, var(--surface-color), rgba(239, 68, 68, 0.1))' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '1.5rem' }}>
             <div style={{ background: 'rgba(239, 68, 68, 0.1)', padding: '0.8rem', borderRadius: '50%', color: '#ef4444' }}>
               <AlertCircle size={24} />
             </div>
             <div>
-              <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.3rem', color: 'var(--text-primary)' }}>Weakness Drilling</h3>
+              <h3 style={{ margin: '0 0 0.5rem 0', fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', color: 'var(--text-primary)' }}>Weakness Drilling</h3>
               <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong>{mistakesCount}</strong> past mistakes to conquer.</p>
             </div>
           </div>
@@ -370,8 +370,8 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
         </div>
 
       {/* Gamification / Badges Section */}
-      <div style={{ marginBottom: '3rem' }}>
-        <h3 style={{ fontSize: '1.5rem', color: 'var(--text-primary)', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+      <div style={{ marginBottom: 'clamp(1.5rem, 4vw, 2rem)' }}>
+        <h3 style={{ fontSize: 'clamp(1.2rem, 4vw, 1.4rem)', color: 'var(--text-primary)', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
           <Trophy size={24} color="var(--accent-color)" /> 
           Achievements & Badges
         </h3>
@@ -383,7 +383,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           ) : (
             getGamification().badges.map((badge, idx) => (
               <div key={idx} className="glass-panel" style={{ padding: '0.75rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
-                <div style={{ fontSize: 'clamp(1.75rem, 6vw, 2.5rem)' }}>🏆</div>
+                <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)' }}>🏆</div>
                 <div style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{badge}</div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--success-color)' }}>Unlocked!</div>
               </div>
@@ -392,7 +392,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
         </div>
       </div>
 
-      <h3 style={{ fontSize: '1.5rem', color: 'var(--text-primary)', marginBottom: '1.5rem' }}>Topic Breakdown</h3>
+      <h3 style={{ fontSize: 'clamp(1.2rem, 4vw, 1.4rem)', color: 'var(--text-primary)', marginBottom: '1.5rem' }}>Topic Breakdown</h3>
       <div className="topic-grid">
         {topics.map((topic, idx) => {
           const topicProg = progress[topic.id];
@@ -468,7 +468,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
       </div>
 
       <div style={{ marginTop: '4rem', padding: '2rem', border: '1px solid rgba(239, 68, 68, 0.3)', borderRadius: 'var(--radius-lg)', background: 'rgba(239, 68, 68, 0.05)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#ef4444', fontWeight: 700, fontSize: 'clamp(0.95rem, 4vw, 1.1rem)' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#ef4444', fontWeight: 700, fontSize: 'clamp(0.85rem, 4vw, 1rem)' }}>
           <AlertOctagon size={24} /> Danger Zone
         </div>
         <p style={{ color: 'var(--text-secondary)', textAlign: 'center', margin: 0, maxWidth: '500px', fontSize: '0.95rem' }}>
