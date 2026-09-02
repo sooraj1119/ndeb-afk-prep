@@ -51,21 +51,21 @@ export function TopicSelection({ onSelect }: Props) {
   };
 
   return (
-          <div style={{ maxWidth: '900px', margin: '0 auto', padding: '1rem' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', padding: 'clamp(0.85rem, 3vw, 1rem)' }}>
         
-                  <div style={{ marginBottom: '3rem', textAlign: 'center' }}>
+                  <div style={{ marginBottom: 'clamp(1rem, 4vw, 2rem)', textAlign: 'center' }}>
             {!isPremium && (
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '2.5rem', background: 'linear-gradient(to bottom, rgba(245, 158, 11, 0.08), transparent)', padding: '2rem 1.5rem', borderRadius: 'var(--radius-lg)', border: '1px solid rgba(245, 158, 11, 0.15)' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#d97706', marginBottom: '0.6rem', fontWeight: 800, fontSize: '1.2rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: 'clamp(1rem, 4vw, 1.5rem)', background: 'linear-gradient(to bottom, rgba(245, 158, 11, 0.08), transparent)', padding: 'clamp(1rem, 4vw, 1.5rem)', borderRadius: 'var(--radius-lg)', border: '1px solid rgba(245, 158, 11, 0.15)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#d97706', marginBottom: '0.6rem', fontWeight: 800, fontSize: 'clamp(1rem, 4vw, 1.1rem)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                   <Sparkles size={22} />
                   <span>Unlock Your Full Potential</span>
                 </div>
-                <p style={{ color: 'var(--text-secondary)', textAlign: 'center', margin: '0 0 1.5rem 0', fontSize: '1rem', maxWidth: '450px', lineHeight: '1.5' }}>
+                <p style={{ color: 'var(--text-secondary)', textAlign: 'center', margin: '0 0 1rem 0', fontSize: 'clamp(0.85rem, 3.5vw, 0.95rem)', maxWidth: '450px', lineHeight: '1.5' }}>
                   Get instant access to all <strong style={{color: 'var(--text-primary)'}}>7,500+ questions</strong>, detailed customized explanations, spaced repetition, and advanced analytics.
                 </p>
                 <button
                   onClick={() => setShowPaywall(true)}
-                  style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)', color: '#fff', border: 'none', padding: '0.9rem 2.2rem', borderRadius: '30px', fontWeight: 700, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)', cursor: 'pointer', boxShadow: '0 8px 20px rgba(245,158,11,0.3)', transition: 'all 0.2s' }}
+                  style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)', color: '#fff', border: 'none', padding: 'clamp(0.6rem, 3vw, 0.9rem) clamp(1.2rem, 5vw, 2.2rem)', borderRadius: '30px', fontWeight: 700, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)', cursor: 'pointer', boxShadow: '0 8px 20px rgba(245,158,11,0.3)', transition: 'all 0.2s' }}
                 onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 10px 25px rgba(245,158,11,0.4)'; }}
                 onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 8px 20px rgba(245,158,11,0.3)'; }}
                 >
@@ -73,11 +73,11 @@ export function TopicSelection({ onSelect }: Props) {
                 </button>
               </div>
             )}
-            <h2 style={{ fontSize: 'clamp(1.75rem, 6vw, 2.5rem)', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
-        <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Master fundamental knowledge with detailed, customized explanations.</p>
+            <h2 style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
+        <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.9rem, 4vw, 1.1rem)' }}>Master fundamental knowledge with detailed, customized explanations.</p>
       </div>
 
-      <div style={{ display: 'grid', gap: '1.5rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', marginBottom: '3rem' }}>
+      <div style={{ display: 'grid', gap: 'clamp(0.75rem, 3vw, 1.25rem)', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', marginBottom: 'clamp(1.5rem, 4vw, 2rem)' }}>
         
         {/* Daily Review Banner */}
         <motion.div 
@@ -85,7 +85,7 @@ export function TopicSelection({ onSelect }: Props) {
           whileHover={dueReviewCount > 0 ? { y: -5, boxShadow: 'var(--shadow-md)' } : {}}
           style={{
             background: dueReviewCount > 0 ? 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)' : 'var(--surface-hover)',
-            padding: '1rem',
+            padding: 'clamp(0.85rem, 3vw, 1rem)',
             borderRadius: 'var(--radius-lg)',
             color: dueReviewCount > 0 ? 'white' : 'var(--text-secondary)',
             cursor: dueReviewCount > 0 ? 'pointer' : 'default',
@@ -119,7 +119,7 @@ export function TopicSelection({ onSelect }: Props) {
           whileHover={{ y: -5, boxShadow: 'var(--shadow-md)' }}
           style={{
             background: 'linear-gradient(135deg, #3b82f6 0%, #2563eb 100%)',
-            padding: '1rem',
+            padding: 'clamp(0.85rem, 3vw, 1rem)',
             borderRadius: 'var(--radius-lg)',
             color: 'white',
             cursor: 'pointer',
@@ -150,7 +150,7 @@ export function TopicSelection({ onSelect }: Props) {
           whileHover={{ y: -5, boxShadow: 'var(--shadow-md)' }}
           style={{
             background: 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)',
-            padding: '1rem',
+            padding: 'clamp(0.85rem, 3vw, 1rem)',
             borderRadius: 'var(--radius-lg)',
             color: 'white',
             cursor: 'pointer',
@@ -182,7 +182,7 @@ export function TopicSelection({ onSelect }: Props) {
         initial="hidden"
         animate="show"
         className="topic-grid"
-          style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '1.5rem' }}
+          style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 'clamp(0.75rem, 3vw, 1.25rem)' }}
       >
         {topics.map((topic) => {
           const Icon = topic.icon;
@@ -199,7 +199,7 @@ export function TopicSelection({ onSelect }: Props) {
               onMouseEnter={() => setHoveredId(topic.id)}
               onMouseLeave={() => setHoveredId(null)}
               className="glass-panel topic-card"
-              style={{ padding: '1rem', cursor: 'pointer', position: 'relative', overflow: 'hidden' }}
+              style={{ padding: 'clamp(0.85rem, 3vw, 1rem)', cursor: 'pointer', position: 'relative', overflow: 'hidden' }}
               whileHover={{ y: -5, boxShadow: 'var(--shadow-md)' }}
               whileTap={{ scale: 0.98 }}
             >

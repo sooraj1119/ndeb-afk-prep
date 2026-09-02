@@ -32,24 +32,42 @@ export function QuestionCard({
           className="glass-panel"
           style={{ padding: 'clamp(1rem, 5vw, 2.5rem)' }}
         >
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', marginBottom: '2rem' }}>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flex: 1 }}>
-              <h3 id="current-question-text" style={{ fontSize: 'clamp(1.05rem, 4.5vw, 1.3rem)', margin: 0, lineHeight: '1.5', color: 'var(--text-primary)', fontWeight: 600 }}>{question.question}</h3>
-              {question.imageUrl && (
-                <img
-                  src={question.imageUrl}
-                  alt="Question reference"
-                  style={{ maxWidth: '100%', maxHeight: '300px', objectFit: 'contain', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-color)', marginTop: '0.5rem' }}
-                />
-              )}
-            </div>
+          <div style={{ marginBottom: '1.5rem', position: 'relative' }}>
             <button
               onClick={() => onToggleAudio('current-question-text', question.question)}
               title="Listen to question"
-              style={{ flexShrink: 0, background: 'var(--surface-hover)', border: 'none', padding: '0.6rem', borderRadius: '50%', color: 'var(--accent-color)', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s' }}
+              style={{
+                float: 'right',
+                marginLeft: '1rem',
+                marginBottom: '0.5rem',
+                background: 'var(--surface-hover)',
+                border: 'none',
+                padding: '0.6rem',
+                borderRadius: '50%',
+                color: 'var(--accent-color)',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                transition: 'all 0.2s'
+              }}
             >
               {isPlayingAudio ? <VolumeX size={20} /> : <Volume2 size={20} />}
             </button>
+
+            <h3 id="current-question-text" style={{ fontSize: 'clamp(1.05rem, 4.5vw, 1.3rem)', margin: 0, lineHeight: '1.5', color: 'var(--text-primary)', fontWeight: 600, display: 'inline' }}>
+              {question.question}
+            </h3>
+            
+            <div style={{ clear: 'both' }} />
+
+            {question.imageUrl && (
+              <img
+                src={question.imageUrl}
+                alt="Question reference"
+                style={{ maxWidth: '100%', maxHeight: '300px', objectFit: 'contain', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-color)', marginTop: '1rem', display: 'block' }}
+              />
+            )}
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', marginBottom: '1rem' }}>
