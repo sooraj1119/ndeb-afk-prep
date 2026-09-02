@@ -100,7 +100,7 @@ function App() {
 
 
   useEffect(() => {
-
+    initializeRevenueCat();
     loadAllQuestions().then(() => setQuestionsLoaded(true)).catch(e => {
 
       console.error('Failed to load questions:', e);
@@ -639,6 +639,7 @@ function App() {
         zIndex: 100,
 
         boxShadow: 'var(--shadow-sm)',
+        paddingTop: 'max(env(safe-area-inset-top), 32px)',
 
       }}>
 

@@ -7,7 +7,7 @@ const RC_APPLE_API_KEY = "test_MjHrqQSKbVtxlQruiZRbXVwXyta";
 const RC_GOOGLE_API_KEY = "goog_TfLGwDtMnsNJMIhfJggjkOrlqJe";
 
 // The entitlement identifier you configure in RevenueCat (e.g., 'pro')
-const ENTITLEMENT_ID = 'pro';
+const ENTITLEMENT_ID = 'ndeb_prep_pro';
 
 export const initializeRevenueCat = async () => {
   if (Capacitor.getPlatform() === 'web') {
@@ -59,8 +59,8 @@ export const getOfferings = async () => {
             product: {
               title: 'Pro Monthly (Web Sandbox)',
               description: 'Unlock all topics and analytics.',
-              priceString: '$19.99',
-              price: 19.99
+              priceString: '$7.99',
+              price: 7.99
             }
           },
           {
@@ -69,8 +69,8 @@ export const getOfferings = async () => {
             product: {
               title: 'Pro Annual (Web Sandbox)',
               description: 'Save 50% with an annual plan.',
-              priceString: '$99.99',
-              price: 99.99
+              priceString: '$69.30',
+              price: 69.30
             }
           }
         ]
@@ -126,3 +126,6 @@ export const restorePurchases = async (): Promise<boolean> => {
     return false;
   }
 };
+
+
+

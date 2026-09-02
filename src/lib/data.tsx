@@ -1,6 +1,6 @@
 
 import type { Topic, Question } from "./types";
-import { Syringe, FileText, FlaskConical, Bone, Microscope, Atom, Bug, Layers, Scaling, Stethoscope, X, LifeBuoy, Handshake, Biohazard } from 'lucide-react';
+import { Syringe, FileText, FlaskConical, Bone, Microscope, Atom, Bug, Layers, Scaling, Stethoscope, X, LifeBuoy, Handshake, Biohazard, Scissors, Activity, AlertCircle, Smile, Baby, ShieldCheck } from 'lucide-react';
 import type { ComponentProps } from 'react';
 
 const Tooth = (props: ComponentProps<'svg'>) => (
@@ -62,7 +62,15 @@ export const topics: Topic[] = [
   { id: "prosthodontics", name: "Prosthodontics", icon: ProsthodonticsIcon },
   { id: "general-medicine", name: "General Medicine", icon: LifeBuoy },
   { id: "ethics", name: "Ethics", icon: Handshake },
+  { id: "oral-medicine", name: "Oral Medicine", icon: Stethoscope },
+  { id: "oral-surgery", name: "Oral Surgery", icon: Scissors },
+  { id: "implants", name: "Implants", icon: Activity },
+  { id: "emergencies", name: "Dental & Medical Emergencies", icon: AlertCircle },
+  { id: "orthodontics", name: "Orthodontics", icon: Smile },
+  { id: "pedodontics", name: "Pedodontics", icon: Baby },
+  { id: "infection-control", name: "Prevention & Infection Control", icon: ShieldCheck },
 ];
+
 
 
 

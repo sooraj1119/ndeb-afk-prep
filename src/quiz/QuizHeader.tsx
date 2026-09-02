@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, Shuffle, RefreshCw, Bookmark, BookmarkCheck } from 'lucide-react';
+import { Clock, Shuffle, RefreshCw, Bookmark, BookmarkCheck, AlertTriangle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface QuizHeaderProps {
@@ -13,6 +13,7 @@ interface QuizHeaderProps {
   onRestartMockExam: () => void;
   isFlagged: boolean;
   onToggleFlag: () => void;
+  
   currentIndex: number;
   totalQuestions: number;
   progressPercentage: number;
@@ -30,6 +31,7 @@ export function QuizHeader({
   onRestartMockExam,
   isFlagged,
   onToggleFlag,
+  
   currentIndex,
   totalQuestions,
   progressPercentage,
@@ -85,11 +87,13 @@ export function QuizHeader({
               <RefreshCw size={16} /> <span className="desktop-only">Restart</span>
             </button>
           )}
+                    
+          
           <button
             onClick={onToggleFlag}
             style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: isFlagged ? '#eab308' : 'var(--text-secondary)', background: 'none', border: 'none', cursor: 'pointer', padding: '0.4rem', margin: '0 -0.4rem' }}
           >
-            {isFlagged ? <BookmarkCheck fill="#eab308" /> : <Bookmark />}
+            {isFlagged ? <BookmarkCheck fill="#eab308" size={20} /> : <Bookmark size={20} />}
             <span className="desktop-only" style={{ fontWeight: 600 }}>{isFlagged ? 'Flagged' : 'Flag'}</span>
           </button>
           <span style={{ background: 'var(--surface-hover)', color: 'var(--accent-color)', padding: '0.4rem 0.6rem', borderRadius: 'var(--radius-sm)', fontSize: '0.85rem', fontWeight: 600 }}>
@@ -100,3 +104,6 @@ export function QuizHeader({
     </>
   );
 }
+
+
+

@@ -65,7 +65,7 @@ export function TopicSelection({ onSelect }: Props) {
                 </p>
                 <button
                   onClick={() => setShowPaywall(true)}
-                  style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)', color: '#fff', border: 'none', padding: '0.9rem 2.2rem', borderRadius: '30px', fontWeight: 700, fontSize: '1.1rem', cursor: 'pointer', boxShadow: '0 8px 20px rgba(245,158,11,0.3)', transition: 'all 0.2s' }}
+                  style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)', color: '#fff', border: 'none', padding: '0.9rem 2.2rem', borderRadius: '30px', fontWeight: 700, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)', cursor: 'pointer', boxShadow: '0 8px 20px rgba(245,158,11,0.3)', transition: 'all 0.2s' }}
                 onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 10px 25px rgba(245,158,11,0.4)'; }}
                 onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 8px 20px rgba(245,158,11,0.3)'; }}
                 >
@@ -73,7 +73,7 @@ export function TopicSelection({ onSelect }: Props) {
                 </button>
               </div>
             )}
-            <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
+            <h2 style={{ fontSize: 'clamp(1.75rem, 6vw, 2.5rem)', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
         <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem' }}>Master fundamental knowledge with detailed, customized explanations.</p>
       </div>
 
@@ -85,7 +85,7 @@ export function TopicSelection({ onSelect }: Props) {
           whileHover={dueReviewCount > 0 ? { y: -5, boxShadow: 'var(--shadow-md)' } : {}}
           style={{
             background: dueReviewCount > 0 ? 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)' : 'var(--surface-hover)',
-            padding: '1.5rem',
+            padding: '1rem',
             borderRadius: 'var(--radius-lg)',
             color: dueReviewCount > 0 ? 'white' : 'var(--text-secondary)',
             cursor: dueReviewCount > 0 ? 'pointer' : 'default',
@@ -98,19 +98,19 @@ export function TopicSelection({ onSelect }: Props) {
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <div style={{ background: dueReviewCount > 0 ? 'rgba(255,255,255,0.2)' : 'var(--border-color)', padding: '0.8rem', borderRadius: '50%', flexShrink: 0 }}>
-              <CalendarDays size={32} color={dueReviewCount > 0 ? "white" : "var(--text-secondary)"} />
+              <div style={{ background: dueReviewCount > 0 ? 'rgba(255,255,255,0.2)' : 'var(--border-color)', padding: '0.6rem', borderRadius: '50%', flexShrink: 0 }}>
+              <CalendarDays size={24} color={dueReviewCount > 0 ? "white" : "var(--text-secondary)"} />
             </div>
             <div>
-              <h3 style={{ fontSize: '1.5rem', margin: '0 0 0.5rem 0', fontWeight: 700 }}>Daily Review (Spaced Repetition)</h3>
-              <p style={{ margin: 0, opacity: 0.9, fontSize: '1.1rem' }}>
+              <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: '0 0 0.5rem 0', fontWeight: 700 }}>Daily Review (Spaced Repetition)</h3>
+              <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>
                 {dueReviewCount > 0 
                   ? `You have ${dueReviewCount} questions due for review today.` 
                   : "You're all caught up for today!"}
               </p>
             </div>
           </div>
-          {dueReviewCount > 0 && <ChevronRight size={28} opacity={0.8} style={{ flexShrink: 0 }} />}
+          {dueReviewCount > 0 && <ChevronRight size={22} opacity={0.8} style={{ flexShrink: 0 }} />}
         </motion.div>
 
         {/* Simulation Mode Banner */}
@@ -119,7 +119,7 @@ export function TopicSelection({ onSelect }: Props) {
           whileHover={{ y: -5, boxShadow: 'var(--shadow-md)' }}
           style={{
             background: 'linear-gradient(135deg, #3b82f6 0%, #2563eb 100%)',
-            padding: '1.5rem',
+            padding: '1rem',
             borderRadius: 'var(--radius-lg)',
             color: 'white',
             cursor: 'pointer',
@@ -131,15 +131,15 @@ export function TopicSelection({ onSelect }: Props) {
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <div style={{ background: 'rgba(255,255,255,0.2)', padding: '0.8rem', borderRadius: '50%', flexShrink: 0 }}>
-              <Activity size={32} color="white" />
+              <div style={{ background: 'rgba(255,255,255,0.2)', padding: '0.6rem', borderRadius: '50%', flexShrink: 0 }}>
+              <Activity size={24} color="white" />
             </div>
             <div>
-              <h3 style={{ fontSize: '1.5rem', margin: '0 0 0.5rem 0', fontWeight: 700 }}>Simulated Mock Exam</h3>
-              <p style={{ margin: 0, opacity: 0.9, fontSize: '1.1rem' }}>100 random questions | 2.5 hour timer</p>
+              <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: '0 0 0.5rem 0', fontWeight: 700 }}>Simulated Mock Exam</h3>
+              <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>100 random questions | 2.5 hour timer</p>
             </div>
           </div>
-          <ChevronRight size={28} opacity={0.8} style={{ flexShrink: 0 }} />
+          <ChevronRight size={22} opacity={0.8} style={{ flexShrink: 0 }} />
         </motion.div>
 
         <motion.div 
@@ -150,7 +150,7 @@ export function TopicSelection({ onSelect }: Props) {
           whileHover={{ y: -5, boxShadow: 'var(--shadow-md)' }}
           style={{
             background: 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)',
-            padding: '1.5rem',
+            padding: '1rem',
             borderRadius: 'var(--radius-lg)',
             color: 'white',
             cursor: 'pointer',
@@ -162,18 +162,18 @@ export function TopicSelection({ onSelect }: Props) {
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <div style={{ background: 'rgba(255,255,255,0.2)', padding: '0.8rem', borderRadius: '50%', flexShrink: 0 }}>
-              {!isPremium ? <Lock size={32} color="white" /> : <Flame size={32} color="white" />}
+              <div style={{ background: 'rgba(255,255,255,0.2)', padding: '0.6rem', borderRadius: '50%', flexShrink: 0 }}>
+              {!isPremium ? <Lock size={24} color="white" /> : <Flame size={24} color="white" />}
             </div>
             <div>
               <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
-                <h3 style={{ fontSize: '1.5rem', margin: 0, fontWeight: 700 }}>Review Mistakes</h3>
+                <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: 0, fontWeight: 700 }}>Review Mistakes</h3>
                 {!isPremium && <span style={{ background: '#eab308', color: '#854d0e', padding: '0.2rem 0.6rem', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px' }}><Crown size={12} /> PRO</span>}
               </div>
-              <p style={{ margin: 0, opacity: 0.9, fontSize: '1.1rem' }}>{mistakesCount} incorrect answer{mistakesCount === 1 ? '' : 's'} saved for review</p>
+              <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>{mistakesCount} incorrect answer{mistakesCount === 1 ? '' : 's'} saved for review</p>
             </div>
           </div>
-          <ChevronRight size={28} opacity={0.8} style={{ flexShrink: 0 }} />
+          <ChevronRight size={22} opacity={0.8} style={{ flexShrink: 0 }} />
         </motion.div>
       </div>
 
@@ -199,35 +199,35 @@ export function TopicSelection({ onSelect }: Props) {
               onMouseEnter={() => setHoveredId(topic.id)}
               onMouseLeave={() => setHoveredId(null)}
               className="glass-panel topic-card"
-              style={{ padding: '1.5rem', cursor: 'pointer', position: 'relative', overflow: 'hidden' }}
+              style={{ padding: '1rem', cursor: 'pointer', position: 'relative', overflow: 'hidden' }}
               whileHover={{ y: -5, boxShadow: 'var(--shadow-md)' }}
               whileTap={{ scale: 0.98 }}
             >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.5rem' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.75rem' }}>
                 <div className="icon-wrapper" style={{ 
                   background: isHovered ? 'var(--accent-color)' : 'var(--surface-hover)', 
-                  padding: '1rem', borderRadius: 'var(--radius-md)',
+                  padding: '0.6rem', borderRadius: 'var(--radius-md)',
                   transition: 'all 0.3s ease'
                 }}>
-                  <Icon size={28} color={isHovered ? 'white' : 'var(--accent-color)'} />
+                  <Icon size={22} color={isHovered ? 'white' : 'var(--accent-color)'} />
                 </div>
                 
                 {progress?.isFinished && (
                   <div className="completed-badge" style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: 'rgba(16, 185, 129, 0.1)', color: 'var(--success-color)', padding: '0.4rem 0.8rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: 700 }}>
-                    <Trophy size={14} /> Completed
+                    <Trophy size={12} /> Completed
                   </div>
                 )}
               </div>
 
-              <h3 style={{ fontSize: '1.25rem', margin: '0 0 0.5rem 0', color: 'var(--text-primary)', fontWeight: 700 }}>{topic.name}</h3>
+              <h3 style={{ fontSize: '1.05rem', margin: '0 0 0.5rem 0', color: 'var(--text-primary)', fontWeight: 700, lineHeight: 1.2 }}>{topic.name}</h3>
               
-              <div className="stats-row" style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+              <div className="stats-row" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)', fontSize: '0.75rem' }}>
                 <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-                  <LibraryBig size={16} /> <span>{topicCount}</span> Questions
+                  <LibraryBig size={14} /> <span>{topicCount}</span> Questions
                 </span>
                 {progress && progress.currentIndex > 0 && !progress.isFinished && (
                   <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#eab308' }}>
-                    <Clock size={16} /> In Progress
+                    <Clock size={14} /> In Progress
                   </span>
                 )}
               </div>

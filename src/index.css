@@ -163,7 +163,7 @@ html.dark::before {
   .option-btn { padding: 0.9rem !important; font-size: 0.97rem !important; }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 640px) {
   .logo-text { display: none; }
   .hide-on-mobile { display: none !important; }
 }
@@ -178,7 +178,7 @@ html.dark::before {
 }
 @media (max-width: 640px) {
   .topic-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     gap: 0.75rem !important;
   }
   .topic-card {
@@ -203,5 +203,22 @@ html.dark::before {
   .topic-card .completed-badge {
     padding: 0.2rem 0.5rem !important;
     font-size: 0.7rem !important;
+  }
+}
+
+
+body, html {
+  overflow-x: hidden;
+}
+@media (max-width: 640px) {
+  main {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .topic-card {
+    padding: 0.85rem !important;
+  }
+  .topic-grid {
+    gap: 0.85rem !important;
   }
 }
