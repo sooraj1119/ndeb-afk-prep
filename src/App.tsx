@@ -722,7 +722,7 @@ function App() {
 
         {/* Bottom row: tab pills (always full-width, no wrapping) */}
 
-        <div style={{ display: 'flex', padding: '0 0.75rem 0.6rem', gap: '0.25rem' }}>
+        <div style={{ display: 'flex', padding: '0 0.75rem 0.6rem', gap: '0.25rem', overflowX: 'auto', scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' }}>
 
           {[
 
@@ -743,11 +743,10 @@ function App() {
 
               style={{
 
-                flex: 1,
-
-                padding: '0.55rem 0.5rem',
-
-                borderRadius: 'var(--radius-md)',
+                flex: '1 0 auto',
+                  padding: '0.55rem 0.6rem',
+                  borderRadius: 'var(--radius-md)',
+                  whiteSpace: 'nowrap',
 
                 background: activeTab === id ? 'var(--accent-color)' : 'var(--surface-hover)',
 

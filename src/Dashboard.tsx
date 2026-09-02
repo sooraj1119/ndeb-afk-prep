@@ -421,7 +421,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
               position: 'relative'
             }}>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
-                <div style={{ fontWeight: 600, fontSize: '0.9rem', color: 'var(--text-primary)', lineHeight: 1.15, wordBreak: 'break-word', letterSpacing: '-0.02em' }}>
+                <div style={{ fontWeight: 600, fontSize: 'clamp(0.75rem, 3.5vw, 0.9rem)', color: 'var(--text-primary)', lineHeight: 1.15, wordBreak: 'break-word', hyphens: 'auto', letterSpacing: '-0.02em' }}>
                   {topic.name}
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', marginTop: '0.1rem' }}>
@@ -436,15 +436,15 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
               
               <div style={{ marginTop: 'auto', paddingTop: '0.5rem', borderTop: '1px solid var(--border-color)' }}>
                 <div className="stats-row" style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', fontWeight: 500 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.25rem', flexWrap: 'nowrap' }}>
+                  <span style={{ fontSize: 'clamp(0.65rem, 3vw, 0.75rem)', color: 'var(--text-secondary)', fontWeight: 500, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                     {hasAttempted ? `${attemptedCount} / ${topicProg.totalQuestions}` : '0'}
                   </span>
                   {hasAttempted && !topicProg.isFinished && topicProg.currentIndex > 0 && (
-                    <span className="completed-badge" style={{ fontSize: '0.6rem', background: 'var(--surface-hover)', color: 'var(--text-secondary)', padding: '0.15rem 0.35rem', borderRadius: '4px', fontWeight: 700 }}>Active</span>
+                    <span className="completed-badge" style={{ flexShrink: 0, fontSize: 'clamp(0.55rem, 2vw, 0.6rem)', background: 'var(--surface-hover)', color: 'var(--text-secondary)', padding: '0.15rem 0.35rem', borderRadius: '4px', fontWeight: 700 }}>Active</span>
                   )}
                   {hasAttempted && topicProg.isFinished && (
-                    <span className="completed-badge" style={{ fontSize: '0.6rem', background: 'rgba(16, 185, 129, 0.1)', color: '#10b981', padding: '0.15rem 0.35rem', borderRadius: '4px', fontWeight: 700 }}>Done</span>
+                    <span className="completed-badge" style={{ flexShrink: 0, fontSize: 'clamp(0.55rem, 2vw, 0.6rem)', background: 'rgba(16, 185, 129, 0.1)', color: '#10b981', padding: '0.15rem 0.35rem', borderRadius: '4px', fontWeight: 700 }}>Done</span>
                   )}
                   </div>
                   

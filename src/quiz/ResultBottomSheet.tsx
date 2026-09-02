@@ -55,7 +55,7 @@ export function ResultBottomSheet({
         >
           <div style={{ maxWidth: '780px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
 
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.8rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 700, color: isCorrect ? 'var(--success-color)' : 'var(--error-color)', fontSize: '1.2rem' }}>
                 {isCorrect ? <CheckCircle2 size={22} /> : <AlertCircle size={22} />}
                 {isCorrect ? 'Correct!' : 'Incorrect'}
@@ -68,7 +68,7 @@ export function ResultBottomSheet({
                     disabled={currentIndex === 0}
                     style={{
                       display: 'flex', alignItems: 'center', gap: '0.5rem', margin: 0,
-                      padding: '0.6rem 1.2rem', borderRadius: 'var(--radius-full)',
+                      padding: '0.6rem 1rem', borderRadius: 'var(--radius-full)',
                       fontWeight: 600, fontSize: '1rem',
                       background: currentIndex === 0 ? 'var(--surface-hover)' : 'var(--bg-color)',
                       color: currentIndex === 0 ? 'var(--text-secondary)' : 'var(--text-primary)',
@@ -91,7 +91,7 @@ export function ResultBottomSheet({
             </div>
 
             {!isCorrect && !isSimulatedMode && (
-              <div style={{ background: 'var(--surface-hover)', padding: '1.1rem', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-color)' }}>
+              <div style={{ background: 'var(--surface-hover)', padding: '1rem', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-color)' }}>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.7rem' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--accent-color)', fontWeight: 700, fontSize: '0.9rem' }}>
                     <Sparkles size={16} /> Tutor Explanation

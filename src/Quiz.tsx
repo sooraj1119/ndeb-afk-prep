@@ -348,7 +348,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
   const progressPercentage = (currentIndex + (selectedAnswer !== null ? 1 : 0)) / topicQuestions.length * 100;
 
   return (
-    <div style={{ padding: 'clamp(0.5rem, 3vw, 1rem)', maxWidth: '800px', margin: '0 auto', width: '100%' }}>
+    <div style={{ padding: 'clamp(0.5rem, 3vw, 1rem)', paddingBottom: selectedAnswer !== null ? '65vh' : '12vh', maxWidth: '800px', margin: '0 auto', width: '100%' }}>
       <button 
         onClick={handleBackClick}
         style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
@@ -429,7 +429,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
         currentIndex={currentIndex}        isLastQuestion={currentIndex === topicQuestions.length - 1}
       />
       
-      <div style={{ textAlign: 'center', marginTop: '2rem', marginBottom: '6rem', padding: '1rem', opacity: 0.7 }}>
+      <div style={{ textAlign: 'center', marginTop: '2rem', marginBottom: '1rem', padding: '1rem', opacity: 0.7 }}>
         <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
           Found a mistake? Email our dental review board at <br/>
           <a href={`mailto:ndebpreppro@gmail.com?subject=Question Error Report ID: ${question?.id}`} style={{ color: 'var(--accent-color)', fontWeight: 600, textDecoration: 'none' }}>ndebpreppro@gmail.com</a>
