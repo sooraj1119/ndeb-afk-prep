@@ -688,25 +688,7 @@ function App() {
 
             <div id="google_translate_element" style={{ display: 'none' }}></div>
 
-            {!isStandalone && (
-
-              <button
-
-                onClick={handleInstallClick}
-
-                title="Install App"
-
-                style={{ background: 'none', border: '1px solid var(--accent-color)', borderRadius: 'var(--radius-md)', padding: '0.45rem 0.6rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.3rem', color: 'var(--accent-color)', fontWeight: 700, fontSize: '0.82rem' }}
-
-              >
-
-                <Download size={16} />
-
-                <span className="hide-on-mobile">Install</span>
-
-              </button>
-
-            )}
+            
 
             <button
 
