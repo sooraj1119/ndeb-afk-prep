@@ -20,7 +20,10 @@ export default defineConfig({
         display: 'standalone',
         orientation: 'portrait',
         icons: [
-          { src: './favicon.ico', sizes: '64x64', type: 'image/x-icon' }
+          { src: '/favicon.ico', sizes: '64x64', type: 'image/x-icon' },
+          { src: '/icons/icon-192.webp', sizes: '192x192', type: 'image/webp' },
+          { src: '/icons/icon-512.webp', sizes: '512x512', type: 'image/webp' },
+          { src: '/icons/icon-512.webp', sizes: '512x512', type: 'image/webp', purpose: 'any maskable' }
         ]
       },
       workbox: {

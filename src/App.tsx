@@ -651,17 +651,7 @@ function App() {
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', cursor: 'pointer', flexShrink: 0 }} onClick={() => { setActiveTab('practice'); resetState(); }}>
 
-            <div style={{ position: 'relative', background: 'var(--accent-color)', padding: '0.45rem', borderRadius: 'var(--radius-sm)', display: 'flex' }}>
-
-              <Stethoscope size={20} color="white" />
-
-              <div style={{ position: 'absolute', bottom: '-4px', right: '-6px', lineHeight: 1, filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.3))' }}>
-
-                <img src="https://flagcdn.com/w40/ca.png" alt="Canada Flag" style={{ width: '14px', height: 'auto', borderRadius: '1px' }} />
-
-              </div>
-
-            </div>
+            <img src="/icons/icon-192.webp" alt="NDEB AFK Prep Logo" style={{ width: '36px', height: '36px', borderRadius: '8px', objectFit: 'cover', boxShadow: 'var(--shadow-sm)' }} />
 
             <h1 className="logo-text" style={{ fontSize: '1.1rem', margin: 0, fontWeight: 700, letterSpacing: '-0.02em', color: 'var(--text-primary)', whiteSpace: 'nowrap' }}>NDEB AFK Prep Pro</h1>
 
