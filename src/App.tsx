@@ -722,7 +722,7 @@ function App() {
 
         {/* Bottom row: tab pills (always full-width, no wrapping) */}
 
-        <div style={{ display: 'flex', padding: '0 0.75rem 0.6rem', gap: '0.25rem', overflowX: 'auto', scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' }}>
+        <div style={{ display: 'flex', padding: '0 0.75rem 0.6rem', gap: '0.35rem' }}>
 
           {[
 
@@ -742,35 +742,30 @@ function App() {
               onClick={() => { setActiveTab(id as any); resetState(); }}
 
               style={{
-
-                flex: '1 0 auto',
-                  padding: '0.55rem 0.6rem',
+                  flex: 1,
+                  padding: '0.45rem 0.2rem',
                   borderRadius: 'var(--radius-md)',
-                  whiteSpace: 'nowrap',
-
-                background: activeTab === id ? 'var(--accent-color)' : 'var(--surface-hover)',
-
-                color: activeTab === id ? 'white' : 'var(--text-secondary)',
-
-                fontWeight: 600,
-
-                fontSize: '0.82rem',
-
-                display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.35rem',
-
-                border: 'none',
-
-                cursor: 'pointer',
-
-                transition: 'all 0.2s',
-
-                whiteSpace: 'nowrap'
-
-              }}
+                  background: activeTab === id ? 'var(--accent-color)' : 'var(--surface-hover)',
+                  color: activeTab === id ? 'white' : 'var(--text-secondary)',
+                  fontWeight: 600,
+                  fontSize: 'clamp(0.6rem, 2.5vw, 0.8rem)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '0.25rem',
+                  border: 'none',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s',
+                  textAlign: 'center',
+                  lineHeight: 1.15,
+                  wordBreak: 'break-word',
+                  hyphens: 'auto'
+                }}
 
             >
 
-              <Icon size={15} />{label}
+              <Icon size={18} /><span>{label}</span>
 
             </button>
 
