@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { getQuestions, loadTopicQuestions } from './lib/questionsStore';
+import { getQuestions, loadTopicQuestions } from './lib/questionsStore';
+import { TextToSpeech } from '@capacitor-community/text-to-speech';
+import { Capacitor } from '@capacitor/core';
 import { topics } from './lib/data';
 import { ArrowLeft } from 'lucide-react';
 import { PaywallModal } from './PaywallModal';
@@ -34,7 +36,18 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [isFlagged, setIsFlagged] = useState(false);
   const [initialized, setInitialized] = useState(false);
-  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+
+  const stopSpeech = async () => {
+    try {
+      if (Capacitor.isNativePlatform()) {
+        await TextToSpeech.stop();
+      } else {
+        stopSpeech();
+      }
+    } catch (e) {}
+  };
+
   const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
   const [isShuffled, setIsShuffled] = useState(false);
   const [showPaywall, setShowPaywall] = useState(false);
@@ -134,7 +147,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
 
   // Clean up audio on unmount
   useEffect(() => {
-    return () => { if (window.speechSynthesis) window.speechSynthesis.cancel(); };
+    return () => { stopSpeech(); };
   }, []);
 
   const handleSelect = (index: number) => {
@@ -187,7 +200,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
       const nextIdx = currentIndex + 1;
       setCurrentIndex(nextIdx);
       setSelectedAnswer(null);
-      if (window.speechSynthesis) window.speechSynthesis.cancel();
+      stopSpeech();
       setIsPlayingAudio(false);
 
       if (!isFlaggedMode && !isSimulatedMode && !isSRSMode && !isMistakesMode) {
@@ -253,25 +266,49 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
     setSelectedAnswer(null);
   };
 
-  const playAudio = (elementId: string, fallbackText: string) => {
-    if (!window.speechSynthesis) return;
-    if (isPlayingAudio) { window.speechSynthesis.cancel(); setIsPlayingAudio(false); return; }
-    setIsPlayingAudio(true);
-
-    const el = document.getElementById(elementId);
-    let textToRead = el?.innerText || fallbackText;
-
-    const utterance = new SpeechSynthesisUtterance(textToRead);
-    const isFrench = document.cookie.includes('googtrans=/en/fr');
-    utterance.lang = isFrench ? 'fr-FR' : 'en-US';
-
-    utterance.onend = () => setIsPlayingAudio(false);
-    utterance.onerror = () => setIsPlayingAudio(false);
-    window.speechSynthesis.speak(utterance);
+  const playAudio = async (elementId: string, fallbackText: string) => {
+    if (isPlayingAudio) { 
+      stopSpeech(); 
+      setIsPlayingAudio(false); 
+      return; 
+    }
+    
+    setIsPlayingAudio(true);
+    
+    const el = document.getElementById(elementId);
+    let textToRead = el?.innerText || fallbackText;
+    const isFrench = document.cookie.includes('googtrans=/en/fr');
+    const lang = isFrench ? 'fr-FR' : 'en-US';
+
+    if (Capacitor.isNativePlatform()) {
+      try {
+        await TextToSpeech.speak({
+          text: textToRead,
+          lang: lang,
+          rate: 1.0,
+          pitch: 1.0,
+          category: 'playback'
+        });
+        setIsPlayingAudio(false);
+      } catch (e) {
+        console.error("TTS Native Error", e);
+        setIsPlayingAudio(false);
+      }
+    } else {
+      if (!window.speechSynthesis) {
+        setIsPlayingAudio(false);
+        return;
+      }
+      const utterance = new SpeechSynthesisUtterance(textToRead);
+      utterance.lang = lang;
+      utterance.onend = () => setIsPlayingAudio(false);
+      utterance.onerror = () => setIsPlayingAudio(false);
+      window.speechSynthesis.speak(utterance);
+    }
   };
 
   const handleBackClick = () => {
-    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    stopSpeech();
     recordSessionAttempt(score, currentIndex + (selectedAnswer !== null ? 1 : 0));
     onBack();
   };
