@@ -222,3 +222,22 @@ body, html {
     gap: 0.85rem !important;
   }
 }
+
+/* ========================================= */
+/* Hide Google Translate Annoying Tooltips   */
+/* ========================================= */
+#goog-gt-tt, .goog-te-balloon-frame {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Prevent Google Translate from shifting the body down */
+body {
+  top: 0 !important;
+}
