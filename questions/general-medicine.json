@@ -1,19 +1,5 @@
 [
   {
-    "id": 1331,
-    "topicId": "general-medicine",
-    "difficulty": "easy",
-    "question": "What is hypertension?",
-    "options": [
-      "Low blood sugar",
-      "High blood sugar",
-      "High blood pressure",
-      "Low blood pressure"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
     "id": 1332,
     "topicId": "general-medicine",
     "difficulty": "easy",
@@ -25,20 +11,6 @@
       "Kidneys"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
-    "id": 1333,
-    "topicId": "general-medicine",
-    "difficulty": "easy",
-    "question": "Asthma is a chronic disease that affects the:",
-    "options": [
-      "Brain",
-      "Lungs",
-      "Heart",
-      "Stomach"
-    ],
-    "correctAnswer": 1,
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
@@ -65,34 +37,6 @@
       "Stroke",
       "Heart attack",
       "Seizure"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
-    "id": 1336,
-    "topicId": "general-medicine",
-    "difficulty": "easy",
-    "question": "Which of the following is a symptom of anemia?",
-    "options": [
-      "Fatigue and pallor",
-      "High energy",
-      "High blood pressure",
-      "Warm skin"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
-    "id": 1337,
-    "topicId": "general-medicine",
-    "difficulty": "easy",
-    "question": "Hepatitis is an inflammation of which organ?",
-    "options": [
-      "Lungs",
-      "Liver",
-      "Kidney",
-      "Spleen"
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
@@ -182,20 +126,6 @@
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
-    "id": 1344,
-    "topicId": "general-medicine",
-    "difficulty": "medium",
-    "question": "What does a hemoglobin A1c (HbA1c) test measure?",
-    "options": [
-      "Current blood glucose level",
-      "Number of red blood cells",
-      "Level of iron in the blood",
-      "Average blood glucose level over the past 2-3 months"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
     "id": 1345,
     "topicId": "general-medicine",
     "difficulty": "medium",
@@ -233,20 +163,6 @@
       "Osteoarthritis",
       "Gout",
       "Fibromyalgia"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
-    "id": 1348,
-    "topicId": "general-medicine",
-    "difficulty": "medium",
-    "question": "Angina pectoris is chest pain caused by:",
-    "options": [
-      "Reduced blood flow to the heart muscle",
-      "Acid reflux",
-      "A heart attack",
-      "A pulled muscle"
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
@@ -420,20 +336,6 @@
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
-    "id": 1361,
-    "topicId": "general-medicine",
-    "difficulty": "easy",
-    "question": "The universal blood donor type is:",
-    "options": [
-      "B positive",
-      "A positive",
-      "O negative",
-      "AB positive"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
     "id": 1362,
     "topicId": "general-medicine",
     "difficulty": "medium",
@@ -588,20 +490,6 @@
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
-    "id": 1373,
-    "topicId": "general-medicine",
-    "difficulty": "hard",
-    "question": "Multiple sclerosis is a disease characterized by:",
-    "options": [
-      "Loss of neurons in the cerebral cortex",
-      "Demyelination of the central nervous system",
-      "A defect in neuromuscular transmission",
-      "Progressive muscle wasting"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
     "id": 1374,
     "topicId": "general-medicine",
     "difficulty": "medium",
@@ -613,20 +501,6 @@
       "Erythema (red skin)"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
-    "id": 1375,
-    "topicId": "general-medicine",
-    "difficulty": "easy",
-    "question": "Anaphylaxis is a severe, life-threatening:",
-    "options": [
-      "Infection",
-      "Bleeding disorder",
-      "Metabolic condition",
-      "Allergic reaction"
-    ],
-    "correctAnswer": 3,
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
@@ -739,20 +613,6 @@
       "Kidney stones"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
-    "id": 1384,
-    "topicId": "general-medicine",
-    "difficulty": "hard",
-    "question": "What is the primary defect in cystic fibrosis?",
-    "options": [
-      "An abnormal hemoglobin molecule",
-      "A deficiency of phenylalanine hydroxylase",
-      "An absence of the dystrophin protein",
-      "A defective chloride ion channel protein (CFTR)"
-    ],
-    "correctAnswer": 3,
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
@@ -952,20 +812,6 @@
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
-    "id": 1399,
-    "topicId": "general-medicine",
-    "difficulty": "medium",
-    "question": "The primary pathology in osteoarthritis is:",
-    "options": [
-      "Infection of the joint space",
-      "Deposition of uric acid crystals",
-      "Autoimmune inflammation of the synovium",
-      "Wear and tear leading to breakdown of articular cartilage"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
     "id": 1400,
     "topicId": "general-medicine",
     "difficulty": "hard",
@@ -1064,20 +910,6 @@
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
-    "id": 1407,
-    "topicId": "general-medicine",
-    "difficulty": "medium",
-    "question": "What is the primary function of the spleen?",
-    "options": [
-      "Produce digestive enzymes",
-      "Absorb nutrients",
-      "Filter blood and plays a role in the immune system",
-      "Produce bile"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
     "id": 1408,
     "topicId": "general-medicine",
     "difficulty": "hard",
@@ -1103,20 +935,6 @@
       "A heart attack"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
-    "id": 1410,
-    "topicId": "general-medicine",
-    "difficulty": "easy",
-    "question": "What is osteoporosis?",
-    "options": [
-      "A condition where bones become weak and brittle",
-      "A disease of soft bones",
-      "Inflammation of the bone",
-      "A bone tumor"
-    ],
-    "correctAnswer": 0,
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
@@ -1162,20 +980,6 @@
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
-    "id": 1414,
-    "topicId": "general-medicine",
-    "difficulty": "easy",
-    "question": "The term for a heart attack is:",
-    "options": [
-      "Cardiac arrest",
-      "Arrhythmia",
-      "Myocardial infarction",
-      "Angina pectoris"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
     "id": 1415,
     "topicId": "general-medicine",
     "difficulty": "medium",
@@ -1215,20 +1019,6 @@
       "Have the patient drink water"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
-    "id": 1418,
-    "topicId": "general-medicine",
-    "difficulty": "easy",
-    "question": "What is the main function of red blood cells?",
-    "options": [
-      "To assist in clotting",
-      "To fight infection",
-      "To transport oxygen",
-      "To produce energy"
-    ],
-    "correctAnswer": 2,
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
   },
   {
@@ -1381,20 +1171,6 @@
       "Transport dietary fat",
       "Transport cholesterol from peripheral tissues back to the liver",
       "Transport cholesterol to peripheral tissues"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
-  },
-  {
-    "id": 1430,
-    "topicId": "general-medicine",
-    "difficulty": "medium",
-    "question": "An ischemic stroke is caused by:",
-    "options": [
-      "A brain tumor",
-      "A rupture of a blood vessel in the brain",
-      "A blockage of a blood vessel in the brain",
-      "A severe migraine"
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is based on established Canadian dental standards and current clinical guidelines. The other options represent common misconceptions or are appropriate in different clinical contexts. Always refer to the NDEB AFK exam preparation materials for detailed rationale."
@@ -3752,20 +3528,6 @@
     "explanation": "The optimal time for dental treatment for patients on hemodialysis is on the day between dialysis sessions. This avoids the immediate post-dialysis period when heparin is active and the pre-dialysis period when waste products are highest, minimizing bleeding risk and improving patient comfort."
   },
   {
-    "id": 905093838,
-    "topicId": "general-medicine",
-    "difficulty": "medium",
-    "question": "Oral signs of iron deficiency anemia may include:",
-    "options": [
-      "Multiple aphthous ulcers.",
-      "Painless white lesions on the buccal mucosa.",
-      "Atrophic glossitis with a burning sensation.",
-      "Punctate hemorrhages on the palate."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Iron deficiency anemia often presents with atrophic glossitis, characterized by a smooth, red, often burning tongue. Other signs may include angular cheilitis and pallor of oral mucous membranes."
-  },
-  {
     "id": 254426750,
     "topicId": "general-medicine",
     "difficulty": "medium",
@@ -5066,20 +4828,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "For acute asthma exacerbation, the most appropriate initial step is to administer the patient's fast-acting beta-2 agonist (like albuterol) and position them upright to facilitate breathing. Nitroglycerin is for angina, and calling EMS is typically reserved if initial management fails."
-  },
-  {
-    "id": 507925158,
-    "topicId": "general-medicine",
-    "difficulty": "medium",
-    "question": "A 70-year-old patient with a history of prosthetic heart valve replacement (mechanical mitral valve) 5 years ago requires multiple extractions. Which antibiotic regimen is indicated for infective endocarditis prophylaxis?",
-    "options": [
-      "Amoxicillin 2g orally, 1 hour before the procedure.",
-      "Clindamycin 600mg orally, 30-60 minutes before the procedure, if penicillin allergic.",
-      "Both A and B are appropriate depending on penicillin allergy status.",
-      "Amoxicillin 2g orally, 30-60 minutes before the procedure."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Mechanical prosthetic heart valves are a definitive indication for infective endocarditis prophylaxis. The recommended regimen is Amoxicillin 2g orally, 30-60 minutes before the procedure. If the patient is allergic to penicillin, Clindamycin 600mg or Azithromycin/Clarithromycin 500mg are suitable alternatives."
   },
   {
     "id": 296980996,

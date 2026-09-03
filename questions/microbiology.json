@@ -598,19 +598,6 @@
     "explanation": "This clinical presentation is classic for pseudomembranous candidiasis (thrush), commonly caused by *Candida albicans*, especially after broad-spectrum antibiotic use disrupts the normal flora. *S. aureus* causes bacterial infections, HSV causes vesicular lesions, and *S. pyogenes* causes strep throat."
   },
   {
-    "id": 86605346,
-    "topicId": "microbiology",
-    "question": "Obligate anaerobes are characterized by their:",
-    "options": [
-      "Inability to tolerate oxygen, often due to lack of detoxifying enzymes",
-      "Ability to grow with or without oxygen",
-      "Requirement for oxygen for growth",
-      "Preference for low oxygen environments"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Obligate anaerobes are severely inhibited or killed by oxygen because they lack enzymes like superoxide dismutase and catalase, which detoxify reactive oxygen species. They cannot grow in the presence of oxygen."
-  },
-  {
     "id": 764400663,
     "topicId": "microbiology",
     "question": "To disinfect heat-sensitive dental instruments that contact intact mucous membranes but do not penetrate soft tissue or bone, which level of disinfection is generally recommended?",
@@ -986,19 +973,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Herpes Simplex Virus Type 1 (HSV-1) establishes latency primarily in the sensory ganglia neurons (e.g., trigeminal ganglion) after primary infection. Reactivation from this latent state, often triggered by stress or immunosuppression, causes recurrent oral lesions like herpes labialis (cold sores)."
-  },
-  {
-    "id": 318124901,
-    "topicId": "microbiology",
-    "question": "Dental plaque is best described as a:",
-    "options": [
-      "Disorganized, random aggregation of bacteria on the enamel.",
-      "Transient accumulation of food debris and salivary components.",
-      "Sterile, proteinaceous film that rapidly forms on tooth surfaces.",
-      "Highly structured, polymicrobial biofilm encased in an extracellular matrix."
-    ],
-    "correctAnswer": 3,
-    "explanation": "Dental plaque is a highly organized, polymicrobial biofilm consisting of various bacterial species embedded within an extracellular matrix of host and microbial products, adhering to tooth surfaces. It is not sterile, nor is it a disorganized aggregation or merely transient food debris."
   },
   {
     "id": 837973359,
