@@ -397,6 +397,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
         {topics.map((topic, idx) => {
           const topicProg = progress[topic.id];
           const hasAttempted = !!topicProg;
+            const topicTotal = questions.filter(q => q.topicId === topic.id).length || 500;
           
           let completionProgress = 0;
           let accuracy = 0;
@@ -404,7 +405,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           
           if (hasAttempted) {
              attemptedCount = topicProg.isFinished ? topicProg.totalQuestions : (topicProg.questionsAnswered || 0);
-             completionProgress = Math.round((attemptedCount / topicProg.totalQuestions) * 100);
+             completionProgress = Math.round((attemptedCount / topicTotal) * 100);
              if (attemptedCount > 0) {
                  let correctCount = topicProg.isFinished ? topicProg.highestScore : (topicProg.currentScore || 0);
                  correctCount = Math.min(correctCount, attemptedCount);
@@ -438,7 +439,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
                 <div className="stats-row" style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.25rem', flexWrap: 'nowrap' }}>
                   <span translate="no" style={{ fontSize: 'clamp(0.65rem, 3vw, 0.75rem)', color: 'var(--text-secondary)', fontWeight: 500, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                      {hasAttempted ? `${attemptedCount} / ${topicProg.totalQuestions}` : (topic.count || 0)}
+                      {hasAttempted ? `${attemptedCount} / ${topicTotal}` : topicTotal}
                     </span>
                   {hasAttempted && !topicProg.isFinished && topicProg.currentIndex > 0 && (
                     <span className="completed-badge" style={{ flexShrink: 0, fontSize: 'clamp(0.55rem, 2vw, 0.6rem)', background: 'var(--surface-hover)', color: 'var(--text-secondary)', padding: '0.15rem 0.35rem', borderRadius: '4px', fontWeight: 700 }}>Active</span>
