@@ -52,7 +52,7 @@ export function QuizHeader({
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
           <h2 style={{ color: 'var(--text-primary)', margin: 0, fontSize: 'clamp(1.2rem, 5vw, 1.5rem)', fontWeight: 700 }}>{topicName}</h2>
           {isSimulatedMode && (
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(239, 68, 68, 0.1)', color: 'var(--error-color)', padding: '0.4rem 0.8rem', borderRadius: 'var(--radius-sm)', fontWeight: 700 }}>
+            <div translate="no" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(239, 68, 68, 0.1)', color: 'var(--error-color)', padding: '0.4rem 0.8rem', borderRadius: 'var(--radius-sm)', fontWeight: 700 }}>
               <Clock size={16} /> {formatTime(timeLeft)}
             </div>
           )}
@@ -96,7 +96,7 @@ export function QuizHeader({
             {isFlagged ? <BookmarkCheck fill="#eab308" size={20} /> : <Bookmark size={20} />}
             <span className="desktop-only" style={{ fontWeight: 600 }}>{isFlagged ? 'Flagged' : 'Flag'}</span>
           </button>
-          <span style={{ background: 'var(--surface-hover)', color: 'var(--accent-color)', padding: '0.4rem 0.6rem', borderRadius: 'var(--radius-sm)', fontSize: '0.85rem', fontWeight: 600 }}>
+          <span translate="no" style={{ background: 'var(--surface-hover)', color: 'var(--accent-color)', padding: '0.4rem 0.6rem', borderRadius: 'var(--radius-sm)', fontSize: '0.85rem', fontWeight: 600 }}>
             {currentIndex + 1} / {totalQuestions}
           </span>
         </div>

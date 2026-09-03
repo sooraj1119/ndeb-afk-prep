@@ -680,7 +680,7 @@ function App() {
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#f97316', fontWeight: 700, background: 'rgba(249,115,22,0.1)', padding: '0.4rem 0.6rem', borderRadius: 'var(--radius-md)', fontSize: '0.9rem' }}>
 
-                <Flame size={17} /><span>{streak}</span>
+                <Flame size={17} /><span translate="no">{streak}</span>
 
               </div>
 
