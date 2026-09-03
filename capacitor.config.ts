@@ -16,7 +16,9 @@ const config: CapacitorConfig = {
       iosSpinnerStyle: "small",
       spinnerColor: "#0f172a",
       splashFullScreen: true,
-      splashImmersive: true
+      splashImmersive: true,
+      layoutName: "launch_screen",
+      useDialog: true
     },
   },
 };
