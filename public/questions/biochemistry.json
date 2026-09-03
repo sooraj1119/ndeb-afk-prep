@@ -3036,20 +3036,6 @@
     "explanation": "Alpha-ketoglutarate dehydrogenase, along with pyruvate dehydrogenase and transketolase, requires thiamine pyrophosphate (TPP) as an essential coenzyme. Isocitrate dehydrogenase, succinate dehydrogenase, and malate dehydrogenase utilize NAD+, FAD, or no coenzymes, respectively, rather than TPP."
   },
   {
-    "id": 243729484,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 30-year-old vegan patient presents with megaloblastic anemia and subacute combined degeneration of the spinal cord. A deficiency in vitamin B12 (cobalamin) is identified. This deficiency impairs the conversion of homocysteine to methionine. Which of the following cofactors or coenzymes is directly required by methionine synthase along with methylcobalamin?",
-    "options": [
-      "Tetrahydrofolate (THF)",
-      "Pyridoxal phosphate (PLP)",
-      "Biotin",
-      "NADH"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Methionine synthase transfers a methyl group from 5-methyltetrahydrofolate to homocysteine to form methionine, utilizing methylcobalamin as an intermediate carrier. Consequently, a B12 deficiency traps folate as 5-methyl-THF (the methyl-trap hypothesis), rendering other THF forms unavailable for DNA synthesis. Pyridoxal phosphate and biotin are cofactors for transaminations and carboxylation reactions, respectively."
-  },
-  {
     "id": 388546965,
     "topicId": "biochemistry",
     "difficulty": "medium",

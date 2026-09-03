@@ -6173,5 +6173,330 @@
     ],
     "correctAnswer": 1,
     "explanation": "For an impacted maxillary canine that is displacing an adjacent tooth and positioned palatally, the most appropriate management is typically surgical exposure of the canine, followed by orthodontic traction to guide it into its proper position in the arch. Observation (A) would likely lead to further complications and impaction. Immediate surgical extraction (C) sacrifices a valuable tooth that can often be erupted. Removal of the lateral incisor (D) is an extreme and usually unwarranted measure that would compromise the esthetics and function of the dentition."
+  },
+  {
+    "id": 301832912,
+    "topicId": "oral-surgery",
+    "question": "A 70-year-old male patient, taking clopidogrel daily for a history of myocardial infarction, presents to your office 6 hours after an uncomplicated extraction of a mandibular molar with persistent oozing from the socket. He has been biting on gauze for two hours without success. His medical history is otherwise stable. What is the MOST appropriate immediate management?",
+    "options": [
+      "Place a hemostatic agent (e.g., oxidized regenerated cellulose) into the socket and suture.",
+      "Prescribe oral tranexamic acid rinse for 5 days.",
+      "Instruct the patient to continue biting on gauze for another 2 hours.",
+      "Discontinue clopidogrel immediately and re-evaluate in 24 hours."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Placing a hemostatic agent with pressure and suturing provides direct mechanical hemostasis, which is often effective for persistent oozing post-extraction, especially in patients on antiplatelet medications. Instructing the patient to continue biting on gauze (C) is unlikely to be effective after prolonged attempts, and discontinuing clopidogrel (D) is contraindicated without consulting the patient's physician due to the risk of cardiovascular events. Oral tranexamic acid (B) can be helpful but direct local measures are usually the first line for active bleeding."
+  },
+  {
+    "id": 681524605,
+    "topicId": "oral-surgery",
+    "question": "Which of the following biopsy techniques is MOST appropriate for a 0.5 cm, flat, pigmented lesion on the buccal mucosa with ill-defined borders, highly suspicious for melanoma?",
+    "options": [
+      "Incisional biopsy",
+      "Excisional biopsy",
+      "Aspiration biopsy",
+      "Brush biopsy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An excisional biopsy, which removes the entire lesion with a margin of healthy tissue, is the most appropriate technique for a small, suspicious pigmented lesion like melanoma to ensure complete removal and accurate histological staging. An incisional biopsy (A) is suitable for larger lesions but risks incomplete diagnosis or seeding if it is malignant. Aspiration biopsy (C) is used for fluid-filled lesions or deep masses, and a brush biopsy (D) is a screening tool with limited diagnostic value for suspected malignancy."
+  },
+  {
+    "id": 416376654,
+    "topicId": "oral-surgery",
+    "question": "A 55-year-old female patient presents for the extraction of a severely decayed maxillary second molar. During the procedure, a significant segment of the maxillary tuberosity, including the adjacent first molar, fractures and becomes mobile. What is the MOST appropriate immediate management?",
+    "options": [
+      "Remove the fractured segment, extract the attached tooth, and smooth the bone.",
+      "Attempt to reposition the fractured segment and stabilize with sutures or arch bar.",
+      "Refer immediately to an oral and maxillofacial surgeon for reconstruction.",
+      "Pack the area with absorbable gelatin sponge and allow for secondary healing."
+    ],
+    "correctAnswer": 1,
+    "explanation": "When a significant segment of the maxillary tuberosity fractures but remains attached to the periosteum, the most appropriate immediate management is to attempt repositioning and stabilization, often with sutures or an arch bar, to preserve bone and prevent an oral-antral communication. Removing the segment (A) should be a last resort as it leads to significant bone loss and potential OAC. Referral (C) may be necessary for complex stabilization, but the initial attempt should be made by the operating dentist if feasible. Packing (D) without stabilization is insufficient for a mobile bone segment."
+  },
+  {
+    "id": 911705991,
+    "topicId": "oral-surgery",
+    "question": "Which local anesthetic agent is generally contraindicated in a patient with a history of severe liver dysfunction (Child-Pugh Class C cirrhosis)?",
+    "options": [
+      "Lidocaine",
+      "Articaine",
+      "Mepivacaine",
+      "Bupivacaine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Bupivacaine has a longer duration of action and a greater potential for systemic toxicity, and its metabolism is primarily hepatic, making it generally contraindicated or requiring significant dose reduction in patients with severe liver dysfunction. Lidocaine, articaine, and mepivacaine (A, B, C) are also metabolized in the liver, but their shorter duration of action and different metabolic pathways (articaine has both hepatic and plasma esterase metabolism) make them safer alternatives with careful dose adjustments."
+  },
+  {
+    "id": 616668715,
+    "topicId": "oral-surgery",
+    "question": "A 28-year-old male presents with severe pain and swelling involving the floor of the mouth, elevating the tongue. He also exhibits difficulty swallowing and speaking. Clinical examination reveals bilateral induration of the sublingual and submandibular spaces, without frank pus, and tenderness upon palpation. His temperature is 39°C. What is the MOST appropriate immediate management?",
+    "options": [
+      "Hospital admission for intravenous antibiotics and surgical drainage.",
+      "Prescribe oral antibiotics and monitor closely for 24 hours.",
+      "Incision and drainage in an outpatient setting.",
+      "Initiate a warm saline rinse and prescribe analgesics."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The clinical presentation of severe pain, swelling in the floor of the mouth elevating the tongue, difficulty swallowing and speaking, and bilateral sublingual/submandibular involvement with fever strongly suggests Ludwig's Angina, a rapidly progressing and potentially life-threatening infection requiring immediate hospital admission for aggressive intravenous antibiotics and surgical airway management/drainage. Prescribing oral antibiotics (B) or outpatient drainage (C) are inadequate for a severe, spreading infection. Warm saline rinses and analgesics (D) are purely palliative and would dangerously delay definitive treatment."
+  },
+  {
+    "id": 798102107,
+    "topicId": "oral-surgery",
+    "question": "Which of the following conditions is an established indication for antibiotic prophylaxis prior to oral surgery procedures that involve manipulation of gingival tissue or periapical region?",
+    "options": [
+      "History of rheumatic fever without valvular damage.",
+      "Unrepaired cyanotic congenital heart disease.",
+      "Mitral valve prolapse with regurgitation.",
+      "Presence of a ventriculoperitoneal shunt."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Unrepaired cyanotic congenital heart disease is a high-risk cardiac condition that warrants antibiotic prophylaxis prior to procedures involving manipulation of gingival tissue or the periapical region, according to current guidelines (e.g., AHA/CDA). Rheumatic fever without valvular damage (A) and mitral valve prolapse with regurgitation (C) are generally no longer considered indications for prophylaxis. A ventriculoperitoneal shunt (D) is not a cardiac condition and typically does not require prophylaxis for routine dental procedures."
+  },
+  {
+    "id": 877862535,
+    "topicId": "oral-surgery",
+    "question": "A 10-year-old patient presents to your office 30 minutes after completely avulsing a permanent maxillary central incisor. The tooth was found immediately and has been stored in tap water. The alveolar socket appears intact. What is the MOST critical next step for improving the prognosis of successful re-implantation?",
+    "options": [
+      "Scrub the root surface thoroughly with a brush to remove debris before replantation.",
+      "Rinse the tooth briefly with saline and immediately replant it into the socket.",
+      "Soaking the tooth in doxycycline solution for 5 minutes prior to replantation.",
+      "Performing root canal therapy on the avulsed tooth prior to replantation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an avulsed permanent tooth with an open apex and a short extra-oral dry time (like 30 minutes in water), immediate replantation after a brief rinse with saline is critical to preserve the viability of periodontal ligament cells and maximize the chance of successful revascularization. Scrubbing the root surface (A) would severely damage remaining PDL cells. Soaking in doxycycline (C) is indicated for prolonged dry times or closed apices, and performing root canal therapy (D) should be done post-replantation, usually within 7-10 days, not prior, to minimize extra-oral time."
+  },
+  {
+    "id": 508157453,
+    "topicId": "oral-surgery",
+    "question": "Which of the following principles is MOST crucial for maintaining adequate blood supply to a mucoperiosteal flap during oral surgical procedures?",
+    "options": [
+      "The flap should be designed with sharp, pointed corners.",
+      "The base of the flap should be wider than the free margin.",
+      "Incisions should be made directly over bony prominences.",
+      "The flap should be thin to minimize tissue bulk."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Designing the flap with a base that is wider than its free margin (B) ensures a broad attachment to vascularized tissue, thus maintaining an adequate blood supply to the entire flap and preventing necrosis. Sharp, pointed corners (A) are prone to tearing and ischemia. Incisions should generally avoid bony prominences (C) to prevent dehiscence and facilitate primary closure. A thin flap (D) can compromise blood supply and tissue integrity, while a full-thickness flap is desired for most bone procedures."
+  },
+  {
+    "id": 680551028,
+    "topicId": "oral-surgery",
+    "question": "A 35-year-old male patient with a documented history of opioid use disorder (currently in recovery) requires the surgical extraction of a mandibular third molar. He expresses concern about post-operative pain. What is the MOST appropriate approach to managing his post-operative pain?",
+    "options": [
+      "Prescribe a multi-modal analgesic regimen including NSAIDs and acetaminophen, with careful consideration of short-acting opioids only if absolutely necessary.",
+      "Prescribe a standard course of opioid analgesics (e.g., oxycodone) to ensure adequate pain control.",
+      "Avoid all opioid medications and rely solely on non-pharmacological pain management techniques.",
+      "Refer him to a pain management specialist before the extraction."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A multi-modal analgesic regimen, combining NSAIDs and acetaminophen, is the preferred approach for post-operative pain in patients with a history of opioid use disorder, as it provides effective pain control while minimizing the risk of relapse. Opioids should be considered only if non-opioid options are insufficient and prescribed cautiously and for the shortest duration possible. Prescribing a standard opioid course (B) is inappropriate due to relapse risk. Avoiding all opioids (C) may lead to uncontrolled pain. Referral to a pain specialist (D) is not typically necessary for routine post-operative pain but may be for chronic pain."
+  },
+  {
+    "id": 790377485,
+    "topicId": "oral-surgery",
+    "question": "A panoramic radiograph of a 25-year-old patient reveals a well-defined, unilocular radiolucency associated with the crown of an impacted mandibular third molar. The radiolucency appears to be attached at the cementoenamel junction. What is the MOST probable diagnosis?",
+    "options": [
+      "Radicular cyst",
+      "Dentigerous cyst",
+      "Odontogenic keratocyst (OKC)",
+      "Ameloblastoma"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A dentigerous cyst (follicular cyst) is the most common developmental odontogenic cyst, characteristically associated with the crown of an impacted or unerupted tooth, attaching at the cementoenamel junction. A radicular cyst (A) is inflammatory and typically associated with non-vital teeth. An odontogenic keratocyst (C) can be associated with impacted teeth but often presents as multilocular and has a characteristic epithelial lining. Ameloblastoma (D) is a tumor, not a cyst, and usually presents as a multilocular radiolucency with more aggressive features."
+  },
+  {
+    "id": 390473011,
+    "topicId": "oral-surgery",
+    "question": "A 48-year-old male patient, who recently underwent renal transplant and is on immunosuppressive medication, presents with a rapidly spreading, painful swelling of the left submandibular space originating from a non-vital mandibular first molar. His temperature is 38.5°C, and he reports malaise. What is the MOST appropriate initial management?",
+    "options": [
+      "Prescribe broad-spectrum oral antibiotics and schedule for extraction within 3-5 days.",
+      "Prescribe penicillin V potassium and instruct the patient to apply warm compresses.",
+      "Immediate referral to an oral and maxillofacial surgeon for hospital admission, intravenous antibiotics, and surgical drainage.",
+      "Perform incision and drainage in an outpatient setting and prescribe clindamycin."
+    ],
+    "correctAnswer": 2,
+    "explanation": "An immunocompromised patient with a rapidly spreading odontogenic infection requires urgent and aggressive management due to their heightened risk of severe complications and sepsis. Immediate referral for hospital admission, intravenous antibiotics, and surgical drainage is crucial to control the infection effectively. Prescribing oral antibiotics (A, B) or performing outpatient drainage (D) are inadequate and would delay necessary definitive care for this high-risk patient."
+  },
+  {
+    "id": 350353591,
+    "topicId": "oral-surgery",
+    "question": "Which of the following is considered the MOST common early complication associated with dental implant placement?",
+    "options": [
+      "Peri-implantitis",
+      "Paresthesia",
+      "Implant fracture",
+      "Failure of osseointegration"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Failure of osseointegration is the most common early complication of dental implant placement, often due to factors like surgical trauma, infection, poor bone quality, or premature loading, leading to implant mobility and loss. Peri-implantitis (A) is a common late complication. Paresthesia (B) is a potential complication, especially in the posterior mandible, but less common overall than osseointegration failure. Implant fracture (C) is a rare complication, typically occurring years after placement due to excessive occlusal forces."
+  },
+  {
+    "id": 69931527,
+    "topicId": "oral-surgery",
+    "question": "A 9-year-old patient presents with a permanent maxillary central incisor that is displaced buccally and slightly extruded after a fall. The tooth is mobile but not avulsed, and the pulp tests vital. Radiographs show no root fracture. What is the MOST appropriate initial management?",
+    "options": [
+      "Reposition the tooth gently and splint with a flexible splint for 2-3 weeks.",
+      "Perform immediate root canal therapy, then reposition and splint.",
+      "Extract the tooth due to severe luxation injury.",
+      "Leave the tooth to spontaneously reposition and monitor."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a permanent tooth with lateral luxation and slight extrusion, the most appropriate initial management is gentle repositioning and stabilization with a flexible splint for 2-3 weeks to allow for periodontal ligament healing. Immediate root canal therapy (B) is not indicated as the pulp tests vital. Extraction (C) is too aggressive for this injury. Leaving the tooth to spontaneously reposition (D) is unlikely to occur correctly and can lead to malocclusion and further damage."
+  },
+  {
+    "id": 185905624,
+    "topicId": "oral-surgery",
+    "question": "Which of the following is a definitive indication for surgical removal of an impacted mandibular third molar?",
+    "options": [
+      "Prophylactic removal to prevent future problems.",
+      "Recurrent pericoronitis.",
+      "Patient's age over 25 years.",
+      "Deep impaction without symptoms."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Recurrent pericoronitis is a definitive indication for the surgical removal of an impacted mandibular third molar, as it indicates a chronic inflammatory process and infection risk. Prophylactic removal (A) is controversial and not a definitive indication on its own. Patient's age (C) is not a direct indication, and deep impaction without symptoms (D) typically warrants observation rather than immediate removal."
+  },
+  {
+    "id": 279918608,
+    "topicId": "oral-surgery",
+    "question": "A 40-year-old male patient presents to the emergency department after accidentally inhaling a dental crown during a restorative procedure. He is coughing intermittently but denies shortness of breath or dysphagia. What is the MOST appropriate immediate next step?",
+    "options": [
+      "Attempt to retrieve the crown using Magill forceps.",
+      "Reassure the patient and monitor for symptoms of aspiration.",
+      "Order a chest radiograph and possibly a CT scan to locate the foreign body.",
+      "Refer immediately to a gastroenterologist for endoscopy."
+    ],
+    "correctAnswer": 2,
+    "explanation": "When a patient potentially aspirates or ingests a foreign body, the most appropriate immediate next step is to order a chest radiograph and possibly a CT scan to accurately locate the foreign body (e.g., in the lungs, esophagus, or stomach) before determining the removal strategy. Attempting retrieval with Magill forceps (A) without knowing the location is dangerous. Reassurance and monitoring (B) is insufficient and delays critical diagnosis and intervention. Referral to a gastroenterologist (D) is appropriate if the object is in the GI tract, but location must first be confirmed radiographically."
+  },
+  {
+    "id": 820862975,
+    "topicId": "oral-surgery",
+    "question": "Which of the following systemic conditions is considered an absolute contraindication for elective oral surgical procedures?",
+    "options": [
+      "Well-controlled Type 2 Diabetes Mellitus (HbA1c < 7.0%).",
+      "History of myocardial infarction six months ago.",
+      "Current use of bisphosphonates for osteoporosis.",
+      "Uncontrolled hypertension (BP > 180/110 mmHg)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Uncontrolled hypertension (BP > 180/110 mmHg) is an absolute contraindication for elective oral surgical procedures due to the significantly increased risk of cardiovascular events during and after surgery. Well-controlled Type 2 Diabetes (A) and a history of myocardial infarction six months ago (B) are relative contraindications that require medical consultation and risk assessment, but not absolute postponement. Current use of bisphosphonates (C) is a risk factor for osteonecrosis but not an absolute contraindication for all elective oral surgery; it requires careful risk-benefit assessment and patient-specific management."
+  },
+  {
+    "id": 721439859,
+    "topicId": "oral-surgery",
+    "question": "A 30-year-old female patient reports persistent numbness and altered taste sensation on the left side of her tongue immediately following the surgical extraction of a deeply impacted mandibular third molar. Clinical examination confirms diminished sensation in the distribution of the lingual nerve. What is the MOST appropriate immediate management?",
+    "options": [
+      "Reassure the patient and monitor for spontaneous recovery for 2-4 weeks.",
+      "Initiate a course of corticosteroids to reduce inflammation and nerve compression.",
+      "Refer immediately to an oral and maxillofacial surgeon for microsurgical repair.",
+      "Prescribe vitamin B complex supplements to promote nerve regeneration."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lingual nerve paresthesia following third molar extraction typically has a high rate of spontaneous recovery, so the most appropriate immediate management is reassurance and monitoring for 2-4 weeks, or up to 6 months. Surgical intervention (C) is typically considered only after 3-6 months if there is no sign of recovery. Corticosteroids (B) and vitamin B complex (D) have not been consistently shown to improve outcomes for traumatic nerve injuries of this nature."
+  },
+  {
+    "id": 703682049,
+    "topicId": "oral-surgery",
+    "question": "A 65-year-old edentulous patient requires new complete dentures. Clinical examination reveals irregular, sharp alveolar ridges in both the maxilla and mandible, which would interfere with denture stability and cause pain. What is the MOST appropriate pre-prosthetic surgical procedure to address this issue?",
+    "options": [
+      "Frenectomy",
+      "Alveoloplasty",
+      "Vestibuloplasty",
+      "Exostosis removal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Alveoloplasty is the most appropriate pre-prosthetic surgical procedure to recontour and smooth irregular or sharp alveolar ridges, creating a more favorable foundation for denture stability and comfort. A frenectomy (A) addresses abnormal frenum attachments, while a vestibuloplasty (C) aims to increase the vestibular depth, neither of which directly addresses ridge irregularities. Exostosis removal (D) is specific to bony prominences like tori, not generalized irregular ridges."
+  },
+  {
+    "id": 709686246,
+    "topicId": "oral-surgery",
+    "question": "A 50-year-old male patient presents with sudden onset of pain and mobility of his right mandibular body after biting into a piece of bread. He has a history of a large, long-standing radiolucency in the area, diagnosed previously as an odontogenic keratocyst. Clinical examination reveals crepitus and gross mobility of the right mandibular body. What is the MOST appropriate immediate management?",
+    "options": [
+      "Prescribe antibiotics and pain medication and monitor for signs of infection.",
+      "Extract any teeth in the fracture line and observe.",
+      "Immobilize the mandible using an arch bar and intermaxillary fixation, then plan for surgical exploration and definitive treatment.",
+      "Refer to an orthodontist for bite adjustment."
+    ],
+    "correctAnswer": 2,
+    "explanation": "This patient presents with a pathological fracture of the mandible, likely due to the pre-existing odontogenic keratocyst, which requires immediate immobilization of the mandible to stabilize the fracture. This is typically achieved with arch bars and intermaxillary fixation, followed by surgical exploration and definitive treatment of both the fracture and the underlying pathology (cyst removal). Prescribing antibiotics and pain medication (A) is insufficient. Extracting teeth in the fracture line (B) may be part of definitive treatment but not the immediate priority for stabilization. Referral to an orthodontist (D) is entirely inappropriate for a fracture."
+  },
+  {
+    "id": 748765437,
+    "topicId": "oral-surgery",
+    "question": "A 45-year-old female patient has been undergoing conservative management for chronic temporomandibular joint (TMJ) pain, clicking, and restricted mouth opening for over two years. Despite splint therapy, physical therapy, and medication, her symptoms persist, significantly impacting her quality of life. Imaging reveals anterior disc displacement without reduction. What is the MOST appropriate next step in her management?",
+    "options": [
+      "Refer for a different type of occlusal splint.",
+      "Prescribe a stronger muscle relaxant.",
+      "Recommend a soft diet indefinitely.",
+      "Consider surgical intervention such as arthroscopy or open joint surgery."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For chronic temporomandibular joint (TMJ) disorders that have failed extensive conservative management and significantly impair quality of life, surgical intervention, such as arthroscopy or open joint surgery (arthroplasty), may be considered to address underlying anatomical derangements like anterior disc displacement. Trying a different splint (A) or stronger muscle relaxants (B) would be a continuation of failed conservative therapy. Recommending a soft diet indefinitely (C) is a palliative measure and does not address the underlying problem or provide definitive relief."
+  },
+  {
+    "id": 178415197,
+    "topicId": "oral-surgery",
+    "question": "A 72-year-old male patient with a history of poorly controlled Type 2 Diabetes Mellitus (HbA1c 9.5%) presents with a painful, rapidly progressing cellulitis involving the submandibular and sublingual spaces, causing difficulty in swallowing and breathing. Clinical examination reveals a firm, brawny induration of the floor of the mouth and neck, with crepitus. His temperature is 39.2°C. What is the MOST appropriate initial management?",
+    "options": [
+      "Prescribe broad-spectrum oral antibiotics and monitor closely.",
+      "Immediate hospitalization for intravenous antibiotics and airway management.",
+      "Incision and drainage of the abscess and prescription of oral antibiotics.",
+      "Referral to an oral and maxillofacial surgeon for elective surgical removal of the suspected odontogenic source."
+    ],
+    "correctAnswer": 1,
+    "explanation": "This clinical presentation is highly suggestive of Ludwig's Angina, a severe and rapidly progressive cellulitis of the floor of the mouth that can quickly compromise the airway. Immediate hospitalization for aggressive intravenous antibiotic therapy and securing the airway is paramount. Oral antibiotics are inadequate for such a severe infection, and incision and drainage or source removal are secondary to establishing a patent airway and controlling the spread of infection."
+  },
+  {
+    "id": 265140988,
+    "topicId": "oral-surgery",
+    "question": "A 28-year-old female patient reports persistent tingling and altered sensation in her lower lip and chin on the right side, immediately following the surgical extraction of an impacted mandibular third molar. Clinical examination confirms sensory deficit in the distribution of the mental nerve. What is the MOST appropriate immediate next step?",
+    "options": [
+      "Reassure the patient that sensation will spontaneously return within a few weeks.",
+      "Initiate a course of corticosteroids and B vitamins.",
+      "Immediately refer to an oral and maxillofacial surgeon for neurological assessment and potential intervention.",
+      "Prescribe gabapentin to manage the neuropathic pain."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Persistent paresthesia or altered sensation following third molar extraction, particularly if noted immediately post-op, warrants an immediate referral to an oral and maxillofacial surgeon for a comprehensive neurological assessment. While spontaneous recovery is possible, early evaluation is crucial to determine the extent of nerve injury and to consider potential time-sensitive interventions. Reassurance alone without assessment is insufficient, and supportive therapies like corticosteroids or gabapentin should only be considered after a thorough diagnosis."
+  },
+  {
+    "id": 254789612,
+    "topicId": "oral-surgery",
+    "question": "A 48-year-old male patient on rivaroxaban for atrial fibrillation requires the extraction of a non-restorable mandibular second premolar. His last rivaroxaban dose was 12 hours ago. He has no other significant medical history. What is the MOST appropriate management strategy regarding his anticoagulant medication?",
+    "options": [
+      "Perform the extraction without discontinuing rivaroxaban, employing local hemostatic measures.",
+      "Discontinue rivaroxaban for 3 days prior to the extraction.",
+      "Administer Vitamin K prior to the extraction to reverse the anticoagulant effect.",
+      "Delay the extraction and refer the patient to his cardiologist for an alternative anticoagulant."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For patients on direct oral anticoagulants (DOACs) like rivaroxaban undergoing minor oral surgical procedures, the current NDEB and medical guidelines generally recommend continuing the medication and utilizing local hemostatic measures. Interrupting rivaroxaban significantly increases the risk of thromboembolic events such as stroke. Vitamin K is not an antidote for rivaroxaban, and referral for alternative anticoagulation is typically unnecessary for minor procedures."
+  },
+  {
+    "id": 746020523,
+    "topicId": "oral-surgery",
+    "question": "Which of the following biopsy techniques is MOST appropriate for a 1.5 cm, erythematous, irregular lesion with areas of white striae on the buccal mucosa, highly suspicious for squamous cell carcinoma?",
+    "options": [
+      "Incisional biopsy",
+      "Excisional biopsy",
+      "Brush biopsy",
+      "Fine Needle Aspiration (FNA)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An incisional biopsy is the most appropriate technique for a large (1.5 cm), suspicious lesion, as it allows for a representative sample to be taken without the morbidity of a complete excision, which would be reserved for smaller or less suspicious lesions. Brush biopsy is primarily a screening tool and not diagnostic for highly suspicious lesions, while Fine Needle Aspiration is used for deep-seated lesions or lymph nodes, not superficial mucosal lesions."
+  },
+  {
+    "id": 810924825,
+    "topicId": "oral-surgery",
+    "question": "A 50-year-old male patient undergoes extraction of a carious maxillary first molar. Immediately after extraction, a communication between the oral cavity and the maxillary sinus is noted, measuring approximately 3 mm in diameter. Air can be heard passing through the socket upon nasal exhalation. What is the MOST appropriate immediate management?",
+    "options": [
+      "Immediate surgical closure with a buccal advancement flap.",
+      "Place a resorbable gelatin sponge into the socket and suture the gingival margins across the opening.",
+      "Prescribe a broad-spectrum antibiotic and advise the patient on sinus precautions.",
+      "Refer to an Oral and Maxillofacial Surgeon for definitive management."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For small oroantral communications (typically ≤ 5 mm), conservative management involving placement of a resorbable gelatin sponge into the socket and suturing the gingival margins over it is often sufficient to promote healing. Immediate surgical closure with a buccal advancement flap (A) is generally reserved for larger communications (>5 mm) or those that fail conservative treatment, and while prescribing broad-spectrum antibiotics and advising sinus precautions (C) are essential adjunctive measures, they do not represent the primary method of physically closing the communication. Referral to an OMFS (D) is typically indicated for larger defects, persistent communications, or when the general practitioner lacks experience or comfort with the procedure."
   }
 ]
