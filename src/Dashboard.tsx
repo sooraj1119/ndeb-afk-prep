@@ -438,7 +438,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
                 <div className="stats-row" style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.25rem', flexWrap: 'nowrap' }}>
                   <span translate="no" style={{ fontSize: 'clamp(0.65rem, 3vw, 0.75rem)', color: 'var(--text-secondary)', fontWeight: 500, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                      {hasAttempted ? `${attemptedCount} / ${topicProg.totalQuestions}` : '0'}
+                      {hasAttempted ? `${attemptedCount} / ${topicProg.totalQuestions}` : (topic.count || 0)}
                     </span>
                   {hasAttempted && !topicProg.isFinished && topicProg.currentIndex > 0 && (
                     <span className="completed-badge" style={{ flexShrink: 0, fontSize: 'clamp(0.55rem, 2vw, 0.6rem)', background: 'var(--surface-hover)', color: 'var(--text-secondary)', padding: '0.15rem 0.35rem', borderRadius: '4px', fontWeight: 700 }}>Active</span>
