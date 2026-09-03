@@ -400,7 +400,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
           style={{ background: 'linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(217, 119, 6, 0.1) 100%)', border: '1px solid rgba(245, 158, 11, 0.3)', padding: '0.8rem 1rem', borderRadius: 'var(--radius-md)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', cursor: 'pointer', flexWrap: 'wrap', gap: '0.5rem' }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#d97706', fontSize: '0.9rem', fontWeight: 600 }}>
-            <span>Free Tier Preview: Viewing {topicQuestions.length}/{totalAvailable} questions.</span>
+            <span translate="no">Free Tier Preview: Viewing {topicQuestions.length}/{totalAvailable} questions.</span>
           </div>
           <button 
             onClick={(e) => { e.stopPropagation(); setShowPaywall(true); }}

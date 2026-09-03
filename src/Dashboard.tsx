@@ -427,7 +427,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', marginTop: '0.1rem' }}>
                   <div style={{ fontWeight: 800, color: hasAttempted && attemptedCount > 0 ? 'var(--accent-color)' : 'var(--text-secondary)', fontSize: '0.85rem' }}>
-                    {hasAttempted && attemptedCount > 0 ? `${accuracy}%` : '--'}
+                    {hasAttempted && attemptedCount > 0 ? <span translate="no">{accuracy}%</span> : '--'}
                   </div>
                   <div style={{ fontSize: '0.6rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 700 }}>
                     ACC

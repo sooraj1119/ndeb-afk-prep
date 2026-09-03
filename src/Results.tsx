@@ -25,7 +25,7 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
     }
   }, [isPremium]);
 
-  const percentage = Math.round((score / total) * 100);
+  const percentage = total > 0 ? Math.round((score / total) * 100) : 0;
   
   let message = "";
   if (percentage >= 90) message = "Exceptional work! You are more than ready.";
@@ -39,7 +39,7 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
         const b = breakdown[topicId];
         return {
           name: name.length > 20 ? name.substring(0, 20) + '...' : name,
-          score: Math.round((b.correct / b.total) * 100)
+          score: b.total > 0 ? Math.round((b.correct / b.total) * 100) : 0
         };
       }).sort((a, b) => b.score - a.score)
     : [];
@@ -71,10 +71,10 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
 
         <div style={{ background: 'var(--surface-color)', padding: '2rem', borderRadius: 'var(--radius-lg)', width: '100%', maxWidth: '400px', border: '1px solid var(--border-color)' }}>
           <div style={{ fontSize: '3.5rem', fontWeight: '800', color: 'var(--accent-color)', lineHeight: '1', letterSpacing: '-0.05em' }}>
-            {percentage}%
-          </div>
+            <span translate="no">{percentage}</span>%
+            </div>
           <div style={{ color: 'var(--text-secondary)', marginTop: '0.5rem', fontSize: '1.1rem', fontWeight: 500 }}>
-            {score} out of {total} correct
+            <span translate="no">{score}</span> out of <span translate="no">{total}</span> correct
           </div>
         </div>
 
