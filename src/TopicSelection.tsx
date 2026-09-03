@@ -223,7 +223,7 @@ export function TopicSelection({ onSelect }: Props) {
               
               <div className="stats-row" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)', fontSize: '0.75rem' }}>
                 <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-                  <LibraryBig size={14} /> <span>{topicCount}</span> Questions
+                  <LibraryBig size={14} /> <span translate="no">{topicCount}</span> Questions
                 </span>
                 {progress && progress.currentIndex > 0 && !progress.isFinished && (
                   <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#eab308' }}>
@@ -236,7 +236,7 @@ export function TopicSelection({ onSelect }: Props) {
                 <div style={{ marginTop: '1.5rem' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 600 }}>
                     <span style={{ color: 'var(--text-secondary)' }}>Best Score</span>
-                    <span style={{ color: 'var(--accent-color)' }}>{Math.round((progress.highestScore / progress.totalQuestions) * 100) || 0}%</span>
+                    <span translate="no" style={{ color: 'var(--accent-color)' }}>{Math.round((progress.highestScore / progress.totalQuestions) * 100) || 0}%</span>
                   </div>
                   <div style={{ width: '100%', height: '6px', background: 'var(--border-color)', borderRadius: '3px', overflow: 'hidden' }}>
                     <div style={{ 
