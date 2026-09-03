@@ -118,7 +118,7 @@ export function QuestionCard({
                     alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', flexShrink: 0,
                     fontSize: '0.95rem'
                   }}>
-                    {String.fromCharCode(65 + idx)}
+                    <span translate="no">{String.fromCharCode(65 + idx)}</span>
                   </div>
                   <span style={{ lineHeight: '1.4' }}>{option}</span>
                 </button>
