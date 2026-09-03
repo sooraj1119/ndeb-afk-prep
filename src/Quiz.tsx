@@ -37,18 +37,20 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
   const [isFlagged, setIsFlagged] = useState(false);
   const [initialized, setInitialized] = useState(false);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+  const cancelAudioRef = useRef(false);
 
+  
   const stopSpeech = async () => {
+    cancelAudioRef.current = true;
     try {
       if (Capacitor.isNativePlatform()) {
         await TextToSpeech.stop();
       } else {
-        stopSpeech();
+        if (window.speechSynthesis) window.speechSynthesis.cancel();
       }
     } catch (e) {}
   };
-
-  const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
+const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
   const [isShuffled, setIsShuffled] = useState(false);
   const [showPaywall, setShowPaywall] = useState(false);
   
@@ -273,37 +275,58 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
       return; 
     }
     
+    cancelAudioRef.current = false;
     setIsPlayingAudio(true);
     
     const el = document.getElementById(elementId);
     let textToRead = el?.innerText || fallbackText;
+    
+    // Cleanup the text slightly for better TTS parsing
+    textToRead = textToRead.replace(/([A-D])\s/g, "$1. "); 
+    
+    // Chunk the text into sentences to bypass Android's 5-10 second engine delay
+    // This feeds the engine small chunks so it starts speaking instantly
+    const chunks = textToRead.match(/[^.!?\n]+[.!?\n]+/g) || [textToRead];
+    
     const isFrench = document.cookie.includes('googtrans=/en/fr');
     const lang = isFrench ? 'fr-FR' : 'en-US';
 
     if (Capacitor.isNativePlatform()) {
       try {
-        await TextToSpeech.speak({
-          text: textToRead,
-          lang: lang,
-          rate: 1.0,
-          pitch: 1.0,
-          category: 'playback'
-        });
-        setIsPlayingAudio(false);
+        for (let i = 0; i < chunks.length; i++) {
+          if (cancelAudioRef.current) break;
+          await TextToSpeech.speak({
+            text: chunks[i].trim(),
+            lang: lang,
+            rate: 1.0,
+            pitch: 1.0,
+            category: 'playback'
+          });
+        }
       } catch (e) {
         console.error("TTS Native Error", e);
-        setIsPlayingAudio(false);
       }
+      setIsPlayingAudio(false);
     } else {
       if (!window.speechSynthesis) {
         setIsPlayingAudio(false);
         return;
       }
-      const utterance = new SpeechSynthesisUtterance(textToRead);
-      utterance.lang = lang;
-      utterance.onend = () => setIsPlayingAudio(false);
-      utterance.onerror = () => setIsPlayingAudio(false);
-      window.speechSynthesis.speak(utterance);
+      
+      const playChunk = (index: number) => {
+        if (cancelAudioRef.current || index >= chunks.length) {
+          setIsPlayingAudio(false);
+          return;
+        }
+        
+        const utterance = new SpeechSynthesisUtterance(chunks[index].trim());
+        utterance.lang = lang;
+        utterance.onend = () => playChunk(index + 1);
+        utterance.onerror = () => setIsPlayingAudio(false);
+        window.speechSynthesis.speak(utterance);
+      };
+      
+      playChunk(0);
     }
   };
 
