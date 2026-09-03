@@ -220,7 +220,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           {examDate ? (
             <div style={{ background: 'white', borderRadius: '12px', padding: '1.5rem', display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', marginTop: '0.5rem' }}>
               <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#16a34a', lineHeight: 1 }}>{dailyQuota}</div>
+                <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#16a34a', lineHeight: 1 }}><span translate="no">{dailyQuota}</span></div>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Questions / Day</div>
               </div>
               <div style={{ height: '50px', width: '1px', background: '#e5e7eb', display: typeof window !== 'undefined' && window.innerWidth > 500 ? 'block' : 'none' }} />
@@ -230,7 +230,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
               </div>
               <div style={{ height: '50px', width: '1px', background: '#e5e7eb', display: typeof window !== 'undefined' && window.innerWidth > 500 ? 'block' : 'none' }} />
               <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#f59e0b', lineHeight: 1 }}>{totalBankQuestions - answeredSoFar}</div>
+                <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#f59e0b', lineHeight: 1 }}><span translate="no">{totalBankQuestions - answeredSoFar}</span></div>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Remaining in Bank</div>
               </div>
             </div>
@@ -249,7 +249,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
             <Trophy size={24} />
           </div>
           <div>
-            <div style={{ fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}>{averageAccuracy}%</div>
+            <div style={{ fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}><span translate="no">{averageAccuracy}</span>%</div>
             <div style={{ color: 'var(--text-secondary)', fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Avg Accuracy</div>
           </div>
         </div>
@@ -260,7 +260,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
             <Target size={24} />
           </div>
           <div>
-            <div style={{ fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}>{completionPercentage}%</div>
+            <div style={{ fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}><span translate="no">{completionPercentage}</span>%</div>
             <div style={{ color: 'var(--text-secondary)', fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Bank Completed</div>
           </div>
         </div>
@@ -271,7 +271,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
             <BookOpen size={24} />
           </div>
           <div>
-            <div style={{ fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}>{totalAttemptedQuestions} / {totalQuestionsAvailable}</div>
+            <div style={{ fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}><span translate="no">{totalAttemptedQuestions} / {totalQuestionsAvailable}</span></div>
             <div style={{ color: 'var(--text-secondary)', fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Questions Attempted</div>
           </div>
         </div>
@@ -330,7 +330,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           </div>
           <div>
             <h3 style={{ margin: '0 0 0.5rem 0', fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', color: 'var(--text-primary)' }}>Review Flagged Questions</h3>
-            <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong>{flaggedCount}</strong> questions saved for review.</p>
+            <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong translate="no">{flaggedCount}</strong> questions saved for review.</p>
           </div>
         </div>
         <button 
@@ -352,7 +352,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
             </div>
             <div>
               <h3 style={{ margin: '0 0 0.5rem 0', fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', color: 'var(--text-primary)' }}>Weakness Drilling</h3>
-              <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong>{mistakesCount}</strong> past mistakes to conquer.</p>
+              <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong translate="no">{mistakesCount}</strong> past mistakes to conquer.</p>
             </div>
           </div>
           <button 

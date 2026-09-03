@@ -55,7 +55,7 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
           </div>
           <div>
             <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.5rem', color: 'var(--text-primary)' }}>Review Mistakes</h3>
-            <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong>{mistakes.length}</strong> incorrect answers to review.</p>
+            <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong translate="no">{mistakes.length}</strong> incorrect answers to review.</p>
           </div>
         </div>
         <button 
@@ -89,7 +89,7 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
               </div>
               
               <h4 style={{ margin: '0 0 1rem 0', color: 'var(--text-primary)', fontSize: '1.1rem', lineHeight: '1.5' }}>
-                {idx + 1}. {q.question}
+                <span translate="no">{idx + 1}</span>. {q.question}
               </h4>
               
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '1rem' }}>

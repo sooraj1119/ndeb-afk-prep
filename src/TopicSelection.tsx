@@ -104,9 +104,9 @@ export function TopicSelection({ onSelect }: Props) {
             <div>
               <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: '0 0 0.5rem 0', fontWeight: 700 }}>Daily Review (Spaced Repetition)</h3>
               <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>
-                {dueReviewCount > 0 
-                  ? `You have ${dueReviewCount} questions due for review today.` 
-                  : "You're all caught up for today!"}
+                {dueReviewCount > 0 ? (
+                    <>You have <span translate="no">{dueReviewCount}</span> questions due for review today.</>
+                  ) : "You're all caught up for today!"}
               </p>
             </div>
           </div>
