@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import splashImg from './assets/splash.jpg';
 
 import { TopicSelection } from './TopicSelection';
 
@@ -311,25 +312,21 @@ function App() {
 
 
 
-  if (!questionsLoaded) {
-
-    return (
-
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', backgroundColor: 'var(--bg-main)' }}>
-
-        <div style={{ width: '40px', height: '40px', border: '4px solid rgba(2, 132, 199, 0.2)', borderTop: '4px solid var(--accent-color)', borderRadius: '50%', animation: 'spin 1s linear infinite' }}></div>
-
-        <style>{`@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }`}</style>
-
-        <h2 style={{ marginTop: '1.5rem', color: 'var(--text-primary)', fontWeight: 600 }}>Downloading Database...</h2>
-
-        <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginTop: '0.5rem', maxWidth: '300px', textAlign: 'center' }}>Loading 6,400+ NDEB questions. This may take a few seconds on your first visit.</p>
-
-      </div>
-
-    );
-
-  }
+      if (!questionsLoaded) {
+      return (
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', backgroundColor: '#ffffff' }}>
+          <img src={splashImg} alt="NDEB AFK PREP PRO" style={{ width: '100%', maxWidth: '400px', objectFit: 'contain', padding: '1.5rem', animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' }} />
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '1rem' }}>
+            <div style={{ width: '30px', height: '30px', border: '3px solid rgba(2, 132, 199, 0.2)', borderTop: '3px solid #0f172a', borderRadius: '50%', animation: 'spin 1s linear infinite' }}></div>
+            <style>{`
+              @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+              @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.8; } }
+            `}</style>
+            <p style={{ color: '#64748b', fontSize: '0.85rem', marginTop: '1rem', fontWeight: 600, letterSpacing: '0.05em' }}>LOADING...</p>
+          </div>
+        </div>
+      );
+    }
 
 
 
