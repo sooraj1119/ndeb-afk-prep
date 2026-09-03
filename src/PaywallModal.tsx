@@ -163,11 +163,11 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                       opacity: purchasing !== null && purchasing !== pkg.identifier ? 0.5 : 1
                     }}
                   >
-                    <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                      <span>{pkg.product.title}</span>
-                      <span style={{ fontSize: '0.8rem', fontWeight: 400, opacity: 0.9 }}>{pkg.product.description}</span>
+                    <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', flex: 1, textAlign: 'left', paddingRight: '0.75rem' }}>
+                      <span style={{ lineHeight: 1.2, marginBottom: '0.2rem' }}>{pkg.product.title}</span>
+                      <span style={{ fontSize: '0.8rem', fontWeight: 400, opacity: 0.9, lineHeight: 1.2 }}>{pkg.product.description}</span>
                     </span>
-                    <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right' }}>
                       {pkg.product.priceString}
                       {purchasing === pkg.identifier ? <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 1, ease: 'linear' }}><Loader2 size={18} /></motion.div> : <Crown size={18} />}
                     </span>
