@@ -1,5 +1,6 @@
 // Lazy-load questions per topic — avoids downloading 5MB on mobile data
 const cache: Record<string, any[]> = {};
+let manifestCache: { id: string; count: number }[] | null = null;
 
 export const loadTopicQuestions = async (topicId: string): Promise<any[]> => {
   if (cache[topicId]) return cache[topicId];
@@ -11,11 +12,18 @@ export const loadTopicQuestions = async (topicId: string): Promise<any[]> => {
 };
 
 export const loadAllQuestions = async (): Promise<void> => {
-  const res = await fetch(import.meta.env.BASE_URL + "questions/manifest.json");
-  const manifest = await res.json();
-  for (const t of manifest) {
-    await loadTopicQuestions(t.id);
+  if (manifestCache) return;
+  try {
+    const res = await fetch(import.meta.env.BASE_URL + "questions/manifest.json");
+    manifestCache = await res.json();
+  } catch (e) {
+    console.error("Failed to load manifest", e);
   }
+};
+
+export const getTotalQuestionCount = (): number => {
+  if (!manifestCache) return 7500;
+  return manifestCache.reduce((acc, t) => acc + (t.count || 0), 0);
 };
 
 export const getQuestions = (): any[] => {

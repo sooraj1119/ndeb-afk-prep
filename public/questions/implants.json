@@ -5354,5 +5354,1149 @@
     ],
     "correctAnswer": 3,
     "explanation": "Conical (Morse taper) connections provide a tight, friction-fit interface that offers superior resistance to rotational forces and minimizes the microgap between the implant and abutment. This reduction in microgap helps prevent bacterial leakage and enhances the long-term stability and health of the peri-implant tissues. External, internal hexagon, and octagonal connections, while common, typically have a greater microgap and less inherent rotational stability compared to a true conical connection."
+  },
+  {
+    "id": 696465525,
+    "topicId": "implants",
+    "question": "A 60-year-old female patient presents for implant placement in the posterior maxilla. Clinical and radiographic evaluation reveals insufficient bone height (6mm) apical to the maxillary sinus floor for a standard implant. The width is adequate. She is otherwise healthy. What is the MOST appropriate bone augmentation procedure for this site?",
+    "options": [
+      "Onlay block graft",
+      "Guided bone regeneration with a particulate graft",
+      "Ridge split procedure",
+      "Lateral window sinus augmentation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For insufficient bone height in the posterior maxilla due to sinus pneumatization, a lateral window sinus augmentation is the most appropriate and predictable procedure to gain vertical bone. Onlay block grafts are typically used for larger horizontal or vertical defects where the sinus is not the primary concern. Guided bone regeneration with particulate graft is suitable for smaller defects, while a ridge split procedure addresses inadequate ridge width, not height."
+  },
+  {
+    "id": 333471788,
+    "topicId": "implants",
+    "question": "A 45-year-old male patient presents with a 3-month-old implant in the mandibular right first molar position. Radiographic examination shows a radiolucent line surrounding the entire implant body, which extends from the crestal bone to the apex. The implant exhibits significant mobility. There is no pain or signs of infection. What is the MOST likely diagnosis?",
+    "options": [
+      "Fibrous encapsulation",
+      "Early implant overload",
+      "Peri-implantitis",
+      "Implant fracture"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The radiographic finding of a complete radiolucent line around a mobile implant, without signs of pain or infection, is characteristic of fibrous encapsulation, indicating a failure of osseointegration. Peri-implantitis typically involves bone loss, inflammation, and often pus or pain, but not a uniform radiolucent line around the entire implant body. Early implant overload can contribute to failure but usually presents with crestal bone loss and mobility, not a complete radiolucent halo, and an implant fracture would appear as a distinct break in the implant body."
+  },
+  {
+    "id": 391462506,
+    "topicId": "implants",
+    "question": "Which cell type is primarily responsible for the *initial* deposition of woven bone directly onto the implant surface during the early stages of osseointegration?",
+    "options": [
+      "Osteocytes",
+      "Osteoblasts",
+      "Osteoclasts",
+      "Fibroblasts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Osteoblasts are the cells responsible for synthesizing and depositing new bone matrix, including the initial woven bone that forms directly onto the implant surface during primary osseointegration. Osteocytes are mature bone cells embedded within the matrix and do not perform initial deposition. Osteoclasts are responsible for bone resorption, and fibroblasts form soft connective tissue, which impedes osseointegration if present at the implant interface."
+  },
+  {
+    "id": 875189401,
+    "topicId": "implants",
+    "question": "A 55-year-old female patient receives an implant-supported single crown in the maxillary central incisor region. To achieve optimal esthetics and maintain papilla height, the implant was placed slightly subcrestally. What type of soft tissue management technique is MOST appropriate to ensure stable peri-implant soft tissue architecture in the long term for this esthetic site?",
+    "options": [
+      "Connective tissue graft",
+      "Apically positioned flap",
+      "Free gingival graft",
+      "Pedicle flap"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A connective tissue graft is considered the gold standard for augmenting soft tissue volume, improving tissue contour, and maintaining papilla height, which are crucial for optimal esthetics around implants in the maxillary anterior region. An apically positioned flap is primarily used to increase the width of keratinized tissue, not for volume or papilla. A free gingival graft also aims to increase keratinized tissue but often results in a color mismatch and is less effective for volume. Pedicle flaps are used for root coverage or localized soft tissue augmentation but are generally not the first choice for broad volumetric and papilla enhancement around implants."
+  },
+  {
+    "id": 427821625,
+    "topicId": "implants",
+    "question": "Which specific implant surface modification involves a high-voltage anodic spark treatment in an electrolyte solution, leading to a porous titanium oxide layer with incorporated elements from the electrolyte?",
+    "options": [
+      "Sandblasting with large grit and acid etching (SLA)",
+      "Hydroxyapatite (HA) coating",
+      "Plasma spraying",
+      "Anodic oxidation (e.g., TiUnite)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Anodic oxidation is a process that uses an electrical current to create a thicker, porous titanium oxide layer on the implant surface, often incorporating elements like phosphorus from the electrolyte to enhance osseointegration. Sandblasting with large grit and acid etching (SLA) is a subtractive method creating a roughened surface through mechanical and chemical means. Hydroxyapatite (HA) coating and plasma spraying are additive methods where a layer of material is applied to the implant surface."
+  },
+  {
+    "id": 831031840,
+    "topicId": "implants",
+    "question": "A 70-year-old male patient, a well-controlled Type 2 diabetic, is planned for an implant-supported overdenture in the mandible. His HbA1c is 6.8%. He takes metformin daily. What is the MOST appropriate loading protocol consideration for this patient's mandibular implants?",
+    "options": [
+      "Immediate loading due to the patient's age.",
+      "Early loading (1-2 months) due to improved implant surfaces.",
+      "Conventional delayed loading (3-6 months) to ensure adequate osseointegration.",
+      "Progressive loading with a temporary denture for 6-9 months."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Even with well-controlled diabetes (HbA1c <7%), patients are generally considered to have a slightly compromised healing capacity compared to healthy individuals. Therefore, a conventional delayed loading protocol (3-6 months) is the most prudent approach to ensure complete osseointegration and reduce the risk of early implant failure. Immediate loading is generally contraindicated in diabetic patients due to potentially impaired bone healing. Early loading (1-2 months) might be considered for healthy patients with high primary stability but carries increased risk for controlled diabetics. Progressive loading is typically reserved for compromised bone quality or specific rehabilitation scenarios, not a general recommendation for controlled diabetics."
+  },
+  {
+    "id": 753798422,
+    "topicId": "implants",
+    "question": "When evaluating the long-term success of dental implants, what is the generally accepted threshold for annual crestal bone loss *after the first year of function*?",
+    "options": [
+      "Up to 0.2 mm",
+      "No measurable bone loss",
+      "Up to 0.1 mm",
+      "Up to 0.5 mm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The generally accepted threshold for annual crestal bone loss after the first year of implant function is up to 0.2 mm, following initial remodeling that typically occurs in the first year. No measurable bone loss is an unrealistic expectation for long-term implant success. Losing up to 0.1 mm annually would be ideal but is a very strict criterion. Bone loss exceeding 0.2 mm annually after the first year may indicate a potential problem such as peri-implantitis or occlusal overload."
+  },
+  {
+    "id": 115561489,
+    "topicId": "implants",
+    "question": "A 65-year-old female patient presents with a failing implant in the maxillary right first molar position that exhibits severe peri-implantitis, significant bone loss, and Class III mobility. She is medically healthy. What is the MOST appropriate initial management strategy for this implant?",
+    "options": [
+      "Non-surgical debridement and systemic antibiotics.",
+      "Surgical debridement with bone grafting.",
+      "Surgical explantation of the implant.",
+      "Placement of a new, larger diameter implant immediately after removal."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A dental implant with Class III mobility, severe peri-implantitis, and significant bone loss is considered unsalvageable and requires surgical explantation. Non-surgical debridement or surgical debridement with bone grafting are options for managing early or moderate peri-implantitis where the implant is stable and can be salvaged. Immediate placement of a new implant after removal of a severely infected, mobile implant is generally contraindicated due to the compromised recipient site."
+  },
+  {
+    "id": 494691567,
+    "topicId": "implants",
+    "question": "Which type of bone graft material is derived from another species (e.g., bovine or porcine) and typically serves as a scaffold for new bone formation rather than providing viable osteogenic cells?",
+    "options": [
+      "Autograft",
+      "Allograft",
+      "Alloplast",
+      "Xenograft"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A xenograft is a bone graft derived from a different species, such as bovine (cow) or porcine (pig), and functions primarily as an osteoconductive scaffold. Autografts are harvested from the patient's own body and are osteogenic, osteoinductive, and osteoconductive. Allografts are from the same species (human cadaver) and offer osteoconductive and potentially osteoinductive properties. Alloplasts are synthetic bone graft materials."
+  },
+  {
+    "id": 450513012,
+    "topicId": "implants",
+    "question": "A 30-year-old male patient requires an implant-supported crown for the mandibular left second premolar. Pre-surgical CBCT reveals a narrow alveolar ridge (4mm buccal-lingual width) but adequate height. The adjacent teeth are healthy. What is the MOST predictable surgical technique to achieve sufficient ridge width for implant placement in this scenario?",
+    "options": [
+      "Bone expansion (ridge split) technique",
+      "Piezoelectric osteotomy with simultaneous implant placement",
+      "Onlay block graft followed by delayed implant placement",
+      "Guided bone regeneration using a titanium mesh and particulate graft"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a narrow alveolar ridge with adequate height, the bone expansion (ridge split) technique is often the most predictable approach to gain sufficient width for implant placement, allowing for simultaneous implant insertion. Piezoelectric osteotomy is a tool, not a technique for widening, and 4mm is too narrow for direct placement without expansion. An onlay block graft is more invasive and typically used for larger defects or when the ridge split is not feasible. Guided bone regeneration with a titanium mesh is also suitable for horizontal augmentation but may be a more complex procedure compared to a ridge split for this specific scenario."
+  },
+  {
+    "id": 381432941,
+    "topicId": "implants",
+    "question": "What is the primary biological advantage of a conical implant-abutment connection (e.g., Morse taper) compared to an external hex connection?",
+    "options": [
+      "Easier abutment selection and prosthetic adjustments.",
+      "Reduced microgap and bacterial leakage.",
+      "Greater flexibility in abutment angulation.",
+      "Simpler impression procedures."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The primary biological advantage of a conical (Morse taper) implant-abutment connection is the tight friction fit, which significantly reduces the microgap between the implant and abutment. This reduction minimizes bacterial colonization and leakage, thereby contributing to healthier peri-implant soft tissues and potentially less crestal bone loss. While conical connections may offer challenges in prosthetic adjustments or impression procedures, these are not biological advantages. Easier abutment selection is not a feature of conical connections compared to external hex."
+  },
+  {
+    "id": 448006197,
+    "topicId": "implants",
+    "question": "A 50-year-old female patient presents with a 5-year-old implant-supported crown in the mandibular left first molar position. She reports a dull ache around the implant and occasional bad taste. Clinical examination reveals redness, bleeding on probing, and pus expression from the peri-implant sulcus. Radiographs show horizontal bone loss of 3mm since initial restoration, with a saucerization pattern. What is the MOST appropriate initial treatment for this condition?",
+    "options": [
+      "Surgical flap debridement, surface decontamination, and possible bone regeneration.",
+      "Prescribe systemic antibiotics and observe.",
+      "Non-surgical debridement with chlorhexidine irrigation.",
+      "Immediate implant explantation."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The clinical and radiographic findings of pus, bleeding on probing, and 3mm horizontal bone loss indicate established peri-implantitis requiring surgical intervention. Surgical flap debridement allows for thorough cleaning of the implant surface, removal of granulation tissue, and evaluation for bone regeneration. Prescribing systemic antibiotics alone or performing non-surgical debridement would be insufficient for this advanced stage of disease. Immediate implant explantation is premature unless the implant exhibits severe mobility, indicating non-salvageability."
+  },
+  {
+    "id": 595573013,
+    "topicId": "implants",
+    "question": "A 48-year-old male patient desires immediate loading for a single implant in the mandibular premolar region. Pre-surgical assessment reveals D3 bone quality. Which factor is MOST crucial to ensure successful immediate loading in this patient?",
+    "options": [
+      "Patient's oral hygiene compliance.",
+      "The implant's insertion torque.",
+      "Absence of parafunctional habits.",
+      "Selection of a platform-switched implant."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Primary implant stability, objectively measured by insertion torque (typically >30-35 Ncm), is the MOST crucial biomechanical factor for successful immediate loading. It ensures that the implant remains stable during the initial healing phase and can withstand early functional forces. While oral hygiene compliance and absence of parafunctional habits are important for long-term success, they do not directly determine the immediate loading success. Platform-switched implants offer benefits for crestal bone preservation but are not the primary determinant for successful immediate loading itself."
+  },
+  {
+    "id": 629095351,
+    "topicId": "implants",
+    "question": "A 40-year-old female patient presents with a history of bisphosphonate use (oral alendronate for 5 years) for osteoporosis. She requires a single implant in the posterior mandible. She has no signs of MRONJ. What is the MOST appropriate management strategy regarding her bisphosphonate medication prior to implant surgery?",
+    "options": [
+      "Discontinue bisphosphonates for 3 months prior to surgery.",
+      "Discontinue bisphosphonates for 9 months prior to surgery.",
+      "Continue bisphosphonates as prescribed, with informed consent.",
+      "Switch to a different anti-resorptive medication."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For patients on oral bisphosphonates for less than 5 years and without other risk factors for MRONJ, implant placement is generally considered safe, and continuation of the medication is typically recommended with appropriate informed consent. Discontinuing bisphosphonates ('drug holiday') is usually considered for patients with longer duration of therapy (>5 years) or additional risk factors, and the duration would typically be longer than 3 months. Switching to another anti-resorptive medication is not a standard dental management strategy to mitigate MRONJ risk for implant placement."
+  },
+  {
+    "id": 149311437,
+    "topicId": "implants",
+    "question": "Which type of implant macro-design feature is primarily intended to increase the bone-to-implant contact area and enhance resistance to shear forces?",
+    "options": [
+      "Straight-walled body design",
+      "Tapered body design",
+      "Wide implant diameter",
+      "Threaded body design"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The threaded body design of a dental implant is primarily responsible for increasing the functional surface area for bone-to-implant contact (BIC) and providing mechanical interlocking with the bone, which enhances resistance to shear forces. While wide implant diameter increases the overall surface area, the threads specifically maximize the interface. Straight-walled and tapered body designs primarily affect initial stability and stress distribution, but not to the same extent as threads for BIC and shear resistance."
+  },
+  {
+    "id": 669771215,
+    "topicId": "implants",
+    "question": "A 60-year-old male patient presents with a history of chronic periodontitis and multiple missing posterior teeth. He is a well-controlled smoker (5 cigarettes/day) and wishes to have implant-supported prostheses. His periodontal condition is now stable after extensive therapy. What is the MOST critical recommendation for this patient to ensure long-term implant success?",
+    "options": [
+      "Immediate implant loading.",
+      "Regular professional implant maintenance and smoking cessation.",
+      "Placement of ceramic (zirconia) implants instead of titanium.",
+      "Use of a removable implant-supported overdenture."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a patient with a history of chronic periodontitis and smoking, rigorous professional implant maintenance combined with smoking cessation is the MOST critical recommendation to prevent peri-implant diseases and ensure long-term implant success. Both periodontitis history and smoking are significant risk factors for peri-implantitis. Immediate implant loading is generally contraindicated in such high-risk patients. Ceramic implants do not have a proven superiority over titanium implants in mitigating these specific risk factors. While a removable overdenture may be an option, it is not the most critical factor for long-term success compared to controlling risk factors."
+  },
+  {
+    "id": 690446405,
+    "topicId": "implants",
+    "question": "Which anatomical structure poses the GREATEST risk for severe hemorrhage and potential airway obstruction if perforated during implant placement in the posterior mandible, particularly in the lingual concavity?",
+    "options": [
+      "Inferior alveolar artery",
+      "Mental artery",
+      "Sublingual artery",
+      "Facial artery"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The sublingual artery, often branching from the lingual artery, runs in the floor of the mouth within the lingual concavity of the posterior mandible. Perforation of this vessel during implant placement can lead to rapid and severe hemorrhage into the sublingual space, which can elevate the tongue and cause life-threatening airway obstruction. The inferior alveolar artery is within the bone and less likely to cause airway compromise. The mental artery is in the anterior mandible, and the facial artery is more superficial in the facial region, generally not at risk during lingual perforation of the posterior mandible."
+  },
+  {
+    "id": 36763796,
+    "topicId": "implants",
+    "question": "A 55-year-old female patient receives an implant in the maxillary right canine position. During impression taking for the definitive restoration, the implant impression coping rotates freely when tightened, even after thorough seating. The patient reports no pain or mobility of the implant itself. What is the MOST likely cause of this issue?",
+    "options": [
+      "The implant is experiencing early failure.",
+      "The impression coping is not fully seated into the implant body.",
+      "The internal connection of the implant is damaged.",
+      "The impression coping screw is stripped."
+    ],
+    "correctAnswer": 1,
+    "explanation": "If the implant itself is stable and the impression coping rotates freely despite tightening, the MOST likely cause is that the impression coping is not fully seated into the implant body, preventing proper engagement of the anti-rotational features. If the implant were failing, it would exhibit mobility. A damaged internal connection is possible but less common than incomplete seating. A stripped impression coping screw would prevent tightening but would not necessarily allow free rotation if the coping was otherwise seated."
+  },
+  {
+    "id": 944595370,
+    "topicId": "implants",
+    "question": "Which component of the peri-implant 'biologic width' is primarily responsible for establishing a soft tissue seal that protects the underlying osseointegrated bone from the oral environment?",
+    "options": [
+      "Junctional epithelium",
+      "Connective tissue attachment",
+      "Peri-implant sulcus",
+      "Epithelial attachment"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The junctional epithelium (JE) is the component of the peri-implant biologic width that forms a crucial soft tissue seal, adhering directly to the implant surface and acting as the primary barrier against bacterial invasion to protect the underlying bone. The connective tissue attachment provides structural support but does not form the initial seal. The peri-implant sulcus is a space, not a sealing component. 'Epithelial attachment' is a general term, but the junctional epithelium is the specific structure responsible for this sealing function around implants."
+  },
+  {
+    "id": 792469167,
+    "topicId": "implants",
+    "question": "A 35-year-old female patient presents with a non-restorable maxillary left central incisor (#21). She desires an immediate implant placement. Clinical examination reveals a healthy soft tissue profile, intact buccal plate, and adequate bone for primary stability. What is the MOST critical prosthetic consideration for a successful immediate implant placement in this esthetic zone?",
+    "options": [
+      "Selection of a wide-diameter implant to fill the extraction socket.",
+      "Fabrication of a provisional restoration that avoids occlusal contacts.",
+      "Use of a custom impression coping for final restoration.",
+      "Immediate placement of the definitive crown."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For immediate implant placement in the esthetic zone, a provisional restoration that avoids occlusal contacts is MOST critical. This ensures that the implant is not subjected to premature loading, which could jeopardize primary stability and osseointegration. A wide-diameter implant is not primarily used to fill the socket; bone grafting is often needed. While a custom impression coping is important for the final restoration, it is not critical for the immediate success of the implant placement itself. Immediate placement of the definitive crown is contraindicated as it risks disturbing the healing process and osseointegration."
+  },
+  {
+    "id": 866945135,
+    "topicId": "implants",
+    "question": "A 62-year-old male patient presents with a missing mandibular right second premolar. Clinical examination reveals adequate interocclusal space. A CBCT scan is obtained, showing a buccolingual bone width of 6mm and a vertical height of 10mm above the mental foramen. However, the available bone appears somewhat triangular in cross-section, narrowing towards the crest. What is the MOST critical dimension to consider for determining the appropriate implant diameter in this specific scenario?",
+    "options": [
+      "Mesiodistal dimension of the edentulous space",
+      "Buccolingual bone width at the crest",
+      "Vertical bone height above the mental foramen",
+      "Depth of the cortical bone plate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The buccolingual bone width at the crest is the most critical dimension for determining the appropriate implant diameter, as it directly dictates the maximum safe implant width to avoid fenestration or dehiscence. While vertical height and mesiodistal dimension are important for overall planning, an implant diameter exceeding the available crestal buccolingual width significantly risks buccal or lingual plate perforation. The depth of the cortical bone primarily affects primary stability, not the initial diameter choice."
+  },
+  {
+    "id": 927077529,
+    "topicId": "implants",
+    "question": "Which biomechanical principle is MOST effectively addressed by using an implant with a wider diameter at the crestal bone level compared to its apical portion (platform switching)?",
+    "options": [
+      "Minimizing stress concentration at the crestal bone",
+      "Enhancing initial osseointegration rate",
+      "Facilitating easier prosthetic connection",
+      "Increasing primary stability during placement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Platform switching is primarily designed to shift the implant-abutment connection medially, away from the bone, thereby reducing the stress concentration at the crestal bone and preserving marginal bone levels. While a wider crestal diameter might contribute to stability, the specific principle of platform switching is about optimal stress distribution. Enhancing osseointegration rate and facilitating prosthetic connection are not its primary biomechanical advantages."
+  },
+  {
+    "id": 608995040,
+    "topicId": "implants",
+    "question": "A 48-year-old female patient presents for a recall appointment with a 3-year-old implant-supported crown in the mandibular left first molar region. She reports no pain. Clinical examination reveals 4mm probing depths with bleeding on probing and slight suppuration around the implant. Radiographically, there is 2mm of bone loss compared to the baseline post-loading radiograph. What is the MOST appropriate initial management strategy?",
+    "options": [
+      "Prescribe a systemic antibiotic regimen",
+      "Non-surgical debridement and oral hygiene instruction",
+      "Surgical debridement with bone grafting",
+      "Immediate explantation of the implant"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The described symptoms indicate early peri-implantitis, characterized by inflammation, bone loss, and suppuration without mobility. The MOST appropriate initial management is non-surgical debridement with thorough oral hygiene instruction to control the bacterial biofilm. Systemic antibiotics are generally reserved for more severe, acute infections, and immediate explantation or surgical intervention is premature for this stage."
+  },
+  {
+    "id": 861401398,
+    "topicId": "implants",
+    "question": "Which of the following factors is MOST detrimental to the *long-term maintenance* of osseointegration, rather than its initial establishment?",
+    "options": [
+      "Systemic corticosteroid use",
+      "Inadequate primary stability",
+      "Poor surgical technique leading to overheating",
+      "Excessive occlusal forces"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Excessive occlusal forces, especially in the long term, can lead to mechanical overload, microfractures, and compromised bone remodeling around the implant, ultimately contributing to bone loss and potential implant failure. Inadequate primary stability and overheating during surgery primarily affect the initial establishment of osseointegration. Systemic corticosteroid use is a risk factor for initial healing but less directly detrimental to long-term maintenance once osseointegration is established, assuming stable health."
+  },
+  {
+    "id": 68492691,
+    "topicId": "implants",
+    "question": "A 55-year-old male patient presents with a missing maxillary left first molar. A CBCT scan reveals a residual bone height of 4mm below the sinus floor, with a buccolingual width of 7mm. The patient desires an implant-supported restoration. What is the MOST appropriate surgical approach to gain sufficient vertical bone height for implant placement?",
+    "options": [
+      "Guided bone regeneration (GBR) with a bone block graft",
+      "Alveolar distraction osteogenesis",
+      "Crestal sinus lift (osteotome technique)",
+      "Lateral window sinus augmentation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "With only 4mm of residual bone height, a lateral window sinus augmentation procedure is the most appropriate approach to reliably gain the significant vertical bone necessary for implant placement. A crestal sinus lift is typically indicated for bone heights of 5mm or more. GBR with a bone block graft is primarily for horizontal or severe vertical defects not directly involving the sinus, and distraction osteogenesis is a more complex technique often reserved for larger, specialized cases."
+  },
+  {
+    "id": 64137085,
+    "topicId": "implants",
+    "question": "A 45-year-old male patient requires a 3-unit implant-supported fixed partial denture in the posterior mandible. Two implants have been placed and are ready for impression. The implants are slightly divergent. What is the MOST appropriate impression technique to ensure accurate transfer of the implant positions?",
+    "options": [
+      "Open-tray impression with splinted impression copings",
+      "Digital intraoral scan with scan bodies",
+      "Closed-tray impression with individual impression copings",
+      "Direct impression of the abutments"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For multiple, potentially divergent implants, an open-tray impression with splinted impression copings is the MOST accurate method as it minimizes distortion during impression removal and ensures precise transfer of the implant positions. While digital scanning is an option, splinting impression copings in an open tray offers superior accuracy for divergent implants. Closed-tray impressions are generally less accurate for multiple or divergent implants, and direct abutment impressions are unsuitable for subgingival implants."
+  },
+  {
+    "id": 751208395,
+    "topicId": "implants",
+    "question": "A 30-year-old female patient requires a single implant in the maxillary right central incisor region following a traumatic avulsion. The implant achieved 45 Ncm insertion torque and excellent primary stability. The patient has high esthetic demands. What is the MOST appropriate loading protocol in this specific scenario?",
+    "options": [
+      "Conventional delayed loading (3-6 months)",
+      "Immediate non-occlusal loading",
+      "Immediate occlusal loading",
+      "Early loading (6-8 weeks)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Given the high esthetic demands, excellent primary stability (45 Ncm), and location in the anterior maxilla, immediate non-occlusal loading is the most appropriate protocol for this case. This allows for immediate esthetic improvement without placing functional stress on the implant during the critical early healing phase. Conventional delayed loading would delay esthetics, while immediate occlusal loading carries a higher risk of failure and is generally contraindicated in such cases."
+  },
+  {
+    "id": 890967035,
+    "topicId": "implants",
+    "question": "What is the primary advantage of zirconia dental implants over titanium implants, particularly in the anterior esthetic zone?",
+    "options": [
+      "Higher fracture toughness",
+      "Superior mechanical strength",
+      "Improved esthetics due to tooth-like color",
+      "Enhanced osseointegration properties"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Zirconia implants offer superior esthetics due to their tooth-like white color, which prevents the graying of soft tissues that can sometimes occur with titanium implants, especially in patients with thin biotypes in the anterior zone. Titanium generally has higher fracture toughness and mechanical strength. Both materials demonstrate excellent biocompatibility and osseointegration properties."
+  },
+  {
+    "id": 653179468,
+    "topicId": "implants",
+    "question": "A 68-year-old female patient presents for a routine recall. She has two implants supporting a fixed bridge in the posterior mandible, placed 8 years ago. Clinical examination reveals localized redness, swelling, and bleeding on probing around one implant, with probing depths of 4mm. Radiographs show no discernible bone loss compared to the last recall 2 years ago. What is the MOST likely diagnosis?",
+    "options": [
+      "Mechanical implant failure",
+      "Implant fracture",
+      "Peri-implantitis",
+      "Peri-implant mucositis"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The presence of inflammation (redness, swelling, bleeding on probing) and increased probing depths without radiographic evidence of progressive bone loss is characteristic of peri-implant mucositis. Peri-implantitis would involve both soft tissue inflammation and progressive bone loss. Mechanical implant failure or fracture would typically present with mobility or pain, which are not described."
+  },
+  {
+    "id": 856057476,
+    "topicId": "implants",
+    "question": "A 50-year-old female patient presents with a missing maxillary right first molar. A CBCT scan reveals a residual alveolar ridge height of 6mm from the crest to the floor of the maxillary sinus. The patient desires an implant-supported crown. Which anatomical landmark is the primary limiting factor for vertical implant length in this site without additional surgical intervention?",
+    "options": [
+      "Maxillary sinus floor",
+      "Pterygomaxillary fissure",
+      "Greater palatine canal",
+      "Nasopalatine canal"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The maxillary sinus floor is the primary anatomical structure limiting vertical bone height in the posterior maxilla, directly influencing the need for sinus augmentation to achieve adequate implant length. The other structures (greater palatine canal, nasopalatine canal, pterygomaxillary fissure) are important for local anesthesia or general anatomy but do not primarily dictate vertical implant length in this specific context."
+  },
+  {
+    "id": 629038436,
+    "topicId": "implants",
+    "question": "A 75-year-old male patient presents requesting implants for a full-arch restoration. His medical history includes a recent myocardial infarction (4 months ago), for which he is currently taking aspirin and clopidogrel. He also has well-controlled hypertension. What is the MOST significant concern for immediate implant placement in this patient?",
+    "options": [
+      "Well-controlled hypertension",
+      "Aspirin and clopidogrel use",
+      "Age of the patient",
+      "Recent myocardial infarction"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A recent myocardial infarction (within 6 months) is a significant relative contraindication for elective dental surgery, including implant placement, due to the increased risk of another cardiac event during surgery. While antiplatelet agents (aspirin, clopidogrel) increase bleeding risk, the cardiac event itself is a greater immediate concern requiring medical clearance and potential delay. Well-controlled hypertension and age alone are not contraindications."
+  },
+  {
+    "id": 743334146,
+    "topicId": "implants",
+    "question": "Which type of implant surface modification is characterized by the application of calcium phosphate or hydroxyapatite crystals, primarily aiming to enhance osteoconduction?",
+    "options": [
+      "Sandblasting",
+      "Plasma spraying",
+      "Anodization",
+      "Acid-etching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plasma spraying is a method used to coat implant surfaces with materials like titanium plasma spray (TPS) or hydroxyapatite (HA), creating a rough surface that enhances osteoconduction and provides a larger surface area for bone apposition. Acid-etching and sandblasting create micro-roughness, while anodization is an electrochemical process that forms a thicker oxide layer, but plasma spraying is specifically known for applying crystalline coatings like HA."
+  },
+  {
+    "id": 794279793,
+    "topicId": "implants",
+    "question": "A patient requires a single implant-supported crown in the maxillary lateral incisor region. The implant is placed at subcrestal level, and the surrounding soft tissue exhibits a thin biotype. Which type of impression coping is MOST appropriate to ensure accurate transfer of the implant position and emergence profile?",
+    "options": [
+      "Stock closed-tray coping",
+      "Custom open-tray coping",
+      "Stock open-tray coping",
+      "Direct impression of the abutment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A custom open-tray impression coping, fabricated by modifying a stock coping with acrylic or composite, is MOST appropriate for single implants in the esthetic zone, especially with a subcrestal placement and thin biotype. This allows for accurate capture of the implant position and the desired emergence profile, which is crucial for optimal esthetic outcomes. Stock copings, whether open or closed tray, are less precise for capturing complex soft tissue contours, and direct abutment impressions are only suitable for supragingival abutments."
+  },
+  {
+    "id": 236662064,
+    "topicId": "implants",
+    "question": "Which bone density classification describes a thin cortical plate and a dense trabecular core, commonly found in the anterior mandible, offering excellent primary stability for implants?",
+    "options": [
+      "Type 4",
+      "Type 1",
+      "Type 2",
+      "Type 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Type 2 bone is characterized by a thick cortical plate and a dense trabecular bone core, commonly found in the anterior mandible, which provides excellent conditions for high primary stability and osseointegration. Type 1 is mostly dense cortical bone, Type 3 has a thin cortical plate and fine trabecular bone, and Type 4 has a very thin cortical plate and low-density trabecular bone."
+  },
+  {
+    "id": 239536618,
+    "topicId": "implants",
+    "question": "A 52-year-old male patient presents with a 4-year-old implant-supported single crown in the mandibular first molar region. He reports a feeling of looseness and slight discomfort when chewing on that side. Clinical examination reveals no signs of peri-implant inflammation or mobility of the implant body itself, but the crown feels slightly loose. What is the MOST probable cause of these symptoms?",
+    "options": [
+      "Peri-implantitis",
+      "Implant fracture",
+      "Abutment or prosthetic screw loosening",
+      "Loss of osseointegration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The symptoms of looseness and discomfort without implant body mobility or inflammation, but with a loose-feeling crown, are highly indicative of abutment or prosthetic screw loosening. Implant fracture or loss of osseointegration would typically involve implant mobility, while peri-implantitis would present with clear signs of inflammation and progressive bone loss."
+  },
+  {
+    "id": 362384124,
+    "topicId": "implants",
+    "question": "Compared to natural teeth, the connective tissue attachment around dental implants differs primarily by lacking which key histological feature?",
+    "options": [
+      "Sharpey's fibers",
+      "Blood vessels",
+      "Collagen fibers",
+      "Fibroblasts"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The connective tissue attachment around implants differs from natural teeth by lacking Sharpey's fibers, which are collagen fibers that insert into the cementum of natural teeth, creating a strong mechanical connection. Around implants, the connective tissue fibers run parallel or circular to the implant surface, forming a less robust mechanical seal. Collagen fibers, fibroblasts, and blood vessels are present in both peri-implant and periodontal tissues."
+  },
+  {
+    "id": 676418280,
+    "topicId": "implants",
+    "question": "A 40-year-old male patient presents with a missing mandibular right first molar. Clinical and radiographic evaluation (CBCT) reveals a knife-edge ridge with a buccolingual width of 3mm, but adequate vertical bone height. He desires an implant. What is the MOST appropriate surgical technique to address the bone deficiency prior to or concurrent with implant placement?",
+    "options": [
+      "Vertical guided bone regeneration",
+      "Horizontal guided bone regeneration",
+      "Distraction osteogenesis",
+      "Sinus augmentation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a knife-edge ridge with adequate vertical bone but insufficient buccolingual width, horizontal guided bone regeneration (GBR) is the MOST appropriate technique to widen the ridge and allow for implant placement. Sinus augmentation is for vertical bone loss in the maxilla. Vertical GBR is for vertical height deficiencies, and distraction osteogenesis is typically reserved for larger, more complex deficiencies."
+  },
+  {
+    "id": 636861243,
+    "topicId": "implants",
+    "question": "During implant placement in the posterior mandible, what is the MOST common nerve injury encountered, and which specific symptom is characteristic of its damage?",
+    "options": [
+      "Inferior alveolar nerve; anesthesia or paresthesia of lower lip and chin",
+      "Facial nerve; facial muscle weakness",
+      "Mental nerve; paralysis of lower lip",
+      "Lingual nerve; altered taste sensation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The inferior alveolar nerve (IAN) is the MOST common nerve at risk during implant placement in the posterior mandible, with damage leading to anesthesia or paresthesia of the ipsilateral lower lip and chin. While the mental nerve is a terminal branch of the IAN, damage to the main trunk within the canal is more commonly reported. Lingual nerve injury can cause altered taste but is less frequent, and facial nerve injury is rare in this context."
+  },
+  {
+    "id": 494737558,
+    "topicId": "implants",
+    "question": "A 60-year-old female patient has a full-arch implant-supported fixed prosthesis in the mandible, placed 5 years ago. She has a history of well-controlled chronic periodontitis. What is the MOST appropriate recall frequency for this patient to ensure long-term implant health?",
+    "options": [
+      "Every 6 months",
+      "Annually",
+      "Every two years",
+      "Every 3-4 months"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Patients with a history of periodontitis and multiple implants, especially with fixed prostheses, are at a higher risk for peri-implant diseases. Therefore, a recall frequency of every 3-4 months is MOST appropriate to allow for meticulous oral hygiene maintenance, professional debridement, and early detection of any complications. Annual or bi-annual recalls would be insufficient for high-risk patients."
+  },
+  {
+    "id": 144572493,
+    "topicId": "implants",
+    "question": "Which implant-abutment connection design is characterized by a hexagonal or octagonal interface and is primarily designed to resist rotational forces, but may be more susceptible to micro-gap formation?",
+    "options": [
+      "Internal hex connection",
+      "Conical (Morse taper) connection",
+      "Flat-to-flat butt joint",
+      "External hex connection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The external hex connection is characterized by a hexagonal interface that primarily resists rotational forces but can be more susceptible to micro-gap formation at the implant-abutment interface, potentially leading to bacterial ingress. Internal hex connections and conical (Morse taper) connections generally offer better sealing against micro-gap formation due to their design. A flat-to-flat butt joint is a less common and generally less stable design."
+  },
+  {
+    "id": 717022052,
+    "topicId": "implants",
+    "question": "A 60-year-old male patient presents with redness, swelling, and suppuration around a 7-year-old implant in the mandibular right first molar position. Probing depths are consistently 7-8 mm with bleeding upon probing, and radiographs show 4 mm of marginal bone loss compared to baseline. The implant also exhibits slight mobility. What is the MOST appropriate initial management?",
+    "options": [
+      "Surgical debridement with implant surface decontamination and guided bone regeneration.",
+      "Non-surgical debridement with chlorhexidine irrigation.",
+      "Immediate implant removal and site preservation.",
+      "Referral for systemic antibiotic therapy combined with meticulous oral hygiene instructions."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The presence of significant bone loss, deep probing depths, suppuration, and mobility indicates advanced peri-implantitis, for which surgical intervention including debridement and surface decontamination is often required to attempt to save the implant. Non-surgical debridement is typically insufficient for such advanced cases, and immediate removal is generally a last resort after attempts to salvage. Systemic antibiotics are adjunctive and not a primary treatment for mobile implants."
+  },
+  {
+    "id": 277670363,
+    "topicId": "implants",
+    "question": "What is the primary characteristic of a successfully osseointegrated dental implant?",
+    "options": [
+      "Formation of a fibrous connective tissue layer between the implant surface and the surrounding bone.",
+      "Direct structural and functional connection between organized, living bone and the surface of a load-carrying implant.",
+      "Absence of mobility when tested with a periotest device.",
+      "Radiographic evidence of bone apposition around the implant collar."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Osseointegration is defined as the direct structural and functional connection between organized, living bone and the surface of a load-carrying implant, as established by Brånemark. The formation of a fibrous connective tissue layer indicates implant failure, not osseointegration. While absence of mobility is a clinical sign, it is not the histological definition, and bone apposition around the collar is a component, but not the complete primary characteristic."
+  },
+  {
+    "id": 536630925,
+    "topicId": "implants",
+    "question": "A 32-year-old female patient presents requesting replacement of a non-restorable maxillary right central incisor (#11). Clinical examination reveals a thin biotype, a high smile line, and horizontal bone loss on the facial aspect of the extraction site. What is the MOST critical consideration for successful esthetic outcome in this case?",
+    "options": [
+      "Achieving primary stability of at least 35 Ncm during implant placement.",
+      "Meticulous soft tissue management and bone augmentation, especially on the facial aspect.",
+      "Placing the implant immediately after extraction to preserve the bone.",
+      "Selecting a narrow-diameter implant to minimize bone removal."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an esthetically demanding area with a thin biotype, high smile line, and existing facial bone loss, meticulous soft tissue management and bone augmentation are paramount to ensure proper contour, prevent recession, and avoid greyish discoloration. While primary stability is essential for osseointegration, it does not directly address the esthetic challenges. Immediate placement may be contraindicated in the presence of existing facial bone loss, and a narrow-diameter implant might not provide adequate emergence profile or strength."
+  },
+  {
+    "id": 695686755,
+    "topicId": "implants",
+    "question": "Which property of commercially pure titanium is MOST advantageous for its use in dental implants, besides its excellent biocompatibility?",
+    "options": [
+      "High modulus of elasticity, closely matching that of cortical bone.",
+      "High corrosion resistance in the oral environment.",
+      "Superior radiopacity, aiding in radiographic identification.",
+      "Ability to rapidly form a stable oxide layer upon exposure to air or body fluids."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The rapid formation of a stable, passive titanium oxide layer is crucial because it significantly enhances corrosion resistance and reduces ion release, which is fundamental to titanium's biocompatibility and its ability to osseointegrate. Titanium has a lower modulus of elasticity than cortical bone, which is generally considered beneficial but not 'high' or 'closely matching.' While corrosion resistance is important, it is primarily mediated by this oxide layer, making its formation the more fundamental advantageous property."
+  },
+  {
+    "id": 865521538,
+    "topicId": "implants",
+    "question": "A 55-year-old female patient is undergoing a lateral window sinus augmentation procedure in the maxillary right posterior region. During the careful elevation of the Schneiderian membrane, a perforation approximately 3 mm in diameter is noted. The patient is otherwise healthy. What is the MOST appropriate immediate action?",
+    "options": [
+      "Repair the perforation with a resorbable collagen membrane and proceed with grafting.",
+      "Terminate the procedure and re-evaluate in 3 months.",
+      "Continue the procedure, placing graft material directly into the perforation.",
+      "Pack the perforation with a hemostatic agent and proceed with grafting."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Small perforations of the Schneiderian membrane (up to 5mm) can often be successfully repaired using a resorbable collagen membrane, which allows the sinus augmentation procedure to proceed with a good prognosis. Terminating the procedure is overly cautious for a repairable perforation. Placing graft material directly into a perforation without repair would likely lead to graft migration into the sinus cavity and failure of the augmentation, and hemostatic agents are for bleeding, not membrane repair."
+  },
+  {
+    "id": 550430761,
+    "topicId": "implants",
+    "question": "Compared to the supracrestal connective tissue attachment around natural teeth, the connective tissue attachment around dental implants is characterized by:",
+    "options": [
+      "The presence of Sharpey's fibers inserting into the implant surface.",
+      "A more collagenous and organized fiber orientation parallel to the implant surface.",
+      "A richer vascular supply within the connective tissue.",
+      "A denser network of proprioceptive nerve endings."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The connective tissue around implants primarily consists of collagen fibers oriented parallel to the implant surface, forming a circular cuff, unlike the perpendicular insertion of Sharpey's fibers into cementum around natural teeth. Implants lack a periodontal ligament, therefore Sharpey's fibers are absent, and the peri-implant connective tissue typically has a less rich vascular supply and lacks proprioceptive nerve endings compared to natural teeth."
+  },
+  {
+    "id": 463885445,
+    "topicId": "implants",
+    "question": "A 48-year-old male patient presents with a missing mandibular right first molar, and a buccal bone defect after extraction. The remaining bone height and width are insufficient for immediate implant placement. The treatment plan involves guided bone regeneration (GBR) prior to implant placement. What is the primary role of the barrier membrane in GBR?",
+    "options": [
+      "To provide a scaffold for osteoblast migration.",
+      "To release growth factors that stimulate osteogenesis.",
+      "To prevent the proliferation of fibroblasts and epithelial cells into the bone defect.",
+      "To mechanically stabilize the bone graft particles."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The primary role of a barrier membrane in Guided Bone Regeneration (GBR) is to physically exclude faster-growing soft tissue cells (fibroblasts and epithelial cells) from the bone defect. This allows the slower-growing osteogenic cells originating from the adjacent bone to proliferate and mature, leading to new bone formation. While some membranes might offer minimal scaffolding or carry growth factors, these are not their fundamental and primary functions."
+  },
+  {
+    "id": 467665022,
+    "topicId": "implants",
+    "question": "Which implant macro-design feature is primarily designed to increase the bone-to-implant contact (BIC) and enhance primary stability, especially in softer bone types?",
+    "options": [
+      "Platform switching.",
+      "Tapered body design.",
+      "Micro-threads at the implant collar.",
+      "Thread pitch and depth."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The thread pitch (distance between threads) and depth of an implant's macro-design directly influence the surface area available for bone contact and the mechanical engagement with the bone, thereby significantly enhancing primary stability and bone-to-implant contact. Platform switching is primarily for crestal bone preservation, a tapered body design contributes to stability but less directly to BIC than threads, and micro-threads at the collar are for marginal bone maintenance."
+  },
+  {
+    "id": 627221540,
+    "topicId": "implants",
+    "question": "A 65-year-old female patient presents with a fractured porcelain occlusal veneer on her 8-year-old implant-supported crown in the mandibular left first molar position. The implant itself is stable, and peri-implant tissues are healthy. What is the MOST appropriate management strategy?",
+    "options": [
+      "Remove the crown, fabricate a new one, and recommend a nightguard.",
+      "Repair the fractured porcelain intraorally with composite resin.",
+      "Remove the crown, retrieve the abutment, and replace with a stronger material.",
+      "Refer for extraction of the implant due to compromised restoration."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Porcelain fracture on an implant crown often indicates excessive occlusal forces or parafunctional habits. Replacing the crown allows for proper design and material selection, and recommending a nightguard addresses the underlying cause to prevent recurrence. Intraoral repair is typically a temporary measure, while retrieving the abutment or extracting the implant are unnecessarily aggressive steps for a stable implant with healthy peri-implant tissues."
+  },
+  {
+    "id": 300094557,
+    "topicId": "implants",
+    "question": "Which type of implant-abutment connection is generally associated with a reduced incidence of screw loosening and micro-gap formation, thus potentially improving marginal bone stability?",
+    "options": [
+      "External hexagon.",
+      "Conical (Morse taper).",
+      "Internal hexagon.",
+      "External octagon."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The conical (Morse taper) connection provides a very tight friction fit between the implant and abutment, often referred to as a 'cold weld.' This tight seal minimizes the micro-gap, which reduces bacterial leakage into the peri-implant area and decreases the likelihood of screw loosening, thereby contributing to better marginal bone preservation. External and internal hex/octagon connections generally have a larger micro-gap compared to conical designs."
+  },
+  {
+    "id": 865229987,
+    "topicId": "implants",
+    "question": "A 50-year-old male patient, a heavy smoker (2 packs/day for 20 years), desires a single implant for a missing mandibular first molar. He is otherwise healthy. What is the MOST critical recommendation to improve the prognosis of implant osseointegration and long-term success in this patient?",
+    "options": [
+      "Delay implant placement for 6 months after smoking cessation.",
+      "Prescribe a 7-day course of systemic antibiotics post-surgery.",
+      "Advise the patient to significantly reduce or cease smoking before and after implant surgery.",
+      "Recommend meticulous oral hygiene and frequent recalls after implant placement."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Smoking is a well-established major risk factor for implant failure and peri-implantitis due to its negative impact on wound healing, blood supply, and immune response. Advising the patient to significantly reduce or completely cease smoking before and after implant surgery is the most critical recommendation to improve both initial osseointegration and long-term implant prognosis. While other options are helpful, they do not address the primary risk factor as effectively."
+  },
+  {
+    "id": 860146797,
+    "topicId": "implants",
+    "question": "Which of the following is the MOST common cause of early implant failure, occurring before or during the initial healing phase?",
+    "options": [
+      "Lack of primary stability.",
+      "Peri-implantitis.",
+      "Mechanical overload.",
+      "Material fatigue."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lack of primary stability is the most common cause of early implant failure, as adequate stability is crucial for achieving undisturbed osseointegration. If the implant experiences excessive micromovement during the initial healing phase, fibrous encapsulation rather than bone formation is likely to occur. Peri-implantitis, mechanical overload, and material fatigue are typically causes of late implant failure, occurring after successful osseointegration."
+  },
+  {
+    "id": 883481489,
+    "topicId": "implants",
+    "question": "A 40-year-old male patient requires an implant for a missing mandibular right first molar. A cone-beam computed tomography (CBCT) scan is taken for treatment planning. When evaluating the CBCT images for implant placement, what is the MOST critical anatomical structure to identify and measure in the posterior mandible?",
+    "options": [
+      "Mental foramen.",
+      "Inferior alveolar nerve canal.",
+      "Lingual foramen.",
+      "Submandibular fossa."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Inferior Alveolar Nerve (IAN) canal is the most critical anatomical structure to identify and precisely measure in the posterior mandible for implant planning. Damage to the IAN during implant placement can result in severe and potentially permanent neurosensory deficits (paresthesia or dysesthesia), making its careful assessment paramount for safe surgical practice. While other structures are important, the risk associated with IAN injury is typically the highest."
+  },
+  {
+    "id": 50336623,
+    "topicId": "implants",
+    "question": "What does the Implant Stability Quotient (ISQ) value, measured by resonance frequency analysis (RFA), primarily indicate?",
+    "options": [
+      "The amount of bone-to-implant contact (BIC).",
+      "The degree of biological osseointegration.",
+      "The micromovement of the implant within the bone.",
+      "The torque required for implant placement."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Implant Stability Quotient (ISQ) measured by Resonance Frequency Analysis (RFA) primarily indicates the mechanical stability of the implant within the bone, which is inversely related to its micromovement. A higher ISQ value signifies less micromovement and greater stability, reflecting the stiffness of the implant-bone interface. It is an indirect measure of stability, not a direct measure of BIC, biological osseointegration, or insertion torque."
+  },
+  {
+    "id": 48162685,
+    "topicId": "implants",
+    "question": "A 45-year-old male patient desires immediate provisionalization for a single implant placed in the maxillary left second premolar position. The implant achieved an insertion torque of 40 Ncm and an ISQ value of 75 immediately after placement. The patient has a healthy medical history and no parafunctional habits. What additional factor is MOST crucial for making the decision to immediately provisionalize this implant?",
+    "options": [
+      "Availability of a pre-fabricated provisional crown.",
+      "Patient's willingness to adhere to a soft diet for 6-8 weeks.",
+      "The implant's macro-design for primary stability.",
+      "Absence of occlusal interferences on the provisional restoration."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Even with excellent primary stability, immediate provisionalization requires meticulous attention to occlusal forces. The MOST crucial additional factor is ensuring the provisional restoration is entirely out of occlusion (non-functional loading) to prevent any micromovement that could disrupt early osseointegration. Patient compliance with a soft diet is important, but the prosthetic design itself to eliminate occlusal contact is paramount. The implant's macro-design contributes to the initial stability, which is already established."
+  },
+  {
+    "id": 338105361,
+    "topicId": "implants",
+    "question": "A 70-year-old female patient has two successfully integrated implants in the anterior mandible for a removable implant-supported overdenture. She reports that her denture feels loose and unstable, especially during mastication. Examination reveals wear of the existing O-ring attachments. What is the MOST appropriate next step to improve the denture's retention and stability?",
+    "options": [
+      "Replace the worn O-rings and assess the fit of the denture base.",
+      "Convert to a bar-retained overdenture design.",
+      "Add two more implants in the posterior mandible.",
+      "Increase the number of retentive elements on the existing O-rings."
+    ],
+    "correctAnswer": 0,
+    "explanation": "O-ring attachments are consumable components that wear down over time, leading to reduced retention. The most appropriate and least invasive initial step is to replace the worn O-rings and verify the intaglio surface of the denture for proper fit, as this often resolves the issue of looseness. Converting to a bar-retained design or adding more implants are more complex and costly interventions that are typically reserved for cases where simple maintenance is insufficient or the initial design proves inadequate."
+  },
+  {
+    "id": 416433833,
+    "topicId": "implants",
+    "question": "A 55-year-old female patient presents for her annual recall appointment for a 5-year-old implant-supported crown in the mandibular right first molar position. Clinical examination shows pink, firm peri-implant tissues with no redness or swelling. Probing depths around the implant are 3 mm. When performing a peri-implant probing, what is the MOST significant indicator of healthy peri-implant soft tissues?",
+    "options": [
+      "The presence of keratinized mucosa.",
+      "The absence of bleeding on probing.",
+      "The absence of pain during probing.",
+      "A probing depth of 3 mm."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The absence of bleeding on probing (BOP) is the most significant and reliable clinical indicator of healthy peri-implant soft tissues, signifying the absence of inflammation. While keratinized mucosa is advantageous for tissue health, its absence does not always indicate disease. Absence of pain is subjective, and a probing depth of 3mm, while typically healthy, can vary depending on tissue biotype and implant design; BOP is a more direct inflammatory marker."
+  },
+  {
+    "id": 852652060,
+    "topicId": "implants",
+    "question": "A 68-year-old female patient requires an implant for a missing maxillary right first molar. She has a history of oral bisphosphonate therapy (alendronate 70mg/week) for 8 years for osteoporosis. She has no other significant medical conditions. What is the MOST appropriate initial step in her implant treatment planning?",
+    "options": [
+      "Proceed with implant placement as planned, as oral bisphosphonates rarely cause ONJ.",
+      "Discontinue bisphosphonate therapy for 3 months prior to surgery.",
+      "Recommend a removable partial denture instead of an implant due to the high risk of MRONJ.",
+      "Obtain a panoramic radiograph and a medical consultation with her physician regarding the risk of MRONJ."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Patients on oral bisphosphonates, especially for an extended period, have an increased risk of Medication-Related Osteonecrosis of the Jaw (MRONJ) with invasive dental procedures. The MOST appropriate initial step is to obtain a thorough radiographic assessment and consult with the patient's physician to assess the individual risk and determine the safest course of action, as per NDEB guidelines. Proceeding without assessment, arbitrarily discontinuing medication, or immediately recommending alternatives are inappropriate without a comprehensive risk evaluation."
+  },
+  {
+    "id": 83285408,
+    "topicId": "implants",
+    "question": "A 50-year-old male patient reports numbness and tingling in his lower lip and chin on the right side immediately following implant placement in the mandibular right first molar position. The sensation persists 2 hours post-surgery. What is the MOST appropriate immediate next step?",
+    "options": [
+      "Prescribe systemic steroids and reassure the patient that symptoms will likely resolve.",
+      "Administer a long-acting local anesthetic to prolong the numbing effect.",
+      "Take a periapical radiograph to confirm implant position relative to the inferior alveolar canal.",
+      "Immediately remove the implant and explore the surgical site."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Immediate onset of neurosensory disturbance suggests possible direct trauma or compression of the inferior alveolar nerve (IAN). The MOST appropriate immediate next step is to obtain a periapical radiograph (or CBCT if necessary) to confirm the implant's position relative to the IAN canal. This diagnostic step is crucial before considering more invasive interventions like implant removal, which would be indicated if direct nerve impingement is confirmed. Administering more anesthetic or mere reassurance is inappropriate as it delays diagnosis and potential treatment."
+  },
+  {
+    "id": 526967083,
+    "topicId": "implants",
+    "question": "What is the key differentiating factor between peri-implant mucositis and peri-implantitis?",
+    "options": [
+      "The presence of bleeding on probing.",
+      "The severity of inflammation.",
+      "The depth of the probing pocket.",
+      "The presence of radiographic bone loss."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The key differentiating factor between peri-implant mucositis and peri-implantitis is the presence of radiographic bone loss. Peri-implant mucositis involves inflammation of the soft tissues around the implant without evidence of progressive marginal bone loss, while peri-implantitis is characterized by both inflammation and progressive destruction of the supporting bone, as detected radiographically. Bleeding on probing, severity of inflammation, and probing depth can be present in both conditions."
+  },
+  {
+    "id": 389901034,
+    "topicId": "implants",
+    "question": "A 58-year-old female patient presents with a non-restorable maxillary right first premolar due to a vertical root fracture. Clinical examination reveals adequate buccal and palatal bone walls and healthy surrounding soft tissues. A CBCT scan shows sufficient bone volume for immediate implant placement, with the apex 2mm away from the maxillary sinus floor. What is the MOST appropriate next step for managing this case?",
+    "options": [
+      "Extract the tooth, allow for 3-4 months of healing, then place the implant.",
+      "Perform immediate implant placement with a simultaneous bone graft in the gap.",
+      "Extract the tooth, perform a ridge preservation procedure, then place the implant after 6 months.",
+      "Perform immediate implant placement without any bone grafting."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Immediate implant placement is appropriate when adequate bone walls are present, primary stability can be achieved, and the site is free of infection. A bone graft in the gap between the implant and the socket walls is typically recommended to promote bone fill and prevent soft tissue collapse. Waiting for healing or performing only ridge preservation would delay treatment and potentially lead to more bone resorption, making subsequent implant placement more challenging."
+  },
+  {
+    "id": 933349972,
+    "topicId": "implants",
+    "question": "A 48-year-old male patient is undergoing implant placement. The surgeon selects an implant with a roughened, chemically modified surface that is designed to be hydrophilic. What is the PRIMARY biological benefit of this specific implant surface characteristic for the patient's healing?",
+    "options": [
+      "Increased primary stability during placement.",
+      "Enhanced initial blood clot formation and cell attachment.",
+      "Reduced risk of peri-implant mucositis.",
+      "Improved aesthetic integration with the soft tissues."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A roughened, hydrophilic implant surface significantly enhances initial blood clot formation and adsorption of proteins, which are crucial for early osteoblast attachment and differentiation, accelerating the osseointegration process. Primary stability is more related to macro-design and surgical technique. While surface characteristics can influence long-term tissue health, the primary immediate biological benefit of hydrophilicity is enhancing early healing. Aesthetic integration is mainly influenced by soft tissue contours and prosthetic materials."
+  },
+  {
+    "id": 641749639,
+    "topicId": "implants",
+    "question": "A 72-year-old male patient presents with a severely atrophic edentulous mandible, making it difficult to wear a conventional complete denture. He desires a more stable prosthetic solution. Clinical and radiographic evaluation confirms insufficient bone for fixed prostheses but adequate interforaminal bone for two implants. What is the MOST appropriate implant-supported prosthetic option to significantly improve his quality of life?",
+    "options": [
+      "Six implants supporting a fixed complete arch prosthesis.",
+      "Four implants supporting a fixed hybrid prosthesis.",
+      "Two implants supporting a ball-retained overdenture.",
+      "Two implants supporting a bar-retained overdenture."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a severely atrophic mandible with limited bone, two implants supporting a ball-retained overdenture is a common and predictable solution, offering significantly improved stability and retention compared to a conventional denture. Two implants supporting a bar-retained overdenture is also a good option but might be more complex. Four or six implants for a fixed prosthesis would require more bone volume than is available and are more complex and costly."
+  },
+  {
+    "id": 850408740,
+    "topicId": "implants",
+    "question": "A 55-year-old female patient has successfully integrated implants placed in the posterior mandible. During the second stage surgery, the surgeon places healing abutments of appropriate dimensions. What is the MOST direct clinical purpose of selecting and placing these healing abutments?",
+    "options": [
+      "To immediately provide retention for the final prosthesis.",
+      "To establish a sealed environment preventing bacterial contamination of the implant.",
+      "To guide the gingival tissues for an optimal restorative emergence profile.",
+      "To distribute occlusal forces evenly during the healing period."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The MOST direct clinical purpose of healing abutments is to guide and shape the peri-implant gingival tissues, creating an optimal emergence profile that supports the final restoration aesthetically and functionally. While they do help seal the implant connection, their primary role is tissue shaping. They do not provide retention for the final prosthesis immediately, nor do they distribute occlusal forces."
+  },
+  {
+    "id": 979665580,
+    "topicId": "implants",
+    "question": "A 65-year-old female patient presents with a 7-year-old implant-supported crown in the mandibular left first molar position. She reports mild, dull pain around the implant, especially when chewing, and occasional bleeding upon brushing. Clinical examination reveals localized swelling, redness, and a probing depth of 6mm with bleeding on probing, but no suppuration or mobility. Radiographs show slight crestal bone loss (1mm) compared to previous films, but the implant threads are mostly intact. What is the MOST appropriate initial management strategy?",
+    "options": [
+      "Immediate implant removal and replacement.",
+      "Systemic antibiotic therapy combined with laser debridement.",
+      "Non-surgical debridement with oral hygiene instructions.",
+      "Surgical debridement and bone grafting."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's symptoms (swelling, redness, bleeding on probing, increased probing depth, slight bone loss) without suppuration or mobility, indicate peri-implant mucositis progressing towards early peri-implantitis. The MOST appropriate initial management is non-surgical debridement (e.g., using plastic curettes or air-powder abrasive) combined with rigorous oral hygiene instructions to control biofilm. Surgical intervention or implant removal is premature at this stage. Systemic antibiotics are generally reserved for more advanced or aggressive infections."
+  },
+  {
+    "id": 99531796,
+    "topicId": "implants",
+    "question": "When evaluating the long-term prognosis of dental implants, which of the following is considered the MOST significant risk factor for peri-implantitis?",
+    "options": [
+      "Smoking history.",
+      "Poor oral hygiene.",
+      "History of bruxism.",
+      "Presence of residual cement."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Poor oral hygiene is consistently identified as the MOST significant modifiable risk factor for peri-implantitis, as it directly leads to biofilm accumulation and inflammatory response around the implant. While smoking is also a major risk factor, poor oral hygiene is often the direct trigger for the localized inflammatory process. Residual cement can contribute, and bruxism can cause prosthetic complications, but neither is considered as universally critical as poor oral hygiene in initiating peri-implantitis."
+  },
+  {
+    "id": 227474433,
+    "topicId": "implants",
+    "question": "A 40-year-old male patient presents with a fractured maxillary central incisor at the gingival margin. He has a high smile line, and the remaining buccal bone wall appears thin. He desires an implant-supported crown. Due to the aesthetic demands and thin bone, what specialized grafting procedure is MOST likely to be required to ensure optimal long-term aesthetic outcomes?",
+    "options": [
+      "Sinus augmentation.",
+      "Guided bone regeneration (GBR) for buccal plate augmentation.",
+      "Ridge splitting procedure.",
+      "Socket preservation with xenograft."
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the aesthetic zone, a thin buccal bone wall after extraction often leads to resorption and soft tissue collapse. Guided bone regeneration (GBR) with a bone graft (e.g., autograft, allograft, or xenograft) and a barrier membrane is crucial to augment the buccal plate and maintain the contour for an optimal aesthetic outcome. Sinus augmentation is for posterior maxilla. Ridge splitting is for horizontal ridge expansion. Socket preservation alone might not be sufficient for a very thin buccal plate."
+  },
+  {
+    "id": 414224301,
+    "topicId": "implants",
+    "question": "Which imaging modality provides the MOST detailed and accurate three-dimensional assessment of bone volume, bone quality, and proximity to vital anatomical structures for pre-surgical implant planning?",
+    "options": [
+      "Lateral cephalometric radiograph.",
+      "Periapical radiograph.",
+      "Panoramic radiograph.",
+      "Cone Beam Computed Tomography (CBCT)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Cone Beam Computed Tomography (CBCT) provides highly accurate, three-dimensional images of bone morphology, density, and precise relationships to vital structures like nerves and sinuses, making it the gold standard for implant planning. Periapical and panoramic radiographs are two-dimensional and suffer from magnification, distortion, and superimposition, limiting their diagnostic value for complex implant cases. Lateral cephalometric radiographs are primarily used in orthodontics."
+  },
+  {
+    "id": 913101998,
+    "topicId": "implants",
+    "question": "A 55-year-old female patient presents with generalized moderate chronic periodontitis and multiple missing teeth. She is considering dental implants but has a history of smoking (10 cigarettes/day for 20 years). She is otherwise healthy. What is the MOST crucial lifestyle modification required for her to be considered a suitable candidate for dental implants with a reasonable prognosis?",
+    "options": [
+      "Regular consumption of calcium supplements.",
+      "Achieve excellent glycemic control.",
+      "Reduce alcohol consumption.",
+      "Cessation of smoking."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Smoking is a significant risk factor for implant complications, including peri-implantitis and implant failure, due to its detrimental effects on wound healing, bone metabolism, and immune response. Complete cessation of smoking is the MOST crucial lifestyle modification to improve implant prognosis. While good health is important, there's no indication of diabetes (glycemic control) or excessive alcohol use. Calcium supplements are not a primary factor in implant success for generally healthy individuals."
+  },
+  {
+    "id": 765600591,
+    "topicId": "implants",
+    "question": "What is the primary role of the barrier membrane in Guided Bone Regeneration (GBR) procedures for dental implant sites?",
+    "options": [
+      "To prevent soft tissue ingrowth into the bone defect.",
+      "To enhance vascularization of the graft material.",
+      "To provide osteoinductive signals to the bone graft.",
+      "To act as a scaffold for new bone formation."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The primary role of a barrier membrane in GBR is to create a secluded space, preventing faster-growing soft tissue cells (fibroblasts and epithelial cells) from migrating into the bone defect. This allows slower-growing osteogenic cells to populate the space and form new bone. Membranes are generally osteoconductive at best, not osteoinductive, and while they protect the graft, their main function is cell exclusion."
+  },
+  {
+    "id": 759255040,
+    "topicId": "implants",
+    "question": "A 68-year-old male patient has received two implants in the anterior mandible for an overdenture. During the impression appointment, one implant exhibits slight rotation of the impression coping when torqued, while the other is stable. What is the MOST appropriate action for the clinician to take regarding the mobile implant?",
+    "options": [
+      "Discontinue the prosthetic phase for that implant and allow additional healing time.",
+      "Proceed with the impression, as slight rotation is acceptable for overdentures.",
+      "Remove the mobile implant and replace it immediately.",
+      "Use a closed-tray impression technique for the mobile implant."
+    ],
+    "correctAnswer": 0,
+    "explanation": "If an implant shows mobility or rotation of the impression coping during the prosthetic phase, it indicates a lack of complete osseointegration or a compromised implant. The MOST appropriate action is to discontinue the prosthetic phase for that implant and allow additional healing time, typically 3-6 months, for potential integration. Proceeding with the impression would lead to an unstable prosthesis. Immediate removal is premature, and a closed-tray technique does not address the underlying mobility issue."
+  },
+  {
+    "id": 581322977,
+    "topicId": "implants",
+    "question": "Which of the following describes the ideal bone type for achieving high primary stability and optimal long-term osseointegration for dental implants?",
+    "options": [
+      "D4 (fine trabecular bone).",
+      "D3 (thin cortical bone with fine trabecular bone).",
+      "D1 (dense cortical bone).",
+      "D2 (thick cortical bone with dense trabecular core)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "D2 bone, characterized by a thick cortical plate and a dense trabecular core, provides excellent primary stability due to the cortical bone and good vascularization and healing potential from the dense trabecular bone, making it ideal for implant placement and long-term osseointegration. D1 bone is very dense but can be prone to overheating and may have poorer vascularity. D3 and D4 bone types offer less primary stability and slower healing, often requiring specialized surgical techniques."
+  },
+  {
+    "id": 73752315,
+    "topicId": "implants",
+    "question": "A 35-year-old female patient presents with a painful, non-restorable mandibular left first molar. She is healthy and desires an implant. A CBCT scan reveals sufficient mesio-distal space and adequate bone height above the inferior alveolar nerve. However, the bucco-lingual dimension is critically narrow (4mm). What is the MOST appropriate initial surgical approach to address the narrow ridge for implant placement?",
+    "options": [
+      "Extract the tooth and perform a socket shield procedure.",
+      "Place a narrow-diameter implant without grafting.",
+      "Perform a direct sinus lift procedure.",
+      "Consider a ridge splitting technique."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A bucco-lingual ridge width of 4mm is generally insufficient for standard implant placement (typically 6-7mm is desired). A ridge splitting (or ridge expansion) technique is the MOST appropriate surgical approach to horizontally widen the narrow alveolar ridge, allowing for placement of a standard-diameter implant. A sinus lift is for vertical augmentation in the maxilla. Placing a narrow-diameter implant in a severely narrow ridge might compromise long-term stability or be technically challenging. A socket shield is for maintaining ridge volume after extraction, not for expanding an already narrow ridge."
+  },
+  {
+    "id": 187074263,
+    "topicId": "implants",
+    "question": "Which type of implant-abutment connection is associated with the LEAST amount of microgap formation and bacterial leakage at the implant-abutment interface?",
+    "options": [
+      "Morse taper.",
+      "External hex.",
+      "Internal hex.",
+      "Octagonal."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Morse taper (conical) connection is associated with the LEAST amount of microgap formation and bacterial leakage due to its tight friction-fit interface, which creates a 'cold-weld' seal. External hex and internal hex connections, while widely used, generally exhibit a larger microgap compared to Morse taper connections, allowing for more bacterial ingress. Octagonal is a variation of the internal hex and shares similar characteristics regarding microgap."
+  },
+  {
+    "id": 221565606,
+    "topicId": "implants",
+    "question": "A 50-year-old male patient presents with a 2-year-old implant-supported crown in the maxillary right central incisor position. He is concerned about the 'dark line' appearing at the gum line and the slightly recessed gingiva compared to the adjacent natural tooth. Clinical examination confirms mild buccal gingival recession exposing the implant collar. What is the MOST appropriate initial management strategy for this aesthetic concern?",
+    "options": [
+      "Replace the titanium abutment with a zirconia abutment.",
+      "Replace the crown with a porcelain-fused-to-metal (PFM) crown.",
+      "Perform a free gingival graft to cover the exposed collar.",
+      "Monitor the situation, as mild recession is common around implants."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 'dark line' and exposed collar in the aesthetic zone are often due to light reflection off the titanium abutment through thin soft tissue. Replacing the titanium abutment with a tooth-colored zirconia abutment can significantly improve the aesthetic outcome by preventing the grey show-through and potentially improving soft tissue health. A free gingival graft might help cover the recession but doesn't address the underlying dark hue from the titanium. PFM crowns still require an abutment, and replacing with another PFM won't address the issue if the abutment is the cause. Monitoring is not an active solution to the patient's aesthetic complaint."
+  },
+  {
+    "id": 279055871,
+    "topicId": "implants",
+    "question": "Which type of bone graft material is considered osteoinductive, meaning it contains growth factors that can induce the differentiation of undifferentiated mesenchymal stem cells into osteoblasts?",
+    "options": [
+      "Autograft.",
+      "Allograft.",
+      "Xenograft.",
+      "Alloplast."
+    ],
+    "correctAnswer": 0,
+    "explanation": "An autograft is the only bone graft material that is both osteoconductive (provides a scaffold) and osteoinductive (contains viable cells and growth factors from the patient's own body to stimulate new bone formation). Allografts can be osteoinductive if processed to retain growth factors (e.g., demineralized freeze-dried bone allograft), but autograft is inherently osteoinductive. Xenografts and alloplasts are primarily osteoconductive."
+  },
+  {
+    "id": 801766597,
+    "topicId": "implants",
+    "question": "A 45-year-old female patient presents for implant placement in the posterior mandible. A CBCT scan reveals the superior border of the inferior alveolar canal is 2mm from the alveolar crest. During osteotomy preparation, the patient reports a sudden, sharp pain radiating to the lower lip, followed by a metallic taste and profuse bleeding from the osteotomy site. What is the MOST likely immediate complication occurring?",
+    "options": [
+      "Sinus membrane perforation.",
+      "Perforation of the lingual cortical plate.",
+      "Damage to the inferior alveolar nerve bundle.",
+      "Fracture of the alveolar bone."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sudden sharp pain radiating to the lower lip, followed by a metallic taste and profuse bleeding, strongly suggests damage to the inferior alveolar nerve bundle. The lower lip sensation is characteristic of IAN involvement, and the metallic taste, especially with profuse bleeding, points to neurovascular bundle injury. Lingual cortical plate perforation might cause bleeding but typically not lip paresthesia or metallic taste. Sinus membrane perforation is irrelevant in the mandible. Alveolar bone fracture is less likely to present with these specific neurosensory symptoms."
+  },
+  {
+    "id": 218566267,
+    "topicId": "implants",
+    "question": "What is the primary factor determining the long-term success of an implant-supported prosthesis in terms of maintaining crestal bone levels?",
+    "options": [
+      "Abutment material (e.g., titanium vs. zirconia).",
+      "Implant surface roughness.",
+      "Proper occlusal load distribution.",
+      "Titanium alloy composition."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Proper occlusal load distribution, ensuring that forces are axial and within physiological limits, is a primary factor in maintaining crestal bone levels around dental implants long-term. Excessive or non-axial forces can lead to micro-fractures, bone resorption, and implant failure. While implant surface roughness aids osseointegration, and abutment material can affect aesthetics, biomechanical loading is paramount for long-term crestal bone stability. Titanium alloy composition primarily affects the implant's bulk strength."
+  },
+  {
+    "id": 514446195,
+    "topicId": "implants",
+    "question": "A 60-year-old male patient presents with a missing maxillary right central incisor. He has a history of controlled hypertension and desires an implant. Clinical examination reveals adequate bone width and height. However, the patient expresses concern about the surgical procedure and potential discomfort. Which surgical technique is MOST appropriate to minimize patient discomfort and optimize precision for single implant placement in this aesthetic zone?",
+    "options": [
+      "Guided implant surgery using a surgical template.",
+      "Transcrestal sinus lift.",
+      "Freehand implant placement.",
+      "Conventional flapless surgery."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Guided implant surgery using a surgical template offers optimal precision, minimizes trauma, and can often be performed flapless, significantly reducing post-operative discomfort and swelling, which is ideal for a patient concerned about the procedure and for critical aesthetic zone placement. Freehand placement relies solely on the surgeon's skill and has lower precision. Conventional flapless surgery still lacks the precision of guided surgery. A transcrestal sinus lift is a specific procedure for sinus augmentation, not general implant placement."
+  },
+  {
+    "id": 707845092,
+    "topicId": "implants",
+    "question": "Compared to the periodontal ligament around natural teeth, the peri-implant connective tissue attachment lacks which key anatomical feature?",
+    "options": [
+      "Collagen fibers.",
+      "Direct insertion of collagen fibers into bone (Sharpey's fibers).",
+      "Fibroblasts.",
+      "Vascular supply."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The peri-implant connective tissue attachment differs from the periodontal ligament by lacking direct insertion of collagen fibers into the implant surface (Sharpey's fibers) and into the bone. Instead, collagen fibers run parallel or oblique to the implant surface. It does possess collagen fibers, fibroblasts, and a vascular supply, though the nature of the vascularity differs."
+  },
+  {
+    "id": 295347033,
+    "topicId": "implants",
+    "question": "A 58-year-old male patient with a medical history of poorly controlled Type 2 Diabetes Mellitus (HbA1c 9.5%) and generalized moderate periodontitis presents requesting a single dental implant in the mandibular left first molar area. He is a non-smoker. What is the MOST critical consideration for successful implant osseointegration and long-term prognosis in this patient?",
+    "options": [
+      "The choice of implant abutment material.",
+      "The patient's level of glycemic control.",
+      "The presence of generalized moderate periodontitis.",
+      "The implant macro-design and surface treatment."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Poorly controlled diabetes is a significant systemic risk factor for impaired wound healing, increased risk of infection, and reduced osseointegration rates, directly impacting long-term implant success. While generalized periodontitis is a risk factor for peri-implantitis, systemic control of diabetes is more critical for initial osseointegration. Implant design and abutment material are important but secondary to systemic health."
+  },
+  {
+    "id": 193409539,
+    "topicId": "implants",
+    "question": "A 35-year-old female patient presents with a non-restorable maxillary right central incisor due to vertical root fracture, requiring extraction and implant placement. To achieve optimal esthetic and functional outcomes for the future implant crown, what is the MOST crucial determinant for three-dimensional implant positioning?",
+    "options": [
+      "Achieving maximum primary stability during implant insertion.",
+      "Maintaining a 1.5-2 mm distance from adjacent natural tooth roots.",
+      "Matching the implant diameter to the width of the remaining alveolar bone.",
+      "Ensuring the implant shoulder is placed 3-4 mm apical to the desired gingival margin of the future crown."
+    ],
+    "correctAnswer": 3,
+    "explanation": "In the esthetic zone, the vertical positioning of the implant shoulder relative to the desired gingival margin is paramount for establishing proper soft tissue contours and emergence profile. While proximity to roots and bone width are important, precise vertical positioning directly influences esthetic outcomes by allowing sufficient space for soft tissue and restorative components. Maximum primary stability is crucial for osseointegration but not the primary determinant for 3D esthetic positioning."
+  },
+  {
+    "id": 971043289,
+    "topicId": "implants",
+    "question": "What is the MOST significant advantage of achieving high primary stability during dental implant placement?",
+    "options": [
+      "It facilitates immediate loading protocols for the implant.",
+      "It significantly reduces the risk of peri-implantitis.",
+      "It ensures complete long-term osseointegration.",
+      "It minimizes post-operative pain and swelling."
+    ],
+    "correctAnswer": 0,
+    "explanation": "High primary stability, measured by insertion torque or ISQ values, is a critical prerequisite for immediate loading protocols as it provides the initial mechanical stability required for successful bone healing and osseointegration under immediate functional demands. While primary stability is important for osseointegration, it does not guarantee complete long-term osseointegration nor directly reduce the risk of peri-implantitis or post-operative discomfort."
+  },
+  {
+    "id": 209064243,
+    "topicId": "implants",
+    "question": "A 70-year-old female patient requires a single implant-supported crown in the maxillary right first molar area. After implant placement, an insertion torque of 20 Ncm is achieved in Type III bone. The patient desires the shortest possible treatment time. Considering the stability achieved and bone quality, what is the MOST appropriate loading protocol?",
+    "options": [
+      "Immediate loading with a provisional crown.",
+      "Early loading after 6-8 weeks of healing.",
+      "Conventional loading after 4-6 months of healing.",
+      "Delayed loading with a two-stage surgical approach."
+    ],
+    "correctAnswer": 2,
+    "explanation": "An insertion torque of 20 Ncm is generally considered insufficient for immediate or early loading protocols, especially in Type III bone where initial bone-to-implant contact might be lower. Conventional loading (3-6 months) allows for adequate osseointegration without undue stress. Immediate loading typically requires >35 Ncm, and early loading still requires higher initial stability than achieved here."
+  },
+  {
+    "id": 61860175,
+    "topicId": "implants",
+    "question": "A 42-year-old male patient requires extraction of a non-restorable maxillary right first molar due to a vertical root fracture. Pre-operative CBCT reveals a significant buccal bone defect and inadequate bone volume for immediate implant placement. What is the MOST appropriate timing for implant placement relative to the extraction and bone augmentation?",
+    "options": [
+      "Immediate implant placement at the time of extraction with concurrent guided bone regeneration (GBR).",
+      "Early implant placement 2-4 weeks after extraction with GBR.",
+      "Delayed implant placement 4-6 months after extraction with GBR for socket preservation, followed by a second GBR procedure if needed.",
+      "Staged approach: GBR for socket preservation at extraction, followed by implant placement after 4-6 months of healing."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a significant buccal bone defect and inadequate bone volume, a staged approach is generally preferred. Socket preservation at the time of extraction helps maintain alveolar ridge dimensions, and after 4-6 months of healing, the implant can be placed into a more favorable bone volume. Immediate or early placement in the presence of significant defects carries higher risks of complications and compromised esthetic/functional outcomes."
+  },
+  {
+    "id": 266303717,
+    "topicId": "implants",
+    "question": "Which bone density classification, according to Lekholm and Zarb, is characterized by a thick layer of compact cortical bone surrounding a core of dense trabecular bone, typically found in the anterior mandible?",
+    "options": [
+      "Type I bone",
+      "Type II bone",
+      "Type III bone",
+      "Type IV bone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Type II bone (Lekholm and Zarb) is characterized by a thick layer of compact cortical bone surrounding a core of dense trabecular bone, often found in the anterior mandible. Type I bone is homogenous compact bone, while Type III has a thin cortical layer and fine trabecular bone, and Type IV has a very thin cortical layer and sparse trabecular bone."
+  },
+  {
+    "id": 180457043,
+    "topicId": "implants",
+    "question": "A 60-year-old male patient presents with a 7-year-old implant-supported crown in the mandibular right first molar. Clinical examination reveals bleeding on probing, suppuration, and a probing depth of 6 mm around the implant. Radiographic examination shows significant progressive bone loss (3 mm) compared to radiographs taken one year ago. What is the MOST appropriate diagnosis for this condition?",
+    "options": [
+      "Peri-implant mucositis",
+      "Peri-implantitis",
+      "Implant failure due to mechanical overload",
+      "Persistent peri-implant health"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Peri-implantitis is characterized by inflammation in the peri-implant connective tissue (bleeding/suppuration) and progressive bone loss after initial bone remodeling. Peri-implant mucositis involves inflammation without significant bone loss. Mechanical overload might contribute but is not the primary diagnosis for these clinical signs, and persistent health would show no inflammation or bone loss."
+  },
+  {
+    "id": 607361667,
+    "topicId": "implants",
+    "question": "A 45-year-old female patient requires a single implant-supported crown for the maxillary left central incisor. Following atraumatic extraction, a 4.0mm x 12mm implant is placed with good primary stability (insertion torque >35 Ncm). The patient is concerned about aesthetics during the healing phase. What is the MOST appropriate option for immediate provisionalization in this scenario?",
+    "options": [
+      "A removable partial denture (flipper).",
+      "A bonded resin-retained fixed partial denture.",
+      "An immediate non-occlusal provisional crown directly on the implant.",
+      "No provisionalization, allowing open healing."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given the esthetic zone, good primary stability, and the patient's concern, an immediate non-occlusal provisional crown directly on the implant is the most appropriate option. This provides excellent aesthetics and helps sculpt the soft tissues, while non-occlusal contact prevents overloading during early healing. A flipper can cause pressure on the healing site, and open healing is not ideal for aesthetics."
   }
 ]
