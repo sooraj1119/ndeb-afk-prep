@@ -4587,5 +4587,759 @@
     ],
     "correctAnswer": 2,
     "explanation": "The patient is experiencing a mild, localized allergic reaction without systemic signs of anaphylaxis. Administering an antihistamine like diphenhydramine orally or intramuscularly is the most appropriate initial treatment to alleviate symptoms. Epinephrine is reserved for anaphylaxis, elevating legs is for syncope, and calling EMS is unnecessary for this mild reaction unless it progresses."
+  },
+  {
+    "id": 544720616,
+    "topicId": "emergencies",
+    "question": "A 48-year-old female patient, minutes after receiving a penicillin-based antibiotic for a dental infection, reports feeling dizzy, develops generalized pruritus, and you observe facial edema and inspiratory stridor. Her blood pressure is 80/40 mmHg and heart rate is 110 bpm. What is the MOST immediate and appropriate first-line treatment?",
+    "options": [
+      "Administer 4-8 mg of chlorpheniramine intravenously",
+      "Administer 50 mg of diphenhydramine intramuscularly",
+      "Administer 100 mg of hydrocortisone intravenously",
+      "Administer 0.3-0.5 mg of 1:1000 epinephrine intramuscularly"
+    ],
+    "correctAnswer": 3,
+    "explanation": "This patient is experiencing anaphylactic shock, characterized by rapid onset, airway compromise (stridor), circulatory compromise (hypotension), and skin/mucosal changes. Epinephrine is the first-line and most critical treatment for anaphylaxis due to its alpha-1 (vasoconstriction) and beta-2 (bronchodilation) adrenergic effects. Antihistamines (chlorpheniramine, diphenhydramine) and corticosteroids (hydrocortisone) are adjunctive therapies and act too slowly to be considered first-line for life-threatening anaphylaxis."
+  },
+  {
+    "id": 886415842,
+    "topicId": "emergencies",
+    "question": "A 55-year-old male patient with Type 1 diabetes, who reports missing his breakfast and insulin dose, suddenly becomes confused, agitated, and diaphoretic during a dental appointment. His blood glucose level, if measured, would likely be very low. What is the MOST appropriate immediate management for this conscious patient?",
+    "options": [
+      "Administer 1 mg of glucagon intramuscularly",
+      "Position the patient in supine with feet elevated",
+      "Administer 20-30 grams of a fast-acting oral carbohydrate gel or sugary drink",
+      "Call emergency medical services immediately"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's symptoms (confusion, agitation, diaphoresis) combined with a history of missed meal and insulin are highly indicative of hypoglycemia. For a conscious patient, oral administration of 20-30 grams of a fast-acting carbohydrate is the immediate and most effective treatment. Glucagon is used for unconscious patients, and positioning is for syncope, while calling EMS is reserved if the patient does not respond to oral glucose or becomes unconscious."
+  },
+  {
+    "id": 15835693,
+    "topicId": "emergencies",
+    "question": "A 62-year-old male patient with a history of stable angina experiences sudden retrosternal chest pain radiating to his left arm during a dental procedure. He appears anxious and states the pain is similar to previous episodes but more intense. He has his prescribed nitroglycerin with him. What is the MOST appropriate initial management step?",
+    "options": [
+      "Immediately activate emergency medical services (EMS)",
+      "Administer one dose (0.4 mg) of sublingual nitroglycerin and monitor for relief",
+      "Administer oxygen via nasal cannula at 4-6 L/min",
+      "Place the patient in a supine position and elevate his legs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a patient with a history of stable angina experiencing chest pain, the first-line treatment is sublingual nitroglycerin, which causes vasodilation and reduces cardiac workload. If pain persists after one dose, or if the patient is hypotensive, EMS should be activated and oxygen considered. Placing the patient supine is generally not recommended for chest pain as it can worsen breathing."
+  },
+  {
+    "id": 317096915,
+    "topicId": "emergencies",
+    "question": "A 70-year-old female patient, who had been lying supine for a 45-minute dental procedure, is slowly assisted to an upright position. She immediately reports feeling lightheaded and dizzy, becomes pale, and her vision blurs. What is the MOST appropriate immediate action?",
+    "options": [
+      "Administer aromatic ammonia inhalants",
+      "Offer a sugary drink or glucose tablet",
+      "Administer oxygen via a nasal cannula",
+      "Recline the patient to a supine position with feet elevated"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The patient's symptoms (lightheadedness, dizziness, pallor, blurred vision upon standing) are classic for orthostatic hypotension, which often precedes syncope. Reclining the patient to a supine position with feet elevated promotes cerebral blood flow and is the most effective immediate management. Ammonia inhalants are not recommended due to lack of evidence and potential for irritation, while sugary drinks are for hypoglycemia, and oxygen is not the primary intervention for syncope."
+  },
+  {
+    "id": 172043379,
+    "topicId": "emergencies",
+    "question": "Which of the following drugs is considered the MOST critical immediate-use medication to manage a severe allergic reaction in the dental office emergency kit?",
+    "options": [
+      "Diphenhydramine (antihistamine)",
+      "Epinephrine (adrenergic agonist)",
+      "Dextrose (glucose)",
+      "Midazolam (benzodiazepine)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Epinephrine is the most critical immediate-use drug for severe allergic reactions (anaphylaxis) due to its rapid onset of action, potent vasoconstrictive effects (alpha-1) to combat hypotension, and bronchodilatory effects (beta-2) to alleviate airway obstruction. Diphenhydramine is an antihistamine used for milder allergic reactions or as an adjunct, dextrose is for hypoglycemia, and midazolam is an anxiolytic/anticonvulsant."
+  },
+  {
+    "id": 295816566,
+    "topicId": "emergencies",
+    "question": "A 30-year-old female patient with a history of exercise-induced asthma suddenly develops shortness of breath, wheezing, and a dry cough during a dental procedure. She indicates she has her inhaler. What is the MOST appropriate immediate management?",
+    "options": [
+      "Administer oxygen via a non-rebreather mask at 10-15 L/min",
+      "Administer 0.3-0.5 mg of 1:1000 epinephrine intramuscularly",
+      "Recline the patient in a supine position and elevate her legs",
+      "Assist the patient in using her prescribed rapid-acting bronchodilator (e.g., salbutamol)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a conscious patient experiencing an acute asthma attack with a known history and their own medication, assisting them to use their rapid-acting bronchodilator (e.g., salbutamol) is the immediate and most effective treatment. Oxygen is secondary if the patient does not respond or symptoms are severe. Epinephrine is for anaphylaxis, and the supine position is not indicated for respiratory distress."
+  },
+  {
+    "id": 90906195,
+    "topicId": "emergencies",
+    "question": "According to current Canadian Heart & Stroke Foundation guidelines for a witnessed adult cardiac arrest in a dental office, what is the sequence of immediate actions after confirming unresponsiveness and absence of normal breathing?",
+    "options": [
+      "Activate EMS, retrieve AED, begin chest compressions",
+      "Begin chest compressions, activate EMS, retrieve AED",
+      "Retrieve AED, activate EMS, begin chest compressions",
+      "Activate EMS, begin chest compressions, retrieve AED"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a witnessed adult cardiac arrest, the most appropriate sequence is to first activate EMS, then immediately begin high-quality chest compressions, and retrieve the AED as soon as possible for defibrillation. Early activation of EMS ensures professional help is en route. Early chest compressions maintain vital organ perfusion, and early defibrillation is key for survival from ventricular fibrillation."
+  },
+  {
+    "id": 583111499,
+    "topicId": "emergencies",
+    "question": "A 40-year-old female patient with a documented history of epilepsy suddenly experiences a generalized tonic-clonic seizure while seated in the dental chair. She becomes unconscious and begins to convulse. What is the MOST appropriate initial response by the dental team?",
+    "options": [
+      "Attempt to restrain the patient's movements and hold his tongue to prevent aspiration",
+      "Place a bite block or tongue depressor between his teeth to prevent tongue biting",
+      "Gently move objects away from the patient to prevent injury and protect his head",
+      "Administer 1 mg of intramuscular glucagon to stabilize blood glucose"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a patient experiencing a generalized tonic-clonic seizure, the priority is to protect them from injury by moving objects away and cushioning their head, and ensuring their airway is clear (though not by inserting objects). Restraining movements or inserting objects into the mouth can cause further injury to both the patient and the dental team. Glucagon is for hypoglycemia, not seizures."
+  },
+  {
+    "id": 700683139,
+    "topicId": "emergencies",
+    "question": "What is the primary purpose of the head-tilt/chin-lift maneuver in emergency airway management?",
+    "options": [
+      "To prevent tongue aspiration by displacing the mandible anteriorly",
+      "To create a patent airway by lifting the tongue off the posterior pharyngeal wall",
+      "To stimulate a cough reflex to clear foreign body obstructions",
+      "To assess for rhythmic breathing by observing chest rise and fall"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The head-tilt/chin-lift maneuver is performed to open the airway by lifting the tongue off the posterior pharyngeal wall, which is the most common cause of airway obstruction in an unconscious patient. It does not primarily prevent tongue aspiration (which is usually a misnomer for obstruction) nor stimulate a cough reflex. Assessing breathing is done after ensuring a patent airway."
+  },
+  {
+    "id": 319490369,
+    "topicId": "emergencies",
+    "question": "During a crown preparation, a 58-year-old male patient suddenly begins to cough forcefully and points to his throat, indicating he has aspirated the crown. He is able to speak briefly and his cough is effective. What is the MOST appropriate initial management?",
+    "options": [
+      "Perform abdominal thrusts (Heimlich maneuver)",
+      "Encourage the patient to continue coughing forcefully",
+      "Administer back blows between the shoulder blades",
+      "Immediately prepare for an emergency cricothyrotomy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If a patient is conscious and has an effective cough after aspirating a foreign body, the most appropriate initial action is to encourage them to continue coughing forcefully, as this is the most effective way to expel the object. Abdominal thrusts and back blows are reserved for patients with ineffective coughs or complete airway obstruction. Cricothyrotomy is a last resort for complete, unresponsive airway obstruction."
+  },
+  {
+    "id": 578320320,
+    "topicId": "emergencies",
+    "question": "A patient with diagnosed adrenal insufficiency undergoing a prolonged and stressful dental procedure is at risk for adrenal crisis. Which cluster of symptoms is MOST characteristic of an acute adrenal crisis?",
+    "options": [
+      "Hypertension, bradycardia, and increased blood glucose",
+      "Profound hypotension, severe weakness, and abdominal pain",
+      "Warm, flushed skin, rapid pulse, and hyperactive reflexes",
+      "Localized edema, urticaria, and bronchospasm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Adrenal crisis (acute adrenal insufficiency) is characterized by profound hypotension, severe weakness, nausea, vomiting, and abdominal pain, often triggered by stress in patients with adrenal insufficiency. Hypertension, bradycardia, and hyperglycemia are not typical signs. Warm skin, rapid pulse, and hyperactive reflexes suggest hyperthyroidism, while localized edema, urticaria, and bronchospasm suggest an allergic reaction."
+  },
+  {
+    "id": 440902555,
+    "topicId": "emergencies",
+    "question": "A 28-year-old female patient, shortly after receiving a large dose of local anesthetic for a full mouth rehabilitation, begins to experience perioral tingling, lightheadedness, and then develops muscle twitching and slurred speech. Her heart rate is elevated. What is the MOST likely cause of these symptoms?",
+    "options": [
+      "Vasovagal syncope",
+      "Systemic local anesthetic toxicity",
+      "Allergic reaction to the local anesthetic",
+      "Hyperventilation syndrome"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The described symptoms, including perioral tingling, lightheadedness, muscle twitching, slurred speech, and elevated heart rate, occurring after a large dose of local anesthetic, are classic signs of systemic local anesthetic toxicity affecting the central nervous system. Vasovagal syncope presents differently (bradycardia, pallor). Allergic reactions manifest with skin reactions, bronchospasm, or hypotension. Hyperventilation causes tingling but usually not muscle twitching or slurred speech, and typically resolves with breathing control."
+  },
+  {
+    "id": 756892579,
+    "topicId": "emergencies",
+    "question": "When managing a conscious adult patient presenting with mild respiratory distress in the dental office, which oxygen delivery device is generally considered the most appropriate initial choice?",
+    "options": [
+      "Non-rebreather mask at 10-15 L/min",
+      "Bag-mask device with 100% oxygen",
+      "Simple face mask at 6-10 L/min",
+      "Nasal cannula at 2-6 L/min"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For conscious patients with mild to moderate respiratory distress, a nasal cannula at 2-6 L/min delivers supplemental oxygen comfortably and effectively, providing 24-44% inspired oxygen. Non-rebreather masks and simple face masks deliver higher concentrations and are typically used for more severe distress. A bag-mask device is used for patients with inadequate or absent breathing."
+  },
+  {
+    "id": 800357519,
+    "topicId": "emergencies",
+    "question": "A 75-year-old female patient with a history of hypertension and Type 2 diabetes suddenly exhibits left-sided facial weakness, difficulty speaking, and weakness in her left arm during a dental procedure. She is conscious but disoriented. What is the MOST appropriate immediate action?",
+    "options": [
+      "Administer sublingual nitroglycerin and monitor for improvement",
+      "Place the patient in a supine position and elevate his legs",
+      "Activate emergency medical services (EMS) immediately, noting the time of symptom onset",
+      "Administer oral glucose to rule out hypoglycemia"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The sudden onset of facial droop, slurred speech, and unilateral weakness in a patient with risk factors like hypertension and diabetes are classic signs of a cerebrovascular accident (stroke). Immediate activation of EMS is critical, as timely intervention (e.g., thrombolytics) is highly time-dependent. Nitroglycerin is for angina, supine position is not indicated for stroke, and oral glucose is for hypoglycemia, which is less likely with these specific neurological deficits."
+  },
+  {
+    "id": 879613271,
+    "topicId": "emergencies",
+    "question": "A 22-year-old female patient, anxious about her upcoming extraction, begins to breathe rapidly and deeply, reports feeling lightheaded and dizzy, and experiences tingling in her fingers and toes. What is the MOST likely diagnosis?",
+    "options": [
+      "Acute asthma attack",
+      "Hypoglycemia",
+      "Hyperventilation syndrome",
+      "Myocardial infarction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rapid, deep breathing (tachypnea), lightheadedness, dizziness, and paresthesia (tingling) in the extremities, often triggered by anxiety, are classic symptoms of hyperventilation syndrome, leading to respiratory alkalosis. An asthma attack involves wheezing and shortness of breath. Hypoglycemia includes confusion and diaphoresis. Myocardial infarction presents with chest pain and other systemic symptoms."
+  },
+  {
+    "id": 45959132,
+    "topicId": "emergencies",
+    "question": "A 30-year-old male patient, after receiving a local anesthetic injection, develops localized urticaria (hives) at the injection site and reports mild itching. There is no evidence of generalized rash, wheezing, or difficulty breathing. What is the MOST appropriate initial management?",
+    "options": [
+      "Administer 0.3-0.5 mg of 1:1000 epinephrine intramuscularly",
+      "Administer an oral antihistamine (e.g., diphenhydramine) and monitor",
+      "Immediately activate emergency medical services (EMS)",
+      "Elevate the patient's legs and administer oxygen"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Localized urticaria and mild itching without systemic symptoms (such as generalized rash, angioedema, bronchospasm, or hypotension) indicate a mild allergic reaction. An oral antihistamine is the appropriate initial treatment, and the patient should be observed for any progression of symptoms. Epinephrine is for severe allergic reactions/anaphylaxis, EMS is not immediately required for mild reactions, and leg elevation/oxygen are for syncope or respiratory distress."
+  },
+  {
+    "id": 1361956,
+    "topicId": "emergencies",
+    "question": "A patient undergoing a complex oral surgery procedure suddenly experiences significant, uncontrolled bleeding from the surgical site despite local measures. The patient has a history of taking rivaroxaban (Xarelto) for atrial fibrillation. What is the MOST appropriate initial step in managing this bleeding emergency in the dental office?",
+    "options": [
+      "Administer vitamin K to reverse the anticoagulant effect",
+      "Immediately transfer the patient to the nearest hospital emergency department",
+      "Administer a fibrinolytic agent to promote clotting",
+      "Apply firm, sustained local pressure with gauze and reassure the patient"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For significant bleeding in the dental office, even in patients on anticoagulants, the most appropriate initial step is to apply firm, sustained local pressure to the bleeding site with gauze. This often controls the bleeding. Vitamin K is not indicated for rivaroxaban reversal. Immediate transfer to the ER is necessary if local measures fail or if the patient becomes unstable, but local pressure is the essential first step. Fibrinolytic agents promote clot breakdown, which would worsen bleeding."
+  },
+  {
+    "id": 973695510,
+    "topicId": "emergencies",
+    "question": "A 45-year-old male patient, with no significant medical history, experiences sudden pallor, diaphoresis, bradycardia (heart rate 45 bpm), and hypotension (BP 90/60 mmHg) shortly after receiving a local anesthetic injection in the anterior maxilla. He reports feeling faint. What is the MOST likely cause of these signs and symptoms?",
+    "options": [
+      "Systemic local anesthetic toxicity",
+      "Anaphylactic reaction",
+      "Vasovagal syncope",
+      "Acute myocardial infarction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The classic presentation of pallor, diaphoresis, bradycardia, and hypotension, along with feeling faint, especially in an anxious patient after an injection, is highly indicative of vasovagal syncope. Local anesthetic toxicity typically presents with CNS excitation or depression. Anaphylaxis involves widespread allergic reactions and often tachycardia. Myocardial infarction would usually present with chest pain and other systemic signs, not typically immediate bradycardia and hypotension as the primary symptoms of fainting after an injection."
+  },
+  {
+    "id": 281123846,
+    "topicId": "emergencies",
+    "question": "When a medical emergency occurs in a dental office, comprehensive documentation is crucial. What is the MOST significant overall reason for maintaining such detailed records, beyond immediate patient safety?",
+    "options": [
+      "To serve as a legal record and facilitate future risk management strategies",
+      "To provide a detailed record for insurance claims and billing",
+      "To allow for internal staff performance reviews and disciplinary actions",
+      "To fulfill a mandatory requirement for dental office accreditation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Meticulous documentation of a medical emergency serves as a critical legal record, protecting both the patient and the dental team by detailing the events, interventions, and patient responses. It also provides valuable data for future risk management, allowing the practice to learn from incidents and improve protocols. While it may indirectly serve other purposes such as billing or accreditation, these are secondary to the legal and risk management implications."
+  },
+  {
+    "id": 789852435,
+    "topicId": "emergencies",
+    "question": "A 78-year-old female patient, who takes medication for hypertension and frequently reports dizziness upon standing, is slowly brought to an upright position after a 90-minute dental appointment. She immediately becomes pale, diaphoretic, and feels faint. What is the MOST likely underlying physiological cause of her symptoms?",
+    "options": [
+      "Myocardial infarction",
+      "Hypoglycemia",
+      "Orthostatic hypotension",
+      "Acute anxiety attack"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's age, history of hypertension medication, and reported dizziness upon standing after being supine, are classic indicators of orthostatic hypotension. This condition is common in elderly patients and those on antihypertensives due to impaired baroreceptor reflex and reduced intravascular volume. Myocardial infarction, hypoglycemia, or anxiety attacks would present with a different constellation of symptoms or would not be directly triggered by position change in this specific manner."
+  },
+  {
+    "id": 544951799,
+    "topicId": "emergencies",
+    "question": "A 38-year-old female patient, minutes after receiving an antibiotic prophylaxis, develops widespread urticaria, angioedema, wheezing, and a sudden drop in blood pressure. Epinephrine 0.5 mg intramuscularly has just been administered. What is the MOST crucial next step in her management?",
+    "options": [
+      "Administer a second dose of epinephrine immediately if symptoms persist or worsen.",
+      "Administer diphenhydramine 50 mg orally.",
+      "Position the patient supine with legs elevated.",
+      "Monitor vital signs every 15 minutes and wait for symptoms to subside."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Epinephrine is the primary treatment for anaphylaxis, and repeat doses at 5-15 minute intervals are crucial if symptoms do not improve or worsen. While positioning the patient supine (C) is appropriate for hypotension and monitoring vital signs (D) is essential, administering a second dose of epinephrine (A) takes precedence if the initial dose is insufficient. Diphenhydramine (B) is an adjunctive treatment for cutaneous symptoms and not the priority for a life-threatening reaction."
+  },
+  {
+    "id": 854658080,
+    "topicId": "emergencies",
+    "question": "A 65-year-old male patient, with a history of Type 1 diabetes, suddenly becomes unresponsive and diaphoretic. His blood glucose level is measured at 2.5 mmol/L. After initial attempts to administer oral glucose fail due to his altered consciousness, what is the MOST appropriate immediate management?",
+    "options": [
+      "Administer glucagon 1 mg intramuscularly.",
+      "Administer 50 mL of 50% dextrose intravenously.",
+      "Call emergency medical services (EMS) immediately.",
+      "Place the patient in the recovery position and monitor."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For an unconscious or uncooperative diabetic patient with severe hypoglycemia (blood glucose <3.0 mmol/L), intramuscular glucagon is the most appropriate first-line treatment in a dental office without IV access. IV dextrose (B) would be preferred if IV access is available but isn't a first-line option for a general dental office without it. While calling EMS (C) is important, definitive treatment should be initiated concurrently. Placing in recovery position (D) is supportive but not a treatment for hypoglycemia."
+  },
+  {
+    "id": 436068683,
+    "topicId": "emergencies",
+    "question": "A 52-year-old female patient, with no known cardiac history, suddenly develops severe substernal chest pain radiating to her left arm during a lengthy procedure. She is pale, diaphoretic, and reports shortness of breath. She has taken nitroglycerin (NTG) from her own supply, but it has not relieved the pain after 5 minutes. What is the MOST appropriate immediate action?",
+    "options": [
+      "Activate emergency medical services (EMS) and prepare for oxygen administration.",
+      "Administer a second dose of nitroglycerin and reassess.",
+      "Administer aspirin 160 mg to 325 mg chewable.",
+      "Position the patient in a comfortable, semi-upright position."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Unrelieved chest pain after one dose of NTG, especially in a patient with no prior cardiac history, strongly suggests acute myocardial infarction (MI) rather than stable angina. Activating EMS (A) is paramount, as is providing oxygen if available. Aspirin (C) is important but EMS activation and establishing oxygen are higher immediate priorities. Administering more NTG (B) without medical supervision after failure of the first dose is not recommended, and positioning (D) is supportive but not the primary intervention for a suspected MI."
+  },
+  {
+    "id": 550433543,
+    "topicId": "emergencies",
+    "question": "A conscious adult patient suddenly experiences a complete airway obstruction during a dental procedure. They are unable to speak, cough, or breathe. What is the MOST appropriate initial intervention?",
+    "options": [
+      "Attempt finger sweep to remove the object.",
+      "Administer back blows.",
+      "Start CPR immediately.",
+      "Perform abdominal thrusts (Heimlich maneuver)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a conscious adult with a complete airway obstruction, abdominal thrusts (Heimlich maneuver) are the most effective initial intervention according to Heart & Stroke Foundation of Canada guidelines. Back blows (B) are typically recommended for infants or as an alternative in some cases but abdominal thrusts are primary for adults. Finger sweeps (A) are only recommended if the object is visible, as blind sweeps can push the object further down. CPR (C) is initiated if the patient becomes unconscious."
+  },
+  {
+    "id": 421550933,
+    "topicId": "emergencies",
+    "question": "A 35-year-old male patient, minutes after receiving a high dose of local anesthetic for a prolonged procedure, suddenly develops generalized tonic-clonic seizures. What is the MOST appropriate immediate pharmacological intervention?",
+    "options": [
+      "Administer epinephrine intramuscularly.",
+      "Administer glucagon intramuscularly.",
+      "Administer oxygen via a non-rebreather mask.",
+      "Administer diazepam intravenously."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Generalized tonic-clonic seizures due to local anesthetic toxicity require immediate pharmacological intervention to control the seizure and protect the patient. Diazepam or other benzodiazepines are the first-line drugs for this purpose. Epinephrine (A) is for anaphylaxis, and glucagon (B) is for hypoglycemia. While oxygen (C) is crucial for respiratory support, it is not the *pharmacological* intervention to stop the seizure."
+  },
+  {
+    "id": 998174975,
+    "topicId": "emergencies",
+    "question": "A 20-year-old female patient, known to have severe persistent asthma, presents with acute dyspnea, wheezing, and is unable to complete sentences during a dental appointment. She has used her prescribed salbutamol inhaler twice with no improvement. What is the MOST appropriate immediate action?",
+    "options": [
+      "Administer a third dose of salbutamol via inhaler and reassess.",
+      "Administer oral prednisone.",
+      "Perform chest compressions.",
+      "Call emergency medical services (EMS) and prepare for oxygen administration."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A severe asthma attack unresponsive to initial bronchodilator therapy requires immediate activation of EMS and further medical intervention. While additional salbutamol (A) might be administered, the *most appropriate immediate action* for a *severe* and *refractory* attack is to call EMS and provide supportive care like oxygen. Oral prednisone (B) takes time to act and is not an immediate emergency treatment. Chest compressions (C) are for cardiac arrest, not an asthma attack in a conscious patient."
+  },
+  {
+    "id": 896751892,
+    "topicId": "emergencies",
+    "question": "A 22-year-old male patient, anxious about his upcoming extraction, becomes pale, diaphoretic, and reports feeling lightheaded. He loses consciousness briefly but quickly recovers with Trendelenburg positioning. After regaining consciousness, he still reports feeling weak and nauseated. What is the MOST appropriate next step in his management?",
+    "options": [
+      "Immediately resume the dental procedure, as consciousness has been regained.",
+      "Administer a sugary drink and allow him to rest in a supine position for at least 30 minutes.",
+      "Send him home with a responsible adult immediately, advising rest.",
+      "Administer oxygen via a nasal cannula and prepare for discharge."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Even after recovery from syncope, patients may experience lingering symptoms like weakness and nausea. It is crucial to allow them to rest in a supine position for at least 30 minutes and offer a sugary drink to help with recovery and prevent recurrence. Resuming the procedure (A) immediately is premature and unsafe. Sending him home immediately (C) without sufficient rest and observation could lead to further complications. Oxygen (D) might be supportive but rest and oral hydration are key."
+  },
+  {
+    "id": 213025709,
+    "topicId": "emergencies",
+    "question": "Which of the following signs or symptoms is MOST concerning and indicative of a hypertensive crisis requiring immediate medical intervention?",
+    "options": [
+      "Severe headache, blurred vision, and altered mental status with a blood pressure of 200/120 mmHg.",
+      "Headache and generalized malaise with a blood pressure of 160/100 mmHg.",
+      "Epistaxis and mild dizziness with a blood pressure of 180/110 mmHg.",
+      "Asymptomatic blood pressure reading of 190/115 mmHg."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hypertensive crisis (hypertensive emergency) is characterized by a severe elevation in blood pressure (typically >180/120 mmHg) accompanied by evidence of acute target organ damage, such as severe headache, altered mental status, blurred vision. Options B, C, and D describe elevated blood pressure (hypertensive urgency) which requires prompt management but not immediate emergency intervention for target organ damage."
+  },
+  {
+    "id": 663591680,
+    "topicId": "emergencies",
+    "question": "A 72-year-old male patient, with a history of hypertension and Type 2 diabetes, suddenly develops facial droop, slurred speech, and weakness in his right arm while in the dental chair. What is the MOST appropriate immediate action?",
+    "options": [
+      "Administer aspirin and monitor his symptoms.",
+      "Call emergency medical services (EMS) immediately and note the time of symptom onset.",
+      "Lay the patient flat and elevate his head slightly.",
+      "Offer a sugary drink to rule out hypoglycemia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's symptoms are highly suggestive of a stroke (cerebrovascular accident). Immediate activation of EMS is critical, and noting the time of symptom onset is vital for potential thrombolytic therapy. Aspirin (A) should only be given under medical direction once hemorrhagic stroke is ruled out. Laying the patient flat (C) might be inappropriate depending on blood pressure, and a sugary drink (D) is for hypoglycemia, not stroke."
+  },
+  {
+    "id": 692573330,
+    "topicId": "emergencies",
+    "question": "Which of the following patient conditions MOST significantly increases the risk of aspiration of foreign objects during dental procedures?",
+    "options": [
+      "Well-controlled Type 2 diabetes.",
+      "History of gastroesophageal reflux disease (GERD).",
+      "Mild, intermittent asthma.",
+      "Recent history of stroke with residual dysphagia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A history of stroke with residual dysphagia (difficulty swallowing) significantly impairs the protective airway reflexes, making aspiration of foreign objects much more likely. Well-controlled diabetes (A) and mild asthma (C) do not directly increase aspiration risk. GERD (B) can cause aspiration of gastric contents, but not typically foreign objects from dental procedures with the same immediate risk as dysphagia."
+  },
+  {
+    "id": 897441743,
+    "topicId": "emergencies",
+    "question": "A 45-year-old female patient with a known history of Addison's disease becomes lethargic, hypotensive, and develops severe abdominal pain during a prolonged and stressful oral surgery procedure. She did not take her usual stress-dose corticosteroids. What is the MOST appropriate immediate management step after calling EMS?",
+    "options": [
+      "Administer oral glucose.",
+      "Administer intramuscular glucagon.",
+      "Reassure the patient and provide oxygen.",
+      "Administer intravenous hydrocortisone."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The patient is experiencing an adrenal crisis due to insufficient corticosteroid levels during stress. After calling EMS, the most crucial immediate treatment is to administer a parenteral corticosteroid like intravenous hydrocortisone to replace the deficient hormones. Oral glucose (A) or intramuscular glucagon (B) are for hypoglycemia. Reassurance and oxygen (C) are supportive but not definitive treatment for adrenal crisis."
+  },
+  {
+    "id": 582140059,
+    "topicId": "emergencies",
+    "question": "What is the primary pharmacological mechanism by which epinephrine rapidly reverses the life-threatening symptoms of anaphylaxis?",
+    "options": [
+      "It blocks histamine receptors, reducing allergic inflammation.",
+      "It acts as a selective beta-2 adrenergic agonist, causing bronchodilation.",
+      "It stimulates alpha-1, beta-1, and beta-2 adrenergic receptors, leading to vasoconstriction, bronchodilation, and cardiac stimulation.",
+      "It suppresses the immune response, halting the release of inflammatory mediators."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Epinephrine is a non-selective adrenergic agonist that acts on alpha-1 receptors (causing vasoconstriction and increasing blood pressure), beta-1 receptors (increasing heart rate and contractility), and beta-2 receptors (causing bronchodilation), effectively reversing the severe hypotension, bronchospasm, and cardiovascular collapse seen in anaphylaxis. Blocking histamine receptors (A) is the mechanism of antihistamines. Selective beta-2 agonism (B) is for salbutamol. Epinephrine does not suppress the immune response (D)."
+  },
+  {
+    "id": 770101751,
+    "topicId": "emergencies",
+    "question": "A 68-year-old male patient, taking warfarin for atrial fibrillation, calls your office 4 hours after a simple extraction reporting continuous bleeding from the socket despite biting on gauze. He reports feeling lightheaded. What is the MOST appropriate initial management instruction over the phone?",
+    "options": [
+      "Advise him to stop taking warfarin for 24 hours.",
+      "Instruct him to place a moistened tea bag over the socket and apply firm pressure for 30 minutes.",
+      "Tell him to come to the office immediately for suturing.",
+      "Advise him to rinse his mouth vigorously with warm salt water."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For post-extraction bleeding, especially in a patient on anticoagulants, initial home management often involves applying firm, sustained pressure with a hemostatic agent like a moistened tea bag (tannic acid) for an extended period. Advising to stop warfarin (A) without consulting his physician is dangerous. While suturing (C) might be necessary, initial phone advice should focus on home management. Rinsing (D) can dislodge the clot and worsen bleeding."
+  },
+  {
+    "id": 564452737,
+    "topicId": "emergencies",
+    "question": "According to best practice guidelines for emergency preparedness in a dental office, what is the primary benefit of clearly defined roles and responsibilities for each team member during a medical emergency?",
+    "options": [
+      "It reduces the need for regular emergency drills.",
+      "It ensures faster and more organized response, minimizing confusion and delay.",
+      "It allows less experienced staff to take lead roles.",
+      "It primarily serves legal documentation requirements."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Clearly defined roles and responsibilities are crucial for an organized and efficient response during a medical emergency, minimizing confusion, delays, and improving patient outcomes. It does not reduce the need for drills (A), nor does it allow less experienced staff to lead (C). While documentation (D) is important, the primary benefit is operational efficiency."
+  },
+  {
+    "id": 707622751,
+    "topicId": "emergencies",
+    "question": "When using an Automated External Defibrillator (AED) on a child between 1 and 8 years of age, which of the following is the MOST appropriate pad placement or type?",
+    "options": [
+      "Adult pads, placed anterior-posterior, with no specific attenuation.",
+      "Adult pads, placed anterior-lateral, with no specific attenuation.",
+      "Child pads (attenuated), placed anterior-posterior.",
+      "Child pads (attenuated), placed anterior-lateral."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For children aged 1-8 years, it is recommended to use child-sized pads that provide an attenuated (lower) dose of energy, ideally placed in an anterior-posterior position to avoid pad-to-pad contact and ensure the electrical current crosses the heart effectively. Adult pads (A, B) deliver too much energy. Anterior-lateral (D) is an alternative but anterior-posterior is preferred for children."
+  },
+  {
+    "id": 247312557,
+    "topicId": "emergencies",
+    "question": "A 30-year-old male patient, with a history of chronic pain, is found unresponsive in the dental waiting room. His breathing is slow and shallow (respiratory rate 6 breaths/minute), and his pupils are pinpoint. What is the MOST appropriate immediate pharmacological intervention?",
+    "options": [
+      "Administer epinephrine intramuscularly.",
+      "Administer naloxone intramuscularly or intranasally.",
+      "Administer oxygen via a non-rebreather mask.",
+      "Administer flumazenil intravenously."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's presentation (unresponsive, slow/shallow breathing, pinpoint pupils) is highly suggestive of an opioid overdose. Naloxone is the specific antidote for opioid overdose and should be administered immediately. Epinephrine (A) is for anaphylaxis. Oxygen (C) is supportive but not the definitive pharmacological treatment. Flumazenil (D) is for benzodiazepine overdose."
+  },
+  {
+    "id": 701344636,
+    "topicId": "emergencies",
+    "question": "Beyond the immediate clinical care, what is the MOST critical aspect to meticulously record following a medical emergency in a dental office?",
+    "options": [
+      "The number of staff members present during the emergency.",
+      "The patient's personal preferences for future care.",
+      "A detailed, chronological account of events, interventions, and patient responses.",
+      "The names and contact information of all witnesses."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Meticulous, detailed, and chronological documentation of all events, interventions, and patient responses is critical for legal protection, continuity of care, and future reference. While knowing staff members (A) and witnesses (D) can be helpful, the *most critical* aspect is the clinical timeline. Patient preferences (B) are not relevant to immediate emergency documentation."
+  },
+  {
+    "id": 646547336,
+    "topicId": "emergencies",
+    "question": "A 50-year-old male patient with uncontrolled Type 1 diabetes presents for an urgent extraction. He reports feeling unwell for several days, has been excessively thirsty, frequently urinating, and has fruity-smelling breath. His blood glucose is 25 mmol/L. What is the MOST likely medical emergency he is experiencing?",
+    "options": [
+      "Hypoglycemia.",
+      "Hyperosmolar Hyperglycemic State (HHS).",
+      "Diabetic Ketoacidosis (DKA).",
+      "Lactic Acidosis."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The constellation of symptoms (polyuria, polydipsia, fruity breath, high blood glucose, history of Type 1 diabetes) is classic for Diabetic Ketoacidosis (DKA). Hypoglycemia (A) involves low blood glucose. HHS (B) is more common in Type 2 diabetes and presents without ketones, typically with even higher glucose levels and severe dehydration. Lactic acidosis (D) has different causes and clinical signs."
+  },
+  {
+    "id": 78645587,
+    "topicId": "emergencies",
+    "question": "What is the primary indication for administering supplemental oxygen to a patient experiencing a medical emergency in the dental office?",
+    "options": [
+      "To reduce anxiety in anxious patients.",
+      "To treat hyperventilation syndrome.",
+      "To prevent cardiovascular disease.",
+      "To support tissue oxygenation in cases of respiratory or circulatory compromise."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Supplemental oxygen is primarily administered to ensure adequate tissue oxygenation when there is compromised respiratory or circulatory function, such as in asthma, heart attack, stroke, or shock. It is not indicated to reduce anxiety (A), is contraindicated in hyperventilation (B), and does not prevent cardiovascular disease (C)."
+  },
+  {
+    "id": 646952996,
+    "topicId": "emergencies",
+    "question": "A 30-year-old male patient experiences sudden onset generalized urticaria, wheezing, and hypotension five minutes after receiving a local anesthetic. Epinephrine 0.3 mg intramuscularly has been administered, and his blood pressure is stabilizing, but he continues to experience significant bronchospasm and pruritus. What is the MOST appropriate NEXT pharmacological step?",
+    "options": [
+      "Administer diphenhydramine intramuscularly.",
+      "Administer another dose of epinephrine intramuscularly.",
+      "Administer salbutamol via metered-dose inhaler.",
+      "Administer intravenous fluids."
+    ],
+    "correctAnswer": 0,
+    "explanation": "After initial epinephrine administration for anaphylaxis, antihistamines like diphenhydramine are crucial to manage persistent cutaneous symptoms (urticaria, pruritus) and corticosteroids help prevent biphasic reactions. Another dose of epinephrine is only indicated if symptoms worsen or do not respond to the initial dose. While salbutamol addresses bronchospasm, diphenhydramine provides broader relief for generalized symptoms, and intravenous fluids are supportive but not the primary pharmacological intervention for persistent symptoms."
+  },
+  {
+    "id": 37561859,
+    "topicId": "emergencies",
+    "question": "A 25-year-old female patient, known to have epilepsy, is undergoing a dental procedure when she suddenly develops a generalized tonic-clonic seizure. The seizure has been continuous for five minutes, and she remains unresponsive. What is the MOST appropriate immediate management?",
+    "options": [
+      "Initiate basic life support (CPR).",
+      "Administer intravenous diazepam or lorazepam.",
+      "Place a bite block between her teeth.",
+      "Administer oral glucose."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A seizure lasting over five minutes constitutes status epilepticus, a medical emergency requiring immediate pharmacological intervention, typically with intravenous benzodiazepines like diazepam or lorazepam to terminate the seizure. CPR is only initiated if there is no pulse and breathing. Placing a bite block is contraindicated as it can cause further injury, and oral glucose is indicated for hypoglycemia, not as the primary management for a prolonged seizure itself."
+  },
+  {
+    "id": 538915771,
+    "topicId": "emergencies",
+    "question": "A 68-year-old male patient, taking rivaroxaban for atrial fibrillation, undergoes a simple extraction. Two hours later, he calls reporting continuous oozing from the extraction site. Pressure pack has been applied without significant improvement. What is the MOST appropriate initial management in the dental office?",
+    "options": [
+      "Discontinue rivaroxaban immediately and refer to emergency.",
+      "Place a new pressure pack with a hemostatic agent (e.g., tranexamic acid soaked gauze) and instruct the patient to bite firmly for 30-60 minutes.",
+      "Administer intravenous vitamin K.",
+      "Administer a local anesthetic with a vasoconstrictor and suture the site."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For localized post-extraction bleeding in a patient on rivaroxaban (a direct oral anticoagulant), the most appropriate initial management in the dental office is to apply local pressure with a hemostatic agent like tranexamic acid. Discontinuing rivaroxaban or administering vitamin K (which is for warfarin reversal) are not appropriate initial steps for localized bleeding. While suturing and a local anesthetic with vasoconstrictor can be part of management, a pressure pack with a hemostatic agent is a less invasive and often effective first step to manage persistent oozing."
+  },
+  {
+    "id": 928076795,
+    "topicId": "emergencies",
+    "question": "A 60-year-old male patient, with no known medical history, becomes unresponsive and lethargic during a dental appointment. His skin is warm and dry, and his breath has a fruity odour. His pulse is rapid and weak, and respiration is deep and laboured. What is the MOST likely medical emergency?",
+    "options": [
+      "Hypoglycemia",
+      "Anaphylaxis",
+      "Acute myocardial infarction",
+      "Diabetic ketoacidosis (DKA)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The signs and symptoms of warm, dry skin, fruity breath odour, rapid/weak pulse, and deep/laboured respirations (Kussmaul breathing) are classic indicators of diabetic ketoacidosis (DKA). Hypoglycemia typically presents with cold, clammy skin, and anxiety. Anaphylaxis would involve skin rashes, swelling, and severe hypotension, while acute myocardial infarction presents primarily with chest pain and associated symptoms."
+  },
+  {
+    "id": 230886026,
+    "topicId": "emergencies",
+    "question": "A 22-year-old female patient, with a history of vasovagal syncope, experiences an episode during a dental procedure. She loses consciousness briefly but recovers quickly after being placed in the supine position with legs elevated. What is the MOST important instruction to give her before she leaves the dental office?",
+    "options": [
+      "Advise her to avoid strenuous activity for the rest of the day and ensure she has a responsible adult to drive her home.",
+      "Instruct her to eat a large meal immediately to prevent recurrence.",
+      "Recommend she immediately schedule an appointment with a cardiologist.",
+      "Suggest she take an over-the-counter sedative before her next dental visit."
+    ],
+    "correctAnswer": 0,
+    "explanation": "After a syncopal episode, it is crucial to advise the patient to avoid strenuous activity and ensure they have a responsible escort for transport home, as residual lightheadedness or a recurrence can lead to injury. While a balanced meal is good, a large meal isn't a specific prevention for syncope, and an immediate cardiology referral is not necessary for a typical vasovagal episode with quick recovery. Self-medicating with sedatives is generally discouraged and should be discussed with a healthcare professional."
+  },
+  {
+    "id": 561083715,
+    "topicId": "emergencies",
+    "question": "According to current Canadian Heart & Stroke Foundation guidelines for adult cardiopulmonary resuscitation (CPR), what is the MOST appropriate range for chest compression rate and depth?",
+    "options": [
+      "Rate of 80-100 compressions/minute, depth of 2-3 cm",
+      "Rate of 100-120 compressions/minute, depth of 5-6 cm",
+      "Rate of 120-140 compressions/minute, depth of 6-7 cm",
+      "Rate of 60-80 compressions/minute, depth of 4-5 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Current Canadian Heart & Stroke Foundation guidelines recommend a chest compression rate of 100-120 compressions per minute and a depth of 5-6 cm (2-2.4 inches) for adult CPR. Rates and depths outside of this range are less effective in providing adequate circulation. Proper compression technique is vital for effective CPR outcomes."
+  },
+  {
+    "id": 820289658,
+    "topicId": "emergencies",
+    "question": "A 40-year-old male patient, minutes after receiving a high dose of local anesthetic with epinephrine, suddenly develops convulsions followed by profound hypotension and bradycardia leading to cardiac arrest. What is the MOST important immediate pharmacological intervention?",
+    "options": [
+      "Administer intravenous atropine.",
+      "Administer intravenous lipid emulsion.",
+      "Administer intravenous magnesium sulfate.",
+      "Administer intravenous sodium bicarbonate."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The symptoms described are indicative of severe local anesthetic systemic toxicity (LAST), particularly with cardiovascular collapse and cardiac arrest. Intravenous lipid emulsion therapy is the specific antidote for severe LAST, working as a lipid sink to sequester the lipophilic local anesthetic. Atropine treats bradycardia but not the underlying toxicity, while magnesium sulfate and sodium bicarbonate are not primary treatments for LAST."
+  },
+  {
+    "id": 239864872,
+    "topicId": "emergencies",
+    "question": "A 35-year-old female patient with a history of severe persistent asthma presents for a dental appointment. During the procedure, she develops an acute asthma attack, experiencing severe dyspnea, wheezing, and she is unresponsive to her own bronchodilator inhaler. What is the MOST appropriate immediate pharmacological intervention?",
+    "options": [
+      "Administer oral prednisone.",
+      "Administer intranasal flumazenil.",
+      "Administer nebulized salbutamol (albuterol) and consider epinephrine intramuscularly if severe and unresponsive.",
+      "Administer intravenous diphenhydramine."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a severe asthma attack unresponsive to the patient's own inhaler, the most appropriate immediate pharmacological intervention is nebulized salbutamol (a potent bronchodilator). If the attack remains severe or worsens, intramuscular epinephrine can be considered due to its bronchodilatory and vasoconstrictive effects. Oral prednisone is a slower-acting corticosteroid, flumazenil is for benzodiazepine overdose, and diphenhydramine is an antihistamine, none of which are primary treatments for an acute severe asthma attack."
+  },
+  {
+    "id": 181212516,
+    "topicId": "emergencies",
+    "question": "Which of the following non-pharmacological items is MOST critical to have readily available in a dental emergency kit for effective airway management?",
+    "options": [
+      "Oropharyngeal airways (OPAs) and nasopharyngeal airways (NPAs).",
+      "Blood pressure cuff and stethoscope.",
+      "Automated external defibrillator (AED).",
+      "Surgical scalpel and tracheostomy kit."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Oropharyngeal (OPA) and nasopharyngeal (NPA) airways are crucial non-pharmacological tools for maintaining a patent airway in an unconscious patient by preventing tongue obstruction. While other items like a BP cuff, stethoscope, and AED are vital for emergency management, they do not directly address initial airway patency. A surgical scalpel and tracheostomy kit are for advanced, invasive airway management, not typically part of a standard dental emergency kit or initial management."
+  },
+  {
+    "id": 97678785,
+    "topicId": "emergencies",
+    "question": "A 55-year-old female patient, with a history of controlled hypertension, suddenly complains of a severe, 'thunderclap' headache during a dental visit. Her blood pressure is measured at 200/120 mmHg, and she reports blurred vision. What is the MOST appropriate immediate action?",
+    "options": [
+      "Administer sublingual nitroglycerin and monitor.",
+      "Activate Emergency Medical Services (EMS) immediately for urgent transport to the hospital.",
+      "Administer a mild analgesic and reassure the patient.",
+      "Advise the patient to take her usual antihypertensive medication and rest."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's symptoms (severe 'thunderclap' headache, very high blood pressure, blurred vision) are indicative of a hypertensive emergency, which involves acute end-organ damage and requires immediate medical attention. Activating EMS for urgent transport to a hospital is the most appropriate initial action. Administering nitroglycerin is not indicated, and mild analgesics or simply taking usual medication are insufficient for managing a hypertensive emergency."
+  },
+  {
+    "id": 819606053,
+    "topicId": "emergencies",
+    "question": "A 9-month-old infant patient, while sitting in the dental chair, suddenly begins to cough weakly and makes high-pitched inspiratory sounds after aspirating a small piece of cotton roll. The infant is conscious but distressed. What is the MOST appropriate initial management?",
+    "options": [
+      "Perform a blind finger sweep to remove the object.",
+      "Administer 5 back blows followed by 5 chest thrusts.",
+      "Place the infant in an upright position and encourage continued coughing.",
+      "Initiate cardiopulmonary resuscitation (CPR)."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a conscious infant with a severe airway obstruction (weak cough, high-pitched sounds), the recommended initial action is to administer 5 back blows followed by 5 chest thrusts. A blind finger sweep is contraindicated as it can push the object further into the airway. Encouraging coughing is appropriate for a mild obstruction, but not for a severe one. CPR is only initiated if the infant becomes unconscious or stops breathing effectively."
+  },
+  {
+    "id": 22023415,
+    "topicId": "emergencies",
+    "question": "When assessing a patient for a suspected stroke in the dental office, which of the following signs is MOST indicative of an acute cerebrovascular event, according to the FAST acronym?",
+    "options": [
+      "A sudden severe headache with no other symptoms.",
+      "Sudden drooping of one side of the face (Facial droop).",
+      "Temporary numbness in one extremity lasting a few minutes.",
+      "Difficulty speaking clearly for an extended period after a dental procedure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The FAST acronym (Facial drooping, Arm weakness, Speech difficulty, Time to call emergency) is used to quickly identify the most common signs of stroke. Sudden drooping of one side of the face is a key indicator. A severe headache alone can have other causes, temporary numbness might be a TIA, and speech difficulty after a dental procedure could be due to local anesthetic, making facial droop the most specific and immediate indicator from the options given."
+  },
+  {
+    "id": 834436775,
+    "topicId": "emergencies",
+    "question": "A 45-year-old male patient with a known history of chronic adrenal insufficiency (Addison's disease) is undergoing a prolonged surgical extraction. During the procedure, he becomes increasingly weak, nauseated, and hypotensive. What is the MOST appropriate immediate management?",
+    "options": [
+      "Administer hydrocortisone (parenterally) and activate EMS.",
+      "Provide oral glucose and place in Trendelenburg position.",
+      "Administer an antiemetic and monitor vital signs closely.",
+      "Increase the local anesthetic dose to alleviate stress."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The symptoms of increasing weakness, nausea, and hypotension in a patient with chronic adrenal insufficiency during a stressful procedure strongly suggest an acute adrenal crisis. Immediate management involves administering a parenteral glucocorticoid like hydrocortisone and activating EMS for urgent transport and further medical care. Oral glucose or antiemetics are insufficient for managing an adrenal crisis, and increasing local anesthetic is inappropriate and potentially harmful."
+  },
+  {
+    "id": 196839795,
+    "topicId": "emergencies",
+    "question": "A 30-year-old male patient, known to misuse opioids, is found unconscious in the dental waiting room. He has shallow, slow respirations, pinpoint pupils, and is unresponsive to verbal or painful stimuli. What is the MOST appropriate immediate pharmacological intervention?",
+    "options": [
+      "Administer intramuscular naloxone.",
+      "Administer sublingual nitroglycerin.",
+      "Administer oral glucose.",
+      "Administer intramuscular epinephrine."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The combination of unconsciousness, shallow/slow respirations, and pinpoint pupils are classic signs of opioid overdose. Naloxone is a specific opioid antagonist that can rapidly reverse these effects. Nitroglycerin is for angina, oral glucose for hypoglycemia, and epinephrine for anaphylaxis; none are indicated for opioid overdose."
+  },
+  {
+    "id": 436445895,
+    "topicId": "emergencies",
+    "question": "When preparing to use an Automated External Defibrillator (AED) on an adult patient experiencing cardiac arrest, what is the correct placement for the AED pads?",
+    "options": [
+      "One pad on the upper left chest and the other on the upper right chest.",
+      "One pad on the upper right chest, just below the collarbone, and the other on the lower left side of the chest, below the left armpit.",
+      "Both pads on the patient's back, one high and one low.",
+      "One pad on the forehead and the other on the abdomen."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For adult AED pad placement, one pad should be placed on the upper right side of the chest, just below the collarbone, and the other on the lower left side of the chest, below the left armpit. This placement ensures the electrical current passes through the heart effectively to deliver a shock. Other placements are incorrect and will not allow for effective defibrillation."
+  },
+  {
+    "id": 257955804,
+    "topicId": "emergencies",
+    "question": "A 50-year-old female patient, with no known cardiac history, suddenly complains of severe, crushing chest pain radiating to her left arm during a dental appointment. She appears pale, diaphoretic, and reports shortness of breath. Her pain is NOT relieved by rest. What is the MOST appropriate initial action?",
+    "options": [
+      "Administer oral antacids and continue the procedure.",
+      "Activate Emergency Medical Services (EMS) immediately and administer aspirin (if not contraindicated) and nitroglycerin (if systolic BP > 90 mmHg).",
+      "Reassure the patient, provide supplemental oxygen, and monitor.",
+      "Advise the patient to go to an urgent care clinic after her appointment."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's symptoms (severe, crushing chest pain radiating to the left arm, pallor, diaphoresis, shortness of breath, not relieved by rest) are highly indicative of an acute myocardial infarction (heart attack). Immediate activation of EMS is critical, along with administering aspirin (antiplatelet) and nitroglycerin (vasodilator) if there are no contraindications and blood pressure is stable, as per cardiac emergency protocols. Antacids, reassurance, or referral to an urgent care clinic are insufficient and dangerous delays."
+  },
+  {
+    "id": 803944811,
+    "topicId": "emergencies",
+    "question": "A 28-year-old anxious female patient begins to breathe rapidly and deeply, complaining of lightheadedness, tingling in her fingers, and tightness in her chest. Her oxygen saturation is 99%. What is the MOST likely cause of her symptoms?",
+    "options": [
+      "Acute asthma attack",
+      "Hyperventilation",
+      "Myocardial infarction",
+      "Hypoglycemia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The symptoms of rapid/deep breathing, lightheadedness, tingling in fingers (paresthesia), and chest tightness, especially in an anxious patient with normal oxygen saturation, are classic signs of hyperventilation. An acute asthma attack would typically present with wheezing and lower oxygen saturation. Myocardial infarction symptoms are generally more focused on severe chest pain, and hypoglycemia would involve cold/clammy skin and altered mental status."
+  },
+  {
+    "id": 356001714,
+    "topicId": "emergencies",
+    "question": "A 70-year-old male patient, with a history of congestive heart failure, suddenly develops severe dyspnea, orthopnea, and coughs up pink, frothy sputum during a dental visit. His skin is clammy, and he appears cyanotic. What is the MOST appropriate immediate management?",
+    "options": [
+      "Administer sublingual nitroglycerin and observe.",
+      "Place the patient in a semi-Fowler's or upright position, administer oxygen, and activate EMS.",
+      "Perform the Heimlich maneuver repeatedly.",
+      "Initiate basic life support (CPR) immediately."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's signs and symptoms (severe dyspnea, orthopnea, pink frothy sputum, clammy skin, cyanosis, history of CHF) are highly indicative of acute pulmonary edema. The most appropriate immediate management is to place the patient in a semi-Fowler's or upright position to aid breathing, administer high-flow oxygen, and activate EMS for urgent medical transport. Sublingual nitroglycerin may be part of hospital management but not the immediate pre-hospital step. The Heimlich maneuver is for airway obstruction, and CPR is for cardiac arrest, neither is indicated here."
+  },
+  {
+    "id": 220813594,
+    "topicId": "emergencies",
+    "question": "A 7-year-old child presents to the dental office immediately after completely avulsing a permanent maxillary central incisor due to a fall. The tooth is clean and has been stored in milk. What is the MOST appropriate immediate step in the dental office for this avulsed tooth?",
+    "options": [
+      "Clean the tooth with alcohol, apply a topical fluoride, and store it in saline.",
+      "Attempt to gently rinse the tooth with saline, then immediately replant it into the socket, and splint.",
+      "Refer the patient to an oral surgeon for evaluation within 24 hours.",
+      "Discard the tooth as replantation of avulsed primary teeth is contraindicated."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an avulsed permanent tooth, the most critical step is immediate replantation to preserve the periodontal ligament cells, ideally within 60 minutes. After gently rinsing with saline (if needed), the tooth should be replanted into the socket and then splinted. Referral to an oral surgeon within 24 hours would be a delay that compromises prognosis, and discarding the tooth is incorrect as this is a permanent tooth."
   }
 ]
