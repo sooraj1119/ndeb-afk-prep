@@ -12,12 +12,18 @@ export const loadTopicQuestions = async (topicId: string): Promise<any[]> => {
 };
 
 export const loadAllQuestions = async (): Promise<void> => {
-  if (manifestCache) return;
   try {
-    const res = await fetch(import.meta.env.BASE_URL + "questions/manifest.json");
-    manifestCache = await res.json();
+    if (!manifestCache) {
+      const res = await fetch(import.meta.env.BASE_URL + "questions/manifest.json");
+      manifestCache = await res.json();
+    }
+    if (manifestCache) {
+      await Promise.all(
+        manifestCache.map((t: any) => loadTopicQuestions(t.id).catch(() => []))
+      );
+    }
   } catch (e) {
-    console.error("Failed to load manifest", e);
+    console.error("Failed to load all questions", e);
   }
 };
 
