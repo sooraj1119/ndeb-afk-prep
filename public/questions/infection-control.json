@@ -1,1 +1,782 @@
-[]
+[
+  {
+    "id": 694604820,
+    "topicId": "infection-control",
+    "question": "A 32-year-old female dental assistant sustains a percutaneous injury with a contaminated needle after administering local anesthetic. What is the MOST appropriate immediate step?",
+    "options": [
+      "Immediately wash the wound with soap and water and encourage bleeding.",
+      "Apply alcohol-based hand rub to the wound.",
+      "Report the incident to the supervisor after completing the current procedure.",
+      "Take a prophylactic antibiotic to prevent infection."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Immediate washing of the wound with soap and water and encouraging bleeding helps to reduce the viral load at the site of injury, which is the standard first aid for percutaneous exposures. Applying alcohol-based hand rub is not effective for wound decontamination. Reporting should happen immediately after initial first aid, not after completing the procedure, and prophylactic antibiotics are not the standard immediate step."
+  },
+  {
+    "id": 438471942,
+    "topicId": "infection-control",
+    "question": "A dental healthcare worker has completed the Hepatitis B vaccination series and tested positive for Hepatitis B surface antibody (anti-HBs). What is the MOST appropriate recommendation regarding future booster doses?",
+    "options": [
+      "A booster dose should be administered every 5 years.",
+      "A booster dose should be administered if exposed to a Hepatitis B positive patient.",
+      "Routine booster doses are not recommended for immunocompetent responders.",
+      "A booster dose is recommended every 10 years to maintain immunity."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For immunocompetent individuals who have completed the primary Hepatitis B vaccination series and have documented adequate antibody response, routine booster doses are generally not recommended as long-term immunity is typically achieved. Boosters are not given every 5 or 10 years and are not given just upon exposure if immunity is confirmed."
+  },
+  {
+    "id": 957014346,
+    "topicId": "infection-control",
+    "question": "A 45-year-old male patient presents for an emergency scaling due to acute pain. During history taking, he reveals a recent positive test for active tuberculosis but needs urgent care. Which combination of Personal Protective Equipment (PPE) is MOST appropriate for the dental hygienist performing this aerosol-generating procedure?",
+    "options": [
+      "Surgical mask, safety glasses, and non-sterile gloves.",
+      "Level 3 surgical mask, face shield, protective gown, and examination gloves.",
+      "Protective gown, examination gloves, and a face shield.",
+      "N95 respirator, face shield, protective gown, and examination gloves."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a patient with confirmed active tuberculosis requiring an aerosol-generating procedure, an N95 respirator is essential to protect against airborne transmission. Additionally, a face shield, protective gown, and examination gloves are necessary for comprehensive barrier protection. A surgical mask (Level 3) is insufficient for airborne pathogens."
+  },
+  {
+    "id": 666107318,
+    "topicId": "infection-control",
+    "question": "According to infection control guidelines, which of the following best describes a \"non-critical instrument\"?",
+    "options": [
+      "An instrument that comes into contact with intact skin.",
+      "An instrument that penetrates soft tissue, bone, or enters into the bloodstream.",
+      "An instrument that comes into contact with mucous membranes or non-intact skin.",
+      "An instrument used for surgical procedures."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Non-critical instruments are those that come into contact only with intact skin and pose the lowest risk of infection transmission, requiring cleaning and low-level disinfection. Instruments penetrating tissue are critical, and those contacting mucous membranes or non-intact skin are semi-critical. Surgical instruments are generally critical."
+  },
+  {
+    "id": 120551973,
+    "topicId": "infection-control",
+    "question": "During daily monitoring, a dental assistant observes that the internal chemical indicator strip in a sterilization pouch for critical instruments has not changed color after a steam sterilization cycle. What is the MOST appropriate immediate action?",
+    "options": [
+      "Re-sterilize the pouch with a new indicator strip immediately.",
+      "Remove the instruments, re-package them, and re-run the cycle, then quarantine and re-test the sterilizer.",
+      "Release the instruments for use, but note the indicator failure in the logbook.",
+      "Discard the instruments as they are considered contaminated."
+    ],
+    "correctAnswer": 1,
+    "explanation": "If a chemical indicator fails, the sterilizer's function is questionable. The instruments must be considered non-sterile, removed, re-packaged, and re-run through a new cycle. Concurrently, the sterilizer should be quarantined, and its function re-tested (e.g., with a biological indicator) to identify and correct any underlying issue before further use. Releasing instruments for use would be a breach of infection control, and discarding them is unnecessary if proper reprocessing can occur."
+  },
+  {
+    "id": 69377261,
+    "topicId": "infection-control",
+    "question": "A 62-year-old male patient with a history of COPD is scheduled for a routine dental cleaning. The dental assistant is preparing the operatory. What is the MOST appropriate action regarding the dental unit waterlines (DUWLs) to ensure patient safety before starting the procedure?",
+    "options": [
+      "Run the DUWLs for 20-30 seconds between patients.",
+      "Flush the DUWLs for at least 2 minutes at the beginning of the day and 20-30 seconds between patients.",
+      "Use only tap water without any additional chemical treatment in the DUWLs.",
+      "Replace all DUWLs at the start of each week."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Flushing DUWLs for at least 2 minutes at the beginning of the day and 20-30 seconds between patients helps remove planktonic microorganisms and reduces the microbial load, ensuring patient safety, especially for susceptible individuals like those with COPD. Running for shorter periods between patients is insufficient as an initial daily flush. Using tap water without treatment and weekly replacement of lines are not standard or effective long-term solutions for microbial control."
+  },
+  {
+    "id": 345621984,
+    "topicId": "infection-control",
+    "question": "A 7-year-old male patient presents for his recall appointment. He has a history of two carious lesions restored on primary molars and moderate oral hygiene. His community water is non-fluoridated. What is the MOST appropriate fluoride recommendation for this patient?",
+    "options": [
+      "Prescribe daily fluoride supplements (tablets/drops) based on age and water analysis.",
+      "Apply a professional fluoride varnish every 3-6 months.",
+      "Recommend an over-the-counter fluoride toothpaste only.",
+      "Advise rinsing with a 0.05% sodium fluoride mouthwash daily."
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a non-fluoridated community, systemic fluoride supplements (tablets or drops) are appropriate for children at moderate to high caries risk, prescribed based on age and water fluoride concentration. Professional fluoride varnish is also beneficial but systemic fluoride provides broader protection. Over-the-counter toothpaste alone is insufficient for moderate risk, and rinses are often not recommended for children this young due to swallowing risk."
+  },
+  {
+    "id": 383927365,
+    "topicId": "infection-control",
+    "question": "Which of the following is considered the primary etiological factor for the initiation and progression of dental caries?",
+    "options": [
+      "Genetic predisposition.",
+      "Presence of specific acidogenic and aciduric bacteria.",
+      "Consumption of non-cariogenic foods.",
+      "Tooth morphology with deep pits and fissures."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The presence of specific acidogenic and aciduric bacteria, particularly *Streptococcus mutans* and *Lactobacillus*, is the primary etiological factor for dental caries, as these bacteria metabolize fermentable carbohydrates to produce acids that demineralize tooth structure. While genetic predisposition and tooth morphology are contributing factors, they do not directly cause caries without the presence of these bacteria and fermentable carbohydrates."
+  },
+  {
+    "id": 21533161,
+    "topicId": "infection-control",
+    "question": "For routine hand hygiene in a dental clinic when hands are not visibly soiled, which agent is generally considered MOST effective against a broad spectrum of microorganisms?",
+    "options": [
+      "Alcohol-based hand rub with 60-90% alcohol.",
+      "Plain soap and water.",
+      "Antimicrobial soap with triclosan.",
+      "Sterilized surgical scrub."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Alcohol-based hand rubs with 60-90% alcohol are highly effective against a broad spectrum of bacteria and viruses and are recommended for routine hand hygiene when hands are not visibly soiled due to their superior germicidal action and speed. Plain soap and water are for visibly soiled hands or after contact with spores. Antimicrobial soaps are less effective than alcohol-based rubs and not always necessary for routine use."
+  },
+  {
+    "id": 268222467,
+    "topicId": "infection-control",
+    "question": "During an ultrasonic scaling procedure on a 35-year-old healthy patient, the dental hygienist observes visible droplets settling on nearby surfaces and fine mist remaining suspended in the air. What is the MOST effective strategy to protect the dental team and environment from both types of contamination?",
+    "options": [
+      "Use of a pre-procedural antimicrobial rinse by the patient.",
+      "High-volume evacuation (HVE) combined with appropriate PPE and surface barriers.",
+      "Ensuring proper ventilation in the operatory.",
+      "Limiting the use of aerosol-generating procedures."
+    ],
+    "correctAnswer": 1,
+    "explanation": "High-volume evacuation (HVE) is crucial for capturing both spatter and aerosols at the source, significantly reducing environmental contamination. This, combined with appropriate PPE for the team and surface barriers on environmental surfaces, forms the most effective strategy against both visible droplets (spatter) and airborne particles (aerosols). Pre-procedural rinses reduce microbial load but not the physical spread. Ventilation helps but is less direct than HVE. Limiting procedures is not always feasible."
+  },
+  {
+    "id": 242919623,
+    "topicId": "infection-control",
+    "question": "A 68-year-old male patient presents with an active herpes labialis lesion. An impression needs to be taken for a crown. After the impression is removed from the patient's mouth, what is the MOST appropriate immediate infection control step for the impression material?",
+    "options": [
+      "Rinse the impression under tap water and then immerse it in an intermediate-level disinfectant.",
+      "Spray the impression with a surface disinfectant and allow it to air dry.",
+      "Wrap the impression in a paper towel and send it directly to the lab.",
+      "Place the impression in an autoclave for sterilization."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Impressions must be thoroughly rinsed to remove patient debris and saliva, then disinfected with an appropriate intermediate-level disinfectant before sending to the lab, regardless of the patient's infectious status, but especially with active lesions. Spraying might not ensure complete coverage. Sending it directly without disinfection risks cross-contamination. Autoclaving is generally not suitable for impression materials, as it can distort them."
+  },
+  {
+    "id": 487228754,
+    "topicId": "infection-control",
+    "question": "How does topical fluoride primarily exert its anti-caries effect?",
+    "options": [
+      "By directly killing cariogenic bacteria in the oral cavity.",
+      "By forming fluorapatite, making the enamel more resistant to acid demineralization and promoting remineralization.",
+      "By physically filling pits and fissures on occlusal surfaces.",
+      "By increasing salivary flow, thereby enhancing buffering capacity."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Topical fluoride primarily works by integrating into the enamel to form fluorapatite, which is more acid-resistant than hydroxyapatite, and by promoting the remineralization of early carious lesions. While fluoride can have some antibacterial effects at high concentrations, its main protective mechanism is through enhancing tooth structure integrity and repair. Filling pits and fissures is the function of sealants, not fluoride."
+  },
+  {
+    "id": 789684120,
+    "topicId": "infection-control",
+    "question": "A dental office needs to dispose of extracted teeth containing amalgam restorations. What is the MOST appropriate final disposal method for the amalgam component?",
+    "options": [
+      "Place it in the regular office waste for landfill.",
+      "Dispose of it with general biomedical waste for incineration.",
+      "Sterilize the amalgam and then discard it.",
+      "Send it to a licensed amalgam recycler."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Amalgam contains mercury and must be managed as hazardous waste. The most appropriate final disposal method for the amalgam component is to send it to a licensed amalgam recycler to prevent mercury release into the environment, complying with Canadian environmental regulations. Placing it in regular office waste or biomedical waste, or sterilizing it, does not address the mercury content."
+  },
+  {
+    "id": 236701314,
+    "topicId": "infection-control",
+    "question": "Which level of disinfection is generally considered sufficient for reprocessing semi-critical instruments in a dental setting if heat sterilization is not feasible?",
+    "options": [
+      "Low-level disinfection.",
+      "Intermediate-level disinfection.",
+      "High-level disinfection.",
+      "Antiseptic cleaning."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Semi-critical instruments contact mucous membranes or non-intact skin and require high-level disinfection if heat sterilization is not possible, as this level kills all microorganisms except high numbers of bacterial spores. Low-level disinfection is for non-critical items, and intermediate-level disinfection is not sufficient for semi-critical instruments. Antiseptic cleaning refers to agents used on living tissue, not inanimate objects."
+  },
+  {
+    "id": 683141511,
+    "topicId": "infection-control",
+    "question": "What is the MOST effective long-term strategy for maintaining acceptable microbial water quality in dental unit waterlines (DUWLs)?",
+    "options": [
+      "Daily flushing of waterlines with tap water.",
+      "Using sterile water from independent reservoirs for all procedures.",
+      "Continuous chemical treatment with an EPA-approved product or use of point-of-use filters.",
+      "Draining the waterlines completely at the end of each day."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Continuous chemical treatment with an EPA-approved product or the use of point-of-use filters are the most effective long-term strategies for controlling biofilm and maintaining acceptable microbial water quality in DUWLs. Daily flushing alone only removes planktonic bacteria but does not eliminate biofilm. Using sterile water from independent reservoirs is effective but typically for surgical procedures, not all routine procedures."
+  },
+  {
+    "id": 59642626,
+    "topicId": "infection-control",
+    "question": "Which method of sterilization monitoring provides the BEST assurance of sterilization success by verifying the actual killing of highly resistant bacterial spores?",
+    "options": [
+      "External chemical indicators (e.g., tape).",
+      "Internal chemical indicators (e.g., strips).",
+      "Physical monitors (e.g., temperature, pressure gauges).",
+      "Biological indicators (spore tests)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Biological indicators (spore tests) are the most reliable method for monitoring sterilization success because they directly verify the killing of highly resistant bacterial spores, which are the most challenging microorganisms to destroy. Chemical and physical monitors only indicate that certain conditions were met, not that sterilization actually occurred."
+  },
+  {
+    "id": 626651883,
+    "topicId": "infection-control",
+    "question": "A 25-year-old female patient presents for a routine check-up and cleaning. During the medical history update, she reports a persistent cough, night sweats, and unexplained weight loss for the past two months. What is the MOST appropriate initial action by the dental practitioner?",
+    "options": [
+      "Proceed with the routine cleaning but advise the patient to see her physician.",
+      "Prescribe a broad-spectrum antibiotic and reschedule the appointment.",
+      "Defer non-urgent dental treatment and refer the patient for medical evaluation.",
+      "Isolate the patient in a separate room and perform the cleaning using N95 respirator."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The reported symptoms (persistent cough, night sweats, weight loss) are classic indicators of potential active tuberculosis or another serious respiratory infection. Deferring non-urgent dental treatment and immediately referring the patient for a medical evaluation is the most appropriate action to protect both the patient and the dental team from potential transmission. Proceeding with treatment risks exposure, and prescribing antibiotics is outside the scope of dental practice for systemic symptoms."
+  },
+  {
+    "id": 69861381,
+    "topicId": "infection-control",
+    "question": "Immediately after a restorative procedure, several contaminated instruments need to be reprocessed. What is the MOST appropriate initial step in the instrument reprocessing cycle at the point of use?",
+    "options": [
+      "Place instruments directly into the ultrasonic cleaner.",
+      "Manually scrub instruments immediately with a brush and detergent.",
+      "Transport instruments to the processing area in a covered container.",
+      "Rinse instruments under running water to remove gross debris and prevent drying of organic material."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The immediate initial step at the point of use is to rinse instruments under running water to remove gross debris and prevent organic material from drying and hardening, which makes subsequent cleaning more difficult. Placing instruments directly into an ultrasonic cleaner or transporting them comes after this initial rinse. Manual scrubbing is generally discouraged due to sharps injury risk."
+  },
+  {
+    "id": 376112201,
+    "topicId": "infection-control",
+    "question": "A dental assistant notices a persistent foul odor emanating from the high-volume evacuator (HVE) lines in a treatment room. The lines are flushed with water daily. What is the MOST appropriate next step to address this issue?",
+    "options": [
+      "Increase the frequency of flushing with plain water.",
+      "Disassemble the lines and manually scrub the interior surfaces.",
+      "Implement a shock treatment with a specialized dental unit waterline cleaner.",
+      "Replace all HVE lines immediately."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A foul odor in HVE lines often indicates significant biofilm accumulation, which cannot be effectively removed by plain water flushing alone. Implementing a shock treatment with a specialized dental unit waterline cleaner designed for suction lines is the most appropriate step to break down and remove existing biofilm. Increasing plain water flushing is insufficient. Manual scrubbing is impractical and usually impossible for internal lines. Replacing all lines is a last resort if cleaning protocols fail."
+  },
+  {
+    "id": 856792291,
+    "topicId": "infection-control",
+    "question": "A dental hygienist frequently touches the computer keyboard in the treatment room during patient care. If impervious barriers are not used on the keyboard, what is the MOST appropriate method to prevent cross-contamination between patients?",
+    "options": [
+      "Use an alcohol-based hand rub immediately before and after touching the keyboard during a procedure.",
+      "Spray the keyboard with a low-level disinfectant and wipe it with a paper towel.",
+      "Use sterile gloves when touching the keyboard during patient care.",
+      "Clean and disinfect the keyboard with an intermediate-level disinfectant after each patient."
+    ],
+    "correctAnswer": 3,
+    "explanation": "If impervious barriers are not used, environmental surfaces like keyboards that are frequently touched during patient care must be cleaned and disinfected with an intermediate-level disinfectant after each patient to prevent cross-contamination. Alcohol-based hand rubs are for hands, not surfaces. Low-level disinfectants are insufficient for surfaces that may be contaminated with blood/saliva. Sterile gloves are unnecessary and not cost-effective for this purpose."
+  },
+  {
+    "id": 568421860,
+    "topicId": "infection-control",
+    "question": "A 7-year-old female patient with newly erupted permanent first molars presents for her recall appointment. Clinical examination reveals deep, retentive pits and fissures on her mandibular first molars, and she has a history of incipient caries on her primary molars. Her parents are concerned about future decay. What is the MOST appropriate primary preventive measure for these teeth?",
+    "options": [
+      "Application of topical fluoride varnish every 3 months.",
+      "Daily rinsing with a 0.12% chlorhexidine mouthwash.",
+      "Placement of pit and fissure sealants.",
+      "Prescription of high-concentration fluoride toothpaste."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pit and fissure sealants are highly effective primary preventive measures for newly erupted permanent molars with deep, retentive pits and fissures, especially in patients with a history of caries, by physically blocking bacteria and food from entering the grooves. Topical fluoride varnish (A) is beneficial but less effective than sealants for deep fissures. Chlorhexidine mouthwash (B) is not a primary prevention for pit and fissure caries and has limited use in children."
+  },
+  {
+    "id": 479629658,
+    "topicId": "infection-control",
+    "question": "A 42-year-old male patient presents for an emergency toothache. He is visibly anxious and reports that he has not seen a dentist in many years. During the examination, the dentist observes a periapical abscess. What is the MOST appropriate initial infection control principle to apply during this patient's treatment?",
+    "options": [
+      "Employ airborne precautions due to potential unknown respiratory infections.",
+      "Apply strict isolation techniques, presuming a highly contagious condition.",
+      "Utilize standard precautions, treating all bodily fluids as potentially infectious.",
+      "Request a comprehensive medical history and blood tests before proceeding."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Standard precautions are fundamental to infection control and dictate that all blood and body fluids should be treated as potentially infectious, regardless of the patient's known or unknown health status. Airborne precautions (A) and strict isolation (B) are reserved for specific highly transmissible infections. Requesting blood tests (D) is not an initial infection control measure and would delay urgent care."
+  },
+  {
+    "id": 190375668,
+    "topicId": "infection-control",
+    "question": "A 48-year-old male patient with a known history of latent tuberculosis (TB) infection is scheduled for a routine dental cleaning. He reports no active symptoms (cough, fever, weight loss) and has completed a course of prophylactic therapy years ago. What specific infection control measure, if any, is MOST appropriate for this patient during his appointment?",
+    "options": [
+      "No additional precautions beyond standard precautions are typically required.",
+      "Defer treatment until he provides a negative sputum test.",
+      "Advise the patient to wear an N95 respirator during the procedure.",
+      "Schedule the patient at the end of the day to minimize potential exposure."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For patients with latent TB infection who are asymptomatic and have completed appropriate therapy, standard precautions are generally sufficient for routine dental procedures as they are not considered infectious. Deferring treatment (B) or requiring an N95 respirator (C) would be appropriate for active, infectious TB, not latent. Scheduling at the end of the day (D) is a measure for active, airborne infectious diseases, not latent TB."
+  },
+  {
+    "id": 251315836,
+    "topicId": "infection-control",
+    "question": "A 14-year-old female patient, who recently started wearing orthodontic braces, expresses concern about \"white spots\" appearing on her teeth around the brackets. Clinical examination confirms incipient demineralization. What is the MOST important preventive recommendation for this patient to minimize further demineralization?",
+    "options": [
+      "Discontinuation of all sugary beverages and snacks.",
+      "Daily use of a fluoride mouth rinse in addition to brushing.",
+      "Regular professional scaling and polishing every 3 months.",
+      "Application of a desensitizing toothpaste twice daily."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For orthodontic patients at increased risk of demineralization, daily fluoride mouth rinses, in addition to good oral hygiene with fluoridated toothpaste, significantly enhance remineralization and reduce the risk of white spot lesions. Discontinuation of sugary foods (A) is important but often difficult and not the *most important* single recommendation for *demineralization* specifically. Desensitizing toothpaste (D) is for sensitivity, not caries prevention."
+  },
+  {
+    "id": 891158292,
+    "topicId": "infection-control",
+    "question": "A 28-year-old healthy female presents for the extraction of a horizontally impacted mandibular third molar. The procedure will involve bone removal and soft tissue reflection. What category of patient care item is the surgical bur used for osteotomy?",
+    "options": [
+      "Non-critical item.",
+      "Semi-critical item.",
+      "Critical item.",
+      "Environmental surface."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Critical items are instruments that penetrate soft tissue or bone, or enter into or contact the bloodstream or other normally sterile tissue, and must be sterilized before each use to prevent transmission of infectious agents. A surgical bur used for osteotomy directly penetrates bone, classifying it as a critical item. Non-critical (A) items contact intact skin, and semi-critical (B) items contact mucous membranes or non-intact skin."
+  },
+  {
+    "id": 838327461,
+    "topicId": "infection-control",
+    "question": "Which of the following methods provides the BEST method to ensure the sterility of instruments in an autoclave over time?",
+    "options": [
+      "Daily use of internal chemical indicators in every package.",
+      "Recording temperature and pressure gauges for each cycle.",
+      "Visual inspection of instrument packaging for tears.",
+      "Weekly biological monitoring (spore testing)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Biological monitoring (spore testing) is the only method that directly verifies the killing of highly resistant bacterial spores, thereby confirming that the sterilizer is functioning effectively. Internal chemical indicators (A) only indicate that conditions for sterilization were met inside the package, not actual sterility. Recording gauges (B) monitors the physical parameters, but does not confirm microbial kill."
+  },
+  {
+    "id": 178936496,
+    "topicId": "infection-control",
+    "question": "A 5-year-old male patient, with moderate caries risk according to his dentist, is seen for a recall visit. He brushes twice daily with fluoridated toothpaste. His last professional fluoride application was 6 months ago. What is the MOST appropriate fluoride recommendation for this patient?",
+    "options": [
+      "No further professional fluoride application is needed at this time.",
+      "Professional topical fluoride application (e.g., varnish) every 3-6 months.",
+      "Daily fluoride rinse at home.",
+      "High-concentration fluoride toothpaste daily."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For children with moderate caries risk, professional topical fluoride application (such as varnish) every 3-6 months is recommended to help prevent caries. No further application (A) would be insufficient for moderate risk. High-concentration fluoride toothpaste (D) is usually reserved for high caries risk patients, and daily fluoride rinses (C) may not be suitable for this age group."
+  },
+  {
+    "id": 299437370,
+    "topicId": "infection-control",
+    "question": "When cleaning and disinfecting environmental surfaces in a dental operatory, which type of disinfectant is generally suitable for intermediate-level disinfection?",
+    "options": [
+      "Glutaraldehyde.",
+      "Hydrogen peroxide.",
+      "Isopropyl alcohol 70%.",
+      "Sodium hypochlorite solution (household bleach)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Sodium hypochlorite solutions (e.g., household bleach diluted 1:100 or 1:10) are effective intermediate-level disinfectants commonly used for environmental surface disinfection in dentistry. Glutaraldehyde (A) is a high-level disinfectant/sterilant, typically for heat-sensitive instruments. Isopropyl alcohol 70% (C) is a low-level disinfectant/antiseptic, often not robust enough for operatory surfaces with visible blood or bioburden."
+  },
+  {
+    "id": 870074242,
+    "topicId": "infection-control",
+    "question": "A 65-year-old female patient presents with a chief complaint of dry mouth (xerostomia) due to Sjögren's syndrome. She is concerned about increased caries risk. Which of the following is the MOST important preventive strategy to recommend?",
+    "options": [
+      "Daily application of a high-concentration fluoride gel or toothpaste.",
+      "Regular use of sugar-free chewing gum to stimulate salivary flow.",
+      "Avoiding all acidic foods and beverages.",
+      "Frequent sips of water throughout the day."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Patients with xerostomia are at significantly increased risk for root and coronal caries due to reduced salivary protection; therefore, daily application of high-concentration fluoride gel or toothpaste is a critical preventive measure. While sugar-free gum (B), avoiding acidic foods (C), and frequent water sips (D) are helpful adjuncts, they do not provide the direct remineralizing and antibacterial benefits of high-concentration fluoride for this high-risk group."
+  },
+  {
+    "id": 915266450,
+    "topicId": "infection-control",
+    "question": "What is the recommended frequency for performing shock treatment of dental unit waterlines (DUWLs) with chemical disinfectants to reduce biofilm accumulation?",
+    "options": [
+      "Annually.",
+      "Monthly.",
+      "Weekly.",
+      "According to manufacturer's instructions, typically daily or weekly."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The frequency of shock treatment for dental unit waterlines (DUWLs) should follow the specific manufacturer's instructions for the chosen waterline treatment product, which often varies but can be daily, weekly, or as part of a continuous treatment regimen. There is no universal annual, monthly, or weekly standard for *shock treatment* across all systems, as different systems have different protocols. Monthly (B) and weekly (C) are too generalized."
+  },
+  {
+    "id": 605868063,
+    "topicId": "infection-control",
+    "question": "A 35-year-old male patient, known to be HIV-positive and on antiretroviral therapy with a good CD4 count and undetectable viral load, requires multiple restorative procedures. What infection control precautions are necessary during his treatment?",
+    "options": [
+      "Only contact precautions are needed due to the nature of HIV.",
+      "Strict airborne precautions, including an N95 respirator for the dental team.",
+      "Postpone treatment until a negative HIV test is confirmed.",
+      "Standard precautions are sufficient, as for all patients."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Standard precautions are designed to prevent the transmission of infectious agents, including HIV, and are sufficient for the treatment of all patients, regardless of their known or presumed infectious status. Contact (A) or airborne (B) precautions are not indicated for HIV. Postponing treatment for a negative HIV test (C) is unethical and unnecessary given standard precautions."
+  },
+  {
+    "id": 536990042,
+    "topicId": "infection-control",
+    "question": "A 2-year-old child presents with multiple cavitated lesions on the maxillary anterior teeth. The parents report the child frequently falls asleep with a bottle containing juice. What is the MOST critical recommendation to prevent further progression of these early childhood caries (ECC)?",
+    "options": [
+      "Switching to a bottle containing only water at bedtime.",
+      "Initiating daily chlorhexidine rinses.",
+      "Applying topical fluoride varnish every 3 months.",
+      "Prescribing a high-concentration fluoride toothpaste for daily use."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The MOST critical step in preventing further progression of ECC in this scenario is to eliminate the primary etiological factor: prolonged exposure to fermentable carbohydrates, especially at bedtime. Switching to water (A) directly addresses this. While topical fluoride (C) and high-concentration toothpaste (D) are important adjuncts for high caries risk, they are secondary to removing the primary cause. Chlorhexidine rinses (B) are not typically recommended for toddlers due to swallowing risk."
+  },
+  {
+    "id": 661728230,
+    "topicId": "infection-control",
+    "question": "A 50-year-old female patient presents for a routine check-up. She reports a new, persistent cough and mild fever for the past week. She has no known history of TB. What is the MOST appropriate initial action regarding her dental appointment?",
+    "options": [
+      "Administer a rapid antigen test for respiratory viruses before starting treatment.",
+      "Proceed with the appointment using standard precautions, including a medical mask for the patient.",
+      "Advise the patient to reschedule her appointment until her symptoms have resolved.",
+      "Instruct the patient to wear an N95 respirator and immediately isolate her in a negative pressure room."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Patients presenting with acute respiratory symptoms like a new, persistent cough and fever should be advised to reschedule non-urgent dental appointments until their symptoms have resolved to prevent potential transmission of respiratory illnesses. Proceeding with standard precautions (B) is not sufficient to prevent airborne transmission if a highly contagious respiratory infection is present. Administering a rapid test (A) is not a standard dental office protocol."
+  },
+  {
+    "id": 346948799,
+    "topicId": "infection-control",
+    "question": "When donning personal protective equipment (PPE) for an aerosol-generating procedure (AGP) involving potential splashes, what is the correct sequence?",
+    "options": [
+      "Gown, mask, eyewear, gloves.",
+      "Gloves, gown, mask, eyewear.",
+      "Mask, gown, gloves, eyewear.",
+      "Eyewear, mask, gown, gloves."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct sequence for donning PPE is typically gown first, followed by a mask (or N95 respirator), then eye protection (goggles/face shield), and finally gloves as the last step. This order helps to ensure proper coverage and minimize contamination. Starting with gloves (B) or mask/eyewear (C, D) would disrupt the proper layering for optimal protection."
+  },
+  {
+    "id": 430628374,
+    "topicId": "infection-control",
+    "question": "A 10-year-old patient with a history of generalized enamel hypoplasia is identified as having a very high caries risk. Besides regular dental check-ups and good oral hygiene, what additional preventive measure is MOST strongly indicated?",
+    "options": [
+      "Placement of composite restorations on all hypoplastic surfaces.",
+      "Weekly application of chlorhexidine varnish by the dentist.",
+      "Dietary counseling focusing solely on eliminating all sugars.",
+      "Daily use of a custom tray for prescription-strength fluoride gel application."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For patients with very high caries risk due to conditions like enamel hypoplasia, daily use of prescription-strength fluoride gel in custom trays provides maximum topical fluoride exposure and significantly enhances remineralization and caries prevention. Placing restorations (A) is a restorative, not primarily preventive, measure. Dietary counseling (C) is important but often insufficient on its own for very high-risk individuals."
+  },
+  {
+    "id": 527097783,
+    "topicId": "infection-control",
+    "question": "Which category of waste in a dental office requires specific management as regulated medical waste (biohazardous waste)?",
+    "options": [
+      "Extracted teeth without amalgam.",
+      "Used disposable prophy cups.",
+      "Sharps, such as contaminated needles and scalpel blades.",
+      "Amalgam restorations removed during restorative procedures."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sharps, including contaminated needles, scalpel blades, and other sharp instruments that have come into contact with blood or body fluids, are classified as regulated medical waste (biohazardous waste) due to their potential to cause percutaneous injury and transmit infection. Extracted teeth without amalgam (A) are typically non-regulated medical waste. Amalgam restorations (D) are hazardous waste due to mercury, not typically biohazardous."
+  },
+  {
+    "id": 847641132,
+    "topicId": "infection-control",
+    "question": "A 68-year-old female patient with a history of mitral valve prolapse (without regurgitation) is scheduled for a deep scaling and root planing procedure. She asks if she needs to take antibiotics before the appointment. What is the MOST appropriate advice for her?",
+    "options": [
+      "Antibiotic prophylaxis is generally not recommended for mitral valve prolapse without regurgitation.",
+      "She needs antibiotic prophylaxis due to her history of mitral valve prolapse.",
+      "She needs antibiotic prophylaxis because deep scaling is an invasive procedure.",
+      "She should consult her physician to determine the need for prophylaxis."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Current guidelines from the American Heart Association (AHA) and endorsed by the Canadian Dental Association (CDA) state that antibiotic prophylaxis is *not* recommended for mitral valve prolapse unless it is associated with valvular regurgitation or a history of infective endocarditis. Deep scaling and root planing (C) are indeed invasive, but the patient's specific cardiac condition dictates the need for prophylaxis. Consulting her physician (D) is an option, but the dental professional should know the guidelines."
+  },
+  {
+    "id": 491907851,
+    "topicId": "infection-control",
+    "question": "What is the primary mechanism by which pit and fissure sealants prevent dental caries?",
+    "options": [
+      "Releasing fluoride into the enamel structure.",
+      "Antibacterial action of the sealant material against cariogenic bacteria.",
+      "Strengthening the enamel by promoting remineralization.",
+      "Creating a physical barrier that prevents bacteria and food debris from entering pits and fissures."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The primary mechanism of pit and fissure sealants is to create a physical barrier that mechanically blocks cariogenic bacteria and their nutrient supply (food debris) from accumulating in the deep pits and fissures, thus preventing caries initiation. While some sealants may release a small amount of fluoride (A), this is a secondary benefit, not the primary mechanism. Sealants do not primarily exert antibacterial action (B) or strengthen enamel by remineralization (C)."
+  },
+  {
+    "id": 39161406,
+    "topicId": "infection-control",
+    "question": "Following an exposure incident involving a percutaneous injury with a contaminated needle, which of the following is the MOST immediate and critical step for the exposed dental healthcare worker (DHCW)?",
+    "options": [
+      "Immediately wash the wound with soap and water, and encourage bleeding.",
+      "Inform the patient about the incident and obtain their consent for HIV testing.",
+      "Report the incident to the employer and complete an exposure report form.",
+      "Initiate post-exposure prophylaxis (PEP) within 1-2 hours of the incident."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The immediate and critical first step after a percutaneous injury is to thoroughly wash the wound with soap and water and encourage bleeding, to reduce the viral load at the site of injury. Reporting the incident (C) and considering PEP (D) are crucial subsequent steps, but washing is the immediate action. Informing the patient and obtaining consent (B) is also important later, but not the *immediate* step for the DHCW."
+  },
+  {
+    "id": 667583449,
+    "topicId": "infection-control",
+    "question": "According to Canadian dental infection control guidelines, what is the minimal acceptable level of microbial quality for dental unit waterlines (DUWLs)?",
+    "options": [
+      "Less than 100 colony-forming units (CFU) per millilitre.",
+      "Less than 500 CFU per millilitre.",
+      "Less than 200 CFU per millilitre.",
+      "Potable water standard of less than 10 CFU per millilitre."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The generally accepted standard for microbial quality of dental unit waterlines (DUWLs) is that the bacterial count should be less than 500 colony-forming units (CFU) per millilitre, which is the same as the acceptable limit for potable drinking water. While some guidelines aim for lower counts, 500 CFU/mL is the widely accepted minimum standard. The potable water standard of <10 CFU/mL (D) is an ideal goal, not the minimal acceptable level."
+  },
+  {
+    "id": 506640926,
+    "topicId": "infection-control",
+    "question": "A 6-year-old female patient presents for a recall appointment. Her dental history includes moderate caries risk, and she has newly erupted permanent first molars. Her parents are concerned about future cavities. What is the MOST appropriate preventive intervention to recommend for her permanent molars at this appointment?",
+    "options": [
+      "Placement of pit and fissure sealants",
+      "Daily 0.05% sodium fluoride rinse",
+      "Application of a high-concentration fluoride varnish every 6 months",
+      "Prescribing a fluoride supplement tablet"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pit and fissure sealants are highly effective in preventing caries in newly erupted permanent molars by providing a physical barrier against bacterial accumulation in susceptible grooves. While fluoride varnish is beneficial, sealants offer superior protection for occlusal surfaces. Daily fluoride rinses are generally not recommended for children this young due to swallowing risk, and fluoride supplements are indicated for systemic benefit in areas with low water fluoridation, not as a primary treatment for newly erupted molars with moderate caries risk."
+  },
+  {
+    "id": 4365344,
+    "topicId": "infection-control",
+    "question": "Which of the following best describes the appropriate reprocessing standard for heat-tolerant critical instruments used in a dental procedure?",
+    "options": [
+      "Cleaning, then high-level disinfection",
+      "Cleaning, then immersion in a chemical sterilant",
+      "Cleaning, then packaging, then sterilization",
+      "Cleaning, then immediate use steam sterilization (IUSS)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Critical instruments penetrate soft tissues or bone and must be sterilized to destroy all microorganisms, including spores. The standard process involves thorough cleaning to remove organic debris, packaging to maintain sterility, and then sterilization. High-level disinfection is for semi-critical instruments, and IUSS is generally discouraged for routine use as it bypasses the packaging step crucial for maintaining sterility."
+  },
+  {
+    "id": 691144250,
+    "topicId": "infection-control",
+    "question": "A 55-year-old male patient presents with a persistent cough, night sweats, and unexplained weight loss. He reports recent travel to a region with a high prevalence of tuberculosis. He is scheduled for an urgent tooth extraction. What is the MOST appropriate immediate action regarding his dental appointment?",
+    "options": [
+      "Proceed with the extraction using standard precautions, but ensure extra ventilation.",
+      "Prescribe a prophylactic antibiotic and reschedule the extraction for one week later.",
+      "Postpone the extraction and immediately refer the patient for medical evaluation for suspected tuberculosis.",
+      "Perform the extraction in a separate, isolated operatory with enhanced air filtration."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's symptoms are highly suggestive of active tuberculosis, which is an airborne disease. Proceeding with dental treatment, especially an aerosol-generating procedure like an extraction, poses a significant risk of transmission to dental staff and other patients. Immediate medical referral for diagnosis and treatment is critical, and the dental appointment should be postponed until medical clearance is obtained."
+  },
+  {
+    "id": 533092883,
+    "topicId": "infection-control",
+    "question": "What is the primary mechanism by which xylitol chewing gum helps prevent dental caries?",
+    "options": [
+      "It delivers fluoride ions directly to the enamel surface, strengthening it against acid attacks.",
+      "It increases salivary flow, which enhances buffering capacity and remineralization.",
+      "It provides a non-fermentable sugar substitute that reduces acid production by oral bacteria.",
+      "It directly inhibits the growth of Streptococcus mutans and reduces its adhesion to tooth surfaces."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Xylitol's primary anti-caries mechanism is its direct inhibitory effect on the growth and metabolism of Streptococcus mutans, the main cariogenic bacterium, and its ability to reduce their adhesion to tooth surfaces. While it is a non-fermentable sugar substitute and can stimulate saliva, these are secondary to its direct antimicrobial properties against S. mutans. Xylitol does not directly deliver fluoride ions."
+  },
+  {
+    "id": 416514315,
+    "topicId": "infection-control",
+    "question": "A dental assistant is cleaning a dental operatory after a procedure involving significant aerosols. Which type of personal protective equipment (PPE) is MOST crucial for protecting against airborne pathogens during this cleaning process?",
+    "options": [
+      "Standard examination gloves",
+      "Face shield",
+      "Surgical mask",
+      "N95 respirator"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An N95 respirator is designed to filter out at least 95% of airborne particles, including small aerosolized pathogens, making it essential for protection during procedures or clean-up involving significant aerosols where airborne transmission is a concern. A surgical mask filters large droplets but not fine aerosols. A face shield protects the eyes and face from splashes, and gloves protect hands from contact, but neither offers respiratory protection against airborne particles."
+  },
+  {
+    "id": 227027961,
+    "topicId": "infection-control",
+    "question": "According to Canadian infection control guidelines, what is the recommended minimum frequency for flushing dental unit waterlines (DUWLs) between patients?",
+    "options": [
+      "20-30 seconds",
+      "1-2 minutes",
+      "At the beginning and end of each day only",
+      "5-10 minutes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flushing dental unit waterlines for 20-30 seconds between patients helps to remove transient microorganisms and any material that may have been drawn into the lines from the patient's mouth. This practice is part of standard infection control protocols to minimize cross-contamination. Flushing only at the beginning and end of the day is insufficient for patient-to-patient cross-contamination control."
+  },
+  {
+    "id": 968324632,
+    "topicId": "infection-control",
+    "question": "A 12-year-old female patient presents with generalized gingivitis and poor oral hygiene, despite regular brushing. She reports infrequent flossing. Her current fluoride exposure is optimal through community water fluoridation. What is the MOST appropriate adjunctive oral hygiene recommendation for this patient?",
+    "options": [
+      "Daily use of a chlorhexidine gluconate mouthwash.",
+      "Introduction of an oral irrigator with plain water.",
+      "Switching to a high-fluoride toothpaste.",
+      "Instruction on proper flossing technique and frequency."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Generalized gingivitis is primarily caused by plaque accumulation, especially in interproximal areas where brushing is less effective. Providing thorough instruction on proper flossing technique and encouraging consistent use directly addresses the primary etiological factor. Chlorhexidine is a short-term adjunct, oral irrigators are supplemental, and high-fluoride toothpaste is primarily for caries prevention, not the main solution for gingivitis when fluoride exposure is already optimal."
+  },
+  {
+    "id": 45019122,
+    "topicId": "infection-control",
+    "question": "Which of the following statements accurately describes the distinction between disinfection and sterilization in dentistry?",
+    "options": [
+      "Disinfection refers to cleaning instruments, while sterilization refers to heat treatment.",
+      "Sterilization kills all microorganisms, including bacterial spores, while disinfection does not.",
+      "Disinfection kills all microorganisms, including bacterial spores, while sterilization does not.",
+      "Sterilization is used for environmental surfaces, while disinfection is for critical instruments."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sterilization is a process that destroys or eliminates all forms of microbial life, including highly resistant bacterial spores. Disinfection, on the other hand, reduces the number of pathogenic microorganisms but does not reliably eliminate bacterial spores. Cleaning is a separate preliminary step, and disinfection is typically used for environmental surfaces and semi-critical instruments, while sterilization is reserved for critical instruments."
+  },
+  {
+    "id": 777791170,
+    "topicId": "infection-control",
+    "question": "A 70-year-old male patient with a history of head and neck radiation therapy for cancer presents with severe xerostomia and rampant root caries. His current oral hygiene includes brushing twice daily with a regular fluoride toothpaste. What is the MOST appropriate additional preventive measure to recommend?",
+    "options": [
+      "Daily use of a 0.12% chlorhexidine gluconate rinse.",
+      "Application of pit and fissure sealants on unaffected teeth.",
+      "Regular use of an over-the-counter antimicrobial mouthwash.",
+      "Prescription of a high-concentration fluoride toothpaste (e.g., 5000 ppm fluoride)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Patients with severe xerostomia, especially post-radiation, are at extremely high risk for rampant caries due to significantly reduced salivary flow and buffering capacity. A high-concentration fluoride toothpaste provides enhanced remineralization and anti-caries benefits superior to regular fluoride toothpaste, directly addressing the severe risk. Chlorhexidine is a short-term adjunct, sealants are for pits and fissures, and generic antimicrobial rinses lack the specific remineralizing benefit of high-fluoride products."
+  },
+  {
+    "id": 217695949,
+    "topicId": "infection-control",
+    "question": "What is the primary reason for performing biological monitoring of sterilization equipment in a dental office?",
+    "options": [
+      "To verify that the correct temperature and pressure were reached during the cycle.",
+      "To ensure that instruments are visually clean before sterilization.",
+      "To determine the effectiveness of the chemical indicator strips used in each load.",
+      "To confirm that all microorganisms, including highly resistant spores, have been killed."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Biological monitoring, typically using spore tests, is the only method that directly verifies the lethality of the sterilization process by demonstrating that highly resistant bacterial spores have been killed. Chemical indicators confirm physical parameters like temperature, time, and steam penetration, while visual inspection ensures cleanliness. Biological monitoring provides the ultimate assurance of sterilization efficacy."
+  },
+  {
+    "id": 411106538,
+    "topicId": "infection-control",
+    "question": "A 38-year-old healthy female patient requires scaling and root planing for moderate periodontitis. The dental hygienist plans to use an ultrasonic scaler. To minimize the generation and spread of aerosols during the procedure, which of the following is the MOST effective single measure?",
+    "options": [
+      "Pre-procedural rinse with chlorhexidine gluconate.",
+      "Use of a high-volume evacuator (HVE) system.",
+      "Wearing an N95 respirator by the operator.",
+      "Scheduling the patient as the last appointment of the day."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The most effective single measure to minimize the generation and spread of aerosols from the patient's mouth during ultrasonic scaling is the consistent and proper use of a high-volume evacuator (HVE) system, which actively captures aerosols at their source. While pre-procedural rinses reduce microbial load and N95 respirators protect the operator, HVE directly addresses the dispersal of aerosols into the environment."
+  },
+  {
+    "id": 8204145,
+    "topicId": "infection-control",
+    "question": "A 5-year-old child presents with several new carious lesions detected at their recall appointment, despite using fluoridated toothpaste. The child lives in an area without community water fluoridation. What is the MOST appropriate additional preventive measure?",
+    "options": [
+      "Prescribing a daily fluoride supplement.",
+      "Recommending a daily antimicrobial mouthwash.",
+      "Placing pit and fissure sealants on all primary molars.",
+      "Instructing on improved brushing technique only."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a child with active caries in a non-fluoridated area, a daily fluoride supplement is the most appropriate additional measure to provide systemic fluoride exposure, which is crucial for overall caries prevention and remineralization. While sealants and improved brushing are important, addressing the lack of optimal systemic fluoride is paramount. Antimicrobial mouthwashes are generally not recommended for children of this age and do not provide systemic fluoride benefits."
+  },
+  {
+    "id": 17586044,
+    "topicId": "infection-control",
+    "question": "A 28-year-old pregnant patient presents for a routine dental cleaning. She has no known medical conditions. To ensure her safety and that of the fetus, which infection control consideration is MOST critical during her appointment?",
+    "options": [
+      "Avoiding the use of local anesthetics containing epinephrine.",
+      "Using only manual instruments to prevent exposure to aerosols.",
+      "Postponing all radiographic imaging until after delivery.",
+      "Ensuring all instruments are properly sterilized according to standard protocols."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ensuring all instruments are properly sterilized is a universal and critical infection control standard essential for *all* patients, including pregnant ones, to prevent cross-contamination and transmission of infectious diseases. Avoiding epinephrine is often not necessary for healthy pregnant patients, and manual instruments or postponing radiographs are not general infection control requirements for this population; standard precautions and shielding for radiographs are sufficient."
+  },
+  {
+    "id": 343563236,
+    "topicId": "infection-control",
+    "question": "What is the primary purpose of using a pre-procedural antimicrobial mouth rinse before dental treatment?",
+    "options": [
+      "To sterilize the oral cavity and prevent bacteremia.",
+      "To reduce the number of microorganisms in the patient's oral cavity, thereby reducing aerosol contamination.",
+      "To provide long-term antimicrobial protection for the patient.",
+      "To whiten teeth and improve patient breath during the procedure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pre-procedural antimicrobial mouth rinses are used to temporarily reduce the microbial load in the patient's oral cavity. This reduction helps to decrease the number of microorganisms dispersed in aerosols and splatter generated during dental procedures, thereby protecting the dental team and other patients. They do not sterilize the oral cavity, nor do they provide long-term protection or whiten teeth."
+  },
+  {
+    "id": 47436758,
+    "topicId": "infection-control",
+    "question": "A 4-year-old male patient has several early childhood caries lesions on his primary maxillary incisors. His parents report that he frequently sips on juice throughout the day. What is the MOST important dietary counseling point for the parents to prevent further progression of caries?",
+    "options": [
+      "Eliminate all sugary foods from the child's diet.",
+      "Switch from juice to milk or water between meals and at bedtime.",
+      "Brush the child's teeth immediately after every juice consumption.",
+      "Limit juice consumption to once a day with a meal."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Frequent sipping of sugary beverages like juice provides a prolonged exposure to fermentable carbohydrates, leading to constant acid attacks and severe early childhood caries. Replacing juice with non-cariogenic alternatives like milk or water, especially between meals and at bedtime, significantly reduces this critical risk factor. While limiting juice is helpful, replacing it with water or milk is more effective. Eliminating all sugary foods is often unrealistic, and brushing after every sip is impractical and does not prevent all acid attacks."
+  },
+  {
+    "id": 269321932,
+    "topicId": "infection-control",
+    "question": "Which classification of instruments, according to Canadian infection control guidelines, requires at least high-level disinfection or sterilization because they contact mucous membranes or non-intact skin?",
+    "options": [
+      "Critical instruments",
+      "Semi-critical instruments",
+      "Non-critical instruments",
+      "Environmental surfaces"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Semi-critical instruments are those that contact mucous membranes or non-intact skin but do not penetrate them, and they require at least high-level disinfection or, ideally, sterilization if heat-tolerant. Critical instruments penetrate soft tissue or bone and must always be sterilized. Non-critical instruments contact only intact skin and require intermediate-level disinfection, while environmental surfaces require intermediate or low-level disinfection."
+  },
+  {
+    "id": 704872368,
+    "topicId": "infection-control",
+    "question": "A 45-year-old female patient presents for a dental cleaning. During the medical history update, she reports being diagnosed with a latent herpes simplex virus (HSV) infection but currently has no active lesions. What is the MOST appropriate infection control approach for her scheduled appointment?",
+    "options": [
+      "Postpone the appointment until a negative HSV test is confirmed.",
+      "Treat as normal, using standard precautions.",
+      "Prescribe a prophylactic antiviral medication before the appointment.",
+      "Use enhanced droplet precautions, including an N95 mask for the dental team."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A latent herpes simplex virus infection without active lesions does not pose an increased risk for transmission beyond what standard precautions already address. Standard precautions, which include hand hygiene, PPE, and safe injection practices, are designed to prevent the transmission of infectious agents from all patients, regardless of their known or suspected infection status. Postponing treatment or using enhanced precautions are unnecessary for an inactive latent infection."
+  },
+  {
+    "id": 212883088,
+    "topicId": "infection-control",
+    "question": "Regarding the use of topical fluorides, which statement accurately describes their primary anti-caries mechanism?",
+    "options": [
+      "They kill cariogenic bacteria in the oral biofilm.",
+      "They increase the pH of the oral environment.",
+      "They form a physical barrier on the tooth surface, preventing bacterial adhesion.",
+      "They enhance remineralization and inhibit demineralization of enamel."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Topical fluorides primarily exert their anti-caries effect by enhancing the remineralization of demineralized enamel and dentin, forming a more acid-resistant fluorapatite, and by directly inhibiting the demineralization process. While fluoride has some weak antimicrobial effects, this is not its main mechanism. It does not significantly increase pH or form a physical barrier on the tooth surface."
+  },
+  {
+    "id": 274007888,
+    "topicId": "infection-control",
+    "question": "A dental assistant is preparing instruments for sterilization. After manual cleaning and rinsing, a large portion of the instruments are still visibly contaminated with blood and debris. What is the MOST appropriate next step?",
+    "options": [
+      "Place the instruments directly into the sterilizer, as sterilization will kill all microorganisms.",
+      "Apply a high-level disinfectant to the instruments before placing them in the sterilizer.",
+      "Reclean the instruments manually or mechanically until all visible debris is removed.",
+      "Proceed with ultrasonic cleaning, as it is more effective than manual cleaning."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cleaning is a critical prerequisite for effective sterilization; sterilizers cannot reliably sterilize instruments that are not visibly clean, as organic debris can shield microorganisms from the sterilizing agent. Therefore, the instruments must be re-cleaned until all visible contamination is removed. Placing contaminated instruments directly into the sterilizer or relying on high-level disinfectant without prior thorough cleaning compromises the sterilization process. Ultrasonic cleaning is a method of mechanical cleaning, but if visible debris remains, further cleaning is required."
+  },
+  {
+    "id": 207613619,
+    "topicId": "infection-control",
+    "question": "A 30-year-old male patient with uncontrolled diabetes mellitus presents for an emergency tooth extraction due to a severe abscess. His last HbA1c was 9.5%. What is the MOST appropriate initial management regarding his systemic condition before proceeding with the extraction?",
+    "options": [
+      "Administer a prophylactic antibiotic immediately and proceed with the extraction.",
+      "Obtain medical consultation to optimize his glycemic control before the extraction.",
+      "Perform the extraction with local anesthesia only, avoiding vasoconstrictors.",
+      "Reschedule the extraction for a week later, instructing him to monitor his blood sugar."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Uncontrolled diabetes (HbA1c 9.5%) significantly increases the risk of post-operative infection, delayed healing, and other complications. Therefore, obtaining a medical consultation to optimize glycemic control is the most appropriate initial step before proceeding with an invasive procedure like an extraction, unless the infection poses an immediate, life-threatening risk. Administering antibiotics alone is insufficient without addressing the underlying systemic issue. Avoiding vasoconstrictors is not directly related to infection risk from diabetes, and simply rescheduling without medical management is inadequate."
+  }
+]
