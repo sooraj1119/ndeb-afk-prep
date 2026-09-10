@@ -131,12 +131,18 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
         const dueIds = getDueSRSQuestions();
         qList = getQuestions().filter((q: any) => dueIds.includes(q.id));
         setTopicName("Daily SRS Review");
-      } else {
-        qList = await loadTopicQuestions(topicId);
-        setTotalAvailable(qList.length);
-        if (!currentPremium) qList = qList.slice(0, 100);
-        setTopicName(topics.find(t => t.id === topicId)?.name || "");
-        const progress = getTopicProgress(topicId);
+      } else {
+          qList = await loadTopicQuestions(topicId);
+          setTopicName(topics.find(t => t.id === topicId)?.name || "");
+        }
+        
+        if (!isSimulatedMode) {
+          setTotalAvailable(qList.length);
+          if (!currentPremium) qList = qList.slice(0, 100);
+        }
+        
+        if (!isFlaggedMode && !isMistakesMode && !isSRSMode && !isSimulatedMode) {
+          const progress = getTopicProgress(topicId);
         if (progress && !progress.isFinished) {
           setCurrentIndex(progress.currentIndex);
           setScore(progress.currentScore);
@@ -441,7 +447,7 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
         <ArrowLeft size={20} /> Back
       </button>
 
-      {!isPremium && !isSimulatedMode && !isFlaggedMode && !isSRSMode && !isMistakesMode && totalAvailable > 100 && (
+      {!isPremium && !isSimulatedMode && totalAvailable > 100 && (
         <div 
           onClick={() => setShowPaywall(true)}
           className="paywall-banner"

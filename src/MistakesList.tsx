@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getMistakes, removeMistake } from './lib/storage';
+import { getMistakes, removeMistake, getIsPremium } from './lib/storage';
 import { loadAllQuestions, getQuestions } from './lib/questionsStore';
 import { RefreshCw, Play, Trash2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -20,7 +20,8 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
       await loadAllQuestions();
       const mistakeIds = getMistakes();
       const allQs = getQuestions();
-      const mQs = allQs.filter(q => mistakeIds.includes(q.topicId + '-' + q.id));
+      let mQs = allQs.filter(q => mistakeIds.includes(q.topicId + '-' + q.id));
+      if (!getIsPremium()) mQs = mQs.slice(0, 100);
       setMistakes(mQs);
       setLoading(false);
     };
