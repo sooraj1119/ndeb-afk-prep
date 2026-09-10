@@ -75,7 +75,7 @@ export const getFlaggedQuestions = (): any[] => {
     if (!str) return [];
     const parsed = JSON.parse(str);
     // Return deduplicated array
-    return Array.isArray(parsed) ? Array.from(new Set(parsed)) : [];
+    return Array.isArray(parsed) ? Array.from(new Set(parsed)).filter(id => String(id).includes('-')) : [];
   } catch (error) {
     return [];
   }
@@ -134,14 +134,14 @@ export const getAllSRSData = (): Record<number, SRSData> => {
   }
 };
 
-export const getDueSRSQuestions = (): number[] => {
+export const getDueSRSQuestions = (): string[] => {
   const allData = getAllSRSData();
   const now = Date.now();
-  const dueIds: number[] = [];
+  const dueIds: string[] = [];
   
   for (const qId in allData) {
-    if (allData[qId].nextReviewDate <= now) {
-      dueIds.push(Number(qId));
+    if (String(qId).includes('-') && allData[qId].nextReviewDate <= now) {
+      dueIds.push(String(qId));
     }
   }
   return dueIds;
@@ -363,7 +363,7 @@ export const getMistakes = (): any[] => {
     const data = localStorage.getItem(MISTAKES_KEY);
     if (!data) return [];
     const parsed = JSON.parse(data);
-    return Array.isArray(parsed) ? Array.from(new Set(parsed)) : [];
+    return Array.isArray(parsed) ? Array.from(new Set(parsed)).filter(id => String(id).includes('-')) : [];
   } catch (e) {
     return [];
   }
