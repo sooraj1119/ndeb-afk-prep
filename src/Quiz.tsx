@@ -119,18 +119,23 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
           saveActiveMockExam({ questions: qList, currentIndex: 0, score: 0, endTime });
         }
         setTopicName("Simulated AFK Exam");
-      } else if (isFlaggedMode) {
-        const flags = getFlaggedQuestions();
-        qList = getQuestions().filter((q: any) => flags.includes(q.topicId + '-' + q.id));
-        setTopicName("Flagged Review");
-      } else if (isMistakesMode) {
-        const mistakes = getMistakes();
-        qList = getQuestions().filter((q: any) => mistakes.includes(q.topicId + '-' + q.id));
-        setTopicName("Weakness Drilling");
-      } else if (isSRSMode) {
-        const dueIds = getDueSRSQuestions();
-        qList = getQuestions().filter((q: any) => dueIds.includes(q.id));
-        setTopicName("Daily SRS Review");
+      } else if (isFlaggedMode || isMistakesMode || isSRSMode) {
+        const store = await import('./lib/questionsStore');
+        await store.loadAllQuestions();
+        const allQs = store.getQuestions();
+        if (isFlaggedMode) {
+          const flags = getFlaggedQuestions();
+          qList = allQs.filter((q: any) => flags.includes(q.topicId + '-' + q.id));
+          setTopicName("Flagged Review");
+        } else if (isMistakesMode) {
+          const mistakes = getMistakes();
+          qList = allQs.filter((q: any) => mistakes.includes(q.topicId + '-' + q.id));
+          setTopicName("Weakness Drilling");
+        } else if (isSRSMode) {
+          const dueIds = getDueSRSQuestions();
+          qList = allQs.filter((q: any) => dueIds.includes(q.topicId + '-' + q.id));
+          setTopicName("Daily SRS Review");
+        }
       } else {
           qList = await loadTopicQuestions(topicId);
           setTopicName(topics.find(t => t.id === topicId)?.name || "");
