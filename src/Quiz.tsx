@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { getQuestions, loadTopicQuestions } from './lib/questionsStore';
 import { TextToSpeech } from '@capacitor-community/text-to-speech';
 import { Capacitor } from '@capacitor/core';
 import { topics } from './lib/data';
 import { ArrowLeft } from 'lucide-react';
 import { PaywallModal } from './PaywallModal';
-import { getTopicProgress, getIsPremium, saveProgress, getFlaggedQuestions, toggleFlagQuestion, logSRSAnswer, getDueSRSQuestions, logQuizAttempt, getActiveMockExam, saveActiveMockExam, clearActiveMockExam, getMistakes, logMistake, removeMistake } from './lib/storage';
+import { getTopicProgress, getIsPremium, saveProgress, getFlaggedQuestions, toggleFlagQuestion, logSRSAnswer, getDueSRSQuestions, logQuizAttempt, getActiveMockExam, saveActiveMockExam, clearActiveMockExam, getMistakes, logMistake, removeMistake, awardBadge, getGamification } from './lib/storage';
 
 // Sub-components
 import { QuizHeader } from './quiz/QuizHeader';
@@ -18,7 +18,31 @@ interface Props {
   onBack: () => void;
 }
 
-export function Quiz({ topicId, onFinish, onBack }: Props) {
+export function Quiz({ topicId, onFinish, onBack }: Props) {
+  // --- Badge Awarding Logic ---
+  const checkAndAwardBadges = (totalAnswered: number, totalCorrect: number) => {
+    const accuracy = totalAnswered > 0 ? (totalCorrect / totalAnswered) * 100 : 0;
+
+    if (totalAnswered >= 1) awardBadge('first-step');
+    if (totalAnswered >= 10) awardBadge('warm-up-10');
+    if (totalAnswered >= 50) awardBadge('on-a-roll-50');
+    if (totalAnswered >= 100) awardBadge('century-club-100');
+    if (totalAnswered >= 250) awardBadge('quarter-millennium-250');
+    if (totalAnswered >= 500) awardBadge('halfway-500');
+    if (totalAnswered >= 1000) awardBadge('question-master-1000');
+    if (totalAnswered >= 5000) awardBadge('elite-scholar-5000');
+
+    if (totalAnswered >= 20 && accuracy >= 70) awardBadge('sharp-mind-70');
+    if (totalAnswered >= 50 && accuracy >= 80) awardBadge('high-achiever-80');
+    if (totalAnswered >= 100 && accuracy >= 90) awardBadge('diamond-standard-90');
+
+    const gamif = getGamification();
+    if (gamif.currentStreak >= 3) awardBadge('streak-3');
+    if (gamif.currentStreak >= 7) awardBadge('streak-7');
+    if (gamif.currentStreak >= 30) awardBadge('streak-30');
+  };
+
+
   // Modes
   const isFlaggedMode = topicId === 'flagged';
   const isSimulatedMode = topicId === 'simulated';
@@ -97,11 +121,11 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
         setTopicName("Simulated AFK Exam");
       } else if (isFlaggedMode) {
         const flags = getFlaggedQuestions();
-        qList = getQuestions().filter((q: any) => flags.includes(q.id));
+        qList = getQuestions().filter((q: any) => flags.includes(q.topicId + '-' + q.id));
         setTopicName("Flagged Review");
       } else if (isMistakesMode) {
         const mistakes = getMistakes();
-        qList = getQuestions().filter((q: any) => mistakes.includes(q.id));
+        qList = getQuestions().filter((q: any) => mistakes.includes(q.topicId + '-' + q.id));
         setTopicName("Weakness Drilling");
       } else if (isSRSMode) {
         const dueIds = getDueSRSQuestions();
@@ -163,9 +187,9 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
     }
     
     if (!isAnsCorrect) {
-      logMistake(question.id);
+      logMistake(question.topicId + '-' + question.id);
     } else if (isMistakesMode) {
-      removeMistake(question.id);
+      removeMistake(question.topicId + '-' + question.id);
     }
 
     if (isSimulatedMode) {
@@ -177,10 +201,11 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
       if (isAnsCorrect) breakdown[question.topicId].correct += 1;
     }
     
-    if (!isSimulatedMode && !isFlaggedMode && !isMistakesMode) logSRSAnswer(question.id, isAnsCorrect);
+    if (!isSimulatedMode && !isFlaggedMode && !isMistakesMode) logSRSAnswer(question.topicId + '-' + question.id, isAnsCorrect);
 
     if (!isFlaggedMode && !isSimulatedMode && !isSRSMode && !isMistakesMode) {
-      saveProgress(topicId, newScore, topicQuestions.length, currentIndex, false, currentIndex + 1);
+      saveProgress(topicId, newScore, topicQuestions.length, currentIndex, false, currentIndex + 1);
+      checkAndAwardBadges(currentIndex + 1, newScore);
     }
 
     if (isSimulatedMode) {
@@ -230,7 +255,7 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
 
   const handleToggleFlag = () => {
     if (!question) return;
-    const flagged = toggleFlagQuestion(question.id);
+    const flagged = toggleFlagQuestion(question.topicId + '-' + question.id);
     setIsFlagged(flagged);
   };
 
@@ -510,4 +535,5 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
 
 
 
+
 

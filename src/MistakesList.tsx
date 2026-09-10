@@ -20,16 +20,16 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
       await loadAllQuestions();
       const mistakeIds = getMistakes();
       const allQs = getQuestions();
-      const mQs = allQs.filter(q => mistakeIds.includes(q.id));
+      const mQs = allQs.filter(q => mistakeIds.includes(q.topicId + '-' + q.id));
       setMistakes(mQs);
       setLoading(false);
     };
     init();
   }, []);
 
-  const handleRemove = (id: number) => {
+  const handleRemove = (id: string) => {
     removeMistake(id);
-    setMistakes(prev => prev.filter(q => q.id !== id));
+    setMistakes(prev => prev.filter(q => (q.topicId + '-' + q.id) !== id));
   };
 
   if (loading) {
@@ -83,7 +83,7 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
                 <span style={{ background: 'var(--bg-color)', padding: '0.2rem 0.6rem', borderRadius: '4px', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>
                   {q.topicId.toUpperCase().replace('-', ' ')}
                 </span>
-                <button onClick={() => handleRemove(q.id)} title="Remove from Mistakes" style={{ background: 'none', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', padding: '0.5rem' }}>
+                <button onClick={() => handleRemove(q.topicId + '-' + q.id)} title="Remove from Mistakes" style={{ background: 'none', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', padding: '0.5rem' }}>
                   <Trash2 size={18} />
                 </button>
               </div>

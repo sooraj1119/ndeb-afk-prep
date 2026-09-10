@@ -69,25 +69,34 @@ export const getTopicProgress = (topicId: string): TopicProgress | null => {
 
 // --- Flags ---
 
-export const getFlaggedQuestions = (): number[] => {
+export const getFlaggedQuestions = (): any[] => {
   try {
     const str = localStorage.getItem(FLAGS_KEY);
-    return str ? JSON.parse(str) : [];
+    if (!str) return [];
+    const parsed = JSON.parse(str);
+    // Return deduplicated array
+    return Array.isArray(parsed) ? Array.from(new Set(parsed)) : [];
   } catch (error) {
     return [];
   }
 };
 
-export const toggleFlagQuestion = (questionId: number): boolean => {
+export const toggleFlagQuestion = (questionId: any): boolean => {
   try {
     let flags = getFlaggedQuestions();
     let isFlagged = false;
-    if (flags.includes(questionId)) {
-      flags = flags.filter(id => id !== questionId);
+    
+    // Loose comparison by converting to string to prevent duplicate "123" vs 123
+    const exists = flags.some(id => String(id) === String(questionId));
+    
+    if (exists) {
+      flags = flags.filter(id => String(id) !== String(questionId));
     } else {
       flags.push(questionId);
       isFlagged = true;
     }
+    
+    flags = Array.from(new Set(flags));
     localStorage.setItem(FLAGS_KEY, JSON.stringify(flags));
     return isFlagged;
   } catch (error) {
@@ -349,27 +358,31 @@ export const resetAllProgress = () => { localStorage.removeItem(STORAGE_KEY); lo
 
 const MISTAKES_KEY = 'ndeb_prep_mistakes';
 
-export const getMistakes = (): number[] => {
+export const getMistakes = (): any[] => {
   try {
     const data = localStorage.getItem(MISTAKES_KEY);
-    return data ? JSON.parse(data) : [];
+    if (!data) return [];
+    const parsed = JSON.parse(data);
+    return Array.isArray(parsed) ? Array.from(new Set(parsed)) : [];
   } catch (e) {
     return [];
   }
 };
 
-export const logMistake = (questionId: number) => {
-  const mistakes = getMistakes();
-  if (!mistakes.includes(questionId)) {
+export const logMistake = (questionId: any) => {
+  let mistakes = getMistakes();
+  const exists = mistakes.some(id => String(id) === String(questionId));
+  if (!exists) {
     mistakes.push(questionId);
+    mistakes = Array.from(new Set(mistakes));
     localStorage.setItem(MISTAKES_KEY, JSON.stringify(mistakes));
   }
 };
 
-export const removeMistake = (questionId: number) => {
-  const mistakes = getMistakes();
-  const updated = mistakes.filter(id => id !== questionId);
-  localStorage.setItem(MISTAKES_KEY, JSON.stringify(updated));
+export const removeMistake = (questionId: any) => {
+  let mistakes = getMistakes();
+  const updated = mistakes.filter(id => String(id) !== String(questionId));
+  localStorage.setItem(MISTAKES_KEY, JSON.stringify(Array.from(new Set(updated))));
 };
 
 

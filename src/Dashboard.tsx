@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+﻿import React, { useEffect, useState } from 'react';
 import { getProgress, TopicProgress, getIsPremium, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt, awardBadge } from './lib/storage';
 import { topics } from './lib/data';
 import { getQuestions } from './lib/questionsStore';
@@ -14,6 +14,24 @@ interface Props {
   onStartSRSQuiz?: () => void;
   onStartMistakesQuiz: () => void;
 }
+
+const BADGE_META: Record<string, { emoji: string; label: string }> = {
+  'first-step': { emoji: '\uD83C\uDFAF', label: 'First Step' },
+  'warm-up-10': { emoji: '\uD83D\uDCDA', label: 'Warm Up (10 Qs)' },
+  'on-a-roll-50': { emoji: '\uD83D\uDD25', label: 'On A Roll (50 Qs)' },
+  'century-club-100': { emoji: '\uD83D\uDCAF', label: 'Century Club' },
+  'quarter-millennium-250': { emoji: '\uD83D\uDE80', label: 'Quarter Millennium' },
+  'halfway-500': { emoji: '\uD83C\uDFC5', label: 'Halfway There' },
+  'question-master-1000': { emoji: '\uD83C\uDFC6', label: 'Question Master' },
+  'elite-scholar-5000': { emoji: '\uD83D\uDC51', label: 'Elite Scholar' },
+  'sharp-mind-70': { emoji: '\u2B50', label: 'Sharp Mind (70%)' },
+  'high-achiever-80': { emoji: '\uD83C\uDF1F', label: 'High Achiever (80%)' },
+  'diamond-standard-90': { emoji: '\uD83D\uDC8E', label: 'Diamond Standard' },
+  'streak-3': { emoji: '\uD83D\uDCC5', label: '3-Day Streak' },
+  'streak-7': { emoji: '\uD83D\uDD06', label: 'Week Warrior' },
+  'streak-30': { emoji: '\uD83C\uDF19', label: 'Monthly Grind' },
+};
+
 
 export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
   const questions = getQuestions();
@@ -383,8 +401,8 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           ) : (
             getGamification().badges.map((badge, idx) => (
               <div key={idx} className="glass-panel" style={{ padding: '0.75rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
-                <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)' }}>🏆</div>
-                <div style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{badge}</div>
+                <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)' }}>{BADGE_META[badge]?.emoji || badge}</div>
+                <div style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{BADGE_META[badge]?.label || badge}</div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--success-color)' }}>Unlocked!</div>
               </div>
             ))
