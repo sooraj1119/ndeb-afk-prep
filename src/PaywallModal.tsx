@@ -168,7 +168,19 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                       <span style={{ fontSize: '0.8rem', fontWeight: 400, opacity: 0.9, lineHeight: 1.2 }}>{pkg.product.description}</span>
                     </span>
                     <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right' }}>
-                      {pkg.product.priceString}
+                      {pkg.product.title.toLowerCase().includes('monthly') ? (
+                        <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', lineHeight: 1.1 }}>
+                          <span style={{ textDecoration: 'line-through', opacity: 0.7, fontSize: '0.75rem', color: '#e2e8f0' }}>$16.99 CAD</span>
+                          <span style={{ fontWeight: 800, fontSize: '1.1rem' }}>$9.99 CAD</span>
+                        </span>
+                      ) : pkg.product.title.toLowerCase().includes('annual') ? (
+                        <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', lineHeight: 1.1 }}>
+                          <span style={{ textDecoration: 'line-through', opacity: 0.7, fontSize: '0.75rem', color: '#e2e8f0' }}>$203.88 CAD</span>
+                          <span style={{ fontWeight: 800, fontSize: '1.1rem' }}>$142.99 CAD</span>
+                        </span>
+                      ) : (
+                        <span>{pkg.product.priceString}</span>
+                      )}
                       {purchasing === pkg.identifier ? <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 1, ease: 'linear' }}><Loader2 size={18} /></motion.div> : <Crown size={18} />}
                     </span>
                   </button>
