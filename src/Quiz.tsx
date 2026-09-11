@@ -163,10 +163,16 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
   // Update flagged status when current question changes
   useEffect(() => {
     if (topicQuestions.length > 0 && initialized) {
-      const qId = topicQuestions[currentIndex]?.id;
-      if (qId) {
-        const currentFlags = getFlaggedQuestions();
-        setIsFlagged(currentFlags.includes(qId));
+      const currentQuestion = topicQuestions[currentIndex];
+
+      if (currentQuestion && currentQuestion.id) {
+
+        const currentFlags = getFlaggedQuestions();
+
+        const compositeId = currentQuestion.topicId + '-' + currentQuestion.id;
+
+        setIsFlagged(currentFlags.includes(compositeId));
+
       }
     }
   }, [currentIndex, topicQuestions, initialized]);
