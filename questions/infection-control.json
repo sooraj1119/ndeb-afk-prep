@@ -6134,5 +6134,369 @@
     ],
     "correctAnswer": 1,
     "explanation": "For aerosol-generating procedures like scaling and root planing, especially in cases of generalized periodontitis which may involve significant blood and fluid splatter, the MOST appropriate combination of PPE (B) includes a Level 3 surgical mask (for maximal fluid resistance), a face shield (for full facial protection from spatter), examination gloves, and a protective gown (to protect clothing from contamination). While a surgical mask (A, D) and safety glasses are essential, a face shield provides superior eye and facial protection. An N95 respirator (C) is typically reserved for airborne diseases, not routine aerosol-generating procedures unless specific airborne pathogens are suspected."
+  },
+  {
+    "id": 467381977,
+    "topicId": "infection-control",
+    "question": "A 38-year-old male patient presents to your dental office with a chief complaint of tooth sensitivity. His medical history indicates active pulmonary tuberculosis, confirmed by a positive sputum culture two weeks ago, and he is currently undergoing directly observed therapy. Clinical examination reveals no signs of cough or active symptoms today. What is the MOST appropriate infection control measure regarding his scheduled dental treatment?",
+    "options": [
+      "Proceed with the appointment using standard precautions including N95 respirator, gloves, gown, and eye protection.",
+      "Reschedule the appointment until the patient has completed his full course of tuberculosis treatment and is confirmed non-infectious.",
+      "Perform the procedure in a negative-pressure isolation room, if available, using a surgical mask and gloves.",
+      "Administer a prophylactic antibiotic to the patient before the procedure to prevent transmission."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Active pulmonary tuberculosis is an airborne disease that poses a significant risk of transmission in a dental setting. For elective dental procedures, the most appropriate measure is to postpone treatment until the patient is confirmed non-infectious through medical evaluation, typically after completing a course of therapy and having negative sputum cultures. While an N95 respirator is part of airborne precautions, it does not mitigate the risk sufficiently for elective care of an actively infectious patient. Prophylactic antibiotics are not effective against tuberculosis transmission."
+  },
+  {
+    "id": 786832380,
+    "topicId": "infection-control",
+    "question": "A 45-year-old female patient presents for a routine crown preparation. The dental assistant notices that the sterilization pouch for the bur block has a Type 1 chemical indicator that has changed color, but the office has not performed a biological spore test for two weeks. What is the MOST appropriate action to ensure patient safety before proceeding with the treatment?",
+    "options": [
+      "Use the instruments as the Type 1 indicator shows they have been exposed to the sterilization process.",
+      "Perform an immediate biological spore test and wait for its results before using any instruments from that sterilizer.",
+      "Reprocess all instruments from that sterilizer immediately, then use a new batch with a Type 4 or 5 indicator.",
+      "Use a new bur block from a different sterilization cycle that has a Type 4 or 5 indicator, and complete the procedure."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Type 1 chemical indicators only confirm exposure to the sterilization process, not that sterility has been achieved. Canadian guidelines typically mandate weekly biological spore testing for steam sterilizers. Given the lack of recent biological testing, the efficacy of the sterilizer is questionable, thus all instruments processed by it should be considered non-sterile and reprocessed. Using a new bur block from an *unmonitored* cycle (D) is not a solution, and waiting for an immediate spore test (B) may unduly delay urgent care while reprocessing provides immediate assurance."
+  },
+  {
+    "id": 834262301,
+    "topicId": "infection-control",
+    "question": "A 32-year-old male patient with a history of mild asthma is scheduled for a routine dental cleaning. The dental assistant reports that the dental unit waterlines (DUWLs) in the operatory have not been subjected to continuous chemical treatment for the past month due to a supply shortage. Daily flushing has been performed. What is the MOST appropriate action regarding the water used for his treatment?",
+    "options": [
+      "Proceed with the cleaning using the existing DUWLs, as daily flushing should be sufficient for a routine cleaning.",
+      "Postpone the appointment until continuous chemical treatment can be re-established for the DUWLs.",
+      "Use a self-contained water system filled with sterile water for the procedure.",
+      "Inform the patient about the DUWL issue and offer to perform a hand scaling only."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Without continuous chemical treatment, DUWLs are highly likely to have elevated microbial counts exceeding safe drinking water standards (<200 CFU/mL), which poses a risk, especially for patients with respiratory conditions. The MOST appropriate action is to ensure safe water quality by using a self-contained water system filled with sterile water for the procedure. Daily flushing (A) is insufficient for biofilm control, and while postponing (B) is an option for elective care, providing safe treatment with sterile water (C) addresses the immediate need. Hand scaling (D) avoids aerosols but does not provide the same comprehensive care."
+  },
+  {
+    "id": 776304,
+    "topicId": "infection-control",
+    "question": "A 28-year-old male patient presents for a routine dental examination and expresses concern about a previous allergic reaction to latex during a medical procedure. He does not recall the severity but was advised to avoid latex. What is the MOST appropriate initial action by the dental team to manage this potential allergy?",
+    "options": [
+      "Conduct the examination using only latex-free gloves and products, while confirming the nature and severity of the previous reaction.",
+      "Advise the patient to take an oral antihistamine immediately before the appointment to prevent a reaction.",
+      "Instruct the patient to bring their own latex-free gloves for the dental team to use during the examination.",
+      "Postpone the appointment and refer the patient to an allergist for definitive testing before any dental treatment."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given a reported latex allergy, even if the severity is unclear, the safest and most appropriate immediate action is to proceed with caution using latex-free products. Simultaneously, clarifying the nature and severity of the previous reaction is vital for future appointments and risk assessment. Postponing the appointment or referring to an allergist (D) is often unnecessary for a routine exam if precautions are taken. Antihistamines (B) do not prevent anaphylaxis, and having the patient bring their own gloves (C) is not standard protocol."
+  },
+  {
+    "id": 526489654,
+    "topicId": "infection-control",
+    "question": "In the Spaulding Classification system, which characteristic is the primary determinant for classifying an item as 'critical' and thus requiring sterilization?",
+    "options": [
+      "The item's potential for contact with intact skin only.",
+      "The item's potential for contact with mucous membranes or non-intact skin.",
+      "The item's ability to withstand high temperatures during reprocessing.",
+      "The item's potential for penetrating sterile tissue or the vascular system."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Critical items are defined by their potential for penetrating sterile tissue or the vascular system (e.g., bone, soft tissue, bloodstream). This direct contact with sterile areas demands the highest level of microbial destruction, which is sterilization, to prevent infection. Contact with intact skin (A) defines non-critical items, while contact with mucous membranes or non-intact skin (B) defines semi-critical items. The ability to withstand high temperatures (C) is a practical reprocessing consideration but not the primary classification determinant."
+  },
+  {
+    "id": 3790798,
+    "topicId": "infection-control",
+    "question": "A 25-year-old male dental assistant sustains a percutaneous needlestick injury from a contaminated anesthetic needle used on a patient with unknown medical history. The assistant has received a full course of Hepatitis B vaccination and has confirmed adequate antibody levels. What is the MOST appropriate immediate action following the injury?",
+    "options": [
+      "Immediately send the assistant for HIV and Hepatitis C testing.",
+      "Irrigate the wound with soap and water and report the incident according to office protocol.",
+      "Administer Hepatitis B immunoglobulin (HBIG) to the assistant as a precautionary measure.",
+      "Immediately start a 28-day course of antiretroviral post-exposure prophylaxis (PEP) for HIV."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The immediate action for any percutaneous injury is to thoroughly wash the wound with soap and water, then report the incident to the designated supervisor for proper follow-up according to office protocols and provincial/territorial guidelines. While subsequent testing for HIV and Hepatitis C (A) and evaluation for PEP (D) are crucial parts of post-exposure management, they are not the *immediate* first step. Since the assistant is vaccinated and has adequate HBsAb, HBIG (C) is not indicated for HBV."
+  },
+  {
+    "id": 357330067,
+    "topicId": "infection-control",
+    "question": "A 58-year-old male patient presents for a guided tissue regeneration (GTR) procedure on tooth #36 due to a deep periodontal defect. His medical history includes well-controlled hypertension. What is the MOST critical infection control measure, beyond standard precautions, to ensure a successful outcome and prevent complications for this surgical periodontal procedure?",
+    "options": [
+      "Pre-operative rinsing with chlorhexidine gluconate for one minute.",
+      "Administration of a systemic prophylactic antibiotic before the surgery.",
+      "Meticulous sterile draping of the surgical site and use of sterile surgical instruments.",
+      "Use of a high-volume evacuator throughout the procedure to minimize aerosols."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Guided tissue regeneration is a surgical procedure involving manipulation of sterile tissues, therefore meticulous sterile technique is paramount to prevent surgical site infections. This includes sterile draping of the surgical site and the use of sterile surgical instruments to maintain an aseptic field. Pre-operative rinsing (A) helps reduce oral flora but does not create a sterile field. Prophylactic antibiotics (B) are not universally indicated and do not replace strict asepsis. High-volume evacuation (D) primarily manages aerosols, not surgical site sterility."
+  },
+  {
+    "id": 629345295,
+    "topicId": "infection-control",
+    "question": "A 28-year-old female dental assistant has just completed seating a patient for a routine recall exam. Her hands are visibly clean, and she is about to don examination gloves. Which hand hygiene method is MOST appropriate in this specific moment, assuming no visible soiling?",
+    "options": [
+      "Apply an alcohol-based hand rub until hands are dry.",
+      "Perform a surgical scrub with an antimicrobial soap and water for two minutes.",
+      "Wash hands thoroughly with soap and water for at least 15 seconds.",
+      "Skip hand hygiene, as gloves will provide sufficient protection."
+    ],
+    "correctAnswer": 0,
+    "explanation": "When hands are not visibly soiled and prior to donning gloves for a routine examination, an alcohol-based hand rub is the most appropriate and effective method for routine hand hygiene. It rapidly reduces microbial load and is generally preferred over soap and water for convenience when hands are visibly clean. A surgical scrub (B) is for surgical procedures, and soap and water (C) is reserved for when hands are visibly soiled or after using the restroom. Skipping hand hygiene (D) is a breach of infection control protocol."
+  },
+  {
+    "id": 408327290,
+    "topicId": "infection-control",
+    "question": "A dental assistant is tasked with maintaining dental unit waterlines (DUWLs) in a busy clinic. The clinic uses a self-contained water system. Beyond flushing lines for 20-30 seconds between patients and at the start/end of the day, what is the MOST effective strategy to prevent microbial biofilm formation within the DUWLs according to current Canadian guidelines?",
+    "options": [
+      "Replacing all DUWL tubing annually.",
+      "Implementing a continuous chemical treatment protocol using a Health Canada-approved product.",
+      "Filtering all incoming municipal water with a 0.2-micron filter.",
+      "Using sterile water in the self-contained water system for all procedures."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Continuous chemical treatment with a Health Canada-approved product is the most effective and recommended strategy to prevent biofilm formation and maintain water quality below 200 CFU/mL in DUWLs. While flushing is important, it doesn't eliminate biofilm. Replacing tubing annually (A) is not a practical or primary control method. Filtering incoming water (C) is good but doesn't address biofilm growth *within* the lines, and sterile water (D) is not required for non-surgical procedures, nor does it prevent biofilm if not continuously treated."
+  },
+  {
+    "id": 599412598,
+    "topicId": "infection-control",
+    "question": "A dental assistant has just taken a preliminary alginate impression for a 30-year-old male patient who presented with generalized gingivitis. The impression shows some visible saliva but no blood. What is the MOST appropriate procedure for preparing this impression for transport to the dental laboratory?",
+    "options": [
+      "Thoroughly rinse the impression to remove saliva, then spray with an intermediate-level disinfectant, rinse, and place in a sealed bag.",
+      "Lightly rinse the impression under tap water and place it directly into a biohazard bag.",
+      "Immerse the impression in a 2% glutaraldehyde solution for 10 minutes, then rinse and bag.",
+      "Wrap the impression in a moist paper towel to prevent dehydration and send it to the lab."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Impressions, as semi-critical items, must be disinfected after rinsing off visible debris. The most appropriate procedure is to thoroughly rinse the impression to remove saliva, then spray or immerse it in an intermediate-level disinfectant, rinse again to remove chemical residue, and place it in a sealed bag for transport to the lab. Simply rinsing (B) is insufficient. Glutaraldehyde (C) is a high-level disinfectant which can be too aggressive for some materials and requires specific ventilation precautions. Wrapping in a moist towel (D) addresses dimensional stability but not disinfection."
+  },
+  {
+    "id": 382031269,
+    "topicId": "infection-control",
+    "question": "A 48-year-old male patient presents for a complex restorative procedure involving the use of a high-speed handpiece and significant water spray. The patient reports no known infectious diseases, but the dental team is concerned about aerosol generation. What is the MOST comprehensive combination of personal protective equipment (PPE) recommended for the operator during this procedure, considering current Canadian infection control guidelines for aerosol-generating procedures?",
+    "options": [
+      "Surgical mask, standard safety glasses, and examination gloves.",
+      "N95 respirator, full face shield, fluid-resistant long-sleeved gown, and examination gloves.",
+      "Level 1 procedure mask, prescription eyeglasses, and sterile gloves.",
+      "Surgical mask, loupes with attached shields, and utility gloves."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Procedures involving high-speed handpieces and water spray generate significant aerosols. The most comprehensive PPE combination includes an N95 respirator for respiratory protection, a full face shield for full-face barrier protection, a fluid-resistant long-sleeved gown to prevent body and clothing contamination, and examination gloves for hand protection, as per Canadian guidelines for aerosol-generating procedures. Surgical masks (A, C, D) do not provide adequate respiratory protection against aerosols. Sterile gloves (C) are for sterile procedures, not routine restorative, and utility gloves (D) are for reprocessing."
+  },
+  {
+    "id": 398442699,
+    "topicId": "infection-control",
+    "question": "A dental assistant is reviewing the clinic's infection control manual. Which statement accurately outlines the primary distinction in microbial target between 'sterilization' and 'high-level disinfection' according to established infection control principles?",
+    "options": [
+      "Sterilization reliably eliminates all microbial life, including bacterial endospores, while high-level disinfection may not kill all endospores.",
+      "High-level disinfection targets only vegetative bacteria, whereas sterilization targets all microbial forms.",
+      "Sterilization is effective against viruses and fungi, but high-level disinfection is not.",
+      "High-level disinfection achieves a greater reduction in bacterial load compared to sterilization."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The primary distinction is the efficacy against bacterial endospores. Sterilization is defined as the complete destruction or removal of all forms of microbial life, including bacterial endospores. High-level disinfection kills all microorganisms except a substantial number of bacterial endospores. High-level disinfection (B) is effective against many viruses and fungi, not just vegetative bacteria, and sterilization (D) achieves a complete elimination, not just a greater reduction."
+  },
+  {
+    "id": 611482334,
+    "topicId": "infection-control",
+    "question": "A 65-year-old male patient calls to schedule a routine dental check-up. During the health history update, he mentions having returned three days ago from an international trip to a country experiencing a significant outbreak of a highly contagious, novel respiratory illness. He currently reports no symptoms. What is the MOST appropriate advice for scheduling his appointment?",
+    "options": [
+      "Advise him that he can attend his appointment as scheduled since he is asymptomatic.",
+      "Recommend postponing his appointment for at least 10-14 days to complete a self-monitoring period.",
+      "Suggest he undergo a rapid diagnostic test for the illness before coming to the clinic.",
+      "Inform him that the dental office will require him to wear an N95 respirator during his visit."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an elective procedure and recent travel to an area with a significant outbreak of a highly contagious novel respiratory illness, even if asymptomatic, it is prudent to recommend postponing the appointment for a self-monitoring period (typically 10-14 days, depending on the pathogen's incubation period). This minimizes the risk of transmission during the incubation phase. Attending while asymptomatic (A) is risky. Rapid testing (C) may not be readily available or appropriate for all pathogens, and wearing an N95 (D) is not a substitute for preventing entry of a potentially infectious individual."
+  },
+  {
+    "id": 826344866,
+    "topicId": "infection-control",
+    "question": "Which of the following items generated in a dental office is MOST consistently categorized as 'regulated medical waste' (or biomedical waste) according to Canadian infection prevention and control guidelines, requiring specific handling and disposal procedures?",
+    "options": [
+      "Amalgam scrap collected in a covered, labeled container.",
+      "Disposable patient gowns that are visibly soiled with minimal blood.",
+      "Extracted teeth containing amalgam restorations.",
+      "Used personal protective equipment (PPE) like masks and gloves."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Extracted teeth, especially those containing amalgam restorations, are consistently considered regulated medical waste due to potential blood contamination and the presence of mercury which requires specific handling. Amalgam scrap (A) requires special handling but is typically managed as hazardous waste, not necessarily regulated *medical* waste. Disposable patient gowns with minimal blood (B) are generally considered general waste if the blood is not in sufficient quantity to be 'drippable'. Used PPE (D) is usually general waste unless heavily saturated with blood or body fluids from an infectious patient."
+  },
+  {
+    "id": 681855306,
+    "topicId": "infection-control",
+    "question": "A 30-year-old female dental assistant is tasked with reprocessing instruments after a restorative procedure. She places the instruments directly into the ultrasonic cleaner with disinfectant solution without prior rinsing. What is the MOST likely negative consequence of this action?",
+    "options": [
+      "Increased risk of instrument corrosion due to disinfectant exposure.",
+      "Ineffective cleaning because organic debris can hinder disinfectant action.",
+      "Damage to the ultrasonic cleaner's transducer from prolonged exposure to debris.",
+      "Excessive foaming in the ultrasonic cleaner, making visualization difficult."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Instruments should be rinsed thoroughly under running water immediately after use to remove gross debris and blood. Placing instruments directly into an ultrasonic cleaner with disinfectant without prior rinsing allows organic debris (blood, tissue, saliva) to remain on the instruments. This debris acts as a physical barrier, protecting microorganisms from the disinfectant and interfering with the ultrasonic cleaning process, making it ineffective. While some foaming (D) might occur, the primary concern is ineffective cleaning, and corrosion (A) is more related to material compatibility and solution choice."
+  },
+  {
+    "id": 911490032,
+    "topicId": "infection-control",
+    "question": "A 6-year-old female patient presents for her bi-annual dental check-up. She has a history of moderate caries risk, with several incipient carious lesions noted on her previous visit, but no new cavitated lesions are present today. Her home care involves brushing twice daily with a regular fluoride toothpaste. What is the MOST appropriate additional preventive measure for this patient?",
+    "options": [
+      "Recommend switching to a non-fluoridated toothpaste to avoid fluorosis.",
+      "Prescribe a daily antimicrobial mouth rinse to reduce bacterial load.",
+      "Apply a professional topical fluoride varnish to all erupted teeth.",
+      "Recommend a sugar-free diet for a full year to eliminate caries risk."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a child with moderate caries risk and a history of incipient lesions, professional topical fluoride varnish application every 3-6 months is a highly effective evidence-based preventive measure. It provides a higher concentration of fluoride than regular toothpaste, enhancing remineralization and reducing caries progression. Switching to non-fluoridated toothpaste (A) would increase caries risk. Antimicrobial rinses (B) are generally not recommended for routine use in young children, and a complete sugar-free diet (D) is often impractical and not the most appropriate additional dental intervention."
+  },
+  {
+    "id": 383069175,
+    "topicId": "infection-control",
+    "question": "A 9-year-old male patient presents for a recall examination. His permanent first molars erupted approximately one year ago and exhibit deep, retentive fissures without any signs of cavitation or demineralization. The patient has a moderate caries risk due to infrequent flossing. What is the MOST indicated preventive intervention for these teeth?",
+    "options": [
+      "Placement of resin-based pit and fissure sealants.",
+      "Application of topical fluoride varnish every six months.",
+      "Recommendation for daily chewing of xylitol gum.",
+      "Instruction on improved toothbrushing technique and regular use of fluoride toothpaste."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For newly erupted permanent molars with deep, retentive fissures in a patient with moderate caries risk, pit and fissure sealants are the most effective preventive intervention. They physically block food and bacteria from accumulating in these susceptible areas. While topical fluoride varnish (B) and improved oral hygiene (D) are beneficial, they do not provide the same physical protection. Xylitol gum (C) can reduce S. mutans but is less effective than sealants for deep fissures."
+  },
+  {
+    "id": 474346869,
+    "topicId": "infection-control",
+    "question": "A newly hired dental assistant is reviewing the clinic's occupational health and safety policies. Which vaccine, specifically targeted against a bloodborne pathogen, is considered a cornerstone of infection prevention for all dental healthcare personnel (DHCP) in Canada due to the high risk of exposure in the dental environment?",
+    "options": [
+      "Influenza vaccine.",
+      "Hepatitis B vaccine.",
+      "Human Papillomavirus (HPV) vaccine.",
+      "Meningococcal vaccine."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Hepatitis B vaccine is considered a cornerstone of infection prevention for DHCP because of the high risk of occupational exposure to blood and other potentially infectious materials, and the significant risk of transmission of Hepatitis B virus (a bloodborne pathogen) in the dental setting. While influenza (A) is important, it's not a bloodborne pathogen. HPV (C) and Meningococcal (D) vaccines are not primarily related to direct occupational bloodborne pathogen exposure in dentistry."
+  },
+  {
+    "id": 332232631,
+    "topicId": "infection-control",
+    "question": "During a crown preparation on a 45-year-old female patient, the dentist is using a high-speed handpiece with water coolant. The dental assistant observes significant aerosol generation despite standard HVE use. To further minimize the spread of aerosols and protect the dental team, what additional practical measure should be implemented immediately?",
+    "options": [
+      "Place an extra oral suction device near the patient's mouth.",
+      "Have the patient perform a pre-procedural rinse with an antiseptic mouthwash.",
+      "Instruct the patient to keep their mouth closed whenever possible during the procedure.",
+      "Increase the air pressure to the handpiece to speed up the cutting process."
+    ],
+    "correctAnswer": 0,
+    "explanation": "While HVE is effective, in cases of significant aerosol generation, an additional extra-oral suction device can capture aerosols before they disperse into the operatory air, providing an immediate and practical enhancement to source control. A pre-procedural rinse (B) helps reduce microbial load but doesn't immediately mitigate existing aerosol spread. Instructing the patient to close their mouth (C) is impractical during a crown preparation. Increasing air pressure (D) would likely increase aerosol generation."
+  },
+  {
+    "id": 986344196,
+    "topicId": "infection-control",
+    "question": "In Canadian dental practice, what is the primary purpose of regularly monitoring dental unit waterlines (DUWLs) for heterotrophic bacterial counts?",
+    "options": [
+      "To ensure the water is free of all microbial life.",
+      "To confirm the absence of specific pathogens like HIV and HBV.",
+      "To verify that the water quality meets safe drinking water standards for non-surgical procedures.",
+      "To prevent the formation of biofilm within the tubing system."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The primary purpose of monitoring DUWLs for heterotrophic bacterial counts is to verify that the water quality used for non-surgical dental procedures meets safe drinking water standards, which in Canada is typically <200 CFU/mL. While preventing biofilm formation (D) is a goal of DUWL maintenance, monitoring is about *verifying* the *quality* of the water. Sterile water (A) is only required for surgical procedures, and DUWL monitoring is not designed to confirm the absence of specific bloodborne pathogens (B)."
+  },
+  {
+    "id": 127319280,
+    "topicId": "infection-control",
+    "question": "A 40-year-old female dental hygienist is concerned about the quality of water delivered by the dental unit waterlines in her office, despite daily flushing. Water testing consistently shows bacterial counts exceeding Canadian guidelines. What is the MOST appropriate next step to address the persistent high bacterial load?",
+    "options": [
+      "Implement a chemical shock treatment protocol for the dental unit waterlines.",
+      "Increase the frequency of daily flushing to 5 minutes at the start and end of each day.",
+      "Switch to sterile water for all restorative and surgical procedures.",
+      "Install a point-of-use filter on each dental unit's water supply."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Persistent high bacterial counts in dental unit waterlines, despite daily flushing, indicate a biofilm issue that requires a more aggressive approach than just flushing. Chemical shock treatment (A) effectively removes existing biofilm and significantly reduces bacterial load to meet Canadian guidelines. While increasing flushing (B) is part of daily maintenance, it is insufficient as a primary solution for persistent high counts. Switching to sterile water (C) is typically for surgical procedures to prevent infection from non-sterile tap water, but does not address the underlying biofilm contamination for routine procedures or the general water quality."
+  },
+  {
+    "id": 451938234,
+    "topicId": "infection-control",
+    "question": "A 28-year-old male dentist accidentally experiences a splash of patient blood into his unprotected eye during an emergency extraction. The patient's medical history is unknown. What is the MOST appropriate immediate action for the dentist?",
+    "options": [
+      "Rinse the affected eye thoroughly with water or saline for at least 15 minutes.",
+      "Immediately report the incident to the practice manager and complete an exposure incident report.",
+      "Obtain the patient's consent for immediate blood testing for HIV, HBV, and HCV.",
+      "Administer prophylactic antibiotics to prevent potential infection."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The MOST appropriate immediate action following a mucocutaneous blood exposure is to thoroughly rinse the affected area with water or saline (A) for at least 15 minutes to reduce the inoculum. Reporting the incident (B) is crucial but secondary to immediate first aid. Obtaining patient consent for testing (C) is a subsequent step in exposure management but not the immediate first aid. Administering prophylactic antibiotics (D) is not indicated for a blood splash exposure and is inappropriate without specific exposure risk assessment."
+  },
+  {
+    "id": 840498508,
+    "topicId": "infection-control",
+    "question": "A 32-year-old female dental assistant is performing daily sterilization monitoring using biological indicators. After a routine steam sterilization cycle, the biological indicator from one of the autoclaves shows positive growth. What is the MOST appropriate initial action?",
+    "options": [
+      "Remove the autoclave from service, recall all items processed since the last negative biological indicator, and investigate the cause.",
+      "Immediately re-sterilize the instruments from the affected load and continue using the autoclave.",
+      "Run a second biological indicator immediately to confirm the result before taking further action.",
+      "Discard the positive biological indicator and run a new cycle with a new indicator."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A positive biological indicator indicates a sterilization failure, meaning the instruments processed in that load are not sterile. Therefore, the autoclave must be immediately removed from service, all items processed since the last negative biological indicator must be recalled, and the cause of the failure investigated (A) according to Canadian infection control guidelines. Re-sterilizing the load (B) without addressing the autoclave issue, running a second indicator (C) to confirm, or simply discarding and re-running (D) are all unsafe practices that compromise patient safety by potentially using unsterile instruments."
+  },
+  {
+    "id": 416991687,
+    "topicId": "infection-control",
+    "question": "A 55-year-old male dentist has just completed a non-surgical periodontal debridement on a patient and is about to move to the next operatory to perform a routine examination on another patient. His hands are visibly clean. What is the MOST appropriate hand hygiene practice for the dentist before examining the next patient?",
+    "options": [
+      "Don new examination gloves immediately without any hand hygiene, as hands are visibly clean.",
+      "Perform an antiseptic hand rub with an alcohol-based hand rub (ABHR) product.",
+      "Rinse hands briefly with water, then don new examination gloves.",
+      "Wash hands thoroughly with soap and water for at least 20 seconds."
+    ],
+    "correctAnswer": 3,
+    "explanation": "After performing a non-surgical periodontal debridement, which is an aerosol-generating procedure, and before moving to a new patient, thorough hand washing with soap and water (D) for at least 20 seconds is the MOST appropriate hand hygiene practice. This ensures the removal of transient microorganisms and any potential contaminants that may not be visible. While an alcohol-based hand rub (B) is acceptable for visibly clean hands in many clinical situations, soap and water provides a more comprehensive cleanse after a procedure with potential splatter. Donning new gloves without prior hand hygiene (A) or only rinsing hands briefly (C) are inadequate and compromise infection control protocols."
+  },
+  {
+    "id": 818078807,
+    "topicId": "infection-control",
+    "question": "According to the Spaulding Classification system, which of the following dental instruments is categorized as 'critical'?",
+    "options": [
+      "A dental mirror used for routine examination.",
+      "A dental impression tray used for alginate impressions.",
+      "A curing light tip used for composite restorations.",
+      "A periodontal probe used to measure pocket depths."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Critical instruments are those that penetrate soft tissue or bone or enter into or contact the bloodstream or other normally sterile tissue. A periodontal probe (D) penetrates soft tissue (gingival sulcus/pocket) and is thus classified as critical, requiring sterilization. A dental mirror (A) is semi-critical as it contacts mucous membranes but does not penetrate. An impression tray (B) is non-critical or semi-critical, depending on whether it contacts intact skin or mucous membranes. A curing light tip (C) is non-critical if it only contacts intact skin, or semi-critical if it contacts mucous membranes."
+  },
+  {
+    "id": 696346883,
+    "topicId": "infection-control",
+    "question": "A 38-year-old female patient with a confirmed case of active influenza presents for an emergency dental consultation. After the consultation, the dental assistant needs to disinfect the environmental surfaces in the operatory, including the dental chair and counter-tops. Which type of disinfectant is MOST appropriate for these non-critical, clinical contact surfaces?",
+    "options": [
+      "High-level disinfectant, such as glutaraldehyde.",
+      "Low-level disinfectant, such as a quaternary ammonium compound.",
+      "Intermediate-level disinfectant, such as a tuberculocidal hospital disinfectant.",
+      "Sterilant, such as peracetic acid."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Clinical contact surfaces that do not penetrate soft tissue or bone but may be touched with gloved hands or contaminated with patient material require at least an intermediate-level disinfectant. Given the presence of active influenza, a virus, and the need for broad-spectrum efficacy, an intermediate-level disinfectant (C), which is tuberculocidal, is MOST appropriate for these non-critical clinical contact surfaces. High-level disinfectants (A) are typically for semi-critical instruments that cannot be heat sterilized. Low-level disinfectants (B) are inadequate for clinical contact surfaces, especially with a known infectious patient."
+  },
+  {
+    "id": 373972086,
+    "topicId": "infection-control",
+    "question": "A 60-year-old male patient undergoes a complex surgical extraction of a severely infected tooth #38. After the procedure, the dental assistant is segregating waste. Which of the following items should be disposed of in a designated biohazardous waste container?",
+    "options": [
+      "Used disposable plastic saliva ejector.",
+      "Extracted tooth #38, after patient declines to take it.",
+      "Used disposable patient bib.",
+      "Non-sharp, blood-soaked gauze that can be squeezed or drips blood."
+    ],
+    "correctAnswer": 3,
+    "explanation": "In Canadian dental practice, regulated medical waste includes items that are saturated or caked with blood or other potentially infectious materials to the extent that they could release fluids if compressed. Non-sharp, blood-soaked gauze that can be squeezed or drips blood (D) falls into this category and requires disposal in a designated biohazardous waste container. A used saliva ejector (A) and patient bib (C) are typically considered general waste unless heavily saturated with blood. An extracted tooth (B) is considered pathological waste if not returned to the patient, and its disposal often follows specific guidelines for anatomical waste, which may be treated as biohazardous but is distinct."
+  },
+  {
+    "id": 24796714,
+    "topicId": "infection-control",
+    "question": "A 10-year-old male patient presents for an emergency dental examination with a chief complaint of severe toothache. His medical history reveals he is currently undergoing chemotherapy for leukemia and has a significantly compromised immune system. What is the MOST appropriate infection control measure to protect this patient during his visit?",
+    "options": [
+      "Administer prophylactic antibiotics immediately before the examination.",
+      "Schedule the patient for the first appointment of the day to minimize exposure to other patients.",
+      "Ensure all dental staff wear N95 respirators for aerosol-generating procedures.",
+      "Isolate the patient in a negative pressure room for the duration of the visit."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For severely immunocompromised patients, minimizing exposure to potential pathogens from other patients or the environment is critical. Scheduling the patient for the first appointment of the day (B) when the office is cleanest and has minimal circulating aerosols is the MOST appropriate administrative control measure to protect them. Prophylactic antibiotics (A) may be considered for invasive procedures but are not a standard measure for a routine examination. A negative pressure room (D) is used for patients with airborne infectious diseases to prevent spread *from* them, not to protect an immunocompromised patient *from* the environment."
   }
 ]
