@@ -342,21 +342,6 @@
     "peerReviewed": true
   },
   {
-    "id": 24,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male patient requires local anesthesia for a routine extraction. He has a history of controlled hypertension and takes a non-selective beta-blocker (propranolol). Which of the following local anesthetic formulations should be used with caution?",
-    "options": [
-      "2% lidocaine with 1:100,000 epinephrine",
-      "3% mepivacaine plain",
-      "4% articaine with 1:200,000 epinephrine",
-      "4% prilocaine plain"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Non-selective beta-blockers block beta-2 vasodilation, leaving alpha-1 vasoconstriction unopposed when exogenous epinephrine is administered, potentially leading to a significant spike in blood pressure and reflex bradycardia. Therefore, solutions containing epinephrine like lidocaine with 1:100,000 should be used with extreme caution or limited dose. Plain anesthetics like mepivacaine or prilocaine do not pose this specific interaction risk.",
-    "peerReviewed": true
-  },
-  {
     "id": 25,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -582,21 +567,6 @@
     "peerReviewed": true
   },
   {
-    "id": 40,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetics is metabolized primarily in the plasma by pseudocholinesterases and possesses a very short halflife, making it suitable for short procedures where rapid systemic clearance is desired?",
-    "options": [
-      "Mepivacaine",
-      "Lidocaine",
-      "Chloroprocaine",
-      "Bupivacaine"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Chloroprocaine is an ester local anesthetic that is rapidly metabolized by plasma cholinesterases, resulting in a very short half-life and low systemic toxicity. Lidocaine, bupivacaine, and mepivacaine are amide local anesthetics that undergo hepatic biotransformation via cytochrome P450 enzymes and have significantly longer half-lives.",
-    "peerReviewed": true
-  },
-  {
     "id": 41,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -777,36 +747,6 @@
     "peerReviewed": true
   },
   {
-    "id": 53,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male patient requires local anesthesia for a routine extraction. He has a history of controlled hypertension and is taking non-selective beta-blockers. Which of the following vasoconstrictors should be used with caution due to the risk of a significant pressor response?",
-    "options": [
-      "Levonordefrin 1:20,000",
-      "Felypressin 0.03 IU/mL",
-      "Plain mepivacaine 3%",
-      "Epinephrine 1:100,000"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Levonordefrin acts predominantly on alpha-adrenergic receptors and has a much higher propensity than epinephrine to cause severe hypertension when combined with non-selective beta-blockers due to unopposed alpha-1 vasoconstriction. Epinephrine affects both alpha and beta-2 receptors, leading to a more balanced vascular response. Felypressin is a non-catecholamine vasoconstrictor acting on vasopressin receptors and does not cause significant cardiac pressor effects, while plain mepivacaine contains no vasoconstrictor.",
-    "peerReviewed": true
-  },
-  {
-    "id": 54,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient is prescribed clindamycin for an odontogenic infection. Which of the following is the most critical and potentially life-threatening adverse effect associated with this antibiotic?",
-    "options": [
-      "Pseudomembranous colitis",
-      "Hepatotoxicity",
-      "Aplastic anemia",
-      "QT prolongation"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Clindamycin is notorious for causing overgrowth of Clostridioides difficile, leading to pseudomembranous colitis, a severe and potentially fatal condition. Aplastic anemia is famously associated with chloramphenicol, while macrolides like erythromycin and azithromycin are known for QT prolongation. Hepatotoxicity is more characteristic of tetracyclines or antifungals rather than primary clindamycin toxicity.",
-    "peerReviewed": true
-  },
-  {
     "id": 55,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -912,36 +852,6 @@
     "peerReviewed": true
   },
   {
-    "id": 62,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male patient requires local anesthesia for a routine extraction. He has a history of poorly controlled hypertension and is taking a non-selective beta-blocker (propranolol). Which of the following is the primary concern when administering a local anesthetic containing epinephrine?",
-    "options": [
-      "Immediate central nervous system toxicity",
-      "Severe hypotension due to beta-blocker blockade",
-      "Severe paradoxical bradycardia and unopposed alpha-1 mediated vasoconstriction",
-      "Accelerated metabolism of the local anesthetic"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Non-selective beta-blockers block beta-2 vasodilator receptors, leaving alpha-1 vasoconstrictor receptors unopposed. When epinephrine is administered, it can cause a significant rise in blood pressure, triggering a reflex bradycardia. Options A, C, and D do not accurately describe the classic pharmacokinetic or pharmacodynamic interaction between non-selective beta-blockers and exogenous epinephrine.",
-    "peerReviewed": true
-  },
-  {
-    "id": 63,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetics is metabolized primarily in the plasma by pseudocholinesterases and carries a higher potential for producing allergic reactions due to its para-aminobenzoic acid (PABA) metabolite?",
-    "options": [
-      "Mepivacaine",
-      "Bupivacaine",
-      "Lidocaine",
-      "Benzocaine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Benzocaine is an ester local anesthetic, which is metabolized in the plasma by pseudocholinesterase and produces PABA as a metabolite, known to cause allergic reactions. Lidocaine, mepivacaine, and bupivacaine are amides metabolized primarily by the liver cytochrome P450 enzymes.",
-    "peerReviewed": true
-  },
-  {
     "id": 64,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -1014,36 +924,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Nystatin is a polyene antifungal that binds to ergosterol in fungal cell membranes, increasing permeability and causing leakage of intracellular components. Fluconazole, clotrimazole, and ketoconazole are azoles that inhibit the synthesis of ergosterol rather than binding to it directly.",
-    "peerReviewed": true
-  },
-  {
-    "id": 69,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient taking chronic warfarin therapy for atrial fibrillation requires the extraction of two unrestorable teeth. The most recent INR value obtained on the morning of the procedure is 2.8. According to standard dental management guidelines, what is the most appropriate course of action?",
-    "options": [
-      "Substitute warfarin with low-molecular-weight heparin starting 3 days before surgery.",
-      "Discontinue warfarin 48 hours prior to the procedure to lower INR below 1.5.",
-      "Proceed with the extractions without altering the warfarin dose, utilizing local hemostatic measures.",
-      "Administer Vitamin K orally the night before the extraction."
-    ],
-    "correctAnswer": 2,
-    "explanation": "An INR of 2.8 falls within the therapeutic range (2.0-3.0) and is considered safe for routine dental extractions without altering the anticoagulant regimen. Discontinuing warfarin significantly increases the risk of thromboembolic events, which far outweighs the risk of manageable local bleeding. Local hemostatic measures such as sutures, gelatin sponges, and pressure are usually sufficient.",
-    "peerReviewed": true
-  },
-  {
-    "id": 70,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following medications exerts its primary mechanism of action by irreversibly inhibiting cyclooxygenase-1 (COX-1) and COX-2 enzymes via acetylation, thereby suppressing platelet aggregation for the lifespan of the platelet?",
-    "options": [
-      "Acetaminophen",
-      "Aspirin",
-      "Celecoxib",
-      "Ibuprofen"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Aspirin uniquely acetylates the serine residue on COX enzymes, permanently inhibiting COX-1 and thus thromboxane A2 synthesis in platelets. Ibuprofen and celecoxib are reversible inhibitors of COX enzymes. Acetaminophen acts primarily in the central nervous system with minimal peripheral COX inhibition and does not significantly affect platelet aggregation.",
     "peerReviewed": true
   },
   {
@@ -1152,21 +1032,6 @@
     "peerReviewed": true
   },
   {
-    "id": 78,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient taking warfarin for atrial fibrillation is prescribed a 7-day course of an antibiotic for an acute dentoalveolar abscess. Two weeks later, the patient presents with excessive gingival bleeding and an elevated INR. Which antibiotic was most likely prescribed?",
-    "options": [
-      "Amoxicillin",
-      "Azithromycin",
-      "Erythromycin",
-      "Clindamycin"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Erythromycin is a potent inhibitor of the hepatic cytochrome P450 system (specifically CYP3A4), which metabolizes warfarin, thereby increasing its plasma concentration and enhancing its anticoagulant effect. Amoxicillin has a much lower interaction potential, while macrolides like erythromycin and clarithromycin are well-known to interact significantly with warfarin.",
-    "peerReviewed": true
-  },
-  {
     "id": 79,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -1209,21 +1074,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Tricyclic antidepressants have potent anticholinergic properties, which frequently cause severe xerostomia, putting patients at high risk for rampant dental caries and oral candidiasis. They typically cause orthostatic hypotension, not hypertension, and lead to CNS depression and constipation rather than diarrhea.",
-    "peerReviewed": true
-  },
-  {
-    "id": 82,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient is prescribed clindamycin for an odontogenic infection. Which of the following is the most serious, potentially life-threatening adverse effect associated with clindamycin therapy?",
-    "options": [
-      "Pseudomembranous colitis",
-      "Aplastic anemia",
-      "Nephrotoxicity",
-      "Hepatotoxicity"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Clindamycin is notorious for causing overgrowth of Clostridioides difficile in the colon, leading to pseudomembranous colitis, which presents with severe diarrhea and abdominal cramps. Aplastic anemia is famously associated with chloramphenicol, while hepatotoxicity and nephrotoxicity are less typical primary concerns for clindamycin.",
     "peerReviewed": true
   },
   {
@@ -1284,21 +1134,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Erythromycin is a well-known macrolide inhibitor of hepatic cytochrome P450 enzymes (specifically CYP3A4), which metabolize warfarin. Inhibition of this pathway leads to decreased clearance of warfarin, elevated plasma concentrations, and a dangerous increase in INR putting the patient at risk for hemorrhage.",
-    "peerReviewed": true
-  },
-  {
-    "id": 87,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetics is metabolized primarily in the plasma by pseudocholinesterases and has a metabolite (PABA) associated with allergic reactions?",
-    "options": [
-      "Mepivacaine",
-      "Benzocaine",
-      "Bupivacaine",
-      "Lidocaine"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Benzocaine is an ester-type local anesthetic that undergoes rapid hydrolysis in the plasma by pseudocholinesterases, yielding para-aminobenzoic acid (PABA), which is a known allergen capable of precipitating allergic contact dermatitis or systemic hypersensitivity. Lidocaine, mepivacaine, and bupivacaine are amides metabolized primarily by hepatic cytochrome P450 enzymes.",
     "peerReviewed": true
   },
   {
@@ -1512,21 +1347,6 @@
     "peerReviewed": true
   },
   {
-    "id": 102,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male patient requires local anesthesia for a routine extraction. He has a history of poorly controlled hypertension and takes a non-selective beta-blocker. Which of the following vasoconstrictors should be used with extreme caution or avoided in this patient?",
-    "options": [
-      "Felypressin 0.03 IU/mL",
-      "Prilocaine without vasoconstrictor",
-      "Levonordefrin 1:20,000",
-      "Epinephrine 1:100,000"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Levonordefrin acts predominantly on alpha-receptors and has a much higher potency (approximately 15% that of norepinephrine) for causing peripheral vasoconstriction and subsequent marked blood pressure elevations when combined with non-selective beta-blockers due to unopposed alpha-1 activity. Epinephrine also interacts with non-selective beta-blockers, but levonordefrin's direct alpha-agonist profile poses a significantly higher risk of severe hypertensive episodes. Felypressin is a vasopressin analogue with minimal cardiac effects, and prilocaine without a vasoconstrictor lacks the adrenergic pressor response entirely.",
-    "peerReviewed": true
-  },
-  {
     "id": 103,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -1539,21 +1359,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Pseudomembranous colitis is caused by the overgrowth of Clostridioides difficile, a toxin-producing bacterium often triggered by broad-spectrum antibiotics like clindamycin that disrupt normal gut flora. Aplastic anemia is famously associated with chloramphenicol, hepatotoxicity with drugs like isoniazid or paracetamol, and red man syndrome with rapid intravenous vancomycin infusion.",
-    "peerReviewed": true
-  },
-  {
-    "id": 104,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetics is metabolized primarily in the plasma by pseudocholinesterases, making it the preferred choice for a patient with severe liver disease?",
-    "options": [
-      "Lidocaine",
-      "Articaine",
-      "Bupivacaine",
-      "Mepivacaine"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Articaine is unique among amino-amide local anesthetics because it contains an additional ester ring, which is rapidly hydrolyzed by plasma carboxylesterases into its inactive metabolite, articainic acid. Lidocaine, mepivacaine, and bupivacaine are purely amide local anesthetics that rely almost exclusively on hepatic microsomal P450 enzymes for biotransformation.",
     "peerReviewed": true
   },
   {
@@ -1722,21 +1527,6 @@
     "peerReviewed": true
   },
   {
-    "id": 116,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient is prescribed clindamycin for an odontogenic infection due to a penicillin allergy. Which of the following is the most concerning adverse effect associated with prolonged or high-dose clindamycin therapy?",
-    "options": [
-      "Pseudomembranous colitis",
-      "Gray baby syndrome",
-      "Aplastic anemia",
-      "Gingival hyperplasia"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Clindamycin use is notoriously associated with an overgrowth of Clostridioides difficile, leading to pseudomembranous colitis, a severe and potentially fatal diarrheal illness. Aplastic anemia is famously linked to chloramphenicol, gray baby syndrome to chloramphenicol in newborns, and gingival hyperplasia to phenytoin, calcium channel blockers, and cyclosporine.",
-    "peerReviewed": true
-  },
-  {
     "id": 117,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -1764,21 +1554,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "The elimination half-life of a drug dictates the time required to reach 50% of steady-state concentration (taking roughly 4-5 half-lives to reach ~97% steady state). While clearance determines the *level* of the steady-state concentration, the half-life specifically governs the *time course* and rate at which that steady state is achieved.",
-    "peerReviewed": true
-  },
-  {
-    "id": 119,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following benzodiazepines undergoes phase II metabolism directly (glucuronidation) without the production of active phase I metabolites, making it safer for patients with compromised liver function, such as the elderly?",
-    "options": [
-      "Midazolam",
-      "Diazepam",
-      "Alprazolam",
-      "Lorazepam"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Lorazepam is metabolized via direct conjugation (glucuronidation) to inactive metabolites, bypassing the hepatic cytochrome P450 oxidative pathway. Diazepam, midazolam, and alprazolam rely heavily on CYP-mediated phase I oxidation, producing active intermediates that can accumulate and cause prolonged sedation, especially in elderly patients.",
     "peerReviewed": true
   },
   {
@@ -1872,21 +1647,6 @@
     "peerReviewed": true
   },
   {
-    "id": 126,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following adverse effects is most commonly associated with the long-term use of nitrous oxide (N2O) sedation in dental personnel?",
-    "options": [
-      "Megaloblastic anemia and peripheral neuropathy",
-      "Gingival hyperplasia",
-      "Renal tubular acidosis",
-      "Hepatic necrosis"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Chronic occupational exposure to nitrous oxide oxidizes the cobalt ion in vitamin B12, inactivating methionine synthase and leading to megaloblastic anemia and peripheral neuropathy. Gingival hyperplasia is associated with phenytoin, hepatic necrosis with halothane, and renal issues with certain other agents, but not chronic N2O exposure.",
-    "peerReviewed": true
-  },
-  {
     "id": 127,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -1947,21 +1707,6 @@
     "peerReviewed": true
   },
   {
-    "id": 131,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male patient presents to your dental clinic requiring multiple extractions. He has a history of unstable angina and is currently taking nitroglycerin, aspirin, and metoprolol. Which of the following local anesthetics with vasoconstrictor is most appropriate for this patient to minimize cardiovascular risks?",
-    "options": [
-      "2% lidocaine with 1:50,000 epinephrine",
-      "3% mepivacaine plain",
-      "2% lidocaine with 1:100,000 epinephrine",
-      "4% articaine with 1:100,000 epinephrine"
-    ],
-    "correctAnswer": 2,
-    "explanation": "2% lidocaine with 1:100,000 epinephrine is generally considered safe in controlled cardiovascular disease when administered carefully with aspiration. 1:50,000 epinephrine provides an unnecessarily high dose of vasoconstrictor that can trigger tachycardia or blood pressure spikes. 3% mepivacaine plain lacks a vasoconstrictor, leading to a shorter duration of action and potentially higher systemic blood levels due to faster absorption.",
-    "peerReviewed": true
-  },
-  {
     "id": 132,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -1974,21 +1719,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Ibuprofen is a non-steroidal anti-inflammatory drug (NSAID) that non-selectively inhibits both COX-1 and COX-2 enzymes, thereby blocking peripheral prostaglandin synthesis. Acetaminophen acts primarily centrally with weak peripheral anti-inflammatory effects. Celecoxib is a selective COX-2 inhibitor, and tramadol is a centrally acting opioid agonist and monoamine reuptake inhibitor.",
-    "peerReviewed": true
-  },
-  {
-    "id": 133,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient is prescribed clindamycin for an odontogenic infection due to a penicillin allergy. Which of the following is the most severe, potentially life-threatening adverse effect associated with clindamycin therapy?",
-    "options": [
-      "Aplastic anemia",
-      "Hepatotoxicity",
-      "Pseudomembranous colitis",
-      "Gray baby syndrome"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Pseudomembranous colitis is caused by the overgrowth of Clostridioides difficile, a known severe complication of clindamycin use due to its broad-spectrum activity against gut flora. Aplastic anemia is famously associated with chloramphenicol, hepatotoxicity with tetracyclines or paracetamol overdose, and gray baby syndrome with chloramphenicol in neonates.",
     "peerReviewed": true
   },
   {
@@ -2397,21 +2127,6 @@
     "peerReviewed": true
   },
   {
-    "id": 161,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male patient requires local anesthesia for a routine extraction. He has a history of poorly controlled hypertension and is currently taking a non-selective beta-blocker (propranolol). Which of the following local anesthetic formulations is most appropriate to minimize the risk of a significant cardiovascular adverse event?",
-    "options": [
-      "2% lidocaine with 1:50,000 epinephrine",
-      "2% lidocaine with 1:100,000 epinephrine",
-      "3% mepivacaine plain",
-      "4% articaine with 1:100,000 epinephrine"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Non-selective beta-blockers like propranolol block beta-2 vasodilation, leaving alpha-1 vasoconstriction unopposed when exogenous epinephrine is administered, potentially causing a dangerous spike in blood pressure. 3% mepivacaine plain provides adequate pulpal anesthesia without a vasoconstrictor, avoiding this interaction. The other options contain high concentrations of epinephrine which should be strictly minimized or avoided in patients on non-selective beta-blockers.",
-    "peerReviewed": true
-  },
-  {
     "id": 162,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -2472,21 +2187,6 @@
     "peerReviewed": true
   },
   {
-    "id": 166,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetics is metabolized primarily in the plasma by pseudocholinesterases rather than by the hepatic cytochrome P450 system?",
-    "options": [
-      "Bupivacaine",
-      "Mepivacaine",
-      "Lidocaine",
-      "Benzocaine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Benzocaine is an ester local anesthetic, and esters are metabolized primarily in the plasma by pseudocholinesterases. Lidocaine, mepivacaine, and bupivacaine are amide local anesthetics, which are metabolized primarily by hepatic cytochrome P450 enzymes. (Note: Articaine is an amide but has an ester side-chain metabolized by plasma esterases, but it is not among the choices here).",
-    "peerReviewed": true
-  },
-  {
     "id": 167,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -2544,21 +2244,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Epinephrine is the primary, life-saving drug for anaphylaxis, working via alpha-1, beta-1, and beta-2 adrenergic receptors to reverse bronchospasm, vasodilation, and laryngeal edema. Diphenhydramine is merely an antihistamine adjunct, albuterol only addresses bronchospasm, and hydrocortisone has a delayed onset of action, making none of them suitable as the primary first-line emergency intervention.",
-    "peerReviewed": true
-  },
-  {
-    "id": 171,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male patient requires local anesthesia for a routine extraction. He has a history of controlled hypertension and is currently taking non-selective beta-blockers. Which of the following local anesthetic interactions is of primary concern in this patient?",
-    "options": [
-      "Methemoglobinemia due to enhanced prilocaine metabolism",
-      "Severe hypotension due to synergistic vasodilation",
-      "Hypertensive crisis and reflex bradycardia due to unopposed alpha-adrenergic stimulation",
-      "Respiratory depression due to central nervous system toxicity"
-    ],
-    "correctAnswer": 2,
-    "explanation": "When a vasoconstrictor like epinephrine is administered with a non-selective beta-blocker, the beta-2 mediated vasodilation is blocked, leaving alpha-1 vasoconstriction unopposed. This can result in a significant elevation in blood pressure followed by reflex bradycardia. Options A, C, and D do not accurately describe the classic interaction between non-selective beta-blockers and vasoconstrictors.",
     "peerReviewed": true
   },
   {
@@ -2667,21 +2352,6 @@
     "peerReviewed": true
   },
   {
-    "id": 179,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male patient requires local anesthesia for a routine extraction. He has a history of poorly controlled hypertension and is currently taking a non-selective beta-blocker (propranolol). Which of the following is the most appropriate maximum number of local anesthetic cartridges with 1:100,000 epinephrine that can be safely administered?",
-    "options": [
-      "5.5 cartridges",
-      "11 cartridges",
-      "22 cartridges",
-      "2 cartridges"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Patients taking non-selective beta-blockers may experience a significant pressor response (unopposed alpha-1 vasoconstriction leading to acute hypertension) when administered epinephrine. Therefore, the cardiac dose limit of 0.04 mg of epinephrine applies, which translates to approximately 2 cartridges of 1:100,000 epinephrine. Options A, B, and D exceed this safety threshold and risk precipitating a hypertensive crisis.",
-    "peerReviewed": true
-  },
-  {
     "id": 180,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -2739,21 +2409,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Omeprazole is a proton pump inhibitor that inhibits hepatic cytochrome P450 enzymes (specifically CYP2C19 and CYP3A4), thereby decreasing the metabolism and clearance of drugs like diazepam, warfarin, and phenytoin. Ranitidine and famotidine are H2 blockers with much lower potential for CYP enzyme inhibition, and calcium carbonate is a simple antacid.",
-    "peerReviewed": true
-  },
-  {
-    "id": 184,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male patient requires local anesthesia for a routine extraction. He has a history of poorly controlled hypertension and takes a non-selective beta-blocker (propranolol). Which of the following is the most appropriate maximum recommended dose of epinephrine to use?",
-    "options": [
-      "Cardiac dose limited to 0.04 mg (2 cartridges of 1:100,000)",
-      "Completely contraindicate all vasoconstrictors and use plain mepivacaine",
-      "Double the cardiac dose due to beta-blocker antagonism",
-      "Standard healthy patient maximum dose (0.2 mg)"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Patients taking non-selective beta-blockers can experience a paradoxical hypertensive crisis when given epinephrine due to unopposed alpha-1 receptor vasoconstriction. Therefore, the cardiac dose of epinephrine should be limited to 0.04 mg. Completely avoiding vasoconstrictors is usually unnecessary unless cardiac disease is severe, and doubling the dose would be dangerous.",
     "peerReviewed": true
   },
   {
@@ -3162,21 +2817,6 @@
     "peerReviewed": true
   },
   {
-    "id": 212,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetics is classified as an ester and is metabolized primarily in the plasma by pseudocholinesterase enzymes, creating a higher potential for allergic reactions due to its metabolite para-aminobenzoic acid (PABA)?",
-    "options": [
-      "Lidocaine",
-      "Articaine",
-      "Benzocaine",
-      "Mepivacaine"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Benzocaine is an ester local anesthetic commonly used in dentistry as a topical agent. Esters are metabolized in the plasma by pseudocholinesterase into PABA, which is known to elicit allergic reactions in susceptible individuals. Lidocaine, articaine, and mepivacaine are amides metabolized primarily in the liver.",
-    "peerReviewed": true
-  },
-  {
     "id": 213,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -3475,34 +3115,6 @@
     "explanation": "Flumazenil is a competitive antagonist at the benzodiazepine binding site on the GABA-A receptor and is used to reverse the effects of benzodiazepines. Naloxone and naltrexone are opioid antagonists, and while flumazenil can precipitate withdrawal seizures in chronic users, it is the specific reversal agent for benzodiazepine toxicity."
   },
   {
-    "id": 233,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetics is metabolized primarily in the plasma by pseudocholinesterases, making it a safer choice for patients with severe liver disease?",
-    "options": [
-      "Lidocaine",
-      "Mepivacaine",
-      "Bupivacaine",
-      "Articaine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Articaine is unique among amino-amide local anesthetics because it possesses an additional ester ring, which is rapidly hydrolyzed by plasma carboxylesterases. Lidocaine, mepivacaine, and bupivacaine are purely amino-amides metabolized primarily by the hepatic cytochrome P450 enzyme system."
-  },
-  {
-    "id": 234,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient taking chronic daily low-dose aspirin is scheduled for a full-mouth scaling and root planing. According to current evidence-based guidelines, what is the most appropriate management regarding their medication?",
-    "options": [
-      "Double the dose on the morning of the procedure",
-      "Discontinue aspirin 7 days prior to treatment",
-      "Continue aspirin therapy without interruption",
-      "Switch to warfarin 48 hours prior"
-    ],
-    "correctAnswer": 2,
-    "explanation": "For routine dental procedures including scaling and root planing, the risk of significant bleeding from low-dose aspirin is generally low and outweighed by the cardiovascular thromboembolic risks of discontinuation. Therefore, aspirin should be continued without interruption. Stopping it increases stroke or myocardial infarction risk."
-  },
-  {
     "id": 235,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -3587,20 +3199,6 @@
     "explanation": "Celecoxib is a selective COX-2 inhibitor designed to provide anti-inflammatory and analgesic effects while sparing gastric COX-1, thereby reducing gastrointestinal ulceration risks. Ibuprofen, naproxen, and ketorolac are traditional non-selective NSAIDs that inhibit both COX-1 and COX-2 to varying degrees."
   },
   {
-    "id": 241,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male patient requires local anesthesia for a routine extraction. He has a history of poorly controlled hypertension and takes a non-selective beta-blocker. Which of the following vasoconstrictors should be used with extreme caution or avoided in limiting doses due to the risk of severe paradoxical hypertension and reflex bradycardia?",
-    "options": [
-      "Epinephrine 1:100,000",
-      "Felypressin",
-      "Mepivacaine 3% plain",
-      "Levonordefrin 1:20,000"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Levonordefrin exhibits a much higher affinity for alpha-1 adrenergic receptors compared to epinephrine, which primarily stimulates beta-2 receptors at lower doses. When combined with non-selective beta-blockers, the unopposed alpha-1 vasoconstriction caused by levonordefrin can lead to a significant spike in blood pressure. Epinephrine can also interact, but levonordefrin carries a notoriously higher risk for this specific interaction. Plain anesthetics like mepivacaine lack vasoconstrictors entirely, and felypressin acts on vasopressin receptors rather than adrenergic ones."
-  },
-  {
     "id": 242,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -3655,20 +3253,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "For patients with a severe, IgE-mediated allergy to penicillins, beta-lactam antibiotics (including amoxicillin, ampicillin, and cephalosporins due to cross-reactivity) must be strictly avoided. Clindamycin is a lincosamide that provides excellent coverage against oral anaerobes and gram-positive coccs, making it the classic alternative in penicillin-allergic patients. Cephalexin and amoxicillin/clavulanate carry cross-allergenicity risks."
-  },
-  {
-    "id": 246,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following medications used in the management of osteonecrosis of the jaw or osteoporosis acts specifically as a non-nitrogen-containing bisphosphonate?",
-    "options": [
-      "Zoledronic acid",
-      "Alendronate",
-      "Ibandronate",
-      "Etidronate"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Etidronate is a non-nitrogen-containing bisphosphonate that is metabolized into cytotoxic ATP analogues, leading to osteoclast apoptosis through a different pathway than nitrogen-containing agents. Alendronate, zoledronic acid, and ibandronate are all nitrogen-containing bisphosphonates that inhibit the farnesyl pyrophosphate synthase enzyme in the mevalonate pathway."
   },
   {
     "id": 247,
@@ -4105,34 +3689,6 @@
     "explanation": "Methadone is a synthetic opioid agonist at the mu-opioid receptor and also acts as an NMDA receptor antagonist and serotonin/norepinephrine reuptake inhibitor, which makes it unique for managing complex or neuropathic pain. Codeine, morphine, and traditional meperidine lack significant NMDA receptor antagonism."
   },
   {
-    "id": 278,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetics is classified as an ester and is metabolized primarily in the plasma by pseudocholinesterases, increasing the risk of allergic reactions due to its metabolite para-aminobenzoic acid (PABA)?",
-    "options": [
-      "Mepivacaine",
-      "Benzocaine",
-      "Lidocaine",
-      "Articaine"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Benzocaine is an ester local anesthetic that is metabolized in the plasma and produces PABA as a byproduct, which is a known allergen responsible for allergic contact dermatitis. Lidocaine, articaine, and mepivacaine are all amide local anesthetics, which are metabolized in the liver by cytochrome P450 enzymes and rarely cause true allergic reactions."
-  },
-  {
-    "id": 279,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient is prescribed clindamycin for an odontogenic infection. Which of the following adverse effects is of highest concern with long-term or standard broad-spectrum use of this specific antibiotic?",
-    "options": [
-      "Aplastic anemia",
-      "Gray baby syndrome",
-      "Tendon rupture",
-      "Pseudomembranous colitis"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Clindamycin is notorious for causing an overgrowth of Clostridioides difficile in the colon, leading to pseudomembranous colitis, a severe and potentially fatal condition. Aplastic anemia is famously associated with chloramphenicol, gray baby syndrome with chloramphenicol in neonates, and tendon rupture with fluoroquinolones like ciprofloxacin."
-  },
-  {
     "id": 280,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -4145,20 +3701,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Ibuprofen is a classic non-steroidal anti-inflammatory drug (NSAID) that non-selectively inhibits both COX-1 and COX-2 enzymes. Celecoxib is a selective COX-2 inhibitor, acetaminophen acts primarily centrally with weak peripheral COX inhibition, and allopurinol is a xanthine oxidase inhibitor used for gout."
-  },
-  {
-    "id": 281,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient taking warfarin for atrial fibrillation requires scaling and root planing. What is the most critical laboratory test dentists use to monitor the therapeutic efficacy and bleeding risk of warfarin therapy?",
-    "options": [
-      "Bleeding Time",
-      "Platelet Count",
-      "Activated Partial Thromboplastin Time (aPTT)",
-      "International Normalized Ratio (INR)"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The International Normalized Ratio (INR) is the standardized laboratory measure used to monitor patients on oral vitamin K antagonists like warfarin. aPTT is used for heparin, bleeding time assesses primary hemostasis (platelet function/vessel wall), and platelet count measures cellular hemostasis rather than the extrinsic coagulation cascade affected by warfarin."
   },
   {
     "id": 282,
@@ -4315,20 +3857,6 @@
     "explanation": "Levonordefrin and epinephrine are sympathomimetic amines. MAOIs inhibit the breakdown of endogenous and exogenous catecholamines, leading to dangerous potentiation of vasopressor effects that can trigger a severe hypertensive crisis. Felypressin is a non-catecholamine vasoconstrictor (vasopressin analog) and does not interact with MAOIs in this manner."
   },
   {
-    "id": 293,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which pharmacokinetic parameter describes the volume of plasma that is cleared of a drug per unit of time, serving as a primary determinant of the maintenance dose required to achieve steady-state plasma concentrations?",
-    "options": [
-      "Half-life",
-      "Volume of distribution",
-      "Bioavailability",
-      "Clearance"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Clearance is defined as the volume of fluid cleared of drug from the body per unit of time. It directly dictates the maintenance dosing rate needed to maintain a desired steady-state concentration. Bioavailability refers to the fraction of drug reaching systemic circulation, volume of distribution relates drug amount to plasma concentration, and half-life is the time required for plasma concentration to decrease by half."
-  },
-  {
     "id": 294,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -4399,20 +3927,6 @@
     "explanation": "Carbamazepine carries a black box warning for severe dermatological reactions and bone marrow suppression, most notably aplastic anemia and agranulocytosis. Regular complete blood counts (CBC) are mandatory during therapy. The other options involve an increase in blood cells, whereas carbamazepine suppresses bone marrow output."
   },
   {
-    "id": 299,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following benzodiazepines undergoes phase II metabolism directly (glucuronidation) without forming active metabolites via hepatic cytochrome P450 enzymes, making it safer for patients with liver impairment?",
-    "options": [
-      "Alprazolam",
-      "Lorazepam",
-      "Midazolam",
-      "Diazepam"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Lorazepam, along with oxazepam and temazepam (LOT), is metabolized via direct glucuronidation (Phase II) and does not rely on CYP450 enzymes to form active metabolites, making them favorable for patients with compromised liver function. Diazepam, midazolam, and alprazolam undergo extensive CYP-mediated oxidation and generate active intermediates that can accumulate."
-  },
-  {
     "id": 300,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -4425,20 +3939,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Opioids primarily exert their analgesic, euphoric, and respiratory-depressant effects by acting as agonists at G-protein coupled opioid receptors, with the mu (μ) receptor being the most clinically significant. Cholinergic, NMDA, and tyrosine kinase receptors are targets for completely different pharmacological classes (e.g., muscle relaxants, dissociative anesthetics, growth factors)."
-  },
-  {
-    "id": 301,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetics is metabolized primarily in the plasma by pseudocholinesterases and has the highest likelihood of producing allergic reactions due to its para-aminobenzoic acid (PABA) metabolite?",
-    "options": [
-      "Articaine",
-      "Bupivacaine",
-      "Benzocaine",
-      "Lidocaine"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Benzocaine is an ester local anesthetic, which is metabolized in the plasma by pseudocholinesterase, yielding PABA as a metabolite known for triggering allergic reactions. Lidocaine, articaine, and bupivacaine are amides metabolized primarily by the liver cytochrome P450 enzymes (with articaine also having plasma esterase metabolism, but it is an amide derivative without PABA metabolites)."
   },
   {
     "id": 302,
@@ -4537,34 +4037,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Tramadol is a centrally acting atypical opioid whose analgesic efficacy relies both on weak mu-opioid receptor agonism and the inhibition of neuronal reuptake of serotonin and norepinephrine, along with NMDA receptor antagonism. Morphine, fentanyl, and codeine act primarily and almost exclusively as mu-opioid receptor agonists without significant monoamine reuptake inhibition or NMDA antagonism."
-  },
-  {
-    "id": 309,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient taking warfarin for atrial fibrillation is prescribed a short course of an antibiotic for an acute dental abscess. Two weeks later, the patient presents with elevated INR and minor gingival bleeding. Which of the following dental antibiotics is most likely to have caused this drug interaction?",
-    "options": [
-      "Cephalexin",
-      "Clindamycin",
-      "Amoxicillin",
-      "Erythromycin"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Erythromycin is a well-known inhibitor of the hepatic cytochrome P450 enzyme system (specifically CYP3A4), which metabolizes warfarin, thereby increasing serum warfarin levels and the risk of bleeding. While broad-spectrum antibiotics like amoxicillin and clindamycin can alter vitamin K-producing gut flora and raise INR, macrolides like erythromycin exert a direct and potent pharmacokinetic inhibition on warfarin metabolism."
-  },
-  {
-    "id": 310,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following medications used in the management of osteonecrosis of the jaw or osteoporosis has the longest skeletal half-life, remaining bound to bone matrix for years after cessation of therapy?",
-    "options": [
-      "Teriparatide",
-      "Alendronate",
-      "Denosumab",
-      "Calcitonin"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Alendronate is a bisphosphonate that binds avidly to hydroxyapatite crystals in bone and possesses a skeletal half-life of up to 10 years. Teriparatide is a daily peptide hormone with a very short systemic half-life, denosumab is a monoclonal antibody cleared by the reticuloendothelial system with a half-life of about 28 days, and calcitonin is cleared rapidly by the kidneys."
   },
   {
     "id": 311,
@@ -4721,20 +4193,6 @@
     "explanation": "Nystatin is a polyene antifungal that binds to ergosterol in the fungal cell membrane, forming pores that lead to ion leakage and cell death. Inhibiting cell wall synthesis is the mechanism of echinocandins, while inhibiting lanosterol 14-alpha-demethylase is the mechanism of azoles like fluconazole."
   },
   {
-    "id": 322,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following benzodiazepines undergoes phase II metabolism directly (glucuronidation) without the formation of active metabolites via hepatic CYP450 oxidation, making it safer in patients with hepatic dysfunction?",
-    "options": [
-      "Alprazolam",
-      "Midazolam",
-      "Lorazepam",
-      "Diazepam"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Lorazepam, along with oxazepam and temazepam (known as LOT drugs), is metabolized directly via glucuronidation (phase II) and does not rely on CYP450 enzymes or produce active metabolites. Diazepam, midazolam, and alprazolam undergo extensive CYP-mediated phase I oxidation, producing active intermediates that can accumulate in liver disease."
-  },
-  {
     "id": 323,
     "topicId": "pharmacology",
     "difficulty": "medium",
@@ -4747,20 +4205,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Clarithromycin is a potent inhibitor of CYP3A4, the enzyme responsible for metabolizing many statins (e.g., simvastatin, atorvastatin). Inhibiting this metabolism causes statin blood levels to spike, significantly increasing the risk of myopathy and life-threatening rhabdomyolysis. The other adverse effects are not linked to this specific macrolide-statin interaction."
-  },
-  {
-    "id": 324,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "A patient is prescribed clindamycin for an odontogenic infection. Which of the following is the most concerning adverse effect that must be communicated to the patient?",
-    "options": [
-      "Pseudomembranous colitis",
-      "Aplastic anemia",
-      "Gray baby syndrome",
-      "Hepatotoxicity"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Clindamycin is notorious for causing overgrowth of Clostridioides difficile, leading to pseudomembranous colitis, a potentially severe and life-threatening diarrheal condition. Aplastic anemia is famously associated with chloramphenicol, while hepatotoxicity can be seen with tetracyclines or macrolides, and gray baby syndrome is caused by chloramphenicol."
   },
   {
     "id": 325,
@@ -4803,20 +4247,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Zoledronic acid is an intravenous bisphosphonate frequently used to treat hypercalcemia of malignancy and bone metastases, carrying a much higher potency and significantly elevated risk of MRONJ compared to oral bisphosphonates. Alendronate, risedronate, and ibandronate are typically administered orally for osteoporosis and present a markedly lower overall risk."
-  },
-  {
-    "id": 328,
-    "topicId": "pharmacology",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetics is metabolized primarily in the plasma by pseudocholinesterases, yielding a metabolite (para-aminobenzoic acid) that is notorious for triggering allergic contact reactions?",
-    "options": [
-      "Lidocaine",
-      "Mepivacaine",
-      "Articaine",
-      "Benzocaine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Benzocaine is an ester local anesthetic whose breakdown yields para-aminobenzoic acid (PABA), a known allergen responsible for allergic reactions. Lidocaine, mepivacaine, and articaine are amides (articaine also has an ester side-chain but is metabolized by plasma carboxylesterases primarily into inactive articainic acid, not PABA) and are metabolized in the liver."
   },
   {
     "id": 329,
@@ -5125,5 +4555,772 @@
     ],
     "correctAnswer": 0,
     "explanation": "Acetaminophen is the most appropriate choice as it provides effective analgesia without increasing the risk of bleeding in patients on anticoagulants like Rivaroxaban, nor does it significantly interact with Ramipril regarding renal function or blood pressure control at therapeutic doses. NSAIDs (Ibuprofen, Celecoxib) are contraindicated or used with extreme caution due to their antiplatelet effects (increasing bleeding risk with Rivaroxaban) and potential for renal dysfunction and antagonism of antihypertensive effects when combined with ACE inhibitors like Ramipril. While acetaminophen with codeine avoids NSAID risks, plain acetaminophen is generally preferred as a first-line option for uncomplicated extractions to minimize opioid-related side effects in an elderly, polymedicated patient, unless pain is severe."
+  },
+  {
+    "id": 446460218,
+    "topicId": "pharmacology",
+    "question": "A 28-year-old female patient presents to your dental office with a chief complaint of sharp, shooting pain in her upper left posterior region when consuming cold beverages. The pain is intense, lasts for several minutes after the stimulus is removed, and occasionally radiates to her temple. Her medical history is non-contributory. Clinical examination reveals a deep occlusal restoration on tooth #26. Percussion and palpation tests are negative, but an electric pulp test elicits an immediate, lingering pain response. Radiographically, the tooth shows no periapical pathology. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Irreversible pulpitis",
+      "Reversible pulpitis",
+      "Necrotic pulp",
+      "Acute apical periodontitis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The key indicators for irreversible pulpitis are sharp, shooting pain that is intense, lingers after cold stimulation, and sometimes radiates. Reversible pulpitis pain is sharp but transient, resolving quickly upon stimulus removal. Necrotic pulp would typically present with a negative pulp test and potentially periapical pathology, while acute apical periodontitis would involve percussion sensitivity and radiographic periapical changes, neither of which are the primary findings here."
+  },
+  {
+    "id": 509888116,
+    "topicId": "pharmacology",
+    "question": "A 55-year-old male patient, a former smoker, presents to your dental office for a routine recall appointment. His chief complaint is occasional bleeding gums when brushing. His medical history includes well-controlled hypertension managed with a diuretic. Clinical examination reveals generalized gingival inflammation, probing depths ranging from 4-6mm with bleeding on probing, and slight radiographic evidence of horizontal bone loss (up to 20%). There is no mobility or furcation involvement. What is the MOST appropriate initial management?",
+    "options": [
+      "Prescribe systemic antibiotics (e.g., amoxicillin) and refer to a periodontist.",
+      "Oral hygiene instructions and a full-mouth debridement (scaling and root planing).",
+      "Recommend daily chlorhexidine mouthwash for 2 weeks.",
+      "Perform a gingivectomy in areas of deepest probing."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient presents with chronic periodontitis, characterized by gingival inflammation, increased probing depths, and bone loss. The initial and most appropriate management involves comprehensive oral hygiene instructions and scaling and root planing to remove biofilm and calculus. Systemic antibiotics are generally reserved for aggressive or refractory periodontitis, and gingivectomy is a surgical procedure not indicated as an initial management for this presentation."
+  },
+  {
+    "id": 921133650,
+    "topicId": "pharmacology",
+    "question": "Which of the following best describes the primary mechanism by action of amide-type local anesthetics in preventing nerve impulse transmission?",
+    "options": [
+      "Stimulating the release of inhibitory neurotransmitters at synaptic junctions.",
+      "Activating potassium channels, leading to hyperpolarization of the nerve membrane.",
+      "Blocking voltage-gated sodium channels from the intracellular side, inhibiting sodium influx.",
+      "Disrupting the myelin sheath, preventing saltatory conduction."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Amide local anesthetics primarily work by reversibly blocking voltage-gated sodium channels from within the nerve cell, preventing sodium influx and thus inhibiting the propagation of action potentials. Options A and B describe mechanisms of other pharmacological agents or cellular processes, not local anesthetics. Option D describes the effect of demyelinating diseases, not local anesthetic action."
+  },
+  {
+    "id": 480486163,
+    "topicId": "pharmacology",
+    "question": "A 62-year-old male patient requires a routine dental extraction. His medical history includes atrial fibrillation, for which he takes warfarin daily. He also takes a daily multivitamin. His INR was checked yesterday and is 2.5. What is the MOST appropriate management regarding his anticoagulant medication prior to the extraction?",
+    "options": [
+      "Discontinue warfarin 3 days before the extraction.",
+      "Reduce the warfarin dose by half the day before the extraction.",
+      "Switch from warfarin to low molecular weight heparin (bridging therapy).",
+      "Proceed with the extraction without altering warfarin, ensuring local hemostatic measures."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For most minor dental procedures, including simple extractions, patients on warfarin with an INR within the therapeutic range (2.0-3.0) should not interrupt their anticoagulant therapy. Local hemostatic measures are sufficient to manage bleeding risk. Discontinuing or reducing warfarin significantly increases the risk of thromboembolic events, and bridging therapy is typically reserved for higher-risk surgical procedures."
+  },
+  {
+    "id": 193933919,
+    "topicId": "pharmacology",
+    "question": "A 40-year-old female patient presents to your dental office with a chief complaint of severe pain and swelling in her lower right jaw, accompanied by fever (38.5°C) and malaise. She denies any known drug allergies. Clinical examination reveals a fluctuant swelling in the buccal vestibule adjacent to tooth #47, which is non-vital. What is the MOST appropriate initial management step after incision and drainage?",
+    "options": [
+      "Prescribe penicillin V 500mg QID for 7 days.",
+      "Prescribe clindamycin 300mg QID for 7 days.",
+      "Prescribe metronidazole 500mg TID for 7 days.",
+      "Prescribe a combination of amoxicillin and clavulanate 875/125mg BID for 7 days."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For most odontogenic infections in a healthy, non-allergic patient, penicillin V is considered the first-line antibiotic due to its effectiveness against common oral anaerobes and streptococci. Clindamycin is an alternative for penicillin-allergic patients or refractory infections. Metronidazole is effective against anaerobes but is usually used in combination with penicillin for more severe or resistant infections, and amoxicillin-clavulanate is a broader spectrum antibiotic often reserved for more severe cases."
+  },
+  {
+    "id": 463974027,
+    "topicId": "pharmacology",
+    "question": "Which of the following is a primary advantage of using resin-modified glass ionomer cements (RMGICs) over conventional glass ionomer cements (GICs) for restorative procedures?",
+    "options": [
+      "Increased fluoride release over time.",
+      "Reduced water sensitivity during setting.",
+      "Higher compressive strength and wear resistance.",
+      "Superior bond strength to dentin without conditioning."
+    ],
+    "correctAnswer": 1,
+    "explanation": "RMGICs incorporate a resin component that allows for light-curing, which significantly reduces the material's initial sensitivity to water and improves early strength compared to conventional GICs. While RMGICs do offer improved mechanical properties and fluoride release compared to some materials, their primary advantage over conventional GICs is the reduced water sensitivity during the crucial initial setting phase. Superior bond strength without conditioning is not accurate."
+  },
+  {
+    "id": 388618843,
+    "topicId": "pharmacology",
+    "question": "A 7-year-old male patient presents to your dental office after falling from his bicycle, sustaining trauma to his permanent maxillary central incisor (#11). Clinical examination reveals a fractured tooth crown with pulp exposure, but the tooth is not mobile or displaced. Radiographically, the root apex appears open. What is the MOST appropriate immediate management?",
+    "options": [
+      "Perform a pulpectomy and root canal filling.",
+      "Extract the tooth immediately.",
+      "Perform a pulpotomy with calcium hydroxide and restore the crown.",
+      "Place a temporary restoration and observe."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a fractured immature permanent tooth with pulp exposure and an open apex, the goal is to preserve pulp vitality and allow for continued root development (apexogenesis). A Cvek pulpotomy (partial pulpotomy) with calcium hydroxide is the most appropriate treatment. Pulpectomy and root canal filling are indicated for necrotic pulps in mature teeth, and extraction is a last resort."
+  },
+  {
+    "id": 971550336,
+    "topicId": "pharmacology",
+    "question": "A 40-year-old female patient requires bitewing radiographs as part of her routine dental check-up. Her medical history is non-contributory. She expresses concern about radiation exposure. According to Canadian dental guidelines, what is the MOST effective method for minimizing her radiation dose during this procedure?",
+    "options": [
+      "Using a lead apron with a thyroid collar.",
+      "Utilizing F-speed digital sensors.",
+      "Increasing the kilovoltage peak (kVp) to reduce exposure time.",
+      "Employing a rectangular collimating device."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Rectangular collimation is considered the most effective method for minimizing patient radiation exposure because it significantly reduces the volume of irradiated tissue by shaping the X-ray beam to the size of the sensor. While lead aprons, F-speed sensors, and optimized kVp are important for dose reduction, rectangular collimation provides the greatest reduction in primary beam area."
+  },
+  {
+    "id": 187334502,
+    "topicId": "pharmacology",
+    "question": "A 50-year-old female patient presents to your dental office for a routine check-up. She reports a persistent white lesion on her left buccal mucosa that has been present for several months and does not rub off. Her medical history includes well-controlled hypertension. She is a long-term smoker. Clinical examination reveals a homogeneous, non-tender, white patch approximately 1.5 cm in diameter on the left buccal mucosa, with no palpable induration or ulceration. What is the MOST appropriate next step in management?",
+    "options": [
+      "Perform an incisional biopsy of the lesion.",
+      "Prescribe a topical antifungal medication and re-evaluate in 2 weeks.",
+      "Instruct the patient on meticulous oral hygiene and review in 3 months.",
+      "Advise the patient to stop smoking and observe for resolution."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A persistent, non-scrapable white lesion, especially in a long-term smoker, is highly suspicious for leukoplakia, which has malignant potential. Therefore, an incisional biopsy is the most appropriate next step to obtain a definitive diagnosis. Topical antifungals are for candidiasis (which typically rubs off), and simple observation or hygiene instructions are insufficient given the risk factors and persistence."
+  },
+  {
+    "id": 207260833,
+    "topicId": "pharmacology",
+    "question": "A 25-year-old male patient becomes pale, diaphoretic, and reports feeling dizzy and nauseous while waiting for a local anesthetic injection. He then loses consciousness briefly. His medical history is non-contributory, and he states he skipped breakfast. What is the MOST appropriate immediate management?",
+    "options": [
+      "Administer epinephrine intramuscularly.",
+      "Place the patient in a supine position with legs elevated.",
+      "Administer oxygen via nasal cannula.",
+      "Begin chest compressions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's symptoms are classic for syncope (fainting), often triggered by anxiety, hunger, or pain. The most appropriate immediate management is to place the patient in a supine position with legs elevated (Trendelenburg position) to increase cerebral blood flow. Epinephrine is for anaphylaxis, and chest compressions are for cardiac arrest; these are not indicated for simple syncope."
+  },
+  {
+    "id": 127877977,
+    "topicId": "pharmacology",
+    "question": "Non-steroidal anti-inflammatory drugs (NSAIDs) exert their primary analgesic and anti-inflammatory effects by inhibiting the synthesis of which of the following compounds?",
+    "options": [
+      "Histamine",
+      "Bradykinin",
+      "Prostaglandins",
+      "Serotonin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NSAIDs primarily act by inhibiting the cyclooxygenase (COX) enzymes, which are responsible for the synthesis of prostaglandins. Prostaglandins play a crucial role in inflammation, pain, and fever. Histamine, bradykinin, and serotonin are other mediators of inflammation and pain, but their synthesis is not directly inhibited by NSAIDs."
+  },
+  {
+    "id": 901400202,
+    "topicId": "pharmacology",
+    "question": "A 38-year-old female patient presents to your dental office one week after receiving root canal treatment on tooth #36. She reports persistent dull pain in the area, exacerbated by biting pressure. Her medical history is significant for a recent history of Crohn's disease, currently in remission. Clinical examination reveals the tooth is tender to percussion but not mobile, and there is no facial swelling or sinus tract. Radiographically, the root canal filling appears adequate, but a slight widening of the periodontal ligament space is noted apically. What is the MOST likely cause of her symptoms?",
+    "options": [
+      "Vertical root fracture.",
+      "Acute apical abscess.",
+      "Necrosis of adjacent tooth #37.",
+      "Post-treatment flare-up/Apical periodontitis."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Persistent dull pain, tenderness to percussion after root canal treatment, and slight widening of the PDL space without overt signs of infection (swelling, sinus tract) are classic signs of a post-treatment flare-up or apical periodontitis. This is an inflammatory response to residual irritants or overinstrumentation. A vertical root fracture would present with more localized pain and often a J-shaped or halo radiolucency, and an acute apical abscess would involve significant swelling and purulence."
+  },
+  {
+    "id": 75790385,
+    "topicId": "pharmacology",
+    "question": "A 68-year-old male patient presents to your dental office complaining of generalized tooth wear and sensitivity. He reports clenching his teeth at night. His medical history includes well-controlled GERD. Clinical examination reveals significant attrition on the occlusal surfaces of his posterior teeth and incisal wear on his anterior teeth. There is no evidence of active caries. What is the MOST appropriate initial management strategy?",
+    "options": [
+      "Fabricate a custom occlusal guard (night guard).",
+      "Prescribe a muscle relaxant and advise soft diet.",
+      "Initiate full-mouth restorative rehabilitation with crowns.",
+      "Recommend orthodontic treatment to correct occlusal discrepancies."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The patient's symptoms and signs (generalized wear, sensitivity, clenching history) are indicative of bruxism. The most appropriate initial management is the fabrication of a custom occlusal guard to protect the teeth from further wear and reduce clenching forces. Full-mouth rehabilitation is premature without addressing the cause, and muscle relaxants are typically for acute muscle pain, not chronic bruxism management."
+  },
+  {
+    "id": 833862796,
+    "topicId": "pharmacology",
+    "question": "According to Canadian dental infection control guidelines, which of the following best describes the MOST critical step in preventing the transmission of bloodborne pathogens in a dental clinic setting?",
+    "options": [
+      "Routine use of surface disinfectants on all clinical contact surfaces.",
+      "Proper sterilization of all critical and semi-critical instruments.",
+      "Annual review of medical histories for all patients.",
+      "Use of personal protective equipment (PPE) for all procedures involving aerosols."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sterilization is the process that destroys all forms of microbial life, including highly resistant bacterial spores, thereby completely eliminating the risk of transmitting bloodborne pathogens via instruments. While surface disinfection and PPE are crucial components of infection control, sterilization of instruments that penetrate soft tissue or bone (critical) or come into contact with mucous membranes (semi-critical) is the definitive step for preventing direct pathogen transmission."
+  },
+  {
+    "id": 921229145,
+    "topicId": "pharmacology",
+    "question": "A 32-year-old female patient returns to your dental office 3 days after an uncomplicated extraction of tooth #48. She complains of severe, throbbing pain in the extraction site that radiates to her ear, accompanied by a foul taste and odor. Clinical examination reveals a partially empty socket with exposed bone and no evidence of purulence. Her medical history is non-contributory. What is the MOST likely diagnosis?",
+    "options": [
+      "Post-operative infection.",
+      "Osteomyelitis.",
+      "Alveolar osteitis (dry socket).",
+      "Injury to the inferior alveolar nerve."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The classic signs and symptoms of alveolar osteitis (dry socket) include severe, radiating pain 2-4 days post-extraction, a foul taste/odor, and a partially empty socket with exposed bone. Post-operative infection typically involves swelling and purulence, which are not present. Inferior alveolar nerve injury would manifest as paresthesia or anesthesia, not throbbing pain."
+  },
+  {
+    "id": 656697224,
+    "topicId": "pharmacology",
+    "question": "A 45-year-old male patient presents to your dental office with acute, moderate dental pain following a non-surgical root canal procedure on tooth #16 earlier today. He has no known drug allergies and a healthy medical history. He requests a strong pain medication. What is the MOST appropriate analgesic to prescribe initially?",
+    "options": [
+      "Acetaminophen 500mg, 1-2 tablets every 4-6 hours PRN.",
+      "Codeine 30mg with acetaminophen 300mg, 1-2 tablets every 4-6 hours PRN.",
+      "Oxycodone 5mg with acetaminophen 325mg, 1 tablet every 4-6 hours PRN.",
+      "Ibuprofen 600mg, 1 tablet every 6 hours PRN."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For acute moderate dental pain, NSAIDs like ibuprofen are generally considered the first-line analgesic due to their superior anti-inflammatory and analgesic properties compared to acetaminophen alone. Opioids (codeine, oxycodone) are typically reserved for severe pain or when NSAIDs are contraindicated, and their routine use is discouraged due to risks of dependence and side effects."
+  },
+  {
+    "id": 593052486,
+    "topicId": "pharmacology",
+    "question": "A 15-year-old male patient presents to your dental office with a chief complaint of a slowly enlarging swelling in his left posterior mandible. His medical history is non-contributory. Radiographic examination reveals a large, multilocular radiolucency extending from the angle of the mandible to the first molar region, associated with an unerupted tooth #38. A biopsy confirms the diagnosis of an odontogenic keratocyst (keratocystic odontogenic tumor). What characteristic of this lesion is MOST concerning regarding its long-term management?",
+    "options": [
+      "Its aggressive nature and high recurrence rate.",
+      "Its potential for malignant transformation.",
+      "Its common association with radicular cysts.",
+      "Its limited growth potential, making enucleation straightforward."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The odontogenic keratocyst (OKC/KCOT) is primarily concerning due to its aggressive growth behavior and high recurrence rate, necessitating careful surgical management and long-term follow-up. While any lesion can theoretically undergo malignant transformation, it is not the defining characteristic of OKC. It is not commonly associated with radicular cysts, and its growth potential is significant, not limited."
+  },
+  {
+    "id": 275920805,
+    "topicId": "pharmacology",
+    "question": "A 5-year-old female patient presents for her first dental visit and is extremely anxious, crying, and refusing to sit in the dental chair. Her parents report no relevant medical history. After unsuccessful attempts with \"tell-show-do\" and positive reinforcement, she remains uncooperative for a basic examination. What is the MOST appropriate next step in managing her behavior for this initial visit?",
+    "options": [
+      "Attempt to physically restrain the child to complete the examination.",
+      "Reschedule the appointment and consider a desensitization approach or pharmacological sedation for the next visit.",
+      "Administer nitrous oxide/oxygen sedation to facilitate the examination.",
+      "Immediately refer to a pediatric dentist for general anesthesia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an extremely uncooperative child who has not responded to basic behavior management techniques, the most appropriate next step is to reschedule and consider alternative strategies such as desensitization appointments or pharmacological sedation (e.g., nitrous oxide or oral anxiolytics) for future visits. Physical restraint is generally a last resort and can be traumatic, and immediate general anesthesia is an extreme measure not indicated for an initial examination."
+  },
+  {
+    "id": 954373853,
+    "topicId": "pharmacology",
+    "question": "A 65-year-old male patient presents to your dental office with a chief complaint of persistent dry mouth and altered taste sensation. His medical history includes hypertension, for which he takes hydrochlorothiazide, and depression, for which he takes amitriptyline. He denies any other medical conditions or new medications. Clinical examination reveals generalized xerostomia. What is the MOST likely cause of his symptoms?",
+    "options": [
+      "Age-related salivary gland atrophy.",
+      "Sjögren's syndrome.",
+      "Side effects of his current medications.",
+      "Uncontrolled diabetes mellitus."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Both hydrochlorothiazide (a diuretic) and amitriptyline (a tricyclic antidepressant) are well-known to cause xerostomia (dry mouth) as a significant side effect. While age-related atrophy and Sjögren's syndrome can cause dry mouth, and uncontrolled diabetes can lead to it, the presence of two medications commonly associated with xerostomia makes them the most likely cause in this scenario."
+  },
+  {
+    "id": 297990559,
+    "topicId": "pharmacology",
+    "question": "Which of the following bacterial species is recognized as the primary etiologic agent in the initiation and progression of dental caries?",
+    "options": [
+      "Porphyromonas gingivalis",
+      "Lactobacillus acidophilus",
+      "Actinomyces israelii",
+      "Streptococcus mutans"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Streptococcus mutans is widely recognized as the primary bacterial species involved in the initiation and progression of dental caries due to its ability to produce acid from fermentable carbohydrates and tolerate acidic environments. Porphyromonas gingivalis is primarily associated with periodontitis, and Lactobacillus acidophilus contributes to caries progression but is not the primary initiator. Actinomyces israelii is associated with actinomycosis and root caries."
+  },
+  {
+    "id": 9860364,
+    "topicId": "pharmacology",
+    "question": "A 35-year-old female patient presents to your dental office with a chief complaint of sensitivity to cold beverages in the upper right quadrant for the past month. She reports no spontaneous pain, pain on biting, or pain lasting after stimulus removal. Clinical examination reveals an existing Class II amalgam restoration on tooth #16 (maxillary first molar) with no visible recurrent caries or open margins. Percussion and palpation tests are negative. Cold test on #16 elicits a sharp, transient pain that disappears immediately upon removal of the stimulus. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Reversible pulpitis",
+      "Irreversible pulpitis",
+      "Dentine hypersensitivity",
+      "Apical periodontitis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The patient's symptoms of sharp, transient pain to cold that immediately subsides upon stimulus removal are characteristic of reversible pulpitis. Irreversible pulpitis typically involves spontaneous pain or pain that lingers after stimulus removal, which is not present here. Dentine hypersensitivity is usually more localized to exposed dentin surfaces without clear pulpal inflammation, and apical periodontitis would involve percussion sensitivity and possibly radiographic changes."
+  },
+  {
+    "id": 428683893,
+    "topicId": "pharmacology",
+    "question": "A 48-year-old male patient presents to your dental office with a chief complaint of bleeding gums during brushing for the past three months. His medical history is non-contributory, and he is a non-smoker. Clinical examination reveals generalized gingival inflammation, probing depths ranging from 3-5mm with bleeding on probing in more than 30% of sites, and no significant clinical attachment loss. Radiographs show no evidence of bone loss. What is the MOST appropriate initial management?",
+    "options": [
+      "Full mouth scaling and root planing with adjunctive antibiotics.",
+      "Oral hygiene instructions and supragingival scaling.",
+      "Surgical flap debridement.",
+      "Referral to a periodontist for evaluation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's presentation of generalized gingival inflammation, bleeding on probing, and probing depths up to 5mm without attachment loss or bone loss is consistent with gingivitis. The most appropriate initial management is thorough oral hygiene instructions and professional supragingival scaling to remove plaque and calculus. Scaling and root planing with antibiotics or surgical debridement are typically reserved for periodontitis, which is not indicated in this case."
+  },
+  {
+    "id": 745857932,
+    "topicId": "pharmacology",
+    "question": "A 60-year-old female patient presents to your dental office three days after an uncomplicated extraction of tooth #36 (mandibular first molar). She complains of severe, throbbing pain in the extraction site that radiates to her ear, is not relieved by her prescribed ibuprofen, and reports a foul taste. Clinical examination reveals a partially empty socket with necrotic debris and exposed bone. What is the MOST likely diagnosis?",
+    "options": [
+      "Post-operative infection",
+      "Dry socket (alveolar osteitis)",
+      "Osteomyelitis",
+      "Mandibular fracture"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's symptoms of severe, throbbing pain radiating to the ear, foul taste, and an empty socket with exposed bone, appearing several days post-extraction, are classic signs of alveolar osteitis (dry socket). A post-operative infection would typically present with swelling, redness, and pus, which are not mentioned. Osteomyelitis is a more severe bone infection, and a mandibular fracture would present differently and immediately post-trauma or extraction."
+  },
+  {
+    "id": 705521751,
+    "topicId": "pharmacology",
+    "question": "Which of the following anatomical structures is most likely to be perforated during overinstrumentation of the mesiobuccal root canal of a maxillary first molar?",
+    "options": [
+      "Maxillary sinus",
+      "Nasal cavity",
+      "Pterygomaxillary fissure",
+      "Infraorbital canal"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The mesiobuccal root of a maxillary first molar is anatomically in close proximity to the floor of the maxillary sinus. Overinstrumentation can easily perforate this thin bone, leading to a direct communication with the sinus. The nasal cavity, pterygomaxillary fissure, and infraorbital canal are all anatomically more distant from the apex of the mesiobuccal root of a maxillary first molar."
+  },
+  {
+    "id": 234697009,
+    "topicId": "pharmacology",
+    "question": "A 40-year-old male patient presents to your dental office with a chief complaint of severe, spontaneous, lingering pain in tooth #46 (mandibular first molar) that worsens when lying down and is poorly localized. The pain has been present for two days. Clinical examination reveals a deep caries lesion on #46. Pulp vitality tests show a strong, lingering response to cold for over 30 seconds. Percussion and palpation tests are negative. Radiograph shows deep caries approaching the pulp but no periapical radiolucency. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Reversible pulpitis",
+      "Irreversible pulpitis",
+      "Acute apical periodontitis",
+      "Necrotic pulp with chronic apical periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's description of severe, spontaneous, lingering pain that worsens when lying down, along with a strong, lingering response to cold for over 30 seconds, is highly indicative of irreversible pulpitis. Reversible pulpitis would involve transient pain that subsides quickly. Acute apical periodontitis would typically present with percussion sensitivity, and necrotic pulp with chronic apical periodontitis would show a negative response to vitality tests."
+  },
+  {
+    "id": 32682001,
+    "topicId": "pharmacology",
+    "question": "A 55-year-old female patient presents to your dental office with a chief complaint of a persistent white lesion on her left buccal mucosa that has been present for approximately six months. She denies pain or discomfort. She has a history of smoking for 30 years. Clinical examination reveals a non-scrapable, homogenous white plaque approximately 1.5 cm in diameter on the left buccal mucosa. It feels slightly indurated upon palpation. What is the MOST appropriate next step in management?",
+    "options": [
+      "Prescribe topical antifungal medication.",
+      "Reassure the patient and monitor at subsequent recall.",
+      "Incisional biopsy of the lesion.",
+      "Prescribe a course of systemic antibiotics."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A persistent, non-scrapable, homogenous white lesion, especially with induration and a significant smoking history, is highly suspicious for potentially malignant epithelial dysplasia or squamous cell carcinoma. An incisional biopsy is the most appropriate next step to obtain a definitive histological diagnosis. Prescribing antifungals is incorrect as the lesion is non-scrapable, and monitoring without diagnosis is negligent given the risk factors."
+  },
+  {
+    "id": 175504531,
+    "topicId": "pharmacology",
+    "question": "Which of the following best describes the primary mechanism of action of systemic corticosteroids in managing acute allergic reactions in dentistry?",
+    "options": [
+      "Inhibiting bacterial cell wall synthesis.",
+      "Blocking histamine receptors.",
+      "Suppressing the inflammatory and immune response.",
+      "Increasing catecholamine release."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Systemic corticosteroids primarily act by suppressing the inflammatory and immune response, reducing the production of inflammatory mediators and decreasing capillary permeability, which is crucial in managing acute allergic reactions. Inhibiting bacterial cell wall synthesis is the mechanism of certain antibiotics, and blocking histamine receptors is the role of antihistamines. Increasing catecholamine release is associated with sympathomimetics like epinephrine."
+  },
+  {
+    "id": 77221708,
+    "topicId": "pharmacology",
+    "question": "A 28-year-old female patient presents to your dental office requiring a Class I restoration on tooth #37 (mandibular second molar). She expresses concern about the aesthetics of amalgam but has a limited budget. The tooth is in an area of high occlusal stress. Which of the following restorative materials would be the MOST appropriate recommendation considering her concerns and the clinical situation?",
+    "options": [
+      "Glass ionomer cement",
+      "Composite resin",
+      "Amalgam",
+      "Gold inlay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Given the patient's concern for aesthetics and the location of a Class I restoration in a posterior tooth with high occlusal stress, composite resin is a suitable choice as it offers good aesthetics and can withstand occlusal forces. While amalgam is also suitable and budget-friendly, it does not meet her aesthetic concern. Glass ionomer cement has lower strength, and gold inlays are expensive."
+  },
+  {
+    "id": 785449619,
+    "topicId": "pharmacology",
+    "question": "A 68-year-old male patient with a history of hypertension and type 2 diabetes presents with a complaint of a burning sensation in his mouth, particularly on the dorsum of his tongue, for the past month. Clinical examination reveals an erythematous, depapillated area on the tongue, and angular cheilitis is also noted. He recently completed a course of broad-spectrum antibiotics for a respiratory infection. What is the MOST appropriate initial treatment for his oral symptoms?",
+    "options": [
+      "Prescribe systemic acyclovir.",
+      "Advise meticulous oral hygiene and observation.",
+      "Prescribe topical nystatin or clotrimazole.",
+      "Refer for biopsy to rule out malignancy."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's symptoms (burning sensation, erythematous depapillated tongue, angular cheilitis) combined with a recent history of broad-spectrum antibiotic use are highly suggestive of oral candidiasis. Therefore, topical antifungal medication like nystatin or clotrimazole is the most appropriate initial treatment. Acyclovir is for viral infections, and observation is insufficient given the symptoms."
+  },
+  {
+    "id": 377618757,
+    "topicId": "pharmacology",
+    "question": "A 45-year-old female patient presents for a routine dental check-up. She reports no specific complaints. A panoramic radiograph reveals a well-defined, unilocular radiolucency approximately 1.5 cm in diameter, located apical to the roots of the mandibular first molar (#46), which appears to be vital. The lesion has a sclerotic border and does not appear to displace adjacent teeth. What is the MOST likely diagnosis?",
+    "options": [
+      "Radicular cyst",
+      "Dentigerous cyst",
+      "Stafne bone defect (static bone defect)",
+      "Ameloblastoma"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Stafne bone defect is a developmental depression on the lingual aspect of the mandible, typically inferior to the mandibular canal, appearing as a well-defined, unilocular radiolucency with a sclerotic border, often associated with a vital tooth, and is usually asymptomatic. Radicular cysts are inflammatory and associated with non-vital teeth. Dentigerous cysts are associated with the crown of an unerupted tooth, and ameloblastoma typically presents with different radiographic features."
+  },
+  {
+    "id": 554117577,
+    "topicId": "pharmacology",
+    "question": "According to Canadian dental infection control guidelines, what is the primary purpose of performing biological monitoring (spore testing) for sterilization equipment?",
+    "options": [
+      "To assess the functionality of the equipment's heating elements.",
+      "To confirm that the sterilization cycle is effectively killing highly resistant bacterial spores.",
+      "To determine the penetration capability of the sterilant into wrapped instruments.",
+      "To ensure proper loading and operation of the sterilizer by dental staff."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Biological monitoring, or spore testing, is the only method that directly verifies the lethality of a sterilization cycle by challenging the sterilizer with highly resistant bacterial spores. This confirms that the equipment is functioning effectively to kill all forms of microbial life. Assessing heating elements or penetration capability are aspects of other monitoring methods (chemical or physical), and ensuring proper loading is part of operational protocols."
+  },
+  {
+    "id": 931928636,
+    "topicId": "pharmacology",
+    "question": "A 72-year-old male patient presents to your dental office complaining that his complete maxillary denture has become loose and constantly dislodges when he speaks or eats. He has worn the denture for 15 years. Clinical examination reveals significant alveolar ridge resorption in the maxillary arch. The denture base appears well-adapted initially but lacks retention. What is the MOST appropriate long-term management option?",
+    "options": [
+      "Relining the existing denture.",
+      "Fabricating a new conventional complete denture.",
+      "Prescribing denture adhesive.",
+      "Placing two maxillary implants to support an overdenture."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Given significant alveolar ridge resorption and long-term denture wear, the existing denture is likely inadequate. While relining or a new conventional denture could provide temporary improvement, implant-supported overdentures offer superior retention, stability, and patient satisfaction, especially in cases of severe resorption, making it the most appropriate long-term solution. Prescribing denture adhesive is a temporary palliative measure, not a definitive long-term solution."
+  },
+  {
+    "id": 261572138,
+    "topicId": "pharmacology",
+    "question": "A 30-year-old female patient presents to your dental office with a chief complaint of a rapidly growing, painful swelling in the floor of her mouth that has developed over the past 24 hours. She reports difficulty swallowing and speaking. Clinical examination reveals a firm, tender, bilateral swelling of the submandibular and sublingual spaces, elevating the tongue. Her temperature is 38.5°C, and she appears ill. What is the MOST appropriate immediate action?",
+    "options": [
+      "Prescribe oral antibiotics and schedule for review in 2 days.",
+      "Incise and drain the swelling in the dental office.",
+      "Refer immediately to an oral and maxillofacial surgeon or hospital emergency department.",
+      "Prescribe analgesics and warm saline rinses."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's presentation of rapidly progressing, bilateral swelling of the submandibular and sublingual spaces (classic for Ludwig's Angina), accompanied by fever, difficulty swallowing, and speaking, indicates a rapidly spreading, potentially life-threatening infection that can compromise the airway. Immediate referral to an oral and maxillofacial surgeon or hospital emergency department for aggressive management, including airway protection and IV antibiotics, is critical. Oral antibiotics alone are insufficient, and incision and drainage in a dental office is inappropriate for this severity."
+  },
+  {
+    "id": 60481743,
+    "topicId": "pharmacology",
+    "question": "According to the principles of informed consent in Canadian dental practice, which of the following elements is NOT an essential component that must be communicated to a competent patient before obtaining consent for a dental procedure?",
+    "options": [
+      "The nature of the proposed treatment.",
+      "The estimated cost of the treatment.",
+      "The material risks and potential side effects of the treatment.",
+      "All reasonable alternative treatments and their associated risks and benefits."
+    ],
+    "correctAnswer": 1,
+    "explanation": "While discussing fees is an important part of the patient-provider relationship, the estimated cost of treatment is not considered an essential element of informed consent itself from a legal and ethical standpoint. The core components of informed consent focus on providing clinical information for autonomous decision-making, including the nature of the treatment, its material risks and benefits, and reasonable alternatives. Financial aspects are distinct from the consent process for clinical care."
+  },
+  {
+    "id": 297268152,
+    "topicId": "pharmacology",
+    "question": "A 25-year-old healthy male patient undergoes an uncomplicated extraction of a mandibular third molar. He reports moderate post-operative pain and asks for a prescription for pain relief. He has no known drug allergies. What is the MOST appropriate initial analgesic recommendation?",
+    "options": [
+      "Codeine with acetaminophen.",
+      "Oxycodone.",
+      "Ibuprofen.",
+      "Acetaminophen only."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For moderate post-operative dental pain in a healthy patient, NSAIDs like ibuprofen are generally considered the first-line and most appropriate choice due to their excellent efficacy, anti-inflammatory properties, and favorable side effect profile compared to opioids. Codeine with acetaminophen or oxycodone are opioids with higher risks of side effects and abuse potential, typically reserved for severe pain or when NSAIDs are contraindicated. Acetaminophen alone may be insufficient for moderate pain and inflammation."
+  },
+  {
+    "id": 901222902,
+    "topicId": "pharmacology",
+    "question": "A 9-year-old female patient presents to your dental office with a mixed dentition. Clinical examination reveals premature loss of the mandibular left primary second molar (#75) due to extensive caries, with mesial drifting of the mandibular first permanent molar (#36) and insufficient space for the eruption of the mandibular left second premolar (#35). What is the MOST appropriate interceptive orthodontic intervention?",
+    "options": [
+      "Serial extraction of remaining primary teeth.",
+      "Fixed lingual arch space maintainer.",
+      "Removable Hawley retainer.",
+      "Distalization of the mandibular first molar with headgear."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Premature loss of a primary second molar, especially with mesial drifting of the permanent first molar and resultant space loss, requires a fixed lingual arch space maintainer to regain or hold the space for the unerupted permanent premolar. Serial extraction is a more comprehensive orthodontic approach for severe crowding, not indicated for localized space loss. A Hawley retainer is typically used post-orthodontic treatment or for minor anterior tooth movement."
+  },
+  {
+    "id": 931738527,
+    "topicId": "pharmacology",
+    "question": "Which of the following characteristics is MOST indicative of a benign lesion when examining an oral mass?",
+    "options": [
+      "Rapid increase in size over a short period.",
+      "Induration and fixation to underlying tissues upon palpation.",
+      "Well-circumscribed, freely movable, and slow-growing.",
+      "Ulceration and irregular surface texture."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Benign lesions typically present as well-circumscribed, freely movable, and slow-growing masses, which are favorable characteristics. Rapid growth, induration, fixation to underlying tissues, and ulceration with irregular surface texture are all concerning features highly suggestive of malignancy, indicating abnormal and uncontrolled cellular proliferation and invasion."
+  },
+  {
+    "id": 830432279,
+    "topicId": "pharmacology",
+    "question": "A 80-year-old male patient with mild dementia, accompanied by his daughter, presents for an urgent extraction of a grossly decayed, painful mandibular molar. His medical history includes well-controlled hypertension and Type 2 diabetes. The daughter holds power of attorney for personal care. The patient is anxious and unable to clearly articulate his consent or preference for treatment. What is the MOST appropriate approach to obtain informed consent?",
+    "options": [
+      "Obtain verbal consent directly from the patient by simplifying the explanation.",
+      "Obtain consent from the daughter based on her power of attorney, after explaining all aspects.",
+      "Postpone the extraction until the patient's cognitive function improves.",
+      "Proceed with the extraction under implied consent due to the urgent nature of pain."
+    ],
+    "correctAnswer": 1,
+    "explanation": "In cases where a patient lacks capacity to provide informed consent due to cognitive impairment, and a legally appointed substitute decision-maker (like a daughter with power of attorney for personal care) is present, consent should be obtained from the substitute decision-maker after providing them with all necessary information. Attempting to obtain verbal consent from a patient with mild dementia who cannot clearly articulate consent is insufficient and unethical. Postponing an urgent, painful extraction is not appropriate, and proceeding under implied consent is unethical and illegal."
+  },
+  {
+    "id": 559357131,
+    "topicId": "pharmacology",
+    "question": "A 30-year-old male patient with no significant medical history suddenly experiences severe chest pain, shortness of breath, and profuse sweating during a routine dental procedure. He appears pale and anxious. What is the MOST appropriate immediate action?",
+    "options": [
+      "Administer nitroglycerin sublingually.",
+      "Administer oral aspirin and oxygen, then call EMS.",
+      "Place the patient in a supine position and elevate his legs.",
+      "Call 911/EMS immediately and position the patient comfortably (semi-supine/upright if conscious)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The patient's symptoms (severe chest pain, shortness of breath, sweating, pallor, anxiety) are highly suggestive of an acute cardiac event (e.g., myocardial infarction or angina). The MOST appropriate immediate action is to call 911/EMS as this is a medical emergency requiring advanced medical care. While aspirin and oxygen might be administered if a cardiac event is strongly suspected, calling EMS is paramount. Placing the patient supine with elevated legs is for syncope, and nitroglycerin is given for angina but not as the first step before EMS in an undiagnosed emergency."
+  },
+  {
+    "id": 416980885,
+    "topicId": "pharmacology",
+    "question": "A 48-year-old male patient presents to your dental office complaining of persistent dull ache in his mandibular right posterior region for the past two weeks. He denies any swelling but notes sensitivity to hot liquids. Medical history is unremarkable. Clinical examination reveals tooth #47 has a deep amalgam restoration with no visible caries or fracture. Radiographic examination shows a widening of the periodontal ligament space around the mesial root of #47 and a periapical radiolucency. Percussion is positive, and pulp vitality tests (cold and EPT) are negative for #47. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Apical periodontitis with irreversible pulpitis",
+      "Acute periodontal abscess",
+      "Cracked tooth syndrome",
+      "Reversible pulpitis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The presence of a periapical radiolucency, widening of the PDL, negative vitality tests, and dull ache with sensitivity to hot indicate irreversible pulpitis leading to apical periodontitis. An acute periodontal abscess would typically involve a periodontal pocket, swelling, and possibly tooth mobility, which are not described. Cracked tooth syndrome usually presents with sharp pain on biting, not a dull ache, and reversible pulpitis would respond positively to cold without periapical changes."
+  },
+  {
+    "id": 695754211,
+    "topicId": "pharmacology",
+    "question": "A 65-year-old female patient presents to your dental office reporting difficulty in chewing and speech with her existing complete maxillary denture. She states the denture is over 10 years old and has become increasingly loose. Medical history includes controlled hypertension. Clinical examination reveals significant residual ridge resorption in the maxilla and an ill-fitting, worn denture. What is the MOST appropriate next step in her management?",
+    "options": [
+      "Reline the existing complete denture.",
+      "Fabricate a new complete maxillary denture.",
+      "Prescribe a denture adhesive for daily use.",
+      "Advise the patient to manage with a soft diet."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Given the significant residual ridge resorption, the age of the denture, and the reported difficulties, fabricating a new complete maxillary denture is the most appropriate long-term solution to restore function and comfort. While a reline might temporarily improve fit, it is not suitable for significant ridge resorption or an excessively old, worn denture. Denture adhesives are palliative and do not address the underlying fit issues."
+  },
+  {
+    "id": 719390318,
+    "topicId": "pharmacology",
+    "question": "Which of the following local anesthetic agents is metabolized primarily in the plasma by pseudocholinesterase?",
+    "options": [
+      "Lidocaine",
+      "Mepivacaine",
+      "Articaine",
+      "Procaine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Procaine is an ester-type local anesthetic and is primarily metabolized in the plasma by pseudocholinesterase. Lidocaine, Mepivacaine, and Articaine are amide-type local anesthetics, which are primarily metabolized in the liver, with Articaine also having some plasma metabolism due to its ester side chain but its primary metabolism is hepatic."
+  },
+  {
+    "id": 101024994,
+    "topicId": "pharmacology",
+    "question": "A 22-year-old female patient presents to your dental office with a chief complaint of recurrent painful ulcers on her buccal mucosa, lips, and tongue. She reports these lesions appear as small, round, shallow ulcers with a yellowish-gray center and a red halo, lasting for about 7-10 days before healing without scarring. She denies any systemic symptoms. Medical history is non-contributory. What is the MOST likely diagnosis?",
+    "options": [
+      "Herpes labialis (cold sores)",
+      "Erythema multiforme",
+      "Aphthous stomatitis (canker sores)",
+      "Pemphigus vulgaris"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The description of recurrent, painful, small, round, shallow ulcers with a yellowish-gray center and a red halo, healing without scarring, is classic for aphthous stomatitis. Herpes labialis typically presents as vesicles that coalesce and crust, usually on keratinized tissue, and often has prodromal symptoms. Pemphigus vulgaris involves blistering and desquamation, leading to chronic, larger, painful erosions."
+  },
+  {
+    "id": 33547599,
+    "topicId": "pharmacology",
+    "question": "A 12-year-old male patient presents to your dental office with a chief complaint of sensitivity on tooth #36 when eating cold foods. Clinical examination reveals a deep pit and fissure on the occlusal surface of #36 with no visible cavitation or discoloration. The tooth responds normally to vitality tests and percussion. Radiographically, there is no evidence of caries extending into dentin. What is the MOST appropriate management?",
+    "options": [
+      "Apply a pit and fissure sealant.",
+      "Place a Class I composite restoration.",
+      "Monitor the tooth with regular recalls.",
+      "Initiate root canal therapy."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given the patient's age, sensitivity to cold, deep pit and fissure, normal vitality, and no radiographic evidence of dentinal caries, the most appropriate preventive intervention is to apply a pit and fissure sealant to prevent future decay. A Class I composite restoration is indicated if there is actual cavitation or confirmed dentinal caries. Root canal therapy is highly inappropriate as there is no irreversible pulpitis."
+  },
+  {
+    "id": 579495372,
+    "topicId": "pharmacology",
+    "question": "According to Canadian dental infection control guidelines, which of the following is the MOST effective method for sterilizing heat-tolerant critical dental instruments?",
+    "options": [
+      "Chemical cold sterilization using glutaraldehyde.",
+      "Dry heat sterilization.",
+      "Steam sterilization (autoclaving).",
+      "Ultraviolet (UV) light irradiation."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Steam sterilization (autoclaving) is considered the most effective and widely used method for sterilizing heat-tolerant critical dental instruments due to its rapid and thorough kill of all microorganisms, including spores, under high pressure and temperature. Dry heat sterilization is also effective but requires longer exposure times. UV light irradiation is a surface disinfectant and not suitable for sterilizing critical instruments."
+  },
+  {
+    "id": 901772317,
+    "topicId": "pharmacology",
+    "question": "A 55-year-old male patient presents to your dental office complaining of generalized discomfort and bleeding gums for several months. He reports a history of poorly controlled type 2 diabetes and smoking one pack of cigarettes per day for 30 years. Clinical examination reveals generalized gingival inflammation, probing depths ranging from 5-8 mm, generalized clinical attachment loss, and horizontal bone loss on radiographs. What is the MOST likely diagnosis?",
+    "options": [
+      "Gingivitis",
+      "Localized aggressive periodontitis",
+      "Chronic periodontitis",
+      "Necrotizing ulcerative gingivitis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The clinical presentation of generalized inflammation, deep probing depths, attachment loss, and bone loss, coupled with systemic risk factors like poorly controlled diabetes and heavy smoking in an adult, is highly indicative of chronic periodontitis. Gingivitis only involves inflammation of the gingiva without attachment or bone loss. Localized aggressive periodontitis typically affects younger individuals and specific teeth, not generalized."
+  },
+  {
+    "id": 144703309,
+    "topicId": "pharmacology",
+    "question": "Which of the following best describes the primary action of fluoride in preventing dental caries?",
+    "options": [
+      "Directly killing cariogenic bacteria.",
+      "Increasing the salivary flow rate.",
+      "Enhancing remineralization and reducing demineralization of enamel.",
+      "Buffering acids produced by bacterial metabolism."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The primary mechanism of action of fluoride in preventing dental caries is by enhancing the remineralization of demineralized enamel and inhibiting further demineralization through the formation of fluorapatite, which is more acid-resistant than hydroxyapatite. While fluoride can have some antibacterial effects, its main role is not direct bacterial killing or increasing salivary flow."
+  },
+  {
+    "id": 259247720,
+    "topicId": "pharmacology",
+    "question": "A 35-year-old female patient presents to your dental office with a chief complaint of severe throbbing pain in her maxillary right posterior region, waking her up at night. She reports the pain is spontaneous and exacerbated by hot and cold, lingering for several minutes after the stimulus is removed. Medical history is unremarkable. Clinical examination reveals deep occlusal caries on tooth #16. Tooth #16 is tender to percussion and responds positively to cold, with the pain lingering. Radiographs show caries extending into the pulp chamber. What is the MOST appropriate management?",
+    "options": [
+      "Root canal therapy for tooth #16.",
+      "Placement of a sedative restoration for tooth #16.",
+      "Extraction of tooth #16.",
+      "Prescribe antibiotics and monitor."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The symptoms of spontaneous, lingering pain to hot and cold, nocturnal pain, positive percussion, and radiographic evidence of caries into the pulp are classic signs of irreversible pulpitis, often with symptomatic apical periodontitis. The most appropriate treatment for a tooth with irreversible pulpitis that is restorable is root canal therapy. A sedative restoration would not resolve the irreversible pulpal inflammation, and antibiotics alone will not resolve pulpal inflammation and associated pain."
+  },
+  {
+    "id": 64745362,
+    "topicId": "pharmacology",
+    "question": "A 70-year-old male patient presents to your dental office with a chief complaint of a non-healing ulcer on the lateral border of his tongue that has been present for two months. He reports a history of heavy smoking and alcohol consumption for 40 years. Clinical examination reveals an indurated, exophytic lesion with rolled borders, approximately 1.5 cm in diameter, on the left lateral border of the tongue. There is no associated pain or tenderness. What is the MOST appropriate next step?",
+    "options": [
+      "Prescribe a topical corticosteroid cream.",
+      "Perform an incisional biopsy of the lesion.",
+      "Advise the patient to monitor the lesion for another month.",
+      "Administer a course of broad-spectrum antibiotics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A non-healing oral ulcer, especially in a high-risk patient with a significant smoking and alcohol history, and presenting with induration and rolled borders, is highly suspicious for squamous cell carcinoma. The most appropriate and urgent next step is to perform an incisional biopsy to obtain a definitive diagnosis. Topical corticosteroids are for inflammatory conditions, and monitoring a suspicious lesion like this would be a significant delay in diagnosis and treatment."
+  },
+  {
+    "id": 616405464,
+    "topicId": "pharmacology",
+    "question": "Which of the following is considered a critical component for achieving successful osseointegration of a dental implant?",
+    "options": [
+      "Immediate loading of the implant after placement.",
+      "Presence of a thick layer of soft tissue around the implant.",
+      "Primary stability of the implant at the time of placement.",
+      "Use of a highly polished implant surface."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Primary stability of the implant at the time of placement is a critical mechanical requirement for successful osseointegration, as it minimizes micromotion at the bone-implant interface, allowing for direct bone apposition. Immediate loading is generally contraindicated unless specific conditions are met, as it can compromise osseointegration. Implant surfaces are typically roughened or textured, not highly polished, to enhance bone-implant contact."
+  },
+  {
+    "id": 369542458,
+    "topicId": "pharmacology",
+    "question": "A 28-year-old female patient presents to your dental office in her third trimester of pregnancy (32 weeks) for a routine dental cleaning. She reports no pain or discomfort but has noticed her gums bleeding more easily. Medical history is otherwise healthy. Clinical examination reveals generalized mild gingival inflammation. What is the MOST appropriate management?",
+    "options": [
+      "Postpone the cleaning until after delivery.",
+      "Perform a thorough prophylaxis, focusing on gentle instrumentation.",
+      "Prescribe systemic antibiotics to reduce inflammation.",
+      "Advise the patient to discontinue brushing to prevent further bleeding."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Routine dental cleanings and necessary dental treatment are safe and recommended during pregnancy, especially in the second and early third trimesters. Pregnancy gingivitis is common due to hormonal changes, and a thorough prophylaxis with gentle instrumentation is the most appropriate treatment. Postponing treatment allows inflammation to worsen, and discontinuing brushing would severely worsen oral hygiene."
+  },
+  {
+    "id": 319001504,
+    "topicId": "pharmacology",
+    "question": "A 40-year-old male patient presents to your dental office with severe pain and swelling in the right submandibular region. He reports fever, malaise, and difficulty swallowing (dysphagia) for the past two days. Medical history reveals recent extraction of an infected mandibular molar without antibiotic coverage. Clinical examination shows significant indurated swelling extending from the floor of the mouth to the neck, with elevation of the tongue. What is the MOST likely diagnosis?",
+    "options": [
+      "Ludwig's Angina",
+      "Periapical abscess",
+      "Acute sialadenitis",
+      "Cellulitis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The presentation of severe, rapidly spreading, indurated submandibular and sublingual swelling, elevation of the tongue, dysphagia, fever, and malaise, often following a dental infection, is characteristic of Ludwig's Angina. This is a severe, rapidly progressing cellulitis of the floor of the mouth that can compromise the airway. A periapical abscess is localized and typically does not cause such widespread swelling and systemic symptoms, and acute sialadenitis involves a salivary gland, not typically leading to widespread floor of mouth involvement."
+  },
+  {
+    "id": 383088281,
+    "topicId": "pharmacology",
+    "question": "A 50-year-old female patient presents for a recall appointment. During the oral cancer screening, you notice a white, non-scrapable lesion on the left buccal mucosa, approximately 1 cm in diameter. She reports no pain or discomfort associated with the lesion. She has a 20-year history of smoking. What is the MOST appropriate initial step in management?",
+    "options": [
+      "Prescribe an antifungal rinse.",
+      "Reassure the patient and monitor at next recall.",
+      "Advise the patient to stop smoking and review in 2 weeks.",
+      "Perform an incisional biopsy or refer for biopsy."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A non-scrapable white lesion (leukoplakia), especially in a patient with a significant smoking history, has malignant potential. The most appropriate initial step is to perform an incisional biopsy or refer the patient for a biopsy to establish a definitive diagnosis and rule out dysplasia or malignancy. Antifungal rinses are for candidiasis, which is usually scrapable, and monitoring without biopsy is inappropriate given the risk factors."
+  },
+  {
+    "id": 871831527,
+    "topicId": "pharmacology",
+    "question": "A 60-year-old male patient presents to your dental office complaining of persistent burning sensation and dryness in his mouth for the past 6 months. He reports difficulty in tasting food and swallowing. His medical history includes Sjögren's syndrome. Clinical examination reveals generalized mucosal erythema, a fissured tongue, and very little pooled saliva. What is the MOST appropriate management strategy?",
+    "options": [
+      "Prescribe a course of systemic antibiotics.",
+      "Recommend frequent sips of water and artificial saliva substitutes.",
+      "Advise the patient to consume more acidic beverages to stimulate saliva.",
+      "Initiate topical corticosteroid therapy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's symptoms and medical history (Sjögren's syndrome) are consistent with severe xerostomia (dry mouth). The most appropriate management involves palliative measures like frequent sips of water, artificial saliva substitutes, and regular fluoride application to prevent rampant caries. Systemic antibiotics are not indicated for xerostomia, and acidic beverages can worsen enamel erosion."
+  },
+  {
+    "id": 355635034,
+    "topicId": "pharmacology",
+    "question": "Which of the following describes the most common cause of failure for composite resin restorations?",
+    "options": [
+      "Bulk fracture of the restoration.",
+      "Secondary caries at the margin.",
+      "Excessive occlusal wear.",
+      "Post-operative sensitivity."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Secondary caries (recurrent caries) at the margin of the restoration is recognized as the most common cause of failure for composite resin restorations. While bulk fracture and post-operative sensitivity can occur, marginal integrity and the prevention of microleakage leading to secondary caries are primary challenges in the longevity of composite restorations."
+  },
+  {
+    "id": 804326211,
+    "topicId": "pharmacology",
+    "question": "A 7-year-old female patient presents to your dental office with a chief complaint of a loose primary mandibular central incisor (#71). Her mother reports that the tooth has been mobile for about a week, and her permanent mandibular central incisor (#31) is erupting lingually behind it. Medical history is unremarkable. Clinical examination confirms significant mobility of #71, with #31 partially erupted lingually. What is the MOST appropriate management?",
+    "options": [
+      "Extract the mobile primary tooth #71.",
+      "Advise to wait for spontaneous exfoliation of #71.",
+      "Initiate orthodontic consultation for #31.",
+      "Place a space maintainer after extraction of #71."
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a permanent tooth is erupting and the corresponding primary tooth is significantly mobile and not exfoliating spontaneously, especially with lingual eruption, extraction of the primary tooth is indicated to allow the permanent tooth to erupt into its correct position. Waiting for spontaneous exfoliation risks further lingual displacement of the permanent tooth. A space maintainer is not needed as the permanent tooth is already erupting."
+  },
+  {
+    "id": 490141739,
+    "topicId": "pharmacology",
+    "question": "A 45-year-old male patient presents to your dental office with a chief complaint of pain and sensitivity on tooth #37 after recent placement of a large amalgam restoration. He reports sharp, brief pain when biting down firmly or clenching. He denies any spontaneous pain or sensitivity to hot/cold. Medical history is unremarkable. Clinical examination reveals the new amalgam restoration on #37, which is slightly high in occlusion. What is the MOST appropriate immediate management?",
+    "options": [
+      "Prescribe a non-steroidal anti-inflammatory drug (NSAID).",
+      "Adjust the occlusion of the restoration.",
+      "Replace the amalgam restoration with composite.",
+      "Initiate root canal therapy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The symptoms of sharp, brief pain on biting, especially after a new restoration, suggest an occlusal prematurity (high spot). The most appropriate immediate management is to adjust the occlusion of the restoration to eliminate the premature contact. NSAIDs might mask the symptom but do not address the cause, and replacing the restoration or initiating root canal therapy would be overtreatment without first addressing the occlusal issue."
+  },
+  {
+    "id": 126516528,
+    "topicId": "pharmacology",
+    "question": "A 38-year-old male patient is scheduled for a complex wisdom tooth extraction. During the pre-operative consultation, he expresses understanding of the procedure, risks, and benefits, and signs the consent form. However, just as the dental assistant is seating him for the procedure, he verbally states, \"Actually, I'm feeling a bit nervous, I think I need more time to think about this.\" What is the MOST appropriate next step according to Canadian dental ethics principles?",
+    "options": [
+      "Proceed with the extraction as the consent form has been signed.",
+      "Briefly reassure him and then proceed with the extraction to avoid rescheduling.",
+      "Stop the procedure and allow the patient to withdraw consent, rescheduling if desired.",
+      "Request him to sign another form stating his desire to postpone the procedure."
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to Canadian dental ethics principles, a patient has the right to withdraw consent at any time, even if a consent form has been previously signed. Verbal withdrawal of consent is valid, and the most appropriate next step is to immediately stop the procedure and respect the patient's decision, allowing him to reschedule if he wishes. Proceeding with treatment after a verbal withdrawal of consent is unethical and could lead to legal repercussions."
+  },
+  {
+    "id": 850567164,
+    "topicId": "pharmacology",
+    "question": "A 58-year-old female patient presents to your dental office complaining of recurrent generalized oral burning sensation and altered taste, particularly a metallic taste. She reports no visible lesions but feels her mouth is constantly dry. Medical history includes recent initiation of several new medications for hypertension and anxiety. Clinical examination is largely unremarkable, with no clear signs of inflammation or pathology. What is the MOST appropriate initial consideration for her symptoms?",
+    "options": [
+      "Oral candidiasis.",
+      "Geographic tongue.",
+      "Medication-induced xerostomia and dysgeusia.",
+      "Burning Mouth Syndrome."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given the patient's recent initiation of new medications, generalized oral burning, dryness (xerostomia), and altered taste (dysgeusia), medication side effects are the most appropriate initial consideration. Many drugs, particularly antihypertensives and anxiolytics, can cause xerostomia and taste alterations. Oral candidiasis usually presents with visible white lesions, and Burning Mouth Syndrome is a diagnosis of exclusion after other causes have been ruled out."
   }
 ]
