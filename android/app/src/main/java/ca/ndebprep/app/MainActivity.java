@@ -1,4 +1,4 @@
-package com.ndebprep.app;
+package ca.ndebprep.app;
 
 import com.getcapacitor.BridgeActivity;
 

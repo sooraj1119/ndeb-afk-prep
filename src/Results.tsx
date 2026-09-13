@@ -90,7 +90,7 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
                   <XAxis type="number" domain={[0, 100]} hide />
                   <YAxis dataKey="name" type="category" width={120} tick={{ fill: 'var(--text-secondary)', fontSize: 12 }} />
                   <Tooltip 
-                    formatter={(value: number) => [`${value}%`, 'Accuracy']}
+                    formatter={(value: any) => [`${value}%`, 'Accuracy']}
                     contentStyle={{ background: 'var(--surface-color)', border: '1px solid var(--border-color)', borderRadius: '8px', color: 'var(--text-primary)' }}
                   />
                   <Bar dataKey="score" fill="var(--accent-color)" radius={[0, 4, 4, 0]} barSize={20} />

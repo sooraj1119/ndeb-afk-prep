@@ -10,9 +10,13 @@ const ai = new GoogleGenAI({ apiKey });
 const targetCount = 500;
 const MIN_CLINICAL_PCT = 0.65; // Strict: 65% must be clinical scenarios
 
-const topicsToFill = [
-  { id: 'infection-control', promptTopic: 'Prevention and Infection Control in Dentistry' },
-];
+const manifestPath = path.resolve('public/questions/manifest.json');
+const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+const topicsToFill = manifest.filter(t => t.count < 500).map(t => ({
+  id: t.id,
+  promptTopic: t.name
+}));
+console.log("Found " + topicsToFill.length + " topics that need questions.");
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 

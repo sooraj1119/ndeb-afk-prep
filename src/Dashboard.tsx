@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { getProgress, TopicProgress, getIsPremium, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt, awardBadge } from './lib/storage';
 import { topics } from './lib/data';
 import { getQuestions } from './lib/questionsStore';
@@ -317,7 +317,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
                   <Tooltip 
                     contentStyle={{ backgroundColor: 'var(--surface-color)', borderColor: 'var(--border-color)', borderRadius: '8px' }}
                     itemStyle={{ fontWeight: 'bold' }}
-                    formatter={(value: number, name: string) => [`${value}%`, name]}
+                    formatter={(value: any, name: any) => [`${value}%`, name]}
                   />
                   {activeTopicNames.map((name, idx) => (
                     <Line 

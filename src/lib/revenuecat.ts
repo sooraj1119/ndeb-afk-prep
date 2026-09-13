@@ -37,7 +37,7 @@ export const syncPremiumStatus = async (): Promise<boolean> => {
   }
   
   try {
-    const customerInfo = await Purchases.getCustomerInfo();
+    const { customerInfo } = await Purchases.getCustomerInfo();
     const isPro = typeof customerInfo.entitlements.active[ENTITLEMENT_ID] !== "undefined";
     setIsPremium(isPro);
     return isPro;
@@ -117,7 +117,7 @@ export const restorePurchases = async (): Promise<boolean> => {
   }
 
   try {
-    const customerInfo = await Purchases.restorePurchases();
+    const { customerInfo } = await Purchases.restorePurchases();
     const isPro = typeof customerInfo.entitlements.active[ENTITLEMENT_ID] !== "undefined";
     setIsPremium(isPro);
     return isPro;

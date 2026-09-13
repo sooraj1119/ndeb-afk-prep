@@ -47,11 +47,11 @@ const ProsthodonticsIcon = (props: ComponentProps<'svg'>) => (
 
 
 export const topics: Topic[] = [
-  { id: "anatomy", name: "Anatomy", icon: Bone },
-  { id: "pharmacology", name: "Pharmacology", icon: FlaskConical },
-  { id: "endodontics", name: "Endodontics", icon: Tooth },
-  { id: "anesthesia", name: "Anesthesia", icon: Syringe },
-  { id: "pathology", name: "Pathology", icon: Microscope },
+  { id: "anatomy", name: "Anatomy", icon: Bone, isPremiumOnly: true },
+  { id: "pharmacology", name: "Pharmacology", icon: FlaskConical, isPremiumOnly: true },
+  { id: "endodontics", name: "Endodontics", icon: Tooth, isPremiumOnly: true },
+  { id: "anesthesia", name: "Anesthesia", icon: Syringe, isPremiumOnly: true },
+  { id: "pathology", name: "Pathology", icon: Microscope, isPremiumOnly: true },
   { id: "operative-dentistry", name: "Operative Dentistry", icon: FileText },
   { id: "biochemistry", name: "Biochemistry", icon: Atom },
   { id: "microbiology", name: "Microbiology", icon: Bug },
@@ -59,16 +59,16 @@ export const topics: Topic[] = [
   { id: "periodontology", name: "Periodontology", icon: Scaling },
   { id: "oral-pathology", name: "Oral Pathology", icon: Biohazard },
   { id: "radiology", name: "Radiology", icon: X },
-  { id: "prosthodontics", name: "Prosthodontics", icon: ProsthodonticsIcon },
-  { id: "general-medicine", name: "General Medicine", icon: LifeBuoy },
+  { id: "prosthodontics", name: "Prosthodontics", icon: ProsthodonticsIcon, isPremiumOnly: true },
+  { id: "general-medicine", name: "General Medicine", icon: LifeBuoy, isPremiumOnly: true },
   { id: "ethics", name: "Ethics", icon: Handshake },
-  { id: "oral-medicine", name: "Oral Medicine", icon: Stethoscope },
+  { id: "oral-medicine", name: "Oral Medicine", icon: Stethoscope, isPremiumOnly: true },
   { id: "oral-surgery", name: "Oral Surgery", icon: Scissors },
-  { id: "implants", name: "Implants", icon: Activity },
-  { id: "emergencies", name: "Dental & Medical Emergencies", icon: AlertCircle },
-  { id: "orthodontics", name: "Orthodontics", icon: Smile },
-  { id: "pedodontics", name: "Pedodontics", icon: Baby },
-  { id: "infection-control", name: "Prevention & Infection Control", icon: ShieldCheck },
+  { id: "implants", name: "Implants", icon: Activity, isPremiumOnly: true },
+  { id: "emergencies", name: "Dental & Medical Emergencies", icon: AlertCircle, isPremiumOnly: true },
+  { id: "orthodontics", name: "Orthodontics", icon: Smile, isPremiumOnly: true },
+  { id: "pedodontics", name: "Pedodontics", icon: Baby, isPremiumOnly: true },
+  { id: "infection-control", name: "Prevention & Infection Control", icon: ShieldCheck, isPremiumOnly: true },
 ];
 
 

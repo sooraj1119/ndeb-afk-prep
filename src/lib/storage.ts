@@ -9,7 +9,7 @@ export interface TopicProgress {
 }
 
 export interface SRSData {
-  questionId: number;
+  questionId: string;
   interval: number; // days until next review
   repetition: number; // consecutive correct reviews
   efactor: number; // easiness factor (starts at 2.5)
@@ -125,7 +125,7 @@ export const acceptDisclaimer = () => {
 
 // --- Spaced Repetition System (SM-2 Algorithm) ---
 
-export const getAllSRSData = (): Record<number, SRSData> => {
+export const getAllSRSData = (): Record<string, SRSData> => {
   try {
     const str = localStorage.getItem(SRS_KEY);
     return str ? JSON.parse(str) : {};
@@ -148,7 +148,7 @@ export const getDueSRSQuestions = (): string[] => {
 };
 
 // Log a question answer using SuperMemo-2 (SM-2)
-export const logSRSAnswer = (questionId: number, isCorrect: boolean) => {
+export const logSRSAnswer = (questionId: string, isCorrect: boolean) => {
   try {
     const allData = getAllSRSData();
     const existing = allData[questionId];

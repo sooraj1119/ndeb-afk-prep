@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { App as CapacitorApp } from '@capacitor/app';
 import splashImg from './assets/splash.jpg';
 
 import { TopicSelection } from './TopicSelection';
@@ -93,6 +94,19 @@ function App() {
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
 
   const [showIosInstall, setShowIosInstall] = useState(false);
+
+  useEffect(() => {
+    const listener = CapacitorApp.addListener('backButton', () => {
+      if (showPaywall) { setShowPaywall(false); }
+      else if (showDisclaimer) { /* do nothing */ }
+      else if (quizFinished) { setQuizFinished(false); setSelectedTopic(null); }
+      else if (selectedTopic) { setSelectedTopic(null); }
+      else if (activeTab !== 'practice') { setActiveTab('practice'); }
+      else { CapacitorApp.exitApp(); }
+    });
+    return () => { listener.then(l => l.remove()); };
+  }, [showPaywall, showDisclaimer, quizFinished, selectedTopic, activeTab]);
+
 
   const [isStandalone, setIsStandalone] = useState(false);
 
@@ -997,5 +1011,6 @@ function App() {
 
 
 export default App;
+
 
 

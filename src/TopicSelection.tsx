@@ -195,7 +195,13 @@ export function TopicSelection({ onSelect }: Props) {
             <motion.div 
               key={topic.id}
               variants={itemVariants}
-              onClick={() => onSelect(topic.id)}
+              onClick={() => {
+                if (topic.isPremiumOnly && !isPremium) {
+                  setShowPaywall(true);
+                } else {
+                  onSelect(topic.id);
+                }
+              }}
               onMouseEnter={() => setHoveredId(topic.id)}
               onMouseLeave={() => setHoveredId(null)}
               className="glass-panel topic-card"
@@ -212,7 +218,11 @@ export function TopicSelection({ onSelect }: Props) {
                   <Icon size={22} color={isHovered ? 'white' : 'var(--accent-color)'} />
                 </div>
                 
-                {progress?.isFinished && (
+                {topic.isPremiumOnly && !isPremium ? (
+                  <div className="lock-badge" style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: 'rgba(239, 68, 68, 0.1)', color: 'var(--error-color)', padding: '0.4rem 0.8rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: 700 }}>
+                    <Lock size={12} /> PRO
+                  </div>
+                ) : progress?.isFinished && (
                   <div className="completed-badge" style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: 'rgba(16, 185, 129, 0.1)', color: 'var(--success-color)', padding: '0.4rem 0.8rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: 700 }}>
                     <Trophy size={12} /> Completed
                   </div>

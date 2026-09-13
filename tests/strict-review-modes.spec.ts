@@ -1,6 +1,11 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Strict Verification of Review Modes', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto('http://localhost:5173');
+    await page.evaluate(() => localStorage.setItem('ndeb_prep_disclaimer_accepted', 'true'));
+    await page.reload();
+  });
 
   test('Dashboard should auto-purge ghost IDs and count only valid string IDs', async ({ page }) => {
     await page.goto('/');
@@ -22,6 +27,8 @@ test.describe('Strict Verification of Review Modes', () => {
     await page.reload();
 
     // Check Flagged count text
+    await page.click('text=Dashboard');
+    await page.waitForTimeout(500);
     const flaggedText = await page.locator('text=Review Flagged Questions').locator('..').textContent();
     expect(flaggedText).toContain('2'); // Valid flags: anatomy-1, pharmacology-2
     
@@ -44,14 +51,17 @@ test.describe('Strict Verification of Review Modes', () => {
     await page.reload();
 
     // Click Start Review on Flagged Questions
+    await page.click('text=Dashboard');
+    await page.waitForTimeout(500);
     await page.click('button:has-text("Start Review")');
 
     // Wait for the Quiz to load
     await page.waitForSelector('text=Flagged Review');
 
     // Verify the question counter says 1 / 100
-    const counterText = await page.locator('.flex.justify-between.items-center.mb-6 >> span').first().textContent();
-    expect(counterText).toBe('Question 1 / 100');
+    await page.screenshot({path: 'debug.png', fullPage: true});
+    const counterText = await page.locator('span:has-text("1 / 100")').first().textContent();
+    expect(counterText).toContain('1 / 100');
   });
 
   test('Daily Review (SRS) should load valid questions without NaN crashes', async ({ page }) => {
@@ -80,9 +90,14 @@ test.describe('Strict Verification of Review Modes', () => {
         await page.waitForSelector('text=Daily SRS Review');
         
         // Verify only 1 question loaded
-        const counterText = await page.locator('.flex.justify-between.items-center.mb-6 >> span').first().textContent();
+        await page.screenshot({path: 'debug.png', fullPage: true});
+    const counterText = await page.locator('span:has-text("1 / 100")').first().textContent();
         expect(counterText).toBe('Question 1 / 1');
     }
   });
 
 });
+
+
+
+

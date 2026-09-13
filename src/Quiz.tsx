@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { getQuestions, loadTopicQuestions } from './lib/questionsStore';
 import { TextToSpeech } from '@capacitor-community/text-to-speech';
 import { Capacitor } from '@capacitor/core';
@@ -328,7 +328,7 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
     
     // Chunk the text into sentences to bypass Android's 5-10 second engine delay
     // This feeds the engine small chunks so it starts speaking instantly
-    const chunks = textToRead.match(/[^.!?\n]+[.!?\n]+/g) || [textToRead];
+    const chunks = (textToRead.match(/[^.!?\n]+[.!?\n]+/g) || [textToRead]).map(c => c.trim()).filter(c => c.length > 0);
     
     const isFrench = document.cookie.includes('googtrans=/en/fr');
     const lang = isFrench ? 'fr-FR' : 'en-US';
@@ -338,7 +338,7 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
         for (let i = 0; i < chunks.length; i++) {
           if (cancelAudioRef.current) break;
           await TextToSpeech.speak({
-            text: chunks[i].trim(),
+            text: chunks[i],
             lang: lang,
             rate: 1.0,
             pitch: 1.0,
@@ -361,7 +361,7 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
           return;
         }
         
-        const utterance = new SpeechSynthesisUtterance(chunks[index].trim());
+        const utterance = new SpeechSynthesisUtterance(chunks[index]);
         utterance.lang = lang;
         utterance.onend = () => playChunk(index + 1);
         utterance.onerror = () => setIsPlayingAudio(false);
@@ -552,5 +552,6 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
 
 
 
+
 
 
