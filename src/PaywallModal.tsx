@@ -148,7 +148,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
             ) : packages.length > 0 ? (
     <>
               <div style={{ marginBottom: '0.75rem', padding: '0.5rem', background: 'rgba(234, 179, 8, 0.15)', borderRadius: '8px', border: '1px solid rgba(234, 179, 8, 0.3)', textAlign: 'center' }}>
-                <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-primary)', fontWeight: 600 }}>Traditional Canadian prep courses cost $3,000+.<br/><span style={{color: '#eab308'}}>Get the same curriculum in your pocket for a fraction of the cost.</span></p>
+                <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-primary)', fontWeight: 600 }}>Traditional Canadian prep courses cost $3,000+.<br/><span style={{color: '#eab308'}}>Get the curriculum in your pocket for a fraction of the cost.</span></p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 {packages.map((pkg) => (
