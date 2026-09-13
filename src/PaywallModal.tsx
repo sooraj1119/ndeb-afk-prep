@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { PrivacyPolicyModal, TermsOfUseModal } from './LegalModals';
 import { X, Crown, CheckCircle2, ShieldCheck, Zap, Brain, Loader2 } from 'lucide-react';
 import { getOfferings, purchasePackage, restorePurchases } from './lib/revenuecat';
 
@@ -13,6 +14,8 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
   const [packages, setPackages] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [purchasing, setPurchasing] = useState<string | null>(null);
+  const [showPrivacy, setShowPrivacy] = useState(false);
+  const [showTerms, setShowTerms] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
@@ -219,6 +222,18 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                  Restore Purchases
                </button>
             </div>
+
+            <div style={{ marginTop: '1rem', textAlign: 'center', fontSize: '0.7rem', color: 'var(--text-secondary)', opacity: 0.8, lineHeight: 1.4 }}>
+               Payment will be charged to your Apple/Google account at confirmation of purchase. Subscription automatically renews unless canceled at least 24 hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period. You can manage and cancel your subscriptions in your account settings.
+               <div style={{ marginTop: '0.5rem', display: 'flex', justifyContent: 'center', gap: '1rem' }}>
+                 <button onClick={() => setShowTerms(true)} style={{ background: 'none', border: 'none', color: 'var(--accent-color)', fontSize: '0.7rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}>Terms of Use</button>
+                 <button onClick={() => setShowPrivacy(true)} style={{ background: 'none', border: 'none', color: 'var(--accent-color)', fontSize: '0.7rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}>Privacy Policy</button>
+               </div>
+            </div>
+            
+            <PrivacyPolicyModal isOpen={showPrivacy} onClose={() => setShowPrivacy(false)} />
+            <TermsOfUseModal isOpen={showTerms} onClose={() => setShowTerms(false)} />
+
           </div>
         </motion.div>
       </div>
