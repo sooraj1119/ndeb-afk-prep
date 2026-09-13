@@ -80,7 +80,10 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
             borderRadius: '24px',
             overflow: 'hidden',
             boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
-            position: 'relative'
+            position: 'relative',
+            maxHeight: '90vh',
+            display: 'flex',
+            flexDirection: 'column'
           }}
         >
           <button
@@ -98,7 +101,8 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
 
           <div style={{
             background: 'linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%)',
-            padding: '2.5rem 2rem 1.5rem',
+            padding: '1.5rem 1.5rem 1rem',
+            flexShrink: 0,
             color: 'white', textAlign: 'center'
           }}>
             <motion.div
@@ -106,7 +110,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
               transition={{ duration: 1, repeat: Infinity, repeatDelay: 2 }}
               style={{ display: 'inline-block', marginBottom: '1rem' }}
             >
-              <Crown size={48} color="#fbbf24" strokeWidth={1.5} />
+              <Crown size={36} color="#fbbf24" strokeWidth={1.5} />
             </motion.div>
             <h2 style={{ margin: '0 0 0.5rem', fontSize: '1.75rem', fontWeight: 800 }}>Unlock Pro</h2>
             <p style={{ margin: 0, opacity: 0.9, fontSize: '0.95rem', lineHeight: 1.5 }}>
@@ -114,8 +118,8 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
             </p>
           </div>
 
-          <div style={{ padding: '2rem' }}>
-            <div style={{ marginBottom: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+          <div style={{ padding: '1.25rem 1.5rem', overflowY: 'auto', flex: 1 }}>
+            <div style={{ marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {[
                 { icon: Brain, text: 'Unlimited access to all 10,134 specialized AFK questions' },
                 { icon: Zap, text: 'Smart Spaced Repetition that guarantees retention' },
@@ -124,7 +128,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                 <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                   <div style={{
                     background: 'rgba(2, 132, 199, 0.1)', color: 'var(--accent-color)',
-                    width: '36px', height: '36px', borderRadius: '50%',
+                    width: '32px', height: '32px', borderRadius: '50%',
                     display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0
                   }}>
                     <benefit.icon size={18} />
@@ -144,7 +148,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
               </div>
             ) : packages.length > 0 ? (
     <>
-              <div style={{ marginBottom: '1.5rem', padding: '0.8rem', background: 'rgba(234, 179, 8, 0.15)', borderRadius: '8px', border: '1px solid rgba(234, 179, 8, 0.3)', textAlign: 'center' }}>
+              <div style={{ marginBottom: '1rem', padding: '0.75rem', background: 'rgba(234, 179, 8, 0.15)', borderRadius: '8px', border: '1px solid rgba(234, 179, 8, 0.3)', textAlign: 'center' }}>
                 <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-primary)', fontWeight: 600 }}>Traditional Canadian prep courses cost $3,000+.<br/><span style={{color: '#eab308'}}>Get the same curriculum in your pocket for a fraction of the cost.</span></p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
@@ -223,7 +227,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                </button>
             </div>
 
-            <div style={{ marginTop: '1rem', textAlign: 'center', fontSize: '0.7rem', color: 'var(--text-secondary)', opacity: 0.8, lineHeight: 1.4 }}>
+            <div style={{ marginTop: '1rem', textAlign: 'center', fontSize: '0.65rem', color: 'var(--text-secondary)', opacity: 0.8, lineHeight: 1.3 }}>
                Payment will be charged to your Apple/Google account at confirmation of purchase. Subscription automatically renews unless canceled at least 24 hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period. You can manage and cancel your subscriptions in your account settings.
                <div style={{ marginTop: '0.5rem', display: 'flex', justifyContent: 'center', gap: '1rem' }}>
                  <button onClick={() => setShowTerms(true)} style={{ background: 'none', border: 'none', color: 'var(--accent-color)', fontSize: '0.7rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}>Terms of Use</button>
