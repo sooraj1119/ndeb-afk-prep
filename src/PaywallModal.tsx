@@ -118,12 +118,11 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
             </p>
           </div>
 
-          <div style={{ padding: '1rem 1.25rem', flex: 1 }}>
+          <div style={{ padding: '1rem 1.25rem 0.5rem', flex: 1 }}>
             <div style={{ marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {[
                 { icon: Brain, text: 'Unlimited access to all 10,134 specialized AFK questions' },
-                { icon: Zap, text: 'Smart Spaced Repetition that guarantees retention' },
-                { icon: ShieldCheck, text: 'The ultimate insurance for your $1,000+ NDEB exam' }
+                { icon: Zap, text: 'Smart Spaced Repetition that guarantees retention' }
               ].map((benefit, i) => (
                 <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                   <div style={{
