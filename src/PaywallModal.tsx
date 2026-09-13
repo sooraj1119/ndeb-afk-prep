@@ -101,7 +101,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
 
           <div style={{
             background: 'linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%)',
-            padding: '1.5rem 1.5rem 1rem',
+            padding: '1.25rem 1rem 0.75rem',
             flexShrink: 0,
             color: 'white', textAlign: 'center'
           }}>
@@ -110,15 +110,15 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
               transition={{ duration: 1, repeat: Infinity, repeatDelay: 2 }}
               style={{ display: 'inline-block', marginBottom: '1rem' }}
             >
-              <Crown size={36} color="#fbbf24" strokeWidth={1.5} />
+              <Crown size={28} color="#fbbf24" strokeWidth={2} />
             </motion.div>
-            <h2 style={{ margin: '0 0 0.5rem', fontSize: '1.75rem', fontWeight: 800 }}>Unlock Pro</h2>
-            <p style={{ margin: 0, opacity: 0.9, fontSize: '0.95rem', lineHeight: 1.5 }}>
+            <h2 style={{ margin: '0 0 0.5rem', fontSize: '1.4rem', fontWeight: 800 }}>Unlock Pro</h2>
+            <p style={{ margin: 0, opacity: 0.9, fontSize: '0.85rem', lineHeight: 1.5 }}>
               Don't leave your exam to chance. Upgrade to Pro to unlock the hardest, high-yield sections and guarantee you are ready.
             </p>
           </div>
 
-          <div style={{ padding: '1.25rem 1.5rem', overflowY: 'auto', flex: 1 }}>
+          <div style={{ padding: '1rem 1.25rem', flex: 1 }}>
             <div style={{ marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {[
                 { icon: Brain, text: 'Unlimited access to all 10,134 specialized AFK questions' },
@@ -148,10 +148,10 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
               </div>
             ) : packages.length > 0 ? (
     <>
-              <div style={{ marginBottom: '1rem', padding: '0.75rem', background: 'rgba(234, 179, 8, 0.15)', borderRadius: '8px', border: '1px solid rgba(234, 179, 8, 0.3)', textAlign: 'center' }}>
+              <div style={{ marginBottom: '0.75rem', padding: '0.5rem', background: 'rgba(234, 179, 8, 0.15)', borderRadius: '8px', border: '1px solid rgba(234, 179, 8, 0.3)', textAlign: 'center' }}>
                 <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-primary)', fontWeight: 600 }}>Traditional Canadian prep courses cost $3,000+.<br/><span style={{color: '#eab308'}}>Get the same curriculum in your pocket for a fraction of the cost.</span></p>
               </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 {packages.map((pkg) => (
                   <button
                     key={pkg.identifier}
@@ -159,7 +159,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                     disabled={purchasing !== null}
                     style={{
                       width: '100%',
-                      padding: '1rem',
+                      padding: '0.75rem 1rem',
                       background: 'var(--accent-color)',
                       color: 'white',
                       border: 'none',
@@ -214,7 +214,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
               </div>
             )}
 
-            <div style={{ marginTop: '1.5rem', textAlign: 'center' }}>
+            <div style={{ marginTop: '0.75rem', textAlign: 'center' }}>
                <button 
                  onClick={handleRestore}
                  disabled={loading || purchasing !== null}
