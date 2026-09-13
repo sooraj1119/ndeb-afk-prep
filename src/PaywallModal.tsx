@@ -107,16 +107,16 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
             </motion.div>
             <h2 style={{ margin: '0 0 0.5rem', fontSize: '1.75rem', fontWeight: 800 }}>Unlock Pro</h2>
             <p style={{ margin: 0, opacity: 0.9, fontSize: '0.95rem', lineHeight: 1.5 }}>
-              You need a premium subscription to access {feature}.
+              Don't leave your exam to chance. Upgrade to Pro to unlock the hardest, high-yield sections and guarantee you are ready.
             </p>
           </div>
 
           <div style={{ padding: '2rem' }}>
             <div style={{ marginBottom: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               {[
-                { icon: Brain, text: 'Unlimited access to all 7,500+ questions' },
-                { icon: Zap, text: 'Spaced Repetition & Simulated Mock Exams' },
-                { icon: ShieldCheck, text: 'Detailed AI explanations for every answer' }
+                { icon: Brain, text: 'Unlimited access to all 10,134 specialized AFK questions' },
+                { icon: Zap, text: 'Smart Spaced Repetition that guarantees retention' },
+                { icon: ShieldCheck, text: 'The ultimate insurance for your $1,000+ NDEB exam' }
               ].map((benefit, i) => (
                 <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                   <div style={{
@@ -140,6 +140,10 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                 </motion.div>
               </div>
             ) : packages.length > 0 ? (
+    <>
+              <div style={{ marginBottom: '1.5rem', padding: '0.8rem', background: 'rgba(234, 179, 8, 0.15)', borderRadius: '8px', border: '1px solid rgba(234, 179, 8, 0.3)', textAlign: 'center' }}>
+                <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-primary)', fontWeight: 600 }}>Traditional Canadian prep courses cost $3,000+.<br/><span style={{color: '#eab308'}}>Get the same curriculum in your pocket for a fraction of the cost.</span></p>
+              </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                 {packages.map((pkg) => (
                   <button
@@ -160,11 +164,19 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                       alignItems: 'center',
                       justifyContent: 'space-between',
                       transition: 'transform 0.2s, opacity 0.2s',
-                      opacity: purchasing !== null && purchasing !== pkg.identifier ? 0.5 : 1
+                      opacity: purchasing !== null && purchasing !== pkg.identifier ? 0.5 : 1,
+                      ...(pkg.product.title.toLowerCase().includes('annual') ? {
+                        boxShadow: '0 0 0 2px var(--accent-color), 0 0 15px rgba(59, 130, 246, 0.5)'
+                      } : {})
                     }}
                   >
                     <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', flex: 1, textAlign: 'left', paddingRight: '0.75rem' }}>
-                      <span style={{ lineHeight: 1.2, marginBottom: '0.2rem' }}>{pkg.product.title}</span>
+                      <span style={{ lineHeight: 1.2, marginBottom: '0.2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                        {pkg.product.title}
+                        {pkg.product.title.toLowerCase().includes('annual') && (
+                          <span style={{ fontSize: '0.65rem', background: '#fbbf24', color: '#854d0e', padding: '0.15rem 0.4rem', borderRadius: '4px', fontWeight: 800, textTransform: 'uppercase' }}>Best Value</span>
+                        )}
+                      </span>
                       <span style={{ fontSize: '0.8rem', fontWeight: 400, opacity: 0.9, lineHeight: 1.2 }}>{pkg.product.title.toLowerCase().includes('annual') ? "Save 30% with an annual plan." : pkg.product.description}</span>
                     </span>
                     <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right' }}>
@@ -186,6 +198,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                   </button>
                 ))}
               </div>
+            </>
             ) : (
               <div style={{ textAlign: 'center', padding: '1rem', background: 'var(--surface-hover)', borderRadius: '12px' }}>
                 <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
