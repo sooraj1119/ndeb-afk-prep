@@ -412,7 +412,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
 
       <h3 style={{ fontSize: 'clamp(1.2rem, 4vw, 1.4rem)', color: 'var(--text-primary)', marginBottom: '1.5rem' }}>Topic Breakdown</h3>
       <div className="topic-grid">
-        {[...topics].sort((a, b) => (a.isPremiumOnly === b.isPremiumOnly ? 0 : a.isPremiumOnly ? 1 : -1)).map((topic, idx) => {
+        {topics.map((topic, idx) => {
           const topicProg = progress[topic.id];
           const hasAttempted = !!topicProg;
             const topicTotal = questions.filter(q => q.topicId === topic.id).length || 500;
