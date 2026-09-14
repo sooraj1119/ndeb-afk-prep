@@ -1401,34 +1401,6 @@
     "explanation": "According to Canadian dental IPAC standards, clinical contact surfaces and non-critical items visibly contaminated with blood or saliva must be cleaned and disinfected using an intermediate-level disinfectant (which includes a tuberculocidal claim). Low-level disinfectants are insufficient for bloodborne pathogen inactivation on environmental surfaces, while high-level disinfection and sterilization are reserved for semi-critical and critical instruments, respectively."
   },
   {
-    "id": 108,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly spreading submandibular swelling (Ludwig's angina) following a lower molar extraction. Which of the following microorganisms is most characteristically and predominantly isolated from such acute odontogenic infections?",
-    "options": [
-      "Candida albicans",
-      "Mycobacterium tuberculosis",
-      "Viridans group streptococci and anaerobic bacteria",
-      "Pseudomonas aeruginosa"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Odontogenic infections are typically polymicrobial, driven predominantly by facultative anaerobes like viridans group streptococci combined with strict anaerobes (e.g., Prevotella, Fusobacterium, Peptostreptococcus). Pseudomonas and Mycobacterium are not primary etiologic agents of acute Ludwig's angina, and Candida is a fungus, not a bacterium."
-  },
-  {
-    "id": 109,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following hepatitis viruses poses the highest risk of occupational transmission to dental healthcare personnel following a needlestick injury from an infected patient, provided the worker is not vaccinated?",
-    "options": [
-      "Hepatitis C virus",
-      "Hepatitis E virus",
-      "Hepatitis A virus",
-      "Hepatitis B virus"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Hepatitis B virus (HBV) has the highest seroconversion rate (6-30%) following a percutaneous needle-stick injury compared to Hepatitis C (~1.8%) and HIV (~0.3%). Hepatitis A and E are primarily transmitted via the fecal-oral route, not through bloodborne occupational exposures."
-  },
-  {
     "id": 110,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -1539,34 +1511,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Penicillins are beta-lactam antibiotics that inhibit bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs), thereby blocking the transpeptidation reaction required for peptidoglycan cross-linking. Protein synthesis inhibition is characteristic of tetracyclines/aminoglycosides, and DNA replication inhibition is typical of fluoroquinolones."
-  },
-  {
-    "id": 118,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly spreading submandibular swelling (Ludwig's angina) following a lower molar extraction. Which of the following is the most common primary causative organism typically involved in this severe fascial space infection?",
-    "options": [
-      "Streptococcus pyogenes",
-      "Staphylococcus aureus",
-      "Viridans group streptococci",
-      "Pseudomonas aeruginosa"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Viridans group streptococci (such as Streptococcus anginosus group) are normal oral commensals and the primary initiators of odontogenic infections, often acting synergistically with anaerobes. While Staphylococcus aureus and Streptococcus pyogenes can cause skin and soft tissue infections, they are less common as the primary inciting pathogen in deep fascial space odontogenic infections. Pseudomonas aeruginosa is an opportunistic pathogen rarely implicated in primary community-acquired odontogenic infections."
-  },
-  {
-    "id": 119,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following hepatitis viruses poses the highest risk of occupational transmission to dental healthcare personnel via a percutaneous needle-stick injury in the absence of post-exposure prophylaxis?",
-    "options": [
-      "Hepatitis B virus",
-      "Hepatitis A virus",
-      "Hepatitis C virus",
-      "Hepatitis E virus"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Hepatitis B virus (HBV) has the highest transmission rate (approximately 6-30%) following a percutaneous needle-stick injury from an infected source, compared to Hepatitis C (approximately 1.8%). Hepatitis A and E are primarily transmitted via the fecal-oral route and do not pose a significant percutaneous occupational risk in dentistry. Fortunately, effective vaccination is mandatory for dental healthcare workers to prevent HBV transmission."
   },
   {
     "id": 120,
@@ -1835,20 +1779,6 @@
     "explanation": "Actinomyces israelii is an opportunistic, filamentous, Gram-positive anaerobe classically associated with cervicofacial actinomycosis and sulfur granules. Staphylococcus aureus and Streptococcus pyogenes cause acute pyogenic infections without sulfur granules, while Candida albicans is a fungus responsible for candidiasis."
   },
   {
-    "id": 139,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following hepatitis viruses poses the highest risk of occupational transmission to dental healthcare personnel via a needle-stick injury if the source patient is HBeAg-positive?",
-    "options": [
-      "Hepatitis E virus",
-      "Hepatitis A virus",
-      "Hepatitis C virus",
-      "Hepatitis B virus"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Hepatitis B virus (HBV) has the highest rate of seroconversion (up to 30%) following a percutaneous exposure from an HBeAg-positive source compared to Hepatitis C (~1.8%) and HIV (~0.3%). Hepatitis A and E are primarily transmitted via the fecal-oral route and do not pose a significant percutaneous occupational risk in dentistry."
-  },
-  {
     "id": 140,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -1961,20 +1891,6 @@
     "explanation": "Streptococcus mutans possesses glucosyltransferases that convert dietary sucrose into sticky extracellular glucans, facilitating strong adherence to enamel and rapid acid production central to caries initiation. Lactobacilli are involved in the progression of deep dentinal carious lesions rather than initiation on smooth surfaces, and S. salivarius is primarily a tongue colonizer."
   },
   {
-    "id": 148,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following hepatitis viruses poses the highest risk of occupational transmission to dental healthcare personnel via a percutaneous sharps injury, given that no post-exposure prophylaxis immunoglobulin is available?",
-    "options": [
-      "Hepatitis C virus",
-      "Hepatitis A virus",
-      "Hepatitis B virus",
-      "Hepatitis E virus"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Hepatitis C virus (HCV) carries a significant risk following a needle-stick injury, and unlike Hepatitis B, there is no post-exposure immune globulin or effective vaccine available for HCV, making rigorous standard precautions paramount. Hepatitis B has a higher percutaneous transmission rate overall, but effective post-exposure prophylaxis (HBIG and vaccine) exists. Hepatitis A and E are primarily transmitted via the fecal-oral route, not percutaneously."
-  },
-  {
     "id": 149,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -2085,34 +2001,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Necrotic pulp chambers provide a stagnant, closed environment with a low redox potential and minimal to no oxygen supply, which perfectly supports the proliferation of obligate anaerobic bacteria. Strict aerobes require oxygen, root canal pathogens of significance are generally non-spore formers, and their metabolic pathways are not restricted to lactose fermentation."
-  },
-  {
-    "id": 157,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly spreading submandibular swelling (Ludwig's angina) following the extraction of a lower molar. Which of the following is the predominant obligate anaerobic pathogen typically cultured from these deep fascial space infections of odontogenic origin?",
-    "options": [
-      "Staphylococcus aureus",
-      "Fusobacterium nucleatum",
-      "Candida albicans",
-      "Streptococcus mutans"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Fusobacterium nucleatum, along with Prevotella and Porphyromonas species, are key obligate anaerobes frequently involved in severe odontogenic infections like Ludwig's angina. Streptococcus mutans is primarily associated with coronal caries, Staphylococcus aureus is uncommon in primary odontogenic infections unless secondary, and Candida albicans is a fungus."
-  },
-  {
-    "id": 158,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following hepatitis viruses poses the highest risk of occupational transmission to dental healthcare personnel following a needlestick injury from an infected patient, in the absence of post-exposure prophylaxis?",
-    "options": [
-      "Hepatitis E virus",
-      "Hepatitis C virus",
-      "Hepatitis A virus",
-      "Hepatitis B virus"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Hepatitis B virus (HBV) has the highest seroconversion rate (up to 30%) following a percutaneous exposure to an infected source among bloodborne viruses relevant to dentistry. Hepatitis C has a lower transmission rate (approx. 1.8%), and Hepatitis A and E are primarily enterically transmitted, not bloodborne."
   },
   {
     "id": 159,
@@ -2339,20 +2227,6 @@
     "explanation": "Staphylococcus aureus is a Gram-positive coccus that typically clusters together and is a common pathogen in acute suppurative sialadenitis. Streptococcus mutans forms chains and is primarily associated with dental caries, Actinomyces forms branching filaments typical of chronic cervicofacial infections, and Candida albicans is a fungus presenting with pseudomembranous or erythematous plaques rather than purulent bacterial ductal discharge."
   },
   {
-    "id": 175,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following microorganisms is most strongly associated with the initiation and progression of deep dentinal caries and produces a highly aciduric and acidogenic microenvironment?",
-    "options": [
-      "Lactobacillus acidophilus",
-      "Actinomyces naeslundii",
-      "Porphyromonas gingivalis",
-      "Streptococcus mitis"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Lactobacilli are highly aciduric and acidogenic bacteria that thrive in deep, advanced carious lesions and contribute significantly to the progression of dentin decay. Streptococcus mutans is primarily responsible for the initiation of enamel caries, Actinomyces is linked to root caries, and Porphyromonas gingivalis is a periodontal pathogen, not a primary caries pathogen."
-  },
-  {
     "id": 176,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -2463,20 +2337,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Legionella species, along with Pseudomonas and Mycobacterium, readily colonize the narrow-bore tubing of dental unit waterlines, forming biofilms, and can pose inhalation risks of aerosolized bacteria, particularly to immunocompromised patients. E. coli and Salmonella are enteric pathogens indicating fecal contamination, and Clostridium tetani is a soil-dwelling anaerobe unrelated to waterlines."
-  },
-  {
-    "id": 184,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly spreading submandibular swelling (Ludwig's angina) following a lower molar extraction. Which of the following is the predominant obligate anaerobe typically isolated from such odontogenic infections?",
-    "options": [
-      "Fusobacterium nucleatum",
-      "Porphyromonas gingivalis",
-      "Streptococcus mutans",
-      "Lactobacillus acidophilus"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Fusobacterium nucleatum is a key obligate anaerobe heavily implicated in severe odontogenic infections and Ludwig's angina due to its ability to coaggregate and produce tissue-destructive enzymes. Streptococcus mutans is primarily associated with caries, Porphyromonas gingivalis is a major periodontal pathogen, and Lactobacillus is involved in the progression of deep dentinal caries, making them incorrect for this acute fascial space infection."
   },
   {
     "id": 185,
@@ -2745,20 +2605,6 @@
     "explanation": "Actinomyces israelii is a gram-positive, filamentous bacterium known to cause chronic, granulomatous infections characterized by sulfur granules and woody, indurated tissues. Candida albicans causes fungal infections like candidiasis, Staphylococcus aureus typically causes acute purulent abscesses without sulfur granules, and Treponema pallidum causes syphilis."
   },
   {
-    "id": 204,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following hepatitis viruses poses the highest risk of occupational transmission to dental healthcare personnel following a percutaneous needle-stick injury from an infected patient, assuming no pre-existing immunity or post-exposure prophylaxis?",
-    "options": [
-      "Hepatitis E virus",
-      "Hepatitis C virus",
-      "Hepatitis B virus",
-      "Hepatitis A virus"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hepatitis B virus (HBV) has the highest risk of transmission (approximately 30%) following a percutaneous exposure from an HBeAg-positive source compared to Hepatitis C (approx. 1.8%). Hepatitis A and E are primarily transmitted via the fecal-oral route and do not pose a significant percutaneous occupational risk in dentistry."
-  },
-  {
     "id": 205,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -2801,20 +2647,6 @@
     "explanation": "The clinical presentation describes Behçet's disease, which is an autoimmune/autoinflammatory vasculitis often triggered by environmental microbial agents (such as Streptococcus species) in genetically susceptible individuals. Herpes simplex, M. tuberculosis, and T. pallidum present with distinct clinical manifestations and do not define this specific multi-system triad."
   },
   {
-    "id": 208,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following sterilization methods is considered the gold standard and most reliable method for routine sterilization of heat- and moisture-stable dental instruments in a clinical practice setting?",
-    "options": [
-      "Steam under pressure (Autoclave)",
-      "Ethylene oxide gas",
-      "Dry heat sterilization",
-      "Unsaturated chemical vapor"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Steam under pressure (autoclaving) is the most dependable, efficient, and widely recommended method of sterilization in dentistry because it is non-toxic, highly penetrative, and rapidly destroys all microorganisms including bacterial spores. Ethylene oxide is used for heat-sensitive items in industrial or hospital settings, dry heat requires excessively high temperatures and long cycles, and chemical vapor requires strict ventilation due to formaldehyde emissions."
-  },
-  {
     "id": 209,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -2855,20 +2687,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Herpangina is classically caused by group A coxsackieviruses (enteroviruses). Varicella-Zoster causes chickenpox/shingles, Epstein-Barr virus causes infectious mononucleosis, and Cytomegalovirus causes salivary gland and systemic infections in immunocompromised hosts."
-  },
-  {
-    "id": 212,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly spreading submandibular swelling (Ludwig's angina) following the extraction of a non-restorable mandibular molar. Which of the following microorganisms is most frequently isolated as the primary pathogen in severe odontogenic infections of this type?",
-    "options": [
-      "Streptococcus anginosus group (constellatus, intermedius, anginosus)",
-      "Lactobacillus acidophilus",
-      "Streptococcus mutans",
-      "Actinomyces israelii"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The Streptococcus anginosus group (often referred to as the Streptococcus milleri group) is most frequently isolated from purulent odontogenic infections, deep neck spaces, and brain abscesses. While S. mutans is primarily cariogenic and Lactobacilli are associated with advanced carious lesions, S. anginosus organisms are key synergistic pathogens in acute, spreading odontogenic infections. Actinomyces israelii causes chronic, granulomatous infections characterized by sulfur granules, not acute spreading cellulitis."
   },
   {
     "id": 213,
@@ -2997,20 +2815,6 @@
     "explanation": "Necrotizing Ulcerative Gingivitis (NUG) is classically associated with a synergistic infection involving a fusospirochetal complex, notably Fusobacterium species (such as Fusobacterium necrophorum or nucleatum) and spirochetes like Borrelia vincentii (along with Treponema species). S. mutans and lactobacilli cause caries, A. actinomycetemcomitans causes localized aggressive periodontitis, and P. gingivalis/T. forsythia are implicated in chronic periodontitis."
   },
   {
-    "id": 222,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly spreading submandibular swelling (Ludwig's angina) following a lower molar extraction. Which of the following microorganisms is most frequently isolated as the primary pathogen in this severe odontogenic infection?",
-    "options": [
-      "Streptococcus pyogenes",
-      "Viridans group streptococci",
-      "Actinomyces israelii",
-      "Staphylococcus aureus"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Viridans group streptococci (such as Streptococcus anginosus group) are the predominant pioneering organisms in odontogenic infections, often acting synergistically with anaerobes. While Staphylococcus aureus is common in skin infections, it is less frequent as the primary driver of deep fascial space infections compared to oral streptococci. Actinomyces israelii causes chronic granulomatous infections with sulfur granules, not acute rapidly spreading cellulitis."
-  },
-  {
     "id": 223,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -3093,20 +2897,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Pseudomonas aeruginosa readily colonizes dental unit waterlines, forming biofilms that shed into output water, posing significant infection risks (e.g., respiratory infections) to immunocompromised individuals. The other listed organisms are not primarily associated with waterborne biofilm proliferation in dental units. Regular purging, chemical shock treatments, and anti-retraction valves are required to mitigate this risk in Canada."
-  },
-  {
-    "id": 229,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly progressive swelling in the floor of the mouth following a carious mandibular molar. He exhibits submandibular induration, drooling, and elevation of the tongue. Which of the following microorganisms is most characteristically and predominantly isolated as the primary pathogen in this specific deep neck space infection?",
-    "options": [
-      "Actinomyces israelii",
-      "Candida albicans",
-      "Porphyromonas gingivalis",
-      "Streptococcus viridans"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Ludwig's angina is typically a rapidly spreading cellulitis of the submandibular space originating from odontogenic infections, most commonly caused by alpha-hemolytic streptococci (Streptococcus viridans) working synergistically with anaerobes. Actinomyces causes chronic granulomatous infections with sulfur granules, Porphyromonas is primarily associated with periodontitis, and Candida is a fungal organism causing candidiasis rather than acute deep space bacterial cellulitis."
   },
   {
     "id": 230,
@@ -3233,20 +3023,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Biological indicators utilize highly heat-resistant bacterial endospores (Geobacillus stearothermophilus for steam/chemical vapor, Bacillus atrophaeus for dry heat/ETO) to definitively test and verify the microbicidal efficacy of sterilization cycles. They do not provide real-time readings, are not used for water lines or chemical residue detection, and test efficacy rather than performing the sterilization themselves."
-  },
-  {
-    "id": 239,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly progressive swelling in the floor of the mouth following the extraction of a non-restorable mandibular molar. Intraoral examination reveals sublingual and submandibular induration, elevation of the tongue, and 'woody' cellulitis. Gram stain of the purulent exudate reveals branching, Gram-positive filamentous rods. Which of the following is the most likely causative organism?",
-    "options": [
-      "Staphylococcus aureus",
-      "Candida albicans",
-      "Actinomyces israelii",
-      "Pseudomonas aeruginosa"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Actinomyces israelii is a normal commensal of the oral cavity that can cause chronic, granulomatous, and suppurating infections such as actinomycosis when mucosal barriers are breached, characterized by branching filamentous rods and sulfur granules. Candida albicans is a fungus presenting with pseudomembranous or erythematous plaques. Staphylococcus aureus typically causes acute, localized purulent infections with cocci in clusters rather than branching filaments. Pseudomonas aeruginosa is an opportunistic Gram-negative rod usually associated with nosocomial infections or immunocompromised states."
   },
   {
     "id": 240,
@@ -3487,20 +3263,6 @@
     "explanation": "Pemphigus vulgaris is a Type II hypersensitivity reaction where autoantibodies target desmoglein 3 within desmosomes, leading to acantholysis and intraepithelial blistering. Type I involves IgE (anaphylaxis), Type III involves circulating immune complexes (lupus nephritis), and Type IV involves T-lymphocytes (contact dermatitis)."
   },
   {
-    "id": 257,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 62-year-old immunocompromised patient presents with persistent white plaques on the buccal mucosa that can be scraped off, revealing an erythematous, bleeding base. A fungal culture confirms oral candidiasis. Which structural characteristic is essential for the pathogenicity of the causative organism in penetrating mucosal tissues?",
-    "options": [
-      "Spore germination into hyphae and pseudohyphae",
-      "Capsule formation",
-      "Flagella-mediated motility",
-      "Endotoxin production"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Candida albicans transitions from a commensal yeast form to invasive hyphae and pseudohyphae forms, which secrete hydrolytic enzymes (such as secreted aspartyl proteinases) that facilitate tissue penetration and mucosal invasion. Capsule formation is characteristic of Cryptococcus neoformans, endotoxins are found in Gram-negative bacteria, and Candida species are non-motile (lack flagella)."
-  },
-  {
     "id": 258,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -3541,20 +3303,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Streptococcus mutans is the primary pathogen responsible for the initiation of dental caries because it rapidly metabolizes dietary sugars into organic acids (acidogenicity) and can survive in the low-pH environment it creates (aciduricity). Porphyromonas gingivalis and Tannerella forsythia are key pathogens associated with chronic periodontitis, while Actinomyces species are more commonly linked to root caries."
-  },
-  {
-    "id": 261,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 50-year-old male with a history of rheumatic heart disease is scheduled for multiple dental extractions. According to current American Heart Association and Canadian cardiovascular guidelines, infective endocarditis prophylaxis is specifically targeted against which major group of oral microorganisms?",
-    "options": [
-      "Viridans group streptococci",
-      "Enteric gram-negative bacilli",
-      "Respiratory viruses",
-      "Fungal pathogens"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Viridans group streptococci are normal inhabitants of the oral cavity and are the most common cause of infective endocarditis following dental procedures involving manipulation of gingival tissues or the periapical region. Prophylactic antibiotics are prescribed strictly for high-risk cardiac patients to transiently reduce the level of bacteremia caused primarily by these organisms. Enteric bacilli, viruses, and fungi are not the primary targets for standard dental antibiotic prophylaxis."
   },
   {
     "id": 262,
@@ -3949,20 +3697,6 @@
     "explanation": "Actinomyces israelii is an anaerobic, Gram-positive filamentous bacterium associated with actinomycosis, classically characterized by sulfur granules and cervicofacial infections. Treponema pallidum is a spirochete causing syphilis, Candida is a fungus, and Nocardia is typically aerobic and causes pulmonary/systemic infections in immunocompromised hosts, making Actinomyces the correct match for this oral presentation."
   },
   {
-    "id": 290,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following hepatitis viruses poses the highest risk of occupational transmission to dental healthcare personnel following a percutaneous needlestick injury from an infected patient, assuming no prior vaccination?",
-    "options": [
-      "Hepatitis A virus",
-      "Hepatitis E virus",
-      "Hepatitis C virus",
-      "Hepatitis B virus"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Hepatitis B virus (HBV) has the highest transmission rate (approximately 6-30%) after a percutaneous exposure among unvaccinated individuals, compared to Hepatitis C (approx. 1.8%) and HIV (approx. 0.3%). Hepatitis A and E are transmitted via the fecal-oral route and do not pose a percutaneous occupational bloodborne risk."
-  },
-  {
     "id": 291,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -4115,20 +3849,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Geobacillus stearothermophilus spores are highly heat-resistant and are universally used as the biological indicator for steam sterilization (autoclaves) and chemical vapor sterilizers. Bacillus atrophaeus is used for dry heat and ethylene oxide sterilizers. E. coli and M. tuberculosis are not used as biological indicators for routine sterilization monitoring."
-  },
-  {
-    "id": 302,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A patient presents with localized aggressive periodontitis characterized by rapid attachment loss affecting the first molars and incisors. Microbiological culture and PCR testing are most likely to reveal an elevated level of which specific microorganism?",
-    "options": [
-      "Porphyromonas gingivalis",
-      "Aggregatibacter actinomycetemcomitans",
-      "Actinomyces israelii",
-      "Treponema denticola"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Aggregatibacter actinomycetemcomitans (especially serotype b) is strongly implicated in the pathogenesis of localized aggressive periodontitis due to its production of leukotoxin and other virulence factors. Porphyromonas gingivalis is more commonly associated with chronic periodontitis, Actinomyces israelii with actinomycosis, and Treponema denticola with necrotizing periodontal diseases."
   },
   {
     "id": 303,
@@ -4355,20 +4075,6 @@
     "explanation": "Primary Herpetic Gingivostomatitis is caused by Herpes Simplex Virus Type 1 (HSV-1), which is a enveloped, double-stranded DNA virus. RNA virus descriptions do not apply to herpesviruses. Understanding viral structure helps clinicians recognize viral latency and reactivation properties."
   },
   {
-    "id": 319,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following microorganisms is most strongly associated with the initiation and progression of deep dentinal caries, particularly due to its high acidogenicity and aciduric properties?",
-    "options": [
-      "Lactobacillus species",
-      "Streptococcus sanguinis",
-      "Actinomyces viscosus",
-      "Streptococcus mitis"
-    ],
-    "correctAnswer": 0,
-    "explanation": "While Streptococcus mutans is the primary initiator of enamel caries, Lactobacillus species are highly acidogenic and aciduric, playing a major role in the progression of deep dentinal carious lesions. Streptococcus sanguinis and Streptococcus mitis are early colonizers less associated with advanced carious progression, and Actinomyces viscosus is primarily implicated in root surface caries."
-  },
-  {
     "id": 320,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -4507,48 +4213,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Immediate post-exposure management requires washing the wound thoroughly with soap and water (or an antiseptic solution if available); squeezing or cutting the wound is strictly contraindicated as it can increase tissue damage and pathogen entry. Bleach or caustic chemicals should never be applied to a percutaneous wound, and prophylactic antibiotics are indicated only if there is a specific bacterial risk, not as a blanket post-exposure protocol for needlesticks."
-  },
-  {
-    "id": 330,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following mechanisms best describes how penicillin exerts its bactericidal effect on susceptible Gram-positive bacteria like Streptococcus pyogenes?",
-    "options": [
-      "Inhibition of bacterial cell wall peptidoglycan cross-linking",
-      "Disruption of cytoplasmic membrane integrity via surfactant action",
-      "Inhibition of DNA-dependent RNA polymerase during transcription",
-      "Inhibition of 30S ribosomal subunit protein synthesis"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Penicillins are beta-lactam antibiotics that bind to penicillin-binding proteins (PBPs), thereby inhibiting the transpeptidation reaction required for cross-linking peptidoglycan layers in the bacterial cell wall, leading to cell lysis. Inhibition of the 30S subunit is characteristic of aminoglycosides and tetracyclines, whereas rifampin inhibits DNA-dependent RNA polymerase."
-  },
-  {
-    "id": 331,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly progressive swelling in the floor of the mouth following the extraction of a non-restorable mandibular molar. Intraoral examination reveals a 'woody' submandibular space, elevated tongue, and difficulty swallowing. Gram stain of the purulent exudate reveals branching, Gram-positive filamentous rods that form 'sulfur granules'. Which of the following is the most likely causative organism?",
-    "options": [
-      "Candida albicans",
-      "Actinomyces israelii",
-      "Staphylococcus aureus",
-      "Treponema pallidum"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Actinomyces israelii is an anaerobic, branching, Gram-positive rod classically associated with actinomycosis, which presents with chronic, suppurative, granulomatous infections and sulfur granules. Candida albicans is a fungus, Staphylococcus aureus typically forms Gram-positive cocci in clusters, and Treponema pallidum is a spirochete that cannot be seen on standard Gram stain."
-  },
-  {
-    "id": 332,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "During routine sterilization monitoring of a steam autoclave in a dental clinic, biological indicators containing endospores of which of the following organisms must be used to ensure proper spore-killing efficacy?",
-    "options": [
-      "Bacillus atrophaeus",
-      "Geobacillus stearothermophilus",
-      "Pseudomonas aeruginosa",
-      "Mycobacterium tuberculosis"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Geobacillus stearothermophilus endospores are the gold standard biological indicator for monitoring steam sterilization (autoclaves) due to their high heat resistance. Bacillus atrophaeus is used for dry heat and ethylene oxide sterilizers. Pseudomonas and Mycobacterium are vegetative bacteria, not endospore-forming biological indicators."
   },
   {
     "id": 333,
@@ -4759,20 +4423,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Actinomyces israelii is an anaerobic, Gram-positive bacterium known for forming sulfur granules and causing chronic granulomatous infections with sinusoidal tracts in the cervicofacial region. Candida albicans is a fungus presenting as pseudomembranous or erythematous patches, Treponema pallidum is a spirochete causing syphilis, and Mycobacterium tuberculosis is an acid-fast bacterium causing tuberculosis."
-  },
-  {
-    "id": 348,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "Which of the following hepatitis viruses is a defective RNA virus that requires the presence of Hepatitis B virus for its replication and expression?",
-    "options": [
-      "Hepatitis E",
-      "Hepatitis A",
-      "Hepatitis C",
-      "Hepatitis D"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Hepatitis D virus (HDV) is a satellite virus containing a single-stranded RNA genome that is enveloped by the hepatitis B surface antigen (HBsAg), meaning it can only replicate in the presence of HBV. Hepatitis A and E are primarily enteric-transmitted RNA viruses, while Hepatitis C is a blood-borne flavivirus that replicates independently."
   },
   {
     "id": 349,
@@ -4999,20 +4649,6 @@
     "explanation": "Human herpesvirus 8 (HHV-8), also known as Kaposi sarcoma-associated herpesvirus (KSHV), is the causative agent of all forms of Kaposi sarcoma. HHV-5 is Cytomegalovirus, and HHV-6/7 cause roseola infantum."
   },
   {
-    "id": 365,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly progressive swelling in the floor of the mouth following the extraction of a non-restorable mandibular molar. Intraoral examination reveals sublingual and submandibular induration, elevation of the tongue, and 'woody' cellulitis characteristic of Ludwig's angina. Which of the following is the most common primary pathogen responsible for this severe odontogenic infection?",
-    "options": [
-      "Candida albicans",
-      "Staphylococcus aureus",
-      "Pseudomonas aeruginosa",
-      "Viridans group streptococci"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Viridans group streptococci, particularly Streptococcus anginosus group, are the primary initiators of odontogenic infections including Ludwig's angina, often acting synergistically with oral anaerobes. Staphylococcus aureus is less common in primary community-acquired odontogenic infections, while Pseudomonas and Candida are rarely the primary cause of Ludwig's angina."
-  },
-  {
     "id": 366,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -5095,20 +4731,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "The primary source of high bacterial counts in dental unit waterlines is the accumulation of microbial biofilms on the internal walls of the narrow-bore plastic tubing, which continuously slough planktonic bacteria into the water stream. While suck-back can occur, anti-retraction valves minimize it, and municipal water generally has much lower counts prior to entering the tubing."
-  },
-  {
-    "id": 372,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, swelling ulcer on the lateral border of his tongue. A smear shows gram-negative, pleomorphic rods with characteristic gliding motility and rosette formation. Which of the following is the primary etiological agent?",
-    "options": [
-      "Aggregatibacter actinomycetemcomitans",
-      "Treponema pallidum",
-      "Capnocytophaga sputigena",
-      "Actinomyces israelii"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Capnocytophaga species are normal oral flora that can cause opportunistic infections, particularly in immunocompromised patients, and are characterized as gram-negative, fusiform facultative anaerobic rods. Actinomyces features gram-positive branching filaments with sulfur granules, A. actinomycetemcomitans shows star-shaped inner structures in colonies, and T. pallidum is a spirochete not visible on standard gram stain."
   },
   {
     "id": 373,
@@ -5235,20 +4857,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "The primary topical mechanism of fluoride involves the conversion of soluble hydroxyapatite into less soluble, acid-resistant fluorapatite and the promotion of remineralization of incipient enamel lesions with calcium and phosphate ions. While fluoride has minor antimicrobial effects and decreases enamel solubility, its main action is post-eruptive and topical via remineralization."
-  },
-  {
-    "id": 382,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly progressive swelling in the floor of the mouth following the extraction of a non-restorable mandibular molar. Intraoral examination reveals a 'woody' submandibular induration, elevation of the tongue, and reluctance to swallow. Gram-negative sulfur granules are identified in the purulent exudate. Which of the following microorganisms is the primary etiologic agent?",
-    "options": [
-      "Pseudomonas aeruginosa",
-      "Candida albicans",
-      "Staphylococcus aureus",
-      "Actinomyces israelii"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Actinomyces israelii is a filamentous, Gram-positive anaerobic bacterium (though classic lesions yield sulfur granules containing colonies historically mistaken for fungi) responsible for actinomycosis, which presents with woody induration and draining sinuses. Staphylococcus aureus causes acute pyogenic infections without sulfur granules, Pseudomonas is typically opportunistic in immunocompromised or burn patients, and Candida albicans presents as fungal pseudomembranous or erythematous candidiasis rather than deep fascial space cellulitis with sulfur granules."
   },
   {
     "id": 383,
@@ -5475,20 +5083,6 @@
     "explanation": "Aggregatibacter actinomycetemcomitans (specifically serotype b) produces potent leukotoxins and cytolethal distending toxins, making it the hallmark periodontal pathogen implicated in localized aggressive periodontitis. Actinomyces viscosus is linked to root caries, Streptococcus sanguinis is a primary colonizer of healthy enamel, and Prevotella intermedia is associated with pregnancy gingivitis and necrotizing conditions."
   },
   {
-    "id": 399,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 68-year-old edentulous patient wearing a maxillary complete denture presents with bright red, velvety mucosal irritation beneath the denture base, accompanied by angular cheilitis. Which laboratory finding is most diagnostic for the causative organism?",
-    "options": [
-      "Gram-positive cocci in clusters showing coagulase positivity",
-      "Acid-fast rods with high mycolic acid content",
-      "Budding yeast cells and pseudohyphae on a KOH preparation",
-      "Gram-negative diplococci sensitive to penicillin"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The clinical presentation is characteristic of denture stomatitis and angular cheilitis caused by Candida albicans. A potassium hydroxide (KOH) mount or fungal culture typically reveals budding yeast cells and pseudohyphae. The other options describe Staphylococcus aureus, Mycobacterium tuberculosis, and Neisseria species respectively."
-  },
-  {
     "id": 400,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -5587,20 +5181,6 @@
     "explanation": "While Streptococcus mutans initiates coronal caries, Lactobacilli (such as Lactobacillus acidophilus) are strongly implicated in the progression of root caries and deep dentinal lesions due to their extreme aciduric and acidogenic properties. Actinomyces species are primary colonizers of root surfaces but are less acidogenic than lactobacilli."
   },
   {
-    "id": 407,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 45-year-old male presents with a painful, rapidly spreading submandibular swelling (Ludwig's angina) following the extraction of a mandibular molar. Which of the following is considered the predominant organism responsible for this severe polymicrobial infection?",
-    "options": [
-      "Pseudomonas aeruginosa",
-      "Candida albicans",
-      "Streptococcus viridans group",
-      "Staphylococcus aureus"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Ludwig's angina is a rapidly progressive cellulitis of the floor of the mouth, predominantly caused by odontogenic infections involving the normal oral flora, particularly viridans group streptococci and various anaerobes. Staphylococcus aureus is less common in primary Ludwig's angina, while Pseudomonas and Candida are not primary causative agents of this fascial space infection."
-  },
-  {
     "id": 408,
     "topicId": "microbiology",
     "difficulty": "medium",
@@ -5627,20 +5207,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Polymerase Chain Reaction (PCR) is currently the gold standard and most sensitive method for detecting HSV DNA in active vesicular or ulcerated lesions. Serum IgG only indicates past exposure, Tzanck smears lack sensitivity and specificity, and viruses do not grow on standard blood agar."
-  },
-  {
-    "id": 410,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A patient presents with localized aggressive periodontitis characterized by rapid attachment loss around the first molars and incisors. Microbiological testing is most likely to reveal an elevated level of which specific gram-negative bacterium?",
-    "options": [
-      "Porphyromonas gingivalis",
-      "Aggregatibacter actinomycetemcomitans",
-      "Tannerella forsythia",
-      "Prevotella intermedia"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Aggregatibacter actinomycetemcomitans (specifically serotype b) is strongly associated with localized aggressive periodontitis due to its production of leukotoxin and other virulence factors. Porphyromonas gingivalis and Tannerella forsythia are more commonly associated with chronic periodontitis, while Prevotella intermedia is often elevated during pregnancy gingivitis and acute necrotizing ulcerative gingivitis."
   },
   {
     "id": 411,
@@ -5921,20 +5487,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Clostridioides difficile (formerly Clostridium difficile) is an anaerobic, spore-forming, Gram-positive bacillus that overgrows when normal gut flora is suppressed by broad-spectrum antibiotics, releasing Toxin A and Toxin B. The other options are not associated with pseudomembranous colitis."
-  },
-  {
-    "id": 431,
-    "topicId": "microbiology",
-    "difficulty": "medium",
-    "question": "A 35-year-old male presents with a painful, rapidly spreading submandibular swelling (Ludwig's angina) following the extraction of a non-restorable mandibular molar. Which of the following is the predominant obligate anaerobic pathogen typically implicated in this severe fascial space infection?",
-    "options": [
-      "Fusobacterium nucleatum",
-      "Pseudomonas aeruginosa",
-      "Streptococcus pyogenes",
-      "Staphylococcus aureus"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Fusobacterium nucleatum, along with other anaerobes like Prevotella and Porphyromonas species, acts as a primary synergistic pathogen in odontogenic deep neck space infections. Streptococcus pyogenes and Staphylococcus aureus are typically involved in superficial skin or specific purulent infections, while Pseudomonas is an opportunistic nosocomial pathogen rarely primary in odontogenic infections."
   },
   {
     "id": 432,
@@ -6397,5 +5949,785 @@
     ],
     "correctAnswer": 1,
     "explanation": "Prions are unique infectious agents composed solely of misfolded proteins (PrPSc) that can induce normal cellular prion proteins (PrPC) to also misfold. Unlike all other infectious agents, they contain no genetic material (DNA or RNA). The other options describe bacteria, viruses, or fungi, which are fundamentally different from prions."
+  },
+  {
+    "id": 675463431,
+    "topicId": "microbiology",
+    "question": "A 48-year-old female patient presents to your dental office with a chief complaint of a slowly growing, asymptomatic mass on her lower lip, present for several months. Her medical history includes well-controlled hypertension. Clinically, a 1 cm, soft, bluish, fluctuant nodule is observed on the mucosal aspect of the lower lip, which sometimes changes size. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Mucocele",
+      "Fibroma",
+      "Oral Squamous Cell Carcinoma",
+      "Lipoma"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A mucocele is typically a soft, bluish, fluctuant swelling on the lower lip, often with a history of changing size, caused by rupture of a minor salivary gland duct and mucin spillage into surrounding tissues. A fibroma is usually firm, not bluish or fluctuant, and often related to chronic trauma. Oral squamous cell carcinoma typically presents as an indurated ulcer or exophytic mass, not a soft, fluctuant nodule."
+  },
+  {
+    "id": 322249604,
+    "topicId": "microbiology",
+    "question": "A 62-year-old male patient presents to your dental office requiring extraction of a severely carious mandibular molar. He has a medical history of Type 2 Diabetes Mellitus, well-controlled with metformin, and a recent myocardial infarction (6 months ago), for which he is currently taking clopidogrel and low-dose aspirin. What is the MOST appropriate management regarding his antiplatelet medication prior to extraction?",
+    "options": [
+      "Consult with the patient's cardiologist regarding the risk-benefit of continuing or discontinuing clopidogrel and aspirin.",
+      "Instruct the patient to discontinue clopidogrel and aspirin 7 days prior to the extraction.",
+      "Instruct the patient to discontinue aspirin 3 days prior to the extraction, but continue clopidogrel.",
+      "Proceed with the extraction while the patient continues both clopidogrel and aspirin, using local hemostatic measures."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For patients on dual antiplatelet therapy (clopidogrel and aspirin), especially after a recent myocardial infarction, discontinuation carries a significant risk of thrombotic events. The Canadian Cardiovascular Society guidelines recommend consulting the prescribing physician or cardiologist to assess the individual risk-benefit ratio before any changes to antiplatelet medication for dental procedures. Discontinuing these medications or proceeding without consultation carries undue risk."
+  },
+  {
+    "id": 560019665,
+    "topicId": "microbiology",
+    "question": "A 40-year-old female patient presents for a recall examination. She has a history of generalized moderate chronic periodontitis, which was treated with scaling and root planing 6 months ago. Clinically, you observe localized probing depths of 6mm with bleeding on probing on the mesial aspect of tooth #36, despite good oral hygiene in other areas. Radiographs show no significant bone loss progression since the last visit. What is the MOST appropriate next step in management?",
+    "options": [
+      "Perform localized subgingival debridement (scaling and root planing) on tooth #36.",
+      "Prescribe a systemic antibiotic (e.g., amoxicillin) to address the localized inflammation.",
+      "Recommend an oral rinse containing chlorhexidine for 2 weeks.",
+      "Schedule for periodontal surgery (flap access) on tooth #36."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Localized persistent inflammation and probing depths of 6mm after initial therapy indicate a need for localized re-treatment, often referred to as periodontal maintenance or localized scaling and root planing. Systemic antibiotics are generally reserved for aggressive or refractory periodontitis. Periodontal surgery would be considered if non-surgical retreatment fails to resolve the localized inflammation and reduce pocket depths."
+  },
+  {
+    "id": 217670549,
+    "topicId": "microbiology",
+    "question": "A 28-year-old male patient presents with sensitivity to cold on tooth #16. His medical history is non-contributory. Clinically, a deep occlusal pit is observed with suspicious dark staining, but no cavitation is detected with an explorer. Radiographically, a small radiolucency is noted extending into the outer third of the dentin. What is the MOST appropriate restorative management?",
+    "options": [
+      "Monitor the lesion at subsequent recall appointments.",
+      "Apply fluoride varnish to the occlusal surface.",
+      "Perform a preventative resin restoration (PRR) on tooth #16.",
+      "Restore with an amalgam restoration."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A deep occlusal pit with a radiolucency extending into the outer third of dentin, even without explorer stick, indicates a carious lesion that warrants intervention beyond just monitoring or fluoride varnish. A preventative resin restoration (PRR) is appropriate for incipient lesions confined to enamel and outer dentin in pits and fissures, preserving tooth structure while removing localized caries. An amalgam restoration would be considered for more extensive cavitated lesions."
+  },
+  {
+    "id": 764502463,
+    "topicId": "microbiology",
+    "question": "Which of the following properties is MOST critical for a restorative material used in posterior teeth to withstand occlusal forces?",
+    "options": [
+      "Low modulus of elasticity",
+      "High coefficient of thermal expansion",
+      "High compressive strength",
+      "Low water sorption"
+    ],
+    "correctAnswer": 2,
+    "explanation": "High compressive strength is crucial for posterior restorative materials as it allows them to resist the heavy forces of mastication without fracturing or deforming. A low modulus of elasticity indicates flexibility, which is not ideal for resisting occlusal forces. A high coefficient of thermal expansion can lead to marginal leakage and recurrent caries."
+  },
+  {
+    "id": 551207718,
+    "topicId": "microbiology",
+    "question": "A 55-year-old male patient with a history of controlled hypertension and Type 2 Diabetes requires extraction of a fractured maxillary premolar. He reports taking a bisphosphonate (alendronate) orally once weekly for osteoporosis for the past 7 years. What is the MOST appropriate management strategy regarding his bisphosphonate medication?",
+    "options": [
+      "Administer a \"drug holiday\" from alendronate for 2 weeks prior to the extraction only.",
+      "Prescribe systemic antibiotics prophylactically before and after the extraction.",
+      "Discontinue alendronate for 3 months prior to extraction and for 3 months post-extraction.",
+      "Proceed with the extraction with minimal trauma and informed consent regarding the risk of osteonecrosis."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For patients on oral bisphosphonates, especially for less than 8 years or without other significant risk factors for Medication-Related Osteonecrosis of the Jaw (MRONJ), a \"drug holiday\" is generally not recommended as evidence does not support its efficacy in preventing MRONJ. The most appropriate management is to proceed with the extraction using an atraumatic technique and obtain informed consent, discussing the low but present risk of MRONJ. Prophylactic antibiotics are not routinely indicated unless specific patient factors or procedural risks warrant them."
+  },
+  {
+    "id": 841159773,
+    "topicId": "microbiology",
+    "question": "A 38-year-old male patient presents with severe, spontaneous, throbbing pain in the mandibular right quadrant that worsens with heat and keeps him awake at night. The pain is localized to tooth #46. Clinically, tooth #46 has a deep restoration, is tender to percussion, and shows a sustained positive response to a cold test that lingers for more than 30 seconds. Radiographically, there is no periapical radiolucency. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Necrotic pulp",
+      "Reversible pulpitis",
+      "Irreversible pulpitis",
+      "Acute apical periodontitis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's symptoms of severe, spontaneous, throbbing pain that worsens with heat and lingers after cold stimulation are classic signs of irreversible pulpitis. Reversible pulpitis typically presents with sharp, transient pain to cold that subsides immediately upon removal of the stimulus. Necrotic pulp would not respond to cold, as the pulp tissue is no longer vital."
+  },
+  {
+    "id": 302557956,
+    "topicId": "microbiology",
+    "question": "Which of the following anatomical structures is responsible for proprioception and tactile discrimination of the teeth and their supporting structures?",
+    "options": [
+      "Free nerve endings in the pulp",
+      "Pacinian corpuscles in the periodontal ligament",
+      "Meissner's corpuscles in the gingiva",
+      "Merkel cells in the oral epithelium"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The periodontal ligament (PDL) contains a rich supply of mechanoreceptors, including Pacinian corpuscles, which are critical for proprioception and tactile discrimination of the teeth, allowing for precise control of masticatory forces. Free nerve endings in the pulp are primarily nociceptors (pain receptors). Meissner's corpuscles and Merkel cells are found in the oral epithelium and dermis, responsible for light touch and pressure, but not directly for tooth proprioception."
+  },
+  {
+    "id": 199624974,
+    "topicId": "microbiology",
+    "question": "A 6-year-old male patient presents to your dental office for his first dental examination. He has no reported medical conditions. Clinically, his oral hygiene is fair, and he has several carious lesions on primary molars. Radiographically, no periapical pathology is noted. The patient is cooperative. What is the MOST appropriate initial step in caries management?",
+    "options": [
+      "Extract all carious primary molars to prevent further decay.",
+      "Recommend daily fluoride supplements and monitor the lesions.",
+      "Initiate comprehensive oral hygiene instructions and diet counseling, followed by restorative treatment for the carious lesions.",
+      "Apply silver diamine fluoride (SDF) to all carious lesions without further restorative intervention."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a cooperative 6-year-old with carious primary molars, the most appropriate initial step is comprehensive oral hygiene instructions and diet counseling to address the etiologic factors, followed by restorative treatment of the carious lesions to prevent progression and maintain function. Extraction of all carious primary molars is overly aggressive and can lead to space loss issues. SDF can arrest caries but restorative treatment is typically preferred for definitive management in a cooperative child."
+  },
+  {
+    "id": 521921155,
+    "topicId": "microbiology",
+    "question": "A 72-year-old female patient presents with a chief complaint of difficulty chewing and speaking with her existing maxillary complete denture, which she has worn for 15 years. Her medical history includes well-controlled hypertension. Clinically, the denture appears ill-fitting, with poor retention and stability, and the alveolar ridges show significant resorption. What is the MOST appropriate initial recommendation?",
+    "options": [
+      "Reline the existing maxillary complete denture.",
+      "Advise the patient to use more denture adhesive.",
+      "Recommend a trial period of soft diet to reduce chewing forces.",
+      "Immediately fabricate a new set of complete dentures."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a denture worn for 15 years with significant ridge resorption and poor retention/stability, a reline is unlikely to fully resolve the issues as the underlying foundation has changed substantially. The most appropriate initial recommendation is to fabricate a new set of complete dentures to establish proper occlusion, retention, stability, and esthetics, which are essential for chewing and speaking. Using more adhesive or a soft diet are temporary palliative measures and do not address the underlying issues of an ill-fitting denture."
+  },
+  {
+    "id": 183764171,
+    "topicId": "microbiology",
+    "question": "In Canadian dental practice, which ethical principle emphasizes the dentist's obligation to act in the best interest of the patient?",
+    "options": [
+      "Autonomy",
+      "Justice",
+      "Non-maleficence",
+      "Beneficence"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Beneficence is the ethical principle that obligates the dentist to act for the good of the patient and promote their well-being, which directly translates to acting in their best interest. Autonomy refers to the patient's right to self-determination. Non-maleficence is the principle of \"do no harm,\" which is distinct from actively promoting good."
+  },
+  {
+    "id": 875127469,
+    "topicId": "microbiology",
+    "question": "A 58-year-old male patient, a heavy smoker and alcohol consumer, presents with a white lesion on the lateral border of his tongue that cannot be scraped off. He reports it has been present for several months and is asymptomatic. Clinically, the lesion is irregular, slightly raised, and measures approximately 1.5 cm. There is no associated pain or tenderness. What is the MOST appropriate next step in management?",
+    "options": [
+      "Advise the patient to stop smoking and re-evaluate in 2 weeks.",
+      "Apply topical corticosteroids to reduce inflammation.",
+      "Prescribe nystatin oral suspension for presumed candidiasis.",
+      "Perform an incisional biopsy of the lesion."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Any non-scrapable white lesion, especially in a high-risk patient (heavy smoker/alcohol consumer) and on a high-risk site (lateral border of the tongue), that has been present for several months, must be considered potentially malignant. Therefore, an incisional biopsy is the MOST appropriate and urgent next step to establish a definitive diagnosis. Monitoring after smoking cessation or prescribing antifungals/corticosteroids without a definitive diagnosis is too risky for a potentially malignant lesion."
+  },
+  {
+    "id": 431824759,
+    "topicId": "microbiology",
+    "question": "A 30-year-old female patient presents for a new patient examination. She has no specific chief complaint but desires a comprehensive check-up. Her last dental radiographs were taken over 5 years ago. She is not pregnant. What is the MOST appropriate radiographic survey for this patient, according to Canadian dental guidelines for a new adult patient?",
+    "options": [
+      "A full mouth series of periapical and bitewing radiographs.",
+      "Four bitewing radiographs only.",
+      "Periapical radiographs of all posterior teeth.",
+      "A panoramic radiograph only."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a new adult patient with no recent radiographs, a full mouth series (FMX) of periapical and bitewing radiographs is generally recommended in Canadian dental guidelines to comprehensively assess the dentition, bone levels, and periapical areas. Bitewings alone would miss periapical pathology, and a panoramic radiograph provides a broad overview but lacks the fine detail and accurate bone level assessment of periapicals and bitewings."
+  },
+  {
+    "id": 44194283,
+    "topicId": "microbiology",
+    "question": "A 9-year-old male patient presents with his parents who are concerned about his developing anterior open bite. Clinically, you observe a significant anterior open bite and a history of persistent thumb sucking. His permanent first molars are in Angle Class I relationship. What is the MOST appropriate initial management?",
+    "options": [
+      "Refer immediately for fixed orthodontic appliance therapy.",
+      "Recommend an anterior bite plate to close the open bite.",
+      "Advise parents on strategies to help the child cease thumb sucking.",
+      "Extract the primary canines to facilitate eruption of permanent incisors."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a 9-year-old with an anterior open bite primarily associated with persistent thumb sucking, the MOST appropriate initial management is to encourage cessation of the habit. Many dental and skeletal issues, including anterior open bites, can self-correct or significantly improve once the habit is discontinued, especially before or during the eruption of permanent incisors. Fixed orthodontic appliances or bite plates would typically be considered if the habit persists or if the open bite doesn't resolve after habit cessation."
+  },
+  {
+    "id": 751866060,
+    "topicId": "microbiology",
+    "question": "A 32-year-old female patient presents with a chief complaint of chronic, dull pain in her left temporomandibular joint (TMJ) region, often radiating to her ear and temple. She reports jaw clicking and difficulty opening her mouth wide, especially in the mornings. Her medical history is non-contributory. Clinically, she exhibits tenderness upon palpation of the left masseter and temporalis muscles, and a maximum incisal opening of 30mm with deviation to the left. What is the MOST appropriate initial management strategy?",
+    "options": [
+      "Prescribe a muscle relaxant (e.g., cyclobenzaprine) for 2 weeks.",
+      "Recommend a soft diet, warm moist compresses, and over-the-counter NSAIDs.",
+      "Refer for TMJ surgery to correct the clicking and limited opening.",
+      "Fabricate a full-coverage occlusal splint for immediate use."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's symptoms are indicative of a temporomandibular disorder (TMD), likely involving myofascial pain and possibly disc displacement with reduction. The MOST appropriate initial management for TMDs is conservative, including a soft diet, warm moist compresses, over-the-counter NSAIDs, and jaw exercises. Muscle relaxants might be used as an adjunct but are not the primary initial step. TMJ surgery is a last resort."
+  },
+  {
+    "id": 1295780,
+    "topicId": "microbiology",
+    "question": "Which of the following statements accurately describes the primary mechanism by which bacterial endospores achieve their extreme resistance to heat and chemicals?",
+    "options": [
+      "Accumulation of dipicolinic acid and calcium within the core.",
+      "Presence of a thick peptidoglycan cell wall.",
+      "Active efflux pumps for antimicrobial agents.",
+      "Formation of a highly impermeable outer membrane."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The extreme resistance of bacterial endospores to heat, radiation, and chemicals is primarily attributed to the dehydration of their core cytoplasm and the accumulation of dipicolinic acid complexed with calcium ions. This complex helps to stabilize proteins and DNA against denaturation. A thick peptidoglycan cell wall provides structural integrity but not primary resistance to heat, and active efflux pumps are features of vegetative bacteria, not the main mechanism of endospore resistance."
+  },
+  {
+    "id": 541809235,
+    "topicId": "microbiology",
+    "question": "A 39-year-old male patient presents for a routine check-up. He reports no pain or specific concerns. His medical history is significant for well-controlled HIV infection. Clinically, you observe pronounced linear gingival erythema, distinct from marginal gingivitis, on several teeth, particularly in the anterior region. There is no significant bleeding on probing or deep pockets. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Acute Necrotizing Ulcerative Gingivitis (ANUG)",
+      "Linear Gingival Erythema (LGE)",
+      "Generalized Chronic Gingivitis",
+      "Periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The description of pronounced linear gingival erythema, distinct from marginal gingivitis, in an HIV-positive patient, with no significant bleeding or deep pockets, is characteristic of Linear Gingival Erythema (LGE), which is considered an HIV-associated periodontal lesion. ANUG involves necrosis and ulceration of the interdental papillae. Generalized chronic gingivitis would typically present with more bleeding and less distinct linear erythema."
+  },
+  {
+    "id": 731417559,
+    "topicId": "microbiology",
+    "question": "A 25-year-old female patient requires a Class II composite restoration on tooth #37. After preparing the cavity, you proceed with adhesive bonding. Which of the following steps is MOST critical to ensure optimal bond strength and marginal seal for a total-etch adhesive system?",
+    "options": [
+      "Thoroughly drying the dentin after etching to ensure a completely dry bonding surface.",
+      "Ensuring the enamel and dentin are adequately etched with phosphoric acid for the recommended time.",
+      "Applying a thick layer of adhesive resin to fill all tubules.",
+      "Utilizing a self-etch adhesive system instead of a total-etch system."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a total-etch adhesive system, adequate etching of both enamel and dentin with phosphoric acid for the recommended time is the MOST critical step to create a micromechanical retention pattern and remove the smear layer. Over-drying the dentin can lead to collagen collapse and reduced bond strength (known as \"dessication\"). Applying a thick layer of adhesive is not necessarily optimal and can lead to polymerization shrinkage issues."
+  },
+  {
+    "id": 265632088,
+    "topicId": "microbiology",
+    "question": "Which of the following local anesthetics is characterized by a long duration of action due to its high lipid solubility and protein binding, making it suitable for procedures requiring extended pain control?",
+    "options": [
+      "Lidocaine",
+      "Articaine",
+      "Mepivacaine",
+      "Bupivacaine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Bupivacaine is known for its long duration of action, primarily due to its high lipid solubility and protein binding, which allows it to remain in the nerve sheath for an extended period. Lidocaine, articaine, and mepivacaine are intermediate-acting local anesthetics, with articaine having a unique thiophene ring that increases its lipid solubility but does not provide the same extended duration as bupivacaine."
+  },
+  {
+    "id": 656038802,
+    "topicId": "microbiology",
+    "question": "A 42-year-old male patient presents 3 days after an uncomplicated extraction of a mandibular molar, complaining of severe, throbbing pain at the extraction site that radiates to his ear. He reports a foul taste and odour, and the pain is not relieved by over-the-counter analgesics. Clinically, the socket appears empty, with exposed bone and no blood clot. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Post-operative infection",
+      "Alveolar osteitis (Dry Socket)",
+      "Localized osteomyelitis",
+      "Hematoma formation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The classic signs and symptoms of alveolar osteitis (dry socket) include severe, throbbing pain 2-4 days post-extraction, radiating to the ear, foul taste/odour, and an empty socket with exposed bone due to the premature lysis or dislodgement of the blood clot. A post-operative infection would typically present with swelling, purulence, and fever. Localized osteomyelitis is a more severe and chronic bone infection, which would present differently."
+  },
+  {
+    "id": 256210641,
+    "topicId": "microbiology",
+    "question": "A 68-year-old female patient presents with a chief complaint of a burning sensation on her tongue for the past three months. Her medical history includes well-controlled hypertension and Type 2 Diabetes. Intraoral examination reveals an erythematous, atrophic mucosa on the dorsal surface of the tongue, without any ulcerations or white patches. She reports no changes in her diet or new medications. What is the MOST appropriate initial diagnostic step?",
+    "options": [
+      "Recommend an incisional biopsy of the tongue.",
+      "Prescribe a systemic antifungal medication.",
+      "Refer to an oral surgeon for immediate excision.",
+      "Order blood tests to assess for nutritional deficiencies and systemic conditions."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A burning sensation on the tongue (glossodynia) with atrophic changes, especially in an older patient with systemic conditions, warrants investigation for underlying systemic causes such as nutritional deficiencies (e.g., iron, B12, folate), anemia, or uncontrolled diabetes. Prescribing antifungals (Option B) is premature without confirming a fungal infection. Biopsy (Option A) or immediate excision (Option C) are not indicated as initial steps given the diffuse, non-ulcerated nature of the lesion, unless systemic causes are ruled out or there are suspicious features."
+  },
+  {
+    "id": 586890153,
+    "topicId": "microbiology",
+    "question": "A 7-year-old male patient presents with his parents concerned about a dark discoloration on the occlusal surface of his mandibular first molar (#36). Clinical examination reveals a deep, localized pit and fissure stain with no evidence of cavitation or radiographic lucency extending into the dentin. The tooth is asymptomatic. What is the MOST appropriate management?",
+    "options": [
+      "Place a preventive resin restoration (PRR) or sealant.",
+      "Initiate pulpotomy and stainless steel crown.",
+      "Restore the tooth with an amalgam restoration.",
+      "Monitor the lesion annually with radiographs."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a deep pit and fissure stain without cavitation or radiographic evidence of dentin involvement in an asymptomatic tooth, a preventive resin restoration or sealant is the most appropriate conservative management to prevent caries progression. Amalgam restoration (Option C) is an overtreatment if no true cavitation is present. Pulpotomy (Option B) is indicated for irreversible pulpitis or pulp exposure, which is not the case here, and annual monitoring (Option D) is insufficient for a high-risk area."
+  },
+  {
+    "id": 756508002,
+    "topicId": "microbiology",
+    "question": "Which of the following cranial nerves is primarily responsible for the special sensation of taste from the anterior two-thirds of the tongue?",
+    "options": [
+      "Hypoglossal nerve (CN XII)",
+      "Trigeminal nerve (CN V)",
+      "Glossopharyngeal nerve (CN IX)",
+      "Facial nerve (CN VII)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The chorda tympani branch of the facial nerve (CN VII) carries taste sensation from the anterior two-thirds of the tongue. The trigeminal nerve (Option B) provides general sensation, not taste, to this area. The glossopharyngeal nerve (Option C) is responsible for taste from the posterior one-third, and the hypoglossal nerve (Option A) primarily controls tongue motor movements."
+  },
+  {
+    "id": 117895637,
+    "topicId": "microbiology",
+    "question": "A 55-year-old male patient with well-controlled Type 2 Diabetes presents for a recall appointment. He exhibits generalized chronic periodontitis with persistent probing depths of 5-6mm, bleeding on probing, and moderate bone loss despite receiving non-surgical periodontal therapy six months ago. His oral hygiene is fair. What is the MOST appropriate next step in his periodontal management?",
+    "options": [
+      "Initiate re-evaluation for surgical periodontal therapy.",
+      "Recommend daily chlorhexidine rinse indefinitely.",
+      "Prescribe a systemic antibiotic without further treatment.",
+      "Perform another round of non-surgical scaling and root planing."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For patients with persistent probing depths and inflammation after initial non-surgical periodontal therapy, especially those with systemic risk factors like diabetes, re-evaluation for surgical intervention to reduce pockets and improve access for plaque control is often the next appropriate step. Prescribing systemic antibiotics (Option C) without further debridement is generally not effective as a standalone treatment. Indefinite chlorhexidine use (Option B) is not a definitive treatment for periodontitis, and another round of non-surgical therapy (Option D) is less effective for persistent deep pockets than surgical options."
+  },
+  {
+    "id": 323688215,
+    "topicId": "microbiology",
+    "question": "A 35-year-old female patient requires an indirect restoration for a severely compromised maxillary first premolar that has undergone root canal therapy. The tooth exhibits significant loss of coronal tooth structure, making a direct restoration inadequate. The patient expresses a preference for an esthetic, tooth-colored option. What is the MOST appropriate restorative material choice for a full-coverage crown in this scenario?",
+    "options": [
+      "Conventional glass ionomer cement.",
+      "Amalgam.",
+      "High-noble gold alloy.",
+      "Zirconia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Zirconia is an excellent choice for full-coverage crowns on posterior teeth that have undergone root canal therapy and require strength and esthetics, offering high fracture resistance and a tooth-colored appearance. While high-noble gold alloy (Option C) offers good strength and biocompatibility, it lacks esthetics. Conventional glass ionomer cement (Option A) is not strong enough for a definitive full-coverage crown in a high-stress area, and amalgam (Option B) is a direct restorative material not suitable for a full-coverage crown."
+  },
+  {
+    "id": 455764439,
+    "topicId": "microbiology",
+    "question": "Which of the following drug classes is MOST likely to cause gingival hyperplasia as an adverse effect?",
+    "options": [
+      "Calcium channel blockers (e.g., nifedipine)",
+      "ACE inhibitors (e.g., enalapril)",
+      "Loop diuretics (e.g., furosemide)",
+      "Beta-blockers (e.g., metoprolol)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Calcium channel blockers, such as nifedipine, are well-known to cause gingival hyperplasia in a significant percentage of patients. ACE inhibitors (Option B), loop diuretics (Option C), and beta-blockers (Option D) are generally not associated with gingival hyperplasia as a common adverse effect."
+  },
+  {
+    "id": 646182002,
+    "topicId": "microbiology",
+    "question": "A 48-year-old male patient presents for the extraction of a mobile, carious mandibular second molar (#37). His medical history is significant for controlled hypertension (on hydrochlorothiazide) and anxiety, for which he takes alprazolam as needed. Prior to extraction, he requests sedation. What is the MOST important consideration regarding his medications when planning local anesthesia and sedation?",
+    "options": [
+      "The alprazolam may potentiate the CNS depressant effects of sedatives.",
+      "He requires prophylactic antibiotics due to his hypertension.",
+      "The hydrochlorothiazide may interfere with the metabolism of local anesthetics.",
+      "The hydrochlorothiazide may increase the risk of bleeding."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Alprazolam is a benzodiazepine and a CNS depressant. Combining it with other sedatives can lead to additive CNS depression, increasing the risk of respiratory depression and oversedation. Hydrochlorothiazide (Options C and D) is a diuretic and does not typically increase bleeding risk or significantly interfere with local anesthetic metabolism. Prophylactic antibiotics (Option B) are not indicated for controlled hypertension."
+  },
+  {
+    "id": 377031647,
+    "topicId": "microbiology",
+    "question": "A 28-year-old female patient presents with severe, lingering pain to cold and spontaneous throbbing pain in tooth #46. Radiographic examination reveals a deep mesial carious lesion extending close to the pulp chamber, with no periapical radiolucency. The tooth is vital and responds positively to percussion and palpation. What is the MOST appropriate definitive treatment?",
+    "options": [
+      "Extraction.",
+      "Direct pulp cap.",
+      "Pulpotomy.",
+      "Root canal therapy."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The symptoms of severe, lingering pain to cold and spontaneous throbbing pain are classic indicators of irreversible pulpitis, for which root canal therapy is the most appropriate definitive treatment to save the tooth. A direct pulp cap (Option B) is indicated for small mechanical pulp exposures in otherwise healthy pulps. Pulpotomy (Option C) is usually for primary teeth or immature permanent teeth with reversible pulpitis or small exposures, and extraction (Option A) is a last resort."
+  },
+  {
+    "id": 97962124,
+    "topicId": "microbiology",
+    "question": "In Canada, what is recognized as the MOST effective and cost-efficient public health measure for the prevention of dental caries in communities?",
+    "options": [
+      "School-based dental screening programs.",
+      "Community water fluoridation.",
+      "Distribution of fluoride toothpastes.",
+      "Regular dental check-ups for all citizens."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Community water fluoridation is widely recognized by health organizations globally, including those in Canada, as the most effective, equitable, and cost-efficient public health measure for preventing dental caries. While school-based screenings (Option A), fluoride toothpastes (Option C), and regular check-ups (Option D) are important components of oral health, they do not offer the population-wide, passive benefit of water fluoridation."
+  },
+  {
+    "id": 535235278,
+    "topicId": "microbiology",
+    "question": "A 62-year-old male patient presents with a fractured cusp on tooth #17, an existing amalgam restoration, and no history of pain or sensitivity. Clinical examination reveals the fracture extends subgingivally on the buccal aspect but does not involve the pulpal floor. The remaining tooth structure is sound, and the tooth is vital. What is the MOST appropriate restorative approach?",
+    "options": [
+      "Extract the tooth.",
+      "Place a new direct amalgam restoration.",
+      "Fabricate a full-coverage crown.",
+      "Perform an onlay restoration."
+    ],
+    "correctAnswer": 3,
+    "explanation": "An onlay restoration is the most appropriate choice for restoring a fractured cusp on a vital posterior tooth with significant remaining tooth structure, as it provides cusp coverage and strength while conserving more tooth structure than a full-coverage crown. Placing a direct amalgam restoration (Option B) would not adequately protect the compromised cusp. A full-coverage crown (Option C) is more aggressive than necessary if sufficient tooth structure remains, and extraction (Option A) is not indicated."
+  },
+  {
+    "id": 264746764,
+    "topicId": "microbiology",
+    "question": "A 9-year-old female patient presents with a noticeable anterior open bite and a history of persistent thumb sucking. Clinical examination confirms the open bite and a constricted maxillary arch. What is the MOST crucial initial step in managing this malocclusion?",
+    "options": [
+      "Surgical correction of the open bite.",
+      "Immediate orthodontic appliance placement to close the open bite.",
+      "Habit cessation counseling and appliance therapy if needed.",
+      "Extraction of primary molars to create space."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The most crucial initial step in managing an anterior open bite associated with a persistent thumb-sucking habit is to address and eliminate the habit through counseling and, if necessary, an appliance (e.g., palatal crib). Without habit cessation, any orthodontic correction will likely relapse. Surgical correction (Option A) is not indicated at this age for a habit-induced open bite, and immediate appliance placement (Option B) without addressing the habit is less effective. Extraction of primary molars (Option D) is irrelevant to correcting an open bite and constricted arch."
+  },
+  {
+    "id": 474232482,
+    "topicId": "microbiology",
+    "question": "A 30-year-old pregnant female patient in her second trimester requires a dental procedure under local anesthesia. She has no known allergies. Which of the following local anesthetic agents is MOST appropriate given her pregnancy status?",
+    "options": [
+      "Bupivacaine with epinephrine.",
+      "Lidocaine with epinephrine.",
+      "Mepivacaine plain.",
+      "Articaine with epinephrine."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lidocaine with epinephrine is generally considered the local anesthetic of choice for pregnant patients, particularly in the second trimester, as it is a Category B drug and has a well-established safety profile. Bupivacaine (Option A) and Articaine (Option D) are Category C drugs and typically reserved for specific situations or longer procedures. Mepivacaine plain (Option C) has a shorter duration and can have higher systemic toxicity risks if used in large volumes; epinephrine use in limited amounts is generally safe for pregnant patients, as the benefits of adequate anesthesia and pain control outweigh the risks of endogenous catecholamine release from pain."
+  },
+  {
+    "id": 290654354,
+    "topicId": "microbiology",
+    "question": "A 50-year-old male patient, fully capable of making his own decisions, presents to your office requesting the extraction of all his remaining maxillary teeth to facilitate a full denture, despite them being periodontally healthy and restorable. He states he prefers dentures for convenience. What is the MOST appropriate ethical response from the dentist?",
+    "options": [
+      "Refuse treatment outright, citing ethical concerns.",
+      "Inform the patient about the benefits of retaining natural teeth and offer alternative treatments.",
+      "Proceed with the extractions as requested, respecting patient autonomy.",
+      "Refer the patient to another dentist who will perform the requested extractions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "While respecting patient autonomy is crucial, a dentist's ethical obligation (beneficence and non-maleficence) includes providing comprehensive information, discussing risks and benefits of all options (including retaining natural teeth), and offering alternatives to ensure informed consent. Proceeding directly with extractions (Option C) without this discussion is not ethically sound. Refusing treatment outright (Option A) or referring to another dentist (Option D) without proper counseling is also avoiding ethical responsibility."
+  },
+  {
+    "id": 468656572,
+    "topicId": "microbiology",
+    "question": "Which of the following describes the primary purpose of using an intensifying screen in conventional film-based radiography?",
+    "options": [
+      "To reduce the patient's exposure to radiation.",
+      "To decrease the processing time of the film.",
+      "To increase the sharpness of the radiographic image.",
+      "To absorb scattered radiation before it reaches the film."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Intensifying screens convert X-ray energy into visible light, which then exposes the film. This process significantly reduces the amount of X-radiation required to produce an image, thereby reducing the patient's radiation exposure. Intensifying screens typically decrease sharpness (Option C) due to light diffusion, do not affect processing time (Option B) directly, and are not primarily designed to absorb scattered radiation (Option D), which is the role of a grid."
+  },
+  {
+    "id": 230589512,
+    "topicId": "microbiology",
+    "question": "A 40-year-old female patient presents for a comprehensive examination. She has multiple missing posterior teeth, leading to a collapsed bite and difficulty chewing. Her remaining teeth have generalized wear and some mobility. She is medically fit and expresses a desire for improved function and esthetics. What is the MOST appropriate initial step in her treatment planning?",
+    "options": [
+      "Refer directly to an orthodontist for bite correction.",
+      "Fabricate immediate complete dentures for both arches.",
+      "Perform a comprehensive diagnostic work-up, including mounted diagnostic casts and imaging.",
+      "Initiate full-mouth rehabilitation without further assessment."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a complex case involving multiple missing teeth, collapsed bite, and generalized wear, a comprehensive diagnostic work-up, including mounted diagnostic casts, full-mouth radiographs, and potentially other imaging, is essential to accurately assess the occlusal scheme, temporomandibular joint status, and determine the most appropriate and predictable treatment plan. Fabricating immediate dentures (Option B) or initiating full-mouth rehabilitation (Option D) without proper diagnosis is premature. Referring directly to an orthodontist (Option A) is also premature without a full diagnostic assessment of the entire stomatognathic system."
+  },
+  {
+    "id": 956028785,
+    "topicId": "microbiology",
+    "question": "A 52-year-old female patient complains of sudden, severe, electric shock-like pain lasting a few seconds, localized to the right side of her face, triggered by touching her cheek or chewing. The pain is unilateral and follows the distribution of the maxillary division of the trigeminal nerve. Neurological examination is otherwise normal. What is the MOST likely diagnosis?",
+    "options": [
+      "Atypical facial pain.",
+      "Temporomandibular disorder (TMD).",
+      "Trigeminal neuralgia.",
+      "Cluster headache."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's symptoms of sudden, severe, electric shock-like pain, localized to a specific trigeminal nerve distribution, triggered by light touch or chewing, and lasting seconds, are classic diagnostic criteria for trigeminal neuralgia. Atypical facial pain (Option A) is usually constant, dull, and not triggered. Temporomandibular disorder (Option B) pain is typically dull, aching, and associated with masticatory muscle or joint dysfunction. Cluster headaches (Option D) are typically periorbital, last longer, and present with autonomic symptoms."
+  },
+  {
+    "id": 250069208,
+    "topicId": "microbiology",
+    "question": "In Canadian dental practice, what is the MOST critical factor in preventing the transmission of infectious agents through aerosols and splatter generated during dental procedures?",
+    "options": [
+      "Daily disinfection of dental unit waterlines.",
+      "Proper ventilation systems in treatment rooms.",
+      "Consistent and correct use of high-volume evacuation (HVE) and rubber dam.",
+      "Use of pre-procedural antimicrobial rinses."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Consistent and correct use of high-volume evacuation (HVE) and rubber dam are the most critical physical barriers and suction methods to significantly reduce the generation and dispersion of aerosols and splatter, thus preventing the transmission of infectious agents. While pre-procedural rinses (Option D) and proper ventilation (Option B) contribute, HVE and rubber dam are direct controls at the source. Disinfection of dental unit waterlines (Option A) addresses water quality, not aerosol/splatter from the patient's mouth."
+  },
+  {
+    "id": 382277468,
+    "topicId": "microbiology",
+    "question": "A 6-year-old male patient presents with all four permanent first molars (six-year molars) fully erupted. His parents are concerned about future decay. Clinical examination reveals deep, retentive pits and fissures on the occlusal surfaces of these teeth. What is the MOST appropriate preventive measure for these newly erupted permanent molars?",
+    "options": [
+      "Prescription of systemic fluoride supplements.",
+      "Placement of pit and fissure sealants.",
+      "Regular application of topical fluoride varnish.",
+      "Daily chlorhexidine rinses."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For newly erupted permanent molars with deep, retentive pits and fissures, the placement of pit and fissure sealants is the most effective and durable preventive measure against occlusal caries, acting as a physical barrier. While topical fluoride varnish (Option C) is beneficial, sealants provide superior protection for pits and fissures. Systemic fluoride supplements (Option A) are typically indicated based on community water fluoridation status and individual risk, not solely for erupted molars. Daily chlorhexidine rinses (Option D) are not a primary preventive measure for occlusal caries."
+  },
+  {
+    "id": 755676493,
+    "topicId": "microbiology",
+    "question": "A 70-year-old female patient presents with a dry mouth sensation, difficulty swallowing, and increased caries rate. Her medical history includes Sjögren's syndrome, and she is taking multiple medications, including an antidepressant (amitriptyline) and an antihistamine (diphenhydramine) for chronic allergies. What is the MOST likely contributing factor to her severe xerostomia and increased caries risk?",
+    "options": [
+      "Age-related reduction in salivary gland function.",
+      "Side effects of her antidepressant and antihistamine medications.",
+      "Uncontrolled Sjögren's syndrome only.",
+      "Poor oral hygiene alone."
+    ],
+    "correctAnswer": 1,
+    "explanation": "While Sjögren's syndrome (Option C) is a significant cause of xerostomia, both amitriptyline (a tricyclic antidepressant) and diphenhydramine (an antihistamine) are known to have strong anticholinergic properties that can severely exacerbate dry mouth. The combined effect of these medications with Sjögren's would be a major contributing factor. Age-related reduction in salivary flow (Option A) is generally not as profound as medically induced xerostomia, and poor oral hygiene (Option D) is a consequence, not the primary cause of xerostomia."
+  },
+  {
+    "id": 429603314,
+    "topicId": "microbiology",
+    "question": "Which of the following properties of a dental impression material is MOST critical for accurately capturing fine details of tooth preparation and surrounding soft tissues?",
+    "options": [
+      "High dimensional stability.",
+      "Long working time.",
+      "Hydrophilicity.",
+      "High tear strength."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hydrophilicity is the most critical property for an impression material to accurately capture fine details, especially in the moist oral environment, because hydrophilic materials displace moisture and wet the tooth surface effectively. High tear strength (Option D) is important for not tearing upon removal but less critical for initial detail capture. Long working time (Option B) allows for proper placement but does not ensure detail, and high dimensional stability (Option A) is crucial for the accuracy of the final cast, but hydrophilicity is key for the initial capture of detail from the oral tissues."
+  },
+  {
+    "id": 932511479,
+    "topicId": "microbiology",
+    "question": "A 50-year-old female patient presents for a routine dental examination. She reports no pain but has noticed occasional bleeding when brushing. Clinical examination reveals generalized gingival inflammation, probing depths ranging from 3-5mm, and bleeding on probing in more than 30% of sites. Radiographs show no evidence of bone loss. What is the MOST likely diagnosis?",
+    "options": [
+      "Gingivitis",
+      "Chronic periodontitis",
+      "Aggressive periodontitis",
+      "Necrotizing ulcerative gingivitis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Generalized gingival inflammation, bleeding on probing, and probing depths of 3-5mm without radiographic evidence of bone loss are classic signs of gingivitis. Chronic periodontitis involves clinical attachment loss and radiographic bone loss, while aggressive periodontitis shows rapid attachment loss. Necrotizing ulcerative gingivitis presents with distinctive punched-out papillae and pain."
+  },
+  {
+    "id": 984971105,
+    "topicId": "microbiology",
+    "question": "A 35-year-old male patient presents with severe, lingering pain to cold and heat on tooth #36, which is spontaneous and worsens at night. He reports no relevant medical history. Clinical examination reveals a deep occlusal restoration on #36, and the tooth is highly sensitive to percussion. Radiographs show no periapical radiolucency. What is the MOST appropriate pulpal diagnosis?",
+    "options": [
+      "Reversible pulpitis",
+      "Symptomatic irreversible pulpitis",
+      "Pulpal necrosis",
+      "Symptomatic apical periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lingering pain to thermal stimuli, spontaneous pain, and pain worsening at night are hallmark signs of symptomatic irreversible pulpitis. Reversible pulpitis involves sharp, transient pain that subsides quickly. Pulpal necrosis would not typically present with lingering pain to cold/heat, and symptomatic apical periodontitis describes inflammation of periapical tissues, not the pulp itself."
+  },
+  {
+    "id": 693591074,
+    "topicId": "microbiology",
+    "question": "A 28-year-old female patient requires extraction of a severely carious mandibular third molar. Her medical history is significant for well-controlled asthma, managed with a salbutamol inhaler as needed. She denies any allergies. What is the MOST appropriate local anesthetic for this procedure?",
+    "options": [
+      "2% Lidocaine with 1:50,000 epinephrine",
+      "3% Mepivacaine plain",
+      "4% Articaine with 1:100,000 epinephrine",
+      "0.5% Bupivacaine with 1:200,000 epinephrine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Articaine with 1:100,000 epinephrine is an excellent choice for mandibular extractions due to its superior bone penetration and adequate vasoconstriction for hemostasis, and its concentration of epinephrine is safe for a patient with controlled asthma. Mepivacaine plain lacks vasoconstriction, increasing surgical bleeding risk, while 2% Lidocaine with 1:50,000 epinephrine contains a high concentration of epinephrine, generally not needed for routine extractions. Bupivacaine has a very long duration, typically reserved for post-operative pain control rather than routine extractions."
+  },
+  {
+    "id": 72176977,
+    "topicId": "microbiology",
+    "question": "Which of the following factors primarily determines the elastic modulus of a dental restorative material?",
+    "options": [
+      "Its Vickers hardness number",
+      "The amount of filler content",
+      "Its degree of polymerization",
+      "Its water sorption rate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The elastic modulus, a measure of stiffness or rigidity, is primarily determined by the amount and type of filler particles incorporated into the restorative material's matrix. Higher filler content generally leads to a higher elastic modulus. Vickers hardness measures resistance to indentation, and water sorption relates to dimensional stability, not directly elastic modulus."
+  },
+  {
+    "id": 523296612,
+    "topicId": "microbiology",
+    "question": "A 7-year-old male patient presents with his parents concerned about a yellow-brown discoloration on the labial surface of his maxillary right central incisor (#11). The tooth erupted approximately 6 months ago. Clinical examination reveals a localized, well-demarcated area of hypomineralization, approximately 2x3mm, with intact surface enamel. He reports no pain or sensitivity. What is the MOST appropriate initial management?",
+    "options": [
+      "Observe and monitor",
+      "Microabrasion",
+      "Composite resin restoration",
+      "Full coverage crown"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a newly erupted permanent incisor with localized, well-demarcated hypomineralization, observation and monitoring is the most appropriate initial management, especially if there is no pain, sensitivity, or esthetic concern from the patient. Microabrasion or composite restoration would be considered if sensitivity develops or esthetic concerns become significant. A full coverage crown is overly aggressive for this presentation."
+  },
+  {
+    "id": 75912537,
+    "topicId": "microbiology",
+    "question": "A 68-year-old female patient presents with a chief complaint of her maxillary complete denture feeling loose and unstable. She has been wearing the denture for 15 years. Clinical examination reveals significant alveolar ridge resorption in the maxilla. What is the MOST appropriate next step in her management?",
+    "options": [
+      "Reline the existing denture",
+      "Fabricate a new complete denture",
+      "Refer for implant placement",
+      "Adjust the occlusal surfaces of the denture"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Significant alveolar ridge resorption after 15 years usually indicates that the existing denture base no longer accurately reflects the underlying anatomy, leading to poor stability and function. Fabricating a new complete denture allows for an entirely new impression and occlusal scheme to better adapt to the current ridge morphology. While a reline can improve retention for minor ridge changes, it's insufficient for significant resorption. Implant placement is an option but not the immediate 'most appropriate next step' for an existing denture problem, and occlusal adjustments alone will not address the underlying fit issue."
+  },
+  {
+    "id": 62516751,
+    "topicId": "microbiology",
+    "question": "A 45-year-old male patient presents with a complaint of a painless white lesion on the buccal mucosa that he has noticed for several months. He is a heavy smoker and reports consuming alcohol regularly. Clinical examination reveals a diffuse, non-scrapable white patch on the right buccal mucosa. What is the MOST appropriate diagnostic next step?",
+    "options": [
+      "Prescribe antifungal medication",
+      "Instruct patient on improved oral hygiene",
+      "Perform an incisional biopsy",
+      "Apply topical corticosteroids"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A persistent, non-scrapable white lesion in a high-risk patient (smoker, alcohol consumer) raises suspicion for epithelial dysplasia or squamous cell carcinoma. An incisional biopsy is the definitive diagnostic tool to determine the nature of the lesion. Antifungal medication is for candidiasis, which typically scrapes off. Improved oral hygiene and topical corticosteroids are not appropriate for a suspicious, non-scrapable white lesion."
+  },
+  {
+    "id": 225776580,
+    "topicId": "microbiology",
+    "question": "Which of the following mechanisms best describes the action of local anesthetics in preventing pain sensation?",
+    "options": [
+      "Increasing the permeability of neuronal membranes to potassium ions",
+      "Blocking the release of neurotransmitters at the synapse",
+      "Inhibiting the influx of sodium ions into the nerve cell",
+      "Activating opioid receptors in the peripheral nervous system"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Local anesthetics primarily work by binding to voltage-gated sodium channels in the nerve membrane, thereby inhibiting the influx of sodium ions. This prevents depolarization and the propagation of action potentials, effectively blocking pain sensation. They do not primarily increase potassium permeability or block neurotransmitter release, nor do they activate opioid receptors."
+  },
+  {
+    "id": 437647384,
+    "topicId": "microbiology",
+    "question": "A 60-year-old male patient with a history of controlled Type 2 Diabetes presents for a periodontal recall appointment. His last appointment was 6 months ago. Clinical examination reveals generalized pocket depths of 4-6mm, bleeding on probing in 40% of sites, and some localized furcation involvement. He maintains good oral hygiene at home. What is the MOST appropriate recall interval for this patient?",
+    "options": [
+      "3 months",
+      "6 months",
+      "9 months",
+      "12 months"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Patients with a history of periodontitis, especially those with systemic risk factors like controlled diabetes, require more frequent periodontal maintenance. A 3-month recall interval is typically recommended to manage inflammation, prevent disease progression, and reinforce oral hygiene in such cases. Longer intervals like 6, 9, or 12 months are generally insufficient for active periodontal disease management."
+  },
+  {
+    "id": 659728393,
+    "topicId": "microbiology",
+    "question": "A 42-year-old female patient requires a full mouth series of radiographs for a comprehensive examination. She expresses concern about radiation exposure. Which of the following techniques or devices is MOST effective in reducing patient radiation dose during dental radiography?",
+    "options": [
+      "Using D-speed film",
+      "Increasing the kVp setting",
+      "Employing a rectangular collimator",
+      "Reducing the source-to-film distance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Employing a rectangular collimator significantly reduces patient radiation dose by limiting the X-ray beam size to only the area of interest, minimizing exposure to surrounding tissues. D-speed film is slower than E-speed or F-speed films, thus requiring more radiation. Reducing the source-to-film distance would increase the dose, not reduce it."
+  },
+  {
+    "id": 639161644,
+    "topicId": "microbiology",
+    "question": "A 25-year-old female patient presents with a fractured cusp on tooth #15, which has an existing large amalgam restoration. The fracture extends subgingivally on the buccal aspect. The tooth is vital and asymptomatic. What is the MOST appropriate definitive restorative option?",
+    "options": [
+      "Direct composite restoration",
+      "Amalgam restoration with pin retention",
+      "Onlay restoration",
+      "Full coverage crown"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A subgingival fracture extending from a large existing restoration indicates significant loss of tooth structure, compromising the ferrule effect needed for strength and seal. A full coverage crown provides maximal protection against further fracture and offers a better long-term prognosis in such cases. Direct composite or amalgam with pins may not provide sufficient strength or seal for such extensive damage, and an onlay would be insufficient for a subgingival fracture."
+  },
+  {
+    "id": 450407680,
+    "topicId": "microbiology",
+    "question": "Which of the following describes the primary challenge associated with the removal of bacterial biofilms from dental unit waterlines?",
+    "options": [
+      "The high temperature required for sterilization",
+      "The low pH environment promoting bacterial growth",
+      "The extracellular polymeric substance matrix protecting bacteria",
+      "The presence of antibiotic-resistant bacterial strains"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The primary challenge in removing bacterial biofilms, particularly from dental unit waterlines, is the extracellular polymeric substance (EPS) matrix that encases the bacteria. This matrix acts as a protective barrier, shielding the bacteria from disinfectants and antimicrobial agents, making them highly resistant to removal and killing. High temperature is not typically used for DUWL disinfection, and antibiotic resistance is a consequence rather than the primary *challenge of removal* itself."
+  },
+  {
+    "id": 69104642,
+    "topicId": "microbiology",
+    "question": "A 55-year-old male patient, a known heavy smoker for 30 years, presents with a unilateral swelling in the floor of the mouth that has been slowly increasing in size over 3 months. It is firm, non-tender, and fixed. He reports no pain or difficulty swallowing initially, but now notices some slight difficulty with speech. What is the MOST immediate concern to rule out?",
+    "options": [
+      "Ranula",
+      "Sialolithiasis",
+      "Squamous cell carcinoma",
+      "Benign pleomorphic adenoma"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given the patient's heavy smoking history, the unilateral, firm, fixed, non-tender, and progressively enlarging swelling in the floor of the mouth strongly suggests a malignant process, with squamous cell carcinoma being the most immediate and critical concern to rule out. A ranula is typically soft and bluish, sialolithiasis is often painful, and a pleomorphic adenoma, while possible, is less likely to present with such progression and fixation in this high-risk demographic compared to malignancy."
+  },
+  {
+    "id": 775869088,
+    "topicId": "microbiology",
+    "question": "A 60-year-old female patient presents with intermittent dull ache in the maxillary right posterior region. She denies any pain to hot or cold. Radiographic examination reveals a periapical radiolucency associated with tooth #16, which has a large, deep restoration. The tooth does not respond to vitality testing. What is the MOST likely diagnosis?",
+    "options": [
+      "Acute apical abscess",
+      "Chronic apical abscess",
+      "Symptomatic apical periodontitis",
+      "Asymptomatic apical periodontitis"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The presence of a periapical radiolucency, a non-vital pulp (no response to vitality testing), and the absence of spontaneous pain or swelling indicates asymptomatic apical periodontitis. An acute apical abscess would present with severe pain and swelling, while a chronic apical abscess would typically involve a draining sinus tract. Symptomatic apical periodontitis would involve pain to percussion or palpation."
+  },
+  {
+    "id": 30003406,
+    "topicId": "microbiology",
+    "question": "A 10-year-old female patient presents with her parents for a routine check-up. The parents decline bitewing radiographs, stating concerns about radiation exposure, despite the dentist explaining their diagnostic necessity for detecting interproximal caries. The dentist believes these radiographs are clinically indicated. According to Canadian dental ethics, what is the MOST appropriate action for the dentist?",
+    "options": [
+      "Proceed with the radiographs, overriding parental refusal for the child's best interest.",
+      "Document the refusal and proceed with a visual examination only.",
+      "Inform the parents that the practice cannot provide adequate care without the radiographs and dismiss the patient.",
+      "Re-explain the benefits and risks, offering to provide alternative imaging if available and diagnostically appropriate."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The dentist should first re-explain the benefits and risks of the radiographs, addressing the parents' concerns empathetically, and offering alternative imaging options if diagnostically appropriate. This aligns with the ethical principles of autonomy and beneficence, encouraging shared decision-making. Overriding parental refusal is generally not permissible without legal intervention, and dismissing the patient should be a last resort after all attempts at communication have failed."
+  },
+  {
+    "id": 966070081,
+    "topicId": "microbiology",
+    "question": "Which of the following muscles is primarily responsible for the protrusion of the mandible?",
+    "options": [
+      "Temporalis",
+      "Masseter",
+      "Medial Pterygoid",
+      "Lateral Pterygoid"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The lateral pterygoid muscle is primarily responsible for the protrusion of the mandible, as well as initiating opening and moving the mandible laterally. The temporalis and masseter muscles are primarily elevators of the mandible. The medial pterygoid assists in elevation and also helps with protrusion and lateral movements but is not the primary protractor."
+  },
+  {
+    "id": 363380513,
+    "topicId": "microbiology",
+    "question": "A 9-year-old male patient presents to the emergency clinic 30 minutes after avulsing his permanent maxillary left central incisor (#21) during a playground accident. The tooth was immediately placed in milk by his teacher. Clinical examination shows an open apex. What is the MOST critical factor influencing the long-term prognosis of this avulsed tooth?",
+    "options": [
+      "The amount of root development",
+      "The type of storage medium used",
+      "The time the tooth was extra-oral",
+      "The presence of associated alveolar fracture"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The most critical factor influencing the long-term prognosis of an avulsed tooth, especially with an open apex, is the extra-oral dry time. Replantation within 60 minutes significantly improves the chances of periodontal ligament cell survival and revascularization. While storage medium is important, its purpose is to extend the viable extra-oral time, making time itself the more critical factor in this scenario. Root development influences the possibility of revascularization but is secondary to immediate replantation."
+  },
+  {
+    "id": 721986421,
+    "topicId": "microbiology",
+    "question": "A 40-year-old male patient reports moderate post-operative pain after an uncomplicated extraction of a mandibular first molar. He has no significant medical history or known allergies. What is the MOST appropriate initial analgesic regimen?",
+    "options": [
+      "Acetaminophen 500mg every 6 hours",
+      "Ibuprofen 600mg every 6 hours",
+      "Acetaminophen 325mg with Codeine 30mg every 4-6 hours",
+      "Oxycodone 5mg every 4-6 hours"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For moderate post-operative dental pain, non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen are generally the first-line and most effective analgesic, often superior to acetaminophen alone. Acetaminophen alone is usually for mild pain. Opioids like codeine or oxycodone are typically reserved for severe pain or when NSAIDs are contraindicated, and their routine use for moderate pain is discouraged due to risks of dependence and side effects."
+  },
+  {
+    "id": 814643765,
+    "topicId": "microbiology",
+    "question": "A dental clinic has implemented new protocols for instrument reprocessing. They are concerned about ensuring complete sterilization of critical instruments. Which of the following methods is the gold standard for monitoring the effectiveness of a steam sterilizer?",
+    "options": [
+      "Weekly chemical indicator strips",
+      "Daily process integrators",
+      "Monthly biological indicators",
+      "Each load using indicator tape"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Biological indicators (spore tests) are considered the gold standard for monitoring sterilization effectiveness because they directly test the sterilizer's ability to kill highly resistant bacterial spores, thus providing the highest level of assurance that sterilization has occurred. Chemical indicators and indicator tape only indicate that certain physical parameters (e.g., temperature, steam) have been met, but do not directly confirm microbial death. Biological indicators should be used at least weekly, but monthly is the minimum standard for routine monitoring in Canada."
+  },
+  {
+    "id": 678959700,
+    "topicId": "microbiology",
+    "question": "In Canadian dental practice, the principle of Veracity obliges dentists to:",
+    "options": [
+      "Act in the best interest of the patient, even against their wishes.",
+      "Treat all patients fairly and without discrimination.",
+      "Communicate truthfully and honestly with patients.",
+      "Maintain patient confidentiality at all times."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Veracity is the ethical principle that obliges dentists to be truthful and honest in their communications with patients, ensuring they receive accurate information to make informed decisions. Acting in the patient's best interest relates to Beneficence, treating patients fairly relates to Justice, and maintaining confidentiality is part of Fidelity."
   }
 ]

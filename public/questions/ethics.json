@@ -3702,19 +3702,6 @@
     "explanation": "A dentist cannot unilaterally abandon a patient. To ethically and legally terminate a patient relationship, the dentist must provide reasonable notice (typically written), allow the patient sufficient time to find another provider, and ensure continuity of care by offering to transfer records. This prevents patient abandonment and upholds professional responsibility."
   },
   {
-    "id": 269,
-    "topicId": "ethics",
-    "question": "During a routine dental examination of a 7-year-old child, the dentist observes multiple unexplained bruises on the child's face and arms, along with intraoral injuries inconsistent with accidental trauma, such as torn frenum and fractured anterior teeth with varying stages of healing. The child seems withdrawn and fearful. What is the dentist's primary ethical and legal obligation?",
-    "options": [
-      "Report the suspected child abuse immediately to the appropriate child protection agency or law enforcement, as legally mandated.",
-      "Document the findings thoroughly in the patient's chart and discuss concerns privately with the parents.",
-      "Refer the child to a specialist for further assessment of the oral injuries before taking any action.",
-      "Advise the parents to seek medical attention for the child's injuries without further intervention."
-    ],
-    "correctAnswer": 0,
-    "explanation": "In Canada, dentists, as regulated health professionals, have a legal and ethical duty to report suspected child abuse to child protection agencies or law enforcement. This mandatory reporting obligation takes precedence over patient confidentiality in cases where a child's safety is at risk, and delaying action for further assessment or discussing with parents could endanger the child."
-  },
-  {
     "id": 270,
     "topicId": "ethics",
     "question": "A former patient passed away six months ago. The patient's adult daughter contacts the dental office requesting a copy of her deceased mother's complete dental records for estate purposes, citing potential negligence by another healthcare provider. What is the most appropriate action for the dental office?",
@@ -5390,5 +5377,1344 @@
     ],
     "correctAnswer": 0,
     "explanation": "Dentists have an ethical and legal obligation to not discriminate against patients based on their medical status, including HIV positivity. Refusing to treat a patient solely due to their HIV status, when the dental office is generally capable of providing standard care with appropriate universal precautions, constitutes discrimination and violates the principle of non-discrimination. While there are some complex cases that may require referral, a blanket refusal based on HIV status is unethical and illegal."
+  },
+  {
+    "id": 744986603,
+    "topicId": "ethics",
+    "question": "A 14-year-old female patient presents for a routine dental cleaning and sealants. Her parents are not present, but she has a signed consent form from her mother for the planned procedures. Clinically, she has no active caries or urgent issues. What is the MOST appropriate next step regarding consent for the planned routine care?",
+    "options": [
+      "Proceed with the cleaning and sealants as the signed consent form is adequate.",
+      "Call the patient's mother immediately to verbally confirm consent.",
+      "Reschedule the appointment until a parent or legal guardian can be physically present.",
+      "Obtain separate written consent from the patient herself, as she is a mature minor."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Valid written informed consent from a parent or legal guardian for a minor is generally sufficient for routine, non-invasive procedures when the parent cannot be present. Calling the mother or rescheduling would be unnecessarily delaying care given the existing valid consent. While mature minors can provide their own consent in some jurisdictions for certain treatments, parental consent is typically required for routine care at this age, and her separate consent would not supersede or negate the existing parental consent."
+  },
+  {
+    "id": 949715897,
+    "topicId": "ethics",
+    "question": "A 32-year-old male patient, with no significant medical history, suddenly becomes pale, lightheaded, and loses consciousness during a local anesthetic injection. His pulse is weak and slow, and breathing is shallow. What is the MOST appropriate initial management?",
+    "options": [
+      "Administer 100% oxygen via a nasal mask.",
+      "Place the patient in a supine position with legs elevated (Trendelenburg position).",
+      "Administer an ammonia inhalant near the patient's nose.",
+      "Immediately call emergency medical services (911)."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The symptoms describe vasovagal syncope, a common dental emergency. Placing the patient in the Trendelenburg position helps restore cerebral blood flow, which is the immediate priority. While oxygen can be beneficial, it is not the primary immediate intervention for syncope, and ammonia inhalants are generally discouraged due to lack of evidence and potential for respiratory irritation. Calling 911 is reserved for medical emergencies that do not resolve with initial management."
+  },
+  {
+    "id": 326797976,
+    "topicId": "ethics",
+    "question": "A 68-year-old male patient, a heavy smoker for 40 years, presents with a non-healing, firm, white patch on the lateral border of his tongue that has been present for 3 months. It is approximately 1.5 cm in diameter and slightly elevated. He reports no pain. What is the MOST appropriate next step?",
+    "options": [
+      "Prescribe an antifungal medication and re-evaluate in two weeks.",
+      "Observe the lesion for another month to monitor for changes.",
+      "Perform an incisional biopsy of the lesion.",
+      "Refer the patient to a periodontist for evaluation."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given the patient's age, heavy smoking history, the lesion's non-healing nature, firm texture, and duration, there is a high suspicion for malignancy, making an incisional biopsy the most appropriate diagnostic step. Prescribing antifungals is incorrect as there are no signs of fungal infection, and observation for another month would delay potentially critical diagnosis and treatment. Referral to a periodontist is not indicated for this type of lesion on the lateral tongue."
+  },
+  {
+    "id": 159557048,
+    "topicId": "ethics",
+    "question": "A 45-year-old female patient presents 3 days after an uncomplicated extraction of tooth #30, reporting severe, throbbing pain radiating to her ear, unresponsive to ibuprofen. Intraorally, the extraction socket appears empty with exposed bone and a foul odor. She is a smoker. What is the MOST appropriate diagnosis and initial management?",
+    "options": [
+      "Alveolar osteitis (dry socket); Irrigate the socket and place a medicated dressing.",
+      "Acute pericoronitis; Prescribe antibiotics and pain medication.",
+      "Localized osteomyelitis; Obtain a panoramic radiograph and refer to an oral surgeon.",
+      "Post-operative infection; Initiate drainage and prescribe a broad-spectrum antibiotic."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The patient's symptoms (severe throbbing pain, exposed bone, foul odor, unresponsive to analgesics, 3-day post-op) and risk factor (smoking) are classic for alveolar osteitis (dry socket). Management involves gentle irrigation to remove debris and placing a medicated dressing to alleviate pain and promote healing. Acute pericoronitis is incorrect as it relates to impacted teeth, localized osteomyelitis is a more severe infection not initially indicated here, and while there's a foul odor, the primary issue is the breakdown of the blood clot, not typically a spreading infection requiring drainage."
+  },
+  {
+    "id": 58300192,
+    "topicId": "ethics",
+    "question": "A 28-year-old male patient complains of mild, intermittent sensitivity to cold on tooth #19. Clinically, the tooth has a large existing composite restoration. Radiographically, a 5mm well-circumscribed radiolucency is noted at the apex of #19, not involving the PDL space of adjacent teeth, and the lamina dura is intact around the apex of #19. What is the MOST likely diagnosis?",
+    "options": [
+      "Periapical granuloma",
+      "Periapical cyst",
+      "Condensing osteitis",
+      "Periapical cemento-osseous dysplasia"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The features of a well-circumscribed radiolucency at the apex, especially with an intact lamina dura and potentially vital pulp (indicated by mild intermittent cold sensitivity), are highly suggestive of periapical cemento-osseous dysplasia (PCOD). Periapical granulomas and cysts are typically associated with non-vital teeth and a lost lamina dura. Condensing osteitis appears as a radiopacity, not a radiolucency."
+  },
+  {
+    "id": 873618242,
+    "topicId": "ethics",
+    "question": "Under the ethical guidelines of most Canadian provincial dental regulatory bodies, which of the following statements about advertising dental services is generally considered acceptable?",
+    "options": [
+      "\"Guaranteed pain-free dental experience for all patients.\"",
+      "\"Offering a discounted fee for new patients' initial examination and cleaning.\"",
+      "\"Claiming superior clinical outcomes compared to other local practices.\"",
+      "\"Using patient testimonials to promote specific cosmetic procedures without explicit, written patient consent.\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "Offering a discounted fee for initial services is generally acceptable, provided it is clear and not misleading, as it allows new patients to access care. Statements guaranteeing outcomes or claiming superiority are typically considered misleading and unethical. Using patient testimonials requires explicit written consent to protect patient privacy and ensure ethical promotion."
+  },
+  {
+    "id": 853076940,
+    "topicId": "ethics",
+    "question": "A 6-year-old female patient presents after falling, sustaining trauma to her primary maxillary central incisors. Tooth #51 is discolored dark grey, non-mobile, and shows no signs of active infection or swelling. Radiographically, there is no root fracture or periapical pathology. What is the MOST appropriate management?",
+    "options": [
+      "Initiate immediate pulpectomy to prevent further discoloration.",
+      "Monitor the tooth for signs of infection, pain, or fistula formation.",
+      "Extract the discolored tooth to avoid potential damage to the succedaneous tooth.",
+      "Refer for orthodontic consultation to assess space maintenance."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Discoloration alone in a primary tooth, without other signs or symptoms like pain, swelling, or radiographic pathology, often indicates pulp necrosis but does not always require immediate intervention. Monitoring for signs of infection or abscess is the most appropriate initial step. Immediate pulpectomy is not indicated without symptoms, extraction is premature, and orthodontic consultation is unrelated to the acute trauma management."
+  },
+  {
+    "id": 766355008,
+    "topicId": "ethics",
+    "question": "A 9-year-old male patient has early loss of tooth #74 due to extensive caries. Clinically, there is insufficient space for the eruption of the permanent premolar, and the contralateral arch is symmetrical. Radiographically, the succedaneous premolar is present and developing normally. What is the MOST appropriate management to prevent space loss?",
+    "options": [
+      "Refer for comprehensive orthodontic treatment immediately.",
+      "Observe and monitor the space until the permanent premolar is ready to erupt.",
+      "Place a fixed lingual arch space maintainer.",
+      "Fabricate and cement a band and loop space maintainer."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Given the early loss of a primary molar and insufficient space for the succedaneous permanent premolar, a band and loop space maintainer is the most appropriate device to hold the space. A fixed lingual arch is used for bilateral space maintenance or anchorage, which is not indicated for a single unilateral space loss. Observation would lead to further space loss, and comprehensive orthodontic treatment is premature at this stage."
+  },
+  {
+    "id": 63369895,
+    "topicId": "ethics",
+    "question": "A 55-year-old female patient, a controlled diabetic, presents for a routine check-up. Probing depths of 5-6mm are consistently found around her maxillary molars, accompanied by bleeding on probing. Radiographs reveal generalized horizontal bone loss of approximately 30-40% of root length. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Gingivitis",
+      "Chronic periodontitis",
+      "Aggressive periodontitis",
+      "Necrotizing ulcerative periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's presentation with bone loss, probing depths >4mm, bleeding on probing, and her age and systemic condition (controlled diabetes) are consistent with chronic periodontitis. Gingivitis involves inflammation without bone loss. Aggressive periodontitis typically presents in younger individuals with rapid bone destruction. Necrotizing ulcerative periodontitis is characterized by pain, ulceration, and necrosis of interdental papillae, which are not described here."
+  },
+  {
+    "id": 844615162,
+    "topicId": "ethics",
+    "question": "According to Canadian infection control guidelines for dental practices, which of the following is the MOST critical step in preventing cross-contamination between patients when processing reusable dental instruments?",
+    "options": [
+      "Rinsing instruments under tap water after use to remove gross debris.",
+      "Placing instruments directly into an ultrasonic cleaner.",
+      "Sterilization by heat or chemical vapor after cleaning and packaging.",
+      "Wiping instruments with a surface disinfectant prior to chairside reuse."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sterilization is the process that destroys all forms of microbial life, including spores, thus being the most critical step in preventing cross-contamination from reusable instruments. Rinsing and ultrasonic cleaning are essential pre-sterilization steps (cleaning), but they do not eliminate all microorganisms. Wiping with a surface disinfectant is insufficient for instruments that penetrate tissue or contact sterile body fluids."
+  },
+  {
+    "id": 897437951,
+    "topicId": "ethics",
+    "question": "A 42-year-old male patient presents with acute, sharp pain in the mandibular right quadrant when consuming cold beverages. The pain lingers for several minutes after the stimulus is removed. Clinically, tooth #46 has a deep restoration. Which pulp vitality test would be MOST indicative of irreversible pulpitis?",
+    "options": [
+      "Electric pulp test",
+      "Percussion test",
+      "Cold test",
+      "Palpation test"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lingering pain to a cold stimulus, especially for several minutes after removal, is the classic diagnostic indicator for irreversible pulpitis. An electric pulp test assesses vitality but not necessarily the inflammatory status (reversible vs. irreversible). Percussion and palpation tests evaluate periapical inflammation, not directly the pulp's health status."
+  },
+  {
+    "id": 4964022,
+    "topicId": "ethics",
+    "question": "A 10-year-old male patient presents to your office 30 minutes after sustaining trauma, resulting in the avulsion of tooth #21. The tooth was found, rinsed briefly with water, and stored in milk. The extra-oral dry time was minimal. What is the MOST appropriate immediate management after confirming the absence of other injuries?",
+    "options": [
+      "Replant the tooth immediately after gently rinsing the root surface with saline.",
+      "Clean the root surface thoroughly with a brush and then replant.",
+      "Store the tooth in saline and refer immediately to an endodontist for replantation.",
+      "Place the tooth in a sterile gauze and transport the patient to the nearest hospital."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For an avulsed permanent tooth with minimal extra-oral dry time and proper storage (milk), immediate replantation is crucial to preserve the viability of periodontal ligament cells and improve prognosis. Thoroughly cleaning the root surface with a brush can damage viable cells. Referring to an endodontist or hospital before replantation would cause unnecessary delay, reducing the chances of successful reattachment."
+  },
+  {
+    "id": 388329092,
+    "topicId": "ethics",
+    "question": "Which of the following local anesthetic agents is MOST likely to cause methemoglobinemia as a potential adverse effect, especially in higher doses or in susceptible individuals?",
+    "options": [
+      "Lidocaine",
+      "Mepivacaine",
+      "Articaine",
+      "Prilocaine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Prilocaine is metabolically converted to ortho-toluidine, which is known to induce methemoglobinemia, particularly in higher doses, in infants, or in individuals with pre-existing conditions affecting oxygen transport. While other local anesthetics can have adverse effects, methemoglobinemia is most strongly associated with prilocaine. Lidocaine, mepivacaine, and articaine have different metabolic pathways and are not typically linked to this specific adverse effect."
+  },
+  {
+    "id": 531357993,
+    "topicId": "ethics",
+    "question": "A 24-year-old female patient presents with severe pain, swelling, and trismus in the area of her partially erupted mandibular third molar (#48). Clinically, there is an inflamed operculum covering part of the crown, and pus can be expressed. Her temperature is 38.5°C. What is the MOST appropriate initial management?",
+    "options": [
+      "Immediate extraction of tooth #48.",
+      "Prescribe antibiotics and pain medication only.",
+      "Gentle irrigation under the operculum with sterile saline, followed by debridement and systemic antibiotics.",
+      "Incision and drainage of the operculum without further debridement."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The patient exhibits classic signs of acute pericoronitis with systemic involvement (fever, trismus, pus). The most appropriate initial management focuses on reducing the acute infection, which includes irrigation under the operculum to flush out debris, gentle debridement, and systemic antibiotics due to the fever. Immediate extraction is contraindicated in the presence of acute infection. Prescribing antibiotics and pain medication alone without local measures is insufficient, and incision and drainage alone might not fully address the infection and its etiology."
+  },
+  {
+    "id": 810832040,
+    "topicId": "ethics",
+    "question": "A 62-year-old male patient with Type 2 diabetes (HbA1c 8.2%) requires multiple extractions. He takes metformin daily. His last meal was 3 hours ago. What is the MOST important consideration for his dental appointment?",
+    "options": [
+      "Schedule a morning appointment after he has eaten and taken his medication as usual.",
+      "Administer prophylactic antibiotics regardless of infection status due to his diabetes.",
+      "Avoid local anesthetics containing epinephrine due to potential cardiovascular effects.",
+      "Insist on a medical consultation with his physician prior to any treatment."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For diabetic patients undergoing dental procedures, ensuring they maintain their normal dietary and medication schedule is crucial to prevent hypoglycemic episodes, making a morning appointment after food and medication ideal. Prophylactic antibiotics are not routinely indicated for diabetes alone unless other risk factors are present. Local anesthetics with epinephrine are generally safe in controlled diabetics, and a medical consultation is only necessary if his diabetes is poorly controlled or there are other significant medical concerns beyond what is already known."
+  },
+  {
+    "id": 710554712,
+    "topicId": "ethics",
+    "question": "An adult patient, mentally competent, understands the risks and benefits of a recommended root canal treatment for a symptomatic tooth but explicitly refuses the procedure, opting for extraction instead. What is the MOST ethically and legally appropriate action for the dentist?",
+    "options": [
+      "Strongly persuade the patient to accept root canal treatment, emphasizing its benefits.",
+      "Document the patient's informed refusal and proceed with the chosen extraction.",
+      "Refuse to treat the patient due to non-compliance with optimal care standards.",
+      "Seek a second opinion from another dentist before proceeding with extraction."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Competent adult patients have the right to autonomy, which includes the right to informed refusal of recommended treatment, even if the dentist believes another option is more ideal. The dentist's ethical and legal obligation is to ensure the patient is fully informed, document their refusal and choice, and then proceed with the mutually agreed-upon alternative. Persuasion beyond clear explanation, refusing care, or unnecessarily seeking a second opinion infringes on patient autonomy."
+  },
+  {
+    "id": 689107989,
+    "topicId": "ethics",
+    "question": "A 21-year-old university student presents with sudden onset of painful, bleeding gums, a metallic taste, and halitosis. Clinically, there is ulceration and necrosis of the interdental papillae, along with a pseudomembrane. He reports high stress levels and poor oral hygiene. What is the MOST appropriate initial treatment?",
+    "options": [
+      "Aggressive surgical debridement of the affected areas.",
+      "Prescription of systemic antibiotics only, without local intervention.",
+      "Gentle debridement, oral hygiene instructions, and chlorhexidine rinse.",
+      "Immediate referral to a periodontist for advanced surgical therapy."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's symptoms are classic for Acute Necrotizing Ulcerative Gingivitis (ANUG). Initial management involves gentle debridement of the necrotic tissue, thorough oral hygiene instructions, and prescription of an antimicrobial rinse like chlorhexidine. Aggressive surgical debridement is contraindicated in the acute phase, and antibiotics alone are insufficient without local debridement. Immediate referral for advanced surgical therapy is not the initial step."
+  },
+  {
+    "id": 399248884,
+    "topicId": "ethics",
+    "question": "According to Canadian dental regulatory bodies, which of the following details is MANDATORY to be included in a patient's clinical note for every visit?",
+    "options": [
+      "A detailed financial ledger for the visit's charges.",
+      "The patient's social insurance number for identification.",
+      "A copy of all consent forms signed by the patient.",
+      "The identification of the treating clinician."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The identification (name or signature) of the treating clinician is a mandatory component of every patient record entry to ensure accountability and traceability of care. Financial ledgers are separate administrative records, and social insurance numbers are not typically required for dental records. While consent forms are essential parts of the record, a copy of *all* forms is not required for *every* visit's entry, rather they are usually kept as part of the overall patient file."
+  },
+  {
+    "id": 44566734,
+    "topicId": "ethics",
+    "question": "A 70-year-old male patient, taking Warfarin for atrial fibrillation, presents with a mild toothache. His INR is stable at 2.5. He requests a pain reliever. What is the MOST appropriate analgesic to recommend, considering his medication?",
+    "options": [
+      "Ibuprofen (NSAID)",
+      "Aspirin (NSAID)",
+      "Naproxen (NSAID)",
+      "Acetaminophen"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Acetaminophen is the safest analgesic for patients taking Warfarin because it has minimal impact on coagulation and INR levels. NSAIDs like ibuprofen, aspirin, and naproxen can significantly increase the risk of bleeding in patients on anticoagulants by inhibiting platelet function and potentially altering Warfarin's metabolism. Therefore, they should be avoided or used with extreme caution and medical consultation."
+  },
+  {
+    "id": 991717882,
+    "topicId": "ethics",
+    "question": "A 35-year-old female patient presents for restorative treatment requiring maxillary impressions. She has a severe gag reflex triggered by any intraoral manipulation. What is the MOST appropriate technique to manage her gag reflex during the impression procedure?",
+    "options": [
+      "Administer nitrous oxide/oxygen sedation.",
+      "Instruct the patient to hold their breath for the duration of the impression.",
+      "Use a very thin mix of impression material to reduce bulk.",
+      "Recline the patient fully supine to minimize material flow towards the pharynx."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nitrous oxide/oxygen sedation is an effective method for managing a severe gag reflex, as it provides anxiolysis and reduces sensory perception. Instructing the patient to hold their breath can intensify anxiety and the gag reflex. A thin mix of impression material may not capture accurate details, and reclining the patient fully supine can worsen the sensation of material flowing down the throat, potentially exacerbating the gag reflex."
+  },
+  {
+    "id": 66549408,
+    "topicId": "ethics",
+    "question": "A 68-year-old male patient presents to your dental office for an extraction of tooth #36. During the procedure, he suddenly complains of crushing chest pain radiating to his left arm and becomes diaphoretic and pale. His medical history includes stable angina and he takes sublingual nitroglycerin as needed. What is the MOST appropriate immediate step?",
+    "options": [
+      "Administer sublingual nitroglycerin (if blood pressure allows) and call for emergency medical services.",
+      "Continue the extraction quickly to minimize stress.",
+      "Administer oxygen and instruct the patient to breathe deeply.",
+      "Give oral aspirin and monitor vital signs for 10 minutes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Immediate administration of nitroglycerin (if blood pressure is stable, as it causes vasodilation) and activation of emergency medical services is critical for suspected acute coronary syndrome. Continuing the extraction would exacerbate the patient's condition. While oxygen is helpful, it is not the initial definitive pharmacological intervention. Oral aspirin takes time to be absorbed and act, and immediate intervention with nitroglycerin is prioritized."
+  },
+  {
+    "id": 83273288,
+    "topicId": "ethics",
+    "question": "A 55-year-old female patient presents to your dental office for a routine check-up. She reports an asymptomatic white lesion on her right buccal mucosa that has been present for several months. Her medical history is non-contributory, and she is a non-smoker and non-drinker. Clinical examination reveals a bilateral, non-scrapable white lesion with a reticular, lace-like pattern on the buccal mucosa. What is the MOST likely diagnosis?",
+    "options": [
+      "Oral lichen planus",
+      "Leukoplakia",
+      "Candidiasis",
+      "Frictional keratosis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The clinical presentation of bilateral, non-scrapable white lesions with a reticular, lace-like pattern is highly characteristic of oral lichen planus. Leukoplakia typically presents as a more homogeneous white patch without a reticular pattern, and candidiasis is usually scrapable. Frictional keratosis is often unilateral and associated with a clear irritant, which is not present here."
+  },
+  {
+    "id": 328231729,
+    "topicId": "ethics",
+    "question": "According to Canadian dental regulatory guidelines, which of the following is an essential component for obtaining valid informed consent for a dental procedure?",
+    "options": [
+      "The patient must sign a consent form, regardless of the procedure's complexity.",
+      "The dentist must guarantee the success of the treatment.",
+      "The patient must be provided with sufficient information about the proposed treatment, alternatives, and associated risks, and have the capacity to make a decision.",
+      "Consent is only required for surgical procedures, not for routine restorative work."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Valid informed consent requires that the patient receives adequate information about the proposed treatment, including its nature, risks, benefits, alternatives (and their risks/benefits), and prognosis, and demonstrates the capacity to understand and make a voluntary decision. Signing a form is good practice but not the sole determinant of valid consent, and consent is required for all procedures. Dentists cannot guarantee treatment success."
+  },
+  {
+    "id": 77444830,
+    "topicId": "ethics",
+    "question": "A 8-year-old male patient presents to your dental office 20 minutes after sustaining trauma from a fall, resulting in the avulsion of his permanent maxillary left central incisor (#21). The tooth was found and is currently stored in milk. Clinical examination reveals an intact alveolar socket. What is the MOST appropriate immediate management?",
+    "options": [
+      "Refer the patient immediately to an oral surgeon for replantation.",
+      "Clean the tooth with chlorhexidine and store it in saline until the next appointment.",
+      "Irrigate the socket with saline, gently replant the tooth, and splint it.",
+      "Perform endodontic treatment on the avulsed tooth prior to replantation."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For an avulsed permanent tooth with a closed apex and a short extraoral time, the MOST appropriate immediate management is to gently rinse the socket, replant the tooth, and then splint it. Storing in milk is good, but immediate replantation by the dentist is crucial for prognosis. Endodontic treatment is typically performed 7-10 days post-replantation if the apex is closed, not prior. Referral to an oral surgeon might delay critical replantation time."
+  },
+  {
+    "id": 959087931,
+    "topicId": "ethics",
+    "question": "A 40-year-old male patient presents to your dental office with chief complaints of bleeding gums and mobility in his lower anterior teeth. He reports smoking one pack of cigarettes per day for 20 years and has well-controlled Type 2 Diabetes (HbA1c 6.8%). Clinical examination reveals generalized severe periodontitis with deep pockets (7-9mm), extensive bleeding on probing, and radiographic evidence of significant horizontal and vertical bone loss. What is the MOST appropriate initial step in his management plan?",
+    "options": [
+      "Initiate scaling and root planing (SRP) combined with patient-specific oral hygiene instructions and smoking cessation counseling.",
+      "Immediately refer the patient for periodontal surgery to address the deep pockets.",
+      "Prescribe systemic antibiotics before initiating any mechanical therapy.",
+      "Recommend daily chlorhexidine rinses as the primary treatment."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The most appropriate initial step for generalized severe periodontitis involves non-surgical periodontal therapy (SRP), thorough oral hygiene instruction, and addressing modifiable risk factors like smoking. Periodontal surgery is typically considered after initial non-surgical therapy has been completed and re-evaluated. Systemic antibiotics are adjuncts to mechanical debridement, not a standalone initial step, and chlorhexidine rinses are adjunctive, not primary treatment."
+  },
+  {
+    "id": 235101086,
+    "topicId": "ethics",
+    "question": "Which of the following statements MOST accurately describes the maximum recommended dose of lidocaine with epinephrine for a healthy adult patient, according to standard pharmacological guidelines?",
+    "options": [
+      "The maximum dose is approximately 7.0 mg/kg of body weight, not exceeding 500 mg.",
+      "The maximum dose is approximately 4.4 mg/kg of body weight, not exceeding 300 mg.",
+      "The maximum dose is approximately 2.0 mg/kg of body weight, not exceeding 100 mg.",
+      "The maximum dose is solely determined by the patient's anxiety level, not body weight."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a healthy adult, the maximum recommended dose of lidocaine with epinephrine is approximately 4.4 mg/kg, with an absolute maximum of 300 mg. Doses of 7.0 mg/kg are typically associated with plain lidocaine formulations or specific scenarios, while 2.0 mg/kg is too low. The patient's anxiety level influences local anesthetic choice and amount used but does not solely determine the maximum dose."
+  },
+  {
+    "id": 98658778,
+    "topicId": "ethics",
+    "question": "A 32-year-old female patient presents to your dental office with a chief complaint of severe, throbbing pain in her upper left quadrant that started spontaneously and keeps her awake at night. She reports having a large, deep restoration placed on tooth #26 approximately two months ago. Clinical examination reveals tooth #26 is sensitive to percussion and palpation, and pulp vitality testing with cold elicits a sharp pain that lingers for more than 30 seconds. Radiographic examination shows a deep restoration close to the pulp chamber, but no distinct periapical radiolucency. What is the MOST likely pulpal diagnosis for tooth #26?",
+    "options": [
+      "Reversible pulpitis",
+      "Irreversible pulpitis",
+      "Pulpal necrosis",
+      "Asymptomatic apical periodontitis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The symptoms of spontaneous, throbbing pain, nocturnal pain, and lingering pain to cold are classic indicators of irreversible pulpitis. Reversible pulpitis typically presents with sharp, transient pain to stimuli. Pulpal necrosis would usually result in no response to cold and may present with periapical pathology. Asymptomatic apical periodontitis describes periapical inflammation without pain and no significant pulpal symptoms."
+  },
+  {
+    "id": 643858135,
+    "topicId": "ethics",
+    "question": "A 25-year-old female patient presents for a routine dental check-up. Her medical history is unremarkable. A periapical radiograph of the mandibular right quadrant reveals a well-defined, unilocular radiolucency approximately 1.5 cm in diameter, surrounding the apex of the non-carious, vital tooth #45. The tooth is asymptomatic and responds normally to vitality testing. What is the MOST appropriate next step in the management of this lesion?",
+    "options": [
+      "Initiate root canal treatment on tooth #45.",
+      "Extract tooth #45 and perform a biopsy of the lesion.",
+      "Recommend observation with periodic radiographic follow-up.",
+      "Refer for surgical enucleation and histopathological examination of the lesion."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Given the size, well-defined nature, and the vitality of the associated tooth, this lesion requires further investigation beyond observation. While root canal treatment is not indicated for a vital tooth, and extraction without diagnosis is premature, surgical enucleation with histopathological examination is necessary to definitively diagnose the lesion, ruling out various cystic or benign neoplastic processes. Observation alone is inappropriate for a lesion of this size and nature."
+  },
+  {
+    "id": 973716648,
+    "topicId": "ethics",
+    "question": "According to Canadian infection control guidelines for dental practices, which of the following methods is considered the MOST reliable for monitoring the effectiveness of a steam autoclave for sterilization?",
+    "options": [
+      "Biological indicators (spore tests)",
+      "Chemical indicators (e.g., indicator tape)",
+      "Visual inspection of instruments for cleanliness",
+      "Monitoring the pressure gauge and temperature display on the autoclave"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Biological indicators, or spore tests, are the most reliable method for monitoring sterilization effectiveness because they directly test the killing of highly resistant bacterial spores, confirming that the sterilization cycle has met its parameters. Chemical indicators only indicate exposure to heat or steam, not necessarily sterilization. Visual inspection and monitoring gauges are important but do not confirm microbial death."
+  },
+  {
+    "id": 278421652,
+    "topicId": "ethics",
+    "question": "A 60-year-old male patient presents to your dental office with a chief complaint of a missing tooth #46 and desires a fixed partial denture. His medical history is non-contributory, and his oral hygiene is excellent. Clinical examination reveals healthy abutment teeth #45 and #47 with adequate crown height and no mobility. Radiographs confirm sound abutment teeth with good bone support. What is the MOST important biomechanical consideration when preparing the abutment teeth for a fixed partial denture?",
+    "options": [
+      "Ensuring maximum taper for ease of seating the crown.",
+      "Achieving adequate retention and resistance form to prevent dislodgement.",
+      "Creating sharp internal line angles to provide strength to the casting.",
+      "Limiting occlusal reduction to preserve tooth structure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Achieving adequate retention and resistance form is paramount in fixed partial denture preparations to prevent dislodgement of the prosthesis under occlusal forces. Excessive taper reduces retention, while sharp line angles can lead to stress concentration and fracture of the restoration. Limiting occlusal reduction without meeting space requirements can compromise material strength and aesthetics."
+  },
+  {
+    "id": 407293181,
+    "topicId": "ethics",
+    "question": "A 4-year-old female patient presents to your dental office with her parent, complaining of multiple painful ulcers in her mouth, difficulty eating, and a low-grade fever that started two days ago. Clinical examination reveals numerous vesicles and ulcers on the gingiva, buccal mucosa, tongue, and soft palate, along with generalized erythematous gingiva and enlarged submandibular lymph nodes. What is the MOST likely diagnosis?",
+    "options": [
+      "Aphthous stomatitis",
+      "Primary herpetic gingivostomatitis",
+      "Hand-foot-and-mouth disease",
+      "Herpangina"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The constellation of fever, malaise, diffuse painful vesicles and ulcers on the gingiva and oral mucosa, and lymphadenopathy in a young child is highly characteristic of primary herpetic gingivostomatitis. Aphthous stomatitis presents as discrete, non-vesicular ulcers on non-keratinized tissue. Hand-foot-and-mouth disease typically involves lesions on the hands and feet in addition to the mouth. Herpangina primarily affects the posterior oral cavity (soft palate, tonsillar pillars)."
+  },
+  {
+    "id": 96316005,
+    "topicId": "ethics",
+    "question": "A 50-year-old male patient presents to your dental office with a chief complaint of a severe acute apical abscess on tooth #37, accompanied by significant facial swelling and pain. His medical history is significant for a severe penicillin allergy (anaphylaxis). What is the MOST appropriate antibiotic to prescribe for this infection?",
+    "options": [
+      "Amoxicillin",
+      "Clindamycin",
+      "Metronidazole",
+      "Azithromycin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a patient with a severe penicillin allergy (anaphylaxis) requiring antibiotic treatment for a dental infection, clindamycin is the most appropriate choice due to its broad spectrum against anaerobic bacteria commonly found in dental infections and its lack of cross-reactivity with penicillin. Amoxicillin is a penicillin derivative and contraindicated. Metronidazole is effective against anaerobes but often used in combination. Azithromycin is an alternative but less potent than clindamycin for severe dental infections."
+  },
+  {
+    "id": 264781618,
+    "topicId": "ethics",
+    "question": "According to Canadian dental regulatory bodies, which of the following is considered a MANDATORY component of a patient's dental record?",
+    "options": [
+      "Personal social media handles of the patient and dentist.",
+      "Detailed financial projections for all proposed treatments over 5 years.",
+      "A comprehensive medical and dental history, clinical findings, treatment plans, and informed consent.",
+      "Photographs of the patient's face for identification purposes only."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A comprehensive medical and dental history, clinical findings, treatment plans, and informed consent are mandatory components of a patient's dental record to ensure proper care, legal compliance, and continuity of treatment. Personal social media handles are not part of the professional record. Detailed financial projections for 5 years are not mandatory, nor are facial photographs solely for identification, although clinical photos are often part of the record for diagnostic and treatment purposes."
+  },
+  {
+    "id": 763892244,
+    "topicId": "ethics",
+    "question": "A 35-year-old female patient presents to your dental office with a chief complaint of clicking and occasional locking of her jaw, along with pain during chewing, which has worsened over the past few weeks following a period of increased stress. Clinical examination reveals a palpable click in the temporomandibular joint (TMJ) during opening and closing, limited maximum opening, and tenderness of the masseter and temporalis muscles. Radiographs of the TMJ appear normal. What is the MOST appropriate initial management strategy?",
+    "options": [
+      "Referral for surgical intervention to reposition the disc.",
+      "Conservative management including soft diet, warm compresses, NSAIDs, and a custom occlusal splint.",
+      "Prescription of a strong opioid analgesic and muscle relaxants.",
+      "Initiation of orthodontic treatment to correct the bite."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Conservative management, including a soft diet, warm compresses, NSAIDs, and an occlusal splint, is the most appropriate initial approach for temporomandibular joint disorders (TMDs) with muscle tenderness and clicking. Surgical intervention is typically a last resort after extensive conservative failures. Strong opioids are generally not indicated for chronic TMD pain, and orthodontic treatment is usually not the primary treatment for acute TMJ symptoms."
+  },
+  {
+    "id": 70105382,
+    "topicId": "ethics",
+    "question": "A 28-year-old male patient presents to your dental office with a deep carious lesion on tooth #16. He reports occasional mild sensitivity to cold liquids, but no spontaneous pain or pain on biting. Clinical examination confirms a deep cavity, and pulp vitality testing with cold elicits a sharp, transient pain that subsides immediately upon removal of the stimulus. Radiographic examination shows the caries extending close to the pulp chamber, but no periapical radiolucency. What is the MOST appropriate treatment strategy for tooth #16?",
+    "options": [
+      "Immediate root canal therapy.",
+      "Stepwise excavation or direct pulp capping, followed by a definitive restoration.",
+      "Extraction of the tooth due to irreversible damage.",
+      "Placement of a temporary restoration and observation for 6 months."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Based on the findings of deep caries with mild, transient sensitivity to cold and no spontaneous pain, the pulp is likely reversibly inflamed. Stepwise excavation or direct pulp capping (depending on the exposure) aims to preserve pulp vitality, followed by a definitive restoration. Immediate root canal therapy is for irreversible pulpitis. Extraction is not indicated, and observation with a temporary restoration alone is insufficient given the deep caries and risk of progression."
+  },
+  {
+    "id": 960507888,
+    "topicId": "ethics",
+    "question": "A 40-year-old female patient presents to your dental office 3 days after an uncomplicated extraction of her mandibular third molar (#38). She complains of severe, radiating pain from the extraction site to her ear, accompanied by a foul taste in her mouth. She is a smoker. Clinical examination reveals a partially empty socket with exposed bone and no evidence of a blood clot or granulation tissue. What is the MOST likely diagnosis?",
+    "options": [
+      "Post-operative infection",
+      "Dry socket (alveolar osteitis)",
+      "Normal post-operative healing",
+      "Fractured mandible"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The classic symptoms of severe, radiating pain 3-5 days post-extraction, foul taste, and an exposed, empty socket with no blood clot are highly indicative of dry socket (alveolar osteitis), particularly in a smoker. A post-operative infection would typically present with swelling, redness, and purulent exudate, often later than 3 days. This is not normal healing, and a fractured mandible would present with more acute symptoms and radiographic evidence."
+  },
+  {
+    "id": 460786887,
+    "topicId": "ethics",
+    "question": "Which of the following is considered the primary etiologic factor for the initiation and progression of dental caries?",
+    "options": [
+      "Acid production by fermentable carbohydrate-metabolizing bacteria on the tooth surface.",
+      "Systemic fluoride deficiency.",
+      "Genetic predisposition to enamel defects.",
+      "Mechanical abrasion from aggressive toothbrushing."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The primary etiologic factor for dental caries is the acid produced by specific bacteria (e.g., S. mutans) when they metabolize fermentable carbohydrates, leading to demineralization of tooth structure. While systemic fluoride deficiency and genetic factors can influence caries susceptibility, they are not the direct cause of the lesion. Mechanical abrasion primarily causes tooth wear, not caries."
+  },
+  {
+    "id": 794226204,
+    "topicId": "ethics",
+    "question": "A 7-year-old female patient presents to your dental office for a routine check-up. Her parent expresses concern about a significant space (diastema) between her maxillary central incisors (#11 and #21). Clinical examination confirms a 3mm diastema, with #12 and #22 partially erupted. There is no history of trauma, and the patient has a normal frenal attachment. What is the MOST appropriate management strategy?",
+    "options": [
+      "Immediate frenectomy to close the space.",
+      "Reassurance to the parent that this is likely a normal developmental stage (ugly duckling stage) and observation.",
+      "Initiation of orthodontic treatment to close the diastema.",
+      "Placement of composite restorations to close the space esthetically."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A diastema between maxillary central incisors is common and often temporary during the mixed dentition stage (the 'ugly duckling stage'), especially when the lateral incisors are still erupting. Reassurance and observation are typically the most appropriate initial steps. Immediate frenectomy, orthodontic treatment, or restorative closure are generally premature until the eruption of canines, which often reduces or closes the space naturally."
+  },
+  {
+    "id": 145001960,
+    "topicId": "ethics",
+    "question": "A 20-year-old male patient with no significant medical history presents to your dental office for an extraction of tooth #48. As you administer the local anesthetic, he becomes pale, light-headed, and then loses consciousness. His pulse is weak and slow, and his breathing is shallow. What is the MOST appropriate immediate management of this emergency?",
+    "options": [
+      "Administer an intramuscular injection of epinephrine.",
+      "Initiate cardiopulmonary resuscitation (CPR) immediately.",
+      "Place the patient in a supine position with feet elevated, loosen tight clothing, and administer oxygen.",
+      "Give oral glucose tablets to raise blood sugar."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The symptoms described (pallor, light-headedness, loss of consciousness, weak/slow pulse, shallow breathing) are characteristic of vasovagal syncope, a common dental emergency. The most appropriate immediate management is to place the patient in a supine position with feet elevated to improve cerebral blood flow, loosen tight clothing, and administer oxygen. Epinephrine is for anaphylaxis, CPR for cardiac arrest, and glucose for hypoglycemia; none of these fit the primary diagnosis of syncope."
+  },
+  {
+    "id": 898794178,
+    "topicId": "ethics",
+    "question": "According to the ethical guidelines for dentists in Canada, which of the following advertising practices is considered UNETHICAL?",
+    "options": [
+      "Stating the dentist's name, contact information, and hours of operation.",
+      "Advertising specialized services without possessing recognized specialty credentials.",
+      "Using objective information about the services offered and fees charged.",
+      "Including photographs of the dental clinic interior and staff members."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Advertising specialized services (e.g., 'Implantologist' or 'Orthodontist') without possessing the recognized specialty credentials from the provincial regulatory body is considered unethical and misleading. Advertising basic practice information, objective service descriptions, fees, and clinic photos are generally acceptable, provided they are truthful, verifiable, and not misleading."
+  },
+  {
+    "id": 392551142,
+    "topicId": "ethics",
+    "question": "A 38-year-old female patient presents with a chief complaint of severe, throbbing pain in the mandibular left posterior region that started spontaneously and is worse at night. The pain is exacerbated by hot stimuli and lingers for several minutes after the stimulus is removed. Her medical history is unremarkable. Clinical examination reveals a deep caries lesion on tooth #36 with tenderness to percussion. Radiographically, the lesion extends into the pulp. What is the MOST appropriate definitive treatment?",
+    "options": [
+      "Root canal treatment",
+      "Pulpotomy",
+      "Direct pulp cap",
+      "Extraction with immediate implant placement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The symptoms of spontaneous, throbbing pain, nocturnal exacerbation, lingering pain to hot stimuli, and tenderness to percussion are classic signs of irreversible pulpitis, which necessitates root canal treatment for definitive management of the tooth. Pulpotomy and direct pulp capping are not indicated for irreversible pulpitis as the pulp is irreversibly inflamed and infected, while extraction, though an option, is not the most appropriate definitive treatment if the tooth is restorable."
+  },
+  {
+    "id": 825008668,
+    "topicId": "ethics",
+    "question": "A 55-year-old male patient presents for a recall examination. He reports no pain but mentions his gums bleed when he brushes. His medical history includes well-controlled Type 2 diabetes. Clinical examination reveals generalized gingival inflammation, probing depths ranging from 4-6mm, bleeding on probing in most sites, and horizontal bone loss visible on recent bitewing radiographs. What is the MOST appropriate initial treatment phase?",
+    "options": [
+      "Surgical periodontal therapy",
+      "Non-surgical periodontal therapy (scaling and root planing)",
+      "Systemic antibiotic therapy",
+      "Full mouth extractions and dentures"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The clinical and radiographic findings indicate generalized periodontitis, with non-surgical periodontal therapy (scaling and root planing) being the cornerstone of initial treatment to remove biofilm and calculus, reduce inflammation, and improve periodontal health. Surgical periodontal therapy is typically reserved for sites that do not respond adequately to initial non-surgical therapy. Systemic antibiotics are generally used as adjuncts in specific aggressive or refractory cases, not as initial monotherapy for chronic periodontitis. Full mouth extractions are an extreme measure and not indicated given the current presentation."
+  },
+  {
+    "id": 532466798,
+    "topicId": "ethics",
+    "question": "Which of the following local anesthetic agents has the shortest duration of action and is primarily metabolized by plasma pseudocholinesterase?",
+    "options": [
+      "Lidocaine",
+      "Bupivacaine",
+      "Procaine",
+      "Mepivacaine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Procaine is an ester-type local anesthetic, known for its short duration of action due to rapid hydrolysis by plasma pseudocholinesterase. Lidocaine and Mepivacaine are amide-type local anesthetics, metabolized primarily in the liver, and have a longer duration of action than procaine. Bupivacaine is also an amide-type local anesthetic and has the longest duration of action among the commonly used agents."
+  },
+  {
+    "id": 396479873,
+    "topicId": "ethics",
+    "question": "A 45-year-old male patient presents with a slowly enlarging, asymptomatic swelling on the buccal aspect of the mandible in the area of tooth #46, which was extracted 6 months ago. The overlying mucosa appears normal. Radiographic examination reveals a well-defined, unilocular radiolucency with sclerotic borders in the edentulous region. What is the MOST likely diagnosis?",
+    "options": [
+      "Periapical granuloma",
+      "Ameloblastoma",
+      "Odontogenic keratocyst",
+      "Residual cyst"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A residual cyst is the MOST likely diagnosis given the history of extraction, slow enlargement, asymptomatic nature, and radiographic presentation of a well-defined, unilocular radiolucency in an edentulous area, representing a periapical cyst left behind after tooth removal. A periapical granuloma is associated with a vital or non-vital tooth and usually resolves after extraction or root canal. Ameloblastoma and odontogenic keratocyst are less common and typically present with more aggressive features or specific radiographic patterns, though OKCs can mimic other cysts."
+  },
+  {
+    "id": 99328274,
+    "topicId": "ethics",
+    "question": "A 7-year-old female patient presents with her mother, complaining of sensitivity when eating sweets in the maxillary right posterior region. Clinical examination reveals a deep, non-cavitated pit and fissure lesion on tooth #16. The tooth is vital and asymptomatic to percussion. A bitewing radiograph shows a radiolucency extending into the outer third of the dentin. What is the MOST appropriate management?",
+    "options": [
+      "Composite restoration",
+      "Direct pulp capping",
+      "Stainless steel crown",
+      "Extraction"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given the deep, non-cavitated lesion extending into the outer third of the dentin, a composite restoration after caries removal is the most appropriate management to restore tooth function and prevent further progression. Direct pulp capping is indicated for pulp exposures, which is not the case here. A stainless steel crown is typically used for more extensive caries or pulpal involvement in primary teeth or as a temporary restoration in permanent teeth. Extraction is an inappropriate and irreversible measure for a restorably carious permanent tooth."
+  },
+  {
+    "id": 850364762,
+    "topicId": "ethics",
+    "question": "Which cranial nerve is primarily responsible for the general sensation of the anterior two-thirds of the tongue?",
+    "options": [
+      "Facial nerve (CN VII)",
+      "Trigeminal nerve (CN V)",
+      "Glossopharyngeal nerve (CN IX)",
+      "Hypoglossal nerve (CN XII)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The trigeminal nerve (CN V), specifically its mandibular division via the lingual nerve, provides general sensation to the anterior two-thirds of the tongue. The facial nerve (CN VII) via the chorda tympani provides taste sensation to this area. The glossopharyngeal nerve (CN IX) serves the posterior one-third of the tongue for both general sensation and taste. The hypoglossal nerve (CN XII) primarily controls the motor function of the tongue."
+  },
+  {
+    "id": 4761428,
+    "topicId": "ethics",
+    "question": "A 50-year-old male patient with a history of angina controlled by nitroglycerin presents for a routine extraction. During the procedure, he suddenly complains of crushing chest pain radiating to his left arm, becoming pale and short of breath. His blood pressure is 150/90 mmHg and pulse is 95 bpm. What is the MOST appropriate immediate action?",
+    "options": [
+      "Administer intravenous diazepam",
+      "Begin CPR",
+      "Administer sublingual nitroglycerin",
+      "Administer oral aspirin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's symptoms are highly indicative of an anginal attack. The MOST appropriate immediate action is to administer sublingual nitroglycerin, as the patient has a history of angina and is likely experiencing ischemia. Intravenous diazepam is a sedative, not indicated for chest pain. Oral aspirin may be given later if myocardial infarction is suspected, but nitroglycerin is the immediate priority. CPR is only initiated if the patient becomes unconscious and pulseless."
+  },
+  {
+    "id": 455477079,
+    "topicId": "ethics",
+    "question": "A 72-year-old female patient presents with a chief complaint of difficulty chewing and speaking due to ill-fitting complete dentures. She has been wearing her current dentures for 15 years. Clinical examination reveals significant alveolar ridge resorption, loose dentures, and multiple denture sore spots. What is the MOST appropriate long-term solution?",
+    "options": [
+      "Denture reline",
+      "Adjustment of existing dentures",
+      "Prescription for a soft diet",
+      "Referral for implant-supported overdentures"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Given the significant alveolar ridge resorption and long-term use of ill-fitting dentures, referral for implant-supported overdentures offers the MOST appropriate long-term solution for improved retention, stability, and chewing efficiency. A denture reline or adjustment might provide temporary relief but will not address the underlying issue of severe ridge resorption. Prescribing a soft diet manages the symptoms but does not provide a definitive solution for denture stability or function."
+  },
+  {
+    "id": 521567337,
+    "topicId": "ethics",
+    "question": "According to the ethical principles of Canadian dental regulatory bodies, which of the following is considered the paramount duty of a dentist?",
+    "options": [
+      "Acting in the best interest of the patient",
+      "Maintaining profitability of the dental practice",
+      "Advocating for dental public health initiatives",
+      "Advancing the scientific knowledge of dentistry"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Acting in the best interest of the patient (beneficence) is the paramount ethical duty of a dentist, guiding all clinical decisions and professional conduct under Canadian regulatory frameworks. While maintaining profitability, advocating for public health, and advancing scientific knowledge are important aspects, they are secondary to the primary obligation to individual patient welfare."
+  },
+  {
+    "id": 780203010,
+    "topicId": "ethics",
+    "question": "A 28-year-old female patient presents with a complaint of a painless white lesion on her left buccal mucosa that has been present for several months. She reports no changes in size or texture. She is a non-smoker and reports no alcohol consumption. Clinical examination reveals a diffuse, milky white lesion with a corrugated surface that disappears when the tissue is stretched. What is the MOST likely diagnosis?",
+    "options": [
+      "Lichen planus",
+      "Leukoedema",
+      "Leukoplakia",
+      "Candidiasis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Leukoedema is the most likely diagnosis, characterized by a diffuse, milky-white, often corrugated lesion on the buccal mucosa that typically disappears or becomes less prominent when the tissue is stretched. It is a benign, physiological variation seen more commonly in individuals with darker skin tones and requires no treatment. Lichen planus and leukoplakia are usually more persistent and do not disappear with stretching. Candidiasis typically presents as removable white plaques."
+  },
+  {
+    "id": 550358034,
+    "topicId": "ethics",
+    "question": "A 42-year-old male patient presents with a chief complaint of sharp, localized pain on chewing on tooth #37. He denies spontaneous pain or sensitivity to hot/cold. Clinical examination reveals an existing deep amalgam restoration on tooth #37 with no signs of recurrent caries. The tooth is vital, and there is distinct pain upon release from biting pressure on a tooth sleuth. Radiographs show no periapical pathology. What is the MOST likely diagnosis?",
+    "options": [
+      "Irreversible pulpitis",
+      "Necrotic pulp",
+      "Cracked tooth syndrome",
+      "Reversible pulpitis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The presentation of sharp, localized pain on chewing, especially pain on release from biting, with a vital pulp and no periapical pathology, is classic for cracked tooth syndrome. Irreversible pulpitis typically involves spontaneous pain and lingering sensitivity to temperature. Reversible pulpitis would present with sharp, non-lingering pain to cold. Necrotic pulp would show no vitality and potentially periapical pathology."
+  },
+  {
+    "id": 400454304,
+    "topicId": "ethics",
+    "question": "According to Canadian infection control guidelines for dental practices, which of the following is considered the MOST critical step in preventing the transmission of bloodborne pathogens during dental procedures?",
+    "options": [
+      "Regular handwashing with soap and water",
+      "Use of pre-procedural antimicrobial rinses",
+      "Disinfection of environmental surfaces",
+      "Sterilization of heat-tolerant critical and semi-critical instruments"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Sterilization of heat-tolerant critical and semi-critical instruments is the MOST critical step in preventing the transmission of bloodborne pathogens, as these instruments penetrate soft tissue or bone, or contact non-intact mucous membranes, and thus pose the highest risk of transmission if not properly sterilized. While handwashing, pre-procedural rinses, and surface disinfection are important components of infection control, they do not address the primary risk posed by instruments that enter sterile tissues or contact mucous membranes."
+  },
+  {
+    "id": 129148697,
+    "topicId": "ethics",
+    "question": "A 9-year-old female patient presents for a routine check-up. Her parents express concern about the spacing between her maxillary incisors. Clinically, she exhibits a prominent diastema between #11 and #21, and the maxillary canines are still unerupted. Radiographs confirm the presence of permanent canines high in the arch. What is the MOST appropriate initial management?",
+    "options": [
+      "Reassurance and observation",
+      "Immediate orthodontic bracket placement",
+      "Surgical frenectomy",
+      "Composite build-ups to close the diastema"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The presence of a diastema between maxillary central incisors in a 9-year-old, especially with unerupted permanent canines, is often a normal developmental stage known as the 'ugly duckling' stage. As the canines erupt, they typically move mesially, reducing or closing the diastema. Therefore, reassurance and observation are the MOST appropriate initial management. Immediate orthodontic treatment, frenectomy (unless pathology), or composite build-ups are premature at this stage."
+  },
+  {
+    "id": 790088719,
+    "topicId": "ethics",
+    "question": "A 60-year-old male patient, taking Warfarin for a prosthetic heart valve, requires a single tooth extraction. His latest INR reading, taken the day before the extraction, is 2.8. What is the MOST appropriate management strategy regarding his anticoagulant medication?",
+    "options": [
+      "Discontinue Warfarin 3 days prior to extraction",
+      "Proceed with extraction without altering Warfarin, using local hemostatic measures",
+      "Reduce Warfarin dose by half the day before extraction",
+      "Administer Vitamin K intravenously prior to extraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a single tooth extraction in a patient on Warfarin with an INR within the therapeutic range (typically 2.0-3.0), the MOST appropriate strategy is to proceed with the extraction without altering the Warfarin dose, while employing good local hemostatic measures. Discontinuing or reducing Warfarin increases the risk of thromboembolic events, which can be life-threatening. Administering Vitamin K is only indicated for severe bleeding or excessively high INR levels."
+  },
+  {
+    "id": 443598580,
+    "topicId": "ethics",
+    "question": "A 35-year-old female patient presents with a chief complaint of recurrent, painful oral ulcers that appear as small, round, or ovoid lesions with a yellowish-gray fibrinoid center surrounded by an erythematous halo. They typically heal within 7-10 days without scarring, but new lesions appear frequently. Her medical history is unremarkable. What is the MOST likely diagnosis?",
+    "options": [
+      "Herpes simplex infection",
+      "Squamous cell carcinoma",
+      "Aphthous stomatitis (canker sores)",
+      "Erythema multiforme"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The description of recurrent, painful, small, round/ovoid ulcers with a yellowish-gray center and erythematous halo, healing without scarring, is classic for recurrent aphthous stomatitis (canker sores). Herpes simplex infections typically present as vesicles that rupture to form ulcers, often on keratinized tissue. Erythema multiforme usually has a more widespread, target-lesion presentation, often triggered by drugs or infections. Squamous cell carcinoma is a persistent, non-healing lesion, typically not described in this manner."
+  },
+  {
+    "id": 611944574,
+    "topicId": "ethics",
+    "question": "A 58-year-old male patient requires a full-coverage crown on tooth #36. After tooth preparation, you take an impression using a polyvinyl siloxane (PVS) material. Upon removal, the impression shows some minor distortion in the interproximal undercut areas, but otherwise appears acceptable. What property of the impression material is MOST crucial to ensure an accurate final restoration when dealing with undercuts?",
+    "options": [
+      "High tear strength",
+      "Sufficient working time",
+      "Hydrophilicity",
+      "High elastic recovery"
+    ],
+    "correctAnswer": 3,
+    "explanation": "High elastic recovery is the MOST crucial property for an impression material to accurately reproduce undercut areas. It allows the material to deform upon removal from the mouth and then return to its original shape without permanent distortion. High tear strength is important for impression integrity but less directly related to undercut accuracy. Sufficient working time is for operator convenience. Hydrophilicity aids in wetting oral tissues and capturing fine details, but elastic recovery specifically addresses undercuts during removal."
+  },
+  {
+    "id": 257956467,
+    "topicId": "ethics",
+    "question": "A 6-year-old male patient from a low-income family presents to a community dental clinic with rampant caries affecting multiple primary molars. His parents report difficulty affording regular dental care. What public health strategy is MOST effective in preventing future caries in this population?",
+    "options": [
+      "Implementing school-based fluoride varnish programs",
+      "Prescribing systemic antibiotics",
+      "Providing free toothbrushes and toothpaste",
+      "Recommending a sugar-free diet for the child"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Implementing school-based fluoride varnish programs is the MOST effective public health strategy for preventing future caries in children, especially in underserved populations, as it provides professional fluoride application accessible to a large number of children regardless of individual dental visits. While free toothbrushes/toothpaste and a sugar-free diet are important, adherence can be inconsistent. Systemic antibiotics are not a primary caries prevention strategy."
+  },
+  {
+    "id": 571176206,
+    "topicId": "ethics",
+    "question": "A 25-year-old female patient presents with severe pain after an extraction of an impacted mandibular third molar 3 days ago. Clinical examination reveals a partially dislodged blood clot and exposed bone in the extraction socket, with no signs of purulent exudate or significant swelling. Her medical history is non-contributory. What is the MOST appropriate initial management for this condition?",
+    "options": [
+      "Prescribe a 7-day course of systemic antibiotics",
+      "Irrigate the socket with saline and place a medicated dressing",
+      "Perform surgical re-curettage of the socket",
+      "Administer a high dose of opioid analgesics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The description is characteristic of alveolar osteitis (dry socket). The MOST appropriate initial management involves gentle irrigation of the socket with saline or chlorhexidine to remove debris, followed by the placement of a medicated dressing (e.g., eugenol-impregnated gauze) to relieve pain and protect the exposed bone. Systemic antibiotics are not indicated unless there are signs of infection. Opioid analgesics alone will only mask symptoms, and surgical re-curettage is usually unnecessary and can worsen the condition."
+  },
+  {
+    "id": 804159059,
+    "topicId": "ethics",
+    "question": "An 80-year-old female patient, who resides in a long-term care facility, presents with a chief complaint of chronic dry mouth. Her medical history includes multiple medications for hypertension, depression, and arthritis. Clinical examination reveals generalized oral dryness, increased plaque accumulation, and erythematous patches on the dorsal surface of the tongue. What is the MOST appropriate initial step in managing her xerostomia?",
+    "options": [
+      "Prescribe pilocarpine",
+      "Immediately refer to her physician for medication review",
+      "Recommend over-the-counter saliva substitutes and frequent water sips",
+      "Initiate antifungal therapy for candidiasis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given the patient's age, multiple medications, and symptoms, xerostomia is a common side effect. The MOST appropriate initial step is to recommend over-the-counter saliva substitutes, frequent sips of water, and sugar-free chewing gum or lozenges to alleviate symptoms and stimulate salivary flow. While medication review by her physician is important, it's not the immediate initial step for symptom relief. Pilocarpine is a prescription sialogogue that may have side effects and is usually considered after simpler measures. Antifungal therapy is for candidiasis, which might be secondary to xerostomia, but not the initial management for the dry mouth itself."
+  },
+  {
+    "id": 891844240,
+    "topicId": "ethics",
+    "question": "Which of the following statements BEST describes the primary role of the Canadian Dental Association (CDA)?",
+    "options": [
+      "To regulate the practice of dentistry in each province and territory",
+      "To provide universal dental coverage for all Canadians",
+      "To accredit dental education programs across Canada",
+      "To represent the interests of the dental profession nationally"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The Canadian Dental Association (CDA) is a national professional association that represents the interests of dentists across Canada, advocating for the profession and promoting optimal oral health. Regulation of dentistry is the responsibility of provincial/territorial regulatory bodies. Universal dental coverage is a government policy, not a direct role of the CDA. Accreditation of dental education programs is handled by the Commission on Dental Accreditation of Canada (CDAC), an independent body."
+  },
+  {
+    "id": 952902895,
+    "topicId": "ethics",
+    "question": "A 65-year-old male patient, a former heavy smoker, presents to your dental office with a chief complaint of a firm, non-tender, exophytic lesion on the lateral border of his tongue that has been present for approximately 3 months. His medical history is significant for well-controlled Type 2 diabetes. Clinical examination reveals a 1.5 cm white and red speckled lesion with indurated borders. There is no associated pain or paresthesia. What is the MOST appropriate initial next step in the management of this lesion?",
+    "options": [
+      "Perform an incisional biopsy of the lesion for histopathological examination.",
+      "Prescribe a broad-spectrum antibiotic and re-evaluate in two weeks.",
+      "Advise the patient to monitor the lesion for any changes and return if it grows or becomes painful.",
+      "Apply topical antifungal medication, as it is likely a candidal infection."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given the patient's history of smoking, the lesion's clinical appearance (firm, indurated, speckled, non-tender, persistent for 3 months), and location on the lateral tongue, there is a high suspicion for malignancy. An incisional biopsy is the most appropriate initial step to obtain a definitive diagnosis and guide further treatment. Prescribing antibiotics, monitoring without biopsy, or applying antifungals would delay diagnosis of a potentially malignant lesion and are inappropriate without a definitive diagnosis."
+  },
+  {
+    "id": 589205444,
+    "topicId": "ethics",
+    "question": "A 48-year-old female patient presents with generalized bleeding gums, halitosis, and mobility of several anterior teeth. Her medical history includes well-controlled hypothyroidism. Clinical examination reveals generalized gingival inflammation, probing depths ranging from 5-8 mm with bleeding on probing, and radiographic evidence of severe generalized horizontal bone loss affecting more than 30% of root length. What is the MOST appropriate initial periodontal therapy?",
+    "options": [
+      "Prescribe systemic antibiotics immediately to reduce bacterial load.",
+      "Initiate scaling and root planing (S&RP) with local anesthetic.",
+      "Recommend daily chlorhexidine mouthrinse for one month prior to any mechanical therapy.",
+      "Refer directly for extraction of all mobile teeth due to severe bone loss."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The clinical presentation is indicative of severe generalized chronic periodontitis. The most appropriate initial periodontal therapy is thorough scaling and root planing (S&RP) to remove plaque, calculus, and bacterial biofilms, which are the primary etiological factors. While antibiotics might be considered as an adjunct in some cases, they are not the primary initial treatment, and extractions are premature without attempting non-surgical therapy first. Chlorhexidine rinse is an adjunct to mechanical therapy, not a replacement or a prerequisite for S&RP."
+  },
+  {
+    "id": 760094124,
+    "topicId": "ethics",
+    "question": "Which of the following local anesthetic agents is metabolized primarily by plasma pseudocholinesterase and has a higher risk of allergic reactions due to its para-aminobenzoic acid (PABA) metabolite?",
+    "options": [
+      "Lidocaine",
+      "Articaine",
+      "Mepivacaine",
+      "Procaine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Procaine is an ester-type local anesthetic, which is primarily metabolized in the plasma by pseudocholinesterase and produces PABA as a metabolite, known for its higher allergenic potential. Amide-type local anesthetics like Lidocaine, Articaine, and Mepivacaine are metabolized in the liver and have a significantly lower incidence of allergic reactions, making them generally preferred in modern dental practice."
+  },
+  {
+    "id": 133826787,
+    "topicId": "ethics",
+    "question": "A 38-year-old male patient presents with a deep carious lesion on the mesial surface of tooth #46, extending subgingivally. Clinically, the tooth is asymptomatic, responds normally to cold and percussion tests, and has no mobility. Radiographically, the lesion appears to approach the pulp chamber but without direct pulpal exposure. What is the MOST appropriate restorative management plan for this tooth?",
+    "options": [
+      "Perform a direct pulp cap immediately upon excavation of caries.",
+      "Extract the tooth due to the subgingival extension of the lesion.",
+      "Excavate caries, place a glass ionomer base, and restore with a composite resin or amalgam.",
+      "Initiate endodontic therapy, followed by a crown."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given that the tooth is asymptomatic and vital, with no signs of irreversible pulpitis or pulpal exposure, the most appropriate management is conservative caries excavation. Placing a glass ionomer base can provide a good seal and fluoride release, followed by a definitive restoration. Direct pulp capping is only indicated if there is a pulpal exposure. Extraction is overly aggressive for an asymptomatic, vital tooth. Endodontic therapy is not indicated for a vital, asymptomatic tooth without pulpal inflammation or necrosis."
+  },
+  {
+    "id": 468587945,
+    "topicId": "ethics",
+    "question": "A 29-year-old female patient presents to your office 5 days after an uncomplicated extraction of tooth #18. She complains of severe, throbbing pain in the extraction site that radiates to her ear, a foul taste in her mouth, and halitosis. Clinical examination reveals an exposed, partially empty socket with necrotic debris and a distinct odor. The area is sensitive to touch. What is the MOST likely diagnosis?",
+    "options": [
+      "Alveolar osteitis (dry socket)",
+      "Post-operative infection",
+      "Normal post-extraction healing",
+      "Temporomandibular joint disorder exacerbation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The symptoms of severe throbbing pain 3-5 days post-extraction, foul taste, halitosis, and an exposed, necrotic socket are classic signs of alveolar osteitis, commonly known as a dry socket. While a post-operative infection could cause pain and foul odor, the absence of significant swelling and pus makes dry socket more likely. Normal healing would involve decreasing pain, and TMJ disorder would not explain the socket findings."
+  },
+  {
+    "id": 430901436,
+    "topicId": "ethics",
+    "question": "Which of the following anatomical structures passes through the incisive foramen?",
+    "options": [
+      "Nasopalatine nerve and artery",
+      "Greater palatine nerve and artery",
+      "Lesser palatine nerve and artery",
+      "Infraorbital nerve and artery"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The nasopalatine nerve, which provides sensory innervation to the anterior palatal mucosa, and the terminal branches of the greater palatine artery (often referred to as the nasopalatine artery) pass through the incisive foramen. The greater and lesser palatine nerves and arteries pass through the greater and lesser palatine foramina, respectively, while the infraorbital nerve and artery exit via the infraorbital foramen."
+  },
+  {
+    "id": 83685284,
+    "topicId": "ethics",
+    "question": "A 7-year-old male patient presents with his parent 1 hour after sustaining trauma to his maxillary anterior teeth. Clinically, tooth #11 (permanent maxillary central incisor) is displaced laterally and intruded slightly, but there is no mobility detected. Radiographically, the tooth appears to be partially intruded with an intact root. What is the MOST appropriate immediate management?",
+    "options": [
+      "Extract the tooth due to potential damage to the permanent successor.",
+      "Wait and observe for spontaneous re-eruption, as it is a primary tooth.",
+      "Reposition the tooth gently with digital pressure and splint it.",
+      "Allow for spontaneous eruption, but monitor closely with clinical and radiographic follow-ups."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For an intruded permanent tooth with an open apex, spontaneous re-eruption is often the preferred initial management, especially if the intrusion is mild to moderate. Repositioning and splinting are more common for luxated or avulsed teeth. Extraction is an aggressive and typically unnecessary treatment for an intruded permanent tooth with an intact root. Observing for spontaneous re-eruption is the correct approach, with close monitoring."
+  },
+  {
+    "id": 753560988,
+    "topicId": "ethics",
+    "question": "A 52-year-old female patient complains of acute, severe, spontaneous pain in tooth #36 that is exacerbated by cold and lingers for several minutes after the stimulus is removed. The pain is poorly localized and wakes her up at night. Clinical examination reveals a deep composite restoration on #36, but no mobility or tenderness to percussion. Radiographically, the restoration is close to the pulp but no periapical radiolucency is observed. What is the MOST likely diagnosis?",
+    "options": [
+      "Reversible pulpitis",
+      "Acute apical periodontitis",
+      "Chronic apical periodontitis",
+      "Irreversible pulpitis"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The characteristic symptoms of spontaneous, lingering pain to cold, poorly localized pain, and nocturnal pain are classic indicators of irreversible pulpitis. Reversible pulpitis involves sharp, short-duration pain to cold that subsides quickly. Acute and chronic apical periodontitis would typically present with tenderness to percussion and/or a periapical radiolucency, which are absent in this case."
+  },
+  {
+    "id": 984749813,
+    "topicId": "ethics",
+    "question": "A 70-year-old male patient presents with a chief complaint of difficulty chewing and speaking with his maxillary complete denture, which was fabricated 10 years ago. He reports that the denture feels loose and occasionally falls out. Clinically, there is significant resorption of the maxillary alveolar ridge, and the denture base appears ill-fitting. The patient's oral mucosa is healthy. What is the MOST appropriate initial management strategy?",
+    "options": [
+      "Fabricate a new complete maxillary denture immediately.",
+      "Perform a laboratory reline of the existing denture.",
+      "Advise the patient to use more denture adhesive.",
+      "Place implants to support a new implant-retained overdenture."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Given the complaint of a loose, ill-fitting denture due to significant alveolar ridge resorption, a laboratory reline is often the most appropriate and cost-effective initial step to improve the fit and stability of an existing denture, assuming the denture's occlusal scheme and aesthetics are still acceptable. While a new denture or implant-retained overdenture might eventually be needed, a reline can often provide significant improvement. Relying solely on denture adhesive is a palliative measure, not a definitive solution."
+  },
+  {
+    "id": 254254518,
+    "topicId": "ethics",
+    "question": "According to Canadian infection control guidelines for dental practices, what is the recommended method for sterilizing heat-tolerant critical instruments (e.g., surgical instruments, periodontal scalers)?",
+    "options": [
+      "Immersion in a high-level disinfectant solution for 30 minutes.",
+      "Dry heat sterilization at 160°C for 120 minutes.",
+      "Steam sterilization (autoclave) at 121°C for 15-20 minutes at 15 psi.",
+      "Washing with soap and water followed by air drying."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Steam sterilization (autoclaving) is the most common and recommended method for sterilizing heat-tolerant critical instruments in Canadian dental practices, effectively killing all microorganisms, including bacterial spores. High-level disinfection is not sufficient for critical instruments, and dry heat sterilization, while effective, is typically a secondary option with longer cycles. Washing with soap and water is a cleaning step, not sterilization."
+  },
+  {
+    "id": 317009558,
+    "topicId": "ethics",
+    "question": "A 35-year-old female patient presents with a complaint of recurrent, painful, shallow ulcers on the non-keratinized oral mucosa (buccal mucosa, labial mucosa, ventral tongue). The lesions are typically 3-5 mm in diameter, have a yellowish-gray base surrounded by an erythematous halo, and heal within 7-14 days without scarring. She reports experiencing these episodes every few months since adolescence. Her medical history is otherwise unremarkable. What is the MOST likely diagnosis?",
+    "options": [
+      "Herpes simplex labialis",
+      "Pemphigus vulgaris",
+      "Recurrent aphthous stomatitis (minor type)",
+      "Squamous cell carcinoma"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The clinical presentation of recurrent, painful, shallow ulcers on non-keratinized mucosa with an erythematous halo, healing within 7-14 days without scarring, and a history since adolescence is highly characteristic of recurrent aphthous stomatitis (minor type). Herpes simplex lesions typically occur on keratinized mucosa and often present as vesicles before ulcerating. Pemphigus vulgaris involves widespread blistering and erosions, usually in older adults, and squamous cell carcinoma presents as a persistent, indurated lesion, not recurrent shallow ulcers."
+  },
+  {
+    "id": 789314252,
+    "topicId": "ethics",
+    "question": "A 40-year-old male patient, with a history of alcohol use disorder, requires a single tooth extraction. He reports taking a non-selective beta-blocker (propranolol) for hypertension. Which local anesthetic consideration is MOST important for this patient?",
+    "options": [
+      "Using an anesthetic without a vasoconstrictor to avoid interaction with propranolol.",
+      "Limiting the total dose of lidocaine to prevent systemic toxicity.",
+      "Avoiding the use of articaine due to its potential for paresthesia.",
+      "Carefully titrating epinephrine-containing local anesthetics due to potential exaggerated pressor response."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Patients taking non-selective beta-blockers, such as propranolol, can experience an exaggerated pressor response to epinephrine due to unopposed alpha-adrenergic stimulation. Therefore, it is crucial to carefully titrate the dose of epinephrine-containing local anesthetics and limit it to the cardiac dose (e.g., 0.04 mg per appointment) while monitoring blood pressure. Using an anesthetic without a vasoconstrictor is generally not recommended for extractions due to reduced hemostasis and shorter duration. Limiting lidocaine dose is always important but not the primary concern specifically with propranolol interaction. Articaine's paresthesia risk is not the most critical consideration in this specific drug interaction."
+  },
+  {
+    "id": 317101210,
+    "topicId": "ethics",
+    "question": "A 9-year-old female patient presents for a routine dental check-up. Her parents express concern about the appearance of her maxillary anterior teeth. Clinically, teeth #11 and #21 (permanent central incisors) exhibit white, opaque, asymmetrical lesions on the incisal third, which are rough to the touch. The adjacent teeth appear healthy. There is no history of trauma or prolonged illness during early childhood. What is the MOST likely cause of these findings?",
+    "options": [
+      "Dental fluorosis",
+      "Early childhood caries",
+      "Amelogenesis imperfecta",
+      "Molar incisor hypomineralization (MIH)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The description of asymmetrical, opaque white/yellow-brown lesions with rough surfaces, primarily affecting permanent incisors and often molars (even if not mentioned here, it's a key feature of MIH), is characteristic of Molar Incisor Hypomineralization (MIH). Dental fluorosis typically presents as symmetrical, fine white lines or mottling. Early childhood caries would manifest as frank cavitations, and amelogenesis imperfecta would show more generalized and severe enamel defects affecting all teeth in a specific pattern."
+  },
+  {
+    "id": 234988795,
+    "topicId": "ethics",
+    "question": "Which of the following statements regarding dental amalgam is MOST accurate according to current dental literature and Canadian standards?",
+    "options": [
+      "Amalgam is contraindicated in pregnant patients due to mercury release.",
+      "Amalgam restorations exhibit superior esthetic properties compared to composite resins.",
+      "Amalgam is a durable, cost-effective restorative material with a proven track record, though its use is declining.",
+      "Amalgam restorations bond directly to tooth structure, providing excellent marginal seal."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dental amalgam has a long history of being a durable and cost-effective restorative material, particularly for posterior teeth, with extensive research supporting its safety and efficacy, though its use is indeed declining due to esthetic demands and environmental concerns. Amalgam does not bond directly to tooth structure; it is retained mechanically. While mercury is released, the amount is minimal and not generally considered a contraindication for pregnant patients by major dental organizations. Amalgam's metallic color makes its esthetic properties inferior to composite resins."
+  },
+  {
+    "id": 288149135,
+    "topicId": "ethics",
+    "question": "A 6-year-old male patient from a low-income family presents to a community dental clinic with extensive dental caries affecting multiple primary molars. His parents indicate that access to daily brushing is challenging due to limited resources and education. The clinic aims to implement a community-level preventive program. Which of the following interventions would be MOST effective in reducing the incidence of caries in this population?",
+    "options": [
+      "Providing free toothbrushes and toothpaste to all children.",
+      "Implementing a school-based fluoride varnish program.",
+      "Distributing educational pamphlets on oral hygiene to parents.",
+      "Offering free dental check-ups and restorative treatment twice a year."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A school-based fluoride varnish program is a highly effective, evidence-based public health intervention for caries prevention, particularly in communities with limited access to dental care. It provides professional topical fluoride application directly to children, overcoming barriers of daily compliance and parental education often associated with brushing or pamphlets. While free supplies and check-ups are beneficial, systematic fluoride application reaches a larger population with a proven impact on caries reduction."
+  },
+  {
+    "id": 676287275,
+    "topicId": "ethics",
+    "question": "A 55-year-old male patient, a controlled diabetic (HbA1c 7.5%), requires a single extraction of a non-restorable tooth #37. He is not taking any anticoagulants. What is the MOST appropriate post-operative instruction regarding diet for this patient?",
+    "options": [
+      "Advise him to only consume liquids for the first 3 days to prevent dislodging the clot.",
+      "Instruct him to avoid hot, hard, or spicy foods for the first 24-48 hours.",
+      "Encourage a normal diet immediately to ensure adequate nutrient intake for healing.",
+      "Recommend a high-sugar diet to compensate for potential appetite loss."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Following an extraction, it is crucial to avoid hot, hard, or spicy foods for the first 24-48 hours to prevent irritation, increased bleeding, and dislodgement of the blood clot, which is essential for proper healing. A liquid diet is often too restrictive, and a normal diet immediately can be too aggressive. A high-sugar diet is detrimental to overall health and does not support healing, especially in a diabetic patient."
+  },
+  {
+    "id": 749875826,
+    "topicId": "ethics",
+    "question": "A 28-year-old female patient presents for a routine dental check-up. She expresses dissatisfaction with the color of her anterior teeth. Clinically, teeth #12 to #22 exhibit a generalized yellow-brown intrinsic discoloration. She reports taking tetracycline antibiotics during early childhood for recurrent ear infections. Her oral hygiene is good, and there are no caries or other significant findings. What is the MOST appropriate initial esthetic management option?",
+    "options": [
+      "Direct composite veneers on the affected teeth.",
+      "Full coverage ceramic crowns on the affected teeth.",
+      "In-office professional tooth whitening (bleaching).",
+      "Extraction of discolored teeth and replacement with implants."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tetracycline staining, while intrinsic, can often be significantly improved with professional tooth whitening (bleaching), either in-office or custom tray-based home whitening, as it is the most conservative and reversible esthetic option. Direct composite veneers or full coverage crowns are more invasive and should be considered if whitening is ineffective or if there are other restorative needs. Extraction and implants are highly invasive and inappropriate for esthetic concerns alone in an otherwise healthy dentition."
+  },
+  {
+    "id": 493709257,
+    "topicId": "ethics",
+    "question": "According to the ethical guidelines for dentists in Canada, which of the following actions is considered a breach of patient confidentiality?",
+    "options": [
+      "Discussing a patient's treatment plan with another dentist involved in the patient's care.",
+      "Releasing a patient's dental records to their legal guardian for a minor patient.",
+      "Sharing a patient's clinical images on social media for educational purposes without explicit, informed consent.",
+      "Providing patient information to a referring specialist with the patient's implied consent."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sharing a patient's clinical images on social media, even for educational purposes, without explicit, informed written consent is a serious breach of patient confidentiality and privacy according to Canadian ethical guidelines. Sharing information with other healthcare providers directly involved in the patient's care (with implied consent) or with a legal guardian for a minor is generally permissible and often necessary. Patient confidentiality is paramount and requires specific consent for public disclosure."
+  },
+  {
+    "id": 676414182,
+    "topicId": "ethics",
+    "question": "A 32-year-old male patient, with no significant medical history, suddenly becomes pale, light-headed, and reports feeling nauseous while waiting for a local anesthetic injection. His pulse is weak and rapid. What is the MOST appropriate immediate action?",
+    "options": [
+      "Administer 0.3 mg of epinephrine intramuscularly.",
+      "Place the patient in a supine position with feet elevated.",
+      "Provide a sugary drink, as it is likely hypoglycemia.",
+      "Call emergency medical services immediately."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The symptoms described (pale, light-headed, nauseous, weak and rapid pulse) are classic signs of syncope (fainting), often triggered by anxiety. The MOST appropriate immediate action is to place the patient in a supine position with feet elevated (Trendelenburg position) to increase cerebral blood flow. Epinephrine is for anaphylaxis, not syncope. While hypoglycemia could cause similar symptoms, the primary action for suspected syncope is positioning. Calling EMS is premature unless the patient does not recover promptly."
+  },
+  {
+    "id": 19464474,
+    "topicId": "ethics",
+    "question": "A 60-year-old female patient presents with generalized gingival recession, especially on the facial aspects of her maxillary canines and premolars. Clinical examination reveals 3-4 mm of recession with no bleeding on probing, and the exposed root surfaces appear sound. She reports no sensitivity. Her oral hygiene is excellent, and she uses a medium-bristle toothbrush with horizontal scrubbing. What is the MOST likely primary etiologic factor for her gingival recession?",
+    "options": [
+      "Chronic periodontitis",
+      "Occlusal trauma",
+      "Aggressive toothbrushing technique",
+      "Systemic disease affecting connective tissue"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Given the patient's excellent oral hygiene, lack of bleeding on probing, and the specific pattern of recession on facial aspects with a history of horizontal scrubbing with a medium-bristle brush, aggressive toothbrushing is the MOST likely primary etiologic factor. Chronic periodontitis would typically involve bleeding on probing and generalized inflammation. Occlusal trauma primarily causes bone loss and mobility, and systemic diseases are less likely given the localized nature and the clear mechanical factor."
+  },
+  {
+    "id": 447958929,
+    "topicId": "ethics",
+    "question": "A 48-year-old female patient presents to your dental office with a chief complaint of a persistent, painless white lesion on her left buccal mucosa for three months. She is a long-term smoker and consumes alcohol occasionally. Clinically, the lesion appears as a diffuse, non-scrapable white plaque with a corrugated surface, approximately 2x3 cm, and does not show any signs of inflammation or induration. What is the MOST appropriate next step in the management of this lesion?",
+    "options": [
+      "Perform an incisional biopsy of the lesion.",
+      "Prescribe topical antifungal medication and re-evaluate in two weeks.",
+      "Advise the patient to stop smoking and observe for one month.",
+      "Reassure the patient that it is likely benign and monitor at recall appointments."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given the patient's history of smoking and the clinical appearance of a persistent, non-scrapable white lesion, an incisional biopsy is the MOST appropriate next step to rule out dysplasia or malignancy. While smoking cessation is crucial, observation alone for a lesion with these characteristics and risk factors is not sufficient. Topical antifungals are for candidiasis, which is typically scrapable, and simple reassurance is inappropriate without a definitive diagnosis."
+  },
+  {
+    "id": 830166177,
+    "topicId": "ethics",
+    "question": "A 35-year-old male patient presents to your dental office with a chief complaint of generalized bleeding gums and bad breath that has progressively worsened over the past six months. His medical history is non-contributory, and he denies any systemic conditions. Intraoral examination reveals generalized gingival inflammation, moderate plaque and calculus accumulation, and probing depths ranging from 4-6 mm with bleeding on probing in most areas. Radiographs show horizontal bone loss of approximately 20-30%. What is the MOST appropriate initial treatment for this patient?",
+    "options": [
+      "Prescribe a broad-spectrum antibiotic and chlorhexidine rinse.",
+      "Initiate scaling and root planing (non-surgical periodontal therapy).",
+      "Refer for immediate periodontal surgery.",
+      "Instruct on proper brushing and flossing techniques only."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient presents with signs and symptoms consistent with generalized moderate chronic periodontitis, for which scaling and root planing (non-surgical periodontal therapy) is the initial treatment of choice. Antibiotics and chlorhexidine are adjuncts, not primary treatments, and periodontal surgery is typically reserved for cases unresponsive to non-surgical therapy or more advanced conditions. While oral hygiene instruction is vital, it must be combined with professional debridement to address the existing disease."
+  },
+  {
+    "id": 477747304,
+    "topicId": "ethics",
+    "question": "A 52-year-old female patient presents to your dental office with a chief complaint of severe, spontaneous, throbbing pain in her lower left posterior jaw that is worse at night and wakes her from sleep. She reports lingering pain after consuming cold beverages. Clinical examination reveals tooth #36 has a large, deep carious lesion extending close to the pulp. The tooth is sensitive to percussion and palpation. What is the MOST likely diagnosis for tooth #36?",
+    "options": [
+      "Reversible pulpitis.",
+      "Acute apical periodontitis.",
+      "Symptomatic irreversible pulpitis with symptomatic apical periodontitis.",
+      "Pulpal necrosis."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The classic signs of spontaneous, lingering pain, especially at night, and lingering pain to cold indicate symptomatic irreversible pulpitis. The sensitivity to percussion and palpation further suggests inflammation has extended to the periapical tissues, leading to symptomatic apical periodontitis. Reversible pulpitis involves sharp, transient pain to stimuli without spontaneous or lingering pain. Pulpal necrosis may present with percussion sensitivity but typically lacks lingering pain to cold unless there's an acute exacerbation, and acute apical periodontitis is a sequela rather than the primary pulpal diagnosis."
+  },
+  {
+    "id": 791667031,
+    "topicId": "ethics",
+    "question": "Which of the following local anesthetic agents is an ester-type anesthetic primarily metabolized in the plasma by pseudocholinesterase?",
+    "options": [
+      "Lidocaine",
+      "Articaine",
+      "Mepivacaine",
+      "Procaine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Procaine is an ester-type local anesthetic and is primarily metabolized in the plasma by pseudocholinesterase. Amide-type local anesthetics, such as Lidocaine, Articaine (which has both ester and amide linkages but is primarily metabolized in the plasma), and Mepivacaine, are primarily metabolized in the liver. This difference in metabolism is significant for patients with liver dysfunction or pseudocholinesterase deficiency."
+  },
+  {
+    "id": 587605255,
+    "topicId": "ethics",
+    "question": "A 28-year-old male patient presents to your dental office 4 days after an uncomplicated extraction of tooth #48, complaining of severe, constant pain in the extraction site that radiates to his ear. He reports a foul taste and bad breath. Clinical examination reveals a partially empty socket with exposed bone and no evidence of a blood clot. Irrigation provides only temporary relief. What is the MOST appropriate management?",
+    "options": [
+      "Gently irrigate the socket with saline, place an anodyne dressing, and prescribe analgesics.",
+      "Prescribe a broad-spectrum antibiotic and advise warm salt water rinses.",
+      "Perform a thorough curettage of the socket and re-establish bleeding.",
+      "Re-suture the extraction site to promote clot formation."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The patient's symptoms and clinical presentation are characteristic of alveolar osteitis (dry socket). The most appropriate management involves gentle irrigation to remove debris, placement of an anodyne (pain-relieving) dressing to protect the exposed bone, and prescription of adequate analgesics for pain control. Antibiotics are generally not indicated for dry socket unless there are signs of infection, and curettage or re-suturing can be traumatic and counterproductive for this condition."
+  },
+  {
+    "id": 579033706,
+    "topicId": "ethics",
+    "question": "A 6-year-old female patient presents to your dental office with her parent 30 minutes after sustaining trauma to her mouth during a fall. Clinical examination reveals that tooth #51 (primary maxillary right central incisor) has been completely avulsed. There is no evidence of root fracture or other significant injuries. What is the MOST appropriate management for this avulsed primary tooth?",
+    "options": [
+      "Replant the avulsed tooth immediately.",
+      "Do NOT replant the tooth and manage the site symptomatically.",
+      "Clean the tooth and store it in milk until a specialist can replant it.",
+      "Refer to an oral surgeon for replantation under general anesthesia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Replantation of avulsed primary teeth is generally contraindicated due to the risk of damaging the developing permanent tooth germ, such as ankylosis or eruption disturbances. The most appropriate management is to not replant the tooth and to manage the site symptomatically, ensuring no fragments remain and advising on soft diet and oral hygiene. Replanting or storing in milk are protocols for permanent teeth, not primary teeth."
+  },
+  {
+    "id": 958627458,
+    "topicId": "ethics",
+    "question": "According to Canadian dental infection control guidelines, which of the following methods is considered the MOST reliable for monitoring the sterilization process in an autoclave?",
+    "options": [
+      "Using indicator tape on instrument packages.",
+      "Regularly checking the autoclave's temperature and pressure gauges.",
+      "Performing biological spore testing weekly.",
+      "Observing visible signs of steam production during the cycle."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Biological spore testing, performed weekly, is considered the MOST reliable method for monitoring the effectiveness of the sterilization process because it directly assesses the killing of highly resistant microbial spores. Indicator tape and temperature/pressure gauges are chemical and physical monitors, respectively, which indicate that sterilization conditions were met but do not confirm the actual killing of microorganisms. Visible steam production is an unreliable indicator of sterilization efficacy."
+  },
+  {
+    "id": 956719110,
+    "topicId": "ethics",
+    "question": "A 40-year-old male patient presents to your dental office for a routine check-up. Radiographic examination reveals a deep carious lesion on the mesial surface of tooth #37, extending into the dentin, approximately 1 mm from the pulp chamber. The patient is asymptomatic, with no pain to percussion, palpation, or thermal stimuli. Clinical examination confirms a non-cavitated deep lesion. What is the MOST appropriate management strategy for this tooth?",
+    "options": [
+      "Perform a conventional full pulpotomy.",
+      "Initiate root canal therapy due to proximity to the pulp.",
+      "Perform an indirect pulp cap with a bioactive material.",
+      "Extract the tooth to prevent future complications."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a deep carious lesion in an asymptomatic tooth with no signs of irreversible pulpitis, an indirect pulp cap with a bioactive material (e.g., calcium hydroxide or MTA) is the MOST appropriate treatment. This aims to promote tertiary dentin formation and maintain pulp vitality. A full pulpotomy or root canal therapy would be overtreatment for an asymptomatic tooth with vital pulp, and extraction is unwarranted given the tooth's salvageable status."
+  },
+  {
+    "id": 900033581,
+    "topicId": "ethics",
+    "question": "A 65-year-old female patient presents to your dental office with a chief complaint of a persistent burning sensation in her tongue and oral mucosa, worse in the evenings. She reports her mouth feels very dry, and she has difficulty tasting food. Her medical history includes well-controlled hypertension and type 2 diabetes, for which she takes multiple medications. Intraoral examination reveals minimal salivary flow, but no obvious lesions or candidiasis. What is the MOST appropriate initial step in her management?",
+    "options": [
+      "Obtain a comprehensive medication list and medical history review for xerostomia-inducing drugs.",
+      "Prescribe a course of antifungal medication, such as nystatin.",
+      "Refer immediately to an oral pathologist for a biopsy.",
+      "Recommend increased fluid intake and over-the-counter saliva substitutes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The patient's symptoms of burning mouth, dry mouth, and taste changes, coupled with multiple medications, strongly suggest medication-induced xerostomia contributing to Burning Mouth Syndrome (BMS) or other oral dysesthesias. The MOST appropriate initial step is to thoroughly review her current medication list and medical history to identify potential xerostomia-inducing drugs and systemic conditions. While increased fluid intake and saliva substitutes are helpful, addressing the underlying cause is paramount. Antifungals are not indicated without evidence of candidiasis, and immediate biopsy is premature without further investigation."
+  },
+  {
+    "id": 801644071,
+    "topicId": "ethics",
+    "question": "Which of the following muscles of mastication is primarily responsible for the protrusion of the mandible?",
+    "options": [
+      "Temporalis muscle",
+      "Masseter muscle",
+      "Medial pterygoid muscle",
+      "Lateral pterygoid muscle"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The lateral pterygoid muscle is primarily responsible for the protrusion of the mandible, as well as its depression and side-to-side movements. The temporalis muscle primarily elevates and retracts the mandible. The masseter and medial pterygoid muscles are strong elevators of the mandible, with the medial pterygoid also assisting in protrusion but less so than the lateral pterygoid."
+  },
+  {
+    "id": 946204525,
+    "topicId": "ethics",
+    "question": "A 70-year-old male patient presents to your dental office with a chief complaint of generalized redness, burning sensation, and discomfort under his maxillary complete denture. He reports wearing his denture continuously for many years, only removing it for cleaning once a day. Clinically, the palatal mucosa appears erythematous and edematous, consistent with denture stomatitis. What is the MOST appropriate initial treatment approach?",
+    "options": [
+      "Prescribe a systemic antibiotic and refer for denture relining.",
+      "Advise the patient to remove the denture at night, improve denture hygiene, and apply topical antifungal cream to the fitting surface.",
+      "Immediately fabricate a new complete denture.",
+      "Recommend surgical removal of the inflamed tissue."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Denture stomatitis is commonly caused by Candida albicans exacerbated by continuous denture wear and poor hygiene. The MOST appropriate initial treatment involves instructing the patient to remove the denture at night, meticulously clean both the denture and oral tissues, and apply a topical antifungal cream to the fitting surface of the denture. Systemic antibiotics are generally not indicated, and immediate denture replacement or surgical intervention is premature before conservative measures are attempted."
+  },
+  {
+    "id": 369250196,
+    "topicId": "ethics",
+    "question": "A 32-year-old female patient presents to your dental office for a dental emergency. She reports no significant medical history. During the consultation, she informs you that she is a victim of domestic violence and shows visible bruising. She asks you not to document this information in her dental record because she fears it may be discovered by her abuser. What is your ethical obligation regarding this information?",
+    "options": [
+      "You must document all relevant findings, including suspected domestic violence, in the patient's record while maintaining confidentiality.",
+      "You should omit any reference to domestic violence to respect the patient's wishes and protect her safety.",
+      "You are obligated to report the suspected domestic violence to the authorities immediately, regardless of the patient's wishes.",
+      "You may document the physical findings but should attribute them to an accidental fall to protect the patient."
+    ],
+    "correctAnswer": 0,
+    "explanation": "As a healthcare professional, you have an ethical and legal obligation to document all clinically relevant findings, including visible signs of trauma and reported domestic violence, in the patient's record. This is crucial for comprehensive care and potential future legal proceedings, while still maintaining strict confidentiality. Omitting or falsifying information compromises the integrity of the record and professional standards. Mandatory reporting laws for adults vary by jurisdiction, but documentation is always required, and direct reporting against a patient's wishes (unless specific legal thresholds for imminent harm are met) may breach trust. However, dentists should offer support and resources, and document findings factually."
+  },
+  {
+    "id": 204292520,
+    "topicId": "ethics",
+    "question": "A 55-year-old male patient with a history of angina controlled by nitroglycerin suddenly becomes pale, diaphoretic, and complains of crushing chest pain radiating to his left arm during a routine dental procedure. He has a blood pressure of 90/60 mmHg and a pulse of 110 bpm. He is conscious but appears distressed. What is the MOST appropriate immediate management step?",
+    "options": [
+      "Administer 0.4 mg nitroglycerin sublingually, if his blood pressure allows.",
+      "Immediately administer 100% oxygen.",
+      "Place the patient in a supine position with legs elevated.",
+      "Begin chest compressions and call for emergency medical services."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's symptoms are indicative of an acute myocardial infarction or severe angina. The MOST appropriate immediate step after recognizing a medical emergency is to administer 100% oxygen and activate emergency medical services (EMS). While nitroglycerin is indicated for angina, his current hypotensive state (90/60 mmHg) makes immediate administration potentially dangerous, as it can further lower blood pressure. Placing the patient supine is often contraindicated for chest pain, and chest compressions are only initiated if the patient becomes unconscious and non-responsive with no pulse."
+  },
+  {
+    "id": 680497261,
+    "topicId": "ethics",
+    "question": "A 42-year-old female patient presents to your dental office with a routine recall appointment. She reports no pain or discomfort. A periapical radiograph of tooth #16 reveals a well-defined, unilocular radiolucency approximately 1.5 cm in diameter, apical to the root, with a sclerotic border. The tooth #16 has a large, satisfactory amalgam restoration, is non-tender to percussion and palpation, and responds positively to vitality testing. What is the MOST likely diagnosis for this radiographic finding?",
+    "options": [
+      "Periapical granuloma.",
+      "Radicular cyst.",
+      "Periapical abscess.",
+      "Condensing osteitis."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given that tooth #16 is vital and asymptomatic, and the radiolucency has a well-defined sclerotic border, the MOST likely diagnosis is a periapical cemento-osseous dysplasia, specifically a mature stage, which is a benign fibro-osseous lesion. Periapical granulomas, radicular cysts, and periapical abscesses are typically associated with non-vital teeth. Condensing osteitis is a radiopacity, not a radiolucency."
+  },
+  {
+    "id": 140606251,
+    "topicId": "ethics",
+    "question": "Which of the following cellular components is primarily responsible for the secretion of enamel matrix during tooth development?",
+    "options": [
+      "Odontoblasts",
+      "Cementoblasts",
+      "Ameloblasts",
+      "Fibroblasts"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ameloblasts are specialized epithelial cells that secrete the enamel matrix, which subsequently mineralizes to form enamel, the hardest substance in the human body. Odontoblasts are responsible for dentin formation, while cementoblasts form cementum. Fibroblasts are involved in the formation of connective tissues like the pulp and periodontal ligament, but not enamel directly."
+  },
+  {
+    "id": 537111045,
+    "topicId": "ethics",
+    "question": "A 78-year-old male patient presents to your dental office with a chief complaint of difficulty chewing and a constant feeling of dryness in his mouth. He takes multiple medications for hypertension, hyperlipidemia, and depression. Intraoral examination reveals severe generalized xerostomia, multiple cervical root caries lesions, and inflamed gingiva. What is the MOST critical initial consideration for his dental management?",
+    "options": [
+      "Immediate placement of restorations for all carious lesions.",
+      "Prescribing systemic pilocarpine to stimulate salivary flow.",
+      "Comprehensive assessment of his medications and their xerostomic effects, followed by aggressive caries prevention strategies.",
+      "Referring him for full mouth extractions and complete dentures."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given the patient's age, polypharmacy, and severe xerostomia leading to rampant root caries, a comprehensive assessment of his medications and their xerostomic effects is the MOST critical initial step. This understanding guides aggressive caries prevention strategies (e.g., fluoride varnish, frequent recalls, saliva substitutes) to address the underlying cause of his dental issues. While restorations are needed, simply placing them without addressing the xerostomia will lead to recurrence. Pilocarpine has side effects and may not be suitable for all elderly patients, and full mouth extractions are a last resort."
+  },
+  {
+    "id": 590561060,
+    "topicId": "ethics",
+    "question": "A 68-year-old female patient presents for an extraction of tooth #46 due to a non-restorable fracture. Her medical history includes severe osteoporosis, for which she has been taking oral alendronate (a bisphosphonate) for 7 years. She also has well-controlled hypertension. What is the MOST appropriate management strategy regarding her bisphosphonate therapy prior to the extraction?",
+    "options": [
+      "Discontinue alendronate for 3 months prior to and 3 months after the extraction.",
+      "Proceed with the extraction as planned, as oral bisphosphonates rarely cause osteonecrosis.",
+      "Consult with her physician regarding the risk of medication-related osteonecrosis of the jaw (MRONJ) and consider a drug holiday, if indicated.",
+      "Prescribe prophylactic antibiotics for 7 days pre-extraction to prevent MRONJ."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For patients on long-term oral bisphosphonate therapy (over 4 years, or any duration with concomitant corticosteroid use), there is an increased risk of Medication-Related Osteonecrosis of the Jaw (MRONJ) following invasive dental procedures like extractions. The MOST appropriate management is to consult with her physician to assess the overall risk and consider a temporary drug holiday, if deemed appropriate by the physician, especially for patients at higher risk. Arbitrarily discontinuing the drug for 3 months is not evidence-based without physician consultation, and MRONJ is a bone necrosis issue, not primarily bacterial, so prophylactic antibiotics alone are insufficient. Proceeding without consultation would be negligent."
+  },
+  {
+    "id": 712676126,
+    "topicId": "ethics",
+    "question": "Which of the following properties is MOST indicative of a high-quality dental composite resin for anterior restorations?",
+    "options": [
+      "High polymerization shrinkage.",
+      "Low wear resistance.",
+      "Excellent polishability and color stability.",
+      "High coefficient of thermal expansion."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For anterior restorations, excellent polishability and color stability are crucial properties for achieving superior esthetics and long-term clinical success. High polymerization shrinkage can lead to marginal gap formation and secondary caries, while low wear resistance would compromise the longevity of the restoration. A high coefficient of thermal expansion, significantly different from tooth structure, can lead to marginal breakdown and microleakage."
+  },
+  {
+    "id": 969625097,
+    "topicId": "ethics",
+    "question": "A 58-year-old male patient presents to your dental office with a chief complaint of a loose tooth and localized gum swelling on his lower right side. He denies pain. Clinical examination reveals tooth #45 with Grade II mobility, a localized probing depth of 9 mm on the buccal aspect, and suppuration upon probing. Radiographs show a J-shaped radiolucency extending from the cementoenamel junction to the apex on the buccal aspect of tooth #45. The tooth responds normally to vitality testing. What is the MOST likely diagnosis?",
+    "options": [
+      "Primary endodontic lesion with secondary periodontal involvement.",
+      "Chronic generalized periodontitis.",
+      "Combined endodontic-periodontal lesion.",
+      "Primary periodontal lesion with secondary endodontic involvement."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The presence of a deep, localized pocket, suppuration, Grade II mobility, and a J-shaped radiolucency (suggesting a vertical root fracture or severe localized bone loss) on a vital tooth are characteristic of a primary periodontal lesion with secondary endodontic involvement. If the tooth were non-vital, it would indicate a primary endodontic lesion. Chronic generalized periodontitis would not typically present with such a localized, deep defect on a single vital tooth with a J-shaped lesion, and a true combined lesion would involve a non-vital tooth with independent periodontal and endodontic pathologies converging."
+  },
+  {
+    "id": 171405839,
+    "topicId": "ethics",
+    "question": "A 62-year-old male patient presents to your dental office with a chief complaint of a persistent, non-healing ulcer on the lateral border of his tongue that has been present for 3 months. He has a history of heavy smoking and alcohol consumption. Clinically, the lesion is firm, indurated, and measures approximately 1.5 cm with rolled borders. There is no associated pain. What is the MOST appropriate next step in the management of this patient?",
+    "options": [
+      "Prescribe a topical corticosteroid and reassess in 2 weeks.",
+      "Perform an excisional biopsy of the lesion.",
+      "Advise the patient to stop smoking and drinking, then re-evaluate in 4 weeks.",
+      "Refer the patient for an incisional biopsy of the lesion."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Given the patient's risk factors (smoking, alcohol), the non-healing nature, and the clinical presentation (firm, indurated, rolled borders), this lesion is highly suspicious for squamous cell carcinoma. An incisional biopsy is the most appropriate next step for a lesion of this size to obtain a definitive diagnosis without compromising future surgical margins. Prescribing a corticosteroid without a diagnosis is contraindicated, as it could mask a malignancy. Advising lifestyle changes is important, but delaying biopsy for a suspicious lesion is inappropriate."
+  },
+  {
+    "id": 937374739,
+    "topicId": "ethics",
+    "question": "A 45-year-old female patient presents for an extraction of tooth #37 due to a non-restorable fracture. Her medical history includes uncontrolled hypertension (BP 160/100 mmHg) and a history of anxiety. She is currently taking hydrochlorothiazide. What local anesthetic agent is MOST appropriate for this patient, considering her medical status?",
+    "options": [
+      "3% Mepivacaine without vasoconstrictor.",
+      "4% Articaine with 1:100,000 epinephrine.",
+      "2% Lidocaine with 1:50,000 epinephrine.",
+      "0.5% Bupivacaine with 1:200,000 epinephrine."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For patients with uncontrolled hypertension, the use of vasoconstrictors like epinephrine should be avoided or minimized due to the risk of increasing blood pressure and heart rate. 3% Mepivacaine without a vasoconstrictor provides adequate anesthesia for a single tooth extraction while mitigating this risk. Options B, C, and D all contain epinephrine, which would be contraindicated or used with extreme caution in this patient's uncontrolled hypertensive state."
+  },
+  {
+    "id": 719955740,
+    "topicId": "ethics",
+    "question": "A 50-year-old male patient presents for a recall examination. He reports no pain but exhibits generalized gingival inflammation, bleeding on probing, and probing depths ranging from 4-6 mm with localized areas of 7 mm around molars. Radiographs show horizontal bone loss of 30-40% around most teeth, with furcation involvement (Class II) on tooth #16. His medical history is unremarkable. What is the MOST appropriate initial periodontal diagnosis?",
+    "options": [
+      "Gingivitis, localized.",
+      "Chronic periodontitis, generalized, moderate to severe.",
+      "Aggressive periodontitis, localized.",
+      "Necrotizing ulcerative gingivitis."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The presence of gingival inflammation, bleeding on probing, probing depths of 4-7 mm, and significant horizontal bone loss (30-40%) with furcation involvement are all indicative of periodontitis, not just gingivitis. The generalized nature and extent of bone loss and probing depths classify it as generalized, moderate to severe chronic periodontitis. Aggressive periodontitis is typically characterized by rapid attachment loss in otherwise healthy individuals, often with an early onset, which is not described here. Necrotizing ulcerative gingivitis presents with distinct clinical features such as punched-out papillae and pseudomembrane, which are absent in this scenario."
+  },
+  {
+    "id": 745438565,
+    "topicId": "ethics",
+    "question": "Which of the following major salivary glands is primarily composed of serous acini and its duct opens into the oral cavity opposite the maxillary second molar?",
+    "options": [
+      "Submandibular gland.",
+      "Sublingual gland.",
+      "Parotid gland.",
+      "Minor salivary glands."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The parotid gland is the largest major salivary gland, primarily composed of serous acini, and its main excretory duct (Stensen's duct) opens into the buccal mucosa opposite the maxillary second molar. The submandibular gland is a mixed gland (predominantly serous) and its duct (Wharton's duct) opens at the sublingual caruncle. The sublingual gland is predominantly mucous and opens via multiple small ducts along the sublingual fold. Minor salivary glands are numerous and scattered throughout the oral cavity, but none individually match the description of a major gland with a specific opening opposite the maxillary second molar."
   }
 ]
