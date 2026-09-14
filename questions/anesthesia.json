@@ -6670,5 +6670,161 @@
     ],
     "correctAnswer": 3,
     "explanation": "For a patient with a history of *unstable* angina, even if controlled, a cardiology consultation is absolutely essential prior to any invasive dental procedure to assess his current cardiac status and determine if the procedure can safely proceed or if any specific medical precautions are required. Unstable angina indicates a higher risk of acute cardiac events. While limiting epinephrine is generally prudent for cardiac patients, it is secondary to ensuring the patient is medically stable for the procedure. Prophylactic antibiotics are not indicated for unstable angina for dental procedures."
+  },
+  {
+    "id": 516216872,
+    "topicId": "anesthesia",
+    "question": "A 50-year-old male patient presents to your dental office with a chief complaint of an asymptomatic white lesion on his buccal mucosa, noticed during a routine self-examination. He has a history of heavy smoking for 30 years and chronic alcohol consumption. Clinical examination reveals a homogenous white plaque on the right buccal mucosa, which has a slightly rough texture and cannot be scraped off. It is non-tender to palpation. What is the MOST appropriate next step in the management of this lesion?",
+    "options": [
+      "Perform an incisional biopsy of the lesion.",
+      "Prescribe a topical antifungal agent for two weeks and re-evaluate.",
+      "Advise the patient to stop smoking and drinking, then re-evaluate in three months.",
+      "Reassure the patient that this is a benign finding and no further action is required."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given the patient's significant risk factors (heavy smoking and alcohol consumption) and the clinical presentation of a non-scrapable, homogenous white lesion, an incisional biopsy is the MOST appropriate next step to rule out dysplasia or squamous cell carcinoma. Topical antifungal agents are used for candidiasis, which typically scrapes off, and re-evaluation after cessation of habits, while important, delays definitive diagnosis for a potentially malignant lesion. Reassuring the patient without further investigation is negligent given the clinical findings and patient history."
+  },
+  {
+    "id": 936021672,
+    "topicId": "anesthesia",
+    "question": "A 45-year-old female patient presents to your dental office with a chief complaint of bleeding gums during brushing and occasional discomfort. She has a well-controlled history of Type 2 Diabetes Mellitus but reports no other significant medical conditions. Clinical examination reveals generalized gingival inflammation, edema, and erythema. Probing depths are consistently 4-5mm throughout the dentition, with bleeding on probing (BOP) present in over 30% of sites, but no significant clinical attachment loss is evident. What is the MOST likely diagnosis?",
+    "options": [
+      "Aggressive periodontitis.",
+      "Gingivitis associated with dental plaque biofilm.",
+      "Necrotizing ulcerative gingivitis (NUG).",
+      "Periodontitis as a manifestation of systemic disease."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The clinical presentation of generalized gingival inflammation, edema, erythema, and bleeding on probing with probing depths of 4-5mm, but crucially, no significant clinical attachment loss, is characteristic of gingivitis associated with dental plaque biofilm. Aggressive periodontitis and periodontitis as a manifestation of systemic disease would involve significant clinical attachment loss. Necrotizing ulcerative gingivitis typically presents with 'punched out' papillae, pain, and fetid odor, which are not described here."
+  },
+  {
+    "id": 237944405,
+    "topicId": "anesthesia",
+    "question": "A 30-year-old male patient presents to your dental office with a chief complaint of acute, sharp pain to cold that lingers for several minutes after the stimulus is removed. He reports having a deep composite restoration placed on his mandibular right first molar (tooth #46) approximately two months ago. Clinical examination reveals tooth #46 has a deep MOD composite restoration, is negative to percussion and palpation, but the cold test elicits severe, lingering pain for over 30 seconds. What is the MOST appropriate pulpal diagnosis?",
+    "options": [
+      "Reversible pulpitis.",
+      "Normal pulp.",
+      "Symptomatic irreversible pulpitis.",
+      "Pulp necrosis."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The key characteristic indicating symptomatic irreversible pulpitis is the severe, lingering pain to cold stimuli, which persists for an extended period after the stimulus is removed. Reversible pulpitis would present with sharp, transient pain that subsides quickly. Pulp necrosis would typically not elicit a response to cold, or if it did, it would be due to periapical inflammation. Normal pulp would respond briefly and mildly to cold."
+  },
+  {
+    "id": 180783032,
+    "topicId": "anesthesia",
+    "question": "Which of the following local anesthetic agents is metabolized primarily in the liver by microsomal enzymes, leading to its longer duration of action compared to agents primarily hydrolyzed by plasma pseudocholinesterase?",
+    "options": [
+      "Procaine",
+      "Chloroprocaine",
+      "Lidocaine",
+      "Articaine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lidocaine is an amide-type local anesthetic, and all amide local anesthetics, including lidocaine, are primarily metabolized in the liver by microsomal enzymes. Procaine and chloroprocaine are ester-type local anesthetics, which are primarily hydrolyzed in the plasma by pseudocholinesterase. Articaine is unique as it is an amide, but also contains an ester group, allowing for both hepatic and plasma metabolism, but its primary metabolism is also hepatic."
+  },
+  {
+    "id": 532990170,
+    "topicId": "anesthesia",
+    "question": "A 60-year-old female patient presents with pain and swelling in the area of a non-restorable mandibular right first molar (tooth #46). Her medical history is significant for radiation therapy to the head and neck 5 years ago for squamous cell carcinoma. Clinical examination reveals tooth #46 is grossly carious, mobile, and surrounded by inflamed gingival tissue. A periapical radiograph shows extensive bone loss around the tooth. What is the MOST critical consideration before planning the extraction of tooth #46?",
+    "options": [
+      "The increased risk of osteoradionecrosis.",
+      "The need for prophylactic antibiotics to prevent infective endocarditis.",
+      "The patient's ability to tolerate a prolonged surgical procedure.",
+      "The potential for nerve damage due to tooth proximity to the mandibular canal."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Patients with a history of head and neck radiation therapy are at a significantly increased risk for osteoradionecrosis (ORN) following dental extractions due to compromised bone vascularity. This risk often necessitates specialized protocols, such as hyperbaric oxygen therapy, before and after extraction. Prophylactic antibiotics for infective endocarditis are not indicated solely based on radiation history. While patient tolerance and nerve damage are general considerations for any extraction, ORN risk is specific and paramount for this patient's medical history."
+  },
+  {
+    "id": 8218364,
+    "topicId": "anesthesia",
+    "question": "A 7-year-old male patient presents to your dental office with a chief complaint of pain and swelling in the lower right jaw. His parents report he has been feeling unwell with a fever of 38.5°C and general malaise for the past two days. Intraoral examination reveals significant swelling in the right submandibular and buccal areas, with pus exuding from the furcation of the primary mandibular right first molar (tooth #84), which has a large carious lesion. What is the MOST appropriate immediate management?",
+    "options": [
+      "Prescribe analgesics and schedule a pulpotomy for tooth #84 next week.",
+      "Initiate antibiotic therapy and establish drainage of the infection.",
+      "Perform an immediate extraction of tooth #84 without antibiotic coverage.",
+      "Refer for a panoramic radiograph to assess the succedaneous tooth."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's systemic symptoms (fever, malaise) and localized swelling with pus indicate a spreading odontogenic infection (cellulitis). The MOST appropriate immediate management is to initiate systemic antibiotic therapy to control the infection and establish drainage to relieve pressure and remove purulent exudate. Delaying treatment with only analgesics is inappropriate for a spreading infection. Immediate extraction without antibiotic coverage in the presence of acute infection can spread the infection. While assessing the succedaneous tooth is important, it is not the immediate priority for an acute infection."
+  },
+  {
+    "id": 352874375,
+    "topicId": "anesthesia",
+    "question": "A 75-year-old female patient presents to your dental office complaining that her mandibular complete denture feels very loose and causes recurrent sore spots, particularly in the posterior regions. She reports that the denture is 10 years old. Clinical examination reveals significant alveolar ridge resorption in the posterior mandible and a lack of retention and stability with her current denture. The denture flanges appear to be slightly overextended in certain areas. What is the MOST appropriate long-term management option?",
+    "options": [
+      "Recommend the use of denture adhesive for improved retention.",
+      "Perform a chairside hard reline of the existing denture.",
+      "Fabricate new complete mandibular and maxillary dentures.",
+      "Adjust the existing denture flanges and instruct on oral hygiene."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given the significant alveolar ridge resorption and the age of the denture (10 years), fabricating new complete dentures is the MOST appropriate long-term solution. A chairside hard reline might provide temporary improvement but cannot fully compensate for extensive ridge resorption and material degradation over a decade. Denture adhesive offers only palliative relief and does not address the underlying issues of ill-fitting dentures, while adjusting flanges might help with overextensions but won't address the primary issue of severe bone loss and poor fit."
+  },
+  {
+    "id": 653204083,
+    "topicId": "anesthesia",
+    "question": "According to Canadian dental ethical guidelines, which of the following elements is MOST crucial for ensuring truly valid informed consent from a patient for a proposed dental treatment?",
+    "options": [
+      "The patient's signature on the consent form, witnessed by a staff member.",
+      "The dentist's comprehensive explanation of the proposed treatment in technical jargon.",
+      "The patient's understanding of the nature of the proposed treatment, its risks, benefits, and alternatives.",
+      "A detailed financial estimate presented to the patient before treatment begins."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The MOST crucial element for valid informed consent is the patient's understanding of the proposed treatment, including its nature, risks, benefits, and available alternatives, allowing them to make an autonomous decision. While a signed form is important for documentation, it does not guarantee understanding. Explaining in technical jargon would hinder understanding, and while financial estimates are good practice, they are not a core component of the ethical validity of consent itself."
+  },
+  {
+    "id": 313420853,
+    "topicId": "anesthesia",
+    "question": "A 13-year-old female patient presents to your dental office with a chief complaint from her mother about her 'open bite' and difficulty closing her lips. Her medical history is unremarkable, but she had a persistent thumb-sucking habit until age 10. Clinical examination reveals a Class II skeletal pattern, an anterior open bite of 3mm, flared maxillary incisors, and increased overjet. What is the MOST likely contributing factor to her anterior open bite?",
+    "options": [
+      "Persistent oral habit.",
+      "Generalized severe periodontitis.",
+      "Ankylosis of a primary incisor.",
+      "Premature exfoliation of primary molars."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A persistent thumb-sucking habit, especially one continuing until age 10, is a well-established etiology for anterior open bite, flared maxillary incisors, and increased overjet. These habits exert pressure that can modify dental arch form and tooth position. Generalized severe periodontitis, ankylosis of a primary incisor, or premature exfoliation of primary molars are not typically associated with a generalized anterior open bite in a 13-year-old."
+  },
+  {
+    "id": 912404432,
+    "topicId": "anesthesia",
+    "question": "A 40-year-old male patient presents to your dental office with a chief complaint of sensitivity to chewing on a recently placed posterior composite restoration. He reports that tooth #36 received a large composite restoration one week ago. Clinical examination reveals that tooth #36 has a high spot on the composite restoration in centric occlusion, causing premature contact. There are no signs of pulpitis or periapical pathology. What is the MOST appropriate initial management?",
+    "options": [
+      "Prescribe systemic antibiotics and analgesics.",
+      "Adjust the occlusal contacts of the restoration.",
+      "Perform an immediate root canal treatment on tooth #36.",
+      "Replace the entire composite restoration."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sensitivity to chewing on a recently placed restoration, especially with a confirmed high spot causing premature contact, strongly indicates occlusal trauma. The MOST appropriate initial management is to adjust the occlusal contacts to eliminate the premature contact. Prescribing antibiotics is unwarranted without signs of infection. Immediate root canal treatment or replacing the entire restoration are overly aggressive interventions when a simple occlusal adjustment is likely to resolve the issue."
+  },
+  {
+    "id": 115096168,
+    "topicId": "anesthesia",
+    "question": "A 25-year-old female patient presents for a routine dental check-up with no specific complaints. Her medical history is unremarkable. A panoramic radiograph reveals a well-defined, unilocular radiolucency with a sclerotic border, approximately 1.5 cm in diameter, located in the anterior mandible, apical to the mandibular incisors (teeth #31, #32, #41, #42). All associated teeth test vital to pulp vitality testing. What is the MOST likely diagnosis?",
+    "options": [
+      "Periapical granuloma.",
+      "Periapical cyst (radicular cyst).",
+      "Periapical cemento-osseous dysplasia.",
+      "Traumatic bone cyst."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Periapical cemento-osseous dysplasia (PCOD) typically presents as an asymptomatic, well-defined radiolucency in the anterior mandible, often associated with vital teeth, especially in middle-aged females. Periapical granulomas and cysts are inflammatory lesions of odontogenic origin and are always associated with non-vital teeth. A traumatic bone cyst is usually radiolucent, but it is typically not as well-defined and does not have a sclerotic border, and it's less specific to the anterior mandible with vital teeth as PCOD."
+  },
+  {
+    "id": 638625424,
+    "topicId": "anesthesia",
+    "question": "Which cranial nerve is primarily responsible for transmitting the special sensation of taste from the anterior two-thirds of the tongue?",
+    "options": [
+      "Glossopharyngeal nerve (CN IX)",
+      "Trigeminal nerve (CN V)",
+      "Facial nerve (CN VII)",
+      "Vagus nerve (CN X)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Facial nerve (CN VII), specifically through its chorda tympani branch, is primarily responsible for the special sensation of taste from the anterior two-thirds of the tongue. The Glossopharyngeal nerve (CN IX) innervates the posterior one-third of the tongue for taste. The Trigeminal nerve (CN V) provides general sensation (touch, temperature, pain) to the anterior two-thirds, and the Vagus nerve (CN X) innervates taste buds on the epiglottis."
   }
 ]
