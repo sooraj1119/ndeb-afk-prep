@@ -806,19 +806,6 @@
     "explanation": "In uncontrolled diabetes, insulin deficiency leads to increased lipolysis, releasing fatty acids into circulation. These fatty acids are then rapidly oxidized in the liver via beta-oxidation, producing excessive acetyl-CoA. This surplus acetyl-CoA is shunted towards ketone body synthesis, leading to ketoacidosis."
   },
   {
-    "id": 63,
-    "topicId": "biochemistry",
-    "question": "Which of the following statements accurately describes the primary role of the Pentose Phosphate Pathway (PPP) in a cell?",
-    "options": [
-      "To synthesize glycogen for glucose storage.",
-      "To produce NADPH and ribose-5-phosphate.",
-      "To generate ATP through oxidative phosphorylation.",
-      "To break down complex carbohydrates into monosaccharides."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The Pentose Phosphate Pathway (also known as the Hexose Monophosphate Shunt) has two main functions: generating NADPH, which is crucial for reductive biosynthesis and protecting against oxidative stress, and producing ribose-5-phosphate, a precursor for nucleotide synthesis. It does not primarily generate ATP or synthesize glycogen."
-  },
-  {
     "id": 64,
     "topicId": "biochemistry",
     "question": "Collagen, a major component of dentin and bone, is characterized by its unique triple helix structure. Which amino acid is most critical for the formation and stability of this triple helix due to its small size, allowing for tight packing?",
@@ -1541,20 +1528,6 @@
     "explanation": "Alpha-1 antitrypsin is a serine protease inhibitor (serpin) whose primary function in the lung is to inhibit neutrophil elastase, protecting alveolar walls from degradation. When AAT is deficient or structurally abnormal (e.g., PiZ mutation), uninhibited elastase destroys lung parenchyma, leading to emphysema. It does not synthesize collagen, neutralize ROS (which is the role of superoxide dismutase/catalase), or cleave fibrin (plasmin's role)."
   },
   {
-    "id": 118,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with fatigue, delayed wound healing, and bleeding gums. Clinical examination reveals perifollicular hemorrhages and petechiae. Laboratory tests show impaired hydroxylation of proline and lysine residues in collagen. Which of the following cofactors is most likely deficient in this patient?",
-    "options": [
-      "Ascorbic acid (Vitamin C)",
-      "Pyridoxine (Vitamin B6)",
-      "Cobalamin (Vitamin B12)",
-      "Thiamine (Vitamin B1)"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Ascorbic acid (Vitamin C) acts as a reducing agent necessary for the hydroxylation of proline and lysine in collagen synthesis by prolyl and lysyl hydroxylase. A deficiency leads to scurvy, characterized by defective connective tissue, bleeding gums, and poor wound healing. Thiamine, pyridoxine, and cobalamin are involved in carbohydrate metabolism, transamination, and one-carbon transfers, respectively, not collagen hydroxylation."
-  },
-  {
     "id": 119,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -1961,20 +1934,6 @@
     "explanation": "Alpha-ketoglutarate dehydrogenase, along with pyruvate dehydrogenase and transketolase, is a thiamine-dependent enzyme critical for energy metabolism in the brain. Its inhibition due to thiamine deficiency disrupts the TCA cycle and causes rapid neuronal cell death and neurological symptoms. Pyruvate carboxylase is biotin-dependent, and isocitrate dehydrogenase does not require thiamine."
   },
   {
-    "id": 148,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with fatigue, delayed wound healing, and bleeding gums. Clinical examination reveals perifollicular hemorrhages and petechiae. Deficiencies in which biochemical cofactor are directly responsible for the impaired hydroxylation of proline and lysine residues in collagen synthesis?",
-    "options": [
-      "Vitamin K",
-      "Vitamin C (Ascorbic acid)",
-      "Cobalamin (Vitamin B12)",
-      "Pyridoxine (Vitamin B6)"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Vitamin C acts as a reducing agent necessary to keep iron in its reduced ferrous (Fe2+) state, which is required for the activity of prolyl and lysyl hydroxylases in collagen formation. Without it, collagen fibers lack structural stability, leading to scurvy. Vitamin K is involved in gamma-carboxylation of clotting factors, Vitamin B6 in transamination reactions, and Vitamin B12 in methionine synthesis and odd-chain fatty acid metabolism."
-  },
-  {
     "id": 149,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -2001,20 +1960,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "During prolonged fasting or starvation, the liver converts excess acetyl-CoA derived from beta-oxidation of fatty acids into ketone bodies (acetoacetate and beta-hydroxybutyrate) via ketogenesis. The brain can readily utilize these ketone bodies for energy, sparing vital protein muscle tissue. Glycogenolysis is depleted within the first 24-36 hours, lipogenesis is an anabolic pathway, and the Cori cycle recycles lactate between muscle and liver."
-  },
-  {
-    "id": 151,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A patient with a known deficiency in glucose-6-phosphate dehydrogenase (G6PD) develops hemolytic anemia after taking an oxidant antimalarial drug. Which essential cellular product is deficient in these red blood cells, rendering them susceptible to oxidative stress?",
-    "options": [
-      "NADH",
-      "ATP",
-      "NADPH",
-      "Reduced glutathione (GSH)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "G6PD catalyzes the rate-limiting step of the pentose phosphate pathway, converting glucose-6-phosphate to 6-phosphoglucono-delta-lactone while producing NADPH. NADPH is crucial for maintaining supplies of reduced glutathione (GSH), which neutralizes reactive oxygen species. While reduced glutathione is the actual antioxidant, its regeneration strictly depends on the NADPH produced by G6PD."
   },
   {
     "id": 152,
@@ -2493,20 +2438,6 @@
     "explanation": "A competitive inhibitor binds to the active site, competing with the substrate. At high substrate concentrations, the inhibition can be overcome, meaning Vmax remains unchanged, but a higher substrate concentration is required to reach half-maximal velocity, thus increasing apparent Km."
   },
   {
-    "id": 186,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "Which of the following amino acids serves as the primary nitrogen shuttle from skeletal muscle to the liver during the postabsorptive state, safely transporting amino groups in a non-toxic form?",
-    "options": [
-      "Aspartate",
-      "Alanine",
-      "Phenylalanine",
-      "Glutamate"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Alanine serves as the principal carrier of nitrogen from skeletal muscle to the liver. In the muscle, pyruvate is transaminated to alanine, which travels to the liver and is converted back to pyruvate for gluconeogenesis."
-  },
-  {
     "id": 187,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -2659,20 +2590,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Wernicke-Korsakoff syndrome is caused by thiamine (Vitamin B1) deficiency, where its active form, thiamine pyrophosphate (TPP), serves as an essential coenzyme for key metabolic enzymes including pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, and transketolase. Deficiencies severely impair cerebral glucose utilization. Pyridoxal phosphate, NAD+, and FAD are involved in different metabolic pathways not primarily tied to this classic triad of symptoms."
-  },
-  {
-    "id": 198,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "During prolonged fasting, which of the following biochemical pathways provides the primary source of blood glucose to maintain systemic normoglycemia after liver glycogen stores are completely depleted?",
-    "options": [
-      "Glycogenolysis",
-      "Ketogenesis",
-      "Glycolysis",
-      "Gluconeogenesis"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Once liver glycogen stores are depleted (typically after 24-30 hours of fasting), hepatic gluconeogenesis becomes the primary source of endogenous glucose production, utilizing amino acids, glycerol, and lactate. Glycolysis breaks down glucose, glycogenolysis involves the breakdown of glycogen (which is already depleted), and ketogenesis produces ketone bodies rather than glucose."
   },
   {
     "id": 199,
@@ -3037,20 +2954,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Creatine kinase (specifically the CK-MB isoenzyme) catalyzes the reversible phosphorylation of ADP using creatine phosphate to rapidly buffer cellular ATP levels. It is released into the bloodstream following cardiac muscle necrosis, making it a classic early marker for myocardial infarction, although troponins are now preferred for higher specificity."
-  },
-  {
-    "id": 225,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 56-year-old male with a history of chronic heavy alcohol consumption presents with bilateral angular cheilitis, glossitis, and peripheral neuropathy. Laboratory tests reveal megaloblastic anemia. Which of the following vitamin deficiencies is the most probable cause of his neurological symptoms?",
-    "options": [
-      "Vitamin B12 (Cobalamin)",
-      "Vitamin B1 (Thiamine)",
-      "Vitamin B3 (Niacin)",
-      "Vitamin B6 (Pyridoxine)"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Vitamin B12 (cobalamin) deficiency causes megaloblastic anemia combined with subacute combined degeneration of the spinal cord and peripheral neuropathy due to impaired myelin synthesis. While folate deficiency also causes megaloblastic anemia, it does not typically cause neurological symptoms. Thiamine deficiency causes Wernicke-Korsakoff syndrome or beriberi, and niacin deficiency causes pellagra."
   },
   {
     "id": 226,
@@ -3529,20 +3432,6 @@
     "explanation": "Niacin is the functional moiety of nicotinamide adenine dinucleotide (NAD+) and nicotinamide adenine dinucleotide phosphate (NADP+), which act as crucial electron acceptors/donors in redox reactions. CoA requires pantothenic acid (B5), FAD requires riboflavin (B2), and pyridoxal phosphate is the active form of vitamin B6."
   },
   {
-    "id": 260,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "In the process of oxidative phosphorylation, protons are pumped from the mitochondrial matrix into the intermembrane space. What drives this proton translocation across the inner mitochondrial membrane?",
-    "options": [
-      "Direct active transport via glucose oxidation",
-      "The flow of electrons down the electron transport chain",
-      "Substrate-level phosphorylation in the Krebs cycle",
-      "ATP hydrolysis by ATP synthase"
-    ],
-    "correctAnswer": 1,
-    "explanation": "As electrons are transferred sequentially through complexes I, III, and IV of the electron transport chain, the free energy released is coupled to the pumping of protons from the matrix to the intermembrane space. ATP synthase utilizes this resulting electrochemical gradient (not hydrolyzes it) to synthesize ATP."
-  },
-  {
     "id": 261,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -3611,20 +3500,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Prolyl and lysyl hydroxylases require Vitamin C (ascorbic acid) to maintain the active Fe2+ state of the iron cofactor required for the hydroxylation of proline and lysine residues in collagen. Without sufficient hydroxyproline and hydroxylysine, the triple helix is unstable, leading to scurvy. The other amino acid pairs listed are not primary targets for this specific post-translational hydroxylation."
-  },
-  {
-    "id": 266,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A patient with a known deficiency in glucose-6-phosphate dehydrogenase (G6PD) develops hemolytic anemia after taking an oxidizing antimalarial drug. Which of the following metabolic products is insufficiently produced in these red blood cells, leading to oxidative stress?",
-    "options": [
-      "Oxaloacetate",
-      "NADH",
-      "NADPH",
-      "ATP"
-    ],
-    "correctAnswer": 2,
-    "explanation": "G6PD is the rate-limiting enzyme of the pentose phosphate pathway, which is the primary source of NADPH in red blood cells. NADPH is required to maintain reduced glutathione, which neutralizes reactive oxygen species. Without sufficient NADPH, oxidative stress causes red blood cell lysis. ATP, NADH, and oxaloacetate are produced via glycolysis and the TCA cycle, which remain functional."
   },
   {
     "id": 267,
@@ -4117,20 +3992,6 @@
     "explanation": "Alpha-1 antitrypsin is a serine protease inhibitor (serpin) that primarily neutralizes neutrophil elastase in the lower respiratory tract. In its absence, uninhibited elastase degrades elastin in the alveolar walls, leading to panacinar emphysema, a condition worsened by smoking which oxidizes a critical methionine residue necessary for antitrypsin function."
   },
   {
-    "id": 302,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A patient with a deficiency in glucose-6-phosphate dehydrogenase (G6PD) is prescribed an antimalarial drug that induces oxidative stress. This leads to hemolytic anemia primarily because the red blood cells lack which essential protective molecule?",
-    "options": [
-      "Adenosine triphosphate (ATP)",
-      "2,3-Bisphosphoglycerate (2,3-BPG)",
-      "Reduced glutathione (GSH)",
-      "Nicotinamide adenine dinucleotide (NAD+)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "G6PD is the rate-limiting enzyme of the pentose phosphate pathway, which produces NADPH in red blood cells. NADPH is required to maintain glutathione in its reduced form (GSH), which neutralizes reactive oxygen species; without GSH, RBCs undergo hemolysis under oxidative stress."
-  },
-  {
     "id": 303,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -4143,20 +4004,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Vitamin C (ascorbate) acts as a reducing agent to keep iron in the ferrous state, which is required for the activity of prolyl and lysyl hydroxylases during the post-translational modification of collagen. Lysyl oxidase is a copper-dependent enzyme responsible for cross-linking collagen fibrils. Gamma-glutamyl carboxylase requires vitamin K."
-  },
-  {
-    "id": 304,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "Which of the following amino acids serves as the direct precursor for the synthesis of nitric oxide (NO), an important signaling molecule involved in vasodilation and neurotransmission?",
-    "options": [
-      "Arginine",
-      "Tyrosine",
-      "Glutamate",
-      "Tryptophan"
-    ],
-    "correctAnswer": 0,
-    "explanation": "L-Arginine is oxidized by nitric oxide synthase (NOS) to citrulline and nitric oxide. Glutamate is the precursor for GABA, tryptophan for serotonin and niacin, and tyrosine for catecholamines and thyroid hormones."
   },
   {
     "id": 305,
@@ -4341,20 +4188,6 @@
     "explanation": "Pyridoxine (Vitamin B6), in its active coenzyme form pyridoxal phosphate (PLP), is essential for transamination, decarboxylation, and deamination reactions in amino acid metabolism. Thiamine acts in decarboxylations, riboflavin forms FAD for redox reactions, and cobalamin is involved in methyl group transfers and isomerization."
   },
   {
-    "id": 318,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 56-year-old male with a history of chronic heavy alcohol consumption presents with bilateral angular cheilitis, glossitis, and peripheral neuropathy. Laboratory tests reveal a microcytic anemia with normal iron stores. Which of the following coenzymes is most likely deficient, leading to impaired heme synthesis?",
-    "options": [
-      "Pyridoxal phosphate (PLP)",
-      "Flavin adenine dinucleotide (FAD)",
-      "Cobalamin (Vitamin B12)",
-      "Thiamine pyrophosphate (TPP)"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Pyridoxal phosphate (PLP), the active form of vitamin B6, is an essential coenzyme for delta-aminolevulinic acid (ALA) synthase, the rate-limiting step in heme biosynthesis. A deficiency leads to sideroblastic/microcytic anemia despite adequate iron. TPP, FAD, and B12 are involved in other metabolic pathways and do not directly catalyze the rate-limiting step of heme synthesis."
-  },
-  {
     "id": 319,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -4425,20 +4258,6 @@
     "explanation": "Collagen is rich in proline and lysine residues that require hydroxylation for cross-linking and thermal stability of the triple helix. Scurvy (vitamin C deficiency) disrupts this hydroxylation, severely weakening collagenous structures such as the periodontal ligament, leading to tooth mobility and gingival bleeding. Elastin, fibronectin, and laminin are not the primary targets of this specific hydroxylation defect."
   },
   {
-    "id": 324,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "Which of the following amino acids serves as the direct precursor for the synthesis of nitric oxide (NO), an important signaling molecule involved in vasodilation and inflammatory responses in periodontal tissues?",
-    "options": [
-      "Tyrosine",
-      "Glutamate",
-      "Tryptophan",
-      "Arginine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "L-arginine is the direct substrate for nitric oxide synthases (NOS), which catalyze the conversion of arginine to citrulline and nitric oxide. Glutamate, tryptophan, and tyrosine serve as precursors for other neurotransmitters, hormones, or pigments, but not nitric oxide."
-  },
-  {
     "id": 325,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -4479,20 +4298,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Km is inversely related to the enzyme's affinity for its substrate; an increased Km means a higher concentration of substrate is needed to reach half-Vmax, indicating decreased substrate affinity. Vmax remains unchanged, which is characteristic of competitive-type alterations where high substrate concentrations can overcome the defect."
-  },
-  {
-    "id": 328,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with fatigue, bone pain, and recurrent kidney stones. Laboratory tests reveal hypercalcemia and hypophosphatemia. Which of the following biochemical abnormalities is primarily responsible for the hypophosphatemia in this condition?",
-    "options": [
-      "Increased renal excretion of phosphate due to excess parathyroid hormone",
-      "Decreased dietary absorption of phosphate secondary to vitamin D deficiency",
-      "Increased cellular uptake of phosphate stimulated by elevated insulin levels",
-      "Decreased renal reabsorption of phosphate due to calcitonin excess"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Primary hyperparathyroidism leads to excess parathyroid hormone (PTH), which acts on the proximal tubules of the kidney to inhibit the reabsorption of phosphate, thereby causing phosphaturia and hypophosphatemia. Calcitonin decreases calcium, not primary phosphate regulation in this context, and insulin is not the primary driver of this clinical presentation."
   },
   {
     "id": 329,
@@ -4591,20 +4396,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "While the liver is the primary site of gluconeogenesis early in fasting, during prolonged starvation (exceeding 3 weeks), the kidney significantly ramps up its gluconeogenic capacity, eventually contributing up to roughly 40% of total systemic glucose production."
-  },
-  {
-    "id": 336,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with fatigue, bone pain, and recurrent kidney stones. Laboratory tests reveal hypercalcemia and hypophosphatemia. Which of the following biochemical mediators is primarily responsible for the mobilization of calcium from bone?",
-    "options": [
-      "Active vitamin D (1,25-dihydroxycholecalciferol)",
-      "Fibroblast growth factor 23 (FGF23)",
-      "Parathyroid hormone (PTH)",
-      "Calcitonin"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Parathyroid hormone (PTH) is secreted by the parathyroid glands in response to hypocalcemia and acts to increase serum calcium by stimulating bone resorption, renal calcium reabsorption, and intestinal absorption via vitamin D activation. Calcitonin lowers serum calcium, FGF23 promotes phosphate excretion, and while vitamin D aids calcium absorption, PTH is the primary acute mobilizer from bone."
   },
   {
     "id": 337,
@@ -4859,20 +4650,6 @@
     "explanation": "Beta-oxidation of fatty acids takes place within the mitochondrial matrix, requiring the carnitine shuttle to transport long-chain fatty acyl-CoA molecules across the inner mitochondrial membrane. Glycolysis, glycogenesis, and the pentose phosphate pathway all take place in the cytoplasm."
   },
   {
-    "id": 355,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with fatigue, bone pain, and recurrent kidney stones. Laboratory tests reveal hypercalcemia, hypophosphatemia, and elevated parathyroid hormone (PTH) levels. Which of the following biochemical pathways is primarily upregulated by PTH to directly increase serum calcium levels?",
-    "options": [
-      "Upregulation of osteoblast apoptosis",
-      "Stimulation of calcitonin release from the thyroid parafollicular cells",
-      "Direct suppression of 1-alpha-hydroxylase activity in the kidney",
-      "Inhibition of renal tubular reabsorption of phosphate in the proximal tubule"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Parathyroid hormone (PTH) increases serum calcium primarily by stimulating bone resorption, increasing renal calcium reabsorption in the distal tubule, and decreasing phosphate reabsorption in the proximal tubule to prevent calcium-phosphate precipitation. Calcitonin is antagonistic to PTH, osteoblast apoptosis is not the primary mechanism (rather PTH stimulates RANKL on osteoblasts to activate osteoclasts), and PTH actually stimulates (not suppresses) 1-alpha-hydroxylase to produce active vitamin D."
-  },
-  {
     "id": 356,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -4983,20 +4760,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Pyridoxal phosphate (PLP), the active form of vitamin B6, serves as a crucial coenzyme for aminotransferases, facilitating the transfer of amino groups during amino acid metabolism. Cobalamin is involved in methyl group transfers and isomerization reactions, biotin acts as a CO2 carrier in carboxylation reactions, and folic acid transfers single-carbon units in nucleotide synthesis."
-  },
-  {
-    "id": 364,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 56-year-old male with a history of chronic heavy alcohol consumption presents with bilateral angular cheilitis, glossitis, and peripheral neuropathy. Laboratory tests reveal megaloblastic anemia with normal serum folate and vitamin B12 levels. A deficiency in which of the following coenzymes is most likely responsible for his neurological symptoms?",
-    "options": [
-      "Deoxyadenosylcobalamin",
-      "Thiamine pyrophosphate (TPP)",
-      "Pyridoxal phosphate (PLP)",
-      "Nicotinamide adenine dinucleotide (NAD+)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Pyridoxal phosphate (PLP), the active form of vitamin B6, is a crucial coenzyme in amino acid metabolism, neurotransmitter synthesis, and glycogen phosphorylase function; deficiency often causes peripheral neuropathy and glossitis, particularly in chronic alcoholism due to impaired metabolism. Thiamine deficiency leads to Wernicke-Korsakoff syndrome or beriberi rather than pure peripheral neuropathy mimicking B6 deficiency with megaloblastic changes (though B6 deficiency can cause sideroblastic anemia, chronic alcoholics frequently have overlapping deficiencies). NAD+ deficiency causes pellagra, and deoxyadenosylcobalamin is a B12 derivative."
   },
   {
     "id": 365,
@@ -5139,20 +4902,6 @@
     "explanation": "Lactate produced anaerobically in skeletal muscle is transported via the bloodstream to the liver, where it is converted back to glucose via gluconeogenesis in a pathway known as the Cori cycle. Lactate is not excreted entirely by the kidneys in healthy states, cannot be directly converted to acetyl-CoA under anaerobic conditions, and cannot be fully oxidized without oxygen."
   },
   {
-    "id": 375,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A patient with poorly controlled type 1 diabetes mellitus presents with severe ketoacidosis. Which of the following biochemical alterations directly promotes the excessive hepatic production of ketone bodies?",
-    "options": [
-      "Depleted hepatic glycogen stores activating glycogen phosphorylase",
-      "Elevated levels of malonyl-CoA inhibiting carnitine palmitoyltransferase I",
-      "High insulin-to-glucagon ratio stimulating glycolysis",
-      "Low insulin-to-glucagon ratio activating hormone-sensitive lipase and lowering malonyl-CoA"
-    ],
-    "correctAnswer": 3,
-    "explanation": "In type 1 diabetes, a low insulin-to-glucagon ratio activates hormone-sensitive lipase in adipose tissue, releasing free fatty acids. Simultaneously, low insulin lowers malonyl-CoA levels, removing the inhibition on carnitine palmitoyltransferase I (CPT-I) and allowing fatty acid entry into mitochondria for beta-oxidation, driving ketone body synthesis. The insulin-to-glucagon ratio is low, not high, and malonyl-CoA levels are decreased, not elevated."
-  },
-  {
     "id": 376,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -5237,20 +4986,6 @@
     "explanation": "Vitamin C acts as a reducing agent to keep iron in its ferrous state, enabling prolyl and lysyl hydroxylase to hydroxylate proline and lysine residues in collagen. This hydroxylation is essential for the formation of stable cross-links in the collagen triple helix. Deficiencies lead to scurvy, characterized by the periodontal manifestations described."
   },
   {
-    "id": 382,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A patient with a known deficiency in glucose-6-phosphate dehydrogenase (G6PD) develops hemolytic anemia after being prescribed an oxidizing antimalarial drug. Which of the following products of the hexose monophosphate shunt is critically deficient, leading to increased oxidative stress in the erythrocytes?",
-    "options": [
-      "FADH2",
-      "ATP",
-      "NADPH",
-      "NADH"
-    ],
-    "correctAnswer": 2,
-    "explanation": "G6PD catalyzes the first, rate-limiting step of the pentose phosphate pathway, producing NADPH. In erythrocytes, NADPH is essential to reduce glutathione via glutathione reductase, which in turn neutralizes reactive oxygen species. A deficiency in NADPH leads to oxidative damage, Heinz body formation, and hemolysis."
-  },
-  {
     "id": 383,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -5307,20 +5042,6 @@
     "explanation": "Thyroid hormones (T3 and T4) are lipophilic molecules that cross the plasma membrane and bind to intracellular nuclear receptors. These hormone-receptor complexes act as ligand-activated transcription factors that alter gene expression, thereby regulating basal metabolic rate, oxygen consumption, and thermogenesis."
   },
   {
-    "id": 387,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "During strenuous anaerobic exercise, skeletal muscle generates large amounts of lactate. This lactate is transported to the liver, where it is converted back into glucose to be returned to the muscle. What is the name of this inter-organ metabolic pathway?",
-    "options": [
-      "Glucose-alanine cycle",
-      "Krebs cycle",
-      "Cori cycle",
-      "Urea cycle"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The Cori cycle describes the metabolic cooperation between skeletal muscle (which produces lactate via anaerobic glycolysis) and the liver (which takes up lactate and converts it to glucose via gluconeogenesis). The glucose-alanine cycle similarly transports nitrogen and carbon skeletons from muscle to liver, but involves amino acid transamination."
-  },
-  {
     "id": 388,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -5333,34 +5054,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Leucine is a hydrophobic (nonpolar) amino acid. In an aqueous environment, thermodynamic stability dictates that nonpolar residues cluster in the interior of globular proteins to minimize unfavorable interactions with water (the hydrophobic effect), while hydrophilic residues face the exterior."
-  },
-  {
-    "id": 389,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A patient presents with acute intermittent porphyria, characterized by abdominal pain and neuropsychiatric symptoms, caused by a defect in heme biosynthesis. Which of the following molecules serves as the initial and committed precursor for the biosynthesis of heme in mammalian cells?",
-    "options": [
-      "Acetyl-CoA and Oxaloacetate",
-      "Alpha-ketoglutarate and Ammonia",
-      "Pyruvate and Alanine",
-      "Succinyl-CoA and Glycine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Heme biosynthesis begins in the mitochondria with the condensation of succinyl-CoA and glycine, catalyzed by the rate-limiting enzyme delta-aminolevulinic acid (ALA) synthase. This reaction requires pyridoxal phosphate (vitamin B6) as a coenzyme. Defects further down the pathway lead to various porphyrias."
-  },
-  {
-    "id": 390,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with fatigue, bone pain, and recurrent kidney stones. Laboratory tests reveal hypercalcemia and hypophosphatemia. Which of the following biochemical abnormalities in calcium homeostasis is most consistent with primary hyperparathyroidism?",
-    "options": [
-      "Decreased renal 1-alpha-hydroxylase activity",
-      "Increased synthesis of calcitriol",
-      "Increased renal excretion of calcium",
-      "Decreased bone resorption by osteoclasts"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Primary hyperparathyroidism involves excess PTH, which stimulates renal 1-alpha-hydroxylase, thereby increasing the synthesis of active vitamin D (calcitriol) to enhance intestinal calcium absorption. PTH also increases bone resorption and decreases renal calcium excretion, while increasing renal phosphate excretion (explaining hypophosphatemia)."
   },
   {
     "id": 391,
@@ -5459,20 +5152,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Alanine serves as the key vehicle for transporting nitrogen from skeletal muscle to the liver via the glucose-alanine cycle. In the muscle, pyruvate is transaminated to alanine, which travels to the liver to be converted back into pyruvate for gluconeogenesis."
-  },
-  {
-    "id": 398,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 56-year-old male with a history of chronic heavy alcohol consumption presents with bilateral angular cheilitis, glossitis, and peripheral neuropathy. Laboratory tests reveal a microcytic anemia with normal iron studies. Which of the following coenzymes is most likely deficient, directly impairing transketolase activity?",
-    "options": [
-      "Thiamine pyrophosphate (Vitamin B1)",
-      "Pyridoxal phosphate (Vitamin B6)",
-      "Nicotinamide adenine dinucleotide (Niacin)",
-      "Flavin adenine dinucleotide (Vitamin B2)"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Pyridoxal phosphate (Vitamin B6) is the essential coenzyme for delta-aminolevulinic acid (ALA) synthase, the rate-limiting step in heme synthesis, explaining the microcytic anemia, as well as being required for amino acid metabolism and neurotransmitter synthesis. Thiamine pyrophosphate is a cofactor for transketolase, but B6 specifically links microcytic anemia with peripheral neuropathy and glossitis in alcoholics. Pyridoxal phosphate deficiency directly impairs heme synthesis, yielding sideroblastic-like microcytic anemia."
   },
   {
     "id": 399,
@@ -5629,20 +5308,6 @@
     "explanation": "Von Gierke disease is Glycogen Storage Disease Type I, caused by a deficiency in glucose-6-phosphatase, which impairs both glycogenolysis and gluconeogenesis, leading to severe fasting hypoglycemia and hepatomegaly. Pompe disease (Type II) is a lysosomal acid alpha-glucosidase deficiency causing cardiomegaly and hypotonia. Cori disease (Type III) involves debranching enzyme deficiency, and Andersen disease (Type IV) involves branching enzyme deficiency."
   },
   {
-    "id": 410,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "Which of the following amino acids serves as the direct precursor for the synthesis of nitric oxide (NO), a potent vasodilator and signaling molecule involved in inflammation and neurotransmission?",
-    "options": [
-      "Glutamate",
-      "Arginine",
-      "Tryptophan",
-      "Tyrosine"
-    ],
-    "correctAnswer": 1,
-    "explanation": "L-arginine is the direct substrate for nitric oxide synthase (NOS), which converts arginine and oxygen into citrulline and nitric oxide. Glutamate is a precursor for GABA and glutathione. Tryptophan is a precursor for serotonin and niacin. Tyrosine is a precursor for catecholamines, thyroid hormones, and melanin."
-  },
-  {
     "id": 411,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -5699,20 +5364,6 @@
     "explanation": "In classic phenylketonuria, the inability to hydroxylate phenylalanine to tyrosine means that tyrosine can no longer be synthesized endogenously and thus becomes an essential amino acid in the diet. Cysteine becomes conditionally essential only if methionine is deficient. Alanine and glycine are non-essential amino acids that can be easily synthesized from glycolytic intermediates."
   },
   {
-    "id": 415,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with fatigue, delayed wound healing, and bleeding, spongy gums. Laboratory tests reveal impaired hydroxylation of proline and lysine residues in collagen. Which of the following essential cofactors is most likely deficient in this patient?",
-    "options": [
-      "Vitamin K",
-      "Pyridoxine (Vitamin B6)",
-      "Vitamin C (Ascorbic acid)",
-      "Vitamin B12 (Cobalamin)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Vitamin C is required as a reducing agent for prolyl and lysyl hydroxylases, enzymes necessary for the cross-linking and stabilization of collagen. A deficiency leads to scurvy, characterized by defective collagen synthesis, fragile blood vessels, and poor wound healing. Vitamin K is involved in clotting factor carboxylation, B12 in methylation reactions, and B6 in transamination."
-  },
-  {
     "id": 416,
     "topicId": "biochemistry",
     "difficulty": "medium",
@@ -5753,20 +5404,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "I-cell disease (mucolipidosis II) is caused by a deficiency in N-acetylglucosamine-1-phosphotransferase, which prevents the phosphorylation of mannose residues on lysosomal enzymes in the Golgi apparatus. Without the mannose-6-phosphate tag, these enzymes are secreted into the extracellular matrix rather than targeted to lysosomes, leading to accumulation of cellular debris."
-  },
-  {
-    "id": 419,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "Which of the following amino acids serves as the primary nitrogen shuttle from skeletal muscle to the liver during prolonged fasting or strenuous exercise?",
-    "options": [
-      "Glycine",
-      "Glutamate",
-      "Aspartate",
-      "Alanine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The glucose-alanine cycle operates between skeletal muscle and the liver. Muscle tissue transaminates pyruvate to form alanine, which is safely transported through the blood to the liver, where it is converted back to pyruvate for gluconeogenesis, while the amino group is disposed of via the urea cycle. Glutamate and glutamine act as nitrogen shuttles primarily from the brain and other tissues, but alanine is the major vehicle from skeletal muscle."
   },
   {
     "id": 420,
@@ -5823,20 +5460,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "In chronic hyperglycemia, excess glucose is reduced by aldose reductase to sorbitol within tissues such as the lens, retina, and Schwann cells, where sorbitol dehydrogenase is deficient or absent. Accumulation of intracellular sorbitol leads to osmotic stress and cellular damage, resulting in diabetic cataracts. Galactitol is formed from galactose (in galactosemia), whereas mannitol and xylitol are not the primary products of glucose excess via aldose reductase."
-  },
-  {
-    "id": 424,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "A patient with a known deficiency in glucose-6-phosphate dehydrogenase (G6PD) develops hemolytic anemia after taking an oxidizing antimalarial medication. Which of the following vital cellular products is deficient, leading to increased oxidative stress in red blood cells?",
-    "options": [
-      "FADH2",
-      "NADPH",
-      "NADH",
-      "ATP"
-    ],
-    "correctAnswer": 1,
-    "explanation": "G6PD catalyzes the rate-limiting step of the pentose phosphate pathway, producing NADPH. NADPH is critical for maintaining reduced glutathione, which protects red blood cells against oxidative damage. NADH is primarily used in catabolic pathways and oxidative phosphorylation, ATP is generated mainly via glycolysis and oxidative phosphorylation, and FADH2 participates in the citric acid cycle."
   },
   {
     "id": 425,
@@ -5935,20 +5558,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Glycogen storage disease type I (Von Gierke disease) is caused by a deficiency of glucose-6-phosphatase, impairing both gluconeogenesis and glycogenolysis. This results in severe fasting hypoglycemia, hepatomegaly due to glycogen accumulation, and secondary lactic acidemia, hyperuricemia, and hyperlipidemia. Liver glycogen phosphorylase deficiency (Hers disease) causes milder hypoglycemia, while alpha-1,4-glucosidase deficiency (Pompe disease) primarily affects cardiac and skeletal muscle."
-  },
-  {
-    "id": 432,
-    "topicId": "biochemistry",
-    "difficulty": "medium",
-    "question": "During strenuous anaerobic exercise, skeletal muscle generates large amounts of lactate. This lactate is transported to the liver, where it is converted back into glucose to maintain blood glucose levels. What is the primary name of this metabolic cycle?",
-    "options": [
-      "Cori cycle",
-      "Urea cycle",
-      "Glucose-alanine cycle",
-      "Krebs tricarboxylic acid cycle"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The Cori cycle describes the metabolic pathway in which lactate produced by anaerobic glycolysis in skeletal muscle is transported to the liver and converted to glucose via gluconeogenesis. The glucose is then returned to the muscle to be used as an energy source. The glucose-alanine cycle transports nitrogen from muscle to liver, the TCA cycle involves aerobic oxidation of acetyl-CoA, and the urea cycle disposes of excess nitrogen."
   },
   {
     "id": 433,
@@ -6383,5 +5992,850 @@
     ],
     "correctAnswer": 0,
     "explanation": "The bicarbonate buffering system is the most critical salivary component for neutralizing acids produced by oral bacteria and maintaining a stable intraoral pH, thereby protecting against demineralization. Radiation therapy significantly reduces salivary flow, which directly impairs the delivery and concentration of bicarbonate. While amylase aids digestion, lysozyme has antibacterial properties, and mucins lubricate and aggregate bacteria, none are as crucial as bicarbonate for pH buffering. The patient's low salivary pH directly indicates a compromised buffering capacity, which bicarbonate primarily provides."
+  },
+  {
+    "id": 661228023,
+    "topicId": "biochemistry",
+    "question": "A 45-year-old female patient presents to your dental office with localized, severe throbbing pain in the mandibular right posterior region, which started spontaneously and is exacerbated by hot and cold stimuli, lingering for several minutes. Radiographic examination reveals a deep carious lesion approximating the pulp chamber of tooth #46, with no periapical radiolucency. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Reversible pulpitis",
+      "Irreversible pulpitis",
+      "Necrotic pulp",
+      "Acute apical periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The lingering pain to thermal stimuli, especially hot, and spontaneous pain are classic signs of irreversible pulpitis, indicating significant pulpal inflammation beyond the point of healing. Reversible pulpitis typically presents with sharp, transient pain to stimuli that subsides quickly. Necrotic pulp would not respond to thermal stimuli in the same manner."
+  },
+  {
+    "id": 482249906,
+    "topicId": "biochemistry",
+    "question": "A 68-year-old male patient presents to your dental office for a routine check-up. His medical history includes well-controlled hypertension managed with a daily angiotensin-converting enzyme (ACE) inhibitor. He reports no current dental concerns. During the oral examination, you notice a generalized, dry oral mucosa. What is the MOST likely cause of his xerostomia?",
+    "options": [
+      "Undiagnosed Sjogren's syndrome",
+      "Age-related salivary gland atrophy",
+      "Side effect of his ACE inhibitor medication",
+      "Consequence of uncontrolled hypertension"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Xerostomia is a well-known side effect of many medications, including ACE inhibitors commonly prescribed for hypertension. While Sjogren's syndrome and age-related changes can cause xerostomia, medication side effects are a very common and often overlooked cause in patients with polypharmacy. Uncontrolled hypertension itself does not directly cause xerostomia."
+  },
+  {
+    "id": 331553402,
+    "topicId": "biochemistry",
+    "question": "Which of the following describes the primary mechanism of action of local anesthetic agents?",
+    "options": [
+      "Increasing the influx of calcium ions into nerve cells, leading to depolarization.",
+      "Blocking voltage-gated sodium channels, preventing nerve impulse propagation.",
+      "Enhancing the efflux of potassium ions from nerve cells, causing hyperpolarization.",
+      "Inhibiting the reuptake of neurotransmitters at the synaptic cleft."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Local anesthetics primarily exert their effect by reversibly blocking voltage-gated sodium channels in the nerve membrane, thereby preventing the influx of sodium ions required for depolarization and propagation of action potentials. Options A, C, and D describe mechanisms not directly involved in the primary action of local anesthetics, or mechanisms that would lead to excitation or altered synaptic transmission rather than nerve block."
+  },
+  {
+    "id": 676732481,
+    "topicId": "biochemistry",
+    "question": "A 32-year-old female patient presents for extraction of tooth #18. Her medical history indicates she is currently taking oral contraceptives. During the procedure, she experiences a mild syncopal episode. After recovery, she asks about potential interactions between her medication and dental treatments. What is a key consideration regarding oral contraceptives and dental procedures?",
+    "options": [
+      "Increased risk of infective endocarditis.",
+      "Potential for decreased effectiveness of certain antibiotics.",
+      "Elevated risk of post-extraction alveolar osteitis (dry socket).",
+      "Diminished local anesthetic efficacy."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Oral contraceptive use is a well-established risk factor for alveolar osteitis (dry socket) due to estrogen's effects on fibrinolysis and clot stability. There is no direct evidence to suggest increased infective endocarditis risk or diminished local anesthetic efficacy. While some antibiotics can reduce the effectiveness of oral contraceptives, this is a distinct interaction not related to dry socket risk."
+  },
+  {
+    "id": 193140600,
+    "topicId": "biochemistry",
+    "question": "A 58-year-old male patient with a history of chronic obstructive pulmonary disease (COPD) presents for a complex restorative procedure. He uses an albuterol inhaler regularly. During the procedure, he experiences mild shortness of breath. What is the MOST appropriate immediate action?",
+    "options": [
+      "Place the patient in an upright or semi-supine position.",
+      "Administer supplemental oxygen via nasal cannula.",
+      "Offer a glass of water and reassure the patient.",
+      "Immediately terminate the procedure and call for emergency medical services."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a patient experiencing mild shortness of breath, placing them in an upright or semi-supine position is the most appropriate initial step to facilitate breathing, especially for those with COPD. While oxygen might be considered if symptoms persist or worsen, repositioning is usually the first line. Terminating the procedure and calling EMS is premature for mild symptoms, and offering water does not address respiratory distress."
+  },
+  {
+    "id": 510121479,
+    "topicId": "biochemistry",
+    "question": "Which of the following structures is primarily responsible for the production of intrinsic factor, essential for Vitamin B12 absorption?",
+    "options": [
+      "Parietal cells of the gastric mucosa",
+      "Pancreatic acinar cells",
+      "Chief cells of the gastric mucosa",
+      "Duodenal brush border cells"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Parietal cells, located in the gastric mucosa, are responsible for secreting intrinsic factor, which is crucial for the absorption of Vitamin B12 in the ileum. Pancreatic acinar cells produce digestive enzymes, chief cells produce pepsinogen, and duodenal brush border cells are involved in nutrient absorption but not intrinsic factor production."
+  },
+  {
+    "id": 636975773,
+    "topicId": "biochemistry",
+    "question": "A 7-year-old male patient presents with a history of recurrent oral ulcerations and blisters that rupture quickly, leaving painful erosions, particularly on the buccal mucosa and gingiva. His mother reports similar lesions on his hands and feet, and a recent mild fever. What is the MOST likely clinical diagnosis?",
+    "options": [
+      "Aphthous stomatitis",
+      "Herpes simplex virus primary infection",
+      "Erythema multiforme",
+      "Hand, Foot, and Mouth Disease"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The combination of oral ulcerations, particularly on the buccal mucosa and gingiva, along with lesions on the hands and feet and a history of mild fever, is highly characteristic of Hand, Foot, and Mouth Disease, typically caused by coxsackieviruses. Primary herpes simplex infection primarily affects the gingiva and lips, and aphthous stomatitis does not involve extraoral lesions."
+  },
+  {
+    "id": 362680731,
+    "topicId": "biochemistry",
+    "question": "A 62-year-old female patient presents with a complaint of a burning sensation in her mouth, particularly on the tongue, that has been present for several months. Clinical examination reveals no obvious mucosal lesions, candidiasis, or other local irritants. Her medical history includes well-controlled type 2 diabetes and she takes metformin daily. What is the MOST appropriate initial diagnostic consideration?",
+    "options": [
+      "Oral candidiasis",
+      "Burning Mouth Syndrome",
+      "Geographic tongue",
+      "Iron deficiency anemia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Given the absence of visible lesions or local irritants and the description of a chronic burning sensation, Burning Mouth Syndrome (BMS) is a strong initial consideration. While oral candidiasis and iron deficiency anemia can cause similar symptoms, their clinical signs or specific lab findings are absent in this presentation, making BMS more likely. Geographic tongue typically presents with visible lesions and is usually asymptomatic."
+  },
+  {
+    "id": 5754112,
+    "topicId": "biochemistry",
+    "question": "Which of the following components of dental amalgam is primarily responsible for providing strength and resistance to creep?",
+    "options": [
+      "Copper",
+      "Silver",
+      "Tin",
+      "Mercury"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Copper is added to modern high-copper amalgams to improve strength, reduce corrosion, and significantly minimize the gamma-2 phase (tin-mercury phase), which is responsible for creep and corrosion. While silver provides strength and sets with mercury, and tin contributes to workability, copper is the key element for creep resistance."
+  },
+  {
+    "id": 675176732,
+    "topicId": "biochemistry",
+    "question": "A 28-year-old male patient presents to your dental office with severe pain and swelling in the submandibular region, extending to the floor of the mouth. He appears febrile and has difficulty swallowing and breathing. What is the MOST critical immediate management step?",
+    "options": [
+      "Initiate broad-spectrum oral antibiotics.",
+      "Obtain an immediate panoramic radiograph to identify the source.",
+      "Perform incision and drainage of the swelling in the dental office.",
+      "Secure the airway and arrange for immediate hospital referral."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The described symptoms (severe submandibular swelling, difficulty swallowing and breathing, fever) are highly indicative of Ludwig's angina, a rapidly spreading cellulitis of the floor of the mouth that can compromise the airway. Securing the airway is paramount, and immediate hospital referral for definitive management is critical. Oral antibiotics are insufficient, and in-office incision and drainage is inappropriate for such a severe infection with airway compromise."
+  },
+  {
+    "id": 218241882,
+    "topicId": "biochemistry",
+    "question": "A 55-year-old female patient presents with a discolored, non-vital maxillary central incisor (#11) that previously had a root canal treatment. She desires a more aesthetic appearance. Clinical examination confirms the tooth is asymptomatic and restored with a composite filling. Radiographic examination shows an adequately filled root canal. What is the MOST appropriate aesthetic restorative option for this discolored tooth?",
+    "options": [
+      "External bleaching with hydrogen peroxide.",
+      "Direct composite veneer.",
+      "Full coverage ceramic crown.",
+      "Internal bleaching with sodium perborate."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a discolored, non-vital tooth with an adequately filled root canal and no other major structural defects, internal bleaching with sodium perborate is a conservative and effective aesthetic option. External bleaching is less effective for intrinsically stained non-vital teeth. While composite veneers and crowns can improve aesthetics, they are more invasive and should be considered if internal bleaching is unsuccessful or if there are significant structural compromises."
+  },
+  {
+    "id": 875781116,
+    "topicId": "biochemistry",
+    "question": "Which of the following immune cells is primarily responsible for initiating the adaptive immune response by presenting antigens to T lymphocytes?",
+    "options": [
+      "Neutrophils",
+      "Natural Killer cells",
+      "Plasma cells",
+      "Macrophages"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Macrophages are professional antigen-presenting cells (APCs) that phagocytose antigens, process them, and present them on their cell surface via MHC class II molecules to activate helper T lymphocytes, thereby initiating the adaptive immune response. Neutrophils and Natural Killer cells are primarily involved in innate immunity, and plasma cells produce antibodies."
+  },
+  {
+    "id": 422378508,
+    "topicId": "biochemistry",
+    "question": "A 38-year-old male patient presents with a history of recurrent cold sores (herpes labialis) on his lips, particularly during periods of stress. He is scheduled for an elective aesthetic dental procedure involving manipulation of his perioral tissues. What is the MOST appropriate prophylactic management for this patient?",
+    "options": [
+      "Administer a single dose of systemic acyclovir immediately after the procedure.",
+      "Prescribe a topical antiviral cream to be applied only if a lesion appears.",
+      "Prescribe systemic antiviral medication to start prior to and continue after the procedure.",
+      "Advise the patient to cancel the procedure if he feels a tingling sensation."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For patients with a history of recurrent herpes labialis, systemic antiviral prophylaxis starting prior to and continuing after dental procedures that may induce recurrence (like perioral tissue manipulation) is the most effective approach to prevent an outbreak. Post-procedure administration or topical application only after a lesion appears is generally less effective for prevention. Canceling the procedure might be an option but active prophylaxis is preferred if the procedure must proceed."
+  },
+  {
+    "id": 749275827,
+    "topicId": "biochemistry",
+    "question": "A 10-year-old female patient presents with pain and sensitivity in her mandibular right first molar (#46). Clinical examination reveals a deep pit and fissure caries on the occlusal surface, with no evidence of pulpal exposure. Radiographic examination confirms a deep lesion extending into dentin, but no periapical pathology. The tooth is vital. What is the MOST appropriate restorative treatment for this tooth?",
+    "options": [
+      "Indirect pulp cap with calcium hydroxide.",
+      "Direct pulp cap with MTA.",
+      "Pulpotomy.",
+      "Amalgam restoration without pulp protection."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given a deep carious lesion approximating the pulp in a vital tooth without signs of pulpal exposure, an indirect pulp cap with a material like calcium hydroxide is the most appropriate treatment to promote tertiary dentin formation and protect the pulp. A direct pulp cap is indicated when there is a mechanical or carious exposure. Pulpotomy is for vital teeth with reversible pulpitis where the coronal pulp is inflamed."
+  },
+  {
+    "id": 676039277,
+    "topicId": "biochemistry",
+    "question": "A 72-year-old female patient presents with a persistent, non-healing ulcer on the lateral border of her tongue that has been present for three months. She is a long-term smoker and social drinker. Clinical examination reveals an indurated, exophytic lesion with rolled borders. What is the MOST appropriate next step in management?",
+    "options": [
+      "Prescribe a course of antifungal medication.",
+      "Advise topical steroid application for one week.",
+      "Perform an incisional biopsy of the lesion.",
+      "Monitor the lesion for another month for spontaneous resolution."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A persistent, non-healing, indurated ulcer with rolled borders in a high-risk patient (smoker, drinker) is highly suspicious for squamous cell carcinoma. An incisional biopsy is the MOST appropriate and urgent next step to establish a definitive diagnosis. Antifungals or steroids are inappropriate without a definitive diagnosis and could delay proper management. Monitoring for spontaneous resolution is dangerous for a lesion with these characteristics."
+  },
+  {
+    "id": 703353244,
+    "topicId": "biochemistry",
+    "question": "Which anatomical landmark is typically used to ensure the proper depth and angulation for a successful inferior alveolar nerve block?",
+    "options": [
+      "Coronoid notch",
+      "Pterygomandibular raphe",
+      "External oblique ridge",
+      "Lingula"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The coronoid notch (or greatest concavity of the anterior border of the ramus) is a key anatomical landmark used to guide needle placement and ensure appropriate depth and angulation when performing an inferior alveolar nerve block. The pterygomandibular raphe is a useful soft tissue landmark, but the bony coronoid notch is critical for depth. The external oblique ridge is inferior and lateral, and the lingula is the specific bony projection covering the mandibular foramen."
+  },
+  {
+    "id": 864599319,
+    "topicId": "biochemistry",
+    "question": "A 40-year-old male patient with a known history of uncontrolled Type 1 Diabetes Mellitus presents for emergency extraction of a severely infected mandibular molar. His last HbA1c was 9.5%. What is the MOST significant systemic risk to consider during and after this procedure?",
+    "options": [
+      "Increased risk of local anesthetic toxicity.",
+      "Delayed bone healing at the extraction site.",
+      "Exacerbation of pre-existing hypertension.",
+      "Higher susceptibility to post-operative infection."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Patients with poorly controlled diabetes (HbA1c 9.5% is significantly elevated) have impaired immune function, making them highly susceptible to post-operative infections and delayed wound healing. While delayed bone healing can occur, the immediate and most significant risk in an infected field is increased infection. Local anesthetic toxicity is not directly related to diabetes, and exacerbation of hypertension is less direct than infection risk."
+  },
+  {
+    "id": 613019342,
+    "topicId": "biochemistry",
+    "question": "A 22-year-old female patient presents with a chief complaint of \"clicking and popping\" sounds in her left temporomandibular joint (TMJ) when opening her mouth widely. She reports occasional mild pain but no locking. Clinical examination reveals palpable clicking during opening and closing, and no significant deviation. What is the MOST likely diagnosis?",
+    "options": [
+      "Myofascial pain dysfunction",
+      "Disc displacement with reduction",
+      "Disc displacement without reduction",
+      "Osteoarthritis of the TMJ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Clicking and popping sounds in the TMJ, especially without locking, are characteristic signs of disc displacement with reduction, where the articular disc displaces anteriorly upon opening but returns to its normal position. Myofascial pain dysfunction typically presents as muscle pain without joint sounds. Disc displacement without reduction involves persistent displacement and often results in limited opening or locking."
+  },
+  {
+    "id": 832629034,
+    "topicId": "biochemistry",
+    "question": "A 50-year-old male patient presents with a swelling on the buccal aspect of his maxillary left first molar (#26). The tooth is vital and responds normally to pulp tests. Radiographic examination reveals a well-defined, corticated radiolucency originating from the lateral root surface of #26, not associated with the apex. What is the MOST likely diagnosis?",
+    "options": [
+      "Periapical cyst",
+      "Lateral periodontal cyst",
+      "Radicular cyst",
+      "Odontogenic keratocyst"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A lateral periodontal cyst typically presents as a well-defined radiolucency on the lateral root surface of a vital tooth, most commonly in the mandibular canine-premolar region but can occur in the maxilla. A periapical or radicular cyst is associated with a non-vital tooth and the apex. An odontogenic keratocyst has a distinct histological appearance and can appear anywhere, but the specific presentation of a vital tooth and lateral radiolucency makes a lateral periodontal cyst more likely."
+  },
+  {
+    "id": 930670816,
+    "topicId": "biochemistry",
+    "question": "A 35-year-old female patient presents with generalized moderate gingival inflammation and bleeding upon probing. She reports excellent oral hygiene habits, brushing twice daily and flossing. Her medical history includes well-controlled hypothyroidism and she is taking levothyroxine. What is the MOST important initial step in her periodontal assessment?",
+    "options": [
+      "Prescribe a chlorhexidine mouthrinse.",
+      "Review her brushing and flossing technique.",
+      "Conduct a thorough periodontal charting and radiographic evaluation.",
+      "Recommend a referral to an oral medicine specialist for systemic evaluation."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Despite reported excellent oral hygiene, generalized gingival inflammation and bleeding upon probing necessitate a thorough periodontal charting and radiographic evaluation to accurately assess the extent of periodontal disease (gingivitis vs. periodontitis), bone loss, and attachment levels. While hygiene technique review is always important and chlorhexidine can be an adjunct, these are not the initial diagnostic steps. Referral is premature without a comprehensive dental assessment."
+  },
+  {
+    "id": 428384821,
+    "topicId": "biochemistry",
+    "question": "A 68-year-old female patient presents for a routine dental check-up. Her medical history includes well-controlled hypertension and type 2 diabetes managed with metformin. During the clinical examination, you notice a firm, painless, sessile swelling on the buccal aspect of the mandibular right alveolar ridge, measuring approximately 1.5 cm in diameter, covered by normal-appearing mucosa. Radiographically, the area appears radiopaque and well-circumscribed. What is the MOST appropriate initial management?",
+    "options": [
+      "Prescribe a 7-day course of amoxicillin and re-evaluate.",
+      "Schedule for incisional biopsy.",
+      "Reassure the patient and monitor periodically.",
+      "Discuss the nature of a tori/exostosis and consider removal only if symptomatic."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The clinical and radiographic findings are classic for a benign bony exostosis (tori). The most appropriate initial management is to reassure the patient about its benign nature and monitor it, considering removal only if it becomes symptomatic or interferes with prosthetics. Prescribing antibiotics is incorrect as there are no signs of infection, and a biopsy is generally not needed for a lesion with such classic benign characteristics."
+  },
+  {
+    "id": 84240625,
+    "topicId": "biochemistry",
+    "question": "A 35-year-old male patient presents with a chief complaint of generalized sensitivity to cold drinks and brushing, which has progressively worsened over the past six months. He denies any sharp, localized pain. Clinical examination reveals generalized gingival recession, especially on the buccal aspects of premolars and canines, with exposed root surfaces. There are no carious lesions or restorations in the sensitive areas. His oral hygiene is otherwise good. What is the MOST appropriate initial management strategy?",
+    "options": [
+      "Recommend a desensitizing toothpaste and fluoride varnish application.",
+      "Prescribe a systemic analgesic and refer to an endodontist.",
+      "Advise immediate surgical grafting of the recessed areas.",
+      "Perform occlusal adjustment to reduce biting forces."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The patient's symptoms and clinical findings are indicative of dentin hypersensitivity due to gingival recession and exposed root surfaces. Initial management should be conservative, focusing on reducing sensitivity with desensitizing agents like specialized toothpastes and fluoride varnishes. Referral to an endodontist is premature as there's no evidence of irreversible pulpitis, and immediate surgical grafting is too aggressive for initial management."
+  },
+  {
+    "id": 76550653,
+    "topicId": "biochemistry",
+    "question": "Which of the following local anesthetic agents is metabolized primarily by plasma pseudocholinesterase?",
+    "options": [
+      "Lidocaine",
+      "Procaine",
+      "Mepivacaine",
+      "Articaine"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Procaine is an ester-type local anesthetic, and ester anesthetics are primarily metabolized by plasma pseudocholinesterase. Lidocaine, mepivacaine, and articaine (though articaine has both ester and amide metabolism, its primary route is still amide) are amide-type anesthetics, which are mainly metabolized in the liver."
+  },
+  {
+    "id": 41292196,
+    "topicId": "biochemistry",
+    "question": "A 14-year-old female patient presents for evaluation of a discolored maxillary central incisor (#11). She recalls a traumatic injury to the tooth approximately two years ago, which caused transient sensitivity but no fracture. Clinically, tooth #11 is asymptomatic, appears slightly darker than adjacent teeth, and does not respond to vitality testing (cold and electric pulp test). Radiographically, there is a periapical radiolucency associated with #11, and the root development appears complete. What is the MOST appropriate definitive treatment?",
+    "options": [
+      "Direct pulp capping with calcium hydroxide.",
+      "Apexification with mineral trioxide aggregate (MTA).",
+      "Non-surgical root canal therapy.",
+      "Extraction and immediate implant placement."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The tooth is non-vital (no response to vitality testing, discolored) and shows signs of periapical infection (periapical radiolucency). Since the root development is complete, non-surgical root canal therapy is the definitive treatment to remove infected pulp tissue and seal the root canal system. Direct pulp capping is for vital pulps, and apexification is for non-vital teeth with immature apices."
+  },
+  {
+    "id": 871385070,
+    "topicId": "biochemistry",
+    "question": "A 5-year-old male patient presents with severe pain and swelling in the mandibular left primary first molar (#74). His mother reports he has been experiencing pain for two days, and it has worsened. Clinical examination reveals a large carious lesion extending subgingivally, significant mobility, and a buccal sinus tract. Radiographically, there is extensive periapical and furcation radiolucency. What is the MOST appropriate management?",
+    "options": [
+      "Pulpotomy and stainless steel crown.",
+      "Indirect pulp cap and restoration.",
+      "Prescribe antibiotics and monitor for resolution.",
+      "Extraction of tooth #74."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The presence of significant mobility, a sinus tract, and extensive periapical/furcation radiolucency in a primary tooth are clear signs of irreversible pulpitis and widespread infection, which contraindicate vital pulp therapies like pulpotomy or indirect pulp caps. Extraction is the most appropriate definitive treatment to eliminate the source of infection and pain. Antibiotics alone will not resolve the infection without definitive treatment."
+  },
+  {
+    "id": 758624326,
+    "topicId": "biochemistry",
+    "question": "Which of the following anatomical structures is most likely to be perforated during an improperly administered mandibular block (inferior alveolar nerve block)?",
+    "options": [
+      "Pterygoid plexus of veins",
+      "Parotid gland",
+      "Submandibular gland",
+      "Lingual nerve"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The pterygoid plexus of veins is located in the infratemporal fossa, in close proximity to the typical injection site for an inferior alveolar nerve block. Accidental perforation can lead to hematoma formation, which is a common complication. While the lingual nerve is near, it is more likely to be anesthetized rather than perforated in a manner leading to significant bleeding like the plexus."
+  },
+  {
+    "id": 515248014,
+    "topicId": "biochemistry",
+    "question": "A 42-year-old female patient presents with a complaint of dry mouth that started approximately 6 months ago. She reports difficulty chewing and swallowing dry foods, and an increased frequency of water intake. Her medical history includes Sjögren's syndrome, diagnosed one year prior. Clinical examination reveals minimal salivary pooling, generalized erythematous and atrophic oral mucosa, and a few cervical carious lesions. What is the MOST appropriate long-term management strategy for her xerostomia?",
+    "options": [
+      "Prescribe a systemic antibiotic to prevent caries.",
+      "Recommend daily fluoride applications, regular dental recall, and prescription of pilocarpine.",
+      "Advise frequent sips of water and use of over-the-counter salivary substitutes.",
+      "Suggest immediate restoration of all cervical lesions with amalgam."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For patients with Sjögren's syndrome experiencing xerostomia, long-term management involves both symptom relief and prevention of associated complications like rampant caries. Daily fluoride applications and regular dental recall are crucial for caries prevention. Pilocarpine is a parasympathomimetic drug that stimulates salivary flow, directly addressing the underlying salivary gland dysfunction. While frequent sips of water and salivary substitutes offer temporary relief, they don't address the underlying cause or comprehensively prevent complications."
+  },
+  {
+    "id": 750790537,
+    "topicId": "biochemistry",
+    "question": "A 28-year-old pregnant female patient in her second trimester presents with a localized, rapidly growing, pedunculated lesion on the interdental papilla between her maxillary right central and lateral incisors. The lesion is soft, red, bleeds easily upon probing, and is asymptomatic. She reports it first appeared about a month ago. What is the MOST appropriate initial management?",
+    "options": [
+      "Immediate surgical excision with wide margins.",
+      "Prescribe topical corticosteroids to reduce inflammation.",
+      "Reassure the patient, provide oral hygiene instructions, and monitor.",
+      "Provide thorough oral hygiene instructions, consider conservative excision if persistent or symptomatic, preferably post-partum."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The description is classic for a pyogenic granuloma (pregnancy tumor). Initial management should focus on improving oral hygiene, as these lesions are often exacerbated by local irritants. While some may regress postpartum, excision is often necessary if the lesion persists, interferes with function, or causes aesthetic concerns. This is typically done conservatively and often deferred until after delivery if possible, unless severely problematic. Immediate wide excision is overly aggressive, and corticosteroids are ineffective for this type of lesion."
+  },
+  {
+    "id": 690495723,
+    "topicId": "biochemistry",
+    "question": "Which of the following human papillomavirus (HPV) types is MOST commonly associated with oral squamous cell carcinoma, particularly in the oropharynx?",
+    "options": [
+      "HPV-2",
+      "HPV-6",
+      "HPV-18",
+      "HPV-16"
+    ],
+    "correctAnswer": 3,
+    "explanation": "HPV-16 is recognized as the high-risk human papillomavirus type most strongly and commonly associated with the development of oral squamous cell carcinoma, particularly those affecting the oropharynx. HPV-2 is associated with common warts, and HPV-6 is generally linked to benign papillomas and genital warts. HPV-18 is also a high-risk type but less prevalent than HPV-16 in oropharyngeal SCC."
+  },
+  {
+    "id": 229582105,
+    "topicId": "biochemistry",
+    "question": "A 55-year-old male patient presents with a painful, recurrent vesicular eruption on his lower lip. He reports these lesions typically appear during periods of stress or sun exposure. Clinically, multiple small vesicles are present on an erythematous base, coalescing into larger bullae, followed by ulceration and crusting. The lesions are localized to the vermillion border of the lip. What is the MOST likely diagnosis?",
+    "options": [
+      "Herpes labialis",
+      "Aphthous stomatitis",
+      "Erythema multiforme",
+      "Pemphigus vulgaris"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The clinical presentation of recurrent vesicular eruptions on the vermillion border of the lip, triggered by stress or sun exposure, is characteristic of herpes labialis, caused by reactivation of the Herpes Simplex Virus type 1 (HSV-1). Aphthous stomatitis typically presents as intraoral ulcers without a vesicular stage. Erythema multiforme involves more widespread target lesions, and pemphigus vulgaris is a severe autoimmune blistering disease not limited to the lip border."
+  },
+  {
+    "id": 432768332,
+    "topicId": "biochemistry",
+    "question": "A 9-year-old male patient presents with a deep carious lesion on tooth #36. Radiographs show caries approaching the pulp horn, but no periapical radiolucency. The tooth is vital to pulp testing, and the patient reports only mild, transient pain to cold. There is no evidence of irreversible pulpitis. The root development is incomplete. What is the MOST appropriate pulp treatment to promote continued root development?",
+    "options": [
+      "Pulpectomy and root canal filling.",
+      "Vital pulp therapy (e.g., partial pulpotomy) with a biocompatible material and definitive restoration.",
+      "Indirect pulp cap with a definitive restoration.",
+      "Extraction and space maintainer."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a vital permanent tooth with incomplete root development and deep caries approaching the pulp but without signs of irreversible pulpitis, vital pulp therapy (such as a partial pulpotomy or Cvek pulpotomy) is the most appropriate treatment. This aims to remove the inflamed coronal pulp while preserving the healthy radicular pulp, allowing for continued root development (apexogenesis). Pulpectomy is for non-vital teeth, and indirect pulp caps are used when pulp exposure is not anticipated."
+  },
+  {
+    "id": 293187155,
+    "topicId": "biochemistry",
+    "question": "Which of the following components of dental composite resin is primarily responsible for light absorption and conversion to free radicals, initiating polymerization?",
+    "options": [
+      "Bis-GMA",
+      "Silane coupling agent",
+      "Camphorquinone",
+      "Barium glass"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Camphorquinone is the most common photoinitiator used in light-cured composite resins. It absorbs light in the blue spectrum and converts this energy into free radicals, which then initiate the polymerization of the resin matrix. Bis-GMA is a monomer forming the resin matrix, the silane coupling agent bonds the filler to the matrix, and barium glass is a filler particle providing radiopacity and strength."
+  },
+  {
+    "id": 885634450,
+    "topicId": "biochemistry",
+    "question": "A 65-year-old male patient with a history of heart valve replacement, for which he is currently taking warfarin, presents for a routine extraction of a severely fractured mandibular premolar. His INR was checked yesterday and is 2.8. What is the MOST appropriate immediate management regarding his anticoagulation?",
+    "options": [
+      "Discontinue warfarin immediately and reschedule the extraction.",
+      "Proceed with the extraction, but request a platelet transfusion.",
+      "Administer a reversal agent like Vitamin K prior to extraction.",
+      "Consult with his physician, but usually proceed with extraction with local hemostatic measures."
+    ],
+    "correctAnswer": 3,
+    "explanation": "An INR of 2.8 falls within the therapeutic range (2.0-3.0) considered acceptable for most minor oral surgical procedures, including single tooth extractions, without discontinuing warfarin. The risk of a thromboembolic event from discontinuing warfarin typically outweighs the risk of bleeding from a minor oral surgery. The MOST appropriate management is to proceed with the extraction while implementing local hemostatic measures (e.g., pressure, sutures, hemostatic agents) and consulting with the patient's physician, as per Canadian guidelines. Reversal agents or platelet transfusions are not indicated for an INR within the therapeutic range."
+  },
+  {
+    "id": 909284017,
+    "topicId": "biochemistry",
+    "question": "A 38-year-old female patient presents with chronic generalized mild to moderate gingival inflammation and bleeding upon brushing. She denies pain. Clinical examination reveals generalized pseudo-pockets (3-4mm), edematous and erythematous gingiva, and no significant bone loss on recent radiographs. Her oral hygiene status is fair, with plaque and calculus present. What is the MOST appropriate initial periodontal diagnosis?",
+    "options": [
+      "Gingivitis, plaque-induced.",
+      "Chronic periodontitis.",
+      "Aggressive periodontitis.",
+      "Necrotizing ulcerative gingivitis."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The clinical findings of generalized gingival inflammation, bleeding, and pseudo-pockets (which are not true attachment loss) in the presence of plaque and calculus, with no radiographic bone loss, are diagnostic for plaque-induced gingivitis. Chronic periodontitis and aggressive periodontitis would involve true clinical attachment loss and radiographic bone loss. Necrotizing ulcerative gingivitis presents with severe pain, ulceration, and a pseudomembrane, which are not described here."
+  },
+  {
+    "id": 72865736,
+    "topicId": "biochemistry",
+    "question": "A 2-year-old child presents with widespread severe early childhood caries affecting multiple primary teeth. The child is uncooperative, and a comprehensive oral examination and treatment under local anesthesia in the dental chair are not feasible. The parents are concerned about the child's pain and inability to eat. What is the MOST appropriate next step in managing this patient?",
+    "options": [
+      "Prescribe a high-dose fluoride supplement and schedule for recall in 6 months.",
+      "Refer for treatment under general anesthesia (GA).",
+      "Attempt to complete all restorations in multiple short appointments with sedation.",
+      "Extract all carious primary teeth to eliminate infection."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a very young, uncooperative child with widespread severe early childhood caries, treatment under general anesthesia (GA) is often the safest and most effective option to complete all necessary dental procedures in a single appointment. Prescribing fluoride without definitive treatment is inadequate for severe caries. While sedation can be an option, GA is typically indicated for extensive treatment in highly uncooperative young patients where chairside treatment is impossible. Extraction of all carious teeth without considering restorative options is generally too aggressive."
+  },
+  {
+    "id": 491144601,
+    "topicId": "biochemistry",
+    "question": "A 45-year-old male patient presents for a complex restorative treatment plan. He requests that you only use \"silver\" (amalgam) restorations because he believes composite resins are toxic. Based on current scientific evidence, composite resins are safe. However, the patient is adamant, despite your explanations. What is the MOST appropriate action in accordance with professional ethical principles?",
+    "options": [
+      "Refuse treatment, stating you only provide evidence-based care.",
+      "Proceed with composite resins as they are superior, without further discussion.",
+      "Explain the pros and cons of both materials again, respect his informed decision, and provide amalgam if clinically appropriate.",
+      "Refer him to another dentist who might comply with his request without question."
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to the principles of patient autonomy and informed consent, the dentist must present all evidence-based options, including their risks and benefits. If the patient, after receiving comprehensive information, makes an informed decision for a treatment that is clinically acceptable and within professional standards (like amalgam), the dentist should respect that choice. Refusing treatment or proceeding against the patient's wishes violates autonomy, and referring without attempting to meet the patient's reasonable request, if clinically feasible, is not the initial most appropriate ethical action."
+  },
+  {
+    "id": 54145143,
+    "topicId": "biochemistry",
+    "question": "A 48-year-old male patient presents with a complaint of sudden, severe, unilateral facial pain described as an electric shock, lasting a few seconds, triggered by chewing, talking, or touching his face. The pain is localized to the mandibular right side. Medical history is unremarkable. Clinical examination reveals no obvious dental pathology or neurological deficits. What is the MOST likely diagnosis?",
+    "options": [
+      "Temporomandibular joint disorder (TMD).",
+      "Acute pulpitis.",
+      "Postherpetic neuralgia.",
+      "Trigeminal neuralgia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The patient's symptoms – sudden, severe, electric shock-like pain lasting seconds, triggered by light touch or movement, and localized to a specific facial region (mandibular V3 distribution) – are classic for trigeminal neuralgia. Acute pulpitis typically presents with constant, throbbing pain exacerbated by temperature. TMD pain is usually dull, aching, and associated with jaw movement or muscle tenderness, while postherpetic neuralgia presents as a constant burning pain in an area affected by prior herpes zoster."
+  },
+  {
+    "id": 539115187,
+    "topicId": "biochemistry",
+    "question": "A 70-year-old edentulous female patient presents with ill-fitting complete dentures that she has worn for 15 years. She complains of difficulty chewing and frequent soreness under the dentures. Intraoral examination reveals severe alveolar ridge resorption in both arches and an erythematous, pebbly appearance of the palatal mucosa. What is the MOST appropriate initial management for the palatal condition?",
+    "options": [
+      "Instruct patient to remove dentures at night and apply topical antifungal medication.",
+      "Surgical removal of the hyperplastic tissue.",
+      "Prescribe a broad-spectrum systemic antibiotic.",
+      "Immediately reline both complete dentures for better fit."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The erythematous, pebbly palatal mucosa under an ill-fitting denture is highly suggestive of denture stomatitis, which is commonly caused by Candida albicans. Initial management involves removing the denture at night to allow tissue rest, improving denture hygiene, and prescribing topical antifungal medication (e.g., nystatin). Surgical removal is typically reserved for severe, unresponsive cases of inflammatory papillary hyperplasia, and systemic antibiotics are not indicated as it is a fungal infection."
+  },
+  {
+    "id": 567583368,
+    "topicId": "biochemistry",
+    "question": "According to Canadian infection control guidelines for dental practices, which of the following methods is considered the MOST effective and appropriate for sterilizing heat-tolerant critical dental instruments?",
+    "options": [
+      "Chemical sterilization (e.g., glutaraldehyde immersion).",
+      "Dry heat sterilization.",
+      "Autoclave (steam sterilization).",
+      "Ultraviolet (UV) light sterilization."
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to Canadian infection control guidelines, the autoclave (steam sterilization) is considered the gold standard and most effective method for sterilizing heat-tolerant critical dental instruments, which penetrate soft tissue, bone, or enter the bloodstream. Chemical sterilization (cold sterilization) is a high-level disinfection, not sterilization for critical instruments. Dry heat sterilization is also acceptable but generally less efficient and has a narrower range of applications compared to steam. UV light is only suitable for surface disinfection, not sterilization of instruments."
+  },
+  {
+    "id": 284931019,
+    "topicId": "biochemistry",
+    "question": "A 45-year-old female patient presents with generalized moderate gingival recession, particularly on facial surfaces of maxillary canines and premolars. She reports sensitivity to cold stimuli in these areas. Clinically, there is no active inflammation, probing depths are within normal limits (1-3mm), and attached gingiva is present but thin. What is the MOST appropriate initial management strategy for the sensitivity?",
+    "options": [
+      "Application of a desensitizing agent containing potassium nitrate.",
+      "Referral for a free gingival graft.",
+      "Prescription of a chlorhexidine mouthrinse.",
+      "Deep scaling and root planing."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Application of a desensitizing agent is the most appropriate initial management for dentin hypersensitivity without active periodontal disease. Referral for a free gingival graft is a surgical option for recession coverage, not the primary initial approach for sensitivity, and chlorhexidine mouthrinse is for antimicrobial purposes not direct desensitization. Deep scaling and root planing are for active periodontal disease and may exacerbate sensitivity in this context."
+  },
+  {
+    "id": 7118445,
+    "topicId": "biochemistry",
+    "question": "A 32-year-old male patient presents with severe, throbbing pain in his mandibular right first molar (tooth #46) that started spontaneously and wakes him at night. Clinical examination reveals a deep carious lesion on the occlusal surface. Radiographic examination shows the lesion extending close to the pulp chamber, with no periapical radiolucency. The tooth is tender to percussion and responds with lingering pain to cold testing. What is the MOST appropriate definitive treatment?",
+    "options": [
+      "Pulpotomy.",
+      "Root canal therapy.",
+      "Direct pulp capping.",
+      "Extraction of the tooth."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient's symptoms of spontaneous, throbbing pain, night pain, and lingering response to cold indicate irreversible pulpitis, which requires root canal therapy for definitive treatment. Pulpotomy and direct pulp capping are considered for reversible pulpitis or vital pulp exposures without irreversible symptoms. Extraction is a last resort, not the most appropriate definitive treatment to preserve the tooth."
+  },
+  {
+    "id": 1887594,
+    "topicId": "biochemistry",
+    "question": "A 24-year-old female patient presents with acute pain, swelling, and trismus related to her partially erupted mandibular left third molar (tooth #38). Clinical examination reveals inflamed pericoronal tissues with pus exudate. Radiographically, the tooth is mesioangularly impacted with pericoronal radiolucency. Her medical history is non-contributory. What is the MOST appropriate initial management?",
+    "options": [
+      "Immediate surgical extraction of tooth #38.",
+      "Prescription of systemic antibiotics and analgesics, followed by re-evaluation.",
+      "Incision and drainage of the pericoronal abscess, followed by extraction.",
+      "Warm saline rinses and referral to an oral surgeon for consultation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The most appropriate initial management for acute pericoronitis with signs of infection (pus, swelling, trismus) is to control the acute infection with systemic antibiotics and analgesics. Immediate surgical extraction in an acutely inflamed area carries a higher risk of complications. Incision and drainage might be considered if a well-localized fluctuant abscess is present, but antibiotics are typically sufficient initially, while warm saline rinses are only supportive."
+  },
+  {
+    "id": 420549680,
+    "topicId": "biochemistry",
+    "question": "A 55-year-old female patient presents with a persistent, non-healing white lesion on her buccal mucosa that she noticed approximately 4 months ago. She reports no pain or discomfort. Her medical history includes well-controlled hypertension, and she is a non-smoker. Clinical examination reveals a roughly oval, homogeneous white plaque, approximately 1 cm in its longest dimension, that does not rub off. There are no other remarkable findings. What is the MOST appropriate next step in management?",
+    "options": [
+      "Advise the patient to observe the lesion for another 3 months.",
+      "Prescribe a topical antifungal medication.",
+      "Perform an excisional or incisional biopsy of the lesion.",
+      "Apply a topical steroid ointment to reduce inflammation."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A persistent, non-healing white lesion that does not rub off, such as this homogeneous white plaque, warrants a biopsy to rule out dysplastic changes or oral squamous cell carcinoma. Observing the lesion further or applying topical medications without a definitive diagnosis is inappropriate and delays potential treatment for a serious condition. Antifungals are for candidiasis, which typically rubs off, and steroids are for inflammatory conditions."
+  },
+  {
+    "id": 709653004,
+    "topicId": "biochemistry",
+    "question": "A 48-year-old male patient with a history of angina pectoris, for which he takes sublingual nitroglycerin, presents for multiple extractions. During the procedure, he experiences sudden, crushing chest pain radiating to his left arm, diaphoresis, and shortness of breath. His blood pressure is 140/90 mmHg, and pulse is 95 bpm. What is the MOST immediate action you should take?",
+    "options": [
+      "Administer supplemental oxygen.",
+      "Administer sublingual nitroglycerin.",
+      "Activate emergency medical services (EMS).",
+      "Position the patient upright."
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a suspected acute myocardial infarction (AMI) or severe angina attack, the MOST immediate action is to administer supplemental oxygen to improve myocardial oxygenation. While nitroglycerin is indicated for angina, it should be used cautiously if blood pressure is low or unknown. Activating EMS is crucial but follows immediate life support measures, and positioning upright can help with breathing but oxygen is more critical."
+  },
+  {
+    "id": 908406640,
+    "topicId": "biochemistry",
+    "question": "A 7-year-old male patient presents to your office after falling and hitting his mouth. Clinical examination reveals a completely avulsed permanent maxillary central incisor (tooth #11). The tooth was found by the parents approximately 20 minutes ago and has been stored in milk. The patient is otherwise healthy, and the socket appears intact. What is the MOST appropriate immediate management?",
+    "options": [
+      "Clean the tooth with chlorhexidine and replant immediately.",
+      "Rinse the tooth with saline, replant, and stabilize with a flexible splint.",
+      "Refer the patient to an oral surgeon for evaluation.",
+      "Store the tooth in saline and monitor the socket for healing."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an avulsed permanent tooth, immediate replantation is critical for prognosis. The tooth should be gently rinsed with saline (not scrubbed or cleaned with harsh agents like chlorhexidine) if contaminated, replanted into the socket, and then stabilized with a flexible splint for 1-2 weeks. Referral to an oral surgeon might be necessary for complications but not as the immediate management for replantation, and monitoring the socket without replanting is inappropriate."
+  },
+  {
+    "id": 519308430,
+    "topicId": "biochemistry",
+    "question": "A 72-year-old edentulous female patient presents with a chief complaint of her mandibular complete denture constantly dislodging, especially during speech and mastication. She reports her maxillary denture is stable. Clinical examination reveals a severely resorbed mandibular alveolar ridge and a prominent genial tubercle. The existing denture base appears overextended in the lingual flange area. What is the MOST appropriate initial management to improve mandibular denture retention?",
+    "options": [
+      "Fabricate new maxillary and mandibular complete dentures.",
+      "Instruct the patient on the proper use of denture adhesive.",
+      "Adjust the lingual flange of the mandibular denture to reduce overextension.",
+      "Perform a selective grinding on the occlusal surfaces of the mandibular denture."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Overextension of the lingual flange can cause displacement of the mandibular denture by muscle attachments (mylohyoid, genioglossus) and tissues of the floor of the mouth. Adjusting the overextended flange is the most appropriate initial step to improve retention. While new dentures or adhesives might be considered later, addressing the identified cause of instability is primary, and selective grinding addresses occlusion, not retention."
+  },
+  {
+    "id": 590474722,
+    "topicId": "biochemistry",
+    "question": "A 60-year-old male patient presents with persistent mild discomfort and a \"feeling of pressure\" in tooth #37 (mandibular second molar) three months after completion of root canal therapy. Radiographically, the root canal filling appears dense and extends to the apex. However, a small, well-defined periapical radiolucency is still visible, unchanged from the pre-operative radiograph. Clinically, the tooth is not tender to percussion or palpation, and there is no swelling. What is the MOST appropriate next step in management?",
+    "options": [
+      "Immediate retreatment of the root canal.",
+      "Surgical endodontic procedure (apicoectomy).",
+      "Prescribe a short course of antibiotics and analgesics.",
+      "Advise a period of watchful waiting and recall for re-evaluation in 6-12 months."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A persistent periapical radiolucency after root canal therapy, without clinical signs or symptoms of active infection (pain, swelling, tenderness), warrants a period of watchful waiting. Healing of periapical lesions can take 6-12 months, or even longer. Immediate retreatment or surgical endodontics is premature without signs of failure, and antibiotics are not indicated for asymptomatic, chronic lesions."
+  },
+  {
+    "id": 681258051,
+    "topicId": "biochemistry",
+    "question": "A 30-year-old female patient presents with a painless, slow-growing swelling on the lingual aspect of her mandibular left posterior region, extending from tooth #35 to #37. The overlying mucosa appears normal. Radiographs reveal a well-defined, unilocular radiolucency with a sclerotic border, approximately 2 cm in diameter, located apical to the roots of the vital teeth #35 and #36, displacing them slightly. Pulp vitality tests for adjacent teeth are positive. What is the MOST likely diagnosis?",
+    "options": [
+      "Odontogenic keratocyst (OKC).",
+      "Radicular cyst.",
+      "Dentigerous cyst.",
+      "Stafne bone defect."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A unilocular radiolucency displacing vital teeth in the posterior mandible is characteristic of an Odontogenic Keratocyst (OKC), especially given its growth pattern and tendency to recur. A radicular cyst is associated with non-vital teeth, and a dentigerous cyst is associated with the crown of an impacted tooth. A Stafne bone defect is a developmental pseudocyst typically found inferior to the mandibular canal."
+  },
+  {
+    "id": 738852562,
+    "topicId": "biochemistry",
+    "question": "A 65-year-old male patient with a history of chronic kidney disease (CKD) stage 3 presents for a dental extraction. He reports moderate post-operative pain after previous extractions. His current medications include lisinopril and furosemide. What is the MOST appropriate analgesic to prescribe for post-operative pain management, considering his medical history?",
+    "options": [
+      "Ibuprofen (non-steroidal anti-inflammatory drug).",
+      "Acetaminophen (paracetamol).",
+      "Codeine (opioid analgesic).",
+      "Naproxen (non-steroidal anti-inflammatory drug)."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Acetaminophen is generally considered the safest analgesic for patients with chronic kidney disease, as NSAIDs like ibuprofen and naproxen can worsen renal function and increase the risk of acute kidney injury. Codeine requires dosage adjustment in renal impairment and carries a higher risk of side effects, making acetaminophen the preferred choice for this patient."
+  },
+  {
+    "id": 653755510,
+    "topicId": "biochemistry",
+    "question": "A dental assistant accidentally sustains a percutaneous injury with a contaminated needle after administering local anesthetic to a patient. The patient's medical history is unknown regarding bloodborne pathogens. What is the MOST appropriate immediate action following the injury, according to Canadian infection control guidelines?",
+    "options": [
+      "Immediately report the incident to the employer and rinse the wound with alcohol.",
+      "Squeeze the wound to promote bleeding and apply an antiseptic.",
+      "Wash the wound thoroughly with soap and water, then report the incident.",
+      "Obtain the patient's consent for immediate blood testing for HIV, HBV, and HCV."
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to Canadian infection control guidelines, the immediate action after a percutaneous injury is to thoroughly wash the wound with soap and water to physically remove contaminants. Squeezing the wound is not recommended, and alcohol is not the primary cleansing agent. Reporting the incident is crucial but follows immediate wound care, and obtaining patient consent for blood testing is a subsequent step after initial wound management and reporting."
+  },
+  {
+    "id": 500831437,
+    "topicId": "biochemistry",
+    "question": "A 52-year-old female patient presents with a chief complaint of dry mouth and difficulty swallowing for the past 6 months. She also reports dry eyes and joint pain. Intraoral examination reveals generalized erythematous, atrophic oral mucosa, absent salivary pooling, and rampant dental caries despite good oral hygiene practices. Schirmer's test confirms reduced tear production. What is the MOST likely underlying systemic condition?",
+    "options": [
+      "Iron deficiency anemia.",
+      "Sjögren's syndrome.",
+      "Hypothyroidism.",
+      "Type 2 Diabetes Mellitus."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The constellation of dry mouth (xerostomia), dry eyes (xerophthalmia), joint pain, and rampant caries due to lack of salivary buffering capacity is highly suggestive of Sjögren's syndrome, an autoimmune disorder affecting exocrine glands. While Type 2 Diabetes Mellitus can cause dry mouth, and iron deficiency anemia has oral signs, the specific triad of symptoms along with positive Schirmer's test points most directly to Sjögren's syndrome. Hypothyroidism causes general metabolic slowing rather than primary glandular destruction."
+  },
+  {
+    "id": 256843733,
+    "topicId": "biochemistry",
+    "question": "A 16-year-old male patient presents to your office for an emergency extraction of tooth #36 due to severe pain and infection. He is accompanied by his 19-year-old brother, who states the parents are out of the country and he is responsible for his younger sibling. The patient is deemed competent to understand the procedure. What is the MOST appropriate course of action regarding consent?",
+    "options": [
+      "Obtain consent directly from the 16-year-old patient, as he is a mature minor.",
+      "Proceed with the extraction, as the 19-year-old brother can provide consent.",
+      "Delay treatment until a parent or legal guardian can provide written consent.",
+      "Contact Child Protective Services due to absent parental consent."
+    ],
+    "correctAnswer": 0,
+    "explanation": "In Canada, a mature minor (typically 12 years or older) who is deemed competent to understand the nature and consequences of a proposed treatment can provide their own consent, even without parental consent. The 19-year-old brother is not a legal guardian, and delaying treatment for an emergency situation would be inappropriate and potentially harmful. Contacting Child Protective Services is unwarranted as the situation can be managed by the mature minor's consent."
+  },
+  {
+    "id": 594709795,
+    "topicId": "biochemistry",
+    "question": "A 40-year-old female patient requests replacement of her existing amalgam restorations in teeth #14 and #15 with tooth-colored materials due to esthetic concerns. She has no signs of active caries, marginal breakdown, or sensitivity with the current restorations. What is the MOST appropriate advice regarding replacing clinically sound amalgam restorations for esthetic reasons?",
+    "options": [
+      "Recommend immediate replacement with composite resin to improve esthetics.",
+      "Advise against replacement, citing potential iatrogenic damage and no clinical benefit.",
+      "Suggest ceramic inlays for superior esthetics and longevity.",
+      "Offer to replace them with glass ionomer cement for fluoride release."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Canadian Dental Association (CDA) and other professional bodies generally advise against replacing clinically sound amalgam restorations solely for esthetic reasons. Such procedures can lead to unnecessary tooth structure removal, potential pulp damage, and microleakage, with no proven clinical benefit over sound amalgam. While ceramic inlays or composite are esthetic options, they are not indicated if the current restoration is sound, and glass ionomer is not typically used for definitive posterior restorations in adults."
+  },
+  {
+    "id": 289751836,
+    "topicId": "biochemistry",
+    "question": "A 60-year-old male patient with a history of bisphosphonate use (alendronate) for osteoporosis for 5 years requires the extraction of a non-restorable mandibular molar. He has no other significant medical history. What is the MOST appropriate management strategy to minimize the risk of medication-related osteonecrosis of the jaw (MRONJ)?",
+    "options": [
+      "Discontinue bisphosphonate therapy for 3 months prior to extraction.",
+      "Proceed with extraction as planned, ensuring atraumatic technique and primary closure.",
+      "Prescribe prophylactic antibiotics for 2 weeks prior to and after extraction.",
+      "Refer for hyperbaric oxygen therapy before and after the extraction."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For patients on oral bisphosphonates for less than 8 years, current guidelines typically recommend proceeding with necessary dental surgery (like extraction) with an atraumatic technique and primary closure, without a drug holiday. Discontinuation of oral bisphosphonates is generally not recommended as it has not been shown to significantly reduce MRONJ risk for these patients. Prophylactic antibiotics are not routinely indicated unless active infection, and hyperbaric oxygen therapy is not a primary preventative measure in this context."
+  },
+  {
+    "id": 729732085,
+    "topicId": "biochemistry",
+    "question": "Which of the following cranial nerves is primarily responsible for the sensation of taste from the anterior two-thirds of the tongue and parasympathetic innervation to the submandibular and sublingual glands?",
+    "options": [
+      "Trigeminal nerve (CN V).",
+      "Glossopharyngeal nerve (CN IX).",
+      "Facial nerve (CN VII).",
+      "Vagus nerve (CN X)."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The facial nerve (CN VII) carries taste sensation from the anterior two-thirds of the tongue via the chorda tympani and provides parasympathetic innervation to the submandibular and sublingual glands. The trigeminal nerve (CN V) provides general sensation to the anterior two-thirds of the tongue. The glossopharyngeal nerve (CN IX) innervates the posterior one-third of the tongue for taste and general sensation and provides parasympathetic innervation to the parotid gland."
+  },
+  {
+    "id": 488812393,
+    "topicId": "biochemistry",
+    "question": "Which of the following is the primary mechanism by which non-steroidal anti-inflammatory drugs (NSAIDs) exert their analgesic and anti-inflammatory effects?",
+    "options": [
+      "Inhibition of cyclooxygenase (COX) enzymes.",
+      "Blockade of opioid receptors in the central nervous system.",
+      "Stimulation of gamma-aminobutyric acid (GABA) receptors.",
+      "Inhibition of sodium channel influx in nerve membranes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "NSAIDs primarily exert their analgesic and anti-inflammatory effects by inhibiting cyclooxygenase (COX) enzymes, which are responsible for the synthesis of prostaglandins from arachidonic acid. Prostaglandins mediate pain and inflammation. Opioid receptors are targeted by opioid analgesics, and inhibition of sodium channels is the mechanism of local anesthetics."
+  },
+  {
+    "id": 182464469,
+    "topicId": "biochemistry",
+    "question": "Which of the following bacteria is MOST commonly associated with aggressive periodontitis and is a key component of the \"red complex\" in periodontal disease etiology?",
+    "options": [
+      "Streptococcus mutans.",
+      "Porphyromonas gingivalis.",
+      "Actinomyces viscosus.",
+      "Lactobacillus acidophilus."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Porphyromonas gingivalis is a prominent Gram-negative anaerobic bacterium strongly associated with aggressive periodontitis and is a key member of the \"red complex\" (along with Tannerella forsythia and Treponema denticola). Streptococcus mutans is primarily associated with dental caries, while Actinomyces viscosus is linked to root caries and gingivitis. Lactobacillus acidophilus is involved in caries progression."
+  },
+  {
+    "id": 537371498,
+    "topicId": "biochemistry",
+    "question": "Which of the following properties of an impression material is MOST critical for accurately reproducing fine details of tooth structure and soft tissues?",
+    "options": [
+      "High tear strength.",
+      "Good wettability.",
+      "High dimensional stability.",
+      "Low viscosity."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Good wettability (hydrophilicity) of an impression material is crucial for allowing the material to flow into and adapt intimately to moist tooth surfaces and soft tissues, thus accurately reproducing fine details. While high tear strength prevents tearing upon removal and high dimensional stability maintains accuracy over time, wettability directly impacts the material's ability to capture detail against moist oral tissues. Low viscosity is important for flow but does not encompass the surface interaction aspect of wettability."
+  },
+  {
+    "id": 882820876,
+    "topicId": "biochemistry",
+    "question": "According to the Code of Ethics for the dental profession in Canada, which of the following ethical principles emphasizes the dentist's obligation to respect the patient's right to make their own decisions about their oral health care?",
+    "options": [
+      "Beneficence.",
+      "Non-maleficence.",
+      "Autonomy.",
+      "Justice."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Autonomy is the ethical principle that respects the patient's right to self-determination and to make informed decisions about their own health care. Beneficence refers to the dentist's duty to do good for the patient, and non-maleficence refers to the duty to do no harm. Justice refers to fairness in the distribution of health care resources and treatment."
+  },
+  {
+    "id": 957310631,
+    "topicId": "biochemistry",
+    "question": "A 48-year-old male patient presents to your dental office with a painless, firm, exophytic lesion on the hard palate, noticed incidentally by his spouse several months ago. The lesion is approximately 2 cm in diameter, has a smooth surface, and is the same color as the surrounding mucosa. It is immobile upon palpation. What is the MOST likely diagnosis?",
+    "options": [
+      "Torus palatinus",
+      "Pleomorphic adenoma",
+      "Necrotizing sialometaplasia",
+      "Squamous cell carcinoma"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A torus palatinus is a benign bony exostosis commonly found on the hard palate, characterized by a painless, firm, sessile nodule. Pleomorphic adenoma is a benign salivary gland tumor but is typically movable unless very large, and often found off the midline. Necrotizing sialometaplasia is an inflammatory process, usually painful and associated with ulceration."
+  },
+  {
+    "id": 873025272,
+    "topicId": "biochemistry",
+    "question": "A 35-year-old female patient presents for a recall appointment. She reports no pain but is concerned about \"bad breath.\" Clinical examination reveals generalized gingival inflammation, probing depths ranging from 4-6mm with bleeding on probing, and moderate plaque and calculus accumulation. Radiographs show horizontal bone loss of approximately 2-3mm below the CEJ in most areas. Her medical history is non-contributory. What is the MOST appropriate initial management?",
+    "options": [
+      "Prescribe a systemic antibiotic and re-evaluate in one month.",
+      "Initiate scaling and root planing with oral hygiene instructions.",
+      "Refer for periodontal surgery to reduce probing depths.",
+      "Recommend daily chlorhexidine mouthrinse for two weeks."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient presents with clinical signs and radiographic evidence consistent with chronic periodontitis, which is primarily managed by mechanical debridement. Scaling and root planing effectively remove plaque and calculus, reducing inflammation and probing depths. Systemic antibiotics are not indicated as a primary standalone treatment, nor is immediate periodontal surgery without initial non-surgical therapy."
+  },
+  {
+    "id": 101107621,
+    "topicId": "biochemistry",
+    "question": "Which of the following local anesthetic agents possesses both ester and amide linkages in its chemical structure, leading to a unique metabolic pathway involving both plasma pseudocholinesterase and hepatic enzymes?",
+    "options": [
+      "Lidocaine",
+      "Bupivacaine",
+      "Articaine",
+      "Mepivacaine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Articaine is unique among commonly used local anesthetics as it contains both an amide and an ester group, leading to metabolism primarily in the plasma by esterases and also in the liver. Lidocaine, bupivacaine, and mepivacaine are all pure amide-type local anesthetics, metabolized predominantly in the liver."
+  },
+  {
+    "id": 284027881,
+    "topicId": "biochemistry",
+    "question": "A 25-year-old female patient presents with a chief complaint of constant, dull pain in her mandibular right posterior region for the past three days. The pain is exacerbated by hot and cold stimuli, lingering for several minutes after removal. Clinical examination reveals deep caries on tooth #46. Percussion is mildly sensitive, and palpation is negative. Radiographically, there is a deep carious lesion approaching the pulp chamber with no periapical radiolucency. What is the MOST likely pulpal diagnosis?",
+    "options": [
+      "Reversible pulpitis",
+      "Irreversible pulpitis",
+      "Pulpal necrosis",
+      "Symptomatic apical periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lingering pain to thermal stimuli, especially heat, combined with spontaneous pain and deep caries, is characteristic of irreversible pulpitis. Reversible pulpitis typically presents with sharp, transient pain that subsides quickly. Pulpal necrosis would usually lack sensitivity to thermal stimuli unless associated with periapical inflammation."
+  },
+  {
+    "id": 221669246,
+    "topicId": "biochemistry",
+    "question": "A 60-year-old male patient presents for evaluation of a soft tissue lesion in his mouth. He reports a \"bump\" on the buccal mucosa that has been growing slowly for several months. He is a heavy smoker and consumes alcohol regularly. Clinical examination reveals a 1.5 cm solitary, firm, non-tender, exophytic lesion with an irregular, verrucous surface on the right buccal mucosa, adjacent to the occlusal plane. There is no associated ulceration or regional lymphadenopathy. What is the MOST appropriate next step in management?",
+    "options": [
+      "Perform an incisional biopsy of the lesion.",
+      "Prescribe a topical antifungal medication.",
+      "Reassure the patient and monitor the lesion annually.",
+      "Apply a topical steroid to reduce inflammation."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given the patient's risk factors (smoking, alcohol) and the suspicious clinical appearance of a firm, exophytic, verrucous lesion, an incisional biopsy is mandatory for definitive diagnosis and to rule out malignancy. Topical antifungal or steroid medications are inappropriate without a diagnosis, and annual monitoring is unacceptable for a suspicious lesion in a high-risk patient."
+  },
+  {
+    "id": 398058901,
+    "topicId": "biochemistry",
+    "question": "A 7-year-old female patient presents to your office with severe pain in her mandibular right first permanent molar (#46). Her mother reports the pain started suddenly last night and keeps her awake. Clinical examination reveals a large carious lesion on the occlusal surface of #46, with tenderness to percussion and mobility Class I. A periapical radiograph shows a deep carious lesion extending into the pulp chamber and a developing periapical radiolucency. The patient is otherwise healthy. What is the MOST appropriate treatment for tooth #46?",
+    "options": [
+      "Direct pulp capping",
+      "Extraction",
+      "Pulpotomy",
+      "Indirect pulp capping"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Given the patient's symptoms (spontaneous pain, pain keeping her awake), clinical findings (tenderness to percussion, mobility), and radiographic evidence of a deep carious lesion extending into the pulp chamber with a developing periapical radiolucency, the tooth is diagnosed with irreversible pulpitis and symptomatic apical periodontitis. For a permanent molar with these findings, extraction is the most predictable treatment option."
   }
 ]
