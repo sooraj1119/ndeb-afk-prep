@@ -6729,5 +6729,109 @@
     ],
     "correctAnswer": 2,
     "explanation": "Veracity is the ethical principle that obliges dentists to be truthful and honest in their communications with patients, ensuring they receive accurate information to make informed decisions. Acting in the patient's best interest relates to Beneficence, treating patients fairly relates to Justice, and maintaining confidentiality is part of Fidelity."
+  },
+  {
+    "id": 311823381,
+    "topicId": "microbiology",
+    "question": "A 7-year-old male patient presents to your dental office after falling from his bicycle, resulting in trauma to his maxillary anterior teeth. Clinical examination reveals tooth #51 (primary right central incisor) is horizontally fractured at the mid-root level, with no mobility of the coronal segment. Radiographic findings confirm the fracture. What is the MOST appropriate management for tooth #51?",
+    "options": [
+      "Extraction of the coronal segment and observation for eruption of the permanent successor.",
+      "Splinting of the coronal fragment to adjacent teeth for 4-6 weeks.",
+      "Pulpotomy and restoration of the coronal fragment.",
+      "Root canal treatment of the coronal fragment and crown placement."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Extraction of the coronal segment is the most appropriate management for a mid-root fracture of a primary incisor, especially when the fracture is unfavorable, to prevent infection and allow for normal eruption of the permanent successor. Splinting or attempting endodontic treatment on a primary tooth with a mid-root fracture is generally not recommended due to poor prognosis and potential for damage to the developing permanent tooth bud."
+  },
+  {
+    "id": 146607603,
+    "topicId": "microbiology",
+    "question": "A 45-year-old female patient presents for a new patient examination. She has generalized moderate periodontitis with probing depths ranging from 4-6mm, bleeding on probing, and radiographic evidence of horizontal bone loss of 20-30%. Her medical history is non-contributory, and she is a non-smoker. What is the MOST appropriate initial non-surgical periodontal therapy?",
+    "options": [
+      "Periodontal flap surgery with osseous recontouring.",
+      "Scaling and root planing (SRP) with oral hygiene instructions.",
+      "Systemic antibiotic therapy combined with daily chlorhexidine rinses.",
+      "Laser-assisted periodontal therapy without mechanical debridement."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Scaling and root planing (SRP) combined with thorough oral hygiene instructions is the gold standard initial non-surgical treatment for moderate periodontitis, aiming to remove calculus and plaque biofilm. Periodontal flap surgery is typically considered after initial non-surgical therapy if pockets persist, while systemic antibiotics are reserved for aggressive forms or refractory cases, not as a primary standalone treatment. Laser therapy alone without mechanical debridement is not a recognized primary treatment for periodontitis."
+  },
+  {
+    "id": 843895756,
+    "topicId": "microbiology",
+    "question": "A 40-year-old male patient presents for a routine check-up. He reports no pain or sensitivity. A periapical radiograph of tooth #16 shows a well-defined, round radiolucency approximately 5mm in diameter at the apex of the mesiobuccal root. The lamina dura around the root apex appears intact, and the tooth responds normally to vitality testing. What is the MOST likely diagnosis?",
+    "options": [
+      "Periapical granuloma.",
+      "Periapical cyst.",
+      "Periapical cemento-osseous dysplasia (PCOD).",
+      "Acute apical abscess."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given the tooth is vital, asymptomatic, and exhibits an intact lamina dura around a periapical radiolucency, periapical cemento-osseous dysplasia (PCOD) in its initial radiolucent stage is the most likely diagnosis. Periapical granulomas and cysts are associated with non-vital teeth, and an acute apical abscess would present with severe pain, swelling, and a non-vital tooth."
+  },
+  {
+    "id": 366611674,
+    "topicId": "microbiology",
+    "question": "A 65-year-old male patient, a heavy smoker for 40 years, presents with a 3-week history of a non-healing, firm, exophytic ulceration on the lateral border of his tongue. He reports occasional discomfort but no severe pain. Clinical examination reveals an irregular, indurated lesion approximately 1.5 cm in diameter. There is no palpable lymphadenopathy in the neck. What is the MOST appropriate next step in the management of this lesion?",
+    "options": [
+      "Prescribe a broad-spectrum antibiotic and re-evaluate in one week.",
+      "Advise the patient to stop smoking and observe the lesion for one month.",
+      "Perform an incisional biopsy of the lesion.",
+      "Apply topical corticosteroids to reduce inflammation and promote healing."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A non-healing, indurated ulceration, especially in a high-risk patient (heavy smoker), must be considered suspicious for squamous cell carcinoma until proven otherwise. An incisional biopsy is the most appropriate and definitive diagnostic step to obtain a tissue diagnosis. Prescribing antibiotics, observation, or topical corticosteroids without a definitive diagnosis would delay potentially life-saving treatment for a malignant lesion."
+  },
+  {
+    "id": 866395156,
+    "topicId": "microbiology",
+    "question": "A 35-year-old female patient presents with a chief complaint of a dull, localized ache in the lower right quadrant. She reports mild pain when biting on tooth #46. Clinical examination reveals no swelling, but tooth #46 is tender to percussion. Radiographic examination shows a widening of the periodontal ligament space around the mesial root of tooth #46 and a deep restoration. The tooth responds negatively to cold vitality testing. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Acute apical periodontitis.",
+      "Chronic apical periodontitis.",
+      "Acute periapical abscess.",
+      "Cracked tooth syndrome."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Acute apical periodontitis is characterized by inflammation of the periapical tissues, often following pulpal necrosis (indicated by the negative vitality test and deep restoration), causing a localized dull ache and tenderness to percussion or biting. Chronic apical periodontitis is usually asymptomatic or presents with milder symptoms. An acute periapical abscess involves pus formation and would typically present with more severe pain, swelling, and radiographic evidence of bone destruction. Cracked tooth syndrome usually involves lingering pain to cold/release of biting pressure on a vital tooth."
+  },
+  {
+    "id": 220952835,
+    "topicId": "microbiology",
+    "question": "Which of the following local anesthetics is MOST commonly associated with a risk of methemoglobinemia, particularly when administered in high doses or to susceptible individuals?",
+    "options": [
+      "Lidocaine.",
+      "Prilocaine.",
+      "Articaine.",
+      "Bupivacaine."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Prilocaine is metabolically converted to orthotoluidine, a byproduct known to induce methemoglobinemia by oxidizing hemoglobin. While other local anesthetics like articaine can theoretically cause it, the risk is significantly higher with prilocaine. Lidocaine and bupivacaine are not typically associated with this adverse effect."
+  },
+  {
+    "id": 782623073,
+    "topicId": "microbiology",
+    "question": "A 70-year-old male patient presents with a chief complaint that his existing mandibular complete denture is very loose and makes it difficult to chew effectively. Clinical examination reveals significant residual ridge resorption in the mandible. His maxillary complete denture is stable. He is otherwise healthy and capable of maintaining good oral hygiene. What is the MOST appropriate long-term solution to improve the stability and retention of his mandibular denture?",
+    "options": [
+      "Reline the existing mandibular complete denture with a soft liner.",
+      "Fabricate a new conventional mandibular complete denture.",
+      "Fabricate a new mandibular complete denture retained by two dental implants.",
+      "Prescribe denture adhesives for daily use."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For patients with significant mandibular ridge resorption and an unstable complete denture, an implant-retained overdenture (typically with two implants in the canine regions) offers significantly improved stability, retention, and chewing efficiency compared to conventional dentures. Reline or new conventional dentures may offer temporary relief but do not address the underlying anatomical deficiency, and denture adhesives are a palliative, not a definitive long-term solution."
+  },
+  {
+    "id": 966098073,
+    "topicId": "microbiology",
+    "question": "A 40-year-old female patient presents 5 days after an uncomplicated extraction of tooth #46. She complains of increasing pain, localized swelling, and reports a low-grade fever (38.2°C). Clinical examination reveals erythema and tenderness in the extraction site area, with purulent exudate expressed upon palpation. What is the MOST likely diagnosis?",
+    "options": [
+      "Alveolar osteitis (dry socket).",
+      "Post-operative hematoma.",
+      "Reversible pulpitis of an adjacent tooth.",
+      "Post-operative infection."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The presence of fever, localized swelling, erythema, tenderness, and purulent exudate 5 days post-extraction strongly indicates a post-operative infection. Alveolar osteitis (dry socket) typically presents with severe pain but lacks fever, swelling, and pus, and usually occurs 2-4 days post-extraction. A hematoma would present as swelling and discoloration without fever or purulence. Reversible pulpitis of an adjacent tooth would not cause these localized signs of infection at the extraction site."
   }
 ]
