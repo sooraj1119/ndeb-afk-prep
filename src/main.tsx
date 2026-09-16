@@ -1,20 +1,20 @@
 // Patch to prevent Google Translate from crashing React
 if (typeof Node === 'function' && Node.prototype) {
   const originalRemoveChild = Node.prototype.removeChild;
-  Node.prototype.removeChild = function (child) {
+  Node.prototype.removeChild = function <T extends Node>(this: Node, child: T): T {
     if (child.parentNode !== this) {
       if (console) console.warn('Prevented React Google Translate crash (removeChild)');
       return child;
     }
-    return originalRemoveChild.apply(this, arguments as any);
+    return originalRemoveChild.call(this, child) as T;
   };
   const originalInsertBefore = Node.prototype.insertBefore;
-  Node.prototype.insertBefore = function (newNode, referenceNode) {
+  Node.prototype.insertBefore = function <T extends Node>(this: Node, newNode: T, referenceNode: Node | null): T {
     if (referenceNode && referenceNode.parentNode !== this) {
       if (console) console.warn('Prevented React Google Translate crash (insertBefore)');
       return newNode;
     }
-    return originalInsertBefore.apply(this, arguments as any);
+    return originalInsertBefore.call(this, newNode, referenceNode) as T;
   };
 }
 import React from 'react'
@@ -28,6 +28,5 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <ErrorBoundary>
       <App />
     </ErrorBoundary>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
-
