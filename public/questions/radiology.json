@@ -1526,20 +1526,6 @@
     "explanation": "Ghost images are formed when a dense structure (like the contralateral mandible or earrings) is positioned between the center of rotation and the X-ray source; they appear higher on the film, are magnified, and exhibit increased vertical blur compared to the real image. Real images are sharper and located lower. Ghost images are radiopaque, not radiolucent."
   },
   {
-    "id": 117,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "Which of the following biological effects of ionizing radiation is classified as deterministic (non-stochastic) and has a clear threshold?",
-    "options": [
-      "Salivary gland tumor",
-      "Radiation-induced leukemia",
-      "Heritable genetic mutations",
-      "Cataractogenesis"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Cataractogenesis is a classic deterministic effect of ionizing radiation, meaning it has a threshold dose below which it does not occur, and its severity increases with dose. Leukemia, tumors, and genetic mutations are stochastic effects, which are probabilistic, have no known threshold, and whose probability increases with dose rather than severity."
-  },
-  {
     "id": 118,
     "topicId": "radiology",
     "difficulty": "medium",
@@ -1834,20 +1820,6 @@
     "explanation": "A simple bone cyst (traumatic bone cyst) classically presents as a scalloped radiolucency interdigitating between the roots of vital teeth, particularly in the mandible. Ameloblastomas and odontogenic keratocysts do not typically show the characteristic scalloped interdental margins. Central giant cell granulomas frequently cross the midline and cause root resorption or cortical expansion, which is less common in simple bone cysts."
   },
   {
-    "id": 139,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "What is the primary biological mechanism of cellular damage resulting from diagnostic dental X-ray exposure at normal clinical doses?",
-    "options": [
-      "Thermal denaturation of structural proteins",
-      "Indirect action via radiolysis of water forming free radicals",
-      "Direct hit theory on DNA double strands",
-      "Direct enzymatic inactivation of cell membranes"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Due to the high water content of human cells, diagnostic ionizing radiation primarily causes cellular damage indirectly through the radiolysis of water molecules, creating free radicals such as hydroxyl radicals that subsequently damage DNA. Direct hits on DNA do occur but are less frequent at low diagnostic doses. Thermal denaturation and enzymatic inactivation are not the primary mechanisms of low-dose ionizing radiation."
-  },
-  {
     "id": 140,
     "topicId": "radiology",
     "difficulty": "medium",
@@ -2072,20 +2044,6 @@
     "explanation": "Before initiating any irreversible treatment like a root canal, vitality testing must be confirmed because a radiolucency associated with a vital tooth indicates a non-endodontic lesion (e.g., periapical cemento-osseous dysplasia, benign tumor). Performing vitality testing prevents unnecessary endodontic therapy. Biopsy or further imaging would follow based on vitality results."
   },
   {
-    "id": 156,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "During the exposure of a periapical radiograph using the paralleling technique, the image receptor is placed too far away from the lingual surfaces of the teeth, and the central ray is properly aligned perpendicular to the receptor. What primary geometric distortion will occur?",
-    "options": [
-      "Fore-shortening",
-      "Elongation",
-      "Overlap of contact points",
-      "Magnification"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Increasing the object-to-receptor distance inherently increases image magnification and decreases sharpness. Foreshortening and elongation are caused by incorrect vertical angulation of the central ray, while overlapping is caused by incorrect horizontal angulation."
-  },
-  {
     "id": 157,
     "topicId": "radiology",
     "difficulty": "medium",
@@ -2296,20 +2254,6 @@
     "explanation": "If a patient is positioned too far back (posterior to the focal trough), the anterior teeth are magnified and appear wide and blurry on the panoramic radiograph. Positioning the chin too high causes a 'frown' line and flat palate over roots. Positioning the chin too low causes an exaggerated 'smile' line and superimposed hyoid bone. Positioning too far forward makes anterior teeth appear small and narrow."
   },
   {
-    "id": 172,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "A 34-year-old female presents for a routine dental examination. A panoramic radiograph reveals a well-defined, unilocular radiolucency with a sclerotic border surrounding the crown of an impacted mandibular third molar. Which of the following is the most likely provisional diagnosis?",
-    "options": [
-      "Odontogenic keratocyst",
-      "Ameloblastoma",
-      "Dentigerous cyst",
-      "Lateral periodontal cyst"
-    ],
-    "correctAnswer": 2,
-    "explanation": "A dentigerous cyst is the most common developmental odontogenic cyst, typically appearing as a well-circumscribed unilocular radiolucency attached to the cementoenamel junction of an unerupted tooth. Odontogenic keratocysts and ameloblastomas can mimic this appearance but are less specifically attached to the crown of an impacted tooth. Lateral periodontal cysts typically occur lateral to the roots of vital teeth, not surrounding the crown."
-  },
-  {
     "id": 173,
     "topicId": "radiology",
     "difficulty": "medium",
@@ -2504,20 +2448,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "A simple (traumatic) bone cyst typically presents as a well-defined radiolucency with characteristic scalloping between the roots of vital teeth, most commonly in the mandibular body and symphysis. Ameloblastomas are expansile and destructive, usually unilateral. Stafne bone defects are well-defined radiolucencies below the inferior alveolar canal in the posterior mandible containing salivary gland tissue. Odontogenic keratocysts are aggressive developmental cysts that do not typically feature classic superior scalloping between roots."
-  },
-  {
-    "id": 187,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "Which of the following biological effects of ionizing radiation is classified as stochastic (probabilistic) rather than deterministic?",
-    "options": [
-      "Radiation-induced leukemia",
-      "Xerostomia",
-      "Cataractogenesis",
-      "Radiation mucositis"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Stochastic effects, such as leukemia and solid tumors, have no threshold dose; their probability of occurrence increases with dose, but their severity is independent of the dose. Xerostomia, cataracts, and mucositis are deterministic (tissue reactions) effects that have a clear threshold below which they do not occur and whose severity increases with higher doses."
   },
   {
     "id": 188,
@@ -2926,20 +2856,6 @@
     "explanation": "The thyroid gland contains rapidly dividing cells that are particularly sensitive to ionizing radiation, especially in children and young adults, making the thyroid collar mandatory in Canadian radiation safety guidelines. While bone marrow and the lens are also radiosensitive, the thyroid gland is the primary organ of concern located directly within the primary or scattered beam path during intraoral imaging, which is mitigated by thyroid shielding."
   },
   {
-    "id": 217,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "During the interpretation of a periapical radiograph of the maxillary posterior region, a radiopaque band is observed extending horizontally across the roots of the premolars and molars. What anatomical structure does this represent?",
-    "options": [
-      "Medial palatine suture",
-      "Zygomatic process of the maxilla",
-      "Maxillary sinus floor",
-      "Incisal canal"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The zygomatic process of the maxilla and the zygoma typically appear as a U-shaped or broad radiopaque band overlying the roots of the maxillary premolars and molars. The maxillary sinus floor is a radiolucent line bounded by a thin radiopaque cortical border. The incisal canal is located in the anterior maxilla, and the median palatine suture is a vertical radiolucent line between the central incisors."
-  },
-  {
     "id": 218,
     "topicId": "radiology",
     "difficulty": "medium",
@@ -3024,20 +2940,6 @@
     "explanation": "Excessive exposure time or high tube current (mA) allows too many X-ray photons to reach the digital sensor, resulting in an overexposed, overly dark digital image. Low kVp typically results in high contrast rather than overall darkness, while distance affects image sharpness and magnification. A cone-cut results in an unexposed (clear) portion of the image, not overall darkness."
   },
   {
-    "id": 224,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "Which of the following radiographic techniques provides the least geometric distortion and is considered the method of choice for determining the precise working length of a root canal during endodontic treatment?",
-    "options": [
-      "Occlusal radiography",
-      "Bisecting-angle technique",
-      "Paralleling technique",
-      "Panoramic radiography"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The paralleling technique places the film/sensor parallel to the long axis of the tooth and directs the central X-ray beam perpendicular to both, minimizing dimensional distortion. The bisecting-angle technique creates dimensional distortion due to the angle formed between the tooth and the film. Panoramic and occlusal radiographs lack the high resolution and specific angle accuracy required for endodontic working length determination."
-  },
-  {
     "id": 225,
     "topicId": "radiology",
     "difficulty": "medium",
@@ -3050,20 +2952,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Ameloblastomas classically present as multilocular radiolucencies in the posterior mandible, frequently causing cortical expansion and root resorption. Radicular cysts are always associated with the apex of a non-vital tooth and are typically unilocular. Stafne bone defects are well-defined radiolucencies below the inferior alveolar canal in the posterior mandible and do not show root resorption. Cementoblastomas are radiopaque masses fused to a tooth root, not multilocular radiolucencies."
-  },
-  {
-    "id": 226,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "During the interpretation of a periapical radiograph of the maxillary central incisors, a V-shaped radiopacity is noted with its apex pointing superiorly towards the nasal septum. What is this normal anatomic landmark?",
-    "options": [
-      "Median palatal suture",
-      "Anterior nasal spine",
-      "Incisive foramen",
-      "Nasal septum"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The anterior nasal spine appears as a V-shaped radiopacity located at the intersection of the floor of the nasal cavity and the nasal septum. The incisive foramen is a round or ovoid radiolucency between the roots of the maxillary central incisors. The median palatal suture is a thin, radiolucent line between the central incisors. The nasal septum is a vertical radiopaque structure dividing the nasal fossa."
   },
   {
     "id": 227,
@@ -3218,20 +3106,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Generalized ground-glass appearance, loss of lamina dura, and a rarefied trabecular pattern throughout both jaws are classic radiographic signs of hyperparathyroidism, often secondary to chronic renal failure (renal osteodystrophy). Paget disease is typically asymmetrical and leads to a 'cotton-wool' appearance and hypercementosis. Fibrous dysplasia is usually unilateral and polyostotic or monostotic, not uniformly generalized across both jaws."
-  },
-  {
-    "id": 238,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "According to Canadian radiation safety guidelines and the ALARA (As Low As Reasonably Achievable) principle, what is the most effective method to reduce patient radiation exposure during dental panoramic radiography?",
-    "options": [
-      "Decreasing the exposure time while increasing the focal-spot-to-object distance",
-      "Removing the protective lead apron to eliminate scatter radiation",
-      "Using a high-speed rare-earth or digital sensor combined with a thyroid collar",
-      "Increasing the kilovolt peak (kVp) to its maximum setting for all patients"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Utilizing high-sensitivity digital sensors or rare-earth intensifying screens drastically reduces the required exposure time, thereby lowering patient dose. Furthermore, using a thyroid collar (when it does not obscure the diagnostic region) protects radiosensitive thyroid tissue. Increasing kVp indiscriminately without clinical rationale violates ALARA, and removing lead aprons contradicts standard safety protocols."
   },
   {
     "id": 239,
@@ -3456,20 +3330,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "A pulp stone (denticle) or diffuse calcification appears as a radiopacity within the pulp chamber or canal space. Condensing osteitis is periapical bone sclerosis, dens invaginatus is an infolding of enamel/dentin from the surface before mineralization, and dentin dysplasia involves abnormal root formation and pulp obliteration globally."
-  },
-  {
-    "id": 255,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "Which of the following radiographic techniques provides the least geometric distortion and is considered the standard of care for periapical imaging in Canadian dental practice?",
-    "options": [
-      "Occlusal projection technique",
-      "Panoramic radiography",
-      "Paralleling technique",
-      "Simple bisecting-angle technique"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The paralleling technique minimizes dimensional distortion and ensures accurate anatomical representation by placing the image receptor parallel to the long axis of the tooth and directing the central X-ray beam perpendicular to both. The bisecting-angle technique introduces significant foreshortening or elongation distortion due to geometric limitations. Panoramic and occlusal techniques are supplementary and do not offer the fine detail required for periapical diagnosis."
   },
   {
     "id": 256,
@@ -3708,20 +3568,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Rectangular collimation restricts the X-ray beam to the exact dimensions of the image receptor, dramatically reducing the volume of irradiated tissue and lowering scattered radiation to sensitive structures like the thyroid gland by up to 60-70% compared to circular collimation. High-speed sensors reduce exposure time. DC machines and aluminum filtration optimize beam quality, but collimation provides the most profound geometrical reduction in unnecessary radiation area."
-  },
-  {
-    "id": 273,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male smoker presents with a painless, irregular radiolucency in the posterior mandible with ill-defined borders and minimal cortical expansion. Which initial imaging modality is most appropriate to evaluate the full extent of this suspected malignant lesion?",
-    "options": [
-      "Standard panoramic radiograph",
-      "Occlusal radiograph",
-      "Cone-beam computed tomography (CBCT)",
-      "Medical computed tomography (CT) with contrast"
-    ],
-    "correctAnswer": 3,
-    "explanation": "For suspected malignancies, medical CT provides superior soft-tissue contrast, evaluation of regional lymph nodes, and accurate assessment of bony destruction compared to dental CBCT or standard radiographs. While CBCT is excellent for high-resolution dental imaging, medical CT is the standard for staging and assessing soft-tissue involvement in malignancy. Panoramic and occlusal radiographs lack the cross-sectional and multiplanar capabilities needed to fully stage a suspected malignant lesion."
   },
   {
     "id": 274,
@@ -4326,20 +4172,6 @@
     "explanation": "Primary or secondary hyperparathyroidism leads to excessive PTH secretion, causing characteristic radiographic findings including subperiosteal bone resorption, generalized demineralization (salt-and-pepper skull), and loss of the lamina dura. Paget disease presents with a 'cotton-wool' appearance and hypercementosis, osteopetrosis shows generalized osteosclerosis (bone-within-bone), and osteogenesis imperfecta presents with osteopenia and dentinogenesis imperfecta."
   },
   {
-    "id": 317,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "Which component of the X-ray tubehead is primarily responsible for absorbing low-energy, long-wavelength X-ray photons that do not contribute to the diagnostic image but increase patient skin dose?",
-    "options": [
-      "Oil immersion",
-      "Lead collimator",
-      "Copper stem",
-      "Aluminium filter"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The aluminium filter selectively absorbs low-energy (soft) X-ray photons that would otherwise be absorbed by the patient's skin, thereby reducing unnecessary radiation dose. The lead collimator restricts the size and shape of the X-ray beam, the copper stem dissipates heat from the tungsten target, and the oil provides electrical insulation and thermal cooling."
-  },
-  {
     "id": 318,
     "topicId": "radiology",
     "difficulty": "medium",
@@ -4408,20 +4240,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Historically termed the 'globulomaxillary cyst' (now understood to be various fissural or odontogenic cysts like OKC or lateral radicular cysts occurring between the maxillary lateral incisor and canine), this lesion classically causes divergence of the adjacent roots of vital teeth. Nasopalatine duct cysts are located in the midline of the anterior hard palate/incisive canal, radicular cysts involve non-vital teeth, and lateral periodontal cysts typically occur in the mandibular premolar region."
-  },
-  {
-    "id": 323,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "Which of the following radiographic techniques is considered the gold standard for evaluating the true buccolingual dimension of bone prior to placing a dental implant in the posterior mandible?",
-    "options": [
-      "Panoramic radiography",
-      "Cone-beam computed tomography (CBCT)",
-      "Periapical radiography using the paralleling technique",
-      "Occlusal radiography"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Cone-beam computed tomography (CBCT) provides three-dimensional imaging with high spatial resolution, allowing clinicians to accurately assess buccolingual bone width, height, and proximity to vital structures like the inferior alveolar canal. Panoramic, periapical, and standard occlusal radiographs are two-dimensional and suffer from magnification, distortion, and lack of cross-sectional depth information."
   },
   {
     "id": 324,
@@ -4522,20 +4340,6 @@
     "explanation": "The Towne projection is an extraoral view specifically angled to project the condylar heads free of the mastoid process, making it ideal for visualizing fractures and mediolateral displacement of the mandibular condyles. The Waters projection is used primarily for the midface and maxillary sinuses. Lateral oblique and PA skull projections do not provide the specialized front-to-back angled view required to isolate the condylar neck and head."
   },
   {
-    "id": 331,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "A 45-year-old female patient complains of persistent dull pain in the left maxillary posterior region. Periapical radiographs are inconclusive, and you suspect a localized periapical lesion obscured by the zygomatic process. Which advanced imaging modality is the most appropriate first-line choice for definitive 3D diagnostic evaluation with the lowest effective radiation dose?",
-    "options": [
-      "Medical computed tomography (CT)",
-      "Cone-beam computed tomography (CBCT) limited field of view",
-      "Magnetic resonance imaging (MRI)",
-      "Conventional tomography"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Limited field of view (FOV) CBCT provides high-resolution 3D images of specific dental regions while delivering a significantly lower radiation dose than traditional medical CT. Medical CT carries an unnecessarily high radiation dose for localized dental diagnosis. MRI is poor at visualizing hard mineralized dental structures, and conventional tomography is largely obsolete."
-  },
-  {
     "id": 332,
     "topicId": "radiology",
     "difficulty": "medium",
@@ -4548,20 +4352,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "This appearance is classic for a Stafne bone defect (static bone cyst), which is an asymptomatic developmental concavity of the mandible containing salivary gland tissue and requires no treatment. Biopsy and surgery are contraindicated as the lesion is stable and benign. Resection is an aggressive and completely unwarranted intervention."
-  },
-  {
-    "id": 333,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "Radiation safety principles dictate that dental staff should stand at a specific angle and distance from the primary source during an exposure if a protective barrier is unavailable. What is the recommended positioning according to radiation protection guidelines?",
-    "options": [
-      "Directly behind the patient, 1 meter away",
-      "Facing the tubehead, 1 meter away",
-      "At a 90 to 135-degree angle to the primary beam, at least 2 meters away",
-      "At a 45-degree angle to the primary beam, 1 meter away"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Standing at a 90 to 135-degree angle to the direction of the primary beam places the operator outside the primary scatter path, and a distance of at least 2 meters significantly reduces radiation intensity via the inverse square law. Standing closer or directly in the path of scatter radiation increases occupational exposure."
   },
   {
     "id": 334,
@@ -4646,20 +4436,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Placing the receptor parallel to the tooth and directing the central beam perpendicular to both minimizes geometric distortions such as elongation or foreshortening, resulting in an accurate dimensional representation. Overlapping is controlled by horizontal angulation, not vertical alignment. Radiation dose is governed by exposure factors and filtration, and thyroid collars remain essential regardless of technique."
-  },
-  {
-    "id": 340,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "A dentist is evaluating a bitewing radiograph and notices that the interproximal contacts between the maxillary premolars are severely overlapped. This error is most likely caused by an incorrect adjustment in which of the following parameters?",
-    "options": [
-      "Insufficient exposure time",
-      "Vertical angulation of the primary beam",
-      "Improper vertical receptor placement",
-      "Horizontal angulation of the primary beam"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Overlapped interproximal contacts on radiographs are caused by incorrect horizontal angulation, where the central ray is not directed perpendicularly through the interproximal spaces. Incorrect vertical angulation leads to foreshortening or elongation of the teeth. Insufficient exposure time results in a diagnostically poor, underexposed (light) image rather than contact overlap."
   },
   {
     "id": 341,
@@ -4856,20 +4632,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "The nasopalatine duct cyst is the most common non-odontogenic developmental cyst of the oral cavity, characteristically presenting as a heart-shaped radiolucency in the midline of the anterior maxilla due to the superimposition of the nasal septum. Globulomaxillary cysts are now understood to be of odontogenic origin and do not typically occupy the midline. Nasolabial cysts are soft-tissue lesions that rarely show bone involvement, and incisive canal cysts are synonymous with nasopalatine duct cysts, but the classic term is nasopalatine duct cyst."
-  },
-  {
-    "id": 355,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "Which of the following radiographic techniques is considered the gold standard for evaluating the true buccolingual extent of a mandibular odontogenic tumor prior to surgical intervention?",
-    "options": [
-      "Cone-beam computed tomography (CBCT)",
-      "Periapical radiography using the paralleling technique",
-      "Panoramic radiography",
-      "Occlusal radiography"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Cone-beam computed tomography (CBCT) provides three-dimensional imaging that accurately depicts the buccolingual expansion, cortical perforation, and spatial relationship of lesions to vital structures. Two-dimensional modalities like panoramic, occlusal, and periapical radiographs superimpose anatomical structures and lack true three-dimensional dimensional accuracy for buccolingual extent."
   },
   {
     "id": 356,
@@ -5094,20 +4856,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Classically described as a pear-shaped radiolucency between the roots of the maxillary lateral incisor and canine causing root divergence, this historical entity is termed a globulomaxillary cyst (though modern pathology classifies most as odontogenic keratocysts or developmental cysts of the region). Nasopalatine duct cysts are located in the midline of the anterior maxilla (heart-shaped). Radicular cysts are associated with non-vital teeth."
-  },
-  {
-    "id": 372,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "Which of the following radiographic techniques is considered the gold standard for evaluating the true buccolingual width and spatial relationship of a mandibular third molar to the inferior alveolar canal prior to surgical extraction?",
-    "options": [
-      "Lateral oblique radiograph",
-      "Cone-beam computed tomography (CBCT)",
-      "Panoramic radiography",
-      "Periapical radiography"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Cone-beam computed tomography (CBCT) provides three-dimensional visualization, allowing clinicians to accurately assess the buccolingual position of roots relative to the mandibular canal. Two-dimensional modalities like panoramic and periapical radiographs superimpose structures and lack depth perception. Lateral oblique radiographs also suffer from superimposition and high geometric distortion."
   },
   {
     "id": 373,
@@ -5430,34 +5178,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Idiopathic osteosclerosis (dense bone island or enostosis) represents a localized region of compact bone, appearing as a well-defined radiopacity without a radiolucent rim (though a slight halo can occasionally mimic one). Cementoblastomas are fused to the root of a vital tooth and typically exhibit a distinct radiolucent rim. Complex odontomas present as a conglomeration of dental tissues with a radiolucent rim corresponding to a follicular sac. Hypercementosis is an excessive buildup of cementum strictly along the root surface."
-  },
-  {
-    "id": 396,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "Which of the following tissues or organs exhibits the highest relative radiosensitivity according to tissue weighting factors in radiation protection?",
-    "options": [
-      "Red bone marrow and gonads",
-      "Salivary glands and thyroid",
-      "Bone and muscle",
-      "Brain and spinal cord"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Red bone marrow and gonads contain rapidly dividing, radiosensitive stem cells and have high tissue weighting factors, making them significantly more vulnerable to stochastic and deterministic effects of ionizing radiation. Neural tissue (brain and spinal cord) and mature muscle tissue are composed of highly differentiated, non-dividing cells and have very low radiosensitivity. While the thyroid and salivary glands are exposed in dental radiology, their tissue weighting factors are lower than those assigned to radiosensitive hematopoietic tissue and gonads."
-  },
-  {
-    "id": 397,
-    "topicId": "radiology",
-    "difficulty": "medium",
-    "question": "A 45-year-old female presents with a painless, slow-growing swelling of the anterior maxilla. A periapical radiograph shows a well-circumscribed radiolucency between the roots of the maxillary central incisors, causing divergence of the roots. The associated teeth are vital. What is the most probable diagnosis?",
-    "options": [
-      "Globulomaxillary cyst",
-      "Traumatic bone cyst",
-      "Radicular cyst",
-      "Nasopalatine duct cyst"
-    ],
-    "correctAnswer": 3,
-    "explanation": "A nasopalatine duct cyst is the most common non-odontogenic developmental cyst of the oral cavity, typically presenting as a heart-shaped or well-circumscribed round radiolucency in the midline of the anterior maxilla above the central incisors, with associated vital teeth. A radicular cyst requires a non-vital tooth, as it arises from inflammatory pulpal necrosis. The term 'globulomaxillary cyst' is historically obsolete as these are now recognized as other types of cysts (like odontogenic keratocysts or lateral periodontal cysts), and traumatic bone cysts typically scallop between tooth roots without causing root divergence."
   },
   {
     "id": 398,
@@ -6200,5 +5920,915 @@
     ],
     "correctAnswer": 3,
     "explanation": "The clinical presentation (painful, diffuse swelling, purulent discharge in a diabetic patient, which is a risk factor) coupled with radiographic findings of ill-defined radiolucencies, sclerotic bone, widened PDL, and cortical bone resorption are classic signs of osteomyelitis. Osteoradionecrosis would be seen in a patient with a history of radiation therapy. Paget's disease presents with a 'cotton-wool' appearance and bone enlargement, while fibrous dysplasia typically shows a 'ground-glass' appearance, neither matching the mixed lytic/sclerotic pattern with infection."
+  },
+  {
+    "id": 989990324,
+    "topicId": "radiology",
+    "question": "A 45-year-old female presents for a routine check-up. She reports occasional bleeding gums when brushing and mild discomfort. Her medical history includes well-controlled Type 2 Diabetes Mellitus. Intraoral examination reveals generalized gingival inflammation, probing depths ranging from 4-6mm, and moderate plaque accumulation. Radiographs show generalized horizontal bone loss consistent with the clinical findings. What is the MOST appropriate initial management strategy?",
+    "options": [
+      "Prescription for systemic antibiotics and chlorhexidine rinse.",
+      "Referral to a periodontist for surgical intervention.",
+      "Extraction of all teeth with probing depths greater than 5mm.",
+      "Comprehensive oral hygiene instructions and scaling and root planing."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For chronic periodontitis, particularly in a patient with well-controlled diabetes, the most appropriate initial management is non-surgical therapy, focusing on plaque control through oral hygiene instructions and thorough scaling and root planing. Systemic antibiotics are not typically indicated as a primary monotherapy for chronic periodontitis, and surgical intervention is usually considered after initial non-surgical approaches have been attempted and re-evaluated. Extraction is a last resort, not an initial management strategy."
+  },
+  {
+    "id": 946084430,
+    "topicId": "radiology",
+    "question": "A 32-year-old male patient presents for the extraction of a mandibular third molar. His medical history indicates he is taking warfarin for a previous deep vein thrombosis. Clinical examination confirms a fully erupted but symptomatic tooth. INR was checked yesterday and is 2.8. What is the MOST appropriate management regarding his anticoagulant medication for this procedure?",
+    "options": [
+      "Discontinue warfarin 3 days prior to the extraction.",
+      "Increase warfarin dose to achieve an INR of 3.5-4.0 before extraction.",
+      "Proceed with extraction without altering warfarin, ensuring local hemostatic measures.",
+      "Switch warfarin to low molecular weight heparin for 24 hours prior to extraction."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For minor oral surgical procedures like a single tooth extraction, an INR within the therapeutic range (typically 2.0-3.0 or 2.5-3.5) allows continuation of warfarin with local hemostatic measures such as pressure, sutures, and absorbable hemostatic agents. Discontinuing or altering warfarin poses a higher risk of thrombotic events than the bleeding risk of a single extraction, while increasing the dose would unnecessarily increase bleeding risk. Switching to heparin (bridging therapy) is generally reserved for more extensive surgical procedures or patients at high risk of thrombosis if warfarin is stopped."
+  },
+  {
+    "id": 585973810,
+    "topicId": "radiology",
+    "question": "Which of the following methods is considered the most reliable for routine monitoring of steam sterilizers (autoclaves) in a dental practice, according to Canadian infection control guidelines?",
+    "options": [
+      "Chemical indicator tapes placed on instrument packs.",
+      "Visual inspection of the water level in the sterilizer chamber.",
+      "Recording temperature and pressure readings for each cycle.",
+      "Biological spore testing at regular intervals."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Biological spore testing is the gold standard for routine monitoring of sterilizers as it directly assesses the sterilizer's ability to kill highly resistant microorganisms, thus confirming sterility. Chemical indicators only indicate that certain conditions (e.g., temperature, steam) were met, not necessarily sterility. Visual inspection and recording physical parameters are important operational checks but do not confirm the biological effectiveness of the sterilization process."
+  },
+  {
+    "id": 151178271,
+    "topicId": "radiology",
+    "question": "A 68-year-old female patient presents with a complaint of a burning sensation on her tongue and generalized oral discomfort for the past several months. She reports a history of recurrent oral ulcers that heal within 7-10 days but frequently recur in different locations. Intraoral examination reveals multiple erythematous areas, some with central ulcerations, on the buccal mucosa, lateral tongue, and gingiva, surrounded by fine, white, radiating striae. Her medical history is significant for hypertension and anxiety. What is the MOST likely diagnosis?",
+    "options": [
+      "Oral lichen planus.",
+      "Recurrent aphthous stomatitis.",
+      "Herpes simplex virus infection.",
+      "Erythema multiforme."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The classic presentation of recurrent oral ulcers with surrounding fine, white, radiating striae (Wickham's striae) on multiple oral mucosal sites, accompanied by a burning sensation, is highly characteristic of oral lichen planus. Recurrent aphthous stomatitis typically presents with discrete ulcers without striae or surrounding white lesions. Herpes simplex usually presents as vesicles that rupture into ulcers and often involves keratinized tissue, while erythema multiforme often has a sudden onset with target lesions, which is not described here."
+  },
+  {
+    "id": 150352905,
+    "topicId": "radiology",
+    "question": "A 28-year-old female patient presents with spontaneous, severe pain in the mandibular left quadrant, exacerbated by cold and chewing. The pain lingers for several minutes after the stimulus is removed. Clinical examination reveals a deep carious lesion in tooth #36 (mandibular left first molar). Percussion and palpation tests are positive. Radiographic examination shows periapical widening of the periodontal ligament space. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Reversible pulpitis with normal apical tissues.",
+      "Symptomatic irreversible pulpitis with symptomatic apical periodontitis.",
+      "Necrotic pulp with acute apical abscess.",
+      "Asymptomatic irreversible pulpitis with asymptomatic apical periodontitis."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Spontaneous, severe pain and lingering pain to cold are classic symptoms of symptomatic irreversible pulpitis. Positive percussion and palpation tests, coupled with radiographic periapical widening, indicate symptomatic apical periodontitis. Reversible pulpitis would not have spontaneous or lingering pain, and asymptomatic diagnoses do not fit the described symptoms. While an acute apical abscess would also have symptomatic apical periodontitis, the presence of lingering pain to cold points more specifically to irreversible pulpitis rather than outright necrosis leading to an abscess."
+  },
+  {
+    "id": 605692101,
+    "topicId": "radiology",
+    "question": "A 19-year-old male patient presents with acute trismus, dysphagia, and severe pain in the right mandibular angle region. He reports that his wisdom tooth started bothering him a few days ago. Intraoral examination reveals swelling and erythema over the operculum of the partially erupted mandibular right third molar. What is the MOST appropriate initial management in a general dental practice?",
+    "options": [
+      "Immediate surgical extraction of the impacted third molar.",
+      "Prescribe broad-spectrum antibiotics and analgesics, irrigate under the operculum, and advise warm saline rinses.",
+      "Incision and drainage of the operculum to release pus.",
+      "Referral to an oral and maxillofacial surgeon for urgent inpatient management."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For acute pericoronitis with signs of local infection (swelling, erythema, pain) and systemic involvement (trismus, dysphagia), initial management focuses on controlling the infection and inflammation. This typically involves mechanical débridement (irrigation under the operculum), prescribing antibiotics (given systemic symptoms), and pain management. Immediate surgical extraction in an acutely inflamed area is generally contraindicated due to the risk of spreading infection and anesthetic challenges. Incision and drainage of the operculum is not a standard treatment for pericoronitis, and urgent referral for inpatient management is usually reserved for more severe, rapidly spreading infections or immunocompromised patients."
+  },
+  {
+    "id": 489095062,
+    "topicId": "radiology",
+    "question": "Which of the following local anesthetic agents is metabolized primarily by pseudocholinesterase in the plasma?",
+    "options": [
+      "Procaine",
+      "Lidocaine",
+      "Bupivacaine",
+      "Articaine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Procaine is an ester-type local anesthetic, and ester-type local anesthetics are primarily metabolized by pseudocholinesterase enzymes in the plasma. Lidocaine and Bupivacaine are amide-type local anesthetics, which are predominantly metabolized in the liver. While Articaine is an amide, it possesses an ester group allowing for some plasma metabolism; however, its primary metabolism remains hepatic, making Procaine the correct answer for primary plasma metabolism."
+  },
+  {
+    "id": 181966279,
+    "topicId": "radiology",
+    "question": "A 62-year-old male patient presents with a fractured cusp on tooth #46 (mandibular right first molar), extending subgingivally on the buccal aspect. The tooth has a large existing amalgam restoration. Clinical examination reveals no pulp exposure, but the fracture line extends below the cementoenamel junction. What is the MOST appropriate restorative management option?",
+    "options": [
+      "Direct composite restoration.",
+      "Amalgam build-up with an onlay restoration.",
+      "Extraction due to non-restorable fracture.",
+      "Full coverage crown after crown lengthening procedure."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A subgingival fracture extending below the cementoenamel junction often requires a crown lengthening procedure to expose healthy tooth structure. This allows for proper isolation, margin placement, and ferrule effect, which is critical before placing a full coverage crown to restore strength and protection. Direct composite or amalgam build-up with an onlay would not be suitable due to the subgingival margin and lack of adequate retention and seal. Extraction is typically a last resort if the tooth is deemed truly non-restorable even after surgical exposure."
+  },
+  {
+    "id": 75047403,
+    "topicId": "radiology",
+    "question": "A 7-year-old female patient presents with a deep carious lesion on the mandibular left primary second molar (#75). The tooth is asymptomatic, but a periapical radiograph shows internal root resorption and a small radiolucency in the furcation area. The permanent successor (#35) is developing normally. What is the MOST appropriate management?",
+    "options": [
+      "Extraction.",
+      "Pulpotomy.",
+      "Direct pulp cap.",
+      "Indirect pulp cap."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Internal root resorption and furcation radiolucency in a primary molar indicate irreversible pulpitis or pulpal necrosis with periradicular pathology. In such cases, vital pulp therapy procedures like pulpotomy, direct pulp cap, or indirect pulp cap are contraindicated. Given the signs of irreversible pulp damage and periradicular infection, extraction is the most appropriate management for the primary molar to prevent infection spread and protect the developing permanent successor."
+  },
+  {
+    "id": 152416718,
+    "topicId": "radiology",
+    "question": "Which of the following medications is known to commonly cause gingival hyperplasia as a side effect?",
+    "options": [
+      "Amoxicillin",
+      "Metformin",
+      "Hydrochlorothiazide",
+      "Nifedipine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Nifedipine, a calcium channel blocker, is well-known to commonly cause gingival hyperplasia as a side effect due to its effect on collagen metabolism in gingival fibroblasts. Amoxicillin (an antibiotic), Metformin (an antidiabetic agent), and Hydrochlorothiazide (a diuretic) are not typically associated with gingival hyperplasia. Careful medication review is crucial for managing patients experiencing this condition."
+  },
+  {
+    "id": 144657500,
+    "topicId": "radiology",
+    "question": "A 50-year-old male patient presents with generalized moderate periodontitis. After initial non-surgical periodontal therapy (scaling and root planing), re-evaluation reveals persistent probing depths of 6-7mm with bleeding on probing in the posterior maxillary sextant. The patient maintains good oral hygiene. What is the MOST appropriate next step in management?",
+    "options": [
+      "Repeat scaling and root planing in the affected area.",
+      "Systemic antibiotic therapy for 7 days.",
+      "Periodontal flap surgery.",
+      "Maintenance recall every 6 months."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Persistent deep pockets with bleeding on probing after initial non-surgical therapy (scaling and root planing), despite good oral hygiene, indicate sites that are refractory or not responding adequately to conservative treatment. Periodontal flap surgery is typically indicated to gain access for thorough débridement, address osseous defects, or allow for regenerative procedures in these persistent sites. Repeating non-surgical therapy alone is unlikely to achieve better results, and systemic antibiotics are generally considered an adjunct, not a primary next step for localized persistent deep pockets. Maintenance recall is appropriate only for stable patients following active therapy."
+  },
+  {
+    "id": 315282144,
+    "topicId": "radiology",
+    "question": "A 30-year-old female patient presents with a firm, rubbery, pink, nodular mass on the buccal mucosa, near the commissure, measuring approximately 1.5 cm in diameter. She reports that it has been slowly growing over the past year and is asymptomatic. She denies any trauma to the area. On palpation, it is movable and non-tender. What is the MOST likely diagnosis?",
+    "options": [
+      "Fibroma (Irritation fibroma).",
+      "Mucocele.",
+      "Lipoma.",
+      "Pleomorphic adenoma."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A fibroma, also known as an irritation fibroma, is a common reactive hyperplasia of fibrous connective tissue, often caused by chronic irritation or trauma. It typically presents as a firm, pink, asymptomatic nodule on areas frequently traumatized such as the buccal mucosa. A mucocele is usually softer, bluish, and fluctuating, resulting from extravasation or retention of saliva. A lipoma is a benign tumor of fat cells, appearing yellowish and feeling soft or doughy. A pleomorphic adenoma is a salivary gland tumor, typically occurring in the palate or parotid gland, and is less likely to present as a solitary lesion on the buccal mucosa."
+  },
+  {
+    "id": 12366350,
+    "topicId": "radiology",
+    "question": "What is the primary mechanism of action of non-steroidal anti-inflammatory drugs (NSAIDs) in pain management?",
+    "options": [
+      "Blocking opioid receptors in the central nervous system.",
+      "Inhibiting prostaglandin synthesis by blocking cyclooxygenase (COX) enzymes.",
+      "Directly stimulating GABA receptors, leading to central nervous system depression.",
+      "Altering the perception of pain through modulation of serotonin and norepinephrine reuptake."
+    ],
+    "correctAnswer": 1,
+    "explanation": "NSAIDs primarily exert their analgesic and anti-inflammatory effects by inhibiting cyclooxygenase (COX) enzymes, which are responsible for the synthesis of prostaglandins. Prostaglandins are key mediators of pain, inflammation, and fever. Blocking opioid receptors is the mechanism of action for opioid analgesics, while stimulating GABA receptors is associated with benzodiazepines and general anesthetics. Modulation of serotonin and norepinephrine reuptake is the mechanism of action for certain antidepressants, which can have some neuropathic pain effects but is not the primary mechanism of NSAIDs."
+  },
+  {
+    "id": 757822104,
+    "topicId": "radiology",
+    "question": "A 22-year-old male patient, with no significant medical history, experiences a sudden onset of severe shortness of breath, generalized urticaria, and facial swelling immediately after receiving a local anesthetic injection containing epinephrine. His blood pressure drops significantly. What is the MOST appropriate immediate emergency management?",
+    "options": [
+      "Administer intramuscular epinephrine (0.3-0.5 mg of 1:1000 solution).",
+      "Administer oral antihistamine and observe.",
+      "Place the patient in Trendelenburg position and monitor vital signs.",
+      "Administer oxygen and initiate CPR."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The patient is experiencing anaphylaxis, a life-threatening allergic reaction characterized by rapid onset of symptoms affecting multiple body systems, including respiratory distress, widespread urticaria, and hypotension. Intramuscular epinephrine is the first-line and most critical treatment for anaphylaxis as it rapidly reverses bronchospasm and hypotension. Oral antihistamines are too slow and ineffective for severe reactions. While placing the patient in Trendelenburg position and administering oxygen are supportive measures, they are not the primary treatment. CPR is initiated only if the patient becomes unresponsive and pulseless."
+  },
+  {
+    "id": 115471585,
+    "topicId": "radiology",
+    "question": "A 35-year-old female patient presents expressing dissatisfaction with the color of her anterior teeth. She has no pain or sensitivity, and her oral hygiene is excellent. Clinical examination reveals generalized yellow discoloration of all maxillary and mandibular anterior teeth, with no evidence of intrinsic staining from previous trauma or medications. What is the MOST appropriate initial treatment recommendation for esthetic improvement?",
+    "options": [
+      "Direct composite veneers.",
+      "Porcelain veneers.",
+      "Professional vital tooth bleaching (whitening).",
+      "Full coverage crowns on all anterior teeth."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For generalized yellow discoloration of vital teeth without significant intrinsic staining, structural defects, or malposition, professional vital tooth bleaching is the least invasive, most conservative, and typically the most appropriate initial esthetic treatment. Direct or porcelain veneers are more invasive restorative options usually reserved for cases with more complex esthetic challenges (e.g., malposition, severe intrinsic staining unresponsive to bleaching, or significant structural defects). Full coverage crowns are the most invasive and are generally indicated for teeth with extensive destruction or severe structural compromise, not primarily for color improvement alone."
+  },
+  {
+    "id": 642993269,
+    "topicId": "radiology",
+    "question": "According to the Canadian Dental Association Code of Ethics, what ethical principle is most directly associated with a dentist's duty to safeguard patient information and maintain confidentiality?",
+    "options": [
+      "Beneficence.",
+      "Autonomy.",
+      "Justice.",
+      "Veracity."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ethical principle of Autonomy emphasizes the patient's right to self-determination, which includes their right to control their personal health information and privacy. Maintaining confidentiality directly respects this right by ensuring that sensitive information is not disclosed without the patient's consent. While confidentiality also supports beneficence (doing good for the patient) and non-maleficence (avoiding harm), the fundamental right to privacy over one's data is most directly rooted in the principle of autonomy."
+  },
+  {
+    "id": 225920975,
+    "topicId": "radiology",
+    "question": "A 55-year-old male patient, a heavy smoker and alcohol consumer, presents with a persistent, non-scrapable white lesion on his left buccal mucosa, roughly 3x2 cm in size, with an irregular and corrugated surface. He reports no associated pain. What is the MOST appropriate diagnostic next step?",
+    "options": [
+      "Prescribe nystatin suspension to rule out candidiasis.",
+      "Advise strict smoking and alcohol cessation, then re-evaluate in 4 weeks.",
+      "Perform an incisional biopsy of the lesion.",
+      "Initiate topical corticosteroid therapy to reduce inflammation."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given the patient's significant risk factors (heavy smoking and alcohol consumption), the persistent, non-scrapable, irregular, and corrugated white lesion is highly suspicious for oral leukoplakia, a potentially malignant disorder. An incisional biopsy is the most appropriate diagnostic next step to obtain a definitive histological diagnosis and rule out dysplasia or carcinoma. While advising smoking and alcohol cessation is crucial for overall health, it should not delay a definitive diagnosis. Nystatin is for candidiasis, which is typically scrapable or responds to antifungal therapy. Topical corticosteroids are not indicated for white lesions suspected of malignancy."
+  },
+  {
+    "id": 68595951,
+    "topicId": "radiology",
+    "question": "A 10-year-old male patient presents to the emergency clinic after falling and hitting his front teeth. Clinically, tooth #11 (maxillary right central incisor) is discolored (dark gray), non-responsive to pulp testing, and percussion sensitive. Radiographically, the tooth shows an open apex and a small periapical radiolucency. What is the MOST appropriate treatment for tooth #11?",
+    "options": [
+      "Apexification with calcium hydroxide.",
+      "Direct pulp capping.",
+      "Pulpectomy followed by immediate obturation.",
+      "Revascularization (regenerative endodontic procedure)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a necrotic permanent tooth with an open apex in a young patient, revascularization (also known as a regenerative endodontic procedure) is the preferred treatment. This procedure aims to promote healing, allow for continued root development (apexogenesis), and thicken the dentinal walls. Apexification with calcium hydroxide is an alternative, but it does not encourage continued root development. Direct pulp capping is indicated for vital pulp exposures, and pulpectomy followed by immediate obturation is typically performed on mature teeth with closed apices."
+  },
+  {
+    "id": 368229205,
+    "topicId": "radiology",
+    "question": "Which of the following cranial nerves is primarily responsible for the sensation of taste from the anterior two-thirds of the tongue?",
+    "options": [
+      "Trigeminal nerve (CN V).",
+      "Glossopharyngeal nerve (CN IX).",
+      "Facial nerve (CN VII).",
+      "Vagus nerve (CN X)."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Facial nerve (CN VII) is primarily responsible for the sensation of taste from the anterior two-thirds of the tongue, conveying these impulses via its chorda tympani branch. The Trigeminal nerve (CN V) provides general sensation (touch, pain, temperature) to this same area, but not taste. The Glossopharyngeal nerve (CN IX) innervates the posterior one-third of the tongue for both taste and general sensation, while the Vagus nerve (CN X) provides taste sensation to the epiglottis and pharynx."
+  },
+  {
+    "id": 703445551,
+    "topicId": "radiology",
+    "question": "A 40-year-old female patient presents with a slowly growing, painless swelling in the anterior maxilla, causing displacement of teeth #11 and #21 (maxillary central incisors). Radiographic examination reveals a well-defined, unilocular radiolucency associated with the crowns of the unerupted maxillary canines (#13, #23) and extending towards the midline. The radiolucency has a sclerotic border. What is the MOST likely diagnosis?",
+    "options": [
+      "Periapical cyst.",
+      "Dentigerous cyst (Follicular cyst).",
+      "Odontogenic keratocyst (Keratocystic odontogenic tumor).",
+      "Ameloblastoma."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A well-defined, unilocular radiolucency associated with the crown of an unerupted or impacted tooth, causing displacement of adjacent teeth, is highly characteristic of a dentigerous cyst (follicular cyst). Periapical cysts are associated with non-vital teeth and usually involve the apex. While odontogenic keratocysts can be unilocular, their typical growth pattern is anteroposterior along the mandible, and they are not necessarily associated with unerupted teeth. Ameloblastomas are typically multilocular, have an aggressive nature, and are less likely to present as a simple, unilocular lesion with a sclerotic border in this specific context."
+  },
+  {
+    "id": 684487375,
+    "topicId": "radiology",
+    "question": "A 65-year-old female presents with a slowly enlarging, firm, painless swelling in her anterior mandibular vestibule. She has a history of a root canal treated tooth #31 (mandibular right lateral incisor). Radiographically, a well-circumscribed unilocular radiolucency is noted apical to tooth #31, associated with root resorption. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Radicular cyst",
+      "Periapical granuloma",
+      "Dentigerous cyst",
+      "Ameloblastoma"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A radicular cyst is the most appropriate diagnosis given its association with a non-vital tooth and apical radiolucency, often leading to root resorption. A periapical granuloma is an inflammatory lesion, not a true cyst, and less likely to cause significant root resorption. A dentigerous cyst is associated with the crown of an unerupted tooth, which is not the case here."
+  },
+  {
+    "id": 922542448,
+    "topicId": "radiology",
+    "question": "A 40-year-old male presents for a recall appointment. He has generalized moderate chronic periodontitis. Despite initial scaling and root planing 6 months ago, probing depths of 6-7mm persist on the buccal of #16 and #46 with bleeding on probing. Oral hygiene is adequate. What is the MOST appropriate next step in management?",
+    "options": [
+      "Perform full mouth debridement again",
+      "Referral to a periodontist",
+      "Prescribe systemic antibiotics",
+      "Re-evaluate in 3 months"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Persistent deep probing depths (≥6mm) with bleeding on probing after initial periodontal therapy and adequate oral hygiene indicate refractory periodontitis, warranting specialist evaluation. Re-evaluating in 3 months without further intervention is insufficient, and systemic antibiotics are typically adjunctive to mechanical debridement, not a standalone solution for persistent localized pockets."
+  },
+  {
+    "id": 757756174,
+    "topicId": "radiology",
+    "question": "A 58-year-old male with a history of hypertension controlled with ramipril and Type 2 diabetes controlled with metformin requires extraction of tooth #38. He is currently taking clopidogrel (Plavix) due to a previous stent placement. What is the MOST appropriate management of his anticoagulant medication prior to extraction?",
+    "options": [
+      "Proceed with extraction without altering clopidogrel",
+      "Discontinue clopidogrel for 5 days",
+      "Consult with the patient's physician regarding clopidogrel",
+      "Double the dose of clopidogrel"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Consultation with the patient's prescribing physician is paramount for managing antiplatelet medications like clopidogrel, especially given a history of stent placement. Discontinuing clopidogrel without medical guidance significantly increases the risk of serious cardiovascular events. Proceeding without alteration or doubling the dose are both potentially dangerous approaches for an extraction."
+  },
+  {
+    "id": 690090371,
+    "topicId": "radiology",
+    "question": "A 28-year-old female presents with a fractured cusp on tooth #16 (maxillary right first molar) that extends subgingivally on the buccal aspect. The tooth is vital and asymptomatic. Radiographically, no periapical pathology is noted. What is the MOST appropriate restorative management?",
+    "options": [
+      "Onlay",
+      "Direct composite restoration",
+      "Amalgam restoration",
+      "Full coverage crown"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A full coverage crown is the most appropriate restorative management for a vital tooth with a subgingival fracture, especially on a molar. This provides maximum protection, retention, and strength by encompassing the entire crown. Direct composite or amalgam restorations are inadequate for subgingival fractures that compromise significant tooth structure, and an onlay may not provide sufficient cuspal protection in this scenario."
+  },
+  {
+    "id": 284557726,
+    "topicId": "radiology",
+    "question": "A 35-year-old male patient presents with severe, spontaneous, lingering pain in the maxillary left posterior region that is exacerbated by cold and lingers for several minutes. Percussion and palpation tests are negative. Radiographs show a deep mesio-occlusal distal restoration on tooth #26, with no periapical radiolucency. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Irreversible pulpitis",
+      "Reversible pulpitis",
+      "Necrotic pulp",
+      "Periapical abscess"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The symptoms of severe, spontaneous, lingering pain to cold are characteristic of irreversible pulpitis. Reversible pulpitis would involve sharp, transient pain that subsides quickly upon removal of the stimulus. Necrotic pulp typically does not respond to cold or presents with different symptoms, and a periapical abscess would usually involve percussion sensitivity and/or radiographic periapical pathology."
+  },
+  {
+    "id": 637762827,
+    "topicId": "radiology",
+    "question": "A 42-year-old female presents with a non-healing ulcer on the lateral border of her tongue that has been present for 3 weeks. She is a smoker and occasional alcohol consumer. Clinically, the ulcer has raised, indurated borders. What is the MOST appropriate next step in management?",
+    "options": [
+      "Prescribe topical corticosteroids",
+      "Perform an incisional biopsy",
+      "Reassure the patient and observe",
+      "Prescribe systemic antibiotics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A non-healing ulcer present for more than two weeks, especially with risk factors like smoking/alcohol and suspicious clinical features (raised, indurated borders), mandates an incisional biopsy to rule out malignancy. Prescribing corticosteroids or antibiotics without a definitive diagnosis is inappropriate, and observation would be negligent given the high suspicion for oral cancer."
+  },
+  {
+    "id": 278091272,
+    "topicId": "radiology",
+    "question": "A 7-year-old male patient presents with a deep carious lesion on tooth #74 (mandibular left primary second molar) that is close to the pulp but vital and asymptomatic. There is no radiographic evidence of periapical pathology or internal resorption. What is the MOST appropriate pulp therapy?",
+    "options": [
+      "Pulpectomy",
+      "Direct pulp cap",
+      "Indirect pulp cap",
+      "Pulpotomy"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An indirect pulp cap is the most appropriate treatment for a deep carious lesion in a vital, asymptomatic primary tooth without signs of irreversible pulpitis or periapical pathology. This procedure aims to preserve pulp vitality by leaving a layer of carious dentin over the pulp to stimulate reparative dentin. A direct pulp cap is generally contraindicated in primary teeth due to a higher risk of failure, and pulpotomy/pulpectomy are for more advanced pulp inflammation or necrosis."
+  },
+  {
+    "id": 584365540,
+    "topicId": "radiology",
+    "question": "A 60-year-old female patient, who is a denture wearer, presents with a burning sensation on the palate and a diffuse redness beneath her maxillary denture. She reports not removing her denture at night. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Traumatic ulcer",
+      "Allergic reaction to denture material",
+      "Angular cheilitis",
+      "Candidiasis (Denture stomatitis)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The classic presentation of diffuse redness, burning sensation beneath a denture, and continuous denture wear points to candidiasis, specifically denture stomatitis. A traumatic ulcer would be localized to pressure points, and an allergic reaction, though possible, is less common than candidiasis. Angular cheilitis affects the commissures, not the palate."
+  },
+  {
+    "id": 803592219,
+    "topicId": "radiology",
+    "question": "A 25-year-old male patient presents to the emergency department after sustaining a fall, resulting in a completely avulsed tooth #11 (maxillary right central incisor). The patient located the tooth, which has been out of the mouth for 30 minutes, stored in milk. What is the MOST appropriate immediate management in the dental office?",
+    "options": [
+      "Clean the tooth and replant immediately",
+      "Perform a pulpectomy and then replant",
+      "Store the tooth in saline and refer to an oral surgeon",
+      "Discard the tooth and plan for implant"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For an avulsed permanent tooth, immediate replantation is the most critical factor for a favorable prognosis, especially within 60 minutes of injury. The tooth should be gently rinsed (not scraped) and replanted as quickly as possible. Performing a pulpectomy prior to replantation delays the procedure and reduces the chances of periodontal ligament reattachment. Referral without immediate replantation for a timely case is not ideal, and discarding the tooth is inappropriate."
+  },
+  {
+    "id": 569776152,
+    "topicId": "radiology",
+    "question": "A 70-year-old edentulous male patient presents with ill-fitting complete dentures, complaining of pain and difficulty chewing. Clinically, his dentures show significant wear and poor retention. What is the MOST appropriate initial step in the management of his complaint?",
+    "options": [
+      "Immediately fabricate new dentures",
+      "Assess oral tissues and denture occlusion",
+      "Perform a reline of the existing dentures",
+      "Prescribe pain medication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The most appropriate initial step is a thorough clinical assessment of the patient's oral tissues, underlying bone, and the existing dentures' fit, stability, and occlusion. This comprehensive evaluation is essential to diagnose the specific problems contributing to the patient's complaints before deciding on any treatment. Fabricating new dentures or performing a reline without a proper diagnosis would be premature."
+  },
+  {
+    "id": 678930037,
+    "topicId": "radiology",
+    "question": "A 50-year-old male patient presents for a routine check-up. A panoramic radiograph reveals a large, unilocular, well-defined radiolucency in the posterior mandible, superior to the inferior alveolar canal, associated with an impacted mandibular third molar. What is the MOST likely diagnosis?",
+    "options": [
+      "Ameloblastoma",
+      "Radicular cyst",
+      "Dentigerous cyst",
+      "Odontogenic keratocyst"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A dentigerous cyst (follicular cyst) is the most likely diagnosis for a radiolucency associated with the crown of an unerupted or impacted tooth. It develops from the follicular sac around the crown. A radicular cyst is associated with non-vital teeth, and while ameloblastoma or odontogenic keratocyst can occur in this region, the classic presentation described most strongly suggests a dentigerous cyst."
+  },
+  {
+    "id": 389448210,
+    "topicId": "radiology",
+    "question": "A 30-year-old female patient presents with a pericoronal infection around an erupting mandibular third molar. She has mild trismus and pain, but no systemic signs of infection (fever, lymphadenopathy). What is the MOST appropriate initial management?",
+    "options": [
+      "Immediate extraction of the third molar",
+      "Incision and drainage",
+      "Warm saline rinses and antibiotics",
+      "Irrigation under the operculum and oral hygiene instructions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For mild pericoronitis without systemic involvement, the most appropriate initial management involves local measures to reduce inflammation and infection. This includes irrigation under the operculum to flush out debris and improved oral hygiene. Immediate extraction is often contraindicated during acute infection. Antibiotics might be added if systemic signs are present, and incision and drainage is for localized abscesses."
+  },
+  {
+    "id": 939689069,
+    "topicId": "radiology",
+    "question": "A 38-year-old female patient with no significant medical history requires multiple extractions. She reports severe anxiety regarding dental procedures. What is the MOST appropriate pharmacological agent to manage her anxiety in a general dental practice setting?",
+    "options": [
+      "Nitrous oxide/oxygen sedation",
+      "Oral midazolam",
+      "Intravenous propofol",
+      "General anesthesia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nitrous oxide/oxygen sedation is generally considered the most appropriate and safest pharmacological agent for managing moderate anxiety in a general dental practice setting. It has a rapid onset and offset, is easily titratable, and requires minimal recovery time. Oral midazolam requires stricter monitoring, while intravenous propofol and general anesthesia are typically reserved for specialized settings due to their profound sedative effects and associated risks."
+  },
+  {
+    "id": 238258324,
+    "topicId": "radiology",
+    "question": "Which of the following conditions is characterized by epithelial dysplasia with hyperkeratosis and is considered a premalignant lesion?",
+    "options": [
+      "Leukoplakia",
+      "Lichen planus",
+      "Nicotinic stomatitis",
+      "Frictional keratosis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Leukoplakia is defined as a white patch or plaque that cannot be scraped off and cannot be characterized clinically or pathologically as any other disease. A significant percentage of leukoplakic lesions exhibit epithelial dysplasia, which is a premalignant change. Lichen planus and frictional keratosis are benign conditions, and nicotinic stomatitis is a benign hyperkeratotic reaction, none of which are typically considered premalignant."
+  },
+  {
+    "id": 71097358,
+    "topicId": "radiology",
+    "question": "Which of the following local anesthetic agents has the shortest duration of action without a vasoconstrictor?",
+    "options": [
+      "Bupivacaine",
+      "Articaine",
+      "Mepivacaine",
+      "Lidocaine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mepivacaine 3% without a vasoconstrictor has the shortest duration of action among the commonly used local anesthetics, making it suitable for short procedures. Lidocaine (plain) has a slightly longer duration than plain mepivacaine, while articaine and bupivacaine, especially when used with vasoconstrictors, offer significantly longer durations of action."
+  },
+  {
+    "id": 497198738,
+    "topicId": "radiology",
+    "question": "According to Canadian dental ethics principles, what is the primary ethical obligation when a dentist encounters a child patient with suspected physical abuse?",
+    "options": [
+      "Consult with the patient's parents",
+      "Report to child protective services",
+      "Maintain patient confidentiality",
+      "Document findings in the chart only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dentists in Canada have a legal and ethical duty to report suspected child abuse to the appropriate child protective services, prioritizing the child's safety over patient confidentiality. While documenting findings is crucial, it is insufficient as a primary action. Consulting with parents is inappropriate if they are suspected abusers or would hinder reporting."
+  },
+  {
+    "id": 393550638,
+    "topicId": "radiology",
+    "question": "Which muscle is primarily responsible for the protrusion of the mandible?",
+    "options": [
+      "Lateral pterygoid",
+      "Temporalis",
+      "Masseter",
+      "Medial pterygoid"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The lateral pterygoid muscle, particularly its inferior head, is the primary muscle responsible for the protrusion of the mandible. The temporalis and masseter muscles primarily elevate the mandible, while the medial pterygoid muscle also elevates and assists in protrusion, but the lateral pterygoid is the main protractor."
+  },
+  {
+    "id": 492105173,
+    "topicId": "radiology",
+    "question": "Which of the following restorative materials primarily provides a therapeutic benefit through fluoride release?",
+    "options": [
+      "Amalgam",
+      "Composite resin",
+      "Glass ionomer cement",
+      "Gold alloy"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Glass ionomer cements are unique among the listed restorative materials for their ability to release fluoride, which can provide a therapeutic benefit by aiding in remineralization and caries prevention. Amalgam, composite resin (conventional), and gold alloys do not exhibit significant fluoride release. This makes glass ionomer cements particularly useful in high-caries-risk patients or for specific applications like fissure sealants."
+  },
+  {
+    "id": 19611149,
+    "topicId": "radiology",
+    "question": "A 10-year-old female patient presents with a habit of thumb sucking. Clinically, she exhibits a constricted maxillary arch, anterior open bite, and proclined maxillary incisors. What is the MOST appropriate initial step in managing this habit and its associated malocclusion?",
+    "options": [
+      "Refer for fixed orthodontic appliances",
+      "Monitor for spontaneous correction",
+      "Fabricate a habit-breaking appliance",
+      "Prescribe a removable retainer"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The most appropriate initial step is to address the thumb-sucking habit directly by fabricating a habit-breaking appliance. Eliminating the habit allows for potential self-correction of the malocclusion or creates a more favorable environment for subsequent orthodontic treatment if needed. Monitoring for spontaneous correction is usually for younger children, and fixed appliances or retainers are typically considered after the habit is controlled."
+  },
+  {
+    "id": 731582669,
+    "topicId": "radiology",
+    "question": "A 55-year-old male patient with a history of chronic alcoholism and liver cirrhosis presents for a routine extraction. His INR (International Normalized Ratio) is 2.5. What is the MOST appropriate management before proceeding with the extraction?",
+    "options": [
+      "Administer Vitamin K intravenously",
+      "Proceed with extraction with local hemostatic measures",
+      "Prescribe systemic tranexamic acid",
+      "Consult with physician to assess overall coagulation status and manage INR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "While an INR of 2.5 might be acceptable for simple extractions in a healthy patient, the presence of liver cirrhosis significantly compromises the patient's overall coagulation status beyond just the INR value. Therefore, consultation with the patient's physician is essential to comprehensively assess the bleeding risk and determine the safest management strategy. Administering Vitamin K or tranexamic acid without physician input is inappropriate."
+  },
+  {
+    "id": 607949274,
+    "topicId": "radiology",
+    "question": "A 55-year-old male patient presents with a complaint of a painless, slowly growing swelling in the posterior mandible that he noticed several months ago. He denies any paresthesia or history of trauma. Radiographic examination reveals a large, well-defined, unilocular radiolucency in the body of the mandible, inferior to the apices of the teeth, with slight cortical expansion. The teeth in the area are vital. What is the MOST likely diagnosis?",
+    "options": [
+      "Traumatic bone cyst",
+      "Odontogenic keratocyst",
+      "Ameloblastoma",
+      "Dentigerous cyst"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A traumatic bone cyst (also known as a simple bone cyst) typically presents as a painless, asymptomatic, slowly enlarging unilocular radiolucency in the mandible, often scalloping between roots, and is characterized by empty or fluid-filled cavities, with vital overlying teeth. Ameloblastoma is typically multilocular and aggressive, while an odontogenic keratocyst (keratocystic odontogenic tumor) is often multilocular and aggressive with a high recurrence rate, but can be unilocular; both often cause root resorption or tooth displacement. A dentigerous cyst is associated with the crown of an unerupted tooth."
+  },
+  {
+    "id": 339904006,
+    "topicId": "radiology",
+    "question": "A 40-year-old female patient presents for a periodontal evaluation. She reports generalized gingival bleeding and halitosis. Clinical examination reveals generalized pocket depths ranging from 4-6 mm, radiographic evidence of horizontal bone loss approximately 30% of root length, and generalized gingival inflammation with bleeding on probing. Her medical history includes well-controlled Type 2 diabetes for 5 years. What is the MOST appropriate initial periodontal diagnosis?",
+    "options": [
+      "Aggressive periodontitis",
+      "Chronic periodontitis, generalized moderate",
+      "Necrotizing ulcerative gingivitis",
+      "Gingivitis, plaque-induced"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The clinical and radiographic findings of generalized pocketing (4-6mm), horizontal bone loss (30%), gingival inflammation, and bleeding on probing, along with a history of diabetes, are characteristic of generalized moderate chronic periodontitis. Aggressive periodontitis typically presents with rapid attachment loss and bone destruction in otherwise systemically healthy individuals. Necrotizing ulcerative gingivitis has distinct clinical features like \"punched out\" papillae and pseudomembrane, which are not described. Gingivitis, plaque-induced, is characterized by inflammation without attachment loss or bone loss."
+  },
+  {
+    "id": 374996373,
+    "topicId": "radiology",
+    "question": "A 32-year-old male patient presents with a deep carious lesion on tooth #27 (maxillary left second molar). He reports occasional sharp pain when eating cold foods, which subsides quickly. Clinical examination shows no spontaneous pain, no tenderness to percussion, and the tooth responds normally to vitality testing, although with increased sensitivity to cold. Radiographically, the lesion extends close to the pulp chamber. What is the MOST appropriate diagnosis and management?",
+    "options": [
+      "Irreversible pulpitis; root canal treatment",
+      "Reversible pulpitis; composite restoration after caries removal",
+      "Pulpal necrosis; extraction",
+      "Symptomatic apical periodontitis; pulpectomy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The symptoms of sharp pain to cold that subsides quickly, no spontaneous pain, normal percussion, and normal vitality response despite a deep lesion are indicative of reversible pulpitis. The most appropriate management is caries removal and a definitive restoration (e.g., composite), often with a liner or base. Irreversible pulpitis involves spontaneous or lingering pain to cold/heat and requires root canal treatment. Pulpal necrosis would present with a lack of vitality and possibly periapical pathology, not described here. Symptomatic apical periodontitis is characterized by pain to percussion and periapical inflammation, which is also absent."
+  },
+  {
+    "id": 343804397,
+    "topicId": "radiology",
+    "question": "Which of the following local anesthetic agents possesses both ester and amide linkages in its chemical structure, making it unique among commonly used dental local anesthetics?",
+    "options": [
+      "Articaine",
+      "Bupivacaine",
+      "Lidocaine",
+      "Mepivacaine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Articaine is unique among dental local anesthetics because it contains both an amide linkage and an ester linkage, allowing for both hepatic and plasma metabolism. Lidocaine, bupivacaine, and mepivacaine are all pure amide-type local anesthetics, primarily metabolized in the liver. This dual metabolism gives articaine a shorter plasma half-life compared to other amides."
+  },
+  {
+    "id": 704450333,
+    "topicId": "radiology",
+    "question": "A 68-year-old female patient presents with a chief complaint of a persistent, white, non-scrapable lesion on the buccal mucosa that has been present for several months. She is a long-term smoker and consumes alcohol regularly. The lesion is asymptomatic. What is the MOST appropriate initial step in management?",
+    "options": [
+      "Prescribe nystatin oral suspension",
+      "Advise strict oral hygiene and re-evaluate in one month",
+      "Prescribe topical corticosteroids",
+      "Perform an incisional biopsy of the lesion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A persistent, white, non-scrapable lesion, especially in a patient with a history of smoking and alcohol consumption, is highly suspicious for leukoplakia with potential for dysplasia or malignancy. An incisional biopsy is the most appropriate initial step to obtain a definitive diagnosis. Nystatin is for fungal infections, and topical corticosteroids are for inflammatory conditions. Simply re-evaluating without biopsy is inappropriate given the risk factors and persistence of the lesion."
+  },
+  {
+    "id": 602382238,
+    "topicId": "radiology",
+    "question": "A 9-year-old male patient presents to the emergency clinic after falling and sustaining trauma to his permanent maxillary central incisor (#11). Clinical examination reveals a crown fracture extending into the pulp, with a small pulpal exposure less than 1 mm, which occurred approximately 30 minutes prior. The tooth is vital and asymptomatic to percussion. What is the MOST appropriate immediate treatment?",
+    "options": [
+      "Pulpotomy and permanent restoration",
+      "Direct pulp capping with calcium hydroxide",
+      "Root canal treatment",
+      "Extraction and space maintainer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a small, recent traumatic pulpal exposure in a vital permanent tooth with a closed apex, direct pulp capping with calcium hydroxide or MTA followed by a definitive restoration is the treatment of choice to preserve pulp vitality. Pulpotomy is typically indicated for larger exposures or inflamed coronal pulp. Root canal treatment is indicated for irreversible pulpitis or necrosis, not for vital exposed pulp. Extraction is a last resort and not indicated here."
+  },
+  {
+    "id": 408064517,
+    "topicId": "radiology",
+    "question": "Which of the following properties of an ideal dental impression material is MOST critical for accurate reproduction of fine details, especially when casting a metal framework?",
+    "options": [
+      "High tear strength",
+      "Low viscosity",
+      "Hydrophilicity",
+      "Dimensional stability"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Dimensional stability is the most critical property for impression materials, particularly when casting metal frameworks, as it ensures that the impression accurately maintains its size and shape over time until the cast is poured, preventing distortion. While high tear strength is important for removing the impression without tearing, low viscosity for flow, and hydrophilicity for wetting tissues, these are secondary to dimensional stability for overall accuracy of the final prosthesis."
+  },
+  {
+    "id": 22472139,
+    "topicId": "radiology",
+    "question": "A 35-year-old female patient presents with a 2-week history of painful, recurrent aphthous ulcers on her non-keratinized oral mucosa (buccal vestibule and soft palate). She reports no systemic symptoms and no known medical history. The ulcers are 3-5 mm in diameter, round, with a yellowish-gray pseudomembrane and an erythematous halo. What is the MOST appropriate initial management strategy?",
+    "options": [
+      "Prescribe systemic corticosteroids",
+      "Recommend topical anesthetics and protective coatings",
+      "Order a complete blood count and iron studies",
+      "Advise a biopsy to rule out malignancy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The description of recurrent, painful, small ulcers on non-keratinized mucosa, without systemic symptoms, is classic for minor recurrent aphthous stomatitis. The most appropriate initial management is symptomatic relief using topical anesthetics (e.g., lidocaine rinse) and protective coatings (e.g., Orabase) to alleviate discomfort and promote healing. Systemic corticosteroids are reserved for severe, major, or herpetiform aphthae. While nutritional deficiencies can exacerbate aphthae, initial lab work is not typically the first step unless there are other systemic signs. Biopsy is not indicated for typical aphthous ulcers unless they are persistent, atypical, or raise suspicion of other conditions."
+  },
+  {
+    "id": 439370169,
+    "topicId": "radiology",
+    "question": "A 48-year-old male patient with a history of hypertension controlled by a beta-blocker (propranolol) requires a local anesthetic for a dental procedure. Which of the following considerations is MOST important regarding the choice of local anesthetic with a vasoconstrictor for this patient?",
+    "options": [
+      "Epinephrine should be avoided completely due to interaction with beta-blockers.",
+      "A lower concentration of epinephrine (e.g., 1:200,000) can be used cautiously, limiting the dose.",
+      "Mepivacaine 3% without a vasoconstrictor is the safest choice for this patient.",
+      "The patient should discontinue propranolol 24 hours prior to the appointment."
+    ],
+    "correctAnswer": 1,
+    "explanation": "While there is a potential for exaggerated pressor response in patients on non-selective beta-blockers like propranolol when epinephrine is administered, a small dose of epinephrine (e.g., 1-2 carpules of 1:200,000) can generally be used safely with proper aspiration. Complete avoidance of epinephrine is often unnecessary and can compromise profound anesthesia. Mepivacaine 3% without vasoconstrictor has a shorter duration of action and may not provide adequate anesthesia or hemostasis. Discontinuing beta-blockers can lead to rebound hypertension or angina and is contraindicated without medical consultation."
+  },
+  {
+    "id": 838171081,
+    "topicId": "radiology",
+    "question": "A 22-year-old female patient presents with severe pain and swelling associated with an impacted mandibular third molar (#38). Clinical examination reveals erythema, pus discharge from the operculum, and tenderness to palpation. She has restricted mouth opening. Radiographically, the tooth is partially erupted and mesioangularly impacted. What is the MOST appropriate immediate management?",
+    "options": [
+      "Prescribe antibiotics and schedule for extraction in one week.",
+      "Initiate immediate surgical extraction of the impacted tooth.",
+      "Irrigate under the operculum and perform debridement, then reassess for extraction.",
+      "Administer systemic corticosteroids to reduce inflammation."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient is presenting with acute pericoronitis. The most appropriate immediate management involves local measures to reduce the infection, such as irrigation with antiseptic solution (e.g., chlorhexidine) under the operculum and gentle debridement, along with pain management. Antibiotics may be indicated if there is systemic involvement (fever, lymphadenopathy) or severe trismus, but local measures are primary. Immediate extraction in an acute infection is generally contraindicated due to increased risk of complications. Systemic corticosteroids are not indicated for bacterial infection."
+  },
+  {
+    "id": 764006065,
+    "topicId": "radiology",
+    "question": "Which of the following anatomical structures is MOST commonly associated with paresthesia following a mandibular third molar extraction, particularly when the tooth is deeply impacted or in close proximity?",
+    "options": [
+      "Lingual nerve",
+      "Mental nerve",
+      "Buccal nerve",
+      "Inferior alveolar artery"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The lingual nerve is the anatomical structure most commonly associated with paresthesia following mandibular third molar extraction due to its close proximity to the surgical field, especially for deeply impacted teeth. The mental nerve is a terminal branch of the inferior alveolar nerve, supplying the chin and lower lip, and is more vulnerable in anterior mandibular surgery. The buccal nerve provides sensation to the buccal mucosa and is less frequently damaged in this context. The inferior alveolar artery is a blood vessel, not a nerve, and its damage would cause hemorrhage rather than paresthesia."
+  },
+  {
+    "id": 272736229,
+    "topicId": "radiology",
+    "question": "A 72-year-old male patient presents with ill-fitting complete maxillary and mandibular dentures, complaining of difficulty chewing and speaking. He has been wearing the current dentures for 15 years. Clinical examination reveals significant alveolar ridge resorption, especially in the mandibular anterior region, and loss of occlusal vertical dimension. What is the MOST appropriate initial treatment recommendation?",
+    "options": [
+      "Immediate fabrication of new complete dentures.",
+      "Hard reline of existing dentures.",
+      "Soft reline of existing dentures.",
+      "Placement of dental implants to support new dentures."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given the significant alveolar ridge resorption, loss of occlusal vertical dimension, and the age of the dentures (15 years), the existing dentures are likely beyond repair or simple modification. The most appropriate initial treatment is the fabrication of new complete dentures to re-establish proper occlusal vertical dimension, improve fit, and restore function. Relining is suitable for minor discrepancies in fit, but not for significant changes in vertical dimension or severe resorption. While implants are an excellent option, they are not always the initial or sole recommendation, and new dentures are a fundamental starting point."
+  },
+  {
+    "id": 41064923,
+    "topicId": "radiology",
+    "question": "A 45-year-old female patient presents with spontaneous, throbbing pain in the maxillary right first molar (#16). The pain is exacerbated by hot beverages and lingers for several minutes after the stimulus is removed. Clinical examination reveals a large composite restoration with recurrent decay. The tooth is tender to percussion and palpation. Radiographically, there is a widened periodontal ligament space around the mesial root apex. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Reversible pulpitis with normal apical tissues.",
+      "Pulpal necrosis with chronic apical periodontitis.",
+      "Irreversible pulpitis with symptomatic apical periodontitis.",
+      "Acute apical abscess."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Spontaneous, throbbing pain that lingers after hot stimulation indicates irreversible pulpitis. Tenderness to percussion and palpation, along with a widened periodontal ligament space, signifies symptomatic apical periodontitis. Reversible pulpitis does not have spontaneous or lingering pain and has normal apical tissues. Pulpal necrosis with chronic apical periodontitis would typically be asymptomatic to percussion or mildly symptomatic, and often presents with a radiolucency. An acute apical abscess would involve purulent exudate and severe swelling, which is not described."
+  },
+  {
+    "id": 351042161,
+    "topicId": "radiology",
+    "question": "According to the Canadian Dental Association Code of Ethics, what is the primary ethical obligation of a dentist regarding patient confidentiality?",
+    "options": [
+      "To disclose patient information only when legally compelled by a court order.",
+      "To share patient information with other healthcare providers for continuity of care without explicit consent.",
+      "To maintain patient confidentiality in all circumstances, with no exceptions.",
+      "To obtain explicit informed consent from the patient before disclosing any personal health information, unless legally required or necessary to protect the patient or public from harm."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The primary ethical obligation regarding patient confidentiality is to obtain explicit informed consent before disclosing personal health information. However, there are recognized exceptions where disclosure is legally required (e.g., court order) or necessary to protect the patient or public from serious harm, which aligns with Canadian privacy laws and ethical guidelines. Sharing information for continuity of care typically requires implied or explicit consent, and while vital, it's not \"without explicit consent\" for all information. Maintaining confidentiality \"in all circumstances\" is too absolute, as legal and safety exceptions exist."
+  },
+  {
+    "id": 981606442,
+    "topicId": "radiology",
+    "question": "A 60-year-old male patient with a history of chronic dry mouth (xerostomia) presents with multiple carious lesions located at the cementoenamel junction of several teeth. He reports taking multiple medications for hypertension and depression. What is the MOST likely contributing factor to his current dental condition?",
+    "options": [
+      "Excessive sugar consumption.",
+      "Poor oral hygiene practices.",
+      "Medication-induced xerostomia.",
+      "Age-related enamel demineralization."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Xerostomia (dry mouth) significantly increases the risk of root caries and caries at the cementoenamel junction due to reduced salivary flow and buffering capacity. Many medications for hypertension and depression are known to cause xerostomia as a side effect, making this the most likely primary contributing factor in this patient's case. While poor oral hygiene and sugar consumption are general risk factors for caries, medication-induced xerostomia specifically explains the pattern of root/cervical caries in this patient's profile. Age-related enamel demineralization is not a direct cause of caries."
+  },
+  {
+    "id": 676008231,
+    "topicId": "radiology",
+    "question": "A 30-year-old pregnant female patient requires a periapical radiograph of a maxillary posterior tooth for acute pain. Her last menstrual period was 8 weeks ago. She is concerned about radiation exposure to the fetus. Which of the following radiation protection measures is MOST critical for this patient?",
+    "options": [
+      "Postpone the radiograph until after delivery to avoid any risk.",
+      "Limit the number of radiographs to only one periapical film.",
+      "Use a rectangular collimator and high-speed film/digital sensor, along with a lead apron with thyroid collar.",
+      "Increase the kVp setting to reduce exposure time."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For pregnant patients requiring radiographs, it is generally safe to proceed when necessary, especially with acute conditions, by strictly adhering to ALARA principles. The most critical measures include using a rectangular collimator, high-speed film or digital sensors, and a lead apron with a thyroid collar to minimize radiation dose to the patient and fetus. Postponing necessary radiographs can lead to delayed diagnosis and treatment. Simply limiting the number of films isn't sufficient without optimizing other protective measures."
+  },
+  {
+    "id": 369829778,
+    "topicId": "radiology",
+    "question": "A 40-year-old female patient, a non-smoker, presents with a firm, painless swelling approximately 1.5 cm in diameter in the floor of her mouth, located unilaterally lateral to the midline. It has been slowly growing over several months. On palpation, it feels somewhat rubbery. The overlying mucosa appears normal. What is the MOST likely diagnosis?",
+    "options": [
+      "Ranula",
+      "Sialolith",
+      "Lymphoepithelial cyst",
+      "Pleomorphic adenoma of a minor salivary gland"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A firm, painless, slowly growing unilateral swelling in the floor of the mouth, not associated with an obvious duct obstruction, is highly suspicious for a benign salivary gland neoplasm, such as a pleomorphic adenoma. A ranula is a soft, bluish, translucent swelling resulting from mucous extravasation from the sublingual gland. A sialolith (salivary stone) would typically cause pain and swelling, especially during meals, due to duct obstruction. A lymphoepithelial cyst is usually a soft, yellowish, well-circumscribed lesion, often in the floor of the mouth or lateral neck, but is less common and typically smaller in presentation for this size and firmness."
+  },
+  {
+    "id": 519486602,
+    "topicId": "radiology",
+    "question": "A 50-year-old male patient presents with severe generalized attrition of his dentition, complaining of facial muscle fatigue and occasional temporomandibular joint (TMJ) discomfort. He reports a history of chronic bruxism. Clinical examination confirms significant tooth wear and tenderness of the masticatory muscles. What is the MOST appropriate initial management?",
+    "options": [
+      "Full mouth rehabilitation with crowns.",
+      "Referral for TMJ surgery.",
+      "Administration of muscle relaxants.",
+      "Fabrication of an occlusal splint (nightguard)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a patient with chronic bruxism, severe attrition, and associated muscle fatigue and TMJ discomfort, the most appropriate initial management is the fabrication of a custom occlusal splint (nightguard). This device helps to protect the teeth from further wear, distribute occlusal forces, and often reduces muscle activity and TMJ symptoms. Full mouth rehabilitation is a definitive and extensive treatment often considered after managing the parafunctional habit. TMJ surgery is a last resort for severe, refractory cases. Muscle relaxants can provide temporary relief but do not address the underlying mechanical issues or habit."
+  },
+  {
+    "id": 468777016,
+    "topicId": "radiology",
+    "question": "Which of the following methods is considered the LEAST effective for achieving sterilization of heat-sensitive dental instruments in a dental office setting?",
+    "options": [
+      "Dry heat sterilization",
+      "Steam autoclave",
+      "Chemical vapor sterilization",
+      "Ethylene oxide sterilization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The question asks for the LEAST effective for heat-sensitive instruments. Dry heat sterilization requires higher temperatures and longer exposure times than other methods and is generally not suitable for heat-sensitive instruments because it can damage them. Steam autoclaves and chemical vapor sterilizers are effective for most heat-tolerant instruments. Ethylene oxide sterilization is a method specifically used for heat-sensitive items, though it requires specific equipment and ventilation. Therefore, dry heat is the least suitable for heat-sensitive instruments."
+  },
+  {
+    "id": 807477140,
+    "topicId": "radiology",
+    "question": "A 30-year-old female patient presents for a routine check-up. She reports no pain but occasional bleeding gums when brushing. Clinical examination reveals localized gingival inflammation around several anterior teeth with associated plaque and calculus. There is no clinical attachment loss or radiographic evidence of bone loss. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Chronic periodontitis, localized moderate.",
+      "Aggressive periodontitis, localized.",
+      "Necrotizing ulcerative periodontitis.",
+      "Gingivitis, plaque-induced, localized."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The presence of gingival inflammation, bleeding on probing, plaque and calculus, with no clinical attachment loss or radiographic bone loss, is characteristic of plaque-induced gingivitis. Since it's around \"several anterior teeth,\" it's localized. Chronic periodontitis and aggressive periodontitis both involve clinical attachment loss and bone loss. Necrotizing ulcerative periodontitis has distinct features like \"punched-out\" papillae and rapid tissue destruction, which are not described here."
+  },
+  {
+    "id": 239920562,
+    "topicId": "radiology",
+    "question": "A 58-year-old female patient with poorly controlled Type 2 Diabetes Mellitus presents with generalized bleeding gums, deep periodontal pockets (6-7mm), and class II mobility on multiple teeth. Her HbA1c is 9.5%. What is the MOST critical consideration for managing her periodontal disease?",
+    "options": [
+      "Referral to an endocrinologist",
+      "Aggressive scaling and root planing",
+      "Systemic antibiotic therapy",
+      "Daily chlorhexidine rinse"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Uncontrolled diabetes significantly exacerbates periodontal disease, making local treatment alone less effective. Therefore, managing the underlying systemic condition by referring to an endocrinologist is the most critical initial step. Aggressive scaling and root planing, systemic antibiotics, and daily chlorhexidine rinse are all part of periodontal management but will have limited long-term success without systemic diabetes control."
+  },
+  {
+    "id": 381913491,
+    "topicId": "radiology",
+    "question": "A 65-year-old male patient, a heavy smoker, presents with a white, corrugated, non-scrapable lesion on the ventral surface of his tongue that has been present for 3 months. He reports no pain. What is the MOST appropriate next step in management?",
+    "options": [
+      "Prescribe antifungal medication",
+      "Perform an incisional biopsy",
+      "Observe and re-evaluate in 6 months",
+      "Advise regular warm saline rinses"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A persistent, non-scrapable white lesion in a high-risk patient (heavy smoker) on the ventral tongue is highly suspicious for epithelial dysplasia or squamous cell carcinoma, necessitating an incisional biopsy for definitive diagnosis. Prescribing antifungal medication is inappropriate as the lesion is non-scrapable, ruling out candidiasis. Observing for 6 months or advising saline rinses would delay diagnosis of a potentially malignant lesion, which is negligent."
+  },
+  {
+    "id": 868272484,
+    "topicId": "radiology",
+    "question": "A 35-year-old female patient presents with a severe, sharp pain on chewing in tooth #36 (mandibular left first molar). Thermal tests elicit a lingering pain, and percussion is positive. A periapical radiograph shows a deep restoration close to the pulp horn and a widened periodontal ligament space around the mesial root. What is the MOST likely pulpal and periapical diagnosis?",
+    "options": [
+      "Irreversible pulpitis with symptomatic apical periodontitis",
+      "Reversible pulpitis with normal apical tissues",
+      "Necrotic pulp with acute apical abscess",
+      "Irreversible pulpitis with asymptomatic apical periodontitis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lingering pain to thermal tests indicates irreversible pulpitis, while sharp pain on chewing, positive percussion, and widened PDL space on radiograph are definitive signs of symptomatic apical periodontitis. Reversible pulpitis would involve sharp, non-lingering pain and no periapical inflammation. Necrotic pulp with an acute apical abscess would present with more diffuse swelling and often a non-responsive pulp."
+  },
+  {
+    "id": 409707646,
+    "topicId": "radiology",
+    "question": "A 9-year-old male patient presents after falling and avulsing tooth #11 (maxillary right central incisor). The tooth was replanted by his parents within 10 minutes of the injury and stored in milk prior to replantation. What is the MOST critical immediate action upon presentation to the dental office?",
+    "options": [
+      "Splint the tooth with a flexible splint",
+      "Prescribe antibiotics and pain medication",
+      "Initiate root canal treatment",
+      "Administer a tetanus booster"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Immediate stabilization of a replanted avulsed tooth is paramount to allow for reattachment of the periodontal ligament fibers, and this is achieved by splinting. While antibiotics and pain medication may be prescribed, and root canal treatment will be needed later, splinting is the most critical immediate physical action in the dental office. A tetanus booster is generally not indicated unless the wound is contaminated and the patient's vaccination status is unknown or incomplete, and not the primary dental action."
+  },
+  {
+    "id": 144725153,
+    "topicId": "radiology",
+    "question": "A 42-year-old male patient with a history of hypertension controlled by hydrochlorothiazide and chronic anxiety managed with alprazolam requires the extraction of tooth #48. He reports no allergies. What is the MOST significant drug interaction consideration for this patient during the procedure?",
+    "options": [
+      "Hydrochlorothiazide increasing bleeding risk",
+      "Hydrochlorothiazide interacting with local anesthetics",
+      "Alprazolam causing paradoxical excitement",
+      "Alprazolam potentiating central nervous system depressants"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Alprazolam, a benzodiazepine, is a CNS depressant and its effects can be potentiated by other CNS depressants such as opioids or sedatives often used in dental settings, leading to excessive sedation or respiratory depression. Hydrochlorothiazide does not significantly increase bleeding risk or interact directly with local anesthetics in a clinically relevant way for this procedure. While paradoxical excitement is a possible side effect of benzodiazepines, potentiation of CNS depression is a more common and significant risk in this context."
+  },
+  {
+    "id": 501425123,
+    "topicId": "radiology",
+    "question": "Which property of an elastomeric impression material is MOST critical for achieving an accurate master cast for a fixed partial denture?",
+    "options": [
+      "Tear strength",
+      "Dimensional stability",
+      "Hydrophilicity",
+      "Working time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dimensional stability is the most critical property for elastomeric impression materials when fabricating fixed partial dentures, as it ensures the impression maintains its accurate shape and size during setting and subsequent casting, minimizing distortion. While tear strength prevents tearing upon removal, hydrophilicity helps in moist environments, and working time is important for clinical use, these factors are secondary to the overall accuracy provided by dimensional stability for a precise restoration."
+  },
+  {
+    "id": 932821309,
+    "topicId": "radiology",
+    "question": "A 75-year-old edentulous female patient presents with ill-fitting complete maxillary and mandibular dentures fabricated 10 years ago. She complains of generalized discomfort, difficulty chewing, and frequent dislodgement. Intraorally, her alveolar ridges show significant resorption. What is the MOST appropriate initial step in her management?",
+    "options": [
+      "Immediate fabrication of new dentures",
+      "Surgical ridge augmentation",
+      "Tissue conditioning followed by re-evaluation",
+      "Chairside reline of existing dentures"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Before considering new dentures or surgical interventions, tissue conditioning is crucial to allow inflamed and abused oral tissues to return to a healthy state, providing a more accurate foundation for impression taking. Immediate fabrication of new dentures without tissue conditioning would result in new ill-fitting dentures. Surgical ridge augmentation is an advanced procedure not typically the initial step, and a chairside reline might not be adequate given the significant resorption and generalized discomfort."
+  },
+  {
+    "id": 3945164,
+    "topicId": "radiology",
+    "question": "A 62-year-old male patient with a history of head and neck radiation therapy for squamous cell carcinoma presents with severe xerostomia and multiple cervical carious lesions. He reports difficulty swallowing and speaking. What is the MOST effective long-term strategy for managing his oral health issues?",
+    "options": [
+      "Daily fluoride varnish applications",
+      "Frequent sips of water and sugar-free gum",
+      "Referral to an oral surgeon for salivary gland transplant",
+      "Pilocarpine hydrochloride prescription"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pilocarpine hydrochloride is a cholinergic agonist that stimulates residual salivary gland function, providing significant long-term relief for radiation-induced xerostomia and its associated complications, making it the most effective systemic approach. While fluoride applications are essential for caries prevention and frequent sips of water offer symptomatic relief, they do not address the underlying salivary gland dysfunction as effectively. Salivary gland transplant is not a standard or practical long-term management strategy."
+  },
+  {
+    "id": 24558891,
+    "topicId": "radiology",
+    "question": "Which cranial nerve provides sensory innervation to the anterior two-thirds of the tongue and motor innervation to the muscles of facial expression?",
+    "options": [
+      "Facial nerve",
+      "Trigeminal nerve",
+      "Glossopharyngeal nerve",
+      "Hypoglossal nerve"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The facial nerve (CN VII) is responsible for taste sensation to the anterior two-thirds of the tongue via the chorda tympani and provides motor innervation to the muscles of facial expression. The trigeminal nerve (CN V) provides general sensation to the anterior two-thirds of the tongue, not taste. The glossopharyngeal nerve (CN IX) innervates the posterior one-third of the tongue for both taste and general sensation, and the hypoglossal nerve (CN XII) primarily controls intrinsic and extrinsic tongue muscles for movement."
+  },
+  {
+    "id": 906428329,
+    "topicId": "radiology",
+    "question": "A 30-year-old female patient experiences sudden onset of generalized urticaria, dyspnea, and hypotension immediately after receiving a local anesthetic injection. Her pulse is rapid and weak. What is the MOST appropriate immediate management step?",
+    "options": [
+      "Administer oral antihistamine",
+      "Administer oxygen and observe",
+      "Provide reassurance and monitor vital signs",
+      "Place patient in Trendelenburg position and administer epinephrine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The patient's symptoms (urticaria, dyspnea, hypotension, rapid/weak pulse) are indicative of anaphylaxis, a life-threatening emergency. The MOST appropriate immediate management is to place the patient in Trendelenburg position and administer epinephrine intramuscularly, which counteracts vasodilation and bronchoconstriction. Oral antihistamines are too slow, oxygen alone is insufficient for severe anaphylaxis, and mere observation or reassurance would be dangerously inadequate."
   }
 ]

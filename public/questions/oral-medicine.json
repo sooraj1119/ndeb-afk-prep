@@ -3380,19 +3380,6 @@
     "explanation": "The patient presents with classic symptoms of xerostomia and xerophthalmia (sicca complex) along with a history of rheumatoid arthritis, which is a connective tissue disease. This combination points to Secondary Sjögren's Syndrome, where the sicca complex occurs in association with another autoimmune disorder. Primary Sjögren's syndrome is the sicca complex without an associated systemic autoimmune disease, while SLE has other specific oral and systemic manifestations and Graft-versus-host disease would require a history of allogeneic transplant."
   },
   {
-    "id": 261,
-    "topicId": "oral-medicine",
-    "question": "A 72-year-old male, with a history of prostate cancer treated with intravenous zoledronic acid for bone metastases for 5 years, presents with a non-healing extraction socket in the mandibular right posterior region, 8 weeks after extraction of tooth #46 due to caries. He reports mild pain and some discharge from the site. Clinical examination reveals exposed, necrotic bone with irregular margins. What is the most appropriate initial management for this condition?",
-    "options": [
-      "Immediate surgical debridement and primary closure.",
-      "Discontinue zoledronic acid and initiate systemic antibiotics.",
-      "Refer for hyperbaric oxygen therapy.",
-      "Local debridement, chlorhexidine rinses, and conservative management."
-    ],
-    "correctAnswer": 3,
-    "explanation": "The patient's history and clinical presentation are highly suggestive of medication-related osteonecrosis of the jaw (MRONJ). Current guidelines for MRONJ emphasize conservative management with local debridement, antimicrobial rinses like chlorhexidine, and symptomatic care for stage 2 lesions. Extensive surgical debridement is generally avoided in initial management unless severe progression or pathological fracture occurs. Discontinuing zoledronic acid (drug holiday) is controversial and often ineffective once MRONJ is established, and hyperbaric oxygen therapy lacks strong evidence for routine use."
-  },
-  {
     "id": 262,
     "topicId": "oral-medicine",
     "question": "A 48-year-old female presents for a routine dental check-up. During intraoral examination, you notice asymptomatic, interlacing white lines on her bilateral buccal mucosa, resembling a lace-like pattern. The lesions are non-scrapable and she reports no discomfort. Her medical history is unremarkable. Which of the following conditions is the most likely diagnosis?",
@@ -3872,19 +3859,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Kaposi's Sarcoma (KS) in HIV-positive patients typically presents as multiple purplish, reddish-blue, or brown macules, plaques, or nodules, which can occur anywhere in the oral cavity but are frequently found on the hard palate. White, corrugated lesions on the lateral tongue borders suggest oral hairy leukoplakia. Linear gingival erythema is associated with HIV-periodontitis. Widespread aphthous-like ulcerations can be seen in HIV, but are not specific to KS."
-  },
-  {
-    "id": 299,
-    "topicId": "oral-medicine",
-    "question": "A 58-year-old female presents with a 6-month history of bilateral white, lace-like lesions on her buccal mucosa, accompanied by intermittent mild burning, especially after consuming acidic foods. She denies any skin lesions or eye involvement. Her medical history includes hypertension managed with an ACE inhibitor. What is the most likely diagnosis?",
-    "options": [
-      "Lupus Erythematosus",
-      "Reticular Oral Lichen Planus",
-      "Pemphigus Vulgaris",
-      "Oral Candidiasis"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The classic presentation of bilateral white, lace-like (Wickham's striae) lesions on the buccal mucosa with mild burning, without significant ulceration or systemic involvement, is highly characteristic of Reticular Oral Lichen Planus. Lupus Erythematosus often presents with central atrophy and radiating white striae but is less common and usually associated with systemic signs. Pemphigus Vulgaris typically presents with painful vesiculobullous lesions and erosions, not reticular white striae. Oral Candidiasis usually appears as removable white plaques or erythematous areas, and is less likely given the description of fixed lace-like lesions."
   },
   {
     "id": 300,
@@ -4795,19 +4769,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Pemphigus Vulgaris is characterized by autoantibodies targeting desmosomes, leading to intraepithelial blistering, which manifests as intercellular (net-like) deposition of IgG and C3 in the spinous layer on direct immunofluorescence. Bullous Pemphigoid, conversely, involves autoantibodies against hemidesmosomes, resulting in subepithelial blistering and linear deposition of IgG and C3 at the basement membrane zone."
-  },
-  {
-    "id": 370,
-    "topicId": "oral-medicine",
-    "question": "A 28-year-old male with a known history of Crohn's disease presents with diffuse, boggy swelling of the lips, cobblestoning of the buccal mucosa, and deep linear ulcers in the buccal sulcus.",
-    "options": [
-      "Refer to the gastroenterologist for systemic disease control, and consider topical corticosteroids for symptomatic relief.",
-      "Prescribe topical acyclovir cream due to suspected herpes infection.",
-      "Perform immediate surgical excision of the swollen tissues.",
-      "Recommend a course of systemic antibiotics for bacterial infection."
-    ],
-    "correctAnswer": 0,
-    "explanation": "The described oral lesions (diffuse swelling, cobblestoning, linear ulcers) are characteristic oral manifestations of Crohn's disease. Management primarily involves improving control of the underlying systemic disease by the gastroenterologist. Topical corticosteroids can provide symptomatic relief for oral lesions. Acyclovir, surgical excision, and systemic antibiotics are not indicated as primary treatments for Crohn's-related oral lesions."
   },
   {
     "id": 371,
@@ -6058,19 +6019,6 @@
     "explanation": "Given the persistent, non-scrapable white patch on a high-risk site (ventral tongue) in a smoker, oral leukoplakia is suspected, and it carries a significant risk of dysplasia or malignancy. An incisional biopsy is essential to obtain a definitive diagnosis. Nystatin is for candidiasis, which is scrapable. Observation is not appropriate for a lesion of this nature and duration. Topical corticosteroids are for inflammatory conditions, not undiagnosed white lesions."
   },
   {
-    "id": 467,
-    "topicId": "oral-medicine",
-    "question": "A 40-year-old patient who underwent an allogeneic hematopoietic stem cell transplant 6 months ago presents with diffuse, painful white reticular lesions on the buccal mucosa, diffuse gingival erythema, and severe xerostomia. The skin also shows some lichenoid changes. What is the most likely diagnosis?",
-    "options": [
-      "Oral candidiasis",
-      "Oral lichen planus",
-      "Chronic Graft-versus-Host Disease (GVHD)",
-      "Pemphigus vulgaris"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Chronic Graft-versus-Host Disease (GVHD) is a common complication in patients after allogeneic stem cell transplantation, presenting with oral manifestations resembling lichen planus (reticular, erythematous lesions), diffuse gingivitis, and severe xerostomia. Oral candidiasis would typically be scrapable and lack the skin and xerostomia components. Oral lichen planus is an idiopathic condition, while GVHD has a clear etiology. Pemphigus vulgaris presents with fragile bullae and widespread ulcers, not typically diffuse gingivitis or xerostomia as a primary feature."
-  },
-  {
     "id": 468,
     "topicId": "oral-medicine",
     "question": "A 28-year-old healthy female frequently develops small (2-5mm), painful, round ulcers on the buccal mucosa and labial vestibule. These lesions heal within 7-10 days without scarring, and she reports no fever or malaise. What is the most accurate diagnosis?",
@@ -6407,5 +6355,148 @@
     ],
     "correctAnswer": 2,
     "explanation": "A solitary, slowly growing, firm, non-tender enlargement of a major salivary gland (parotid in this case) warrants investigation for a neoplastic process, both benign and malignant. Fine Needle Aspiration Cytology (FNAC) is the most appropriate initial diagnostic step, as it is minimally invasive and can often differentiate between inflammatory, benign, and malignant lesions, guiding further management. Sialography is primarily for ductal pathology (e.g., stones, strictures). Antibiotics are not indicated without signs of acute infection. While a CT scan can provide anatomical information, FNAC offers cellular diagnosis directly from the mass."
+  },
+  {
+    "id": 774557966,
+    "topicId": "oral-medicine",
+    "question": "A 35-year-old male patient presents to your dental office with rapid onset of severe pain and swelling in the floor of the mouth, extending to the submandibular and sublingual spaces bilaterally. He reports difficulty swallowing and speaking, along with a fever of 39°C. His medical history is unremarkable. Oral examination reveals a firm, board-like induration of the floor of the mouth, elevation and posterior displacement of the tongue, and drooling. What is the MOST appropriate immediate management?",
+    "options": [
+      "Refer to an emergency department for airway management and IV antibiotics.",
+      "Prescribe oral clindamycin and schedule for incision and drainage in 24 hours.",
+      "Initiate warm saline rinses and prescribe analgesics for symptomatic relief.",
+      "Perform immediate extraction of the suspected infected mandibular molar."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This clinical presentation is characteristic of Ludwig's Angina, a severe, rapidly progressive cellulitis of the floor of the mouth which can lead to life-threatening airway obstruction. Therefore, immediate referral to an emergency department for urgent airway management and intravenous broad-spectrum antibiotics is the most appropriate and critical step. Oral antibiotics are insufficient for such a severe, spreading infection, and local measures or definitive surgical treatment should only be considered after the patient's airway is secured and systemic infection is controlled."
+  },
+  {
+    "id": 319203078,
+    "topicId": "oral-medicine",
+    "question": "A 68-year-old female patient presents to your dental office for a dental extraction. She has a history of osteoporosis and has been on oral alendronate (Fosamax) 70mg once weekly for 8 years. She also has controlled hypertension. Radiographic examination reveals deep caries on tooth #36 requiring extraction. What is the MOST appropriate management strategy to minimize the risk of osteonecrosis of the jaw?",
+    "options": [
+      "Discontinue alendronate for 3 months prior to extraction and resume 1 month post-extraction.",
+      "Perform the extraction with minimal trauma, irrigate thoroughly, and achieve primary closure if possible.",
+      "Prescribe a 7-day course of prophylactic amoxicillin starting the day before the extraction.",
+      "Refer the patient to an oral surgeon for extraction and IV bisphosphonate therapy instead."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For patients on oral bisphosphonates for osteoporosis, current evidence does not support a routine drug holiday prior to dental extractions as it has not been shown to significantly reduce the risk of osteonecrosis of the jaw (ONJ). The most appropriate strategy is to perform the extraction with meticulous, minimally traumatic technique, ensuring thorough irrigation and attempting primary closure of the wound to protect the healing site. Prophylactic antibiotics are not universally indicated, and suggesting IV bisphosphonate therapy is incorrect as it carries a higher ONJ risk compared to oral forms."
+  },
+  {
+    "id": 614006047,
+    "topicId": "oral-medicine",
+    "question": "A 24-year-old female patient presents to your dental office with severe pain and swelling around her partially erupted mandibular right third molar (#48). She reports difficulty opening her mouth and mild fever. Clinical examination reveals an inflamed, edematous operculum covering part of the crown of #48, with purulent exudate expressed upon palpation. What is the MOST appropriate initial management?",
+    "options": [
+      "Schedule for immediate extraction of tooth #48.",
+      "Prescribe a broad-spectrum antibiotic and refer for extraction once the acute symptoms subside.",
+      "Irrigate under the operculum, prescribe warm saline rinses, and consider antibiotics if systemic involvement is present.",
+      "Perform an operculectomy to remove the inflamed tissue."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The initial management of acute pericoronitis focuses on controlling the acute infection and inflammation. This involves local measures such as gentle irrigation under the operculum to remove debris, and prescribing warm saline rinses to aid in debridement and reduce inflammation. Antibiotics (e.g., amoxicillin or metronidazole) should be considered only if there are signs of systemic involvement, such as fever, malaise, or significant lymphadenopathy. Definitive treatment, like extraction or operculectomy, is typically deferred until the acute phase has subsided to minimize complications."
+  },
+  {
+    "id": 248059266,
+    "topicId": "oral-medicine",
+    "question": "Which of the following local anesthetics is metabolized primarily by plasma pseudocholinesterase?",
+    "options": [
+      "Lidocaine",
+      "Articaine",
+      "Mepivacaine",
+      "Procaine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Procaine is an ester-type local anesthetic, and ester anesthetics are primarily metabolized in the plasma by pseudocholinesterase. This rapid metabolism contributes to their shorter duration of action and lower systemic toxicity compared to amides. In contrast, lidocaine, articaine, and mepivacaine are all amide-type local anesthetics, which are predominantly metabolized in the liver."
+  },
+  {
+    "id": 427942372,
+    "topicId": "oral-medicine",
+    "question": "A 55-year-old male patient with Type 2 Diabetes Mellitus presents for multiple dental extractions. His last HbA1c was 8.5%, and he reports occasional episodes of hyperglycemia. He takes oral metformin daily. He has no other significant medical history. What is the MOST critical consideration before proceeding with the extractions?",
+    "options": [
+      "Obtain a recent HbA1c level and consider delaying treatment if it's elevated.",
+      "Administer a dose of prophylactic antibiotics to prevent post-operative infection.",
+      "Ensure the patient has taken his insulin on the day of the procedure.",
+      "Schedule the appointment for late afternoon to allow for medication effects."
+    ],
+    "correctAnswer": 0,
+    "explanation": "An HbA1c of 8.5% indicates poorly controlled diabetes, which significantly increases the risk of post-operative complications such as infection, impaired wound healing, and metabolic instability during dental procedures. Therefore, obtaining a more recent HbA1c and potentially consulting with the patient's physician to optimize glycemic control is the most critical step before proceeding with elective extractions. The patient is on metformin, not insulin, and prophylactic antibiotics are not routinely indicated for all diabetic patients undergoing extractions without further specific indications."
+  },
+  {
+    "id": 402125740,
+    "topicId": "oral-medicine",
+    "question": "A 30-year-old female patient presents with a chief complaint of sharp, localized pain in her maxillary right quadrant (#16). The pain is elicited by cold liquids, is intense, but subsides within seconds of the stimulus removal. There is no spontaneous pain or pain on biting. Clinical examination reveals a deep occlusal restoration on #16. Percussion and palpation tests are negative. What is the MOST likely diagnosis?",
+    "options": [
+      "Irreversible pulpitis",
+      "Reversible pulpitis",
+      "Necrotic pulp",
+      "Acute apical periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The symptoms of sharp, localized pain to cold that subsides immediately after the stimulus is removed, with no spontaneous pain or pain on biting, are classic indicators of reversible pulpitis. This condition suggests that the pulp is inflamed but capable of healing if the irritant (e.g., deep caries, leaky restoration) is removed. Irreversible pulpitis would involve lingering pain to cold/heat and often spontaneous pain, while necrotic pulp would typically show no response to cold or only a dull ache from periapical tissues, often with pain to percussion if apical periodontitis is present."
+  },
+  {
+    "id": 344341197,
+    "topicId": "oral-medicine",
+    "question": "A 9-year-old male patient presents to your dental office with his mother after falling from his bicycle, avulsing his permanent maxillary central incisor (#11). The tooth was found on the ground and immediately placed in milk by the mother, approximately 15 minutes ago. The extra-oral dry time was minimal. What is the MOST appropriate immediate action?",
+    "options": [
+      "Scrub the root surface with a toothbrush to remove debris before replanting.",
+      "Refer the patient to an oral surgeon for specialized replantation.",
+      "Rinse the tooth with sterile saline and immediately replant it into the socket.",
+      "Perform root canal treatment on the avulsed tooth prior to replantation."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For an avulsed permanent tooth with minimal extra-oral dry time and stored in a suitable transport medium like milk, immediate replantation offers the best prognosis for periodontal ligament (PDL) survival and reattachment. The tooth should be gently rinsed with sterile saline to remove gross debris, but scrubbing the root surface is contraindicated as it damages viable PDL cells. Root canal treatment, if indicated, is typically performed after replantation, not before, and referral to an oral surgeon might delay critical replantation time."
+  },
+  {
+    "id": 662028383,
+    "topicId": "oral-medicine",
+    "question": "Which of the following bacterial species is a key early colonizer in dental plaque formation and often associated with the initiation of dental caries?",
+    "options": [
+      "Porphyromonas gingivalis",
+      "Tannerella forsythia",
+      "Actinomyces israelii",
+      "Streptococcus mutans"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Streptococcus mutans is widely recognized as a primary initiator of dental caries due to its ability to adhere to tooth surfaces, produce extracellular polysaccharides, and metabolize fermentable carbohydrates into acid, leading to demineralization. Porphyromonas gingivalis and Tannerella forsythia are predominantly associated with periodontal diseases, while Actinomyces israelii is often implicated in root caries and actinomycosis."
+  },
+  {
+    "id": 881334789,
+    "topicId": "oral-medicine",
+    "question": "A 10-year-old male patient presents after sustaining a fall during sports, hitting his anterior teeth. He reports mild tenderness in tooth #11 but no displacement. Clinical examination shows no mobility, no fracture, and no sensitivity to percussion. Radiographic examination reveals no root fracture or displacement. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Concussion",
+      "Subluxation",
+      "Extrusive luxation",
+      "Lateral luxation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Concussion is a dental trauma where the tooth has sustained an injury without any displacement or increased mobility, but with tenderness to percussion. The radiographic appearance is typically normal. Subluxation involves increased mobility without displacement, while extrusive and lateral luxation both involve displacement of the tooth from its socket, which is not present in this case."
+  },
+  {
+    "id": 236586624,
+    "topicId": "oral-medicine",
+    "question": "A 50-year-old male patient presents for a routine dental check-up. He denies any pain or discomfort. During the intraoral examination, you observe a 1 cm diffuse, non-scrapable white patch on the buccal mucosa, directly opposite the occlusal plane of the mandibular molars. The patient states he sometimes bites his cheek when stressed. What is the MOST appropriate initial management?",
+    "options": [
+      "Immediately refer the patient for an incisional biopsy.",
+      "Advise the patient to stop the habit and re-evaluate the lesion in 2-3 weeks.",
+      "Prescribe a topical antifungal medication, as it might be chronic candidiasis.",
+      "Recommend a course of systemic antibiotics to prevent secondary infection."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Given the location, description (diffuse, non-scrapable white patch), and the patient's reported habit of cheek biting, this lesion is highly suggestive of frictional keratosis, a benign reactive lesion. The most appropriate initial management is to identify and eliminate the suspected irritant (cheek biting) and then re-evaluate the lesion in 2-3 weeks to assess for resolution. Biopsy is indicated if the lesion persists or exhibits atypical features after removal of the irritant, but not as the immediate first step. Antifungals or antibiotics are not indicated as there are no signs of fungal infection or bacterial infection, respectively."
+  },
+  {
+    "id": 505591077,
+    "topicId": "oral-medicine",
+    "question": "A 28-year-old female patient presents with sudden onset of painful, bleeding gums. She reports feeling generally unwell, fatigued, and has a mild fever. Clinical examination reveals necrotic papillae, punched-out interdental gingiva, generalized gingival erythema, and a characteristic foul odor. What is the MOST appropriate initial treatment for this condition?",
+    "options": [
+      "Scaling and root planing under local anesthesia, followed by oral antibiotics.",
+      "Prescribe a course of high-dose corticosteroids to reduce inflammation.",
+      "Gentle debridement with ultrasonic scaler, chlorhexidine rinses, and oral metronidazole if systemic symptoms are present.",
+      "Recommend brushing and flossing twice daily with a fluoride toothpaste."
+    ],
+    "correctAnswer": 2,
+    "explanation": "This patient's symptoms are classic for Acute Necrotizing Ulcerative Gingivitis (ANUG). Initial treatment focuses on gentle debridement of the necrotic tissue with an ultrasonic scaler, coupled with antimicrobial rinses like chlorhexidine. Oral antibiotics, such as metronidazole, are indicated when systemic symptoms like fever and malaise are present. Aggressive scaling and root planing are typically delayed until the acute phase of inflammation has subsided, as it would be too painful and could risk spreading the infection."
   }
 ]

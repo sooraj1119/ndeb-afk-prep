@@ -6420,5 +6420,83 @@
     ],
     "correctAnswer": 1,
     "explanation": "For small oroantral communications (typically ≤ 5 mm), conservative management involving placement of a resorbable gelatin sponge into the socket and suturing the gingival margins over it is often sufficient to promote healing. Immediate surgical closure with a buccal advancement flap (A) is generally reserved for larger communications (>5 mm) or those that fail conservative treatment, and while prescribing broad-spectrum antibiotics and advising sinus precautions (C) are essential adjunctive measures, they do not represent the primary method of physically closing the communication. Referral to an OMFS (D) is typically indicated for larger defects, persistent communications, or when the general practitioner lacks experience or comfort with the procedure."
+  },
+  {
+    "id": 97812371,
+    "topicId": "oral-surgery",
+    "question": "A 55-year-old male patient presents with a slowly enlarging, firm, non-tender swelling in the anterior floor of the mouth that has been present for several months. He reports no pain or difficulty swallowing, but notes some mild interference with speech. Clinical examination reveals a well-circumscribed, bluish-tinted, fluctuant mass in the floor of the mouth, lateral to the midline. What is the MOST likely diagnosis?",
+    "options": [
+      "Ranula",
+      "Pleomorphic adenoma",
+      "Lymphangioma",
+      "Mucocele"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A ranula is a mucocele occurring in the floor of the mouth, typically arising from the sublingual gland, presenting as a bluish, fluctuant swelling. Pleomorphic adenoma is a benign salivary gland tumor, usually firmer and less fluctuant, commonly found in the parotid or palate, not typically bluish. Lymphangioma is a developmental lymphatic malformation, often presenting in infancy or early childhood, and a mucocele typically presents as a smaller lesion on the lower lip."
+  },
+  {
+    "id": 989624547,
+    "topicId": "oral-surgery",
+    "question": "A 9-year-old female patient presents after sustaining trauma to her anterior teeth. Clinical examination reveals an uncomplicated crown fracture of the permanent maxillary left central incisor, exposing the dentin but not the pulp. The tooth is asymptomatic and responds normally to vitality tests. What is the MOST appropriate immediate management?",
+    "options": [
+      "Direct pulp capping with calcium hydroxide",
+      "Application of glass ionomer cement and composite restoration",
+      "Vital pulpotomy with MTA",
+      "Extraction and space maintainer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an uncomplicated crown fracture with dentin exposure but no pulp involvement, the most appropriate management is to protect the exposed dentin and restore the tooth with a restorative material like glass ionomer cement followed by a composite resin. Direct pulp capping is indicated if there is a small pulp exposure, not merely dentin exposure. Vital pulpotomy is for larger pulp exposures or irreversible pulpitis in vital primary or immature permanent teeth. Extraction is a highly aggressive and inappropriate treatment for this type of injury."
+  },
+  {
+    "id": 476902916,
+    "topicId": "oral-surgery",
+    "question": "A 42-year-old male patient with a history of poorly controlled Type 2 Diabetes Mellitus (HbA1c 9.2%) presents for a routine dental check-up. Clinical examination reveals generalized gingival inflammation, probing depths ranging from 4-7mm, bleeding on probing in over 50% of sites, and radiographic evidence of horizontal bone loss affecting more than 30% of root length in multiple teeth. What is the MOST accurate periodontal diagnosis?",
+    "options": [
+      "Gingivitis, localized",
+      "Chronic periodontitis, localized moderate",
+      "Generalized periodontitis, Stage III Grade C",
+      "Necrotizing ulcerative periodontitis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's presentation with generalized inflammation, probing depths 4-7mm, extensive bleeding on probing, and radiographic bone loss indicates generalized periodontitis. Given the significant bone loss (Stage III) and poorly controlled diabetes (a major risk factor, indicating rapid progression, Grade C), this is the most accurate classification according to the 2017 AAP/EFP classification. Gingivitis is inflammation without attachment loss. Chronic periodontitis, localized moderate is incorrect as the disease is generalized and severe due to systemic factors. Necrotizing ulcerative periodontitis has distinct clinical features like \"punched out\" papillae and severe pain, not described here."
+  },
+  {
+    "id": 433433879,
+    "topicId": "oral-surgery",
+    "question": "Which of the following describes the primary mechanism by which non-steroidal anti-inflammatory drugs (NSAIDs) exert their analgesic and anti-inflammatory effects?",
+    "options": [
+      "Selective inhibition of COX-1 enzyme, leading to reduced prostaglandin synthesis.",
+      "Activation of opioid receptors in the central nervous system, altering pain perception.",
+      "Blockade of sodium channels in peripheral nerves, preventing nerve impulse transmission.",
+      "Non-selective inhibition of cyclooxygenase enzymes (COX-1 and COX-2), reducing prostaglandin production."
+    ],
+    "correctAnswer": 3,
+    "explanation": "NSAIDs primarily work by inhibiting cyclooxygenase (COX) enzymes, specifically both COX-1 and COX-2, which are responsible for the synthesis of prostaglandins from arachidonic acid. Prostaglandins mediate pain and inflammation. Selective inhibition of COX-1 only or activation of opioid receptors describe different classes of drugs (e.g., aspirin at low doses for COX-1, opioids for opioid receptors). Blockade of sodium channels is the mechanism of action for local anesthetics."
+  },
+  {
+    "id": 148282908,
+    "topicId": "oral-surgery",
+    "question": "A 38-year-old female patient presents to your office with a complaint of significant pain and swelling in the left parotid region, which intensifies during meals. She reports a history of similar, but less severe, episodes over the past six months. Clinical examination reveals a tender, firm swelling overlying the left angle of the mandible, and palpation of the gland expresses turbid saliva from Stensen's duct. What is the MOST probable diagnosis?",
+    "options": [
+      "Sialolithiasis of the parotid gland",
+      "Mumps (epidemic parotitis)",
+      "Bacterial parotitis",
+      "Pleomorphic adenoma"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The clinical presentation of recurrent pain and swelling in the parotid region, exacerbated by meals, and expression of turbid saliva from Stensen's duct is highly indicative of sialolithiasis, or salivary gland stones, often leading to secondary infection. Mumps typically presents with bilateral, acute, painful swelling and systemic symptoms like fever, and is less likely to be recurrent over six months. Bacterial parotitis is often acute, unilateral, very painful, and can involve pus, but the meal-related exacerbation points more strongly to a stone. Pleomorphic adenoma is usually a painless, slowly growing mass, not typically associated with meal-related pain or turbid saliva."
+  },
+  {
+    "id": 61581882,
+    "topicId": "oral-surgery",
+    "question": "A 7-year-old male patient presents with a complaint of localized pain and swelling in the mandibular right posterior region. Radiographic examination reveals a permanent mandibular first molar with deep caries extending to the pulp, and evidence of a periapical radiolucency. The tooth is vital but has symptoms of irreversible pulpitis. The patient's medical history is unremarkable. What is the MOST appropriate treatment?",
+    "options": [
+      "Indirect pulp capping",
+      "Pulpectomy (root canal treatment)",
+      "Pulpotomy",
+      "Extraction with space maintainer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a permanent molar with irreversible pulpitis and periapical radiolucency, a pulpectomy (root canal treatment) is the definitive treatment to remove infected pulp and preserve the tooth. Indirect pulp capping is for deep caries without pulp exposure. Pulpotomy is typically performed on primary teeth or immature permanent teeth with reversible pulpitis, where the coronal pulp is removed, and the radicular pulp is preserved. Extraction is a last resort, especially for a permanent first molar in a 7-year-old, and while a space maintainer might be needed post-extraction, it's not the primary treatment for a savable tooth."
   }
 ]
