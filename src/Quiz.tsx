@@ -185,7 +185,12 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
 
           await store.loadAllQuestions();
 
-          qList = [...store.getQuestions()].sort(() => Math.random() - 0.5).slice(0, 100);
+          let fullList = [...store.getQuestions()];
+          if (!getIsPremium()) {
+            const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
+            fullList = fullList.filter(q => !premiumIds.includes(q.topicId));
+          }
+          qList = fullList.sort(() => Math.random() - 0.5).slice(0, 100);
 
           const endTime = Date.now() + 9000 * 1000;
 
@@ -508,7 +513,12 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
 
     clearActiveMockExam();
 
-    const qList = [...getQuestions()].sort(() => Math.random() - 0.5).slice(0, 100);
+    let fullList = [...getQuestions()];
+    if (!getIsPremium()) {
+      const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
+      fullList = fullList.filter(q => !premiumIds.includes(q.topicId));
+    }
+    const qList = fullList.sort(() => Math.random() - 0.5).slice(0, 100);
 
     const endTime = Date.now() + 9000 * 1000;
 

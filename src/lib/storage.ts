@@ -240,7 +240,8 @@ export const logDailyVisit = () => {
     
     if (diffDays === 1) {
       data.currentStreak += 1;
-    } else if (diffDays > 1 || !data.lastVisitDate) {
+    } else if (diffDays > 1 || !data.lastVisitDate || isNaN(diffDays)) {
+      // isNaN guard: handles corrupted lastVisitDate strings
       data.currentStreak = 1;
     }
     
@@ -353,7 +354,7 @@ export const clearActiveMockExam = () => {
   } catch (error) {}
 };
 
-export const resetAllProgress = () => { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(FLAGS_KEY); localStorage.removeItem(SRS_KEY); localStorage.removeItem(GAMIFICATION_KEY); localStorage.removeItem(HISTORY_KEY); localStorage.removeItem(MOCK_EXAM_KEY); localStorage.removeItem(MISTAKES_KEY); window.location.reload(); };
+export const resetAllProgress = () => { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(FLAGS_KEY); localStorage.removeItem(SRS_KEY); localStorage.removeItem(GAMIFICATION_KEY); localStorage.removeItem(HISTORY_KEY); localStorage.removeItem(MOCK_EXAM_KEY); localStorage.removeItem(MISTAKES_KEY); localStorage.removeItem(EXAM_DATE_KEY); window.location.reload(); };
 
 // --- Mistakes Tracking ---
 
