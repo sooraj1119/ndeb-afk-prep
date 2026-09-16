@@ -6433,5 +6433,70 @@
     ],
     "correctAnswer": 3,
     "explanation": "For non-cavitated white spot lesions, the most appropriate initial management involves a non-invasive approach focused on remineralization and prevention. This includes intensive dietary counseling, oral hygiene instruction for parents, and regular professional topical fluoride varnish applications. Restorations are not indicated for non-cavitated lesions, systemic fluoride is not the primary intervention for existing white spots, and general anesthesia is a drastic measure for early, non-cavitated lesions."
+  },
+  {
+    "id": 369736401,
+    "topicId": "pedodontics",
+    "question": "A 35-year-old female patient presents with a chief complaint of chronic, diffuse dull pain in her left posterior maxilla, which has been present for several months. She reports occasional sinus congestion and pressure, especially on the left side, but no specific dental pain. Dental history reveals a recently restored maxillary first molar (26) with no pre-operative symptoms. Clinical examination shows no tenderness to percussion or palpation on tooth 26. Radiographic examination reveals a generalized haziness and thickening of the Schneiderian membrane in the left maxillary sinus, with some opacification around the apex of tooth 26. What is the MOST appropriate initial diagnosis?",
+    "options": [
+      "Irreversible pulpitis of tooth 26",
+      "Acute maxillary sinusitis of dental origin",
+      "Referred pain from temporomandibular joint disorder",
+      "Chronic odontogenic maxillary sinusitis"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chronic odontogenic maxillary sinusitis is characterized by long-standing, often dull pain and sinus symptoms, with radiographic findings like membrane thickening and opacification, frequently linked to a dental etiology. Irreversible pulpitis typically presents with sharp, spontaneous pain and is often responsive to thermal tests, which are absent here. Acute maxillary sinusitis would generally present with more severe, acute symptoms."
+  },
+  {
+    "id": 546382102,
+    "topicId": "pedodontics",
+    "question": "A 48-year-old male patient presents with severe, localized pain in the mandibular right posterior region, which started suddenly 2 days ago and is exacerbated by chewing. Medical history includes controlled hypertension. Clinical examination reveals a deep periodontal pocket (8mm) on the distobuccal aspect of tooth 47, with purulent exudate upon probing. Tooth 47 is slightly mobile and tender to percussion, but vitality tests are normal. Radiographic examination shows severe localized bone loss around the distobuccal root of 47, extending towards the furcation. What is the MOST appropriate initial management step?",
+    "options": [
+      "Initiate root canal therapy for tooth 47",
+      "Perform localized debridement, irrigation, and prescribe chlorhexidine rinse",
+      "Prescribe systemic antibiotics immediately",
+      "Extract tooth 47 due to advanced periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This presentation is consistent with a localized periodontal abscess. The most appropriate initial management involves localized debridement and irrigation to drain the pus, along with a chlorhexidine rinse for antimicrobial effect. Systemic antibiotics are generally reserved for spreading infections or immunocompromised patients. Root canal therapy is not indicated as the tooth is vital."
+  },
+  {
+    "id": 945734996,
+    "topicId": "pedodontics",
+    "question": "A 62-year-old female patient, who is a type 2 diabetic controlled with metformin, presents for a routine extraction of a non-restorable mandibular premolar (44). Her last HbA1c was 6.8% three months ago. She takes no anticoagulants. What is the MOST appropriate pre-operative precaution concerning her diabetes?",
+    "options": [
+      "Schedule the appointment in the morning after her usual breakfast and medication",
+      "Advise her to skip her metformin dose on the day of the appointment",
+      "Request a consultation with her physician for medical clearance",
+      "Administer a prophylactic dose of broad-spectrum antibiotics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For well-controlled diabetic patients undergoing routine dental procedures, it is generally recommended to maintain their usual medication and meal schedule to prevent hypoglycemic episodes. Skipping metformin can lead to hyperglycemia, and prophylactic antibiotics are not indicated for routine extractions in well-controlled diabetics. Physician consultation is typically only needed for poorly controlled diabetes or complex medical issues."
+  },
+  {
+    "id": 658270098,
+    "topicId": "pedodontics",
+    "question": "A 28-year-old male patient presents with a one-week history of a painful, shallow ulcer on the buccal mucosa that he describes as \"burning.\" He denies any trauma or new medications. Medical history is unremarkable. Clinical examination reveals a single, well-demarcated, ovoid ulcer approximately 5mm in diameter, with a yellowish-white center and an erythematous halo, located on the non-keratinized buccal mucosa. There is no associated lymphadenopathy. What is the MOST likely diagnosis?",
+    "options": [
+      "Primary herpetic gingivostomatitis",
+      "Recurrent aphthous ulcer (minor)",
+      "Squamous cell carcinoma",
+      "Traumatic ulcer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The description of a single, painful, shallow ulcer with a yellowish-white center and erythematous halo on non-keratinized mucosa, without a history of trauma, is characteristic of a minor recurrent aphthous ulcer. Primary herpetic gingivostomatitis presents with multiple vesicles and ulcers, often with fever and lymphadenopathy. Squamous cell carcinoma typically presents as a persistent, non-healing lesion, often indurated, and less commonly painful in early stages."
+  },
+  {
+    "id": 367060545,
+    "topicId": "pedodontics",
+    "question": "Which of the following local anesthetic agents is metabolized primarily by plasma pseudocholinesterase?",
+    "options": [
+      "Lidocaine",
+      "Articaine",
+      "Mepivacaine",
+      "Procaine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Procaine is an ester-type local anesthetic and is primarily metabolized by plasma pseudocholinesterase, which is why it has a higher risk of allergic reactions in individuals with pseudocholinesterase deficiency. Lidocaine, articaine, and mepivacaine are all amide-type local anesthetics, which are primarily metabolized in the liver. This difference in metabolism is key for patient safety."
   }
 ]
