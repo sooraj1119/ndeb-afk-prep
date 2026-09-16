@@ -372,19 +372,23 @@ export const getMistakes = (): any[] => {
 };
 
 export const logMistake = (questionId: any) => {
-  let mistakes = getMistakes();
-  const exists = mistakes.some(id => String(id) === String(questionId));
-  if (!exists) {
-    mistakes.push(questionId);
-    mistakes = Array.from(new Set(mistakes));
-    localStorage.setItem(MISTAKES_KEY, JSON.stringify(mistakes));
-  }
+  try {
+    let mistakes = getMistakes();
+    const exists = mistakes.some(id => String(id) === String(questionId));
+    if (!exists) {
+      mistakes.push(questionId);
+      mistakes = Array.from(new Set(mistakes));
+      localStorage.setItem(MISTAKES_KEY, JSON.stringify(mistakes));
+    }
+  } catch (e) { console.error('Failed to log mistake:', e); }
 };
 
 export const removeMistake = (questionId: any) => {
-  let mistakes = getMistakes();
-  const updated = mistakes.filter(id => String(id) !== String(questionId));
-  localStorage.setItem(MISTAKES_KEY, JSON.stringify(Array.from(new Set(updated))));
+  try {
+    let mistakes = getMistakes();
+    const updated = mistakes.filter(id => String(id) !== String(questionId));
+    localStorage.setItem(MISTAKES_KEY, JSON.stringify(Array.from(new Set(updated))));
+  } catch (e) { console.error('Failed to remove mistake:', e); }
 };
 
 
