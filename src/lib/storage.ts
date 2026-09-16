@@ -306,13 +306,14 @@ export const getHistory = (): QuizAttempt[] => {
 
 export const logQuizAttempt = (topicId: string, score: number, total: number) => {
   try {
-    const history = getHistory();
+    let history = getHistory();
     history.push({
       topicId,
       score,
       total,
       timestamp: Date.now()
     });
+    if (history.length > 1000) history = history.slice(history.length - 1000);
     localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
   } catch (error) {
     console.error("Failed to save history:", error);
@@ -352,7 +353,7 @@ export const clearActiveMockExam = () => {
   } catch (error) {}
 };
 
-export const resetAllProgress = () => { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(FLAGS_KEY); localStorage.removeItem(SRS_KEY); localStorage.removeItem(GAMIFICATION_KEY); localStorage.removeItem(HISTORY_KEY); localStorage.removeItem(MOCK_EXAM_KEY); window.location.reload(); };
+export const resetAllProgress = () => { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(FLAGS_KEY); localStorage.removeItem(SRS_KEY); localStorage.removeItem(GAMIFICATION_KEY); localStorage.removeItem(HISTORY_KEY); localStorage.removeItem(MOCK_EXAM_KEY); localStorage.removeItem(MISTAKES_KEY); window.location.reload(); };
 
 // --- Mistakes Tracking ---
 
