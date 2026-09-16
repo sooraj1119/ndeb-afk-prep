@@ -1555,20 +1555,6 @@
     "explanation": "Healing of the periodontium following scaling and root planing in deep pockets predominantly occurs via the formation of a long junctional epithelium rather than true regeneration. True regeneration (Option A) or new connective tissue attachment (Option C) is rare without the use of specific regenerative surgical techniques. Inflammation is significantly reduced, but structural alterations such as recession and epithelial adaptation always occur (making Option D incorrect)."
   },
   {
-    "id": 119,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "According to the 2017 World Workshop classification of periodontal and peri-implant diseases, which of the following clinical findings is pathognomonic for Staging Periodontitis as Stage III or IV rather than Stage I or II?",
-    "options": [
-      "Probing depth of 5 mm",
-      "Tooth loss due to periodontitis of 5 or more teeth",
-      "Vertical bone loss of 3 mm or greater",
-      "Clinical attachment loss of 3 mm"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Vertical bone loss of 3 mm or greater, along with furcation involvement (Class II or III) and a masticatory dysfunction/secondary occlusal trauma, automatically shifts a patient into Stage III or IV severity regardless of other parameters. Clinical attachment loss of 3 mm (Option A) and probing depths of 5 mm (Option B) are indicative of Stage II periodontitis. Tooth loss due to periodontitis must be 4 or fewer for Stage III, and 5 or more teeth lost for Stage IV, but vertical bone loss specifically demarcates the higher stages."
-  },
-  {
     "id": 120,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -2101,20 +2087,6 @@
     "explanation": "A Grade III furcation involvement represents a complete through-and-through lesion where the probe passes entirely through the furcation, though the opening is still covered by soft tissue. Grade IV also involves a through-and-through lesion, but the gingival recession makes the furcation clinically visible. Grade I is incipient, and Grade II involves partial bone loss with a cul-de-sac."
   },
   {
-    "id": 158,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following periodontal pathogens is most strongly associated with localized aggressive periodontitis (now classified under Stage III/IV, Grade C periodontitis)?",
-    "options": [
-      "Fusobacterium nucleatum",
-      "Aggregatibacter actinomycetemcomitans",
-      "Treponema denticola",
-      "Porphyromonas gingivalis"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Aggregatibacter actinomycetemcomitans (serotype b) is the primary etiologic agent strongly linked to localized aggressive periodontitis due to its ability to produce leukotoxins and invade tissues. Porphyromonas gingivalis is more commonly associated with chronic (Stage/Grade) periodontitis. Treponema denticola and Fusobacterium nucleatum are part of the red and orange complexes, respectively, but lack the specific historical and pathogenic link to localized aggressive periodontitis as A. actinomycetemcomitans."
-  },
-  {
     "id": 159,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -2227,20 +2199,6 @@
     "explanation": "Alveolar bone resorption in periodontitis is driven primarily by osteoclasts, whose differentiation and activation are heavily regulated by the RANKL (Receptor Activator of Nuclear Factor Kappa-B Ligand) binding to RANK, a process promoted by inflammatory cytokines while inhibited by osteoprotegerin (OPG). Calculus acts as a plaque retentive factor rather than exerting direct mechanical pressure to resorb bone."
   },
   {
-    "id": 167,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis. During the periodontal examination, the clinician notes an aggressive loss of attachment and bone destruction that seems inconsistent with the amount of local microbial plaque biofilm present. The patient's medical history reveals well-controlled type 2 diabetes. According to the 2017 World Workshop classification, which grade should be assigned to this patient's periodontitis?",
-    "options": [
-      "Grade D",
-      "Grade A",
-      "Grade C",
-      "Grade B"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Grade C periodontitis indicates rapid rate of progression and is specifically characterized when there is clear evidence of bone loss/attachment loss that exceeds the expected amount given the presence of biofilm deposits. Grade A represents slow progression, and Grade B represents moderate progression. There is no Grade D in the 2017 classification system."
-  },
-  {
     "id": 168,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -2253,20 +2211,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "The patient presents with Necrotizing Ulcerative Gingivitis (NUG). Initial emergency treatment involves gentle supragingival and subgingival debridement, prescription of antiseptic rinses like chlorhexidine, and oral hygiene instructions. Systemic antibiotics are generally reserved only for patients exhibiting systemic symptoms like fever or malaise, and extensive scaling and root planing is deferred until the acute phase resolves."
-  },
-  {
-    "id": 169,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following periodontal pathogens is most strongly associated with localized aggressive periodontitis (now classified under Stage III/IV, Grade C periodontitis) and possesses a leukotoxin virulence factor?",
-    "options": [
-      "Porphyromonas gingivalis",
-      "Aggregatibacter actinomycetemcomitans",
-      "Treponema denticola",
-      "Fusobacterium nucleatum"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Aggregatibacter actinomycetemcomitans (specifically serotype b) is the primary etiologic agent implicated in localized aggressive periodontitis and produces a potent leukotoxin that destroys host neutrophils. Porphyromonas gingivalis is more commonly associated with chronic/severe generalized periodontitis as part of the 'red complex'. Treponema denticola and Fusobacterium nucleatum are also periodontal pathogens, but lack the specific leukotoxin profile characteristic of A. actinomycetemcomitans."
   },
   {
     "id": 170,
@@ -2367,20 +2311,6 @@
     "explanation": "A true periodontal pocket is defined by the apical migration of the junctional epithelium along the root surface accompanied by connective tissue attachment loss and alveolar bone resorption. A gingival (false) pocket occurs solely due to coronal enlargement of the gingival tissues without apical migration of the junctional epithelium or attachment loss."
   },
   {
-    "id": 177,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with a localized 7 mm probing depth on the distal of tooth #37, accompanied by 3 mm of gingival recession and bleeding on probing. The furcation is non-involved, and the adjacent bone level is normal. What is the most appropriate classification of this periodontal defect?",
-    "options": [
-      "Horizontal bone loss",
-      "One-wall infrabony defect",
-      "Three-wall infrabony defect",
-      "Two-wall infrabony defect"
-    ],
-    "correctAnswer": 1,
-    "explanation": "A defect on the distal of a terminal molar (such as #37) typically retains only the facial and lingual walls if the mesial is the root, often leaving a one-wall defect (hemiseptal defect). Three-wall defects have the best prognosis for regeneration, whereas one-wall defects have the poorest prognosis and often require resective approaches. Horizontal bone loss affects the entire arch uniformly, and a single isolated 7 mm defect is vertical (infrabony)."
-  },
-  {
     "id": 178,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -2463,20 +2393,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Systemic risk factors such as active smoking and uncontrolled diabetes (HbA1c > 8%) significantly impair the host immune response and healing capacity, representing the most critical determinants of long-term periodontal prognosis and treatment refractoriness. While maintenance and antimicrobials are important, failing to address the primary systemic risk factors will lead to continued attachment loss regardless of local therapy."
-  },
-  {
-    "id": 184,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following medications is most commonly associated with drug-induced gingival enlargement that typically initiates in the interdental papillae?",
-    "options": [
-      "Atenolol",
-      "Acetaminophen",
-      "Nifedipine",
-      "Warfarin"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Calcium channel blockers (such as nifedipine and amlodipine), anticonvulsants (phenytoin), and immunosuppressants (cyclosporine) are the three major classes of medications known to induce gingival overgrowth. Atenolol is a beta-blocker, warfarin is an anticoagulant, and acetaminophen is an analgesic, none of which cause gingival enlargement."
   },
   {
     "id": 185,
@@ -2885,20 +2801,6 @@
     "explanation": "The initial lesion of gingivitis is characterized clinically by vascular changes, specifically dilation of capillaries and increased vascular permeability mediated by inflammatory cytokines, leading to gingival fluid flow. Collagen destruction occurs later in the early lesion, and plasma cell dominance is a hallmark of the established lesion."
   },
   {
-    "id": 214,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis, Stage III, Grade B. During scaling and root planing, which of the following local root surface characteristics poses the greatest challenge for complete bacterial biofilm removal?",
-    "options": [
-      "Root concavities",
-      "Enamel pearls",
-      "Cemental tears",
-      "Palatogingival grooves"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Root concavities (such as those found on the mesial surfaces of maxillary first premolars) are frequently encountered and notoriously difficult to instrument effectively with standard curettes, making them a primary reason for residual calculus and bacterial persistence. Cemental tears, enamel pearls, and palatogingival grooves are anatomical anomalies that can contribute to localized periodontal breakdown, but they are much less common generalized challenges compared to root concavities."
-  },
-  {
     "id": 215,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -2939,20 +2841,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Cairo's RT2 classification denotes gingival recession associated with periodontal attachment loss where the amount of interproximal attachment loss is less than or equal to the buccal attachment loss. RT1 has no interproximal loss, RT3 has interproximal loss greater than buccal loss, and RT4 is not a valid Cairo class (Cairo uses RT1, RT2, RT3)."
-  },
-  {
-    "id": 218,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following systemic medications is most frequently associated with drug-influenced gingival enlargement that typically begins in the interdental papillae and can be managed in part by substituting the medication with an alternative class if medically feasible?",
-    "options": [
-      "Nifedipine",
-      "Warfarin",
-      "Atenolol",
-      "Metformin"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Calcium channel blockers like nifedipine, along with anticonvulsants (phenytoin) and immunosuppressants (cyclosporine), are well-documented causes of drug-influenced gingival enlargement. Atenolol (beta-blocker), warfarin (anticoagulant), and metformin (antidiabetic) do not classically cause gingival enlargement."
   },
   {
     "id": 219,
@@ -3009,34 +2897,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "The histological presence of numerous multinucleated giant cells within a vascular fibroblastic stroma is diagnostic for a Peripheral Giant Cell Granuloma (PGCG). Pyogenic granulomas lack multinucleated giant cells and show highly vascular granulation tissue, peripheral ossifying fibromas show bone/calcified material, and squamous papillomas exhibit finger-like epithelial projections."
-  },
-  {
-    "id": 223,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis, Stage III, Grade B. During scaling and root planing, which local delivery antimicrobial agent is approved in Canada as an adjunct that demonstrates a sustained release of minocycline hydrochloride directly into the periodontal pocket?",
-    "options": [
-      "Atridox",
-      "Arestin",
-      "PerioChip",
-      "Elyzol"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Arestin consists of microspheres containing minocycline hydrochloride, which provides a sustained release of the antibiotic in periodontal pockets and is commonly used as an adjunctive treatment in Canada. Atridox contains doxycycline hyclate, PerioChip contains chlorhexidine gluconate, and Elyzol contains metronidazole, making Arestin the correct specific match for minocycline."
-  },
-  {
-    "id": 224,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "According to the 2017 World Workshop classification of periodontal and peri-implant diseases, which of the following clinical findings is pathognomonic for distinguishing necrotizing ulcerative gingivitis (NUG) from primary herpetic gingivostomatitis?",
-    "options": [
-      "High fever and malaise",
-      "Sudden onset of painful gingiva",
-      "Presence of cervical lymphadenopathy",
-      "Excavated 'punched-out' interdental papillae"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Excavated 'punched-out' interdental papillae covered by a pseudomembrane are characteristic of necrotizing periodontal diseases. Lymphadenopathy, high fever, and sudden pain can occur in both NUG and primary herpetic gingivostomatitis, but punched-out papillae are specific to the necrotizing spectrum."
   },
   {
     "id": 225,
@@ -3263,20 +3123,6 @@
     "explanation": "A persistent deep pocket (≥ 6 mm) with bleeding on probing following initial non-surgical therapy indicates active disease at that specific site, requiring site-specific re-intervention such as periodontal flap surgery for access or localized re-instrumentation. Discharging the patient is premature, extraction is unwarranted without attempting site-specific therapy first, and systemic antibiotics alone without mechanical debridement are ineffective against subgingival biofilms."
   },
   {
-    "id": 241,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis, Stage III, Grade B. During scaling and root planing, which local anatomical factor is most commonly associated with a poor prognosis for the furcation involvement of a maxillary first molar?",
-    "options": [
-      "Favorable divergence of the roots",
-      "Greater root trunk length",
-      "Root concavity of the mesial surface of the mesiobuccal root",
-      "Widely separated mesiobuccal and distobuccal roots"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Root concavities, particularly on the mesial surface of the mesiobuccal root of the maxillary first molar, make plaque removal and instrumentation extremely difficult, worsening the prognosis. A greater root trunk length and favorable root divergence actually improve the prognosis because they make maintenance easier and furcation involvement less likely to occur early."
-  },
-  {
     "id": 242,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -3457,20 +3303,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Miller Class III recession extends to or beyond the mucogingival junction, with bone or soft tissue loss interproximally or tooth malposition that prevents complete root coverage. Complete root coverage is typically not achievable in Class III cases, unlike Class I and II where 100% coverage is predictable."
-  },
-  {
-    "id": 255,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following medications is most commonly associated with drug-induced gingival enlargement, characterized by dense collagenous extracellular matrix accumulation?",
-    "options": [
-      "Acetaminophen",
-      "Metoprolol",
-      "Phenytoin",
-      "Ibuprofen"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Phenytoin (an anticonvulsant), along with calcium channel blockers (like nifedipine) and immunosuppressants (like cyclosporine), is a classic cause of drug-influenced gingival enlargement. The other listed medications (ibuprofen, acetaminophen, metoprolol) are not associated with this periodontal side effect."
   },
   {
     "id": 256,
@@ -3711,20 +3543,6 @@
     "explanation": "A gingivectomy is indicated for the elimination of suprabony pockets where the pocket bottom is coronal to the mucogingival junction and there is an adequate zone of attached gingiva, avoiding the need for bone surgery. The Modified Widman flap is for access/debridement, and GTR is for infrabony defects."
   },
   {
-    "id": 273,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following host modulation therapies is approved as an adjunct to scaling and root planing in the management of chronic periodontitis, acting primarily through the inhibition of matrix metalloproteinases (MMPs)?",
-    "options": [
-      "Systemic tetracycline hydrochloride (250 mg QID)",
-      "Subantimicrobial dose of ibuprofen (800 mg TID)",
-      "Low-dose doxycycline (20 mg BID)",
-      "High-dose azithromycin (500 mg daily)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Subantimicrobial dose doxycycline (SDD) at 20 mg twice daily is clinically proven and approved to inhibit host-derived matrix metalloproteinases (specifically MMP-8, neutrophil collagenase), reducing collagen breakdown without causing antibiotic resistance. Full-dose tetracyclines have antimicrobial effects, whereas SDD acts purely as a host modulator."
-  },
-  {
     "id": 274,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -3809,20 +3627,6 @@
     "explanation": "This clinical presentation is characteristic of Necrotizing Ulcerative Gingivitis (NUG). Systemic metronidazole is highly effective against the anaerobic bacteria and fusospirochetal complex involved, combined with gentle ultrasonic debridement. Amoxicillin is less specific for anaerobes compared to metronidazole, Nystatin is an antifungal, and mechanical debridement must never be omitted."
   },
   {
-    "id": 280,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following systemic medications is most frequently associated with drug-induced gingival enlargement that typically begins in the interdental papillae of the anterior teeth?",
-    "options": [
-      "Metformin",
-      "Atenolol",
-      "Warfarin",
-      "Phenytoin"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Phenytoin (an anticonvulsant), calcium channel blockers (e.g., nifedipine), and cyclosporine are the three classic drug classes known to cause drug-influenced gingival enlargement. Atenolol, warfarin, and metformin do not cause this specific connective tissue overgrowth."
-  },
-  {
     "id": 281,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -3877,20 +3681,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "There is a robust, well-documented bidirectional relationship between periodontitis and Type 2 Diabetes Mellitus. Severe periodontitis worsens glycemic control (increases HbA1c), and effective periodontal treatment has been shown to reduce systemic inflammation and improve HbA1c levels by approximately 0.4% after 3 months. While links exist with arthritis and osteoporosis, the clinical evidence for glycemic improvement following periodontal therapy is the gold standard for bidirectional NDEB questions."
-  },
-  {
-    "id": 285,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis. During the periodontal examination, the clinician notes an aggressive loss of attachment and bone destruction that is inconsistent with the amount of microbial plaque present. The patient's medical history is significant for poorly controlled type 2 diabetes mellitus. According to the 2017 World Workshop classification, how should this patient's periodontitis be staged and graded?",
-    "options": [
-      "Stage IV, Grade B",
-      "Stage III, Grade C",
-      "Stage III, Grade B",
-      "Stage IV, Grade C"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Stage III is defined by severe attachment loss, interdental bone loss extending to the middle or apical third of the root, and potential tooth loss due to periodontitis (≤4 teeth). Grade C indicates rapid rate of progression, which is strongly modified by the patient's uncontrolled diabetes, placing them in the high-risk category. Grade B would indicate moderate rate, and Stage IV involves more severe dentition collapse (>5 teeth lost)."
   },
   {
     "id": 286,
@@ -3989,20 +3779,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Originally measured by Gargiulo et al., the biological width averages approximately 2.04 to 3.0 mm and consists of two main components: the junctional epithelium (approx. 0.97 mm) and the connective tissue attachment (approx. 1.07 mm). Violating this zone during restorative margin placement often leads to chronic inflammation, gingival recession, or bone loss."
-  },
-  {
-    "id": 293,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with generalized moderate periodontitis, Stage III, Grade B. During initial periodontal therapy, which of the following microorganisms is considered the primary etiologic agent most strongly associated with the progression of chronic periodontitis?",
-    "options": [
-      "Fusobacterium nucleatum",
-      "Aggregatibacter actinomycetemcomitans",
-      "Prevotella intermedia",
-      "Porphyromonas gingivalis"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Porphyromonas gingivalis is a keystone pathogen strongly implicated in the initiation and progression of chronic (Stage III/IV) periodontitis. Aggregatibacter actinomycetemcomitans is primarily associated with Stage III/IV Grade C (localized aggressive) periodontitis. Prevotella intermedia is frequently linked to pregnancy gingivitis and necrotizing periodontal diseases, while Fusobacterium nucleatum is a bridging species rather than the primary destructive keystone pathogen."
   },
   {
     "id": 294,
@@ -4649,20 +4425,6 @@
     "explanation": "A pyogenic granuloma (despite its misleading name, it is neither pyogenic nor a true granuloma) is a common reactive hyperplasia of the oral cavity often triggered by local irritation or hormonal factors, frequently found on the gingiva. Histologically, it presents as vascular-rich granulation tissue. Peripheral giant cell granulomas contain multinucleated giant cells, and peripheral ossifying fibromas show mineralized bone or cementum-like calcifications."
   },
   {
-    "id": 340,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "According to the 2017 World Workshop classification of periodontal and peri-implant diseases and conditions, which of the following clinical attachment loss (CAL) measurements at an interproximal site is required to diagnose Stage III periodontitis?",
-    "options": [
-      "1 to 2 mm",
-      "Equal to or greater than 5 mm",
-      "Equal to or greater than 6 mm",
-      "3 to 4 mm"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Stage III periodontitis is defined by an interproximal clinical attachment loss of 5 mm or greater. Stage I is 1-2 mm, and Stage II is 3-4 mm. Stage IV requires an attachment loss of 5 mm or greater with more advanced tooth loss and functional masticatory dysfunction."
-  },
-  {
     "id": 341,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -4717,20 +4479,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "There is a well-established bidirectional relationship. Chronic periodontal inflammation contributes to systemic inflammation and insulin resistance. Clinical studies have shown that successful periodontal therapy can improve metabolic control in diabetic patients, lowering HbA1c levels comparably to adding a second pharmacological agent."
-  },
-  {
-    "id": 345,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following systemic medications is most frequently associated with drug-induced gingival enlargement, typically starting at the interdental papillae?",
-    "options": [
-      "Acetaminophen",
-      "Ibuprofen",
-      "Nifedipine",
-      "Atorvastatin"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Calcium channel blockers (such as nifedipine), anticonvulsants (such as phenytoin), and immunosuppressants (such as cyclosporine) are the classic triad of medications causing drug-influenced gingival enlargement. Ibuprofen, acetaminophen, and atorvastatin are not commonly associated with this side effect."
   },
   {
     "id": 346,
@@ -4801,20 +4549,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "The patient presents with Necrotizing Ulcerative Gingivitis (NUG). Immediate management involves gentle debridement, plaque removal, antimicrobial mouth rinses (chlorhexidine), and systemic antibiotics (such as metronidazole) if systemic symptoms like fever or malaise are present. Surgery is contraindicated in the acute phase, antifungals are for fungal infections, and extractions are completely unwarranted."
-  },
-  {
-    "id": 351,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following medications is most commonly associated with drug-influenced gingival enlargement?",
-    "options": [
-      "Atorvastatin",
-      "Amlodipine",
-      "Atenolol",
-      "Warfarin"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Calcium channel blockers (such as nifedipine, amlodipine, and diltiazem), along with phenytoin and cyclosporine, are well-documented pharmacologic agents that induce gingival enlargement. Atenolol (beta-blocker), warfarin (anticoagulant), and atorvastatin (statin) do not typically cause gingival overgrowth."
   },
   {
     "id": 352,
@@ -4999,20 +4733,6 @@
     "explanation": "Anticonvulsants like phenytoin, calcium channel blockers, and immunosuppressants cause gingival overgrowth primarily by interfering with cellular calcium uptake, which subsequently upregulates TIMPs (tissue inhibitors of metalloproteinases) and downregulates MMPs, preventing normal collagen breakdown and leading to an accumulation of extracellular matrix."
   },
   {
-    "id": 365,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with generalized moderate periodontitis, Stage III, Grade B. During scaling and root planing, which of the following local root surface anatomical features poses the greatest challenge for complete plaque and calculus removal?",
-    "options": [
-      "Mandibular first molar distal root surface",
-      "Mandibular canine root surface",
-      "Maxillary central incisor palatal fossa",
-      "Maxillary first premolar mesial concavity"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The maxillary first premolar mesial concavity is notorious for extending onto the root surface, making instrumentation exceedingly difficult during scaling and root planing. The other anatomical sites generally present fewer deep, developmental concavities that readily trap calculus and resist standard curette adaptation."
-  },
-  {
     "id": 366,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -5123,20 +4843,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Diabetes mellitus, particularly when poorly controlled, leads to the accumulation of advanced glycation end-products (AGEs) which interact with cellular receptors (RAGE), hyper-inflammatory monocytic responses, and accelerated periodontal destruction. Controlled diabetes has a lesser impact, but diabetes as a systemic disease category is a primary modifying factor in periodontal classification."
-  },
-  {
-    "id": 374,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents with generalized moderate periodontitis, Stage III, Grade B. During scaling and root planing, which local anatomical factor is most commonly associated with persistent refractory pockets on the mesial surfaces of maxillary first molars?",
-    "options": [
-      "Palatal root concavity",
-      "Enamel projection",
-      "Mesial root concavity",
-      "Enamel pearl"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Maxillary first molars characteristically exhibit a pronounced developmental concavity on the mesial surface of the root trunk and mesiobuccal root, which makes instrumentation challenging and contributes to plaque retention. Palatal roots generally face the palate without a prominent concavity affecting mesial interproximal access, while enamel projections and pearls are more frequently found on mandibular molars and bifurcation areas."
   },
   {
     "id": 375,
@@ -5263,20 +4969,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "For an acute periodontal abscess on a vital tooth, the immediate priority is to establish drainage—typically through the periodontal pocket via scaling and root planing or gentle curettage, combined with local irrigation. Systemic antibiotics are reserved for patients with systemic symptoms, fever, or immunocompromise. Endodontic therapy is not indicated since the tooth is vital."
-  },
-  {
-    "id": 384,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis. He is a heavy smoker and has well-controlled Type 2 diabetes. During the re-evaluation phase 6 weeks after scaling and root planing (SRP), localized areas of persistent 6 mm probing depths with bleeding on probing (BOP) are noted on the mesial of teeth #16 and #26. What is the most appropriate next step in management?",
-    "options": [
-      "Perform surgical periodontal therapy in the affected areas",
-      "Refer the patient for immediate tooth extractions",
-      "Re-perform non-surgical scaling and root planing and wait another 3 months",
-      "Prescribe systemic doxycycline 100 mg daily for 3 weeks"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Periodontal pockets that persist at 6 mm or greater with bleeding on probing following initial non-surgical therapy (SRP) typically require periodontal surgery to achieve access for root debridement and pocket reduction. Re-performing SRP on deep, inaccessible sites yields minimal additional benefit, and systemic antibiotics alone are insufficient without mechanical debridement."
   },
   {
     "id": 385,
@@ -5503,20 +5195,6 @@
     "explanation": "Phase I therapy aims to reduce inflammation, remove local etiologic factors (plaque, calculus, endotoxins), and shrink edematous tissues, which improves tissue tone and makes subsequent surgical access more predictable. Complete pocket elimination or permanent microbiome conversion are unrealistic solely through scaling and root planing."
   },
   {
-    "id": 401,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following systemic medications is most frequently associated with drug-influenced gingival enlargement through the inhibition of cellular uptake of calcium and subsequent reduction in collagenase activity?",
-    "options": [
-      "Metformin",
-      "Atorvastatin",
-      "Nifedipine",
-      "Atenolol"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Calcium channel blockers like nifedipine, along with phenytoin and cyclosporine, are classic pharmacologic agents known to induce gingival enlargement. Atenolol (beta-blocker), metformin, and statins are not typically associated with gingival overgrowth."
-  },
-  {
     "id": 402,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -5599,34 +5277,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Patients with aggressive forms of periodontitis (Grade C) frequently exhibit hyper-reactive neutrophils (PMNs) that produce elevated levels of pro-inflammatory cytokines and reactive oxygen species when stimulated, driving severe collateral destruction of host periodontal tissues despite low plaque levels."
-  },
-  {
-    "id": 408,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis. During the initial periodontal examination, you record probing depths of 6 mm, bleeding on probing, and 2 mm of gingival recession on the facial aspect of tooth #36. What is the total attachment loss for this site?",
-    "options": [
-      "6 mm",
-      "2 mm",
-      "8 mm",
-      "4 mm"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Clinical attachment loss (CAL) is calculated by adding the probing depth to the gingival recession when the gingival margin is apical to the cemento-enamel junction (CEJ). Here, 6 mm (probing depth) + 2 mm (recession) = 8 mm. The other options fail to correctly combine both measurements."
-  },
-  {
-    "id": 409,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "According to the 2017 World Workshop classification of periodontal diseases, which of the following clinical features distinguishes Stage III periodontitis from Stage II periodontitis?",
-    "options": [
-      "Vertical bone loss of 3 mm or greater",
-      "Tooth loss due to periodontitis of 5 or more teeth",
-      "Maximum probing depths of 4 mm or less",
-      "Interdental attachment loss of 3-4 mm"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Stage III periodontitis is characterized by interdental attachment loss of >= 5 mm, probing depths >= 6 mm, and vertical bone loss of >= 3 mm. Stage II involves attachment loss of 3-4 mm and maximum probing depths <= 5 mm. Loss of 5 or more teeth due to periodontitis defines Stage IV."
   },
   {
     "id": 410,
@@ -5867,20 +5517,6 @@
     "explanation": "Short, conical roots with a fused root trunk and minimal separation severely limit the ability to perform effective hygiene or root resection/tunneling procedures, drastically worsening the prognosis of a furcation-involved tooth. Conversely, a wide inter-radicular separation, adequate keratinized tissue, and a favorable crown-to-root ratio improve prognosis."
   },
   {
-    "id": 427,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis. During the initial periodontal examination, you record probing depths of 6 mm, bleeding on probing, and generalized 2 mm of clinical attachment loss. There is no furcation involvement or tooth mobility. According to the 2017 World Workshop classification of periodontal diseases, how should this patient's case be staged and graded?",
-    "options": [
-      "Stage II, Grade A",
-      "Stage II, Grade B",
-      "Stage III, Grade B",
-      "Stage III, Grade A"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Stage III periodontitis is defined by a maximum clinical attachment loss of >= 5 mm and/or complex periodontitis management (e.g., vertical bone loss >= 3 mm, furcation involvement Class II or III). Although maximum probing depths may be 6 mm (which borders Stage II), the presence of complex factors or attachment loss meeting Stage III criteria often places generalized advanced attachment loss here; however, strictly by CAL >= 5 mm (implied by 2 mm recession + 6 mm pocket = 8 mm CAL), it is Stage III. Grade B represents moderate rate of progression based on bone loss relative to age and smoking/diabetes status."
-  },
-  {
     "id": 428,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -5921,20 +5557,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "This lesion is a pyogenic granuloma (pregnancy tumor). It is an exaggerated local inflammatory response to plaque. Because they often regress spontaneously postpartum and can recur if removed during pregnancy due to hormonal factors, conservative management (plaque control, scaling) is preferred, postponing surgical excision until after delivery unless functional issues dictate otherwise."
-  },
-  {
-    "id": 431,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following systemic medications is most frequently associated with drug-influenced gingival enlargement characterized by dense fibrous connective tissue overgrowth originating in the interdental papillae?",
-    "options": [
-      "Phenytoin",
-      "Atenolol",
-      "Ibuprofen",
-      "Acetaminophen"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Phenytoin (an anticonvulsant), calcium channel blockers (e.g., nifedipine), and cyclosporine are the three major classes of medications associated with drug-influenced gingival enlargement. Ibuprofen, acetaminophen, and atenolol are not known to cause gingival overgrowth. Management involves meticulous plaque control, possible drug substitution in consultation with the physician, and surgical removal if necessary."
   },
   {
     "id": 432,
@@ -5993,20 +5615,6 @@
     "explanation": "The subepithelial connective tissue graft combined with a coronally advanced flap is widely considered the gold standard for predictable root coverage and predictable esthetic integration because it utilizes a double-blood supply (from the bed and the overlying flap). Free gingival grafts primarily increase the zone of keratinized tissue rather than predictably covering denuded roots due to color mismatch and technique limitations."
   },
   {
-    "id": 436,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis. During the initial periodontal examination, the clinician records a probing depth of 6 mm with 2 mm of gingival recession on the mid-buccal aspect of tooth #16. What is the clinical attachment loss (CAL) for this site?",
-    "options": [
-      "4 mm",
-      "6 mm",
-      "2 mm",
-      "8 mm"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Clinical attachment loss (CAL) is calculated by adding the probing depth (6 mm) to the gingival recession (2 mm) when the gingival margin is apical to the cemento-enamel junction. Therefore, 6 mm + 2 mm = 8 mm. Options A, B, and C fail to properly sum both clinical measurements."
-  },
-  {
     "id": 437,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -6019,20 +5627,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Aggregatibacter actinomycetemcomitans (specifically serotype b) is strongly associated with Grade C periodontitis (formerly localized aggressive periodontitis), often exhibiting rapid attachment loss and bone destruction out of proportion to local factors. Porphyromonas gingivalis is more commonly associated with chronic/Stage III-IV generalized periodontitis, while Prevotella intermedia and Fusobacterium nucleatum are secondary colonizers or linked to pregnancy gingivitis and acute necrotizing lesions."
-  },
-  {
-    "id": 438,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "Which of the following systemic medications is most frequently associated with drug-influenced gingival enlargement, characterized by dense collagenous extracellular matrix accumulation?",
-    "options": [
-      "Amlodipine",
-      "Phenytoin",
-      "Cyclosporine",
-      "Conservative management and observation"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Drug-influenced gingival enlargement is classically caused by three major classes of medications: calcium channel blockers (e.g., amlodipine, nifedipine), immunosuppressants (e.g., cyclosporine), and anticonvulsants (e.g., phenytoin). Therefore, all of the listed options can cause this condition."
   },
   {
     "id": 439,
@@ -6119,20 +5713,6 @@
     "explanation": "Metronidazole is the systemic antibiotic of choice for necrotizing periodontal diseases due to its targeted efficacy against obligate anaerobes (such as Fusiform bacteria and spirochetes) involved in the etiology. Amoxicillin is not the primary choice, and tetracyclines are more specifically utilized for localized aggressive periodontitis due to their anticollagenase properties."
   },
   {
-    "id": 445,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis, Stage III, Grade B. During the initial periodontal examination, you note 6 mm probing depths on the distal of tooth #37 with a Class II furcation involvement. Which of the following procedures is most appropriate to improve the architecture of this defect and facilitate plaque control?",
-    "options": [
-      "Modified Widman flap",
-      "Gingivectomy",
-      "Distal wedge procedure",
-      "Undentured osseous resective surgery"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The distal wedge procedure is specifically indicated for the management of periodontal pockets distal to terminal molars where excessive fibrous tissue and lack of attached gingiva complicate access. Gingivectomy is inappropriate for infrabony defects and furcations, the Modified Widman flap is primarily for access without recontouring, and osseous resective surgery on a mandibular second molar is often limited by anatomical constraints like the external oblique ridge and ascending ramus."
-  },
-  {
     "id": 446,
     "topicId": "periodontology",
     "difficulty": "medium",
@@ -6173,20 +5753,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Autogenous bone grafts are considered the gold standard in periodontal regeneration because they possess osteogenic potential (living cells that actively form bone), in addition to osteoinductive and osteoconductive properties. Allografts, xenografts, and alloplasts are primarily osteoconductive and, in the case of some DFDBA, weakly osteoinductive, but they lack viable living bone cells."
-  },
-  {
-    "id": 449,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A patient with generalized Stage III, Grade C periodontitis undergoes non-surgical periodontal therapy including scaling and root planing. As an adjunct, systemic antibiotics are considered. According to current Canadian Academy of Periodontology guidelines, what is the most appropriate empirical systemic antibiotic regimen for aggressive forms of periodontitis associated with Aggregatibacter actinomycetemcomitans?",
-    "options": [
-      "Metronidazole 500 mg TID for 8 days",
-      "Amoxicillin 500 mg TID combined with Metronidazole 250 to 500 mg TID for 7-8 days",
-      "Amoxicillin 500 mg TID for 7 days",
-      "Clindamycin 300 mg QID for 10 days"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The combination of amoxicillin and metronidazole is the most evidence-based systemic antibiotic adjunct for treating generalized Stage III/IV Grade C periodontitis, particularly when Aggregatibacter actinomycetemcomitans is suspected, as metronidazole targets anaerobes and amoxicillin synergistically targets A. actinomycetemcomitans. Monotherapy with amoxicillin or metronidazole is generally less effective against the diverse microflora of severe periodontitis."
   },
   {
     "id": 450,
@@ -6243,20 +5809,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Secondary occlusal trauma occurs when normal or excessive occlusal forces are applied to a periodontium that has already experienced attachment loss and bone reduction from periodontitis, leading to increased mobility. Primary occlusal trauma occurs when excessive forces are applied to a periodontium with normal bone support."
-  },
-  {
-    "id": 454,
-    "topicId": "periodontology",
-    "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized moderate periodontitis. During the initial periodontal examination, you note 6 mm probing depths on the mesial of tooth #36 with a Class II furcation involvement from the buccal approach. According to the 2017 World Workshop Classification of Periodontal Diseases, how should this furcation defect be clinically categorized?",
-    "options": [
-      "Class IV",
-      "Class III",
-      "Class II",
-      "Class I"
-    ],
-    "correctAnswer": 2,
-    "explanation": "A Class II furcation involvement is defined as bone loss such that a probe can enter the furcation defect from one direction (e.g., buccal) but does not pass completely through to the opposite side. Class I involves incipient bone loss with a pocket, Class III involves a through-and-through lesion covered by soft tissue, and Class IV is a through-and-through lesion that is clinically visible and open."
   },
   {
     "id": 455,
@@ -6495,5 +6047,798 @@
     ],
     "correctAnswer": 2,
     "explanation": "The classic triad of symptoms – pain, interdental necrosis (punched-out papillae), and pseudomembrane formation, combined with predisposing factors like stress and smoking, are highly characteristic of Acute Necrotizing Ulcerative Gingivitis (ANUG). Acute pericoronitis is localized inflammation around an erupting tooth. A periodontal abscess presents as a localized swelling and tenderness. Herpes Simplex Gingivostomatitis typically involves widespread painful vesicles and ulcers, often involving attached gingiva and other oral mucosa."
+  },
+  {
+    "id": 212583776,
+    "topicId": "periodontology",
+    "question": "A 45-year-old female patient presents to your dental office with a non-painful, white, lacy lesion on her bilateral buccal mucosa. She reports no changes in diet or habits and finds the lesion does not scrape off. What is the MOST likely diagnosis?",
+    "options": [
+      "Oral candidiasis",
+      "Erythema multiforme",
+      "Lichen planus",
+      "Frictional keratosis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The clinical presentation of a non-painful, white, lacy (Wickham's striae) lesion on the bilateral buccal mucosa that does not scrape off is classic for oral lichen planus. Oral candidiasis typically presents as white, cottage cheese-like lesions that can be scraped off, often associated with pain or burning. Erythema multiforme typically presents with target lesions on skin and crusting hemorrhagic lesions on lips, which is a different presentation. Frictional keratosis is usually a localized, homogenous white lesion in areas of chronic irritation, not typically lacy or bilateral."
+  },
+  {
+    "id": 450418468,
+    "topicId": "periodontology",
+    "question": "Which of the following local anesthetic agents is primarily metabolized by plasma pseudocholinesterase?",
+    "options": [
+      "Lidocaine",
+      "Mepivacaine",
+      "Articaine",
+      "Bupivacaine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Articaine is unique among amide local anesthetics in that it contains an ester side chain, leading to its metabolism primarily by plasma pseudocholinesterase in addition to hepatic metabolism. Lidocaine, Mepivacaine, and Bupivacaine are all pure amide-type local anesthetics, which are metabolized predominantly in the liver."
+  },
+  {
+    "id": 820820878,
+    "topicId": "periodontology",
+    "question": "A 30-year-old male patient presents to your dental office with severe, spontaneous pain in tooth #37 that is exacerbated by cold and lingers for several minutes after the stimulus is removed. Radiographic examination reveals deep caries approximating the pulp chamber. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Reversible pulpitis",
+      "Irreversible pulpitis",
+      "Necrotic pulp",
+      "Symptomatic apical periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lingering pain to thermal stimuli (cold) and spontaneous pain, especially in the presence of deep caries, are classic symptoms of irreversible pulpitis. Reversible pulpitis typically presents with sharp, transient pain that does not linger. Necrotic pulp would show no response to cold. Symptomatic apical periodontitis is characterized by tenderness to percussion and biting, often associated with a non-vital pulp, though it can co-exist with irreversible pulpitis."
+  },
+  {
+    "id": 686254985,
+    "topicId": "periodontology",
+    "question": "A 65-year-old male patient with a history of hypertension controlled by ACE inhibitors (e.g., ramipril) requires extraction of a fractured tooth #18. His INR is 1.2. What is the MOST appropriate pre-operative management regarding his medication?",
+    "options": [
+      "Discontinue ACE inhibitor 24 hours prior to extraction",
+      "Continue ACE inhibitor as prescribed",
+      "Prescribe prophylactic antibiotics before the procedure",
+      "Refer to his physician for INR management prior to the extraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ACE inhibitors do not affect coagulation and should be continued as prescribed for routine dental procedures to maintain blood pressure control. Discontinuing essential medications without consulting the patient's physician is generally not recommended. An INR of 1.2 is within the normal range for minor oral surgery, so specific INR management or physician referral for this purpose is unnecessary. Prophylactic antibiotics are not routinely indicated for simple extractions in healthy patients unless specific risk factors (e.g., prosthetic heart valve) are present."
+  },
+  {
+    "id": 63881209,
+    "topicId": "periodontology",
+    "question": "According to Canadian dental infection control guidelines, what is the recommended method for sterilizing heat-sensitive critical instruments that cannot withstand autoclaving?",
+    "options": [
+      "High-level disinfection with glutaraldehyde immersion",
+      "Dry heat sterilization",
+      "Ethylene oxide sterilization",
+      "Chemical vapor sterilization"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ethylene oxide sterilization is a low-temperature sterilization method suitable for heat-sensitive critical instruments, commonly used in healthcare settings where autoclaving is not feasible. High-level disinfection with glutaraldehyde is a disinfection process, not sterilization, and thus inadequate for critical instruments. Dry heat and chemical vapor sterilization are high-temperature methods that are not suitable for heat-sensitive items."
+  },
+  {
+    "id": 810884051,
+    "topicId": "periodontology",
+    "question": "A 50-year-old female patient presents with a complaint of dry mouth for the past 6 months. She also reports dry eyes and occasional joint pain. Her medical history is significant for hypothyroidism. Intraoral examination reveals diffuse erythema of the oral mucosa and minimal salivary pooling. What is the MOST likely underlying condition?",
+    "options": [
+      "Medication-induced xerostomia",
+      "Sjögren's syndrome",
+      "Systemic lupus erythematosus",
+      "Chronic candidiasis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The triad of dry mouth (xerostomia), dry eyes (xerophthalmia), and joint pain strongly suggests Sjögren's syndrome, an autoimmune exocrinopathy. While medication can cause xerostomia, the additional symptoms of dry eyes and joint pain point to a systemic condition. Systemic lupus erythematosus can present with oral lesions but dry mouth and eyes are not its primary distinguishing features. Chronic candidiasis is a consequence of xerostomia and immunosuppression, not a primary underlying cause of the presented symptoms."
+  },
+  {
+    "id": 88022444,
+    "topicId": "periodontology",
+    "question": "A 7-year-old male patient presents with a deep carious lesion on tooth #75 (mandibular primary second molar) that extends close to the pulp radiographically, but he is asymptomatic. Clinical examination reveals no signs of pulp necrosis or irreversible pulpitis. What is the MOST appropriate pulp therapy for this tooth?",
+    "options": [
+      "Direct pulp cap with calcium hydroxide",
+      "Pulpotomy",
+      "Pulpectomy",
+      "Extraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a primary tooth with deep caries approximating the pulp but no clinical signs of irreversible pulpitis or necrosis, a pulpotomy is the most appropriate treatment to preserve the tooth. A direct pulp cap is generally contraindicated in primary teeth with carious exposures due to the high risk of failure. Pulpectomy is indicated when there is irreversible pulpitis or necrosis. Extraction is a last resort and should be avoided if the tooth is restorable and functional."
+  },
+  {
+    "id": 869568232,
+    "topicId": "periodontology",
+    "question": "Which of the following describes the mechanism of action of fluoride in preventing dental caries?",
+    "options": [
+      "Directly killing cariogenic bacteria",
+      "Reducing salivary flow",
+      "Inhibiting bacterial adhesion to tooth surfaces",
+      "Enhancing remineralization and reducing enamel solubility"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Fluoride primarily prevents dental caries by enhancing remineralization of demineralized enamel and reducing enamel solubility through the formation of fluorapatite. While high concentrations of fluoride can have an antibacterial effect, this is not its primary mechanism for caries prevention. Fluoride does not reduce salivary flow or primarily inhibit bacterial adhesion to tooth surfaces in its main caries-preventive role."
+  },
+  {
+    "id": 704683838,
+    "topicId": "periodontology",
+    "question": "A 28-year-old female patient, who is 12 weeks pregnant, requires management of a carious lesion on tooth #26. She reports no allergies. Which local anesthetic agent is considered MOST appropriate and safe for her during this stage of pregnancy?",
+    "options": [
+      "Lidocaine with epinephrine",
+      "Bupivacaine with epinephrine",
+      "Mepivacaine plain",
+      "Articaine with epinephrine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lidocaine with epinephrine is considered the safest and most commonly used local anesthetic for pregnant patients, especially during the second trimester. Epinephrine use should be limited to the lowest effective dose to minimize systemic effects. Bupivacaine has a longer duration and higher cardiac toxicity risk, making it less preferred. Mepivacaine plain is not ideal due to its shorter duration and lack of vasoconstrictor, which could lead to a larger total dose or inadequate anesthesia. Articaine's safety in pregnancy is less established than lidocaine."
+  },
+  {
+    "id": 623475069,
+    "topicId": "periodontology",
+    "question": "A 55-year-old male patient presents with a complaint of a 'burning sensation' on his tongue for the past few weeks, without any obvious clinical lesions. He reports no changes in diet, medications, or oral hygiene. His medical history includes well-controlled hypertension. What is the MOST appropriate initial diagnostic consideration?",
+    "options": [
+      "Oral candidiasis",
+      "Traumatic ulcer",
+      "Burning mouth syndrome",
+      "Geographic tongue"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The clinical presentation of a burning sensation on the tongue without obvious lesions, and with no clear local or systemic causes, is characteristic of burning mouth syndrome. Oral candidiasis typically presents with white patches or erythema and is often associated with predisposing factors. A traumatic ulcer would have a clear etiology and visible lesion. Geographic tongue has a distinct clinical appearance of migratory erythema with white borders, and is typically asymptomatic or mildly sensitive, not a burning sensation."
+  },
+  {
+    "id": 128986125,
+    "topicId": "periodontology",
+    "question": "What is the primary function of the dental pulp?",
+    "options": [
+      "Support for tooth structure",
+      "Sensory perception and defensive processes",
+      "Attachment of periodontal ligament fibers",
+      "Enamel formation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The primary functions of the dental pulp include sensory perception (pain, temperature), formation of dentin (nutritive function for dentin), and defensive processes (tertiary dentin formation, immune response). While dentin supports enamel, the pulp itself doesn't directly support the overall tooth structure in the same way. Periodontal ligament fibers attach to cementum, not pulp. Enamel formation is carried out by ameloblasts, which are external to the pulp."
+  },
+  {
+    "id": 72391470,
+    "topicId": "periodontology",
+    "question": "A 35-year-old male patient presents with acute pain and swelling in the mandibular right posterior region. Radiographic examination reveals a horizontally impacted tooth #48 with associated pericoronal radiolucency. Clinical examination shows trismus and tenderness to palpation. What is the MOST appropriate initial management?",
+    "options": [
+      "Immediate surgical extraction of tooth #48",
+      "Prescription of antibiotics and analgesics, followed by reassessment",
+      "Incision and drainage of the swelling",
+      "Root canal treatment of tooth #48"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In cases of acute pericoronitis with trismus and swelling, the initial management involves controlling the acute infection with antibiotics and analgesics. Once the acute infection subsides, a definitive treatment like extraction can be planned. Immediate surgical extraction in an acutely infected area can spread the infection and increase complications. Incision and drainage may be necessary if there is a fluctuant abscess, but antibiotics are usually still indicated. Root canal treatment is not an option for an impacted tooth."
+  },
+  {
+    "id": 878656604,
+    "topicId": "periodontology",
+    "question": "A 60-year-old female patient with a history of osteoporosis on oral bisphosphonates for 8 years requires a tooth extraction. Her physician advises against discontinuing the bisphosphonate. What is the MOST appropriate course of action to minimize the risk of medication-related osteonecrosis of the jaw (MRONJ)?",
+    "options": [
+      "Proceed with standard extraction protocol",
+      "Perform a surgical extraction with primary closure and prophylactic antibiotics",
+      "Refer for hyperbaric oxygen therapy pre-operatively",
+      "Delay the extraction indefinitely"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For patients on long-term bisphosphonates who require extraction and cannot discontinue the medication, performing a surgical extraction with minimal trauma, ensuring good bone debridement, and achieving primary soft tissue closure, along with prophylactic antibiotics, is the most appropriate approach to minimize MRONJ risk. Standard extraction protocol might not be sufficient. Hyperbaric oxygen therapy is not routinely indicated for prevention. Delaying extraction indefinitely may compromise the patient's oral health further."
+  },
+  {
+    "id": 945991873,
+    "topicId": "periodontology",
+    "question": "Which of the following is the MOST common cause of pulpal necrosis in permanent teeth?",
+    "options": [
+      "Traumatic injury",
+      "Iatrogenic damage",
+      "Deep carious lesions",
+      "Periodontal disease"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Deep carious lesions are the most common cause of pulpal necrosis in permanent teeth, as bacterial toxins and direct bacterial invasion can lead to irreversible inflammation and eventual pulp death. While traumatic injury, iatrogenic damage, and severe periodontal disease can also lead to pulpal necrosis, they are less frequent causes compared to caries."
+  },
+  {
+    "id": 35024178,
+    "topicId": "periodontology",
+    "question": "A 40-year-old male patient presents with a painful, recurrent ulcer on his non-keratinized oral mucosa (buccal vestibule). The ulcer has a yellow-gray center with an erythematous halo and typically resolves within 7-10 days, recurring every few weeks. What is the MOST likely diagnosis?",
+    "options": [
+      "Herpes labialis",
+      "Aphthous ulcer (minor)",
+      "Traumatic ulcer",
+      "Squamous cell carcinoma"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The description of a painful, recurrent ulcer with a yellow-gray center and erythematous halo on non-keratinized mucosa, resolving within 7-10 days, is characteristic of a minor aphthous ulcer. Herpes labialis typically presents as vesicles that rupture to form ulcers, primarily on keratinized tissue (e.g., vermilion border, attached gingiva). A traumatic ulcer would have a clear etiology and usually does not recur in the same cyclical pattern. Squamous cell carcinoma is typically persistent, indurated, and often asymptomatic initially, with variable presentation."
+  },
+  {
+    "id": 168236353,
+    "topicId": "periodontology",
+    "question": "What is the primary advantage of using a rubber dam during restorative procedures?",
+    "options": [
+      "Improved patient comfort",
+      "Reduced chairside time",
+      "Superior moisture control and isolation",
+      "Enhanced visibility for the operator"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The primary advantage of using a rubber dam during restorative procedures is superior moisture control and isolation of the operating field, which is crucial for successful adhesive dentistry and preventing contamination. While it can enhance visibility, improve efficiency (reducing chairside time by preventing re-contamination), and contribute to patient safety, its core benefit is isolation. Patient comfort is variable and not its primary advantage."
+  },
+  {
+    "id": 368148147,
+    "topicId": "periodontology",
+    "question": "A 5-year-old female patient presents to your dental office with a history of multiple decayed primary teeth. Her parents report difficulty with consistent oral hygiene at home. What is the MOST appropriate public health intervention to recommend for caries prevention in this child, beyond brushing and flossing?",
+    "options": [
+      "Daily chlorhexidine rinses",
+      "Dietary counseling to reduce sugar intake and regular fluoride varnish applications",
+      "Prescription of systemic antibiotics to reduce bacterial load",
+      "Referral for immediate full-mouth extractions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a child with multiple decayed primary teeth and inconsistent oral hygiene, the most appropriate public health interventions involve dietary counseling to reduce sugar intake and regular fluoride varnish applications, as these are evidence-based strategies for caries prevention. Daily chlorhexidine rinses are not recommended for long-term use in children due to potential side effects and limited evidence for routine caries prevention. Systemic antibiotics are not used for caries prevention. Referral for full-mouth extractions would be a last resort for severe, unrestorable cases, not a primary preventive measure."
+  },
+  {
+    "id": 879557678,
+    "topicId": "periodontology",
+    "question": "Which of the following describes the mechanism of action of non-steroidal anti-inflammatory drugs (NSAIDs) in pain management?",
+    "options": [
+      "Binding to opioid receptors in the central nervous system",
+      "Inhibiting cyclooxygenase (COX) enzymes, reducing prostaglandin synthesis",
+      "Blocking sodium channels in nerve membranes",
+      "Enhancing GABAergic neurotransmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NSAIDs exert their analgesic, anti-inflammatory, and antipyretic effects by inhibiting cyclooxygenase (COX) enzymes, which are responsible for the synthesis of prostaglandins from arachidonic acid. Prostaglandins mediate inflammation and pain. Opioid receptors are targeted by opioid analgesics. Sodium channels are blocked by local anesthetics. GABAergic neurotransmission is associated with benzodiazepines and other sedatives, not NSAIDs."
+  },
+  {
+    "id": 562928579,
+    "topicId": "periodontology",
+    "question": "A 70-year-old male patient presents with a chief complaint of difficulty chewing due to loose dentures. Clinical examination reveals severely atrophic mandibular alveolar ridges. What is the MOST appropriate treatment option to improve denture stability and function?",
+    "options": [
+      "Fabrication of new conventional complete dentures",
+      "Reline of existing complete dentures",
+      "Placement of two mandibular implants to support an overdenture",
+      "Prescription of denture adhesives"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For patients with severely atrophic mandibular ridges and loose dentures, the placement of two mandibular implants to support an overdenture is considered the gold standard for significantly improving denture stability, retention, and function. Fabricating new conventional dentures or relining existing ones will likely yield limited improvement due to the lack of ridge support. While denture adhesives can offer temporary improvement, they do not address the underlying anatomical deficiency and are not a definitive solution for severe atrophy."
+  },
+  {
+    "id": 741872167,
+    "topicId": "periodontology",
+    "question": "A 42-year-old female patient presents to your dental office with a several-month history of a persistent, white, non-scrapable lesion on the lateral border of her tongue. She is a long-term smoker. Clinical examination reveals a homogenous white plaque with a slightly irregular surface. What is the MOST appropriate next step in management?",
+    "options": [
+      "Prescribe antifungal medication",
+      "Observe and review in 6 months",
+      "Recommend immediate cessation of smoking and perform an incisional biopsy",
+      "Smooth the adjacent teeth to remove any irritation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A persistent, non-scrapable white lesion, especially on the lateral border of the tongue in a smoker, is suspicious for leukoplakia, which has malignant potential. Therefore, the most appropriate next step is to recommend immediate cessation of smoking and perform an incisional biopsy to obtain a definitive diagnosis. Prescribing antifungal medication is inappropriate as it does not appear to be candidiasis. Observing for 6 months is risky given the malignant potential. Smoothing adjacent teeth would only be appropriate if a clear traumatic etiology was evident and is not sufficient for a suspicious lesion."
+  },
+  {
+    "id": 645164315,
+    "topicId": "periodontology",
+    "question": "A 48-year-old male patient presents to your dental office with a chief complaint of chronic generalized gingival bleeding and halitosis. His medical history includes poorly controlled Type 2 Diabetes Mellitus (HbA1c 9.5%) and he smokes 1 pack per day. Clinical examination reveals generalized deep probing depths (5-8 mm), bleeding on probing, and radiographic evidence of severe horizontal and vertical bone loss affecting multiple teeth. What is the MOST critical initial step in managing this patient's periodontal condition?",
+    "options": [
+      "Refer immediately for systemic antibiotic therapy prior to any dental treatment.",
+      "Initiate aggressive non-surgical periodontal therapy (scaling and root planing) and provide smoking cessation counseling.",
+      "Extract all teeth with severe bone loss to prevent further disease progression.",
+      "Refer to an endocrinologist for better glycemic control before any periodontal intervention."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Initiating non-surgical periodontal therapy and addressing modifiable risk factors like smoking are critical initial steps, as periodontal disease is a chronic inflammatory condition requiring local debridement and host response modulation. While glycemic control is crucial, delaying all periodontal intervention until optimal control is achieved is not ideal; concurrent management is often recommended. Systemic antibiotics are typically an adjunct, not an initial monotherapy, and immediate widespread extractions are generally reserved for teeth with hopeless prognoses after initial therapy."
+  },
+  {
+    "id": 543439457,
+    "topicId": "periodontology",
+    "question": "Which of the following host-derived inflammatory mediators is primarily responsible for the irreversible destruction of periodontal connective tissue and alveolar bone by degrading collagen?",
+    "options": [
+      "Interleukin-1 beta (IL-1β)",
+      "Tumor Necrosis Factor-alpha (TNF-α)",
+      "Matrix Metalloproteinase (MMP)",
+      "Prostaglandin E2 (PGE2)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Matrix Metalloproteinases (MMPs), particularly collagenases, are the key enzymes responsible for the breakdown of collagen and other extracellular matrix components, leading to irreversible connective tissue and bone destruction in periodontitis. IL-1β, TNF-α, and PGE2 are important pro-inflammatory mediators that stimulate the production of MMPs and contribute to the inflammatory cascade and bone resorption, but they do not directly degrade collagen."
+  },
+  {
+    "id": 164588810,
+    "topicId": "periodontology",
+    "question": "A 65-year-old female patient, a long-term denture wearer, presents with a complaint of a persistent burning sensation on her palate under her maxillary denture. Clinical examination reveals a well-demarcated, erythematous area corresponding to the denture bearing surface, along with some scattered petechiae. The denture fit appears acceptable. What is the MOST likely diagnosis?",
+    "options": [
+      "Traumatic ulcer from ill-fitting denture.",
+      "Squamous cell carcinoma.",
+      "Denture Stomatitis (Candida-associated).",
+      "Allergic contact stomatitis to denture material."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The clinical presentation of a well-demarcated erythematous area under a denture with a burning sensation is highly characteristic of Denture Stomatitis, which is commonly associated with Candida albicans infection. While an ill-fitting denture can cause traumatic ulcers, these are typically localized to pressure points rather than a generalized erythematous area. Squamous cell carcinoma usually presents as a non-healing ulcer or exophytic mass, and allergic contact stomatitis is less common and often presents with more diffuse erythema or vesicles."
+  },
+  {
+    "id": 501001731,
+    "topicId": "periodontology",
+    "question": "A 32-year-old female patient presents for a routine dental check-up. She reports no pain. Her medical history is unremarkable. During the examination, a well-circumscribed, asymptomatic, dome-shaped radiopacity is noted at the apex of the mandibular right first molar (#46). The tooth is vital and has no caries or restorations. What is the MOST appropriate management?",
+    "options": [
+      "Initiate root canal therapy due to a periapical lesion.",
+      "Extract the tooth due to potential odontogenic tumor.",
+      "Monitor the lesion with periodic radiographic follow-up.",
+      "Perform an incisional biopsy to rule out malignancy."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Given the tooth is vital, asymptomatic, and free of caries, the radiopacity is likely a condensing osteitis (sclerosing osteitis) or an enostosis/idiopathic osteosclerosis. These are benign conditions that do not require active treatment beyond observation. Initiating root canal therapy or extraction is inappropriate for a vital, asymptomatic tooth. Biopsy is typically reserved for lesions with suspicious features or those that are symptomatic or progressive."
+  },
+  {
+    "id": 485926846,
+    "topicId": "periodontology",
+    "question": "A 7-year-old male patient presents with a deep carious lesion on the mandibular left first primary molar (#74). Clinical examination reveals no spontaneous pain, but there is mild sensitivity to cold that dissipates immediately. Radiographically, the lesion extends into the pulpal third of the dentin, with no periapical pathology. What is the MOST appropriate treatment for tooth #74?",
+    "options": [
+      "Direct pulp cap.",
+      "Pulpotomy.",
+      "Pulpectomy.",
+      "Extraction."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Given the deep carious lesion extending into the pulpal third with mild, transient sensitivity to cold and no spontaneous pain or periapical pathology, a pulpotomy is the most appropriate treatment for a primary molar with reversible pulpitis. A direct pulp cap is generally indicated for small mechanical or traumatic pulp exposures, not deep caries. Pulpectomy is for irreversible pulpitis or necrosis, and extraction is reserved for non-restorable teeth or those with irreversible pulpitis that cannot be treated with a pulpectomy."
+  },
+  {
+    "id": 371140826,
+    "topicId": "periodontology",
+    "question": "A 38-year-old male patient presents with acute pain and swelling in the mandibular right posterior region. He reports a history of recurrent pericoronitis associated with the partially erupted mandibular third molar (#48). Clinical examination reveals inflamed, edematous gingival tissue partially covering the distal aspect of #48, purulent exudate upon pressure, and limited mouth opening. Radiographically, #48 is mesioangularly impacted. What is the MOST appropriate initial management?",
+    "options": [
+      "Immediate surgical extraction of tooth #48.",
+      "Prescribe systemic antibiotics and analgesics, then schedule for extraction once acute infection subsides.",
+      "Perform irrigation and debridement under the operculum, along with analgesics and warm saline rinses.",
+      "Initiate root canal therapy on tooth #48 to address the inflammation."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The most appropriate initial management for acute pericoronitis is local debridement and irrigation under the operculum, along with warm saline rinses and analgesics to control symptoms. Systemic antibiotics are only indicated if there are signs of systemic involvement (e.g., fever, lymphadenopathy, trismus, or cellulitis). Immediate surgical extraction is contraindicated during an acute infection due to increased risk of complications. Root canal therapy is not indicated as the pain is pericoronal, not pulpal."
+  },
+  {
+    "id": 574379566,
+    "topicId": "periodontology",
+    "question": "A 60-year-old female patient with a history of osteoporosis on oral bisphosphonates (Alendronate) for 8 years presents for a routine extraction of a non-restorable mandibular premolar. Her physician has not advised discontinuation of the bisphosphonates. What is the MOST appropriate next step before proceeding with the extraction?",
+    "options": [
+      "Proceed with the extraction as planned, as oral bisphosphonates rarely cause osteonecrosis.",
+      "Refer for hyperbaric oxygen therapy pre-operatively to prevent osteonecrosis.",
+      "Obtain a panoramic radiograph and consider a bone scintigraphy to assess osteonecrosis risk.",
+      "Inform the patient about the risk of osteonecrosis of the jaw (ONJ) and discuss management strategies with the prescribing physician."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Informing the patient about the risk of ONJ and consulting with the prescribing physician to discuss the risks and benefits of continuing or discontinuing bisphosphonate therapy is crucial before any invasive procedure. While oral bisphosphonates carry a lower risk than IV forms, the risk still exists, especially with long-term use. Hyperbaric oxygen therapy is not a standard prophylactic measure. Radiographs are part of routine assessment, but direct communication with the physician and informed consent are paramount."
+  },
+  {
+    "id": 228482125,
+    "topicId": "periodontology",
+    "question": "A 70-year-old male patient presents with a chief complaint of difficulty chewing due to loose teeth and a 'gummy smile'. Clinical examination reveals generalized severe gingival recession, advanced bone loss on multiple teeth with Grade III mobility, and root exposure. The patient has a history of smoking for 50 years. What is the MOST likely periodontal classification based on the 2017 AAP/EFP classification?",
+    "options": [
+      "Stage II, Grade B Periodontitis.",
+      "Stage III, Grade C Periodontitis.",
+      "Gingivitis on a reduced periodontium.",
+      "Periodontal health on an intact periodontium."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Given the severe generalized recession, advanced bone loss, Grade III mobility, and a long history of heavy smoking, this patient most likely presents with Stage III or IV Periodontitis (significant attachment loss, tooth loss/complex rehabilitation needed) and a Grade C (rapid progression, heavy smoking is a major risk factor). Stage II is moderate, and gingivitis/health classification is inappropriate given severe bone loss. The question implies advanced disease characteristics."
+  },
+  {
+    "id": 990885325,
+    "topicId": "periodontology",
+    "question": "A 42-year-old female patient presents to your dental office with a several-month history of a non-healing ulcer on the lateral border of her tongue. She is a smoker and consumes alcohol regularly. Clinical examination reveals a 1.5 cm indurated, exophytic ulcer with rolled borders. Palpation reveals a firm, fixed mass in the submandibular region. What is the MOST appropriate next step in the management of this patient?",
+    "options": [
+      "Prescribe a broad-spectrum antibiotic and re-evaluate in two weeks.",
+      "Advise the patient to stop smoking and drinking and monitor for changes.",
+      "Perform an incisional biopsy of the lesion and refer to an oral surgeon for further evaluation.",
+      "Apply topical corticosteroids to reduce inflammation and promote healing."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The clinical presentation of a non-healing, indurated, exophytic ulcer with rolled borders on the lateral tongue, coupled with risk factors (smoking, alcohol) and a palpable fixed lymph node, is highly suggestive of squamous cell carcinoma. An incisional biopsy is mandatory for definitive diagnosis, and immediate referral to an oral surgeon or oncologist is critical for comprehensive management. Antibiotics, smoking cessation alone, or topical corticosteroids are inappropriate and would delay crucial diagnosis and treatment for a potentially life-threatening condition."
+  },
+  {
+    "id": 129637229,
+    "topicId": "periodontology",
+    "question": "A 28-year-old female patient, who is 12 weeks pregnant, requires management of a deep carious lesion on tooth #26 (maxillary right first molar). She reports occasional sensitivity to cold. Medical history is otherwise unremarkable. What is the MOST appropriate local anesthetic agent to use, considering her pregnancy status?",
+    "options": [
+      "Bupivacaine with epinephrine (1:50,000).",
+      "Lidocaine with epinephrine (1:100,000).",
+      "Mepivacaine plain (3%).",
+      "Articaine with epinephrine (1:200,000)."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lidocaine with epinephrine (1:100,000) is considered the most appropriate and safest local anesthetic for pregnant patients. It is a Category B drug, and the epinephrine helps prolong duration and control bleeding with minimal systemic absorption when used in appropriate doses. Bupivacaine is Category C and not typically recommended for routine dental procedures. Mepivacaine plain has a shorter duration and Articaine is Category C, with some controversy regarding its use in pregnancy despite its favorable metabolism profile."
+  },
+  {
+    "id": 922687076,
+    "topicId": "periodontology",
+    "question": "A 30-year-old male patient presents to your dental office with severe, spontaneous pain in tooth #36 (mandibular left first molar) that has been waking him at night. He reports prolonged sensitivity to cold and heat. Clinical examination reveals a deep mesial restoration and tenderness to percussion. Radiographically, the lesion appears to extend close to the pulp chamber, with no periapical radiolucency. What is the MOST likely pulpal diagnosis?",
+    "options": [
+      "Reversible pulpitis.",
+      "Irreversible pulpitis.",
+      "Pulp necrosis.",
+      "Symptomatic apical periodontitis."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The symptoms of spontaneous pain, prolonged sensitivity to thermal stimuli, and pain that wakes the patient at night are classic signs of irreversible pulpitis. Reversible pulpitis involves transient pain to stimuli, not spontaneous or prolonged pain. Pulp necrosis would typically present with a lack of pulp vitality response, and symptomatic apical periodontitis is a periapical diagnosis, though it can accompany irreversible pulpitis or necrosis."
+  },
+  {
+    "id": 613378562,
+    "topicId": "periodontology",
+    "question": "A 65-year-old male patient with a history of hypertension controlled by ACE inhibitors (e.g., Ramipril) and Type 2 Diabetes Mellitus managed by oral hypoglycemics requires a routine dental scaling. He denies any bleeding issues. Which of the following is the MOST important consideration regarding his medications during treatment?",
+    "options": [
+      "ACE inhibitors can cause gingival hyperplasia, so meticulous oral hygiene is crucial.",
+      "Oral hypoglycemics may interact with local anesthetics containing epinephrine, leading to hyperglycemia.",
+      "ACE inhibitors can cause a persistent dry cough, which may make treatment uncomfortable.",
+      "The patient's controlled diabetes increases his susceptibility to oral infections, requiring prophylactic antibiotics."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A common side effect of ACE inhibitors is a persistent dry cough, which can make dental procedures, especially scaling, uncomfortable and challenging for the patient. Gingival hyperplasia is associated with calcium channel blockers, not ACE inhibitors. While epinephrine can transiently affect blood glucose, oral hypoglycemics do not typically interact with standard dental local anesthetic doses to cause significant hyperglycemia. Controlled diabetes does not automatically warrant prophylactic antibiotics for routine scaling, unless there are specific risk factors or guidelines."
+  },
+  {
+    "id": 786847752,
+    "topicId": "periodontology",
+    "question": "A 50-year-old female patient presents with a complaint of dry mouth for the past 6 months. Her medical history includes Sjögren's Syndrome, for which she is receiving treatment. Intraoral examination reveals generalized mucosal dryness, erythematous and atrophic oral mucosa, and a foamy saliva. There is also a significant increase in dental caries, particularly at the cervical margins. What is the MOST appropriate recommendation for managing her increased caries risk?",
+    "options": [
+      "Prescribe systemic antifungal medication to reduce fungal overgrowth.",
+      "Recommend daily fluoride varnish applications by the patient at home.",
+      "Implement a rigorous recall schedule with daily topical fluoride (e.g., 5000 ppm toothpaste) and xylitol products.",
+      "Advise strict avoidance of all sugary foods and beverages."
+    ],
+    "correctAnswer": 2,
+    "explanation": "For patients with xerostomia, particularly due to Sjögren's Syndrome, aggressive caries prevention is essential. This includes a rigorous recall schedule, daily high-concentration topical fluoride (like 5000 ppm toothpaste), and the use of xylitol products to stimulate saliva and inhibit bacterial growth. While avoiding sugary foods is important, it is often insufficient alone. Daily fluoride varnish application by the patient is not typical; professional application is. Antifungals address candidiasis, not directly caries risk, although candidiasis is common in xerostomia."
+  },
+  {
+    "id": 293480582,
+    "topicId": "periodontology",
+    "question": "A 45-year-old male patient presents with a history of recurrent aphthous stomatitis (RAS) characterized by painful, well-circumscribed ulcers with an erythematous halo, primarily on non-keratinized oral mucosa. He experiences 3-4 episodes per year, each lasting 7-10 days. What is the MOST appropriate initial topical management for his acute symptomatic episodes?",
+    "options": [
+      "Systemic antiviral medication (e.g., Acyclovir).",
+      "Application of a high-potency topical corticosteroid (e.g., Clobetasol gel).",
+      "Prescription of a broad-spectrum antibiotic mouthrinse (e.g., Chlorhexidine).",
+      "Surgical excision of the recurrent lesions to prevent recurrence."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Topical corticosteroids are the mainstay for managing acute painful episodes of recurrent aphthous stomatitis (RAS) by reducing inflammation and promoting healing. High-potency options like Clobetasol are effective. Systemic antivirals are for viral lesions (e.g., herpes), not RAS. Antibiotic mouthrinses may help with secondary infection but do not treat the primary RAS lesion. Surgical excision is not indicated for RAS and would not prevent recurrence."
+  },
+  {
+    "id": 521232154,
+    "topicId": "periodontology",
+    "question": "A 40-year-old male patient presents with a painful, recurrent ulcer on his non-keratinized labial mucosa. He reports a burning sensation followed by the appearance of a small, red spot that develops into a yellow-white fibrin-covered lesion with an erythematous halo. The lesion heals in about 10 days without scarring. His medical history is unremarkable. What is the MOST likely diagnosis?",
+    "options": [
+      "Herpes labialis.",
+      "Traumatic ulcer.",
+      "Recurrent aphthous ulcer (minor).",
+      "Squamous cell carcinoma."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The description of a painful, recurrent ulcer on non-keratinized mucosa, starting with a burning sensation, developing into a yellow-white fibrin-covered lesion with an erythematous halo, and healing without scarring in about 10 days, is classic for a minor recurrent aphthous ulcer. Herpes labialis typically occurs on keratinized tissue and presents as vesicles. A traumatic ulcer usually has a clear causative factor. Squamous cell carcinoma would likely be indurated, non-healing, and lack the characteristic recurrent pattern and rapid healing."
+  },
+  {
+    "id": 238420824,
+    "topicId": "periodontology",
+    "question": "A 68-year-old female patient presents with a chief complaint of a persistent burning sensation on her tongue and oral mucosa for the past 9 months, without any clinically evident lesions. She reports no specific precipitating factors, and her medical history includes well-controlled hypertension and Type 2 diabetes. Intraoral examination reveals no erythema, ulceration, or candidiasis. Her salivary flow appears adequate. What is the MOST appropriate initial diagnostic consideration?",
+    "options": [
+      "Burning Mouth Syndrome",
+      "Oral candidiasis",
+      "Xerostomia",
+      "Geographic tongue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Burning Mouth Syndrome is a diagnosis of exclusion characterized by a chronic burning sensation in the mouth without identifiable local or systemic causes, matching the patient's presentation. Oral candidiasis would typically present with visible white patches or erythema, which is absent here. Xerostomia, while a common cause of oral discomfort, is ruled out by the patient's adequate salivary flow."
+  },
+  {
+    "id": 509502199,
+    "topicId": "periodontology",
+    "question": "A 10-year-old male patient presents to your office immediately after avulsing his maxillary central incisor (tooth #11) during a playground accident. The tooth was found on the ground and was rinsed by the parent with tap water before being brought to the office dry. Extraoral examination reveals a minor lip laceration. Intraoral examination confirms the avulsed tooth socket. What is the MOST critical immediate step for managing this avulsion?",
+    "options": [
+      "Administer systemic antibiotics immediately.",
+      "Replant the tooth after rinsing with saline and applying topical fluoride.",
+      "Clean the root surface thoroughly with a toothbrush before replantation.",
+      "Replant the tooth immediately after a brief rinse with saline, then stabilize."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Immediate replantation after a brief, gentle rinse with saline is the most critical step to preserve the periodontal ligament cells and ensure the best prognosis for an avulsed tooth, especially within the first hour. Cleaning the root surface with a toothbrush or applying topical fluoride is contraindicated as it damages periodontal ligament cells. Administering systemic antibiotics is part of subsequent management, not the immediate critical step for replantation."
+  },
+  {
+    "id": 24657216,
+    "topicId": "periodontology",
+    "question": "A 25-year-old female patient presents with intermittent sharp pain in her mandibular right first molar (#46) when consuming cold beverages. The pain is localized, lasts for a few seconds after the stimulus is removed, and does not occur spontaneously. Radiographic examination reveals a deep carious lesion approaching the pulp chamber. The tooth responds positively to vitality testing (cold) and is non-tender to percussion and palpation. What is the MOST likely pulpal diagnosis?",
+    "options": [
+      "Irreversible pulpitis",
+      "Reversible pulpitis",
+      "Pulpal necrosis",
+      "Asymptomatic apical periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reversible pulpitis is characterized by sharp, transient pain to cold stimuli that subsides quickly once the stimulus is removed, without spontaneous pain, and with normal vitality test responses. Irreversible pulpitis would involve prolonged pain, spontaneous pain, or pain to heat. Pulpal necrosis would result in no response to vitality testing, and asymptomatic apical periodontitis typically involves a non-vital pulp."
+  },
+  {
+    "id": 273086399,
+    "topicId": "periodontology",
+    "question": "A 58-year-old male patient, a non-smoker with well-controlled type 2 diabetes, presents for his annual dental implant maintenance. He has a single implant-supported crown in the maxillary right first molar position (#16) placed 5 years ago. Clinically, you observe mild redness and swelling of the peri-implant tissues, slight bleeding on probing (BOP) around the implant, and probing depths of 4-5 mm, which are stable compared to previous visits. There is no suppuration, and radiographs show no bone loss compared to previous images. What is the MOST appropriate diagnosis for the peri-implant condition?",
+    "options": [
+      "Peri-implantitis",
+      "Peri-implant mucositis",
+      "Healthy peri-implant tissue",
+      "Generalized chronic periodontitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Peri-implant mucositis is characterized by inflammation of the peri-implant soft tissues (redness, swelling, BOP) without any progressive bone loss, matching the clinical findings. Peri-implantitis involves inflammation AND progressive bone loss, which is not evident radiographically. Healthy peri-implant tissue would not exhibit redness, swelling, or BOP. Generalized chronic periodontitis describes a condition of natural teeth, not implants."
+  },
+  {
+    "id": 691271179,
+    "topicId": "periodontology",
+    "question": "A 72-year-old female patient with a history of a prosthetic heart valve replacement 3 years ago presents for a tooth extraction (#36) due to deep caries. Her medical history indicates she is currently taking warfarin, and her INR was 2.5 yesterday. She reports no allergies. What is the MOST appropriate antibiotic prophylaxis regimen for this patient according to Canadian guidelines?",
+    "options": [
+      "Amoxicillin 2g orally, 30-60 minutes before the procedure.",
+      "Clindamycin 600mg orally, 30-60 minutes before the procedure.",
+      "No antibiotic prophylaxis is required for tooth extraction with prosthetic heart valves.",
+      "Azithromycin 500mg orally, 30-60 minutes before the procedure."
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to Canadian and American Heart Association guidelines, patients with prosthetic heart valves require antibiotic prophylaxis for dental procedures involving manipulation of gingival tissue, like extractions. Amoxicillin 2g orally is the standard regimen for patients not allergic to penicillin. Clindamycin or Azithromycin are alternatives for penicillin-allergic patients, but are not indicated here."
+  },
+  {
+    "id": 200516554,
+    "topicId": "periodontology",
+    "question": "A 35-year-old male patient returns to your office three days after the uneventful extraction of his mandibular right first molar (#46). He complains of severe, throbbing pain radiating to his ear, which is not relieved by over-the-counter analgesics. Intraoral examination reveals a partially empty socket with a grayish-brown clot, foul odor, and exposed bone. There is no significant swelling or purulent exudate. What is the MOST likely diagnosis?",
+    "options": [
+      "Post-operative infection",
+      "Osteomyelitis",
+      "Alveolar osteitis with cellulitis",
+      "Localized osteitis (dry socket)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Localized osteitis, or 'dry socket', typically presents 2-4 days post-extraction with severe, radiating pain, a foul odor, and a lost or disintegrated blood clot exposing bone, without significant swelling or purulence. Post-operative infection usually involves swelling, redness, and purulent discharge. Osteomyelitis is a more severe bone infection often with systemic signs, and cellulitis involves diffuse soft tissue swelling."
+  },
+  {
+    "id": 710832382,
+    "topicId": "periodontology",
+    "question": "A 3-year-old female patient presents for her first dental visit. Her mother reports that the child frequently sips juice from a bottle throughout the day and often falls asleep with the bottle. Clinical examination reveals multiple carious lesions on the maxillary anterior teeth, particularly on the facial surfaces, and incipient lesions on posterior teeth. The child appears otherwise healthy. What is the MOST significant contributing factor to this patient's dental condition?",
+    "options": [
+      "Genetic predisposition to caries",
+      "Prolonged nocturnal bottle feeding with fermentable carbohydrates",
+      "Excessive fluoride intake",
+      "Insufficient calcium in diet"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Prolonged nocturnal bottle feeding with fermentable carbohydrates, such as juice, is a primary etiological factor for early childhood caries, especially affecting the maxillary anterior teeth due to prolonged exposure to sugars and reduced salivary flow during sleep. While genetics can play a role, it is not the most significant modifiable factor. Excessive fluoride intake typically causes fluorosis, not rampant caries."
+  },
+  {
+    "id": 171364626,
+    "topicId": "periodontology",
+    "question": "A 55-year-old male patient, a heavy smoker for 30 years, presents with a well-demarcated, persistent white lesion on his left buccal mucosa that cannot be wiped off. The lesion has been present for approximately 6 months and is asymptomatic. His medical history is unremarkable except for smoking. Intraoral examination confirms a homogenous, non-tender white patch. What is the MOST appropriate initial diagnostic step?",
+    "options": [
+      "Perform an incisional biopsy.",
+      "Prescribe topical antifungal medication.",
+      "Recommend immediate surgical excision.",
+      "Advise the patient to stop smoking and monitor the lesion."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A persistent, non-scrapable white lesion (leukoplakia) in a high-risk patient like a heavy smoker, present for 6 months, warrants an incisional biopsy to rule out epithelial dysplasia or malignancy. Topical antifungal medication is for candidiasis, which is typically scrapable. Immediate surgical excision is premature without a definitive diagnosis. While smoking cessation is crucial, monitoring without biopsy is inappropriate given the lesion's characteristics and patient's risk factors."
+  },
+  {
+    "id": 719389813,
+    "topicId": "periodontology",
+    "question": "A 40-year-old female patient reports post-operative pain after a routine restorative procedure. She has no known medical conditions or allergies. You recommend an over-the-counter Non-Steroidal Anti-Inflammatory Drug (NSAID) for pain relief. The patient asks how NSAIDs work. Which of the following best describes the primary mechanism of action of NSAIDs?",
+    "options": [
+      "Reversible inhibition of cyclooxygenase (COX) enzymes, reducing prostaglandin synthesis.",
+      "Selective inhibition of COX-1 enzyme.",
+      "Inhibition of bacterial cell wall synthesis.",
+      "Stimulation of opioid receptors in the central nervous system."
+    ],
+    "correctAnswer": 0,
+    "explanation": "NSAIDs primarily exert their analgesic and anti-inflammatory effects by reversibly inhibiting cyclooxygenase (COX) enzymes (both COX-1 and COX-2), thereby reducing the synthesis of prostaglandins. Prostaglandins are key mediators of pain and inflammation. Inhibition of bacterial cell wall synthesis is the mechanism of action for certain antibiotics, and stimulation of opioid receptors is how opioid analgesics work."
+  },
+  {
+    "id": 668919112,
+    "topicId": "periodontology",
+    "question": "A 65-year-old cognitively impaired male patient requires extraction of a severely decayed tooth (#37). His daughter, who holds a valid Power of Attorney for Personal Care, accompanies him to the appointment. The patient himself is agreeable to the procedure but appears to have difficulty fully understanding the risks and benefits. What is the MOST appropriate approach to obtain informed consent for the extraction?",
+    "options": [
+      "Obtain consent from both the patient and the daughter, ensuring the daughter understands and consents on the patient's behalf after the patient has given assent.",
+      "Obtain consent solely from the patient, as he is agreeable.",
+      "Obtain consent solely from the daughter, as she has Power of Attorney.",
+      "Postpone the procedure until the patient's cognitive function improves."
+    ],
+    "correctAnswer": 0,
+    "explanation": "In cases of diminished capacity, assent should be sought from the patient to the extent possible, while full informed consent is obtained from the legal substitute decision-maker (Power of Attorney for Personal Care). Obtaining consent solely from the patient is insufficient due to his cognitive impairment. Obtaining consent solely from the daughter disregards the patient's autonomy to the extent he can understand, and postponement may not be practical or ethical for a severely decayed tooth."
+  },
+  {
+    "id": 626145565,
+    "topicId": "periodontology",
+    "question": "A 28-year-old female patient experiences numbness of her lower lip and chin on the right side immediately following the extraction of a horizontally impacted mandibular third molar (#48). She reports no pain or swelling, but the numbness is persistent. What is the MOST likely nerve involved in this complication?",
+    "options": [
+      "Lingual nerve",
+      "Inferior alveolar nerve",
+      "Mental nerve",
+      "Buccal nerve"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The inferior alveolar nerve (IAN) runs within the mandible and is closely associated with the roots of mandibular third molars. Damage to the IAN during extraction can cause paresthesia or anesthesia (numbness) of the lower lip and chin on the ipsilateral side. The lingual nerve supplies the tongue and floor of the mouth, while the mental nerve is a terminal branch of the IAN, but the IAN itself is the primary nerve involved in this widespread numbness."
+  },
+  {
+    "id": 912098155,
+    "topicId": "periodontology",
+    "question": "A 45-year-old male patient presents with a deep subgingival proximal carious lesion on his maxillary first molar (#16) that extends apically below the cementoenamel junction. Radiographs confirm the lesion's depth, and clinical examination shows no signs of pulpitis or periapical pathology. The tooth has adequate remaining tooth structure elsewhere. What is the MOST appropriate initial management strategy to facilitate a successful direct restoration?",
+    "options": [
+      "Proceed directly with composite restoration using a conventional matrix.",
+      "Perform a crown lengthening procedure to expose the margin.",
+      "Initiate endodontic treatment before restoration.",
+      "Consider deep margin elevation (DME) with a flowable composite or glass ionomer."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Deep margin elevation (DME) is a technique used to relocate deep subgingival margins to a supragingival or equigingival position, making isolation and direct restoration placement feasible and predictable. Proceeding directly with a conventional matrix will likely result in a compromised restoration with poor seal. Crown lengthening is a more invasive surgical procedure often considered if DME is not feasible. Endodontic treatment is not indicated if the pulp is vital and healthy."
+  },
+  {
+    "id": 940765228,
+    "topicId": "periodontology",
+    "question": "A 30-year-old female patient presents with a history of recurrent, painful oral ulcers. She reports these ulcers typically appear on the non-keratinized mucosa (buccal mucosa, labial mucosa, soft palate), are round or oval with an erythematous halo and a yellow-gray pseudomembrane, and heal spontaneously within 7-14 days without scarring. She has no systemic symptoms. What is the MOST likely diagnosis?",
+    "options": [
+      "Herpes simplex virus (HSV) infection",
+      "Pemphigus vulgaris",
+      "Erythema multiforme",
+      "Recurrent Aphthous Stomatitis (RAS)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Recurrent Aphthous Stomatitis (RAS) is characterized by painful, recurrent ulcers typically found on non-keratinized mucosa, which heal spontaneously without scarring, matching the patient's description. HSV infection usually presents as vesicles that rupture to form ulcers, often initially on keratinized mucosa. Pemphigus vulgaris causes blistering and widespread ulceration that can be persistent. Erythema multiforme is an acute mucocutaneous reaction, often with target lesions and hemorrhagic crusting of the lips."
+  },
+  {
+    "id": 183117773,
+    "topicId": "periodontology",
+    "question": "Which of the following muscles of mastication is primarily responsible for the protrusion of the mandible?",
+    "options": [
+      "Temporalis",
+      "Masseter",
+      "Medial pterygoid",
+      "Lateral pterygoid"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The lateral pterygoid muscle is primarily responsible for mandibular protrusion and lateral excursive movements, as its fibers pull the condyle forward. The temporalis muscle primarily elevates and retracts the mandible. The masseter and medial pterygoid muscles primarily elevate and slightly protract the mandible, but their main action is closing the jaw."
+  },
+  {
+    "id": 87237570,
+    "topicId": "periodontology",
+    "question": "Which of the following local anesthetic agents is most likely to cause methemoglobinemia as a dose-dependent adverse effect?",
+    "options": [
+      "Lidocaine",
+      "Prilocaine",
+      "Bupivacaine",
+      "Articaine"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Prilocaine is the local anesthetic agent most commonly associated with methemoglobinemia, especially at higher doses or in susceptible individuals, due to its metabolic breakdown products. While other local anesthetics can theoretically cause it, prilocaine has the highest propensity for this specific adverse effect. Lidocaine, Bupivacaine, and Articaine are not primarily linked to methemoglobinemia."
+  },
+  {
+    "id": 129901659,
+    "topicId": "periodontology",
+    "question": "What is the primary purpose of etching enamel and dentin with phosphoric acid during a total-etch bonding procedure?",
+    "options": [
+      "To sterilize the tooth surface and kill bacteria.",
+      "To increase the surface tension of the tooth structure.",
+      "To remove the smear layer and create microporosities for micromechanical retention.",
+      "To chemically bond directly to the organic components of dentin."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Phosphoric acid etching in total-etch bonding systems serves to remove the smear layer and demineralize the enamel and dentin surfaces, creating microscopic porosities. These microporosities are crucial for the formation of resin tags, which provide micromechanical retention for the bonding agent. It does not primarily sterilize the tooth, increase surface tension, or chemically bond directly to organic components."
+  },
+  {
+    "id": 804089186,
+    "topicId": "periodontology",
+    "question": "A 48-year-old male patient presents with a complaint of localized gingival inflammation and discomfort around a newly placed crown on tooth #26. The crown margin appears to be significantly subgingival. Radiographic examination reveals that the crown margin infringes upon the alveolar bone crest. This infringement is most likely violating which anatomical concept?",
+    "options": [
+      "Physiological gingival contour",
+      "Dentogingival junction",
+      "Biologic width",
+      "Mucogingival junction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The biologic width is the physiological dimension of the supracrestal attached tissues, consisting of the junctional epithelium and connective tissue attachment, which must be respected for gingival health. When a restorative margin infringes upon this space, it leads to chronic inflammation, discomfort, and often bone resorption. The physiological gingival contour refers to the shape of the gingiva, while the dentogingival junction is the interface between the tooth and gingiva. The mucogingival junction is the border between attached and unattached gingiva."
+  },
+  {
+    "id": 706168454,
+    "topicId": "periodontology",
+    "question": "Which of the following materials is generally considered the MOST biocompatible and effective for direct pulp capping, promoting tertiary dentin formation?",
+    "options": [
+      "Zinc Oxide Eugenol (ZOE)",
+      "Glass Ionomer Cement (GIC)",
+      "Calcium hydroxide",
+      "Resin Modified Glass Ionomer (RMGI)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Calcium hydroxide is historically and widely recognized for its ability to promote tertiary dentin formation when used for direct pulp capping due to its high pH and release of calcium ions, which stimulates odontoblasts. Zinc Oxide Eugenol is generally considered irritant to pulp tissue and not suitable for direct pulp capping. Glass Ionomer Cement and Resin Modified Glass Ionomer are often used as liners or bases but are not primarily indicated for directly inducing dentin bridge formation."
+  },
+  {
+    "id": 334380885,
+    "topicId": "periodontology",
+    "question": "A 7-year-old male patient presents with premature loss of his mandibular left first primary molar (#74) due to extensive caries and infection. The permanent first molar (#36) has already erupted, and the permanent second premolar (#35) is not yet visible radiographically. What is the MOST appropriate immediate management to prevent space loss?",
+    "options": [
+      "No space maintainer is needed as the permanent first molar is already erupted.",
+      "Recommend a distal shoe appliance to guide the eruption of the second premolar.",
+      "Place a band and loop space maintainer.",
+      "Extract the contralateral primary molar to balance the arch."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Premature loss of a primary molar, especially when the permanent first molar is already erupted, necessitates a space maintainer like a band and loop to prevent mesial drift of the permanent first molar and preserve space for the unerupted succedaneous permanent premolar. A distal shoe is used when the permanent molar has not yet erupted. No space maintainer would lead to space loss, and extracting the contralateral tooth is unnecessary and detrimental."
+  },
+  {
+    "id": 139192195,
+    "topicId": "periodontology",
+    "question": "A 60-year-old female patient, who is a long-term denture wearer, presents with red, fissured lesions at both corners of her mouth. She reports mild discomfort but denies any other oral or systemic symptoms. Intraoral examination reveals well-fitting dentures. Her medical history includes well-controlled hypothyroidism. What is the MOST common etiological factor for this condition in denture wearers?",
+    "options": [
+      "Allergic reaction to denture material",
+      "Vitamin B12 deficiency",
+      "Candida albicans infection",
+      "Herpes simplex virus reactivation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Angular cheilitis in denture wearers is most commonly associated with Candida albicans infection, often exacerbated by moisture accumulation at the commissures or reduced vertical dimension of occlusion. While vitamin deficiencies can contribute, Candida is the most prevalent infectious cause. Allergic reactions to denture materials are less common and typically present with more generalized stomatitis. HSV reactivation would typically present with vesicles and crusting, usually unilateral initially."
+  },
+  {
+    "id": 502013440,
+    "topicId": "periodontology",
+    "question": "A 40-year-old female patient presents with a chief complaint of severe, throbbing pain in her maxillary right posterior region that began spontaneously and wakes her at night. Clinical examination reveals tooth #16 has a deep occlusal restoration. Pulp testing shows an exaggerated, lingering response to cold, and percussion sensitivity. Radiographs show no periapical radiolucency. What is the MOST appropriate diagnosis?",
+    "options": [
+      "Irreversible pulpitis",
+      "Reversible pulpitis",
+      "Necrotic pulp",
+      "Acute apical periodontitis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Irreversible pulpitis is characterized by spontaneous, lingering pain, especially nocturnal pain, and an exaggerated, lingering response to cold, which aligns with the patient's symptoms. Reversible pulpitis involves sharp, transient pain to stimuli that subsides quickly. Necrotic pulp would not respond to cold, and acute apical periodontitis is typically a sequela of pulpal necrosis, which is not indicated by the lingering cold response."
+  },
+  {
+    "id": 24261432,
+    "topicId": "periodontology",
+    "question": "A 62-year-old male patient, a heavy smoker and alcohol consumer for 40 years, presents with a 3-month history of a persistent, asymptomatic white lesion on the lateral border of his tongue that cannot be rubbed off. He reports no pain or discomfort. Clinical examination reveals a non-homogenous, firm, white patch approximately 1.5 cm in diameter. What is the MOST appropriate next step in management?",
+    "options": [
+      "Prescribe a topical antifungal and re-evaluate in 2 weeks.",
+      "Instruct the patient to improve oral hygiene and monitor the lesion.",
+      "Prescribe a course of systemic antibiotics.",
+      "Perform an incisional biopsy of the lesion."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Given the patient's significant risk factors (smoking, alcohol), the persistent nature of the non-homogenous, non-scrapable white lesion, and its location on the lateral tongue, an incisional biopsy is the most appropriate next step to rule out dysplasia or malignancy. Topical antifungals are for candidiasis, which typically can be rubbed off or has a different appearance. Monitoring without biopsy is negligent given the risk factors and appearance of the lesion."
+  },
+  {
+    "id": 913221768,
+    "topicId": "periodontology",
+    "question": "Which of the following local anesthetic agents is known to cause vasoconstriction when administered without epinephrine due to its inherent pharmacological properties?",
+    "options": [
+      "Mepivacaine",
+      "Lidocaine",
+      "Articaine",
+      "Bupivacaine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mepivacaine possesses inherent vasoconstrictive properties, allowing it to be used without epinephrine for procedures requiring a shorter duration of action or in patients where vasoconstrictors are contraindicated. Lidocaine, articaine, and bupivacaine do not have significant intrinsic vasoconstrictive effects and generally require the addition of a vasoconstrictor to prolong their duration and depth of anesthesia."
+  },
+  {
+    "id": 440094664,
+    "topicId": "periodontology",
+    "question": "A 55-year-old male patient, a well-controlled Type 2 diabetic, presents for a recall periodontal assessment. He completed active periodontal therapy 6 months ago. Clinical examination reveals generalized gingival inflammation, probing depths of 4-5 mm with bleeding on probing in multiple sites, and no significant attachment loss changes since initial therapy. His oral hygiene is fair. What is the MOST appropriate management strategy?",
+    "options": [
+      "Reinforce oral hygiene instructions and perform supportive periodontal therapy (SPT).",
+      "Prescribe systemic antibiotics and re-evaluate in 3 months.",
+      "Refer to an oral surgeon for consultation.",
+      "Initiate immediate surgical periodontal therapy."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Given the persistent inflammation, moderate probing depths, and bleeding on probing without significant attachment loss changes, the patient requires reinforcement of oral hygiene and supportive periodontal therapy (scaling and root planing, debridement) to manage the recurring inflammation. Systemic antibiotics are not indicated without more severe signs of infection or refractory disease. Referral to an oral surgeon or immediate surgical therapy is premature without further non-surgical intervention."
+  },
+  {
+    "id": 62313030,
+    "topicId": "periodontology",
+    "question": "A 28-year-old female patient, who is 20 weeks pregnant, presents with a severely decayed and painful mandibular third molar (#38) diagnosed with acute irreversible pulpitis. Radiographs show horizontal impaction and close proximity to the inferior alveolar nerve. She reports moderate pain despite over-the-counter analgesics. What is the MOST appropriate immediate management plan?",
+    "options": [
+      "Prescribe a broad-spectrum antibiotic and postpone extraction until after delivery.",
+      "Refer for root canal therapy to alleviate pain, then re-evaluate for extraction postpartum.",
+      "Prescribe systemic corticosteroids to reduce inflammation and pain.",
+      "Extract the tooth under local anesthesia, ensuring adequate pain control."
+    ],
+    "correctAnswer": 3,
+    "explanation": "During the second trimester of pregnancy (weeks 13-27), dental treatment, including necessary extractions, is generally considered safest. Leaving an acutely infected or irreversibly pulpitis tooth can lead to more serious systemic complications for both mother and fetus. Local anesthesia with appropriate vasoconstrictor limits is safe. Root canal therapy might be an option if the tooth were restorable, but extraction is often preferred for impacted third molars. Antibiotics alone won't resolve irreversible pulpitis, and corticosteroids are generally avoided during pregnancy."
+  },
+  {
+    "id": 258596925,
+    "topicId": "periodontology",
+    "question": "Which of the following properties of an ideal dental impression material is MOST critical for achieving an accurate master cast for fixed prosthodontics?",
+    "options": [
+      "High tear strength after setting.",
+      "Long working time for complex procedures.",
+      "Good flow and wettability to capture fine details.",
+      "Low cost for economic efficiency."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Good flow and wettability are paramount for impression materials to precisely capture fine anatomical details of tooth preparations and surrounding soft tissues, which is critical for an accurate master cast for fixed prosthodontics. High tear strength is important for removing the impression without distortion, but without good flow, details won't be captured initially. Long working time is beneficial for the clinician but not the most critical material property for accuracy itself."
   }
 ]

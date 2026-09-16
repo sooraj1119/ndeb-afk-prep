@@ -6381,5 +6381,122 @@
     ],
     "correctAnswer": 3,
     "explanation": "According to BLS guidelines, after initiating chest compressions, the next priority when an AED becomes available is to attach the pads and allow the device to analyze the rhythm and deliver a shock if indicated. Epinephrine is administered later in the arrest protocol, and pulse checks should not interrupt chest compressions or AED use."
+  },
+  {
+    "id": 36597634,
+    "topicId": "emergencies",
+    "question": "A 30-year-old male patient, known for his fear of needles, becomes dizzy, pale, and feels nauseous immediately after receiving local anesthesia. His pulse is weak and slow. What is the MOST appropriate initial management step?",
+    "options": [
+      "Elevate the patient's legs above the level of the heart.",
+      "Administer supplemental oxygen via a nasal cannula.",
+      "Administer sublingual nitroglycerin.",
+      "Initiate cardiopulmonary resuscitation (CPR)."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The patient's symptoms (dizziness, pallor, nausea, weak/slow pulse) immediately after an injection, especially with a history of needle fear, are classic signs of vasovagal syncope. Elevating the legs helps to restore blood flow to the brain, which is the primary immediate management for syncope. Administering nitroglycerin is inappropriate as it would further lower blood pressure, and CPR is only indicated for cardiac arrest."
+  },
+  {
+    "id": 268106833,
+    "topicId": "emergencies",
+    "question": "A 12-year-old female patient with a history of mild intermittent asthma, well-controlled with an as-needed inhaler, presents with wheezing and shortness of breath during her dental appointment, triggered by the smell of eugenol. She is conscious but her breathing is laboured. What is the MOST appropriate initial intervention?",
+    "options": [
+      "Call emergency medical services (911) immediately.",
+      "Administer her prescribed rapid-acting bronchodilator (e.g., salbutamol).",
+      "Place the patient in a supine position.",
+      "Administer an oral antihistamine."
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a conscious patient experiencing an acute asthma attack, the most appropriate initial intervention is to administer their prescribed rapid-acting bronchodilator, such as salbutamol, which works by relaxing the airways. Calling 911 is a secondary step if the bronchodilator is ineffective. Placing the patient supine can worsen breathing difficulty, and antihistamines are not effective for acute bronchospasm."
+  },
+  {
+    "id": 691978572,
+    "topicId": "emergencies",
+    "question": "According to NDEB guidelines for emergency preparedness, which of the following medications is considered essential for a Canadian dental office's emergency drug kit for the management of acute anaphylaxis?",
+    "options": [
+      "Diazepam",
+      "Nitroglycerin",
+      "Epinephrine (auto-injector or ampoule)",
+      "Oral Glucose"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Epinephrine is the first-line and most critical medication for managing acute anaphylaxis due to its rapid bronchodilating and vasoconstrictive effects. Diazepam is used for seizures, nitroglycerin for angina, and oral glucose for hypoglycemia; none of these are primary treatments for anaphylaxis, making them incorrect for this specific emergency."
+  },
+  {
+    "id": 359513242,
+    "topicId": "emergencies",
+    "question": "A 60-year-old male patient, with a history of poorly controlled hypertension, presents for a routine extraction. During the procedure, he complains of a sudden, severe headache and blurred vision. His blood pressure is measured at 200/120 mmHg. What is the MOST appropriate immediate action?",
+    "options": [
+      "Administer sublingual nitroglycerin to lower blood pressure.",
+      "Administer a local anesthetic with epinephrine to reduce pain and vasoconstrict.",
+      "Dismiss the patient with instructions to see their physician within a week.",
+      "Stop the procedure, keep the patient calm and upright, and monitor vitals closely while seeking medical consultation."
+    ],
+    "correctAnswer": 3,
+    "explanation": "The patient's symptoms (severe headache, blurred vision, significantly elevated BP) indicate a hypertensive urgency or emergency requiring immediate attention. Stopping the procedure and calming the patient in an upright position while monitoring vitals and seeking medical consultation is the appropriate first step. Nitroglycerin is not the first choice for hypertensive emergencies in this setting, and local anesthetics with epinephrine would exacerbate the hypertension. Dismissing without immediate intervention is unsafe."
+  },
+  {
+    "id": 918662431,
+    "topicId": "emergencies",
+    "question": "A 4-year-old child, during a dental procedure, suddenly begins to cough forcefully and is able to speak, though with difficulty. What is the MOST appropriate initial management step?",
+    "options": [
+      "Encourage the child to continue coughing effectively.",
+      "Administer abdominal thrusts (Heimlich manoeuvre).",
+      "Initiate chest compressions.",
+      "Perform a blind finger sweep of the mouth."
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a conscious child is experiencing a partial airway obstruction but is still able to cough forcefully and speak, the most appropriate action is to encourage them to continue coughing, as this is the most effective way to clear the obstruction. Abdominal thrusts are reserved for complete or ineffective airway obstruction, chest compressions are for unresponsive patients, and blind finger sweeps are contraindicated due to the risk of pushing the object further into the airway."
+  },
+  {
+    "id": 268332356,
+    "topicId": "emergencies",
+    "question": "According to Canadian dental safety standards, which of the following is a crucial safety measure when storing oxygen cylinders in a dental office?",
+    "options": [
+      "Storing them horizontally on the floor to prevent tipping.",
+      "Securing them upright with a chain or strap to prevent falling.",
+      "Storing them near heat sources for easy access during emergencies.",
+      "Painting cylinders to match office decor for aesthetic purposes."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Oxygen cylinders must always be secured upright with a chain or strap to prevent them from falling, which could cause injury or damage the valve, leading to a dangerous release of gas. Storing them horizontally or near heat sources is unsafe, and painting them interferes with official colour coding."
+  },
+  {
+    "id": 516699650,
+    "topicId": "emergencies",
+    "question": "A 45-year-old male patient with Type 1 diabetes, controlled with insulin, becomes disoriented, confused, and diaphoretic during a lengthy dental procedure. He last ate 6 hours ago. His blood glucose level is 2.5 mmol/L. What is the MOST appropriate immediate intervention?",
+    "options": [
+      "Administer intramuscular glucagon.",
+      "Administer intravenous dextrose.",
+      "Administer oral glucose (e.g., glucose tablets or sugary drink).",
+      "Place in recovery position and monitor."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The patient's symptoms (disorientation, confusion, diaphoresis) and blood glucose level (2.5 mmol/L) are indicative of hypoglycemia. Since the patient is conscious and able to swallow, oral glucose is the most appropriate and rapid intervention. Intramuscular glucagon or intravenous dextrose are typically reserved for unconscious patients or those unable to swallow."
+  },
+  {
+    "id": 984862951,
+    "topicId": "emergencies",
+    "question": "A 68-year-old female patient with a known history of stable angina, controlled with sublingual nitroglycerin, reports sudden onset of crushing chest pain radiating to her left arm, which is NOT relieved after two doses of her prescribed nitroglycerin taken 5 minutes apart. What is the MOST appropriate next step?",
+    "options": [
+      "Administer a third dose of nitroglycerin.",
+      "Instruct her to breathe deeply and try to relax.",
+      "Continue with the dental procedure cautiously as it is likely anxiety-related.",
+      "Activate emergency medical services (911) immediately and administer aspirin if not contraindicated."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chest pain that is not relieved by two doses of nitroglycerin within 10 minutes suggests unstable angina or a myocardial infarction, which is a life-threatening emergency. Immediate activation of EMS and administration of aspirin (if not contraindicated) are crucial. A third dose of nitroglycerin is generally not recommended in this scenario, and simply encouraging relaxation or continuing the procedure would be dangerous."
+  },
+  {
+    "id": 713836352,
+    "topicId": "emergencies",
+    "question": "A 35-year-old female patient presents to your dental office with a two-day history of increasing facial swelling on the right side. She had a routine extraction of tooth #16 five days ago. Her medical history is significant for being on oral contraceptives. Clinical examination reveals a diffuse, firm, non-fluctuant, warm, and tender swelling extending from the right maxillary buccal vestibule to the infraorbital region. Her temperature is 38.5°C (101.3°F), and there is no purulent discharge from the extraction site. What is the MOST appropriate initial diagnosis?",
+    "options": [
+      "Cellulitis",
+      "Localized abscess",
+      "Post-operative hematoma",
+      "Angioedema"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The patient's diffuse, firm, warm, and tender swelling with fever, extending beyond the immediate extraction site, is highly indicative of cellulitis, a spreading bacterial infection of the soft tissues. A localized abscess would typically present with a fluctuant swelling and possibly purulent discharge, which is not described here. A post-operative hematoma would usually develop immediately or within a day or two post-extraction and would not typically present with fever or increasing pain after five days. Angioedema is a non-pitting swelling, often triggered by allergic reactions or certain medications (though oral contraceptives are not typically associated), but it usually lacks warmth, tenderness, and fever."
   }
 ]
