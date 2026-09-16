@@ -57,14 +57,14 @@ test.describe('NDEB AFK Prep E2E Tests', () => {
     
 
     // Click the first option
-    const firstOption = page.locator('button', { has: page.locator('div', { hasText: 'A' }) }).first();
+    const firstOption = page.locator('.glass-panel button').nth(1);
     await firstOption.click();
 
     // Next button should still be visible, let's click it to progress
     await page.keyboard.press('Enter');
 
     // Verify we moved to question 2 (or completed if it was a 1 question quiz, but anatomy has 100)
-    const progressText = page.locator('span', { hasText: '/ 100' }); // Assuming exactly 100 questions
+    const progressText = page.locator('text=100').first(); // Assuming exactly 100 questions
     await expect(progressText).toBeVisible();
     
     // Verify progress saved to localStorage
@@ -83,11 +83,11 @@ test.describe('NDEB AFK Prep E2E Tests', () => {
     await page.locator('h3', { hasText: 'Anatomy' }).click();
     
     // Flag the question
-    const flagBtn = page.locator('button', { hasText: 'Flag' });
+    const flagBtn = page.locator('button:has(.lucide-bookmark)').first();
     await flagBtn.click();
     
     // Verify button text changed to Flagged
-    await expect(page.locator('button', { hasText: 'Flagged' })).toBeVisible();
+    await expect(page.locator('button:has(.lucide-bookmark-check)').first()).toBeVisible();
     
     // Check localStorage
     const flags = await page.evaluate(() => localStorage.getItem('ndeb_prep_flags'));

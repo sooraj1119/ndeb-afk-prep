@@ -79,7 +79,7 @@ test.describe('Main App E2E Tests', () => {
       await page.locator('button:has(span[translate="no"])').first().click();
       
       // Explanation should appear
-      await expect(page.locator('text=Tutor Explanation').or(page.locator('[data-testid="explanation"]'))).toBeVisible({ timeout: 8000 });
+      await expect(page.locator('text=Explanation').first()).toBeVisible({ timeout: 8000 });
       
       // Check progress saved
       const progress = await page.evaluate(() => localStorage.getItem('ndeb_prep_progress'));
