@@ -74,7 +74,7 @@ export function TopicSelection({ onSelect }: Props) {
               </div>
             )}
             <h2 style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>Select a Topic</h2>
-        <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.9rem, 4vw, 1.1rem)' }}>Train your clinical intuition with rigorously validated, high-yield AFK simulations.</p>
+        <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.9rem, 4vw, 1.1rem)' }}>Master fundamental knowledge with detailed, customized explanations.</p>
       </div>
 
       <div style={{ display: 'grid', gap: 'clamp(0.75rem, 3vw, 1.25rem)', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', marginBottom: 'clamp(1.5rem, 4vw, 2rem)' }}>
