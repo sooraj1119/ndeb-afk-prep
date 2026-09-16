@@ -10,7 +10,7 @@ test.describe('NDEB AFK Prep E2E Tests', () => {
   test('User must accept disclaimer before accessing the app', async ({ page }) => {
     await expect(page.locator('h2', { hasText: 'Medical Disclaimer' })).toBeVisible();
     await page.locator('button', { hasText: 'I Understand and Agree' }).click();
-    await expect(page.locator('h3', { hasText: 'Anatomy' })).toBeVisible();
+    await expect(page.locator('h3', { hasText: 'Operative Dentistry' })).toBeVisible();
   });
 
   test('Dark Mode toggle correctly updates the DOM and localStorage', async ({ page }) => {
@@ -22,8 +22,8 @@ test.describe('NDEB AFK Prep E2E Tests', () => {
 
   test('User can navigate to Practice, select a topic, and answer a question', async ({ page }) => {
     await page.locator('button', { hasText: 'I Understand and Agree' }).click();
-    await page.waitForTimeout(2000); // Wait for JSON to load
-    await page.locator('h3', { hasText: 'Anatomy' }).click();
+    await page.waitForTimeout(5000); // Wait for JSON to load heavily
+    await page.locator('h3', { hasText: 'Operative Dentistry' }).click();
     
     await page.waitForSelector('h3', { timeout: 10000 });
     await page.waitForTimeout(1000); // Wait for options to render
@@ -42,8 +42,8 @@ test.describe('NDEB AFK Prep E2E Tests', () => {
   
   test('User can flag a question and view it in Dashboard', async ({ page }) => {
     await page.locator('button', { hasText: 'I Understand and Agree' }).click();
-    await page.waitForTimeout(2000); // Wait for JSON to load
-    await page.locator('h3', { hasText: 'Anatomy' }).click();
+    await page.waitForTimeout(5000); // Wait for JSON to load heavily
+    await page.locator('h3', { hasText: 'Operative Dentistry' }).click();
     
     await page.waitForSelector('h3', { timeout: 10000 });
     await page.waitForTimeout(1000); // Wait for options to render
