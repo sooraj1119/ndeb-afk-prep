@@ -122,7 +122,7 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
             <Crown size={32} color="#10b981" style={{ marginBottom: '1rem' }} />
             <h3 style={{ margin: '0 0 0.5rem', color: 'var(--text-primary)' }}>Want more questions?</h3>
             <p style={{ margin: '0 0 1.5rem', color: 'var(--text-secondary)', fontSize: '0.95rem' }}>
-              You've completed the free preview. Unlock all 11,000+ questions and full simulated exams to maximize your score.
+              You've completed the free preview. Unlock all 11,000 questions and full simulated exams to maximize your score.
             </p>
             <button className="primary-btn" style={{ background: 'var(--success-color)' }}>
               Upgrade to Pro
