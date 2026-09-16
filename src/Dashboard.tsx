@@ -98,7 +98,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
     : 0;
 
   // --- Pacing Engine Logic ---
-  const totalBankQuestions = 7500; 
+  const totalBankQuestions = 11000; 
   let answeredSoFar = 0;
   Object.values(progress).forEach(p => {
     answeredSoFar += p.questionsAnswered || 0;
