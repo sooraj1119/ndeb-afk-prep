@@ -114,7 +114,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
             </motion.div>
             <h2 style={{ margin: '0 0 0.5rem', fontSize: '1.4rem', fontWeight: 800 }}>Unlock Pro</h2>
             <p style={{ margin: 0, opacity: 0.9, fontSize: '0.85rem', lineHeight: 1.5 }}>
-              Don't leave your exam to chance. Upgrade to Pro to unlock the hardest, high-yield sections and guarantee you are ready.
+              Don't leave your exam to chance. Upgrade to Pro to unlock the hardest, high-yield sections and ensure you are fully prepared.
             </p>
           </div>
 
@@ -122,7 +122,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
             <div style={{ marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {[
                 { icon: Brain, text: 'Unlimited access to all 11,307 specialized AFK questions' },
-                { icon: Zap, text: 'Smart Spaced Repetition that guarantees retention' }
+                { icon: Zap, text: 'Smart Spaced Repetition that maximizes retention' }
               ].map((benefit, i) => (
                 <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                   <div style={{
