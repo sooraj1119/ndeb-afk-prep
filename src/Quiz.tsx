@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-import { getQuestions, loadTopicQuestions } from './lib/questionsStore';
+import { getQuestions, loadTopicQuestions, loadAllQuestions } from './lib/questionsStore';
 import { TextToSpeech } from '@capacitor-community/text-to-speech';
 import { Capacitor } from '@capacitor/core';
 
@@ -181,9 +181,7 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
 
         } else {
 
-          const store = await import('./lib/questionsStore');
-
-          await store.loadAllQuestions();
+          await loadAllQuestions();
 
           let fullList = [...store.getQuestions()];
           if (!getIsPremium()) {
@@ -203,9 +201,8 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
         setTopicName("Simulated AFK Exam");
 
       } else if (isFlaggedMode || isMistakesMode || isSRSMode) {
-        const store = await import('./lib/questionsStore');
-        await store.loadAllQuestions();
-        const allQs = store.getQuestions();
+        await loadAllQuestions();
+        const allQs = getQuestions();
         if (isFlaggedMode) {
           const flags = getFlaggedQuestions();
           qList = allQs.filter((q: any) => flags.includes(q.topicId + '-' + q.id));
