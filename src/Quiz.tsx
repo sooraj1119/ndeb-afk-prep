@@ -183,7 +183,7 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
 
           await loadAllQuestions();
 
-          let fullList = [...store.getQuestions()];
+          let fullList = [...getQuestions()];
           if (!getIsPremium()) {
             const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
             fullList = fullList.filter(q => !premiumIds.includes(q.topicId));
