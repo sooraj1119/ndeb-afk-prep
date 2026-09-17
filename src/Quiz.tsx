@@ -108,7 +108,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
       }
     } catch (e) {}
   };
-const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
+const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
   const [isShuffled, setIsShuffled] = useState(false);
 
@@ -190,9 +190,9 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
           }
           qList = fullList.sort(() => Math.random() - 0.5).slice(0, 100);
 
-          const endTime = Date.now() + 9000 * 1000;
+          const endTime = Date.now() + 7200 * 1000;
 
-          setTimeLeft(9000);
+          setTimeLeft(7200);
 
           saveActiveMockExam({ questions: qList, currentIndex: 0, score: 0, endTime });
 
@@ -517,9 +517,9 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
     }
     const qList = fullList.sort(() => Math.random() - 0.5).slice(0, 100);
 
-    const endTime = Date.now() + 9000 * 1000;
+    const endTime = Date.now() + 7200 * 1000;
 
-    setTimeLeft(9000);
+    setTimeLeft(7200);
 
     saveActiveMockExam({ questions: qList, currentIndex: 0, score: 0, endTime });
 
