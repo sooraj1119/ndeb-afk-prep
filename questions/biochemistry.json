@@ -6059,19 +6059,6 @@
     "explanation": "For a patient experiencing mild shortness of breath, placing them in an upright or semi-supine position is the most appropriate initial step to facilitate breathing, especially for those with COPD. While oxygen might be considered if symptoms persist or worsen, repositioning is usually the first line. Terminating the procedure and calling EMS is premature for mild symptoms, and offering water does not address respiratory distress."
   },
   {
-    "id": 510121479,
-    "topicId": "biochemistry",
-    "question": "Which of the following structures is primarily responsible for the production of intrinsic factor, essential for Vitamin B12 absorption?",
-    "options": [
-      "Parietal cells of the gastric mucosa",
-      "Pancreatic acinar cells",
-      "Chief cells of the gastric mucosa",
-      "Duodenal brush border cells"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Parietal cells, located in the gastric mucosa, are responsible for secreting intrinsic factor, which is crucial for the absorption of Vitamin B12 in the ileum. Pancreatic acinar cells produce digestive enzymes, chief cells produce pepsinogen, and duodenal brush border cells are involved in nutrient absorption but not intrinsic factor production."
-  },
-  {
     "id": 636975773,
     "topicId": "biochemistry",
     "question": "A 7-year-old male patient presents with a history of recurrent oral ulcerations and blisters that rupture quickly, leaving painful erosions, particularly on the buccal mucosa and gingiva. His mother reports similar lesions on his hands and feet, and a recent mild fever. What is the MOST likely clinical diagnosis?",
@@ -6280,19 +6267,6 @@
     "explanation": "The patient's symptoms and clinical findings are indicative of dentin hypersensitivity due to gingival recession and exposed root surfaces. Initial management should be conservative, focusing on reducing sensitivity with desensitizing agents like specialized toothpastes and fluoride varnishes. Referral to an endodontist is premature as there's no evidence of irreversible pulpitis, and immediate surgical grafting is too aggressive for initial management."
   },
   {
-    "id": 76550653,
-    "topicId": "biochemistry",
-    "question": "Which of the following local anesthetic agents is metabolized primarily by plasma pseudocholinesterase?",
-    "options": [
-      "Lidocaine",
-      "Procaine",
-      "Mepivacaine",
-      "Articaine"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Procaine is an ester-type local anesthetic, and ester anesthetics are primarily metabolized by plasma pseudocholinesterase. Lidocaine, mepivacaine, and articaine (though articaine has both ester and amide metabolism, its primary route is still amide) are amide-type anesthetics, which are mainly metabolized in the liver."
-  },
-  {
     "id": 41292196,
     "topicId": "biochemistry",
     "question": "A 14-year-old female patient presents for evaluation of a discolored maxillary central incisor (#11). She recalls a traumatic injury to the tooth approximately two years ago, which caused transient sensitivity but no fracture. Clinically, tooth #11 is asymptomatic, appears slightly darker than adjacent teeth, and does not respond to vitality testing (cold and electric pulp test). Radiographically, there is a periapical radiolucency associated with #11, and the root development appears complete. What is the MOST appropriate definitive treatment?",
@@ -6486,19 +6460,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "The erythematous, pebbly palatal mucosa under an ill-fitting denture is highly suggestive of denture stomatitis, which is commonly caused by Candida albicans. Initial management involves removing the denture at night to allow tissue rest, improving denture hygiene, and prescribing topical antifungal medication (e.g., nystatin). Surgical removal is typically reserved for severe, unresponsive cases of inflammatory papillary hyperplasia, and systemic antibiotics are not indicated as it is a fungal infection."
-  },
-  {
-    "id": 567583368,
-    "topicId": "biochemistry",
-    "question": "According to Canadian infection control guidelines for dental practices, which of the following methods is considered the MOST effective and appropriate for sterilizing heat-tolerant critical dental instruments?",
-    "options": [
-      "Chemical sterilization (e.g., glutaraldehyde immersion).",
-      "Dry heat sterilization.",
-      "Autoclave (steam sterilization).",
-      "Ultraviolet (UV) light sterilization."
-    ],
-    "correctAnswer": 2,
-    "explanation": "According to Canadian infection control guidelines, the autoclave (steam sterilization) is considered the gold standard and most effective method for sterilizing heat-tolerant critical dental instruments, which penetrate soft tissue, bone, or enter the bloodstream. Chemical sterilization (cold sterilization) is a high-level disinfection, not sterilization for critical instruments. Dry heat sterilization is also acceptable but generally less efficient and has a narrower range of applications compared to steam. UV light is only suitable for surface disinfection, not sterilization of instruments."
   },
   {
     "id": 284931019,
@@ -6733,19 +6694,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Porphyromonas gingivalis is a prominent Gram-negative anaerobic bacterium strongly associated with aggressive periodontitis and is a key member of the \"red complex\" (along with Tannerella forsythia and Treponema denticola). Streptococcus mutans is primarily associated with dental caries, while Actinomyces viscosus is linked to root caries and gingivitis. Lactobacillus acidophilus is involved in caries progression."
-  },
-  {
-    "id": 537371498,
-    "topicId": "biochemistry",
-    "question": "Which of the following properties of an impression material is MOST critical for accurately reproducing fine details of tooth structure and soft tissues?",
-    "options": [
-      "High tear strength.",
-      "Good wettability.",
-      "High dimensional stability.",
-      "Low viscosity."
-    ],
-    "correctAnswer": 1,
-    "explanation": "Good wettability (hydrophilicity) of an impression material is crucial for allowing the material to flow into and adapt intimately to moist tooth surfaces and soft tissues, thus accurately reproducing fine details. While high tear strength prevents tearing upon removal and high dimensional stability maintains accuracy over time, wettability directly impacts the material's ability to capture detail against moist oral tissues. Low viscosity is important for flow but does not encompass the surface interaction aspect of wettability."
   },
   {
     "id": 882820876,

@@ -1144,19 +1144,6 @@
     "explanation": "Prolonged exposure to fermentable carbohydrates like milk or juice during sleep is a primary risk factor for early childhood caries. The MOST important preventive instruction is to eliminate night feeding with milk/juice and clean teeth after any night feeds to reduce the time teeth are exposed to sugars. While fluoride varnish (D) and fluoridated toothpaste (C) are important, addressing the dietary habit (B) is fundamental to prevent caries initiation. Xylitol (A) is a supplemental measure, not the primary intervention for this specific high-risk feeding habit."
   },
   {
-    "id": 443130693,
-    "topicId": "infection-control",
-    "question": "A dental assistant accidentally sustains a percutaneous injury with a contaminated needle after administering local anesthesia to a patient. The patient's medical history is unknown regarding bloodborne pathogens. What is the IMMEDIATE and MOST critical first step for the dental assistant?",
-    "options": [
-      "Immediately inform the patient about the incident and ask about their medical history.",
-      "Thoroughly wash the wound with soap and water and encourage bleeding.",
-      "Report the incident to the employer and complete an incident report form.",
-      "Seek immediate medical evaluation for post-exposure prophylaxis (PEP)."
-    ],
-    "correctAnswer": 1,
-    "explanation": "According to Canadian occupational health and safety guidelines, the IMMEDIATE and MOST critical first step after a percutaneous exposure incident is to perform thorough wound care by washing the site with soap and water and encouraging bleeding. This mechanical action helps reduce the concentration of potential pathogens. Subsequent steps include reporting the incident (C), assessing the patient's medical history (A) to determine source infectivity, and seeking medical evaluation for PEP (D), but these occur after initial wound care."
-  },
-  {
     "id": 530732185,
     "topicId": "infection-control",
     "question": "After a dental procedure, the assistant is cleaning and disinfecting the operatory. Visible blood splatter is present on the dental chair and counter surfaces. What is the MOST appropriate approach for managing these contaminated surfaces?",
@@ -2793,19 +2780,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Procedures generating aerosols, such as ultrasonic scaling, require additional protection to prevent exposure to splatter and aerosols. A face shield provides full-face protection over the surgical mask and eyewear, offering a superior barrier against airborne contaminants, making option B (which I will place at index 2 for option balancing) the MOST recommended. While head caps (option A) can be used, they are not as critical for preventing direct exposure as a face shield. Shoe covers (option C) and sterile surgical gowns (option D) are generally reserved for surgical procedures with a higher risk of extensive contamination."
-  },
-  {
-    "id": 241854079,
-    "topicId": "infection-control",
-    "question": "Which of the following methods of sterilization is MOST appropriate for heat-sensitive dental instruments that cannot withstand high temperatures or steam?",
-    "options": [
-      "Dry heat sterilization.",
-      "Steam sterilization (autoclave).",
-      "Chemical vapor sterilization.",
-      "Ethylene oxide (EO) sterilization."
-    ],
-    "correctAnswer": 3,
-    "explanation": "Ethylene oxide (EO) sterilization is a low-temperature gaseous method used for heat-sensitive items that cannot be processed by steam, dry heat, or chemical vapor, making option D correct. Dry heat (option A), steam (option B), and chemical vapor (option C) sterilization all rely on high temperatures, which would damage heat-sensitive instruments."
   },
   {
     "id": 156080242,
@@ -4938,19 +4912,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "According to Canadian infection prevention and control guidelines, all dental healthcare workers with potential exposure to blood or body fluids should be vaccinated against Hepatitis B and have documented evidence of seroconversion. For a new employee with uncertain status, the MOST appropriate initial step is to order a serologic test for anti-HBs to determine if he is immune. Assuming protection or immediately vaccinating without knowing current immunity is not the most efficient or guideline-compliant first step."
-  },
-  {
-    "id": 15741682,
-    "topicId": "infection-control",
-    "question": "What is the PRIMARY mechanism by which fluoride prevents dental caries?",
-    "options": [
-      "Direct antibacterial action on all oral microorganisms.",
-      "Creating a physical barrier on the tooth surface to prevent acid penetration.",
-      "Enhancing the remineralization of demineralized enamel and inhibiting demineralization.",
-      "Increasing salivary flow, thereby buffering acids more effectively."
-    ],
-    "correctAnswer": 2,
-    "explanation": "The primary mechanism of fluoride in caries prevention is by enhancing the remineralization of early demineralized enamel lesions and inhibiting the demineralization process under acid challenge. Fluoride incorporates into the enamel crystal lattice, forming fluorapatite, which is more resistant to acid dissolution than hydroxyapatite. While fluoride has some weak antibacterial effects at high concentrations, it is not its primary mechanism for caries prevention, nor does it create a physical barrier."
   },
   {
     "id": 76620390,
