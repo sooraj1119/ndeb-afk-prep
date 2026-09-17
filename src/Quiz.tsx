@@ -910,7 +910,7 @@ const [timeLeft, setTimeLeft] = useState(9000); // 2.5 hours
 
 
 
-      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="all 11,000 questions" />
+      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="all 11,307 questions" />
       
 
     </div>

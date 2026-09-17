@@ -61,7 +61,7 @@ export function TopicSelection({ onSelect }: Props) {
                   <span>Unlock Your Full Potential</span>
                 </div>
                 <p style={{ color: 'var(--text-secondary)', textAlign: 'center', margin: '0 0 1rem 0', fontSize: 'clamp(0.85rem, 3.5vw, 0.95rem)', maxWidth: '450px', lineHeight: '1.5' }}>
-                  Get instant access to all <strong style={{color: 'var(--text-primary)'}}>11,000 questions</strong>, detailed customized explanations, spaced repetition, and advanced analytics.
+                  Get instant access to all <strong style={{color: 'var(--text-primary)'}}>11,307 questions</strong>, detailed customized explanations, spaced repetition, and advanced analytics.
                 </p>
                 <button
                   onClick={() => setShowPaywall(true)}
