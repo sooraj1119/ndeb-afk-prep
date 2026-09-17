@@ -18,7 +18,12 @@ export function Search() {
     const init = async () => {
       setLoading(true);
       await loadAllQuestions();
-      setQuestions(getQuestions());
+      let allQs = getQuestions();
+      if (!getIsPremium()) {
+        const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
+        allQs = allQs.filter(q => !premiumIds.includes(q.topicId));
+      }
+      setQuestions(allQs);
       setLoading(false);
     };
     init();
