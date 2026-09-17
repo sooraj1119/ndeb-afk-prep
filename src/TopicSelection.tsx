@@ -136,7 +136,7 @@ export function TopicSelection({ onSelect }: Props) {
             </div>
             <div>
               <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: '0 0 0.5rem 0', fontWeight: 700 }}>Simulated Mock Exam</h3>
-              <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>100 random questions | 2.5 hour timer</p>
+              <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>100 random questions | 2.0 hour timer</p>
             </div>
           </div>
           <ChevronRight size={22} opacity={0.8} style={{ flexShrink: 0 }} />

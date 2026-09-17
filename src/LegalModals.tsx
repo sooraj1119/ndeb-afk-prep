@@ -90,7 +90,7 @@ export const PrivacyPolicyModal: React.FC<{ isOpen: boolean; onClose: () => void
       title="Privacy Policy"
       content={
         <>
-          <p><strong>Last Updated:</strong> Today</p>
+          <p><strong>Last Updated:</strong> September 17, 2026</p>
           <p>
             Welcome to our NDEB AFK Prep application. We respect your privacy and are committed to protecting it. 
             This Privacy Policy explains how we collect, use, and safeguard your information.
@@ -129,7 +129,7 @@ export const TermsOfUseModal: React.FC<{ isOpen: boolean; onClose: () => void }>
       title="Terms of Use (EULA)"
       content={
         <>
-          <p><strong>Last Updated:</strong> Today</p>
+          <p><strong>Last Updated:</strong> September 17, 2026</p>
           <p>
             By downloading or using the app, these terms will automatically apply to you. You should make sure therefore that you read them carefully before using the app.
           </p>
