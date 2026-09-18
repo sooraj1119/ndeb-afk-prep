@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getProgress, TopicProgress, getIsPremium, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt, awardBadge } from './lib/storage';
 import { topics } from './lib/data';
-import { getQuestions } from './lib/questionsStore';
+import { getQuestions, getTotalQuestionCount } from './lib/questionsStore';
 import { motion } from 'framer-motion';
 import { PaywallModal } from './PaywallModal';
 import { Lock } from 'lucide-react';
@@ -98,7 +98,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
     : 0;
 
   // --- Pacing Engine Logic ---
-  const totalBankQuestions = 11307; 
+  const totalBankQuestions = getTotalQuestionCount(); 
   let answeredSoFar = 0;
   Object.values(progress).forEach(p => {
     answeredSoFar += p.questionsAnswered || 0;
@@ -510,6 +510,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
     </motion.div>
   );
 }
+
 
 
 

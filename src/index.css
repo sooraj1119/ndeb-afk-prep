@@ -56,6 +56,7 @@ html {
 
 body {
   margin: 0;
+  font-variant-numeric: tabular-nums;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   min-height: 100dvh;
@@ -241,3 +242,4 @@ body, html {
 body {
   top: 0 !important;
 }
+

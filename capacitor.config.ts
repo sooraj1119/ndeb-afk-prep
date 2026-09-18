@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'ca.ndebprep.app',
+  appId: 'com.ndebprep.app',
   appName: 'NDEB Prep',
   webDir: 'dist',
   plugins: {
