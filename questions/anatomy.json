@@ -3590,15 +3590,15 @@
   {
     "id": 827162358,
     "topicId": "anatomy",
-    "question": "A 72-year-old male patient presents with a chief complaint of difficulty chewing and speaking after a cerebrovascular accident (stroke) affecting the right side of his brain. Clinical examination reveals deviation of the mandible to the right side upon opening. Which muscle is MOST likely affected on the left side?",
+    "question": "A 72-year-old male patient presents with a chief complaint of difficulty chewing and speaking after a cerebrovascular accident. Clinical examination reveals a significant limitation in mouth opening, and when he attempts to open, his mandible visibly deviates to the right side. Which muscle of mastication is MOST likely experiencing weakness or paralysis?",
     "options": [
-      "Left Masseter",
-      "Left Temporalis",
-      "Left Medial Pterygoid",
-      "Left Lateral Pterygoid"
+      "Right Masseter",
+      "Right Temporalis",
+      "Left Lateral Pterygoid",
+      "Right Lateral Pterygoid"
     ],
     "correctAnswer": 3,
-    "explanation": "The lateral pterygoid muscle is primarily responsible for mandibular depression and protrusion, and its unilateral contraction causes the mandible to shift to the contralateral side. If the mandible deviates to the right upon opening, it indicates weakness or paralysis of the left lateral pterygoid muscle, as the unopposed right lateral pterygoid pulls the jaw to the right. The masseter and temporalis are primarily elevators of the mandible."
+    "explanation": "The lateral pterygoid muscle is responsible for depressing and protruding the mandible. Unilateral contraction pulls the condyle forward and medially, shifting the chin to the opposite side. Therefore, if the right lateral pterygoid is weak or paralyzed, it fails to pull the right condyle forward, while the healthy left lateral pterygoid continues to push the left condyle forward. This results in the mandible deviating towards the affected (right) side upon opening."
   },
   {
     "id": 981362157,
@@ -4793,8 +4793,8 @@
       "Left masseter",
       "Right temporalis"
     ],
-    "correctAnswer": 0,
-    "explanation": "When the mandible deviates to one side upon opening, it indicates weakness or dysfunction of the contralateral lateral pterygoid muscle, which is primarily responsible for mandibular depression and protrusion. If the left lateral pterygoid is weak, the right lateral pterygoid will pull the mandible to the right during opening, causing deviation to the right. The masseter and temporalis muscles are primarily involved in elevation and retraction, and their weakness would affect closing, not cause deviation upon opening."
+    "correctAnswer": 1,
+    "explanation": "When the mandible deviates to one side upon opening, it indicates weakness or dysfunction of the IPSILATERAL lateral pterygoid muscle. The lateral pterygoid is primarily responsible for mandibular depression and protrusion. If the right lateral pterygoid is weak, it cannot pull the right condyle forward. The unopposed left lateral pterygoid will push the left condyle forward, causing the chin to swing towards the right (the weak side)."
   },
   {
     "id": 466161733,
@@ -4858,8 +4858,8 @@
       "Medial pterygoid",
       "Temporalis"
     ],
-    "correctAnswer": 1,
-    "explanation": "The lateral pterygoid muscle originates from the lateral pterygoid plate and the greater wing of the sphenoid, inserting into the condyle of the mandible and the articular disc. Its primary action is to protrude the mandible and assist in depression and lateral movements; unilateral paralysis or impingement would cause deviation to the affected side upon opening. The masseter and temporalis primarily elevate the mandible, while the medial pterygoid elevates and protrudes, but a zygomatic fracture is more likely to directly affect the lateral pterygoid's function due to its location and attachment to the condyle, which is displaced with such a fracture."
+    "correctAnswer": 0,
+    "explanation": "The masseter muscle originates from the zygomatic arch and inserts into the angle and lateral surface of the mandibular ramus. A fracture of the zygomatic arch can directly impinge upon or injure the masseter muscle (or mechanically block the coronoid process of the temporalis). The lateral pterygoid originates from the sphenoid bone, not the zygomatic arch. Trismus and deviation towards the affected side on opening are common sequelae of a zygomatic arch fracture affecting the elevator muscles on that side."
   },
   {
     "id": 330707955,
@@ -5124,15 +5124,15 @@
   {
     "id": 396254695,
     "topicId": "anatomy",
-    "question": "A 60-year-old female patient presents with a chief complaint of difficulty in differentiating sweet and salty tastes on the anterior two-thirds of her tongue. She also reports a recent history of a clicking sound in her right ear and hyperacusis (increased sensitivity to sound). Neurological examination reveals no facial paralysis. What is the MOST likely nerve affected?",
+    "question": "A 60-year-old female patient presents with a chief complaint of difficulty in differentiating sweet and salty tastes on the anterior two-thirds of her tongue. She also reports a recent history of a clicking sound in her right ear and hyperacusis (increased sensitivity to sound), but NO facial paralysis is present. A lesion affecting which of the following cranial nerves within the facial canal (mastoid segment) is MOST likely responsible?",
     "options": [
       "Lingual nerve",
-      "Chorda tympani nerve",
+      "Facial nerve (CN VII)",
       "Glossopharyngeal nerve",
       "Hypoglossal nerve"
     ],
     "correctAnswer": 1,
-    "explanation": "The chorda tympani nerve, a branch of the facial nerve (CN VII), carries special visceral afferent (taste) fibers from the anterior two-thirds of the tongue and contributes to dampening the stapedius muscle, so damage can cause hyperacusis. The lingual nerve carries general sensation from the anterior two-thirds of the tongue, and the glossopharyngeal nerve (CN IX) innervates taste and general sensation for the posterior one-third of the tongue. The hypoglossal nerve (CN XII) is primarily motor to the tongue muscles."
+    "explanation": "The Facial nerve (CN VII) gives off the nerve to the stapedius muscle (damage causes hyperacusis) and the chorda tympani (damage causes loss of taste to the anterior 2/3 of the tongue). A lesion in the facial canal that affects both of these branches, but spares the distal motor branches to the muscles of facial expression, would present with hyperacusis and taste loss without facial paralysis. The lingual nerve (V3) carries general sensation, not hyperacusis."
   },
   {
     "id": 430333852,
@@ -6398,15 +6398,15 @@
   {
     "id": 635958304,
     "topicId": "anatomy",
-    "question": "Which of the following cranial nerves is primarily responsible for the general sensation from the anterior two-thirds of the tongue and the special sensation of taste from the same region?",
+    "question": "Which of the following cranial nerves is primarily responsible for BOTH the general sensation and the special sensation of taste from the POSTERIOR one-third of the tongue?",
     "options": [
       "Glossopharyngeal nerve (CN IX)",
       "Hypoglossal nerve (CN XII)",
       "Trigeminal nerve (CN V)",
       "Facial nerve (CN VII)"
     ],
-    "correctAnswer": 3,
-    "explanation": "The facial nerve (CN VII) provides special sensation (taste) to the anterior two-thirds of the tongue via the chorda tympani branch and general sensation to the same area via its lingual nerve branch. The trigeminal nerve (CN V) provides general sensation to the anterior two-thirds of the tongue but not taste. The glossopharyngeal nerve (CN IX) is responsible for both general sensation and taste from the posterior one-third of the tongue. The hypoglossal nerve (CN XII) innervates the intrinsic and extrinsic muscles of the tongue, primarily for movement, not sensation."
+    "correctAnswer": 0,
+    "explanation": "The glossopharyngeal nerve (CN IX) provides BOTH general sensation (touch, pain, temperature) and special sensation (taste) to the posterior one-third of the tongue. In contrast, the anterior two-thirds of the tongue has dual innervation: general sensation via the lingual nerve (CN V3) and special sensation via the chorda tympani (CN VII)."
   },
   {
     "id": 289642119,
@@ -6635,12 +6635,12 @@
     "question": "A 32-year-old female patient presents with a chief complaint of difficulty chewing and a noticeable deviation of her mandible to the right upon opening. She reports no pain. Her medical history is unremarkable. Clinical examination reveals a limitation in mouth opening and the right condyle appearing to translate less effectively. What is the MOST likely muscle dysfunction contributing to her presentation?",
     "options": [
       "Left lateral pterygoid",
-      "Right masseter",
+      "Right lateral pterygoid",
       "Left temporalis",
       "Right medial pterygoid"
     ],
-    "correctAnswer": 0,
-    "explanation": "The lateral pterygoid muscle is primarily responsible for mandibular protrusion and lateral excursion. If the left lateral pterygoid is weak or dysfunctional, the right lateral pterygoid will pull the right condyle forward and medially unopposed, causing the mandible to deviate to the right upon opening. The masseter and temporalis muscles are primarily involved in elevation and retraction, and the medial pterygoid in elevation and protrusion, but none would directly cause this specific deviation pattern."
+    "correctAnswer": 1,
+    "explanation": "The right lateral pterygoid muscle is responsible for pulling the right condyle downward and forward down the articular eminence during mouth opening. If the right lateral pterygoid is weak or dysfunctional, the right condyle will translate less effectively than the left condyle. The unopposed action of the healthy left lateral pterygoid will push the jaw to the right, resulting in deviation towards the affected side upon opening."
   },
   {
     "id": 647105864,
