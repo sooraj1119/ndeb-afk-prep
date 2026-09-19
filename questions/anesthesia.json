@@ -1,19 +1,5 @@
 [
   {
-    "id": 1,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 45-year-old male with a history of poorly controlled hypertension and recent myocardial infarction 4 months ago presents for the extraction of tooth #36. Which local anesthetic formulation is the absolute safest and most effective choice for this patient?",
-    "options": [
-      "4% articaine with 1:200,000 epinephrine",
-      "3% mepivacaine plain",
-      "2% lidocaine with 1:100,000 epinephrine",
-      "2% lidocaine with 1:50,000 epinephrine"
-    ],
-    "correctAnswer": 2,
-    "explanation": "According to Canadian cardiovascular and dental guidelines, cardiac risk is minimized by using a low concentration of vasoconstrictor (1:100,000 epinephrine) with adequate pain control, as endogenous epinephrine release from inadequate anesthesia poses a higher risk than exogenous delivery. 1:50,000 is excessively high, plain 3% mepivacaine lacks sufficient duration for extractions, and articaine has a higher risk of paresthesia in mandibular block injections."
-  },
-  {
     "id": 2,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -26,20 +12,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "The maximum recommended dose (MRD) for lidocaine with epinephrine in a child is 4.4 mg/kg. Multiplying 4.4 mg/kg by the patient's weight of 30 kg yields an absolute maximum dose of 132 mg. Options like 66 mg unnecessarily restrict anesthesia, while 176 mg and 220 mg exceed the safe pediatric weight-based threshold."
-  },
-  {
-    "id": 3,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "When administering an inferior alveolar nerve block (IANB), the needle contacts bone prematurely at a shallow depth before reaching the target area. What is the most appropriate anatomical adjustment the operator should make?",
-    "options": [
-      "Withdraw the needle slightly, redirect the barrel posteriorly toward the molars, and advance deeper.",
-      "Increase the depth of penetration while maintaining the current needle trajectory.",
-      "Withdraw the needle, move the syringe barrel to the contralateral premolars, and insert more anteriorly.",
-      "Withdraw the needle completely, reposition the syringe barrel anteriorly over the mandibular molars, and advance posteriorly."
-    ],
-    "correctAnswer": 0,
-    "explanation": "Premature bone contact during an IANB usually indicates that the needle is contacting the internal oblique ridge or ramus too early because the barrel is positioned too far posteriorly (e.g., over the ipsilateral molars). To correct this, the operator must withdraw slightly and swing the barrel toward the contralateral side (premolars/canines) to allow the needle to clear the lingula and reach the pterymandibular space."
   },
   {
     "id": 4,
@@ -350,34 +322,6 @@
     "explanation": "The coronoid notch (greatest concavity of the anterior border of the ramus) and the pterygomandibular raphe are the primary extra-oral and intra-oral landmarks used to determine the height of injection for the inferior alveolar nerve block."
   },
   {
-    "id": 26,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "Why is the pH of plain local anesthetic solutions lower than that of solutions containing a vasoconstrictor (vasopressor)?",
-    "options": [
-      "Local anesthetic molecules naturally dissociate into acidic byproducts in the cartridge.",
-      "Exogenous epinephrine lowers the baseline concentration of hydrogen ions.",
-      "Antioxidants like sodium bisulfite are added to prevent oxidation of the vasoconstrictor, making the solution acidic.",
-      "Vasoconstrictors act as strong bases to raise the pH."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Vasoconstrictors are unstable and susceptible to oxidation. Antioxidants such as sodium bisulfite are added to solutions containing vasoconstrictors, which significantly lowers the pH (around 3.3 to 4.0) compared to plain local anesthetic solutions (around 5.5 to 6.0). This acidity can increase initial injection discomfort."
-  },
-  {
-    "id": 27,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 40-year-old patient experiences a prolonged, total lack of sensation (paresthesia) of the lower lip and tongue lasting several weeks following the extraction of a mandibular third molar and associated local anesthesia. What is the most common etiology of this complication?",
-    "options": [
-      "Systemic local anesthetic systemic toxicity (LAST)",
-      "Direct mechanical needle trauma or surgical trauma to the nerve sheath",
-      "Allergic reaction to the preservative methylparaben",
-      "Neurolytic effect of the local anesthetic base formulation"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Paresthesia following local anesthesia or oral surgery is most commonly caused by mechanical trauma (such as needle contact or surgical trauma from bur/elevator) to the lingual or inferior alveolar nerve. True neurotoxicity from local anesthetic solutions is rare, and methylparaben is no longer used in modern single-use dental cartridges in North America."
-  },
-  {
     "id": 28,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -406,34 +350,6 @@
     "explanation": "A buccal infiltration with 4% articaine is highly effective for achieving pulpal anesthesia in mandibular molars when an IANB alone fails to anesthetize the mesial root (often innervated by accessory nerves like the mylohyoid or branches from the contralateral side). Repeating the IANB is unnecessary since lip and tongue numbness confirms successful block of the main trunk, and waiting longer will not improve pulpal anesthesia if initial diffusion was inadequate."
   },
   {
-    "id": 30,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 65-year-old female with a history of controlled hypertension and stable angina presents for the extraction of tooth #16. During administration of the local anesthetic using a 2% lidocaine with 1:100,000 epinephrine cartridge, the patient suddenly exhibits tachycardia, palpitations, and mild apprehension. You suspect an intravascular injection. What is the maximum recommended dose of epinephrine for a cardiac-compromised patient according to American Heart Association/Canadian cardiovascular guidelines?",
-    "options": [
-      "0.02 mg",
-      "0.5 mg",
-      "0.2 mg",
-      "0.2 mg per appointment"
-    ],
-    "correctAnswer": 0,
-    "explanation": "For medically compromised patients (cardiac risk category ASA III), the cardiac dose limit for epinephrine is 0.04 mg per appointment, which corresponds to approximately two cartridges of 1:100,000 epinephrine. However, the question asks for the standard maximum recommended dose (cardiac dose limit) per appointment, which is 0.04 mg (or 0.02 mg according to some conservative guidelines, but standard AHA cardiac limit is 0.04 mg; wait, looking at options: 0.02 mg is equivalent to 2 cartridges of 1:200,000 or 1 cartridge of 1:100,000. Let's adjust: 0.04 mg is standard. Since 0.04 mg is not listed, 0.02 mg represents the limit for a single cartridge, but let's re-evaluate standard cardiac dose: 0.04 mg is the absolute cardiac limit per appointment. Let's rewrite the explanation or options. Option 0.04 mg should be preferred, but since it's missing, let's use a question about maximum dose of lidocaine with vasoconstrictor)."
-  },
-  {
-    "id": 31,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 50-year-old male patient weighing 70 kg (154 lbs) requires local anesthesia for quadrant scaling and root planing. Using 2% lidocaine with 1:100,000 epinephrine (maximum recommended dose without vasoconstrictor is 4.4 mg/kg, and with vasoconstrictor is 7.0 mg/kg), what is the absolute maximum number of cartridges you can safely administer?",
-    "options": [
-      "13 cartridges",
-      "7 cartridges",
-      "11 cartridges",
-      "17 cartridges"
-    ],
-    "correctAnswer": 2,
-    "explanation": "For a 70 kg patient, the maximum dose of 2% lidocaine with epinephrine at 7.0 mg/kg is 490 mg. Each 1.8 mL cartridge of 2% lidocaine contains 36 mg of drug (20 mg/mL * 1.8 mL). Dividing 490 mg by 36 mg per cartridge yields 13.6 cartridges, but lidocaine has a hard maximum recommended dose cap of 500 mg (approx 13-14 cartridges), though the calculated weight limit gives ~13.6. Wait, 7.0 * 70 = 490 mg. 490 / 36 = 13.6. However, standard clinical safety caps often limit lidocaine to 300 mg (approx 8.3 cartridges) without epinephrine or 500 mg absolute maximum with epinephrine. Let's recalculate based on standard NDEB values: 7 mg/kg * 70 kg = 490 mg. 490 / 36 = 13.6. Let's use standard strict limit: 7.0 mg/kg is 490 mg, which rounds to ~13 cartridges, but let's ensure the math aligns with standard multiple choice options."
-  },
-  {
     "id": 32,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -446,20 +362,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Trismus following an IANB is most commonly caused by trauma to the muscles of mastication (specifically the medial pterygoid muscle) or blood vessel trauma leading to a hematoma. Infection and allergic reactions are less common acute causes of post-injection trismus, while facial nerve paralysis presents as motor weakness of facial expression, not restricted jaw opening."
-  },
-  {
-    "id": 33,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "During the administration of a posterior superior alveolar (PSA) nerve block, the patient suddenly develops a rapidly expanding, painless swelling in the cheek and infraorbital region. What is the immediate management protocol for this complication?",
-    "options": [
-      "Reassurance, application of pressure to the site of needle insertion, and close observation",
-      "Immediate administration of intramuscular epinephrine and diphenhydramine",
-      "Application of immediate pressure to the bleeding site and instruction on cold packs",
-      "Prescription of broad-spectrum systemic antibiotics to prevent tissue necrosis"
-    ],
-    "correctAnswer": 0,
-    "explanation": "This clinical presentation describes a hematoma resulting from puncturing the pterygoid plexus of veins or the maxillary artery during a PSA block. Management includes immediate pressure (applied posteriorly and superiorly in the vestibule), ice application, reassurance, and advising the patient that discoloration will resolve over 1-2 weeks; antibiotics and epinephrine are unnecessary unless infection or anaphylaxis occurs."
   },
   {
     "id": 34,
@@ -530,20 +432,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Lidocaine with 1:100,000 epinephrine is classified as FDA Pregnancy Category B and is the gold standard local anesthetic for use during pregnancy. Mepivacaine plain lacks a vasoconstrictor, leading to higher peak plasma levels due to rapid absorption, and articaine has historically faced more scrutiny regarding prolonged paresthesia risks, though lidocaine remains universally preferred."
-  },
-  {
-    "id": 40,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "During the administration of an inferior alveolar nerve block (IANB) using the conventional technique, the needle tip contacts bone prematurely at a shallow depth of insertion before reaching the target area. What is the most appropriate corrective action?",
-    "options": [
-      "Withdraw the needle almost entirely, redirect the barrel more anteriorly toward the contralateral premolars, and reinsert.",
-      "Withdraw the needle slightly and advance further posteriorly.",
-      "Withdraw the needle almost entirely, redirect the barrel posteriorly so the syringe lies further back over the molars, and reinsert.",
-      "Depress half the cartridge immediately against the bone to achieve subperiosteal anesthesia."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Premature bone contact during an IANB usually indicates that the needle has contacted the ramus too early because the barrel is positioned too far anteriorly (e.g., over the mandibular molars of the same side). To correct this, the dentist must withdraw the needle almost completely and reposition the syringe barrel over the contralateral premolars/canines, allowing the needle to bypass the anterior border and reach the pterygomandibular space."
   },
   {
     "id": 41,
@@ -644,20 +532,6 @@
     "explanation": "Lidocaine possesses potent vasodilator properties, resulting in increased blood flow to the injection site, rapid absorption into the systemic circulation, and a shortened duration of pulpal anesthesia if used plain. Mepivacaine and prilocaine exhibit lesser vasodilatory properties and provide longer pulpal anesthesia without a vasoconstrictor. Bupivacaine is also a potent vasodilator but has a much inherently longer duration due to high protein binding."
   },
   {
-    "id": 49,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 34-year-old female experiences sudden, painful swelling of the face and lips 48 hours after receiving an inferior alveolar nerve block. Clinical examination reveals trismus and a firm, warm swelling in the pterygomandibular space. What is the most likely cause of this complication?",
-    "options": [
-      "Trismus secondary to muscle trauma and low-grade infection",
-      "Allergic reaction to the amide local anesthetic",
-      "Methemoglobinemia",
-      "Post-injection hematoma formation"
-    ],
-    "correctAnswer": 3,
-    "explanation": "A delayed swelling that appears warm and firm within the pterygomandibular space hours or days after an IAN block is typically a hematoma resulting from laceration of the pterygoid plexus of veins or the inferior alveolar artery. An allergic reaction to an amide is extremely rare and presents differently (urticaria, respiratory distress). Trismus alone presents as limited opening without a distinct warm mass, and methemoglobinemia is caused by prilocaine metabolites affecting oxygen-carrying capacity."
-  },
-  {
     "id": 50,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -756,20 +630,6 @@
     "explanation": "An electric shock sensation indicates direct contact with the inferior alveolar nerve trunk. The clinician must immediately withdraw the needle slightly (do not deposit while in contact with the nerve) and redirect it slightly more superiorly before proceeding to avoid persistent paresthesia. Depositing solution while in the nerve can cause chemical neuritic damage, and complete removal is unnecessary unless multiple attempts fail."
   },
   {
-    "id": 57,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "What is the maximum recommended dose (MRD) of 2% lidocaine with 1:100,000 epinephrine for a healthy adult patient based on the American Dental Association (and Canadian) weight-based guidelines?",
-    "options": [
-      "6.6 mg/kg (not to exceed 400 mg absolute maximum)",
-      "7.0 mg/kg (not to exceed 500 mg absolute maximum)",
-      "4.4 mg/kg (not to exceed 300 mg absolute maximum)",
-      "2.2 mg/kg (not to exceed 150 mg absolute maximum)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The maximum recommended dose for lidocaine with epinephrine in a healthy adult is 4.4 mg/kg (2.0 mg/lb), with an absolute maximum recommended dose of 300 mg (approximately 8.3 carpules of 2% lidocaine). 7.0 mg/kg is the MRD for mepivacaine or articaine, and 2.2 mg/kg is incorrect."
-  },
-  {
     "id": 58,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -852,20 +712,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Both articaine and prilocaine in 4% concentrations have been consistently associated in clinical literature with an increased incidence of permanent or prolonged paresthesia, most commonly involving the lingual nerve after an IANB. Although the exact mechanism is debated (neurotoxicity related to concentration vs. mechanical trauma), Canadian regulatory bodies advise caution when using 4% solutions for nerve blocks."
-  },
-  {
-    "id": 65,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "When administering an inferior alveolar nerve block (IANB), the needle contacts bone prematurely before reaching the target depth, and the patient reports feeling an electrical shock sensation. What is the most likely anatomical structure the needle contacted?",
-    "options": [
-      "Coronoid notch",
-      "Incisal ridge",
-      "Mandibular sulcus",
-      "Lingula"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Premature bone contact during an IANB typically indicates that the needle is too far anterior, striking the anterior border of the ramus or the lingula prematurely. The mandibular sulcus is the target area, not the site of premature contact. The coronoid notch is an extraoral landmark used for height of injection, and the incisal ridge is unrelated."
   },
   {
     "id": 66,
@@ -1022,34 +868,6 @@
     "explanation": "Amide local anesthetics are primarily metabolized by the liver. In patients with significant hepatic impairment, liver metabolism is reduced, leading to decreased clearance and a prolonged elimination half-life, which increases the risk of systemic toxicity if standard doses are administered."
   },
   {
-    "id": 77,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 4-year-old child weighing 16 kg is scheduled for a pulpotomy on primary molar #75. Using 2% lidocaine with 1:100,000 epinephrine (maximum recommended dose of lidocaine is 4.4 mg/kg), what is the absolute maximum number of milliliters of this solution that can be safely administered to this patient?",
-    "options": [
-      "3.52 mL",
-      "1.76 mL",
-      "4.40 mL",
-      "7.04 mL"
-    ],
-    "correctAnswer": 1,
-    "explanation": "First, calculate the maximum dose in mg: 16 kg * 4.4 mg/kg = 70.4 mg. A 2% lidocaine solution contains 20 mg of drug per mL. To find the maximum volume: 70.4 mg / 20 mg/mL = 3.52 mg total, wait: 70.4 / 20 = 3.52 mL? Let's check: 16 * 4.4 = 70.4 mg. 2% = 20 mg/mL. 70.4 / 20 = 3.52 mL. Ah, let's look at standard dental cartridges (1.8 mL): 3.52 / 1.8 = ~1.95 cartridges. Wait, my option math: 16 kg * 4.4 = 70.4 mg. 70.4 / 20 = 3.52 mL. Option B is 3.52 mL. Let me make sure the correct index is B (1). Wait, the options are [1.76 mL, 3.52 mL, 4.40 mL, 7.04 mL], so 3.52 mL is index 1. Let's adjust the correctAnswer index to 1."
-  },
-  {
-    "id": 78,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "During the administration of a posterior superior alveolar (PSA) nerve block, the patient suddenly experiences rapid swelling and pronounced exophthalmos of the cheek and periorbital region. What is the most probable etiology of this complication?",
-    "options": [
-      "Embolization of the superficial temporal artery",
-      "Hematoma formation resulting from laceration of the pterygoid venous plexus",
-      "Transient facial nerve palsy due to local anesthetic diffusion into the parotid gland",
-      "Allergic angioedema caused by latex in the needle cap"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The PSA injection site is in close proximity to the pterygoid venous plexus and the maxillary artery. Accidental over-insertion or improper angulation can puncture these vessels, leading to rapid extravasation of blood into the surrounding tissue spaces (hematoma), commonly presenting with visible swelling in the cheek and sometimes lower eyelid."
-  },
-  {
     "id": 79,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -1162,62 +980,6 @@
     "explanation": "Transient blanching (skin pallor) outside the immediate injection site is caused by local vasospasm of superficial arterioles due to diffusion of the vasoconstrictor (epinephrine). It is a localized, benign phenomenon and does not represent an allergy, nerve damage, or intravascular injection, and typically resolves spontaneously as the vasoconstrictor effect wears off."
   },
   {
-    "id": 88,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 45-year-old male with a history of controlled hypertension and stable angina requires a routine extraction of tooth #36. He takes metoprolol and low-dose aspirin. During the inferior alveolar nerve block, what is the maximum recommended dose of lidocaine 2% with 1:100,000 epinephrine for this cardiac patient?",
-    "options": [
-      "2.0 mg/kg (maximum 90 mg)",
-      "4.4 mg/kg (maximum 300 mg)",
-      "1.0 mg/kg (maximum 40.4 mg)",
-      "7.0 mg/kg (maximum 500 mg)"
-    ],
-    "correctAnswer": 1,
-    "explanation": "For a cardiac compromised patient (ASA III with stable angina), the American Heart Association and Canadian guidelines recommend limiting vasoconstrictor to the cardiac dose (0.04 mg epinephrine), but the maximum dose of lidocaine itself remains 4.4 mg/kg (or 2.0 mg/lb), not to exceed an absolute maximum of 300 mg of lidocaine with epinephrine, while the plain lidocaine limit is 7.0 mg/kg (500 mg max). Therefore, 4.4 mg/kg (maximum 300 mg) is the standard safe limit for lidocaine with epinephrine, keeping in mind the vasoconstrictor limit is usually the restrictive factor clinically."
-  },
-  {
-    "id": 89,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 28-year-old female presents for the removal of impacted mandibular third molars under local anesthesia. The dentist administers 4 cartridges of 4% articaine with 1:100,000 epinephrine. One week later, the patient returns complaining of persistent numbness of the right side of her tongue and lingual gingiva. This complication is most commonly associated with which local anesthetic property?",
-    "options": [
-      "The 4% concentration of articaine",
-      "Allergic reaction to the thiourea preservative",
-      "Higher lipid solubility of articaine",
-      "Rapid hepatic metabolism"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Paresthesia (especially of the lingual nerve) is reported with a higher incidence using 4% local anesthetic solutions, particularly articaine and prilocaine. The higher concentration (4%) is believed to be neurotoxic to nerve tissues regardless of the specific agent, though articaine is most frequently implicated in Canada."
-  },
-  {
-    "id": 90,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 10-year-old pediatric patient weighing 30 kg requires restorative treatment in all four quadrants. What is the absolute maximum number of cartridges of 2% lidocaine with 1:100,000 epinephrine (1.8 mL per cartridge) that can be safely administered to this patient, based on weight alone?",
-    "options": [
-      "5.0 cartridges",
-      "10.0 cartridges",
-      "7.3 cartridges",
-      "3.5 cartridges"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The maximum recommended dose for 2% lidocaine with epinephrine in children is 4.4 mg/kg. For a 30 kg child, the max dose is 30 kg * 4.4 mg/kg = 132 mg. Since each 1.8 mL cartridge of 2% lidocaine contains 36 mg of drug (20 mg/mL * 1.8 mL), dividing 132 mg by 36 mg/cartridge yields 3.66 cartridges, which rounds down to a safe limit of approximately 3.5 to 5 cartridges (strictly calculating 132/36 = 3.67, making 3.5 the safest lower whole/half increment, but let's re-verify: 30 * 4.4 = 132; 132 / 36 = 3.67. Thus, 3.5 cartridges is the closest safe clinical limit)."
-  },
-  {
-    "id": 91,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "During the administration of a posterior superior alveolar (PSA) nerve block, the patient immediately develops a rapidly expanding, visible swelling in the cheek and infratemporal space. What is the most appropriate immediate management?",
-    "options": [
-      "Refer the patient for immediate surgical drainage",
-      "Apply pressure to the area and instruct the patient on cold packs and antibiotics",
-      "Administer intramuscular epinephrine immediately",
-      "Prescribe strong opioid analgesics"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Rapid swelling following a PSA block is typically a hematoma caused by puncturing the pterygoid plexus of veins or the maxillary artery. Management includes immediate pressure to the bleeding site, ice packs for the first 24 hours to vasoconstrict, heat after 48 hours, and prophylactic antibiotics only if secondary infection is suspected; immediate surgical intervention is rarely required unless airway is compromised."
-  },
-  {
     "id": 92,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -1288,20 +1050,6 @@
     "explanation": "Sudden tachycardia and significant elevation in blood pressure immediately following a local anesthetic injection are hallmark signs of an intravascular injection of epinephrine. Lidocaine allergies are extremely rare, vasovagal syncope presents with bradycardia and hypotension rather than tachycardia and hypertension, and methemoglobinemia is typically associated with prilocaine or benzocaine, not lidocaine."
   },
   {
-    "id": 97,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 65-year-old female with a history of documented sulfa allergies and mild chronic obstructive pulmonary disease requires scaling and root planing. Which of the following topical anesthetics should be avoided due to cross-reactivity risks or specific toxicity profiles?",
-    "options": [
-      "Benzocaine spray",
-      "Lidocaine ointment",
-      "Tetracaine",
-      "Dyclonine"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Benzocaine is a derivative of para-aminobenzoic acid (PABA) and can cause allergic reactions in patients with sulfa allergies due to cross-reactivity, as well as being a primary agent linked to acquired methemoglobinemia. Dyclonine is a ketone, lidocaine is an amide, and tetracaine is an ester, but benzocaine carries the highest documented risk of methemoglobinemia in clinical practice."
-  },
-  {
     "id": 99,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -1314,20 +1062,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Diffusion hypoxia occurs when nitrous oxide is abruptly discontinued and rushes from the pulmonary capillary blood into the alveoli faster than nitrogen can replace it, diluting the alveolar oxygen. This can be prevented by administering 100% oxygen for 3 to 5 minutes post-sedation to flush the lungs."
-  },
-  {
-    "id": 100,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "An 8-year-old child weighing 20 kg requires local anesthesia for a simple pulp therapy on a primary molar. Using 2% lidocaine with 1:100,000 epinephrine (concentration = 36 mg per 1.8 mL carpule), what is the maximum number of carpules that can be safely administered based on the weight-based MRD of 7.0 mg/kg?",
-    "options": [
-      "3.8 carpules",
-      "7.8 carpules",
-      "1.9 carpules",
-      "5.5 carpules"
-    ],
-    "correctAnswer": 0,
-    "explanation": "First, calculate the total safe dose: 20 kg * 7.0 mg/kg = 140 mg. Next, determine the amount of drug in one 1.8 mL carpule of 2% lidocaine: 20 mg/mL * 1.8 mL = 36 mg. Finally, divide the total safe dose by the dose per carpule: 140 mg / 36 mg = 3.88 carpules. Thus, a maximum of 3.8 carpules can be administered."
   },
   {
     "id": 101,
@@ -1498,20 +1232,6 @@
     "explanation": "This patient is presenting with an acute anaphylactic reaction involving angioedema and potential airway compromise (hoarse voice). Intramuscular epinephrine (0.3 mg of 1:1,000) is the absolute first-line, life-saving intervention. Antihistamines like diphenhydramine are secondary adjuncts and will not reverse life-catching laryngeal edema."
   },
   {
-    "id": 114,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "During the administration of an inferior alveolar nerve block, the operator hits bone prematurely at a shallow depth of insertion before contacting the lingula. The needle tip is likely resting against which anatomical structure?",
-    "options": [
-      "Neck of the mandibular condyle",
-      "Coronoid process",
-      "External oblique ridge",
-      "Internal oblique ridge"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Premature bone contact during an inferior alveolar nerve block usually indicates that the needle is too far lateral, resting against the external oblique ridge. To correct this, the barrel should be swung more anteriorly over the premolars to allow the needle to pass medially into the pterymandibular space."
-  },
-  {
     "id": 115,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -1608,20 +1328,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "If the needle is directed too far posteriorly during an IANB, it enters the capsule of the parotid gland, which contains the trunk of the facial nerve (CN VII), leading to transient motor paralysis of the facial muscles. The lateral and medial pterygoids are muscles of mastication pierced if the depth or angulation is incorrect, but they do not cause facial paralysis, and the sphenomandibular ligament is a deep landmark."
-  },
-  {
-    "id": 124,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetic formulations has a pH closest to physiological normal (7.4), thereby resulting in a more rapid onset of clinical anesthesia and reduced injection discomfort?",
-    "options": [
-      "Plain 2% lidocaine (pH ~ 6.5)",
-      "4% articaine with 1:100,000 epinephrine (pH ~ 4.5)",
-      "3% mepivacaine plain (pH ~ 5.5)",
-      "2% lidocaine with 1:100,000 epinephrine (pH ~ 4.2)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Plain local anesthetic solutions have a higher pH than solutions containing vasoconstrictors because vasopressors require acidic antioxidants (like bisulfites) to prevent degradation, which drops the pH to between 3.3 and 5.5. Among the choices, 3% mepivacaine plain lacks a vasoconstrictor, giving it a higher, less acidic pH than formulations with epinephrine or articaine, leading to faster onset and less sting."
   },
   {
     "id": 125,
@@ -1792,34 +1498,6 @@
     "explanation": "Prilocaine's primary metabolite, o-toluidine, induces the conversion of ferrous iron in hemoglobin to ferric iron, producing methemoglobin which cannot effectively transport oxygen. This condition is dose-dependent and typically occurs when large doses (exceeding 600 mg in adults) of prilocaine are administered."
   },
   {
-    "id": 137,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 10-year-old child weighing 30 kg requires local anesthesia for restorative work. Using 2% lidocaine with 1:100,000 epinephrine (maximum recommended dose is 4.4 mg/kg), calculate the absolute maximum number of cartridges (1.8 mL per cartridge) that can be safely administered without exceeding the weight-based limit.",
-    "options": [
-      "2 cartridges",
-      "4 cartridges",
-      "6 cartridges",
-      "3 cartridges"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Calculate max dose = 30 kg * 4.4 mg/kg = 132 mg. Step 2: Calculate mg per cartridge = 2% means 20 mg/mL * 1.8 mL = 36 mg per cartridge. Step 3: Divide max dose by mg per cartridge = 132 mg / 36 mg = 3.66 cartridges. Rounding down to the nearest safe whole number yields 3 cartridges, but mathematically 3.66 allows up to 3 full cartridges safely (since 4 would exceed the limit at 144 mg). Wait, let's recalculate: 3 cartridges * 36 mg = 108 mg (safe), 4 cartridges * 36 mg = 144 mg (exceeds 132 mg). Therefore, exactly 3 cartridges is the maximum safe integer limit. Let me correct the options if needed, but 3 is the correct integer. Looking at the options, option B is 3 cartridges."
-  },
-  {
-    "id": 138,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 45-year-old male with a history of poorly controlled hypertension and recent myocardial infarction (3 months ago) requires a routine class V restoration on tooth #36. He is anxious about the injection. According to Canadian dental guidelines regarding local anesthesia with vasoconstrictors, what is the most appropriate management?",
-    "options": [
-      "Pre-medicate with 10 mg diazepam and use unlimited articaine with 1:100,000 epinephrine.",
-      "Limit epinephrine to a maximum cardiac dose of 0.2 mg per appointment.",
-      "Proceed with 2% lidocaine with 1:100,000 epinephrine without limitation.",
-      "Use 3% mepivacaine plain as the primary local anesthetic."
-    ],
-    "correctAnswer": 3,
-    "explanation": "Recent myocardial infarction (< 6 months) is a relative contraindication for elective dental treatment and elective use of vasoconstrictors. Using a plain local anesthetic such as 3% mepivacaine avoids the cardiovascular stimulation associated with epinephrine. Limiting or avoiding vasoconstrictors in unstable cardiac patients prevents increases in heart rate and blood pressure."
-  },
-  {
     "id": 139,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -1918,20 +1596,6 @@
     "explanation": "Transient facial paralysis during an IANB occurs when the needle is inserted too far posteriorly into the parotid gland, depositing anesthetic directly into or around the facial nerve (CN VII) trunk. It resolves spontaneously as the anesthetic wears off. Intravascular injection or pterygoid plexus diffusion does not cause immediate unilateral drooping of facial expression muscles."
   },
   {
-    "id": 148,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "Which of the following systemic conditions is an absolute contraindication to the use of levonordefrin (a sympathomimetic amine) in local anesthetic solutions?",
-    "options": [
-      "Mild well-controlled asthma",
-      "Taking a non-selective beta-blocker",
-      "Controlled Stage 1 hypertension",
-      "Controlled hypothyroidism"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Patients taking non-selective beta-blockers (e.g., propranolol) should not receive vasoconstrictors like levonordefrin or high doses of epinephrine because unopposed alpha-adrenergic stimulation can precipitate severe hypertension and reflex bradycardia. Controlled hypertension and hypothyroidism are not absolute contraindications to standard doses of vasoconstrictors."
-  },
-  {
     "id": 149,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -1986,20 +1650,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Although articaine has superior bone-penetrating properties compared to other local anesthetics, the dense cortical bone of the hard palate often hinders complete buccal-to-palatal diffusion, necessitating a direct greater palatine or local palatal infiltration for complete pulpal and soft tissue anesthesia. The other options are anatomically inaccurate regarding the maxilla."
-  },
-  {
-    "id": 154,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "During the administration of an inferior alveolar nerve block (IANB) in a 25-year-old patient, the needle contacts bone prematurely at a shallow depth of insertion before reaching the target area. The barrel of the syringe is positioned over the premolars on the contralateral side. What is the correct corrective action?",
-    "options": [
-      "Advance the needle deeper while applying firm pressure against the bone",
-      "Reposition the syringe barrel further posteriorly over the molars to align parallel to the ramus",
-      "Withdraw the needle slightly and redirect it more posteriorly",
-      "Withdraw the needle completely and insert it 5 mm more superiorly"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Premature bone contact during an IANB usually indicates that the needle is striking the anterior border or the oblique ridge of the ramus because the syringe barrel is positioned too far anteriorly (e.g., over the premolars). To correct this, the operator must reposition the syringe barrel posteriorly over the contralateral molars so the needle can pass more medially along the internal surface of the ramus."
   },
   {
     "id": 155,
@@ -2226,20 +1876,6 @@
     "explanation": "Articaine is unique because it possesses both an amide ring (with a thiophene ring instead of benzene) and an ester side chain. This ester linkage allows plasma esterases to rapidly hydrolyze articaine, giving it a shorter half-life. Lidocaine, prilocaine, and mepivacaine are purely amino-amides metabolized primarily in the liver."
   },
   {
-    "id": 172,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A dentist is calculating the maximum recommended dose (MRD) of lidocaine (2% with 1:100,000 epinephrine) for a healthy 70 kg adult patient based on weight. What is the standard MRD of lidocaine with epinephrine according to standard dental pharmacology guidelines?",
-    "options": [
-      "9.0 mg/kg (maximum absolute dose 600 mg)",
-      "4.4 mg/kg (maximum absolute dose 300 mg)",
-      "7.0 mg/kg (maximum absolute dose 500 mg)",
-      "3.0 mg/kg (maximum absolute dose 200 mg)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The maximum recommended dose for lidocaine with epinephrine in a healthy adult is 7.0 mg/kg (3.2 mg/lb), with an absolute maximum recommended ceiling dose typically cited as 500 mg (though older texts used 300 mg, modern guidelines cap it at 500 mg). 4.4 mg/kg is the MRD for mepivacaine and plain lidocaine without vasoconstrictor. Options A and D do not align with standard dental pharmacology metrics for lidocaine."
-  },
-  {
     "id": 173,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -2280,20 +1916,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Local anesthetics bind to specific receptors within voltage-gated sodium channels on the nerve membrane, preventing the transient increase in sodium permeability. This blocks depolarization and halts the propagation of the nerve action potential. Potassium channel opening, calcium inhibition, and alpha-2 receptors are not the primary mechanisms of local anesthetic action."
-  },
-  {
-    "id": 176,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 35-year-old healthy male patient requires surgical removal of an impacted mandibular third molar. The dentist plans to administer an inferior alveolar nerve block (IANB) using 2% lidocaine with 1:100,000 epinephrine. What is the absolute maximum recommended dose of this local anesthetic for a healthy adult without exceeding the manufacturer's guidelines?",
-    "options": [
-      "4.4 mg/kg (up to a maximum of 500 mg)",
-      "2.0 mg/kg (up to a maximum of 200 mg)",
-      "3.0 mg/kg (up to a maximum of 300 mg)",
-      "7.0 mg/kg (up to a maximum of 500 mg)"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The maximum recommended dose of lidocaine with epinephrine for a healthy adult is 4.4 mg/kg (2.0 mg/lb), with an absolute maximum recommended dose generally capped at 500 mg according to standard dental anesthesia guidelines. 7.0 mg/kg is the maximum dose for mepivacaine plain, and 3.0 mg/kg is closer to articaine's maximum cardiac dose. 2.0 mg/kg is unnecessarily restrictive."
   },
   {
     "id": 177,
@@ -2436,34 +2058,6 @@
     "explanation": "The patient is experiencing an acute bronchospasm likely triggered by anxiety or an asthma exacerbation. The immediate treatment for mild-to-moderate bronchospasm is the use of a selective beta-2 agonist (albuterol) via metered-dose inhaler (2 puffs). Epinephrine is reserved for severe anaphylaxis, and while oxygen is helpful, it does not treat the underlying bronchospasm as effectively as albuterol."
   },
   {
-    "id": 187,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 65-year-old female (weight 70 kg) with controlled hypertension requires local anesthesia for multiple restorations. You plan to use 2% lidocaine with 1:100,000 epinephrine. What is the maximum recommended dose (MRD) of lidocaine with epinephrine for this patient based on standard Canadian dental guidelines?",
-    "options": [
-      "400 mg",
-      "300 mg",
-      "200 mg",
-      "500 mg"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The absolute maximum recommended dose of lidocaine with vasoconstrictor according to standard dental guidelines is 7.0 mg/kg, but most guidelines cap the absolute maximum dose at 500 mg for a healthy adult. However, for cardiac patients or based on the classic conservative calculation of 4.4 mg/kg (70 kg * 4.4 = 308 mg), 300 mg is the standard practical limit. Wait, the absolute maximum for lidocaine with vasoconstrictor is 500 mg, but 4.4 mg/kg is 308 mg. Let's look at the options: 500 mg is the absolute MRD, while 300 mg is the standard per-appointment practical limit often taught. Actually, standard absolute MRD for lidocaine with epi is 500 mg. Let's correct the explanation: The absolute maximum recommended dose for lidocaine with epinephrine in a healthy adult is 7.0 mg/kg, capped at an absolute maximum of 500 mg. For a 70 kg patient, 7 * 70 = 490 mg, making 500 mg the correct absolute ceiling, though 300 mg is often cited in older texts as a cardiac dose limit. Let's use 500 mg as the standard absolute MRD."
-  },
-  {
-    "id": 188,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 50-year-old male is undergoing periodontal surgery under local anesthesia. The dentist administers 4 cartridges of 4% articaine with 1:100,000 epinephrine. The next day, the patient reports prolonged numbness of the right lateral half of his tongue and altered taste. This complication is most commonly associated with which local anesthetic factor?",
-    "options": [
-      "Neurotoxicity directly linked to the 4% concentration of articaine",
-      "Direct mechanical trauma to the lingual nerve by the needle",
-      "Methemoglobinemia induced by articaine metabolites",
-      "High lipid solubility of articaine"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Persistent paresthesia (lingual or inferior alveolar nerve) has been reported with a higher statistical incidence following the use of 4% local anesthetic solutions, particularly articaine and prilocaine, compared to 2% solutions. While needle trauma can cause paresthesia, epidemiological data strongly links the 4% concentration to an increased risk of neurotoxicity."
-  },
-  {
     "id": 189,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -2602,20 +2196,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "Procaine (an ester) is a potent vasodilator, much more so than lidocaine or mepivacaine, which leads to rapid systemic absorption and a significantly shorter pulpal and soft tissue duration of anesthesia when used plain. Mepivacaine and prilocaine have minimal vasodilator properties, allowing them to provide adequate pulpal anesthesia without a vasoconstrictor."
-  },
-  {
-    "id": 200,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A patient with documented atypical plasma cholinesterase presents for periodontal surgery. Which local anesthetic should be strictly avoided due to an increased risk of prolonged systemic toxicity and methemoglobinemia?",
-    "options": [
-      "Mepivacaine",
-      "Articaine",
-      "Prilocaine",
-      "Lidocaine"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Prilocaine's primary metabolite, ortho-toluidine, induces the conversion of ferrous hemoglobin to ferric hemoglobin, resulting in methemoglobinemia. Patients with atypical plasma cholinesterase or compromised oxygen transport are at heightened risk. Articaine also has an ester component, but prilocaine is classically highlighted for methemoglobinemia."
   },
   {
     "id": 201,
@@ -2814,20 +2394,6 @@
     "explanation": "The CNS is generally more sensitive to local anesthetic blood levels than the cardiovascular system. Early signs of CNS toxicity include subjective symptoms such as lightheadedness, dizziness, visual/auditory disturbances, tinnitus, and circumoral numbness, which can progress to muscle twitching, convulsions, and CNS depression if levels continue to rise."
   },
   {
-    "id": 216,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 35-year-old male with a history of poorly controlled epilepsy requires a routine extraction of tooth #36. Which local anesthetic formulation is contraindicated or requires extreme caution due to its potential interaction with his condition or medications?",
-    "options": [
-      "2% lidocaine with 1:100,000 epinephrine",
-      "4% articaine with 1:100,000 epinephrine",
-      "3% mepivacaine plain",
-      "4% prilocaine with 1:200,000 norepinephrine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Norepinephrine is a potent vasoconstrictor with predominantly alpha-adrenergic activity, causing significant peripheral vasoconstriction and marked blood pressure elevations that can precipitate cerebrovascular or cardiac events in vulnerable patients. Epinephrine-containing solutions (like lidocaine and articaine) or plain solutions (mepivacaine) are generally preferred over norepinephrine in patients with compromised health status."
-  },
-  {
     "id": 217,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -2896,20 +2462,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Vasoconstrictors in dental local anesthetics (epinephrine and levonordefrin) require sodium bisulfite as an antioxidant to prevent degradation. Patients with true sulfite allergies must receive plain local anesthetic formulations, such as 3% mepivacaine plain, which contain no vasoconstrictor and therefore no sulfites."
-  },
-  {
-    "id": 222,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "An ASA III patient with stable ischemic heart disease requires two quadrants of scaling and root planing. What is the maximum recommended dose of epinephrine per appointment for this cardiac-compromised patient according to AHA/CDA guidelines?",
-    "options": [
-      "0.5 mg",
-      "1.0 mg",
-      "0.2 mg",
-      "0.02 mg"
-    ],
-    "correctAnswer": 3,
-    "explanation": "For medically compromised patients with significant cardiovascular disease (ASA III or IV), the cardiac dose restriction limits the maximum amount of epinephrine to 0.04 mg per appointment (equivalent to roughly two cartridges of 1:100,000 epinephrine). The traditional 'cardiac dose' guideline safely restricts it to 0.02 mg (one cartridge) to minimize systemic hemodynamic effects."
   },
   {
     "id": 223,
@@ -3150,20 +2702,6 @@
     "explanation": "Rapid swelling and discoloration during or shortly after a PSA block indicate a hematoma caused by puncturing the pterygoid plexus of veins or the maxillary artery. Immediate management includes applying firm pressure to the bleeding site for at least 3-5 minutes, instructing the patient to apply ice to limit swelling, and explaining that the hematoma will typically resolve in 7 to 14 days. Antibiotics and incision are unnecessary unless infection develops."
   },
   {
-    "id": 240,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 60-year-old male with a history of recent myocardial infarction (3 months ago) and uncontrolled hypertension requires a simple extraction. According to Canadian cardiovascular guidelines, what is the maximum recommended dose of epinephrine (1:100,000) for this patient?",
-    "options": [
-      "Up to 10.0 mL (2 carpules)",
-      "Epinephrine is strictly contraindicated; plain anesthetics must be used exclusively.",
-      "Up to 5.0 mL (1 carpule)",
-      "Up to 34.0 mL (nearly 9 carpules)"
-    ],
-    "correctAnswer": 0,
-    "explanation": "For patients with significant cardiovascular disease (e.g., recent MI within 6 months, unstable angina, or uncontrolled hypertension), the cardiac dose limit of epinephrine is restricted to 0.04 mg per appointment, which translates to approximately 2.0 carpules of 1:100,000 epinephrine. Healthy patients can receive up to 0.2 mg (11 carpules). Completely omitting epinephrine in painful procedures can cause endogenous catecholamine spikes that are more dangerous than a cardiac dose."
-  },
-  {
     "id": 241,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -3346,20 +2884,6 @@
     "explanation": "For a cardiac-compromised patient, the American Heart Association (AHA) recommends limiting the dose of epinephrine to 0.04 mg per appointment. A 1:100,000 epinephrine concentration contains 0.018 mg per 1.8 mL cartridge, allowing a maximum of 2.2 cartridges (0.04 / 0.018 = 2.22). While weight-based calculations for lidocaine would permit a much higher number of cartridges, the cardiovascular limitation imposed by the vasoconstrictor in a patient with stable angina strictly governs the maximum safe dose."
   },
   {
-    "id": 255,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 42-year-old female presents for periodontal surgery. Her medical history reveals a genetic deficiency in plasma cholinesterase. Which of the following local anesthetics should be strictly avoided due to an increased risk of systemic toxicity?",
-    "options": [
-      "Bupivacaine",
-      "Mepivacaine",
-      "Lidocaine",
-      "Articaine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Articaine contains an additional ester linkage in its chemical structure, making it susceptible to inactivation by plasma carboxylesterases. Although plasma cholinesterase deficiency primarily affects ester-type local anesthetics (like tetracaine or benzocaine), amide anesthetics with ester side chains like articaine warrant caution, though true severe toxicity is more directly linked to total dose. However, strict avoidance of ester topical anesthetics and careful monitoring with articaine is standard; between the choices, articaine's ester component makes it the correct NDEB-targeted answer for plasma esterase interaction compared to purely amide agents like lidocaine, mepivacaine, and bupivacaine which rely strictly on hepatic CYP450 enzymes."
-  },
-  {
     "id": 256,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -3414,20 +2938,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Lipid solubility is the primary physicochemical property determining the potency of a local anesthetic because the drug must penetrate the lipid-rich nerve membrane to reach its receptor site. A higher lipid solubility allows the anesthetic to be effective at lower concentrations (higher potency). Conversely, pKa determines the onset of action, protein binding dictates the duration of action, and vasodilatory activity decreases potency and duration unless a vasoconstrictor is added."
-  },
-  {
-    "id": 261,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 65-year-old female with documented severe congestive heart failure and a history of a recent myocardial infarction 3 months ago requires two restorations. According to the AHA and Canadian cardiovascular guidelines, what is the maximum recommended dose of epinephrine (1:100,000) for this medically compromised patient?",
-    "options": [
-      "0.02 mg (approx. 2 cartridges)",
-      "0.04 mg (approx. 2.2 cartridges)",
-      "0.2 mg (approx. 11 cartridges)",
-      "Epinephrine is strictly contraindicated in all patients with a history of myocardial infarction"
-    ],
-    "correctAnswer": 0,
-    "explanation": "For patients with significant cardiovascular disease (ASA III or IV, including recent MI within 6 months), the cardiac dose limit for epinephrine is 0.04 mg per appointment, which translates to roughly 2 cartridges of 1:100,000 concentration. However, current conservative guidelines often restrict it to 0.02 mg to minimize myocardial oxygen demand. Completely avoiding vasopressors can sometimes lead to endogenous epinephrine release due to pain, which is more dangerous."
   },
   {
     "id": 263,
@@ -3486,20 +2996,6 @@
     "explanation": "Transient facial nerve paralysis occurs when the local anesthetic is deposited too far posteriorly into the substance of the parotid gland, anesthetizing the branches of cranial nerve VII. The patient will be unable to voluntarily close their eye (lagophthalmos), so the eyelid must be taped shut manually until the anesthesia wears off."
   },
   {
-    "id": 267,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 10-year-old pediatric patient (weight 30 kg) requires restorative treatment on multiple quadrants. Using 2% lidocaine with 1:100,000 epinephrine (maximum recommended dose is 4.4 mg/kg), calculate the absolute maximum number of cartridges (1.8 mL each containing 36 mg of lidocaine) that can be safely administered.",
-    "options": [
-      "3 cartridges",
-      "5 cartridges",
-      "10 cartridges",
-      "7 cartridges"
-    ],
-    "correctAnswer": 3,
-    "explanation": "First, calculate the maximum allowable dose: 30 kg × 4.4 mg/kg = 132 mg. Next, determine how many milligrams are in a single 1.8 mL cartridge of 2% lidocaine: 2% = 20 mg/mL × 1.8 mL = 36 mg per cartridge. Finally, divide the max dose by the amount per cartridge: 132 mg / 36 mg = 3.66 cartridges. Rounding down for safety yields a maximum limit of 3 to 3.6 cartridges. Wait, recalculating: 30 * 4.4 = 132 mg total. 132 / 36 = 3.66. The closest safe whole number option representing the calculation constraint is 3 cartridges, but let's check standard math: 3.6 cartridges is roughly 3 cartridges safely."
-  },
-  {
     "id": 268,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -3512,20 +3008,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Articaine is unique among amide local anesthetics because it possesses a thiophene ring instead of a benzene ring, and an additional ester side chain. This allows it to be rapidly metabolized by plasma and tissue carboxylesterases into its inactive metabolite, articainic acid, giving it a shorter systemic half-life."
-  },
-  {
-    "id": 269,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 54-year-old male presents for the extraction of tooth #36. His medical history is significant for controlled hypertension and recent myocardial infarction 4 months ago. Which local anesthetic formulation is the absolute safest and most effective choice for achieving profound pulpal anesthesia for this patient?",
-    "options": [
-      "3% Mepivacaine plain",
-      "0.5% Bupivacaine with 1:200,000 epinephrine",
-      "2% Lidocaine with 1:100,000 epinephrine",
-      "4% Articaine with 1:200,000 epinephrine"
-    ],
-    "correctAnswer": 2,
-    "explanation": "According to AHA and Canadian cardiovascular guidelines, patients with a history of MI > 3 months ago who are stable can safely receive local anesthetics with vasoconstrictors restricted to cardiac doses (maximum 0.04 mg of epinephrine). 2% lidocaine with 1:100,000 epinephrine provides excellent duration and depth while remaining within safe limits. Plain mepivacaine has a short pulpal duration, and bupivacaine is unnecessarily long-acting for a routine extraction."
   },
   {
     "id": 271,
@@ -3598,20 +3080,6 @@
     "explanation": "Maxillary teeth have a porous buccal cortical plate, making supraperiosteal infiltration highly effective for achieving pulpal and soft tissue anesthesia for individual teeth or small segments. An infraorbital block or maxillary nerve block is unnecessary and blocks a wider area than required. A PSA block is used for maxillary molars, not premolars."
   },
   {
-    "id": 276,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "Which of the following medical conditions represents a strict contraindication to the use of local anesthetic solutions containing levonordefrin or high-dose epinephrine?",
-    "options": [
-      "Well-managed asthma",
-      "Controlled type 2 diabetes mellitus",
-      "Controlled hypothyroidism",
-      "Taking non-selective beta-blockers such as propranolol"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Non-selective beta-blockers (like propranolol) block beta-2 receptors while leaving alpha-1 receptors unopposed. Administration of exogenous vasoconstrictors with strong alpha activity (such as levonordefrin or high doses of epinephrine) can lead to a significant, uncompensated rise in blood pressure (reflex bradycardia and severe hypertension). Controlled diabetes, asthma, and hypothyroidism do not present such contraindications when stable."
-  },
-  {
     "id": 277,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -3638,20 +3106,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Sodium hydroxide is added as a alkalinizing agent to adjust the pH of the local anesthetic solution. Raising the pH increases the proportion of the uncharged, lipid-soluble base form of the anesthetic molecule, which is required to diffuse rapidly across the lipid nerve membrane."
-  },
-  {
-    "id": 279,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 35-year-old male with no significant medical history requires a routine extraction of tooth #36. You plan to administer an inferior alveolar nerve block (IANB) using 2% lidocaine with 1:100,000 epinephrine. What is the maximum recommended dose (MRD) of this local anesthetic for a healthy adult based on Canadian dental standards?",
-    "options": [
-      "2.0 mg/kg (up to an absolute maximum of 200 mg)",
-      "6.6 mg/kg (up to an absolute maximum of 400 mg)",
-      "4.4 mg/kg (up to an absolute maximum of 300 mg)",
-      "7.0 mg/kg (up to an absolute maximum of 500 mg)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "According to Canadian dental standards, the maximum recommended dose for 2% lidocaine with 1:100,000 epinephrine in a healthy adult is 4.4 mg/kg (2.0 mg/lb), with an absolute maximum dose of 300 mg. Option 1 is correct; 7.0 mg/kg is the MRD for mepivacaine plain, and 6.6 mg/kg is often cited for articaine."
   },
   {
     "id": 280,
@@ -3696,20 +3150,6 @@
     "explanation": "Benzocaine is an ester-type local anesthetic. Esters are metabolized to para-aminobenzoic acid (PABA), which is known to cause allergic reactions. Cross-allergenicity exists among ester local anesthetics due to this shared metabolite, whereas amides do not cross-react with esters."
   },
   {
-    "id": 283,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "Which of the following local anesthetic agents is metabolized primarily in the plasma and liver, possesses a very short half-life, and is considered the safest choice for pregnant patients due to its rapid hydrolysis?",
-    "options": [
-      "Lidocaine",
-      "Bupivacaine",
-      "Prilocaine",
-      "Articaine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Articaine is unique among amide local anesthetics because it contains an additional ester group, which allows it to be rapidly hydrolyzed by plasma carboxylesterases in addition to hepatic metabolism, giving it a shorter half-life and making it a favorable choice when indicated, though lidocaine remains the overall standard during pregnancy."
-  },
-  {
     "id": 284,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -3750,20 +3190,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Vasoconstrictors constrict local blood vessels, which decreases systemic absorption (reducing toxicity risk), prolongs the duration of anesthesia by keeping the drug in contact with the nerve longer, and provides localized hemostasis at the surgical site."
-  },
-  {
-    "id": 288,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A 55-year-old female presents for scaling and root planing. Her medical history includes uncontrolled hypertension and recent myocardial infarction (within the past 2 months). According to current Canadian cardiac and dental guidelines, what is the most appropriate management regarding local anesthesia with vasoconstrictor?",
-    "options": [
-      "Avoid epinephrine entirely and use mepivacaine 3% plain",
-      "Elect elective dental treatment and defer local anesthesia with vasoconstrictor",
-      "Use maximum cardiac dose (0.2 mg epinephrine)",
-      "Pre-medicate with a sedative and proceed with standard 1:100,000 epinephrine"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Elective dental treatment, especially involving vasoconstrictors, should be deferred for at least 6 months following a myocardial infarction due to the high risk of recurrent cardiac events. If emergency treatment is necessary, consultation with the cardiologist is mandatory, and vasoconstrictors should be minimized or avoided. Using plain anesthetics or standard doses prematurely violates the mandatory 6-month post-MI elective care guideline."
   },
   {
     "id": 289,
@@ -4032,20 +3458,6 @@
     "explanation": "For patients with significant cardiovascular disease (ASA III), the cardiac dose limit for epinephrine is 0.04 mg per appointment. Each 1.8 mL cartridge of 1:100,000 epinephrine contains 0.018 mg, limiting the patient to a maximum of 2.2 cartridges. The standard weight-based MRD (Option B) would expose this medically compromised patient to an unsafe level of vasoconstrictor."
   },
   {
-    "id": 313,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "An 8-year-old child weighing 20 kg requires a pulp therapy on tooth #75. You plan to use 2% lidocaine with 1:100,000 epinephrine. Calculating strictly by the pediatric weight-based maximum dose of 4.4 mg/kg, what is the maximum number of 1.8 mL cartridges you can administer?",
-    "options": [
-      "5.4 cartridges",
-      "4.1 cartridges",
-      "2.7 cartridges",
-      "1.3 cartridges"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Total maximum dose = 20 kg * 4.4 mg/kg = 88 mg. Each 1.8 mL cartridge of 2% lidocaine contains 36 mg of drug (20 mg/mL * 1.8 mL). Dividing 88 mg by 36 mg/cartridge yields approximately 2.4 to 2.7 cartridges (exact math: 88 / 36 = 2.44, wait let's recalculate: 36mg per cartridge, 88/36 = 2.44 cartridges). Therefore, option B (approx 2.4-2.7 depending on rounding) is the closest mathematically sound limit."
-  },
-  {
     "id": 314,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -4130,34 +3542,6 @@
     "explanation": "Articaine is unique among dental local anesthetics because it contains an additional thiophene ring and an ester side chain in addition to its amide linkage. This ester linkage allows for rapid plasma hydrolysis by esterases, giving it a shorter half-life. Lidocaine is a pure amide, while tetracaine and procaine are pure esters."
   },
   {
-    "id": 321,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "A patient experiences a sudden, sharp, electric shock-like sensation traveling down the lower lip and chin immediately upon needle insertion for an IANB. The dentist should immediately:",
-    "options": [
-      "Aspirate and slowly inject the local anesthetic",
-      "Withdraw the needle slightly and redirect it more medially",
-      "Continue advancing until bone is contacted",
-      "Withdraw the needle completely and reassure the patient"
-    ],
-    "correctAnswer": 3,
-    "explanation": "A sharp, electric shock sensation indicates direct needle contact with a nerve trunk (in this case, the inferior alveolar or lingual nerve). The correct protocol is to immediately withdraw the needle completely to prevent persistent paresthesia, reassure the patient, and re-evaluate the technique before re-injecting. Injecting into a nerve or continuing to advance can cause permanent nerve damage."
-  },
-  {
-    "id": 322,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "Maximum Recommended Dose (MRD) calculations: A healthy 70 kg adult patient is administered 2 cartridges of 2% lidocaine with 1:100,000 epinephrine (1.8 mL per cartridge). What is the maximum number of additional cartridges of the same anesthetic that can be safely administered, based on the weight-based MRD of lidocaine (7 mg/kg)?",
-    "options": [
-      "11 cartridges",
-      "9 cartridges",
-      "15 cartridges",
-      "13 cartridges"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The MRD of lidocaine with epinephrine is 7 mg/kg. For a 70 kg patient, total allowable dose = 70 kg * 7 mg/kg = 490 mg. Each 1.8 mL cartridge of 2% lidocaine contains 36 mg of drug. Total allowable cartridges = 490 / 36 = ~13.6 cartridges total. Since 2 cartridges have already been given, 13 - 2 = 11 additional cartridges can be safely administered (rounding down for safety)."
-  },
-  {
     "id": 323,
     "topicId": "anesthesia",
     "difficulty": "medium",
@@ -4184,20 +3568,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "For very young, uncooperative children requiring extensive multi-quadrant treatment where local anesthesia and basic behavior guidance or nitrous oxide fail, general anesthesia is the standard of care to ensure safety, efficiency, and psychological protection. High-dose oral sedation outside controlled environments carries high risk, and physical restraints like papoose boards are heavily restricted or contraindicated under current ethical and clinical guidelines in Canada."
-  },
-  {
-    "id": 325,
-    "topicId": "anesthesia",
-    "difficulty": "medium",
-    "question": "Which of the following physiological factors significantly decreases the clinical duration and depth of local anesthesia in an acutely inflamed dental pulp (e.g., irreversible pulpitis)?",
-    "options": [
-      "Conservative management and observation",
-      "Decreased local tissue pH, which increases the proportion of the ionized (cationic) form of the anesthetic",
-      "Increased local blood flow, which accelerates the systemic absorption and clearance of the local anesthetic from the site",
-      "Upregulation of tetrodotoxin-resistant sodium channels that are inherently less sensitive to standard local anesthetics"
-    ],
-    "correctAnswer": 0,
-    "explanation": "All listed factors contribute to the profound failure of local anesthesia in inflamed tissue. Inflammation lowers tissue pH, shifting the equilibrium toward the ionized form which cannot cross the nerve membrane. Hyperemia increases vascular clearance, removing the drug faster. Furthermore, inflammation causes the upregulation of resistant sodium channels. Thus, all mechanisms synergistically reduce anesthetic efficacy."
   },
   {
     "id": 326,
@@ -4284,20 +3654,6 @@
     "explanation": "Prilocaine is metabolized to ortho-toluidine, an oxidizing agent that can convert hemoglobin to methemoglobin, leading to methemoglobinemia. Patients with G6PD deficiency, anemia, or respiratory compromise are particularly vulnerable and should not receive prilocaine or large doses of topical benzocaine that carry similar risks."
   },
   {
-    "id": 332,
-    "topicId": "anesthesia",
-    "difficulty": "hard",
-    "question": "A 65-year-old male with severe liver cirrhosis (Child-Pugh Class C) requires extraction of tooth #30. He is a high-risk patient due to his compromised hepatic function. Which local anesthetic would be LEAST indicated due to his medical condition?",
-    "options": [
-      "Articaine",
-      "Prilocaine",
-      "Bupivacaine",
-      "Lidocaine"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Lidocaine, prilocaine, and bupivacaine are amide-type local anesthetics, which are primarily metabolized in the liver. Patients with severe liver cirrhosis have impaired hepatic function, increasing the risk of systemic toxicity if these agents are used. Articaine, while an amide, uniquely possesses an ester side chain that allows for significant metabolism by plasma pseudocholinesterase, resulting in a much shorter plasma half-life and making it generally safer for patients with compromised liver function."
-  },
-  {
     "id": 333,
     "topicId": "anesthesia",
     "difficulty": "hard",
@@ -4352,20 +3708,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "The maximum recommended dose for this child is 4.4 mg/kg * 20 kg = 88 mg of lidocaine. Each 1.8 mL cartridge of 2% lidocaine contains 36 mg of lidocaine (1.8 mL * 20 mg/mL). Dividing the maximum allowable dose by the amount per cartridge (88 mg / 36 mg/cartridge) yields approximately 2.44 cartridges. Therefore, to remain within safe limits, a maximum of 2 cartridges should be administered."
-  },
-  {
-    "id": 337,
-    "topicId": "anesthesia",
-    "difficulty": "hard",
-    "question": "A patient reports persistent numbness and altered sensation in the distribution of the lingual nerve six months after an inferior alveolar nerve block with articaine. What is the MOST likely cause of this paresthesia?",
-    "options": [
-      "Direct nerve trauma from the needle.",
-      "Systemic allergic reaction to the anesthetic.",
-      "Direct neurotoxicity from the articaine solution.",
-      "Hematoma formation compressing the nerve."
-    ],
-    "correctAnswer": 0,
-    "explanation": "Persistent paresthesia following an inferior alveolar nerve block, particularly involving the lingual nerve, is most commonly attributed to direct nerve trauma from the needle during injection. While local anesthetic solutions can have neurotoxic properties, direct mechanical trauma is considered a more frequent cause of long-term nerve injury. Hematoma formation typically resolves and causes different symptoms, and a systemic allergic reaction would present acutely with different manifestations."
   },
   {
     "id": 338,
@@ -4438,20 +3780,6 @@
     "explanation": "Severe sharp pain followed by immediate partial facial muscle weakness on the injected side strongly suggests an inadvertent injection of local anesthetic into or near the parotid gland, leading to transient anesthesia of the facial nerve (VII). The facial nerve traverses the parotid gland, making it susceptible to such an occurrence during an IA block. Other options would present with different symptoms."
   },
   {
-    "id": 343,
-    "topicId": "anesthesia",
-    "difficulty": "hard",
-    "question": "A 70-year-old patient with a history of cardiovascular disease is taking a non-selective beta-blocker (e.g., propranolol) for hypertension. Which statement regarding the use of epinephrine in local anesthetics for this patient is CORRECT?",
-    "options": [
-      "The patient will experience exaggerated vasoconstriction and reflex bradycardia.",
-      "Epinephrine should be avoided completely due to the high risk of hypertensive crisis.",
-      "A limited dose of 1:100,000 epinephrine (e.g., 2 cartridges) is generally safe, but blood pressure should be monitored.",
-      "Epinephrine's effects will be completely blunted by the beta-blocker, making it ineffective."
-    ],
-    "correctAnswer": 0,
-    "explanation": "When a patient is taking a non-selective beta-blocker, the beta-2 receptor-mediated vasodilatory effects of epinephrine are blocked, while the alpha-1 receptor-mediated vasoconstrictive effects remain unopposed. This can lead to an exaggerated increase in blood pressure and reflex bradycardia, thus requiring extreme caution and monitoring. Epinephrine's effects are not completely blunted, and complete avoidance is not always necessary for limited doses, but risk is elevated."
-  },
-  {
     "id": 344,
     "topicId": "anesthesia",
     "difficulty": "hard",
@@ -4520,20 +3848,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Prilocaine, especially when administered in high doses (above 600 mg) or in individuals with predisposing factors such as genetic deficiencies (e.g., G6PD deficiency), is the local anesthetic agent most likely to cause methemoglobinemia. This condition occurs when the ferrous iron in hemoglobin is oxidized to the ferric state, reducing the blood's oxygen-carrying capacity. The other listed amide anesthetics are less associated with this adverse effect."
-  },
-  {
-    "id": 349,
-    "topicId": "anesthesia",
-    "difficulty": "hard",
-    "question": "A patient reports persistent pain during a procedure on tooth #30 despite receiving an apparently successful inferior alveolar nerve block (lip numbness present). What is the MOST common reason for continued pulpal pain in this situation?",
-    "options": [
-      "Anesthetic solution deposited too far superiorly.",
-      "Resistance of the patient to local anesthetics.",
-      "Inadequate pulpal anesthesia due to inflammation.",
-      "Accessory innervation from the mylohyoid nerve."
-    ],
-    "correctAnswer": 3,
-    "explanation": "Even with successful lip numbness indicating an effective inferior alveolar nerve block, persistent pulpal pain during procedures on mandibular molars (like #30) is most commonly attributed to accessory innervation, particularly from the mylohyoid nerve. The mylohyoid nerve branches off the inferior alveolar nerve before it enters the mandibular foramen and may provide sensory innervation to the mandibular molars, often requiring a separate supplemental infiltration or block for complete pulpal anesthesia. While inflammation can make anesthesia more challenging, accessory innervation is a more common reason for a seemingly effective block failing to anesthetize the pulp."
   },
   {
     "id": 350,
@@ -4787,19 +4101,6 @@
     "explanation": "Informed consent must be obtained from the patient directly if they are deemed capable of making their own healthcare decisions, regardless of age or mild cognitive impairment. The family physician's assessment of capability is paramount, and the daughter's insistence does not supersede the patient's autonomy. Allowing the daughter to sign or postponing treatment would violate the patient's right to self-determination. While involving family in discussions can be helpful, the legal and ethical requirement is for the capable patient's consent."
   },
   {
-    "id": 822196696,
-    "topicId": "anesthesia",
-    "question": "Which of the following anatomical structures is consistently encountered and must be considered during the administration of a successful inferior alveolar nerve block?",
-    "options": [
-      "Pterygomandibular raphe",
-      "Retromolar pad",
-      "Lingula",
-      "Mental foramen"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The lingula is a prominent bony projection located on the medial aspect of the mandibular ramus, which guards the mandibular foramen through which the inferior alveolar nerve enters. It is a key anatomical landmark that must be identified or approximated for the successful deposition of local anesthetic during an inferior alveolar nerve block. The pterygomandibular raphe and retromolar pad are superficial landmarks used for needle insertion point, while the mental foramen is located anteriorly and anesthetized for a different block."
-  },
-  {
     "id": 267677288,
     "topicId": "anesthesia",
     "question": "Which of the following methods of sterilization is MOST appropriate for heat-sensitive dental instruments that cannot withstand high temperatures or steam?",
@@ -4904,19 +4205,6 @@
     "explanation": "A root fragment displaced into the submandibular space requires careful retrieval by an oral and maxillofacial surgeon due to the anatomical complexity and potential for complications. Attempting immediate retrieval blindly or leaving it in situ without retrieval carries significant risks, including infection or damage to vital structures. Prophylactic antibiotics alone are not a definitive solution."
   },
   {
-    "id": 298548822,
-    "topicId": "anesthesia",
-    "question": "A 7-year-old female patient presents with a cavitated carious lesion on the occlusal surface of tooth #74. The tooth is asymptomatic, and radiographs show the lesion extending into the outer half of the dentin. The patient has no relevant medical history and is cooperative. What is the MOST appropriate restorative material for this primary molar?",
-    "options": [
-      "Amalgam restoration",
-      "Stainless steel crown (SSC)",
-      "Composite resin restoration",
-      "Glass ionomer cement (GIC) restoration"
-    ],
-    "correctAnswer": 1,
-    "explanation": "For primary molars with extensive occlusal caries, a stainless steel crown (SSC) is often the most durable and predictable restorative option due to its full coronal coverage. Amalgam and composite restorations are suitable for smaller lesions but provide less protection against fracture for extensive decay. GIC is generally less durable than an SSC for this type of lesion."
-  },
-  {
     "id": 109759890,
     "topicId": "anesthesia",
     "question": "Which of the following sterilization methods is MOST appropriate for heat-sensitive dental instruments that cannot withstand high temperatures?",
@@ -4928,32 +4216,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "Ethylene oxide sterilization is a low-temperature method suitable for heat-sensitive instruments as it relies on chemical alkylation to kill microorganisms. Autoclave, dry heat, and chemical vapor sterilization all use high temperatures, which would damage heat-sensitive materials."
-  },
-  {
-    "id": 623169638,
-    "topicId": "anesthesia",
-    "question": "A 55-year-old female patient presents with a chronic, non-healing ulcer on the lateral border of her tongue that has been present for three months. She is a long-term smoker and occasional alcohol consumer. The ulcer appears indurated with raised borders and does not respond to topical corticosteroids. What is the MOST appropriate next step in management?",
-    "options": [
-      "Prescribe a course of systemic antibiotics.",
-      "Advise cessation of smoking and re-evaluate in two weeks.",
-      "Perform an excisional biopsy of the lesion.",
-      "Apply a topical antifungal agent."
-    ],
-    "correctAnswer": 2,
-    "explanation": "A chronic, non-healing, indurated ulcer with raised borders in a patient with risk factors like smoking and alcohol is highly suspicious for squamous cell carcinoma. The MOST appropriate next step is an excisional biopsy to obtain a definitive diagnosis. Prescribing antibiotics or antifungals without a diagnosis is inappropriate, and delaying diagnosis by re-evaluation would be irresponsible."
-  },
-  {
-    "id": 338162163,
-    "topicId": "anesthesia",
-    "question": "A 72-year-old male patient presents with complaints of his maxillary complete denture feeling loose and causing soreness in multiple areas. He has been wearing the same denture for 10 years. Clinical examination reveals generalized resorption of the alveolar ridge, ill-fitting denture bases, and hyperplastic tissue in the palate. What is the MOST appropriate management strategy?",
-    "options": [
-      "Fabricate new complete maxillary and mandibular dentures.",
-      "Adjust the existing denture at the sore spots.",
-      "Perform a hard reline of the existing denture.",
-      "Prescribe a tissue conditioner and re-evaluate in one month."
-    ],
-    "correctAnswer": 0,
-    "explanation": "Given the generalized alveolar ridge resorption, ill-fitting bases, and a 10-year-old denture, simply adjusting or relining the existing denture is unlikely to provide a long-term solution or proper fit. The most appropriate management is to fabricate new complete dentures to achieve optimal fit, function, and esthetics, as significant tissue changes have occurred over a decade. A tissue conditioner is temporary and used to prepare tissues for impressions, not a definitive solution."
   },
   {
     "id": 727282833,
@@ -5084,19 +4346,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "A diffuse, white, non-scrapable, corrugated lesion on the buccal mucosa in a heavy smoker is highly suspicious for leukoplakia, a potentially malignant lesion. Oral candidiasis would typically be scrapable, lichen planus has a characteristic lacy pattern (Wickham's striae), and a chemical burn would likely be painful and acute."
-  },
-  {
-    "id": 98126761,
-    "topicId": "anesthesia",
-    "question": "An 8-year-old child presents to the dental office after falling and hitting his front teeth. Clinically, tooth #11 is displaced palatally and slightly extruded, but is not mobile. The tooth is vital and responds positively to pulp testing. Radiographs show no root fracture or alveolar bone fracture. What is the MOST appropriate immediate management?",
-    "options": [
-      "Extract the tooth due to luxation.",
-      "Initiate root canal treatment immediately.",
-      "Splint the tooth with a rigid wire for 4 weeks.",
-      "Reposition the tooth gently and splint with a flexible wire for 2 weeks."
-    ],
-    "correctAnswer": 3,
-    "explanation": "The description of palatal displacement and slight extrusion without mobility, with positive vitality, indicates lateral luxation. The most appropriate immediate management is gentle manual repositioning of the tooth back into its original position, followed by stabilization with a flexible splint for approximately two weeks. Extraction is not indicated for a vital, luxated tooth, and a rigid splint can impair healing. Root canal treatment is not immediately indicated as the pulp is vital."
   },
   {
     "id": 704779700,
@@ -5359,19 +4608,6 @@
     "explanation": "Metronidazole is known to significantly potentiate the anticoagulant effect of warfarin by inhibiting its metabolism, which can lead to an increased INR and a higher risk of bleeding. Penicillin V and clindamycin have minimal to no clinically significant interactions with warfarin. While azithromycin can have some interaction, it is generally less potent and less consistently documented than the interaction with metronidazole."
   },
   {
-    "id": 74237598,
-    "topicId": "anesthesia",
-    "question": "A 60-year-old male patient presents with a chief complaint of difficulty chewing and speaking due to ill-fitting mandibular complete denture. He reports that his denture often dislodges during meals and conversation. Clinically, there is significant residual ridge resorption in the posterior mandible. What is the MOST appropriate management?",
-    "options": [
-      "Fabricate new conventional complete dentures with proper extension and occlusion.",
-      "Recommend relining the existing denture to improve fit and retention.",
-      "Prescribe a strong denture adhesive to secure the denture.",
-      "Advise the patient to avoid hard-to-chew foods."
-    ],
-    "correctAnswer": 0,
-    "explanation": "New conventional complete dentures are indicated for patients with significant residual ridge resorption and functional problems, as relining may not adequately address the underlying issues of stability and retention. While adhesives offer temporary retention and dietary changes can ease discomfort, they do not resolve the fundamental problem of an ill-fitting denture due to anatomical changes."
-  },
-  {
     "id": 949721722,
     "topicId": "anesthesia",
     "question": "A 45-year-old female patient, who is a heavy smoker, presents with a white, corrugated lesion on her buccal mucosa that does not wipe off. She reports no pain. Her medical history is non-contributory. What is the MOST appropriate next step?",
@@ -5409,19 +4645,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "Generalized gingival inflammation, bleeding on probing, and localized papilla enlargement during pregnancy, even with good oral hygiene, are characteristic signs of pregnancy-associated gingivitis due to hormonal changes. Chronic periodontitis involves attachment loss, ANUG presents with severe pain, ulceration, and necrosis, and hormonal contraceptive-induced gingivitis is not applicable in the third trimester of pregnancy."
-  },
-  {
-    "id": 719277676,
-    "topicId": "anesthesia",
-    "question": "A 58-year-old male patient, with a history of hypertension well-controlled with a diuretic, presents for the extraction of a non-restorable tooth #46. He reports no allergies. What is the MOST appropriate local anesthetic agent to use?",
-    "options": [
-      "4% Articaine with 1:100,000 epinephrine.",
-      "2% Lidocaine with 1:50,000 epinephrine.",
-      "3% Mepivacaine without vasoconstrictor.",
-      "0.5% Bupivacaine with 1:200,000 epinephrine."
-    ],
-    "correctAnswer": 0,
-    "explanation": "4% Articaine with 1:100,000 epinephrine provides excellent anesthesia and hemostasis for extractions, and the minimal epinephrine is generally safe for patients with well-controlled hypertension. 2% Lidocaine with 1:50,000 epinephrine contains a higher concentration of epinephrine than typically necessary for routine extraction, and 3% Mepivacaine without vasoconstrictor offers less profound and shorter-duration anesthesia, which may be insufficient for an extraction. Bupivacaine is used for prolonged post-operative pain control, not primary surgical anesthesia."
   },
   {
     "id": 128055394,
@@ -5762,19 +4985,6 @@
     "explanation": "Acetaminophen is the most appropriate initial analgesic for a patient with severe asthma, as NSAIDs like ibuprofen and naproxen can exacerbate asthma in susceptible individuals. While codeine with acetaminophen could be considered, acetaminophen alone is generally sufficient for initial management of moderate pain and has fewer side effects. NSAIDs are typically contraindicated or used with extreme caution in patients with aspirin-exacerbated respiratory disease (AERD) or severe asthma."
   },
   {
-    "id": 674142890,
-    "topicId": "anesthesia",
-    "question": "A 7-year-old male patient presents for a recall examination. His parents express concern about his anterior teeth alignment. Clinical examination reveals a unilateral posterior crossbite involving tooth #24 and #34, with a functional shift of the mandible to the right upon closing. The child is in the mixed dentition stage. What is the MOST appropriate initial management?",
-    "options": [
-      "Wait for eruption of permanent dentition",
-      "Refer to an oral surgeon for extraction",
-      "Immediate orthodontic consultation for interceptive treatment",
-      "Begin active orthodontic treatment with fixed appliances"
-    ],
-    "correctAnswer": 2,
-    "explanation": "A unilateral posterior crossbite with a functional shift in the mixed dentition should be corrected early as it can lead to asymmetric growth of the jaws and temporomandibular joint dysfunction. Therefore, immediate orthodontic consultation for interceptive treatment is the most appropriate initial management. Waiting for permanent dentition to erupt will likely worsen the skeletal discrepancy. Extraction is not indicated, and active comprehensive orthodontic treatment with fixed appliances is typically done later, after eruption of most permanent teeth, following interceptive treatment if needed."
-  },
-  {
     "id": 436524792,
     "topicId": "anesthesia",
     "question": "A 50-year-old female patient undergoes a routine panoramic radiograph prior to restorative treatment. The radiograph reveals a well-defined, unilocular radiolucency with a sclerotic border in the posterior mandible, inferior to the apex of tooth #47. The tooth tests vital, and there are no clinical signs or symptoms associated with this finding. What is the MOST probable diagnosis?",
@@ -5929,19 +5139,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "The symptoms of sharp pain on biting, percussion sensitivity, and normal pulp vitality tests are highly indicative of cracked tooth syndrome, especially in a tooth with a deep restoration. Irreversible pulpitis typically involves spontaneous pain and prolonged sensitivity. Reversible pulpitis would present as sharp, transient pain to cold but usually without pain on biting or percussion sensitivity. An acute periapical abscess would involve severe pain, swelling, and radiographic evidence of periapical radiolucency."
-  },
-  {
-    "id": 722002341,
-    "topicId": "anesthesia",
-    "question": "According to Canadian dental ethical guidelines, which of the following situations BEST exemplifies the ethical principle of 'Non-maleficence'?",
-    "options": [
-      "Obtaining informed consent from a patient before any procedure.",
-      "Referring a complex surgical case to a specialist.",
-      "Ensuring all patient records are kept confidential.",
-      "Providing emergency dental care to an unconscious patient."
-    ],
-    "correctAnswer": 1,
-    "explanation": "Non-maleficence is the principle of 'do no harm'. Referring a complex surgical case to a specialist when the general practitioner lacks the specific expertise best exemplifies this, as it prevents potential harm from undertaking a procedure beyond one's capabilities. Obtaining informed consent relates to autonomy, confidentiality to privacy, and providing emergency care to beneficence."
   },
   {
     "id": 564297893,
@@ -6152,19 +5349,6 @@
     "explanation": "For minor oral surgical procedures like single tooth extractions, in patients with stable INR between 2.0-3.0, current Canadian guidelines recommend *not* discontinuing or altering warfarin. Instead, local hemostatic measures should be employed. Discontinuing or reducing warfarin significantly increases the risk of a thromboembolic event, which is far more dangerous than the bleeding risk from a single extraction in this INR range. Replacing warfarin with heparin is generally reserved for patients at very high risk of thromboembolism requiring more extensive surgery."
   },
   {
-    "id": 944059710,
-    "topicId": "anesthesia",
-    "question": "According to Canadian dental infection control guidelines, what is the MOST effective method for monitoring the sterilization process of heat-sensitive critical instruments in a dental office?",
-    "options": [
-      "Use of a chemical indicator strip in each sterilization pouch.",
-      "Regular cleaning of the sterilizer chamber.",
-      "Daily use of biological indicators (spore tests).",
-      "Recording temperature and pressure readings for each cycle."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Biological indicators (spore tests) are the most reliable method for monitoring sterilization effectiveness as they directly assess the kill of resistant microorganisms, ensuring the sterilizer is functioning correctly. Chemical indicators only indicate exposure to certain parameters (e.g., heat, steam) but do not confirm sterility. Cleaning the chamber is part of maintenance, not monitoring effectiveness. Recording temperature and pressure indicates machine function, but not necessarily biological kill."
-  },
-  {
     "id": 491412110,
     "topicId": "anesthesia",
     "question": "A 35-year-old female patient presents for a routine check-up. She reports occasional bleeding gums during brushing. Clinical examination reveals generalized gingival inflammation, redness, swelling, and bleeding on probing, with no signs of clinical attachment loss or radiographic bone loss. Her probing depths are consistently 2-3 mm. What is the MOST appropriate diagnosis?",
@@ -6204,19 +5388,6 @@
     "explanation": "The zygomatic process of the maxilla is a dense bony structure that often superimposes over the apices of maxillary molars on a panoramic radiograph, creating a radiopaque shadow that can be misinterpreted as periapical pathology. The mental foramen is in the mandible. The mandibular canal is also in the mandible. The nasopalatine canal is typically located anteriorly in the maxilla, between the central incisors, and is not usually superimposed over posterior teeth."
   },
   {
-    "id": 107010739,
-    "topicId": "anesthesia",
-    "question": "A 55-year-old male patient, a heavy smoker for 30 years, presents with a well-demarcated, asymptomatic white lesion on his left buccal mucosa. The lesion appears flat and does not rub off. There is no associated pain or bleeding. What is the MOST appropriate initial step in the management of this lesion?",
-    "options": [
-      "Prescribe a topical antifungal medication.",
-      "Perform an incisional biopsy immediately.",
-      "Advise the patient to stop smoking and review in 2-3 weeks.",
-      "Prescribe a course of systemic antibiotics."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Given the patient's smoking history and the description of a non-tender, non-scrapable white lesion, the most appropriate initial step is to advise smoking cessation and re-evaluate the lesion in 2-3 weeks. Many benign lesions, such as hyperkeratosis or leukoplakia, can regress with the removal of the irritant. An immediate biopsy is indicated for suspicious lesions that do not resolve or have features suggestive of malignancy (e.g., induration, ulceration, erythroplakia component). Antifungals are for candidiasis, which typically rubs off."
-  },
-  {
     "id": 605728559,
     "topicId": "anesthesia",
     "question": "A 72-year-old female patient presents complaining that her existing complete maxillary denture feels loose and causes sore spots. She has been wearing the denture for 10 years. Clinical examination reveals generalized resorption of the alveolar ridge and flabby tissue in the anterior maxilla. What is the MOST appropriate long-term management strategy?",
@@ -6228,19 +5399,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "After 10 years of use and significant alveolar ridge resorption with flabby tissue, the existing denture likely no longer fits adequately, and its base may be compromised. Fabricating new complete dentures is the most appropriate long-term solution to restore proper fit, function, and esthetics. A chairside reline or adjustments are temporary measures and often insufficient for extensive resorption. A tissue conditioner can temporarily improve tissue health but does not address the underlying denture fit issue for the long term."
-  },
-  {
-    "id": 109127117,
-    "topicId": "anesthesia",
-    "question": "Which of the following properties of an ideal dental impression material is MOST critical for achieving an accurate master cast for fixed prosthodontics?",
-    "options": [
-      "Dimensional stability",
-      "Biocompatibility",
-      "High tear strength",
-      "Hydrophobicity"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Dimensional stability is the most critical property for fixed prosthodontics as it ensures that the impression material accurately maintains its shape and size from the mouth to the pouring of the master cast, preventing distortion. While high tear strength is important to prevent tearing upon removal, and biocompatibility is essential for patient safety, dimensional stability directly impacts the accuracy of the final restoration. Hydrophobicity can be a disadvantage in a moist oral environment; hydrophilic materials are often preferred."
   },
   {
     "id": 529435399,
@@ -6267,19 +5425,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "For patients with Sjögren's syndrome causing severe xerostomia and increased caries risk, regular use of fluoride varnish and artificial saliva substitutes are essential for managing symptoms and preventing further dental complications. Fluoride helps remineralize enamel and reduce caries. Artificial saliva provides symptomatic relief. Chlorhexidine mouthwash can be used for short periods but is not a long-term solution for xerostomia and can cause staining. Systemic corticosteroids are not indicated for routine xerostomia management."
-  },
-  {
-    "id": 122195801,
-    "topicId": "anesthesia",
-    "question": "According to Canadian dental ethical principles, which of the following scenarios best exemplifies the principle of \"Beneficence\"?",
-    "options": [
-      "A dentist informs a patient of all treatment options, risks, and benefits before gaining consent.",
-      "A dentist ensures patient confidentiality by not discussing their case with unauthorized personnel.",
-      "A dentist treats all patients equally regardless of their socio-economic status.",
-      "A dentist refers a patient to a specialist when the case is beyond their scope of expertise."
-    ],
-    "correctAnswer": 3,
-    "explanation": "Beneficence involves taking action to benefit the patient and promoting their well-being. Referring a patient to a specialist when it's in their best interest aligns with acting to benefit the patient. Informing a patient and gaining consent relates to autonomy. Ensuring confidentiality relates to fidelity. Treating all patients equally aligns with justice."
   },
   {
     "id": 557281690,
@@ -6399,45 +5544,6 @@
     "explanation": "A mucocele characteristically presents as a soft, bluish, dome-shaped swelling that often fluctuates in size due to minor salivary gland duct rupture and mucin extravasation, fitting the clinical description perfectly. A fibroma is typically firm, sessile, and does not fluctuate, while glandular cheilitis involves inflammation of the labial minor salivary glands and typically affects the lower lip diffusely. An aphthous ulcer is a painful, shallow ulcer with an erythematous halo, which is not consistent with the described lesion."
   },
   {
-    "id": 558843357,
-    "topicId": "anesthesia",
-    "question": "A 55-year-old male patient presents with a chief complaint of difficulty chewing and a dull ache in his left posterior mandible. He has a history of poorly controlled Type 2 Diabetes Mellitus (HbA1c 8.5%) and reports recent weight loss. Intraoral examination reveals severe generalized periodontitis, mobile teeth, and a radiolucency extending from the apex of tooth #36 to the mandibular canal. What is the MOST appropriate next step in management?",
-    "options": [
-      "Prescribe antibiotics and reschedule for root canal therapy",
-      "Order a Cone Beam Computed Tomography (CBCT) scan",
-      "Initiate immediate scaling and root planing",
-      "Refer for orthodontic consultation"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Given the patient's history of poorly controlled diabetes, recent weight loss, severe periodontitis, and an extensive radiolucency approaching the mandibular canal, a more thorough diagnostic evaluation beyond a conventional periapical radiograph is warranted. A CBCT scan would provide 3D imaging crucial for accurate diagnosis and treatment planning for such a complex case, especially considering potential osteomyelitis or a large periapical cyst in a compromised patient. Prescribing antibiotics without a definitive diagnosis or drainage is often insufficient, and immediate scaling and root planing might be premature without understanding the full scope of the pathology. Orthodontic consultation is irrelevant at this stage."
-  },
-  {
-    "id": 254379682,
-    "topicId": "anesthesia",
-    "question": "In Canada, according to the NDEB Code of Ethics, which of the following principles emphasizes the dentist's responsibility to protect and promote the health of the public?",
-    "options": [
-      "Beneficence",
-      "Non-maleficence",
-      "Social responsibility",
-      "Autonomy"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Social responsibility, as outlined in the NDEB Code of Ethics, specifically encompasses the dentist's commitment to the broader community, including public health initiatives and upholding the integrity of the profession. While beneficence relates to doing good for the individual patient and non-maleficence to avoiding harm, social responsibility extends this commitment to the population level. Autonomy refers to the patient's right to make informed decisions about their own care."
-  },
-  {
-    "id": 222412820,
-    "topicId": "anesthesia",
-    "question": "A 7-year-old female patient presents with a chief complaint from her parents about a rapidly growing, painless swelling on the buccal gingiva adjacent to the erupting permanent mandibular first molar (#36). Clinically, there is a soft, bluish-purple, dome-shaped swelling overlying the erupting tooth, approximately 1 cm in diameter. The patient reports no pain or difficulty eating. What is the MOST appropriate management?",
-    "options": [
-      "Surgical excision of the lesion",
-      "Incision and drainage",
-      "Observation and reassurance",
-      "Prescribe systemic antibiotics"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The description of a soft, bluish-purple, dome-shaped swelling over an erupting tooth in a 7-year-old is characteristic of an eruption cyst (or eruption hematoma). These lesions are generally benign and often rupture spontaneously as the tooth erupts, requiring no active treatment beyond observation and reassurance. Surgical excision or incision and drainage are rarely indicated unless there is significant pain, infection, or interference with mastication, which are not present here. Systemic antibiotics are not indicated as there are no signs of infection."
-  },
-  {
     "id": 421419867,
     "topicId": "anesthesia",
     "question": "A 48-year-old male patient presents with acute, severe, throbbing pain in his mandibular right first molar (#46). The pain is spontaneous, persistent, and exacerbated by hot and cold stimuli, lingering for several minutes after the stimulus is removed. Radiographically, a deep carious lesion approximating the pulp chamber is observed. What is the MOST appropriate pulpal diagnosis?",
@@ -6449,19 +5555,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "Symptomatic irreversible pulpitis is characterized by spontaneous pain, lingering pain to thermal stimuli, and a deep carious lesion approximating the pulp, matching the patient's symptoms. Reversible pulpitis would involve sharp, transient pain that subsides quickly upon removal of the stimulus. Pulp necrosis would typically present with a lack of pulp vitality response or a dull ache from periapical inflammation, not lingering pain to thermal stimuli. Asymptomatic apical periodontitis refers to periapical inflammation without symptoms, which is inconsistent with acute, severe pain."
-  },
-  {
-    "id": 453221541,
-    "topicId": "anesthesia",
-    "question": "A 68-year-old female patient presents with a chief complaint of a loose mandibular complete denture that \"falls out\" when she talks or eats. She has been wearing the denture for 15 years and reports significant weight loss in the past year. Intraoral examination reveals severely resorbed mandibular alveolar ridges, particularly in the anterior region. What is the MOST appropriate initial management strategy?",
-    "options": [
-      "Fabricate a new set of complete dentures",
-      "Recommend implant-supported overdentures",
-      "Perform a chairside reline of the existing denture",
-      "Advise the patient to use more denture adhesive"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Given the patient's significant ridge resorption and long-term denture use, a chairside reline is often the most appropriate initial step to improve adaptation and retention by adding material to the intaglio surface of the existing denture. This is a conservative and cost-effective approach to address the changes in the residual ridge contour. While new dentures or implant-supported overdentures might be definitive long-term solutions, a reline can provide immediate improvement and help assess the patient's adaptability before more extensive treatment. Advising more adhesive is a temporary measure and does not address the underlying fit issue."
   },
   {
     "id": 603277702,
@@ -6566,19 +5659,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "For a complicated crown fracture in a permanent tooth with an exposed pulp and a fully formed root, a partial pulpotomy (Cvek pulpotomy) is the most appropriate immediate treatment. This procedure involves removing only a superficial portion of the inflamed pulp, leaving vital pulp tissue, and aims to preserve pulp vitality. Direct pulp capping is generally for smaller, pinpoint exposures without significant inflammation. Pulpectomy is indicated if the entire pulp is irreversibly inflamed or necrotic. Extraction is a last resort and not indicated for a vital, restorable tooth."
-  },
-  {
-    "id": 933315272,
-    "topicId": "anesthesia",
-    "question": "A 72-year-old female patient presents with a chief complaint of a metallic taste in her mouth and dry mouth. She has a history of Sjögren's syndrome, for which she takes pilocarpine. Intraoral examination reveals diffuse redness and atrophy of the dorsal surface of the tongue, with a smooth, shiny appearance. There are no other visible lesions. What is the MOST likely cause of her tongue findings?",
-    "options": [
-      "Geographic tongue",
-      "Median rhomboid glossitis",
-      "Atrophic glossitis due to anemia",
-      "Oral lichen planus"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The diffuse redness, atrophy, and smooth, shiny appearance of the dorsal tongue, especially in a patient with Sjögren's syndrome (which causes severe xerostomia), are classic signs of atrophic glossitis, often associated with nutritional deficiencies like iron deficiency anemia or B vitamin deficiencies. Geographic tongue presents with migratory erythematous patches bordered by white lines. Median rhomboid glossitis is a well-demarcated erythematous patch on the midline dorsum of the tongue. Oral lichen planus presents with Wickham's striae, erosions, or plaques, not typically diffuse atrophy."
   },
   {
     "id": 824519198,
@@ -6709,19 +5789,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "The patient's systemic symptoms (fever, malaise) and localized swelling with pus indicate a spreading odontogenic infection (cellulitis). The MOST appropriate immediate management is to initiate systemic antibiotic therapy to control the infection and establish drainage to relieve pressure and remove purulent exudate. Delaying treatment with only analgesics is inappropriate for a spreading infection. Immediate extraction without antibiotic coverage in the presence of acute infection can spread the infection. While assessing the succedaneous tooth is important, it is not the immediate priority for an acute infection."
-  },
-  {
-    "id": 352874375,
-    "topicId": "anesthesia",
-    "question": "A 75-year-old female patient presents to your dental office complaining that her mandibular complete denture feels very loose and causes recurrent sore spots, particularly in the posterior regions. She reports that the denture is 10 years old. Clinical examination reveals significant alveolar ridge resorption in the posterior mandible and a lack of retention and stability with her current denture. The denture flanges appear to be slightly overextended in certain areas. What is the MOST appropriate long-term management option?",
-    "options": [
-      "Recommend the use of denture adhesive for improved retention.",
-      "Perform a chairside hard reline of the existing denture.",
-      "Fabricate new complete mandibular and maxillary dentures.",
-      "Adjust the existing denture flanges and instruct on oral hygiene."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Given the significant alveolar ridge resorption and the age of the denture (10 years), fabricating new complete dentures is the MOST appropriate long-term solution. A chairside hard reline might provide temporary improvement but cannot fully compensate for extensive ridge resorption and material degradation over a decade. Denture adhesive offers only palliative relief and does not address the underlying issues of ill-fitting dentures, while adjusting flanges might help with overextensions but won't address the primary issue of severe bone loss and poor fit."
   },
   {
     "id": 653204083,
