@@ -12,7 +12,7 @@ const MIN_CLINICAL_PCT = 0.65; // Strict: 65% must be clinical scenarios
 
 const manifestPath = path.resolve('public/questions/manifest.json');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
-const HOT_TOPICS = ['pharmacology', 'oral-pathology', 'prosthodontics', 'operative-dentistry', 'anatomy'];
+const HOT_TOPICS = ['pharmacology', 'oral-pathology', 'prosthodontics', 'operative-dentistry', 'anatomy', 'anesthesia'];
 const topicsToFill = manifest.filter(t => HOT_TOPICS.includes(t.id) && t.count < 1000).map(t => ({
   id: t.id,
   promptTopic: t.name
