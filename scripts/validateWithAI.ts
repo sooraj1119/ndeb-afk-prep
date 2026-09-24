@@ -22,32 +22,38 @@ const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 const responseSchema = {
   type: Type.OBJECT,
   properties: {
-    isValid: {
+    isMedicallyCorrect: {
       type: Type.BOOLEAN,
-      description: "True if the explanation correctly justifies the designated correctIndex. False if the explanation supports a different option."
+      description: "True if the designated correct option is indeed the medically accurate answer, AND the explanation is factually correct."
     },
-    correctIndex: {
+    medicallyCorrectIndex: {
       type: Type.INTEGER,
-      description: "The actual correct index (0, 1, 2, or 3) that the explanation supports."
+      description: "The index (0, 1, 2, or 3) of the option that is actually medically correct based on standard dental science."
+    },
+    correctedExplanation: {
+      type: Type.STRING,
+      description: "If isMedicallyCorrect is false, provide a fully corrected, medically accurate explanation justifying the medicallyCorrectIndex."
     }
   },
-  required: ["isValid", "correctIndex"]
+  required: ["isMedicallyCorrect", "medicallyCorrectIndex"]
 };
 
-async function verifyQuestion(q: any): Promise<{isValid: boolean, correctIndex: number}> {
+async function verifyQuestion(q: any): Promise<{isMedicallyCorrect: boolean, medicallyCorrectIndex: number, correctedExplanation?: string}> {
   const prompt = `
-You are a strict dental board exam auditor. Read this multiple-choice question and explanation.
+You are a strict dental board examiner (NDEB). Read this multiple-choice question, the options, and the explanation.
 Question: ${q.question}
 Option 0: ${q.options[0]}
 Option 1: ${q.options[1]}
 Option 2: ${q.options[2]}
 Option 3: ${q.options[3]}
-Explanation: ${q.explanation}
+Current Explanation: ${q.explanation}
 
-The designated correct index in the database is currently: ${q.correctAnswer}
+The designated correct index in the database is currently: ${q.correctAnswer} (which corresponds to Option ${q.correctAnswer}).
 
-Does the explanation actually support Option ${q.correctAnswer}? 
-If the explanation clearly states that a different option is correct, set isValid to false and provide the actual correctIndex based on the explanation.
+Task:
+1. Determine the actual medically correct answer to the question using standard dental knowledge.
+2. If the designated correctAnswer is WRONG, or if the Current Explanation contains medical errors/contradictions, set isMedicallyCorrect to false.
+3. If isMedicallyCorrect is false, provide the actual medicallyCorrectIndex, and rewrite the explanation completely in correctedExplanation to be medically accurate.
 `;
 
   const response = await ai.models.generateContent({
@@ -56,16 +62,16 @@ If the explanation clearly states that a different option is correct, set isVali
     config: {
       responseMimeType: "application/json",
       responseSchema: responseSchema,
-      temperature: 0.0 // Strict logic
+      temperature: 0.0
     }
   });
 
-  const text = response.text();
+  const text = response.text; // Fixed from response.text()
   return JSON.parse(text);
 }
 
 async function runValidator() {
-  console.log("Starting AI Validation Script...");
+  console.log("Starting Strict Medical AI Validation Script...");
   
   for (const file of files) {
     const filePath = path.join(questionsDir, file);
@@ -81,17 +87,19 @@ async function runValidator() {
     let checkedInFile = 0;
     
     for (const q of questions) {
-      if (q.aiVerified) continue; // Skip already verified
+      if (q.aiVerified) continue;
 
       let retries = 3;
       while (retries > 0) {
         try {
           const result = await verifyQuestion(q);
           
-          if (!result.isValid && result.correctIndex !== q.correctAnswer) {
-             console.log(`\n[FIXED - ${file}] ID ${q.id} | Was: ${q.correctAnswer}, AI says: ${result.correctIndex}`);
-             console.log(`Explanation: ${q.explanation}`);
-             q.correctAnswer = result.correctIndex;
+          if (!result.isMedicallyCorrect) {
+             console.log(`\n[MEDICAL FIX - ${file}] ID ${q.id} | Was: ${q.correctAnswer}, AI says: ${result.medicallyCorrectIndex}`);
+             q.correctAnswer = result.medicallyCorrectIndex;
+             if (result.correctedExplanation) {
+                 q.explanation = result.correctedExplanation;
+             }
           }
           
           q.aiVerified = true;
@@ -99,7 +107,7 @@ async function runValidator() {
           checkedInFile++;
           
           if (checkedInFile % 5 === 0) {
-              console.log(`Verified ${checkedInFile} questions in ${file}...`);
+              console.log(`Deep medically verified ${checkedInFile} questions in ${file}...`);
           }
           
           break; // Success, exit retry loop
@@ -111,18 +119,17 @@ async function runValidator() {
           } else {
             console.error(`Error verifying question ${q.id}:`, error.message);
             retries--;
-            await sleep(5000); // Wait a bit on normal error
+            await sleep(5000);
           }
         }
       }
       
-      // Save after every single question to ensure progress is never lost if stopped
       if (fileModified) {
         fs.writeFileSync(filePath, JSON.stringify(questions, null, 2));
       }
     }
   }
-  console.log("All questions have been verified!");
+  console.log("All questions have been medically verified!");
 }
 
 runValidator();
