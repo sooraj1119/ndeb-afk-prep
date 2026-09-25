@@ -28,7 +28,7 @@ export const loadAllQuestions = async (): Promise<void> => {
 };
 
 export const getTotalQuestionCount = (): number => {
-  if (!manifestCache) return 11683;
+  if (!manifestCache) return 13931;
   return manifestCache.reduce((acc, t) => acc + (t.count || 0), 0);
 };
 
