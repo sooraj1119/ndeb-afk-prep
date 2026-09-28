@@ -3,6 +3,10 @@ import { App as CapacitorApp } from '@capacitor/app';
 import splashImg from './assets/splash.jpg';
 
 import { TopicSelection } from './TopicSelection';
+import { AuthModal } from './AuthModal';
+import { useAuth } from './AuthContext';
+import { LogOut, LogIn } from 'lucide-react';
+import { auth } from './lib/firebase';
 
 import { Quiz } from './Quiz';
 
@@ -65,6 +69,8 @@ function App() {
   
   const isPremium = getIsPremium();
   const [showPaywall, setShowPaywall] = useState(false);
+  const [showAuth, setShowAuth] = useState(false);
+  const { user, loading } = useAuth();
   const [questionsLoaded, setQuestionsLoaded] = useState(true);
 
   const [activeTab, setActiveTab] = useState<'practice' | 'dashboard' | 'search'>('practice');
