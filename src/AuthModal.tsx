@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { auth, googleProvider } from './lib/firebase';
-import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
+import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
 import { X, Mail, Lock, Globe, Loader2 } from 'lucide-react';
 import { getTotalQuestionCount } from './lib/questionsStore';
 
@@ -16,6 +16,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, message }
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [successMsg, setSuccessMsg] = useState('');
 
   if (!isOpen) return null;
 
@@ -36,11 +37,24 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, message }
     e.preventDefault();
     try {
       setError('');
+      setSuccessMsg('');
       setLoading(true);
       if (isLogin) {
-        await signInWithEmailAndPassword(auth, email, password);
+        const userCred = await signInWithEmailAndPassword(auth, email, password);
+        if (!userCred.user.emailVerified) {
+          await auth.signOut();
+          setError('Please verify your email address before logging in. Check your inbox.');
+          setLoading(false);
+          return;
+        }
       } else {
-        await createUserWithEmailAndPassword(auth, email, password);
+        const userCred = await createUserWithEmailAndPassword(auth, email, password);
+        await sendEmailVerification(userCred.user);
+        await auth.signOut();
+        setSuccessMsg('Account created! Please check your email to verify your account.');
+        setIsLogin(true);
+        setLoading(false);
+        return;
       }
       onClose();
     } catch (err: any) {
@@ -74,6 +88,11 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, message }
           {error && (
             <div className="mb-6 p-3 rounded-lg bg-red-500/10 border border-red-500/20 text-red-400 text-sm text-center">
               {error}
+            </div>
+          )}
+          {successMsg && (
+            <div className="mb-6 p-3 rounded-lg bg-green-500/10 border border-green-500/20 text-green-400 text-sm text-center">
+              {successMsg}
             </div>
           )}
 
@@ -133,6 +152,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, message }
               onClick={() => {
                 setIsLogin(!isLogin);
                 setError('');
+                setSuccessMsg('');
               }}
               className="text-sm text-gray-400 hover:text-white transition-colors"
             >
