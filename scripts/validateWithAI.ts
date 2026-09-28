@@ -1,135 +1,142 @@
-import fs from 'fs';
-import { GoogleGenAI, Type } from '@google/genai';
+﻿import fs from 'fs';
+import Groq from 'groq-sdk';
 import dotenv from 'dotenv';
 import path from 'path';
 
 dotenv.config({ path: '.env.local' });
-const apiKey = process.env.VITE_GEMINI_API_KEY;
 
-if (!apiKey) {
-  console.error("No API key found in .env.local!");
-  process.exit(1);
+const apiKeys = [
+  process.env.VITE_GROQ_API_KEY,
+  process.env.VITE_GROQ_API_KEY_2,
+  process.env.VITE_GROQ_API_KEY_3,
+  process.env.VITE_GROQ_API_KEY_4,
+].filter(Boolean) as string[];
+
+if (apiKeys.length === 0) { console.error("No Groq API keys found!"); process.exit(1); }
+console.log(`Loaded ${apiKeys.length} API key(s). Rotation enabled.\n`);
+
+let currentKeyIndex = 0;
+let exhaustedKeys = new Set<number>();
+
+function getClient(): Groq {
+  return new Groq({ apiKey: apiKeys[currentKeyIndex] });
 }
 
-const ai = new GoogleGenAI({ apiKey });
+function rotateKey(): boolean {
+  exhaustedKeys.add(currentKeyIndex);
+  for (let i = 0; i < apiKeys.length; i++) {
+    if (!exhaustedKeys.has(i)) {
+      currentKeyIndex = i;
+      console.log(`\n  [KEY ROTATION] Switched to key ${i + 1} of ${apiKeys.length}`);
+      return true;
+    }
+  }
+  return false;
+}
 
-const manifestPath = path.resolve('public/questions/manifest.json');
 const questionsDir = path.resolve('public/questions');
+const flaggedPath = path.resolve('scratch/flagged_questions.json');
 const files = fs.readdirSync(questionsDir).filter(f => f.endsWith('.json') && f !== 'manifest.json');
-
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
-const responseSchema = {
-  type: Type.OBJECT,
-  properties: {
-    isMedicallyCorrect: {
-      type: Type.BOOLEAN,
-      description: "True if the designated correct option is indeed the medically accurate answer, AND the explanation is factually correct."
-    },
-    medicallyCorrectIndex: {
-      type: Type.INTEGER,
-      description: "The index (0, 1, 2, or 3) of the option that is actually medically correct based on standard dental science."
-    },
-    correctedExplanation: {
-      type: Type.STRING,
-      description: "If isMedicallyCorrect is false, provide a fully corrected, medically accurate explanation justifying the medicallyCorrectIndex."
-    }
-  },
-  required: ["isMedicallyCorrect", "medicallyCorrectIndex"]
-};
+let flagged: any[] = fs.existsSync(flaggedPath) ? JSON.parse(fs.readFileSync(flaggedPath, 'utf8')) : [];
 
-async function verifyQuestion(q: any): Promise<{isMedicallyCorrect: boolean, medicallyCorrectIndex: number, correctedExplanation?: string}> {
-  const prompt = `
-You are a strict dental board examiner (NDEB). Read this multiple-choice question, the options, and the explanation.
-Question: ${q.question}
-Option 0: ${q.options[0]}
-Option 1: ${q.options[1]}
-Option 2: ${q.options[2]}
-Option 3: ${q.options[3]}
-Current Explanation: ${q.explanation}
+async function verifyBatch(batch: any[]): Promise<{ id: string; isCorrect: boolean }[]> {
+  const prompt = `You are an NDEB dental board examiner. For each question, determine if the designated correct answer index is medically accurate.
 
-The designated correct index in the database is currently: ${q.correctAnswer} (which corresponds to Option ${q.correctAnswer}).
+Return ONLY a valid JSON array, no markdown, no explanation:
+[{"id":"<id>","isCorrect":true},{"id":"<id>","isCorrect":false}]
 
-Task:
-1. Determine the actual medically correct answer to the question using standard dental knowledge.
-2. If the designated correctAnswer is WRONG, or if the Current Explanation contains medical errors/contradictions, set isMedicallyCorrect to false.
-3. If isMedicallyCorrect is false, provide the actual medicallyCorrectIndex, and rewrite the explanation completely in correctedExplanation to be medically accurate.
-`;
+${batch.map(q => `ID: ${q.id}
+Q: ${q.question}
+0: ${q.options[0]}
+1: ${q.options[1]}
+2: ${q.options[2]}
+3: ${q.options[3]}
+Correct Index: ${q.correctAnswer}
+---`).join('\n')}`;
 
-  const response = await ai.models.generateContent({
-    model: 'gemini-2.5-flash',
-    contents: prompt,
-    config: {
-      responseMimeType: "application/json",
-      responseSchema: responseSchema,
-      temperature: 0.0
-    }
+  const response = await getClient().chat.completions.create({
+    model: 'qwen/qwen3.8-27b',
+    messages: [{ role: 'user', content: prompt }],
+    temperature: 0.0,
+    max_tokens: 512,
   });
 
-  const text = response.text; // Fixed from response.text()
-  return JSON.parse(text);
+  const text = response.choices[0]?.message?.content || '[]';
+  const match = text.match(/\[[\s\S]*\]/);
+  if (!match) throw new Error('No JSON array in response: ' + text.substring(0, 200));
+  return JSON.parse(match[0]);
 }
 
-async function runValidator() {
-  console.log("Starting Strict Medical AI Validation Script...");
-  
+async function run() {
+  console.log("Starting Groq 4-Key Rotating AI Audit (10 per batch, 1s pacing)...\n");
+  const BATCH_SIZE = 10;
+  let totalVerified = 0;
+  let totalFlagged = 0;
+
   for (const file of files) {
     const filePath = path.join(questionsDir, file);
-    const rawData = fs.readFileSync(filePath, 'utf8');
-    let questions;
-    try {
-      questions = JSON.parse(rawData);
-    } catch (e) {
-      continue;
-    }
+    let questions: any[];
+    try { questions = JSON.parse(fs.readFileSync(filePath, 'utf8')); }
+    catch (e) { continue; }
 
-    let fileModified = false;
-    let checkedInFile = 0;
-    
-    for (const q of questions) {
-      if (q.aiVerified) continue;
+    const unverified = questions.filter(q => !q.aiVerified);
+    if (unverified.length === 0) { console.log(`[${file}] All verified. Skipping.`); continue; }
+    console.log(`\n[${file}] Checking ${unverified.length} questions...`);
 
-      let retries = 3;
-      while (retries > 0) {
+    for (let i = 0; i < unverified.length; i += BATCH_SIZE) {
+      const batch = unverified.slice(i, i + BATCH_SIZE);
+      let success = false;
+
+      while (!success) {
         try {
-          const result = await verifyQuestion(q);
-          
-          if (!result.isMedicallyCorrect) {
-             console.log(`\n[MEDICAL FIX - ${file}] ID ${q.id} | Was: ${q.correctAnswer}, AI says: ${result.medicallyCorrectIndex}`);
-             q.correctAnswer = result.medicallyCorrectIndex;
-             if (result.correctedExplanation) {
-                 q.explanation = result.correctedExplanation;
-             }
+          const results = await verifyBatch(batch);
+
+          for (const res of results) {
+            const q = questions.find(item => String(item.id) === String(res.id));
+            if (!q) continue;
+            q.aiVerified = true;
+            if (!res.isCorrect) {
+              totalFlagged++;
+              flagged.push({ file, id: q.id, question: q.question, correctAnswer: q.correctAnswer, options: q.options });
+              console.log(`\n  FLAGGED [${file}] ID ${q.id}`);
+            }
           }
-          
-          q.aiVerified = true;
-          fileModified = true;
-          checkedInFile++;
-          
-          if (checkedInFile % 5 === 0) {
-              console.log(`Deep medically verified ${checkedInFile} questions in ${file}...`);
-          }
-          
-          break; // Success, exit retry loop
-          
+
+          fs.writeFileSync(filePath, JSON.stringify(questions, null, 2));
+          fs.writeFileSync(flaggedPath, JSON.stringify(flagged, null, 2));
+          totalVerified += batch.length;
+          process.stdout.write(`\r  Progress: ${totalVerified} verified, ${totalFlagged} flagged | Key ${currentKeyIndex + 1}/${apiKeys.length}`);
+
+          await sleep(1000);
+          success = true;
+
         } catch (error: any) {
-          if (error.status === 429 || error.message?.includes('429')) {
-            console.log("\n[Rate Limit] Waiting 90 seconds before resuming...");
-            await sleep(90000);
+          const msg = error?.message || '';
+          const isDaily = msg.includes('tokens per day') || msg.includes('TPD');
+          const isMinute = msg.includes('per minute') || msg.includes('OTPM');
+
+          if (isDaily) {
+            console.log(`\n  [KEY ${currentKeyIndex + 1}] Daily limit hit.`);
+            const rotated = rotateKey();
+            if (!rotated) {
+              console.log('\n  All keys exhausted for today. Stopping. Run again tomorrow.');
+              process.exit(0);
+            }
+          } else if (isMinute) {
+            console.log(`\n  [RATE] Per-minute limit. Waiting 15s...`);
+            await sleep(15000);
           } else {
-            console.error(`Error verifying question ${q.id}:`, error.message);
-            retries--;
-            await sleep(5000);
+            console.log(`\n  [ERROR] ${error.status || ''}: ${msg.substring(0, 120)} - Waiting 10s...`);
+            await sleep(10000);
           }
         }
       }
-      
-      if (fileModified) {
-        fs.writeFileSync(filePath, JSON.stringify(questions, null, 2));
-      }
     }
   }
-  console.log("All questions have been medically verified!");
+
+  console.log(`\n\nFull Audit Complete! ${totalVerified} verified, ${totalFlagged} flagged.`);
 }
 
-runValidator();
+run();
