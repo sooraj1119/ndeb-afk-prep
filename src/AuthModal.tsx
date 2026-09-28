@@ -51,7 +51,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, message }
   };
 
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
+    <div className="fixed inset-0 flex items-center justify-center p-4 backdrop-blur-sm" style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 9999, display: "flex", alignItems: "center", justifyContent: "center", padding: "1rem", backgroundColor: "rgba(0,0,0,0.6)" }}>
       <div className="relative w-full max-w-md bg-gray-900 border border-gray-700/50 rounded-3xl shadow-2xl overflow-hidden shadow-[0_0_50px_rgba(59,130,246,0.15)]">
         
         {/* Header Background Gradient */}
