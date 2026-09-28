@@ -3,10 +3,10 @@ import { App as CapacitorApp } from '@capacitor/app';
 import splashImg from './assets/splash.jpg';
 
 import { TopicSelection } from './TopicSelection';
-import { AuthModal } from './AuthModal';
-import { useAuth } from './AuthContext';
+
+
 import { LogOut, LogIn } from 'lucide-react';
-import { auth } from './lib/firebase';
+
 
 import { Quiz } from './Quiz';
 
@@ -69,8 +69,8 @@ function App() {
   
   const isPremium = getIsPremium();
   const [showPaywall, setShowPaywall] = useState(false);
-  const [showAuth, setShowAuth] = useState(false);
-  const { user, loading } = useAuth();
+  
+  
   const [questionsLoaded, setQuestionsLoaded] = useState(true);
 
   const [activeTab, setActiveTab] = useState<'practice' | 'dashboard' | 'search'>('practice');
@@ -704,22 +704,7 @@ function App() {
             )}
 
             <div id="google_translate_element" style={{ display: 'none' }}></div>
-            {!loading && user ? (
-              <button
-                onClick={() => auth.signOut()}
-                style={{ background: 'var(--surface-hover)', border: '1px solid var(--border-color)', color: 'var(--text-primary)', cursor: 'pointer', padding: '0.45rem', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center' }}
-                title="Sign Out"
-              >
-                <LogOut size={18} />
-              </button>
-            ) : (
-              <button
-                onClick={() => { console.log('Sign in clicked!'); setShowAuth(true); }}
-                style={{ background: 'var(--accent-color)', border: 'none', color: 'white', cursor: 'pointer', padding: '0.45rem 1rem', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', fontWeight: 600, fontSize: '0.85rem' }}
-              >
-                <LogIn size={18} style={{marginRight: '0.3rem'}} /> Sign In
-              </button>
-            )}
+            
 
             
 
@@ -1024,7 +1009,7 @@ function App() {
 
       </footer>
 
-          <AuthModal isOpen={showAuth} onClose={() => setShowAuth(false)} />
+          
     </div>
   );
 }

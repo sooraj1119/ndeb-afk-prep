@@ -27,9 +27,9 @@ import "./index.css"
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <ErrorBoundary>
-      <AuthProvider>
+      
         <App />
-      </AuthProvider>
+      
     </ErrorBoundary>
   </React.StrictMode>
 )
