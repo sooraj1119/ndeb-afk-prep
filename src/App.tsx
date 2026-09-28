@@ -704,6 +704,22 @@ function App() {
             )}
 
             <div id="google_translate_element" style={{ display: 'none' }}></div>
+            {!loading && user ? (
+              <button
+                onClick={() => auth.signOut()}
+                style={{ background: 'var(--surface-hover)', border: '1px solid var(--border-color)', color: 'var(--text-primary)', cursor: 'pointer', padding: '0.45rem', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center' }}
+                title="Sign Out"
+              >
+                <LogOut size={18} />
+              </button>
+            ) : (
+              <button
+                onClick={() => setShowAuth(true)}
+                style={{ background: 'var(--accent-color)', border: 'none', color: 'white', cursor: 'pointer', padding: '0.45rem 1rem', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', fontWeight: 600, fontSize: '0.85rem' }}
+              >
+                <LogIn size={18} style={{marginRight: '0.3rem'}} /> Sign In
+              </button>
+            )}
 
             
 
