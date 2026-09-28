@@ -714,7 +714,7 @@ function App() {
               </button>
             ) : (
               <button
-                onClick={() => setShowAuth(true)}
+                onClick={() => { console.log('Sign in clicked!'); setShowAuth(true); }}
                 style={{ background: 'var(--accent-color)', border: 'none', color: 'white', cursor: 'pointer', padding: '0.45rem 1rem', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', fontWeight: 600, fontSize: '0.85rem' }}
               >
                 <LogIn size={18} style={{marginRight: '0.3rem'}} /> Sign In
