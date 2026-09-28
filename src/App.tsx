@@ -1024,13 +1024,10 @@ function App() {
 
       </footer>
 
+          <AuthModal isOpen={showAuth} onClose={() => setShowAuth(false)} />
     </div>
-
   );
-
 }
-
-
 
 export default App;
 
