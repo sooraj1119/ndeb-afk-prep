@@ -1,3 +1,4 @@
+import { getTotalQuestionCount } from './lib/questionsStore';
 import React, { useState, useMemo, useEffect } from 'react';
 import { getQuestions, loadAllQuestions } from './lib/questionsStore';
 import { topics } from './lib/data';
@@ -220,7 +221,7 @@ export function Search() {
               Unlock {results.length - 5} more results
             </h3>
             <p style={{ color: 'var(--text-secondary)', margin: '0 0 1.5rem', fontSize: '0.95rem' }}>
-              Subscribe to Pro to search the entire 14,000 question databank instantly.
+              Subscribe to Pro to search the entire {getTotalQuestionCount().toLocaleString()} question databank instantly.
             </p>
             <button
               style={{

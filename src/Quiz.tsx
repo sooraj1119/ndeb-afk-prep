@@ -1,3 +1,4 @@
+import { getTotalQuestionCount } from './lib/questionsStore';
 import React, { useState, useEffect, useRef } from 'react';
 
 import { getQuestions, loadTopicQuestions, loadAllQuestions } from './lib/questionsStore';
@@ -907,7 +908,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
 
-      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="all 14,000 questions" />
+      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature={`all ${getTotalQuestionCount().toLocaleString()} questions`} />
       
 
     </div>
