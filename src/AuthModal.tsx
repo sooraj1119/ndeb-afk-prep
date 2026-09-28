@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { auth, googleProvider } from './lib/firebase';
 import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
-import { X, Mail, Lock, Chrome, Loader2 } from 'lucide-react';
+import { X, Mail, Lock, Globe, Loader2 } from 'lucide-react';
 import { getTotalQuestionCount } from './lib/questionsStore';
 
 interface AuthModalProps {
@@ -85,7 +85,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, message }
             disabled={loading}
             className="w-full flex items-center justify-center gap-3 bg-white text-gray-900 font-semibold py-3 px-4 rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed mb-6 shadow-md"
           >
-            {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <Chrome className="w-5 h-5 text-blue-500" />}
+            {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <Globe className="w-5 h-5 text-blue-500" />}
             Continue with Google
           </button>
 
