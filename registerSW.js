@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ndeb-afk-prep/sw.js', { scope: '/ndeb-afk-prep/' })})}
