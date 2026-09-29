@@ -159,7 +159,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                     disabled={purchasing !== null}
                     style={{
                       width: '100%',
-                      padding: '0.75rem 1rem',
+                      padding: '0.75rem 0.5rem',
                       background: 'var(--accent-color)',
                       color: 'white',
                       border: 'none',
@@ -177,8 +177,8 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                       } : {})
                     }}
                   >
-                    <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', flex: 1, textAlign: 'left', paddingRight: '0.75rem' }}>
-                      <span style={{ lineHeight: 1.2, marginBottom: '0.2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', flex: 1, textAlign: 'left', paddingRight: '0.25rem', minWidth: 0 }}>
+                      <span style={{ lineHeight: 1.2, marginBottom: '0.2rem', display: 'flex', alignItems: 'center', gap: '0.25rem', flexWrap: 'wrap' }}>
                         {pkg.product.title}
                         {pkg.product.title.toLowerCase().includes('annual') && (
                           <span style={{ fontSize: '0.65rem', background: '#fbbf24', color: '#854d0e', padding: '0.15rem 0.4rem', borderRadius: '4px', fontWeight: 800, textTransform: 'uppercase' }}>Best Value</span>
@@ -186,21 +186,21 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                       </span>
                       <span style={{ fontSize: '0.8rem', fontWeight: 400, opacity: 0.9, lineHeight: 1.2 }}>{pkg.product.title.toLowerCase().includes('annual') ? "Save 30% with an annual plan." : pkg.product.description}</span>
                     </span>
-                    <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right' }}>
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right' }}>
                       {pkg.product.title.toLowerCase().includes('monthly') ? (
                         <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', lineHeight: 1.1 }}>
-                          <span style={{ textDecoration: 'line-through', opacity: 0.7, fontSize: '0.75rem', color: '#e2e8f0' }}>$16.99 CAD</span>
-                          <span style={{ fontWeight: 800, fontSize: '1.1rem' }}>$9.99 CAD</span>
+                          <span style={{ textDecoration: 'line-through', opacity: 0.7, fontSize: '0.65rem', color: '#e2e8f0' }}>$16.99 CAD</span>
+                          <span style={{ fontWeight: 800, fontSize: '0.95rem' }}>$9.99 CAD</span>
                         </span>
                       ) : pkg.product.title.toLowerCase().includes('annual') ? (
                         <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', lineHeight: 1.1 }}>
-                          <span style={{ textDecoration: 'line-through', opacity: 0.7, fontSize: '0.75rem', color: '#e2e8f0' }}>$203.88 CAD</span>
-                          <span style={{ fontWeight: 800, fontSize: '1.1rem' }}>$142.99 CAD</span>
+                          <span style={{ textDecoration: 'line-through', opacity: 0.7, fontSize: '0.65rem', color: '#e2e8f0' }}>$203.88 CAD</span>
+                          <span style={{ fontWeight: 800, fontSize: '0.95rem' }}>$142.99 CAD</span>
                         </span>
                       ) : (
                         <span>{pkg.product.priceString}</span>
                       )}
-                      {purchasing === pkg.identifier ? <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 1, ease: 'linear' }}><Loader2 size={18} /></motion.div> : <Crown size={18} />}
+                      {purchasing === pkg.identifier ? <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 1, ease: 'linear' }}><Loader2 size={16} /></motion.div> : <Crown size={16} />}
                     </span>
                   </button>
                 ))}

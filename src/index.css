@@ -244,3 +244,19 @@ body {
   top: 0 !important;
 }
 
+/* Hide Google Translate top banner completely */
+.goog-te-banner-frame.skiptranslate, .goog-te-banner-frame {
+    display: none !important;
+}
+body {
+    top: 0px !important;
+}
+/* Hide the Google Translate tooltip hover boxes */
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+#goog-gt-tt, .goog-te-balloon-frame {
+    display: none !important;
+}
