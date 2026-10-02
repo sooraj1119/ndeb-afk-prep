@@ -43,7 +43,7 @@ export function Search() {
       const expMatch = q.explanation && q.explanation.toLowerCase().includes(lowerQuery);
       return qMatch || optMatch || expMatch;
     }).slice(0, 50); // Limit to 50 results to prevent massive rendering delays
-  }, [query]);
+  }, [query, questions]);
 
   const toggleExpand = (id: number) => {
     setExpandedId(expandedId === id ? null : id);

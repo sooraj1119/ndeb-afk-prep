@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 import { getTotalQuestionCount } from './lib/questionsStore';
 import React, { useState, useEffect, useRef } from 'react';
 
@@ -119,7 +120,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
       } else {
         if (window.speechSynthesis) window.speechSynthesis.cancel();
       }
-    } catch (e) { /* ignore */ }
+    } catch (e) { void e; }
   };
 const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 

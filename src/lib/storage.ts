@@ -215,7 +215,7 @@ export const getGamification = (): GamificationData => {
     if (str) {
       return JSON.parse(str);
     }
-  } catch (e) { /* ignore */ }
+  } catch (e) { void e; }
   
   return {
     currentStreak: 0,
@@ -294,7 +294,7 @@ export const setIsPremium = (status: boolean) => {
     localStorage.setItem(PREMIUM_KEY, status ? 'true' : 'false');
     // Dispatch an event so components can update instantly
     window.dispatchEvent(new Event('premium_status_changed'));
-  } catch (e) { /* ignore */ }
+  } catch (e) { void e; }
 };
 
 // --- History / Learning Curve ---
@@ -362,7 +362,7 @@ export const saveActiveMockExam = (data: ActiveMockExam) => {
 export const clearActiveMockExam = () => {
   try {
     localStorage.removeItem(MOCK_EXAM_KEY);
-  } catch (e) { /* ignore */ }
+  } catch (e) { void e; }
 };
 
 export const resetAllProgress = () => { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(FLAGS_KEY); localStorage.removeItem(SRS_KEY); localStorage.removeItem(GAMIFICATION_KEY); localStorage.removeItem(HISTORY_KEY); localStorage.removeItem(MOCK_EXAM_KEY); localStorage.removeItem(MISTAKES_KEY); localStorage.removeItem(EXAM_DATE_KEY); window.location.reload(); };
@@ -422,6 +422,6 @@ export const setExamDate = (timestamp: number | null): void => {
     } else {
       localStorage.setItem(EXAM_DATE_KEY, timestamp.toString());
     }
-  } catch (e) { /* ignore */ }
+  } catch (e) { void e; }
 };
 
