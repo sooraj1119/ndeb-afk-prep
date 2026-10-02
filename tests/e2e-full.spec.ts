@@ -5,6 +5,7 @@ test.describe('1. Medical Disclaimer Modal', () => {
     await page.goto('/');
     await page.evaluate(() => localStorage.clear());
     await page.reload();
+    await page.waitForLoadState('domcontentloaded');
   });
 
   test('1a. Modal is shown on first launch', async ({ page }) => {
@@ -116,12 +117,7 @@ test.describe('Main App E2E Tests', () => {
     // Navigate to Search tab first so the navbar is definitely visible
     await page.click('text=Search');
     await page.waitForTimeout(500);
-    // Execute a click using page.evaluate to bypass any overlay issues (like Google Translate)
-    await page.evaluate(() => {
-      const buttons = Array.from(document.querySelectorAll('nav button'));
-      const toggle = buttons.find(b => b.innerHTML.includes('lucide-moon') || b.innerHTML.includes('lucide-sun'));
-      if (toggle) (toggle as HTMLElement).click();
-    });
+    await page.click('[data-testid="dark-mode-toggle"]');
     
     const htmlClass = await page.locator('html').getAttribute('class');
     expect(htmlClass).toContain('dark');

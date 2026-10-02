@@ -722,7 +722,7 @@ function App() {
 
             </button>
 
-            <button
+            <button data-testid="dark-mode-toggle"
 
               onClick={() => setDarkMode(!darkMode)}
 
