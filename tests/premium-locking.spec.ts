@@ -12,7 +12,7 @@ test.describe('Premium Locking Mechanisms', () => {
       localStorage.setItem('ndeb_prep_disclaimer_accepted', 'true');
     });
     await page.reload();
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState('domcontentloaded');
     await page.waitForSelector('.topic-card', { timeout: 10000 });
 
     // 1. Anatomy (Premium) should have the PRO lock badge
@@ -51,7 +51,7 @@ test.describe('Premium Locking Mechanisms', () => {
     const ethicsCard = page.locator('.topic-card').filter({ hasText: 'Ethics' }).first();
     await expect(ethicsCard.locator('.lock-badge')).toHaveCount(0);
 
-    // 6. Clicking Ethics opens quiz — assert via QuizHeader h2
+    // 6. Clicking Ethics opens quiz ï¿½ assert via QuizHeader h2
     await ethicsCard.click({ force: true });
     await expect(page.locator('h2').filter({ hasText: 'Ethics' }).first()).toBeVisible({ timeout: 10000 });
   });
@@ -68,7 +68,7 @@ test.describe('Premium Locking Mechanisms', () => {
       localStorage.setItem('ndeb_prep_mistakes', JSON.stringify([{ id: 'oral-surgery-1', topicId: 'oral-surgery' }]));
     });
     await page.reload();
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState('domcontentloaded');
     await page.waitForSelector('.topic-card', { timeout: 10000 });
 
     // 1. Anatomy should NOT have lock badge for premium user
