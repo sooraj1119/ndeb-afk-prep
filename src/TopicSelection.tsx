@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { topics } from './lib/data';
 import { PlayCircle, Clock, Trophy, Flame, ChevronRight, Activity, CalendarDays, LibraryBig } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { getIsPremium } from './lib/storage';
+import { usePremiumStatus } from './lib/storage';
 import { PaywallModal } from './PaywallModal';
 import { Lock, Crown, Sparkles } from 'lucide-react';
 import { getTopicProgress, getDueSRSQuestions, getMistakes } from './lib/storage';
@@ -16,7 +16,7 @@ interface Props {
 
 export function TopicSelection({ onSelect }: Props) {
   const [showPaywall, setShowPaywall] = useState(false);
-  const isPremium = getIsPremium();
+  const isPremium = usePremiumStatus();
   const [topicCounts, setTopicCounts] = useState<Record<string, number>>({});
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [dueReviewCount, setDueReviewCount] = useState(0);
@@ -25,6 +25,7 @@ export function TopicSelection({ onSelect }: Props) {
   useEffect(() => {
     // Check how many questions are due for Spaced Repetition Review today
     const dueIds = getDueSRSQuestions();
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setDueReviewCount(dueIds.length);
     setMistakesCount(getMistakes().length);
   }, []);
@@ -267,6 +268,7 @@ export function TopicSelection({ onSelect }: Props) {
     </div>
   );
 }
+
 
 
 

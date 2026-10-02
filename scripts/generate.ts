@@ -13,7 +13,7 @@ if (!apiKey || apiKey === 'YOUR_API_KEY_HERE') {
 
 const ai = new GoogleGenAI({ apiKey });
 const questionsFile = path.resolve('src/lib/questions.json');
-let questions = JSON.parse(fs.readFileSync(questionsFile, 'utf8'));
+const questions = JSON.parse(fs.readFileSync(questionsFile, 'utf8'));
 
 // Helper to wait
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));

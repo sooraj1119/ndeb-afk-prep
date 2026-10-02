@@ -12,7 +12,7 @@ const files = fs.readdirSync(questionsDir).filter(f => f.endsWith('.json') && f 
 
 let totalChecked = 0;
 let autoFixed = 0;
-let flagged = [];
+const flagged = [];
 
 // Strong regex to find explicit declarations of the correct answer in the explanation
 const explicitPatterns = [

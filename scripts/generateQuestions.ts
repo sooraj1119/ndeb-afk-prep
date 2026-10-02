@@ -13,7 +13,7 @@ if (!apiKey || apiKey === 'YOUR_API_KEY_HERE') {
 
 const ai = new GoogleGenAI({ apiKey });
 const questionsFile = path.resolve('src/lib/questions.json');
-let questions = JSON.parse(fs.readFileSync(questionsFile, 'utf8'));
+const questions = JSON.parse(fs.readFileSync(questionsFile, 'utf8'));
 
 // The topics that need exactly 100 questions.
 // Note: Some topics already have > 0 but < 100 questions. We will calculate the diff.
@@ -90,7 +90,7 @@ Format for each object:
             }
           });
           
-          let text = response.text || "[]";
+          const text = response.text || "[]";
           let parsed: any[] = [];
           
           try {

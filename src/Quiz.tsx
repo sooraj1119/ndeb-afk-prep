@@ -11,7 +11,7 @@ import { ArrowLeft } from 'lucide-react';
 
 import { PaywallModal } from './PaywallModal';
 
-import { getTopicProgress, getIsPremium, saveProgress, getFlaggedQuestions, toggleFlagQuestion, logSRSAnswer, getDueSRSQuestions, logQuizAttempt, getActiveMockExam, saveActiveMockExam, clearActiveMockExam, getMistakes, logMistake, removeMistake, awardBadge, getGamification } from './lib/storage';
+import { getTopicProgress, usePremiumStatus, saveProgress, getFlaggedQuestions, toggleFlagQuestion, logSRSAnswer, getDueSRSQuestions, logQuizAttempt, getActiveMockExam, saveActiveMockExam, clearActiveMockExam, getMistakes, logMistake, removeMistake, awardBadge, getGamification } from './lib/storage';
 
 
 
@@ -91,6 +91,18 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
 
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
 
+  const handleFinish = () => {
+    if (!isSimulatedMode && !isMistakesMode && !isSRSMode) {
+        saveProgress(topicId, score, topicQuestions.length, 0, true, topicQuestions.length);
+    }
+    if (isSimulatedMode) {
+      clearActiveMockExam();
+    }
+    recordSessionAttempt(score, currentIndex + (selectedAnswer !== null ? 1 : 0));
+    onFinish(score, topicQuestions.length, breakdownRef.current);
+  };
+  const question = topicQuestions[currentIndex];
+
   const [isFlagged, setIsFlagged] = useState(false);
 
   const [initialized, setInitialized] = useState(false);
@@ -107,7 +119,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
       } else {
         if (window.speechSynthesis) window.speechSynthesis.cancel();
       }
-    } catch (e) {}
+    } catch (e) { /* ignore */ }
   };
 const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
@@ -116,7 +128,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
   const [showPaywall, setShowPaywall] = useState(false);
   
 
-  const isPremium = getIsPremium();
+  const isPremium = usePremiumStatus();
 
 
 
@@ -148,7 +160,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
       let qList = [];
 
-      const currentPremium = getIsPremium();
+      const currentPremium = isPremium;
 
 
 
@@ -185,7 +197,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
           await loadAllQuestions();
 
           let fullList = [...getQuestions()];
-          if (!getIsPremium()) {
+          if (!isPremium) {
             const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
             fullList = fullList.filter(q => !premiumIds.includes(q.topicId));
           }
@@ -227,20 +239,16 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
           if (!currentPremium) qList = qList.slice(0, 100);
         }
         
-        if (!isFlaggedMode && !isMistakesMode && !isSRSMode && !isSimulatedMode) {
+        if (!isSimulatedMode && !isMistakesMode && !isSRSMode) {
           const progress = getTopicProgress(topicId);
-
-        if (progress && !progress.isFinished) {
-
-          setCurrentIndex(progress.currentIndex);
-
-          setScore(progress.currentScore);
-
-          sessionStartRef.current = { index: progress.currentIndex, score: progress.currentScore };
-
+          if (progress && !progress.isFinished) {
+            let loadedIndex = progress.currentIndex;
+            if (loadedIndex >= qList.length) loadedIndex = Math.max(0, qList.length - 1);
+            setCurrentIndex(loadedIndex);
+            setScore(progress.currentScore);
+            sessionStartRef.current = { index: loadedIndex, score: progress.currentScore };
+          }
         }
-
-      }
 
       setTopicQuestions(qList);
 
@@ -364,9 +372,8 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
 
-    if (!isFlaggedMode && !isSimulatedMode && !isSRSMode && !isMistakesMode) {
-
-      saveProgress(topicId, newScore, topicQuestions.length, currentIndex, false, currentIndex + 1);
+    if (!isSimulatedMode && !isMistakesMode && !isSRSMode) {
+        saveProgress(topicId, newScore, topicQuestions.length, currentIndex, false, currentIndex + 1);
       checkAndAwardBadges(currentIndex + 1, newScore);
 
     }
@@ -409,8 +416,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
 
-      if (!isFlaggedMode && !isSimulatedMode && !isSRSMode && !isMistakesMode) {
-
+      if (!isSimulatedMode && !isMistakesMode && !isSRSMode) {
         saveProgress(topicId, score, topicQuestions.length, nextIdx, false, currentIndex + 1);
 
       }
@@ -433,25 +439,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
 
-  const handleFinish = () => {
-
-    if (!isFlaggedMode && !isSimulatedMode && !isSRSMode && !isMistakesMode) {
-
-      saveProgress(topicId, score, topicQuestions.length, 0, true, topicQuestions.length);
-
-    }
-
-    if (isSimulatedMode) {
-
-      clearActiveMockExam();
-
-    }
-
-    recordSessionAttempt(score, currentIndex + (selectedAnswer !== null ? 1 : 0));
-
-    onFinish(score, topicQuestions.length, breakdownRef.current);
-
-  };
+  
 
 
 
@@ -483,17 +471,28 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
     } else {
 
-      if (!isFlaggedMode && !isSimulatedMode && !isSRSMode) {
-
-         // Reset to original order
-
-         loadTopicQuestions(topicId).then(qList => {
-
-           if (!getIsPremium()) qList = qList.slice(0, 100);
-
-           setTopicQuestions(qList);
-
-         });
+      if (!isSimulatedMode) {
+          // Reset to original order
+          if (isFlaggedMode || isMistakesMode || isSRSMode) {
+            const allQs = getQuestions();
+            let qList = [];
+            if (isFlaggedMode) {
+              const flags = getFlaggedQuestions();
+              qList = allQs.filter(q => flags.includes(q.topicId + '-' + q.id));
+            } else if (isMistakesMode) {
+              const mistakes = getMistakes();
+              qList = allQs.filter(q => mistakes.includes(q.topicId + '-' + q.id));
+            } else if (isSRSMode) {
+              const dueIds = getDueSRSQuestions();
+              qList = allQs.filter(q => dueIds.includes(q.topicId + '-' + q.id));
+            }
+            setTopicQuestions(qList);
+          } else {
+            loadTopicQuestions(topicId).then(qList => {
+              if (!isPremium) qList = qList.slice(0, 100);
+              setTopicQuestions(qList);
+            });
+          }
 
       }
 
@@ -512,7 +511,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
     clearActiveMockExam();
 
     let fullList = [...getQuestions()];
-    if (!getIsPremium()) {
+    if (!isPremium) {
       const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
       fullList = fullList.filter(q => !premiumIds.includes(q.topicId));
     }
@@ -752,7 +751,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
   
 
-  const question = topicQuestions[currentIndex];
+
 
   const progressPercentage = (currentIndex + (selectedAnswer !== null ? 1 : 0)) / topicQuestions.length * 100;
 
@@ -916,6 +915,8 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
   );
 
 }
+
+
 
 
 

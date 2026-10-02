@@ -8,7 +8,7 @@ const apiKey = process.env.VITE_GEMINI_API_KEY;
 
 const ai = new GoogleGenAI({ apiKey });
 const questionsFile = path.resolve('public/questions/ethics.json');
-let questions = JSON.parse(fs.readFileSync(questionsFile, 'utf8'));
+const questions = JSON.parse(fs.readFileSync(questionsFile, 'utf8'));
 
 const targetCount = 500;
 const topicId = "ethics";
@@ -59,8 +59,8 @@ Format for each object:
           }
         });
         
-        let text = response.text || "[]";
-        let parsed = JSON.parse(text);
+        const text = response.text || "[]";
+        const parsed = JSON.parse(text);
         if (!Array.isArray(parsed) || parsed.length === 0) throw new Error("Invalid array");
         
         for (const q of parsed) {

@@ -135,8 +135,8 @@ async function run() {
             },
           });
 
-          let text = response.text || '[]';
-          let parsed: any[] = JSON.parse(text);
+          const text = response.text || '[]';
+          const parsed: any[] = JSON.parse(text);
           if (!Array.isArray(parsed) || parsed.length === 0) throw new Error('Invalid array returned');
 
           // Validate every question strictly

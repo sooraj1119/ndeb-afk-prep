@@ -76,7 +76,7 @@ async function run() {
     return;
   }
 
-  let flaggedQuestions = JSON.parse(fs.readFileSync(FLAGGED_FILE, 'utf8'));
+  const flaggedQuestions = JSON.parse(fs.readFileSync(FLAGGED_FILE, 'utf8'));
   console.log(`Found ${flaggedQuestions.length} flagged questions to fix.`);
 
   let fixedCount = 0;

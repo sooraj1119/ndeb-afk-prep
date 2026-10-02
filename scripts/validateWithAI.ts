@@ -16,7 +16,7 @@ if (apiKeys.length === 0) { console.error("No Groq API keys found!"); process.ex
 console.log(`Loaded ${apiKeys.length} API key(s). Rotation enabled.\n`);
 
 let currentKeyIndex = 0;
-let exhaustedKeys = new Set<number>();
+const exhaustedKeys = new Set<number>();
 
 function getClient(): Groq {
   return new Groq({ apiKey: apiKeys[currentKeyIndex] });
@@ -39,7 +39,7 @@ const flaggedPath = path.resolve('scratch/flagged_questions.json');
 const files = fs.readdirSync(questionsDir).filter(f => f.endsWith('.json') && f !== 'manifest.json');
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
-let flagged: any[] = fs.existsSync(flaggedPath) ? JSON.parse(fs.readFileSync(flaggedPath, 'utf8')) : [];
+const flagged: any[] = fs.existsSync(flaggedPath) ? JSON.parse(fs.readFileSync(flaggedPath, 'utf8')) : [];
 
 async function verifyBatch(batch: any[]): Promise<{ id: string; isCorrect: boolean }[]> {
   const prompt = `You are an NDEB dental board examiner. For each question, determine if the designated correct answer index is medically accurate.

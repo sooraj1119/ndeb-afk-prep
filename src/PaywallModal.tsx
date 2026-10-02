@@ -18,13 +18,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
   const [showPrivacy, setShowPrivacy] = useState(false);
   const [showTerms, setShowTerms] = useState(false);
 
-  useEffect(() => {
-    if (isOpen) {
-      loadOfferings();
-    }
-  }, [isOpen]);
-
-  const loadOfferings = async () => {
+  async function loadOfferings() {
     setLoading(true);
     const offerings = await getOfferings();
     if (offerings && offerings.current && offerings.current.availablePackages) {
@@ -32,6 +26,12 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
     }
     setLoading(false);
   };
+
+  useEffect(() => {
+    if (isOpen) {
+      loadOfferings();
+    }
+  }, [isOpen]);
 
   const handlePurchase = async (rcPackage: any) => {
     setPurchasing(rcPackage.identifier);
@@ -172,19 +172,19 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                       justifyContent: 'space-between',
                       transition: 'transform 0.2s, opacity 0.2s',
                       opacity: purchasing !== null && purchasing !== pkg.identifier ? 0.5 : 1,
-                      ...(pkg.product.title.toLowerCase().includes('annual') ? {
+                      ...(pkg.product.title.toLowerCase().includes('yearly') ? {
                         boxShadow: '0 0 0 2px var(--accent-color), 0 0 15px rgba(59, 130, 246, 0.5)'
                       } : {})
                     }}
                   >
                     <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', flex: 1, textAlign: 'left', paddingRight: '0.25rem', minWidth: 0 }}>
                       <span style={{ lineHeight: 1.2, marginBottom: '0.2rem', display: 'flex', alignItems: 'center', gap: '0.25rem', flexWrap: 'wrap' }}>
-                        {pkg.product.title}
-                        {pkg.product.title.toLowerCase().includes('annual') && (
+                        {pkg.product.title.replace(/\\(com\\.ndeb\\.afkprep \\(unreviewed\\)\\)/g, '').trim()}
+                        {pkg.product.title.toLowerCase().includes('yearly') && (
                           <span style={{ fontSize: '0.65rem', background: '#fbbf24', color: '#854d0e', padding: '0.15rem 0.4rem', borderRadius: '4px', fontWeight: 800, textTransform: 'uppercase' }}>Best Value</span>
                         )}
                       </span>
-                      <span style={{ fontSize: '0.8rem', fontWeight: 400, opacity: 0.9, lineHeight: 1.2 }}>{pkg.product.title.toLowerCase().includes('annual') ? "Save 30% with an annual plan." : pkg.product.description}</span>
+                      <span style={{ fontSize: '0.8rem', fontWeight: 400, opacity: 0.9, lineHeight: 1.2 }}>{pkg.product.title.toLowerCase().includes('yearly') ? "Save 30% with an annual plan." : pkg.product.description}</span>
                     </span>
                     <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right' }}>
                       {pkg.product.title.toLowerCase().includes('monthly') ? (
@@ -244,3 +244,4 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
     </AnimatePresence>
   );
 }
+

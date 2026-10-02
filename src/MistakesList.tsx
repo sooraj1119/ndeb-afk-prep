@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getMistakes, removeMistake, getIsPremium } from './lib/storage';
+import { getMistakes, removeMistake, usePremiumStatus } from './lib/storage';
 import { loadAllQuestions, getQuestions } from './lib/questionsStore';
 import { RefreshCw, Play, Trash2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -11,6 +11,7 @@ interface Props {
 }
 
 export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
+  const isPremium = usePremiumStatus();
   const [loading, setLoading] = useState(true);
   const [mistakes, setMistakes] = useState<any[]>([]);
 
@@ -21,7 +22,7 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
       const mistakeIds = getMistakes();
       const allQs = getQuestions();
       let mQs = allQs.filter(q => mistakeIds.includes(q.topicId + '-' + q.id));
-      if (!getIsPremium()) mQs = mQs.slice(0, 100);
+      if (!isPremium) mQs = mQs.slice(0, 100);
       setMistakes(mQs);
       setLoading(false);
     };
@@ -121,3 +122,4 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
     </motion.div>
   );
 }
+

@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 export interface TopicProgress {
   topicId: string;
   highestScore: number;
@@ -214,7 +215,7 @@ export const getGamification = (): GamificationData => {
     if (str) {
       return JSON.parse(str);
     }
-  } catch (e) {}
+  } catch (e) { /* ignore */ }
   
   return {
     currentStreak: 0,
@@ -270,6 +271,16 @@ export const awardBadge = (badgeId: string) => {
 // --- Premium State ---
 const PREMIUM_KEY = 'ndeb_prep_is_premium';
 
+export const usePremiumStatus = () => {
+  const [isPremium, setIsPremiumState] = useState(getIsPremium());
+  useEffect(() => {
+    const handleStatusChange = () => setIsPremiumState(getIsPremium());
+    window.addEventListener('premium_status_changed', handleStatusChange);
+    return () => window.removeEventListener('premium_status_changed', handleStatusChange);
+  }, []);
+  return isPremium;
+};
+
 export const getIsPremium = (): boolean => {
   try {
     return localStorage.getItem(PREMIUM_KEY) === 'true';
@@ -283,7 +294,7 @@ export const setIsPremium = (status: boolean) => {
     localStorage.setItem(PREMIUM_KEY, status ? 'true' : 'false');
     // Dispatch an event so components can update instantly
     window.dispatchEvent(new Event('premium_status_changed'));
-  } catch (error) {}
+  } catch (e) { /* ignore */ }
 };
 
 // --- History / Learning Curve ---
@@ -351,7 +362,7 @@ export const saveActiveMockExam = (data: ActiveMockExam) => {
 export const clearActiveMockExam = () => {
   try {
     localStorage.removeItem(MOCK_EXAM_KEY);
-  } catch (error) {}
+  } catch (e) { /* ignore */ }
 };
 
 export const resetAllProgress = () => { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(FLAGS_KEY); localStorage.removeItem(SRS_KEY); localStorage.removeItem(GAMIFICATION_KEY); localStorage.removeItem(HISTORY_KEY); localStorage.removeItem(MOCK_EXAM_KEY); localStorage.removeItem(MISTAKES_KEY); localStorage.removeItem(EXAM_DATE_KEY); window.location.reload(); };
@@ -385,7 +396,7 @@ export const logMistake = (questionId: any) => {
 
 export const removeMistake = (questionId: any) => {
   try {
-    let mistakes = getMistakes();
+    const mistakes = getMistakes();
     const updated = mistakes.filter(id => String(id) !== String(questionId));
     localStorage.setItem(MISTAKES_KEY, JSON.stringify(Array.from(new Set(updated))));
   } catch (e) { console.error('Failed to remove mistake:', e); }
@@ -411,5 +422,6 @@ export const setExamDate = (timestamp: number | null): void => {
     } else {
       localStorage.setItem(EXAM_DATE_KEY, timestamp.toString());
     }
-  } catch (error) {}
+  } catch (e) { /* ignore */ }
 };
+

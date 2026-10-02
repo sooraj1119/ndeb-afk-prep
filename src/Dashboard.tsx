@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getProgress, TopicProgress, getIsPremium, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt, awardBadge } from './lib/storage';
+import { getProgress, TopicProgress, usePremiumStatus, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt, awardBadge } from './lib/storage';
 import { topics } from './lib/data';
 import { getQuestions, getTotalQuestionCount } from './lib/questionsStore';
 import { motion } from 'framer-motion';
@@ -40,14 +40,14 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
   const [mistakesCount, setMistakesCount] = useState(0);
   const [history, setHistory] = useState<QuizAttempt[]>([]);
   const [showPaywall, setShowPaywall] = useState(false);
-  const isPremium = getIsPremium();
+  const isPremium = usePremiumStatus();
   
   const [examDate, setExamDateState] = useState<number | null>(null);
   const [isEditingDate, setIsEditingDate] = useState(false);
   const [tempDate, setTempDate] = useState("");
 
   useEffect(() => {
-    setProgress(getProgress());
+    const p = getProgress(); setProgress(p);
     setFlaggedCount(getFlaggedQuestions().length);
     setMistakesCount(getMistakes().length);
     setHistory(getHistory());
@@ -107,7 +107,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
   let daysLeft = 0;
   let dailyQuota = 0;
   if (examDate) {
-    const msLeft = examDate - Date.now();
+    const msLeft = examDate - (new Date().getTime());  
     daysLeft = Math.max(1, Math.ceil(msLeft / (1000 * 60 * 60 * 24)));
     const remainingQuestions = Math.max(0, totalBankQuestions - answeredSoFar);
     dailyQuota = Math.ceil(remainingQuestions / daysLeft);
@@ -510,6 +510,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
     </motion.div>
   );
 }
+
 
 
 

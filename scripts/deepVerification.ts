@@ -44,7 +44,7 @@ function calculateOverlap(optionText, explanationText) {
 }
 
 let totalChecked = 0;
-let flagged = [];
+const flagged = [];
 
 function escapeCSV(str) {
     if (str == null) return '""';

@@ -89,7 +89,7 @@ export const getOfferings = async () => {
 
 export const purchasePackage = async (rcPackage: any): Promise<boolean> => {
   if (Capacitor.getPlatform() === 'web') {
-    console.log("Simulating web purchase:", rcPackage);
+
     setIsPremium(true);
     return true;
   }
@@ -101,7 +101,7 @@ export const purchasePackage = async (rcPackage: any): Promise<boolean> => {
     return isPro;
   } catch (error: any) {
     if (error.code === 'USER_CANCELLED') {
-      console.log("User cancelled the purchase");
+
     } else {
       console.error("Purchase error:", error);
     }
@@ -111,7 +111,7 @@ export const purchasePackage = async (rcPackage: any): Promise<boolean> => {
 
 export const restorePurchases = async (): Promise<boolean> => {
   if (Capacitor.getPlatform() === 'web') {
-    console.log("Simulating restore on web.");
+
     setIsPremium(true);
     return true;
   }
@@ -126,6 +126,8 @@ export const restorePurchases = async (): Promise<boolean> => {
     return false;
   }
 };
+
+
 
 
 

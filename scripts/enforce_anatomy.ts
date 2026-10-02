@@ -113,10 +113,10 @@ async function runEnforcer() {
   const clinicalQuestions = data.filter((q: any) => q.isClinical);
   const theoryQuestions = data.filter((q: any) => !q.isClinical);
   const cCount = clinicalQuestions.length;
-  let tCount = theoryQuestions.length;
+  const tCount = theoryQuestions.length;
   const totalCount = data.length;
   
-  let ratio = cCount / totalCount;
+  const ratio = cCount / totalCount;
   console.log(`[${topic.id}] Classification complete. Clinical: ${cCount}, Theory: ${tCount} (Ratio: ${(ratio*100).toFixed(1)}%)`);
   
   if (ratio < 0.65) {

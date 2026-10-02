@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { topics } from './lib/data';
 import { Crown } from 'lucide-react';
-import { getIsPremium } from './lib/storage';
+import { usePremiumStatus } from './lib/storage';
 import { PaywallModal } from './PaywallModal';
 import { useState, useEffect } from 'react';
 
@@ -17,7 +17,7 @@ interface Props {
 }
 
 export function Results({ score, total, onRestart, breakdown }: Props) {
-  const isPremium = getIsPremium();
+  const isPremium = usePremiumStatus();
   const [showPaywall, setShowPaywall] = useState(false);
   useEffect(() => {
     if (!isPremium) {
@@ -136,3 +136,4 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
     </div>
   );
 }
+

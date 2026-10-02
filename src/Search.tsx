@@ -4,12 +4,12 @@ import { getQuestions, loadAllQuestions } from './lib/questionsStore';
 import { topics } from './lib/data';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search as SearchIcon, ChevronDown, ChevronUp, Sparkles, CheckCircle2, Loader2, Crown } from 'lucide-react';
-import { getIsPremium } from './lib/storage';
+import { usePremiumStatus } from './lib/storage';
 import { PaywallModal } from './PaywallModal';
 
 
 export function Search() {
-  const isPremium = getIsPremium();
+  const isPremium = usePremiumStatus();
   const [showPaywall, setShowPaywall] = useState(false);
   const [questions, setQuestions] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
@@ -20,7 +20,7 @@ export function Search() {
       setLoading(true);
       await loadAllQuestions();
       let allQs = getQuestions();
-      if (!getIsPremium()) {
+      if (!isPremium) {
         const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
         allQs = allQs.filter(q => !premiumIds.includes(q.topicId));
       }
@@ -30,27 +30,6 @@ export function Search() {
     init();
   }, []);
   const [expandedId, setExpandedId] = useState<number | null>(null);
-  const [generatingIds, setGeneratingIds] = useState<Record<number, boolean>>({});
-  const [generatedExplanations, setGeneratedExplanations] = useState<Record<number, string>>({});
-
-  const generateExplanation = async (q: any) => {
-    setGeneratingIds(prev => ({...prev, [q.id]: true}));
-    try {
-        const prompt = `You are an expert NDEB dental instructor. Generate a concise, 1-2 sentence explanation for why the correct answer to this question is "${q.options[q.correctAnswer]}". Question: "${q.question}". Options: ${q.options.join(', ')}. Respond with ONLY the explanation text.`;
-        
-        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${import.meta.env.VITE_GEMINI_API_KEY}`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
-        });
-        const data = await res.json();
-        setGeneratedExplanations(prev => ({...prev, [q.id]: data.candidates[0].content.parts[0].text}));
-    } catch (err) {
-        setGeneratedExplanations(prev => ({...prev, [q.id]: "Failed to generate AI explanation. Please check API key."}));
-    } finally {
-        setGeneratingIds(prev => ({...prev, [q.id]: false}));
-    }
-  };
 
   const results = useMemo(() => {
     if (!query.trim()) return [];
@@ -248,6 +227,7 @@ export function Search() {
     </motion.div>
   );
 }
+
 
 
 

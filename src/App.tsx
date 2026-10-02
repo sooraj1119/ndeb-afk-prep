@@ -22,7 +22,7 @@ import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, Shield
 import { AnimatePresence, motion } from 'framer-motion';
 
 import { initializeRevenueCat } from './lib/revenuecat';
-import { hasAcceptedDisclaimer, acceptDisclaimer, logDailyVisit, getIsPremium } from './lib/storage';
+import { hasAcceptedDisclaimer, acceptDisclaimer, logDailyVisit, usePremiumStatus } from './lib/storage';
 import { PaywallModal } from './PaywallModal';
 import { Lock } from 'lucide-react';
 
@@ -67,7 +67,7 @@ import { loadAllQuestions } from './lib/questionsStore';
 function App() {
 
   
-  const isPremium = getIsPremium();
+  const isPremium = usePremiumStatus();
   const [showPaywall, setShowPaywall] = useState(false);
   
   
@@ -176,11 +176,11 @@ function App() {
 
         if (choiceResult.outcome === 'accepted') {
 
-          console.log('User accepted the install prompt');
+
 
         } else {
 
-          console.log('User dismissed the install prompt');
+
 
         }
 
@@ -1015,6 +1015,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
