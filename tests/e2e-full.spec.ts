@@ -118,6 +118,7 @@ test.describe('Main App E2E Tests', () => {
     await page.click('text=Search');
     await page.waitForTimeout(500);
     await page.click('[data-testid="dark-mode-toggle"]');
+    await page.waitForFunction(() => document.documentElement.classList.contains('dark'), { timeout: 5000 });
     
     const htmlClass = await page.locator('html').getAttribute('class');
     expect(htmlClass).toContain('dark');

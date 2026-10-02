@@ -6,17 +6,17 @@ test.describe('NDEB AFK Prep E2E Tests', () => {
     await page.waitForLoadState('domcontentloaded');
     await page.evaluate(() => {
       localStorage.clear();
-      // Pre-accept disclaimer so tests dont have to deal with modal
+      // Pre-accept disclaimer so tests dont have to deal with the modal
       localStorage.setItem('ndeb_prep_disclaimer_accepted', 'true');
     });
     await page.reload();
     await page.waitForLoadState('domcontentloaded');
-    // Wait for topic grid to be visible (app ready)
+    // Wait for topic grid to be visible (app is fully ready)
     await page.waitForSelector('h3:has-text("Oral Surgery")', { timeout: 15000 });
   });
 
   test('User must accept disclaimer before accessing the app', async ({ page }) => {
-    // For this test, clear the pre-accepted flag and start fresh
+    // Clear the pre-accepted flag to test the disclaimer flow
     await page.evaluate(() => {
       localStorage.removeItem('ndeb_prep_disclaimer_accepted');
     });
@@ -28,44 +28,41 @@ test.describe('NDEB AFK Prep E2E Tests', () => {
   });
 
   test('Dark Mode toggle correctly updates the DOM and localStorage', async ({ page }) => {
-    // Disclaimer already accepted by beforeEach, click toggle directly
+    // Disclaimer pre-accepted, click toggle directly
     await page.click('[data-testid="dark-mode-toggle"]');
-    await page.waitForTimeout(300);
+    await page.waitForFunction(() => document.documentElement.classList.contains('dark'), { timeout: 5000 });
     const htmlClass = await page.locator('html').getAttribute('class');
     expect(htmlClass).toContain('dark');
   });
 
   test('User can navigate to Practice, select a topic, and answer a question', async ({ page }) => {
-    // Use force click to bypass any overlay/animation divs
+    // Force-click to bypass any framer-motion overlay
     await page.locator('h3', { hasText: 'Operative Dentistry' }).click({ force: true });
+    // Wait for quiz to load - look for question heading or option buttons
     await page.waitForTimeout(2000);
+    await page.waitForSelector('button:has(span[translate="no"])', { timeout: 15000 });
 
-    // Click an answer option via evaluate to bypass any intercepting elements
-    await page.evaluate(() => {
-      const buttons = Array.from(document.querySelectorAll('button'));
-      const options = buttons.filter(b => (b.textContent || '').length > 5 && !b.querySelector('svg'));
-      if (options.length > 0) (options[0] as HTMLElement).click();
-    });
+    // Click first answer option
+    await page.locator('button:has(span[translate="no"])').first().click();
 
     const progressText = page.locator('span').filter({ hasText: '/' }).first();
     await expect(progressText).toBeVisible({ timeout: 10000 });
   });
   
   test('User can flag a question and view it in Dashboard', async ({ page }) => {
-    // Use force click to bypass any overlay/animation divs
+    // Force-click to bypass any framer-motion overlay
     await page.locator('h3', { hasText: 'Operative Dentistry' }).click({ force: true });
+    // Wait for quiz to load
     await page.waitForTimeout(2000);
+    await page.waitForSelector('button:has-text("Flag")', { timeout: 15000 });
 
-    // Click flag button via evaluate to bypass any intercepting elements
-    await page.evaluate(() => {
-      const buttons = Array.from(document.querySelectorAll('button'));
-      const flagBtn = buttons.find(b => (b.textContent || '').includes('Flag'));
-      if (flagBtn) (flagBtn as HTMLElement).click();
-    });
-    
+    // Click the Flag button
+    await page.locator('button:has-text("Flag")').first().click({ force: true });
+
+    // Verify localStorage was updated
     await page.waitForFunction(() => {
       const flags = localStorage.getItem('ndeb_prep_flags');
-      return flags && JSON.parse(flags).length > 0;
+      try { return flags !== null && JSON.parse(flags).length > 0; } catch { return false; }
     }, { timeout: 10000 });
   });
 });
