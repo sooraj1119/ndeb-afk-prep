@@ -1,23 +1,23 @@
 /* eslint-disable no-empty */
 /* eslint-disable react-hooks/set-state-in-effect */
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { App as CapacitorApp } from '@capacitor/app';
 import splashImg from './assets/splash.jpg';
 
-import { TopicSelection } from './TopicSelection';
+const TopicSelection = React.lazy(() => import('./TopicSelection').then(m => ({ default: m.TopicSelection })));
 
 
 import { LogOut, LogIn } from 'lucide-react';
 
 
-import { Quiz } from './Quiz';
+const Quiz = React.lazy(() => import('./Quiz').then(m => ({ default: m.Quiz })));
 
-import { Results } from './Results';
+const Results = React.lazy(() => import('./Results').then(m => ({ default: m.Results })));
 
-import { Dashboard } from './Dashboard';
+const Dashboard = React.lazy(() => import('./Dashboard').then(m => ({ default: m.Dashboard })));
 
-import { Search as SearchComponent } from './Search';
-import { MistakesList } from './MistakesList';
+const SearchComponent = React.lazy(() => import('./Search').then(m => ({ default: m.Search })));
+const MistakesList = React.lazy(() => import('./MistakesList').then(m => ({ default: m.MistakesList })));
 
 import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, ShieldCheck, Moon, Sun, Flame, Download, Share, X, Globe } from 'lucide-react';
 
