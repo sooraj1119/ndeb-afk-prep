@@ -188,19 +188,29 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                       <span style={{ fontSize: '0.8rem', fontWeight: 400, opacity: 0.9, lineHeight: 1.2 }}>{pkg.product.title.toLowerCase().includes('yearly') ? "Save 30% with an annual plan." : pkg.product.description}</span>
                     </span>
                     <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', flexShrink: 0, whiteSpace: 'nowrap', textAlign: 'right' }}>
-                      {pkg.product.title.toLowerCase().includes('monthly') ? (
-                        <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', lineHeight: 1.1 }}>
-                          <span style={{ textDecoration: 'line-through', opacity: 0.7, fontSize: '0.65rem', color: '#e2e8f0' }}>$16.99 CAD</span>
-                          <span style={{ fontWeight: 800, fontSize: '0.95rem' }}>$9.99 CAD</span>
-                        </span>
-                      ) : pkg.product.title.toLowerCase().includes('annual') ? (
-                        <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', lineHeight: 1.1 }}>
-                          <span style={{ textDecoration: 'line-through', opacity: 0.7, fontSize: '0.65rem', color: '#e2e8f0' }}>$203.88 CAD</span>
-                          <span style={{ fontWeight: 800, fontSize: '0.95rem' }}>$142.99 CAD</span>
-                        </span>
-                      ) : (
-                        <span>{pkg.product.priceString}</span>
-                      )}
+                      {(() => {
+                          const isMonthly = pkg.product.title.toLowerCase().includes('monthly');
+                          const isYearly = pkg.product.title.toLowerCase().includes('annual') || pkg.product.title.toLowerCase().includes('yearly');
+                          
+                          if (isMonthly || isYearly) {
+                            let originalPrice = 0;
+                            if (isMonthly) {
+                              originalPrice = pkg.product.price * (16.99 / 9.99); // approximate the 16.99 original price
+                            } else {
+                              originalPrice = pkg.product.price / 0.7; // approximate the 30% discount
+                            }
+                            
+                            const originalPriceStr = new Intl.NumberFormat(undefined, { style: 'currency', currency: pkg.product.currencyCode }).format(originalPrice);
+                            
+                            return (
+                              <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', lineHeight: 1.1 }}>
+                                <span style={{ textDecoration: 'line-through', opacity: 0.7, fontSize: '0.65rem', color: '#e2e8f0' }}>{originalPriceStr}</span>
+                                <span style={{ fontWeight: 800, fontSize: '0.95rem' }}>{pkg.product.priceString}</span>
+                              </span>
+                            );
+                          }
+                          return <span style={{ fontWeight: 800, fontSize: '0.95rem' }}>{pkg.product.priceString}</span>;
+                        })()}
                       {purchasing === pkg.identifier ? <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 1, ease: 'linear' }}><Loader2 size={16} /></motion.div> : <Crown size={16} />}
                     </span>
                   </button>
