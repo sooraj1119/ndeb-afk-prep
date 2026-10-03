@@ -247,21 +247,18 @@ function App() {
     }
     
     setIsFrench(!isFrench);
-    // Instead of a full page reload which breaks Capacitor WebView state on some devices,
-    // we forcefully reload the Google Translate script dynamically.
-    const oldScript = document.getElementById('google-translate-script');
-    if (oldScript) oldScript.remove();
+    // Find the hidden Google Translate dropdown
+    const iframe = document.querySelector('iframe.goog-te-menu-frame');
+    const select = document.querySelector('.goog-te-combo') as HTMLSelectElement;
     
-    // Clear the google translate objects to force a fresh init
-    if ((window as any).google && (window as any).google.translate) {
-      delete (window as any).google.translate;
+    if (select) {
+      // If we are French, we want to go back to English
+      select.value = isFrench ? 'en' : 'fr';
+      select.dispatchEvent(new Event('change'));
+    } else {
+      // Fallback if the widget hasn't loaded yet or is missing
+      window.location.reload();
     }
-    
-    // Re-inject script
-    const script = document.createElement('script');
-    script.id = 'google-translate-script';
-    script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-    document.body.appendChild(script);
   };
 
 
