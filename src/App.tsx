@@ -105,7 +105,7 @@ function App() {
       if (showPaywall) { setShowPaywall(false); }
       else if (showDisclaimer) { /* do nothing */ }
       else if (quizFinished) { setQuizFinished(false); setSelectedTopic(null); }
-      else if (selectedTopic) { setSelectedTopic(null); }
+      else if (selectedTopic) { if (selectedTopic !== 'mistakes_list') { if (window.confirm('Are you sure you want to quit the quiz? Your progress will be lost.')) { setSelectedTopic(null); } } else { setSelectedTopic(null); } }
       else if (activeTab !== 'practice') { setActiveTab('practice'); }
       else { CapacitorApp.exitApp(); }
     });
@@ -252,6 +252,16 @@ function App() {
   };
 
 
+
+  const confirmNavigation = (onConfirm: () => void) => {
+    if (activeTab === 'practice' && selectedTopic && !quizFinished && selectedTopic !== 'mistakes_list') {
+      if (window.confirm('Are you sure you want to quit the current quiz? Your progress will be lost.')) {
+        onConfirm();
+      }
+    } else {
+      onConfirm();
+    }
+  };
 
   const resetState = () => {
 
@@ -462,7 +472,7 @@ function App() {
 
           {/* Logo */}
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', cursor: 'pointer', flexShrink: 0 }} onClick={() => { setActiveTab('practice'); resetState(); }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', cursor: 'pointer', flexShrink: 0 }} onClick={() => confirmNavigation(() => { setActiveTab('practice'); resetState(); })}>
 
             <img src="/icons/icon-192.webp" alt="NDEB AFK Prep Logo" style={{ width: '36px', height: '36px', borderRadius: '8px', objectFit: 'cover', boxShadow: 'var(--shadow-sm)' }} />
 
@@ -558,7 +568,7 @@ function App() {
 
               key={id}
 
-              onClick={() => { setActiveTab(id as any); resetState(); }}
+              onClick={() => confirmNavigation(() => { setActiveTab(id as any); resetState(); })}
 
               style={{
                   flex: 1,
