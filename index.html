@@ -1,18 +1,19 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/icons/icon-192.webp" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
     <link rel="manifest" href="/manifest.json" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#0284c7" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-touch-fullscreen" content="yes" />
     <title>NDEB AFK Prep Pro</title>
-  
+    <script>
+      if (localStorage.getItem('ndeb_theme') === 'dark' || (!localStorage.getItem('ndeb_theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
     <style>
       /* Nuclear Option for Google Translate Banner */
       iframe.skiptranslate,
@@ -62,9 +63,9 @@
         Node.prototype.insertBefore = function(newNode, referenceNode) {
           if (referenceNode && referenceNode.parentNode !== this) {
             if (console) {
-              console.warn('Cannot insert before a reference node from a different parent', referenceNode, this);
+              console.warn('Prevented insertBefore crash');
             }
-            return newNode;
+            return originalInsertBefore.call(this, newNode, null);
           }
           return originalInsertBefore.apply(this, arguments);
         };
@@ -80,6 +81,6 @@
         }, 'google_translate_element');
       }
     </script>
-    <script id="google-translate-script" type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script async defer id="google-translate-script" type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>

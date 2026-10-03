@@ -63,7 +63,7 @@ body {
   min-height: 100dvh;
   background-color: transparent !important;
   transition: background-color 0.3s ease, color 0.3s ease;
-  overflow-x: hidden;
+  overflow-x: clip;
   /* iOS safe areas padding on body */
   padding-top: env(safe-area-inset-top);
   padding-bottom: env(safe-area-inset-bottom);
@@ -210,7 +210,7 @@ html.dark::before {
 
 
 body, html {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 @media (max-width: 640px) {
   main {
@@ -260,3 +260,6 @@ body {
 #goog-gt-tt, .goog-te-balloon-frame {
     display: none !important;
 }
+
+
+main { position: relative; z-index: 1; }
