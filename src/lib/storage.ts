@@ -273,13 +273,42 @@ export const awardBadge = (badgeId: string) => {
 // --- Premium State ---
 const PREMIUM_KEY = 'ndeb_prep_is_premium';
 
+/**
+ * React hook that reflects the current premium status.
+ *
+ * Source of truth hierarchy:
+ *   1. RevenueCat (fetched on init, on foregrounding, and on every purchase/restore).
+ *   2. localStorage / native Preferences — cache only, used for instant first render.
+ *
+ * The hook subscribes to the 'premium_status_changed' custom event, which is
+ * dispatched by setIsPremium() every time RevenueCat confirms a new value.
+ */
 export const usePremiumStatus = () => {
   const [isPremium, setIsPremiumState] = useState(getIsPremium());
+
   useEffect(() => {
+    // Keep UI in sync whenever RC writes a confirmed value to the cache.
     const handleStatusChange = () => setIsPremiumState(getIsPremium());
     window.addEventListener('premium_status_changed', handleStatusChange);
-    return () => window.removeEventListener('premium_status_changed', handleStatusChange);
+
+    // Re-sync with RC every time the user brings the app to the foreground,
+    // so expired subscriptions are caught promptly.
+    const handleVisibility = () => {
+      if (document.visibilityState === 'visible') {
+        // Dynamic import avoids a circular-dep between storage and revenuecat.
+        import('./revenuecat').then(({ syncPremiumStatus }) => {
+          syncPremiumStatus().catch(() => {});
+        });
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibility);
+
+    return () => {
+      window.removeEventListener('premium_status_changed', handleStatusChange);
+      document.removeEventListener('visibilitychange', handleVisibility);
+    };
   }, []);
+
   return isPremium;
 };
 
