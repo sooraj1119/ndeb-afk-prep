@@ -256,8 +256,8 @@ function App() {
       select.value = isFrench ? 'en' : 'fr';
       select.dispatchEvent(new Event('change'));
     } else {
-      // Fallback if the widget hasn't loaded yet or is missing
-      window.location.reload();
+      // Fallback if the widget hasn't loaded yet (e.g. adblocker or offline)
+      console.warn('Google Translate widget not found.');
     }
   };
 
