@@ -11,14 +11,9 @@ const IS_DEV = import.meta.env.DEV;
 
 let rcReadyPromise: Promise<void> | null = null;
 
-/**
- * Configure RevenueCat, register the real-time CustomerInfo listener,
- * and immediately fetch the authoritative premium status from RC servers.
- * Call once in main.tsx AFTER React has rendered (to avoid blocking startup).
- */
 export const initializeRevenueCat = async (): Promise<void> => {
   if (Capacitor.getPlatform() === 'web') {
-    console.warn('RevenueCat: Web platform - RC disabled. Local cache used as-is.');
+    console.warn('RevenueCat: Web platform - RC disabled.');
     return;
   }
 
@@ -26,7 +21,6 @@ export const initializeRevenueCat = async (): Promise<void> => {
 
   rcReadyPromise = (async () => {
     try {
-      // Use DEBUG in dev builds only; WARN in production to avoid log spam
       await Purchases.setLogLevel({ level: IS_DEV ? LOG_LEVEL.DEBUG : LOG_LEVEL.WARN });
     
       if (Capacitor.getPlatform() === 'ios') {
@@ -35,7 +29,6 @@ export const initializeRevenueCat = async (): Promise<void> => {
         await Purchases.configure({ apiKey: RC_GOOGLE_API_KEY });
       }
     
-      // Real-time listener: fires on expiry, renewal, refund, or new purchase
       await Purchases.addCustomerInfoUpdateListener((customerInfo) => {
         const isPro = ENTITLEMENT_ID in customerInfo.entitlements.active;
         setIsPremium(isPro);
@@ -47,32 +40,23 @@ export const initializeRevenueCat = async (): Promise<void> => {
   })();
 
   await rcReadyPromise;
-  // Immediate authoritative fetch - overwrites any stale localStorage cache
   await syncPremiumStatus();
 };
 
-/**
- * Fetch the latest CustomerInfo from RC and write it to the local cache.
- * On network error: keeps cached value. Never grants premium on failure.
- */
-export const syncPremiumStatus = async (): Promise<boolean> => {
-  if (Capacitor.getPlatform() === 'web') {
-    return localStorage.getItem('ndeb_prep_is_premium') === 'true';
-  }
-
+const ensureConfigured = async () => {
+  if (Capacitor.getPlatform() === 'web') return;
   if (!rcReadyPromise) {
-    try {
-      // Try to re-initialize if not ready (e.g. app resume after initial failure)
-      await initializeRevenueCat();
-      return localStorage.getItem('ndeb_prep_is_premium') === 'true';
-    } catch (error) {
-      console.error('RC init retry failed:', error);
-      return localStorage.getItem('ndeb_prep_is_premium') === 'true';
-    }
+    await initializeRevenueCat();
+  } else {
+    await rcReadyPromise;
   }
+};
+
+export const syncPremiumStatus = async (): Promise<boolean> => {
+  if (Capacitor.getPlatform() === 'web') return localStorage.getItem('ndeb_prep_is_premium') === 'true';
 
   try {
-    await rcReadyPromise;
+    await ensureConfigured();
     const { customerInfo } = await Purchases.getCustomerInfo();
     const isPro = ENTITLEMENT_ID in customerInfo.entitlements.active;
     setIsPremium(isPro);
@@ -85,7 +69,6 @@ export const syncPremiumStatus = async (): Promise<boolean> => {
 
 export const getOfferings = async () => {
   if (Capacitor.getPlatform() === 'web') {
-    // Mock offerings - DEV only. On prod native builds this path is never reached.
     if (!IS_DEV) return null;
     return {
       current: {
@@ -100,7 +83,7 @@ export const getOfferings = async () => {
   }
 
   try {
-    if (rcReadyPromise) await rcReadyPromise;
+    await ensureConfigured();
     return await Purchases.getOfferings();
   } catch (error) {
     console.error('Error fetching offerings:', error);
@@ -110,14 +93,12 @@ export const getOfferings = async () => {
 
 export const purchasePackage = async (rcPackage: any): Promise<boolean> => {
   if (Capacitor.getPlatform() === 'web') {
-    // Grant premium in dev only - never on a deployed web build
     if (IS_DEV) { setIsPremium(true); return true; }
-    console.warn('Purchases not supported on web in production.');
     return false;
   }
 
   try {
-    if (rcReadyPromise) await rcReadyPromise;
+    await ensureConfigured();
     const { customerInfo } = await Purchases.purchasePackage({ aPackage: rcPackage });
     const isPro = ENTITLEMENT_ID in customerInfo.entitlements.active;
     setIsPremium(isPro);
@@ -129,12 +110,10 @@ export const purchasePackage = async (rcPackage: any): Promise<boolean> => {
 };
 
 export const restorePurchases = async (): Promise<boolean> => {
-  if (Capacitor.getPlatform() === 'web') {
-    return localStorage.getItem('ndeb_prep_is_premium') === 'true';
-  }
+  if (Capacitor.getPlatform() === 'web') return localStorage.getItem('ndeb_prep_is_premium') === 'true';
 
   try {
-    if (rcReadyPromise) await rcReadyPromise;
+    await ensureConfigured();
     const { customerInfo } = await Purchases.restorePurchases();
     const isPro = ENTITLEMENT_ID in customerInfo.entitlements.active;
     setIsPremium(isPro);
