@@ -247,9 +247,21 @@ function App() {
     }
     
     setIsFrench(!isFrench);
-    // Mark that this reload is due to language switch so paywall is suppressed on mount
-    sessionStorage.setItem('ndeb_lang_reload', '1');
-    window.location.reload();
+    // Instead of a full page reload which breaks Capacitor WebView state on some devices,
+    // we forcefully reload the Google Translate script dynamically.
+    const oldScript = document.getElementById('google-translate-script');
+    if (oldScript) oldScript.remove();
+    
+    // Clear the google translate objects to force a fresh init
+    if ((window as any).google && (window as any).google.translate) {
+      delete (window as any).google.translate;
+    }
+    
+    // Re-inject script
+    const script = document.createElement('script');
+    script.id = 'google-translate-script';
+    script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+    document.body.appendChild(script);
   };
 
 
