@@ -123,6 +123,12 @@ function App() {
 
 
   useEffect(() => {
+    // If we just reloaded due to a language switch, re-fire premium status
+    // so usePremiumStatus() re-reads localStorage and avoids a stale free-user state
+    if (sessionStorage.getItem('ndeb_lang_reload')) {
+      sessionStorage.removeItem('ndeb_lang_reload');
+      window.dispatchEvent(new Event('premium_status_changed'));
+    }
     initializeRevenueCat();
     loadAllQuestions().then(() => setQuestionsLoaded(true)).catch(e => {
 
@@ -241,6 +247,8 @@ function App() {
     }
     
     setIsFrench(!isFrench);
+    // Mark that this reload is due to language switch so paywall is suppressed on mount
+    sessionStorage.setItem('ndeb_lang_reload', '1');
     window.location.reload();
   };
 
