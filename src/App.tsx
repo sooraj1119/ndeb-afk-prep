@@ -7,7 +7,6 @@ import splashImg from './assets/splash.jpg';
 const TopicSelection = React.lazy(() => import('./TopicSelection').then(m => ({ default: m.TopicSelection })));
 
 
-import { LogOut, LogIn } from 'lucide-react';
 
 
 const Quiz = React.lazy(() => import('./Quiz').then(m => ({ default: m.Quiz })));
@@ -23,7 +22,6 @@ import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, Shield
 
 import { AnimatePresence, motion } from 'framer-motion';
 
-import { initializeRevenueCat } from './lib/revenuecat';
 import { hasAcceptedDisclaimer, acceptDisclaimer, logDailyVisit, usePremiumStatus } from './lib/storage';
 import { PaywallModal } from './PaywallModal';
 import { Lock } from 'lucide-react';
@@ -111,7 +109,6 @@ function App() {
   }, [showPaywall, showDisclaimer, quizFinished, selectedTopic, activeTab]);
 
 
-  const [isStandalone, setIsStandalone] = useState(false);
 
   const [isFrench, setIsFrench] = useState(() => document.cookie.includes('googtrans=/en/fr'));
 
@@ -120,11 +117,6 @@ function App() {
   useEffect(() => {
     // If we just reloaded due to a language switch, re-fire premium status
     // so usePremiumStatus() re-reads localStorage and avoids a stale free-user state
-    if (sessionStorage.getItem('ndeb_lang_reload')) {
-      sessionStorage.removeItem('ndeb_lang_reload');
-      window.dispatchEvent(new Event('premium_status_changed'));
-    }
-    initializeRevenueCat();
     loadAllQuestions().then(() => setQuestionsLoaded(true)).catch(e => {
 
       console.error('Failed to load questions:', e);
@@ -141,13 +133,16 @@ function App() {
 
     
 
+  let isTogglingLang = false;
   const toggleLanguage = (retries = 10) => {
+    if (isTogglingLang && retries === 10) return;
+    if (retries === 10) isTogglingLang = true;
     const target = isFrench ? '' : 'fr'; // Use '' to clear translation back to English
     const select = document.querySelector('.goog-te-combo') as HTMLSelectElement | null;
 
     if (!select || select.options.length < 2) {
       if (retries > 0) setTimeout(() => toggleLanguage(retries - 1), 300);
-      else console.warn('Google Translate widget not ready.');
+      else { isTogglingLang = false; console.warn('Google Translate widget not ready.'); }
       return;
     }
 
@@ -468,6 +463,9 @@ function App() {
 
             <button
 
+              aria-label="Toggle language between English and French"
+              translate="no"
+
               onClick={() => toggleLanguage()}
 
               style={{ background: 'var(--surface-hover)', border: '1px solid var(--border-color)', color: 'var(--text-primary)', cursor: 'pointer', padding: '0.45rem 0.65rem', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', fontWeight: 600, fontSize: '0.85rem' }}
@@ -479,6 +477,8 @@ function App() {
             </button>
 
             <button data-testid="dark-mode-toggle"
+
+              aria-label="Toggle dark mode"
 
               onClick={() => setDarkMode(!darkMode)}
 
@@ -613,7 +613,7 @@ function App() {
           )}
 
           {activeTab === 'practice' && selectedTopic === 'mistakes_list' && (
-            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }}>
+            <motion.div key="mistakes-list" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }}>
               <MistakesList onStartMistakesQuiz={() => handleTopicSelect('mistakes')} onBack={() => setSelectedTopic(null)} />
             </motion.div>
           )}
