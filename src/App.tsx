@@ -139,42 +139,15 @@ function App() {
   const isTogglingLang = useRef(false);
   const [langToastVisible, setLangToastVisible] = useState(false);
 
-  const toggleLanguage = (retries = 10) => {
-    // Re-entrancy guard via ref - survives re-renders unlike a plain let
-    if (isTogglingLang.current && retries === 10) return;
-    if (retries === 10) isTogglingLang.current = true;
-
-    const target = isFrench ? '' : 'fr';
-    const select = document.querySelector('.goog-te-combo') as HTMLSelectElement | null;
-
-    if (!select || select.options.length < 2) {
-      if (retries > 0) {
-        setTimeout(() => toggleLanguage(retries - 1), 300);
-      } else {
-        isTogglingLang.current = false;
-        setLangToastVisible(true);
-        setTimeout(() => setLangToastVisible(false), 3000);
-      }
-      return;
+  const toggleLanguage = () => {
+    if (isFrench) {
+      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + window.location.hostname;
+    } else {
+      document.cookie = 'googtrans=/en/fr; path=/';
     }
-
-    select.value = target;
-    select.dispatchEvent(new Event('change', { bubbles: true }));
-
-    // Confirm translation applied after 600ms.
-    // Google Translate adds 'translated-ltr' to <html> when active.
-    setTimeout(() => {
-      const isTranslated = document.documentElement.classList.contains('translated-ltr');
-      const expected = target === 'fr';
-      if (expected && !isTranslated) {
-        setLangToastVisible(true);
-        setTimeout(() => setLangToastVisible(false), 3000);
-        setIsFrench(false); // revert button state to match reality
-      } else {
-        setIsFrench(expected);
-      }
-      isTogglingLang.current = false;
-    }, 600);
+    sessionStorage.setItem('ndeb_lang_toggled', 'true');
+    window.location.reload();
   };
 
 
