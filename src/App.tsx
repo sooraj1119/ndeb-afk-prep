@@ -254,7 +254,7 @@ function App() {
     if (select) {
       // If we are French, we want to go back to English
       select.value = isFrench ? 'en' : 'fr';
-      select.dispatchEvent(new Event('change'));
+      select.dispatchEvent(new Event('change', { bubbles: true }));
     } else {
       // Fallback if the widget hasn't loaded yet (e.g. adblocker or offline)
       console.warn('Google Translate widget not found.');
@@ -722,7 +722,7 @@ function App() {
 
             )}
 
-            <div id="google_translate_element" style={{ display: 'none' }}></div>
+            
             
 
             
