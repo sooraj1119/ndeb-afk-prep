@@ -218,47 +218,21 @@ function App() {
 
 
 
-    useEffect(() => {
-    if (isFrench) {
-      document.documentElement.removeAttribute('translate');
-    } else {
-      document.documentElement.setAttribute('translate', 'no');
-    }
-  }, [isFrench]);
+    
 
-  const toggleLanguage = () => {
-    if (isFrench) {
-      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=' + window.location.hostname + '; path=/;';
-      const parts = window.location.hostname.split('.');
-      if (parts.length > 2) {
-        document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.' + parts.slice(-2).join('.') + '; path=/;';
-      }
-      document.cookie = 'googtrans=/en/en; path=/;';
-      document.cookie = 'googtrans=/en/en; domain=' + window.location.hostname + '; path=/;';
-      localStorage.removeItem('googtrans');
-      sessionStorage.removeItem('googtrans');
-      
-      document.documentElement.setAttribute('translate', 'no');
-    } else {
-      document.documentElement.removeAttribute('translate');
-      document.cookie = 'googtrans=/en/fr; path=/';
-      document.cookie = 'googtrans=/en/fr; domain=' + window.location.hostname + '; path=/';
+  const toggleLanguage = (retries = 10) => {
+    const target = isFrench ? '' : 'fr'; // Use '' to clear translation back to English
+    const select = document.querySelector('.goog-te-combo') as HTMLSelectElement | null;
+
+    if (!select || select.options.length < 2) {
+      if (retries > 0) setTimeout(() => toggleLanguage(retries - 1), 300);
+      else console.warn('Google Translate widget not ready.');
+      return;
     }
-    
-    setIsFrench(!isFrench);
-    // Find the hidden Google Translate dropdown
-    const iframe = document.querySelector('iframe.goog-te-menu-frame');
-    const select = document.querySelector('.goog-te-combo') as HTMLSelectElement;
-    
-    if (select) {
-      // If we are French, we want to go back to English
-      select.value = isFrench ? 'en' : 'fr';
-      select.dispatchEvent(new Event('change', { bubbles: true }));
-    } else {
-      // Fallback if the widget hasn't loaded yet (e.g. adblocker or offline)
-      console.warn('Google Translate widget not found.');
-    }
+
+    select.value = target;
+    select.dispatchEvent(new Event('change', { bubbles: true }));
+    setIsFrench(target === 'fr');
   };
 
 
@@ -729,7 +703,7 @@ function App() {
 
             <button
 
-              onClick={toggleLanguage}
+              onClick={() => toggleLanguage()}
 
               style={{ background: 'var(--surface-hover)', border: '1px solid var(--border-color)', color: 'var(--text-primary)', cursor: 'pointer', padding: '0.45rem 0.65rem', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', fontWeight: 600, fontSize: '0.85rem' }}
 
