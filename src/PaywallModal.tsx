@@ -200,7 +200,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                               originalPrice = pkg.product.price / 0.7; // approximate the 30% discount
                             }
                             
-                            const originalPriceStr = new Intl.NumberFormat(undefined, { style: 'currency', currency: pkg.product.currencyCode }).format(originalPrice);
+                            const originalPriceStr = new Intl.NumberFormat(undefined, { style: 'currency', currency: pkg.product.currencyCode || 'USD' }).format(originalPrice);
                             
                             return (
                               <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', lineHeight: 1.1 }}>
