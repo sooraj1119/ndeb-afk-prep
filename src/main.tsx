@@ -10,33 +10,13 @@ import { initializeRevenueCat } from './lib/revenuecat';
 
 const PREMIUM_KEY = 'ndeb_prep_is_premium';
 
+/** Resolves after `ms` milliseconds — used to cap the RC network wait. */
+const timeout = (ms: number) => new Promise<void>(resolve => setTimeout(resolve, ms));
+
 async function bootstrap() {
-  if (Capacitor.isNativePlatform()) {
-    // Step 1: Warm the localStorage cache from native Preferences so the
-    // very first React render shows the correct cached premium state
-    // (avoids a free-user flash before RC responds).
-    try {
-      const { value } = await Preferences.get({ key: PREMIUM_KEY });
-      if (value !== null) {
-        localStorage.setItem(PREMIUM_KEY, value);
-      }
-    } catch (_) {
-      // Fall through — use whatever is already in localStorage
-    }
-
-    // Step 2: Initialise RevenueCat.
-    // This configures RC, registers the CustomerInfo listener, and immediately
-    // fetches the authoritative status from RC servers, overwriting the cache.
-    // Wrapped in try/catch so a network error never blocks the app from launching.
-    try {
-      await initializeRevenueCat();
-    } catch (e) {
-      console.error('RevenueCat bootstrap error:', e);
-    }
-  }
-
-  // Step 3: Render React. By this point the cache already has the RC-confirmed
-  // value (or the Preferences-backed warm value if RC timed out).
+  // Always render React first so the splash screen shows immediately.
+  // RevenueCat and Preferences are initialised in the background so a
+  // slow network never causes a white screen.
   ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <React.StrictMode>
       <ErrorBoundary>
@@ -44,6 +24,35 @@ async function bootstrap() {
       </ErrorBoundary>
     </React.StrictMode>
   );
+
+  if (!Capacitor.isNativePlatform()) return;
+
+  // Step 1: Warm the localStorage cache from native Preferences.
+  // This runs quickly (IPC, no network) so it finishes long before
+  // the user dismisses the splash screen.
+  try {
+    const { value } = await Preferences.get({ key: PREMIUM_KEY });
+    if (value !== null) {
+      localStorage.setItem(PREMIUM_KEY, value);
+      // Tell the already-mounted hook about the updated value
+      window.dispatchEvent(new Event('premium_status_changed'));
+    }
+  } catch (_) {
+    // Fall through — localStorage value is used as-is
+  }
+
+  // Step 2: Initialise RevenueCat, capped at 2.5 s so a dead network
+  // never hangs the background init. The CustomerInfo listener and
+  // visibilitychange handler in usePremiumStatus will pick up the real
+  // value as soon as connectivity returns.
+  try {
+    await Promise.race([
+      initializeRevenueCat(),
+      timeout(2500),
+    ]);
+  } catch (e) {
+    console.error('RevenueCat bootstrap error:', e);
+  }
 }
 
 bootstrap();

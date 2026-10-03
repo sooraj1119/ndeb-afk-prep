@@ -9,13 +9,20 @@
     <meta name="theme-color" content="#0284c7" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <title>NDEB AFK Prep Pro</title>
+
+    <!-- Dark mode BEFORE first paint (uses same key as App.tsx: ndeb_theme) -->
     <script>
-      if (localStorage.getItem('ndeb_theme') === 'dark' || (!localStorage.getItem('ndeb_theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark');
-      }
+      (function() {
+        var stored = localStorage.getItem('ndeb_theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (stored === 'dark' || (!stored && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
     </script>
+
     <style>
-      /* Nuclear Option for Google Translate Banner */
+      /* Suppress Google Translate banner entirely */
       iframe.skiptranslate,
       .goog-te-banner-frame,
       .VIpgJd-ZVi9od-ORHb-OEVmcd,
@@ -42,45 +49,58 @@
   </head>
 
   <body>
+    <!-- Google Translate widget — outside React root so React never destroys it -->
     <div id="google_translate_element" style="display:none;"></div>
     <div id="root"></div>
-    
+
+    <!--
+      Monkey-patch to prevent React crashes from Google Translate DOM mutations.
+      Google Translate wraps text nodes in <font> tags. React then tries to
+      removeChild / insertBefore those modified nodes and throws NotFoundError.
+
+      Improvements over naive patch:
+      - removeChild: delegates to the node's actual parent so it always removes,
+        rather than silently no-oping and leaving ghost text.
+      - insertBefore: only falls back to append when reference was reparented,
+        which is rare; normal insertions are unaffected.
+    -->
     <script>
-      // Google Translate adds <font> tags to text nodes, which breaks React's DOM reconciliation.
-      // This monkey-patch prevents React from crashing when it tries to remove a node that Google Translate modified.
       if (typeof Node === 'function' && Node.prototype) {
-        const originalRemoveChild = Node.prototype.removeChild;
+        const _removeChild = Node.prototype.removeChild;
         Node.prototype.removeChild = function(child) {
           if (child.parentNode !== this) {
-            if (console) {
-              console.warn('Cannot remove a child from a different parent', child, this);
-            }
+            // Remove from the real parent instead of silently leaving ghost text
+            if (child.parentNode) child.parentNode.removeChild(child);
             return child;
           }
-          return originalRemoveChild.apply(this, arguments);
+          return _removeChild.apply(this, arguments);
         };
-        const originalInsertBefore = Node.prototype.insertBefore;
-        Node.prototype.insertBefore = function(newNode, referenceNode) {
-          if (referenceNode && referenceNode.parentNode !== this) {
-            if (console) {
-              console.warn('Prevented insertBefore crash');
-            }
-            return originalInsertBefore.call(this, newNode, null);
+
+        const _insertBefore = Node.prototype.insertBefore;
+        Node.prototype.insertBefore = function(newNode, refNode) {
+          if (refNode && refNode.parentNode !== this) {
+            // Append rather than crash; this only fires when Translate reparented refNode
+            return _insertBefore.call(this, newNode, null);
           }
-          return originalInsertBefore.apply(this, arguments);
+          return _insertBefore.apply(this, arguments);
         };
       }
     </script>
+
     <script type="module" src="/src/main.tsx"></script>
+
     <script type="text/javascript">
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({
-          pageLanguage: 'en', 
+          pageLanguage: 'en',
           includedLanguages: 'en,fr',
           layout: google.translate.TranslateElement.InlineLayout.SIMPLE
         }, 'google_translate_element');
       }
     </script>
-    <script async defer id="google-translate-script" type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- async defer: never blocks React startup, even on slow connections -->
+    <script async defer id="google-translate-script" type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 ﻿/* eslint-disable no-empty */
 /* eslint-disable react-hooks/set-state-in-effect */
-import React, { useState, useEffect, Suspense } from 'react';
+import React, { useState, useEffect, Suspense, useRef } from 'react';
 import { App as CapacitorApp } from '@capacitor/app';
 import splashImg from './assets/splash.jpg';
 
@@ -18,7 +18,7 @@ const Dashboard = React.lazy(() => import('./Dashboard').then(m => ({ default: m
 const SearchComponent = React.lazy(() => import('./Search').then(m => ({ default: m.Search })));
 const MistakesList = React.lazy(() => import('./MistakesList').then(m => ({ default: m.MistakesList })));
 
-import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, ShieldCheck, Moon, Sun, Flame, X } from 'lucide-react';
+import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, ShieldCheck, Moon, Sun, Flame } from 'lucide-react';
 
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -89,7 +89,11 @@ function App() {
 
   const [showDisclaimer, setShowDisclaimer] = useState(false);
 
-  const [darkMode, setDarkMode] = useState(() => localStorage.getItem('theme') === 'dark');
+  const [darkMode, setDarkMode] = useState(() => {
+    const stored = localStorage.getItem('ndeb_theme');
+    if (stored) return stored === 'dark';
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  });
 
   const [streak, setStreak] = useState(0);
 
@@ -131,24 +135,46 @@ function App() {
 
 
 
-    
 
-  let isTogglingLang = false;
+  const isTogglingLang = useRef(false);
+  const [langToastVisible, setLangToastVisible] = useState(false);
+
   const toggleLanguage = (retries = 10) => {
-    if (isTogglingLang && retries === 10) return;
-    if (retries === 10) isTogglingLang = true;
-    const target = isFrench ? '' : 'fr'; // Use '' to clear translation back to English
+    // Re-entrancy guard via ref - survives re-renders unlike a plain let
+    if (isTogglingLang.current && retries === 10) return;
+    if (retries === 10) isTogglingLang.current = true;
+
+    const target = isFrench ? '' : 'fr';
     const select = document.querySelector('.goog-te-combo') as HTMLSelectElement | null;
 
     if (!select || select.options.length < 2) {
-      if (retries > 0) setTimeout(() => toggleLanguage(retries - 1), 300);
-      else { isTogglingLang = false; console.warn('Google Translate widget not ready.'); }
+      if (retries > 0) {
+        setTimeout(() => toggleLanguage(retries - 1), 300);
+      } else {
+        isTogglingLang.current = false;
+        setLangToastVisible(true);
+        setTimeout(() => setLangToastVisible(false), 3000);
+      }
       return;
     }
 
     select.value = target;
     select.dispatchEvent(new Event('change', { bubbles: true }));
-    setIsFrench(target === 'fr');
+
+    // Confirm translation applied after 600ms.
+    // Google Translate adds 'translated-ltr' to <html> when active.
+    setTimeout(() => {
+      const isTranslated = document.documentElement.classList.contains('translated-ltr');
+      const expected = target === 'fr';
+      if (expected && !isTranslated) {
+        setLangToastVisible(true);
+        setTimeout(() => setLangToastVisible(false), 3000);
+        setIsFrench(false); // revert button state to match reality
+      } else {
+        setIsFrench(expected);
+      }
+      isTogglingLang.current = false;
+    }, 600);
   };
 
 
@@ -175,13 +201,13 @@ function App() {
 
       document.documentElement.classList.add('dark');
 
-      localStorage.setItem('theme', 'dark');
+      localStorage.setItem('ndeb_theme', 'dark');
 
     } else {
 
       document.documentElement.classList.remove('dark');
 
-      localStorage.setItem('theme', 'light');
+      localStorage.setItem('ndeb_theme', 'light');
 
     }
 
@@ -243,7 +269,7 @@ function App() {
 
       if (!questionsLoaded) {
       return (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', backgroundColor: '#ffffff' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', backgroundColor: darkMode ? '#0f172a' : '#ffffff' }}>
           <img src={splashImg} alt="NDEB AFK PREP PRO" style={{ width: '100%', maxWidth: '400px', objectFit: 'contain', padding: '1.5rem', animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' }} />
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '1rem' }}>
             <div style={{ width: '30px', height: '30px', border: '3px solid rgba(2, 132, 199, 0.2)', borderTop: '3px solid #0f172a', borderRadius: '50%', animation: 'spin 1s linear infinite' }}></div>
@@ -284,7 +310,24 @@ function App() {
 
 
 
-      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="Pro Features" />
+      {/* Offline translation error toast */}
+      {langToastVisible && (
+        <div style={{
+          position: 'fixed', bottom: 'calc(env(safe-area-inset-bottom, 0px) + 1rem)',
+          left: '50%', transform: 'translateX(-50%)',
+          background: 'rgba(15,23,42,0.92)', color: 'white',
+          padding: '0.65rem 1.25rem', borderRadius: '999px',
+          fontSize: '0.85rem', fontWeight: 600,
+          boxShadow: '0 4px 24px rgba(0,0,0,0.25)',
+          zIndex: 99999, whiteSpace: 'nowrap',
+          backdropFilter: 'blur(8px)',
+          WebkitBackdropFilter: 'blur(8px)'
+        }}>
+          Translation unavailable — check your connection
+        </div>
+      )}
+
+            <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="Pro Features" />
 
 
 
@@ -409,7 +452,7 @@ function App() {
         zIndex: 100,
 
         boxShadow: 'var(--shadow-sm)',
-        paddingTop: 'env(safe-area-inset-top, 0px)',
+        paddingTop: 'max(env(safe-area-inset-top, 0px), 28px)',
 
       }}>
 

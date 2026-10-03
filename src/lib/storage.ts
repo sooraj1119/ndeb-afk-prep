@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { App as CapacitorApp } from '@capacitor/app';
 import { Preferences } from '@capacitor/preferences';
 import { Capacitor } from '@capacitor/core';
 export interface TopicProgress {
@@ -287,25 +288,40 @@ export const usePremiumStatus = () => {
   const [isPremium, setIsPremiumState] = useState(getIsPremium());
 
   useEffect(() => {
-    // Keep UI in sync whenever RC writes a confirmed value to the cache.
+    // Re-read cache whenever RC confirms a new value
     const handleStatusChange = () => setIsPremiumState(getIsPremium());
     window.addEventListener('premium_status_changed', handleStatusChange);
 
-    // Re-sync with RC every time the user brings the app to the foreground,
-    // so expired subscriptions are caught promptly.
+    // Helper: re-sync from RC on app resume
+    const syncInBackground = () => {
+      // Dynamic import avoids circular dep: storage <-> revenuecat
+      import('./revenuecat').then(({ syncPremiumStatus }) => {
+        syncPremiumStatus().catch(() => {});
+      });
+    };
+
+    // Web/PWA: visibilitychange covers tab switching and PWA foreground
     const handleVisibility = () => {
-      if (document.visibilityState === 'visible') {
-        // Dynamic import avoids a circular-dep between storage and revenuecat.
-        import('./revenuecat').then(({ syncPremiumStatus }) => {
-          syncPremiumStatus().catch(() => {});
-        });
-      }
+      if (document.visibilityState === 'visible') syncInBackground();
     };
     document.addEventListener('visibilitychange', handleVisibility);
+
+    // Native (iOS/Android): appStateChange is more reliable than visibilitychange
+    // in a Capacitor WebView. Both listeners are registered; whichever fires first
+    // triggers the sync. Duplicate syncs are harmless.
+    let appStateListener: Promise<{ remove: () => void }> | null = null;
+    try {
+      appStateListener = CapacitorApp.addListener('appStateChange', ({ isActive }) => {
+        if (isActive) syncInBackground();
+      });
+    } catch (_) {
+      // Not on a native platform — fall through, visibilitychange is enough
+    }
 
     return () => {
       window.removeEventListener('premium_status_changed', handleStatusChange);
       document.removeEventListener('visibilitychange', handleVisibility);
+      appStateListener?.then(l => l.remove()).catch(() => {});
     };
   }, []);
 
