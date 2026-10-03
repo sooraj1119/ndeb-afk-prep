@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { Preferences } from '@capacitor/preferences';
+import { Capacitor } from '@capacitor/core';
 export interface TopicProgress {
   topicId: string;
   highestScore: number;
@@ -292,6 +294,10 @@ export const getIsPremium = (): boolean => {
 export const setIsPremium = (status: boolean) => {
   try {
     localStorage.setItem(PREMIUM_KEY, status ? 'true' : 'false');
+    // Also persist to native Preferences so it survives WebView reloads on Android/iOS
+    if (Capacitor.isNativePlatform()) {
+      Preferences.set({ key: PREMIUM_KEY, value: status ? 'true' : 'false' }).catch(() => {});
+    }
     // Dispatch an event so components can update instantly
     window.dispatchEvent(new Event('premium_status_changed'));
   } catch (e) { void e; }
