@@ -39,7 +39,7 @@ export function Search() {
     return questions.filter(q => {
       const qText = q.question || q.text || '';
       const qMatch = qText.toLowerCase().includes(lowerQuery);
-      const optMatch = q.options.some((o: string) => o.toLowerCase().includes(lowerQuery));
+      const optMatch = Array.isArray(q.options) && q.options.some((o: string) => typeof o === "string" && o.toLowerCase().includes(lowerQuery));
       const expMatch = q.explanation && q.explanation.toLowerCase().includes(lowerQuery);
       return qMatch || optMatch || expMatch;
     }).slice(0, 50); // Limit to 50 results to prevent massive rendering delays
@@ -108,7 +108,7 @@ export function Search() {
 
             return (
               <motion.div 
-                key={q.id}
+                key={`${q.topicId}-${q.id}`}
                 layout
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}

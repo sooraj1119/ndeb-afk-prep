@@ -1,4 +1,4 @@
-// Lazy-load questions per topic — avoids downloading 5MB on mobile data
+// Lazy-load questions per topic - avoids downloading 5MB on mobile data
 const cache: Record<string, any[]> = {};
 let manifestCache: { id: string; count: number }[] | null = null;
 

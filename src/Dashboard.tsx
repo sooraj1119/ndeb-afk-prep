@@ -42,6 +42,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
   const [mistakesCount, setMistakesCount] = useState(0);
   const [history, setHistory] = useState<QuizAttempt[]>([]);
   const [showPaywall, setShowPaywall] = useState(false);
+  const [showResetConfirm, setShowResetConfirm] = useState(false);
   const isPremium = usePremiumStatus();
   
   const [examDate, setExamDateState] = useState<number | null>(null);
@@ -402,7 +403,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
             </div>
           ) : (
             getGamification().badges.map((badge, idx) => (
-              <div key={idx} className="glass-panel" style={{ padding: '0.75rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
+              <div key={badge} className="glass-panel" style={{ padding: '0.75rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
                 <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)' }}>{BADGE_META[badge]?.emoji || badge}</div>
                 <div style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{BADGE_META[badge]?.label || badge}</div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--success-color)' }}>Unlocked!</div>

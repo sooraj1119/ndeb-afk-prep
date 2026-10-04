@@ -80,7 +80,7 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
       ) : (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           {mistakes.map((q, idx) => (
-            <div key={q.id} className="glass-panel" style={{ padding: '1.5rem', position: 'relative' }}>
+            <div key={`${q.topicId}-${q.id}`} className="glass-panel" style={{ padding: '1.5rem', position: 'relative' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem', gap: '1rem' }}>
                 <span style={{ background: 'var(--bg-color)', padding: '0.2rem 0.6rem', borderRadius: '4px', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>
                   {q.topicId.toUpperCase().replace('-', ' ')}

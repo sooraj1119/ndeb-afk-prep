@@ -1,11 +1,11 @@
-import js from '@eslint/js'
+﻿import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
-  { ignores: ['dist', 'coverage', 'android', 'ios', 'scratch', 'build', 'lint-errors.txt'] },
+  { ignores: ['dist', 'coverage', 'android', 'ios', 'scratch', 'build', 'lint-errors.txt', 'linkedin-job-bot', 'scripts', '*.cjs', '*.mjs', 'validate_questions_groq.ts'] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ['**/*.{ts,tsx}'],
