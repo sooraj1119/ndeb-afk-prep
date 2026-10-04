@@ -3,7 +3,10 @@
 import React, { useState, useEffect, Suspense, useRef } from 'react';
 import { App as CapacitorApp } from '@capacitor/app';
 import { SplashScreen } from '@capacitor/splash-screen';
+<<<<<<< Updated upstream
 import { SplashScreen } from '@capacitor/splash-screen';
+=======
+>>>>>>> Stashed changes
 import splashImg from './assets/splash.jpg';
 
 const TopicSelection = React.lazy(() => import('./TopicSelection').then(m => ({ default: m.TopicSelection })));
@@ -141,7 +144,11 @@ function App() {
   useEffect(() => {
     // If we just reloaded due to a language switch, re-fire premium status
     // so usePremiumStatus() re-reads localStorage and avoids a stale free-user state
+<<<<<<< Updated upstream
       loadAllQuestions().then(() => { setQuestionsLoaded(true); if (Capacitor.isNativePlatform()) { SplashScreen.hide(); } }).catch(e => {
+=======
+    loadAllQuestions().then(() => { setQuestionsLoaded(true); if (Capacitor.isNativePlatform()) { SplashScreen.hide(); } }).catch(e => {
+>>>>>>> Stashed changes
 
       console.error('Failed to load questions:', e);
 
