@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Clock, Shuffle, RefreshCw, Bookmark, BookmarkCheck, AlertTriangle } from 'lucide-react';
 import { motion } from 'framer-motion';
 

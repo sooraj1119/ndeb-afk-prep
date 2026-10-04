@@ -14,7 +14,7 @@ const config: CapacitorConfig = {
       showSpinner: true,
       androidSpinnerStyle: "large",
       iosSpinnerStyle: "small",
-      spinnerColor: "#0f172a",
+      spinnerColor: "#0284c7",
       splashFullScreen: true,
       splashImmersive: true,
       layoutName: "launch_screen",

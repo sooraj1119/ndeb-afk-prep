@@ -1,4 +1,4 @@
-﻿/* eslint-disable no-empty */
+/* eslint-disable no-empty */
 import { Purchases, LOG_LEVEL } from '@revenuecat/purchases-capacitor';
 import { Capacitor } from '@capacitor/core';
 import { setIsPremium } from './storage';

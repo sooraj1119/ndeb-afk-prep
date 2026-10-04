@@ -1,9 +1,9 @@
-﻿/* eslint-disable no-empty */
+/* eslint-disable no-empty */
 /* eslint-disable react-hooks/set-state-in-effect */
 import React, { useState, useEffect, Suspense, useRef } from 'react';
 import { App as CapacitorApp } from '@capacitor/app';
 import { SplashScreen } from '@capacitor/splash-screen';
-import splashImg from './assets/splash.jpg';
+import splashImg from './assets/splash.png';
 
 const TopicSelection = React.lazy(() => import('./TopicSelection').then(m => ({ default: m.TopicSelection })));
 
@@ -140,13 +140,20 @@ function App() {
   useEffect(() => {
     // If we just reloaded due to a language switch, re-fire premium status
     // so usePremiumStatus() re-reads localStorage and avoids a stale free-user state
-    loadAllQuestions().then(() => { setQuestionsLoaded(true); if (Capacitor.isNativePlatform()) { SplashScreen.hide(); } }).catch(e => {
-
-      console.error('Failed to load questions:', e);
-
-      // fallback in case of error`r`n      setQuestionsLoaded(true);
-
-    });
+    loadAllQuestions()
+      .then(() => {
+        setQuestionsLoaded(true);
+        if (Capacitor.isNativePlatform()) {
+          SplashScreen.hide();
+        }
+      })
+      .catch(e => {
+        console.error('Failed to load questions:', e);
+        setQuestionsLoaded(true);
+        if (Capacitor.isNativePlatform()) {
+          SplashScreen.hide();
+        }
+      });
 
   }, []);
 

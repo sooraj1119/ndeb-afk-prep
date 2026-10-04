@@ -1,4 +1,4 @@
-﻿/* eslint-disable react-hooks/set-state-in-effect */
+/* eslint-disable react-hooks/set-state-in-effect */
 import React, { useEffect, useState } from 'react';
 import { getProgress, TopicProgress, usePremiumStatus, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt, awardBadge } from './lib/storage';
 import { topics } from './lib/data';

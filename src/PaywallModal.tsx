@@ -18,6 +18,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
   const [purchasing, setPurchasing] = useState<string | null>(null);
   const [showPrivacy, setShowPrivacy] = useState(false);
   const [showTerms, setShowTerms] = useState(false);
+  const [restoreMessage, setRestoreMessage] = useState<string | null>(null);
 
   async function loadOfferings() {
     setLoading(true);
@@ -30,6 +31,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
 
   useEffect(() => {
     if (isOpen) {
+      setRestoreMessage(null);
       loadOfferings();
     }
   }, [isOpen]);
@@ -46,13 +48,14 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
 
   const handleRestore = async () => {
     setLoading(true);
+    setRestoreMessage(null);
     const success = await restorePurchases();
     setLoading(false);
     if (success) {
       onClose();
       window.location.reload();
     } else {
-      alert("No previous purchases found to restore.");
+      setRestoreMessage("No previous purchases found to restore.");
     }
   };
 
@@ -236,6 +239,11 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
                >
                  Restore Purchases
                </button>
+               {restoreMessage && (
+                 <p style={{ margin: '0.5rem 0 0', fontSize: '0.8rem', color: '#ef4444', fontWeight: 500 }}>
+                   {restoreMessage}
+                 </p>
+               )}
             </div>
 
             <div style={{ marginTop: '1rem', textAlign: 'center', fontSize: '0.65rem', color: 'var(--text-secondary)', opacity: 0.8, lineHeight: 1.3 }}>

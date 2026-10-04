@@ -1,4 +1,4 @@
-﻿/* eslint-disable react-hooks/set-state-in-effect */
+/* eslint-disable react-hooks/set-state-in-effect */
 import { getTotalQuestionCount } from './lib/questionsStore';
 import React, { useState, useEffect, useRef } from 'react';
 
@@ -126,6 +126,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
 const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
   const [isShuffled, setIsShuffled] = useState(false);
+  const [showRestartConfirm, setShowRestartConfirm] = useState(false);
 
   const [showPaywall, setShowPaywall] = useState(false);
   
@@ -836,7 +837,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
         onToggleShuffle={handleToggleShuffle}
 
-        onRestartMockExam={handleRestartMockExam}
+        onRestartMockExam={() => setShowRestartConfirm(true)}
 
         isFlagged={isFlagged}
 
@@ -910,6 +911,19 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
       <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature={`all ${getTotalQuestionCount().toLocaleString()} questions`} />
+      
+      <ConfirmModal
+        isOpen={showRestartConfirm}
+        title="Restart Mock Exam?"
+        message="Are you sure you want to restart this mock exam? Your current progress will be lost."
+        confirmLabel="Restart"
+        confirmColor="#ef4444"
+        onCancel={() => setShowRestartConfirm(false)}
+        onConfirm={() => {
+          setShowRestartConfirm(false);
+          handleRestartMockExam();
+        }}
+      />
       
 
     </div>
