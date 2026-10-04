@@ -1,10 +1,11 @@
-/* eslint-disable react-hooks/set-state-in-effect */
+﻿/* eslint-disable react-hooks/set-state-in-effect */
 import React, { useEffect, useState } from 'react';
 import { getProgress, TopicProgress, usePremiumStatus, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt, awardBadge } from './lib/storage';
 import { topics } from './lib/data';
 import { getQuestions, getTotalQuestionCount } from './lib/questionsStore';
 import { motion } from 'framer-motion';
 import { PaywallModal } from './PaywallModal';
+import { ConfirmModal } from './ConfirmModal';
 import { Lock } from 'lucide-react';
 import { Trophy, Target, BookOpen, Bookmark, Play, AlertOctagon, TrendingUp, XCircle, AlertCircle, CalendarDays, Edit2, Check } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
@@ -496,9 +497,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
         </p>
         <button 
           onClick={() => {
-            if (window.confirm('Are you absolutely sure you want to reset all progress? This cannot be undone.')) {
-              resetAllProgress();
-            }
+            setShowResetConfirm(true);
           }}
           style={{ background: '#ef4444', color: 'white', border: 'none', padding: '0.8rem 1.5rem', borderRadius: 'var(--radius-md)', fontWeight: 600, cursor: 'pointer', marginTop: '0.5rem', transition: 'background 0.2s ease' }}
           onMouseEnter={(e) => e.currentTarget.style.background = '#dc2626'}
@@ -508,9 +507,19 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
         </button>
       </div>
     <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="Pro Features" />
+      <ConfirmModal
+        isOpen={showResetConfirm}
+        title="Reset All Progress?"
+        message="Are you absolutely sure you want to reset all progress? This will delete all history, scores, and mistakes. This action cannot be undone."
+        confirmLabel="Reset Progress"
+        confirmColor="#ef4444"
+        onCancel={() => setShowResetConfirm(false)}
+        onConfirm={() => { setShowResetConfirm(false); resetAllProgress(); }}
+      />
     </motion.div>
   );
 }
+
 
 
 
