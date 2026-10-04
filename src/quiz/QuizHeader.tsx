@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Clock, Shuffle, RefreshCw, Bookmark, BookmarkCheck, AlertTriangle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -77,11 +77,7 @@ export function QuizHeader({
           )}
           {isSimulatedMode && (
             <button
-              onClick={() => {
-                if (window.confirm('Are you sure you want to restart this mock exam? Your current progress will be lost.')) {
-                  onRestartMockExam();
-                }
-              }}
+              onClick={onRestartMockExam}
               style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--error-color)', background: 'rgba(239, 68, 68, 0.1)', border: 'none', cursor: 'pointer', padding: '0.4rem 0.8rem', borderRadius: '20px', fontWeight: 600, fontSize: '0.85rem' }}
             >
               <RefreshCw size={16} /> <span className="desktop-only">Restart</span>
@@ -104,6 +100,7 @@ export function QuizHeader({
     </>
   );
 }
+
 
 
 

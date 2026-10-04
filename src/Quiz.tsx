@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/set-state-in-effect */
+﻿/* eslint-disable react-hooks/set-state-in-effect */
 import { getTotalQuestionCount } from './lib/questionsStore';
 import React, { useState, useEffect, useRef } from 'react';
 
@@ -21,6 +21,7 @@ import { getTopicProgress, usePremiumStatus, saveProgress, getFlaggedQuestions, 
 import { QuizHeader } from './quiz/QuizHeader';
 
 import { QuestionCard } from './quiz/QuestionCard';
+import { ConfirmModal } from './ConfirmModal';
 
 import { ResultBottomSheet } from './quiz/ResultBottomSheet';
 
@@ -916,6 +917,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
   );
 
 }
+
 
 
 
