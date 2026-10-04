@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+﻿import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 import tailwindcss from '@tailwindcss/vite';
@@ -9,12 +9,13 @@ export default defineConfig({
     react(),
     tailwindcss(),
     VitePWA({
+      selfDestroying: true,
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico'],
       manifest: {
         name: 'NDEB AFK Prep Pro',
         short_name: 'AFK Prep',
-        description: 'NDEB AFK exam preparation — study smarter',
+        description: 'NDEB AFK exam preparation â€” study smarter',
         theme_color: '#0284c7',
         background_color: '#f0f6ff',
         display: 'standalone',
