@@ -1,58 +1,99 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/ndeb-afk-prep/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/ndeb-afk-prep/favicon.ico" />
-    <link rel="apple-touch-icon" href="/ndeb-afk-prep/icons/icon-192.webp" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
     <link rel="manifest" href="/ndeb-afk-prep/manifest.json" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#0284c7" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-touch-fullscreen" content="yes" />
     <title>NDEB AFK Prep Pro</title>
-  
-    <style>
-      /* Nuclear Option for Google Translate Banner */
-      iframe.skiptranslate,
-      .goog-te-banner-frame,
-      .VIpgJd-ZVi9od-ORHb-OEVmcd,
-      .skiptranslate > iframe.skiptranslate {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        height: 0 !important;
-        width: 0 !important;
-        z-index: -99999 !important;
-        position: absolute !important;
-        top: -9999px !important;
+
+    <!-- Dark mode BEFORE first paint (uses same key as App.tsx: ndeb_theme) -->
+    <script>
+      (function() {
+        var stored = localStorage.getItem('ndeb_theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (stored === 'dark' || (!stored && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+
+    <style>iframe.skiptranslate,.goog-te-banner-frame,.VIpgJd-ZVi9od-ORHb-OEVmcd,.skiptranslate>iframe.skiptranslate{visibility:hidden!important;opacity:0!important;z-index:-99999!important;width:0!important;height:0!important;display:none!important;position:absolute!important;top:-9999px!important}body{margin-top:0!important;position:static!important;top:0!important}.goog-text-highlight{box-shadow:none!important;background:0 0!important}</style>
+      <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for(let registration of registrations) {
+            registration.unregister();
+            console.log('Unregistered old service worker');
+          }
+        });
       }
-      body {
-        top: 0px !important;
-        position: static !important;
-        margin-top: 0px !important;
-      }
-      .goog-text-highlight {
-        background: transparent !important;
-        box-shadow: none !important;
-      }
-    </style>
-    <script type="module" crossorigin src="/ndeb-afk-prep/assets/index-B_RLa5YN.js"></script>
-    <link rel="stylesheet" crossorigin href="/ndeb-afk-prep/assets/index-BA9PidWK.css">
+    </script>
+    <script type="module" crossorigin src="/ndeb-afk-prep/assets/index-BdpPCPdL.js"></script>
+    <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/dist-Btb5Jv1E.js">
+    <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/storage-CKpKWyWk.js">
+    <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/questionsStore-BpcElJjX.js">
+    <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/dist-D0bZphAR.js">
+    <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/revenuecat-Dxhjzoam.js">
+    <link rel="stylesheet" crossorigin href="/ndeb-afk-prep/assets/index-DYys3QGC.css">
   <link rel="manifest" href="/ndeb-afk-prep/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/ndeb-afk-prep/registerSW.js"></script></head>
 
   <body>
-    <div id="root"></div>
+    <!-- Google Translate widget — outside React root so React never destroys it -->
+    <div id="google_translate_element" style="display:none;"></div>
+    <div id="root"></div>
+
+    <!--
+      Monkey-patch to prevent React crashes from Google Translate DOM mutations.
+      Google Translate wraps text nodes in <font> tags. React then tries to
+      removeChild / insertBefore those modified nodes and throws NotFoundError.
+
+      Improvements over naive patch:
+      - removeChild: delegates to the node's actual parent so it always removes,
+        rather than silently no-oping and leaving ghost text.
+      - insertBefore: only falls back to append when reference was reparented,
+        which is rare; normal insertions are unaffected.
+    -->
+    <script>
+      if (typeof Node === 'function' && Node.prototype) {
+        const _removeChild = Node.prototype.removeChild;
+        Node.prototype.removeChild = function(child) {
+          if (child.parentNode !== this) {
+            // Remove from the real parent instead of silently leaving ghost text
+            if (child.parentNode) child.parentNode.removeChild(child);
+            return child;
+          }
+          return _removeChild.apply(this, arguments);
+        };
+
+        const _insertBefore = Node.prototype.insertBefore;
+        Node.prototype.insertBefore = function(newNode, refNode) {
+          if (refNode && refNode.parentNode !== this) {
+            // Append rather than crash; this only fires when Translate reparented refNode
+            return _insertBefore.call(this, newNode, null);
+          }
+          return _insertBefore.apply(this, arguments);
+        };
+      }
+    </script>
+
+
     <script type="text/javascript">
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({
-          pageLanguage: 'en', 
+          pageLanguage: 'en',
           includedLanguages: 'en,fr',
           layout: google.translate.TranslateElement.InlineLayout.SIMPLE
         }, 'google_translate_element');
       }
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- async defer: never blocks React startup, even on slow connections -->
+    <script async defer id="google-translate-script" type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
   </body>
 </html>
+
