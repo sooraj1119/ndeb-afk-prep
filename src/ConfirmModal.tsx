@@ -44,9 +44,7 @@ export function ConfirmModal({
             className="glass-panel"
             style={{
               position: 'fixed', top: '50%', left: '50%',
-              background: 'var(--surface-color)',
-              backdropFilter: 'blur(16px)',
-              WebkitBackdropFilter: 'blur(16px)',
+              background: 'var(--bg-color)',
               border: '1px solid var(--border-color)',
               borderRadius: 'var(--radius-lg)',
               padding: '1.75rem',
