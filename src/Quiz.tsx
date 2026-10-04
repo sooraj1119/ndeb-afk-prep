@@ -762,7 +762,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
     <div style={{ padding: 'clamp(0.5rem, 3vw, 1rem)', paddingBottom: selectedAnswer !== null ? '65vh' : '12vh', maxWidth: '800px', margin: '0 auto', width: '100%' }}>
 
-      <button 
+      <button id="quiz-back-button"
 
         onClick={handleBackClick}
 
@@ -916,6 +916,8 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
   );
 
 }
+
+
 
 
 
