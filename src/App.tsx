@@ -2,6 +2,8 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 import React, { useState, useEffect, Suspense, useRef } from 'react';
 import { App as CapacitorApp } from '@capacitor/app';
+import { SplashScreen } from '@capacitor/splash-screen';
+import { SplashScreen } from '@capacitor/splash-screen';
 import splashImg from './assets/splash.jpg';
 
 const TopicSelection = React.lazy(() => import('./TopicSelection').then(m => ({ default: m.TopicSelection })));
@@ -104,15 +106,31 @@ function App() {
 
   useEffect(() => {
     const listener = CapacitorApp.addListener('backButton', () => {
-      if (showPaywall) { setShowPaywall(false); }
-      else if (showDisclaimer) { /* do nothing */ }
-      else if (quizFinished) { setQuizFinished(false); setSelectedTopic(null); }
-      else if (selectedTopic) { const backBtn = document.getElementById('quiz-back-button'); if (backBtn) { backBtn.click(); } else { setSelectedTopic(null); } }
-      else if (activeTab !== 'practice') { setActiveTab('practice'); }
-      else { CapacitorApp.exitApp(); }
+      // 1. Close Modals first
+      if (showPaywall) { setShowPaywall(false); return; }
+      if (showDisclaimer) { return; }
+      if (confirmNav) { setConfirmNav(null); return; }
+      // 2. Handle active quiz state (just unmount it, Quiz.tsx handles saving on unmount)
+      if (selectedTopic && !quizFinished) {
+        setSelectedTopic(null);
+        return;
+      }
+      // 3. Handle quiz results state
+      if (quizFinished) {
+        setQuizFinished(false);
+        setSelectedTopic(null);
+        return;
+      }
+      // 4. Handle tab navigation
+      if (activeTab !== 'practice') {
+        setActiveTab('practice');
+        return;
+      }
+      // 5. If on practice tab and no topic selected, exit app
+      CapacitorApp.exitApp();
     });
     return () => { listener.then(l => l.remove()); };
-  }, [showPaywall, showDisclaimer, quizFinished, selectedTopic, activeTab]);
+  }, [showPaywall, showDisclaimer, quizFinished, selectedTopic, activeTab, confirmNav]);
 
 
 
@@ -123,13 +141,13 @@ function App() {
   useEffect(() => {
     // If we just reloaded due to a language switch, re-fire premium status
     // so usePremiumStatus() re-reads localStorage and avoids a stale free-user state
-    loadAllQuestions().then(() => setQuestionsLoaded(true)).catch(e => {
+      loadAllQuestions().then(() => { setQuestionsLoaded(true); if (Capacitor.isNativePlatform()) { SplashScreen.hide(); } }).catch(e => {
 
       console.error('Failed to load questions:', e);
 
       // fallback in case of error
 
-      setQuestionsLoaded(true);
+      loadAllQuestions().then(() => { setQuestionsLoaded(true); if (Capacitor.isNativePlatform()) { SplashScreen.hide(); } }).catch(e => {
 
     });
 
@@ -813,6 +831,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
