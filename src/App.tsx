@@ -252,11 +252,7 @@ function App() {
 
 
   const confirmNavigation = (onConfirm: () => void) => {
-    if (activeTab === 'practice' && selectedTopic && !quizFinished && selectedTopic !== 'mistakes_list') {
-      setConfirmNav(() => onConfirm);
-    } else {
-      onConfirm();
-    }
+    onConfirm();
   };
 
   const resetState = () => {
@@ -334,18 +330,7 @@ function App() {
       )}
 
             <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="Pro Features" />
-      <ConfirmModal
-        isOpen={!!confirmNav}
-        title="Quit Quiz?"
-        message="Are you sure you want to quit the current quiz? Your progress will be lost."
-        confirmLabel="Quit"
-        confirmColor="#ef4444"
-        onCancel={() => setConfirmNav(null)}
-        onConfirm={() => {
-          if (confirmNav) { confirmNav(); }
-          setConfirmNav(null);
-        }}
-      />
+
 
 
 
