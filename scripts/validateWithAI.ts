@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import Groq from 'groq-sdk';
 import dotenv from 'dotenv';
 import path from 'path';
@@ -10,6 +10,7 @@ const apiKeys = [
   process.env.VITE_GROQ_API_KEY_2,
   process.env.VITE_GROQ_API_KEY_3,
   process.env.VITE_GROQ_API_KEY_4,
+  process.env.VITE_GROQ_API_KEY_5,
 ].filter(Boolean) as string[];
 
 if (apiKeys.length === 0) { console.error("No Groq API keys found!"); process.exit(1); }
@@ -42,7 +43,9 @@ const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 const flagged: any[] = fs.existsSync(flaggedPath) ? JSON.parse(fs.readFileSync(flaggedPath, 'utf8')) : [];
 
 async function verifyBatch(batch: any[]): Promise<{ id: string; isCorrect: boolean }[]> {
-  const prompt = `You are an NDEB dental board examiner. For each question, determine if the designated correct answer index is medically accurate.
+  const prompt = `You are a Master NDEB (National Dental Examining Board of Canada) examiner for the AFK (Assessment of Fundamental Knowledge) exam. 
+For each question, STRICTLY evaluate if the designated correct answer is medically and scientifically accurate according to official NDEB AFK guidelines and current dental standards.
+If there is ANY doubt, ambiguity, or if multiple answers could be considered correct under AFK standards, mark it as false.
 
 Return ONLY a valid JSON array, no markdown, no explanation:
 [{"id":"<id>","isCorrect":true},{"id":"<id>","isCorrect":false}]
@@ -70,7 +73,7 @@ Correct Index: ${q.correctAnswer}
 }
 
 async function run() {
-  console.log("Starting Groq 4-Key Rotating AI Audit (10 per batch, 1s pacing)...\n");
+  console.log("Starting Groq 5-Key Rotating AI Audit (10 per batch, 1s pacing)...\n");
   const BATCH_SIZE = 10;
   let totalVerified = 0;
   let totalFlagged = 0;
@@ -116,9 +119,10 @@ async function run() {
           const msg = error?.message || '';
           const isDaily = msg.includes('tokens per day') || msg.includes('TPD');
           const isMinute = msg.includes('per minute') || msg.includes('OTPM');
+          const isInvalid = error?.status === 401 || msg.includes('Invalid API Key') || msg.includes('invalid_api_key');
 
-          if (isDaily) {
-            console.log(`\n  [KEY ${currentKeyIndex + 1}] Daily limit hit.`);
+          if (isDaily || isInvalid) {
+            console.log(`\n  [KEY ${currentKeyIndex + 1}] Exhausted or Invalid (401). Rotating...`);
             const rotated = rotateKey();
             if (!rotated) {
               console.log('\n  All keys exhausted for today. Stopping. Run again tomorrow.');
@@ -128,7 +132,7 @@ async function run() {
             console.log(`\n  [RATE] Per-minute limit. Waiting 15s...`);
             await sleep(15000);
           } else {
-            console.log(`\n  [ERROR] ${error.status || ''}: ${msg.substring(0, 120)} - Waiting 10s...`);
+            console.log(`\n  [ERROR] ${error?.status || ''}: ${msg.substring(0, 120)} - Waiting 10s...`);
             await sleep(10000);
           }
         }
