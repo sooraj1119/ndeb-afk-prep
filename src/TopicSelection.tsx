@@ -80,40 +80,44 @@ export function TopicSelection({ onSelect }: Props) {
       </div>
 
       <div style={{ display: 'grid', gap: 'clamp(0.75rem, 3vw, 1.25rem)', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', marginBottom: 'clamp(1.5rem, 4vw, 2rem)' }}>
-        
         {/* Daily Review Banner */}
         <motion.div 
-          onClick={() => dueReviewCount > 0 && onSelect('srs_review')}
-          whileHover={dueReviewCount > 0 ? { y: -5, boxShadow: 'var(--shadow-md)' } : {}}
+          onClick={() => {
+            if (!isPremium) setShowPaywall(true);
+            else if (dueReviewCount > 0) onSelect('srs_review');
+          }}
+          whileHover={(!isPremium || dueReviewCount > 0) ? { y: -5, boxShadow: 'var(--shadow-md)' } : {}}
           style={{
-            background: dueReviewCount > 0 ? 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)' : 'var(--surface-hover)',
+            background: (!isPremium || dueReviewCount > 0) ? 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)' : 'var(--surface-hover)',
             padding: 'clamp(0.85rem, 3vw, 1rem)',
             borderRadius: 'var(--radius-lg)',
-            color: dueReviewCount > 0 ? 'white' : 'var(--text-secondary)',
-            cursor: dueReviewCount > 0 ? 'pointer' : 'default',
+            color: (!isPremium || dueReviewCount > 0) ? 'white' : 'var(--text-secondary)',
+            cursor: (!isPremium || dueReviewCount > 0) ? 'pointer' : 'default',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            boxShadow: dueReviewCount > 0 ? 'var(--shadow-sm)' : 'none',
+            boxShadow: (!isPremium || dueReviewCount > 0) ? 'var(--shadow-sm)' : 'none',
             gridColumn: '1 / -1',
-            opacity: dueReviewCount > 0 ? 1 : 0.6
+            opacity: (!isPremium || dueReviewCount > 0) ? 1 : 0.6
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <div style={{ background: dueReviewCount > 0 ? 'rgba(255,255,255,0.2)' : 'var(--border-color)', padding: '0.6rem', borderRadius: '50%', flexShrink: 0 }}>
-              <CalendarDays size={24} color={dueReviewCount > 0 ? "white" : "var(--text-secondary)"} />
+              <div style={{ background: (!isPremium || dueReviewCount > 0) ? 'rgba(255,255,255,0.2)' : 'var(--border-color)', padding: '0.6rem', borderRadius: '50%', flexShrink: 0 }}>
+              {!isPremium ? <Lock size={24} color="white" /> : <CalendarDays size={24} color={dueReviewCount > 0 ? "white" : "var(--text-secondary)"} />}
             </div>
             <div>
               <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: '0 0 0.5rem 0', fontWeight: 700 }}>Daily Review (Spaced Repetition)</h3>
               <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>
-                {dueReviewCount > 0 ? (
+                {!isPremium ? "Unlock to practice missed questions using spaced repetition." : 
+                 dueReviewCount > 0 ? (
                     <>You have <span translate="no">{dueReviewCount}</span> questions due for review today.</>
                   ) : "You're all caught up for today!"}
               </p>
             </div>
           </div>
-          {dueReviewCount > 0 && <ChevronRight size={22} opacity={0.8} style={{ flexShrink: 0 }} />}
+          {(!isPremium || dueReviewCount > 0) && <ChevronRight size={22} opacity={0.8} style={{ flexShrink: 0 }} />}
         </motion.div>
+
 
         {/* Simulation Mode Banner */}
         <motion.div 

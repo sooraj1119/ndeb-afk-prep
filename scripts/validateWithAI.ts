@@ -59,17 +59,27 @@ Q: ${q.question}
 Correct Index: ${q.correctAnswer}
 ---`).join('\n')}`;
 
-  const response = await getClient().chat.completions.create({
-    model: 'qwen/qwen3.8-27b',
-    messages: [{ role: 'user', content: prompt }],
-    temperature: 0.0,
-    max_tokens: 512,
-  });
+  async function tryModel(modelName: string) {
+    const response = await getClient().chat.completions.create({
+      model: modelName,
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.0,
+      max_tokens: 512,
+    });
+    const text = response.choices[0]?.message?.content || '';
+    const match = text.match(/\[[\s\S]*\]/);
+    if (!match) throw new Error('No JSON array in response: ' + text.substring(0, 200));
+    const parsed = JSON.parse(match[0]); 
+    if (!parsed || parsed.length === 0) throw new Error('Empty array'); 
+    return parsed;
+  }
 
-  const text = response.choices[0]?.message?.content || '[]';
-  const match = text.match(/\[[\s\S]*\]/);
-  if (!match) throw new Error('No JSON array in response: ' + text.substring(0, 200));
-  return JSON.parse(match[0]);
+  try {
+    return await tryModel('openai/gpt-oss-120b');
+  } catch (err: any) {
+    console.log(`\n  [FALLBACK] 120B failed, falling back to 27B...`);
+    return await tryModel('qwen/qwen3.8-27b');
+  }
 }
 
 async function run() {
