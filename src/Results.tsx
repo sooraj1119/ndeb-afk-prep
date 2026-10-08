@@ -1,13 +1,10 @@
-import { getTotalQuestionCount } from './lib/questionsStore';
-import React from 'react';
-import { Trophy, RefreshCw, Star, BarChart2 } from 'lucide-react';
+﻿import { getTotalQuestionCount } from './lib/questionsStore';
+import React, { useState, useEffect } from 'react';
+import { Trophy, RefreshCw, Star, BarChart2, Crown } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { topics } from './lib/data';
-import { Crown } from 'lucide-react';
 import { usePremiumStatus } from './lib/storage';
 import { PaywallModal } from './PaywallModal';
-import { useState, useEffect } from 'react';
 
 interface Props {
   score: number;
@@ -19,6 +16,7 @@ interface Props {
 export function Results({ score, total, onRestart, breakdown }: Props) {
   const isPremium = usePremiumStatus();
   const [showPaywall, setShowPaywall] = useState(false);
+
   useEffect(() => {
     if (!isPremium) {
       const t = setTimeout(() => setShowPaywall(true), 1200);
@@ -36,67 +34,123 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
   const breakdownData = breakdown 
     ? Object.keys(breakdown).map(topicId => {
         const t = topics.find(t => t.id === topicId);
-        const name = t ? t.name.replace(' & ', ' ') : topicId;
+        const name = t ? t.name : topicId;
         const b = breakdown[topicId];
         return {
-          name: name.length > 20 ? name.substring(0, 20) + '...' : name,
+          id: topicId,
+          name,
+          correct: b.correct,
+          total: b.total,
           score: b.total > 0 ? Math.round((b.correct / b.total) * 100) : 0
         };
       }).sort((a, b) => b.score - a.score)
     : [];
 
   return (
-    <div style={{ maxWidth: '800px', margin: '2rem auto', textAlign: 'center', padding: '0 1rem' }}>
+    <div style={{ maxWidth: '800px', margin: '1rem auto 2rem', textAlign: 'center', padding: '0 0.75rem' }}>
       <motion.div 
         className="glass-panel" 
-        style={{ padding: '3rem 2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem', background: 'var(--surface-color)' }}
+        style={{ 
+          padding: 'clamp(1.5rem, 4vw, 2.5rem) clamp(1rem, 3vw, 1.75rem)', 
+          display: 'flex', 
+          flexDirection: 'column', 
+          alignItems: 'center', 
+          gap: '1.5rem', 
+          background: 'var(--surface-color)' 
+        }}
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
         <motion.div 
-          style={{ background: 'rgba(56, 189, 248, 0.1)', padding: '1.5rem', borderRadius: '50%', color: 'var(--accent-color)' }}
+          style={{ background: 'rgba(56, 189, 248, 0.1)', padding: '1.25rem', borderRadius: '50%', color: 'var(--accent-color)' }}
           initial={{ scale: 0, rotate: -180 }}
           animate={{ scale: 1, rotate: 0 }}
           transition={{ type: 'spring', damping: 15, delay: 0.2 }}
         >
-          {percentage >= 70 ? <Trophy size={48} /> : <Star size={48} />}
+          {percentage >= 70 ? <Trophy size={44} /> : <Star size={44} />}
         </motion.div>
         
         <div>
-          <h2 style={{ fontSize: '2rem', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>
+          <h2 style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', marginBottom: '0.4rem', color: 'var(--text-primary)' }}>
             Quiz Complete!
           </h2>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>{message}</p>
+          <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.95rem, 3vw, 1.1rem)' }}>{message}</p>
         </div>
 
-        <div style={{ background: 'var(--surface-color)', padding: '2rem', borderRadius: 'var(--radius-lg)', width: '100%', maxWidth: '400px', border: '1px solid var(--border-color)' }}>
-          <div style={{ fontSize: '3.5rem', fontWeight: '800', color: 'var(--accent-color)', lineHeight: '1', letterSpacing: '-0.05em' }}>
+        <div style={{ background: 'var(--surface-color)', padding: '1.5rem 1rem', borderRadius: 'var(--radius-lg)', width: '100%', maxWidth: '380px', border: '1px solid var(--border-color)' }}>
+          <div style={{ fontSize: 'clamp(2.75rem, 8vw, 3.5rem)', fontWeight: '800', color: 'var(--accent-color)', lineHeight: '1', letterSpacing: '-0.05em' }}>
             <span translate="no">{percentage}</span>%
-            </div>
-          <div style={{ color: 'var(--text-secondary)', marginTop: '0.5rem', fontSize: '1.1rem', fontWeight: 500 }}>
+          </div>
+          <div style={{ color: 'var(--text-secondary)', marginTop: '0.5rem', fontSize: '1rem', fontWeight: 500 }}>
             <span translate="no">{score}</span> out of <span translate="no">{total}</span> correct
           </div>
         </div>
 
         {breakdownData.length > 0 && (
-          <div style={{ width: '100%', marginTop: '1rem', background: 'var(--surface-color)', padding: '1.5rem', borderRadius: 'var(--radius-lg)', border: '1px solid var(--border-color)' }}>
-            <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', justifyContent: 'center', marginBottom: '1.5rem', color: 'var(--text-primary)' }}>
+          <div style={{ 
+            width: '100%', 
+            marginTop: '0.5rem', 
+            background: 'var(--surface-color)', 
+            padding: 'clamp(1rem, 3vw, 1.5rem)', 
+            borderRadius: 'var(--radius-lg)', 
+            border: '1px solid var(--border-color)',
+            textAlign: 'left'
+          }}>
+            <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', justifyContent: 'center', marginBottom: '1.25rem', color: 'var(--text-primary)', fontSize: '1.1rem' }}>
               <BarChart2 size={20} color="var(--accent-color)" /> Topic Breakdown
             </h3>
-            <div style={{ width: '100%', height: `${Math.max(300, breakdownData.length * 40)}px` }}>
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={breakdownData} layout="vertical" margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-                  <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="var(--border-color)" />
-                  <XAxis type="number" domain={[0, 100]} hide />
-                  <YAxis dataKey="name" type="category" width={120} tick={{ fill: 'var(--text-secondary)', fontSize: 12 }} />
-                  <Tooltip 
-                    formatter={(value: any) => [`${value}%`, 'Accuracy']}
-                    contentStyle={{ background: 'var(--surface-color)', border: '1px solid var(--border-color)', borderRadius: '8px', color: 'var(--text-primary)' }}
-                  />
-                  <Bar dataKey="score" fill="var(--accent-color)" radius={[0, 4, 4, 0]} barSize={20} />
-                </BarChart>
-              </ResponsiveContainer>
+            
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem', width: '100%' }}>
+              {breakdownData.map((item) => {
+                const isHigh = item.score >= 75;
+                const isMid = item.score >= 50;
+                const badgeColor = isHigh ? '#10b981' : isMid ? 'var(--accent-color)' : '#ef4444';
+                const badgeBg = isHigh ? 'rgba(16, 185, 129, 0.1)' : isMid ? 'rgba(56, 189, 248, 0.1)' : 'rgba(239, 68, 68, 0.1)';
+                const barGradient = isHigh 
+                  ? 'linear-gradient(90deg, #10b981, #059669)' 
+                  : isMid 
+                  ? 'linear-gradient(90deg, var(--accent-color), #0284c7)' 
+                  : 'linear-gradient(90deg, #f87171, #ef4444)';
+
+                return (
+                  <div key={item.id} style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+                      <span style={{ fontWeight: 600, color: 'var(--text-primary)', fontSize: 'clamp(0.82rem, 2.8vw, 0.92rem)' }}>
+                        {item.name}
+                      </span>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                        <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+                          <span translate="no">{item.correct}</span>/<span translate="no">{item.total}</span>
+                        </span>
+                        <span style={{ 
+                          fontSize: '0.8rem', 
+                          fontWeight: 700, 
+                          color: badgeColor, 
+                          background: badgeBg, 
+                          padding: '0.15rem 0.45rem', 
+                          borderRadius: '4px' 
+                        }}>
+                          <span translate="no">{item.score}</span>%
+                        </span>
+                      </div>
+                    </div>
+                    
+                    <div style={{ width: '100%', height: '6px', background: 'var(--border-color)', borderRadius: '999px', overflow: 'hidden' }}>
+                      <motion.div 
+                        initial={{ width: 0 }}
+                        animate={{ width: `${item.score}%` }}
+                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        style={{ 
+                          height: '100%', 
+                          background: barGradient,
+                          borderRadius: '999px'
+                        }} 
+                      />
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}
@@ -104,7 +158,7 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
         <motion.button 
           onClick={onRestart}
           className="primary-btn"
-          style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', width: '100%', maxWidth: '400px', justifyContent: 'center', fontSize: '1.2rem', padding: '1.2rem', marginTop: '1rem' }}
+          style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', width: '100%', maxWidth: '380px', justifyContent: 'center', fontSize: '1.1rem', padding: '1rem', marginTop: '0.5rem' }}
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
         >
@@ -115,17 +169,17 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
           <div
             onClick={() => setShowPaywall(true)}
             style={{
-              marginTop: '2rem', padding: '2rem', borderRadius: 'var(--radius-lg)',
+              marginTop: '1.5rem', padding: '1.5rem 1rem', borderRadius: 'var(--radius-lg)',
               background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.1) 100%)',
-              border: '1px dashed var(--success-color)', cursor: 'pointer'
+              border: '1px dashed var(--success-color)', cursor: 'pointer', width: '100%', maxWidth: '380px'
             }}
           >
-            <Crown size={32} color="#10b981" style={{ marginBottom: '1rem' }} />
-            <h3 style={{ margin: '0 0 0.5rem', color: 'var(--text-primary)' }}>Want more questions?</h3>
-            <p style={{ margin: '0 0 1.5rem', color: 'var(--text-secondary)', fontSize: '0.95rem' }}>
-              You've completed the free preview. Unlock all {getTotalQuestionCount().toLocaleString()} questions and full simulated exams to maximize your score.
+            <Crown size={30} color="#10b981" style={{ marginBottom: '0.75rem' }} />
+            <h3 style={{ margin: '0 0 0.5rem', color: 'var(--text-primary)', fontSize: '1.1rem' }}>Want more questions?</h3>
+            <p style={{ margin: '0 0 1.25rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+              You have completed the free preview. Unlock all {getTotalQuestionCount().toLocaleString()} questions and full simulated exams to maximize your score.
             </p>
-            <button className="primary-btn" style={{ background: 'var(--success-color)' }}>
+            <button className="primary-btn" style={{ background: 'var(--success-color)', width: '100%' }}>
               Upgrade to Pro
             </button>
           </div>
@@ -136,4 +190,3 @@ export function Results({ score, total, onRestart, breakdown }: Props) {
     </div>
   );
 }
-
