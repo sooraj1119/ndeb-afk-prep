@@ -5734,5 +5734,1637 @@
       "The apical zone",
       "The lateral wall of the pocket"
     ]
+  },
+  {
+    "file": "periodontology.json",
+    "id": 440,
+    "question": "During periodontal surgery on the maxillary posterior region, the surgeon aims to preserve maximum keratinized tissue and achieve primary closure using a modified Widman flap. Which of the following incisions is primarily responsible for removing the pocket epithelium and entering the connective tissue?",
+    "correctAnswer": 3,
+    "options": [
+      "Sulcular incision",
+      "Interdental horizontal incision",
+      "Relieving vertical incision",
+      "Primary internal bevel incision"
+    ]
+  },
+  {
+    "file": "periodontology.json",
+    "id": 691271179,
+    "question": "A 72-year-old female patient with a history of a prosthetic heart valve replacement 3 years ago presents for a tooth extraction (#36) due to deep caries. Her medical history indicates she is currently taking warfarin, and her INR was 2.5 yesterday. She reports no allergies. According to current Canadian guidelines (CDA/IDSA), what is the MOST appropriate antibiotic prophylaxis regimen for this patient?",
+    "correctAnswer": 0,
+    "options": [
+      "Amoxicillin 2g orally, 30-60 minutes before the procedure.",
+      "Clindamycin 600mg orally, 30-60 minutes before the procedure.",
+      "No antibiotic prophylaxis is required for tooth extraction with prosthetic heart valves.",
+      "Azithromycin 500mg orally, 30-60 minutes before the procedure."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 3,
+    "question": "A 72-year-old male patient presents for the placement of multiple restorations. His medical history is significant for uncontrolled hypertension (blood pressure 160/100 mmHg) and a myocardial infarction (MI) that occurred 6 months ago. According to current dental anesthetic guidelines, which local anesthetic regimen is most appropriate for this patient?",
+    "correctAnswer": 0,
+    "options": [
+      "Lidocaine 2% with 1:100,000 epinephrine",
+      "Lidocaine 2% with 1:50,000 epinephrine",
+      "Bupivacaine 0.5% with 1:200,000 epinephrine",
+      "Mepivacaine 3% without vasoconstrictor"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 4,
+    "question": "A 45-year-old male patient with a history of controlled hypertension is currently taking non-selective beta-blockers (e.g., propranolol). He requires local anesthesia for a routine dental extraction. Which of the following local anesthetic agents should be used with extreme caution or avoided due to the risk of unopposed alpha-adrenergic stimulation?",
+    "correctAnswer": 0,
+    "options": [
+      "Lidocaine with epinephrine 1:100,000",
+      "Mepivacaine 3% plain",
+      "Prilocaine 4% with felypressin",
+      "Articaine 4% with epinephrine 1:100,000"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 68,
+    "question": "Which of the following antifungal agents, commonly used to treat oral candidiasis (thrush), acts primarily by binding to ergosterol in the fungal cell membrane, creating pores that lead to cell death?",
+    "correctAnswer": 1,
+    "options": [
+      "Clotrimazole",
+      "Nystatin",
+      "Ketoconazole",
+      "Fluconazole"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 74,
+    "question": "A patient taking a non-selective beta-blocker (e.g., propranolol) for hypertension requires local anesthesia. Which of the following is the primary potential drug interaction when administering a local anesthetic containing epinephrine?",
+    "correctAnswer": 2,
+    "options": [
+      "Significant reflex tachycardia",
+      "Immediate central nervous system depression",
+      "Severe hypertension and reflex bradycardia",
+      "Severe hypotension and bradycardia"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 112,
+    "question": "A 45-year-old male patient presents to your clinic for a routine extraction. His medical history is significant for hypertension controlled with hydrochlorothiazide and non-selective beta-blocker therapy (propranolol). Which of the following is the most critical cardiovascular complication to anticipate when administering a local anesthetic containing epinephrine?",
+    "correctAnswer": 2,
+    "options": [
+      "Tachycardia and cardiac arrhythmias",
+      "Severe hypotension and bradycardia",
+      "Severe hypertension and reflex bradycardia",
+      "Hypokalemia-induced cardiac arrest"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 122,
+    "question": "A 45-year-old male patient presents to your dental clinic requiring multiple extractions. He has a history of unstable angina and is currently taking nitroglycerin, aspirin, and metoprolol. Which of the following local anesthetic formulations is contraindicated or requires extreme caution in this patient?",
+    "correctAnswer": 3,
+    "options": [
+      "4% articaine with 1:200,000 epinephrine",
+      "2% prilocaine with 1:200,000 epinephrine",
+      "3% mepivacaine plain",
+      "2% lidocaine with 1:100,000 epinephrine"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 124,
+    "question": "A patient with a documented severe IgE-mediated allergy to penicillin requires antibiotic prophylaxis for infective endocarditis prior to a scaling and root planing procedure. Which of the following is the most appropriate alternative antibiotic to prescribe?",
+    "correctAnswer": 1,
+    "options": [
+      "Amoxicillin 2g orally",
+      "Clindamycin 600mg orally",
+      "Cephalexin 2g orally",
+      "Ampicillin 2g IM"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 144,
+    "question": "A patient presents with a severe penicillin allergy (anaphylaxis). Which of the following antibiotics is the safest and most appropriate alternative for prophylaxis against infective endocarditis prior to a dental extraction?",
+    "correctAnswer": 0,
+    "options": [
+      "Clindamycin",
+      "Amoxicillin",
+      "Cephalexin",
+      "Ampicillin"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 225,
+    "question": "A 45-year-old male patient with a history of unstable angina requires a scaling and root planing procedure. He is currently taking nitroglycerin as needed. Which of the following local anesthetic formulations is the most appropriate choice for this patient?",
+    "correctAnswer": 3,
+    "options": [
+      "2% Lidocaine with 1:100,000 epinephrine",
+      "2% Lidocaine with 1:50,000 epinephrine",
+      "4% Articaine with 1:100,000 epinephrine",
+      "3% Mepivacaine plain"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 313,
+    "question": "A patient with severe hepatic impairment (Child-Pugh Class C) requires an analgesic for post-operative dental pain. Which of the following non-steroidal anti-inflammatory drugs (NSAIDs) is the most appropriate choice, considering that it is primarily metabolized by the kidneys and has a lower risk of direct hepatotoxicity compared to other common analgesics?",
+    "correctAnswer": 2,
+    "options": [
+      "Acetaminophen",
+      "Naproxen",
+      "Ibuprofen",
+      "Aspirin"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 315,
+    "question": "A 45-year-old male patient taking warfarin for deep vein thrombosis requires a short course of an analgesic for acute toothache. Which of the following analgesics has the most significant potential to potentiate the anticoagulant effect of warfarin?",
+    "correctAnswer": 0,
+    "options": [
+      "Acetaminophen",
+      "Celecoxib",
+      "Ibuprofen",
+      "Tramadol"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 317,
+    "question": "A patient with a history of unstable angina and severe hypertension is scheduled for a routine dental extraction. Which local anesthetic vasoconstrictor is generally considered contraindicated or requires extreme caution in this context due to its potent alpha-adrenergic activity and potential to precipitate a hypertensive crisis or cardiac ischemia?",
+    "correctAnswer": 2,
+    "options": [
+      "Epinephrine",
+      "Levonordefrin",
+      "Phenylephrine",
+      "Felypressin"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 330,
+    "question": "A 45-year-old male with a history of a prosthetic heart valve requires a dental extraction. He has no known drug allergies. According to current Canadian guidelines, what is the recommended antibiotic prophylaxis regimen?",
+    "correctAnswer": 3,
+    "options": [
+      "Amoxicillin 500mg orally, 30 minutes prior to the procedure.",
+      "Clindamycin 600mg orally, 1 hour prior to the procedure.",
+      "Azithromycin 500mg orally, 1 hour prior to the procedure.",
+      "Amoxicillin 2g orally, 1 hour prior to the procedure."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 331,
+    "question": "A 68-year-old male with stable angina pectoris, currently managed with nitroglycerin and a beta-blocker, presents for a complex restorative procedure requiring local anesthesia. He reports no known drug allergies. Which of the following local anesthetic regimens is most appropriate to minimize cardiovascular risk while providing adequate anesthesia?",
+    "correctAnswer": 1,
+    "options": [
+      "Lidocaine 2% with 1:100,000 epinephrine, limited to 2 carpules",
+      "Mepivacaine 3% plain, limited to 3 carpules",
+      "Bupivacaine 0.5% with 1:200,000 epinephrine, limited to 2 carpules",
+      "Articaine 4% with 1:100,000 epinephrine, limited to 2 carpules"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 332,
+    "question": "A 55-year-old female presents with acute pain from pericoronitis. Her medical history includes uncontrolled hypertension, peptic ulcer disease, and severe asthma. She has no known drug allergies. Which analgesic would be LEAST appropriate for her initial pain management?",
+    "correctAnswer": 1,
+    "options": [
+      "Codeine 30mg with acetaminophen 325mg every 4-6 hours.",
+      "Ibuprofen 400mg every 6 hours.",
+      "Acetaminophen 500mg every 6 hours.",
+      "Naproxen 220mg every 12 hours."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 336,
+    "question": "A 60-year-old female, recently completed a course of broad-spectrum antibiotics, presents with white, cottage-cheese-like lesions on her buccal mucosa that wipe off, leaving erythematous bases. A diagnosis of pseudomembranous candidiasis is made. Which antifungal medication is most appropriate for initial topical treatment?",
+    "correctAnswer": 0,
+    "options": [
+      "Nystatin oral suspension 100,000 units/mL, 5mL swish and swallow, 4 times daily.",
+      "Clotrimazole troches 10mg, 5 times daily.",
+      "Ketoconazole 200mg orally daily.",
+      "Fluconazole 100mg orally daily."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 27522425,
+    "question": "A 75-year-old edentulous female patient is being fitted with a new complete maxillary denture. During the jaw relation records appointment, the clinician is determining the vertical dimension of occlusion (VDO). Which of the following methods is considered the MOST reliable indicator for establishing the correct VDO?",
+    "correctAnswer": 1,
+    "options": [
+      "Measuring the interocclusal rest space (freeway space) and ensuring it is 2-4 mm",
+      "Using pre-extraction records, if available, such as old photographs or casts",
+      "Having the patient repeat sibilant sounds (e.g., 's', 'ch', 'j') to check for closest speaking space",
+      "Utilizing the Willis bite gauge or facial measurements such as the distance from the pupil to the commissure"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 832972715,
+    "question": "A 25-year-old male patient presents to your dental office for the extraction of an impacted mandibular third molar (#48). His medical history is non-contributory. During the extraction, you note a fracture of the lingual cortical plate. What is the MOST appropriate immediate action?",
+    "correctAnswer": 0,
+    "options": [
+      "Gently reposition the fractured segment and stabilize it, ensuring no displacement into the sublingual space.",
+      "Aggressively remove the fractured segment to prevent infection.",
+      "Refer the patient immediately to an oral and maxillofacial surgeon.",
+      "Suture the area tightly and prescribe a broad-spectrum antibiotic."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 550600713,
+    "question": "A 22-year-old male patient presents to your dental office with a chief complaint of intermittent, sharp pain in his mandibular right posterior region, particularly when biting down on hard foods. He reports no spontaneous pain or sensitivity to cold. Clinical examination reveals a non-restored tooth #46 (mandibular right first molar) with a suspicious craze line extending from the central fossa towards the distal aspect. Transillumination confirms the presence of a crack. There is no evidence of caries or periodontal disease. What is the MOST appropriate initial management?",
+    "correctAnswer": 3,
+    "options": [
+      "Prescribe antibiotics and observe",
+      "Initiate root canal therapy immediately",
+      "Place a temporary restoration and reassess",
+      "Place a full coverage crown"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 491617944,
+    "question": "A 28-year-old female patient presents 3 days after an uneventful extraction of tooth #38 (mandibular left third molar) with localized swelling, severe throbbing pain, and a foul taste. Clinical examination reveals a partially empty socket with necrotic debris and a slight fever (38.1°C). What is the MOST likely diagnosis?",
+    "correctAnswer": 1,
+    "options": [
+      "Alveolar osteitis (Dry Socket)",
+      "Localized post-operative infection",
+      "Osteomyelitis",
+      "Temporomandibular joint disorder"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 863183081,
+    "question": "An 8-year-old male patient presents to your dental office after falling from his bicycle, resulting in trauma to his maxillary anterior teeth. Clinical examination reveals tooth #11 (maxillary right permanent central incisor) is displaced laterally with minimal mobility and no evidence of fracture. The tooth is tender to percussion. Radiographic examination shows the tooth is intruded slightly and displaced laterally, but the apex is still open. What is the MOST appropriate initial management?",
+    "correctAnswer": 0,
+    "options": [
+      "Immediately reposition the tooth with local anesthesia and splint.",
+      "Extract the tooth due to potential damage to the permanent successor.",
+      "Observe the tooth for spontaneous repositioning.",
+      "Initiate root canal treatment immediately."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 202035192,
+    "question": "Which of the following local anesthetic agents is contraindicated for patients with a known allergy to esters and is metabolized primarily in the liver?",
+    "correctAnswer": 1,
+    "options": [
+      "Procaine",
+      "Lidocaine",
+      "Bupivacaine",
+      "Articaine"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 7634549,
+    "question": "A 28-year-old male patient presents for a new patient exam. He reports no pain. Clinical examination reveals a non-carious cervical lesion (NCCL) on tooth #34 that is 2mm deep, V-shaped, and extends subgingivally on the buccal aspect. The tooth has normal vitality. What is the MOST appropriate initial management for this lesion?",
+    "correctAnswer": 0,
+    "options": [
+      "Monitor the lesion and recommend fluoride varnish application.",
+      "Immediate restoration with a glass ionomer cement.",
+      "Initiate endodontic treatment due to the depth of the lesion.",
+      "Perform a gingival graft to cover the exposed root surface."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 683832376,
+    "question": "A 42-year-old female patient requires restoration of a large Class II lesion on tooth #36. The lesion extends subgingivally and involves the proximal contact. She reports good oral hygiene and no history of bruxism. Esthetics is not a primary concern. What is the MOST appropriate restorative material choice, considering longevity and clinical handling?",
+    "correctAnswer": 2,
+    "options": [
+      "Flowable composite resin",
+      "Glass ionomer cement (GIC)",
+      "Amalgam",
+      "Porcelain inlay"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 239947198,
+    "question": "A dental patient requires a local anesthetic for a short-duration procedure (e.g., simple extraction or restoration) where a rapid onset of action and a relatively short duration of pulpal anesthesia are desired. Which of the following agents is most appropriate based on these pharmacokinetic properties?",
+    "correctAnswer": 3,
+    "options": [
+      "Bupivacaine (Marcaine)",
+      "Lidocaine (Xylocaine)",
+      "Articaine (Septocaine)",
+      "Mepivacaine (Carbocaine)"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 9970379,
+    "question": "A 32-year-old male patient presents to your dental office with severe pain originating from tooth #37, diagnosed with irreversible pulpitis. He reports no known allergies but states he has a history of mild asthma which is well-controlled with an as-needed inhaler. He denies any other systemic conditions. Which of the following non-opioid analgesic medications is MOST appropriate for initial pain management in this patient?",
+    "correctAnswer": 0,
+    "options": [
+      "Acetaminophen",
+      "Naproxen",
+      "Ibuprofen",
+      "Aspirin"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 971352404,
+    "question": "Which of the following anatomical structures forms the anterior boundary of the infratemporal fossa?",
+    "correctAnswer": 1,
+    "options": [
+      "Lateral pterygoid plate",
+      "Maxillary tuberosity",
+      "Mandibular ramus",
+      "Pterygomaxillary fissure"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 345121899,
+    "question": "A 12-year-old female patient presents to your dental office with her parents, concerned about persistent pain and swelling around tooth #36. Radiographic examination reveals a large carious lesion extending to the pulp and a periapical radiolucency. The tooth is vital to cold testing but tender to percussion. There is no mobility. What is the MOST appropriate treatment for tooth #36?",
+    "correctAnswer": 0,
+    "options": [
+      "Pulpectomy",
+      "Pulpotomy",
+      "Indirect pulp cap",
+      "Apexogenesis"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 354410976,
+    "question": "A 40-year-old male patient presents for an emergency dental procedure involving manipulation of gingival tissue. His medical history indicates he had a prosthetic heart valve placed 5 years ago due to a congenital heart defect, and he is currently stable. He also has a history of penicillin allergy. What is the MOST appropriate antibiotic prophylaxis regimen for this patient?",
+    "correctAnswer": 1,
+    "options": [
+      "2g Amoxicillin orally 30-60 minutes before the procedure",
+      "600mg Clindamycin orally 30-60 minutes before the procedure",
+      "No antibiotic prophylaxis is required for this patient",
+      "100mg Doxycycline orally 30-60 minutes before the procedure"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 306888343,
+    "question": "A 50-year-old female patient presents for a routine recall appointment. During the clinical examination, a bilateral, white, lace-like pattern (Wickham's striae) is observed on the buccal mucosa. The patient reports no pain or discomfort. Her medical history includes well-controlled hypertension. What is the MOST appropriate initial management?",
+    "correctAnswer": 2,
+    "options": [
+      "Prescribe a topical antifungal medication",
+      "Recommend a biopsy for definitive diagnosis",
+      "Monitor and reassure the patient",
+      "Initiate systemic corticosteroid therapy"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 693568710,
+    "question": "A 42-year-old female patient presents to your dental office for a routine check-up. She reports no pain, but upon clinical examination, you notice a well-defined, non-tender, exophytic lesion on the buccal mucosa adjacent to the occlusal plane. The lesion is firm, measures approximately 1 cm in diameter, has a smooth surface, and has been present for three months without change in size or character. What is the MOST appropriate next step in managing this lesion?",
+    "correctAnswer": 1,
+    "options": [
+      "Prescribe a topical antifungal cream",
+      "Reassure the patient and monitor its size",
+      "Perform an incisional biopsy",
+      "Advise the patient to avoid biting the area"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 903088245,
+    "question": "A 45-year-old patient presents with generalized gingival inflammation. During the clinical examination, the dentist notes a shallow, pathognomonic groove on the facial aspect of the maxillary central incisors. This anatomical feature, known as the gingival sulcus, is primarily defined by which of the following characteristics?",
+    "correctAnswer": 0,
+    "options": [
+      "It is a potential space between the free gingiva and the tooth surface, lined by the junctional epithelium.",
+      "It is a space filled with connective tissue fibers that anchor the gingiva directly to the cementum.",
+      "It is a region of the periodontal ligament that provides proprioceptive feedback to the tooth.",
+      "It is a glandular structure responsible for the secretion of gingival crevicular fluid."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 367370673,
+    "question": "Which of the following properties of a dental impression material is MOST critical for its accuracy in reproducing fine details of the oral tissues?",
+    "correctAnswer": 3,
+    "options": [
+      "High tear strength.",
+      "Long working time.",
+      "High dimensional stability.",
+      "Low viscosity and hydrophilicity."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 30078303,
+    "question": "A 50-year-old female patient, who is a heavy smoker, presents with a diffuse, asymptomatic white lesion on her buccal mucosa that cannot be scraped off. The lesion has a corrugated, 'wrinkled' appearance. She reports it has been present for several months and has not changed. What is the MOST appropriate initial step in the management of this lesion?",
+    "correctAnswer": 1,
+    "options": [
+      "Prescribe nystatin suspension to rule out candidiasis.",
+      "Advise strict tobacco cessation and re-evaluate the lesion in 2-3 weeks.",
+      "Perform an excisional biopsy of the lesion.",
+      "Reassure the patient and monitor at annual recall appointments."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 490035108,
+    "question": "A 7-year-old female patient presents with a deep occlusal carious lesion on tooth #74 (mandibular left primary second molar). The tooth has intermittent, sharp pain to cold stimuli that subsides quickly, but no spontaneous pain, swelling, or fistula. Radiographs show no periapical pathology. What is the MOST appropriate pulp treatment for this tooth?",
+    "correctAnswer": 3,
+    "options": [
+      "Direct pulp capping.",
+      "Pulpectomy.",
+      "Indirect pulp capping.",
+      "Pulpotomy."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 379568773,
+    "question": "A 62-year-old male patient presents with a chief complaint of difficulty chewing and speaking due to ill-fitting complete dentures. He has been wearing the current dentures for 15 years. Clinically, there is significant residual ridge resorption, especially in the mandibular arch, and the dentures exhibit poor retention and stability. What is the MOST appropriate initial management strategy?",
+    "correctAnswer": 3,
+    "options": [
+      "Immediate fabrication of new complete dentures",
+      "Relining the existing dentures with a soft liner",
+      "Referral for implant-supported overdentures",
+      "Tissue conditioning and reassessment"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 734398899,
+    "question": "A 25-year-old male patient presents with a painful, trismus-inducing swelling in the right mandibular angle region following the extraction of tooth #48 three days ago. He reports fever and malaise. Intraoral examination reveals significant swelling and tenderness in the retromolar pad area and limited mouth opening. What is the MOST appropriate initial management step?",
+    "correctAnswer": 0,
+    "options": [
+      "Administer intravenous antibiotics and refer to an oral surgeon.",
+      "Prescribe a broad-spectrum antibiotic and pain medication, then re-evaluate in 24 hours.",
+      "Incise and drain the area under local anesthesia.",
+      "Prescribe corticosteroids to reduce inflammation."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 508635519,
+    "question": "A patient with hypertension is currently taking a non-selective beta-blocker (e.g., propranolol). Which of the following local anesthetic formulations poses the greatest risk of precipitating a hypertensive crisis or severe bradycardia if administered in high doses or inadvertently injected intravascularly?",
+    "correctAnswer": 0,
+    "options": [
+      "Lidocaine 2% with 1:100,000 epinephrine",
+      "Mepivacaine 3% plain",
+      "Articaine 4% with 1:100,000 epinephrine",
+      "Bupivacaine 0.5% with 1:200,000 epinephrine"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 274817959,
+    "question": "A 28-year-old male patient presents to your office concerned about the generalized intrinsic discoloration of his anterior teeth. He reports consuming tetracycline antibiotics during childhood for recurrent ear infections. What is the MOST appropriate initial treatment option for improving the esthetics of his anterior teeth?",
+    "correctAnswer": 2,
+    "options": [
+      "Direct composite veneers.",
+      "Professional in-office vital bleaching.",
+      "Porcelain veneers.",
+      "Microabrasion with hydrochloric acid."
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 603543519,
+    "question": "A 40-year-old male patient presents for the extraction of a non-restorable mandibular third molar. His medical history includes well-controlled hypertension, for which he takes a thiazide diuretic. He reports no allergies. During the procedure, he experiences mild apprehension. Which local anesthetic agent, containing a vasoconstrictor, would be MOST appropriate for this patient?",
+    "correctAnswer": 0,
+    "options": [
+      "Articaine 4% with epinephrine 1:100,000",
+      "Lidocaine 2% with epinephrine 1:50,000",
+      "Bupivacaine 0.5% with epinephrine 1:200,000",
+      "Mepivacaine 3% without vasoconstrictor"
+    ]
+  },
+  {
+    "file": "pharmacology.json",
+    "id": 500996340,
+    "question": "A 65-year-old male patient presents for the extraction of a mandibular third molar. He has a history of chronic obstructive pulmonary disease (COPD) and is taking theophylline. Which local anesthetic with vasoconstrictor should be avoided due to a potential drug interaction that could lead to theophylline toxicity?",
+    "correctAnswer": 0,
+    "options": [
+      "Lidocaine with epinephrine",
+      "Mepivacaine with levonordefrin",
+      "Articaine with epinephrine",
+      "Bupivacaine with epinephrine"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 14,
+    "question": "A mandibular removable partial denture is being designed for a patient with Kennedy Class I edentulism. The patient has excellent periodontal support on the remaining teeth and a deep floor of the mouth (greater than 12 mm from the gingival margin to the floor of the mouth). Which major connector provides the greatest rigidity and is most appropriate for this clinical scenario?",
+    "correctAnswer": 2,
+    "options": [
+      "Lingual bar",
+      "Sublingual bar",
+      "Lingual plate",
+      "Double lingual bar"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 23,
+    "question": "Which of the following maxillary major connector designs is generally contraindicated in patients with a shallow palate or limited palatal depth due to the high risk of food entrapment, interference with phonetics, and potential gagging?",
+    "correctAnswer": 1,
+    "options": [
+      "Anterior-posterior palatal strap",
+      "U-shaped palatal connector (horseshoe)",
+      "Single palatal strap",
+      "Complete palatal plate"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 33,
+    "question": "An 80-year-old female with a history of severe xerostomia due to Sjögren's syndrome requires fixed prosthodontic treatment. Which cement is generally contraindicated for cementing full coverage crowns in this patient population due to its reliance on a water-based setting reaction and susceptibility to dehydration?",
+    "correctAnswer": 3,
+    "options": [
+      "Resin-modified glass ionomer cement",
+      "Self-adhesive resin cement",
+      "Zinc phosphate cement",
+      "Glass ionomer cement"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 37,
+    "question": "When evaluating the success of an osseointegrated dental implant supporting a single crown, which of the following radiographic findings is considered within normal limits during the first year of functional loading?",
+    "correctAnswer": 0,
+    "options": [
+      "0.5 mm to 1.5 mm of vertical bone loss from the implant-abutment junction during the first year",
+      "Progressive circumferential bone loss exceeding 0.2 mm annually after the first year",
+      "Vertical bone apposition of 3 mm above the implant platform",
+      "A continuous radiolucent line surrounding the entire length of the fixture"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 39,
+    "question": "A 58-year-old female patient presents two days after the cementation of a metal-ceramic crown on tooth #16. She reports severe, sharp pain upon biting and thermal sensitivity to cold that lingers for several seconds. Clinical examination reveals normal periodontal probing depths, negative percussion, and exquisite sensitivity to biting on a Tooth Slout. Pulp vitality testing with an electric pulp tester (EPT) shows a heightened response compared to the contralateral control tooth. What is the most likely diagnosis?",
+    "correctAnswer": 2,
+    "options": [
+      "Occlusal trauma due to a premature working-side or balancing-side interference",
+      "Reversible pulpitis secondary to deep dentinal excavation or thermal insult during preparation",
+      "Irreversible pulpitis secondary to deep dentinal excavation or thermal insult during preparation",
+      "Cement wash-out leading to microleakage"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 49,
+    "question": "Which of the following major connectors is considered the most rigid and is generally the first choice for a maxillary removable partial denture due to its excellent tissue compatibility and coverage?",
+    "correctAnswer": 1,
+    "options": [
+      "Single palatal strap",
+      "Anterior-posterior palatal strap",
+      "U-shaped palatal connector (horseshoe)",
+      "Complete palatal plate"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 52,
+    "question": "What is the primary purpose of incorporating a 'bead' (a minor depression, approximately 0.5 mm to 1 mm deep and wide) along the posterior palatal seal area on the maxillary master cast?",
+    "correctAnswer": 1,
+    "options": [
+      "To provide mechanical lock for the acrylic resin during processing",
+      "To compensate for volumetric shrinkage of the acrylic resin during polymerization and ensure positive tissue contact",
+      "To enhance the retention of the mandibular denture via suction",
+      "To define the posterior limit of the vibrating line surgically"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 60,
+    "question": "An edentulous patient complains of a burning sensation and pain localized exclusively to the mucosa underlying the mandibular complete denture. The underlying bone is firm and non-tender. The most probable etiology is:",
+    "correctAnswer": 2,
+    "options": [
+      "Systemic vitamin B12 deficiency",
+      "Allergic reaction to the acrylic denture base resin monomer",
+      "Inadequate relief over the mental foramen leading to localized nerve ischemia",
+      "Compression of the mental nerve due to excessive vertical dimension of occlusion"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 74,
+    "question": "During the try-in appointment for a maxillary complete denture, you evaluate the phonetics. When the patient pronounces 'S' sounds, the maxillary and mandibular anterior teeth touch or click together, indicating that the closest speaking space is excessively diminished. What does this clinical finding indicate?",
+    "correctAnswer": 0,
+    "options": [
+      "The vertical dimension of occlusion (VDO) is excessive",
+      "The maxillary incisors are set too far labially",
+      "The occlusal plane is positioned too superiorly",
+      "The vertical dimension of occlusion (VDO) is inadequate"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 90,
+    "question": "A 70-year-oldedentulous patient complains of a burning sensation in the palate beneath his maxillary complete denture, which has been worn comfortably for 5 years. Clinical examination reveals healthy mucosa with no erythema or ulceration. What is the most likely etiology?",
+    "correctAnswer": 0,
+    "options": [
+      "Pressure on the nasopalatine nerve",
+      "Inadequate vertical dimension of occlusion",
+      "Allergic reaction to polymethyl methacrylate",
+      "Chronic candidiasis"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 134,
+    "question": "When evaluating a potential abutment tooth for a fixed partial denture, which of the following root characteristics is generally considered the LEAST favorable for providing adequate support?",
+    "correctAnswer": 1,
+    "options": [
+      "Square-shaped root",
+      "Long, tapered root",
+      "Divergent roots",
+      "Fused roots"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 145,
+    "question": "Which of the following is the most critical factor for successful osseointegration of a dental implant?",
+    "correctAnswer": 0,
+    "options": [
+      "Surface topography of the implant.",
+      "Immediate loading protocol.",
+      "Presence of a temporary abutment.",
+      "Diameter of the implant."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 161,
+    "question": "A patient requires a full-coverage crown on tooth #30. Which of the following preparation features is most critical for providing adequate resistance form against dislodgement by oblique forces?",
+    "correctAnswer": 1,
+    "options": [
+      "A 4 mm occlusogingival preparation height.",
+      "Placement of retention grooves on axial walls.",
+      "A 6-degree total occlusal convergence.",
+      "A 0.5 mm deep chamfer margin."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 164,
+    "question": "During the try-in of complete dentures, the maxillary incisors are observed to be in direct contact with the mandibular incisors when the patient is in centric relation. This condition, which can lead to denture dislodgement and instability, is best described as:",
+    "correctAnswer": 1,
+    "options": [
+      "Excessive vertical overlap (overbite)",
+      "Insufficient horizontal overlap (overjet)",
+      "Lack of posterior occlusal contacts",
+      "Insufficient incisal guidance"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 167,
+    "question": "Which type of maxillectomy defect is typically the most challenging to restore prosthetically with an obturator due to difficulty in achieving retention and stability?",
+    "correctAnswer": 0,
+    "options": [
+      "Class IV (bilateral, involving both maxillae).",
+      "Class III (central, involving premaxilla).",
+      "Class I (unilateral, involving alveolus and hard palate).",
+      "Class II (unilateral, extending to orbital floor but not across midline)."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 174,
+    "question": "Which of the following conditions in a complete denture patient would most likely necessitate a reline rather than a rebase?",
+    "correctAnswer": 1,
+    "options": [
+      "Gross displacement of teeth on the denture base.",
+      "Poor retention and stability with an otherwise well-fitting denture base.",
+      "Fractured denture base requiring extensive repair.",
+      "Significant changes in the underlying ridge morphology."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 183,
+    "question": "For a single implant-supported crown in the anterior maxilla where angulation is favorable and high esthetics are paramount, what impression technique is generally preferred to capture the most accurate positional information of the implant fixture relative to adjacent teeth and soft tissues?",
+    "correctAnswer": 0,
+    "options": [
+      "Digital impression using an intraoral scanner and a scan body.",
+      "Closed-tray (transfer) impression technique with a stock tray.",
+      "Open-tray (pick-up) impression technique with a custom tray.",
+      "Alginate impression using an impression coping."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 184,
+    "question": "A 28-year-old patient requires a single crown on tooth #9. The patient has a high smile line and demands excellent esthetics. The opposing dentition is natural and exhibits moderate wear. Which of the following restorative materials would be the LEAST suitable choice to meet the esthetic demands and functional requirements in this scenario?",
+    "correctAnswer": 0,
+    "options": [
+      "Zirconia-porcelain fused to metal (PFM) crown.",
+      "Full-contour zirconia crown.",
+      "Layered feldspathic porcelain crown.",
+      "Lithium disilicate (e.max) crown."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 185,
+    "question": "In adjusting centric relation contacts, a premature contact is identified where a maxillary lingual cusp tip is contacting an opposing mandibular fossa prematurely. Which of the following is the most appropriate initial adjustment?",
+    "correctAnswer": 1,
+    "options": [
+      "Reduce the mesial incline of the maxillary lingual cusp.",
+      "Deepen the opposing mandibular fossa.",
+      "Reduce the buccal incline of the opposing mandibular buccal cusp.",
+      "Reduce the tip of the maxillary lingual cusp."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 189,
+    "question": "A 45-year-old healthy non-smoking patient presents for a single implant placement in the mandibular first molar region (#36). A pre-surgical CBCT confirms adequate bone volume and density (D2 bone). Following successful implant placement, which loading protocol is generally considered the most predictable for achieving successful osseointegration in this scenario?",
+    "correctAnswer": 2,
+    "options": [
+      "Immediate loading within 48 hours",
+      "Early loading at 6-8 weeks post-placement",
+      "Delayed loading at 3-6 months post-placement",
+      "Progressive loading over several weeks post-placement"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 208,
+    "question": "A 45-year-old male requires a three-unit fixed partial denture replacing tooth #36. Clinical examination reveals that tooth #35 is mesially tilted and tooth #37 is distally tilted, resulting in a lack of a common path of insertion. To achieve a common path of insertion without excessive tooth reduction, what is the most appropriate modification in the FPD design?",
+    "correctAnswer": 3,
+    "options": [
+      "Over-reduce the mesial aspect of #35 and the distal aspect of #37 to compensate.",
+      "Incorporate a non-rigid connector, typically distal to the mesial abutment (pier abutment).",
+      "Prepare #35 with a convergent mesial axial wall and #37 with a divergent distal axial wall.",
+      "Utilize a telescopic coping system on both abutment teeth."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 237,
+    "question": "An edentulous patient presents with chronic soreness and ulceration on the lingual aspect of the anterior mandibular ridge. Clinical examination reveals that the denture has been properly relieved over the genial tubercles and the borders are well-adapted. Which anatomical structure is most likely the source of this specific anterior lingual irritation?",
+    "correctAnswer": 3,
+    "options": [
+      "Mylohyoid ridge",
+      "Retromylohyoid area",
+      "Sublingual gland",
+      "Lingual frenum"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 248,
+    "question": "A 55-year-old female presents for a single implant placement in the mandibular first molar region (#36). Which of the following patient-related factors is a strong contraindication for considering immediate loading protocols for this implant?",
+    "correctAnswer": 3,
+    "options": [
+      "Controlled Type II Diabetes Mellitus with an HbA1c of 7.0%.",
+      "Presence of adequate primary stability (insertion torque >35 Ncm).",
+      "A history of periodontal disease, currently stable.",
+      "Smoking 5 cigarettes per day."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 268,
+    "question": "A 58-year-old patient requires a single implant to replace tooth #11. The surgeon achieved excellent primary stability (ISQ > 70) during placement. Which of the following is a primary biomechanical advantage of immediate loading in this scenario?",
+    "correctAnswer": 1,
+    "options": [
+      "It significantly increases the rate of osseointegration.",
+      "It stimulates peri-implant bone remodeling under controlled load.",
+      "It reduces the need for soft tissue grafting.",
+      "It promotes micro-motion that accelerates bone healing."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 279,
+    "question": "During the complete denture try-in appointment, the patient's anterior teeth exhibit excessive vertical overlap (deep bite) and the posterior teeth are not in contact in centric relation, even with the condyles seated in the glenoid fossae. Which of the following is the most likely cause of this discrepancy?",
+    "correctAnswer": 3,
+    "options": [
+      "The anterior teeth were set too far labially.",
+      "The posterior teeth were set too far buccally.",
+      "The occlusal vertical dimension (OVD) was set too high.",
+      "The occlusal vertical dimension (OVD) was set too low."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 281,
+    "question": "For a three-unit porcelain-fused-to-metal (PFM) bridge from #35 to #37 (abutments #35, #37), which impression technique is considered the gold standard for achieving high accuracy and detail of the prepared margins?",
+    "correctAnswer": 0,
+    "options": [
+      "Custom tray with polyether impression material using a one-step wash technique.",
+      "Alginate in a stock tray.",
+      "Vinyl polysiloxane (VPS) in a stock tray using a putty-wash technique.",
+      "Custom tray with irreversible hydrocolloid."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 285,
+    "question": "A 72-year-old edentulous male presents for new complete dentures. During the jaw relation record appointment, you are establishing the vertical dimension of occlusion (VDO). He has a history of wearing ill-fitting dentures for 15 years. Which method is generally considered the *most reliable* for determining VDO in this specific patient, considering his long-term denture use and potential muscle memory issues?",
+    "correctAnswer": 3,
+    "options": [
+      "Pre-extraction records (if available)",
+      "Tactile sense of the patient",
+      "Phonetics and esthetics",
+      "Swallowing threshold and facial measurements"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 286,
+    "question": "A 58-year-old female presents with missing teeth #19, #20, #29, #30, requiring a mandibular Class I removable partial denture (RPD). Which design principle is *most crucial* for effectively managing the forces transmitted to the abutment teeth and residual ridge in this distal extension scenario?",
+    "correctAnswer": 3,
+    "options": [
+      "Cross-arch stabilization",
+      "Maximum coverage of the residual ridge",
+      "Physiologic impression technique",
+      "Indirect retention"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 327,
+    "question": "A 55-year-old patient requires a full-coverage crown on tooth #36 (mandibular left first molar). The tooth has been endodontically treated and has minimal remaining coronal tooth structure. Due to financial constraints, a cost-effective yet durable restoration is desired. Which of the following crown preparations and material combinations would be most suitable?",
+    "correctAnswer": 0,
+    "options": [
+      "Full cast metal (gold alloy) crown with a chamfer margin.",
+      "Zirconia crown with a deep chamfer or shoulder margin.",
+      "Porcelain-fused-to-metal (PFM) crown with a metal collar and chamfer margin.",
+      "Lithium disilicate (e.g., e.max) crown with a deep chamfer margin."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 334,
+    "question": "A patient is to receive a removable partial denture (RPD) for a Kennedy Class III modification 2 mandibular arch. The primary abutment for the distal-most edentulous space is tooth #35, which has a significant lingual tilt. The survey indicates a deep lingual undercut. Which type of direct retainer (clasp) would be most appropriate for tooth #35, considering the lingual tilt and esthetic concerns?",
+    "correctAnswer": 1,
+    "options": [
+      "A circumferential (Akere) clasp.",
+      "A Lingual 'I' bar clasp.",
+      "A Reverse circlet clasp.",
+      "A T-bar (Roach) clasp originating from the buccal."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 350,
+    "question": "A 72-year-old edentulous patient presents for final impressions for complete dentures. The patient has a broad, flat mandibular ridge with minimal undercuts. Which impression material is generally considered the MOST suitable for capturing the fine details and achieving optimal border molding for this type of ridge?",
+    "correctAnswer": 2,
+    "options": [
+      "Vinyl polysiloxane (VPS) impression material.",
+      "Alginate (irreversible hydrocolloid).",
+      "Zinc oxide eugenol (ZOE) impression paste.",
+      "Polyether impression material."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 367,
+    "question": "A 60-year-old patient undergoes immediate implant placement in the anterior maxilla following extraction of a fractured central incisor. The implant achieves primary stability with an insertion torque of 45 Ncm. Which of the following is the most critical factor to consider for determining the suitability of immediate provisionalization in this case?",
+    "correctAnswer": 3,
+    "options": [
+      "Patient's esthetic demands",
+      "Implant body design (e.g., tapered vs. parallel-walled)",
+      "Amount of keratinized tissue around the implant",
+      "Absence of parafunctional habits"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 374,
+    "question": "A 65-year-old patient has a Kennedy Class I removable partial denture designed for the mandibular arch. The primary direct retainers are circumferential clasps on teeth #35 and #45. What is the optimal location for the indirect retainers to maximize the stability of the denture?",
+    "correctAnswer": 3,
+    "options": [
+      "On the distal rest seats of #35 and #45",
+      "On the incisal edges of #31 and #41",
+      "On the lingual surfaces of #34 and #44",
+      "In the mesial rest seats of #33 and #43"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 731659380,
+    "question": "A 55-year-old male patient with a history of hypertension controlled by an ACE inhibitor (e.g., ramipril) requires a local anesthetic for restorative treatment. He also reports being allergic to esters (e.g., procaine). Which of the following local anesthetic agents would be MOST appropriate for this patient?",
+    "correctAnswer": 0,
+    "options": [
+      "Bupivacaine with epinephrine.",
+      "Mepivacaine with levonordefrin.",
+      "Lidocaine without vasoconstrictor.",
+      "Prilocaine with epinephrine."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 790401228,
+    "question": "Which of the following properties of an impression material is MOST critical for accurately reproducing fine details of the tooth structure and soft tissues for fixed prosthodontics?",
+    "correctAnswer": 3,
+    "options": [
+      "High tear strength.",
+      "Low viscosity.",
+      "High hydrophilicity.",
+      "Excellent dimensional stability."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 597253921,
+    "question": "Which of the following anatomical structures is MOST commonly associated with potential complications during the administration of a mandibular block (inferior alveolar nerve block)?",
+    "correctAnswer": 3,
+    "options": [
+      "Mental foramen.",
+      "Lingual nerve.",
+      "Buccal nerve.",
+      "Pterygoid plexus of veins."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 39538124,
+    "question": "A 48-year-old female patient presents with a chief complaint of painful oral lesions that developed suddenly a few days ago. Clinical examination reveals multiple vesicles and bullae on the buccal mucosa, palate, and gingiva, some of which have ruptured, leaving painful erosions covered by a yellow fibrin membrane. Her medical history includes a recent upper respiratory infection. What is the MOST likely diagnosis?",
+    "correctAnswer": 3,
+    "options": [
+      "Herpes labialis.",
+      "Aphthous stomatitis.",
+      "Primary herpetic gingivostomatitis.",
+      "Erythema multiforme."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 643982035,
+    "question": "A 70-year-old female patient presents with a chief complaint of difficulty chewing and speaking due to poor retention of her mandibular complete denture. She reports that her denture 'floats' and becomes dislodged frequently, especially when eating. Clinical examination reveals significant residual ridge resorption in the mandible. What is the MOST appropriate initial step to improve her denture retention?",
+    "correctAnswer": 1,
+    "options": [
+      "Fabrication of new complete dentures",
+      "Use of denture adhesive",
+      "Surgical augmentation of the alveolar ridge",
+      "Placement of two mandibular implants for overdenture"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 182371874,
+    "question": "When interpreting a panoramic radiograph, which of the following anatomical structures appears as a radiopaque inverted Y-shape in the maxillary anterior region, formed by the superimposition of two distinct structures?",
+    "correctAnswer": 0,
+    "options": [
+      "Nasal fossa and maxillary sinus",
+      "Zygomatic arch and maxillary sinus",
+      "Nasal septum and inferior nasal concha",
+      "Anterior nasal spine and incisive foramen"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 922706565,
+    "question": "A 50-year-old male patient presents to your dental office with a chief complaint that his gums bleed when brushing and he occasionally experiences a bad taste in his mouth. His medical history includes Type 2 Diabetes Mellitus, which he states is well-controlled with Metformin, and he is a non-smoker. Clinical examination reveals generalized moderate to severe gingival inflammation, generalized probing depths of 4-6mm with bleeding on probing, and localized pockets of 7-8mm around his molars. Radiographs show generalized horizontal bone loss of 30-40% of the root length. What is the MOST appropriate initial periodontal diagnosis for this patient?",
+    "correctAnswer": 3,
+    "options": [
+      "Gingivitis",
+      "Aggressive periodontitis, generalized",
+      "Necrotizing ulcerative periodontitis",
+      "Chronic periodontitis, generalized moderate to severe"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 408969755,
+    "question": "A 65-year-old female patient presents to your dental office with a chief complaint of difficulty chewing and speaking with her existing complete dentures. She has worn complete maxillary and mandibular dentures for 15 years and reports no significant medical history. Clinical examination reveals significant residual ridge resorption, especially in the mandible. Her maxillary denture shows poor retention and stability, and the mandibular denture is loose, causing chronic irritation in the retromolar pad area. What is the MOST appropriate initial management strategy for this patient?",
+    "correctAnswer": 3,
+    "options": [
+      "Fabrication of new conventional complete dentures",
+      "Soft reline of both maxillary and mandibular dentures",
+      "Surgical pre-prosthetic procedures to augment the mandibular ridge",
+      "Maxillary complete denture and mandibular implant-retained overdenture"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 448641943,
+    "question": "According to Canadian infection prevention and control guidelines for dental practices, what is the MOST appropriate method for managing semi-critical dental instruments (e.g., dental mirrors, amalgam condensers) that contact mucous membranes but do not penetrate soft tissue?",
+    "correctAnswer": 0,
+    "options": [
+      "Sterilization by heat (e.g., autoclave) or chemical sterilants.",
+      "High-level disinfection only.",
+      "Intermediate-level disinfection followed by packaging.",
+      "Critical-level disinfection without heat."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 731438540,
+    "question": "A 68-year-old male patient presents because his lower complete denture has become loose and painful over the past few months. Has worn the same lower denture for 15 years. History of type 2 diabetes. Intraoral examination reveals severe mandibular alveolar ridge resorption. The denture appears ill-fitting, and there are bilateral traumatic ulcers on the crest of the mandibular ridge in the posterior regions. No signs of infection. What is the MOST appropriate initial step in managing this patient's complaint?",
+    "correctAnswer": 2,
+    "options": [
+      "Relining the existing denture.",
+      "Immediate placement of two dental implants for denture retention.",
+      "Fabricating a new complete lower denture.",
+      "Prescribing a pain reliever and soft diet."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 851483314,
+    "question": "A 62-year-old male patient presents for multiple extractions. His medical history includes well-controlled hypertension on lisinopril and Type 2 diabetes managed with metformin. He denies allergies. His current blood pressure is 130/80 mmHg. What is the MOST appropriate local anesthetic agent and vasoconstrictor combination for this patient?",
+    "correctAnswer": 1,
+    "options": [
+      "2% Lidocaine with 1:50,000 epinephrine",
+      "4% Articaine with 1:100,000 epinephrine",
+      "3% Mepivacaine without vasoconstrictor",
+      "0.5% Bupivacaine with 1:200,000 epinephrine"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 66455744,
+    "question": "Which of the following properties of an ideal impression material contributes MOST to its ability to accurately reproduce fine anatomical details without distortion after removal from the mouth?",
+    "correctAnswer": 2,
+    "options": [
+      "Hydrophilic nature",
+      "Low viscosity",
+      "High tear strength",
+      "Thixotropic consistency"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 444671097,
+    "question": "A 75-year-old female patient presents with a 10-year-old complete maxillary denture that feels loose and produces a clicking sound during mastication. Clinical examination reveals significant alveolar ridge resorption and a poor fit of the denture base. What is the MOST appropriate initial management?",
+    "correctAnswer": 2,
+    "options": [
+      "Fabricate a new set of complete dentures.",
+      "Prescribe denture adhesive for improved retention.",
+      "Perform a hard reline of the existing denture.",
+      "Refer to an oral surgeon for pre-prosthetic surgery."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 828119082,
+    "question": "A 7-year-old male patient presents with a chief complaint of a missing tooth in the lower left quadrant. His primary mandibular first molar (#74 according to FDI or LRD) was extracted 3 months ago due to extensive caries. Clinical examination confirms the absence of tooth #74 and the permanent first molar (#36) is erupting. What is the MOST appropriate management to prevent future space loss?",
+    "correctAnswer": 2,
+    "options": [
+      "No intervention is necessary as the permanent molar is already erupting.",
+      "Recommend orthodontic consultation immediately.",
+      "Fabricate and cement a band-and-loop space maintainer.",
+      "Extract the opposing primary maxillary first molar."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 263277837,
+    "question": "An 8-year-old female patient presents with a developing Class II malocclusion characterized by maxillary incisor protrusion and a deep overbite. She is in the mixed dentition stage with adequate arch length. Her parents are concerned about the appearance and potential trauma to the incisors. What is the MOST appropriate initial orthodontic management strategy?",
+    "correctAnswer": 3,
+    "options": [
+      "Immediate fixed appliance therapy to correct the malocclusion.",
+      "Extract maxillary first premolars to create space for retraction.",
+      "Monitor the dentition and delay treatment until all permanent teeth have erupted.",
+      "Initiate a functional appliance (e.g., Bionator or Herbst) to encourage mandibular growth."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 207704631,
+    "question": "An 80-year-old female patient presents with generalized xerostomia, reporting difficulty with swallowing and speaking, and an increased incidence of root caries. Her medical history includes polypharmacy for hypertension, osteoporosis, and depression. What is the MOST appropriate initial management strategy for her xerostomia?",
+    "correctAnswer": 1,
+    "options": [
+      "Prescribe a systemic sialogogue, such as pilocarpine.",
+      "Recommend increased water intake and use of over-the-counter saliva substitutes.",
+      "Suggest discontinuing some of her medications that cause dry mouth.",
+      "Fabricate a custom fluoride tray for daily home application."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 737431198,
+    "question": "A 68-year-old male patient presents with generalized severe periodontitis, characterized by 7-9 mm probing depths, severe horizontal bone loss extending to the apical third of roots, and Grade III mobility in the mandibular anterior region. He has a 40-pack-year smoking history. Despite optimal non-surgical periodontal therapy (scaling and root planing) and smoking cessation counseling, the patient exhibits persistent deep pockets, significant furcation involvement (Class III), and poor prognosis for the majority of the dentition. What is the MOST appropriate long-term management strategy for this patient?",
+    "correctAnswer": 3,
+    "options": [
+      "Repeat non-surgical scaling and root planing and monitor for stability",
+      "Surgical periodontal therapy with regenerative procedures to restore lost bone",
+      "Extraction of hopeless teeth and fabrication of removable partial dentures to preserve remaining natural teeth",
+      "Comprehensive extraction of all remaining teeth and fabrication of complete dentures"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 145339412,
+    "question": "A 9-year-old female patient presents to your office after falling off her bicycle, impacting her anterior teeth. Clinical examination reveals her permanent maxillary right central incisor is displaced coronally and appears shorter than the adjacent teeth, with no mobility. Radiographs show the apex of the tooth is closed, and the tooth is intruded into the alveolar bone. What is the MOST appropriate immediate management?",
+    "correctAnswer": 1,
+    "options": [
+      "Immediate extraction of the intruded tooth.",
+      "Surgical repositioning of the tooth followed by splinting.",
+      "Allow for spontaneous re-eruption and monitor closely.",
+      "Endodontic treatment and immediate restoration."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 708858693,
+    "question": "A 62-year-old female patient, a long-term smoker and denture wearer, presents with a chief complaint of a white lesion on her palatal mucosa that has been present for several months and does not rub off. Clinical examination reveals a diffuse, thick, white patch with a nodular and fissured surface extending across the hard palate, particularly prominent in the area covered by her denture. There are no painful symptoms. What is the MOST appropriate diagnosis for this lesion?",
+    "correctAnswer": 3,
+    "options": [
+      "Pseudo-membranous candidiasis",
+      "Nicotinic stomatitis",
+      "Inflammatory papillary hyperplasia",
+      "Leukoplakia"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 424724312,
+    "question": "A 50-year-old male patient with a history of poorly controlled Type 2 Diabetes Mellitus presents with a chief complaint of generalized gingival bleeding and mobility of multiple mandibular anterior teeth. Clinical examination reveals generalized severe inflammation, erythema, edema, and suppuration from periodontal pockets, along with probing depths ranging from 6-9mm and significant bone loss on radiographs. His HbA1c is 9.5%. What is the MOST critical initial step in managing his periodontal condition?",
+    "correctAnswer": 2,
+    "options": [
+      "Perform full-mouth scaling and root planing immediately",
+      "Prescribe systemic antibiotics",
+      "Refer to an endocrinologist for diabetes management",
+      "Consider immediate extractions of mobile teeth"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 107215204,
+    "question": "According to Canadian infection control guidelines for dental practices, which of the following items is classified as a 'critical' instrument and requires sterilization after each use?",
+    "correctAnswer": 0,
+    "options": [
+      "Scaler",
+      "Dental mirror",
+      "Impression tray",
+      "X-ray sensor holder"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 291526328,
+    "question": "A 58-year-old male patient presents to your dental office with a chief complaint of dull, aching pain in his upper right posterior jaw for several months, recently becoming more severe and constant. He has a history of root canal treatment on tooth #17 five years ago. Tooth #17 is asymptomatic to percussion and palpation. No swelling or sinus tract. A radiograph reveals a well-filled root canal on tooth #17, but a distinct periapical radiolucency has developed at the apex of the mesiobuccal root. What is the MOST appropriate diagnosis for tooth #17?",
+    "correctAnswer": 3,
+    "options": [
+      "Acute apical abscess",
+      "Symptomatic apical periodontitis",
+      "Asymptomatic apical periodontitis",
+      "Previously treated tooth with symptomatic apical periodontitis (Failed Root Canal)"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 189927362,
+    "question": "Which of the following muscle pairs are the primary elevators of the mandible?",
+    "correctAnswer": 1,
+    "options": [
+      "Lateral pterygoid and digastric",
+      "Temporalis and masseter",
+      "Medial pterygoid and geniohyoid",
+      "Stylohyoid and mylohyoid"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 260614220,
+    "question": "A 10-year-old male patient presents to your dental office with a chief complaint of severe pain and swelling in his upper left posterior jaw, which started suddenly two days ago. His medical history is non-contributory. Clinical examination reveals significant facial swelling involving the left cheek and infraorbital region, tenderness to palpation of the left maxillary sinus area, and a deep carious lesion on tooth #26 (maxillary left first molar). Tooth #26 is tender to percussion and mobility is grade 1. Radiographic findings show a large periapical radiolucency associated with tooth #26 and clouding of the left maxillary sinus. What is the MOST appropriate initial management?",
+    "correctAnswer": 2,
+    "options": [
+      "Emergency referral to an oral and maxillofacial surgeon for incision and drainage and extraction of #26.",
+      "Initiate root canal treatment on tooth #26 and prescribe oral antibiotics.",
+      "Prescribe broad-spectrum oral antibiotics and analgesics, then re-evaluate in 3-5 days.",
+      "Referral to an ENT specialist for sinusitis management."
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 757775580,
+    "question": "During tooth development, which embryonic structure is derived from the dental papilla and is primarily responsible for the formation of dentin?",
+    "correctAnswer": 3,
+    "options": [
+      "Enamel organ",
+      "Dental follicle",
+      "Hertwig's epithelial root sheath",
+      "Dental papilla"
+    ]
+  },
+  {
+    "file": "prosthodontics.json",
+    "id": 551145691,
+    "question": "A 35-year-old male patient presents for the replacement of a missing maxillary first premolar (#14). He has adequate ridge height and width, and no significant bone loss. He requests a solution that is removable for cleaning but provides superior aesthetics compared to a conventional RPD. Which prosthesis is most appropriate?",
+    "correctAnswer": 2,
+    "options": [
+      "A conventional removable partial denture (RPD) with cast metal framework",
+      "An implant-supported overdenture",
+      "A resin-bonded fixed partial denture (Maryland bridge)",
+      "A flexible partial denture made of nylon"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 7,
+    "question": "A periapical radiolucency associated with a non-vital tooth appears well-defined with a sclerotic border, measuring approximately 1.5 cm in diameter. Which radiographic feature, if present, would MOST strongly suggest a periapical cyst rather than a granuloma?",
+    "correctAnswer": 2,
+    "options": [
+      "Presence of a continuous radiopaque lamina dura around the lesion.",
+      "Resorption of adjacent tooth roots.",
+      "A diameter exceeding 1 cm.",
+      "A distinct, corticated border."
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 24,
+    "question": "Which of the following tissues is considered most radiosensitive in the head and neck region for dental radiographic procedures?",
+    "correctAnswer": 2,
+    "options": [
+      "Bone marrow",
+      "Salivary glands",
+      "Thyroid gland",
+      "Muscle tissue"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 36,
+    "question": "A patient presents with chronic jaw pain and limited mouth opening. The clinician requires a radiographic assessment to evaluate the morphology of the mandibular condyle and its position within the glenoid fossa. Which of the following radiographic views is most appropriate for this specific assessment?",
+    "correctAnswer": 2,
+    "options": [
+      "Panoramic radiograph",
+      "Reverse Towne projection",
+      "Transcranial (Schuller) view",
+      "Lateral cephalometric radiograph"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 46,
+    "question": "A periapical radiograph reveals a well-defined radiolucency surrounding the apex of a non-vital tooth with a history of pulpal necrosis. The periodontal ligament space appears continuous with the lesion. This radiographic appearance is most consistent with a:",
+    "correctAnswer": 0,
+    "options": [
+      "Periapical cyst",
+      "Condensing osteitis",
+      "Periapical granuloma",
+      "Periapical abscess"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 48,
+    "question": "A small, round or ovoid radiolucency is consistently observed bilaterally near the apices of the mandibular premolars on periapical radiographs. This structure is most likely the:",
+    "correctAnswer": 3,
+    "options": [
+      "Lingual foramen",
+      "Incisive foramen",
+      "Mandibular canal",
+      "Mental foramen"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 54,
+    "question": "A panoramic radiograph reveals a large, unilocular, well-corticated radiolucency in the posterior mandible, extending from the ramus to the premolar region. The lesion is noted to displace the inferior alveolar nerve canal inferiorly. Based on this radiographic presentation, which of the following is the most likely diagnosis?",
+    "correctAnswer": 2,
+    "options": [
+      "Traumatic bone cyst",
+      "Ameloblastoma",
+      "Odontogenic keratocyst (OKC)",
+      "Dentigerous cyst"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 63,
+    "question": "A radiograph of tooth #30 shows a well-defined, radiolucent lesion approximately 1 cm in diameter, associated with the apex, with evidence of loss of lamina dura and root resorption. The tooth has a large carious lesion and is non-vital. What is the most likely diagnosis?",
+    "correctAnswer": 1,
+    "options": [
+      "Periapical granuloma",
+      "Radicular cyst",
+      "Periapical abscess",
+      "Condensing osteitis"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 70,
+    "question": "On a periapical radiograph of the maxillary posterior region, a prominent, inverted Y-shaped radiopacity is observed superior to the apices of the first premolar. This structure represents the junction of which two anatomical landmarks?",
+    "correctAnswer": 0,
+    "options": [
+      "Maxillary sinus and nasal fossa",
+      "Incisive foramen and nasal septum",
+      "Zygomatic process and maxillary tuberosity",
+      "Nasal septum and inferior turbinate"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 88,
+    "question": "A dental hygienist, who is pregnant, is concerned about the potential effects of occupational radiation exposure on her fetus. This concern primarily relates to which type of radiation effect?",
+    "correctAnswer": 2,
+    "options": [
+      "Stochastic effects on the mother.",
+      "Genetic effects.",
+      "Somatic effects.",
+      "Deterministic effects on the mother."
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 109,
+    "question": "A 55-year-old female complains of a persistent numbness in her lower lip and chin (numb chin syndrome). A panoramic radiograph reveals an ill-defined radiolucent lesion in the posterior mandible with widening of the periodontal ligament space. Which imaging modality is most appropriate to accurately assess the full extent of cortical destruction and perineural spread?",
+    "correctAnswer": 3,
+    "options": [
+      "Periapical radiograph",
+      "Cone-beam computed tomography (CBCT)",
+      "Occlusal radiograph",
+      "Magnetic resonance imaging (MRI)"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 118,
+    "question": "During the interpretation of a periapical radiograph of the maxillary posterior region, a radiopaque, teardrop-shaped structure is observed overlying the roots of the maxillary premolars. What is this anatomical landmark?",
+    "correctAnswer": 1,
+    "options": [
+      "Incisive foramen",
+      "Inverted Y",
+      "Zygomatic process",
+      "Maxillary sinus"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 122,
+    "question": "A patient presents for a periapical radiograph of the maxillary molars. The patient has a very flat palate, making it difficult to place the image receptor parallel to the long axis of the teeth. According to standard dental radiography guidelines, what is the most appropriate modification to obtain a diagnostic image while maintaining the paralleling technique?",
+    "correctAnswer": 0,
+    "options": [
+      "Increase the vertical angulation by up to 20 degrees",
+      "Switch immediately to the bisecting-angle technique",
+      "Accept up to a 20-degree deviation from parallelism without corrective measures",
+      "Increase the horizontal angulation to compensate for the flat palate"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 162,
+    "question": "A 60-year-old asymptomatic female is referred for a panoramic radiograph, which incidentally reveals bilateral, symmetrical, well-defined radiopacities superimposed over the roots of the mandibular premolars and molars. The teeth are all vital and responsive to thermal tests. What is the most likely diagnosis?",
+    "correctAnswer": 1,
+    "options": [
+      "Idiopathic osteosclerosis",
+      "Periapical cemento-osseous dysplasia",
+      "Condensing osteitis",
+      "Torus mandibularis"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 176,
+    "question": "During the interpretation of a periapical radiograph of the maxillary central incisors, a V-shaped radiopacity is noted with its apex directed superiorly towards the nasal fossa. What anatomical landmark does this represent?",
+    "correctAnswer": 1,
+    "options": [
+      "Median palatal suture",
+      "Anterior nasal spine",
+      "Nasolabial fold",
+      "Incisive foramen"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 206,
+    "question": "A patient presents with generalized bone loss. A panoramic radiograph demonstrates a classic 'ground-glass' appearance affecting both the maxilla and mandible symmetrically, accompanied by the loss of the lamina dura. Which systemic condition should be investigated?",
+    "correctAnswer": 0,
+    "options": [
+      "Hyperparathyroidism",
+      "Paget disease of bone",
+      "Fibrous dysplasia",
+      "Osteopetrosis"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 216,
+    "question": "Which of the following tissues or organs is considered the most radiosensitive in the context of routine dental radiography, requiring careful thyroid collar placement?",
+    "correctAnswer": 0,
+    "options": [
+      "Thyroid gland",
+      "Parotid gland",
+      "Lens of the eye",
+      "Mandible bone marrow"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 227,
+    "question": "A 28-year-old female patient complains of pain and swelling in the anterior maxilla. A periapical radiograph shows a pear-shaped radiolucency located between the roots of the maxillary lateral incisor and canine, causing divergence of their roots. The adjacent teeth are vital. What is the diagnosis?",
+    "correctAnswer": 3,
+    "options": [
+      "Lateral periodontal cyst",
+      "Traumatic bone cyst",
+      "Nasopalatine duct cyst",
+      "Globulomaxillary lesion (developmental defect)"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 231,
+    "question": "Which of the following radiographic techniques minimizes radiation dose to the patient while providing the most accurate geometric representation of teeth and supporting bone for endodontic assessment?",
+    "correctAnswer": 1,
+    "options": [
+      "Standard panoramic radiography",
+      "Paralleling technique",
+      "Simple bisecting-angle technique",
+      "Occlusal projection technique"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 233,
+    "question": "During the interpretation of a bitewing radiograph of a 25-year-old patient, a horizontal radiolucent band is noted across the crowns of the maxillary premolars and molars. This artifact is most likely caused by which of the following?",
+    "correctAnswer": 0,
+    "options": [
+      "Backward placement of the film packet",
+      "Anterior positioning of the focal trough",
+      "Static electricity discharge",
+      "Patient movement during exposure"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 237,
+    "question": "A 45-year-old female presents with generalized bone loss. A panoramic radiograph demonstrates a 'ground-glass' appearance affecting the maxilla and mandible symmetrically, accompanied by the loss of the lamina dura and poorly visualized trabecular pattern. Which systemic condition should be strongly suspected?",
+    "correctAnswer": 3,
+    "options": [
+      "Fibrous dysplasia of the jaws",
+      "Osteogenesis imperfecta",
+      "Paget disease of bone",
+      "Hyperparathyroidism (renal osteodystrophy)"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 250,
+    "question": "A panoramic radiograph of a 55-year-old asymptomatic female reveals bilateral, well-defined, multilocular radiolucencies in the posterior mandible, causing mild expansion and cortical thinning. Subsequent evaluation shows normal serum calcium, phosphorus, and parathyroid hormone levels. What is the most likely diagnosis?",
+    "correctAnswer": 2,
+    "options": [
+      "Brown tumor of hyperparathyroidism",
+      "Stafne bone defect",
+      "Odontogenic keratocysts",
+      "Cherubism"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 251,
+    "question": "On a standard panoramic radiograph, a vertical radiolucent band is observed superimposed over the maxillary anterior teeth. This artifact is caused by the projection of which anatomical structure?",
+    "correctAnswer": 1,
+    "options": [
+      "Cervical spine",
+      "Hard palate",
+      "Hyoid bone",
+      "Spine of the sphenoid"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 269,
+    "question": "What is the primary biological mechanism of direct radiation injury to living tissues at the cellular level?",
+    "correctAnswer": 0,
+    "options": [
+      "Ionization and excitation of DNA macromolecule bonds",
+      "Production of hydrogen peroxide within the cytoplasm",
+      "Radiolysis of cellular water creating free radicals",
+      "Thermal denaturation of structural proteins"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 277,
+    "question": "A 12-year-old patient presents for orthodontic evaluation. A panoramic radiograph demonstrates generalized blunting of the root apices of the maxillary and mandibular anterior teeth. The patient's medical history is unremarkable, with no history of systemic illness, dentoalveolar trauma, or previous orthodontic treatment. The patient reports a history of thumb-sucking until age 9. What is the most likely cause of the shortened roots?",
+    "correctAnswer": 1,
+    "options": [
+      "Normal physiological variant of root development",
+      "Idiopathic root resorption",
+      "Previous history of dentoalveolar trauma",
+      "Past orthodontic treatment (not disclosed)"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 278,
+    "question": "During processing of a dental periapical film using manual chemistry, the resulting radiograph appears completely clear (transparent) with no image whatsoever. Which of the following errors could explain this finding?",
+    "correctAnswer": 3,
+    "options": [
+      "The film was exposed to white light before fixing",
+      "The developer solution temperature was too high",
+      "The film was placed in the fixer solution before the developer solution",
+      "The X-ray machine was not turned on or exposure button was not pressed"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 279,
+    "question": "A 65-year-old male presents with a routine panoramic radiograph showing bilateral, well-demarcated radiopacities located below the inferior alveolar canal in the posterior mandible, with normal overlying bone and no symptoms. What is the definitive diagnosis?",
+    "correctAnswer": 3,
+    "options": [
+      "Paget disease of bone",
+      "Idiopathic osteosclerosis",
+      "Cementoblastoma",
+      "Stafne bone defect (static bone cyst)"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 308,
+    "question": "When exposing bitewing radiographs using the paralleling technique, the vertical angulation of the central X-ray beam is typically set at which of the following degrees to prevent overlapping of the contact areas?",
+    "correctAnswer": 3,
+    "options": [
+      "-10 degrees",
+      "0 degrees",
+      "+20 degrees",
+      "+10 degrees"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 312,
+    "question": "A 12-year-old male patient is referred for orthodontic evaluation. A panoramic radiograph demonstrates a large, well-circumscribed radiolucency in the posterior mandible containing multiple small, tooth-like structures of varying sizes and shapes. Which of the following is the definitive diagnosis?",
+    "correctAnswer": 3,
+    "options": [
+      "Complex odontoma",
+      "Odontogenic myxoma",
+      "Ameloblastic fibro-odontoma",
+      "Compound odontoma"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 380,
+    "question": "A panoramic radiograph of a 60-year-old asymptomatic female reveals bilateral, symmetric, multilocular radiolucencies in the angles and ascending rami of the mandible, with marked thinning of the inferior cortex and root resorption. Which systemic condition is most consistent with these radiographic findings?",
+    "correctAnswer": 3,
+    "options": [
+      "Cherubism",
+      "Osteopetrosis",
+      "Paget's disease of bone",
+      "Hyperparathyroidism"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 429,
+    "question": "A 68-year-old female presents for a routine dental examination. A panoramic radiograph reveals a mixed radiolucent-radiopaque lesion in the posterior mandible. The lesion surrounds the roots of vital, asymptomatic teeth. The patient reports no pain, swelling, or history of trauma. Which of the following is the most likely diagnosis?",
+    "correctAnswer": 1,
+    "options": [
+      "Periapical cemento-osseous dysplasia",
+      "Focal cemento-osseous dysplasia",
+      "Chronic osteomyelitis",
+      "Odontoma"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 435,
+    "question": "A 30-year-old female presents with a non-vital mandibular first molar. Radiographically, a 1.5 cm well-defined, unilocular radiolucency is noted at the apex, associated with the root. The lamina dura is lost locally, and a thin, sclerotic border is visible peripherally. The most probable diagnosis for this lesion is a:",
+    "correctAnswer": 0,
+    "options": [
+      "Periapical cyst (radicular cyst)",
+      "Periapical granuloma",
+      "Apical scar",
+      "Periapical cemento-osseous dysplasia"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 446,
+    "question": "A 35-year-old female presents with chronic, diffuse pain and clicking in the right temporomandibular joint (TMJ) for several months. Clinical examination reveals tenderness upon palpation of the joint and muscles of mastication. Initial radiographic assessment of the TMJ for osseous changes should primarily utilize:",
+    "correctAnswer": 0,
+    "options": [
+      "CBCT of the TMJ",
+      "Panoramic radiograph with specific TMJ projections",
+      "Transcranial radiograph",
+      "Transpharyngeal radiograph"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 468777016,
+    "question": "Which of the following methods is considered the LEAST effective for achieving sterilization of heat-sensitive dental instruments in a dental office setting?",
+    "correctAnswer": 0,
+    "options": [
+      "Dry heat sterilization",
+      "Steam autoclave",
+      "Chemical vapor sterilization",
+      "Ethylene oxide sterilization"
+    ]
+  },
+  {
+    "file": "radiology.json",
+    "id": 239920562,
+    "question": "A 58-year-old female patient with poorly controlled Type 2 Diabetes Mellitus presents with generalized bleeding gums, deep periodontal pockets (6-7mm), and class II mobility on multiple teeth. Her HbA1c is 9.5%. What is the MOST critical consideration for managing her periodontal disease?",
+    "correctAnswer": 0,
+    "options": [
+      "Referral to an endocrinologist",
+      "Aggressive scaling and root planing",
+      "Systemic antibiotic therapy",
+      "Daily chlorhexidine rinse"
+    ]
   }
 ]
