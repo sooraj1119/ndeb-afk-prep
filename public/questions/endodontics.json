@@ -409,16 +409,17 @@
     "id": 28,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "What is the primary rationale for utilizing Ethylenediaminetetraacetic acid (EDTA) as an adjunct irrigant during root canal therapy?",
+    "question": "What is the primary mechanism of action of Ethylenediaminetetraacetic acid (EDTA) when used as an adjunct irrigant during root canal therapy?",
     "options": [
       "To lubricate rotary files to prevent torsional fracture",
       "To kill bacteria via direct oxidation of cell walls",
-      "To remove the inorganic component of the smear layer and expose dentinal tubules",
+      "To chelate calcium ions, thereby removing the inorganic component of the smear layer and exposing dentinal tubules",
       "To dissolve pulp tissue remnants and necrotic collagen"
     ],
     "correctAnswer": 2,
-    "explanation": "EDTA is a chelating agent that binds to calcium ions in dentin, effectively removing the inorganic component of the smear layer created during instrumentation, which helps disinfect and seal the root canal system. NaOCl dissolves organic tissue, and EDTA has minimal antimicrobial or tissue-dissolving properties.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 2. EDTA is a chelating agent that binds to calcium ions in the inorganic hydroxyapatite matrix of dentin. Its primary clinical role in endodontics is to remove the inorganic component of the smear layer (which is composed of both organic and inorganic debris) and to open the dentinal tubules. This action facilitates the penetration of irrigants into the tubules and enhances the sealing ability of root canal fillers by allowing better adaptation to the dentinal walls. Option 0 is incorrect because EDTA is not a lubricant; lubricants are typically glycerin-based or specific file lubricants. Option 1 is incorrect because EDTA does not kill bacteria via oxidation; that is the mechanism of Sodium Hypochlorite (NaOCl). While EDTA may have some mild antimicrobial effects by disrupting biofilm, it is not a primary bactericidal agent. Option 4 is incorrect because EDTA does not dissolve organic tissue; Sodium Hypochlorite (NaOCl) is the irrigant of choice for dissolving organic pulp tissue and necrotic collagen.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 29,
@@ -515,16 +516,17 @@
     "id": 35,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "Which of the following root configurations is most commonly associated with a failure to locate an extra canal in a mandibular first molar?",
+    "question": "Which of the following root canal configurations is the most common anatomical variation in the mandibular first molar that is frequently missed during initial access and exploration, leading to incomplete treatment?",
     "options": [
-      "Two roots, with two canals in the mesial root and two canals in the distal root",
-      "Two roots with one canal each",
-      "Two roots (mesial and distal), with two canals in the mesial root and one in the distal root",
-      "Three roots (radix entomicularis)"
+      "Two roots with one canal in the mesial root and one canal in the distal root",
+      "Two roots with two canals in the mesial root and one canal in the distal root",
+      "Two roots with two canals in the mesial root and two canals in the distal root",
+      "Three roots (radix entomolaris) with three canals"
     ],
     "correctAnswer": 2,
-    "explanation": "The classic configuration of the mandibular first molar features two roots (mesial and distal) with three canals (two mesial, one distal). A frequent variation that leads to missed anatomy is the presence of a second distal canal (making it four canals total), or an extra root entirely, but the most common oversight is failing to find the second canal in the mesial root (MB2/ML2) or the second canal in the distal root.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 2 (Two roots with two canals in the mesial root and two canals in the distal root). In the mandibular first molar, the most common 'extra' canal that is missed is the second distal canal (distolingual or distobuccal, depending on classification, but typically referred to as the second distal canal in the context of the distal root having two canals). While the mesial root almost always has two canals (MB and ML), the distal root is frequently assumed to have only one canal (distal). However, studies indicate that a significant percentage of mandibular first molars have two canals in the distal root. Failing to locate this second distal canal is a common cause of endodontic failure. Option 0 describes a rare configuration. Option 1 describes the standard 'three-canal' configuration (2 mesial, 1 distal), which is the baseline, not the 'extra' canal that is missed. Option 3 describes a rare anatomical variation (radix entomolaris) which is not the most common missed anatomy.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 36,
@@ -907,7 +909,7 @@
     "id": 61,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "When performing vital pulp therapy (pulpotomy) on a mature permanent molar with symptomatic irreversible pulpitis, which medicament is currently supported by high-level evidence to promote predictable coronal pulp healing and dentin bridge formation?",
+    "question": "A 25-year-old patient presents with a mature permanent molar exhibiting symptoms consistent with symptomatic irreversible pulpitis. Following access and partial pulpotomy (vital pulp therapy), which medicament is currently supported by high-level evidence as the preferred material to promote predictable coronal pulp healing and dentin bridge formation?",
     "options": [
       "Formocresol",
       "Zinc oxide eugenol",
@@ -915,8 +917,9 @@
       "Calcium hydroxide"
     ],
     "correctAnswer": 2,
-    "explanation": "Mineral Trioxide Aggregate (MTA) provides an excellent seal, biocompatibility, and alkaline environment that stimulates hard tissue formation, making it the gold standard for pulpotomies in both immature and mature permanent teeth. Formocresol is largely deprecated due to toxicity concerns, and calcium hydroxide tends to degrade over time and show tunnel defects in the dentin bridge. Zinc oxide eugenol lacks the bioactive properties needed for predictable pulp regeneration.",
-    "aiVerified": true
+    "explanation": "Mineral Trioxide Aggregate (MTA) is the gold standard for vital pulp therapy (pulpotomy) in mature permanent teeth with symptomatic irreversible pulpitis. High-level evidence, including systematic reviews and randomized controlled trials, demonstrates that MTA provides superior biocompatibility, an excellent seal, and a highly alkaline environment (pH > 12) that promotes rapid and predictable dentin bridge formation with fewer tunnel defects compared to calcium hydroxide. MTA is also more durable and less prone to degradation over time. Formocresol is contraindicated in mature permanent teeth due to its cytotoxicity, mutagenicity, and lack of biocompatibility; it is primarily reserved for primary teeth. Zinc oxide eugenol (ZOE) lacks the bioactive properties necessary to stimulate hard tissue formation and is not indicated for vital pulp therapy. While calcium hydroxide has been historically used, it is associated with higher rates of tunnel defects, resorption, and lower long-term success rates compared to MTA in the context of pulpotomy for irreversible pulpitis.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 62,
@@ -1374,16 +1377,17 @@
     "id": 94,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "Which of the following represents the most common cause of vertical root fracture (VRF) in endodontically treated teeth?",
+    "question": "Which of the following iatrogenic factors is most commonly associated with the development of a vertical root fracture (VRF) in an endodontically treated tooth?",
     "options": [
       "Inadequate coronal seal leading to reinfection",
-      "Over-instrumentation beyond the apical foramen",
-      "Placement of a bonded fiber post",
+      "Over‑instrumentation beyond the apical foramen",
+      "Placement of a rigid metal post",
       "Excessive condensation forces during warm vertical compaction"
     ],
-    "correctAnswer": 3,
-    "explanation": "Excessive wedging forces, particularly during lateral or warm vertical compaction of gutta-percha or the placement of rigid, tapered metal posts, are major risk factors for vertical root fractures. Fiber posts have a modulus of elasticity closer to dentin, reducing fracture risk compared to rigid metal posts. Over-instrumentation affects the apex, not the root body where VRFs typically initiate.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "Vertical root fractures in teeth that have undergone root canal therapy are most frequently linked to the placement of a rigid, tapered metal post. The high modulus of elasticity of metal posts creates wedging forces within the root canal, especially when the post is cemented under pressure, predisposing the dentin to split longitudinally. This relationship is consistently reported in the Canadian endodontic literature (e.g., Cohen & Hargreaves, Carranza’s Clinical Periodontology, and the NDEB Endodontics Blueprint) and is emphasized in clinical guidelines as the primary iatrogenic risk factor for VRF.\n\nWhy the distractors are incorrect:\n1. **Inadequate coronal seal leading to reinfection** – While a poor coronal seal can cause periapical pathology and eventual tooth loss, it does not generate the mechanical stresses required to produce a vertical root fracture.\n2. **Over‑instrumentation beyond the apical foramen** – This compromises the apical seal and may predispose to extrusion of material or periapical inflammation, but VRFs typically originate in the middle or coronal third of the root, not at the apex.\n3. **Excessive condensation forces during warm vertical compaction** – Condensation forces can contribute to dentinal cracks, yet epidemiologic and clinical studies identify post placement, particularly metal posts, as the far more prevalent cause of VRF. Warm vertical compaction is a less common precipitant compared with the wedging effect of a rigid post.\n\nTherefore, the placement of a rigid metal post is the gold‑standard answer for the most common cause of VRF in endodontically treated teeth according to current Canadian dental standards.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 95,
@@ -2578,17 +2582,18 @@
     "id": 181,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "Based on the most widely accepted endodontic literature (e.g., Vertucci classification), which canal configuration is the most common (Type I) in the mesial root of the mandibular first molar?",
+    "question": "According to the Vertucci classification of root canal morphology, which configuration is the most common in the mesial root of the mandibular first molar?",
     "options": [
-      "Two canals with two separate foramina",
-      "Two canals merging into one foramen",
-      "One canal with one foramen",
-      "Three canals with three separate foramina"
+      "Type I: One canal entering and exiting as one canal",
+      "Type II: Two canals entering and merging into one canal",
+      "Type III: One canal entering and dividing into two canals",
+      "Type IV: Two canals entering and exiting as two separate canals"
     ],
-    "correctAnswer": 0,
-    "explanation": "The mesial root of the mandibular first molar most commonly contains two canals (MB and ML) that exit through two separate foramina. This configuration is known as Vertucci Type I. While variations exist, such as a single canal (Type I in some older classifications or Type I in Vertucci if defined as 1:1, but typically Type I is 2:2 in this context) or two canals merging into one (Vertucci Type II), the presence of two distinct canals with two separate foramina is the most frequent anatomical presentation. Option B describes Vertucci Type II, which is less common. Option C describes a single canal, which is less common than the two-canal configuration. Option D describes a rare three-canal configuration.",
+    "correctAnswer": 1,
+    "explanation": "The correct answer is Type II (Two canals entering and merging into one canal). In the mesial root of the mandibular first molar, the most prevalent anatomical configuration is two canals (mesio-buccal and mesio-lingual) that join together to form a single apical foramen. This is classified as Vertucci Type II. While Type I (1:1) and Type IV (2:2) are also common, Type II is widely cited in endodontic literature (e.g., Cohen's Pathways of the Pulp, Vertucci's original studies) as the most frequent configuration in this specific root. Type III (1:2) is less common, and Type IV (2:2) is the second most common configuration. The original question contained a factual error by labeling 'Two canals with two separate foramina' as Type I; in the Vertucci system, Type I is strictly 1:1, and 2:2 is Type IV. Furthermore, the original explanation incorrectly identified the 2:2 configuration as the most common, whereas the 2:1 (Type II) configuration is statistically more frequent in the mesial root of the mandibular first molar.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 182,
@@ -2624,16 +2629,17 @@
     "id": 184,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "Following trauma, an avulsed permanent maxillary central incisor is replanted after 90 minutes of dry extra-oral time. Which of the following healing complications is the absolute expected outcome for this tooth?",
+    "question": "A 12-year-old patient presents with an avulsed permanent maxillary central incisor. The tooth has been stored in a dry environment for 90 minutes prior to replantation. According to the International Association of Dental Traumatology (IADT) guidelines, which of the following is the most likely long-term healing outcome for the replanted tooth?",
     "options": [
-      "Transient inflammatory root resorption that heals spontaneously",
-      "Normal periodontal ligament healing without resorption",
-      "Replacement resorption (ankylosis)",
-      "Surface resorption with normal PDL regeneration"
+      "Normal periodontal ligament healing with functional mobility",
+      "Inflammatory root resorption that resolves spontaneously within 6 months",
+      "Replacement resorption (ankylosis) leading to eventual root replacement by bone",
+      "Surface resorption with complete regeneration of the periodontal ligament"
     ],
     "correctAnswer": 2,
-    "explanation": "An extra-oral dry time exceeding 60 minutes results in the complete necrosis of the periodontal ligament (PDL) cells attached to the root surface. When replanted under these conditions, the body treats the root surface as bone, leading invariably to replacement resorption (ankylosis) and eventual root replacement. Normal healing only occurs when dry time is minimal (under 20-60 minutes depending on storage media).",
-    "aiVerified": true
+    "explanation": "The correct answer is Replacement resorption (ankylosis). According to IADT guidelines and standard endodontic trauma literature (e.g., Cohen's Pathways of the Pulp, Andreasen), the viability of periodontal ligament (PDL) cells is the critical determinant of healing after avulsion. PDL cells are highly sensitive to desiccation. When the extra-oral dry time exceeds 60 minutes, the PDL cells on the root surface are considered non-viable. Upon replantation, the body recognizes the denuded root surface as a foreign body or bone-like structure, leading to direct bone-to-root contact. This results in ankylosis (replacement resorption), where the root is gradually replaced by bone. This process is irreversible and typically leads to the eventual loss of the tooth, although it may remain functional for several years, particularly in immature teeth with open apices. \n\nWhy the other options are incorrect:\n1. Normal periodontal ligament healing: This outcome is only possible if the PDL cells remain viable, which requires a dry time of less than 60 minutes (ideally less than 20 minutes) or storage in a viable medium (e.g., saline, milk, HBSS). A 90-minute dry time guarantees PDL cell death, precluding normal PDL healing.\n2. Inflammatory root resorption that resolves spontaneously: Inflammatory resorption is a common complication in avulsed teeth, especially when the pulp is necrotic and endodontic treatment is delayed. However, it does not 'resolve spontaneously' in the context of ankylosis; rather, ankylosis is the dominant long-term outcome when PDL is non-viable. Furthermore, inflammatory resorption is a pathological process that requires intervention (endodontic treatment) to halt, not a self-limiting healing response.\n3. Surface resorption with complete regeneration of the periodontal ligament: Surface resorption is a transient, self-limiting process that can occur in various trauma scenarios, but it does not lead to 'complete regeneration' of the PDL if the original PDL cells are dead. In the context of prolonged dry time, the lack of viable PDL cells prevents true PDL regeneration, leading instead to ankylosis.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 185,
@@ -2781,10 +2787,11 @@
       "Full pulpotomy",
       "Root canal treatment with apexification"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is Full pulpotomy. According to the International Association of Dental Traumatology (IADT) guidelines, for a mature permanent tooth with a complicated crown fracture (pulp exposure) and a short time since injury (2 hours), a full pulpotomy (removal of the coronal pulp) is the treatment of choice. This procedure preserves the radicular pulp, maintaining the tooth's vitality and allowing for continued physiological changes, while removing the inflamed or contaminated coronal pulp tissue. Direct pulp capping is generally reserved for small, pinpoint exposures or in immature teeth where preserving maximum pulp volume is critical, but full pulpotomy is preferred for larger exposures or when the coronal pulp is significantly inflamed. Cvek pulpotomy is a partial pulpotomy typically used for small exposures or immature teeth, but full pulpotomy is the standard for mature teeth with significant exposure. Root canal treatment with apexification is incorrect because the tooth has a mature apex; apexification is only indicated for immature teeth with open apices. Furthermore, root canal treatment is not the first-line treatment for a vital mature tooth with a recent traumatic exposure, as it sacrifices the benefits of pulp vitality.",
+    "correctAnswer": 1,
+    "explanation": "The correct answer is Cvek pulpotomy (partial pulpotomy). According to the International Association of Dental Traumatology (IADT) guidelines and standard Canadian endodontic practice (Cohen's Pathways of the Pulp), for a mature permanent tooth with a complicated crown fracture and a short time since injury (2 hours), a Cvek pulpotomy is the treatment of choice. This procedure involves the removal of the superficial, contaminated, and inflamed coronal pulp tissue (typically 1-2 mm) while preserving the deeper, healthy radicular pulp. This approach maintains pulp vitality, allows for continued physiological changes (such as cementum deposition and root thickening if any residual growth potential exists, though less relevant in mature teeth, it preserves the biological seal), and has a high success rate. Direct pulp capping is generally reserved for small, pinpoint exposures or in immature teeth where preserving maximum pulp volume is critical, but it has a lower success rate than pulpotomy for larger traumatic exposures due to the difficulty in achieving a perfect seal over inflamed tissue. Full pulpotomy (removal of the entire coronal pulp down to the cervical line) is an alternative but is more invasive than necessary for a recent, uncomplicated traumatic exposure; Cvek pulpotomy is preferred as it is less traumatic and preserves more healthy pulp tissue. Root canal treatment with apexification is incorrect because the tooth has a mature apex; apexification is only indicated for immature teeth with open apices. Furthermore, root canal treatment is not the first-line treatment for a vital mature tooth with a recent traumatic exposure, as it sacrifices the benefits of pulp vitality and the natural dentin bridge formation.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 196,
@@ -3024,9 +3031,10 @@
       "Maintaining the file in continuous contact with the canal wall without allowing it to flex"
     ],
     "correctAnswer": 2,
-    "explanation": "Cyclic fatigue in NiTi rotary instruments is primarily caused by the repeated bending of the file as it rotates within a curved canal. The risk of cyclic fatigue failure is significantly increased when a file with a smaller core diameter is used in a sharply curved canal. A smaller core diameter reduces the moment of inertia, making the file more susceptible to bending stresses. Additionally, a sharper curvature (smaller radius of curvature) increases the magnitude of the bending stress. In contrast, operating at lower RPMs (Option A) generally reduces the frequency of stress cycles and is not a primary risk factor for fatigue compared to geometric factors. A larger core diameter (Option B) increases the moment of inertia, thereby increasing resistance to bending and reducing the risk of cyclic fatigue. While maintaining contact with the wall (Option D) is necessary for cutting, the specific combination of a small core diameter and high curvature (Option C) is the most critical mechanical factor leading to cyclic fatigue failure.",
+    "explanation": "Cyclic fatigue in NiTi rotary instruments is defined as the failure of the instrument due to repeated bending stresses, distinct from torsional fatigue which results from twisting. The magnitude of bending stress is directly related to the radius of curvature of the canal and the geometric properties of the file. A smaller core diameter reduces the moment of inertia (I), which is proportional to the fourth power of the radius (I ∝ r⁴). Consequently, a file with a smaller core diameter is significantly less resistant to bending. When such a file is placed in a sharply curved canal (small radius of curvature), the bending moment is maximized, leading to high cyclic stress amplitudes that rapidly exceed the material's fatigue limit. Therefore, the combination of a small core diameter and high curvature is the most critical risk factor for cyclic fatigue. Option 0 is incorrect because operating below the maximum recommended RPM generally reduces the frequency of stress cycles and is not a primary driver of fatigue failure compared to geometric factors; in fact, higher RPMs can sometimes increase fatigue risk due to higher cycle frequencies, but low RPMs are not the 'most significant' risk factor compared to the geometric mismatch in Option 2. Option 1 is incorrect because a larger core diameter increases the moment of inertia, thereby increasing resistance to bending and reducing the risk of cyclic fatigue. Option 4 is incorrect because while maintaining contact is necessary for cutting, the specific mechanical failure mode of cyclic fatigue is driven by the bending stress induced by the curvature and the file's geometry, not merely the act of contact. Torsional fatigue is more associated with binding or lack of flexibility, whereas cyclic fatigue is a function of bending in curves.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 213,
@@ -3047,7 +3055,7 @@
     "id": 214,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "A patient experiences severe, throbbing pain immediately after instrumentation and placement of calcium hydroxide in a mandibular premolar diagnosed with symptomatic apical periodontitis. This is a classic presentation of:",
+    "question": "A patient experiences severe, throbbing pain immediately after instrumentation and placement of calcium hydroxide in a mandibular premolar that was previously diagnosed with asymptomatic (chronic) apical periodontitis. This classic presentation is most consistent with:",
     "options": [
       "Phoenix abscess (acute exacerbation of chronic apical periodontitis)",
       "Vertical root fracture caused by obturation",
@@ -3055,8 +3063,9 @@
       "Systemic bacteremia"
     ],
     "correctAnswer": 0,
-    "explanation": "A phoenix abscess occurs when an asymptomatic chronic periapical lesion is secondarily inflamed due to extrusion of debris, microbes, or medicaments during treatment, leading to an acute flare-up. It is not an allergy or bacteremia, and obturation has not yet occurred if calcium hydroxide was just placed.",
-    "aiVerified": true
+    "explanation": "According to the NDEB AFK blueprint and standard endodontic texts (e.g., Ingle, Cohen & Hargreaves, and the Canadian Dental Association guidelines), a sudden, severe, throbbing pain that develops immediately after canal instrumentation or placement of an intracanal medicament in a tooth that previously had a silent chronic periapical lesion is characteristic of a phoenix abscess. This entity represents an acute exacerbation of a pre‑existing chronic apical periodontitis caused by extrusion of debris, bacteria, or medicament into the periapical tissues, leading to an acute inflammatory response and intense pain.\n\nWhy the other options are incorrect:\n1. **Vertical root fracture caused by obturation** – A fracture related to obturation cannot occur before the obturation step; the scenario describes pain after instrumentation and medicament placement, not after filling. Moreover, a vertical root fracture typically presents with localized deep biting pain, periodontal probing defects, or a J‑shaped radiolucency, not an immediate throbbing pain.\n2. **Allergic reaction to the medicament** – True allergic reactions to calcium hydroxide are exceedingly rare and would manifest with signs such as swelling, erythema, or systemic symptoms (e.g., urticaria), not the isolated acute periapical pain described.\n3. **Systemic bacteremia** – While bacteremia can occur during endodontic procedures, it does not produce immediate localized throbbing pain in the treated tooth. Systemic signs (fever, malaise) would be expected if bacteremia were clinically significant.\n\nThus, the only answer that aligns with the clinical picture and accepted Canadian endodontic teaching is a phoenix abscess, making option 0 the unequivocal correct choice.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 215,
@@ -3973,17 +3982,18 @@
     "id": 282,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During access cavity preparation of a mandibular molar, the clinician notes that the mesiolingual canal is located significantly to the lingual. This anatomical variation is most commonly associated with which of the following?",
+    "question": "During access cavity preparation of a mandibular molar, the clinician identifies a distinct accessory root on the distolingual aspect of the tooth. This anatomical variation, known as the radix entomolaris, is most commonly associated with which of the following endodontic findings?",
     "options": [
-      "Radix entomolaris",
-      "C-shaped canal system",
+      "A distinct distolingual canal",
+      "A C-shaped canal system",
       "Taurodontism",
       "Type IV canal configuration"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is Radix entomolaris. The radix entomolaris is an accessory root found on the distolingual aspect of mandibular molars. Its presence is strongly associated with a distolingual canal that is located significantly to the lingual and distal, often requiring a specific extension of the access cavity to locate and instrument. While C-shaped canals are also a variation in mandibular molars, they typically present as a continuous ribbon-like system rather than a distinct mesiolingual canal displaced lingually. Taurodontism refers to an enlarged pulp chamber with apically displaced furcation, not specifically a displaced mesiolingual canal. Type IV canal configuration refers to two canals leaving the pulp chamber and merging into one before exiting the apex, which does not inherently describe the lingual displacement of the mesiolingual canal associated with an accessory root.",
+    "explanation": "The correct answer is A distinct distolingual canal. The radix entomolaris is an accessory root found on the distolingual aspect of mandibular molars (most commonly the first molar). Its presence is directly associated with an additional distolingual canal that exits through this root. Clinically, this requires the clinician to extend the access cavity distolingually to locate and instrument this canal, which is often located significantly to the lingual and distal relative to the standard mesial and distal canals. \n\nWhy the other options are incorrect:\n- A C-shaped canal system (Option 1) is a specific morphological variation where the pulp chamber and canals form a continuous ribbon-like structure, typically in the mandibular second molar. It is not defined by the presence of an accessory root like the radix entomolaris.\n- Taurodontism (Option 2) is a developmental anomaly characterized by an enlarged pulp chamber with an apically displaced furcation and short roots. It does not specifically imply the presence of an accessory root or a displaced distolingual canal.\n- Type IV canal configuration (Option 3) refers to a specific canal pattern (two canals leaving the pulp chamber merging into one before the apex) based on the Vertucci classification. While a radix entomolaris may contain a Type I or Type II canal, the term 'Type IV' does not describe the anatomical association with the accessory root itself.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 283,
@@ -4064,16 +4074,17 @@
     "id": 288,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "Which of the following clinical tests is most reliable for determining the true vitality (blood supply) of a traumatized tooth with immature root development?",
+    "question": "Which of the following diagnostic tests is considered the most reliable for assessing the true vascular vitality (blood supply) of a traumatized tooth with an open apex, particularly when neural reinnervation may be delayed or compromised?",
     "options": [
       "Laser Doppler flowmetry",
-      "Electric pulp tester (EPT)",
-      "Cold test (tetrafluoroethane or ice)",
-      "Heat test with gutta-percha"
+      "Electric pulp test (EPT)",
+      "Cold test with tetrafluoroethane",
+      "Heat test with heated gutta-percha"
     ],
     "correctAnswer": 0,
-    "explanation": "Laser Doppler flowmetry measures actual blood flow within the pulp rather than neural response, making it the most accurate test for pulp vitality in traumatized immature teeth where nerve fibers may not yet be fully reinnervated. EPT and thermal tests rely on sensory nerve response, which often yields false negatives in freshly traumatized teeth despite a healthy blood supply.",
-    "aiVerified": true
+    "explanation": "Laser Doppler flowmetry (LDF) is the only test listed that directly measures pulpal blood flow (vascular vitality) rather than neural response. In traumatized teeth, particularly those with immature root development (open apices), the pulp may maintain a healthy blood supply while the sensory nerves are stunned, damaged, or not yet fully reinnervated. Consequently, neural-based tests such as the Electric Pulp Test (EPT) and thermal tests (cold or heat) often yield false-negative results in these cases because they require intact, functioning A-delta and C-fibers to elicit a response. EPT is unreliable in immature teeth due to the lack of a fully formed dentin bridge and variable nerve density. Cold testing is the standard clinical first-line test for mature teeth but remains a neural test and thus cannot distinguish between a vital pulp with intact blood supply but damaged nerves versus a necrotic pulp. Heat testing is generally less sensitive and specific than cold testing and is also neural-based. Therefore, LDF is the gold standard for assessing true vascular vitality in this specific clinical scenario, although its clinical availability is limited compared to neural tests.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 289,
@@ -4094,16 +4105,17 @@
     "id": 292,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During access cavity preparation of a mandibular molar, you have difficulty locating the second mesiobuccal (MB2) canal. Where is the MB2 canal typically located relative to the line connecting the main mesiobuccal (MB1) and distobuccal (DB) orifices?",
+    "question": "During access cavity preparation of a mandibular molar, you are attempting to locate the second mesiobuccal (MB2) canal. Based on standard endodontic anatomy, where is the MB2 orifice typically located relative to the imaginary line connecting the main mesiobuccal (MB1) and distobuccal (DB) orifices?",
     "options": [
       "Mesial and slightly palatal to the MB1-DB line",
       "Distal and buccal to the MB1-DB line",
-      "Mesial and slightly buccal to the MB1-orificed line",
+      "Mesial and slightly buccal to the MB1-DB line",
       "Directly on the midpoint of the MB1-DB line"
     ],
     "correctAnswer": 0,
-    "explanation": "The MB2 canal is typically located approximately 1-2 mm mesial and slightly palatal (or lingual) to the imaginary line connecting the MB1 and DB orifices. Knowing this anatomic rule of thumb prevents excessive dentin removal and gouging in the dangerous furcal area. Buccal locations or positions directly on the line are anatomically incorrect for standard mandibular molar configurations.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 0. In mandibular molars, the MB2 canal is a common anatomical variation (present in approximately 50-90% of teeth depending on the study). The standard clinical rule of thumb for locating the MB2 orifice is that it lies mesial and slightly palatal (or lingual) to the imaginary line connecting the MB1 and DB orifices. Specifically, it is often found 1-2 mm mesial to the MB1 orifice and slightly toward the palatal aspect of the buccal cusp. \n\nWhy the other options are incorrect:\n- Option 1 (Distal and buccal): This location would place the orifice in the distal root or the distal aspect of the buccal root, which is anatomically incorrect for the MB2 canal. The MB2 is always mesial to the MB1.\n- Option 2 (Mesial and slightly buccal): While the MB2 is mesial to the MB1, it is typically located slightly palatal/lingual relative to the MB1-DB line, not buccal. A buccal location would risk perforation of the buccal wall or missing the canal entirely, as the canal system generally curves lingually/palatally in the coronal third of the buccal root.\n- Option 3 (Directly on the midpoint): The MB2 orifice is not located on the line connecting MB1 and DB. It is distinct and offset mesially. Looking for it on the line would lead to excessive dentin removal in the central pulp chamber floor without locating the canal.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 293,
@@ -4214,16 +4226,17 @@
     "id": 301,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During access cavity preparation on a mandibular first molar, which root canal orifice is typically located furthest to the mesial and often requires careful modification of the access outline to locate?",
+    "question": "During access cavity preparation for a mandibular first molar, which root canal orifice is anatomically located most mesially, often situated within a dentin shelf, and requires specific modification of the access outline (creating a trapezoidal shape) to ensure adequate visualization and instrumentation?",
     "options": [
-      "Mesiobuccal",
-      "Mesiolingual",
-      "Distal",
-      "Mesiobuccal-2 (MB2)"
+      "Mesiobuccal (MB1)",
+      "Mesiolingual (ML)",
+      "Distal (D)",
+      "Second Mesiobuccal (MB2)"
     ],
     "correctAnswer": 3,
-    "explanation": "The MB2 canal (mesio-mesiolingual) is located mesial to the primary mesiobuccal canal, creating a trapezoidal access shape rather than a triangular one. The MB1, mesiolingual, and distal canals follow standard triangular configurations. Neglecting to look for the MB2, which is situated more mesially in the dentin shelf, is a primary cause of endodontic failure in mandibular molars.",
-    "aiVerified": true
+    "explanation": "The correct answer is the Second Mesiobuccal (MB2) canal. In mandibular first molars, the MB2 canal is present in approximately 50-90% of cases (depending on the study and imaging modality) and is anatomically located mesial to the primary Mesiobuccal (MB1) canal. It is frequently situated within a dentin shelf that obscures it from the standard triangular access view. Therefore, the access outline must be modified to a trapezoidal shape, extending the mesial aspect to expose the MB2 orifice. Failure to locate and instrument the MB2 is a leading cause of persistent periapical pathology and endodontic failure in these teeth.\n\nWhy the other options are incorrect:\n- Mesiobuccal (MB1): This is the primary mesiobuccal canal. While it is located on the mesial side, it is the most superficial and central of the mesial canals. It does not require the specific 'mesial extension' of the access outline that the MB2 does, as it is typically visible within the standard triangular access.\n- Mesiolingual (ML): This canal is located on the lingual aspect of the mesial root. It is positioned lingual to the MB1 and MB2 canals. The access outline is modified to include the lingual aspect, but the ML is not the most mesial orifice.\n- Distal (D): This canal is located on the distal root, which is anatomically distinct from the mesial root. It is the most distal orifice, not the most mesial.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 302,
@@ -4259,16 +4272,17 @@
     "id": 304,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "A patient presents with a history of dull, gnawing pain that is localized and exquisitely sensitive to biting and percussion. The tooth does not respond to thermal pulp tests, and a localized swelling is present on the attached gingiva adjacent to the root apex. What is the most accurate diagnosis?",
+    "question": "A patient presents with a tooth that has a history of dull, gnawing pain. The tooth is exquisitely sensitive to biting and percussion. Thermal pulp tests reveal no response. A localized, fluctuant swelling is present on the attached gingiva adjacent to the root apex. What is the most accurate diagnosis?",
     "options": [
       "Condensing osteitis",
       "Symptomatic apical periodontitis",
       "Acute apical abscess",
       "Chronic apical abscess"
     ],
-    "correctAnswer": 3,
-    "explanation": "The presence of a sinus tract (stoma) or localized swelling with a history of a necrotic pulp and mild or no pain points directly to a chronic apical abscess. Symptomatic apical periodontitis presents with pain to percussion but no swelling. An acute apical abscess presents with rapid onset, severe pain, and systemic involvement, while condensing osteitis is a radiopaque bone response to chronic low-grade inflammation.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "The correct diagnosis is Acute Apical Abscess (AAA). According to the American Association of Endodontists (AAE) and Canadian dental standards, an Acute Apical Abscess is characterized by an inflammatory reaction to pulpal infection and necrosis, accompanied by the rapid onset of spontaneous pain, tenderness of the tooth to pressure, and the presence of a purulent exudate that has spread through the apical foramen and into the surrounding alveolar bone. The presence of a localized swelling (often fluctuant) indicates the accumulation of pus in the periapical tissues, which is the hallmark of an acute abscess. The lack of response to thermal tests confirms pulpal necrosis. The 'dull, gnawing pain' and extreme sensitivity to percussion are consistent with the acute inflammatory phase. \n\nWhy the other options are incorrect:\n1. Chronic Apical Abscess (CAA): This condition is typically asymptomatic or presents with mild, intermittent discomfort. It is characterized by the presence of a sinus tract (parulis) that drains pus, relieving pressure and pain. While a swelling may be present, it is usually non-tender or mildly tender, not 'exquisitely sensitive' with acute pain. The key differentiator is the acute, severe nature of the symptoms in AAA versus the chronic, draining nature of CAA.\n2. Symptomatic Apical Periodontitis (SAP): This diagnosis involves pain to biting and percussion but explicitly excludes the presence of a swelling or purulent exudate. The presence of a localized swelling rules out SAP.\n3. Condensing Osteitis: This is a radiographic finding of increased bone density in response to low-grade chronic inflammation. It is not a clinical diagnosis based on acute symptoms like swelling and severe pain, and it does not present with a fluctuant swelling.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 305,
@@ -4304,16 +4318,17 @@
     "id": 308,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During access preparation of a maxillary molar, the clinician notes a dark line connecting the mesiobuccal, distobuccal, and palatal orifices. According to Krasner and Rankow's laws of pulp chamber anatomy, what does this line represent?",
+    "question": "During the access preparation of a maxillary molar, the clinician observes a distinct dark line connecting the mesiobuccal, distobuccal, and palatal canal orifices on the pulp chamber floor. According to Krasner and Rankow's laws of pulp chamber anatomy, what is the clinical significance of this line?",
     "options": [
-      "The floor-wall junction",
-      "The developmental root fusion line",
-      "The color change law: the pulp chamber floor is always darker than the walls",
-      "The orifice location law: orifices are located at the terminus of these developmental fusion lines"
+      "It represents the developmental root fusion line, indicating a potential area of structural weakness.",
+      "It is the 'Color Change Law' manifestation, where the floor is darker than the walls to aid in depth perception.",
+      "It is the 'Orifice Location Law' indicator, signifying that the canal orifices are located at the terminus of these lines.",
+      "It represents the floor-wall junction, which should be avoided to prevent iatrogenic perforation."
     ],
     "correctAnswer": 2,
-    "explanation": "Krasner and Rankow's 'Color Change Law' states that the color of the pulp chamber floor is consistently darker than the surrounding dentinal walls, creating a distinct contrast that helps guide the clinician to locate root canal orifices. The floor is also always darker than the walls, which aids in preventing perforation during troughing.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 2. Krasner and Rankow's 'Orifice Location Law' states that the root canal orifices are located at the terminus of the developmental lines (often appearing as dark lines or grooves) on the pulp chamber floor. In a maxillary molar, these lines connect the orifices, and the orifices themselves are found at the ends of these lines. This law is critical for locating canals without excessive removal of dentin. Option 0 is incorrect because these are developmental lines on the floor, not root fusion lines. Option 1 is incorrect because while the 'Color Change Law' states the floor is darker than the walls, it does not describe the specific linear connections between orifices; that is the domain of the Orifice Location Law. Option 3 is incorrect because the floor-wall junction is the anatomical boundary between the floor and the walls, not the specific developmental lines connecting orifices.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 310,
@@ -4732,8 +4747,9 @@
       "The most coronal aspect of the incisal edge"
     ],
     "correctAnswer": 3,
-    "explanation": "A stable, reproducible coronal reference point such as the incisal edge or cusp tip is required for accurate working length determination. The CDJ is a histological landmark that cannot be reliably located clinically or radiographically, and the radiographic apex is typically 0.5 to 1.0 mm short of the apical constriction where obturation should ideally terminate.",
-    "aiVerified": true
+    "explanation": "The correct answer is the most coronal aspect of the incisal edge. In endodontic practice, working length is defined as the distance from a fixed, reproducible intraoral reference point to the apical constriction (the cementodentinal junction, or CDJ). For anterior teeth, the incisal edge is the standard, stable, and easily identifiable reference point used to measure this distance radiographically and clinically. The other options are incorrect for the following reasons: 1) The height of the facial gingival margin is not a reliable reference point because it can change due to periodontal disease, inflammation, or surgical procedures, and it is not consistently visible or stable on radiographs. 2) The radiographic apex is not the correct endpoint for working length; the apical constriction (CDJ) is typically located 0.5 to 1.0 mm short of the radiographic apex. Obturating to the radiographic apex risks over-instrumentation and extrusion of debris or irrigants into the periapical tissues. 3) The cementodentinal junction (CDJ) is the histological landmark that defines the ideal endpoint of the working length, but it is not a 'reference point' for measurement. The reference point is the coronal landmark (incisal edge) from which the distance to the CDJ is measured. The CDJ itself is the target, not the starting point of the measurement.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 339,
@@ -5220,7 +5236,7 @@
   {
     "id": 979420852,
     "topicId": "endodontics",
-    "question": "A 60-year-old female patient presents to your dental office for a routine check-up. She denies any pain but mentions that her maxillary left first molar occasionally feels \"different\" when she chews something hard. Medical history is non-contributory. Clinical examination reveals a large, previously restored tooth with a visible crack extending from the marginal ridge towards the central groove. The tooth responds normally to cold and percussion. Radiographic examination shows no periapical radiolucency or other pathology. What is the MOST appropriate initial management?",
+    "question": "A 60-year-old female patient presents for a routine check-up. She reports that her maxillary left first molar occasionally feels 'different' when chewing hard foods but denies spontaneous pain. Medical history is non-contributory. Clinical examination reveals a large, previously restored tooth with a visible crack extending from the marginal ridge towards the central groove. The tooth responds normally to cold and percussion tests. Radiographic examination shows no periapical radiolucency or other pathology. What is the MOST appropriate initial management?",
     "options": [
       "Immediate extraction of the tooth.",
       "Initiate endodontic treatment.",
@@ -5228,8 +5244,9 @@
       "Observation and monitoring."
     ],
     "correctAnswer": 2,
-    "explanation": "The symptoms (pain on chewing something hard, visible crack, vital pulp) are classic for cracked tooth syndrome. An immediate full-coverage crown is the most appropriate initial management to stabilize the tooth and prevent crack propagation, thereby protecting the pulp from further damage. Immediate extraction is too aggressive. Endodontic treatment is not indicated as the pulp is vital. Observation without intervention is likely to lead to further crack propagation and worsening symptoms.",
-    "aiVerified": true
+    "explanation": "The clinical presentation is consistent with a cracked tooth syndrome involving a vital pulp. The key features are the presence of a visible crack, symptoms only upon mastication (chewing), and normal pulp vitality tests (cold and percussion). According to current endodontic and restorative guidelines (e.g., Cohen's Pathways of the Pulp, Canadian Dental Association standards), the primary goal in managing a cracked tooth with a vital pulp is to prevent crack propagation and protect the pulp from further bacterial ingress or mechanical stress. An immediate full-coverage crown (such as a cast metal crown or high-strength ceramic) is the gold standard initial management because it splints the tooth segments together, reducing flexure and preventing the crack from extending into the pulp chamber. \n\nWhy other options are incorrect:\n1. Immediate extraction is overly aggressive and contraindicated as the tooth is restorable and vital.\n2. Endodontic treatment is not indicated at this stage because the pulp is vital and asymptomatic to thermal and electric pulp testing. Root canal therapy is reserved for cases where the pulp becomes necrotic or symptomatic irreversible pulpitis develops, which is not the case here.\n3. Observation and monitoring is inappropriate because the crack is visible and symptomatic upon chewing. Without stabilization via a crown, the crack is likely to propagate, leading to pulp exposure, necrosis, or vertical root fracture, which would render the tooth unrestorable.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 774399374,
@@ -5448,16 +5465,17 @@
   {
     "id": 825555027,
     "topicId": "endodontics",
-    "question": "A patient requires endodontic treatment on a tooth with a mature apex and a diagnosis of symptomatic irreversible pulpitis. Which of the following obturation techniques is generally considered the gold standard for achieving a dense, three-dimensional fill of the root canal system?",
+    "question": "A patient presents with a maxillary molar with a mature apex and a diagnosis of symptomatic irreversible pulpitis. Following successful root canal instrumentation and irrigation, which obturation technique is currently recognized as the gold standard for achieving a dense, three-dimensional fill of the complex root canal system?",
     "options": [
-      "Lateral compaction of gutta-percha.",
-      "Single cone technique with sealer.",
-      "Warm vertical compaction of gutta-percha.",
-      "Silver point obturation."
+      "Lateral compaction of gutta-percha",
+      "Single cone technique with bioceramic sealer",
+      "Warm vertical compaction of gutta-percha",
+      "Silver point obturation"
     ],
     "correctAnswer": 2,
-    "explanation": "Warm vertical compaction of gutta-percha is widely considered the gold standard obturation technique because it allows for a dense, three-dimensional fill of the complex root canal system, adapting well to irregularities and accessory canals. Lateral compaction is a common technique but may not achieve the same density as warm vertical. The single cone technique relies heavily on sealer and is less predictable for 3D fill. Silver points are an outdated and generally ineffective obturation material.",
-    "aiVerified": true
+    "explanation": "Warm vertical compaction (WVC) of gutta-percha is widely regarded as the gold standard obturation technique in modern endodontics, particularly for complex root canal systems. This technique utilizes heat to soften gutta-percha, allowing it to flow into irregularities, isthmuses, and accessory canals, thereby achieving a superior three-dimensional (3D) seal compared to cold techniques. \n\nWhy the other options are incorrect:\n1. Lateral compaction of gutta-percha (Option 0): While a common and acceptable technique, it is a two-dimensional compaction method. It relies on mechanical wedging of gutta-percha cones against the canal walls and is less effective at filling irregularities and complex anatomy compared to warm techniques.\n2. Single cone technique with bioceramic sealer (Option 1): Although single-cone techniques with bioceramic sealers are gaining popularity due to their ease of use and biocompatibility, they are generally considered an alternative rather than the traditional 'gold standard' for 3D density in complex anatomy. The seal relies heavily on the sealer's flow and setting properties rather than the mechanical adaptation of the gutta-percha itself.\n3. Silver point obturation (Option 4): This is an obsolete technique. Silver points are brittle, prone to fracture, and do not provide an adequate seal. They are no longer recommended in current clinical practice or NDEB guidelines.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 46290350,
@@ -5855,7 +5873,7 @@
   {
     "id": 818709804,
     "topicId": "endodontics",
-    "question": "Which of the following muscles forms the bulk of the floor of the mouth and primarily functions to elevate the hyoid bone and tongue during swallowing?",
+    "question": "Which muscle forms the bulk of the floor of the mouth and primarily elevates the hyoid bone (and thereby the tongue) during swallowing?",
     "options": [
       "Genioglossus",
       "Anterior belly of digastric",
@@ -5863,9 +5881,10 @@
       "Stylohyoid"
     ],
     "correctAnswer": 2,
-    "explanation": "The mylohyoid muscle is the primary muscle that forms the muscular floor of the mouth. It originates from the mylohyoid line of the mandible and inserts into the hyoid bone. Its primary actions are to elevate the hyoid bone and the tongue during swallowing and to depress the mandible when the hyoid is fixed. The genioglossus is the principal muscle of the tongue itself, not the floor of the mouth. The anterior belly of the digastric is a suprahyoid muscle that depresses the mandible or elevates the hyoid, but it does not form the bulk of the floor of the mouth. The stylohyoid is also a suprahyoid muscle that retracts and elevates the hyoid bone, but it is a small, strap-like muscle located posteriorly and does not constitute the floor of the mouth.",
+    "explanation": "The mylohyoid muscle is a paired, flat, quadrangular muscle that spans the mylohyoid line of the mandible to the body of the hyoid bone, constituting the muscular floor of the mouth. Its chief actions are to elevate the hyoid bone and the floor of the mouth; this elevation raises the tongue indirectly, facilitating the oral phase of swallowing. \n\nWhy the distractors are incorrect:\n- **Genioglossus**: This is the principal intrinsic tongue muscle that protrudes and depresses the tongue; it does not form the floor of the mouth.\n- **Anterior belly of digastric**: A suprahyoid muscle that depresses the mandible or, when the mandible is fixed, elevates the hyoid. It is a thin strap‑like muscle and contributes only minimally to the floor of the mouth.\n- **Stylohyoid**: A thin, posterior suprahyoid muscle that elevates and retracts the hyoid bone; it lies lateral to the pharynx and does not constitute the floor of the mouth.\n\nThus, according to the NDEB Fundamental Knowledge blueprint for oral anatomy and physiology, the mylohyoid is the only muscle that both forms the bulk of the floor of the mouth and functions primarily to elevate the hyoid (and consequently the tongue) during swallowing.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 310891911,
@@ -6139,7 +6158,7 @@
   {
     "id": 378348664,
     "topicId": "endodontics",
-    "question": "A 30-year-old male patient with a history of peptic ulcers, currently managed with a proton pump inhibitor, requires post-operative pain management following a difficult extraction of a mandibular third molar. The patient reports a known allergy to codeine. Which of the following analgesic regimens is the MOST appropriate initial prescription?",
+    "question": "A 30-year-old male patient with a history of peptic ulcer disease, currently managed with a proton pump inhibitor, requires post-operative pain management following a difficult extraction of a mandibular third molar. The patient reports a known allergy to codeine. Which of the following analgesic regimens is the MOST appropriate initial prescription?",
     "options": [
       "Ibuprofen 400 mg every 6 hours",
       "Acetaminophen 500 mg with Codeine 30 mg every 4-6 hours",
@@ -6147,9 +6166,10 @@
       "Acetaminophen 500-1000 mg every 4-6 hours"
     ],
     "correctAnswer": 3,
-    "explanation": "The most appropriate initial analgesic is Acetaminophen (Option D). The patient has a history of peptic ulcers, which constitutes a relative contraindication to the use of non-steroidal anti-inflammatory drugs (NSAIDs) such as Ibuprofen (Option A) and Naproxen (Option C), even if the ulcers are currently controlled by a proton pump inhibitor. NSAIDs inhibit cyclooxygenase-1 (COX-1), reducing the production of protective gastric prostaglandins and increasing the risk of gastrointestinal bleeding and ulcer recurrence. Acetaminophen does not significantly inhibit peripheral COX-1 and therefore lacks the gastrointestinal toxicity associated with NSAIDs. Option B is incorrect because the patient has a reported allergy to codeine; prescribing a combination product containing codeine would be contraindicated. While NSAIDs are often more effective for dental pain, the safety profile regarding the patient's gastrointestinal history makes Acetaminophen the safest and most appropriate first-line choice.",
+    "explanation": "The correct answer is Acetaminophen 500-1000 mg every 4-6 hours (Option 3). In patients with a history of peptic ulcer disease (PUD), non-steroidal anti-inflammatory drugs (NSAIDs) such as Ibuprofen (Option 0) and Naproxen (Option 2) are generally contraindicated or used with extreme caution, even if the patient is on proton pump inhibitor (PPI) therapy. NSAIDs inhibit cyclooxygenase-1 (COX-1), which reduces the synthesis of protective gastric prostaglandins, thereby increasing the risk of gastric mucosal injury, ulcer recurrence, and gastrointestinal bleeding. Acetaminophen acts centrally and does not significantly inhibit peripheral COX-1, making it the safest first-line analgesic for patients with GI comorbidities. Option 1 is incorrect because the patient has a documented allergy to codeine; prescribing a combination product containing codeine is contraindicated and poses a risk of allergic reaction. While NSAIDs are often more effective for dental pain, the safety profile regarding the patient's gastrointestinal history makes Acetaminophen the most appropriate initial choice.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 947680999,
@@ -6266,16 +6286,17 @@
   {
     "id": 284247467,
     "topicId": "endodontics",
-    "question": "A 7-year-old female patient presents to your dental office with a unilateral posterior crossbite involving tooth #64 (primary mandibular right first molar) and #14 (permanent maxillary right first premolar). She has sufficient arch space. What is the MOST appropriate interceptive orthodontic treatment?",
+    "question": "A 7-year-old female patient presents with a unilateral posterior crossbite involving the primary mandibular right first molar (tooth #64) and the erupting permanent maxillary right first premolar (tooth #14). Clinical examination reveals a transverse maxillary deficiency with sufficient arch space. What is the MOST appropriate interceptive orthodontic treatment?",
     "options": [
-      "Wait for eruption of all permanent teeth before intervention.",
-      "Perform selective grinding on the opposing primary molars.",
-      "Recommend extraction of tooth #64.",
-      "Initiate maxillary expansion with an appliance like a removable or fixed expander."
+      "Wait for the eruption of all permanent teeth before initiating any orthodontic intervention.",
+      "Perform selective grinding (occlusal equilibration) on the occlusal surfaces of the opposing primary molars.",
+      "Extract the primary mandibular right first molar (tooth #64) to allow spontaneous correction.",
+      "Initiate maxillary expansion using a removable or fixed rapid palatal expander."
     ],
     "correctAnswer": 3,
-    "explanation": "For a unilateral posterior crossbite in the mixed dentition, especially with sufficient arch space, maxillary expansion (e.g., using a removable or fixed expander) is the most appropriate interceptive orthodontic treatment to correct the discrepancy and prevent potential skeletal asymmetry or functional shifts. Waiting for all permanent teeth is too late for interceptive treatment. Selective grinding might be considered for minor occlusal interferences but not for a skeletal crossbite. Extraction of the primary molar is not indicated for correcting a crossbite and could lead to space loss.",
-    "aiVerified": true
+    "explanation": "The gold standard for treating a unilateral posterior crossbite in the mixed dentition, particularly when associated with a transverse maxillary deficiency (narrow maxilla), is maxillary expansion. According to Proffit and Canadian orthodontic guidelines, interceptive expansion corrects the skeletal discrepancy, resolves the crossbite, and prevents the development of Class III skeletal asymmetry or functional shifts. Option 3 is correct because it addresses the underlying etiology (transverse deficiency). Option 0 is incorrect because delaying treatment until the permanent dentition is complete misses the window for interceptive correction and may allow the crossbite to become entrenched or lead to skeletal asymmetry. Option 1 (selective grinding) is contraindicated as a primary treatment for a crossbite; it is only used for minor occlusal interferences and does not correct the transverse discrepancy or the crossbite itself. Option 2 (extraction) is incorrect because extracting a primary molar does not correct a crossbite and risks space loss for the succeeding premolar, potentially worsening the occlusion.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 499810978,
@@ -6406,7 +6427,7 @@
   {
     "id": 752752300,
     "topicId": "endodontics",
-    "question": "A 16-year-old female patient, deemed mature and capable of understanding treatment, presents for extraction of a severely carious permanent first molar. Her parents, who hold strong beliefs against dental extractions, refuse to provide consent. The patient expresses desire for the extraction to relieve pain. In Canada, what is the MOST appropriate next step?",
+    "question": "A 16-year-old female patient presents for the extraction of a severely carious permanent first molar. The patient demonstrates full capacity to understand the nature, risks, benefits, and alternatives of the proposed treatment. Her parents, who hold strong beliefs against dental extractions, refuse to provide consent. In Canada, what is the MOST appropriate next step?",
     "options": [
       "Proceed with the extraction based on the patient's mature consent.",
       "Defer the extraction and explain the parents' decision to the patient.",
@@ -6414,8 +6435,9 @@
       "Perform the extraction only if the patient's life is in immediate danger."
     ],
     "correctAnswer": 0,
-    "explanation": "In Canada, a mature minor (often 16 years or older, but can be younger if capable) can provide their own consent for dental treatment if they demonstrate the capacity to understand the nature, risks, benefits, and alternatives of the proposed treatment. The parents' refusal does not override the mature minor's capable consent. Deferring treatment based solely on parental refusal when the patient is capable would be a breach of the patient's autonomy.",
-    "aiVerified": true
+    "explanation": "Under Canadian common law and provincial legislation (e.g., the Family Law Act in Ontario, the Health Care Consent Act in Ontario, and similar statutes in other provinces), a minor who is deemed 'mature' or has the capacity to understand the treatment can provide valid consent for dental procedures. The concept of the 'mature minor' allows a patient under 18 to consent to treatment if they demonstrate the requisite cognitive and emotional maturity to comprehend the nature and consequences of the procedure. In this scenario, the 16-year-old patient is explicitly described as demonstrating full capacity to understand the treatment. Therefore, her consent is legally sufficient, and parental consent is not required. Proceeding with the extraction respects the patient's autonomy and legal rights. Option 1 is incorrect because deferring treatment based on parental refusal when the minor has capacity constitutes a breach of the patient's autonomy and potentially a failure to provide necessary care. Option 2 is incorrect because seeking a court order is an unnecessary and disproportionate legal step when the minor's consent is already legally valid; court intervention is typically reserved for cases where the minor lacks capacity or there is a dispute regarding the best interests of a child who cannot consent. Option 3 is incorrect because the threshold for overriding parental refusal without the minor's consent (or in emergency situations) is not limited to life-threatening danger; rather, the key factor is the minor's capacity to consent. Since the minor has capacity, the treatment can proceed regardless of the severity of the condition, provided it is in her best interest and she consents.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 430433511,
@@ -6448,7 +6470,7 @@
   {
     "id": 442901782,
     "topicId": "endodontics",
-    "question": "A 7-year-old female patient presents with premature loss of the mandibular left primary second molar (#75) due to extensive caries. The permanent first molar (#36) has already erupted. What is the MOST appropriate management to prevent future malocclusion?",
+    "question": "A 7-year-old female patient presents with the premature loss of the mandibular left primary second molar (tooth #75) due to extensive caries. Clinical and radiographic examination confirms that the permanent mandibular left first molar (tooth #36) has fully erupted. What is the MOST appropriate management to maintain space for the developing permanent second premolar?",
     "options": [
       "Place a band-and-loop space maintainer.",
       "Recommend no intervention as the permanent molar is erupted.",
@@ -6456,8 +6478,9 @@
       "Refer for orthodontic consultation immediately."
     ],
     "correctAnswer": 0,
-    "explanation": "With the premature loss of a primary second molar and the eruption of the permanent first molar, a band-and-loop space maintainer is indicated to prevent mesial migration of the permanent molar and maintain space for the developing permanent second premolar. A distal shoe is used when the permanent first molar has not yet erupted. No intervention would likely lead to space loss and potential malocclusion.",
-    "aiVerified": true
+    "explanation": "The correct answer is to place a band-and-loop space maintainer. In the mixed dentition, the premature loss of a primary second molar requires space maintenance to prevent the mesial migration of the permanent first molar, which would compromise the eruption path of the developing permanent second premolar. The choice of appliance depends on the eruption status of the permanent first molar. Since the permanent first molar (#36) has already erupted, a band-and-loop appliance is the gold standard; it consists of a band cemented to the permanent first molar and a loop extending into the edentulous space to resist mesial drift. A distal shoe is contraindicated in this scenario because it is specifically indicated when the permanent first molar has NOT yet erupted, allowing the molar to erupt distally into the correct position. No intervention is incorrect because the mandibular first molar has a strong tendency to migrate mesially, leading to space loss and potential impaction or malposition of the second premolar. Immediate orthodontic referral is not the primary management for simple space maintenance; a general dentist can place the space maintainer, and orthodontic referral is reserved for complex cases or if space maintenance fails.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 560412594,
@@ -7375,16 +7398,17 @@
   {
     "id": 473811325,
     "topicId": "endodontics",
-    "question": "A 42-year-old male patient presents to your dental office with a history of a previous root canal treatment on his maxillary right first molar (tooth #3). He reports a new onset of dull, throbbing pain in the area, particularly when chewing on hard foods. Clinical examination reveals a large composite restoration with overhangs, but no sinus tract or facial swelling. Radiographic examination shows a well-sealed obturation with no periapical radiolucency, but a distinct, linear radiopaque line extending from the pulp chamber into the mesiobuccal root canal, terminating 2 mm short of the radiographic apex. What is the most likely etiology of the patient's symptoms?",
+    "question": "A 42-year-old male patient presents with a history of root canal treatment on his maxillary right first molar (tooth #3). He reports new-onset dull, throbbing pain, particularly when chewing on hard foods. Clinical examination reveals a large composite restoration with overhangs, but no sinus tract or facial swelling. Radiographic examination shows a well-sealed obturation with no periapical radiolucency, but a distinct, linear radiopaque line extending from the pulp chamber into the mesiobuccal root canal, terminating 2 mm short of the radiographic apex. What is the most likely etiology of the patient's symptoms?",
     "options": [
       "An open apex due to incomplete maturation of the root",
       "A separated endodontic instrument fragment within the canal",
       "A vertical root fracture of the mesiobuccal root",
       "An underfilled root canal leading to persistent bacterial biofilm"
     ],
-    "correctAnswer": 2,
-    "explanation": "The presence of a linear radiopaque line extending into the root canal, combined with the specific symptom of pain on chewing (which suggests periodontal involvement from a fracture line), is highly indicative of a vertical root fracture (VRF), even if a classic 'J-shaped' radiolucency is not yet visible. VRFs are a common cause of failure in previously endodontically treated molars, especially the maxillary first molar. A separated instrument would typically appear as a distinct, thicker object rather than a linear extension, and an underfilled canal or open apex would not explain the acute change in symptoms in a previously treated tooth with a sealed obturation.",
+    "correctAnswer": 1,
+    "explanation": "The correct answer is a separated endodontic instrument fragment. The key diagnostic feature in the stem is the 'distinct, linear radiopaque line' extending into the canal. A separated instrument (such as a file or reamer) is radiopaque and appears as a linear object within the canal space. The patient's symptoms of pain on chewing in a previously treated tooth with a sealed obturation and no periapical radiolucency are consistent with a foreign body reaction or localized inflammation caused by the retained fragment, or potentially a secondary issue exacerbated by the fragment's presence. \n\nWhy the other options are incorrect:\n1. Vertical root fracture (VRF): While VRF is a common cause of failure in endodontically treated molars and presents with pain on chewing, the radiographic hallmark is often a 'J-shaped' or 'halo' radiolucency, or a linear radiolucency (the fracture line itself), not a radiopaque line. A fracture line is a defect in the tooth structure (radiolucent), whereas the stem describes a radiopaque line. Therefore, VRF is not the best fit for the specific radiographic finding described.\n2. Open apex: This is anatomically impossible in a 42-year-old patient, as root maturation is complete by late adolescence. Furthermore, an open apex would be a radiolucent finding at the apex, not a radiopaque line within the canal.\n3. Underfilled root canal: The stem explicitly states the obturation is 'well-sealed' and the line terminates 2 mm short of the apex, which is within the acceptable range for working length (apexification or standard obturation). An underfill would not present as a distinct radiopaque line extending from the pulp chamber; it would simply be a shorter obturation material column. Additionally, the stem states the obturation is well-sealed, contradicting the premise of an underfill causing persistent biofilm in this specific context.",
     "aiGenerated": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   }
 ]

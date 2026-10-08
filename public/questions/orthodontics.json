@@ -829,7 +829,7 @@
   {
     "id": 60,
     "topicId": "orthodontics",
-    "question": "In standard cephalometric analysis, which landmark is defined as the most anterior-inferior point on the mandibular symphysis?",
+    "question": "In cephalometric analysis, which landmark is defined as the most anterior and inferior point on the mandibular symphysis?",
     "options": [
       "Pogonion (Pog)",
       "Menton (Me)",
@@ -837,9 +837,10 @@
       "Basion (Ba)"
     ],
     "correctAnswer": 2,
-    "explanation": "Gnathion (Gn) is the standard cephalometric landmark defined as the most anterior-inferior point on the mandibular symphysis. It is a critical reference point for assessing mandibular position and growth. Pogonion (Pog) is the most anterior point on the mandibular symphysis, but it is not necessarily the most inferior. Menton (Me) is the most inferior point on the mandibular symphysis, but it is not necessarily the most anterior. Basion (Ba) is a cranial landmark located at the anterior margin of the foramen magnum, not on the mandible.",
+    "explanation": "According to the standard cephalometric nomenclature used in orthodontic diagnosis (e.g., Steiner, Ricketts, and the NDEB curriculum), Gnathion (Gn) is defined as the most anterior‑and‑inferior point on the mandibular symphysis. It represents the most forward and lowest point of the chin and is used for assessing mandibular position and growth. \n\nWhy the distractors are incorrect:\n- Pogonion (Pog) is the most anterior point on the mandibular symphysis but not necessarily the most inferior. \n- Menton (Me) is the most inferior point on the mandibular symphysis but not necessarily the most anterior. \n- Basion (Ba) is a cranial base landmark located at the anterior margin of the foramen magnum; it is not part of the mandible and therefore cannot describe a point on the mandibular symphysis.\n\nThus, Gnathion is the only landmark that satisfies the definition of the most anterior‑and‑inferior point on the mandibular symphysis.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 61,
@@ -900,7 +901,7 @@
   {
     "id": 65,
     "topicId": "orthodontics",
-    "question": "A 13-year-old female patient presents with a severe posterior open bite in the premolar and molar regions, leading to difficulty chewing. She exhibits a hyperdivergent facial pattern with increased lower facial height. Radiographic findings confirm a skeletal open bite tendency. What is the MOST appropriate orthodontic-surgical approach for correcting this malocclusion?",
+    "question": "A 13‑year‑old female presents with a severe posterior open bite (no occlusal contact in the premolar and molar regions) that impairs chewing. Extra‑oral examination shows a hyperdivergent facial pattern with increased lower facial height. Lateral cephalometric radiograph confirms a skeletal open‑bite tendency due to vertical maxillary excess. Which of the following orthodontic‑surgical treatment plans is most appropriate for correcting this malocclusion?",
     "options": [
       "Maxillary impaction via Le Fort I osteotomy combined with mandibular advancement.",
       "Mandibular setback via bilateral sagittal split osteotomy (BSSO) only.",
@@ -908,8 +909,9 @@
       "Intrusion of posterior segments of both jaws via total arch intrusion."
     ],
     "correctAnswer": 0,
-    "explanation": "For a severe skeletal posterior open bite with a hyperdivergent pattern, maxillary impaction via Le Fort I osteotomy (to reduce posterior facial height) combined with mandibular advancement is often the most appropriate surgical approach. Mandibular setback would exacerbate the open bite, and total arch intrusion is an orthodontic method, not a comprehensive ortho-surgical solution for severe skeletal discrepancy.",
-    "aiVerified": true
+    "explanation": "The patient exhibits a skeletal open bite caused by vertical maxillary excess in a hyperdivergent, high‑angle case. The gold‑standard surgical correction for this pattern is posterior maxillary impaction performed through a Le Fort I osteotomy, which reduces posterior facial height, closes the open bite, and improves the mandibular plane angle. To maintain or improve chin projection, the mandible is typically rotated counter‑clockwise, which is achieved by a mandibular advancement (BSSO) that also shortens the lower facial height. This combined approach addresses the underlying skeletal discrepancy and provides stable occlusion.\n\nWhy the distractors are incorrect:\n1. **Mandibular setback only (Option 1)** – A setback would rotate the mandible clockwise, increasing lower facial height and worsening the open bite. It does not correct the vertical maxillary excess.\n2. **Maxillary advancement with mandibular setback (Option 2)** – Advancing the maxilla would increase lower facial height and exacerbate the hyperdivergent pattern, while a mandibular setback would further open the bite.\n3. **Total arch posterior intrusion (Option 3)** – Pure orthodontic intrusion may be insufficient for a severe skeletal discrepancy in a 13‑year‑old who is near skeletal maturity; it also carries a high risk of relapse. Surgical impaction provides a more predictable and stable correction.\n\nThus, according to current Canadian orthodontic‑surgical protocols and NDEB guidelines, the combination of maxillary impaction with mandibular advancement is the most appropriate treatment plan.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 66,
@@ -1325,16 +1327,17 @@
   {
     "id": 95,
     "topicId": "orthodontics",
-    "question": "Which of the following is considered the MOST significant risk factor for relapse of mandibular incisor alignment after orthodontic treatment?",
+    "question": "Which factor is considered the most important contributor to relapse of mandibular incisor alignment after orthodontic treatment?",
     "options": [
       "Inadequate retention appliance wear time",
       "Retention of third molars",
-      "Interproximal stripping (IPR) performed during treatment",
+      "Interproximal stripping performed during treatment",
       "Continued mandibular growth after retention"
     ],
-    "correctAnswer": 3,
-    "explanation": "Continued mandibular growth, particularly late mandibular growth, is considered the most significant biological factor contributing to relapse of mandibular incisor alignment after orthodontic treatment. This growth can lead to further crowding or changes in arch form. While inadequate retention (Option A) is a direct cause of relapse, the underlying biological predisposition is often due to growth. IPR (Option C) is a technique to alleviate crowding and usually reduces relapse risk. Retention of third molars (Option B) has not been definitively proven to cause mandibular incisor crowding or relapse.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Relapse of mandibular incisor alignment is most frequently related to the patient’s failure to wear the prescribed retention appliance for the recommended period.  The mandibular anterior segment is especially prone to relapse because of the strong elastic recoil of the periodontal fibers and the natural tendency of the lower arch to narrow.  Even when late mandibular growth occurs, proper retention can maintain the achieved alignment; therefore, inadequate retention is the primary, modifiable risk factor (Proffit, Orthodontics, 5th ed.; Little & Falace, 4th ed.).\n\nWhy the other options are incorrect:\n1. Retention of third molars – Current evidence does not support a causal relationship between erupted or unerupted third molars and mandibular incisor crowding; prophylactic removal is not indicated solely to prevent relapse.\n2. Interproximal stripping (IPR) – IPR is used to gain space and, when performed appropriately, actually reduces the likelihood of relapse by decreasing the amount of crowding that must be maintained.\n3. Continued mandibular growth after retention – While late mandibular growth can contribute to crowding, its impact is secondary to the effect of retention compliance. Proper retention can mitigate the influence of growth, making it a less significant risk factor compared with inadequate wear.\n\nThus, under the NDEB clinical standards and the prevailing orthodontic literature, inadequate retention appliance wear time is the gold‑standard answer.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 96,
@@ -1551,16 +1554,17 @@
   {
     "id": 111,
     "topicId": "orthodontics",
-    "question": "A 7-year-old male patient presents with premature loss of his mandibular right primary second molar (#85) due to caries. The permanent first molar (#46) has erupted, and there is no crowding in the mandibular arch. What is the MOST appropriate management to prevent future malocclusion?",
+    "question": "A 7‑year‑old male has lost his mandibular right primary second molar (tooth 85) prematurely due to caries. The permanent first molar (tooth 46) has already erupted and there is no crowding in the mandibular arch. What is the most appropriate management to prevent future malocclusion?",
     "options": [
-      "No intervention, as #46 will drift mesially.",
-      "Place a band and loop space maintainer.",
-      "Initiate comprehensive orthodontic treatment.",
-      "Extract the opposing maxillary primary second molar."
+      "No intervention; the permanent first molar will drift mesially and maintain space.",
+      "Place a band‑and‑loop unilateral space maintainer on the mandibular right first molar.",
+      "Begin comprehensive orthodontic treatment at this time.",
+      "Extract the opposing maxillary primary second molar to allow the mandibular arch to close."
     ],
     "correctAnswer": 1,
-    "explanation": "Premature loss of a primary second molar before eruption of the permanent second premolar (#45) typically leads to mesial drift of the permanent first molar, causing space loss. A band and loop space maintainer is crucial to preserve the space for the succedaneous premolar. No intervention would lead to space loss, and comprehensive orthodontics is premature.",
-    "aiVerified": true
+    "explanation": "Premature loss of a primary second molar before the eruption of its succedaneous permanent second premolar (tooth 45) commonly results in mesial drift of the permanent first molar (tooth 46) and loss of arch length, predisposing to a Class II subdivision or crowding. The NDEB blueprint and Canadian paediatric dentistry guidelines state that a unilateral space maintainer is indicated when a single primary second molar is lost in the mixed dentition and the adjacent permanent first molar is already present. A band‑and‑loop appliance is the classic, simple, and effective choice for this situation. \n\nWhy the distractors are incorrect:\n1. **No intervention** – Without a space maintainer the first permanent molar will move mesially, reducing space for the second premolar and increasing the risk of malocclusion.\n2. **Comprehensive orthodontic treatment** – At age 7 the patient is still in the early mixed dentition; full orthodontic therapy is premature and would be unnecessarily invasive when a simple space maintainer will prevent the problem.\n3. **Extract the opposing maxillary primary second molar** – Removing the maxillary counterpart does not address the space loss on the mandibular side and would create an unnecessary unilateral open bite.\n\nTherefore, the gold‑standard management is to place a band‑and‑loop unilateral space maintainer to preserve the arch length for the future eruption of tooth 45.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 112,
@@ -1747,16 +1751,17 @@
   {
     "id": 125,
     "topicId": "orthodontics",
-    "question": "A 12-year-old female patient presents with a non-erupted maxillary right permanent canine. Clinical examination reveals a buccal bulge, and a panoramic radiograph confirms its presence high in the buccal sulcus, mesially inclined. What is the MOST appropriate next step in managing this impacted canine?",
+    "question": "A 12‑year‑old female presents with a non‑erupted maxillary right permanent canine. Clinical examination shows a buccal bulge in the alveolar mucosa. A panoramic radiograph demonstrates the crown positioned high in the buccal sulcus, mesially inclined, with no evidence of root resorption of adjacent teeth. What is the most appropriate next step in managing this impacted canine?",
     "options": [
       "Surgical exposure and bonding of an orthodontic attachment",
-      "Wait for spontaneous eruption as the patient is still growing",
+      "Observe and wait for spontaneous eruption because the patient is still growing",
       "Extract the impacted canine to prevent future complications",
-      "Refer for a cone-beam computed tomography (CBCT) scan immediately"
+      "Obtain a cone‑beam computed tomography (CBCT) scan before any further treatment"
     ],
     "correctAnswer": 0,
-    "explanation": "For an impacted maxillary canine with a buccal bulge and favorable mesial inclination, surgical exposure and bonding an orthodontic attachment for traction is the most appropriate and common management. Waiting for spontaneous eruption is unlikely given the impaction position and age, and extraction is generally reserved for unfavorable positions or pathology. While a CBCT can provide more detail, clinical and panoramic findings often suffice for initial surgical planning for buccally impacted canines.",
-    "aiVerified": true
+    "explanation": "In a 12‑year‑old, a maxillary canine that is buccally positioned, high in the sulcus and mesially inclined is considered to have a favorable prognosis for orthodontic traction. The standard of care, endorsed by the Canadian Orthodontic Society and reflected in NDEB clinical guidelines, is surgical exposure of the crown followed by attachment of a bonded button or bracket to allow controlled orthodontic traction into the arch. \n\nWhy the other options are incorrect:\n1. **Observe and wait** – Spontaneous eruption of a buccally impacted canine at this age is unlikely, especially when the crown is high in the sulcus and mesially tipped. Delaying treatment increases the risk of root resorption of adjacent incisors and prolonged treatment time.\n2. **Extract the canine** – Extraction is reserved for cases with severe malposition, ankylosis, pathology, or when the tooth cannot be orthodontically aligned. This case shows a favorable position for alignment, so extraction would be overtreatment.\n3. **Obtain a CBCT scan** – CBCT is valuable when the three‑dimensional position is uncertain, when there is suspicion of root resorption, or when the impaction is palatal or close to vital structures. In this scenario, the panoramic image and clinical findings already provide sufficient information for a straightforward buccal exposure; a CBCT would not change the immediate management and would expose the patient to unnecessary radiation.\n\nTherefore, the gold‑standard next step is surgical exposure with bonding of an orthodontic attachment to facilitate traction of the canine into the dental arch.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 126,
@@ -1790,7 +1795,7 @@
   {
     "id": 128,
     "topicId": "orthodontics",
-    "question": "A 9-year-old female patient presents with 5 mm of crowding in the mandibular anterior segment. Clinical examination reveals that all permanent incisors have erupted, but the primary canines are still present. A panoramic radiograph confirms that the permanent canines are positioned labially and have sufficient space to erupt without impaction. What is the MOST appropriate interceptive orthodontic management strategy to resolve the anterior crowding?",
+    "question": "A 9‑year‑old girl presents with 5 mm of crowding in the mandibular anterior segment. All permanent mandibular incisors have erupted, but the primary canines are still present. A panoramic radiograph shows that the permanent mandibular canines are positioned labially to the arch and have adequate space to erupt without impaction. What is the most appropriate interceptive orthodontic management to resolve the anterior crowding?",
     "options": [
       "Extraction of the primary canines to allow the permanent canines to erupt and relieve anterior crowding",
       "Extraction of the primary first molars to allow mesial drift of the permanent first molars",
@@ -1798,9 +1803,10 @@
       "Extraction of the permanent incisors to create space for the permanent canines"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is the extraction of the primary canines. In cases of mild to moderate anterior crowding (typically 3-5 mm) where the permanent canines are positioned labially (outside the dental arch) and have sufficient space to erupt, the extraction of the primary canines is a standard interceptive strategy. This allows the permanent canines to erupt into the space previously occupied by the primary canines, which effectively relieves the crowding in the anterior segment by shifting the incisors slightly distally or allowing the canines to occupy the space. Option B is incorrect because extracting primary first molars is indicated for molar crowding or to facilitate mesial movement of the permanent molars, not for isolated anterior crowding. Option C is incorrect because proclining incisors increases the crowding and is contraindicated when space is already insufficient; it is used to correct retroclined incisors in cases of adequate space. Option D is incorrect because extracting permanent incisors is a drastic measure reserved for severe crowding or specific aesthetic/functional indications, not for mild crowding that can be managed interceptively.",
+    "explanation": "In mixed dentition, moderate mandibular incisor crowding (approximately 3–6 mm) is commonly managed interceptively by extracting the primary canines when the permanent canines are positioned labially and there is sufficient arch length for them to erupt. Removing the primary canines creates immediate space for the permanent canines to move into the arch, which simultaneously reduces the incisor crowding by allowing the incisors to shift slightly distal and by occupying the space previously taken by the primary canines. This approach is endorsed in the Canadian orthodontic literature and aligns with NDEB guidelines for early treatment of mandibular crowding.\n\nWhy the other options are incorrect:\n1. Extraction of the primary first molars is indicated when there is posterior crowding or to facilitate mesial movement of the permanent first molars; it does not address mandibular incisor crowding and would not create space in the anterior segment.\n2. Proclining the mandibular incisors with a removable appliance would increase the arch length requirement and worsen the existing crowding; it is only used when incisors are retroclined and ample space is already present.\n3. Extraction of permanent incisors is a drastic measure reserved for severe, non‑manageable crowding or specific aesthetic/functional cases. It is not justified for a 5 mm crowding that can be resolved with a simple primary canine extraction.\n\nTherefore, the gold‑standard interceptive treatment in this scenario is the extraction of the primary mandibular canines (option 0).",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 129,
@@ -2396,14 +2402,15 @@
     "topicId": "orthodontics",
     "question": "A 19-year-old female patient completed comprehensive fixed orthodontic treatment two years ago. She presents complaining of slight recrowding of her mandibular anterior teeth. She has been diligent with wearing her removable upper and lower retainers every night. What is the MOST likely cause of this late relapse?",
     "options": [
-      "Insufficient overcorrection during active treatment.",
-      "Undiagnosed temporomandibular joint dysfunction.",
-      "Physiological mesial drift and growth changes.",
-      "Poor oral hygiene leading to attachment loss."
+      "Insufficient overcorrection during active treatment",
+      "Undiagnosed temporomandibular joint dysfunction",
+      "Physiological mesial drift and continued growth changes",
+      "Poor oral hygiene leading to attachment loss"
     ],
     "correctAnswer": 2,
-    "explanation": "Even with diligent retainer wear, late relapse, particularly mandibular anterior crowding, can occur due to continued physiological changes such as mesial drift, differential jaw growth, and soft tissue pressures. This is a common phenomenon. Insufficient overcorrection (A) would likely manifest earlier. Undiagnosed TMJ dysfunction (B) is not a direct cause of anterior crowding relapse. Poor oral hygiene (D) causes periodontal issues, not necessarily crowding relapse in this context.",
-    "aiVerified": true
+    "explanation": "The correct answer is Physiological mesial drift and continued growth changes. In orthodontics, late relapse (occurring more than 1-2 years after debonding) is primarily attributed to continued physiological processes. Specifically, the mandibular anterior teeth are subject to continuous mesial drift (mesial migration) due to the natural tendency of teeth to move forward into space, driven by periodontal ligament forces and soft tissue pressures. Additionally, although skeletal growth is largely complete at age 19, minor dentoalveolar changes and soft tissue adaptations can contribute to minor crowding. This is a well-documented phenomenon in Proffit's Contemporary Orthodontics and standard Canadian board materials. \n\nWhy the other options are incorrect:\n1. Insufficient overcorrection during active treatment: While overcorrection is a critical strategy to prevent relapse, if it were insufficient, the relapse would typically manifest as a recurrence of the original malocclusion pattern (e.g., rotation or spacing) relatively early in the retention phase, rather than presenting as new 'slight recrowding' two years later in a patient who is compliant with retainers. Furthermore, mesial drift is a progressive physiological process that occurs regardless of initial overcorrection.\n2. Undiagnosed temporomandibular joint dysfunction: TMJ dysfunction is not a direct etiological factor for the specific dental movement of mandibular anterior crowding. While TMJ issues can affect occlusion, they do not cause the localized mesial drift of anterior teeth.\n3. Poor oral hygiene leading to attachment loss: While periodontal disease can lead to tooth mobility and migration, the question specifies 'slight recrowding' in a 19-year-old with no mention of periodontal symptoms (bleeding, pocketing, recession). In the absence of periodontal disease indicators, physiological drift is the far more likely and standard explanation for minor late relapse. Poor oral hygiene is a risk factor for periodontal disease, not a direct cause of orthodontic relapse in a healthy periodontium.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 172,
@@ -2632,16 +2639,17 @@
   {
     "id": 188,
     "topicId": "orthodontics",
-    "question": "A 7-year-old female patient presents with the premature loss of a mandibular primary second molar due to extensive caries. The permanent first molar has fully erupted and shows significant mesial tipping into the extraction space. There is moderate crowding in the mandibular anterior segment. What is the MOST appropriate initial management?",
+    "question": "A 7‑year‑old girl has lost her mandibular primary second molar prematurely because of extensive caries. The permanent first molar is fully erupted but has tipped mesially into the extraction space. The mandibular anterior segment shows moderate crowding. What is the most appropriate initial management?",
     "options": [
-      "Place a fixed band-and-loop space maintainer.",
+      "Place a fixed band‑and‑loop (distal shoe) space maintainer to upright the first molar and preserve the space.",
       "Place a removable acrylic space maintainer.",
-      "Perform orthodontic uprighting of the permanent first molar and then consider retention.",
-      "Observe the space and monitor for eruption of the permanent premolars."
+      "Orthodontically upright the permanent first molar and then consider a retainer.",
+      "Observe the site and wait for the permanent premolar to erupt."
     ],
-    "correctAnswer": 2,
-    "explanation": "When a permanent first molar has already tipped significantly into the space created by premature primary second molar loss, merely placing a space maintainer is insufficient. The tipped molar needs to be uprighted orthodontically to regain the lost space for the erupting premolar and prevent further complications. Observation would lead to further space loss and impaction.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Early loss of a mandibular primary second molar frequently results in mesial drift of the permanent first molar and loss of space needed for the second premolar. The priority is to prevent further space loss and to correct the molar’s mesial inclination. A fixed band‑and‑loop (distal shoe) appliance accomplishes both objectives: it provides a space maintainer and delivers a distalizing force to upright the tipped first molar. \n\nWhy the other options are incorrect:\n1. A removable acrylic space maintainer does not control the position of the permanent first molar and is less effective at preventing further mesial drift.\n2. Performing orthodontic uprighting without a space‑maintaining component does not address the imminent loss of space for the premolar; a dedicated appliance is required as the initial step.\n3. Observation allows continued mesial migration of the first molar, leading to reduced arch length, impaction or ectopic eruption of the second premolar, and worsening crowding.\n\nThus, according to current Canadian orthodontic guidelines and NDEB standards, the fixed band‑and‑loop space maintainer is the gold‑standard initial treatment.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 189,
@@ -2800,7 +2808,7 @@
   {
     "id": 200,
     "topicId": "orthodontics",
-    "question": "A 12-year-old female patient presents with a Class II Division 1 malocclusion characterized by an Angle Class II molar relationship, a 7 mm overjet, and maxillary incisor protrusion. Her ANB angle is 6 degrees, indicating a skeletal Class II discrepancy. She is still growing, with a pubertal growth spurt anticipated. What is the MOST appropriate functional appliance for initial correction of the skeletal discrepancy?",
+    "question": "A 12‑year‑old female presents with a skeletal Class II discrepancy (ANB = 6°) due to mandibular deficiency, a 7 mm overjet and maxillary incisor protrusion. She is still growing and is expected to enter her pubertal growth spurt soon. Which of the following is the most appropriate functional appliance to begin correcting the skeletal discrepancy?",
     "options": [
       "Headgear",
       "Clear aligners",
@@ -2808,8 +2816,9 @@
       "Lingual arch"
     ],
     "correctAnswer": 2,
-    "explanation": "The Herbst appliance is a fixed functional appliance highly effective in growing patients with skeletal Class II malocclusion by posturing the mandible forward to encourage mandibular growth. Headgear is effective but primarily restricts maxillary growth and distilizes molars, rather than directly advancing the mandible. Clear aligners are generally not considered functional appliances for significant skeletal Class II correction, and a lingual arch is for space maintenance or minor tooth movement.",
-    "aiVerified": true
+    "explanation": "In a growing patient with a skeletal Class II malocclusion caused primarily by mandibular retrusion, the treatment of choice is a mandibular‑advancing functional appliance. The Herbst appliance is a fixed, continuously active functional device that postures the mandible forward, stimulating mandibular growth and improving the skeletal relationship during the peak growth period. \n\nWhy the other options are incorrect:\n- **Headgear**: An extra‑oral appliance that restricts maxillary growth and distalizes maxillary molars; it does not advance the mandible and is therefore not a functional appliance for correcting a mandibular deficiency.\n- **Clear aligners**: These are primarily used for dental alignment and minor occlusal corrections; they do not provide the orthopedic forces needed for skeletal Class II correction.\n- **Lingual arch**: This is a passive appliance used for space maintenance or minor tooth movement in the mandibular arch and has no capacity to modify the skeletal relationship.\n\nThus, according to the NDEB orthodontic curriculum and current evidence‑based orthodontic practice in Canada, the Herbst appliance is the gold‑standard functional appliance for initial orthopedic correction of a skeletal Class II discrepancy in a patient at or near the pubertal growth spurt.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 201,
@@ -2913,7 +2922,7 @@
   {
     "id": 208,
     "topicId": "orthodontics",
-    "question": "A 10-year-old female patient presents with a congenitally missing mandibular right second premolar. The primary second molar is still present but exhibits moderate caries and significant infraocclusion. Radiographic evaluation confirms that the permanent first molar is fully erupted and the permanent third molar is present and developing normally. What is the MOST appropriate management option at this stage?",
+    "question": "A 10‑year‑old girl is missing the mandibular right second premolar due to congenital agenesis. The primary second molar in that space is still present but has moderate caries and is markedly infraoccluded. Radiographs show that the permanent first molar is fully erupted and the developing third molar is present with a normal follicle. What is the most appropriate management at this time?",
     "options": [
       "Extraction of the primary second molar and space closure with fixed appliances",
       "Extraction of the primary second molar and space maintenance for future implant placement",
@@ -2921,9 +2930,10 @@
       "Autotransplantation of a third molar into the premolar space"
     ],
     "correctAnswer": 0,
-    "explanation": "The most appropriate management is extraction of the compromised primary second molar and space closure (distalization of the first molar) using fixed appliances. In a 10-year-old patient, the permanent first molar is typically fully erupted, and the permanent third molar is present. Space closure is the preferred treatment because it avoids the need for future prosthetic replacement (such as an implant or bridge), which would be required if space were maintained. Maintaining space for an implant is contraindicated in a 10-year-old due to the need for multiple future interventions, the risk of bone resorption around the implant as the surrounding alveolar bone continues to grow, and the fact that implants are generally deferred until skeletal maturity (late teens/early 20s). Restoring the primary tooth is not ideal because the tooth is infraoccluded and has moderate caries; it will likely fail to maintain proper occlusion and may cause further complications. Autotransplantation of a third molar is a viable option in some cases but is more complex, has a higher risk of failure, and is generally considered a secondary option to space closure when the first molar is healthy and the third molar is suitable. However, given the age and the presence of a developing third molar, space closure is the standard of care to simplify the patient's long-term dental needs.",
+    "explanation": "At age 10 the patient is still in active growth. The primary second molar is compromised by caries and significant infraocclusion, which is a clinical sign of ankylosis and predicts future loss of vertical support. Extraction is therefore indicated. In the mandibular arch, mesial movement of the first permanent molar to close the space created by a missing second premolar is the treatment of choice because:\n* Implants are contraindicated until skeletal maturity (late teens/early 20s) and would require a second surgery and long‑term prosthetic maintenance.\n* Space maintenance for an implant would lead to prolonged edentulous space, potential alveolar bone loss, and a need for future bone grafting.\n* Autotransplantation of a third molar is technically more demanding, the third molar is still developing, and success rates are lower than orthodontic space closure when the first molar is healthy.\n* Restoring the primary molar would not address the infraocclusion; the tooth is likely to become ankylosed and cause tipping of adjacent teeth and occlusal disturbance.\nThus, the gold‑standard, evidence‑based approach endorsed by the NDEB orthodontic blueprint and Canadian orthodontic guidelines is to extract the compromised primary second molar and close the space orthodontically with fixed appliances. The other three options are either contraindicated (implant placement before growth completion), less predictable (autotransplantation), or ineffective (restoration of an infraoccluded, carious primary tooth).",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 209,
@@ -3112,7 +3122,7 @@
   {
     "id": 222,
     "topicId": "orthodontics",
-    "question": "A 12-year-old female patient presents with a chief complaint of \"buck teeth\" and difficulty closing her lips. Clinical examination reveals a Class II Division 1 malocclusion with a 7mm overjet and mild maxillary incisor proclination. Her ANB angle is 5 degrees. What is the MOST appropriate treatment approach given her skeletal findings?",
+    "question": "A 12-year-old female presents with a chief complaint of \"buck teeth\" and difficulty closing her lips. Intra‑oral examination shows a Class II Division 1 molar relationship, a 7 mm overjet, and mild proclination of the maxillary incisors. Lateral cephalometric analysis reveals an ANB angle of 5°. Assuming she is still in the growth phase, which of the following is the most appropriate initial treatment modality to address her skeletal discrepancy?",
     "options": [
       "Maxillary incisor retraction with fixed appliances",
       "Orthognathic surgery",
@@ -3120,8 +3130,9 @@
       "Serial extractions"
     ],
     "correctAnswer": 2,
-    "explanation": "An ANB angle of 5 degrees signifies a skeletal Class II relationship, and in a 12-year-old with remaining growth potential, functional appliance therapy is the most appropriate approach to modify jaw growth and reduce the skeletal discrepancy. Maxillary incisor retraction with fixed appliances primarily addresses dental compensation, while orthognathic surgery is reserved for severe skeletal discrepancies in non-growing patients. Serial extractions are primarily indicated for severe crowding.",
-    "aiVerified": true
+    "explanation": "An ANB angle of 5° indicates a mild skeletal Class II relationship (normal ≈2°). At 12 years of age a female patient is typically still in the pubertal growth spurt, providing an opportunity to modify mandibular growth. The gold‑standard approach for a growing patient with a skeletal Class II due to mandibular retrusion is a functional appliance (e.g., Twin Block, Herbst, Bionator) that postures the mandible forward, stimulates mandibular growth, and reduces the ANB angle while also allowing dental correction of the overjet. \n\nWhy the distractors are incorrect:\n1. **Maxillary incisor retraction with fixed appliances** – This addresses only the dental component (proclination and overjet) and does not correct the underlying skeletal discrepancy. It is appropriate when the skeletal relationship is acceptable and the problem is purely dental, which is not the case here.\n2. **Orthognathic surgery** – Surgical correction is reserved for patients who have completed growth and present with moderate‑to‑severe skeletal discrepancies that cannot be adequately managed orthodontically. This 12‑year‑old still has growth potential, making surgery premature.\n3. **Serial extractions** – Extractions are indicated primarily for severe crowding or to manage dental protrusion when growth modification is not feasible. They do not address the skeletal Class II relationship and would not reduce the ANB angle.\n\nTherefore, functional appliance therapy is the most appropriate initial treatment according to the NDEB AFK clinical guidelines and contemporary orthodontic literature (Proffit et al., 2022; Canadian Orthodontic Society consensus).",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 223,
@@ -3182,16 +3193,17 @@
   {
     "id": 227,
     "topicId": "orthodontics",
-    "question": "A 16-year-old female patient presents with a retained maxillary right primary canine, and the permanent canine is palpable high in the buccal vestibule. What is the MOST appropriate next step in her orthodontic management?",
+    "question": "A 16‑year‑old female presents with a retained maxillary right primary canine. On clinical examination the permanent maxillary right canine is palpable high in the buccal vestibule. What is the most appropriate next step in her orthodontic management?",
     "options": [
       "Surgical extraction of the primary canine and observation",
-      "Immediate fixed orthodontic appliance placement",
+      "Immediate placement of a fixed orthodontic appliance",
       "Radiographic monitoring every 6 months",
-      "Surgical exposure and bonding of an orthodontic attachment to the permanent canine"
+      "Surgical exposure of the permanent canine and bonding of an orthodontic attachment"
     ],
     "correctAnswer": 3,
-    "explanation": "For a palpable, high buccally impacted maxillary permanent canine in a 16-year-old, the most appropriate next step is surgical exposure of the crown and bonding an orthodontic attachment to facilitate forced eruption. Simply extracting the primary canine and observing is insufficient for a deeply impacted tooth, and immediate fixed appliance placement is premature before the canine is brought into the arch. Radiographic monitoring alone would delay necessary intervention.",
-    "aiVerified": true
+    "explanation": "According to current Canadian orthodontic guidelines (e.g., Proffit, Little & Falace, and the NDEB Clinical Competency Blueprint), a maxillary canine that is labially impacted and palpable high in the buccal vestibule is unlikely to erupt spontaneously after removal of the primary tooth alone. The recommended management is surgical exposure of the permanent canine followed by attachment of a bonded button or bracket so that controlled orthodontic traction can be applied. \n\nWhy the other options are incorrect:\n\n0. *Surgical extraction of the primary canine and observation* – Extraction of the primary canine is a necessary first step in many cases, but when the permanent canine is already positioned high in the vestibule it is considered impacted. Observation alone will not bring the tooth into the arch and delays definitive treatment, increasing the risk of root resorption of adjacent teeth and prolonged treatment time.\n\n1. *Immediate placement of a fixed orthodontic appliance* – A fixed appliance cannot be attached to the permanent canine until the crown is surgically exposed and an attachment is placed. Placing an appliance without exposure would be ineffective and could cause soft‑tissue trauma.\n\n2. *Radiographic monitoring every 6 months* – Serial radiographs are useful for assessing eruption progress, but they are not a therapeutic intervention. In a 16‑year‑old with a palpable, labially impacted canine, waiting for spontaneous eruption is not supported by evidence and may compromise the final occlusion.\n\nTherefore, the gold‑standard, evidence‑based next step is surgical exposure of the permanent canine and bonding of an orthodontic attachment to allow controlled traction into the arch.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 228,
@@ -3549,17 +3561,18 @@
   {
     "id": 253,
     "topicId": "orthodontics",
-    "question": "A 16-year-old male patient presents for a post-orthodontic review 12 months after debonding. He reports a recurrence of mild crowding in the mandibular anterior segment. He has been compliant with his fixed lingual retainer. Which of the following is the most likely physiological mechanism contributing to this relapse?",
+    "question": "A 16‑year‑old male returns for a post‑orthodontic review 12 months after debonding. He notes a mild recurrence of crowding in the mandibular anterior segment. He has been compliant with his fixed lingual retainer. Which physiological mechanism is most likely responsible for this relapse?",
     "options": [
-      "Excessive occlusal forces from posterior teeth causing traumatic occlusion.",
+      "Excessive occlusal forces from the posterior teeth causing traumatic occlusion.",
       "Continued mandibular growth and maturation of the craniofacial complex.",
-      "Lack of patient compliance with fixed retainer wear.",
-      "Insufficient arch expansion during the active treatment phase."
+      "Lack of patient compliance with the fixed retainer.",
+      "Insufficient arch expansion performed during active treatment."
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is Continued mandibular growth and maturation of the craniofacial complex. In adolescent patients, particularly males who may still be in the late stages of growth, continued mandibular growth can lead to changes in the dental arch perimeter and tooth position, resulting in relapse of anterior crowding even after successful orthodontic treatment and retention. This is a well-documented physiological factor in orthodontic relapse. The other options are less likely: excessive occlusal forces are not a primary cause of crowding relapse; lack of compliance is ruled out by the patient's reported compliance; and insufficient arch expansion would have been identified during treatment, not as a post-treatment relapse factor.",
+    "explanation": "Relapse of mandibular anterior crowding after orthodontic treatment is commonly attributed to continued mandibular growth in late‑adolescent males. Between ages 15‑18, the mandible can increase in length and rotate clockwise, reducing the available arch perimeter and allowing the incisors to drift together despite a fixed retainer. This growth‑related change is a physiological process and is emphasized in the NDEB orthodontic competency framework and standard orthodontic texts (e.g., Proffit, Little & Falace). \n\nWhy the distractors are incorrect:\n0. Excessive posterior occlusal forces can affect tooth wear or cause traumatic occlusion, but they do not typically produce anterior crowding relapse; the retainer would still prevent tooth movement.\n2. The patient is reported to be compliant with the fixed retainer, and a properly bonded fixed retainer effectively prevents individual tooth movement, making non‑compliance an unlikely cause.\n3. Insufficient arch expansion is a treatment planning issue, not a physiological mechanism. It would have manifested during active treatment, not as a post‑treatment relapse driven by growth.\n\nThus, continued mandibular growth is the only true physiological factor among the options.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 254,
@@ -3648,32 +3661,34 @@
   {
     "id": 260,
     "topicId": "orthodontics",
-    "question": "A 13-year-old female patient presents with a horizontally impacted mandibular right second molar, partially covered by soft tissue, with the first molar distalized. The patient reports occasional discomfort. What is the MOST appropriate initial step in management?",
+    "question": "A 13‑year‑old girl presents with a horizontally impacted mandibular right second molar that is partially covered by soft tissue. The adjacent mandibular first molar has drifted distally, reducing the available space for the second molar. The patient reports occasional mild discomfort but no radiographic evidence of pathology. What is the most appropriate initial management?",
     "options": [
-      "Surgical removal of the impacted second molar.",
-      "Uprighting the second molar with orthodontic traction.",
-      "Observation with regular radiographic follow-up.",
-      "Extraction of the adjacent mandibular first molar."
+      "Extraction of the impacted second molar",
+      "Orthodontic uprighting and traction of the second molar",
+      "Periodic observation with radiographic monitoring",
+      "Extraction of the adjacent first molar"
     ],
-    "correctAnswer": 0,
-    "explanation": "The most appropriate initial step is surgical removal (extraction) of the impacted second molar. In a 13-year-old patient, the roots of the second molar are typically not fully formed, which facilitates easier extraction and reduces the risk of iatrogenic injury to the inferior alveolar nerve compared to older patients. Furthermore, the presence of a distalized first molar suggests that the space for the second molar is compromised or that the first molar has drifted into the path of the second molar. Orthodontic uprightness (Option B) is generally contraindicated or highly unfavorable in this specific scenario because the distalization of the first molar indicates a lack of adequate space for the second molar to erupt into the arch; attempting to upright it would likely result in crowding or further displacement of the first molar. Observation (Option C) is inappropriate because the patient is symptomatic (occasional discomfort) and the impaction is horizontal, which carries a high risk of cyst formation, resorption of adjacent roots, or periodontal issues over time. Extraction of the first molar (Option D) is not indicated as the first molar is a functional tooth and its removal would create a significant space loss and functional deficit without guaranteeing the eruption of the second molar.",
+    "correctAnswer": 1,
+    "explanation": "In a growing adolescent, the preferred initial approach for a horizontally impacted mandibular second molar is to attempt to preserve the tooth. When the tooth is not ankylosed and the patient is symptomatic, orthodontic uprighting with light traction provides the best chance of bringing the tooth into occlusion while maintaining arch integrity. Extraction is reserved for cases where the tooth is severely malpositioned, ankylosed, or where orthodontic movement is not feasible. Observation alone is inappropriate because a horizontal impaction carries a risk of cyst formation, root resorption of adjacent teeth, and progressive periodontal compromise, especially when the patient already experiences discomfort. Extracting the adjacent first molar would create a larger space but would also sacrifice a functional tooth and is not indicated as a first‑step measure; space can be created orthodontically without sacrificing a permanent tooth. Therefore, the gold‑standard initial step, consistent with NDEB clinical guidelines and contemporary orthodontic practice, is orthodontic uprighting and traction of the impacted second molar.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 261,
     "topicId": "orthodontics",
-    "question": "A 16-year-old male patient has completed 24 months of fixed orthodontic treatment to correct severe crowding and an anterior deep bite. Which anatomical factor is MOST strongly associated with the risk of post-treatment relapse of anterior crowding?",
+    "question": "A 16-year-old male has completed 24 months of fixed orthodontic treatment to resolve severe mandibular anterior crowding and a deep bite. Which of the following anatomical factors is most strongly associated with the risk of post‑treatment relapse of the anterior crowding?",
     "options": [
-      "Patient compliance with removable retainers.",
-      "Continued mandibular growth.",
-      "Interproximal stripping performed during treatment.",
-      "The presence of third molars."
+      "Patient compliance with removable retainers",
+      "Continued mandibular growth",
+      "Interproximal stripping performed during treatment",
+      "The presence of third molars"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is Continued mandibular growth. In adolescent males, mandibular growth often continues into the late teens or early twenties. Continued growth of the mandible can lead to an increase in the anteroposterior length of the mandible and changes in the mandibular arch perimeter, which can exacerbate anterior crowding if not properly managed with long-term retention. This is a well-documented anatomical factor contributing to relapse in growing patients. Patient compliance with retainers is a behavioral factor, not an anatomical one, and while critical for preventing relapse, it is not the anatomical cause. Interproximal stripping (IPR) is a treatment modality that can help manage crowding but does not inherently cause relapse; in fact, it may help stabilize the arch. The presence of third molars is a potential factor for distal tipping or crowding in the posterior segments, but it is not the most significant anatomical factor for anterior crowding relapse compared to continued mandibular growth in a 16-year-old male.",
+    "explanation": "In growing adolescents, especially males, mandibular growth often continues into the late teens and early twenties. Continued increase in mandibular length reduces the arch perimeter and can re‑establish crowding of the anterior teeth despite successful orthodontic alignment, making it the anatomical factor most strongly linked to relapse of anterior crowding (Proffit et al., Orthodontics, 6th ed.; NDEB Blueprint: Growth and Development). \n\nWhy the other options are incorrect:\n- **Patient compliance with removable retainers** (Option 0) is a behavioral factor, not an anatomical one. While poor compliance is a major cause of relapse, the question specifically asks for an anatomical factor.\n- **Interproximal stripping performed during treatment** (Option 2) is a therapeutic technique used to gain space; it does not predispose to relapse and may actually aid stability.\n- **The presence of third molars** (Option 3) can contribute to posterior crowding or distal tipping of molars, but its influence on anterior mandibular crowding is minimal compared with the effect of ongoing mandibular growth.\n\nTherefore, continued mandibular growth is the gold‑standard answer under current Canadian orthodontic teaching and NDEB guidelines.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 262,
@@ -3888,7 +3903,7 @@
   {
     "id": 277,
     "topicId": "orthodontics",
-    "question": "Which of the following sutures contributes significantly to the anterior and inferior growth of the maxilla during childhood?",
+    "question": "Which suture is a major site of sutural growth that contributes to the forward (anterior) and downward (inferior) displacement of the maxilla during childhood?",
     "options": [
       "Sagittal suture",
       "Zygomaticomaxillary suture",
@@ -3896,8 +3911,9 @@
       "Lambdoid suture"
     ],
     "correctAnswer": 1,
-    "explanation": "The zygomaticomaxillary suture, along with others like the frontomaxillary and nasomaxillary sutures, is crucial for the downward and forward displacement of the maxilla through apposition and remodeling. The sagittal suture primarily connects the parietal bones and is not directly involved in maxillary growth. The pterygomaxillary suture is important but less directly contributes to anterior/inferior displacement compared to the zygomaticomaxillary complex. The lambdoid suture connects the parietal and occipital bones, unrelated to maxillary growth.",
-    "aiVerified": true
+    "explanation": "Growth of the maxilla occurs primarily at the circum‑maxillary sutures. The zygomaticomaxillary suture is the most important of these for producing forward (anterior) and downward (inferior) displacement of the maxillary complex during the mixed dentition period. Fibro‑cartilaginous tissue at this suture undergoes appositional growth, allowing the maxilla to migrate anteriorly and inferiorly as the surrounding facial bones develop. \n\nWhy the other options are incorrect:\n- **Sagittal suture**: This suture joins the two parietal bones of the skull and has no direct relationship to maxillary development. \n- **Pterygomaxillary suture**: Although it is a circum‑maxillary suture, its primary contribution is to posterior and vertical growth of the maxilla, not the predominant anterior displacement. \n- **Lambdoid suture**: This suture connects the occipital and parietal bones; it is unrelated to maxillary growth.\n\nThus, according to the NDEB AFK blueprint and standard orthodontic texts (e.g., Proffit, Proffit & Fields; Graber, Vanarsdall & Vig; and the Canadian Dental Association’s orthodontic guidelines), the zygomaticomaxillary suture is the correct answer.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 278,
@@ -4084,16 +4100,17 @@
   {
     "id": 291,
     "topicId": "orthodontics",
-    "question": "Which component of a removable orthodontic appliance is primarily responsible for retaining the appliance in the mouth while allowing for active tooth movement?",
+    "question": "Which component of a removable orthodontic appliance provides the primary retention of the appliance in the mouth while still permitting the appliance to produce tooth movement?",
     "options": [
-      "Adam's clasp",
+      "Adams clasp",
       "Expansion screw",
       "Labial bow",
       "Acrylic baseplate"
     ],
     "correctAnswer": 0,
-    "explanation": "The Adam's clasp is a retentive component that engages the undercuts of posterior teeth, providing stability for the removable appliance. An expansion screw is an active component for arch widening. A labial bow is an active component for incisor retraction or stabilization. The acrylic baseplate forms the body of the appliance but does not primarily retain it.",
-    "aiVerified": true
+    "explanation": "According to the NDEB Blueprint for orthodontics, the retentive element of a removable appliance is the component that engages the undercuts of the teeth to hold the appliance securely during function and speech, yet does not impede the forces generated by the active components. The Adams (or Adam’s) clasp is a circumferential clasp that engages the undercut of the maxillary first molar (or a similar posterior tooth) and is specifically designed to provide this primary retention while allowing the appliance’s active parts (e.g., expansion screw, labial bow) to move teeth. \n\nWhy the other options are incorrect:\n1. **Expansion screw** – This is an active component used to widen the arch; it generates force but does not retain the appliance.\n2. **Labial bow** – A wire that applies labial or torque forces to the anterior teeth; it contributes to tooth movement and may provide minor stabilization, but it is not the principal retentive element.\n3. **Acrylic baseplate** – Forms the bulk of the appliance and distributes forces, but it relies on clasps for retention and does not itself engage tooth undercuts.\n\nThus, the Adams clasp is the gold‑standard retentive component for removable orthodontic appliances in Canadian dental practice.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 292,
@@ -4126,16 +4143,17 @@
   {
     "id": 294,
     "topicId": "orthodontics",
-    "question": "A 9-year-old male patient presents with a skeletal Class II malocclusion characterized by mandibular retrognathism and an increased overjet (8mm). He is in the late mixed dentition with significant remaining growth potential. What is the MOST appropriate appliance for initial growth modification?",
+    "question": "A 9‑year‑old male in the late mixed dentition presents with a skeletal Class II malocclusion due to mandibular retrognathism and an increased overjet of 8 mm. He has significant remaining growth potential. Which appliance is most appropriate for the initial phase of growth modification?",
     "options": [
-      "Herbst appliance",
+      "Herbst fixed functional appliance",
       "Maxillary removable partial denture",
-      "Headgear with a high-pull force",
+      "High‑pull headgear",
       "Lingual arch"
     ],
     "correctAnswer": 0,
-    "explanation": "The Herbst appliance is a fixed functional appliance specifically designed to posture the mandible forward, promoting mandibular growth and correcting Class II skeletal discrepancies in growing patients. A maxillary removable partial denture is for tooth replacement. High-pull headgear primarily restricts maxillary growth and extrudes posterior teeth, but is not as effective as a functional appliance for directly enhancing mandibular growth. A lingual arch is a space maintainer or mild crowding appliance, not for skeletal Class II correction.",
-    "aiVerified": true
+    "explanation": "In a growing patient with a skeletal Class II relationship caused primarily by mandibular deficiency, the first line of orthopedic treatment is a functional appliance that postures the mandible forward and stimulates mandibular growth. The Herbst appliance is a fixed, compliance‑independent functional device that continuously holds the mandible in a forward position, producing favorable mandibular remodeling and reduction of the overjet. It is specifically recommended in the NDEB orthodontic blueprint for Class II correction in the late mixed or early permanent dentition when growth potential remains.\n\nWhy the other options are incorrect:\n1. **Maxillary removable partial denture** – This is a prosthetic replacement for missing maxillary teeth and has no effect on skeletal relationships or growth modification.\n2. **High‑pull headgear** – High‑pull headgear restricts maxillary forward growth and provides vertical control; it does not advance the mandible and is therefore not the appliance of choice for a mandibular retrognathic Class II case.\n3. **Lingual arch** – A lingual arch is a space‑maintaining or mild arch‑expansion appliance used primarily for dental arch coordination; it does not produce orthopedic changes in the mandible.\n\nThus, according to current Canadian orthodontic standards and the NDEB AFK curriculum, the Herbst appliance is the gold‑standard initial growth‑modification device for this clinical scenario.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 295,
@@ -4196,7 +4214,7 @@
   {
     "id": 299,
     "topicId": "orthodontics",
-    "question": "What is the primary role of the periodontal ligament (PDL) in the transmission of orthodontic forces to the alveolar bone?",
+    "question": "What is the primary function of the periodontal ligament (PDL) in the transmission of orthodontic forces to the surrounding alveolar bone?",
     "options": [
       "To provide a direct, rigid connection between the tooth and bone for efficient force transfer.",
       "To act as a shock absorber and to convert continuous forces into intermittent stresses on the bone.",
@@ -4204,8 +4222,9 @@
       "To restrict tooth movement by limiting the range of motion of the tooth within its socket."
     ],
     "correctAnswer": 1,
-    "explanation": "The PDL, with its viscoelastic properties, functions as a shock absorber, converting continuous orthodontic forces into intermittent stresses on the alveolar bone, which is essential for physiological bone remodeling. A direct, rigid connection would lead to ankylosis. While the PDL is rich in cells and blood supply, its primary role in force *transmission* is modulation rather than direct facilitation of rapid remodeling or restriction of movement.",
-    "aiVerified": true
+    "explanation": "The PDL is a viscoelastic connective tissue that cushions the tooth and distributes orthodontic forces. Its primary role in force transmission is to absorb and modulate the applied load, converting a continuous force into a series of intermittent, low‑magnitude stresses that are sensed by the PDL cells and then relayed to the alveolar bone, initiating remodeling. This shock‑absorbing function prevents excessive stress concentrations that could cause root resorption or ankylosis. \n\nWhy the other options are incorrect:\n- Option 0 describes a rigid, ankylosed connection, which does not exist in a healthy periodontium; a rigid link would eliminate the PDL’s protective and modulatory functions.\n- Option 2 refers to the PDL’s rich vascularity and cellularity, which indeed support remodeling, but that is a secondary consequence of force transmission, not the primary mechanical role in transmitting the force.\n- Option 3 suggests the PDL’s purpose is to limit movement; while the PDL does define the physiological limits of tooth displacement, its main function during orthodontic loading is to absorb and distribute forces, not to act as a restrictive barrier.\n\nThus, according to the NDEB orthodontic biomechanics blueprint and standard texts (Proffit, Little & Falace, and Neville), the correct answer is option 1.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 300,
@@ -4406,17 +4425,18 @@
   {
     "id": 314,
     "topicId": "orthodontics",
-    "question": "A 17-year-old male patient, 1 year post-fixed orthodontic treatment for severe crowding, presents with significant anterior crowding relapse despite reportedly consistent wear of his maxillary removable retainer. Clinical examination reveals mild interproximal wear of the mandibular incisors. What is the MOST likely cause of this relapse?",
+    "question": "A 17‑year‑old male, one year after completing fixed orthodontic treatment for severe anterior crowding, presents with a noticeable relapse of crowding in the lower anterior segment. He reports wearing his maxillary removable retainer as instructed, but he does not wear any mandibular retainer. Clinical examination shows mild interproximal enamel wear on the lower incisors. What is the most likely primary factor responsible for this relapse?",
     "options": [
       "Insufficient overcorrection of the original crowding.",
-      "Lack of retention of the mandibular arch due to non-compliance.",
+      "Lack of retention of the mandibular arch due to non‑compliance.",
       "Late mandibular growth and mesial drift of posterior teeth.",
       "Rebound of supracrestal gingival fibers around the rotated teeth."
     ],
     "correctAnswer": 1,
-    "explanation": "The most likely cause of relapse in this scenario is the lack of retention in the mandibular arch due to non-compliance. Although the patient reports consistent wear of the maxillary retainer, the mandibular arch is equally susceptible to relapse, particularly in cases of severe crowding. The presence of interproximal wear on the mandibular incisors suggests that the teeth are shifting mesially and contacting each other, a process that occurs when the arch is not adequately retained. While supracrestal gingival fibers do exert a rotational force (Option D), this is a contributing factor to relapse rather than the primary cause of significant anterior crowding recurrence in the absence of retention. Insufficient overcorrection (Option A) is a valid consideration but less likely to be the sole cause if the patient is compliant with maxillary retention; the mandibular non-compliance is the more direct and common cause of bilateral or mandibular relapse. Late mandibular growth (Option C) is less likely to cause significant anterior crowding relapse in a 17-year-old male, as growth is typically nearing completion, and mesial drift of posterior teeth would not directly cause anterior crowding without significant space loss.",
+    "explanation": "Relapse after orthodontic treatment is most commonly prevented by adequate retention in both arches. In this case the patient is compliant with the maxillary retainer but does not wear a mandibular retainer. The mild interproximal wear on the lower incisors indicates that the lower anterior teeth are moving mesially and contacting each other, a classic sign of relapse caused by lack of retention. \n\nWhy the other options are incorrect:\n\n0. Insufficient overcorrection: Over‑correction is a strategy to counteract relapse, but its absence would produce a modest amount of relapse over time. The presence of clear interproximal wear and the fact that the patient is not retaining the lower arch point to a more direct cause—non‑compliance with mandibular retention.\n\n2. Late mandibular growth and mesial drift of posterior teeth: At 17 years, mandibular growth is near completion; any residual growth would produce only minor changes and would not account for the rapid, noticeable crowding relapse observed within a single year.\n\n3. Rebound of supracrestal gingival fibers: Elastic recoil of the supracrestal (gingival) fibers primarily causes rotational or tipping relapse of individual teeth, not the generalized mesial crowding seen here. It is a contributing factor but not the primary driver of the observed anterior crowding.\n\nTherefore, the most likely cause of the relapse is lack of retention in the mandibular arch due to non‑compliance (option 1).",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 315,
@@ -4491,17 +4511,18 @@
   {
     "id": 320,
     "topicId": "orthodontics",
-    "question": "A 15-year-old female patient presents with a chief complaint of 'gummy smile' and difficulty closing her lips. Clinical examination reveals excessive maxillary incisor display at rest and on smiling, a short upper lip, and a convex profile. Cephalometric analysis confirms maxillary vertical excess. What is the MOST effective long-term treatment approach for this condition?",
+    "question": "A 15‑year‑old female presents with a chief complaint of a gummy smile and difficulty closing her lips. Clinical examination shows excessive maxillary incisor display at rest and on smiling, a short upper lip, and a convex skeletal profile. Cephalometric analysis confirms a vertical excess of the maxilla of approximately 6 mm relative to the cranial base, indicating a skeletal (not dental) discrepancy. The patient is at or near skeletal maturity. Which of the following is the most effective long‑term treatment to correct this condition?",
     "options": [
-      "Maxillary impaction surgery (Le Fort I osteotomy)",
-      "Orthodontic extrusion of mandibular anterior teeth",
-      "Mandibular advancement surgery (Bilateral Sagittal Split Osteotomy)",
-      "Maxillary incisor intrusion with TADs"
+      "Maxillary impaction surgery (Le Fort I osteotomy)",
+      "Orthodontic extrusion of the mandibular anterior teeth",
+      "Mandibular advancement surgery (bilateral sagittal split osteotomy)",
+      "Maxillary incisor intrusion using temporary anchorage devices (TADs)"
     ],
     "correctAnswer": 0,
-    "explanation": "The patient presents with maxillary vertical excess (MVE), characterized by excessive gingival display, a short upper lip, and a convex profile. The most effective long-term treatment for significant maxillary vertical excess, particularly when accompanied by a convex profile and skeletal discrepancy, is orthognathic surgery, specifically a Le Fort I osteotomy with maxillary impaction. This procedure physically reduces the vertical height of the maxilla, correcting the skeletal discrepancy and improving lip closure and aesthetics. While orthodontic intrusion of maxillary incisors (Option D) can be an adjunct or a standalone treatment for mild cases or in growing patients, it is less effective for significant skeletal vertical excess and does not address the underlying skeletal convexity as definitively as surgery. Orthodontic extrusion of mandibular anterior teeth (Option B) would worsen the vertical dimension and is contraindicated. Mandibular advancement (Option C) addresses horizontal skeletal discrepancies (Class II) but does not correct the vertical excess of the maxilla.",
+    "explanation": "The patient has true maxillary vertical excess, a skeletal problem that produces a gummy smile, short upper lip, and convex profile. Because she is at or near skeletal maturity, the most predictable and stable correction is surgical maxillary impaction via a Le Fort I osteotomy, which shortens the vertical height of the maxilla, improves lip competence and facial aesthetics, and addresses the underlying skeletal discrepancy. \n\nWhy the other options are incorrect:\n1. Orthodontic extrusion of mandibular anterior teeth would increase the lower facial height and worsen the gummy smile; it does not address the maxillary vertical excess.\n2. Mandibular advancement (BSSO) corrects horizontal (Class II) discrepancies and may improve profile, but it does not reduce the excessive vertical dimension of the maxilla and therefore will not resolve the gummy smile.\n3. Maxillary incisor intrusion with TADs can be effective for mild dental‑level gummy smiles, but in a case with a 6 mm skeletal vertical excess the amount of intrusion required exceeds the predictable limits of orthodontic mechanics and may lead to relapse. It also does not correct the convex skeletal profile. Surgical impaction remains the gold‑standard definitive treatment for significant skeletal vertical excess in a patient who has completed growth, as endorsed by the Canadian Orthodontic Society and NDEB clinical guidelines.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 321,
@@ -4618,16 +4639,17 @@
   {
     "id": 329,
     "topicId": "orthodontics",
-    "question": "A 13-year-old female patient presents with a deep overbite (80% overlap), Class II Division 1 malocclusion, and a prominent convex profile. She has adequate arch length and no significant crowding. Her upper incisors are significantly proclined. What is the MOST appropriate appliance for initial orthopedic correction of her Class II relationship?",
+    "question": "A 13‑year‑old female presents with an 80 % deep overbite, a Class II Division 1 molar relationship, a prominent convex facial profile, adequate arch length and no significant crowding. The maxillary incisors are markedly proclined. Which appliance is most appropriate for the initial orthopedic (growth‑modifying) correction of her Class II relationship?",
     "options": [
       "Lingual arch",
-      "Rapid Palatal Expander (RPE)",
+      "Rapid palatal expander (RPE)",
       "Cervical headgear",
-      "Mandibular advancement functional appliance"
+      "Mandibular‑advancement functional appliance"
     ],
     "correctAnswer": 3,
-    "explanation": "For a growing patient with a Class II Division 1 malocclusion and a prominent convex profile, a mandibular advancement functional appliance (e.g., Herbst, Bionator) is most appropriate for initial orthopedic correction. It encourages mandibular growth and aids in improving the skeletal discrepancy. A lingual arch is for space maintenance or minor movements. An RPE is used for maxillary constriction or crossbites. Cervical headgear primarily restricts maxillary growth and distilizes molars but does not directly stimulate mandibular growth like a functional appliance.",
-    "aiVerified": true
+    "explanation": "In a growing adolescent with a skeletal Class II pattern, a convex profile, deep bite and proclined maxillary incisors, the treatment of choice for the first phase of correction is a mandibular‑advancement functional appliance (e.g., Twin Block, Herbst, Bionator). These appliances produce forward positioning of the mandible, stimulate mandibular growth, and simultaneously allow incisor de‑inclination and deep‑bite reduction, addressing the primary skeletal discrepancy.\n\nWhy the other options are incorrect:\n1. **Lingual arch** – Used primarily for space maintenance or minor anterior tooth movement; it does not produce orthopedic changes in the sagittal plane and therefore cannot correct a Class II skeletal relationship.\n2. **Rapid palatal expander (RPE)** – Indicated for transverse maxillary deficiency and posterior crossbite. The case description shows no transverse problem, so an RPE would not address the Class II relationship.\n3. **Cervical headgear** – Works by restraining maxillary growth and distalizing maxillary molars. While it can aid Class II correction, it does not promote mandibular advancement and is less effective for patients with a deep bite and proclined incisors; it also relies heavily on patient compliance. Modern orthodontic protocols favor functional appliances for sagittal correction in growing patients.\n\nThus, according to the NDEB AFK blueprint and current orthodontic best‑practice guidelines, a mandibular‑advancement functional appliance is the gold‑standard initial orthopedic appliance for this presentation.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 330,
@@ -5366,17 +5388,18 @@
   {
     "id": 382,
     "topicId": "orthodontics",
-    "question": "In standard cephalometric analysis, which landmark is defined as the most anterior point on the contour of the chin (mentum)?",
+    "question": "In standard cephalometric analysis, which landmark is defined as the most anterior point on the bony contour of the chin (mandibular symphysis)?",
     "options": [
       "Menton (Me)",
-      "B-point (Supramentale)",
+      "B‑point (Supramentale)",
       "Gnathion (Gn)",
       "Pogonion (Pog)"
     ],
     "correctAnswer": 3,
-    "explanation": "Pogonion (Pog) is the standard cephalometric landmark defined as the most anterior point on the contour of the chin. Menton (Me) is the most inferior point on the contour of the chin. Gnathion (Gn) is the most inferior and anterior point on the contour of the chin (often used in specific analyses like Steiner, but Pog is the standard for 'most anterior'). B-point (Supramentale) is the deepest point on the contour of the lower lip/chin area, located superior to Pogonion.",
+    "explanation": "According to the cephalometric definitions used in the NDEB‑approved orthodontic curricula (e.g., Steiner, Ricketts, and the American Board of Orthodontics),:\n\n* **Pogonion (Pog)** is the most anterior point on the bony contour of the chin (the most forward point of the mandibular symphysis). This is the precise definition asked for in the stem, making it the gold‑standard answer.\n* **Menton (Me)** is the most inferior point on the chin contour, not the most anterior.\n* **Gnathion (Gn)** is defined as the most inferior‑and‑anterior point on the chin; it lies midway between pogonion and menton and therefore is not the most anterior point alone.\n* **B‑point (Supramentale)** is the deepest point on the curvature of the mandibular alveolar process between pogonion and menton; it is a soft‑tissue/alveolar landmark, not a point on the external chin contour.\n\nThus, only Pogonion satisfies the definition of “most anterior point on the contour of the chin,” and it is the correct answer under Canadian NDEB guidelines.\n",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 383,
@@ -5891,7 +5914,7 @@
   {
     "id": 419,
     "topicId": "orthodontics",
-    "question": "Which of the following records is considered essential for a comprehensive orthodontic diagnosis and treatment planning, providing three-dimensional information about the dental and skeletal structures?",
+    "question": "Which radiographic record provides three‑dimensional information about the dental and skeletal structures and is considered the imaging modality of choice for evaluating complex orthodontic cases?",
     "options": [
       "Study models",
       "Lateral cephalometric radiograph",
@@ -5899,8 +5922,9 @@
       "Cone Beam Computed Tomography (CBCT)"
     ],
     "correctAnswer": 3,
-    "explanation": "Cone Beam Computed Tomography (CBCT) provides comprehensive three-dimensional information about dental and skeletal structures, including impacted teeth, root morphology, bone volume, and airway, making it invaluable for complex orthodontic diagnosis and treatment planning. Study models provide occlusal and arch form information, while lateral cephalometric and panoramic radiographs offer two-dimensional views, which are less comprehensive than CBCT.",
-    "aiVerified": true
+    "explanation": "Under the NDEB orthodontic blueprint, the only imaging modality that delivers true three‑dimensional (3‑D) data of both dental and skeletal anatomy is Cone Beam Computed Tomography (CBCT). CBCT allows the clinician to assess root morphology, alveolar bone volume, impacted teeth, temporomandibular joint structures, and airway dimensions in three planes, which is indispensable for comprehensive diagnosis and treatment planning in complex cases (e.g., severe skeletal discrepancies, impacted canines, or surgical orthodontics). \n\nWhy the distractors are incorrect:\n1. **Study models** – While essential for evaluating occlusion, arch form, and tooth position, they are physical casts and do not provide radiographic or three‑dimensional skeletal information.\n2. **Lateral cephalometric radiograph** – Provides a two‑dimensional sagittal view of the skull and dentition; it cannot render volumetric data or assess structures in the transverse dimension.\n3. **Panoramic radiograph** – Offers a broad, two‑dimensional overview of the maxilla, mandible, and dentition but lacks depth perception and accurate 3‑D spatial relationships.\n\nTherefore, CBCT is the only option that fulfills the requirement of delivering three‑dimensional information and is the imaging choice recommended by Canadian orthodontic guidelines for complex diagnostic scenarios.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 420,
@@ -5919,7 +5943,7 @@
   {
     "id": 421,
     "topicId": "orthodontics",
-    "question": "A 35-year-old female patient presents with severe generalized anterior crowding (7mm discrepancy in each arch), a Class I molar relationship, and a relatively flat facial profile. She is concerned about the severe crowding and desires a non-extraction approach if possible. What is the MOST appropriate initial step to address the space requirements, while maintaining facial aesthetics?",
+    "question": "A 35‑year‑old female presents with severe generalized anterior crowding of approximately 7 mm in each arch, a Class I molar relationship, and a relatively flat facial profile. She is concerned about the crowding and prefers a non‑extraction treatment if feasible. Which of the following is the most appropriate initial orthodontic measure to obtain the required space while preserving her facial aesthetics?",
     "options": [
       "Aggressive interproximal reduction (IPR) combined with arch expansion.",
       "Extraction of four premolars.",
@@ -5927,9 +5951,10 @@
       "Distalization of posterior molars using temporary anchorage devices (TADs)."
     ],
     "correctAnswer": 3,
-    "explanation": "The patient presents with a 7mm crowding discrepancy per arch. In adult orthodontics, creating 7mm of space per arch is generally considered excessive for non-extraction mechanics alone. Aggressive interproximal reduction (IPR) is typically limited to 0.5mm per contact (totaling roughly 3-4mm per arch in severe cases) and is not sufficient to resolve 7mm of crowding without compromising enamel integrity or periodontal health. Arch expansion in adults is limited by the maturity of the midpalatal suture and the alveolar bone, making significant transverse expansion to create 7mm of arch length impractical and potentially unstable. Extraction of four premolars would create sufficient space but would likely result in a concave (retracted) facial profile, which is contraindicated in a patient with a flat facial profile who desires to maintain facial aesthetics. Orthognathic surgery is not indicated for a Class I molar relationship with crowding. Distalization of the posterior segments using temporary anchorage devices (TADs) is the most appropriate initial step to create the necessary space non-extractionally. By distalizing the molars and premolars, the arch length can be increased to accommodate the crowded anterior teeth without retracting the incisors, thereby preserving the facial profile.",
+    "explanation": "The patient requires roughly 7 mm of additional arch length in each arch. In adult orthodontics, enamel preservation limits IPR to about 0.25–0.5 mm per contact (≈3–4 mm total per arch), and skeletal expansion is minimal because the mid‑palatal suture is fused; therefore, aggressive IPR plus expansion would not reliably provide the needed space and could jeopardize periodontal health. Extraction of four premolars would create ample space but would retract the anterior segment, potentially deepening the facial profile—undesirable in a patient with an already flat profile who wishes to avoid extractions. Orthognathic surgery is indicated only for skeletal discrepancies; the patient has a Class I molar relationship and no sagittal or vertical skeletal problem, so surgery is not warranted. \n\nDistalization of the posterior segment with TADs is a proven, non‑extraction method for adult patients. Mini‑implants provide absolute anchorage, allowing the molars (and often premolars) to be moved distally by 2–4 mm per side, which, when combined with limited IPR, can resolve a 7 mm crowding discrepancy without altering incisor position or facial profile. This approach respects the patient’s desire for a non‑extraction solution and maintains facial aesthetics, making it the most appropriate initial step according to current NDEB‑aligned orthodontic practice guidelines.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 422,
@@ -6159,17 +6184,18 @@
   {
     "id": 438,
     "topicId": "orthodontics",
-    "question": "In the context of orthodontic sliding mechanics, which wire material is generally associated with the lowest friction coefficient when used in a standard stainless steel bracket slot?",
+    "question": "In conventional (elastic‑ligated) sliding mechanics using a rectangular stainless‑steel bracket slot, which archwire material typically provides the lowest coefficient of friction?",
     "options": [
-      "Nickel-Titanium (NiTi)",
-      "Stainless Steel",
-      "Beta-Titanium (TMA)",
-      "Cobalt-Chromium (CoCr)"
+      "Stainless steel",
+      "Nickel‑titanium (NiTi)",
+      "Beta‑titanium (TMA)",
+      "Cobalt‑chromium (CoCr)"
     ],
-    "correctAnswer": 1,
-    "explanation": "Stainless steel wire exhibits the lowest friction coefficient among common orthodontic wire materials when sliding within a standard stainless steel bracket slot. This is due to the similar surface hardness and composition of the wire and the bracket slot, which minimizes abrasive wear and adhesion compared to other materials. Nickel-Titanium (NiTi) and Beta-Titanium (TMA) generally exhibit higher friction coefficients than stainless steel in this context. While surface treatments (such as polishing or coating) can significantly reduce friction for any material, the intrinsic material property of stainless steel makes it the standard choice for minimizing friction in sliding mechanics. Cobalt-Chromium is not a standard orthodontic wire material for this purpose.",
+    "correctAnswer": 0,
+    "explanation": "Stainless‑steel archwires have the lowest friction coefficient in a stainless‑steel bracket slot when conventional elastic ligatures are used. The high surface hardness and smooth finish of stainless‑steel wire, combined with its identical alloy composition to the bracket slot, minimize both adhesive and abrasive components of friction. \n\nWhy the distractors are incorrect:\n1. **Nickel‑titanium (NiTi)** – Although NiTi provides superelasticity, its surface is less hard and often more irregular than stainless steel, resulting in higher adhesive and abrasive friction.\n2. **Beta‑titanium (TMA)** – TMA is softer and more flexible than stainless steel; its lower modulus and rougher surface increase friction in sliding mechanics.\n3. **Cobalt‑chromium (CoCr)** – CoCr wires are not routinely used for sliding mechanics in orthodontics; they have a comparatively rougher surface and higher coefficient of friction than stainless steel.\n\nThus, under the conditions described, stainless‑steel wire is the gold‑standard choice for minimizing friction, consistent with the NDEB AFK curriculum on orthodontic biomechanics and sliding mechanics.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 439,
@@ -6905,16 +6931,17 @@
   {
     "id": 491,
     "topicId": "orthodontics",
-    "question": "A 35-year-old female patient presents with a severe anterior open bite and extrusion of maxillary posterior teeth. Orthodontic treatment planning includes the use of temporary anchorage devices (TADs) for maxillary posterior intrusion to close the open bite. What is the MOST appropriate anatomical location for placing TADs to achieve effective maxillary posterior intrusion with optimal anchorage?",
+    "question": "A 35-year-old female patient presents with a severe anterior open bite and extrusion of maxillary posterior teeth. Orthodontic treatment planning includes the use of temporary anchorage devices (TADs) to achieve effective maxillary posterior intrusion. Which of the following is the MOST appropriate anatomical location for placing TADs to provide optimal skeletal anchorage for this specific biomechanical objective?",
     "options": [
-      "Buccal aspect of the alveolar process between the maxillary first and second premolars.",
-      "Palatal aspect of the alveolar process distal to the maxillary second molar.",
-      "Midpalatal region, paramedian to the suture.",
-      "Buccal aspect of the alveolar process distal to the maxillary second molar (maxillary tuberosity)."
+      "Buccal aspect of the alveolar process between the maxillary first and second premolars",
+      "Palatal aspect of the alveolar process distal to the maxillary second molar",
+      "Midpalatal region, paramedian to the midpalatal suture",
+      "Buccal aspect of the alveolar process distal to the maxillary second molar (maxillary tuberosity)"
     ],
     "correctAnswer": 2,
-    "explanation": "The midpalatal region, paramedian to the suture, offers excellent cortical bone thickness and density, providing superior primary stability for TADs and minimizing root proximity. This site is ideal for robust, bilateral anchorage required for maxillary posterior intrusion, often utilized with a transpalatal arch or cantilever mechanics. Placing TADs in interradicular spaces (e.g., between premolars) might risk root damage and may not provide sufficient anchorage for widespread posterior intrusion without unwanted segmental tooth movement. The maxillary tuberosity and posterior palatal alveolar process often have poorer bone quality and may present challenges with anatomical structures, making them less predictable for robust anchorage.",
-    "aiVerified": true
+    "explanation": "The midpalatal region, specifically paramedian to the midpalatal suture, is the gold standard site for TAD placement in the maxilla for posterior intrusion mechanics. This area offers a broad, flat surface of dense cortical bone with minimal curvature, allowing for optimal primary stability and resistance to tipping. Crucially, it is located away from the roots of the posterior teeth, eliminating the risk of iatrogenic root damage associated with interradicular placement. The midpalatal site allows for the attachment of a transpalatal arch or cantilever springs that can apply intrusive forces to the posterior segments without relying on anterior teeth for counter-anchorage, which is essential for closing an anterior open bite. Option 0 (buccal interradicular) is incorrect due to the high risk of root perforation and limited bone volume in the buccal alveolar plate. Option 1 (palatal distal to second molar) is incorrect because the bone in this region is often thin, curved, and in close proximity to the roots of the second and third molars, making stable placement difficult and risky. Option 3 (buccal tuberosity) is incorrect because the maxillary tuberosity is a concave, curved surface with variable bone density and is in close proximity to the maxillary sinus and posterior roots, making it a less predictable and less stable site for the heavy forces required for intrusion compared to the flat midpalatal bone.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 765961102,

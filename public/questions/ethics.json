@@ -288,7 +288,7 @@
     "id": 20,
     "topicId": "ethics",
     "difficulty": "hard",
-    "question": "A dentist allows their dental assistant to take impressions for orthodontic clear aligners and adjust the aligners during follow-up appointments, believing the assistant has received adequate informal training. The provincial regulatory body's guidelines explicitly state that these procedures are restricted to licensed dentists or registered dental hygienists working under specific supervision. This delegation primarily violates which ethical duty?",
+    "question": "A dentist delegates the taking of impressions for orthodontic clear aligners and the adjustment of these aligners to a dental assistant who has received only informal on-the-job training. The provincial regulatory body's guidelines explicitly state that these specific procedures are restricted to licensed dentists or registered dental hygienists working under specific supervision. This delegation primarily violates which ethical duty?",
     "options": [
       "Duty to maintain confidentiality of patient treatment records during delegation.",
       "Duty to respect professional boundaries between regulated health professionals.",
@@ -296,8 +296,9 @@
       "Duty to ensure non-maleficence by exposing patients to potentially substandard care."
     ],
     "correctAnswer": 3,
-    "explanation": "Delegating procedures outside the regulated scope of practice for auxiliary personnel, even with informal training, violates the fundamental duty of non-maleficence ('do no harm'). This practice exposes patients to potentially substandard care, increased risks, and harm by having unqualified individuals perform procedures that require specific training and licensure. It is also a breach of professional responsibility and regulatory compliance, which prioritizes patient safety.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 3. Under the Canadian Dental Association (CDA) Code of Ethics and provincial regulatory standards, the primary ethical obligation when delegating tasks is to ensure patient safety and prevent harm (non-maleficence). Delegating procedures that are explicitly restricted to licensed professionals (dentists or hygienists) to an unlicensed assistant with only informal training exposes patients to significant risks of error, improper fit, tissue damage, or treatment failure. This constitutes a direct violation of the duty to avoid harm. \n\nOption 0 is incorrect because the scenario describes a scope-of-practice violation, not a breach of privacy or confidentiality regarding records.\nOption 1 is incorrect because 'professional boundaries' typically refer to interpersonal relationships (e.g., sexual or financial exploitation) or the distinction between different regulated professions, rather than the internal delegation of tasks within a dental practice. While the assistant is crossing a regulatory boundary, the ethical *duty* violated is the protection of the patient from harm, not the abstract concept of professional boundaries.\nOption 2 is incorrect because patient autonomy refers to the patient's right to make informed decisions about their own care. While the patient may not have been fully informed of the assistant's lack of licensure, the core ethical failure here is the physical risk posed by unqualified personnel performing complex procedures, which falls under non-maleficence (and beneficence), not autonomy.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 21,
@@ -348,16 +349,17 @@
     "id": 24,
     "topicId": "ethics",
     "difficulty": "hard",
-    "question": "A 28-year-old patient, Ms. Davies, presents with severe periodontitis and multiple carious lesions, necessitating extensive restorative and periodontal treatment. She explicitly refuses radiographs despite repeated explanations of their diagnostic necessity and the risks of proceeding without them. Ms. Davies states, 'I don't believe in radiation, and I just want you to fix what you can see.' What is the most ethically appropriate course of action for the dentist?",
+    "question": "A 28-year-old patient presents with severe periodontitis and multiple carious lesions, necessitating extensive restorative and periodontal treatment. The patient explicitly refuses the taking of dental radiographs, stating, 'I don't believe in radiation, and I just want you to fix what you can see.' After a thorough discussion regarding the diagnostic necessity of radiographs and the specific risks of proceeding without them, the patient maintains her refusal. What is the most ethically appropriate course of action for the dentist?",
     "options": [
-      "Proceed with treatment visible clinically, documenting Ms. Davies' refusal of radiographs.",
-      "Insist on radiographs, explaining that it is a non-negotiable standard of care for her condition.",
-      "Decline to provide treatment if essential diagnostic information (radiographs) is refused.",
-      "Respect Ms. Davies' autonomy and refer her to a clinic that can accommodate her wishes."
+      "Proceed with treatment based solely on clinical examination, documenting the patient's refusal of radiographs in the chart.",
+      "Insist on the radiographs, informing the patient that they are a non-negotiable standard of care and refusing to treat until they are taken.",
+      "Decline to provide the requested extensive treatment, as proceeding without essential diagnostic information would violate the standard of care and the principle of non-maleficence.",
+      "Respect the patient's autonomy by referring her to another clinic that may be willing to provide treatment without radiographs."
     ],
     "correctAnswer": 2,
-    "explanation": "The most ethically appropriate course of action is to decline treatment if essential diagnostic information (radiographs) is refused, as providing treatment without them could violate the principle of non-maleficence (doing harm) by potentially overlooking critical issues or providing substandard care. While respecting autonomy is crucial, a dentist is not obligated to provide care that falls below the standard of care or could result in harm. Proceeding with limited treatment or referring would not be appropriate as it would still involve a breach in standard of care or imply that such an approach is acceptable.",
-    "aiVerified": true
+    "explanation": "The correct answer is to decline to provide the requested extensive treatment. Under Canadian dental ethics (CDA Code of Ethics) and NDEB guidelines, the principles of non-maleficence (do no harm) and the duty to maintain the standard of care are paramount. While patient autonomy is a fundamental right, it is not absolute when the requested course of action (or refusal of necessary diagnostics) would result in substandard care or potential harm. Severe periodontitis and multiple carious lesions require radiographic assessment to evaluate bone levels, periapical pathology, and the extent of decay. Proceeding without this information exposes the patient to significant risk of misdiagnosis, incomplete treatment, and iatrogenic harm, which violates the dentist's professional obligation. \n\nOption 0 is incorrect because proceeding with extensive treatment without essential diagnostics constitutes a breach of the standard of care. Documenting the refusal does not absolve the dentist of the liability for providing substandard care.\n\nOption 1 is incorrect because 'insisting' on a diagnostic test as a condition of treatment can be viewed as coercive. While the dentist can refuse to treat without the information, the ethical approach is to explain the necessity and then decline the treatment if the patient persists in refusal, rather than framing it as a non-negotiable demand that overrides the patient's right to refuse specific procedures (though the dentist is not obligated to provide the treatment).\n\nOption 3 is incorrect because referring a patient to another provider to circumvent the standard of care is unethical. It implies that the standard of care is variable and allows the patient to seek substandard care elsewhere, which does not resolve the ethical dilemma of providing unsafe treatment.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 25,
@@ -1161,16 +1163,17 @@
     "id": 78,
     "topicId": "ethics",
     "difficulty": "hard",
-    "question": "A dentist is participating in a clinical trial for a new restorative material. The informed consent document provided to participants states all known risks but omits mention of a rare, theoretically possible long-term systemic side effect that has not yet been observed in human trials. The research ethics board approved this omission based on current data. What is the most ethical stance for the participating dentist?",
+    "question": "A dentist is participating in a clinical trial for a new restorative material. The informed consent document, approved by the Research Ethics Board (REB), lists all known risks but omits a rare, theoretically possible long-term systemic side effect that has not been observed in human trials. The REB determined that this omission was appropriate based on current evidence. What is the most ethically appropriate action for the participating dentist?",
     "options": [
       "Ensure all participants sign a general waiver acknowledging unforeseen risks, which covers the omission.",
       "Only disclose observed side effects, as theorized ones might cause undue patient anxiety.",
       "The dentist should independently inform participants about all theoretical risks, even if not required by the ethics board.",
       "It is acceptable to omit the theoretical risk, as the ethics board approved it and it hasn't been observed."
     ],
-    "correctAnswer": 2,
-    "explanation": "While research ethics boards provide oversight, individual clinicians retain an ethical obligation to ensure robust informed consent, particularly when acting as a healthcare provider within a research context. The principle of full disclosure (veracity) and non-maleficence suggests that all reasonably foreseeable or theoretically possible significant risks should be disclosed, even if not yet observed, to allow for truly autonomous decision-making. The dentist's primary duty is to the patient, which may exceed the minimum requirements set by a board if it enhances patient understanding and safety.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "The correct answer is Option 3. In Canadian dental ethics and research regulations (governed by the Tri-Council Policy Statement 2 (TCPS 2) and the CDA Code of Ethics), the Research Ethics Board (REB) is the authoritative body responsible for determining the content of informed consent documents. The REB balances the duty of disclosure against the potential for causing undue anxiety or confusion with speculative, unobserved risks. If the REB has reviewed the data and approved the omission of a theoretical risk that has not been observed in human trials, the researcher (dentist) is ethically and legally bound to follow the approved protocol. Deviating from the approved consent form by adding unapproved theoretical risks (Option 2) undermines the integrity of the study, creates inconsistency in participant information, and may violate the REB's approval conditions. Option 1 is incorrect because a 'general waiver' for unforeseen risks is not a substitute for specific informed consent and is generally considered ethically weak; consent must be specific to the known risks. Option 2 is incorrect because withholding information based on a subjective assessment of 'anxiety' without REB guidance violates the principle of autonomy and veracity; the REB has already made this determination. Therefore, adhering to the REB-approved document is the gold standard for ethical compliance in clinical research.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 79,
@@ -1521,16 +1524,17 @@
     "id": 102,
     "topicId": "ethics",
     "difficulty": "hard",
-    "question": "A dentist in a group practice regularly observes a colleague consistently performing endodontic procedures with a notably low success rate, leading to frequent patient complications and retreatment needs. Despite informal feedback, the colleague has shown no significant improvement.",
+    "question": "A dentist in a group practice observes a colleague consistently performing endodontic procedures with a notably low success rate, resulting in frequent patient complications and the need for retreatment. The observing dentist has already provided informal feedback to the colleague, but no significant improvement has been noted. According to the Canadian Dental Association (CDA) Code of Ethics and provincial regulatory standards, what is the most appropriate next step for the observing dentist?",
     "options": [
-      "Continue to monitor the colleague's performance and meticulously document further incidents.",
-      "Report the colleague's perceived incompetence to the provincial regulatory body.",
+      "Continue to monitor the colleague's performance and meticulously document further incidents without taking further action.",
+      "Report the colleague's perceived incompetence to the provincial regulatory body (e.g., College of Dentists).",
       "Directly confront the colleague again, but with a more assertive and formal tone.",
       "Offer to mentor the colleague privately to help them improve their clinical skills."
     ],
     "correctAnswer": 1,
-    "explanation": "When informal attempts to address a colleague's ongoing incompetence fail, a dentist has a professional and ethical duty to protect the public by reporting such concerns to the provincial regulatory body. This adheres to the principles of non-maleficence and professionalism. Monitoring without action or solely offering mentorship does not fulfill this duty if patient harm is ongoing.",
-    "aiVerified": true
+    "explanation": "The correct answer is to report the colleague to the provincial regulatory body. Under the CDA Code of Ethics and provincial dental acts, dentists have a primary duty to protect the public from harm. When a colleague's incompetence poses a risk to patient safety (evidenced by frequent complications and retreatment) and informal attempts to address the issue have failed, the ethical obligation shifts from internal resolution to external reporting. This aligns with the principles of non-maleficence (do no harm) and professional responsibility. Option 0 is incorrect because passive monitoring allows continued patient harm. Option 2 is incorrect because repeated informal confrontation has already failed, and further internal pressure does not fulfill the duty to protect the public when the risk is ongoing. Option 3 is incorrect because private mentorship is inappropriate when the issue involves potential patient harm and has not been resolved by informal feedback; it places the burden on the observer and delays necessary regulatory intervention.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 103,
@@ -3585,16 +3589,17 @@
   {
     "id": 241,
     "topicId": "ethics",
-    "question": "A dentist is retiring and is in the process of closing their practice. They have patient records dating back 20 years. According to most Canadian provincial dental regulations, what is the minimum required retention period for adult patient dental records from the date of the last entry?",
+    "question": "A dentist is retiring and is in the process of closing their practice. They have patient records dating back 20 years. According to the standard regulatory requirements in most Canadian provinces (e.g., CDO, CDS, CDOBC), what is the minimum required retention period for adult patient dental records from the date of the last entry?",
     "options": [
-      "15 years",
+      "5 years",
       "7 years",
       "10 years",
-      "5 years"
+      "15 years"
     ],
     "correctAnswer": 2,
-    "explanation": "Most Canadian provincial regulatory bodies require adult patient dental records to be retained for at least 10 years from the date of the last entry. For minors, records are typically kept for 10 years from the date they reach the age of majority. Options A, B, and D represent plausible but incorrect retention periods, with 10 years being the widely accepted minimum.",
-    "aiVerified": true
+    "explanation": "The correct answer is 10 years. In the majority of Canadian provinces (including Ontario, British Columbia, Alberta, and Saskatchewan), dental regulatory colleges mandate that patient records be retained for a minimum of 10 years from the date of the last entry for adult patients. For minor patients, records must typically be retained for 10 years after the patient reaches the age of majority (usually 18 or 19, depending on the province). This standard ensures that records are available for potential legal disputes, continuity of care, or audit purposes within a reasonable timeframe. \n\nWhy the other options are incorrect:\n- 5 years: This is generally too short for dental records in Canada; it may apply to certain financial or administrative documents in some jurisdictions but not clinical dental records.\n- 7 years: While 7 years is a common retention period for medical records in some US states or for specific tax documents, it is not the standard minimum for dental records in most Canadian provinces.\n- 15 years: While some specific circumstances or older regulations might have suggested longer periods, 15 years is not the standard minimum requirement across most Canadian provincial dental acts. Some provinces may recommend longer retention for specific high-risk cases, but 10 years is the widely accepted regulatory minimum.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 242,
@@ -3851,16 +3856,17 @@
   {
     "id": 260,
     "topicId": "ethics",
-    "question": "During a routine check-up, a 32-year-old patient confides in their dentist that they have recently tested positive for HIV and requests that this information remain strictly confidential, fearing job discrimination if their employer finds out. The dentist is aware that HIV is a reportable disease in their province. What is the dentist's primary ethical and legal obligation in this situation?",
+    "question": "During a routine dental examination, a 32-year-old patient discloses that they have recently tested positive for HIV. The patient requests that this information remain strictly confidential, citing fear of job discrimination. The dentist is aware that HIV is a reportable disease in their province. What is the dentist's primary legal and ethical obligation in this situation?",
     "options": [
-      "Maintain absolute confidentiality as requested by the patient, as patient autonomy is paramount.",
+      "Maintain absolute confidentiality as requested by the patient, as patient autonomy is the paramount ethical principle.",
       "Inform the patient's employer directly to prevent potential workplace transmission.",
       "Report the patient's HIV status to the provincial public health authority, as it is a mandatory reportable disease.",
-      "Document the conversation but take no further action, as the patient has not given consent to disclose."
+      "Document the conversation in the patient's chart but take no further action, as the patient has not given consent to disclose."
     ],
     "correctAnswer": 2,
-    "explanation": "While patient confidentiality is a cornerstone of dental ethics, it is not absolute when public health interests or legal requirements supersede it. In Canada, infectious diseases like HIV are typically mandatory reportable diseases to public health authorities, a legal obligation designed to protect the wider community. Informing the employer directly or taking no action would violate either legal mandates or the public interest.",
-    "aiVerified": true
+    "explanation": "The correct answer is to report the patient's HIV status to the provincial public health authority. In Canada, while patient confidentiality is a fundamental ethical duty, it is not absolute. Provincial and territorial public health legislation designates HIV as a reportable disease. Dental professionals have a statutory legal obligation to report confirmed cases to the local public health unit. This reporting is typically done in a manner that protects patient privacy (often using a unique identifier or limited data set) and is distinct from disclosing the patient's identity to third parties like employers. \n\nOption 0 is incorrect because confidentiality yields to statutory reporting requirements for specific communicable diseases. \nOption 1 is incorrect and unethical; disclosing a patient's status to an employer without consent violates privacy laws (such as PIPEDA or provincial equivalents) and is not a legal requirement. Workplace transmission is managed through standard precautions, not by identifying infected individuals. \nOption 3 is incorrect because failing to report a mandatory reportable disease is a violation of public health law and professional standards, potentially resulting in disciplinary action by the dental college.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 261,
@@ -3879,7 +3885,7 @@
   {
     "id": 262,
     "topicId": "ethics",
-    "question": "A dentist consistently observes their colleague exhibiting signs of significant impairment, including slurred speech, tremors, and erratic behavior, particularly in the afternoons. This colleague is actively treating patients. What is the observing dentist's most appropriate initial action according to Canadian ethical guidelines?",
+    "question": "A dentist observes a colleague exhibiting signs of significant impairment, including slurred speech, tremors, and erratic behavior, while the colleague is actively treating patients. According to the Canadian Dental Association (CDA) Code of Ethics and provincial regulatory standards, what is the observing dentist's most appropriate initial action?",
     "options": [
       "Report the colleague immediately and confidentially to the provincial dental regulatory body.",
       "Continue to observe for a few more days to gather definitive evidence before acting.",
@@ -3887,8 +3893,9 @@
       "Discreetly inform the clinic owner or manager to handle the situation."
     ],
     "correctAnswer": 0,
-    "explanation": "A dentist has a paramount ethical and legal duty to protect the public from harm. When a colleague's impairment poses an immediate risk to patient safety, the most appropriate action is to report it promptly and confidentially to the provincial dental regulatory body, which is equipped to investigate and intervene. While confronting the colleague might seem empathetic, it does not guarantee patient safety and could delay necessary intervention.",
-    "aiVerified": true
+    "explanation": "The correct answer is 0. Under the CDA Code of Ethics and provincial dental acts, the paramount duty of a dentist is to protect the public from harm. When a colleague is impaired and actively treating patients, there is an immediate risk to patient safety. The ethical and legal obligation is to report this to the provincial dental regulatory body (e.g., College of Dentists) promptly and confidentially. The regulatory body has the authority and resources to investigate, intervene, and ensure patient safety. \n\nWhy the other options are incorrect:\n- Option 1 (Continue to observe): This is negligent. Delaying action while a patient is at risk violates the duty of care. 'Gathering evidence' is not the primary responsibility of the observing dentist; the regulatory body handles investigation.\n- Option 2 (Confront the colleague): While well-intentioned, confronting an impaired colleague is not the most appropriate *initial* action when patient safety is at immediate risk. It may delay necessary intervention, and the impaired colleague may not be in a state to make rational decisions or seek help. The primary duty is to the patient, not the colleague.\n- Option 3 (Inform the clinic owner): While informing a manager might be a step in some workplace policies, it is not the definitive ethical or legal requirement for protecting the public. The regulatory body is the appropriate authority for handling professional impairment. Relying on a clinic owner may not result in the necessary professional intervention or patient protection.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 263,
@@ -3915,8 +3922,9 @@
       "Veracity, due to the lack of honesty and transparency regarding financial interests."
     ],
     "correctAnswer": 3,
-    "explanation": "This scenario primarily represents a breach of veracity, which emphasizes truthfulness and honesty, as the dentist failed to disclose a significant financial conflict of interest that could influence their recommendations. While it also touches upon autonomy by affecting informed choice and beneficence if the recommendation is not truly patient-centered, the direct act of withholding information about a personal financial gain aligns most directly with a lack of veracity.",
-    "aiVerified": true
+    "explanation": "The correct answer is Veracity. In Canadian dental ethics (CDA Code of Ethics), veracity is the obligation to be truthful and honest with patients. A fundamental component of this is the disclosure of conflicts of interest. By failing to disclose a significant financial stake in the implant manufacturer, the dentist is withholding material information, which is a direct breach of truthfulness and transparency. While the scenario also impacts Autonomy (informed consent requires disclosure of conflicts) and potentially Beneficence (if the recommendation is not in the patient's best interest), the primary ethical violation described by the *act of non-disclosure* of a financial interest is a failure of veracity. Justice is incorrect because the scenario does not describe unequal distribution of resources or unfair treatment of a specific group. Beneficence is a secondary concern; the primary failure is the dishonesty of the omission. Autonomy is compromised as a *result* of the lack of veracity, but the root ethical breach is the failure to be truthful about the conflict of interest.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 265,
@@ -5846,10 +5854,11 @@
       "Condensing osteitis",
       "Periapical cemento-osseous dysplasia"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is Periapical granuloma. The key to this diagnosis is the combination of a periapical radiolucency in a tooth with a large restoration (suggesting prior pulp irritation or necrosis) and the presence of symptoms (sensitivity). While the vitality test is described as 'vital' (which can occur in early stages or with reversible pulpitis associated with periapical inflammation, or due to false positives in large restorations), the radiographic appearance of a well-circumscribed radiolucency is classic for a periapical granuloma, which is the most common inflammatory periapical lesion. \n\nWhy the other options are incorrect:\n- Periapical cyst: While radiographically similar to a granuloma, cysts are less common than granulomas. Without histological confirmation or specific features like a thicker, more defined border, granuloma is the statistically more likely diagnosis for a 5mm lesion. Furthermore, cysts are typically asymptomatic unless infected.\n- Condensing osteitis: This presents as a radiopacity (increased bone density) at the apex, not a radiolucency. It is a response to low-grade chronic inflammation, usually from a vital tooth, but the radiographic finding is opposite to what is described.\n- Periapical cemento-osseous dysplasia (PCOD): This condition typically affects the mandibular anterior teeth in middle-aged women. It presents as a radiolucency that may later become mixed or radiopaque. It is almost always asymptomatic and the teeth are vital. The location (tooth #19, which is the mandibular left second molar) and the patient's demographic (28-year-old male) make PCOD highly unlikely. Additionally, PCOD lesions are usually multiple and bilateral.",
+    "correctAnswer": 3,
+    "explanation": "The correct answer is Periapical cemento-osseous dysplasia (PCOD). The clinical presentation of a vital tooth with a periapical radiolucency is the hallmark of PCOD. Although PCOD is most common in middle-aged women of African descent, it can occur in other demographics, and the key diagnostic feature is the presence of a vital tooth with a periapical lesion. The 'large composite restoration' and 'sensitivity' are distractors intended to suggest endodontic pathology, but the intact lamina dura and vital status rule out inflammatory periapical lesions of endodontic origin. \n\nWhy the other options are incorrect:\n- Periapical granuloma: This is an inflammatory lesion resulting from pulp necrosis. A vital tooth cannot have a periapical granuloma. The presence of a large restoration and sensitivity might suggest prior pulp irritation, but the vital status and intact lamina dura contradict this diagnosis.\n- Periapical cyst: Similar to a granuloma, a periapical cyst is a sequela of pulp necrosis. It requires a non-vital tooth. The vital status of tooth #19 excludes this diagnosis.\n- Condensing osteitis: This condition presents as a radiopacity (increased bone density) at the apex of a vital tooth, not a radiolucency. The radiographic finding in the question is a radiolucency, which is opposite to the presentation of condensing osteitis.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 873618242,
@@ -6176,7 +6185,8 @@
     "correctAnswer": 3,
     "explanation": "The clinical presentation of a well-defined, unilocular radiolucency associated with a vital, non-carious tooth is highly suggestive of a benign odontogenic tumor, such as an ameloblastoma, odontogenic keratocyst (OKC), or central giant cell granuloma. Because the tooth is vital, the lesion is not of inflammatory origin (e.g., periapical cyst or granuloma), which rules out root canal treatment (Option A). Observation (Option C) is inappropriate for a lesion of this size (1.5 cm) because benign odontogenic tumors are locally aggressive and can cause significant bone destruction if left untreated; early diagnosis and removal are required to prevent recurrence and morbidity. Extraction of the tooth (Option B) is not indicated as the tooth is vital and healthy; the pathology is in the bone, not the pulp. The standard of care for a suspected benign odontogenic tumor is surgical enucleation (or marsupialization followed by enucleation, depending on the specific diagnosis and size) with mandatory histopathological examination to confirm the diagnosis and guide further management (e.g., whether additional resection is needed for ameloblastoma). Therefore, referral for surgical enucleation and biopsy is the most appropriate next step.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 973716648,
@@ -6224,16 +6234,17 @@
   {
     "id": 96316005,
     "topicId": "ethics",
-    "question": "A 50-year-old male patient presents to your dental office with a chief complaint of a severe acute apical abscess on tooth #37, accompanied by significant facial swelling and pain. His medical history is significant for a severe penicillin allergy (anaphylaxis). What is the MOST appropriate antibiotic to prescribe for this infection?",
+    "question": "A 50-year-old male patient presents to your dental office with a chief complaint of a severe acute apical abscess on tooth #37, accompanied by significant facial swelling and pain. His medical history is significant for a severe penicillin allergy (anaphylaxis). What is the MOST appropriate first-line antibiotic to prescribe for this infection?",
     "options": [
       "Amoxicillin",
       "Clindamycin",
       "Metronidazole",
       "Azithromycin"
     ],
-    "correctAnswer": 3,
-    "explanation": "For a patient with a severe penicillin allergy (anaphylaxis) requiring antibiotic treatment for a dental infection, clindamycin is the most appropriate choice due to its broad spectrum against anaerobic bacteria commonly found in dental infections and its lack of cross-reactivity with penicillin. Amoxicillin is a penicillin derivative and contraindicated. Metronidazole is effective against anaerobes but often used in combination. Azithromycin is an alternative but less potent than clindamycin for severe dental infections.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "The correct answer is Clindamycin (Index 1). In the management of acute dental infections, particularly those involving anaerobic bacteria (such as acute apical abscesses with swelling), Clindamycin is the gold-standard alternative for patients with a history of severe penicillin allergy (anaphylaxis). It provides excellent coverage against oral anaerobes and has no cross-reactivity with penicillins. \n\nWhy the other options are incorrect:\n- Amoxicillin (Index 0): This is a penicillin derivative. It is strictly contraindicated in patients with a history of anaphylaxis to penicillin due to the risk of life-threatening cross-reactivity.\n- Metronidazole (Index 2): While effective against anaerobes, Metronidazole is generally not used as a monotherapy for acute dental infections because it lacks sufficient activity against the aerobic and facultative anaerobic bacteria often present in mixed dental infections. It is typically used in combination with other agents (like Amoxicillin) for specific conditions like necrotizing periodontal disease or when anaerobic coverage needs to be augmented.\n- Azithromycin (Index 3): While Azithromycin is an alternative for penicillin-allergic patients, it is generally considered less effective than Clindamycin for severe dental infections involving significant anaerobic load and tissue swelling. Current Canadian guidelines (e.g., CDA, NDEB resources) often favor Clindamycin for severe cases or when anaerobic coverage is the primary concern in penicillin-allergic patients, whereas Azithromycin may be reserved for milder cases or when Clindamycin is not tolerated. However, given the 'severe' nature and 'significant swelling' described, Clindamycin is the more robust and traditionally accepted board answer for this specific clinical scenario.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 264781618,
@@ -6438,16 +6449,17 @@
   {
     "id": 455477079,
     "topicId": "ethics",
-    "question": "A 72-year-old female patient presents with a chief complaint of difficulty chewing and speaking due to ill-fitting complete dentures. She has been wearing her current dentures for 15 years. Clinical examination reveals significant alveolar ridge resorption, loose dentures, and multiple denture sore spots. What is the MOST appropriate long-term solution?",
+    "question": "A 72-year-old female presents with difficulty chewing and speaking because her complete dentures no longer fit. She has worn the same maxillary and mandibular dentures for 15 years. Examination shows marked resorption of the maxillary and mandibular alveolar ridges, loose dentures, and multiple pressure sore areas. The patient is medically fit for minor oral surgery and desires a durable solution. What is the most appropriate long‑term treatment option?",
     "options": [
       "Denture reline",
       "Adjustment of existing dentures",
       "Prescription for a soft diet",
-      "Referral for implant-supported overdentures"
+      "Referral for implant‑supported overdentures"
     ],
     "correctAnswer": 3,
-    "explanation": "Given the significant alveolar ridge resorption and long-term use of ill-fitting dentures, referral for implant-supported overdentures offers the MOST appropriate long-term solution for improved retention, stability, and chewing efficiency. A denture reline or adjustment might provide temporary relief but will not address the underlying issue of severe ridge resorption. Prescribing a soft diet manages the symptoms but does not provide a definitive solution for denture stability or function.",
-    "aiVerified": true
+    "explanation": "Severe alveolar ridge resorption compromises the retention and stability of conventional complete dentures. Under the NDEB Clinical Competency Blueprint and current Canadian prosthodontic guidelines, the gold‑standard long‑term management for an edentulous patient with marked ridge loss who is medically fit for surgery is referral for implant‑supported overdentures. Implants (typically two in the mandible and, when indicated, in the maxilla) provide a fixed attachment that restores retention, improves masticatory efficiency, reduces sore spots, and enhances quality of life. \n\nWhy the other options are incorrect:\n1. **Denture reline** – A relining material can temporarily improve the fit of a denture but does not compensate for the loss of ridge height and width seen in severe resorption. The improvement is short‑term and the denture will become loose again as resorption progresses.\n2. **Adjustment of existing dentures** – Minor adjustments (e.g., pressure spot relief) may alleviate current sore spots but cannot restore overall retention or stability when the supporting ridge is markedly diminished. It is a palliative measure, not a definitive long‑term solution.\n3. **Prescription for a soft diet** – Advising a soft diet merely manages the symptom of inadequate chewing; it does not address the underlying prosthetic problem and does not improve speech, aesthetics, or patient satisfaction.\n\nTherefore, referral for implant‑supported overdentures is the only option that offers a definitive, long‑term resolution consistent with Canadian standards of care.\n",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 521567337,
@@ -7037,9 +7049,10 @@
       "Condensing osteitis"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is Radicular cyst. The key diagnostic features in this scenario are the size of the lesion (1.5 cm) and the presence of a well-defined sclerotic border. While periapical granulomas and radicular cysts are histologically similar and often indistinguishable on radiographs alone, a lesion of this size (typically >1 cm) with a distinct sclerotic border is statistically more likely to be a radicular cyst. Periapical granulomas are generally smaller and less likely to have a prominent sclerotic border. A periapical abscess is an acute inflammatory condition typically associated with pain, swelling, and tenderness to percussion, which are absent in this asymptomatic patient. Condensing osteitis presents as a radiopacity (increased bone density) rather than a radiolucency. Although the tooth is vital, this can occur in cases of pulp necrosis where the pulp canal is obliterated or in rare instances of external resorption or other non-endodontic pathologies, but given the classic radiographic presentation of a large, well-defined apical radiolucency, a radicular cyst is the most likely endodontic diagnosis among the choices provided. Note: In clinical practice, definitive diagnosis requires histopathological examination, but for examination purposes, size and border definition favor cyst over granuloma.",
+    "explanation": "The correct answer is Radicular cyst. In endodontic diagnostics, while periapical granulomas and radicular cysts are histologically related and often radiographically indistinguishable, size and border definition are key differentiating factors used in board examinations. A periapical radiolucency that is well-defined, unilocular, and larger than 1 cm (specifically 1.5 cm in this case) with a sclerotic border is statistically more likely to be a radicular cyst. Periapical granulomas are typically smaller (<1 cm) and may have less distinct borders. A periapical abscess is an acute inflammatory condition characterized by pain, swelling, and tenderness to percussion, which are absent in this asymptomatic patient. Condensing osteitis presents as a radiopacity (increased bone density) rather than a radiolucency. Although the tooth is vital, this can occur in cases of pulp necrosis where the pulp canal is obliterated or in rare instances of external resorption or other non-endodontic pathologies, but given the classic radiographic presentation of a large, well-defined apical radiolucency, a radicular cyst is the most likely endodontic diagnosis among the choices provided. Note: In clinical practice, definitive diagnosis requires histopathological examination, but for examination purposes, size and border definition favor cyst over granuloma.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 140606251,
@@ -7130,16 +7143,17 @@
   {
     "id": 937374739,
     "topicId": "ethics",
-    "question": "A 45-year-old female patient presents for an extraction of tooth #37 due to a non-restorable fracture. Her medical history includes uncontrolled hypertension (BP 160/100 mmHg) and a history of anxiety. She is currently taking hydrochlorothiazide. What local anesthetic agent is MOST appropriate for this patient, considering her medical status?",
+    "question": "A 45-year-old female patient presents for the extraction of tooth #37 due to a non-restorable fracture. Her medical history is significant for uncontrolled hypertension (current BP 160/100 mmHg) and anxiety. She is currently taking hydrochlorothiazide. Which local anesthetic agent is MOST appropriate for this procedure?",
     "options": [
-      "3% Mepivacaine without vasoconstrictor.",
-      "4% Articaine with 1:100,000 epinephrine.",
-      "2% Lidocaine with 1:50,000 epinephrine.",
-      "0.5% Bupivacaine with 1:200,000 epinephrine."
+      "3% Mepivacaine without vasoconstrictor",
+      "4% Articaine with 1:100,000 epinephrine",
+      "2% Lidocaine with 1:50,000 epinephrine",
+      "0.5% Bupivacaine with 1:200,000 epinephrine"
     ],
     "correctAnswer": 0,
-    "explanation": "For patients with uncontrolled hypertension, the use of vasoconstrictors like epinephrine should be avoided or minimized due to the risk of increasing blood pressure and heart rate. 3% Mepivacaine without a vasoconstrictor provides adequate anesthesia for a single tooth extraction while mitigating this risk. Options B, C, and D all contain epinephrine, which would be contraindicated or used with extreme caution in this patient's uncontrolled hypertensive state.",
-    "aiVerified": true
+    "explanation": "The correct answer is 3% Mepivacaine without vasoconstrictor. In patients with uncontrolled hypertension (systolic BP > 180 mmHg or diastolic BP > 110 mmHg is often cited as a strict contraindication for elective procedures, but 160/100 mmHg represents significant uncontrolled hypertension where caution is paramount), the use of vasoconstrictors is generally avoided or used with extreme caution to prevent further elevation of blood pressure and heart rate. While recent literature suggests that low concentrations of epinephrine (1:100,000 or 1:200,000) may be safe in many hypertensive patients, the 'gold standard' conservative approach for an uncontrolled hypertensive patient in a board examination context is to avoid vasoconstrictors entirely if a suitable alternative exists. Mepivacaine 3% without vasoconstrictor is a potent local anesthetic that provides adequate anesthesia for a single tooth extraction (like #37) without the cardiovascular risks associated with epinephrine. It has a shorter duration of action than bupivacaine but is safer in this context. Options 1, 2, and 3 all contain epinephrine. While 1:200,000 epinephrine (Option 3) is a lower concentration, the presence of any vasoconstrictor in a patient with uncontrolled hypertension (BP 160/100) makes it less ideal than a vasoconstrictor-free agent for a simple extraction. Furthermore, bupivacaine has a longer duration of action and potential for prolonged numbness, which is not necessary for a simple extraction and adds to the risk profile if any systemic absorption occurs. Therefore, 3% Mepivacaine without vasoconstrictor is the most appropriate and safest choice.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 719955740,
@@ -7158,7 +7172,7 @@
   {
     "id": 745438565,
     "topicId": "ethics",
-    "question": "Which of the following major salivary glands is primarily composed of serous acini and its duct opens into the oral cavity opposite the maxillary second molar?",
+    "question": "Which of the following major salivary glands is primarily composed of serous acini and has an excretory duct that opens into the oral cavity opposite the maxillary second molar?",
     "options": [
       "Submandibular gland",
       "Sublingual gland",
@@ -7168,7 +7182,8 @@
     "correctAnswer": 2,
     "explanation": "The parotid gland is the largest of the major salivary glands and is almost entirely composed of serous acini. Its excretory duct, known as Stensen's duct, traverses the buccinator muscle and opens into the oral cavity via the parotid papilla, which is located on the buccal mucosa opposite the maxillary second molar. The submandibular gland is mixed (predominantly serous) and opens via Wharton's duct at the sublingual papilla. The sublingual gland is predominantly mucous and opens via multiple small ducts (Rivinus) and sometimes a common duct (Bartholin's) into the sublingual papilla. The buccal gland is a minor salivary gland, not a major one, and opens into the buccal mucosa.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 722732216,

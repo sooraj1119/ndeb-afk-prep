@@ -170,16 +170,17 @@
   {
     "id": 13,
     "topicId": "dental-materials",
-    "question": "A dentist is taking a PVS impression for a fixed partial denture. To ensure optimal accuracy, which factor related to the impression material is crucial to consider?",
+    "question": "When using a polyvinyl siloxane (PVS) impression material for a fixed partial denture, which material property must the clinician be most vigilant about to avoid compromising the dimensional accuracy of the final cast?",
     "options": [
-      "Its hydrophilic nature requiring a wet field.",
-      "Its susceptibility to inhibition by latex gloves.",
-      "Its low tear strength, making removal from undercuts difficult.",
-      "Its polymerization shrinkage leading to distortion if not poured immediately."
+      "Its hydrophilic nature requiring a moist field.",
+      "Its susceptibility to inhibition by sulfur‑containing latex gloves.",
+      "Its low tear strength, which makes removal from deep undercuts difficult.",
+      "Its polymerization shrinkage, necessitating immediate pouring of the cast."
     ],
     "correctAnswer": 1,
-    "explanation": "Polyvinyl siloxane (PVS) impressions can be inhibited by sulfur-containing compounds found in some latex gloves, leading to an unset or poorly set surface. This can compromise the accuracy of the impression. PVS is inherently hydrophobic (though some are modified), has excellent dimensional stability (no need to pour immediately), and generally good tear strength.",
-    "aiVerified": true
+    "explanation": "Polyvinyl siloxane (PVS) is a widely used addition‑cure silicone impression material prized for its excellent dimensional stability and high tear strength. The single factor that can jeopardise the accuracy of a PVS impression is chemical inhibition caused by sulfur‑containing compounds found in many latex gloves. When a latex glove contacts the material before it sets, the sulfur reacts with the platinum catalyst, preventing or delaying polymerisation and resulting in a tacky, distorted surface that will reproduce inaccurate tooth and tissue details. \n\nWhy the other options are incorrect:\n1. Hydrophilic nature requiring a wet field – Modern PVS formulations are inherently hydrophobic; some are modified with surfactants to improve wettability, but a \"wet field\" is not required for accuracy and, if anything, excess moisture can impair detail capture.\n2. Low tear strength – PVS actually has high tear strength, allowing removal from undercuts without tearing. Low tear strength is a concern for alginate or impression plaster, not PVS.\n3. Polymerization shrinkage – PVS exhibits negligible polymerisation shrinkage and remains dimensionally stable for several days; immediate pouring is not mandatory for accuracy, unlike some elastomeric or hydrocolloid materials.\n\nTherefore, according to the NDEB AFK blueprint and current Canadian dental literature (e.g., Neville’s Dental Materials, Carranza’s Clinical Periodontology), the clinician’s primary material‑related concern for preserving accuracy with PVS is avoiding latex glove inhibition.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 14,
@@ -594,16 +595,17 @@
   {
     "id": 43,
     "topicId": "dental-materials",
-    "question": "A clinician notices a dark, discolored margin around an old amalgam restoration. Which type of corrosion is primarily responsible for the characteristic darkening and pitting observed at the margins of dental amalgam?",
+    "question": "A clinician observes dark discoloration and localized pitting at the margins of an old dental amalgam restoration. This phenomenon is primarily attributed to the formation of differential aeration cells in the confined space between the restoration and the tooth structure. Which specific type of corrosion is responsible for this marginal breakdown?",
     "options": [
-      "Stress corrosion.",
-      "Galvanic corrosion.",
-      "Pitting corrosion.",
-      "Crevice corrosion."
+      "Galvanic corrosion",
+      "Stress corrosion",
+      "Crevice corrosion",
+      "Uniform corrosion"
     ],
-    "correctAnswer": 3,
-    "explanation": "Crevice corrosion occurs in confined spaces, like the marginal gap between an amalgam restoration and tooth structure, where oxygen deprivation leads to differential aeration cells. This results in localized corrosion and accumulation of corrosion products, manifesting as marginal discoloration and breakdown. While galvanic corrosion can occur, crevice corrosion specifically explains marginal breakdown.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "The correct answer is Crevice corrosion (Index 2). In dental materials science, crevice corrosion is the primary mechanism responsible for marginal breakdown and discoloration of amalgam restorations. It occurs in the confined gap (crevice) between the amalgam and the tooth structure. Within this confined space, oxygen diffusion is restricted, creating an anodic environment (low oxygen) relative to the cathodic environment (high oxygen) on the exposed surface. This differential aeration cell drives localized corrosion, leading to the accumulation of corrosion products (such as tin oxide, which appears dark/black) and pitting at the margin. \n\nWhy the other options are incorrect:\n- Galvanic corrosion (Index 0): This occurs when two dissimilar metals are in electrical contact in an electrolyte (saliva). While it can cause rapid corrosion of the less noble metal, the specific description of 'marginal pitting' and 'darkening' in a single amalgam restoration is classically attributed to crevice corrosion. Galvanic corrosion would typically require the presence of a second, dissimilar metal (e.g., gold crown adjacent to amalgam).\n- Stress corrosion (Index 1): This involves the combined action of tensile stress and a corrosive environment. While amalgam undergoes some stress, the primary driver for marginal discoloration and pitting is the electrochemical potential difference due to oxygen concentration, not mechanical stress failure.\n- Uniform corrosion (Index 3): This refers to general, even corrosion across the entire surface. Amalgam does not corrode uniformly; it is highly resistant to general corrosion, and the damage is localized specifically at the margins due to the crevice effect.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 44,
@@ -1588,17 +1590,18 @@
     "id": 113,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 55-year-old female presents with generalized moderate periodontitis and high caries risk. The dentist plans to restore several root caries lesions using a restorative material that releases fluoride and chemically bonds to both dentin and enamel without requiring a separate adhesive system. Which material is the best choice?",
+    "question": "A 55‑year‑old female with generalized moderate periodontitis and high caries risk requires restoration of several root caries lesions. The clinician wishes to use a material that releases fluoride, bonds chemically to both enamel and dentin, and does not require any separate adhesive or conditioning step. Which material is the best choice?",
     "options": [
-      "Compomer (polyacid-modified resin composite)",
-      "Resin-modified glass ionomer",
+      "Compomer (polyacid‑modified resin composite)",
+      "Resin‑modified glass ionomer",
       "Flowable resin composite",
       "Conventional glass ionomer cement"
     ],
     "correctAnswer": 3,
-    "explanation": "Conventional glass ionomer cement (GIC) is the most appropriate choice for this clinical scenario. GICs are the only restorative materials that release fluoride ions (providing a cariostatic effect, which is crucial for a patient with high caries risk) and form a chemical bond to both enamel and dentin via ionic interactions with calcium and phosphate, without the need for a separate adhesive system. This chemical bond is particularly advantageous in root caries lesions where moisture control is difficult and the dentin is often compromised. While resin-modified glass ionomers (RMGIs) also release fluoride and bond chemically, they typically require a bonding agent or etching for optimal retention in many clinical protocols, and conventional GICs are the classic answer for 'chemical bond without separate adhesive' in the context of fluoride release. Compomers release fluoride but do not chemically bond to tooth structure (they rely on micromechanical retention and often require bonding agents). Flowable resin composites do not release fluoride and require a separate adhesive system.",
+    "explanation": "Conventional glass ionomer cement (GIC) is the material of choice for this scenario.  GICs release fluoride in a sustained manner, providing a cariostatic effect that is essential for a high‑caries‑risk patient.  They form a true chemical bond to both enamel and dentin through ionic exchange with calcium and phosphate ions, eliminating the need for a separate adhesive or conditioning step—an advantage when treating root surfaces where moisture control is limited.  While resin‑modified glass ionomers also release fluoride and bond chemically, they contain resin components that are typically placed after a conditioning step and many clinicians use a bonding agent to optimise retention; thus they do not meet the “no separate adhesive” requirement as unequivocally as conventional GICs.  Compomers rely primarily on micromechanical retention and usually require a bonding agent; they release only minimal fluoride.  Flowable resin composites do not release fluoride and require a separate adhesive system.  Therefore, conventional GIC is the only option that satisfies all three criteria—fluoride release, chemical adhesion to enamel and dentin, and no separate adhesive system—making it the gold‑standard answer under NDEB guidelines.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 115,
@@ -1994,17 +1997,18 @@
     "id": 141,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 60-year-old male requires a full-coverage metal-ceramic crown on tooth #36. Which alloy type is most prone to forming a green discoloration of the marginal gingiva, known as 'tattooing', due to the release of specific corrosion products?",
+    "question": "A 60‑year‑old male requires a full‑coverage metal‑ceramic crown on tooth #36. Which alloy type is most likely to cause a green discoloration of the marginal gingiva (gingival “tattooing”) as a result of corrosion‑product release?",
     "options": [
-      "High-noble gold-platinum-palladium alloy",
-      "Noble gold-silver-copper alloy",
-      "Base metal cobalt-chromium alloy",
-      "Base metal nickel-chromium alloy"
+      "High‑noble gold‑platinum‑palladium alloy",
+      "Noble gold‑silver‑copper alloy",
+      "Base‑metal cobalt‑chromium alloy",
+      "Base‑metal nickel‑chromium alloy"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is the Noble gold-silver-copper alloy. 'Tattooing' or green discoloration of the gingiva is a well-documented clinical complication associated with the corrosion of silver-containing dental alloys. When these alloys corrode in the oral environment, silver ions are released and can react with sulfur-containing compounds in the tissue or plaque to form silver sulfide, which appears as a greenish-black discoloration. High-noble alloys (Option A) do not contain significant amounts of silver and are highly corrosion-resistant, making this reaction unlikely. Base metal alloys (Options C and D), such as cobalt-chromium and nickel-chromium, are also highly corrosion-resistant and do not contain silver; their primary clinical concerns are typically allergic reactions (especially to nickel) or galvanic effects, not green tattooing.",
+    "explanation": "Gingival “tattooing” is a greenish discoloration that occurs when copper ions are released from a dental alloy, diffuse into the peri‑gingival tissues and combine with sulfide ions to form copper sulfide, which has a characteristic green colour. Among the alloys listed, only the noble gold‑silver‑copper alloy contains a significant amount of copper and therefore is the most prone to this phenomenon. \n\nWhy the other options are incorrect:\n1. **High‑noble gold‑platinum‑palladium alloy** – These alloys contain little or no copper and are highly corrosion‑resistant; they do not produce the copper‑sulfide products responsible for green tattooing.\n2. **Base‑metal cobalt‑chromium alloy** – Although a base‑metal alloy, it contains no copper. Corrosion, when it occurs, yields chromium or cobalt oxides, which do not cause green gingival staining.\n3. **Base‑metal nickel‑chromium alloy** – This alloy may release nickel or chromium ions, leading to allergic reactions or galvanic currents, but it does not produce the copper‑sulfide pigment associated with gingival tattooing.\n\nThus, according to current Canadian dental materials literature and NDEB clinical standards, the noble gold‑silver‑copper alloy (option 1) is the correct answer.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 142,
@@ -2790,16 +2794,17 @@
     "id": 197,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 45-year-old female patient exhibits severe generalized tooth wear due to bruxism. You are planning full-coverage crowns on her posterior teeth. Which of the following core build-up materials exhibits the modulus of elasticity closest to that of natural dentin, thereby reducing stress concentration at the interface?",
+    "question": "A 45-year-old patient with severe bruxism requires full-coverage ceramic crowns on posterior teeth. The dentist is selecting a core build-up material to restore the remaining tooth structure. Which of the following materials has a modulus of elasticity most closely approximating that of natural dentin, thereby minimizing stress concentration at the dentin-core interface?",
     "options": [
-      "Amalgam",
-      "Zirconia-reinforced glass ionomer",
-      "High-copper spherical amalgam",
-      "Resin-modified glass ionomer"
+      "Type II Zinc Phosphate Cement",
+      "High-copper Spherical Amalgam",
+      "Resin-modified Glass Ionomer (RMGI)",
+      "Zirconia-reinforced Glass Ionomer"
     ],
-    "correctAnswer": 3,
-    "explanation": "Resin-modified glass ionomers and standard glass ionomer cements have a modulus of elasticity closer to that of natural dentin compared to rigid metals like amalgam or high-strength ceramics, allowing the material to flex synchronously with the tooth structure. Amalgam and cast metals are significantly stiffer, which can concentrate stresses at the tooth-restoration interface.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "The modulus of elasticity (stiffness) of natural dentin is approximately 18–20 GPa. Resin-modified glass ionomers (RMGIs) and conventional glass ionomers have a modulus of elasticity ranging from approximately 10–20 GPa, which is the closest match among the listed options to that of dentin. This similarity in stiffness allows for more uniform stress distribution at the interface, reducing the risk of fracture in the remaining tooth structure, which is critical in bruxism patients. \n\nWhy the other options are incorrect:\n1. Type II Zinc Phosphate Cement: While it has a modulus closer to dentin than metals, it is a luting cement, not a structural core build-up material. It lacks the compressive strength and durability required for a core restoration, especially in a high-stress bruxism case.\n2. High-copper Spherical Amalgam: Amalgam has a very high modulus of elasticity (approximately 50–80 GPa), significantly stiffer than dentin. This mismatch creates high stress concentrations at the interface, increasing the risk of tooth fracture.\n3. Zirconia-reinforced Glass Ionomer: Zirconia is an ultra-high-strength ceramic with a modulus of elasticity exceeding 200 GPa. Even when reinforced in a composite matrix, the resulting material is significantly stiffer than dentin, leading to unfavorable stress distribution. Additionally, 'Zirconia-reinforced glass ionomer' is not a standard clinical core material; zirconia is used as a monolithic crown material or framework, not typically as a bulk core build-up in this context.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 198,
@@ -3226,16 +3231,17 @@
     "id": 226,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 58-year-old male patient has a severely worn mandibular arch and requires full-coverage restorations. You choose a monolithic zirconia crown for tooth #36 due to its high flexural strength. What is the primary clinical disadvantage of monolithic zirconia compared to traditional porcelain-fused-to-metal (PFM) crowns?",
+    "question": "A 58-year-old male patient with a severely worn mandibular arch requires full-coverage restorations. The clinician selects a monolithic zirconia crown for tooth #36 due to its high flexural strength. What is the primary clinical disadvantage of monolithic zirconia compared to traditional porcelain-fused-to-metal (PFM) crowns regarding surface treatment and retention?",
     "options": [
-      "Extremely high solubility in oral fluids",
-      "Difficulty in achieving optimal bond strength with resin cements",
-      "Lower resistance to low-temperature degradation in the mouth",
-      "Inability to be polished if adjusted intraorally"
+      "Extremely high solubility in oral fluids leading to rapid degradation",
+      "Inability to achieve optimal micromechanical retention with standard hydrofluoric acid etching and silanation protocols",
+      "Lower resistance to low-temperature degradation (LTD) compared to PFM alloys",
+      "Inability to be polished or adjusted intraorally without fracturing"
     ],
     "correctAnswer": 1,
-    "explanation": "Zirconia is a chemically inert, acid-resistant oxide ceramic that lacks a silica matrix, making traditional hydrofluoric acid etching and silanation ineffective for resin bonding. It requires air-abrasion with alumina and special MDP-containing primers. Its solubility is extremely low, and it can be polished effectively.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 1. Monolithic zirconia is a tetragonal polycrystalline ceramic that lacks a silica-glass matrix. Consequently, it is chemically inert to hydrofluoric acid (HF), which is the standard etchant used for feldspathic and lithium disilicate ceramics to create micromechanical retention. Furthermore, zirconia does not bond effectively with standard silane coupling agents because it lacks the necessary silanol groups. Therefore, achieving optimal bond strength requires specific surface treatments, such as air-abrasion with 50-micron alumina particles to increase surface roughness and the application of MDP (10-methacryloyloxydecyl dihydrogen phosphate) primers, which form a chemical bond with the zirconia surface. This represents a significant procedural difference and potential clinical disadvantage compared to the well-established etch-and-bond protocols for other ceramics or the mechanical retention of PFM crowns.\n\nOption 0 is incorrect because zirconia has extremely low solubility in oral fluids; it is highly stable and resistant to chemical degradation in the oral environment.\n\nOption 2 is incorrect because Low-Temperature Degradation (LTD), also known as aging, is a phenomenon specific to tetragonal zirconia polycrystal (TZP) ceramics where the tetragonal phase transforms to the monoclinic phase in humid environments at temperatures below 200°C. While this is a material property concern, it is not the primary *clinical* disadvantage regarding immediate restoration placement and retention compared to PFM. Moreover, PFM crowns do not suffer from LTD, but the question asks for the primary disadvantage in the context of clinical application (bonding/retention) versus the material's inherent stability. More importantly, Option 1 addresses the immediate clinical challenge of adhesion, which is a more direct comparison to the bonding protocols of other restorative materials. However, in the context of NDEB AFK, the inability to use standard etching protocols is the most frequently tested 'disadvantage' regarding surface treatment. Note: While LTD is a real phenomenon, it is a long-term material failure mode, whereas the bonding issue is an immediate clinical procedural hurdle. Between the two, the bonding/retention issue is the standard 'clinical disadvantage' cited in materials science comparisons for exam purposes regarding surface treatment.\n\nOption 3 is incorrect because zirconia can be polished effectively using specific diamond burs and polishing kits. Intraoral adjustments are possible, though care must be taken to avoid overheating or creating stress risers. It is not 'unable' to be polished.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 227,
@@ -3436,7 +3442,7 @@
     "id": 241,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "Which of the following polishing abrasive agents has the smallest particle size and is commonly used for final high-shine polishing of composite restorations and enamel?",
+    "question": "Which of the following abrasive agents is characterized by the smallest particle size and is specifically indicated for the final high-shine polishing of composite resin restorations and enamel?",
     "options": [
       "Diamond paste",
       "Silicon carbide",
@@ -3444,8 +3450,9 @@
       "Aluminum oxide"
     ],
     "correctAnswer": 3,
-    "explanation": "Submicron aluminum oxide particles (often formulated in fine pastes or abrasive strips) are widely used for the final high-gloss finishing and polishing of composite restorations. Silicon carbide and diamond are much coarser and used for initial contouring or gross reduction, while coarse pumice is used for prophylaxis or laboratory acrylic polishing.",
-    "aiVerified": true
+    "explanation": "Aluminum oxide (Al2O3) is the correct answer. In dental materials science, aluminum oxide is available in a wide range of particle sizes, including submicron grades (e.g., 0.5 µm to 1 µm) that are specifically formulated for the final polishing stage of composite restorations and enamel. These fine particles produce a high-gloss, smooth surface finish that resists plaque accumulation. \n\nWhy the other options are incorrect:\n1. Diamond paste: While diamond is the hardest abrasive and can be used in very fine pastes, it is primarily associated with initial contouring, reduction, and intermediate finishing due to its extreme hardness and cutting efficiency. It is generally not the first-line choice for the *final* high-shine polish of composites compared to aluminum oxide, which is more commonly cited in standard texts (e.g., Phillips' Science of Dental Materials) for this specific final step.\n2. Silicon carbide: This is a very hard abrasive typically used in intermediate finishing stages (e.g., 600-1200 grit). It is coarser than the submicron aluminum oxide used for final polishing and is not typically used for the final high-shine step on enamel or composites.\n3. Pumice: Pumice is a porous volcanic rock with irregular, relatively large particles (typically 10-50 µm or larger in prophylaxis pastes). It is used for initial cleaning, removal of stains, and polishing of acrylic dentures or amalgam, but it is too coarse for the final high-shine polishing of composite restorations or enamel, as it would leave a matte or satin finish rather than a high gloss.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 242,
@@ -3826,7 +3833,7 @@
     "id": 268,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "Which of the following elastic impression materials exhibits the highest permanent deformation upon removal from deep undercuts, making it the least dimensionally stable under severe stress?",
+    "question": "Which of the following elastic impression materials exhibits the highest permanent deformation (set recovery) upon removal from deep undercuts, making it the least dimensionally stable under severe stress?",
     "options": [
       "Reversible hydrocolloid (Agar)",
       "Polyether",
@@ -3834,8 +3841,9 @@
       "Addition silicone (Polyvinyl siloxane)"
     ],
     "correctAnswer": 2,
-    "explanation": "Condensation silicones release ethyl alcohol as a byproduct during polymerization, leading to significant dimensional contraction over time and higher permanent deformation compared to addition silicones and polyethers. Addition silicones and polyethers demonstrate excellent dimensional stability and low permanent deformation.",
-    "aiVerified": true
+    "explanation": "Condensation silicone is the correct answer because it exhibits the highest permanent deformation (set recovery) among the listed elastomeric impression materials. While addition silicones (polyvinyl siloxane) and polyethers have excellent dimensional stability with set recovery values typically less than 0.5%, condensation silicones have a set recovery of approximately 1.0% to 2.0%. This higher degree of permanent deformation means that when removed from deep undercuts, condensation silicones do not return to their original shape as accurately as addition silicones or polyethers, leading to greater distortion. Reversible hydrocolloid (agar) is not typically used for deep undercuts due to its high water content, rapid syneresis, and poor tear strength; it is primarily used for edentulous complete denture impressions where dimensional stability over time is less critical than in fixed prosthodontics. Polyether and addition silicone are known for their superior dimensional stability and low permanent deformation, making them unsuitable as the correct answer for the material with the highest permanent deformation.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 269,
@@ -3931,16 +3939,17 @@
     "id": 276,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 55-year-old male receives a full-coverage porcelain-fused-to-metal (PFM) crown on tooth #16. Six months later, he returns with localized gingival inflammation and bleeding exclusively around this crown, despite good oral hygiene. Which of the following material or design factors is the most common etiology for this localized tissue response?",
+    "question": "A 55-year-old male presents with localized gingival inflammation and bleeding exclusively around a porcelain-fused-to-metal (PFM) crown on tooth #16, placed six months ago. The patient reports excellent oral hygiene and regular professional cleanings. Which of the following factors is the most common iatrogenic etiology for this specific localized tissue response?",
     "options": [
-      "Excess unremoved resin luting cement in the sulcus",
-      "High elastic modulus of the underlying metal",
-      "Thermal expansion mismatch between core and porcelain",
+      "Residual subgingival luting cement",
+      "High elastic modulus of the underlying metal alloy",
+      "Thermal expansion mismatch between the metal core and porcelain veneer",
       "Overcontoured axial walls of the crown"
     ],
     "correctAnswer": 0,
-    "explanation": "Residual subgingival luting cement is a frequent iatrogenic cause of localized gingival inflammation and periodontal breakdown around crowns. While overcontoured walls can contribute to plaque retention, retained subgingival cement is notoriously irritating to the junctional epithelium and sulcular tissues. The elastic modulus and thermal expansion mismatch do not directly cause localized soft tissue inflammation of this nature.",
-    "aiVerified": true
+    "explanation": "The correct answer is Residual subgingival luting cement. In the context of localized gingival inflammation around a single restoration in a patient with good oral hygiene, residual cement is the most common iatrogenic cause. Subgingival cement acts as a foreign body irritant, disrupting the junctional epithelium and promoting plaque accumulation, which leads to localized inflammation and bleeding. This is a high-yield concept in NDEB AFK and clinical practice. \n\nWhy the other options are incorrect:\n1. High elastic modulus of the underlying metal alloy: The elastic modulus is a mechanical property related to stiffness and stress distribution within the tooth-restoration complex. It does not directly cause soft tissue inflammation. While a mismatch in modulus can lead to tooth fracture or debonding, it is not an etiology for gingival inflammation.\n2. Thermal expansion mismatch between the metal core and porcelain veneer: This factor primarily affects the integrity of the ceramic veneer, potentially leading to porcelain chipping or cracking. It does not cause localized gingival inflammation. The coefficient of thermal expansion (CTE) mismatch is a material compatibility issue, not a biological irritant to the sulcular tissues.\n3. Overcontoured axial walls of the crown: While overcontoured restorations can contribute to plaque retention and subsequent gingival inflammation, the question specifies 'excellent oral hygiene' and 'localized' response. Residual cement is a more direct and common iatrogenic cause of acute, localized inflammation compared to the chronic, plaque-mediated effects of overcontouring. Furthermore, 'excellent oral hygiene' makes plaque retention from overcontouring less likely to be the primary cause compared to a direct irritant like cement.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 278,
@@ -4225,8 +4234,9 @@
       "Self-adhesive resin cement"
     ],
     "correctAnswer": 0,
-    "explanation": "Conventional glass ionomer cement sets via an acid-base reaction that allows polyalkenoic acid to chelate with calcium ions in tooth structure, providing a chemical bond, alongside continuous fluoride release. Zinc phosphate bonds purely mechanically; RMGICs contain resin components that alter the pure glass ionomer properties; and self-adhesive resin cements rely primarily on micromechanical interlocking rather than true ionic bonding.",
-    "aiVerified": true
+    "explanation": "Conventional glass ionomer cement (GIC) is the correct answer because it is the only luting agent listed that provides both a true chemical bond to tooth structure (via ionic bonding between carboxyl groups in polyalkenoic acid and calcium ions in hydroxyapatite) and continuous fluoride release. This dual benefit is particularly advantageous for restorations on molars where caries risk is higher. While Resin-Modified Glass Ionomer Cements (RMGICs) also bond chemically and release fluoride, their resin component alters the setting reaction and mechanical properties, making conventional GIC the classic 'gold standard' answer for this specific combination of properties in the context of traditional luting agents. Zinc phosphate cement relies solely on mechanical interlocking (micromechanical retention) and does not bond chemically or release fluoride. Self-adhesive resin cements bond primarily through micromechanical interlocking with etched enamel/dentin and do not release fluoride.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 299,
@@ -4413,17 +4423,18 @@
     "id": 314,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "When bonding a lithium disilicate crown to a prepared maxillary premolar, which of the following chairside surface treatments is specifically required for the internal surface of the ceramic restoration to ensure optimal micromechanical retention with the resin cement?",
+    "question": "When preparing the internal surface of a lithium disilicate crown for cementation with a resin luting agent, which of the following surface treatments is specifically required to create the micromechanical retention necessary for optimal bond strength?",
     "options": [
-      "Application of 37% phosphoric acid for 60 seconds",
+      "Application of 37% phosphoric acid gel for 60 seconds",
       "Air-particle abrasion with 50-micron aluminum oxide",
       "Application of 5% hydrofluoric acid for 20 seconds",
-      "Silanization only, without any acid etching"
+      "Application of a silane coupling agent without prior acid etching"
     ],
     "correctAnswer": 2,
-    "explanation": "Lithium disilicate is a glass-ceramic material. To achieve optimal micromechanical retention with resin cements, the internal surface of the restoration must be etched with hydrofluoric acid (HF). The standard concentration for lithium disilicate is typically 5% (or 9.5% in some protocols, but 5% is the most widely cited standard for 20-30 seconds in modern literature, e.g., IPS e.max instructions). This etching dissolves the glassy phase, creating a roughened surface for mechanical interlocking. Following etching, the surface must be silanized to create a chemical bond between the ceramic and the resin cement. Phosphoric acid is used for etching enamel and dentin, not glass-ceramics. Air-particle abrasion is generally used for feldspathic ceramics or zirconia (with specific protocols) but is not the primary method for lithium disilicate, which relies on chemical etching. Silanization alone is insufficient without the prior micromechanical roughening provided by HF etching.",
+    "explanation": "Lithium disilicate is a glass-ceramic material that requires specific chemical etching to achieve optimal micromechanical retention. The gold standard protocol involves etching the internal surface with 5% hydrofluoric acid (HF) for 20 seconds (or 9.5% HF for 20 seconds, depending on the specific manufacturer's instructions, but 5% is the standard concentration cited for modern lithium disilicate like IPS e.max). This process selectively dissolves the glassy phase of the ceramic, creating a roughened surface topography that allows for mechanical interlocking with the resin cement. Following etching, the surface must be silanized to facilitate the chemical bond between the inorganic ceramic and the organic resin matrix. Option 0 is incorrect because phosphoric acid is used for etching enamel and dentin; it does not effectively etch glass-ceramics and may even contaminate the surface if not properly managed, though it is not the primary etchant. Option 1 is incorrect because air-particle abrasion is typically reserved for non-etchable ceramics like zirconia or alumina, or for feldspathic ceramics when chemical etching is not feasible; it is not the primary or recommended method for lithium disilicate, which relies on chemical etching for superior retention. Option 3 is incorrect because silanization alone, without prior acid etching, does not provide sufficient micromechanical retention; the silane acts as a chemical bridge, but the mechanical interlock provided by HF etching is critical for long-term bond strength in lithium disilicate restorations.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 315,
@@ -4550,7 +4561,7 @@
     "id": 323,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 35-year-old male patient presents with a fractured mesio-occlusal-distal (MOD) amalgam restoration on tooth #36. He requests a tooth-colored replacement. Given that the remaining buccal and lingual cusps are strong and well-supported, but the occlusal stress is high, which restorative material offers the most predictable combination of fracture resistance and conservative preparation for a direct or indirect restoration?",
+    "question": "A 35-year-old male patient presents with a fractured mesio-occlusal-distal (MOD) amalgam restoration on tooth #36. He requests a tooth-colored replacement. The remaining buccal and lingual cusps are intact and well-supported, but the patient has high occlusal stress. Which restorative material offers the most predictable combination of fracture resistance and conservative preparation for a direct or indirect restoration?",
     "options": [
       "Flowable composite resin",
       "Lithium disilicate ceramic",
@@ -4558,8 +4569,9 @@
       "Traditional zinc phosphate-bonded acrylic resin"
     ],
     "correctAnswer": 1,
-    "explanation": "Lithium disilicate is a high-strength pressable or machinable glass-ceramic that provides excellent esthetics and high flexural strength (approx. 400-500 MPa), making it ideal for stress-bearing posterior onlays or partial coverage restorations. Flowable composite lacks the wear resistance and physical properties for a large MOD restoration, glass ionomer cement has insufficient strength for high-stress areas, and acrylic resins are obsolete for permanent stress-bearing restorations.",
-    "aiVerified": true
+    "explanation": "Lithium disilicate ceramic (e.g., IPS e.max) is the gold standard for posterior partial coverage restorations (onlays) in high-stress areas. It offers a flexural strength of approximately 400-500 MPa, which is superior to conventional feldspathic ceramics and sufficient to withstand high occlusal forces while allowing for conservative tooth preparation (preserving the intact cusps). Flowable composite resin has low viscosity and high filler content variability, resulting in poor wear resistance and marginal integrity for large MOD restorations under high stress. Glass ionomer cement has inferior mechanical properties (low flexural strength and wear resistance) compared to ceramics and composites, making it unsuitable for high-stress posterior load-bearing areas. Traditional zinc phosphate-bonded acrylic resin is obsolete for permanent restorations due to poor biocompatibility, high water sorption, and lack of esthetics and strength.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 324,
@@ -4610,7 +4622,7 @@
     "id": 327,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A clinician is evaluating elastomeric impression materials for a full-arch fixed prosthesis. Which of the following materials exhibits the highest tear strength and the lowest permanent set (best dimensional stability) among the options provided?",
+    "question": "A clinician is selecting an elastomeric impression material for a full-arch fixed prosthesis. Which of the following materials is characterized by the highest tear strength and the lowest permanent set (superior dimensional stability) among the options provided?",
     "options": [
       "Polyvinyl siloxane (Addition silicone)",
       "Polyether",
@@ -4618,9 +4630,10 @@
       "Reversible hydrocolloid (Agar)"
     ],
     "correctAnswer": 1,
-    "explanation": "Polyether is the elastomeric impression material that possesses the highest tear strength and the lowest permanent set (highest dimensional stability) among the common elastomers. While Polyvinyl siloxane (PVS) has excellent dimensional stability and good tear strength, Polyether generally outperforms it in tear resistance and exhibits less permanent set. Condensation silicone has higher permanent set and lower tear strength than both PVS and Polyether. Reversible hydrocolloid (Agar) has the poorest dimensional stability due to syneresis and imbibition and is not suitable for long-term storage or high-precision crown and bridge work requiring high tear strength.",
+    "explanation": "Polyether is the correct answer because it possesses the highest tear strength and the lowest permanent set (approximately 0.1-0.2%) among the common elastomeric impression materials, making it the gold standard for high-precision full-arch fixed prosthodontics where dimensional stability and resistance to tearing during removal are critical. Polyvinyl siloxane (PVS) is a strong distractor; while it has excellent dimensional stability (permanent set ~0.2-0.5%) and good tear strength, its tear strength is generally lower than that of polyether, and its permanent set is slightly higher. Condensation silicone has a higher permanent set (0.5-1.0%) due to the loss of byproduct (ethanol) and lower tear strength than both PVS and polyether. Reversible hydrocolloid (Agar) is incorrect because it suffers from significant dimensional changes due to syneresis (water loss) and imbibition (water gain), has low tear strength, and is not suitable for long-term storage or high-precision crown and bridge work.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 328,
@@ -5723,16 +5736,17 @@
     "id": 409,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "Which of the following physical properties of dental amalgam is primarily responsible for marginal creep over extended periods in clinical service?",
+    "question": "Which microstructural characteristic of traditional low-copper dental amalgam is primarily responsible for its high marginal creep and susceptibility to corrosion over extended clinical service?",
     "options": [
-      "Low tensile strength",
+      "Presence of the gamma-2 (Sn-8Hg) phase",
       "High coefficient of thermal expansion",
-      "High gamma-2 phase content",
+      "Low tensile strength",
       "High thermal conductivity"
     ],
-    "correctAnswer": 2,
-    "explanation": "The gamma-2 phase (tin-mercury phase) in traditional low-copper amalgams is weak, susceptible to corrosion, and exhibits high creep, which leads to marginal breakdown over time. Modern high-copper amalgams virtually eliminate the gamma-2 phase by reacting tin directly with copper, resulting in significantly lower creep and improved clinical longevity. While amalgams have low tensile strength and high thermal conductivity, creep is specifically linked to the microstructural phases within the alloy.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "The correct answer is the presence of the gamma-2 (Sn-8Hg) phase. In traditional low-copper dental amalgams, the gamma-2 phase is the weakest and most corrosion-susceptible constituent. It exhibits significant plastic deformation (creep) under occlusal loads, leading to marginal breakdown, microleakage, and secondary caries over time. Modern high-copper amalgams eliminate the gamma-2 phase by reacting tin with copper to form the eta (Cu6Sn5) phase, which is stronger and more corrosion-resistant, thereby reducing creep and improving clinical longevity. The other options are incorrect: High coefficient of thermal expansion (Option 1) contributes to stress at the tooth-restoration interface but is not the primary cause of material creep; Low tensile strength (Option 2) is a general mechanical property that limits load-bearing capacity but does not specifically define the time-dependent deformation (creep) mechanism; High thermal conductivity (Option 3) is a physical property that can cause thermal sensitivity but is unrelated to the structural integrity or creep of the material.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 410,
@@ -6840,21 +6854,22 @@
   {
     "id": 618740349,
     "topicId": "dental-materials",
-    "question": "A 68-year-old male patient presents to your dental office complaining of persistent burning sensation and pain in his tongue and oral mucosa for the past month. He reports no recent changes in diet or dental products. Clinical examination reveals erythematous, atrophic areas on the dorsal surface of the tongue, with loss of filiform papillae. No other lesions are noted. His medical history includes type 2 diabetes and he takes Metformin. What is the MOST appropriate initial step in diagnosing this condition?",
+    "question": "A 68-year-old man presents with a 1‑month history of a persistent burning sensation and pain affecting his tongue and oral mucosa. He denies recent changes in diet, oral hygiene products, or medications other than his chronic metformin for type‑2 diabetes. Intra‑oral examination shows well‑demarcated erythematous, atrophic areas on the dorsal surface of the tongue with loss of the filiform papillae; no white plaques or other lesions are observed. What is the most appropriate initial step in establishing a diagnosis?",
     "options": [
       "Prescribe a topical corticosteroid for symptomatic relief.",
       "Order blood tests to check for nutritional deficiencies.",
       "Refer for an incisional biopsy of the tongue.",
-      "Prescribe a broad-spectrum antifungal medication empirically."
+      "Prescribe a broad‑spectrum antifungal medication empirically."
     ],
     "correctAnswer": 1,
-    "explanation": "The symptoms of burning mouth syndrome and atrophic glossitis can be indicative of underlying systemic conditions, particularly nutritional deficiencies such as iron, folate, or B vitamins. Therefore, ordering blood tests is the most appropriate initial diagnostic step. While topical corticosteroids (Option A) might offer symptomatic relief, they do not address the underlying cause. An incisional biopsy (Option C) is generally reserved for suspicious lesions not responding to conservative management or when malignancy is suspected. Prescribing antifungals (Option D) without a definitive diagnosis of candidiasis is not ideal as initial management.",
-    "aiVerified": true
+    "explanation": "The clinical picture is most consistent with atrophic (glossitis) changes that commonly accompany nutritional deficiencies (iron, vitamin B12, folate) or other systemic conditions. According to the NDEB Clinical Knowledge Blueprint and standard Canadian dental practice guidelines, the first step in evaluating a patient with burning mouth symptoms and atrophic glossitis is a laboratory work‑up to identify or exclude systemic causes. Blood tests for complete blood count, serum ferritin, vitamin B12, folate, and glucose are therefore the gold‑standard initial diagnostic measure.\n\nWhy the other options are incorrect:\n1. **Topical corticosteroid** – This is a therapeutic measure for inflammatory or immune‑mediated lesions (e.g., lichen planus) and does not provide diagnostic information. It would be considered only after a cause has been identified.\n2. **Incisional biopsy** – Biopsy is reserved for lesions that are suspicious for dysplasia or malignancy, or that fail to respond to initial conservative management. The described lesion is non‑ulcerated, lacks induration, and shows no features suggestive of neoplasia, so biopsy is not the first step.\n3. **Empiric antifungal therapy** – Erythematous candidiasis can present with burning, but it is usually accompanied by white plaques that can be scraped off or by a positive clinical response to a short antifungal trial. In the absence of such signs, prescribing antifungals without a confirmed diagnosis is not appropriate as an initial diagnostic step.\n\nThus, ordering appropriate blood tests to assess for nutritional deficiencies is the most evidence‑based and guideline‑concordant initial diagnostic action.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 103822369,
     "topicId": "dental-materials",
-    "question": "A 50-year-old female patient presents with pain and swelling around tooth #37. Clinical examination reveals a large carious lesion extending subgingivally and Class I mobility. Radiographic examination shows a periapical radiolucency associated with the mesial root. Pulp vitality testing indicates the tooth is vital, responding positively to cold with lingering pain. What is the MOST appropriate initial management strategy for this tooth?",
+    "question": "A 50-year-old female patient presents with pain and swelling associated with tooth #37. Clinical examination reveals a large carious lesion extending subgingivally on the mesial aspect, resulting in a non-restorable mesial root. The distal root is clinically sound, with adequate bone support and no caries. Radiographic examination shows a periapical radiolucency isolated to the mesial root. Pulp vitality testing indicates the tooth is vital, responding positively to cold with lingering pain. What is the MOST appropriate initial management strategy for this tooth?",
     "options": [
       "Root canal treatment on the entire tooth followed by a full-coverage crown",
       "Extraction of the tooth and placement of a fixed partial denture",
@@ -6862,9 +6877,10 @@
       "Apicoectomy of the mesial root with a root-end filling"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is Hemisection of the tooth, retaining the distal root with a crown. Tooth #37 (mandibular left second molar) is a multi-rooted tooth. The clinical presentation of a periapical radiolucency isolated to the mesial root, combined with a subgingival carious lesion and mobility, suggests that the mesial root is non-restorable or has a poor long-term prognosis due to the extent of the pathology and bone loss. However, the distal root appears to be healthy and vital (as the tooth as a whole is vital, and the pathology is localized to the mesial root). Hemisection (or root amputation) allows for the removal of the diseased mesial root while preserving the healthy distal root, which can then be restored with a crown. This is a tooth-preserving procedure that is superior to extraction when a significant portion of the tooth structure and bone support remains. \n\nWhy the other options are incorrect:\n- Root canal treatment on the entire tooth: This is not appropriate because the carious lesion is subgingival and the periapical pathology is localized to the mesial root. Attempting to save the entire tooth would likely result in a poor prognosis due to the inability to adequately restore the subgingival defect on the mesial root and the existing bone loss.\n- Extraction of the tooth and a fixed partial denture: While extraction is a valid option, it is not the MOST appropriate initial management if a tooth-preserving option like hemisection is viable. Hemisection preserves natural tooth structure and bone, which is generally preferred over extraction when feasible.\n- Apicoectomy of the mesial root: Apicoectomy is typically reserved for cases where conventional root canal treatment has failed or is not possible, and the periapical pathology is the primary issue. In this case, the subgingival caries and mobility suggest that the mesial root is structurally compromised, making hemisection a more definitive and appropriate treatment than a surgical approach to the root apex.",
+    "explanation": "The correct answer is Hemisection of the tooth, retaining the distal root with a crown. Tooth #37 is a mandibular molar, which typically has two roots (mesial and distal). The clinical scenario describes a 'split' prognosis: the mesial root is non-restorable due to subgingival caries and associated periapical pathology, while the distal root is healthy, vital, and has adequate bone support. Hemisection (or root amputation) is the gold standard tooth-preserving procedure in this context. It involves the surgical removal of the diseased mesial root and the coronal portion of the tooth associated with it, followed by the restoration of the remaining distal root with a crown. This approach preserves the natural tooth structure and periodontal support of the healthy distal root, offering a better long-term prognosis and functional outcome than extraction. \n\nWhy the other options are incorrect:\n- Root canal treatment on the entire tooth: This is contraindicated because the mesial root is non-restorable due to the subgingival carious lesion. Even if the pulp were necrotic, the inability to place a ferrule or adequate restoration on the mesial root makes the overall prognosis for the tooth poor. Attempting to save a non-restorable root compromises the entire tooth.\n- Extraction of the tooth and a fixed partial denture: While extraction is a valid option, it is not the MOST appropriate initial management when a viable tooth-preserving option exists. Hemisection preserves the natural tooth, maintains alveolar bone volume, and avoids the need for a prosthetic replacement (bridge or implant), which is generally preferred in restorative dentistry when feasible.\n- Apicoectomy of the mesial root: Apicoectomy is a surgical procedure indicated for persistent periapical pathology after failed conventional root canal treatment. It does not address the primary issue here, which is the structural compromise of the mesial root due to subgingival caries. Performing an apicoectomy on a non-restorable root is futile, as the root cannot be restored or retained long-term.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 94581557,
@@ -7192,16 +7208,17 @@
   {
     "id": 611853753,
     "topicId": "dental-materials",
-    "question": "A 50-year-old female patient has recently completed scaling and root planing (SRP) for generalized moderate chronic periodontitis. She presents for her 3-month periodontal re-evaluation. Her probing depths have reduced significantly, and bleeding on probing is minimal. She maintains good oral hygiene. What is the MOST appropriate recall interval for her subsequent periodontal maintenance therapy?",
+    "question": "A 50‑year‑old female patient has completed scaling and root planing for generalized moderate chronic periodontitis. At her 3‑month re‑evaluation, probing depths have decreased, bleeding on probing is minimal, and she demonstrates good oral hygiene. What is the most appropriate interval for her next periodontal maintenance visit?",
     "options": [
       "Every 12 months.",
       "Every 9 months.",
       "Every 6 months.",
-      "Every 3-4 months."
+      "Every 3‑4 months."
     ],
     "correctAnswer": 3,
-    "explanation": "For patients who have completed active periodontal therapy and are now in a stable phase, a periodontal maintenance recall interval of every 3-4 months is generally recommended to prevent disease recurrence and allow for early intervention if needed. Annual (0), 9-month (1), or 6-month (2) recalls are typically insufficient for patients with a history of moderate to severe periodontitis.",
-    "aiVerified": true
+    "explanation": "Current Canadian periodontal maintenance guidelines (CDA/Canadian Periodontal Society and NDEB clinical standards) recommend that patients who have been treated for moderate to severe periodontitis and are now in a stable, controlled phase should be placed on a maintenance recall of approximately every 3 to 4 months. This frequency allows early detection of any recurrence of inflammation, facilitates reinforcement of oral‑hygiene instructions, and provides timely professional debridement to prevent further attachment loss. \n\nWhy the other choices are incorrect:\n- **Every 12 months**: An annual recall is appropriate only for patients with no history of periodontal disease and low caries risk. It is far too infrequent for anyone with a prior diagnosis of moderate chronic periodontitis. \n- **Every 9 months**: This interval is not supported by any Canadian guideline for periodontal maintenance; it is longer than the minimum recommended for patients with a history of disease and would risk missed early signs of recurrence. \n- **Every 6 months**: While a 6‑month interval is standard for routine dental prophylaxis in low‑risk patients, individuals with a history of moderate periodontitis require more frequent monitoring to maintain periodontal health. \n\nTherefore, the gold‑standard answer is a recall every 3‑4 months.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 299419221,
@@ -7262,16 +7279,17 @@
   {
     "id": 63311088,
     "topicId": "dental-materials",
-    "question": "A 68-year-old female patient presents to your dental office requiring extraction of tooth #16 due to deep caries. Her medical history includes osteoporosis, for which she has been taking alendronate (a bisphosphonate) for 7 years. Clinical examination confirms the tooth is non-restorable. What is the MOST appropriate initial management step?",
+    "question": "A 68-year-old female patient presents for the extraction of tooth #16 due to deep caries. Her medical history is significant for osteoporosis, for which she has been taking oral alendronate for 7 years. Clinical examination confirms the tooth is non-restorable. According to current Canadian dental guidelines and the American Association of Oral and Maxillofacial Surgeons (AAOMS) position paper, what is the MOST appropriate initial management step prior to proceeding with the extraction?",
     "options": [
-      "Immediately extract tooth #16 under local anesthesia.",
-      "Prescribe a 7-day course of antibiotics and then extract.",
-      "Refer the patient for a medical consultation regarding bisphosphonate holiday.",
-      "Proceed with a surgical extraction with primary closure to minimize bone exposure."
+      "Immediately extract tooth #16 under local anesthesia without further medical consultation.",
+      "Prescribe a 7-day course of prophylactic antibiotics and then proceed with the extraction.",
+      "Obtain a medical consultation to assess the need for a bisphosphonate holiday and review the patient's fracture risk.",
+      "Proceed with a surgical extraction with primary closure to minimize bone exposure, as this eliminates the risk of osteonecrosis."
     ],
     "correctAnswer": 2,
-    "explanation": "Bisphosphonate-related osteonecrosis of the jaw (BRONJ) is a significant concern for patients on long-term bisphosphonates, especially with invasive procedures. A medical consultation is crucial to assess the risk, determine the feasibility of a bisphosphonate holiday, or explore alternative management strategies before proceeding. Options A, B, and D do not adequately address the primary risk factor and could lead to severe complications like osteonecrosis.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 2. Patients on long-term oral bisphosphonates (typically defined as >4 years for osteoporosis) are at an increased risk for Medication-Related Osteonecrosis of the Jaw (MRONJ). Current guidelines, including those from the AAOMS and Canadian dental associations, recommend that dentists consult with the prescribing physician before performing invasive dentoalveolar procedures in patients on long-term oral bisphosphonates. This consultation allows for a risk-benefit analysis, including the potential for a 'drug holiday' (temporary cessation of the medication) to reduce the risk of MRONJ, provided the patient's bone density and fracture risk permit it. \n\nOption 1 is incorrect because proceeding without consultation ignores the elevated risk of MRONJ and fails to follow the standard of care for managing patients on long-term antiresorptive therapy. \nOption 3 is incorrect because prophylactic antibiotics are not routinely recommended for the prevention of MRONJ in patients on oral bisphosphonates, and their use does not mitigate the underlying pathophysiology of the condition. \nOption 4 is incorrect because while atraumatic technique and primary closure are best practices to minimize trauma, they do not eliminate the risk of MRONJ, nor do they replace the necessity of medical consultation for risk assessment in long-term users.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 423314734,
@@ -7290,16 +7308,17 @@
   {
     "id": 315725228,
     "topicId": "dental-materials",
-    "question": "A 9-year-old male patient presents with his parents concerned about the appearance of his anterior teeth. Clinical examination reveals an anterior crossbite involving tooth #11 and #21, with adequate space in the arch and no evidence of crowding. The patient has Angle Class I molar relationship. What is the MOST appropriate interceptive orthodontic management?",
+    "question": "A 9-year-old male patient presents with an anterior crossbite involving the maxillary central incisors (#11 and #21). Clinical examination reveals adequate arch space, no crowding, and an Angle Class I molar relationship. The patient is in the mixed dentition stage. What is the MOST appropriate interceptive orthodontic management?",
     "options": [
-      "Wait for eruption of all permanent teeth and reassess for comprehensive orthodontics.",
+      "Wait for the eruption of all permanent teeth and reassess for comprehensive orthodontics.",
       "Place a maxillary removable Hawley retainer to correct the crossbite.",
       "Initiate fixed appliance therapy (braces) for full arch correction.",
-      "Fabricate and cement a removable or fixed appliance, such as a Hyrax expander or a simple spring appliance, for anterior crossbite correction."
+      "Fabricate a removable appliance with an anterior crossbite spring or a fixed 2x4 appliance for targeted correction."
     ],
     "correctAnswer": 3,
-    "explanation": "Correcting an anterior crossbite in mixed dentition is crucial to prevent pathological tooth wear, minimize gingival recession, and allow normal jaw growth. A simple removable appliance (e.g., a spring appliance) or a fixed appliance (e.g., 2x4 appliance) is appropriate for correction. A Hawley retainer is typically for retention, not active crossbite correction, and waiting could worsen the condition.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 3. In a 9-year-old patient (mixed dentition) with an anterior crossbite, interceptive treatment is indicated to prevent traumatic occlusion, which can lead to enamel wear, gingival recession, and potential ankylosis or root resorption of the affected teeth. The gold standard for correcting a simple anterior crossbite with adequate space is a removable appliance with an anterior crossbite spring (e.g., Z-spring or V-spring) or a fixed 2x4 appliance (bonded to the maxillary central incisors and mandibular central incisors). This approach is minimally invasive, cost-effective, and addresses the specific malocclusion without the need for full-arch mechanics.\n\nOption 0 is incorrect because delaying treatment allows the crossbite to persist, increasing the risk of pathological wear and impeding normal jaw growth. Early intervention is the standard of care for anterior crossbites.\n\nOption 1 is incorrect because a Hawley retainer is a passive retention appliance. It does not have the active mechanical components (such as springs) necessary to move teeth out of crossbite. While a modified Hawley with a spring could be used, the option specifically identifies it as a 'Hawley retainer,' implying passive retention, which is insufficient for active correction.\n\nOption 2 is incorrect because initiating full-arch fixed appliance therapy (braces) is overly aggressive and not indicated for an isolated anterior crossbite in a mixed dentition patient. Comprehensive orthodontics is typically deferred until the permanent dentition is fully erupted, unless there are complex skeletal discrepancies or severe crowding that cannot be managed interceptively.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 452346957,

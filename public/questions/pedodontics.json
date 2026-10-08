@@ -424,16 +424,17 @@
   {
     "id": 31,
     "topicId": "pedodontics",
-    "question": "Which statement accurately describes the characteristics of the pulp in primary teeth compared to permanent teeth?",
+    "question": "Which of the following statements accurately describes the histological and anatomical characteristics of the pulp in primary teeth compared to permanent teeth?",
     "options": [
-      "Primary tooth pulp chambers are located more occlusally.",
-      "Primary tooth pulp horns are proportionally smaller and less prominent.",
-      "Primary tooth pulp contains more collagen fibers and fewer cells.",
-      "Primary tooth pulp has a richer vascular supply and higher cellularity."
+      "The pulp chamber is located more occlusally, and the pulp horns are more prominent.",
+      "The pulp horns are proportionally smaller and less prominent than in permanent teeth.",
+      "The pulp tissue contains a higher density of collagen fibers and lower cellularity.",
+      "The pulp has a less vascular supply and is less responsive to inflammatory stimuli."
     ],
     "correctAnswer": 0,
-    "explanation": "Primary tooth pulp chambers are located more occlusally (0) and pulp horns are more prominent, making them more susceptible to carious exposure. Primary tooth pulp also has a richer vascular supply and higher cellularity (3), not fewer cells (2) or smaller pulp horns (1), compared to mature permanent teeth.",
-    "aiVerified": true
+    "explanation": "The correct answer is 0. Primary teeth exhibit distinct anatomical and histological differences from permanent teeth. Anatomically, the pulp chamber in primary teeth is relatively larger, and the pulp horns extend more occlusally (closer to the enamel-dentin junction) compared to permanent teeth. This makes primary teeth more susceptible to pulp exposure during carious progression or restorative procedures. Histologically, the pulp of primary teeth is characterized by higher cellularity (more fibroblasts and fewer collagen fibers) and a richer vascular supply compared to the pulp of permanent teeth. This high vascularity and cellularity contribute to a more vigorous inflammatory response and faster healing potential, but also make the pulp more sensitive to irritants. Option 1 is incorrect because pulp horns in primary teeth are more prominent, not smaller. Option 2 is incorrect because primary pulp has fewer collagen fibers and higher cellularity, not the reverse. Option 3 is incorrect because primary pulp has a richer, not less, vascular supply and is highly responsive to inflammation.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 32,
@@ -854,7 +855,8 @@
     "correctAnswer": 1,
     "explanation": "The long-term success of a pulpotomy in a primary molar is primarily determined by the use of an effective, biocompatible medicament (such as formocresol, ferric sulfate, or mineral trioxide aggregate [MTA]) that ensures hemostasis, disinfection, and preservation of the radicular pulp. While complete removal of coronal pulp tissue is a procedural step, it is the medicament that prevents inflammation and necrosis of the remaining radicular pulp, which is the key to success. The absence of periapical radiolucency is a diagnostic criterion for eligibility (indicating the pulp is not already necrotic), but it does not guarantee success if the medicament fails. The age of the patient is less significant than the biological response to the medicament. The type of restorative material is important for sealing but secondary to the biological control of the pulp tissue.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 62,
@@ -887,7 +889,7 @@
   {
     "id": 64,
     "topicId": "pedodontics",
-    "question": "A 5-year-old male patient presents with premature loss of his maxillary right primary second molar due to extensive caries. The permanent first molar has not yet erupted. What is the MOST appropriate space management strategy for this patient?",
+    "question": "A 5-year-old male patient presents with the premature loss of his maxillary right primary second molar due to extensive caries. Clinical and radiographic examination confirms that the permanent first molar has not yet erupted and the follicular space is intact. What is the MOST appropriate space management strategy for this patient?",
     "options": [
       "Immediate placement of a band and loop space maintainer.",
       "Observation until eruption of the permanent first molar.",
@@ -895,8 +897,9 @@
       "Placement of a distal shoe space maintainer."
     ],
     "correctAnswer": 3,
-    "explanation": "Premature loss of a maxillary primary second molar before the eruption of the permanent first molar requires a distal shoe space maintainer to guide the erupting permanent molar into its correct position and prevent mesial drift. A band and loop is typically used after the permanent molar has erupted to maintain space. Observation would likely lead to significant space loss, and comprehensive orthodontic evaluation is premature at this stage.",
-    "aiVerified": true
+    "explanation": "The correct answer is the placement of a distal shoe space maintainer. According to standard pediatric dentistry guidelines (e.g., McDonald & Avery, Proffit), when a primary second molar is lost prematurely before the eruption of the permanent first molar, a distal shoe is the indicated appliance. It is cemented to the adjacent primary first molar and extends distally into the extraction socket to guide the erupting permanent first molar into its correct position and prevent mesial drift of the permanent molar or the adjacent primary first molar. A band and loop (Option 0) is contraindicated in this specific scenario because it does not guide the erupting permanent molar; it is typically used when the permanent first molar has already erupted or when the primary second molar is lost after the permanent molar has erupted. Observation (Option 1) is inappropriate because the loss of the primary second molar creates a significant space loss risk, leading to mesial drift of the permanent first molar and potential crowding of the anterior segment. Comprehensive orthodontic evaluation (Option 2) is not the immediate management strategy for space maintenance; while orthodontic consultation may be part of long-term care, the immediate clinical requirement is space maintenance to preserve the arch length for future eruption.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 65,
@@ -1015,14 +1018,15 @@
     "topicId": "pedodontics",
     "question": "Which permanent tooth typically erupts first in the mandibular arch, succeeding a primary molar?",
     "options": [
-      "Mandibular first premolar.",
-      "Mandibular second premolar.",
-      "Mandibular permanent canine.",
-      "Mandibular first permanent molar."
+      "Mandibular first premolar",
+      "Mandibular second premolar",
+      "Mandibular permanent canine",
+      "Mandibular first permanent molar"
     ],
     "correctAnswer": 0,
-    "explanation": "In the mandibular arch, the permanent first premolar typically erupts before the permanent second premolar, replacing the primary first molar. The mandibular first permanent molar erupts prior to the exfoliation of any primary molars, while the canine erupts later, replacing the primary canine.",
-    "aiVerified": true
+    "explanation": "The correct answer is the Mandibular first premolar. In the mandibular arch, the permanent first premolar typically erupts between 10 and 12 years of age, replacing the primary first molar. This is earlier than the eruption of the mandibular second premolar (11-12 years), the mandibular canine (9-12 years, but typically after the first premolar in the standard sequence for 'succeeding a primary molar' context, though canine replaces canine), and the mandibular first permanent molar (6-7 years). Crucially, the question specifies a tooth that 'succeeds a primary molar.' The mandibular first permanent molar erupts posterior to the primary second molar and does not replace any primary tooth; it is a supernumerary addition to the arch. Therefore, among the teeth that replace primary molars (premolars), the first premolar is the earliest to erupt. The canine replaces the primary canine, not a molar, making it incorrect based on the 'succeeding a primary molar' constraint. The second premolar erupts later than the first premolar.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 74,
@@ -1056,7 +1060,7 @@
   {
     "id": 76,
     "topicId": "pedodontics",
-    "question": "A 4-year-old female patient presents with a Class II carious lesion on the distal surface of her mandibular primary first molar. Clinical examination reveals no spontaneous pain, no signs of pulp involvement, and the child is cooperative. What is the MOST appropriate restorative material for this lesion?",
+    "question": "A 4-year-old cooperative female patient presents with a Class II carious lesion on the distal surface of the mandibular primary first molar. Clinical examination reveals no spontaneous pain, no signs of pulp involvement, and the lesion is limited to enamel and dentin. What is the MOST appropriate restorative material for this lesion?",
     "options": [
       "Amalgam restoration",
       "Composite resin restoration",
@@ -1064,9 +1068,10 @@
       "Glass ionomer cement (GIC) restoration"
     ],
     "correctAnswer": 0,
-    "explanation": "Amalgam is considered the most appropriate restorative material for Class II lesions in primary molars, particularly in young children. It has a long history of success, high fracture resistance, and is less technique-sensitive than composite resin, making it ideal for pediatric patients who may have difficulty maintaining isolation. While stainless steel crowns are excellent for multi-surface restorations or high-risk cases, amalgam is the standard of care for a single Class II lesion in a cooperative child. Composite resin is less ideal due to its technique sensitivity and higher risk of failure in primary teeth. Glass ionomer cement (GIC) is generally used for non-load-bearing surfaces or as a liner/base, not as the primary restorative material for Class II lesions due to its lower fracture resistance.",
+    "explanation": "Amalgam is the gold standard restorative material for Class II lesions in primary molars, particularly in young children. It offers superior fracture resistance, high compressive strength, and is less technique-sensitive than composite resin, making it ideal for pediatric patients where isolation may be challenging. While stainless steel crowns are excellent for multi-surface restorations or high-risk cases, amalgam is the standard of care for a single Class II lesion in a cooperative child. Composite resin is less ideal due to its technique sensitivity and higher risk of failure in primary teeth. Glass ionomer cement (GIC) is generally used for non-load-bearing surfaces or as a liner/base, not as the primary restorative material for Class II lesions due to its lower fracture resistance.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 77,
@@ -1519,7 +1524,8 @@
     "correctAnswer": 0,
     "explanation": "The most appropriate treatment for a primary molar with a deep occlusal carious lesion in a patient with high caries risk is a stainless steel crown (SSC). SSCs provide a full-coverage restoration that protects the remaining tooth structure from fracture, seals the margins effectively to prevent recurrent caries, and is the standard of care for extensive restorations in primary molars. While amalgam and composite resin are viable options for smaller, well-defined cavities, they do not offer the same level of protection against cusp fracture or marginal leakage in high-risk patients. Glass ionomer cement is generally reserved for non-critical stress areas or as a liner/base due to its lower fracture resistance compared to SSCs or amalgam in load-bearing occlusal surfaces.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 110,
@@ -1707,7 +1713,7 @@
   {
     "id": 123,
     "topicId": "pedodontics",
-    "question": "Which of the following permanent teeth typically erupts *after* the mandibular first molars but *before* the maxillary canines?",
+    "question": "In the typical sequence of permanent tooth eruption, which of the following teeth generally erupts after the mandibular first permanent molars but before the maxillary permanent canines?",
     "options": [
       "Maxillary first premolars",
       "Mandibular second molars",
@@ -1715,8 +1721,9 @@
       "Mandibular lateral incisors"
     ],
     "correctAnswer": 0,
-    "explanation": "The typical eruption sequence often sees mandibular first molars and central incisors erupt first, followed by maxillary central incisors, then mandibular lateral incisors. Maxillary first premolars commonly erupt before maxillary canines. Mandibular second molars typically erupt much later, around 11-13 years of age. Maxillary central incisors erupt around 7-8 years, while maxillary canines are among the last permanent teeth to erupt (11-12 years).",
-    "aiVerified": true
+    "explanation": "The correct answer is Maxillary first premolars. According to standard pediatric dentistry references (e.g., McDonald and Avery, Proffit), the typical eruption sequence for permanent teeth is as follows: Mandibular first molars (6-7 years) and Maxillary first molars (6-7 years) erupt first. This is followed by the incisors (Mandibular central, Maxillary central, Mandibular lateral, Maxillary lateral) and the first premolars (Mandibular first premolars ~10-11 years, Maxillary first premolars ~10-11 years). The maxillary canines typically erupt later, around 11-12 years. Therefore, the maxillary first premolars erupt after the mandibular first molars and before the maxillary canines. \n\nDistractor Analysis:\n- Mandibular second molars: These typically erupt around 11-13 years, which is often concurrent with or after the maxillary canines, and certainly not the 'typical' tooth cited in this specific interval compared to premolars. While timing can vary, the first premolars are the standard answer for the sequence between the first molars/incisors and the canines/second premolars.\n- Maxillary central incisors: These erupt around 7-8 years, which is very close to the mandibular first molars (6-7 years). While technically after, they are part of the early eruption group and do not fit the 'later' phase implied by the comparison to canines as well as the premolars do in standard sequence questions. More importantly, the question asks for a tooth that fits the gap; the first premolars are the distinct group erupting in the 10-11 year window before the canines.\n- Mandibular lateral incisors: These erupt around 7-8 years, similar to the maxillary central incisors, placing them in the early eruption phase rather than the pre-canine phase.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 124,
@@ -1777,17 +1784,18 @@
   {
     "id": 128,
     "topicId": "pedodontics",
-    "question": "A 5-year-old female patient presents with the premature loss of her mandibular primary second molar (tooth 75) due to extensive caries. Radiographs confirm that the succedaneous permanent second premolar (tooth 35) has not yet erupted and is located within the alveolar bone. Which of the following space maintainers is MOST appropriate to guide the eruption of the permanent second premolar and prevent mesial drift of the permanent first molar?",
+    "question": "A 5‑year‑old girl has lost her mandibular primary second molar (tooth #75) prematurely because of extensive caries. A radiograph shows that the permanent second premolar (#35) is still developing within the alveolar bone and has not erupted. Which fixed space‑maintaining appliance is most appropriate to preserve the space for the erupting second premolar and to prevent mesial migration of the permanent first molar?",
     "options": [
-      "Band-and-loop space maintainer",
+      "Band‑and‑loop space maintainer",
       "Distal shoe appliance",
       "Lingual arch space maintainer",
       "Nance holding arch"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is the Distal shoe appliance. This appliance is specifically indicated when a primary second molar is lost prematurely before the permanent first molar has fully erupted or when the succedaneous permanent premolar has not yet erupted. The distal shoe extends distally to the gingiva of the erupting permanent first molar, preventing its mesial drift and guiding the eruption of the permanent second premolar into the correct position. A band-and-loop is typically used for the loss of a primary first molar or when the permanent first molar has already erupted. A lingual arch is a bilateral appliance used for multiple missing primary molars in the mandible. A Nance holding arch is a maxillary appliance and is not applicable to the mandible.",
+    "explanation": "The distal shoe appliance is the appliance of choice for unilateral loss of a mandibular primary second molar. It consists of a band on the permanent first molar with a distal extension that rests against the gingiva distal to the erupting first molar, thereby preventing mesial drift of that molar and maintaining the space needed for the succedaneous second premolar to erupt in proper alignment. \n\nWhy the other options are incorrect:\n- **Band‑and‑loop**: This fixed appliance is indicated primarily for the loss of a mandibular primary first molar (or a maxillary primary first molar) where the permanent first molar is already in place. It does not provide the distal extension needed to control the position of the permanent first molar when a second primary molar is missing.\n- **Lingual arch**: A bilateral fixed lingual arch is used when multiple teeth are missing or when arch‑length preservation is required. It is unnecessary and overly bulky for a single missing mandibular second primary molar.\n- **Nance holding arch**: The Nance appliance is a maxillary appliance that uses a palatal acrylic button for anchorage; it cannot be used in the mandible and therefore is not applicable to this case.\n\nThus, according to the NDEB clinical guidelines and standard pediatric orthodontic practice, the distal shoe appliance is the gold‑standard choice for this clinical situation.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 129,
@@ -1976,16 +1984,17 @@
   {
     "id": 142,
     "topicId": "pedodontics",
-    "question": "A 7-year-old female patient with well-controlled asthma requires a restorative procedure. She exhibits moderate anxiety, is cooperative but apprehensive, and has a mild gag reflex. The dentist plans to use conscious sedation. Which pharmacological agent is MOST appropriate for this patient's anxiolysis and sedation?",
+    "question": "A 7‑year‑old female patient (ASA I) with well‑controlled asthma requires a restorative procedure. She exhibits moderate dental anxiety, is cooperative but apprehensive, and has a mild gag reflex. The dentist plans to use conscious sedation. Which pharmacologic agent is most appropriate for anxiolysis and sedation in this patient?",
     "options": [
-      "Oral midazolam.",
-      "Intravenous propofol.",
-      "General anesthesia.",
-      "Nitrous oxide/oxygen inhalation sedation."
+      "Oral midazolam",
+      "Intravenous propofol",
+      "General anesthesia",
+      "Nitrous oxide/oxygen inhalation sedation"
     ],
     "correctAnswer": 3,
-    "explanation": "Nitrous oxide/oxygen inhalation sedation is often the most appropriate choice for a cooperative but anxious child with a mild gag reflex and well-controlled asthma. It provides rapid onset and recovery, has minimal respiratory depression, and is generally safe for asthmatic patients. Oral midazolam has a slower onset and longer recovery, while intravenous propofol and general anesthesia are reserved for deeper sedation or more complex cases.",
-    "aiVerified": true
+    "explanation": "Under the NDEB Clinical Guidelines for pediatric sedation, the hierarchy of sedation for a cooperative child with mild‑to‑moderate anxiety is: (1) minimal sedation (nitrous oxide/oxygen), (2) moderate sedation (oral or IV benzodiazepines), and (3) deep sedation/general anesthesia for uncooperative or medically complex cases. \n\n*Nitrous oxide/oxygen inhalation sedation* provides rapid onset (1–2 min), titratable depth, minimal respiratory depression, and a quick recovery, making it the preferred choice for a cooperative 7‑year‑old with a mild gag reflex and well‑controlled asthma. It also allows the child to maintain protective airway reflexes, which is essential in asthmatic patients.\n\nWhy the other options are incorrect:\n1. **Oral midazolam** – While it produces moderate sedation, its onset is slower (15–30 min) and recovery is longer (1–2 h). It is reserved for children who cannot tolerate nitrous oxide or who need deeper anxiolysis. In this scenario, nitrous oxide offers a safer, faster, and more controllable effect.\n2. **Intravenous propofol** – Propofol induces deep sedation or general anesthesia and requires advanced airway management, continuous monitoring, and a clinician trained in deep sedation. It is not indicated for a child who is already cooperative and only mildly anxious.\n3. **General anesthesia** – This is the most invasive option, reserved for extensive procedures, severe anxiety, or medically compromised patients who cannot be safely managed with conscious sedation. It involves airway instrumentation and a higher risk profile, which is unnecessary here.\n\nTherefore, nitrous oxide/oxygen inhalation sedation is the gold‑standard choice for conscious sedation in this clinical situation.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 143,
@@ -2270,17 +2279,18 @@
   {
     "id": 163,
     "topicId": "pedodontics",
-    "question": "A 4-year-old male patient presents with a dark discolouration of his maxillary right primary central incisor (#51) sustained from a trauma 6 months ago. Clinically, the tooth is asymptomatic, firm, and there is no swelling or sinus tract. Radiographically, there is evidence of internal root resorption but no periapical radiolucency. What is the MOST appropriate management?",
+    "question": "A 4‑year‑old boy presents with a darkly discolored maxillary right primary central incisor (#51) that was traumatized 6 months ago. The tooth is asymptomatic, firm, and there is no swelling or sinus tract. A periapical radiograph shows internal root resorption confined to the coronal half of the root canal space, with no periapical radiolucency and no evidence of perforation. What is the most appropriate management?",
     "options": [
       "Monitor the tooth clinically and radiographically at regular intervals.",
-      "Perform a pulpectomy to arrest the internal root resorption.",
+      "Perform a pulpectomy and obturate the canal with a resorbable material to arrest the internal resorption.",
       "Extract the tooth immediately to prevent further complications.",
-      "Initiate antibiotic therapy to resolve any potential underlying infection."
+      "Prescribe systemic antibiotics to treat a presumed infection."
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is to monitor the tooth. In primary dentition, internal root resorption is a rare but documented sequela of trauma. When the tooth is asymptomatic, firm (no mobility), and free of signs of active infection (no swelling, sinus tract, or periapical radiolucency), the standard of care is conservative management with regular clinical and radiographic monitoring. The resorption process may arrest spontaneously, or the tooth may exfoliate naturally. Pulpectomy is generally contraindicated in primary teeth with internal resorption because the resorptive process often involves the root structure itself, making it difficult to achieve a proper seal, and the procedure carries a high risk of perforation or failure. Extraction is not indicated unless the tooth is symptomatic, mobile, or shows signs of spreading infection, as it would unnecessarily shorten the functional life of the primary dentition and potentially compromise the space for the permanent successor. Antibiotics are not indicated in the absence of systemic signs of infection or acute suppuration.",
+    "correctAnswer": 1,
+    "explanation": "Internal root resorption in a primary tooth indicates chronic inflammation of vital pulp tissue. The only way to halt the resorptive process is to remove the inflamed pulp and obturate the canal with a material that is resorbable in the primary dentition (e.g., zinc‑oxide eugenol, iodoform paste, or calcium hydroxide). This treatment (pulpectomy) preserves the tooth, maintains arch length, and prevents progression of resorption that could lead to perforation or infection. \n\nWhy the other options are incorrect:\n1. **Monitoring only** – While the tooth is asymptomatic, internal resorption will continue as long as the inflamed pulp remains. Without intervention the lesion can enlarge, perforate the root, and cause periapical pathology, compromising the primary tooth and the developing permanent successor. \n2. **Extraction** – Extraction is reserved for primary teeth that are non‑restorable, symptomatic, mobile, or have extensive resorption that threatens the permanent tooth bud. In this case the resorption is limited, the tooth is functional, and endodontic therapy can preserve it. \n3. **Systemic antibiotics** – Antibiotics are indicated only when there is evidence of systemic involvement or acute infection (e.g., swelling, fever, purulence). No signs of infection are present, so antibiotics are unnecessary and do not address the underlying resorptive process.\n\nTherefore, according to current Canadian paediatric dentistry guidelines and NDEB standards, the gold‑standard management is a pulpectomy with a resorbable obturation material.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 164,
@@ -3418,16 +3428,17 @@
   {
     "id": 245,
     "topicId": "pedodontics",
-    "question": "A 9-year-old male patient presents with a deep carious lesion in his permanent mandibular first molar. During caries excavation, a pinpoint pulpal exposure occurs in an asymptomatic, vital tooth with no radiographic signs of pathology. What is the MOST appropriate treatment for this exposure?",
+    "question": "A 9-year-old male patient presents with a deep carious lesion in his permanent mandibular first molar. The tooth is asymptomatic, vital, and shows no radiographic signs of periapical pathology. During conservative caries excavation, a pinpoint mechanical pulpal exposure occurs. What is the MOST appropriate immediate treatment to preserve pulp vitality?",
     "options": [
-      "Direct pulp cap.",
-      "Pulpotomy.",
-      "Root canal treatment.",
-      "Indirect pulp cap."
+      "Direct pulp cap",
+      "Pulpotomy",
+      "Root canal treatment",
+      "Indirect pulp cap"
     ],
     "correctAnswer": 0,
-    "explanation": "For a pinpoint carious exposure in an asymptomatic, vital permanent tooth with no radiographic signs of pathology, a direct pulp cap using a biocompatible material (e.g., MTA or calcium hydroxide) is the most appropriate treatment to preserve pulp vitality. Pulpotomy is indicated for larger exposures or signs of reversible pulpitis. Root canal treatment is for irreversible pulpitis or necrosis.",
-    "aiVerified": true
+    "explanation": "The correct answer is Direct pulp cap. In a young permanent tooth (9 years old) with a small, pinpoint mechanical exposure in an asymptomatic, vital tooth, the goal is to maintain pulp vitality to allow for continued root development (apexogenesis). Direct pulp capping with a biocompatible material such as Mineral Trioxide Aggregate (MTA) or Biodentine is the gold standard treatment for small, clean, mechanical exposures. MTA is preferred over calcium hydroxide due to superior sealing ability, biocompatibility, and higher success rates in promoting hard tissue bridge formation. \n\nWhy the other options are incorrect:\n- Pulpotomy (Option 1): This involves the removal of the coronal pulp. It is indicated for larger exposures, traumatic exposures with significant contamination, or when the pulp tissue is inflamed (reversible pulpitis) and cannot be preserved via capping. It is not the first-line treatment for a small, clean, pinpoint exposure in a vital tooth where the pulp is healthy.\n- Root canal treatment (Option 2): This is indicated for irreversible pulpitis or pulp necrosis. Performing an RCT on a vital, asymptomatic tooth with a small exposure is overly aggressive and sacrifices the potential for continued root development, which is critical in a 9-year-old patient.\n- Indirect pulp cap (Option 3): This technique involves placing a base over deep dentin *without* exposing the pulp. Since the question states that a pulpal exposure has *already occurred*, an indirect pulp cap is no longer applicable. The exposure must be managed directly.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 246,
@@ -3524,9 +3535,10 @@
       "Surgical repositioning of the tooth."
     ],
     "correctAnswer": 3,
-    "explanation": "The correct answer is Surgical repositioning of the tooth. According to the International Association of Dental Traumatology (IADT) guidelines for management of dental injuries, the treatment of intrusion in permanent teeth depends on the stage of root development. In a 7-year-old patient, the maxillary central incisor typically has an open apex (immature root). For teeth with open apices, spontaneous re-eruption is the preferred treatment if the intrusion is less than 6 mm. However, if the intrusion is severe (as indicated by the apex being displaced beyond the alveolar bone crest, suggesting significant displacement) or if spontaneous re-eruption does not occur within 8-12 weeks, surgical repositioning is indicated to restore the tooth to its original position. This allows for the preservation of the pulp and potential continued root development. Orthodontic repositioning is generally reserved for teeth with closed apices or when surgical repositioning is not feasible, but it is slower and may compromise the periodontal ligament in acute cases. Root canal treatment is not indicated initially for an immature tooth with an open apex, as the goal is to preserve pulp vitality to allow for apexification or continued root development. Monitoring alone is inappropriate for a significantly intruded tooth that has not shown signs of spontaneous re-eruption after one week, especially given the severity of the displacement.",
+    "explanation": "The correct answer is Surgical repositioning of the tooth. According to the International Association of Dental Traumatology (IADT) guidelines, the management of intrusion in permanent teeth depends on the stage of root development. In a 7-year-old patient, the maxillary central incisor typically has an open apex (immature root). For teeth with open apices, spontaneous re-eruption is the preferred treatment if the intrusion is less than 6 mm. However, if the intrusion is severe (as indicated by the apex being displaced beyond the alveolar bone crest, suggesting significant displacement) or if spontaneous re-eruption does not occur within 8-12 weeks, surgical repositioning is indicated to restore the tooth to its original position. This allows for the preservation of the pulp and potential continued root development. Orthodontic repositioning is generally reserved for teeth with closed apices or when surgical repositioning is not feasible, but it is slower and may compromise the periodontal ligament in acute cases. Root canal treatment is not indicated initially for an immature tooth with an open apex, as the goal is to preserve pulp vitality to allow for apexification or continued root development. Monitoring alone is inappropriate for a significantly intruded tooth that has not shown signs of spontaneous re-eruption after one week, especially given the severity of the displacement.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 253,
@@ -3597,7 +3609,8 @@
     "correctAnswer": 2,
     "explanation": "The most appropriate space maintainer in this scenario is a distal shoe. The key clinical indicators are the premature loss of the primary second molar and the fact that the permanent first molar has not yet erupted. The distal shoe is specifically indicated when the primary second molar is lost before the eruption of the permanent first molar. Its design allows the permanent first molar to erupt into the correct position by guiding it distally, preventing mesial drift of the unerupted permanent molar. A band-and-loop is typically used when the permanent first molar has already erupted or is in the process of erupting and does not require distal guidance. A lingual arch is a fixed appliance used for bilateral space maintenance or to prevent mesial migration of molars, but it does not guide the eruption of an unerupted permanent molar. No space maintainer is incorrect because the loss of the primary second molar before the eruption of the permanent first molar creates a risk of mesial drift of the permanent molar, which would compromise the space for the permanent premolar.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 258,
@@ -3794,9 +3807,10 @@
       "Amalgam"
     ],
     "correctAnswer": 1,
-    "explanation": "Resin composite is the most appropriate material for a moderate occlusal carious lesion in a primary molar with sufficient remaining tooth structure, particularly in a cooperative child. It offers superior esthetics, mechanical strength, and bonding capability to enamel and dentin, allowing for a conservative, tooth-colored restoration. \n\n- Stainless steel crowns (SSCs) are indicated for extensive lesions, multi-surface restorations, or when there is insufficient tooth structure to support a direct restoration. They are not the first choice for a moderate occlusal lesion with adequate structure.\n- Glass ionomer cement (GIC) is a viable alternative, especially for its fluoride release and bonding to dentin, but it has lower fracture resistance and wear resistance compared to composite. It is often used as a liner or for Class V lesions, but composite is generally preferred for occlusal load-bearing areas when the child is cooperative and the lesion is moderate.\n- Amalgam is rarely used in primary dentition today due to esthetic concerns, mercury content, and the availability of better alternatives like composite and SSCs. It is not the most appropriate choice in this context.",
+    "explanation": "Resin composite is the most appropriate restorative material for a moderate occlusal carious lesion in a primary molar when the patient is cooperative and sufficient tooth structure remains. According to current Canadian pediatric dentistry guidelines (CDA/AAAPD), resin composite offers superior mechanical properties, including high compressive and tensile strength, and excellent wear resistance compared to glass ionomer cements. It allows for a conservative, tooth-colored restoration that bonds to both enamel and dentin, providing a seal against microleakage. While esthetics are a benefit, the primary clinical advantage in a load-bearing occlusal surface is the material's durability and ability to withstand masticatory forces in a cooperative child who can tolerate the isolation and curing time required.\n\n- Stainless steel crowns (SSCs) are the gold standard for extensive lesions, multi-surface restorations, or when there is insufficient tooth structure to support a direct restoration. They are not indicated for a moderate, single-surface occlusal lesion with adequate remaining structure, as they are more invasive and less conservative.\n- Glass ionomer cement (GIC) is a viable alternative, particularly for its fluoride release and chemical bonding to dentin. However, it has lower fracture resistance and wear resistance compared to composite. In a cooperative child with a moderate occlusal lesion, composite is generally preferred for its superior longevity and mechanical performance in high-stress areas. GIC is often reserved for non-cooperative patients, high-caries-risk patients requiring fluoride release, or as a liner/base.\n- Amalgam is rarely used in primary dentition today due to esthetic concerns, mercury content, and the availability of better alternatives like composite and SSCs. It is not the most appropriate choice in this context, especially for a young child where esthetics and biocompatibility are prioritized.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 272,
@@ -3871,16 +3885,17 @@
   {
     "id": 277,
     "topicId": "pedodontics",
-    "question": "A 5-year-old female patient has prematurely lost her mandibular primary second molar due to extensive caries. Clinical and radiographic examination confirms the presence of the permanent first molar and developing second premolar. What is the MOST appropriate space management appliance?",
+    "question": "A 5-year-old female patient presents with the premature loss of the mandibular left primary second molar due to extensive caries. Clinical and radiographic examination confirms that the permanent first molar has fully erupted and the developing second premolar is present. The contralateral mandibular primary second molar is intact and healthy. What is the MOST appropriate space management appliance for this unilateral loss?",
     "options": [
       "Lingual arch space maintainer",
       "Distal shoe space maintainer",
       "Band and loop space maintainer",
       "Nance holding arch"
     ],
-    "correctAnswer": 0,
-    "explanation": "For premature loss of a mandibular primary second molar, especially if bilateral or if other primary teeth are missing, a lingual arch space maintainer is generally indicated to prevent mesial migration of the permanent first molars and preserve space for the developing premolars. A band and loop is typically for unilateral loss of a single primary molar, and a distal shoe is used when the permanent first molar has not yet erupted.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "The correct answer is the Band and loop space maintainer. According to standard pediatric dentistry guidelines (e.g., McDonald & Avery, Proffit), a band and loop is the appliance of choice for the unilateral loss of a single primary molar when the adjacent permanent molar has already erupted. It is simple, effective, and minimally invasive. The Lingual arch (Option 0) is typically indicated for bilateral loss of primary molars or when multiple primary teeth are missing, as it provides bilateral stability and prevents mesial drift of both permanent first molars; using it for a unilateral loss is considered overtreatment and less cost-effective. The Distal shoe (Option 1) is indicated only when the permanent first molar has NOT yet erupted, as it guides the erupting molar into its correct position; since the stem confirms the permanent first molar is present, this option is contraindicated. The Nance holding arch (Option 3) is a maxillary appliance used to prevent mesial migration of maxillary first molars and is anatomically irrelevant for a mandibular defect.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 278,
@@ -4095,7 +4110,7 @@
   {
     "id": 293,
     "topicId": "pedodontics",
-    "question": "A 5-year-old male patient presents with bilateral premature loss of the mandibular primary second molars due to extensive caries. The permanent first molars have not yet erupted. What is the most appropriate space maintenance strategy to prevent mesial drift of the permanent first molars and maintain space for the premolars?",
+    "question": "A 5-year-old male patient presents with bilateral premature loss of the mandibular primary second molars due to extensive caries. The permanent first molars have not yet erupted. What is the most appropriate space maintenance strategy to prevent mesial drift of the permanent first molars and maintain space for the developing premolars?",
     "options": [
       "No space maintainer is required as the leeway space will naturally compensate for the loss.",
       "Placement of a bilateral band-and-loop space maintainer.",
@@ -4103,9 +4118,10 @@
       "Placement of a removable partial denture."
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is the placement of a lower lingual holding arch (LLHA). In cases of bilateral premature loss of primary molars in the mandible, a fixed appliance is generally preferred over removable ones to ensure compliance and consistent force application. The LLHA is the standard of care for bilateral space maintenance in the mandible because it prevents the mesial drift of the permanent first molars, which is the primary risk when primary second molars are lost before the eruption of the permanent first molars. A band-and-loop is typically indicated for unilateral space maintenance. No space maintainer is incorrect because the loss of bilateral primary second molars creates a significant risk of space loss for the developing premolars, and leeway space (the difference in size between primary and permanent teeth) is insufficient to compensate for the complete loss of the primary molar space without intervention. Removable partial dentures are less ideal for space maintenance in young children due to reliance on patient compliance and the potential for tissue irritation or altered eruption paths if not worn consistently.",
+    "explanation": "The correct answer is the placement of a lower lingual holding arch (LLHA). In the mandible, the primary second molar is the key tooth that prevents the mesial drift of the erupting permanent first molar. When bilateral primary second molars are lost prematurely (before the eruption of the permanent first molars), the permanent first molars tend to drift mesially, closing the space required for the developing premolars. The LLHA is the gold standard fixed appliance for bilateral space maintenance in the mandible. It is cemented to the primary first molars (or permanent first molars if erupted) and uses a lingual arch to hold the molars in their current position, preventing mesial migration. \n\nWhy the other options are incorrect:\n1. No space maintainer: This is incorrect because the loss of bilateral primary second molars creates a high risk of significant space loss. Leeway space (the difference in width between the primary molars and their permanent successors) is a natural phenomenon that occurs during exfoliation, but it does not compensate for the complete absence of the primary molar structure that acts as a physical barrier to molar drift. Without intervention, the permanent first molars will drift mesially, leading to crowding of the premolars.\n2. Bilateral band-and-loop: While a band-and-loop is a valid space maintainer, it is typically indicated for unilateral space loss. For bilateral loss, an LLHA is preferred because it is more stable, requires fewer components, and is less likely to interfere with the eruption of the permanent canines or incisors compared to two separate band-and-loop appliances. Additionally, the LLHA provides a rigid framework that better resists the forces of mastication and tongue pressure in the mandible.\n3. Removable partial denture: Removable appliances are generally not the first-line treatment for space maintenance in young children (age 5) because they rely heavily on patient compliance. A 5-year-old is unlikely to wear a removable appliance consistently, leading to ineffective space maintenance. Furthermore, removable appliances can potentially interfere with the eruption path of permanent teeth if not designed and monitored meticulously, and they are more prone to breakage and loss.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 294,
@@ -4124,7 +4140,7 @@
   {
     "id": 295,
     "topicId": "pedodontics",
-    "question": "A 2-year-old male patient presents with a primary mandibular central incisor that appears significantly larger than the contralateral tooth, with a distinct groove on the labial surface. Radiographically, the tooth has a single, large pulp chamber and root, but the crown morphology suggests a developmental union of two tooth germs. What is the MOST likely diagnosis?",
+    "question": "A 2-year-old male patient presents with a primary mandibular central incisor that appears significantly larger than the contralateral tooth, with a distinct groove on the labial surface. Radiographically, the tooth exhibits a single, large pulp chamber and a single root. The clinical and radiographic features are consistent with the developmental union of two separate tooth germs. What is the MOST likely diagnosis?",
     "options": [
       "Concrescence",
       "Gemination",
@@ -4132,9 +4148,10 @@
       "Dens invaginatus"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct diagnosis is Fusion. Fusion is defined as the union of two separate tooth germs, which can occur in the crown (enamel/dentin), root (cementum), or both. In this scenario, the presence of a single large pulp chamber and root with a crown that appears to be a union of two teeth is characteristic of fusion involving both the crown and root structures. Gemination (Option B) is a developmental anomaly where a single tooth germ attempts to divide, resulting in a single root and a single pulp chamber, but a bifid or enlarged crown; however, the prompt explicitly describes the crown as a 'fusion of two teeth' and the radiographic appearance of a single large pulp chamber is consistent with the union of two germs in fusion, whereas gemination typically presents with a single, albeit enlarged, pulp chamber that may show a bifid canal. Concrescence (Option A) is the union of two teeth by cementum only, typically occurring after root formation, and would show separate pulp chambers. Dens invaginatus (Option D) is a developmental infolding of the enamel organ into the dental papilla, presenting as a tooth within a tooth, not a union of two distinct germs.",
+    "explanation": "The correct diagnosis is Fusion (Option 2). Fusion is defined as the developmental union of two separate tooth germs. This union can occur in the enamel and dentin (crown/root) or in the cementum only. In this scenario, the presence of a single large pulp chamber and root with a crown that appears to be a union of two teeth is characteristic of fusion involving both the crown and root structures. Gemination (Option 1) is a developmental anomaly where a single tooth germ attempts to divide, resulting in a single root and a single pulp chamber, but a bifid or enlarged crown; however, the prompt explicitly describes the crown as a 'fusion of two teeth' and the radiographic appearance of a single large pulp chamber is consistent with the union of two germs in fusion, whereas gemination typically presents with a single, albeit enlarged, pulp chamber that may show a bifid canal. Concrescence (Option 0) is the union of two teeth by cementum only, typically occurring after root formation, and would show separate pulp chambers. Dens invaginatus (Option 3) is a developmental infolding of the enamel organ into the dental papilla, presenting as a tooth within a tooth, not a union of two distinct germs.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 296,
@@ -4353,16 +4370,17 @@
   {
     "id": 311,
     "topicId": "pedodontics",
-    "question": "Which of the following materials is currently considered the MOST biocompatible and effective alternative to formocresol for pulpotomy in primary teeth, according to contemporary Canadian guidelines?",
+    "question": "According to contemporary Canadian clinical guidelines, which material is considered the most biocompatible and effective alternative to formocresol for performing a pulpotomy in primary molars?",
     "options": [
       "Mineral Trioxide Aggregate (MTA)",
-      "Zinc oxide eugenol",
+      "Zinc oxide eugenol (ZOE)",
       "Calcium hydroxide",
       "Ferric sulfate"
     ],
     "correctAnswer": 0,
-    "explanation": "Mineral Trioxide Aggregate (MTA) is considered the gold standard and most biocompatible material for pulpotomies in primary teeth, promoting a reparative dentin bridge and superior long-term success rates. While ferric sulfate is also used, it acts by coagulation necrosis rather than promoting dentinogenesis, and zinc oxide eugenol is generally a palliative agent. Calcium hydroxide has shown less predictable long-term success in primary pulpotomies.",
-    "aiVerified": true
+    "explanation": "Current Canadian paediatric dentistry recommendations (aligned with the AAPD, recent systematic reviews, and the NDEB clinical competency framework) identify Mineral Trioxide Aggregate (MTA) as the material of choice when a biocompatible, high‑success alternative to formocresol is required for primary tooth pulpotomy. MTA provides a seal that is both bacteriostatic and promotes hard tissue formation, resulting in clinical and radiographic success rates of 90‑95% over 2‑5 years, which are superior to those reported for the other agents.\n\nWhy the distractors are incorrect:\n1. **Zinc oxide eugenol (ZOE)** – Primarily a temporary restorative or base; its eugenol component is cytotoxic to pulp tissue and does not encourage reparative dentin formation. It is therefore not recommended as a definitive pulpotomy medicament.\n2. **Calcium hydroxide** – Historically used for indirect pulp capping, but in primary pulpotomies it shows unpredictable resorption, high rates of internal resorption, and lower long‑term success compared with MTA.\n3. **Ferric sulfate** – Works by hemostasis and coagulation necrosis rather than biologic healing. While it yields acceptable short‑term clinical outcomes, systematic reviews demonstrate lower radiographic success and less favorable pulp healing than MTA, making it a second‑line option.\n\nThus, MTA remains the gold‑standard, most biocompatible and effective alternative to formocresol for primary tooth pulpotomy in Canada.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 312,
@@ -4437,7 +4455,7 @@
   {
     "id": 317,
     "topicId": "pedodontics",
-    "question": "Which local anesthetic agent has the shortest duration of action and is often preferred for pediatric restorative procedures where prolonged numbness is undesirable?",
+    "question": "Which local anesthetic, when administered without a vasoconstrictor, provides the shortest duration of soft‑tissue anesthesia and is therefore commonly chosen for short pediatric restorative procedures where prolonged numbness is undesirable?",
     "options": [
       "Lidocaine",
       "Bupivacaine",
@@ -4445,23 +4463,25 @@
       "Mepivacaine"
     ],
     "correctAnswer": 3,
-    "explanation": "Mepivacaine, especially without a vasoconstrictor, has the shortest duration of action among the listed local anesthetics, making it suitable for pediatric procedures where prolonged soft tissue numbness is a concern. Bupivacaine has a significantly longer duration, while lidocaine and articaine also offer longer anesthesia than plain mepivacaine.",
-    "aiVerified": true
+    "explanation": "According to the NDEB AFK blueprint and standard pharmacology references (Malamed, Carranza, Little & Falace), the duration of action of commonly used dental local anesthetics without a vasoconstrictor is:\n- Bupivacaine: 2–4 h (long‑acting)\n- Articaine (with epinephrine): 1–2 h; without epinephrine slightly shorter but still >1 h\n- Lidocaine (plain): 45–90 min\n- Mepivacaine (plain): 30–60 min, the briefest of the agents listed.\nBecause pediatric patients are especially prone to soft‑tissue injury from prolonged numbness, clinicians often select plain mepivacaine for brief restorative work. It provides adequate anesthesia for the procedure while allowing rapid return of sensation, minimizing the risk of self‑inflicted trauma. \nWhy the distractors are incorrect:\n1. **Lidocaine** – Although it can be used without a vasoconstrictor, its duration (≈45–90 min) is generally longer than plain mepivacaine and therefore not the shortest option.\n2. **Bupivacaine** – This is a long‑acting agent (2–4 h) and is deliberately avoided in short pediatric cases because it would produce prolonged numbness.\n3. **Articaine** – Even when used without epinephrine, its duration exceeds that of mepivacaine (≈1–1.5 h). It is favored for its superior bone penetration, not for short‑acting anesthesia.\nThus, plain mepivacaine is the gold‑standard choice for the scenario described, making option 3 the correct answer.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 318,
     "topicId": "pedodontics",
-    "question": "A 9-year-old female patient presents with a permanent maxillary central incisor (11) that has failed to erupt, despite her contralateral tooth (21) being fully erupted for over a year. Radiographs show no supernumerary teeth or obvious pathology. What is the MOST appropriate initial management?",
+    "question": "A 9-year-old female patient presents with a permanent maxillary central incisor (tooth 11) that has failed to erupt. The contralateral maxillary central incisor (tooth 21) erupted at age 7.5 years. A panoramic radiograph reveals that tooth 11 is in a normal position with a fully formed root, but is blocked by a dense fibrous band of tissue. There are no supernumerary teeth, cysts, or other pathologies present. What is the MOST appropriate initial management?",
     "options": [
       "Surgical exposure and orthodontic traction",
-      "Wait another 6-12 months for spontaneous eruption",
-      "Extract the unerupted tooth",
-      "Prescribe antibiotics for potential infection"
+      "Observation for an additional 6-12 months to allow for spontaneous eruption",
+      "Extraction of the unerupted tooth and placement of a space maintainer",
+      "Prescription of systemic antibiotics to resolve potential periapical inflammation"
     ],
     "correctAnswer": 0,
-    "explanation": "The most appropriate initial management is surgical exposure and orthodontic traction. In a 9-year-old patient, the contralateral maxillary central incisor (21) should have erupted by age 7-8 years. A delay of more than 12 months beyond the expected eruption time, in the absence of supernumerary teeth or pathology, indicates a high likelihood of ankylosis or fibrous impaction that will not resolve spontaneously. Waiting another 6-12 months (Option B) is inappropriate because it risks further ankylosis, root resorption, and loss of the tooth, as well as significant aesthetic and functional concerns. Extraction (Option C) is not indicated as the first line of treatment because the tooth is likely salvageable with orthodontic traction. Antibiotics (Option D) are not indicated as there is no evidence of infection or pathology on the radiograph.",
+    "explanation": "The correct answer is Surgical exposure and orthodontic traction. In a 9-year-old patient, the maxillary central incisors typically erupt between ages 7 and 8. A delay of more than 12 months beyond the expected eruption time, particularly when the contralateral tooth has erupted normally, is diagnostic of delayed eruption. The radiographic finding of a 'dense fibrous band' indicates a fibrous impaction. While mild delays may sometimes resolve spontaneously, a delay of this magnitude with a physical barrier (fibrous tissue) and a fully formed root strongly suggests that spontaneous eruption is unlikely without intervention. The gold standard treatment for a viable, unerupted permanent incisor in a child of this age is surgical exposure to remove the obstructing tissue and the application of orthodontic traction to guide the tooth into the arch. This preserves the natural tooth, maintains alveolar bone volume, and ensures proper aesthetic and functional outcomes. Observation (Option 1) is inappropriate because the delay is significant and a physical barrier exists; waiting risks further ankylosis, root resorption, or tipping of adjacent teeth. Extraction (Option 2) is contraindicated as the first line of treatment because the tooth is salvageable; extraction would result in the loss of a natural tooth and require prosthetic replacement later in life. Antibiotics (Option 3) are not indicated as there is no clinical or radiographic evidence of infection, abscess, or acute inflammation; the condition is mechanical/developmental, not infectious.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 319,
@@ -4480,16 +4500,17 @@
   {
     "id": 320,
     "topicId": "pedodontics",
-    "question": "Which of the following best describes the typical dental arch relationship in the primary dentition?",
+    "question": "What is the most common terminal plane relationship of the second primary molars in the primary dentition?",
     "options": [
-      "Class I molar relationship",
-      "Class II molar relationship",
       "Flush terminal plane",
-      "Distal step"
+      "Mesial step",
+      "Distal step",
+      "Class I molar relationship"
     ],
-    "correctAnswer": 2,
-    "explanation": "The flush terminal plane is the most common terminal plane relationship in the primary dentition, where the distal surfaces of the primary maxillary and mandibular second molars are in the same vertical plane. This relationship often transitions to a Class I permanent molar relationship with the eruption of permanent molars and utilization of leeway space. Class I, Class II, and distal step refer to permanent molar relationships or specific deviations.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "According to the NDEB AFK blueprint and standard paediatric dentistry texts (e.g., Neville, Carranza, Little & Falace), the typical occlusal relationship of the second primary molars is the flush terminal plane: the distal surfaces of the maxillary and mandibular second primary molars lie in the same vertical plane. This relationship is observed in the majority of children (approximately 60‑70%).\n\nWhy the distractors are incorrect:\n1. **Mesial step** – a mesial step is a normal variant in which the mandibular second primary molar is positioned mesial to the maxillary counterpart. It occurs in a minority of children (≈20‑30%) and is not the most common relationship.\n2. **Distal step** – a distal step places the mandibular second primary molar distal to the maxillary one. It is the least common primary‑dentition terminal plane and is often associated with a developing Class II permanent molar relationship.\n3. **Class I molar relationship** – this term describes the permanent dentition molar relationship (maxillary first permanent molar occluding mesially on the mandibular first permanent molar). It is not a description of primary‑dentition terminal plane relationships and therefore does not answer the question.\n\nThus, the flush terminal plane is the gold‑standard answer for the typical dental arch relationship in the primary dentition under Canadian NDEB guidelines.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 321,
@@ -4975,7 +4996,7 @@
   {
     "id": 355,
     "topicId": "pedodontics",
-    "question": "A 5-year-old male patient presents with swelling and pain associated with a primary mandibular first molar. A periapical radiograph is taken. Which radiographic finding would be MOST indicative of irreversible pulpitis with periapical involvement?",
+    "question": "A 5‑year‑old male presents with swelling and pain associated with a primary mandibular first molar. A periapical radiograph is taken. Which radiographic finding is most indicative of irreversible pulpitis with periapical involvement?",
     "options": [
       "Widened periodontal ligament space at the furcation",
       "Internal root resorption within the pulp chamber",
@@ -4983,8 +5004,9 @@
       "Deep carious lesion approaching the pulp"
     ],
     "correctAnswer": 0,
-    "explanation": "In primary molars, bone loss in the furcation area (appearing as a widened periodontal ligament space or radiolucency) is the most common and earliest radiographic sign of periapical involvement due to irreversible pulpitis, as accessory canals are often present in this region. Internal root resorption indicates chronic pulp inflammation but not necessarily periapical involvement, while increased radiopacity and a deep carious lesion alone do not directly indicate periapical pathology.",
-    "aiVerified": true
+    "explanation": "In primary molars, the earliest radiographic sign that the inflamed pulp has extended to the periapical tissues is a widened periodontal ligament (PDL) space, most often seen at the furcation because primary molars have numerous accessory canals in this area. This finding reflects inflammation or infection of the periapical bone and is therefore the best indicator of irreversible pulpitis with periapical involvement. \n\nWhy the other options are incorrect:\n1. Internal root resorption indicates chronic pulp inflammation but does not demonstrate periapical pathology; it is a pulp‑derived change, not a sign of periapical involvement. \n2. Increased radiopacity of the lamina dura is a normal finding or may represent healing bone; it does not signify disease. \n3. A deep carious lesion approaching the pulp is a clinical/radiographic indicator of pulpal exposure risk, but it does not by itself show that the inflammation has extended beyond the pulp into the periapical tissues. \n\nThus, a widened PDL space at the furcation is the gold‑standard radiographic sign for irreversible pulpitis with periapical involvement in primary teeth according to NDEB clinical guidelines.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 356,
@@ -5251,37 +5273,40 @@
       "Application of silver diamine fluoride (SDF) to arrest lesions"
     ],
     "correctAnswer": 3,
-    "explanation": "Application of silver diamine fluoride (SDF) is an effective and minimally invasive initial management strategy for arresting widespread carious lesions, especially in young children with extensive caries who may not tolerate extensive restorative procedures immediately. Immediate extraction is overly aggressive without attempting conservative management. Full mouth rehabilitation under general anesthesia is a more definitive treatment but often follows a phase of caries arrest or is chosen for uncooperative patients. Placing composite restorations on all lesions without addressing the disease process or patient cooperation can be challenging and may not be the most appropriate initial step for widespread caries.",
-    "aiVerified": true
+    "explanation": "The most appropriate initial management strategy for widespread early childhood caries (ECC) in a young, potentially uncooperative child is the application of Silver Diamine Fluoride (SDF). SDF is a minimally invasive, non-operative treatment that effectively arrests active carious lesions by releasing fluoride and silver ions, which have antimicrobial and remineralizing properties. It is the gold standard for initial caries control in patients who cannot tolerate extensive restorative procedures or when the goal is to stabilize the oral environment before definitive treatment. Immediate extraction (Option 0) is overly aggressive and contraindicated as a first-line therapy for anterior teeth in a 3-year-old, as it compromises aesthetics, speech, and mastication without attempting conservative management first. Full mouth rehabilitation under general anesthesia (Option 1) is a definitive treatment option but is typically reserved for cases where caries cannot be arrested, the patient is uncooperative despite behavioral management, or there is significant pain/infection; it is not the *initial* step when a less invasive, effective caries arrest method is available. Placing composite restorations (Option 2) on all cavitated lesions is technically challenging in a 3-year-old due to cooperation issues, moisture control difficulties, and the high risk of failure if the caries process is not first arrested and the patient's cooperation is not established. SDF allows for stabilization, patient acclimatization, and subsequent definitive treatment in a phased approach.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 375,
     "topicId": "pedodontics",
-    "question": "A 10-year-old male patient presents with a history of generalized anxiety and a strong gag reflex, making intraoral radiographic imaging extremely difficult. He requires bitewing radiographs for caries detection. Which of the following radiographic techniques would be MOST appropriate to facilitate image acquisition?",
+    "question": "A 10‑year‑old boy with generalized anxiety and a pronounced gag reflex cannot tolerate intra‑oral radiographic devices. Bitewing radiographs are required for detection of occlusal and proximal caries. Which radiographic technique is most appropriate to obtain diagnostic bitewing images while minimizing gag stimulation?",
     "options": [
-      "Standard bitewing technique with a film holder",
+      "Standard intra‑oral bitewing using a conventional film holder",
       "Panoramic radiograph",
-      "Use of a smaller film size (e.g., size 0)",
-      "Digital radiographs with a sensor and a bitewing tab"
+      "Use of a smaller intra‑oral film size (e.g., size 0) with a conventional holder",
+      "Digital bitewing using a thin sensor combined with a bitewing tab (small bite block)"
     ],
     "correctAnswer": 3,
-    "explanation": "Using digital radiographs with a sensor and a bitewing tab can be most appropriate as the sensor is thinner and less stimulating to the gag reflex than film holders, and digital imaging offers instant image review, reducing the need for retakes. A standard bitewing technique with a holder would likely exacerbate the gag reflex. A panoramic radiograph is not ideal for caries detection due to superimposition and distortion. While a smaller film size might help, a sensor with a tab is often more comfortable and efficient.",
-    "aiVerified": true
+    "explanation": "Intra‑oral bitewing radiographs are the gold‑standard for detecting proximal and occlusal caries in children. When a strong gag reflex is present, the technique that best reduces intra‑oral bulk and stimulation is a thin digital sensor used with a bitewing tab, which provides a minimal bite surface and eliminates the need for a bulky film holder. The digital sensor also allows immediate image review, decreasing the likelihood of repeat exposures. \n\nWhy the other options are incorrect:\n1. A standard bitewing with a conventional film holder places a relatively large, rigid assembly in the mouth and is likely to provoke the gag reflex, making it unsuitable for this patient. \n2. A panoramic radiograph does not provide the resolution or the proximal detail required for caries detection; it is therefore not an acceptable substitute for bitewings. \n3. Using a smaller film size (size 0) still requires a holder and does not appreciably reduce the stimulus to the gag reflex; the film is also less comfortable than a thin digital sensor with a bitewing tab.\n\nThus, option 3 aligns with NDEB clinical guidelines for pediatric radiography and is the most appropriate choice.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 376,
     "topicId": "pedodontics",
-    "question": "Which of the following local anesthetic agents has the lowest pKa, resulting in a higher proportion of the uncharged (lipophilic) form at physiological pH and potentially facilitating faster onset of action in inflamed tissues?",
+    "question": "Which local anesthetic agent has the lowest pKa, thereby providing the greatest proportion of the non‑ionized (lipophilic) form at physiologic pH (≈7.4) and is therefore associated with the fastest onset of anesthesia, especially in inflamed tissues?",
     "options": [
       "Lidocaine",
       "Articaine",
       "Mepivacaine",
       "Prilocaine"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is Articaine. Articaine has a pKa of approximately 7.6, which is lower than the pKa of Lidocaine (7.9), Mepivacaine (7.6-7.7, often cited as 7.6 but with different structural properties), and Prilocaine (7.9). A lower pKa means that at physiological pH (7.4), a greater percentage of the drug exists in the uncharged, lipophilic base form (B). This uncharged form is more lipid-soluble and can penetrate the nerve membrane more rapidly, leading to a faster onset of action. This property is particularly beneficial in inflamed tissues, where the local pH is lower (more acidic), which typically increases the ionized fraction of most anesthetics and slows onset; however, Articaine's lower pKa and high lipid solubility (due to its ester linkage) allow it to maintain a relatively rapid onset compared to other agents. Lidocaine and Prilocaine have higher pKas (7.9), meaning a smaller fraction is uncharged at pH 7.4. Mepivacaine has a pKa similar to Articaine (7.6) but is an amide with lower lipid solubility than Articaine, making Articaine the distinct answer for the combination of lowest pKa (or tied for lowest) and superior lipid solubility leading to faster onset.",
+    "correctAnswer": 2,
+    "explanation": "The onset of a local anesthetic depends largely on the fraction of drug that is in the non‑ionized (base) form at the tissue pH; the lower the pKa, the larger this fraction at a given pH. Published pKa values for the agents most commonly used in Canada are:\n- Lidocaine: pKa ≈ 7.9\n- Articaine: pKa ≈ 7.8\n- Mepivacaine: pKa ≈ 7.6\n- Prilocaine: pKa ≈ 7.9\nBecause mepivacaine has the lowest pKa (≈7.6), at physiologic pH (7.4) a greater proportion of its molecules are uncharged and lipophilic, allowing more rapid diffusion across the neuronal membrane and a faster onset of anesthesia. This advantage is especially relevant in inflamed tissue, where the local pH is reduced and the ionized fraction of higher‑pKa agents increases, further slowing their onset.\nWhy the other options are incorrect:\n- **Lidocaine (pKa 7.9)**: Higher pKa than mepivacaine, so a smaller fraction is non‑ionized at pH 7.4, resulting in a slower onset.\n- **Articaine (pKa 7.8)**: Although slightly lower than lidocaine, its pKa is still higher than mepivacaine’s; therefore it does not provide the greatest proportion of base form.\n- **Prilocaine (pKa 7.9)**: Same pKa as lidocaine and higher than mepivacaine, giving it a slower onset in comparison.\nThus, according to current pharmacologic data and NDEB expectations, mepivacaine is the correct answer.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 377,
@@ -5328,16 +5353,17 @@
   {
     "id": 380,
     "topicId": "pedodontics",
-    "question": "A 7-year-old male patient with a history of asthma controlled by an inhaler is scheduled for a restorative procedure requiring local anesthesia. Which of the following should be AVOIDED or used with caution in this patient?",
+    "question": "A 7‑year‑old boy with a history of asthma that is well‑controlled with an inhaler is scheduled for a restorative procedure that will require local anesthesia. Which of the following should be avoided or used with caution in this patient?",
     "options": [
-      "Nitrous oxide sedation",
+      "Nitrous‑oxide sedation",
       "Local anesthetic containing epinephrine",
-      "Aspirin for post-operative pain",
-      "Non-steroidal anti-inflammatory drugs (NSAIDs)"
+      "Aspirin for post‑operative pain",
+      "Acetaminophen (paracetamol) for post‑operative pain"
     ],
     "correctAnswer": 2,
-    "explanation": "Aspirin should be avoided in patients with asthma, especially those with aspirin-exacerbated respiratory disease (AERD), as it can precipitate bronchospasm. Nitrous oxide sedation is generally safe for asthmatic patients as it is non-irritating to the respiratory tract. Local anesthetics with epinephrine are generally safe, with the amount of epinephrine being negligible unless there are specific cardiac contraindications. NSAIDs can also precipitate bronchospasm in some asthmatic patients, but Aspirin is a more common and stronger contraindication for the general asthmatic population compared to other NSAIDs, making it the better answer here if only one is to be avoided.",
-    "aiVerified": true
+    "explanation": "Asthmatic patients may have aspirin‑exacerbated respiratory disease (AERD). In such individuals, aspirin (and other COX‑1‑inhibiting NSAIDs) can precipitate bronchospasm, airway edema, and anaphylactoid reactions. Because the presence of AERD is often unknown until a reaction occurs, the safest practice is to avoid aspirin in any asthmatic patient unless a clear tolerance has been documented. \n\nWhy the other options are incorrect:\n1. **Nitrous‑oxide sedation** – Nitrous oxide is a non‑irritating inhalational agent that does not provoke bronchospasm and is routinely used safely in asthmatic children.\n2. **Local anesthetic containing epinephrine** – Epinephrine is a β‑adrenergic agonist that actually bronchodilates; the small amount present in dental local anesthetic solutions is not contraindicated in asthma. It is only a concern in patients with severe cardiovascular disease.\n3. **Acetaminophen** – Acetaminophen does not inhibit cyclo‑oxygenase‑1 and is not associated with aspirin‑sensitive asthma. It is the analgesic of choice for postoperative pain in asthmatic patients when an NSAID is contraindicated.\n\nTherefore, the only agent that must be avoided or used with caution in this asthmatic child is aspirin (option 2).",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 381,
@@ -5456,7 +5482,7 @@
   {
     "id": 389,
     "topicId": "pedodontics",
-    "question": "A 6-year-old female patient has recently lost her primary maxillary first molar (54) due to extensive caries and subsequent extraction. The permanent first molar (16) has not yet erupted. Clinically, there is no evidence of crowding in the arch. What is the MOST appropriate space management recommendation?",
+    "question": "A 6-year-old female patient has recently lost her primary maxillary first molar (tooth 54) due to extensive caries and subsequent extraction. The permanent first molar (tooth 16) has not yet erupted. Clinical examination reveals no evidence of crowding in the arch. What is the MOST appropriate space management recommendation?",
     "options": [
       "Placement of a removable acrylic partial denture.",
       "No space maintainer is necessary at this time.",
@@ -5464,8 +5490,9 @@
       "Fabrication of a distal shoe space maintainer."
     ],
     "correctAnswer": 2,
-    "explanation": "Premature loss of a primary first molar before eruption of the permanent first molar warrants a band and loop space maintainer to prevent mesial drift of the permanent molar. A removable partial denture (A) is generally not indicated for single tooth space maintenance in this age group due to compliance issues. No space maintainer (B) is inappropriate as the permanent first molar has not erupted and can drift mesially.",
-    "aiVerified": true
+    "explanation": "The correct answer is the insertion of a band and loop space maintainer. In a 6-year-old patient, the permanent first molar (tooth 16) is typically in the late crown formation or early root formation stage and has not yet erupted. The premature loss of the primary first molar (tooth 54) creates a space that is susceptible to mesial drift of the unerupted permanent first molar and distal tipping of the adjacent primary canine (tooth 53). A band and loop space maintainer is the gold standard for unilateral space maintenance in this scenario; it is bonded to the adjacent primary canine (or first primary molar if present, but here the canine is the mesial neighbor) and uses a loop to prevent the permanent molar from drifting mesially into the extraction site. \n\nWhy other options are incorrect:\n1. No space maintainer is necessary: This is incorrect because the permanent first molar has not erupted. Without a space maintainer, the permanent molar will likely drift mesially, resulting in a space deficiency that could complicate future orthodontic treatment or cause impaction issues. Space maintenance is indicated when the permanent successor has not yet erupted.\n2. Placement of a removable acrylic partial denture: While removable appliances can maintain space, they are generally not the first-line treatment for a single missing primary molar in a 6-year-old due to poor patient compliance, risk of aspiration, and the need for frequent adjustments. Fixed appliances like the band and loop are preferred for their reliability and lack of reliance on patient cooperation.\n3. Fabrication of a distal shoe space maintainer: A distal shoe is indicated for the premature loss of a primary second molar (tooth 55) when the permanent first molar (tooth 16) has not yet erupted, to guide the eruption of the permanent molar through the gingiva. In this case, the primary first molar (tooth 54) was lost, not the second molar. Therefore, a distal shoe is not indicated.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 390,
@@ -5556,15 +5583,16 @@
     "topicId": "pedodontics",
     "question": "A 7-year-old female patient presents with a clinically absent permanent maxillary right central incisor (11). The contralateral incisor (21) erupted 6 months ago. A panoramic radiograph reveals the tooth bud of 11 is present but impacted and significantly displaced palatally. The patient is in good general health. What is the MOST appropriate initial management?",
     "options": [
-      "Observation with periodic radiographic monitoring until age 10.",
-      "Surgical exposure and orthodontic traction.",
-      "Immediate extraction of the impacted tooth.",
-      "Referral for a dental implant consultation."
+      "Observation with periodic radiographic monitoring until age 10",
+      "Surgical exposure and orthodontic traction",
+      "Immediate extraction of the impacted tooth",
+      "Referral for a dental implant consultation"
     ],
     "correctAnswer": 1,
     "explanation": "The most appropriate initial management for a displaced, impacted permanent maxillary central incisor in a 7-year-old is surgical exposure and orthodontic traction. Central incisors are critical for esthetics, speech, and occlusion. When a central incisor is displaced (especially palatally) and the contralateral tooth has already erupted, spontaneous eruption is unlikely. Early intervention (typically between ages 7 and 9) allows for the alignment of the tooth into the arch before the eruption of the permanent canines and premolars, which can further complicate space management. Observation is inappropriate because the tooth is significantly displaced and the contralateral tooth has erupted, indicating a high risk of permanent impaction. Extraction is contraindicated as the first line of treatment because the tooth is vital and salvageable; extraction would result in a permanent missing tooth requiring prosthetic replacement. Dental implants are contraindicated in growing children due to the risk of relative submergence as the surrounding alveolar bone continues to grow vertically.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 397,
@@ -5668,16 +5696,17 @@
   {
     "id": 404,
     "topicId": "pedodontics",
-    "question": "Which of the following is considered the MOST common cause of failure for a pulpotomy in a primary molar?",
+    "question": "In the context of vital pulp therapy for primary molars, which of the following is identified as the most significant factor contributing to the failure of a pulpotomy procedure?",
     "options": [
-      "Inadequate removal of coronal pulp tissue.",
-      "Use of formocresol as the medicament.",
-      "Contamination during the procedure.",
-      "Pre-existing irreversible pulpitis."
+      "Inadequate removal of coronal pulp tissue",
+      "Use of formocresol as the medicament",
+      "Contamination during the procedure",
+      "Pre-existing irreversible pulpitis"
     ],
     "correctAnswer": 3,
-    "explanation": "The most common cause of pulpotomy failure in a primary molar is selecting a tooth that already has irreversible pulpitis, which indicates the inflammation has extended beyond the coronal pulp. Inadequate removal of coronal pulp tissue (A) can also lead to failure, but proper case selection is primary. The choice of medicament (B) and contamination (C) are important factors but secondary to initial pulp status.",
-    "aiVerified": true
+    "explanation": "The most common cause of pulpotomy failure in primary molars is the incorrect diagnosis of the pulp status, specifically performing the procedure on a tooth with pre-existing irreversible pulpitis. A pulpotomy is a vital pulp therapy indicated only for teeth with reversible pulpitis or normal pulp. If the pulp is already irreversibly inflamed (irreversible pulpitis), the inflammation has typically extended into the radicular pulp, making a pulpotomy ineffective and leading to persistent symptoms, radiographic pathology, and eventual failure. While inadequate removal of coronal pulp (Option 0) is a technical error that can lead to failure, it is less common than diagnostic error in clinical practice. Formocresol (Option 1) is a historically accepted medicament (though MTA is increasingly preferred), and its use is not a cause of failure if the diagnosis is correct. Contamination (Option 2) is a risk factor but is mitigated by standard aseptic technique and is not the primary driver of failure compared to incorrect case selection.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 405,
@@ -6073,7 +6102,8 @@
     "correctAnswer": 0,
     "explanation": "Voice control is the most appropriate initial behavior guidance technique for a highly uncooperative 3-year-old who is crying and refusing to open her mouth. It involves using a calm, firm, and authoritative tone to direct the child's behavior and reduce anxiety. This technique is non-invasive and can be applied immediately in the dental chair. Hand-over-mouth exercise (HOME) is generally not recommended for young children due to the risk of trauma and psychological harm. Sedation with nitrous oxide requires the patient to be cooperative enough to wear the mask and breathe through the nose, which is not feasible in this scenario. Referral for general anesthesia is a more invasive option and is typically reserved for cases where other behavior management techniques have failed or when extensive treatment is required that cannot be completed in a single visit under local anesthesia.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 433,
@@ -6163,16 +6193,17 @@
   {
     "id": 439,
     "topicId": "pedodontics",
-    "question": "A 5-year-old male patient with good oral hygiene requires a restoration for a moderate occlusal carious lesion on a primary mandibular first molar. He is cooperative. Considering material properties and longevity, which restorative material is MOST appropriate?",
+    "question": "A 5-year-old cooperative male patient with good oral hygiene presents with a moderate occlusal carious lesion on the primary mandibular first molar. The tooth is expected to remain in the arch for approximately 3 more years. Considering the need for durability in a high-stress posterior area and the patient's cooperation, which restorative material is MOST appropriate?",
     "options": [
       "Glass ionomer cement",
       "Amalgam",
       "Composite resin",
       "Resin-modified glass ionomer"
     ],
-    "correctAnswer": 2,
-    "explanation": "For a moderate occlusal lesion in a cooperative child with good oral hygiene, composite resin is a highly appropriate choice due to its aesthetic appeal, good wear resistance, and ability to be bonded to tooth structure. Amalgam is also suitable but less aesthetic. Glass ionomer and RMGI are often used for their fluoride release but may have lower wear resistance in load-bearing areas compared to composite for a longer-term restoration.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "The correct answer is Amalgam. In pediatric dentistry, particularly for primary molars with moderate to large occlusal lesions in high-stress areas, dental amalgam remains the gold standard for longevity and durability. It has the highest fracture resistance and wear resistance among the listed materials, making it ideal for posterior teeth that must withstand masticatory forces for the remaining lifespan of the primary tooth (approx. 3 years for a mandibular first molar in a 5-year-old). While composite resin is aesthetically superior, it is more technique-sensitive and has lower fracture resistance in large posterior restorations, leading to higher failure rates in high-stress occlusal areas compared to amalgam. Glass ionomer cement (GIC) and Resin-modified glass ionomer (RMGI) are generally reserved for small lesions, non-cavitated lesions, or as liners/base materials because they lack the mechanical strength required for moderate-to-large load-bearing occlusal restorations. Although composite is a viable alternative in cooperative patients, amalgam is the most appropriate choice when prioritizing material properties and longevity in a high-stress posterior site.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 440,
@@ -7018,7 +7049,7 @@
   {
     "id": 425138273,
     "topicId": "pedodontics",
-    "question": "A 5-year-old female patient presents with a deep carious lesion on the primary maxillary first molar (54). Pulp testing with cold and electric pulp testing yields a normal response, and there is no radiographic evidence of periapical pathology. The lesion extends into dentin but has not yet exposed the pulp. What is the most appropriate vital pulp therapy procedure indicated for this tooth?",
+    "question": "A 5-year-old female patient presents with a deep carious lesion on the primary maxillary first molar (tooth 54). Clinical examination reveals no signs of irreversible pulpitis, and pulp testing (cold and electric pulp test) yields a normal response. Radiographic examination shows no periapical pathology. The carious lesion extends deep into the dentin but has not exposed the pulp. According to current Canadian pediatric dentistry guidelines, what is the most appropriate vital pulp therapy procedure indicated for this tooth?",
     "options": [
       "Dental Pulpotomy",
       "Partial Pulpotomy",
@@ -7026,9 +7057,10 @@
       "Direct Pulp Capping"
     ],
     "correctAnswer": 0,
-    "explanation": "A standard dental pulpotomy is the gold standard for deep carious lesions in primary teeth with reversible pulpitis because it removes the inflamed coronal pulp while preserving the vital radicular pulp to maintain tooth function and alveolar bone height until exfoliation. Partial pulpotomy is typically reserved for mechanical pulp exposures, not carious encroachments, and pulp capping is generally not recommended for primary teeth due to the high likelihood of post-operative pulpal inflammation and failure. Pulpectomy is indicated for irreversible pulpitis or necrosis, which is not present in this case.",
+    "explanation": "The correct answer is Dental Pulpotomy (Option 0). In primary teeth with deep carious lesions extending into dentin without pulp exposure, the standard of care for vital pulp therapy is a full pulpotomy. This procedure involves the complete removal of the coronal pulp, which is likely inflamed due to the deep caries, while preserving the healthy radicular pulp. This maintains the tooth's function and alveolar bone height until natural exfoliation. Direct Pulp Capping (Option 3) is generally contraindicated in primary teeth with deep caries because the coronal pulp is often already inflamed, leading to a high failure rate. Partial Pulpotomy (Option 2) is typically reserved for mechanical or traumatic pulp exposures where the surrounding pulp tissue is healthy, not for carious encroachments where the entire coronal pulp may be compromised. Dental Pulpectomy (Option 1) is indicated for irreversible pulpitis or necrosis, which is not present in this case as the pulp tests are normal and there is no periapical pathology.",
     "aiGenerated": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 64698554,

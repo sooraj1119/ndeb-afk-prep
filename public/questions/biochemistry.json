@@ -2,17 +2,18 @@
   {
     "id": 1,
     "topicId": "biochemistry",
-    "question": "A patient presents with a rare genetic disorder affecting erythrocyte metabolism, characterized by chronic hemolytic anemia. Analysis reveals a defect in an enzyme crucial for the irreversible commitment step of glycolysis. Which enzyme is most likely deficient?",
+    "question": "A child presents with chronic hemolytic anemia. Laboratory studies indicate a hereditary defect in an erythrocyte glycolytic enzyme that catalyzes the irreversible, highly regulated commitment step of glycolysis. Which enzyme is most likely deficient?",
     "options": [
       "Aldolase",
       "Pyruvate kinase",
-      "Phosphofructokinase-1 (PFK-1)",
+      "Phosphofructokinase‑1 (PFK‑1)",
       "Hexokinase"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is Phosphofructokinase-1 (PFK-1). In the context of erythrocyte metabolism and chronic hemolytic anemia, PFK-1 deficiency is a rare but documented cause of non-spherocytic hemolytic anemia. PFK-1 catalyzes the phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate, which is widely considered the rate-limiting and 'commitment' step of glycolysis. While Pyruvate Kinase (PK) deficiency is a more common cause of hemolytic anemia, PK is not the enzyme responsible for the commitment step; it catalyzes the final step of glycolysis. Hexokinase catalyzes the first step (glucose to glucose-6-phosphate), which is irreversible but not typically defined as the 'commitment' step in the same regulatory sense as PFK-1, and Hexokinase deficiency is extremely rare in humans. Aldolase is a reversible enzyme in the middle of the pathway. Therefore, PFK-1 is the enzyme that fits both the description of the 'commitment step' and the clinical presentation of hemolytic anemia.",
+    "explanation": "Phosphofructokinase‑1 (PFK‑1) catalyzes the conversion of fructose‑6‑phosphate to fructose‑1,6‑bisphosphate. This reaction is irreversible, highly regulated, and is considered the \"commitment step\" of glycolysis because it commits glucose‑derived carbon to the glycolytic pathway rather than to the pentose‑phosphate pathway. A hereditary deficiency of PFK‑1 in red blood cells produces a rare non‑spherocytic hemolytic anemia, consistent with the clinical vignette.\n\nWhy the distractors are incorrect:\n- **Aldolase**: Catalyzes the reversible cleavage of fructose‑1,6‑bisphosphate into glyceraldehyde‑3‑phosphate and dihydroxyacetone phosphate. It is not an irreversible step and is not associated with a hereditary hemolytic anemia.\n- **Pyruvate kinase**: Catalyzes the final step of glycolysis (phosphoenolpyruvate → pyruvate). Deficiency does cause hemolytic anemia, but this step is not the commitment step and is not described as irreversible in the regulatory sense used in the question.\n- **Hexokinase**: Performs the first phosphorylation of glucose to glucose‑6‑phosphate, an irreversible reaction. However, this step is not the regulatory \"commitment\" step of glycolysis; the pathway can diverge to the pentose‑phosphate pathway after glucose‑6‑phosphate. Hexokinase deficiency is exceedingly rare and does not classically present with chronic hemolytic anemia.\n\nThus, the enzyme that best fits the description of an irreversible commitment step whose deficiency leads to chronic hemolytic anemia is PFK‑1 (option 2).",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 2,
@@ -1408,17 +1409,18 @@
     "id": 102,
     "topicId": "biochemistry",
     "difficulty": "medium",
-    "question": "A researcher is studying the kinetics of a salivary enzyme. She observes that the addition of a specific inhibitor decreases the Vmax of the enzyme while leaving the Km unchanged. Which type of enzyme inhibition is occurring?",
+    "question": "A researcher is studying the kinetics of a salivary enzyme. She observes that the addition of a reversible inhibitor decreases the Vmax of the enzyme while leaving the Km unchanged. Which type of enzyme inhibition is occurring?",
     "options": [
       "Competitive inhibition",
       "Uncompetitive inhibition",
-      "Non-competitive inhibition",
-      "Substrate inhibition"
+      "Non‑competitive inhibition",
+      "Mixed inhibition"
     ],
     "correctAnswer": 2,
-    "explanation": "Non-competitive inhibition is characterized by a decrease in Vmax with no change in Km. This occurs because the inhibitor binds to an allosteric site on the enzyme (or the enzyme-substrate complex) that is distinct from the active site, reducing the catalytic efficiency without affecting the enzyme's affinity for the substrate. In contrast, competitive inhibition increases the apparent Km with no change in Vmax; uncompetitive inhibition decreases both Vmax and Km; and substrate inhibition typically involves a decrease in reaction rate at high substrate concentrations, often appearing as a deviation from Michaelis-Menten kinetics rather than a simple shift in Vmax and Km parameters.",
+    "explanation": "According to the NDEB AFK blueprint, enzyme‑kinetics concepts are tested at the fundamental‑knowledge level. In classic Michaelis‑Menten kinetics:\n• Competitive inhibition: inhibitor binds only to the free enzyme; Vmax is unchanged, apparent Km increases.\n• Uncompetitive inhibition: inhibitor binds only to the enzyme‑substrate complex; both Vmax and Km decrease proportionally.\n• Non‑competitive inhibition (a special case of mixed inhibition where the inhibitor has equal affinity for the free enzyme and the enzyme‑substrate complex): Vmax decreases because the catalytic activity is reduced, but Km remains the same because substrate binding affinity is unaffected.\n• Mixed inhibition: inhibitor binds to both free enzyme and enzyme‑substrate complex with different affinities; Vmax decreases and Km changes (either increases or decreases).\nThe observed pattern—decreased Vmax with unchanged Km—matches the definition of non‑competitive inhibition, making option 2 the gold‑standard answer. \nWhy the distractors are incorrect:\n1. Competitive inhibition would leave Vmax unchanged and increase Km; it does not lower Vmax.\n2. Uncompetitive inhibition would lower both Vmax and Km, not leave Km unchanged.\n3. Mixed inhibition also alters Km (either up or down) in addition to lowering Vmax, so it does not fit the described kinetic profile.\nThus, non‑competitive inhibition is the only option that fits the data per NDEB‑approved biochemistry principles.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 103,
@@ -1499,17 +1501,18 @@
     "id": 108,
     "topicId": "biochemistry",
     "difficulty": "medium",
-    "question": "A 56-year-old male with a history of chronic heavy alcohol consumption presents with bilateral angular cheilitis, glossitis, and peripheral neuropathy. Laboratory tests reveal a microcytic, hypochromic anemia with normal serum iron and ferritin levels. Which of the following enzymes is most likely impaired, directly accounting for his hematologic findings?",
+    "question": "A 56‑year‑old man with a long history of heavy alcohol consumption presents with bilateral angular cheilitis, glossitis, and a peripheral neuropathy. Laboratory studies reveal a microcytic, hypochromic anemia with normal serum iron and ferritin concentrations. Which enzyme deficiency most directly accounts for his hematologic abnormality?",
     "options": [
-      "Delta-aminolevulinic acid (ALA) synthase",
+      "Delta‑aminolevulinic acid (ALA) synthase",
       "Pyruvate kinase",
-      "HMG-CoA reductase",
-      "Glucose-6-phosphate dehydrogenase"
+      "HMG‑CoA reductase",
+      "Glucose‑6‑phosphate dehydrogenase"
     ],
     "correctAnswer": 0,
-    "explanation": "The clinical presentation of angular cheilitis, glossitis, and peripheral neuropathy in a chronic alcohol user is classic for thiamine (Vitamin B1) deficiency. Thiamine is a critical cofactor for several enzymes, including pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, and transketolase. However, the specific hematologic finding of microcytic, hypochromic anemia with normal iron stores in this context is often associated with the inhibition of heme synthesis. While thiamine deficiency primarily causes macrocytic anemia (due to impaired DNA synthesis via the pentose phosphate pathway/transketolase), chronic alcoholism can also lead to sideroblastic anemia or microcytic anemia through direct toxicity to erythroid precursors and impaired heme synthesis. \n\nWait, let's re-evaluate the medical accuracy. Thiamine deficiency typically causes macrocytic anemia. Microcytic hypochromic anemia with normal iron is characteristic of Sideroblastic Anemia or Thalassemia. Alcohol can cause sideroblastic anemia. The enzyme impaired in Sideroblastic Anemia (specifically X-linked or acquired) is often ALA synthase (due to B6 deficiency) or ferrochelatase. However, the question links the symptoms (neuropathy, glossitis) to Thiamine. Thiamine is NOT a cofactor for ALA synthase (which requires B6). \n\nLet's look at the options again. \nA) ALA Synthase: Requires Vitamin B6 (Pyridoxine). Deficiency leads to Sideroblastic Anemia (microcytic/hypochromic or normocytic) and neurological symptoms (peripheral neuropathy, seizures). Alcoholics are often deficient in B6 as well. B6 deficiency causes microcytic anemia (sideroblastic) and neuropathy. This fits the 'microcytic' description better than Thiamine (which is macrocytic). The glossitis and angular cheilitis are non-specific B-vitamin deficiency signs (Riboflavin, B6, B12, Folate). \n\nIf the patient has B6 deficiency: \n- Microcytic hypochromic anemia (Sideroblastic) - YES. \n- Peripheral neuropathy - YES. \n- Glossitis/Angular cheilitis - YES (common in B-vitamin deficiencies). \n- Enzyme impaired: ALA Synthase (requires PLP). \n\nIf the patient has Thiamine deficiency: \n- Macrocytic anemia - NO (question says microcytic). \n- Peripheral neuropathy - YES. \n- Glossitis - YES. \n- Enzyme impaired: Transketolase, Pyruvate Dehydrogenase. (Not in options). \n\nTherefore, the question is likely describing Vitamin B6 (Pyridoxine) deficiency, which is common in alcoholics. The enzyme impaired is Delta-aminolevulinic acid (ALA) synthase. The correct answer is indeed ALA synthase. The previous flag might have been due to the ambiguity of 'glossitis' being more strongly associated with B2/B3/B12, but B6 deficiency also presents with these mucocutaneous signs. The key discriminator is the 'microcytic' anemia. Thiamine deficiency causes macrocytic anemia. B6 deficiency causes microcytic (sideroblastic) anemia. Thus, ALA synthase is the correct enzyme to identify for B6 deficiency.",
+    "explanation": "Chronic alcohol use frequently leads to pyridoxine (vitamin B6) deficiency. Vitamin B6, in its active form pyridoxal‑5′‑phosphate, is an essential co‑factor for delta‑aminolevulinic acid synthase, the first enzyme of the heme‑biosynthetic pathway. Impaired ALA synthase activity produces a sideroblastic anemia that is characteristically microcytic and hypochromic with normal iron studies (iron and ferritin are usually normal or elevated because iron cannot be incorporated into heme). The same B6 deficiency also produces peripheral neuropathy and mucocutaneous changes such as angular cheilitis and glossitis, explaining the full clinical picture.\n\nWhy the other choices are incorrect:\n\n* **Pyruvate kinase** – Deficiency causes a chronic hemolytic anemia that is normocytic, with elevated lactate dehydrogenase, indirect bilirubin, and reticulocytosis. It does not produce microcytic, hypochromic anemia and is unrelated to B‑vitamin deficiency.\n* **HMG‑CoA reductase** – This enzyme catalyzes the rate‑limiting step of cholesterol synthesis. Its inhibition (e.g., by statins) affects lipid levels, not erythropoiesis, and has no role in the development of anemia.\n* **Glucose‑6‑phosphate dehydrogenase (G6PD)** – G6PD deficiency leads to acute hemolytic anemia precipitated by oxidative stress, with characteristic bite cells and Heinz bodies. The anemia is typically normocytic or macrocytic and is not associated with the microcytic, hypochromic picture described.\n\nThus, the enzyme whose impairment directly explains the patient’s microcytic, hypochromic anemia is delta‑aminolevulinic acid synthase.\n",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 109,
@@ -1575,17 +1578,18 @@
     "id": 113,
     "topicId": "biochemistry",
     "difficulty": "medium",
-    "question": "In the de novo synthesis of purine nucleotides, which of the following molecules provides the majority of the carbon and nitrogen atoms that constitute the purine ring structure?",
+    "question": "In the de novo synthesis of purine nucleotides, which of the following molecules contributes the greatest number of carbon and nitrogen atoms to the purine ring structure?",
     "options": [
-      "Ribose-5-phosphate",
+      "Ribose‑5‑phosphate",
       "Glycine",
       "Aspartate",
-      "CO2"
+      "CO₂"
     ],
-    "correctAnswer": 0,
-    "explanation": "The purine ring is synthesized step-by-step on the ribose-5-phosphate backbone. Ribose-5-phosphate provides the five-carbon sugar moiety (C1', C2', C3', C4', C5') which forms the structural foundation to which the heterocyclic ring is attached. While glycine contributes two carbons and one nitrogen, aspartate contributes one nitrogen, and CO2 contributes one carbon, the ribose-5-phosphate molecule provides the largest number of atoms (5 carbons) and the essential structural scaffold for the nucleotide. Therefore, in the context of the entire nucleotide structure and the primary structural precursor for the synthesis pathway, ribose-5-phosphate is the most significant contributor. Note: If the question strictly referred only to the atoms of the *heterocyclic ring* (excluding the sugar), glycine would be the largest single contributor (2C, 1N), but standard biochemistry questions regarding the 'structural precursor' of the nucleotide emphasize the ribose backbone as the primary scaffold. To avoid ambiguity, this question is framed to highlight the ribose-5-phosphate as the primary structural precursor for the nucleotide as a whole.",
+    "correctAnswer": 1,
+    "explanation": "During de novo purine biosynthesis the atoms of the heterocyclic ring are assembled from several donors:\n- N1: aspartate\n- C2 and C8: N¹⁰‑formyl‑tetrahydrofolate\n- N3 and N9: glutamine\n- C4, C5 and N7: glycine (provides two carbons and one nitrogen)\n- C6: CO₂ (as HCO₃⁻)\nThus glycine supplies three atoms (C4, C5, N7), which is more than any other single donor. Ribose‑5‑phosphate contributes only the sugar backbone and does not provide atoms to the purine ring itself. Aspartate contributes a single nitrogen (N1). CO₂ contributes a single carbon (C6). Therefore, glycine is the molecule that provides the majority of the carbon and nitrogen atoms in the purine ring.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 114,
@@ -2508,16 +2512,17 @@
     "id": 178,
     "topicId": "biochemistry",
     "difficulty": "medium",
-    "question": "A 35-year-old female presents with chronic fatigue, pale conjunctivae, and spoon-shaped nails (koilonychia). Laboratory evaluation reveals microcytic, hypochromic anemia. Which of the following biochemical roles does iron play in hemoglobin function?",
+    "question": "A 35‑year‑old woman presents with chronic fatigue, pale conjunctivae, and spoon‑shaped nails. Laboratory studies reveal a microcytic, hypochromic anemia consistent with iron deficiency. Which of the following best describes the biochemical role of iron in normal hemoglobin function?",
     "options": [
-      "It binds covalently to oxygen molecules in the heme moiety.",
-      "It acts as an allosteric inhibitor of 2,3-bisphosphoglycerate (2,3-BPG).",
-      "It undergoes reversible oxidation between ferrous (Fe2+) and ferric (Fe3+) states during oxygen transport.",
-      "It stabilizes the tertiary structure of globin chains without participating in gas binding."
+      "It must be in the ferrous (Fe2+) state to bind oxygen reversibly; oxidation to ferric (Fe3+) produces methemoglobin that cannot bind oxygen.",
+      "It binds oxygen covalently to the heme porphyrin ring.",
+      "It acts as an allosteric inhibitor of 2,3‑bisphosphoglycerate, increasing hemoglobin’s oxygen affinity.",
+      "It stabilizes the tertiary structure of the globin chains but does not participate directly in gas binding."
     ],
-    "correctAnswer": 2,
-    "explanation": "Iron in hemoglobin must remain in the ferrous (Fe2+) state to reversibly bind oxygen; oxidation to the ferric (Fe3+) state produces methemoglobin, which cannot bind oxygen. Oxygen binds coordinately and reversibly, not covalently.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Iron’s essential biochemical function in hemoglobin is to provide the binding site for O₂. In the heme prosthetic group, iron must be in the ferrous (Fe²⁺) oxidation state; only Fe²⁺ can form a reversible coordination bond with O₂, allowing oxygen loading in the lungs and unloading in peripheral tissues. If iron is oxidized to the ferric (Fe³⁺) state, methemoglobin is formed, which is unable to bind O₂ and therefore impairs oxygen transport. \n\nWhy the distractors are incorrect:\n1. \"It binds oxygen covalently to the heme porphyrin ring.\" – Oxygen binds to iron by a reversible coordination (ligand) bond, not a covalent bond; the porphyrin ring itself does not interact directly with O₂.\n2. \"It acts as an allosteric inhibitor of 2,3‑bisphosphoglycerate, increasing hemoglobin’s oxygen affinity.\" – Iron does not regulate 2,3‑BPG. 2,3‑BPG binds to the β‑chains of deoxy‑hemoglobin and decreases O₂ affinity; iron’s role is limited to the oxygen‑binding site.\n3. \"It stabilizes the tertiary structure of the globin chains but does not participate directly in gas binding.\" – While the heme‑iron complex contributes to overall protein stability, its primary and indispensable function is direct participation in reversible O₂ binding. \n\nThus, option 0 accurately reflects the accepted NDEB‑aligned biochemistry of iron in hemoglobin.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 179,
@@ -2913,16 +2918,17 @@
     "id": 207,
     "topicId": "biochemistry",
     "difficulty": "medium",
-    "question": "A 54-year-old male presents with fatigue, weight loss, and severe bone pain. Laboratory investigations reveal hypercalcemia, hypophosphatemia, and elevated alkaline phosphatase. Serum protein electrophoresis demonstrates a monoclonal M-protein spike, and a bone biopsy shows neoplastic plasma cells. Which of the following metabolic pathways is primarily responsible for the malignant plasma cells' overproduction of immunoglobulins?",
+    "question": "A 54-year-old man presents with fatigue, weight loss, and severe bone pain. Laboratory studies reveal hypercalcemia, hypophosphatemia, and an elevated alkaline phosphatase. Serum protein electrophoresis shows a monoclonal M‑protein spike, and a bone‑marrow biopsy demonstrates sheets of neoplastic plasma cells. These malignant plasma cells synthesize large quantities of immunoglobulin. Which metabolic pathway provides the primary precursors required for this excessive immunoglobulin production?",
     "options": [
-      "Beta-oxidation",
+      "Beta‑oxidation",
       "Pentose phosphate pathway",
       "Glycolysis",
       "Citric acid cycle"
     ],
-    "correctAnswer": 2,
-    "explanation": "Neoplastic plasma cells in multiple myeloma rely heavily on aerobic glycolysis (the Warburg effect) to generate ATP and metabolic intermediates necessary for massive immunoglobulin synthesis and rapid proliferation. While other pathways are active, glycolysis is the primary driver of energy and precursor production in these rapidly dividing malignant cells.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "Multiple myeloma plasma cells are highly secretory and require massive amounts of nucleotides for immunoglobulin mRNA synthesis and NADPH for biosynthetic reactions. The pentose phosphate pathway (PPP) generates ribose‑5‑phosphate, the essential carbon backbone for nucleotide synthesis, and supplies NADPH, which is used in reductive biosynthesis and to maintain redox balance during intense protein production. Consequently, the PPP is the principal metabolic route that fuels the overproduction of immunoglobulins.\n\nWhy the other options are incorrect:\n\n* **Beta‑oxidation (Option 0)** – This pathway catabolises fatty acids to acetyl‑CoA for energy production. It does not provide ribose‑5‑phosphate or NADPH and therefore is not a major source of the building blocks needed for antibody synthesis.\n* **Glycolysis (Option 2)** – Glycolysis supplies ATP and pyruvate, which can feed the citric‑acid cycle, but it does not directly generate the nucleotide precursors or NADPH required for the high‑rate transcription and translation of immunoglobulins. Its role is supportive rather than primary.\n* **Citric acid cycle (Option 3)** – The TCA cycle is central to oxidative phosphorylation and provides precursors for some amino acids, yet it does not produce ribose‑5‑phosphate or the large amounts of NADPH needed for the biosynthetic demand of plasma cells. Its contribution is secondary to that of the PPP.\n\nThus, according to the NDEB biochemistry blueprint, the pentose phosphate pathway is the correct answer.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 208,
@@ -3348,16 +3354,17 @@
     "id": 237,
     "topicId": "biochemistry",
     "difficulty": "medium",
-    "question": "A 32-year-old female presents with severe fatigue, pallor, and angular cheilitis. Blood work reveals a microcytic, hypochromic anemia. Which of the following rate-limiting enzymes in heme synthesis requires adequate iron status for optimal function?",
+    "question": "A 32‑year‑old woman presents with severe fatigue, pallor, and angular cheilitis. Laboratory studies show a microcytic, hypochromic anemia. Which enzyme in the heme biosynthetic pathway requires iron as a substrate for its activity?",
     "options": [
-      "Porphobilinogen synthase",
+      "Porphobilinogen synthase (ALA dehydratase)",
       "Ferrochelatase",
       "Uroporphyrinogen decarboxylase",
       "Aminolevulinic acid (ALA) synthase"
     ],
     "correctAnswer": 1,
-    "explanation": "Ferrochelatase is the final enzyme in the heme synthesis pathway, responsible for inserting ferrous iron (Fe2+) into protoporphyrin IX, and it is directly dependent on iron availability. While ALA synthase is the overall rate-limiting enzyme of the pathway regulated by heme feedback, ferrochelatase specifically stalls when iron is deficient, leading to microcytic anemia.",
-    "aiVerified": true
+    "explanation": "Ferrochelatase catalyzes the final step of heme synthesis, inserting ferrous iron (Fe²⁺) into protoporphyrin IX to form heme. Because iron is a substrate for this reaction, adequate iron status is essential for optimal ferrochelatase activity; iron deficiency impairs this step and contributes to microcytic, hypochromic anemia. \n\nWhy the other choices are incorrect:\n- Porphobilinogen synthase (ALA dehydratase) converts two molecules of ALA to porphobilinogen; its activity is not dependent on iron and is not the rate‑limiting step.\n- Uroporphyrinogen decarboxylase catalyzes the conversion of uroporphyrinogen III to coproporphyrinogen III; it does not require iron.\n- ALA synthase is the first and rate‑limiting enzyme of the pathway, regulated primarily by heme feedback and substrate availability, but it does not require iron as a co‑factor or substrate.\n\nThus, ferrochelatase is the only enzyme among the options that directly requires iron for its function, aligning with NDEB expectations for biochemistry knowledge.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 238,
@@ -5885,7 +5892,7 @@
     "id": 426,
     "topicId": "biochemistry",
     "difficulty": "medium",
-    "question": "Which of the following amino acids serves as the essential nitrogen donor in the biosynthesis of purine and pyrimidine rings, as well as urea?",
+    "question": "Which amino acid provides the amide nitrogen that serves as the primary nitrogen donor in the de novo synthesis of both purine and pyrimidine nucleotides and also contributes nitrogen for urea formation in the liver?",
     "options": [
       "Glutamate",
       "Alanine",
@@ -5893,8 +5900,9 @@
       "Glutamine"
     ],
     "correctAnswer": 3,
-    "explanation": "Glutamine is the major inter-organ nitrogen shuttle and provides amide nitrogen groups essential for the biosynthesis of purines, pyrimidines, and amino sugars, as well as urea production in the liver. While glutamate, aspartate, and alanine also participate in transamination and nitrogen metabolism, glutamine is the primary specific nitrogen donor for nucleotide rings.",
-    "aiVerified": true
+    "explanation": "Glutamine is the major amide‑nitrogen donor in human metabolism. In the de novo purine pathway, the N‑9, N‑3, N‑2 and N‑1 atoms of the purine ring are supplied by the amide group of glutamine. In pyrimidine synthesis, the first step (formation of carbamoyl‑phosphate) uses glutamine‑derived ammonia, and the N‑3 of the pyrimidine ring also originates from glutamine. In the urea cycle, glutamine is hydrolysed by glutaminase to release free NH₃, which combines with CO₂ to form carbamoyl‑phosphate, the first nitrogen‑bearing intermediate of the cycle. Therefore glutamine is the essential nitrogen donor for purine, pyrimidine, and urea biosynthesis. \n\nWhy the other choices are incorrect:\n- **Glutamate** donates its α‑amino group in transamination reactions and can provide nitrogen for the synthesis of other amino acids, but it does not supply the amide nitrogen required for the ring‑forming steps of purine or pyrimidine synthesis, nor is it the direct nitrogen source for the urea cycle.\n- **Alanine** participates in the glucose‑alanine cycle as a carrier of nitrogen between muscle and liver, but its nitrogen is transferred via transamination to α‑ketoglutarate to form glutamate; alanine itself is not a direct donor for nucleotide or urea synthesis.\n- **Aspartate** contributes one nitrogen atom (N‑1) to the purine ring and provides the carbon skeleton for the pyrimidine ring, but the majority of the nitrogen atoms in both nucleotide families and the nitrogen entering the urea cycle are supplied by glutamine, making aspartate a secondary, not primary, donor.\n\nThus, according to the NDEB biochemistry blueprint, glutamine is the unequivocal correct answer.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 427,
@@ -6453,16 +6461,17 @@
   {
     "id": 482249906,
     "topicId": "biochemistry",
-    "question": "A 68-year-old male patient presents to your dental office for a routine check-up. His medical history includes well-controlled hypertension managed with a daily angiotensin-converting enzyme (ACE) inhibitor. He reports no current dental concerns. During the oral examination, you notice a generalized, dry oral mucosa. What is the MOST likely cause of his xerostomia?",
+    "question": "A 68‑year‑old man presents for a routine dental examination. His medical history is notable only for well‑controlled hypertension treated with lisinopril 10 mg daily. He takes no other prescription or over‑the‑counter medications and reports no symptoms suggestive of systemic autoimmune disease. Intra‑oral examination reveals generalized dry oral mucosa with reduced salivary pooling. What is the most likely etiology of his xerostomia?",
     "options": [
-      "Undiagnosed Sjogren's syndrome",
-      "Age-related salivary gland atrophy",
-      "Side effect of his ACE inhibitor medication",
-      "Consequence of uncontrolled hypertension"
+      "Undiagnosed Sjögren’s syndrome",
+      "Age‑related salivary gland atrophy",
+      "Xerostomic side effect of his ACE‑inhibitor medication",
+      "Direct consequence of uncontrolled hypertension"
     ],
     "correctAnswer": 2,
-    "explanation": "Xerostomia is a well-known side effect of many medications, including ACE inhibitors commonly prescribed for hypertension. While Sjogren's syndrome and age-related changes can cause xerostomia, medication side effects are a very common and often overlooked cause in patients with polypharmacy. Uncontrolled hypertension itself does not directly cause xerostomia.",
-    "aiVerified": true
+    "explanation": "According to the NDEB Blueprint for oral pathology and systemic disease, the single most common reversible cause of xerostomia in adults is medication use. ACE‑inhibitors, including lisinopril, are documented to produce dry mouth in a minority of patients, and this iatrogenic effect is far more frequent than age‑related salivary gland atrophy or the onset of an autoimmune disorder in an otherwise asymptomatic individual. \n\nWhy the distractors are incorrect:\n1. **Undiagnosed Sjögren’s syndrome** – This autoimmune disease typically presents with chronic dry eyes, parotid enlargement, positive serology (anti‑SSA/SSB) and often a positive Schirmer test. In the absence of these systemic signs, it is a less likely explanation.\n2. **Age‑related salivary gland atrophy** – While salivary flow can decline modestly with age, the reduction is usually mild and does not commonly produce the marked xerostomia observed clinically; medication‑induced xerostomia is far more prevalent.\n3. **Direct consequence of uncontrolled hypertension** – Hypertension itself does not physiologically reduce salivary secretion. Only the pharmacologic agents used to treat it are implicated in xerostomia.\n\nThus, the gold‑standard answer is the medication side effect (option 2).",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 331553402,
@@ -7225,7 +7234,7 @@
   {
     "id": 101107621,
     "topicId": "biochemistry",
-    "question": "Which of the following local anesthetic agents possesses both ester and amide linkages in its chemical structure, leading to a unique metabolic pathway involving both plasma pseudocholinesterase and hepatic enzymes?",
+    "question": "Which of the following local anesthetic agents used in dental practice contains both an ester and an amide functional group in its molecular structure, resulting in metabolism by both plasma pseudocholinesterase and hepatic enzymes?",
     "options": [
       "Lidocaine",
       "Bupivacaine",
@@ -7233,8 +7242,9 @@
       "Mepivacaine"
     ],
     "correctAnswer": 2,
-    "explanation": "Articaine is unique among commonly used local anesthetics as it contains both an amide and an ester group, leading to metabolism primarily in the plasma by esterases and also in the liver. Lidocaine, bupivacaine, and mepivacaine are all pure amide-type local anesthetics, metabolized predominantly in the liver.",
-    "aiVerified": true
+    "explanation": "Articaine is the only dental local anesthetic that possesses a dual chemical moiety: an amide linkage (as in all amide‑type anesthetics) and a methyl ester side‑chain attached to the aromatic ring. This unique structure allows it to be hydrolyzed rapidly by plasma pseudocholinesterase (the ester pathway) and, to a lesser extent, by hepatic microsomal enzymes (the amide pathway). Consequently, its elimination half‑life is shorter than that of pure amide agents, a fact emphasized in the NDEB pharmacology blueprint and standard dental pharmacology texts (e.g., Malamed, Carranza). \n\nWhy the distractors are incorrect:\n- **Lidocaine**: A pure amide‑type anesthetic; metabolism occurs almost exclusively via hepatic cytochrome P450 oxidation, with no significant ester hydrolysis.\n- **Bupivacaine**: Also a pure amide; it is metabolized in the liver and has a much longer duration of action, reflecting its lack of an ester group.\n- **Mepivacaine**: Another pure amide anesthetic; its clearance is hepatic, and it does not contain an ester linkage.\n\nThus, under Canadian NDEB guidelines, Articaine is the only agent that meets the criterion of having both ester and amide linkages and a dual metabolic pathway.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 284027881,

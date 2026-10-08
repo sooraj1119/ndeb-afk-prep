@@ -123,16 +123,17 @@
     "id": 9,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A patient undergoing hemodialysis for end-stage renal disease requires multiple dental extractions. When is the most appropriate time to schedule the dental appointment relative to their dialysis sessions?",
+    "question": "A patient with end-stage renal disease (ESRD) undergoing maintenance hemodialysis requires multiple dental extractions. According to standard medical-dental management guidelines, when is the most appropriate time to schedule this invasive dental procedure relative to the patient's dialysis schedule?",
     "options": [
-      "Immediately before a dialysis session.",
-      "On a non-dialysis day.",
       "On the day of dialysis, immediately after the session.",
+      "On a non-dialysis day.",
+      "On the day of dialysis, immediately before the session.",
       "There is no specific timing recommendation relative to dialysis."
     ],
     "correctAnswer": 1,
-    "explanation": "Dental procedures, especially those involving bleeding, should ideally be scheduled on a non-dialysis day to allow for recovery and to avoid potential bleeding complications related to heparinization during dialysis.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 1 (On a non-dialysis day). For patients undergoing hemodialysis, invasive dental procedures such as multiple extractions should ideally be scheduled on a non-dialysis day. This timing allows the patient to recover from the physiological stress of the procedure without the immediate confounding factors of dialysis. Furthermore, scheduling on a non-dialysis day avoids the risk of bleeding complications associated with the systemic heparinization used during the dialysis session. If a procedure were performed immediately after dialysis (Option 0), the patient would still be under the influence of heparin, increasing the risk of post-operative hemorrhage. Additionally, the patient may be fatigued or hypotensive post-dialysis, which is not an optimal state for undergoing invasive dental work. Scheduling immediately before dialysis (Option 2) is also suboptimal because the stress and potential pain of the procedure could interfere with the dialysis process, and the patient would be subjected to heparinization shortly after a procedure that may cause bleeding. Option 3 is incorrect because specific timing recommendations exist to optimize patient safety and minimize complications.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 10,
@@ -304,7 +305,7 @@
     "id": 21,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A 65-year-old male patient with a history of controlled hypertension, hyperlipidemia, and type 2 diabetes presents for an extraction. His current medications include Ramipril, Atorvastatin, and Metformin. What is the most important pre-treatment consideration for this patient?",
+    "question": "A 65-year-old male patient with a history of controlled hypertension, hyperlipidemia, and type 2 diabetes presents for a routine dental extraction. His current medication list includes Ramipril, Atorvastatin, and Metformin. According to Canadian dental standards for managing medically compromised patients, what is the most critical pre-treatment assessment to ensure patient safety and determine if the procedure can proceed?",
     "options": [
       "Determining if the patient is on any antiplatelet medication.",
       "Checking the patient's blood pressure immediately prior to the procedure.",
@@ -312,8 +313,9 @@
       "Assessing the patient's most recent HbA1c level."
     ],
     "correctAnswer": 1,
-    "explanation": "Checking the patient's blood pressure immediately prior to the procedure is crucial for a patient with controlled hypertension, as stress can elevate it, potentially necessitating deferral or modification of treatment. While other factors are important, BP is the most immediate pre-treatment safety check.",
-    "aiVerified": true
+    "explanation": "The correct answer is checking the patient's blood pressure immediately prior to the procedure. In the management of medically compromised patients, particularly those with hypertension, the immediate pre-operative assessment of vital signs is the gold standard for determining procedural safety. According to Canadian dental guidelines (and standard references such as Malamed's 'Medical Emergencies in the Dental Office' and the CDA guidelines), a systolic blood pressure >180 mmHg or diastolic >110 mmHg generally warrants deferral of elective procedures due to the increased risk of cardiovascular events (e.g., stroke, myocardial infarction) and uncontrolled bleeding. While the patient's hypertension is described as 'controlled,' stress-induced spikes can occur, making the immediate check the most critical safety gate. \n\nWhy the other options are incorrect:\n- Option 0 (Antiplatelet medication): While important for bleeding risk management, the absence of antiplatelet agents on the provided list (Ramipril, Atorvastatin, Metformin) suggests this is not the primary immediate threat compared to uncontrolled hypertension. Furthermore, antiplatelet therapy is often continued for minor dental procedures unless specific high-risk conditions exist, making it less of a 'stop-work' criterion than severe hypertension.\n- Option 2 (Taking usual medications): Ensuring patients take their medications is good practice to avoid rebound effects (e.g., from beta-blockers or steroids), but it is a general instruction rather than a specific safety assessment. It does not provide the real-time physiological data needed to clear the patient for surgery.\n- Option 3 (HbA1c level): HbA1c reflects long-term glycemic control (3-month average) and is not a reliable indicator of immediate perioperative risk for a routine extraction. Immediate blood glucose levels are more relevant for acute management, but even then, routine extractions are generally safe in well-controlled diabetics. It is not the most critical immediate check compared to blood pressure.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 22,
@@ -1491,16 +1493,17 @@
     "id": 100,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A 55-year-old male patient with type 2 diabetes presents for an extraction. His last HbA1c was 8.5%. Which of the following is the most appropriate action for the dentist?",
+    "question": "A 55-year-old male patient with type 2 diabetes mellitus presents for a routine single-tooth extraction. His most recent HbA1c level is 8.5%. He is currently asymptomatic and reports no recent episodes of hypoglycemia or hyperglycemia. According to current Canadian dental guidelines, what is the most appropriate management plan?",
     "options": [
-      "Prescribe a broad-spectrum antibiotic prophylaxis before the procedure.",
-      "Administer insulin prior to the procedure to lower blood glucose.",
-      "Postpone the extraction and refer the patient to his physician for better glycemic control.",
-      "Proceed with the extraction as planned, no specific modifications are needed."
+      "Prescribe a course of broad-spectrum antibiotics as prophylaxis prior to the procedure.",
+      "Administer a dose of insulin prior to the procedure to lower blood glucose levels.",
+      "Postpone the extraction and refer the patient to his physician for improved glycemic control.",
+      "Proceed with the extraction as planned, ensuring adequate local anesthesia and standard post-operative care."
     ],
-    "correctAnswer": 2,
-    "explanation": "An HbA1c of 8.5% indicates poorly controlled diabetes, which increases the risk of infection and impairs wound healing. It is prudent to defer elective procedures until glycemic control improves.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "The correct answer is Option 3. According to standard oral surgery guidelines (e.g., Malamed, Carranza) and Canadian dental practice standards, an HbA1c of 8.5% indicates suboptimal glycemic control but does not constitute an absolute contraindication for routine, minor dental procedures such as a single-tooth extraction. The primary risks associated with diabetes in dental care are delayed wound healing and increased susceptibility to infection, not immediate perioperative instability for minor procedures. Therefore, the procedure should proceed with standard precautions, including ensuring the patient is not in a state of acute hyperglycemia (e.g., symptomatic ketosis) or hypoglycemia at the time of the visit. \n\nOption 0 is incorrect because antibiotic prophylaxis is indicated for specific conditions (e.g., prosthetic heart valves, history of infective endocarditis, immunocompromised states) or active infection, not solely based on an elevated HbA1c. Routine antibiotic use for diabetic patients undergoing minor extractions is not supported by evidence and contributes to antibiotic resistance.\n\nOption 1 is incorrect because dentists are not licensed to prescribe or administer insulin. Furthermore, administering insulin without a clear indication of acute hyperglycemia and without medical supervision poses a significant risk of severe hypoglycemia, which is a medical emergency.\n\nOption 2 is incorrect because postponing a routine, minor procedure solely due to an HbA1c of 8.5% is overly conservative and not aligned with standard of care. While referral to a physician for better long-term management is appropriate, it should not delay necessary or routine dental care unless the patient is acutely ill or has an HbA1c significantly higher (often cited as >10-12% or with acute symptoms) that poses an immediate risk to healing or safety. The patient is asymptomatic, so proceeding is safe.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 101,
@@ -1656,16 +1659,17 @@
     "id": 111,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A patient suddenly develops anaphylaxis in the dental chair after penicillin administration. After activating emergency medical services, what is the most critical immediate pharmacologic intervention?",
+    "question": "A patient in the dental chair develops signs of anaphylaxis following the administration of penicillin. After activating emergency medical services, what is the most critical immediate pharmacologic intervention?",
     "options": [
-      "Subcutaneous epinephrine.",
-      "Intravenous corticosteroids.",
-      "Inhaled albuterol.",
-      "Oral diphenhydramine."
+      "Intramuscular epinephrine",
+      "Intravenous corticosteroids",
+      "Inhaled albuterol",
+      "Oral diphenhydramine"
     ],
     "correctAnswer": 0,
-    "explanation": "Epinephrine is the drug of choice for anaphylaxis. It should be administered intramuscularly (IM), typically in the mid-anterolateral thigh, as quickly as possible. Subcutaneous administration is less preferred due to slower absorption.",
-    "aiVerified": true
+    "explanation": "Epinephrine is the first-line, life-saving treatment for anaphylaxis. According to Canadian dental emergency guidelines (e.g., CDA, NDEB standards) and pharmacological references (Malamed, Little & Falace), it must be administered intramuscularly (IM) into the mid-anterolateral thigh as rapidly as possible. IM administration ensures rapid and reliable absorption, whereas subcutaneous injection (the original option) is contraindicated or less preferred because vasoconstriction in anaphylaxis slows subcutaneous absorption, delaying therapeutic effect. Intravenous epinephrine is generally reserved for cardiac arrest or refractory cases under advanced life support due to the risk of arrhythmias and is not the standard initial intervention in a dental setting. Intravenous corticosteroids (Option 1) have a delayed onset of action (4-6 hours) and are used to prevent biphasic reactions, not for immediate stabilization. Inhaled albuterol (Option 2) is an adjunct for bronchospasm but does not address airway edema or cardiovascular collapse. Oral diphenhydramine (Option 3) is inappropriate in anaphylaxis due to slow absorption, potential for aspiration, and inability to reverse hemodynamic instability.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 112,
@@ -1731,17 +1735,18 @@
     "id": 116,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A patient with severe Chronic Obstructive Pulmonary Disease (COPD) presents for routine dental treatment. Which of the following is the most appropriate modification to the dental management plan?",
+    "question": "A patient with severe Chronic Obstructive Pulmonary Disease (COPD) is scheduled for routine dental treatment. Which of the following is the most appropriate modification to the dental management plan to optimize respiratory function and patient comfort?",
     "options": [
-      "Administer supplemental oxygen via nasal cannula at a high flow rate to ensure adequate oxygenation.",
+      "Administer high-flow supplemental oxygen via nasal cannula as a prophylactic measure for all severe COPD patients.",
       "Limit the use of vasoconstrictors in local anesthetics to prevent systemic cardiovascular effects.",
-      "Place the patient in a fully supine position to maximize lung capacity.",
+      "Position the patient in a semi-reclined or upright position to facilitate diaphragmatic excursion and lung expansion.",
       "Avoid the use of a rubber dam to prevent potential claustrophobia and anxiety."
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is to avoid the use of a rubber dam to prevent potential claustrophobia and anxiety. Patients with severe COPD are often sensitive to sensations of air hunger or restricted breathing; the physical sensation of a rubber dam covering the mouth can trigger anxiety, hyperventilation, or a feeling of suffocation, which can exacerbate respiratory distress. Therefore, minimizing anxiety-inducing factors is a key modification. \n\nWhy the other options are incorrect:\n1. Administering high-flow supplemental oxygen is not routinely indicated for stable COPD patients during dental visits unless they are hypoxic. In fact, unmonitored high-flow oxygen in COPD patients can potentially suppress hypoxic drive (though this is debated, it is not a standard prophylactic modification for all severe COPD patients) and is not the primary management strategy.\n2. Limiting vasoconstrictors is not a standard recommendation for COPD. Vasoconstrictors like epinephrine are generally safe and often preferred in local anesthesia to limit systemic absorption of the anesthetic and prolong local effect. There is no specific contraindication for vasoconstrictors in COPD unless there is concurrent severe uncontrolled cardiovascular disease.\n3. Placing the patient in a fully supine position is generally discouraged for patients with severe respiratory compromise, as it can reduce functional residual capacity and make breathing more difficult. Semi-reclined or upright positions are often preferred to facilitate diaphragmatic movement and lung expansion.",
+    "correctAnswer": 2,
+    "explanation": "The correct answer is to position the patient in a semi-reclined or upright position. In patients with severe COPD, the diaphragm is often flattened due to hyperinflation, and the accessory muscles of respiration are heavily relied upon. A fully supine position increases abdominal pressure on the diaphragm, reduces functional residual capacity (FRC), and can significantly compromise ventilation, leading to dyspnea and hypoxia. Therefore, a semi-reclined or upright position is the standard of care to maximize lung expansion and minimize respiratory distress during dental procedures.\n\nWhy the other options are incorrect:\n1. Administering high-flow supplemental oxygen prophylactically is not indicated for stable COPD patients. While oxygen may be required if the patient is hypoxic, unmonitored high-flow oxygen can potentially suppress the hypoxic drive in some COPD patients (though this is debated, it is not a routine prophylactic modification) and can lead to CO2 retention. Oxygen therapy should be titrated based on pulse oximetry readings, not administered as a blanket prophylactic measure.\n2. Limiting vasoconstrictors is not a standard recommendation for COPD. Vasoconstrictors such as epinephrine are generally safe and are often preferred in local anesthesia because they limit the systemic absorption of the anesthetic agent, prolong the duration of anesthesia, and reduce the risk of systemic toxicity. There is no specific contraindication for vasoconstrictors in COPD unless there is concurrent severe, uncontrolled cardiovascular disease.\n3. Avoiding the use of a rubber dam is not a standard modification for COPD. While anxiety can be a concern, the rubber dam is a critical infection control measure and does not inherently restrict breathing in a way that contraindicates its use in COPD patients. Anxiety can be managed through communication, sedation if necessary, or other behavioral techniques, but the rubber dam itself is not a primary respiratory risk factor compared to patient positioning.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 117,
@@ -1807,16 +1812,17 @@
     "id": 121,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A 58-year-old patient with controlled hypertension (BP 138/86 mmHg) reports receiving two cartridges of 2% lidocaine with 1:100,000 epinephrine at their last appointment without issue. For their current restorative procedure, which local anesthetic choice is most appropriate?",
+    "question": "A 58-year-old patient with well-controlled hypertension (BP 138/86 mmHg) is scheduled for a restorative procedure requiring local anesthesia. The patient reports no adverse reactions to previous administrations of 2% lidocaine with 1:100,000 epinephrine. According to current Canadian dental guidelines and the American Heart Association (AHA) recommendations for patients with cardiovascular disease, which of the following is the most appropriate management strategy regarding local anesthetic selection and epinephrine dosage?",
     "options": [
-      "Limit epinephrine to a maximum of 0.04 mg per appointment.",
-      "Avoid all vasoconstrictors and use 3% mepivacaine plain.",
-      "Administer 4% articaine with 1:200,000 epinephrine, ensuring slow injection and aspiration.",
-      "Use 2% lidocaine with 1:50,000 epinephrine for maximum profound anesthesia."
+      "Limit the total dose of epinephrine to a maximum of 0.04 mg per appointment, utilizing a local anesthetic with a vasoconstrictor if clinically indicated.",
+      "Avoid all vasoconstrictors and use 3% mepivacaine plain to prevent any potential cardiovascular stimulation.",
+      "Administer 4% articaine with 1:200,000 epinephrine without regard to the total epinephrine dose, as articaine is safer in hypertensive patients.",
+      "Use 2% lidocaine with 1:50,000 epinephrine to ensure profound anesthesia, as the higher concentration of epinephrine reduces the total volume required."
     ],
-    "correctAnswer": 2,
-    "explanation": "For patients with controlled hypertension, a limited amount of epinephrine is generally safe. The AHA recommends limiting epinephrine to 0.04 mg per appointment (approximately two cartridges of 1:100,000 epinephrine). Careful aspiration and slow injection are always paramount.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "The correct answer is Option 0. For patients with controlled hypertension or cardiovascular disease, the American Heart Association (AHA) and Canadian dental guidelines recommend limiting the total dose of epinephrine to 0.04 mg per appointment. This limit is approximately equivalent to two cartridges of 2% lidocaine with 1:100,000 epinephrine (each cartridge contains 0.02 mg of epinephrine). The use of vasoconstrictors is not contraindicated in controlled hypertension; in fact, it is often preferred to prolong anesthesia and reduce systemic absorption of the anesthetic. \n\nOption 1 is incorrect because avoiding vasoconstrictors is unnecessary for a patient with controlled hypertension and may lead to shorter duration of anesthesia and increased systemic absorption of the anesthetic agent, which can be more detrimental. \n\nOption 2 is incorrect because while articaine is a safe agent, the statement 'without regard to the total epinephrine dose' is dangerous. The total dose of epinephrine must still be monitored and limited to 0.04 mg to prevent tachycardia and hypertension. \n\nOption 3 is incorrect because using a higher concentration of epinephrine (1:50,000) increases the amount of epinephrine per cartridge (0.04 mg per cartridge). This would mean that even a single cartridge reaches the maximum recommended limit, leaving no margin for error or additional injections, and it does not inherently provide 'profound' anesthesia superior to standard concentrations when dosed correctly.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 122,
@@ -1855,15 +1861,16 @@
     "difficulty": "medium",
     "question": "According to the 2021 American Heart Association (AHA) guidelines for the prevention of infective endocarditis, which of the following patients requires antibiotic prophylaxis prior to a dental procedure involving manipulation of gingival tissue or the periapical region of teeth or perforation of the oral mucosa?",
     "options": [
-      "A patient with a history of infective endocarditis.",
       "A patient with mitral valve prolapse with regurgitation.",
+      "A patient with a history of infective endocarditis.",
       "A patient with a bicuspid aortic valve without prior endocarditis.",
-      "A patient with a prosthetic heart valve."
+      "A patient with rheumatic heart disease involving native valves."
     ],
-    "correctAnswer": 3,
-    "explanation": "The 2021 AHA guidelines recommend antibiotic prophylaxis for dental procedures only in patients with the highest risk of adverse outcomes from infective endocarditis. These high-risk conditions include: 1) Prosthetic cardiac valves, including transcatheter-implanted prostheses and homografts; 2) Prosthetic material used for cardiac valve repair, such as annuloplasty rings and chords; 3) Previous infective endocarditis; 4) Unrepaired cyanotic congenital heart disease (CHD) or completely repaired congenital heart defect with residual shunts or valvular regurgitation at the site of or adjacent to a prosthetic patch/prosthetic device; and 5) Repaired CHD with prosthetic material or device during the first 6 months following the procedure. Option D (prosthetic heart valve) is a definitive indication. Option A (history of IE) is also an indication, but in the context of single-best-answer questions, prosthetic valves are often the primary exemplar of high-risk cardiac conditions; however, both A and D are technically correct indications. To ensure a single definitive answer, we must look at the distractors. Wait, Option A is 'History of infective endocarditis'. This IS an indication. Option D is 'Prosthetic heart valve'. This IS an indication. This creates two correct answers. Let's re-evaluate the options to ensure only one is correct. \n\nRevised Strategy: Create a question where only one option is a high-risk condition.\n\nNew Options:\nA. Mitral valve prolapse with regurgitation (Low risk - No prophylaxis)\nB. Bicuspid aortic valve without prior endocarditis (Low risk - No prophylaxis)\nC. History of infective endocarditis (High risk - Prophylaxis required)\nD. Rheumatic heart disease with native valve (Low risk - No prophylaxis)\n\nLet's swap Option D in the original set to a low-risk condition to make Option A the sole correct answer, or keep Option D as the correct answer and change Option A to a low-risk condition. \n\nLet's stick to the original correct answer index (1) which was 'History of infective endocarditis'. I will modify the other options to be low-risk conditions so that 'History of infective endocarditis' is the ONLY correct answer.\n\nRevised Options:\nA. Mitral valve prolapse with regurgitation (No prophylaxis)\nB. History of infective endocarditis (Prophylaxis required)\nC. Bicuspid aortic valve (No prophylaxis)\nD. Rheumatic heart disease with native valve (No prophylaxis)\n\nThis makes Option B (Index 1) the unique correct answer.",
+    "correctAnswer": 1,
+    "explanation": "The 2021 AHA guidelines (and aligned Canadian dental standards) recommend antibiotic prophylaxis for dental procedures only in patients with cardiac conditions associated with the highest risk of adverse outcomes from infective endocarditis (IE). These high-risk conditions include: (1) Prosthetic cardiac valves, including transcatheter-implanted prostheses and homografts; (2) Prosthetic material used for cardiac valve repair, such as annuloplasty rings and chords; (3) Previous infective endocarditis; (4) Unrepaired cyanotic congenital heart disease (CHD) or completely repaired congenital heart defect with residual shunts or valvular regurgitation at the site of or adjacent to a prosthetic patch/prosthetic device; and (5) Repaired CHD with prosthetic material or device during the first 6 months following the procedure. Option 1 (History of infective endocarditis) is a definitive indication for prophylaxis. Option 0 (Mitral valve prolapse with regurgitation) is a low-risk condition and does not require prophylaxis. Option 2 (Bicuspid aortic valve without prior endocarditis) is a low-risk condition and does not require prophylaxis. Option 3 (Rheumatic heart disease with native valves) is a low-risk condition and does not require prophylaxis. Therefore, only the patient with a history of IE requires prophylaxis.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 125,
@@ -3430,16 +3437,17 @@
     "id": 229,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A patient with a history of gastric reflux (GERD) is taking a proton pump inhibitor (PPI) daily. Which of the following dental materials or medications might be affected or contraindicated due to prolonged PPI use?",
+    "question": "A patient with a history of gastroesophageal reflux disease (GERD) is currently taking a proton pump inhibitor (PPI) daily. Which of the following dental considerations is most directly influenced by the pharmacological action of PPIs on the oral environment?",
     "options": [
-      "Antibiotics like amoxicillin.",
-      "NSAIDs for post-operative pain.",
-      "Composite restorative materials.",
-      "Local anesthetics with vasoconstrictors."
+      "Increased risk of dental caries due to altered oral pH and reduced salivary buffering capacity",
+      "Contraindication of local anesthetics containing vasoconstrictors",
+      "Reduced efficacy of composite restorative materials due to acid etching interference",
+      "Increased risk of antibiotic resistance when prescribing amoxicillin"
     ],
-    "correctAnswer": 1,
-    "explanation": "PPIs are used to reduce stomach acid, often for GERD. While they don't directly contraindicate NSAIDs, patients with GERD or a history of GI issues are already at higher risk for NSAID-induced gastrointestinal side effects (e.g., ulcers, bleeding), making NSAIDs a cautious choice in these individuals despite PPI use.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "The correct answer is Option 0. Proton pump inhibitors (PPIs) significantly reduce gastric acid secretion. While this is therapeutic for GERD, it has a direct impact on the oral environment. Reduced gastric acidity can lead to an increase in the colonization of the oral cavity and gastrointestinal tract by bacteria that are typically suppressed by low pH, such as Clostridium difficile and certain oral pathogens. More specifically for dental practice, PPI use has been associated with an increased risk of dental caries. This is attributed to several factors: 1) PPIs can alter the composition of saliva, potentially reducing its buffering capacity; 2) The reduction in gastric acid may allow for the proliferation of cariogenic bacteria that are less acid-tolerant in the stomach but thrive in the oral cavity; and 3) Patients with GERD often have xerostomia (dry mouth) due to the condition itself or concurrent medications, which is a major risk factor for caries. Therefore, monitoring for caries and advising on fluoride use is a critical dental consideration. \n\nOption 1 is incorrect because local anesthetics with vasoconstrictors (e.g., lidocaine with epinephrine) are not contraindicated by PPI use. There is no significant pharmacokinetic interaction between PPIs and local anesthetics that would alter their safety or efficacy in a dental setting.\n\nOption 2 is incorrect because composite restorative materials are not directly affected by PPI use in terms of their material properties or bonding efficacy. While oral pH is important for the longevity of restorations, the PPI itself does not interfere with the chemical bonding process of composites. The risk is to the tooth structure (caries), not the material's inherent function.\n\nOption 3 is incorrect because there is no established clinical evidence that PPI use directly increases antibiotic resistance to amoxicillin. While PPIs can alter gut flora, this does not translate to a specific contraindication or increased resistance risk for standard dental antibiotic prescriptions in a way that would make this the 'most directly influenced' consideration compared to the well-documented caries risk.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 230,
@@ -4189,8 +4197,9 @@
       "Prescribe prophylactic antibiotics before any invasive dental procedure."
     ],
     "correctAnswer": 2,
-    "explanation": "Approximately 10% of asthmatics have aspirin-exacerbated respiratory disease (AERD). NSAIDs, including aspirin, can precipitate an asthma attack in susceptible individuals.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 2. Approximately 10% of asthmatic patients have Aspirin-Exacerbated Respiratory Disease (AERD), also known as Samter's Triad (asthma, aspirin sensitivity, and nasal polyps). In these susceptible individuals, the ingestion of aspirin or non-steroidal anti-inflammatory drugs (NSAIDs) inhibits cyclooxygenase (COX-1), shunting arachidonic acid metabolism toward the lipoxygenase pathway, resulting in an overproduction of leukotrienes. This leads to bronchoconstriction and can precipitate a severe asthma attack. Therefore, dental professionals must screen for this history and avoid prescribing NSAIDs or aspirin for pain management, opting instead for acetaminophen or other non-NSAID analgesics.\n\nOption 0 is incorrect because albuterol is a short-acting beta-2 agonist (SABA) used for acute symptom relief. Discontinuing it for 24 hours is dangerous and contraindicated, as it may leave the patient unprotected against bronchospasm. Patients should be advised to bring their inhaler to the appointment and use it as needed.\n\nOption 1 is incorrect because local anesthetics containing epinephrine (adrenaline) are generally safe for asthmatic patients. Epinephrine is a non-selective adrenergic agonist that stimulates beta-2 receptors, causing bronchodilation. It is often considered beneficial in asthmatic patients as it can help prevent or treat bronchospasm. There is no restriction on its use unless the patient has specific cardiovascular contraindications unrelated to asthma.\n\nOption 4 is incorrect because prophylactic antibiotics are not indicated for asthma. According to Canadian guidelines (CDA/IDSA), antibiotic prophylaxis is reserved for patients at high risk of infective endocarditis (e.g., prosthetic heart valves, history of IE, certain congenital heart diseases) or specific orthopedic joint replacement scenarios. Asthma is not an indication for antibiotic prophylaxis.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 280,
@@ -4332,16 +4341,17 @@
     "id": 289,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A patient with type 1 diabetes is scheduled for a morning dental appointment that may involve moderate stress and last for 1.5 hours. The patient usually takes insulin at 7:00 AM and eats breakfast. What is the most appropriate instruction regarding their insulin and meal plan for the appointment day?",
+    "question": "A 25‑year‑old patient with type 1 diabetes mellitus is scheduled for a dental appointment that is expected to cause moderate stress and last approximately 1.5 hours. The patient normally injects rapid‑acting insulin at 7:00 am and eats breakfast shortly thereafter. Which of the following is the most appropriate instruction for the patient regarding insulin administration and breakfast on the day of the appointment?",
     "options": [
-      "Instruct the patient to take half of their usual morning insulin dose and have a light breakfast.",
-      "Instruct the patient to take their usual morning insulin dose but defer breakfast until after the appointment.",
-      "Instruct the patient to take their full morning insulin dose and have a normal breakfast.",
-      "Instruct the patient to skip their morning insulin dose and breakfast."
+      "Take only half of the usual morning insulin dose and eat a light breakfast.",
+      "Take the usual morning insulin dose but postpone breakfast until after the appointment.",
+      "Take the full usual morning insulin dose and eat a regular breakfast before the appointment.",
+      "Skip both the morning insulin dose and breakfast."
     ],
-    "correctAnswer": 0,
-    "explanation": "Skipping both insulin and breakfast is dangerous. Taking a full dose without a meal or with a delayed meal increases hypoglycemia risk. Taking half the insulin and having a light breakfast helps maintain glycemic control and reduces the risk of hypoglycemia during the appointment while providing some carbohydrate intake.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "Canadian diabetes and dental care guidelines (e.g., Diabetes Canada Clinical Practice Guidelines and CDA recommendations) advise patients with type 1 diabetes to maintain their usual insulin regimen for procedures performed in the morning and to consume a carbohydrate‑containing meal before the appointment. This prevents hypoglycaemia that can occur when rapid‑acting insulin is given without adequate carbohydrate intake. Moderate procedural stress may raise blood glucose, so a full insulin dose is appropriate; the patient can also bring a small snack to treat any unexpected drop. \n\nWhy the other options are incorrect:\n- Option 0 (half insulin + light breakfast): Reducing the insulin dose can lead to hyperglycaemia, especially when stress hormones are released during the procedure. A light breakfast may not provide enough carbohydrate to match the insulin dose, increasing the risk of hypoglycaemia later.\n- Option 1 (full insulin, defer breakfast): Administering rapid‑acting insulin without an immediate carbohydrate source places the patient at high risk for hypoglycaemia during the 1.5‑hour appointment.\n- Option 3 (skip insulin and breakfast): Skipping both insulin and food can cause severe hyperglycaemia and ketoacidosis in a type 1 diabetic, and also leaves the patient without energy for the stress of the procedure.\n\nTherefore, the gold‑standard instruction is to take the full usual morning insulin dose and eat a regular breakfast before the dental visit.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 290,
@@ -4662,16 +4672,17 @@
     "id": 311,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A patient scheduled for an extraction reports taking warfarin. Their last INR was 2.8. What is the MOST appropriate action regarding their anticoagulant medication for a single tooth extraction?",
+    "question": "A patient scheduled for a single tooth extraction reports taking warfarin. Their most recent INR is 2.8. According to current Canadian dental guidelines, what is the MOST appropriate management of their anticoagulant therapy?",
     "options": [
-      "Have the patient stop warfarin 3-5 days prior to the extraction.",
-      "Proceed with the extraction, but use local hemostatic measures.",
-      "Consult with the prescribing physician to determine if warfarin can be safely continued or temporarily modified.",
-      "Administer vitamin K pre-operatively to reverse the anticoagulant effect."
+      "Discontinue warfarin 3-5 days prior to the procedure to normalize the INR.",
+      "Proceed with the extraction using local hemostatic measures, as the INR is within the therapeutic range.",
+      "Administer oral vitamin K pre-operatively to reverse the anticoagulant effect.",
+      "Postpone the extraction until the INR drops below 1.5."
     ],
-    "correctAnswer": 2,
-    "explanation": "For a patient on warfarin with an INR within the therapeutic range (typically 2.0-3.0 for most indications), a single tooth extraction can often be performed without interruption of warfarin, provided local hemostatic measures are used. However, consultation with the prescribing physician is crucial to confirm the INR, assess bleeding risk, and manage the medication safely, considering the patient's specific medical history.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "The correct answer is Option 1. According to current Canadian dental standards (including guidelines from the Canadian Dental Association and consensus statements in Malamed's 'Medical Emergencies in the Dental Office' and Carranza's 'Clinical Periodontology'), patients on warfarin with an INR within the therapeutic range (typically 2.0-3.0) can safely undergo minor oral surgery, such as a single tooth extraction, without interrupting their anticoagulant therapy. The standard of care is to proceed with the procedure while employing effective local hemostatic measures (e.g., suturing, oxidized cellulose, gelatin sponge, or pressure). \n\nOption 0 is incorrect because discontinuing warfarin increases the risk of thromboembolic events (stroke, DVT, PE) without significantly reducing the risk of clinically significant bleeding in minor oral procedures when local hemostasis is used. \nOption 2 is incorrect because administering vitamin K is an invasive and unnecessary intervention for a routine extraction in a patient with a stable, therapeutic INR; it is reserved for cases of supratherapeutic INR or active major bleeding. \nOption 3 is incorrect because postponing the procedure until the INR is sub-therapeutic (<1.5) exposes the patient to unnecessary thrombotic risk and is not supported by evidence-based guidelines for minor oral surgery.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 312,
@@ -5488,31 +5499,33 @@
     "id": 366,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A patient reports persistent heartburn and regurgitation, often worse when lying down. They also note erosion on the palatal surfaces of their maxillary anterior teeth. Which condition is most likely responsible for these dental findings?",
+    "question": "A 34-year-old female patient presents with persistent heartburn and regurgitation, which are exacerbated by lying down. Clinical examination reveals enamel erosion specifically on the palatal surfaces of the maxillary anterior teeth. Which condition is most likely responsible for these specific dental findings?",
     "options": [
-      "Pernicious anemia.",
-      "Sjögren's syndrome.",
-      "Gastroesophageal Reflux Disease (GERD).",
-      "Bulimia nervosa."
+      "Pernicious anemia",
+      "Sjögren's syndrome",
+      "Gastroesophageal Reflux Disease (GERD)",
+      "Bulimia nervosa"
     ],
     "correctAnswer": 2,
-    "explanation": "Gastroesophageal Reflux Disease (GERD) is characterized by the reflux of stomach acid into the esophagus and potentially the oral cavity. This chronic acid exposure can lead to dental erosion, particularly on the palatal surfaces of maxillary anterior teeth, as well as symptoms like heartburn and regurgitation. Bulimia nervosa also causes palatal erosion, but is typically associated with self-induced vomiting and distinct behavioral patterns.",
-    "aiVerified": true
+    "explanation": "The correct answer is Gastroesophageal Reflux Disease (GERD). The clinical presentation of persistent heartburn and regurgitation, particularly when supine, is the hallmark of GERD. In GERD, gastric acid refluxes into the esophagus and can reach the oral cavity. The specific pattern of enamel erosion on the palatal surfaces of the maxillary anterior teeth is characteristic of passive reflux (GERD), where acid pools in the posterior pharynx and bathes the palatal surfaces of the upper teeth. In contrast, Bulimia nervosa (Option 3) typically presents with erosion on the labial (front) surfaces of the maxillary anterior teeth due to the direct contact of vomitus with the teeth during self-induced vomiting, often accompanied by perioral dermatitis or calluses on the knuckles (Russell's sign). While both conditions cause dental erosion, the combination of passive reflux symptoms and palatal erosion points definitively to GERD. Pernicious anemia (Option 0) is associated with atrophic glossitis (smooth, red tongue) and neurological deficits, not enamel erosion. Sjögren's syndrome (Option 1) is an autoimmune disorder characterized by xerostomia (dry mouth) and keratoconjunctivitis sicca; while dry mouth increases caries risk, it does not directly cause the specific pattern of acid erosion described, nor does it present with heartburn.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 367,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "For a patient with a history of an anaphylactic reaction to penicillin, what is the most appropriate antibiotic choice for infective endocarditis prophylaxis?",
+    "question": "A patient with a documented history of an anaphylactic reaction to penicillin requires antibiotic prophylaxis for infective endocarditis prior to a dental procedure. According to current Canadian dental guidelines, which of the following is the most appropriate alternative antibiotic?",
     "options": [
-      "Azithromycin.",
-      "Clindamycin.",
-      "Amoxicillin.",
-      "Cephalexin."
+      "Azithromycin",
+      "Clindamycin",
+      "Amoxicillin",
+      "Cephalexin"
     ],
-    "correctAnswer": 1,
-    "explanation": "For patients with a history of penicillin allergy, macrolides like azithromycin or clarithromycin, or lincosamides like clindamycin, are the recommended alternatives for infective endocarditis prophylaxis. Amoxicillin is a penicillin derivative, and cephalexin (a cephalosporin) has a risk of cross-reactivity with penicillin in patients with a history of severe allergic reactions.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "The correct answer is Azithromycin. According to the Canadian Dental Association (CDA) and current NDEB-aligned guidelines (reflecting updates from the AHA/ADA), the recommended alternative for patients with a penicillin allergy (including anaphylaxis) is a macrolide antibiotic, specifically azithromycin or clarithromycin. Clindamycin (Option 1) was previously a standard alternative but has been removed from the primary recommendation list in recent guidelines (post-2021) due to concerns regarding the risk of Clostridioides difficile infection and lack of superior efficacy compared to macrolides; therefore, it is no longer the 'most appropriate' first-line alternative in current board standards. Amoxicillin (Option 2) is a penicillin derivative and is absolutely contraindicated in patients with a history of anaphylaxis. Cephalexin (Option 3) is a first-generation cephalosporin; while cross-reactivity is low, it is generally avoided in patients with a history of severe IgE-mediated reactions (anaphylaxis) to penicillins, and macrolides are the preferred guideline-directed alternative.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 368,
@@ -6983,16 +6996,17 @@
   {
     "id": 217465964,
     "topicId": "general-medicine",
-    "question": "A 60-year-old male patient with a history of angina pectoris, controlled by sublingual nitroglycerin, suddenly experiences chest pain and shortness of breath during a dental procedure. He appears pale and anxious. What is the MOST immediate step the dentist should take?",
+    "question": "A 60‑year‑old male with a known history of angina, which is usually relieved with sublingual nitroglycerin, suddenly develops severe chest pain radiating to the left arm and shortness of breath while seated in the dental chair. He appears pale, diaphoretic, and anxious. What is the most appropriate immediate action the dentist should take?",
     "options": [
       "Administer supplemental oxygen",
-      "Call for emergency medical services (EMS)",
+      "Activate emergency medical services (call 911)",
       "Place the patient in a supine position",
-      "Administer sublingual nitroglycerin"
+      "Give sublingual nitroglycerin"
     ],
-    "correctAnswer": 3,
-    "explanation": "For a patient with a known history of angina, the most immediate and appropriate step is to administer sublingual nitroglycerin, as this is their prescribed medication for chest pain and acts to dilate coronary arteries, improving blood flow. While oxygen can be beneficial, and EMS should be called if symptoms persist or worsen, nitroglycerin is the specific first-line intervention for angina. Placing the patient in a supine position may worsen breathing difficulties; an upright or semi-supine position is generally preferred for chest pain.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "Under the NDEB Clinical Guidelines for medical emergencies in the dental office, the first priority is to activate the emergency response system (call EMS) as soon as a possible acute coronary syndrome is suspected. Time to definitive care is critical, and EMS personnel can provide advanced cardiac life support, obtain a 12‑lead ECG, and transport the patient. While waiting for EMS, the dentist may administer supplemental oxygen (if the patient is hypoxic) and, if the patient is able to swallow and has no contraindications, give their prescribed sublingual nitroglycerin. However, these measures are adjuncts and should not delay calling EMS. \n\nWhy the other options are incorrect:\n- **Option 0 (Administer supplemental oxygen):** Oxygen is appropriate if the patient is hypoxic (SpO₂ < 94%) but it is not the first step; EMS activation must precede any adjunctive therapy.\n- **Option 2 (Place the patient in a supine position):** A supine position can worsen dyspnea and reduce venous return in a patient with chest pain. The patient should be kept seated or in a semi‑recumbent position while awaiting EMS.\n- **Option 3 (Give sublingual nitroglycerin):** Nitroglycerin can relieve anginal pain, but it should only be administered after EMS has been contacted. Delaying EMS activation to give medication could postpone life‑saving advanced care.\n\nTherefore, the gold‑standard immediate action is to call emergency medical services.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 799908778,

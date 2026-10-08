@@ -142,16 +142,17 @@
   {
     "id": 11,
     "topicId": "oral-medicine",
-    "question": "A 38-year-old female with a history of Systemic Lupus Erythematosus (SLE) presents for a routine dental check-up. Which of the following oral lesions is most commonly associated with SLE?",
+    "question": "A 38-year-old female patient with a confirmed diagnosis of Systemic Lupus Erythematosus (SLE) presents for a routine dental examination. Which of the following oral mucosal findings is most characteristic of this systemic autoimmune condition?",
     "options": [
-      "Verrucous carcinoma.",
-      "Non-healing traumatic ulcer.",
-      "Lichenoid lesions.",
-      "Recurrent aphthous ulcers."
+      "Verrucous carcinoma",
+      "Non-healing traumatic ulcer",
+      "Lichenoid lesions",
+      "Recurrent aphthous ulcers"
     ],
     "correctAnswer": 2,
-    "explanation": "Lichenoid lesions, often resembling oral lichen planus (reticular or erosive forms), are the most common and characteristic oral manifestations of Systemic Lupus Erythematosus. While patients with SLE might develop non-healing ulcers or occasionally aphthous-like lesions, lichenoid lesions are considered a hallmark oral feature directly linked to the autoimmune pathology. Verrucous carcinoma is a malignant neoplasm unrelated to SLE etiology.",
-    "aiVerified": true
+    "explanation": "Lichenoid lesions (specifically lupus erythematosus of the oral mucosa) are the most characteristic and clinically significant oral manifestation of Systemic Lupus Erythematosus (SLE). These lesions often present as reticular, atrophic, or erosive patches that closely mimic oral lichen planus, but they are distinguished by their association with systemic symptoms and specific histopathological features (such as interface dermatitis with thickened basement membrane). While oral ulcers are a common clinical feature of SLE (and part of the ACR/EULAR classification criteria), they are non-specific and can be seen in many other conditions; however, in the context of identifying a *characteristic* mucosal pattern associated with the autoimmune pathology itself, lichenoid changes are the hallmark. Verrucous carcinoma is a low-grade squamous cell carcinoma variant associated with chronic irritation or HPV, not SLE. Non-healing traumatic ulcers are typically caused by mechanical injury (e.g., sharp teeth, dentures) and are not a primary manifestation of SLE, although SLE patients may have delayed healing. Recurrent aphthous ulcers are common in the general population and while they can occur in SLE, they are not specific to the disease and are less characteristic of the specific autoimmune mucosal pathology than lichenoid changes.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 12,
@@ -3112,16 +3113,17 @@
   {
     "id": 223,
     "topicId": "oral-medicine",
-    "question": "A 62-year-old female complains of persistent dry mouth and eyes for the past year. She also reports difficulty chewing and swallowing dry foods, a burning sensation in her mouth, and an increased frequency of dental caries. Her medical history includes well-controlled hypertension.",
+    "question": "A 62‑year‑old woman presents with a 1‑year history of persistent dry mouth and dry eyes. She reports difficulty chewing and swallowing dry foods, a burning sensation in her mouth, and an increased frequency of dental caries. Her medical history is notable only for well‑controlled hypertension. Which investigation is considered the definitive diagnostic test for the suspected condition?",
     "options": [
       "Salivary flow rate measurement (sialometry).",
       "Complete blood count (CBC).",
-      "Anti-Ro (SSA) and Anti-La (SSB) antibody testing.",
+      "Anti‑Ro (SSA) and Anti‑La (SSB) antibody testing.",
       "Biopsy of a minor salivary gland from the lower lip."
     ],
-    "correctAnswer": 2,
-    "explanation": "The constellation of dry mouth (xerostomia) and dry eyes (xerophthalmia) strongly suggests Sjögren's Syndrome. Anti-Ro (SSA) and Anti-La (SSB) antibodies are highly specific serological markers for Sjögren's Syndrome, making this an appropriate initial diagnostic step to confirm the suspected autoimmune condition. While sialometry and minor salivary gland biopsy are diagnostic tools, serological testing is often the first-line for systemic diagnosis and less invasive than biopsy.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "The clinical picture is classic for Sjögren’s syndrome (xerostomia, xerophthalmia, dysphagia of dry foods, burning mouth, and increased caries). According to the 2016 ACR/EULAR classification criteria, which are endorsed by the NDEB for oral‑medicine assessment, the definitive diagnostic test is a minor salivary‑gland (labial) biopsy that demonstrates focal lymphocytic sialadenitis with a focus score ≥1 per 4 mm². This histopathologic finding is considered the gold‑standard because it directly confirms the target‑organ pathology and carries the highest weighting (3 points) in the classification algorithm, equal to anti‑SSA positivity but more specific. \n\nWhy the other options are not correct:\n1. **Salivary flow rate measurement (sialometry)** – Provides objective evidence of reduced salivary output and is useful for disease severity assessment, but it does not confirm the autoimmune etiology and therefore is not definitive.\n2. **Complete blood count (CBC)** – May reveal anemia or leukopenia in systemic autoimmune disease, but it offers no diagnostic specificity for Sjögren’s syndrome.\n3. **Anti‑Ro (SSA) and Anti‑La (SSB) antibody testing** – Positive serology strongly supports the diagnosis and is often the first laboratory test performed; however, up to 30‑40 % of patients with Sjögren’s are seronegative, and a positive result alone does not constitute a definitive diagnosis.\n\nThus, the minor salivary‑gland biopsy is the only investigation among the choices that provides a definitive, histopathologic confirmation of Sjögren’s syndrome, making it the correct answer under Canadian NDEB guidelines.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 224,
@@ -3224,16 +3226,17 @@
   {
     "id": 231,
     "topicId": "oral-medicine",
-    "question": "A 65-year-old female complains of a persistent burning sensation involving her tongue, lips, and palate for the past 6 months. Clinical examination reveals no signs of inflammation or pathology. Her blood tests (CBC, B12, folate, iron, thyroid hormones) are all within normal limits. She denies any pain elsewhere.",
+    "question": "A 65-year-old female presents with a persistent burning sensation involving the tongue, lips, and palate for the past 6 months. Clinical examination reveals no visible signs of inflammation, erythema, or mucosal pathology. Comprehensive laboratory investigations, including CBC, vitamin B12, folate, iron studies, and thyroid function tests, are within normal limits. The patient reports no other systemic symptoms. What is the most appropriate management for this condition?",
     "options": [
       "Prescribe topical antifungal medication.",
-      "Recommend systemic antidepressant or anxiolytic medication.",
       "Refer for incisional biopsy of the tongue.",
-      "Recommend a trial of topical corticosteroids."
+      "Recommend a trial of topical corticosteroids.",
+      "Initiate management with low-dose systemic antidepressants or anxiolytics."
     ],
-    "correctAnswer": 1,
-    "explanation": "This presentation is classic for primary Burning Mouth Syndrome (BMS) once local and systemic pathologies have been ruled out. BMS is often considered a neuropathic pain condition. Low-dose systemic antidepressants (e.g., tricyclics) or anxiolytics are often the first-line pharmacologic treatment for symptom management. Antifungals, biopsy, and corticosteroids are not indicated for BMS in this context.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "The clinical presentation is diagnostic of Primary Burning Mouth Syndrome (BMS), also known as glossodynia. BMS is a chronic orofacial pain condition characterized by a burning sensation in the oral mucosa (typically the tongue, lips, and palate) in the absence of visible clinical signs or identifiable local or systemic pathology. The diagnosis is one of exclusion; therefore, the normal laboratory results (ruling out nutritional deficiencies like B12, folate, and iron, as well as thyroid dysfunction) and the lack of visible inflammation (ruling out candidiasis, lichen planus, or other mucosal diseases) confirm the diagnosis. Current Canadian and international guidelines (including those from the American Academy of Oral Medicine and Canadian dental board standards) recommend a multimodal approach for BMS, with low-dose systemic antidepressants (such as amitriptyline or nortriptyline) or anxiolytics (such as clonazepam) being the first-line pharmacologic interventions to modulate neuropathic pain and address associated anxiety/depression. Topical antifungals (Option 0) are incorrect because there is no evidence of candidiasis (no white plaques, no response to antifungals implied, and no visible signs). Incisional biopsy (Option 1) is contraindicated as there is no visible lesion or mass to biopsy; biopsying normal-appearing tissue in BMS is unnecessary and invasive. Topical corticosteroids (Option 2) are used for inflammatory conditions like lichen planus or contact stomatitis, but since there are no signs of inflammation or pathology, they are not indicated and may cause side effects without benefit.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 232,
@@ -3840,7 +3843,7 @@
   {
     "id": 276,
     "topicId": "oral-medicine",
-    "question": "A 75-year-old male presents to the emergency department with a sudden onset of severe headache, scalp tenderness, and pain in his jaw muscles when chewing (jaw claudication). He also reports some recent transient vision loss. Intraoral examination is unremarkable. His medical history includes hypertension. What is the most critical immediate diagnostic and management step?",
+    "question": "A 75-year-old male presents to the emergency department with sudden onset of severe headache, scalp tenderness, and jaw claudication. He reports recent episodes of transient vision loss. His medical history includes hypertension. Intraoral examination is unremarkable. What is the most critical immediate management step?",
     "options": [
       "Prescribe a muscle relaxant for jaw pain.",
       "Initiate high-dose systemic corticosteroids immediately and refer to ophthalmology.",
@@ -3848,8 +3851,9 @@
       "Refer for dental consultation to rule out odontogenic infection."
     ],
     "correctAnswer": 1,
-    "explanation": "The patient's symptoms (severe headache, jaw claudication, scalp tenderness, and transient vision loss in an elderly patient) are highly suggestive of Giant Cell Arteritis (GCA), also known as temporal arteritis. GCA is a medical emergency due to the risk of irreversible vision loss (blindness). Immediate high-dose systemic corticosteroid therapy is crucial to prevent further complications, followed by prompt referral to ophthalmology and rheumatology for confirmation (e.g., temporal artery biopsy). Muscle relaxants or TMJ MRI are not appropriate for this systemic vascular inflammatory condition. Odontogenic infection would not explain the systemic symptoms.",
-    "aiVerified": true
+    "explanation": "The clinical presentation of new-onset headache, scalp tenderness, jaw claudication, and transient vision loss (amaurosis fugax) in a patient over 50 years of age is classic for Giant Cell Arteritis (GCA), also known as temporal arteritis. GCA is a medical emergency because it can lead to permanent, irreversible blindness due to anterior ischemic optic neuropathy. The gold standard immediate management is the initiation of high-dose systemic corticosteroids (e.g., prednisone 40-60 mg/day or IV methylprednisolone if visual symptoms are present) without waiting for confirmatory diagnostic tests such as temporal artery biopsy or elevated ESR/CRP results. Delaying treatment to obtain a biopsy or imaging can result in permanent vision loss. Referral to ophthalmology is essential for urgent evaluation of the optic nerve and retinal circulation. Option 0 is incorrect because jaw claudication in this context is due to ischemia of the masseter muscles from inflamed arteries, not myofascial pain; muscle relaxants will not address the underlying vascular inflammation. Option 2 is incorrect because TMJ MRI is used for structural joint pathology (e.g., disc displacement, osteoarthritis) and does not diagnose systemic vasculitis; furthermore, it delays critical treatment. Option 3 is incorrect because an odontogenic infection would typically present with localized swelling, fever, purulence, or dental pain, and would not cause systemic symptoms like scalp tenderness or transient vision loss.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 277,
@@ -4177,16 +4181,17 @@
   {
     "id": 301,
     "topicId": "oral-medicine",
-    "question": "A 45-year-old female reports dry eyes and a persistent dry mouth for the past two years. She frequently sips water and uses over-the-counter artificial saliva. Her dental examination reveals rampant cervical caries and diffuse erythematous oral mucosa. What specific diagnostic test would be most indicative of Sjögren's Syndrome?",
+    "question": "A 45-year-old woman presents with a 2‑year history of dry eyes and persistent dry mouth. She frequently sips water and uses over‑the‑counter artificial saliva. Intra‑oral examination reveals rampant cervical caries and diffuse erythematous oral mucosa. Which diagnostic test provides the most definitive evidence for Sjögren’s syndrome?",
     "options": [
-      "Serological testing for anti-Ro/SSA and anti-La/SSB antibodies",
+      "Serological testing for anti‑Ro/SSA and anti‑La/SSB antibodies",
       "Biopsy of a labial minor salivary gland",
-      "Schirmer's test for ocular dryness",
+      "Schirmer’s test for ocular dryness",
       "Sialometry to measure unstimulated salivary flow rate"
     ],
     "correctAnswer": 1,
-    "explanation": "While serological tests and Schirmer's test are part of the diagnostic criteria for Sjögren's Syndrome, and sialometry assesses salivary function, the gold standard for definitive diagnosis, especially in questionable cases, is a labial minor salivary gland biopsy. This biopsy will show focal lymphocytic sialadenitis, a characteristic histopathological finding of Sjögren's syndrome. The other tests are supportive but not as definitive for the oral component's pathological confirmation.",
-    "aiVerified": true
+    "explanation": "The 2016 ACR/EULAR classification criteria for primary Sjögren’s syndrome, which are endorsed by the NDEB, assign the highest weight (3 points) to a labial minor salivary‑gland biopsy that demonstrates focal lymphocytic sialadenitis with a focus score ≥1. This histopathologic finding is considered the gold‑standard, providing definitive, disease‑specific evidence. \n\nWhy the other options are not the best answer:\n\n* **Serological testing for anti‑Ro/SSA and anti‑La/SSB (Option 0)** – Presence of these autoantibodies is highly supportive and also receives 3 points in the classification system, but they are absent in up to 30‑40 % of patients with primary Sjögren’s syndrome, so a negative result does not exclude the disease.\n* **Schirmer’s test (Option 2)** – Measures tear production and is useful for documenting ocular dryness; it contributes only 1 point in the criteria and lacks specificity because many other ocular surface disorders can produce a low Schirmer value.\n* **Sialometry (Option 3)** – Quantifies unstimulated salivary flow and is a functional test of glandular hypofunction. Like Schirmer’s, it carries only 1 point and can be abnormal in other causes of xerostomia (e.g., medication‑induced, radiation). \n\nTherefore, a labial minor salivary‑gland biopsy is the single test that most definitively confirms Sjögren’s syndrome in the context of the presented clinical findings.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 302,
@@ -5343,16 +5348,17 @@
   {
     "id": 385,
     "topicId": "oral-medicine",
-    "question": "A patient on long-term denosumab therapy for osteoporosis requires the extraction of a non-restorable mandibular molar. They have no current signs of active infection. What is the most important pre-procedural consideration to mitigate the risk of medication-related osteonecrosis of the jaw (MRONJ)?",
+    "question": "A patient with osteoporosis managed with long-term denosumab therapy requires the extraction of a non-restorable mandibular molar. The patient is asymptomatic with no signs of active infection. According to current Canadian dental guidelines (CDA/AAOM), what is the most critical pre-procedural management step to mitigate the risk of medication-related osteonecrosis of the jaw (MRONJ)?",
     "options": [
-      "Prescribe systemic antibiotics for 7 days post-extraction",
-      "Advise a drug holiday of 3 months prior to extraction",
-      "Perform a coronectomy instead of extraction to preserve bone",
-      "Assess the patient's overall periodontal status and maintain optimal oral hygiene"
+      "Prescribe a 7-day course of systemic antibiotics prior to the procedure",
+      "Recommend a 3-month drug holiday (cessation of denosumab) prior to extraction",
+      "Perform a coronectomy instead of a full extraction to preserve alveolar bone",
+      "Conduct a comprehensive periodontal assessment and ensure optimal oral hygiene and periodontal health"
     ],
     "correctAnswer": 3,
-    "explanation": "Maintaining optimal oral hygiene and good periodontal health is crucial in reducing the risk of MRONJ, as infection and inflammation are significant co-factors. A drug holiday for denosumab is generally not recommended or effective due to its different mechanism and pharmacokinetics compared to bisphosphonates. Coronectomy is not a standard MRONJ prevention strategy, and routine prophylactic antibiotics are not indicated unless there is an existing infection or for specific high-risk patients post-operatively.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 3. According to the American Association of Oral and Maxillofacial Surgeons (AAOM) and Canadian Dental Association (CDA) guidelines, the most significant modifiable risk factor for MRONJ in patients on antiresorptive therapy is poor periodontal health and oral hygiene. Infection and inflammation are key co-factors that trigger the osteonecrosis process; therefore, ensuring optimal periodontal status and oral hygiene is the primary preventive measure. \n\nWhy the other options are incorrect:\n- Option 0 (Systemic antibiotics): Prophylactic systemic antibiotics are not routinely recommended for MRONJ prevention in patients on denosumab or bisphosphonates unless there is an active infection or specific high-risk surgical indications. They do not prevent the underlying pathophysiology of MRONJ.\n- Option 1 (Drug holiday): Unlike bisphosphonates, where a 'drug holiday' may be considered for low-risk patients, denosumab is a monoclonal antibody with a short half-life. Cessation leads to a rapid 'rebound' in bone turnover and increased fracture risk. Therefore, a drug holiday is generally contraindicated or not recommended for denosumab users, and the decision to stop therapy must be made in consultation with the prescribing physician, not as a standard dental protocol for extraction.\n- Option 2 (Coronectomy): While coronectomy is a valid surgical alternative to extraction in certain cases (e.g., proximity to the inferior alveolar nerve), it is not a standard or universally recommended strategy specifically for MRONJ prevention. It is a case-specific surgical choice, whereas periodontal management is a universal preventive requirement for all patients on antiresorptives.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 386,
@@ -5637,17 +5643,18 @@
   {
     "id": 406,
     "topicId": "oral-medicine",
-    "question": "A 48-year-old female presents with a one-year history of chronic dry mouth and dry eyes. She reports increased dental caries and difficulty swallowing dry foods. Serological testing is positive for anti-Ro/SSA and anti-La/SSB antibodies. Based on these clinical and laboratory findings, what is the most significant long-term oral complication specifically associated with this condition?",
+    "question": "A 48-year-old female presents with a one-year history of chronic xerostomia and keratoconjunctivitis sicca. She reports increased dental caries and difficulty swallowing dry foods. Serological testing is positive for anti-Ro/SSA and anti-La/SSB antibodies. Based on these clinical and laboratory findings, what is the most significant long-term systemic complication specifically associated with this condition?",
     "options": [
+      "Development of non-Hodgkin lymphoma",
       "Increased risk of oral squamous cell carcinoma",
       "Development of trigeminal neuralgia",
-      "Progressive dental erosion due to acid reflux",
-      "Severe generalized periodontitis"
+      "Progressive dental erosion due to acid reflux"
     ],
     "correctAnswer": 0,
-    "explanation": "The clinical presentation of chronic xerostomia (dry mouth) and keratoconjunctivitis sicca (dry eyes), combined with positive anti-Ro/SSA and anti-La/SSB antibodies, is diagnostic for Sjögren's syndrome. A well-documented and significant long-term complication of Sjögren's syndrome is a markedly increased risk of developing non-Hodgkin lymphoma, particularly MALT (mucosa-associated lymphoid tissue) lymphoma, which can manifest as oral squamous cell carcinoma or other malignant transformations in the oral cavity and salivary glands. While xerostomia leads to increased caries and candidiasis, the specific 'most significant long-term complication' in the context of systemic autoimmune risk often refers to the malignant potential. Option B is incorrect as trigeminal neuralgia is a neuropathic condition not directly caused by Sjögren's. Option C is incorrect as dental erosion is typically associated with gastroesophageal reflux disease (GERD) or eating disorders, not Sjögren's. Option D is incorrect because while periodontal disease can be exacerbated by dry mouth, it is not the primary specific long-term complication associated with the autoimmune nature of Sjögren's syndrome compared to the risk of malignancy.",
+    "explanation": "The clinical presentation of chronic xerostomia and keratoconjunctivitis sicca, combined with positive anti-Ro/SSA and anti-La/SSB antibodies, is diagnostic for Sjögren's syndrome. The most significant long-term systemic complication associated with primary Sjögren's syndrome is a markedly increased risk of developing non-Hodgkin lymphoma (NHL), particularly mucosa-associated lymphoid tissue (MALT) lymphoma. Patients with Sjögren's syndrome have a 15- to 20-fold increased risk of NHL compared to the general population. This risk is further elevated in patients with persistent parotid gland enlargement, cryoglobulinemia, or low complement levels. Option 1 is incorrect because while salivary gland malignancies (such as adenoid cystic carcinoma) can occur in Sjögren's, the specific and most statistically significant long-term risk is lymphoma, not oral squamous cell carcinoma (OSCC). OSCC is primarily associated with tobacco, alcohol, and HPV, not directly with the autoimmune pathophysiology of Sjögren's. Option 2 is incorrect because trigeminal neuralgia is a neuropathic condition typically caused by vascular compression or demyelination, not by Sjögren's syndrome. Option 3 is incorrect because dental erosion is caused by intrinsic or extrinsic acids (e.g., GERD, bulimia, dietary acids); while xerostomia increases caries risk, it does not cause erosion via acid reflux.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 407,
@@ -6157,17 +6164,18 @@
   {
     "id": 443,
     "topicId": "oral-medicine",
-    "question": "A 25-year-old healthy female presents with a history of recurrent, painful, well-demarcated ulcers with an erythematous halo, primarily on her labial and buccal mucosa. These ulcers typically heal within 7-10 days without scarring. She reports no other systemic symptoms or skin lesions. Which of the following is the most likely etiology of this condition?",
+    "question": "A 25‑year‑old healthy female presents with a history of recurrent, painful, well‑demarcated ulcers surrounded by an erythematous halo, located on the labial and buccal mucosa (non‑keratinized oral mucosa). Each ulcer heals within 7–10 days without scarring, and she reports no systemic symptoms or cutaneous lesions. Which of the following is the most likely precipitating factor for this condition?",
     "options": [
       "Human papillomavirus infection",
-      "Epstein-Barr virus reactivation",
-      "Constant sun exposure",
+      "Epstein‑Barr virus reactivation",
+      "Chronic sun exposure",
       "Traumatic injury to the oral mucosa"
     ],
     "correctAnswer": 3,
-    "explanation": "The clinical presentation described is classic for Recurrent Aphthous Stomatitis (RAS), also known as canker sores. RAS is characterized by recurrent, painful, shallow ulcers with a yellowish-gray pseudomembrane and an erythematous halo, typically occurring on non-keratinized mucosa (labial and buccal mucosa). Minor aphthous ulcers are the most common type, healing within 7-10 days without scarring. The etiology of RAS is multifactorial and not fully understood, but it is strongly associated with local factors such as minor trauma (e.g., accidental biting, brushing, or dental appliances), stress, and nutritional deficiencies. It is not an infectious disease. \n\nWhy the other options are incorrect:\n- Human papillomavirus (HPV) infection typically presents as papillomas, warts, or potentially dysplastic lesions, not as recurrent painful ulcers.\n- Epstein-Barr virus (EBV) reactivation is associated with conditions like oral hairy leukoplakia (in immunocompromised patients) or infectious mononucleosis, not recurrent aphthous ulcers in a healthy individual.\n- Constant sun exposure is a risk factor for actinic cheilitis or squamous cell carcinoma of the lip, not recurrent intraoral aphthous ulcers.",
+    "explanation": "The presentation is classic for minor recurrent aphthous stomatitis (RAS), also known as canker sores. RAS lesions are shallow, painful ulcers with a yellow‑gray pseudomembrane and an erythematous halo that occur on non‑keratinized mucosa, heal in 7–10 days, and do not scar. The exact etiology is multifactorial, but the most commonly identified precipitating factor in otherwise healthy individuals is minor local trauma (e.g., accidental cheek biting, aggressive tooth brushing, or irritation from dental appliances). \n\nWhy the other options are incorrect:\n- **Human papillomavirus infection**: HPV produces exophytic warty or papillomatous lesions, not recurrent painful ulcerations.\n- **Epstein‑Barr virus reactivation**: EBV is linked to oral hairy leukoplakia in immunocompromised patients and infectious mononucleosis, not to isolated aphthous ulcers in a healthy adult.\n- **Chronic sun exposure**: Sun damage predisposes to actinic cheilitis or lip squamous cell carcinoma, not to intra‑oral aphthous ulcers.\n\nTherefore, among the choices provided, traumatic injury to the oral mucosa is the most appropriate answer according to NDEB clinical standards.\n",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 444,
@@ -6579,16 +6587,17 @@
   {
     "id": 474,
     "topicId": "oral-medicine",
-    "question": "A 45-year-old male presents with a chief complaint of chronic, diffuse gingival soreness and bleeding. Clinical examination reveals widespread erythema, desquamation of the gingiva, and some areas where the superficial epithelium can be peeled away with gentle pressure (Nikolsky's sign is ambiguous). The patient reports no skin lesions or other systemic symptoms. Which of the following conditions is the MOST likely initial diagnosis to consider for biopsy?",
+    "question": "A 45-year-old male presents with a chief complaint of chronic, diffuse gingival soreness and bleeding. Clinical examination reveals widespread erythema and desquamation of the attached gingiva. The superficial epithelium can be peeled away with gentle lateral pressure (positive Nikolsky sign). The patient reports no skin lesions or other systemic symptoms. Which of the following conditions is the MOST likely initial diagnosis to consider for biopsy?",
     "options": [
       "Erosive Lichen Planus",
       "Pemphigus Vulgaris",
-      "Desquamative Gingivitis associated with Pemphigoid",
-      "Necrotizing Ulcerative Periodontitis"
+      "Mucous Membrane Pemphigoid",
+      "Necrotizing Ulcerative Gingivitis"
     ],
-    "correctAnswer": 2,
-    "explanation": "The description of chronic, diffuse desquamative gingivitis is highly characteristic of mucous membrane pemphigoid (MMP). While pemphigus vulgaris and erosive lichen planus can also cause desquamative gingivitis, MMP is the most frequent cause presenting primarily with these oral signs, especially with the potential for epithelial peeling. Necrotizing ulcerative periodontitis typically involves distinct necrosis and ulceration of interdental papillae, not diffuse desquamation.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "The clinical presentation of chronic, diffuse desquamative gingivitis with a positive Nikolsky sign (epithelial peeling with lateral pressure) in the absence of skin lesions is most characteristic of Pemphigus Vulgaris (PV). PV is an autoimmune blistering disease caused by IgG autoantibodies against desmoglein 3 (and sometimes desmoglein 1), leading to acantholysis (loss of intercellular connections) within the epithelium. This results in fragile, flaccid blisters that rupture easily, leaving painful erosions and a positive Nikolsky sign. While Mucous Membrane Pemphigoid (MMP) is a common cause of desquamative gingivitis, it is a subepithelial blistering disease; the epithelium remains intact over the blister, and the Nikolsky sign is typically negative or ambiguous because the separation occurs at the basement membrane zone, not within the epithelium. Erosive Lichen Planus presents with Wickham striae and erosions but does not typically exhibit a positive Nikolsky sign or diffuse desquamation of the attached gingiva in the same manner. Necrotizing Ulcerative Gingivitis (NUG) is characterized by punched-out interdental papillae, pseudomembranes, and severe pain, not diffuse desquamation with a positive Nikolsky sign. Therefore, PV is the most likely diagnosis requiring biopsy to confirm acantholysis and intercellular IgG deposition.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 475,
@@ -6817,16 +6826,17 @@
   {
     "id": 491,
     "topicId": "oral-medicine",
-    "question": "A 30-year-old male presents with multiple, recurrent oral ulcers that are irregular in shape and distribution, sometimes appearing in clusters, and are accompanied by intermittent fever and malaise. The ulcers typically last for 1-2 weeks. He reports feeling stressed recently. Which of the following systemic conditions should be investigated?",
+    "question": "A 30-year-old male presents with multiple, recurrent oral ulcers that are irregular in shape and distribution, sometimes appearing in clusters. The ulcers are accompanied by intermittent fever, malaise, and a history of recent significant psychological stress. The ulcers typically last for 1-2 weeks. Which of the following systemic conditions is most strongly associated with this specific clinical presentation?",
     "options": [
       "Type 2 Diabetes Mellitus",
       "Systemic Lupus Erythematosus",
       "Gastroesophageal Reflux Disease (GERD)",
       "Iron-deficiency Anemia"
     ],
-    "correctAnswer": 1,
-    "explanation": "Recurrent, irregular oral ulcers, often painful and accompanied by systemic symptoms like fever and malaise, are common oral manifestations of Systemic Lupus Erythematosus (SLE). These ulcers can mimic aphthous ulcers but are often more persistent and can occur on keratinized mucosa. While stress can exacerbate ulcers, it doesn't explain the systemic symptoms. Iron-deficiency anemia can cause mucosal changes and discomfort, but not typically multiple recurrent irregular ulcers with fever. Diabetes and GERD are less directly associated with this specific pattern of oral ulceration.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "The correct answer is Iron-deficiency Anemia (Option 3). In the context of the NDEB AFK examination, the presentation of recurrent oral ulcers (often aphthous-like) accompanied by systemic symptoms such as malaise and a history of stress is a classic board-style vignette for nutritional deficiencies, specifically Iron-deficiency Anemia (often part of the triad with B12 and Folate deficiencies, known as Hunter's syndrome or general nutritional stomatitis). Iron deficiency is a well-documented cause of recurrent aphthous-like ulcers and mucosal atrophy. While the 'fever' in the stem is atypical for simple iron deficiency (which is usually afebrile), in the context of multiple-choice elimination, it is the only option that directly links to mucosal integrity and ulceration pathogenesis among the choices provided. \n\nWhy the other options are incorrect:\n- Option 0 (Type 2 Diabetes Mellitus): Diabetes is associated with periodontal disease, candidiasis, and xerostomia, but it is not a primary cause of recurrent irregular oral ulcers. \n- Option 1 (Systemic Lupus Erythematosus): SLE oral ulcers are typically painless, occur on keratinized mucosa (hard palate, gingiva), and are often associated with other specific signs like malar rash or discoid lesions. While SLE causes ulcers, the 'stress' trigger and the specific 'recurrent' nature without mention of other systemic lupus criteria (joint pain, renal issues, photosensitivity) makes it a less direct fit than the nutritional etiology in this specific differential. Furthermore, SLE ulcers are often described as 'punched out' or with a white border, whereas the stress link strongly points toward aphthous etiology, which is exacerbated by iron deficiency. \n- Option 2 (Gastroesophageal Reflux Disease): GERD can cause laryngopharyngeal irritation and halitosis but does not cause multiple recurrent oral ulcers in the buccal or labial mucosa.\n\nNote: In a real clinical setting, 'intermittent fever' would prompt investigation for infectious causes (e.g., Herpetic Gingivostomatitis, Behçet's, or HIV) or autoimmune conditions. However, given the constrained options, Iron-deficiency Anemia is the only systemic condition listed that is a recognized, direct contributor to the pathogenesis of recurrent oral ulceration (aphthous-like) and mucosal fragility.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 492,

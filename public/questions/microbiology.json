@@ -4077,7 +4077,7 @@
     "id": 298,
     "topicId": "microbiology",
     "difficulty": "medium",
-    "question": "A dental clinic implements waterline management protocols to ensure water delivered from dental units meets regulatory microbiological standards. According to current ADA and CDC guidelines for non-surgical dental procedures, the total heterotrophic plate count (HPC) bacteria in dental unit water should be kept below what colony-forming units (CFU) per milliliter?",
+    "question": "A dental clinic implements waterline management protocols to ensure water delivered from dental units meets regulatory microbiological standards. According to current CDC and ADA guidelines for non-surgical dental procedures, the total heterotrophic plate count (HPC) bacteria in dental unit water should be kept below what colony-forming units (CFU) per milliliter?",
     "options": [
       "200 CFU/mL",
       "10 CFU/mL",
@@ -4085,8 +4085,9 @@
       "500 CFU/mL"
     ],
     "correctAnswer": 3,
-    "explanation": "The Centers for Disease Control and Prevention (CDC) and Canadian dental regulatory bodies recommend that water used for routine non-surgical dental treatment must meet the standard for drinking water, which is less than or equal to 500 CFU/mL of heterotrophic water bacteria. Higher counts increase the risk of exposure for immunocompromised patients.",
-    "aiVerified": true
+    "explanation": "The correct answer is 500 CFU/mL. The Centers for Disease Control and Prevention (CDC) and the American Dental Association (ADA) recommend that dental unit water (DUW) used for routine non-surgical dental treatment should meet the standard for drinking water, which is defined as less than or equal to 500 CFU/mL of heterotrophic water bacteria. This standard is based on the US EPA and Canadian drinking water guidelines for total heterotrophic plate count. \n\nWhy the other options are incorrect:\n- 200 CFU/mL: This is not the standard threshold for routine non-surgical procedures. While some guidelines suggest lower counts for specific high-risk patients or surgical procedures, 500 CFU/mL is the general regulatory benchmark.\n- 10 CFU/mL: This is the recommended limit for water used in surgical procedures (e.g., implant placement, periodontal surgery) or for immunocompromised patients, not for routine non-surgical care.\n- 1,000,000 CFU/mL: This count is significantly higher than the drinking water standard and indicates severe biofilm contamination, posing a high risk of infection and is unacceptable for any dental procedure.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 299,
@@ -5187,16 +5188,17 @@
     "id": 380,
     "topicId": "microbiology",
     "difficulty": "medium",
-    "question": "A patient presents with widespread ulcerative lesions of the oral mucosa, accompanied by bilateral lymphadenopathy and a history of a chancre on the lip six weeks prior. Which laboratory test is most specific for confirming the secondary stage of this suspected spirochetal infection?",
+    "question": "A patient presents with widespread ulcerative lesions of the oral mucosa and bilateral cervical lymphadenopathy. The patient reports a painless indurated ulcer on the lower lip that resolved six weeks ago. Which laboratory test is most specific for confirming the diagnosis of secondary syphilis?",
     "options": [
-      "VDRL test",
+      "Venereal Disease Research Laboratory (VDRL) test",
       "Dark-field microscopy",
       "Gram stain",
       "Treponema pallidum hemagglutination assay (TPHA)"
     ],
     "correctAnswer": 3,
-    "explanation": "Treponemal tests like TPHA or FTA-ABS are highly specific tests that detect antibodies directed against Treponema pallidum antigens, confirming the diagnosis. VDRL and RPR are non-treponemal screening tests that can yield false positives. Dark-field microscopy is best for primary chancres containing live spirochetes, and T. pallidum does not stain with a Gram stain.",
-    "aiVerified": true
+    "explanation": "The clinical presentation of widespread oral mucous patches (ulcerative lesions) and lymphadenopathy following a resolved primary chancre is classic for secondary syphilis, caused by the spirochete Treponema pallidum. The question asks for the most specific test for confirmation. Treponemal tests, such as the Treponema pallidum hemagglutination assay (TPHA) or the fluorescent treponemal antibody absorption (FTA-ABS) test, are highly specific (95-99%) for T. pallidum antigens and are used to confirm a positive non-treponemal screening test. In contrast, the VDRL (Option 0) is a non-treponemal screening test that detects antibodies against cardiolipin-cholesterol-lecithin antigen; while sensitive, it lacks specificity and can yield false positives in conditions like pregnancy, autoimmune diseases, or other infections. Dark-field microscopy (Option 1) allows for the direct visualization of live spirochetes and is highly specific when positive, but it has low sensitivity in secondary syphilis because the spirochete load in mucous patches is often lower than in primary chancres, and it is technically difficult to perform in a standard dental or general laboratory setting; therefore, serological confirmation via treponemal testing is the standard of care for diagnosis. Gram stain (Option 2) is ineffective because T. pallidum is too thin to be visualized with standard light microscopy and does not stain well with Gram stain.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 381,
@@ -6299,16 +6301,17 @@
     "id": 459,
     "topicId": "microbiology",
     "difficulty": "hard",
-    "question": "A dental assistant sustains a percutaneous injury (needlestick) from a sharp instrument contaminated with blood from a patient known to be Hepatitis B surface antigen (HBsAg) positive. The dental assistant has completed a full Hepatitis B vaccine series and has documentation of adequate antibody response (anti-HBs titer > 10 mIU/mL) from a post-vaccination serology performed 1 year ago. What is the immediate post-exposure management protocol?",
+    "question": "A dental assistant sustains a percutaneous needlestick injury from a sharp instrument contaminated with the blood of a patient known to be Hepatitis B surface antigen (HBsAg) positive. The dental assistant has a documented history of completing the full Hepatitis B vaccine series and a post-vaccination serology performed 1 year ago showing an anti-HBs titer of 25 mIU/mL. According to current Canadian public health guidelines for occupational exposures, what is the appropriate immediate post-exposure management?",
     "options": [
-      "Receive both Hepatitis B immunoglobulin (HBIG) and a booster dose of Hepatitis B vaccine",
-      "Receive a booster dose of Hepatitis B vaccine",
-      "No action is required as adequate immunity is confirmed",
-      "Receive Hepatitis B immunoglobulin (HBIG) only"
+      "Administer Hepatitis B immunoglobulin (HBIG) and a booster dose of Hepatitis B vaccine",
+      "Administer a single booster dose of Hepatitis B vaccine",
+      "No specific post-exposure prophylaxis is required; monitor for symptoms",
+      "Administer Hepatitis B immunoglobulin (HBIG) only"
     ],
-    "correctAnswer": 1,
-    "explanation": "For healthcare workers with documented adequate antibody response following vaccination who sustain an exposure, a booster dose of Hepatitis B vaccine is recommended. HBIG is typically reserved for unvaccinated individuals or those with unknown/inadequate immune response. No action would be incorrect given the exposure risk, and combining HBIG with a booster is usually for unvaccinated individuals, not those with confirmed immunity.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "The correct management is no specific post-exposure prophylaxis (Option 2). According to Canadian guidelines (aligned with CDC and PHAC recommendations), healthcare workers with documented adequate antibody response (anti-HBs ≥ 10 mIU/mL) following vaccination are considered immune to Hepatitis B. In the event of a percutaneous exposure to an HBsAg-positive source, these individuals do not require Hepatitis B immunoglobulin (HBIG) or a booster dose of vaccine. Their immune memory is sufficient to provide protection. Option 0 is incorrect because HBIG is reserved for unvaccinated individuals or those with unknown/inadequate immune response. Option 1 is incorrect because a booster is not indicated for individuals with documented adequate immunity; routine boosters are not recommended for healthy adults with confirmed seroconversion. Option 3 is incorrect because HBIG is not indicated for immune individuals.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 460,
@@ -6950,16 +6953,17 @@
   {
     "id": 693591074,
     "topicId": "microbiology",
-    "question": "A 28-year-old female patient requires extraction of a severely carious mandibular third molar. Her medical history is significant for well-controlled asthma, managed with a salbutamol inhaler as needed. She denies any allergies. What is the MOST appropriate local anesthetic for this procedure?",
+    "question": "A 28-year-old female patient requires the extraction of a severely carious mandibular third molar. Her medical history is significant for well-controlled asthma, managed with a salbutamol inhaler as needed. She denies any allergies. What is the MOST appropriate local anesthetic for this procedure?",
     "options": [
       "2% Lidocaine with 1:50,000 epinephrine",
       "3% Mepivacaine plain",
       "4% Articaine with 1:100,000 epinephrine",
       "0.5% Bupivacaine with 1:200,000 epinephrine"
     ],
-    "correctAnswer": 2,
-    "explanation": "Articaine with 1:100,000 epinephrine is an excellent choice for mandibular extractions due to its superior bone penetration and adequate vasoconstriction for hemostasis, and its concentration of epinephrine is safe for a patient with controlled asthma. Mepivacaine plain lacks vasoconstriction, increasing surgical bleeding risk, while 2% Lidocaine with 1:50,000 epinephrine contains a high concentration of epinephrine, generally not needed for routine extractions. Bupivacaine has a very long duration, typically reserved for post-operative pain control rather than routine extractions.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "The most appropriate local anesthetic for a routine mandibular extraction in a patient with well-controlled asthma is 2% Lidocaine with 1:50,000 epinephrine. Lidocaine is the gold standard amide local anesthetic in dentistry due to its rapid onset, reliable efficacy, and safety profile. The addition of epinephrine (1:50,000) is critical for mandibular extractions as it provides vasoconstriction, which prolongs the duration of anesthesia, reduces surgical bleeding, and allows for a clearer operative field. While patients with asthma require caution regarding sympathomimetics, well-controlled asthma is not a contraindication to the use of epinephrine in local anesthetics; the systemic absorption from a dental cartridge is minimal and generally safe. Option 1 (3% Mepivacaine plain) is incorrect because plain anesthetics lack vasoconstrictors, leading to rapid systemic absorption, shorter duration of action, and increased intraoperative bleeding, which is undesirable for surgical extractions. Option 2 (4% Articaine with 1:100,000 epinephrine) is a plausible alternative due to its bone-penetrating properties, but Lidocaine remains the primary first-line agent in Canadian dental practice for routine extractions unless specific indications favor articaine (e.g., high bone density or previous failure of lidocaine). Furthermore, the 1:100,000 concentration is less potent for hemostasis than 1:50,000. Option 3 (0.5% Bupivacaine with 1:200,000 epinephrine) is incorrect because bupivacaine has a very long duration of action (up to 8-12 hours) and is typically reserved for post-operative pain management or specific cases requiring prolonged anesthesia, not for routine extractions where a standard duration is preferred. Additionally, the lower concentration of epinephrine (1:200,000) provides less effective hemostasis compared to 1:50,000.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 72176977,
@@ -7104,7 +7108,7 @@
   {
     "id": 775869088,
     "topicId": "microbiology",
-    "question": "A 60-year-old female patient presents with a dull ache in the maxillary right posterior region. She denies any pain to hot or cold stimuli. Clinical examination reveals a large, deep restoration on tooth #16. The tooth does not respond to electric pulp testing or cold testing. Radiographic examination reveals a periapical radiolucency associated with the apex of tooth #16. What is the MOST likely diagnosis?",
+    "question": "A 60-year-old female patient presents with a dull ache in the maxillary right posterior region. She denies any pain to hot or cold stimuli. Clinical examination reveals a large, deep restoration on tooth #16. The tooth does not respond to electric pulp testing or cold testing. Radiographic examination reveals a periapical radiolucency associated with the apex of tooth #16. There is no swelling, sinus tract, or tenderness to percussion. What is the MOST likely diagnosis?",
     "options": [
       "Asymptomatic apical periodontitis",
       "Symptomatic apical periodontitis",
@@ -7114,7 +7118,8 @@
     "correctAnswer": 1,
     "explanation": "The correct diagnosis is Symptomatic apical periodontitis. According to the American Association of Endodontists (AAE) and Canadian dental standards, this diagnosis is characterized by inflammation of the apical periodontium, usually of pulpal origin, that produces clinical symptoms. The patient presents with a dull ache (symptom) and a periapical radiolucency, indicating established pathology. The lack of response to vitality testing indicates pulp necrosis, which is the underlying etiology. \n\nWhy the other options are incorrect:\n- Asymptomatic apical periodontitis: This condition is characterized by inflammation and destruction of apical periodontium of pulpal origin that is NOT clinically symptomatic. Since the patient reports a dull ache, this diagnosis is excluded.\n- Chronic apical abscess: This diagnosis requires the presence of a sinus tract (fistula) draining pus. There is no mention of a sinus tract in the clinical scenario.\n- Acute apical abscess: This is characterized by rapidly developing, spontaneous pain, tenderness to pressure, and swelling. The patient's presentation of a 'dull ache' without mention of swelling or severe spontaneous pain is more consistent with symptomatic apical periodontitis than an acute abscess.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 30003406,
@@ -7227,7 +7232,8 @@
     "correctAnswer": 2,
     "explanation": "The correct answer is Periapical cemento-osseous dysplasia (PCOD). PCOD is a benign fibro-osseous lesion that predominantly affects middle-aged women, particularly of African descent, and is most commonly found in the mandibular anterior region, though it can occur in the maxilla. The key diagnostic features present in this scenario are: 1) The patient is asymptomatic. 2) The tooth is vital (normal response to vitality testing). 3) The radiographic appearance is a well-defined radiolucency with an intact lamina dura. In the early (radiolucent) stage of PCOD, the lesion appears as a radiolucency that can mimic a periapical pathology. However, the vitality of the tooth and the intact lamina dura distinguish it from inflammatory periapical lesions. Periapical granulomas and radicular cysts are inflammatory lesions resulting from pulp necrosis; therefore, the affected tooth would typically be non-vital (no response to testing) and the lamina dura would often be disrupted or absent. An acute apical abscess presents with severe pain, swelling, and signs of acute inflammation, which contradicts the asymptomatic presentation.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 366611674,
@@ -7304,32 +7310,34 @@
   {
     "id": 175832475,
     "topicId": "microbiology",
-    "question": "A 45-year-old male patient presents with a swollen, painful submandibular region and a purulent discharge from the floor of the mouth. The swelling is most prominent on the left side, and the patient reports difficulty swallowing. Which of the following bacteria is the MOST likely primary pathogen isolated from this acute infection?",
+    "question": "A 45-year-old male presents with acute onset of a painful, fluctuant swelling in the submandibular region and purulent discharge from the floor of the mouth. The infection is of odontogenic origin. Which of the following organisms is the MOST likely primary pathogen isolated from this acute anaerobic infection?",
     "options": [
       "Actinomyces israelii",
-      "Bacteroides melaninogenicus",
+      "Prevotella melaninogenica",
       "Streptococcus viridans",
       "Staphylococcus aureus"
     ],
     "correctAnswer": 1,
-    "explanation": "The clinical presentation of a painful, purulent swelling in the submandibular region, particularly with discharge into the floor of the mouth, is classic for Ludwig's angina or an acute submandibular abscess, which are predominantly caused by anaerobic bacteria such as Bacteroides species (formerly Bacteroides melaninogenicus) and fusobacteria. Actinomyces israelii causes a chronic, non-tender, 'lumpy jaw' presentation with sulfur granules, not acute purulence. Streptococcus viridans is a common oral commensal involved in endocarditis but is not the primary driver of acute deep space neck abscesses. Staphylococcus aureus is a skin flora organism and is less likely to be the primary pathogen in a primary odontogenic deep space infection unless there is a secondary skin breach.",
+    "explanation": "The clinical presentation of an acute, painful, purulent submandibular abscess of odontogenic origin is characteristic of an infection driven by anaerobic bacteria. Prevotella melaninogenica (formerly known as Bacteroides melaninogenus) is a gram-negative anaerobe that is a predominant primary pathogen in acute deep space neck infections and odontogenic abscesses. It thrives in the low-oxygen environment of an abscess and is frequently isolated in pure culture or as the dominant organism in these acute presentations. \n\nActinomyces israelii (Option 0) is an anaerobic gram-positive rod that causes actinomycosis, which typically presents as a chronic, slowly progressive, non-tender 'lumpy jaw' with draining sinuses and sulfur granules, rather than an acute, painful, purulent abscess. \n\nStreptococcus viridans (Option 2) is a facultative anaerobe and a common oral commensal. While it is often involved in the initial colonization of dental caries and can be part of the polymicrobial flora in odontogenic infections, it is not the primary driver of the acute, deep-space anaerobic abscess formation described; anaerobes like Prevotella and Fusobacterium are the key pathogens in the progression to deep space infection. \n\nStaphylococcus aureus (Option 3) is a facultative anaerobe primarily associated with skin and soft tissue infections. While it can cause abscesses, it is not the primary pathogen in odontogenic deep space infections unless there is a specific history of skin trauma or secondary inoculation, which is not indicated in this classic odontogenic presentation.",
     "aiGenerated": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 124112941,
     "topicId": "microbiology",
-    "question": "A 28-year-old female patient presents with a history of recurrent urinary tract infections. She is currently taking ciprofloxacin for an ongoing infection. During a routine dental examination, she reports mild gingival bleeding but no significant dental pathology requiring immediate intervention. The dentist recommends postponing all elective dental procedures. What is the PRIMARY microbial risk associated with performing elective dental procedures in this patient while she is on ciprofloxacin?",
+    "question": "A 28-year-old female patient presents with a history of recurrent urinary tract infections and is currently taking ciprofloxacin for an ongoing infection. During a routine dental examination, she reports mild gingival bleeding but no significant dental pathology requiring immediate intervention. The dentist recommends postponing all elective dental procedures. What is the PRIMARY microbial risk associated with performing elective dental procedures in this patient while she is on ciprofloxacin?",
     "options": [
       "Selection of vancomycin-resistant Enterococcus (VRE)",
       "Selection of multidrug-resistant Pseudomonas aeruginosa",
       "Development of antibiotic-resistant oral streptococci",
       "Transmission of human immunodeficiency virus (HIV) via aerosolization"
     ],
-    "correctAnswer": 1,
-    "explanation": "Ciprofloxacin is a fluoroquinolone, and the use of this class of antibiotics is strongly associated with the selection of multidrug-resistant Pseudomonas aeruginosa, a gram-negative organism that can be present in the oral microbiome and is a significant pathogen in hospital-acquired and community-acquired infections. While the oral cavity is dominated by streptococci, the specific concern regarding fluoroquinolone use and elective dentistry in the context of antimicrobial stewardship is the promotion of resistant gram-negative pathogens like Pseudomonas, which can complicate future systemic infections. VRE is selected by vancomycin use, not ciprofloxacin. While resistance in oral streptococci is a concern, Pseudomonas resistance is the hallmark resistance profile associated with fluoroquinolone overuse. HIV transmission is not a direct consequence of antibiotic use or aerosolization in this context.",
+    "correctAnswer": 2,
+    "explanation": "The correct answer is the development of antibiotic-resistant oral streptococci. Ciprofloxacin is a fluoroquinolone antibiotic that exerts broad-spectrum activity against both Gram-positive and Gram-negative organisms, including the predominant commensal flora of the oral cavity, which is dominated by Streptococcus species (e.g., S. mutans, S. sanguinis, S. salivarius). The use of systemic antibiotics, particularly fluoroquinolones, disrupts the normal oral microbiome and exerts selective pressure on these resident streptococci, promoting the emergence of resistant strains. This is a primary concern in antimicrobial stewardship and oral microbiology, as resistant oral flora can complicate future dental infections and contribute to the broader resistance crisis. \n\nOption 0 (VRE) is incorrect because Vancomycin-Resistant Enterococcus is selected by the use of vancomycin or other glycopeptides, not fluoroquinolones. While Enterococcus species are part of the oral flora, the specific resistance mechanism of VRE is not linked to ciprofloxacin use. \n\nOption 1 (Pseudomonas aeruginosa) is incorrect because Pseudomonas is not a primary commensal organism of the healthy human oral cavity. It is typically associated with hospital-acquired infections, cystic fibrosis, or immunocompromised states. While fluoroquinolones can select for resistant Pseudomonas in systemic infections, it is not the primary microbial risk in the context of elective dentistry in a healthy oral microbiome. \n\nOption 4 (HIV transmission) is incorrect because HIV is not transmitted via aerosolization during dental procedures, and antibiotic use does not increase the risk of HIV transmission. Standard infection control protocols (sterilization, PPE) are sufficient to prevent bloodborne pathogen transmission, regardless of the patient's antibiotic status.",
     "aiGenerated": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 962854476,

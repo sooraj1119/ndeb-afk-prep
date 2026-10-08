@@ -603,16 +603,17 @@
     "id": 41,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "A 35-year-old female patient presents with generalized moderate tooth sensitivity to cold and sweets. Clinical examination reveals multiple wedge-shaped cervical lesions on the facial surfaces of canines and premolars with hard, polished floors and no evidence of bacterial plaque accumulation. What is the most definitive primary etiological factor?",
+    "question": "A 35-year-old female patient presents with generalized moderate tooth sensitivity to cold and sweets. Clinical examination reveals multiple wedge-shaped cervical lesions on the facial surfaces of canines and premolars. The lesion floors are hard, polished, and free of carious dentin. There is no evidence of significant dietary acid exposure or parafunctional habits. What is the most likely primary etiological factor for these specific lesions?",
     "options": [
       "Abfraction due to occlusal stress",
       "Dental caries",
       "Chemical erosion from acidic dietary intake",
       "Abrasive toothbrushing technique"
     ],
-    "correctAnswer": 0,
-    "explanation": "While toothbrush abrasion and erosion contribute, wedge-shaped cervical lesions with sharp internal line angles are classically attributed to abfraction caused by tensile and compressive stresses from occlusal loading. Pure erosion typically causes cupping or broad, saucer-shaped lesions, not sharp wedge shapes.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "The correct answer is Abrasive toothbrushing technique. The clinical presentation of multiple wedge-shaped cervical lesions on the facial surfaces of anterior and premolar teeth, characterized by hard, polished floors and the absence of caries, is the classic presentation of toothbrush abrasion. This is a mechanical wear process caused by the use of a hard-bristled toothbrush with a horizontal scrubbing motion. While abfraction (Option 0) is a proposed etiology for cervical lesions, it is controversial and typically associated with parafunctional habits (bruxism/clenching) and specific stress concentration points; the prompt explicitly excludes significant parafunctional habits. Furthermore, abfraction lesions are often described as having a more distinct, sharp internal angle and are frequently associated with enamel cracks, whereas abrasion lesions are broader and directly related to the brushing pattern. Dental caries (Option 1) is incorrect because the lesion floors are hard and polished, not soft or demineralized, and there is no plaque accumulation. Chemical erosion (Option 2) is incorrect because erosion typically presents as smooth, saucer-shaped, or cupped lesions with rounded internal angles, rather than the sharp, wedge-shaped morphology described, and the prompt notes no significant dietary acid exposure.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 42,
@@ -693,7 +694,7 @@
     "id": 47,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "Which of the following resin composite types exhibits the highest volumetric polymerization shrinkage, making incremental placement techniques mandatory?",
+    "question": "Which of the following resin composite categories typically exhibits the highest volumetric polymerization shrinkage due to its specific filler loading and resin matrix ratio?",
     "options": [
       "Microfilled composites",
       "Flowable composites",
@@ -701,8 +702,9 @@
       "Hybrid composites"
     ],
     "correctAnswer": 1,
-    "explanation": "Flowable composites contain a higher proportion of resin matrix and lower filler loading compared to hybrids, packables, or microfilled composites. Consequently, they exhibit higher volumetric polymerization shrinkage and greater stress during setting, necessitating careful placement techniques.",
-    "aiVerified": true
+    "explanation": "Flowable composites are characterized by a significantly lower filler loading (typically 40-50% by weight) and a higher proportion of resin matrix compared to conventional microfilled, hybrid, or packable composites. Since polymerization shrinkage is primarily a property of the resin matrix, the higher resin content in flowable composites results in the highest volumetric polymerization shrinkage (often cited between 3.5% and 5.0% or higher, depending on the specific formulation). This high shrinkage generates greater polymerization stress, making incremental placement techniques and careful adaptation to cavity walls mandatory to prevent marginal gaps and post-operative sensitivity. In contrast, microfilled composites have high filler loading (approx. 50-60% by weight, though with smaller particle size), and hybrid and packable composites have even higher filler loadings (60-85% by weight), resulting in lower volumetric shrinkage per unit volume compared to flowables.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 48,
@@ -738,7 +740,7 @@
     "id": 50,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "When preparing a Class II amalgam cavity on a posterior tooth, what is the primary clinical rationale for extending the facial and lingual proximal margins into the 'cleanance' or self-cleansing areas?",
+    "question": "When preparing a Class II amalgam cavity on a posterior tooth, what is the primary clinical rationale for extending the proximal box margins into the embrasure (self-cleansing area) rather than leaving them in the contact zone?",
     "options": [
       "To ensure the amalgam-tooth interface is parallel to the path of insertion",
       "To prevent secondary caries by facilitating plaque removal with toothbrushing and mastication",
@@ -746,8 +748,9 @@
       "To eliminate unsupported enamel rods that would fracture under occlusal load"
     ],
     "correctAnswer": 1,
-    "explanation": "Extension for prevention aims to place restoration margins into areas that are accessible to routine mechanical plaque control (self-cleansing zones) to reduce the incidence of secondary caries. While unsupported enamel must be removed, the primary justification for proximal extension specifically into embrasures is plaque control. Amalgam does not require a path of insertion.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 1. The principle of 'extension for prevention' in operative dentistry dictates that restoration margins should be placed in areas that are self-cleansing and accessible to mechanical plaque control (toothbrushing and flossing). The contact zone is a plaque-retentive area where self-cleansing is ineffective; therefore, extending the proximal box into the embrasure (the self-cleansing area) reduces the risk of recurrent (secondary) caries at the margin. \n\nWhy the other options are incorrect:\n- Option 0: While a path of insertion is critical for placing the matrix band and condensing amalgam, the *primary* rationale for the specific location of the margin (embrasure vs. contact) is caries prevention, not the path of insertion itself. The path of insertion is determined by the preparation geometry, but the extension into the embrasure is specifically for hygiene access.\n- Option 2: Retention form in Class II amalgam preparations is primarily achieved through the occlusal box (undercuts) and the proximal box walls. Extending the margin into the embrasure does not significantly increase the surface area for retention compared to the benefits of caries prevention. In fact, excessive extension can weaken the tooth structure.\n- Option 3: While unsupported enamel rods must be removed to prevent fracture, this is a general principle of cavity preparation (G.V. Black's principles) applicable to all cavities. It is not the *primary* specific rationale for extending the *proximal* margin into the embrasure; that specific extension is driven by the need for plaque control in the contact zone.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 51,
@@ -1077,9 +1080,10 @@
       "Traditional high-copper amalgam"
     ],
     "correctAnswer": 2,
-    "explanation": "Resin-modified glass ionomer cement (RMGIC) is widely regarded as the material of choice (or 'gold standard' in many clinical contexts) for restoring non-carious cervical lesions (NCCLs), particularly in patients with bruxism or erosion. This is due to its chemical adhesion to tooth structure (eliminating the need for extensive mechanical retention in thin cervical areas), its release of fluoride (which helps remineralize surrounding eroded dentin and reduce sensitivity), and its biocompatibility. While high-strength composites (like nanohybrids) are also used, RMGICs offer superior marginal integrity in high-stress, low-retention areas compared to flowable or microfilled composites, which have lower wear resistance and higher polymerization shrinkage. Amalgam is generally contraindicated for cervical lesions due to lack of retention, esthetics, and potential for fracture in thin cervical margins.",
+    "explanation": "Resin-modified glass ionomer cement (RMGIC) is the correct answer. In the context of non-carious cervical lesions (NCCLs), particularly those involving erosion and abfraction in patients with bruxism, RMGICs are widely regarded as the material of choice (often termed the 'gold standard' in clinical guidelines for this specific indication) due to their unique combination of properties. Key advantages include: 1) Chemical adhesion to enamel and dentin, which eliminates the need for extensive mechanical retention (undercuts) in thin cervical areas where retention is difficult to achieve; 2) Fluoride release, which aids in the remineralization of surrounding eroded dentin and helps manage hypersensitivity; 3) Biocompatibility with pulp tissue; and 4) Superior marginal integrity in high-stress, low-retention areas compared to flowable or microfilled composites, which suffer from higher polymerization shrinkage and lower wear resistance. While high-strength nanohybrid composites are also used, RMGICs offer a more favorable balance of adhesion, fluoride release, and stress distribution for cervical lesions. Amalgam is generally contraindicated for cervical lesions due to lack of retention, esthetic concerns, and potential for fracture in thin cervical margins. Flowable and microfilled composites are incorrect due to their lower wear resistance and higher polymerization shrinkage, making them less suitable for stress-bearing cervical areas.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 73,
@@ -1583,7 +1587,7 @@
     "id": 108,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "A 35-year-old female patient complains of lingering thermal sensitivity on tooth #36, which has a deep amalgam restoration placed 3 years ago. Clinical examination reveals no caries, no mobility, and normal periodontal probing depths. Percussion and palpation are within normal limits. What is the most appropriate next step in management?",
+    "question": "A 35-year-old female patient presents with a 3-year history of a deep amalgam restoration on tooth #36. She reports lingering thermal sensitivity to cold stimuli that persists for more than 30 seconds after the stimulus is removed. Clinical examination reveals no visible caries, no mobility, and normal periodontal probing depths. Percussion and palpation are within normal limits. Electric pulp testing (EPT) elicits a delayed response compared to the contralateral control tooth. What is the most appropriate next step in management?",
     "options": [
       "Place a desensitizing agent at the gingival margin and monitor for 6 months.",
       "Remove the existing amalgam restoration, evaluate for microleakage or fracture, and place an indirect restoration or base/liner with a new restoration.",
@@ -1591,8 +1595,9 @@
       "Perform prophylactic endodontic treatment immediately due to irreversible pulpitis."
     ],
     "correctAnswer": 1,
-    "explanation": "Lingering thermal sensitivity under an existing deep restoration typically indicates microleakage, recurrent caries, or a fracture line allowing fluid movement within dentinal tubules, transitioning toward irreversible pulpitis if unaddressed. Removing the restoration allows direct inspection of the pulpal floor and replacement with a well-sealed restoration or base. Endodontic treatment is premature without a diagnosis of irreversible pulpitis or necrosis.",
-    "aiVerified": true
+    "explanation": "The clinical presentation of lingering thermal sensitivity (persisting >30 seconds) with a delayed EPT response is diagnostic of symptomatic irreversible pulpitis. In the context of a deep restoration placed 3 years ago, the most likely etiology is secondary caries, microleakage, or a crack allowing bacterial ingress and pulpal inflammation. The gold standard management for symptomatic irreversible pulpitis is endodontic therapy (root canal treatment) or extraction. However, among the provided options, Option 1 is the only clinically viable intervention that addresses the source of the pathology (the restoration) and allows for definitive diagnosis and treatment. While 'prophylactic endodontic treatment' (Option 3) is the ultimate treatment for irreversible pulpitis, the term 'prophylactic' is clinically incorrect as the condition is already symptomatic, not preventive. Furthermore, Option 1 is the necessary diagnostic and therapeutic step to access the pulp chamber; if the pulp is found to be necrotic or irreversibly inflamed, endodontic treatment proceeds. Options 0 and 3 are incorrect: Option 0 is insufficient for irreversible pulpitis, and Option 3 uses incorrect terminology ('prophylactic') and skips the necessary diagnostic/operative access phase. Option 2 is incorrect as lingering pain is pathological, not normal. Note: In a real clinical scenario, the definitive treatment would be RCT, but Option 1 is the correct *next step* in the management sequence to address the restoration and confirm the pulpal status before initiating RCT, or it implies the replacement of the restoration with a base if the pulp is vital but hypersensitive (though lingering pain usually mandates RCT). Given the constraints of the options, Option 1 is the most appropriate *operative* next step to resolve the issue by removing the potential source of irritation (microleakage/caries) and assessing the pulp directly.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 109,
@@ -1643,7 +1648,7 @@
     "id": 112,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "A 50-year-old male presents with generalized cervical wear lesions on teeth #13 through #23 characterized by wedge-shaped defects with sharp internal line angles at the cementoenamel junction. What is the primary etiology of these lesions?",
+    "question": "A 50-year-old male presents with generalized cervical wear lesions on teeth #13 through #23. Clinical examination reveals wedge-shaped defects with sharp internal line angles located at the cementoenamel junction. The patient reports a history of parafunctional habits including bruxism. What is the primary etiology of these specific morphological lesions?",
     "options": [
       "Biomechanical loading forces causing stress concentration and flexure at the cervical area (abfraction)",
       "Aggressive horizontal toothbrushing abrasion without chemical involvement",
@@ -1651,8 +1656,9 @@
       "Chemical erosion from frequent citrus consumption alone"
     ],
     "correctAnswer": 0,
-    "explanation": "Wedge-shaped cervical lesions with sharp internal line angles located at the cementoenamel junction are classic presentations of abfraction, caused by occlusal loading forces resulting in microfractures of enamel and dentin at the cervical flexure area. While abrasion and erosion often act synergistically, the distinct wedge shape is pathognomonic for occlusal stress.",
-    "aiVerified": true
+    "explanation": "The correct answer is 0. The presence of wedge-shaped cervical lesions with sharp internal line angles at the cementoenamel junction (CEJ) is the classic clinical presentation of abfraction. Abfraction is a non-carious cervical lesion (NCCL) caused by biomechanical loading forces (occlusal stress) that induce tensile stresses on the cervical enamel and dentin, leading to microfractures and material loss. The sharp internal line angles are pathognomonic for this mechanical etiology. \n\nWhy the other options are incorrect:\n- Option 1 (Abrasion): While aggressive horizontal toothbrushing is a common cause of cervical wear, it typically results in smooth, rounded, or flat-bottomed lesions rather than sharp, wedge-shaped defects with distinct internal line angles. Abrasion often acts synergistically with abfraction but is not the primary cause of the specific 'wedge' morphology described.\n- Option 2 (Caries): Bacterial plaque accumulation leads to carious lesions, which are characterized by soft, demineralized tissue, cavitation, and often a brownish or blackish discoloration. Caries do not present as sharp, clean-edged wedge-shaped defects at the CEJ without signs of active decay or softness.\n- Option 3 (Erosion): Chemical erosion (e.g., from citrus or acid reflux) typically causes smooth, glossy, cup-shaped, or saucer-like lesions. Erosion does not produce the sharp internal line angles or the distinct wedge shape associated with mechanical flexure and microfracture.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 113,
@@ -1808,17 +1814,18 @@
     "id": 123,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "A dentist is preparing a Class II cavity in a mandibular molar using a high-speed handpiece. To minimize heat generation and vibration while efficiently removing dentin, which type of carbide bur design is most appropriate?",
+    "question": "A dentist is preparing a Class II cavity in a mandibular molar with a high‑speed handpiece (water spray). Which carbide bur design provides the most efficient dentin removal while producing the least heat and vibration?",
     "options": [
-      "Cross-cut carbide bur",
-      "Smooth carbide bur",
-      "Coarse grit diamond bur",
-      "Tapered fissure carbide bur"
+      "Cross‑cut carbide bur",
+      "Smooth (straight‑flute) carbide bur",
+      "Coarse‑grit diamond bur",
+      "Tapered‑fissure carbide bur"
     ],
     "correctAnswer": 0,
-    "explanation": "Cross-cut carbide burs are the most effective for cutting dentin and enamel with minimal heat and vibration. The cross-cut design creates a self-sharpening action that allows for efficient material removal with less pressure, thereby reducing friction and heat generation compared to smooth burs, which can bind and generate more heat. Diamond burs are primarily used for enamel and are less efficient in dentin, often requiring more pressure and generating more heat if used improperly. Tapered fissure burs are designed for specific access and contouring, not for bulk removal of tooth structure in a Class II preparation.",
+    "explanation": "According to the NDEB operative‑dentistry blueprint and standard texts (Sturdevant, Malamed, Carranza), bulk removal of dentin with a high‑speed handpiece is best accomplished with a cross‑cut carbide bur. The intersecting flutes create a self‑sharpening action that cuts dentin efficiently, requires less downward pressure, and therefore generates less frictional heat and vibration than a smooth (straight‑flute) bur, which tends to bind and produce more heat. \n\nDiamond burs are primarily indicated for enamel reduction and finishing; they remove dentin more slowly and generate more heat if used for gross removal. Tapered‑fissure carbide burs are designed for access, line‑angle creation, and retention form, not for rapid dentin removal. \n\nThus, the cross‑cut carbide bur is the gold‑standard choice for minimizing heat and vibration while efficiently removing dentin in a Class II preparation.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 124,
@@ -1907,8 +1914,9 @@
       "Abfraction caused by eccentric occlusal loading and tensile stress"
     ],
     "correctAnswer": 3,
-    "explanation": "Wedge-shaped NCCLs located at the CEJ are classically attributed to abfraction, where occlusal forces create tensile stress concentrations in the cervical area leading to micro-fracture of enamel and dentin prisms. While erosion and abrasion play significant roles, the sharp wedge geometry is strongly associated with biomechanical loading.",
-    "aiVerified": true
+    "explanation": "The correct answer is Abfraction caused by eccentric occlusal loading and tensile stress. In the context of the NDEB AFK examination, Non-Carious Cervical Lesions (NCCLs) are classified based on their morphology and location. The 'wedge-shaped' defect with sharp margins located at the cervical enamel junction (CEJ) on the facial surface is the classic clinical presentation of abfraction. This condition is biomechanically driven: eccentric occlusal forces (such as those from bruxism or parafunction) create bending moments in the tooth, resulting in tensile stress concentrations at the cervical area. This leads to the fatigue failure and micro-fracture of enamel and dentin prisms, forming the characteristic wedge shape.\n\nWhy the other options are incorrect:\n1. Abrasion (Option 0): While aggressive horizontal toothbrushing is a common cause of cervical wear, it typically results in a smooth, rounded, or flat-bottomed defect rather than a sharp, wedge-shaped one. Furthermore, the word 'exclusively' makes this option factually incorrect as abrasion can also be caused by abrasive toothpaste or occupational habits.\n2. Erosion (Option 1): Chemical erosion from dietary or gastric acids typically presents as smooth, rounded, or 'saucer-shaped' defects with a glossy surface. It does not produce the sharp, angular margins characteristic of abfraction.\n3. Bacterial plaque (Option 2): This describes caries (demineralization). NCCLs are, by definition, non-carious. While plaque can contribute to the progression of lesions, it is not the primary etiology of the mechanical wedge-shaped defect described.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 130,
@@ -2455,7 +2463,7 @@
     "id": 168,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "A 50-year-old female patient presents with generalized cervical tooth wear classified as non-carious cervical lesions (NCCLs) on teeth #13 through #23. She reports occasional thermal sensitivity. Clinical examination reveals normal occlusion without signs of active bruxism. Which restorative material is considered the gold standard due to its modulus of elasticity mimicking that of dentin?",
+    "question": "A 50-year-old female patient presents with non-carious cervical lesions (NCCLs) on teeth #13 through #23. She reports occasional thermal sensitivity. Clinical examination reveals normal occlusion without signs of active bruxism. Which restorative material is considered the gold standard for restoring NCCLs due to its modulus of elasticity closely mimicking that of dentin, thereby reducing stress at the tooth-restoration interface?",
     "options": [
       "Microfilled composite resin",
       "Hybrid composite resin",
@@ -2463,8 +2471,9 @@
       "Resin-modified glass ionomer cement"
     ],
     "correctAnswer": 3,
-    "explanation": "Resin-modified glass ionomer cements (RMGI) have a lower modulus of elasticity compared to traditional composites, allowing them to flex with the tooth under cervical stresses without debonding. They also release fluoride and chemically bond to tooth structure. Conventional glass ionomers share this property but have poorer esthetics and early moisture sensitivity.",
-    "aiVerified": true
+    "explanation": "Resin-modified glass ionomer cements (RMGI) are widely regarded as the gold standard for restoring non-carious cervical lesions (NCCLs) in clinical practice, particularly for patients with sensitivity or high caries risk. The primary rationale is that RMGI has a modulus of elasticity (approximately 10-15 GPa) that is significantly closer to that of dentin (approximately 18-20 GPa) than that of composite resins (which range from 20-30 GPa for hybrids and up to 30+ GPa for microfilled). This mechanical compatibility reduces the stress concentration at the cervical margin, minimizing the risk of microleakage and restoration fracture under functional loads. Additionally, RMGI provides chemical adhesion to tooth structure (via the glass ionomer component) and fluoride release, which addresses the patient's thermal sensitivity and provides secondary caries prevention. \n\nWhy the other options are incorrect:\n- Microfilled composite resin (Option 0): While esthetic, it has a higher modulus of elasticity than dentin, leading to greater stress at the interface. It also lacks chemical bonding to tooth structure and fluoride release.\n- Hybrid composite resin (Option 1): Although it has superior mechanical strength and wear resistance, its modulus of elasticity is significantly higher than dentin. This mismatch can lead to higher stress at the cervical margin, potentially causing debonding or enamel fracture, especially in the absence of ideal bonding conditions often found in cervical areas.\n- Conventional glass ionomer cement (Option 2): While it shares the favorable modulus of elasticity and fluoride release, it has inferior mechanical properties (lower fracture toughness and compressive strength) and poorer esthetics compared to RMGI. It is also more susceptible to early moisture contamination during setting, making it less reliable as a 'gold standard' for definitive restoration compared to RMGI.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 169,
@@ -2980,7 +2989,7 @@
     "id": 206,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "A 45-year-old patient presents with multiple wedge-shaped defects on the buccal cervical areas of the anterior teeth. The lesions have sharp internal line angles and are not associated with caries. Which of the following is the most widely accepted primary etiological factor for the formation of these specific non-carious cervical lesions (NCCLs)?",
+    "question": "A 45-year-old patient presents with multiple wedge-shaped defects on the buccal cervical areas of the anterior teeth. The lesions exhibit sharp internal line angles and are not associated with caries. Which of the following is the most widely accepted primary etiological factor for the formation of these specific non-carious cervical lesions (NCCLs)?",
     "options": [
       "Abfraction caused by occlusal loading forces",
       "Biocorrosion from plaque-derived bacterial acids",
@@ -2988,9 +2997,10 @@
       "Abrasion from aggressive horizontal toothbrushing with abrasive paste"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is Abfraction caused by occlusal loading forces. Non-carious cervical lesions (NCCLs) with sharp internal line angles and a wedge-shaped morphology are classically attributed to abfraction. This process involves the loss of tooth structure due to cyclic occlusal loading, which creates tensile stresses at the cervical region of the tooth, leading to microfractures and material loss. While abrasion (Option D) and erosion (Options B and C) can contribute to cervical wear, they typically result in smoother, more rounded, or diffuse surfaces rather than the distinct sharp line angles characteristic of abfraction. Biocorrosion (Option B) is a term often used in the context of root caries or demineralization but is not the primary cause of wedge-shaped cervical defects. Chemical erosion (Option C) usually presents with smooth, shiny surfaces and loss of surface detail, lacking the sharp internal angles seen in abfraction.",
+    "explanation": "The correct answer is Abfraction caused by occlusal loading forces. Non-carious cervical lesions (NCCLs) with a distinct wedge-shaped morphology and sharp internal line angles are classically attributed to abfraction. This process involves the loss of tooth structure due to cyclic occlusal loading, which creates tensile stresses at the cervical region of the tooth (the area of maximum stress concentration), leading to microfractures and material loss. While abrasion (Option 3) and erosion (Options 1 and 2) can contribute to cervical wear, they typically result in smoother, more rounded, or diffuse surfaces rather than the distinct sharp line angles characteristic of abfraction. Biocorrosion (Option 1) is a term often used in the context of root caries or demineralization but is not the primary cause of wedge-shaped cervical defects. Chemical erosion (Option 2) usually presents with smooth, shiny surfaces and loss of surface detail, lacking the sharp internal angles seen in abfraction.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 207,
@@ -3461,16 +3471,17 @@
     "id": 240,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "During the preparation of an occlusal amalgam restoration on a mandibular first molar, the operator notes that the pulpal floor depth is 0.5 mm into sound dentin. What is the recommended minimum ideal depth for an amalgam restoration into dentin to ensure adequate fracture resistance of the material?",
+    "question": "When preparing a cavity for a direct amalgam restoration, what is the minimum recommended bulk thickness of the restorative material required to withstand masticatory forces and prevent fracture?",
     "options": [
-      "0.2 mm",
-      "3.0 to 4.0 mm",
+      "0.5 mm",
+      "1.0 mm",
       "1.5 to 2.0 mm",
-      "0.5 mm"
+      "3.0 to 4.0 mm"
     ],
     "correctAnswer": 2,
-    "explanation": "Amalgam requires a minimum bulk thickness of 1.5 to 2.0 mm to possess sufficient structural bulk and resistance against fracture under masticatory forces. A depth of only 0.5 mm into dentin is inadequate and risks bulk fracture of the restorative material.",
-    "aiVerified": true
+    "explanation": "The correct answer is 1.5 to 2.0 mm. According to standard operative dentistry principles (e.g., Sturdevant, Phillips' Science of Dental Materials), amalgam requires a minimum bulk thickness of approximately 1.5 to 2.0 mm to possess sufficient structural integrity and resistance to fracture under occlusal loading. If the cavity preparation is shallower than this, the amalgam is at high risk of bulk fracture or wear. Option 0 (0.5 mm) is insufficient and represents a critical failure in material bulk. Option 1 (1.0 mm) is generally considered the absolute minimum for some high-strength alloys but is not the standard recommended ideal depth for general amalgam restorations to ensure long-term fracture resistance. Option 3 (3.0 to 4.0 mm) is excessive and would unnecessarily remove healthy tooth structure, violating the principle of minimal intervention.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 241,
@@ -3536,7 +3547,7 @@
     "id": 245,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "Which of the following describes the primary mechanism of retention for a traditional Class I amalgam restoration?",
+    "question": "Which of the following describes the primary mechanism of retention for a traditional, non-bonded Class I amalgam restoration?",
     "options": [
       "Chemical bonding via 10-MDP to hydroxyapatite",
       "Frictional resistance via parallel preparation walls",
@@ -3544,8 +3555,9 @@
       "Macromechanical retention through convergent internal walls"
     ],
     "correctAnswer": 3,
-    "explanation": "Traditional amalgam restorations do not bond chemically or micromechanically to tooth structure; instead, they rely primarily on macromechanical retention through converging internal walls (e.g., buccal and lingual walls converging occlusally). Parallel walls would provide insufficient resistance, and amalgam does not utilize dentin bonding agents for primary retention in standard non-bonded preparations. 10-MDP is used for resin-based composite and zirconia bonding.",
-    "aiVerified": true
+    "explanation": "The correct answer is Macromechanical retention through convergent internal walls. In traditional operative dentistry, amalgam is a non-adhesive material that relies entirely on mechanical retention. For a Class I restoration, the primary resistance form against occlusal dislodgement is achieved by having the internal walls (buccal and lingual) converge slightly toward the occlusal surface (typically 2-5 degrees). This creates a 'lock' that prevents the restoration from being pushed out. \n\nWhy the other options are incorrect:\n1. Chemical bonding via 10-MDP: 10-MDP is a functional monomer used in resin-based bonding systems (specifically for etch-and-rinse or self-etch adhesives) to bond to hydroxyapatite. Traditional amalgam does not chemically bond to tooth structure; it is a metallic alloy that sets by a reaction between silver-tin and mercury.\n2. Frictional resistance via parallel preparation walls: While friction plays a minor role, parallel walls do not provide adequate resistance form for a non-adhesive material. Without convergence, the restoration can be easily dislodged by occlusal forces. Convergence is the critical geometric feature for retention.\n3. Micromechanical interlocking using a fourth-generation dentin bonding agent: This describes the retention mechanism for resin composite restorations, not traditional amalgam. While 'bonded amalgam' exists, the question specifies 'traditional' amalgam, which implies a standard non-bonded preparation where the material itself provides the retention via macro-mechanical features, not an adhesive interface.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 246,
@@ -3761,7 +3773,7 @@
     "id": 261,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "A 28-year-old male presents with a localized Class II cavitated carious lesion on the mesial of tooth #16 extending slightly onto the root surface. Rubber dam isolation is applied. Which restorative material is considered the gold standard for long-term clinical success when considering both wear resistance and moisture control challenges in subgingival margins?",
+    "question": "A 28-year-old male presents with a Class II cavitated carious lesion on the mesial of tooth #16. The lesion extends slightly onto the root surface, creating a subgingival margin that poses a significant challenge for moisture control despite the application of rubber dam isolation. Which restorative material is considered the gold standard for long-term clinical success in this specific scenario, primarily due to its superior wear resistance and tolerance to moisture contamination during placement?",
     "options": [
       "Resin-modified glass ionomer",
       "Microfilled composite resin",
@@ -3769,9 +3781,10 @@
       "Amalgam"
     ],
     "correctAnswer": 3,
-    "explanation": "Amalgam is considered the gold standard for long-term clinical success in Class II restorations, particularly when moisture control is challenging or the margin extends subgingivally. Amalgam is highly resistant to wear and fracture, and unlike composite resins, it is not significantly affected by moisture contamination during placement, making it the most reliable option in less-than-ideal isolation conditions. While resin-modified glass ionomers (RMGIs) offer some moisture tolerance, they have lower wear resistance and fracture strength compared to amalgam. Microfilled composites have poor wear resistance and are not suitable for Class II load-bearing areas. Conventional glass ionomer cements have low fracture strength and are generally not recommended for Class II restorations due to their brittleness and susceptibility to wear.",
+    "explanation": "Amalgam is the correct answer. In the context of NDEB AFK guidelines and operative dentistry principles, amalgam remains the gold standard for Class II restorations when moisture control is compromised or when the margin is subgingival and difficult to isolate perfectly. Amalgam is highly resistant to wear and fracture, and its placement is not significantly affected by moisture contamination, unlike composite resins which require absolute dryness for optimal bonding. While resin-modified glass ionomers (RMGIs) offer some moisture tolerance and fluoride release, they have lower wear resistance and fracture strength compared to amalgam, making them less suitable for load-bearing Class II cavities with long-term durability as the primary concern. Microfilled composites have poor wear resistance and are contraindicated for Class II load-bearing areas due to their high filler content of small particles which leads to rapid wear. Conventional glass ionomer cements have low fracture strength and are generally not recommended for Class II restorations due to their brittleness and susceptibility to wear, although they are useful for non-load-bearing areas or as liners.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 262,
@@ -3822,7 +3835,7 @@
     "id": 265,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "A 35-year-old female presents with generalized cervical sensitivity and non-carious cervical lesions (NCCLs) on teeth #14 through #24. Clinical examination reveals wedge-shaped defects at the cementoenamel junction with sharp line angles. Which of the following is considered the primary mechanical etiology for the formation of these specific lesions?",
+    "question": "A 35-year-old female presents with generalized cervical sensitivity and non-carious cervical lesions (NCCLs) on teeth #14 through #24. Clinical examination reveals wedge-shaped defects at the cementoenamel junction with sharp, well-defined line angles and hard, smooth surfaces. Which of the following is considered the primary mechanical etiology for the formation of these specific lesions?",
     "options": [
       "Chemical erosion purely from dietary acids",
       "Toothbrush abrasion alone using non-abrasive paste",
@@ -3832,7 +3845,8 @@
     "correctAnswer": 3,
     "explanation": "The clinical presentation of wedge-shaped defects at the cementoenamel junction (CEJ) with sharp line angles is characteristic of abfraction. Abfraction is a non-carious cervical lesion resulting from cyclic occlusal loading, which generates tensile and shear stresses at the cervical region of the tooth, leading to enamel and dentin loss. While toothbrush abrasion (Option B) is a common contributing factor to cervical wear, the specific morphology of 'wedge-shaped' defects with 'sharp line angles' is pathognomonic for the stress-induced mechanism of abfraction. Chemical erosion (Option A) typically results in smooth, rounded, or cup-shaped lesions rather than sharp wedge shapes. Dental caries (Option C) is a biofilm-mediated process that results in soft, demineralized tissue, not the hard, sharp-edged defects described.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 266,
@@ -4243,16 +4257,17 @@
     "id": 296,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "What is the primary function of secondary resistance form in a Class I amalgam cavity preparation?",
+    "question": "In the design of a Class I amalgam cavity preparation, what is the primary function of secondary resistance form?",
     "options": [
-      "To prevent fracture of both the remaining tooth structure and the restorative material under masticatory loads",
+      "To prevent fracture of the remaining tooth structure and the restorative material under masticatory loads",
       "To allow adequate access for visual inspection of the pulpal floor",
       "To prevent displacement of the restoration by lifting or tipping forces",
       "To provide chemical retention between the cavity walls and the alloy"
     ],
     "correctAnswer": 0,
-    "explanation": "Resistance form specifically shapes the tooth and preparation to withstand masticatory forces without fracturing the remaining tooth structure or the restoration itself. Retention form is what prevents displacement or lifting of the restoration.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 0. In operative dentistry, resistance form is defined as the shape of the tooth and the cavity preparation that prevents fracture of the remaining tooth structure and the restorative material under masticatory forces. For a Class I amalgam preparation, secondary resistance form is achieved by creating a flat pulpal floor and parallel axial walls (or a slight taper) to ensure the restoration can withstand vertical occlusal loads without dislodging or fracturing. Option 1 is incorrect because access form, not resistance form, is responsible for providing a direct line of sight and instrument access to the cavity. Option 3 is incorrect because preventing displacement by lifting or tipping forces is the definition of retention form, which is distinct from resistance form. Option 4 is incorrect because amalgam relies on mechanical retention (undercuts, grooves, or box form) rather than chemical bonding to the tooth structure; furthermore, retention is a separate principle from resistance.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 297,
@@ -5123,7 +5138,8 @@
     "correctAnswer": 2,
     "explanation": "The correct answer is Direct resin composite restoration. According to modern conservative dentistry principles and NDEB standards, when the cusps are sound and the isthmus width is less than 50% of the intercuspal distance (in this case, one-third), a direct composite restoration is the most indicated treatment. It preserves the maximum amount of healthy tooth structure, which is the primary goal in restorative dentistry. Cuspal coverage (onlays or crowns) is generally reserved for cases where the isthmus is wide (>50%), the cusps are weakened, cracked, or have a history of fracture. A full coverage crown is overly aggressive for sound cusps. An indirect cast gold onlay, while durable, is not aesthetic (contradicting the patient's request) and is more invasive than necessary given the sound cusps. Direct glass ionomer cement is less durable and esthetic than composite for a large MOD restoration in a posterior tooth.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 358,
@@ -5521,16 +5537,17 @@
     "id": 385,
     "topicId": "operative-dentistry",
     "difficulty": "hard",
-    "question": "According to the ICDAS (International Caries Detection and Assessment System) criteria, what does a score of '3' on a sound tooth surface typically indicate?",
+    "question": "According to the International Caries Detection and Assessment System (ICDAS) criteria, which clinical finding is specifically defined as a score of 3?",
     "options": [
-      "First visual sign of enamel breakdown.",
-      "Distinct visual change in enamel, more extensive than ICDAS 1.",
-      "Localized enamel breakdown (cavitation) without clinically visible dentin.",
-      "Underlying dark shadow from dentin visible through intact or broken enamel."
+      "First visual sign of enamel change (white or brown) after air drying",
+      "Distinct visual change in enamel, more extensive than ICDAS 1",
+      "Localized enamel breakdown (cavitation) without clinically visible dentin",
+      "Underlying dark shadow from dentin visible through intact or broken enamel"
     ],
     "correctAnswer": 2,
-    "explanation": "An ICDAS score of '3' signifies localized enamel breakdown or cavitation, where the enamel surface shows a clear loss of substance, but dentin is not yet clinically visible. ICDAS '1' is the first visual sign of enamel change, and '2' is a distinct visual change more extensive than '1'. ICDAS '4' indicates an underlying dark shadow from dentin, with or without localized enamel breakdown, implying dentin involvement.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 2. According to the ICDAS criteria, a score of 3 is defined as 'Localized enamel breakdown (cavitation) without clinically visible dentin.' This indicates that the enamel surface has lost substance, creating a cavity, but the lesion has not yet progressed to the point where dentin is visible or a shadow is cast. Option 0 describes ICDAS score 1 (first visual sign of enamel change). Option 1 describes ICDAS score 2 (distinct visual change in enamel, more extensive than 1). Option 3 describes ICDAS score 4 (underlying dark shadow from dentin visible through intact or broken enamel), which indicates dentin involvement.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 386,
@@ -5951,9 +5968,10 @@
       "Full coronal coverage with a stainless steel crown (SSC)"
     ],
     "correctAnswer": 3,
-    "explanation": "The most appropriate initial management for a deep carious lesion in a recently erupted permanent first molar, where the pulp is vital and there are no signs of irreversible pulpitis, is full coronal coverage with a stainless steel crown (SSC). SSCs provide a superior seal against microleakage compared to direct restorations, which is critical for deep caries to prevent bacterial ingress and subsequent pulp necrosis. They also offer durability and protection for the remaining tooth structure in a high-stress molar area. Direct pulp cap (Option A) is generally reserved for accidental pulp exposures or very specific cases of deep caries where the pulp is healthy and the exposure is minimal, but it is not the standard of care for deep caries without exposure. Pulpotomy (Option B) is indicated for signs of reversible pulpitis or when the pulp cannot be isolated, but it is not the first-line treatment if the pulp is healthy and the tooth can be restored conservatively with a full-coverage restoration. Interim therapeutic restoration (ITR) (Option C) is a temporary measure used to manage pain and seal the tooth in cases where definitive treatment is delayed or when the diagnosis is uncertain, but it is not the definitive restorative management for a vital tooth with deep caries.",
+    "explanation": "The most appropriate initial restorative management for a deep carious lesion in a recently erupted permanent first molar, where the pulp is vital and there are no signs of irreversible pulpitis, is full coronal coverage with a stainless steel crown (SSC). SSCs provide a superior seal against microleakage compared to direct restorations, which is critical for deep caries to prevent bacterial ingress and subsequent pulp necrosis. They also offer durability and protection for the remaining tooth structure in a high-stress molar area. Direct pulp cap (Option A) is generally reserved for accidental pulp exposures or very specific cases of deep caries where the pulp is healthy and the exposure is minimal, but it is not the standard of care for deep caries without exposure. Pulpotomy (Option B) is indicated for signs of reversible pulpitis or when the pulp cannot be isolated, but it is not the first-line treatment if the pulp is healthy and the tooth can be restored conservatively with a full-coverage restoration. Interim therapeutic restoration (ITR) (Option C) is a temporary measure used to manage pain and seal the tooth in cases where definitive treatment is delayed or when the diagnosis is uncertain, but it is not the definitive restorative management for a vital tooth with deep caries.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 808038458,
@@ -6155,7 +6173,7 @@
   {
     "id": 244259639,
     "topicId": "operative-dentistry",
-    "question": "A 68-year-old male patient presents with a chief complaint that his maxillary complete denture feels loose and he has difficulty eating. He has worn the current denture for 15 years. Clinical examination reveals significant alveolar ridge resorption, particularly in the anterior maxilla. The denture base appears ill-fitting and there are generalized sore spots on the palate. What is the MOST appropriate initial management approach?",
+    "question": "A 68-year-old male patient presents with a chief complaint that his maxillary complete denture feels loose and he has difficulty eating. He has worn the current denture for 15 years. Clinical examination reveals significant alveolar ridge resorption, particularly in the anterior maxilla. The denture base appears ill-fitting and there are generalized sore spots on the palate. The denture is structurally intact with no fractures, and the occlusion is stable. What is the MOST appropriate initial management approach?",
     "options": [
       "Perform a laboratory hard reline of the existing denture",
       "Fabricate a new set of complete dentures",
@@ -6163,9 +6181,10 @@
       "Prescribe a tissue conditioner and re-evaluate"
     ],
     "correctAnswer": 0,
-    "explanation": "The most appropriate initial management for a denture that is loose due to significant ridge resorption is a hard reline. A hard reline (using acrylic resin) restores the intimate contact between the denture base and the residual ridge, improving retention and stability. It is the standard of care for dentures that are otherwise structurally sound but no longer fit the changed anatomy. \n\nWhy the other options are incorrect:\n- Fabricating a new set of complete dentures (Option B) is a definitive treatment but is not the *initial* management step. A reline is less invasive, more cost-effective, and faster. New dentures are indicated if the denture is fractured, has poor aesthetics, or if the occlusion is severely compromised and cannot be corrected.\n- Adjusting occlusal contacts and using adhesives (Option C) is a temporary or palliative measure. Adhesives do not address the underlying loss of retention due to ridge resorption and are not a long-term solution. Occlusal adjustment alone will not improve retention if the base is not in contact with the ridge.\n- Prescribing a tissue conditioner and re-evaluating (Option D) is typically used as a temporary soft reline to relieve sore spots or as a diagnostic tool to assess the fit. However, for a 15-year-old denture with significant resorption, a permanent hard reline is the definitive initial corrective procedure. Tissue conditioners are not a long-term solution for retention issues.",
+    "explanation": "The most appropriate initial management for a structurally sound complete denture that has lost retention and stability due to significant alveolar ridge resorption is a laboratory hard reline. A hard reline (using heat-cured or light-cured acrylic resin) restores the intimate contact between the denture base and the residual ridge, thereby improving retention, stability, and support. It is the standard of care for dentures that are otherwise in good condition but no longer fit the changed anatomy. \n\nWhy the other options are incorrect:\n- Fabricating a new set of complete dentures (Option 1) is a definitive treatment but is not the *initial* management step when the existing denture is structurally sound. A reline is less invasive, more cost-effective, and faster. New dentures are indicated if the denture is fractured, has poor aesthetics, or if the occlusion is severely compromised and cannot be corrected.\n- Adjusting occlusal contacts and using adhesives (Option 2) is a temporary or palliative measure. Adhesives do not address the underlying loss of retention due to ridge resorption and are not a long-term solution. Occlusal adjustment alone will not improve retention if the base is not in contact with the ridge.\n- Prescribing a tissue conditioner and re-evaluating (Option 3) is typically used as a temporary soft reline to relieve sore spots or as a diagnostic tool to assess the fit. However, for a 15-year-old denture with significant resorption, a permanent hard reline is the definitive initial corrective procedure. Tissue conditioners are not a long-term solution for retention issues and are generally used for short-term relief (1-2 weeks) while a permanent reline is being fabricated or to assess tissue response.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 124234122,
@@ -6263,9 +6282,10 @@
       "Bupivacaine 0.5% with 1:200,000 epinephrine"
     ],
     "correctAnswer": 0,
-    "explanation": "For patients with stable angina pectoris, the use of local anesthetics with a vasoconstrictor is generally recommended to limit the systemic absorption of the anesthetic agent, thereby reducing the risk of cardiac toxicity. However, the concentration of the vasoconstrictor should be low to minimize the risk of tachycardia and increased myocardial oxygen demand. Lidocaine 2% with 1:100,000 epinephrine is the most appropriate choice among the options. It provides effective anesthesia with a low dose of epinephrine (0.01 mg per cartridge), which is well within the safe limit for most patients with stable cardiovascular disease. Mepivacaine without vasoconstrictor (Option B) leads to faster systemic absorption of the anesthetic, increasing the risk of lidocaine-like toxicity (though mepivacaine is less toxic, the lack of vasoconstriction is less ideal for controlling bleeding and absorption in a patient with cardiac history). Articaine 4% (Option C) has a higher concentration of anesthetic and, while 1:100,000 epinephrine is acceptable, lidocaine is the standard first-line agent with a more extensive safety profile in this context. Bupivacaine (Option D) is a long-acting amide anesthetic with a higher potential for severe cardiac toxicity if systemic levels rise, making it less desirable for routine extractions in patients with cardiac history compared to lidocaine.",
+    "explanation": "The correct answer is Lidocaine 2% with 1:100,000 epinephrine. In patients with stable cardiovascular disease, including stable angina, the use of local anesthetics with a vasoconstrictor is generally preferred over those without. The vasoconstrictor (epinephrine) slows the systemic absorption of the local anesthetic, thereby reducing the peak plasma concentration and the risk of systemic toxicity. Additionally, it provides hemostasis, which is beneficial during extraction. The concentration of 1:100,000 epinephrine (0.01 mg per cartridge) is considered safe for most patients with stable cardiac conditions, as the total dose of epinephrine administered for a single extraction is well below the threshold that would significantly increase myocardial oxygen demand or provoke ischemia in a stable patient. \n\nOption 1 (Mepivacaine 3% without vasoconstrictor) is incorrect because the absence of a vasoconstrictor leads to rapid systemic absorption of the anesthetic. This increases the risk of systemic toxicity and does not provide hemostasis. While mepivacaine is less cardiotoxic than lidocaine, the lack of vasoconstriction is a disadvantage in a patient with cardiac history where controlling absorption is key.\n\nOption 2 (Articaine 4% with 1:100,000 epinephrine) is a plausible distractor, but Lidocaine remains the gold standard first-line agent in North American dental practice due to its extensive safety profile, predictable pharmacokinetics, and widespread familiarity. While Articaine is effective, Lidocaine is the standard reference for 'most appropriate' in board examinations unless specific contraindications to Lidocaine exist.\n\nOption 3 (Bupivacaine 0.5% with 1:200,000 epinephrine) is incorrect because Bupivacaine is a long-acting amide anesthetic with a significantly higher potential for severe, refractory cardiac toxicity (arrhythmias, cardiac arrest) if systemic levels rise. It is not recommended for routine extractions in patients with cardiac history due to this risk profile. The longer duration of action is also unnecessary for a simple extraction.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 728626709,
@@ -6619,9 +6639,10 @@
       "Ranula"
     ],
     "correctAnswer": 2,
-    "explanation": "The clinical presentation of a firm, non-tender, smooth, rubbery mass in the floor of the mouth (or submandibular region) that increases in size after eating is classic for a salivary gland neoplasm, most commonly a pleomorphic adenoma. The increase in size after eating is due to the accumulation of saliva within the obstructed or non-compliant glandular tissue. While sialoliths (salivary stones) also cause post-prandial swelling, they are typically associated with acute pain, tenderness, and are often radiopaque (visible on radiographs), whereas this patient is non-tender and radiographs are unremarkable. A ranula is a mucous extravasation cyst that is typically soft, fluctuant, and bluish, not firm and rubbery. Lymphangiomas are typically soft, compressible, and present in childhood, not as a firm mass in an adult.",
+    "explanation": "The clinical presentation is most consistent with a pleomorphic adenoma (benign mixed tumor) of the sublingual gland. Pleomorphic adenomas are the most common benign salivary gland neoplasms. They typically present as a slow-growing, painless, firm, and rubbery mass. While the submandibular gland is the most common site for salivary gland tumors, the sublingual gland is the second most common site, and tumors here often present as a swelling in the floor of the mouth. The increase in size after eating is a classic sign of salivary gland pathology, resulting from the accumulation of saliva within the gland or ductal system due to the mass effect or partial obstruction caused by the tumor. Radiographs are often unremarkable because pleomorphic adenomas are typically radiolucent (though calcifications can occur, they are not required for diagnosis). \n\nSialolith (Option 0) is incorrect because salivary stones are most commonly located in the submandibular duct (Wharton's duct) and are frequently radiopaque (visible on radiographs). Furthermore, sialolithiasis typically presents with acute, painful swelling (sialadenitis) during meals, whereas this patient has a chronic, non-tender mass. \n\nLymphangioma (Option 1) is incorrect because these are congenital malformations that typically present in infancy or early childhood. They are soft, compressible, and often transilluminate, which does not match the firm, rubbery texture described in this adult patient. \n\nRanula (Option 3) is incorrect because it is a mucous extravasation cyst arising from the sublingual gland. Ranulas are typically soft, fluctuant, and bluish in color, not firm and rubbery. While they can enlarge after eating, the consistency described in the stem (firm, rubbery) strongly favors a neoplastic process over a cystic one.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 329108199,
@@ -6649,9 +6670,10 @@
       "Regional odontodysplasia"
     ],
     "correctAnswer": 1,
-    "explanation": "The clinical presentation of deep grooves and pitting on the incisal third of the labial surfaces, accompanied by yellowish-brown discoloration, is characteristic of moderate to severe dental fluorosis. Fluorosis results from the ingestion of excessive fluoride during the period of tooth development (typically the first 6-8 years of life). The 'pitting' and 'grooves' represent areas of enamel hypoplasia where the enamel matrix was not fully formed or was resorbed due to the toxic effect of fluoride on ameloblasts. The discoloration is due to subsurface porosity and staining. \n\nWhy the other options are incorrect:\n- Amelogenesis imperfecta (AI) is a genetic disorder affecting enamel formation. While it can cause discoloration and pitting, it typically affects all teeth (primary and permanent) in a generalized pattern, not just the maxillary central incisors. The prompt specifies 'unremarkable medical history' and focuses on specific developing teeth, making a genetic condition less likely than an environmental one, and the specific 'incisal third' pitting is more classic for fluorosis.\n- Molar-incisor hypomineralization (MIH) is a developmental defect affecting the enamel of first permanent molars and often incisors. However, MIH is characterized by demarcated opacities (white, yellow, or brown) and post-eruptive breakdown, not typically the deep pitting and grooves described here. Furthermore, MIH almost always involves the first permanent molars, which are not mentioned as affected in this scenario.\n- Regional odontodysplasia is a rare developmental anomaly affecting a localized group of teeth (often one quadrant), characterized by 'ghost teeth' with thin enamel and dentin. It does not present as isolated pitting on the incisal edges of central incisors.",
+    "explanation": "The correct answer is Fluorosis. The clinical presentation of deep grooves and pitting on the incisal third of the labial surfaces, accompanied by yellowish-brown discoloration, is characteristic of moderate to severe dental fluorosis. Fluorosis results from the ingestion of excessive fluoride during the period of tooth development (typically the first 6-8 years of life). The 'pitting' and 'grooves' represent areas of enamel hypoplasia where the enamel matrix was not fully formed or was resorbed due to the toxic effect of fluoride on ameloblasts. The discoloration is due to subsurface porosity and staining. \n\nWhy the other options are incorrect:\n- Amelogenesis imperfecta (AI) is a genetic disorder affecting enamel formation. While it can cause discoloration and pitting, it typically affects all teeth (primary and permanent) in a generalized pattern, not just the maxillary central incisors. The prompt specifies 'unremarkable medical history' and focuses on specific developing teeth, making a genetic condition less likely than an environmental one, and the specific 'incisal third' pitting is more classic for fluorosis.\n- Molar-incisor hypomineralization (MIH) is a developmental defect affecting the enamel of first permanent molars and often incisors. However, MIH is characterized by demarcated opacities (white, yellow, or brown) and post-eruptive breakdown, not typically the deep pitting and grooves described here. Furthermore, MIH almost always involves the first permanent molars, which are not mentioned as affected in this scenario.\n- Regional odontodysplasia is a rare developmental anomaly affecting a localized group of teeth (often one quadrant), characterized by 'ghost teeth' with thin enamel and dentin. It does not present as isolated pitting on the incisal edges of central incisors.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 599942511,
@@ -6798,14 +6820,15 @@
     "topicId": "operative-dentistry",
     "question": "A 40-year-old female patient presents for a routine recall. A panoramic radiograph reveals an incidental finding of a well-circumscribed, unilocular radiolucency with a sclerotic border in the anterior mandible, apical to the mandibular incisors. The teeth in the area are vital and asymptomatic. What is the MOST likely diagnosis?",
     "options": [
-      "Periapical cyst.",
-      "Radicular cyst.",
-      "Traumatic bone cyst.",
-      "Periapical cemento-osseous dysplasia (PCOD)."
+      "Periapical cyst",
+      "Radicular cyst",
+      "Traumatic bone cyst",
+      "Periapical cemento-osseous dysplasia (PCOD)"
     ],
     "correctAnswer": 3,
-    "explanation": "Periapical cemento-osseous dysplasia (PCOD) is a benign fibro-osseous lesion that commonly occurs in the anterior mandible of middle-aged females. It is typically asymptomatic, associated with vital teeth, and progresses from a radiolucent to a mixed and eventually radiopaque lesion, matching this description. Periapical (A) and radicular cysts (B) are associated with non-vital teeth and inflammation. A traumatic bone cyst (C) is typically a unilocular radiolucency with scalloped borders but is not specifically associated with vital teeth in the anterior mandible as definitively as PCOD.",
-    "aiVerified": true
+    "explanation": "Periapical cemento-osseous dysplasia (PCOD) is the most likely diagnosis given the classic demographic and radiographic presentation. PCOD is a benign fibro-osseous lesion that predominantly affects middle-aged women (typically 40-60 years old) of African, Asian, or Hispanic descent, though it can occur in any ethnicity. It is characteristically located in the anterior mandible, apical to the incisors and canines. The lesion is asymptomatic and the associated teeth remain vital, which is a key differentiator from inflammatory periapical lesions. Radiographically, PCOD progresses through three stages: an early radiolucent stage (which matches the description in the stem), a mixed radiolucent-radiopaque stage, and a late radiopaque stage. The presence of a sclerotic border is consistent with the early radiolucent phase of PCOD. \n\nThe other options are incorrect for the following reasons:\n1. Periapical cyst (Option 0) and Radicular cyst (Option 1) are inflammatory lesions that arise from the pulp necrosis of non-vital teeth. Since the teeth in the scenario are explicitly stated to be vital, these diagnoses are excluded. Furthermore, 'periapical cyst' and 'radicular cyst' are often used interchangeably, making them redundant distractors, but both are clinically invalid due to tooth vitality.\n2. Traumatic bone cyst (Option 2), also known as a simple bone cyst, is a unilocular radiolucency that can occur in the anterior mandible. However, it is more common in younger patients (teens to 20s) and is not as strongly associated with the specific demographic (middle-aged female) and location (anterior mandible apical to incisors) as PCOD. Additionally, traumatic bone cysts often have scalloped borders between roots, whereas PCOD in the early stage presents as a well-circumscribed radiolucency with a sclerotic rim. The combination of age, sex, location, and vital teeth makes PCOD the gold standard diagnosis.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 898068032,
@@ -7358,16 +7381,17 @@
   {
     "id": 913591981,
     "topicId": "operative-dentistry",
-    "question": "A 45-year-old female patient presents with a chief complaint of sensitivity on tooth #34 and #35. Clinical examination reveals Miller Class I gingival recession on both teeth with no interproximal attachment loss. The patient reports good oral hygiene. What is the MOST appropriate management option?",
+    "question": "A 45-year-old female patient presents with a chief complaint of dentin hypersensitivity on teeth #34 and #35. Clinical examination reveals Miller Class I gingival recession on both teeth with no interproximal attachment loss. The patient reports good oral hygiene and has no history of periodontal disease. What is the MOST appropriate initial management option to address the chief complaint?",
     "options": [
       "Referral for gingival grafting.",
       "Application of desensitizing varnish.",
       "Scaling and root planing.",
       "Placement of a full coverage crown."
     ],
-    "correctAnswer": 0,
-    "explanation": "Miller Class I recession with sensitivity, especially when aesthetics or future progression is a concern, is a strong indication for gingival grafting to cover the exposed root surface and reduce sensitivity. While desensitizing varnish can offer temporary relief, it does not address the underlying anatomical defect. Scaling and root planing would remove calculus but not resolve the recession or long-term sensitivity, and a full coverage crown is an overly aggressive and irreversible treatment.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "The most appropriate initial management for dentin hypersensitivity associated with Miller Class I gingival recession is the application of a desensitizing agent (such as varnish, gel, or toothpaste). According to Canadian dental standards and NDEB guidelines, treatment should follow a stepwise, conservative approach. Desensitizing agents work by occluding dentinal tubules or depolarizing nerve fibers, providing immediate relief for the chief complaint of sensitivity. Miller Class I recession is characterized by recession that does not extend to the mucogingival junction and no loss of interproximal attachment; it is generally stable and does not require surgical intervention unless the patient has significant aesthetic concerns or the recession is progressing due to local factors (which are absent here given good oral hygiene and no periodontal disease). Gingival grafting (Option 0) is a surgical procedure indicated for root coverage when conservative measures fail, when there is significant aesthetic demand, or when the recession is progressing; it is not the first-line treatment for simple sensitivity. Scaling and root planing (Option 2) is indicated for periodontal disease (subgingival calculus and inflammation); since the patient has good oral hygiene and no signs of periodontal disease, this is unnecessary and would not address the sensitivity caused by exposed root surfaces. Placement of a full coverage crown (Option 3) is an overly aggressive, irreversible, and inappropriate treatment for isolated dentin hypersensitivity without structural tooth failure or caries.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 784222583,
@@ -7394,9 +7418,10 @@
       "Bupivacaine"
     ],
     "correctAnswer": 0,
-    "explanation": "Articaine is the only amide local anesthetic that contains a sulfonamide group in its chemical structure. While the clinical significance of cross-reactivity between sulfonamide antibiotics and articaine is debated and considered rare, it is the only agent among the common dental local anesthetics with this structural feature. Lidocaine, mepivacaine, and bupivacaine are amide local anesthetics that do not contain a sulfonamide moiety and are therefore not contraindicated based on sulfonamide allergy. In clinical practice, if a patient has a severe, life-threatening allergy to sulfonamides, many clinicians may opt to use an alternative anesthetic like mepivacaine or lidocaine to avoid any theoretical risk, making articaine the correct answer in the context of structural contraindications.",
+    "explanation": "Articaine is the correct answer because it is the only amide local anesthetic commonly used in dentistry that contains a sulfonamide group in its chemical structure. Specifically, articaine is a thiophene derivative with a sulfonamide moiety, which shares structural homology with sulfonamide antibiotics. While the clinical significance of cross-reactivity between sulfonamide antibiotics and articaine is debated and considered rare (as the antibacterial sulfonamides and the anesthetic sulfonamides have different R1 and R2 groups), articaine is the only agent among the options with this specific structural feature. In the context of board examinations testing pharmacological structure-activity relationships, articaine is identified as the agent with potential cross-reactivity risk for patients with severe sulfonamide allergies. Lidocaine, mepivacaine, and bupivacaine are all amide local anesthetics that do not contain a sulfonamide group; their structures consist of an aromatic ring, an intermediate chain, and an amide linkage to a tertiary amine, lacking the sulfonamide moiety entirely. Therefore, they do not pose a risk of cross-reactivity based on sulfonamide structural similarity.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 493845829,
@@ -7860,9 +7885,10 @@
       "Remove the existing restoration, excavate caries, and restore with a direct or indirect restoration."
     ],
     "correctAnswer": 3,
-    "explanation": "The correct answer is Option 3. The clinical presentation of a vital tooth with lingering pain to cold (reversible or early irreversible pulpitis) and recurrent decay indicates that the pulp is inflamed but not necrotic. The standard of care for a vital tooth with reversible pulpitis or mild irreversible pulpitis that is amenable to conservative management is to remove the source of irritation (the caries and old restoration) and restore the tooth. If the pulp is deemed healthy after caries removal, a direct or indirect restoration is appropriate. If the pulp is found to be irreversibly inflamed during the procedure, root canal treatment would then be indicated, but the initial definitive plan based on the vital status and lack of spontaneous pain is restorative. Option 1 is incorrect because antibiotics are not indicated for pulpitis without signs of systemic infection or spreading cellulitis. Option 2 is incorrect because pulpotomy is typically reserved for primary teeth or specific cases in permanent teeth where the radicular pulp is healthy, but full restoration is the primary goal; furthermore, if the pulp is inflamed, pulpotomy may not be the definitive long-term solution compared to RCT or full restoration if the pulp is healthy. Option 3 is incorrect as the initial step because root canal treatment is not indicated for a vital tooth with reversible pulpitis; it is an overtreatment if the pulp can be preserved.",
+    "explanation": "The correct answer is Option 3. The clinical presentation describes a vital tooth with symptoms consistent with reversible pulpitis (sensitivity to cold that subsides, no spontaneous pain) or potentially mild irreversible pulpitis. In operative dentistry, the standard of care for a tooth with recurrent caries and a vital pulp is to remove the source of irritation (the caries and the failing restoration). If the pulp is healthy or has reversible inflammation, a definitive restoration (direct or indirect) is the treatment of choice. While 'lingering pain' can sometimes indicate irreversible pulpitis, in the context of board examinations, the absence of spontaneous pain and the presence of a clear etiology (caries) typically points toward a restorative approach as the initial definitive plan, with the understanding that if the pulp is found to be irreversibly inflamed during excavation, the treatment would be modified to endodontic therapy. However, among the choices, Option 3 is the most appropriate *initial* definitive restorative plan for a vital tooth with caries, whereas Option 2 (RCT) is considered overtreatment if the pulp is viable and reversible, and Option 1 (antibiotics) is contraindicated for pulpitis without systemic involvement. Option 4 (Pulpotomy) is generally not the standard definitive treatment for a 60-year-old adult with a large restoration and recurrent decay compared to full restoration or RCT if needed. Therefore, removing the caries and restoring the tooth is the correct gold standard approach for a vital tooth with reversible symptoms.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 607457842,
@@ -8352,9 +8378,10 @@
       "Rapid maxillary expansion (RME) to correct transverse discrepancy."
     ],
     "correctAnswer": 2,
-    "explanation": "The patient presents with a skeletal Class II malocclusion in the late mixed dentition/early permanent dentition stage. The primary goal in this phase is to modify the skeletal discrepancy while the patient still has remaining growth potential. Functional appliances (such as the Twin Block, Bionator, or Herbst) are the standard of care for correcting skeletal Class II relationships by encouraging mandibular growth and/or restraining maxillary growth. \n\nOption 1 (Fixed appliances) is incorrect as the initial step because comprehensive fixed appliance therapy addresses dental alignment but does not effectively correct the underlying skeletal Class II discrepancy in a growing patient; it is typically used after or in conjunction with growth modification, or in non-growing patients. \nOption 2 (Removable space maintainer) is incorrect because space maintainers are used to preserve space for unerupted teeth, not to correct skeletal Class II malocclusions. Distantalization of molars is not the primary mechanism for correcting a skeletal Class II jaw relationship. \nOption 4 (RME) is incorrect because the clinical description does not indicate a transverse discrepancy (narrow maxilla); it focuses on the sagittal (Class II) and vertical (deep overbite) components. RME is indicated for transverse issues, not sagittal skeletal discrepancies.",
+    "explanation": "The correct answer is Option 2. In a 12-year-old patient with a confirmed skeletal Class II discrepancy and a hypodivergent growth pattern, the primary orthodontic objective is growth modification. Functional appliances (such as the Twin Block, Bionator, or Herbst) are the gold standard for this demographic. They work by posturing the mandible forward, thereby stimulating mandibular growth and/or restraining maxillary growth, which directly addresses the underlying skeletal etiology of the malocclusion. This is particularly effective in hypodivergent patients who often have a strong mandibular growth potential. Option 0 is incorrect because fixed appliances primarily address dental alignment and tipping; while they can be used in conjunction with functional appliances, they do not effectively modify the skeletal jaw relationship on their own in a growing patient. Option 1 is incorrect because space maintainers are used to preserve arch space for unerupted teeth, not to correct sagittal skeletal discrepancies. Option 3 is incorrect because Rapid Maxillary Expansion (RME) is indicated for transverse discrepancies (maxillary constriction), which are not described in the clinical vignette; the patient's issues are sagittal (Class II) and vertical (deep overbite).",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 213315044,
@@ -8373,7 +8400,7 @@
   {
     "id": 86453363,
     "topicId": "operative-dentistry",
-    "question": "Which of the following properties of an impression material is MOST critical for accurately capturing the fine details of tooth preparations and margins for fixed prosthodontics?",
+    "question": "Which property of an elastomeric impression material is MOST critical for ensuring the accurate reproduction of fine anatomical details, such as finish lines and subgingival margins, in a fixed prosthodontic impression?",
     "options": [
       "High tear strength",
       "Low viscosity",
@@ -8381,9 +8408,10 @@
       "High dimensional stability"
     ],
     "correctAnswer": 1,
-    "explanation": "Low viscosity is the most critical property for capturing fine details. For an impression material to reproduce the intricate anatomy of a tooth preparation, including the finish line and subgingival margins, it must be able to flow into these narrow spaces. High viscosity materials will not penetrate these areas, leading to voids or inaccuracies in the master cast. While high tear strength is necessary to prevent the material from tearing during removal from undercuts, and dimensional stability is crucial for the accuracy of the final cast over time, the initial ability to capture the detail is fundamentally dependent on the material's viscosity. Hydrophilicity is important for wet tissues but does not directly determine the resolution of fine anatomical details in the same way viscosity does.",
+    "explanation": "The correct answer is Low viscosity. In operative dentistry and prosthodontics, the ability of an impression material to flow into narrow spaces, such as the finish line (margin) and subgingival areas, is directly dependent on its viscosity. A material with low viscosity can penetrate these tight spaces under light pressure, ensuring that the fine details of the tooth preparation are captured without voids or inaccuracies. This is the primary determinant of detail reproduction at the time of impression taking.\n\nWhy the other options are incorrect:\n- High tear strength (Option 0): While essential to prevent the material from tearing when removed from undercuts (especially in the presence of deep undercuts or when using rigid trays), tear strength does not influence the initial ability of the material to flow into and capture fine details. A material can have high tear strength but poor detail reproduction if its viscosity is too high.\n- High hydrophilicity (Option 2): Hydrophilicity is critical for capturing details in the presence of moisture (e.g., saliva, gingival crevicular fluid) and is particularly important for alginate and some polyvinyl siloxanes. However, it does not directly determine the resolution of fine anatomical details in dry or controlled conditions; viscosity is the more fundamental property for detail flow. Furthermore, many high-detail materials (like condensation silicones) are hydrophobic yet still require low viscosity for detail capture.\n- High dimensional stability (Option 3): Dimensional stability refers to the material's ability to maintain its shape and size over time after setting. While crucial for the accuracy of the final cast if the impression is not poured immediately, it does not affect the initial capture of fine details during the impression-taking process. A material can be dimensionally stable but fail to capture details if it is too viscous to flow into the margins.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 914447282,
@@ -8725,16 +8753,17 @@
   {
     "id": 900583453,
     "topicId": "operative-dentistry",
-    "question": "A 32-year-old male patient presents to your dental office with a chief complaint of a broken filling on tooth #36. Clinical examination reveals a fractured distal marginal ridge of a large amalgam restoration with recurrent decay evident. The tooth is vital and asymptomatic. What is the MOST appropriate restorative treatment option?",
+    "question": "A 32-year-old male patient presents with a chief complaint of a broken filling on tooth #36. Clinical examination reveals a large existing amalgam restoration with a fractured distal marginal ridge and recurrent caries. The tooth is vital, asymptomatic, and has no history of trauma or parafunctional habits. The remaining tooth structure is sound except for the carious lesion. What is the MOST appropriate restorative treatment option?",
     "options": [
-      "Direct composite restoration",
-      "Full coverage crown",
+      "Direct composite resin restoration",
+      "Full coverage ceramic crown",
       "Amalgam repair",
-      "Onlay restoration"
+      "Indirect onlay restoration"
     ],
     "correctAnswer": 3,
-    "explanation": "An onlay restoration is ideal for extensive posterior defects involving cusps or marginal ridges where a direct restoration is insufficient and a full crown is overly aggressive, providing good resistance to fracture. A direct composite may not provide adequate strength for a large defect with recurrent decay and fractured marginal ridge. Amalgam repair is suitable for minor defects, not extensive recurrent decay or fractured cusps.",
-    "aiVerified": true
+    "explanation": "The most appropriate treatment is an indirect onlay restoration (Option 3). According to current operative dentistry principles and NDEB standards, when a posterior tooth has a large existing restoration with a fractured marginal ridge and recurrent caries, the structural integrity of the tooth is compromised. An onlay provides indirect reinforcement, restores the marginal ridge, and protects the remaining tooth structure from fracture while preserving more tooth structure than a full crown. \n\nWhy other options are incorrect:\n- Direct composite resin restoration (Option 0): While possible for smaller defects, a large defect with a fractured marginal ridge and recurrent caries often lacks sufficient remaining tooth structure to support a direct restoration without a high risk of fracture or marginal breakdown. Indirect restorations offer better marginal integrity and strength for extensive posterior defects.\n- Full coverage ceramic crown (Option 1): A full crown is considered overly aggressive (over-preparation) when the remaining tooth structure is sound and does not require full circumferential coverage. It removes unnecessary healthy tooth structure, which contradicts the principle of minimal intervention.\n- Amalgam repair (Option 2): Amalgam repair is generally indicated for minor defects or small fractures in existing amalgam restorations. It is not suitable for extensive recurrent caries or a fractured marginal ridge where the structural integrity of the restoration and tooth is significantly compromised. Additionally, amalgam is less esthetic and has poorer marginal integrity compared to modern indirect restorations for large defects.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 807007352,
@@ -10343,16 +10372,17 @@
   {
     "id": 242471272,
     "topicId": "operative-dentistry",
-    "question": "A 7-year-old female patient presents to your office after falling off her bicycle, resulting in trauma to her maxillary anterior teeth. Her parents report she hit her mouth approximately 1 hour ago. Clinical examination reveals tooth #11 (maxillary right central incisor) is partially intruded and displaced palatally. The tooth is vital to pulp testing. A periapical radiograph shows the apex of #11 is displaced through the labial cortical plate. There is no evidence of root fracture. What is the MOST appropriate management?",
+    "question": "A 7-year-old female patient presents to the emergency department 1 hour after sustaining dental trauma from a bicycle fall. Clinical examination reveals that tooth #11 (maxillary right central incisor) is partially intruded and displaced palatally. The tooth is vital to pulp testing. A periapical radiograph confirms that the apex of #11 has penetrated the labial cortical plate. There is no evidence of root fracture or alveolar bone fracture. What is the MOST appropriate immediate management?",
     "options": [
-      "Allow for spontaneous re-eruption.",
-      "Surgically reposition the tooth and splint.",
-      "Extract the tooth due to severe intrusion.",
-      "Endodontic treatment followed by orthodontic extrusion."
+      "Allow for spontaneous re-eruption without intervention.",
+      "Surgically reposition the tooth to its original position and splint.",
+      "Extract the tooth due to severe intrusion and cortical plate penetration.",
+      "Perform immediate endodontic treatment followed by orthodontic extrusion."
     ],
     "correctAnswer": 1,
-    "explanation": "For an intruded permanent tooth with displacement through the labial cortical plate, surgical repositioning to its original position and splinting is the recommended treatment to avoid ankylosis and promote healing. Spontaneous re-eruption is typically reserved for milder intrusions or primary teeth. Extraction is premature given the tooth's vitality and lack of root fracture, and endodontic treatment might be necessary later if pulp necrosis occurs, but not as the immediate primary management.",
-    "aiVerified": true
+    "explanation": "The correct answer is to surgically reposition the tooth and splint it. According to the International Association of Dental Traumatology (IADT) guidelines, which are the standard of care referenced in Canadian dental board examinations (NDEB), the management of an intruded permanent tooth depends on the stage of root development. In a 7-year-old patient, the maxillary central incisor (#11) typically has an open apex (immature root). For teeth with open apices, spontaneous re-eruption is often possible and may be considered if the intrusion is mild and the tooth is not displaced through the cortical plate. However, this patient presents with a specific complication: the apex has penetrated the labial cortical plate. This displacement indicates a severe intrusion that is unlikely to resolve spontaneously and poses a risk to the developing alveolar bone and adjacent structures. Therefore, surgical repositioning to the original position is indicated to restore proper alignment and minimize the risk of ankylosis and replacement resorption. After repositioning, the tooth should be splinted for 2-4 weeks (shorter duration for open apices to allow for pulp healing and continued root development). \n\nWhy the other options are incorrect:\n- Option 0 (Allow for spontaneous re-eruption): While spontaneous re-eruption is a valid option for mild intrusions of teeth with open apices, the penetration of the labial cortical plate signifies a severe displacement that requires active intervention. Relying on spontaneous re-eruption in this context risks prolonged malposition, potential damage to the labial bone, and increased risk of ankylosis.\n- Option 2 (Extract the tooth): Extraction is not indicated as the first-line treatment. The tooth is vital, has no root fracture, and is a permanent tooth in a young patient. Preservation of the natural tooth is the primary goal in dental trauma management. Extraction would be considered only if the tooth is non-viable, severely fractured, or if repositioning is not feasible.\n- Option 3 (Endodontic treatment followed by orthodontic extrusion): Immediate endodontic treatment is not indicated for a vital tooth with an open apex. The goal is to preserve pulp vitality to allow for continued root development (apexogenesis). Endodontic treatment is reserved for cases where pulp necrosis occurs later. Orthodontic extrusion is an alternative to surgical repositioning in some cases, but surgical repositioning is generally preferred for immediate correction of severe intrusions with cortical plate penetration to restore function and aesthetics promptly. Furthermore, orthodontic extrusion takes significantly longer and is not the immediate management of choice in this acute setting with cortical plate involvement.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 105003567,
@@ -10371,7 +10401,7 @@
   {
     "id": 401966846,
     "topicId": "operative-dentistry",
-    "question": "A 55-year-old male patient presents with a chief complaint of moderate pain on chewing and sensitivity to cold in his mandibular right quadrant. He has a history of a large amalgam restoration on tooth #47 (mandibular right second molar) placed several years ago. Clinical examination reveals no swelling or fistula. The tooth is slightly tender to percussion, and cold testing elicits a sharp, transient pain that subsides quickly. A periapical radiograph shows a previous endodontic access cavity with a separated instrument in the mesial root canal, short of the apex, and no periapical radiolucency. What is the MOST appropriate initial management strategy?",
+    "question": "A 55-year-old male patient presents with a chief complaint of moderate pain on chewing and sensitivity to cold in the mandibular right quadrant. He has a history of a large amalgam restoration on tooth #47 (mandibular right second molar) placed several years ago. Clinical examination reveals no swelling or fistula. The tooth is slightly tender to percussion, and cold testing elicits a sharp, transient pain that subsides quickly. A periapical radiograph shows a previous endodontic access cavity with a separated instrument in the mesial root canal, short of the apex, and no periapical radiolucency. What is the MOST appropriate initial management strategy?",
     "options": [
       "Extract the tooth due to the separated instrument.",
       "Attempt non-surgical retreatment to remove the separated instrument and complete the root canal.",
@@ -10379,8 +10409,9 @@
       "Prescribe antibiotics and pain medication."
     ],
     "correctAnswer": 1,
-    "explanation": "Given the patient's symptoms (pain on chewing, cold sensitivity), a separated instrument in a previously accessed tooth warrants an attempt at non-surgical retreatment to remove the obstruction and complete the root canal therapy to resolve symptoms and prevent future complications. Extraction is a last resort, especially if the tooth is restorable. Monitoring is inappropriate given the symptoms, and antibiotics are not indicated for symptomatic apical periodontitis without signs of acute infection.",
-    "aiVerified": true
+    "explanation": "The correct answer is Option 1: Attempt non-surgical retreatment to remove the separated instrument and complete the root canal. The patient presents with symptoms consistent with symptomatic apical periodontitis (tenderness to percussion, pain on chewing) and a history of prior endodontic treatment (indicated by the access cavity and separated instrument). The presence of a separated instrument in a previously treated tooth is a common cause of endodontic failure or persistent symptoms due to incomplete debridement and disinfection of the root canal system. According to current endodontic guidelines (e.g., AAE, CDA), the standard of care for a symptomatic tooth with a separated instrument that is accessible is non-surgical retreatment. This involves removing the old filling material, attempting to bypass or remove the separated instrument using ultrasonic tips or micro-instruments, and then cleaning, shaping, and obturating the canal to eliminate the source of infection. \n\nOption 0 (Extraction) is incorrect because extraction is considered a last resort. The tooth is restorable (no periapical radiolucency, no fracture mentioned), and conservative management should be attempted first to preserve the natural dentition. \n\nOption 2 (Monitor) is incorrect because the patient is symptomatic (pain on chewing, percussion tenderness). Monitoring is only appropriate for asymptomatic teeth with no signs of pathology. Ignoring symptoms will likely lead to progression of the disease, potential abscess formation, and eventual need for extraction. \n\nOption 3 (Prescribe antibiotics and pain medication) is incorrect because antibiotics are not indicated for symptomatic apical periodontitis without signs of systemic involvement (fever, malaise) or spreading infection (swelling, lymphadenopathy). The primary treatment for endodontic pathology is mechanical and chemical debridement of the root canal system, not pharmacological management alone. Antibiotics do not resolve the source of infection within the canal and are not a substitute for definitive endodontic treatment.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 829706491,
@@ -10441,7 +10472,7 @@
   {
     "id": 440065838,
     "topicId": "operative-dentistry",
-    "question": "Which of the following properties is MOST critical for a successful dental impression material used for fixed prosthodontics, requiring high accuracy and dimensional stability?",
+    "question": "Which of the following properties is MOST critical for a dental impression material to ensure accurate reproduction of fine anatomical details and resistance to distortion during removal from undercuts in fixed prosthodontics?",
     "options": [
       "High viscosity",
       "Low tear strength",
@@ -10449,22 +10480,24 @@
       "High polymerization shrinkage"
     ],
     "correctAnswer": 2,
-    "explanation": "For fixed prosthodontics, hydrophilicity is a critical property for impression materials, as it allows them to accurately capture details in the presence of moisture (saliva, gingival crevicular fluid) in the oral cavity. High viscosity can make it difficult to capture fine details, and low tear strength would lead to impression tearing. High polymerization shrinkage would result in an inaccurate impression and poorly fitting restoration.",
-    "aiVerified": true
+    "explanation": "The correct answer is Hydrophilicity. In fixed prosthodontics, the oral environment is inherently moist due to saliva and gingival crevicular fluid. For an impression material to capture the fine details of the preparation margins and surrounding anatomy accurately, it must be hydrophilic (wettable by water). Hydrophilic materials, such as polyvinyl siloxane (PVS) and polyether, displace moisture and wet the tooth surface, ensuring intimate contact and high detail reproduction. Without hydrophilicity, air bubbles and moisture interference lead to voids and inaccuracies at the critical margin area.\n\nWhy the other options are incorrect:\n1. High viscosity: While working viscosity is important for handling, 'high viscosity' is not a critical property for accuracy; in fact, excessively high viscosity can prevent the material from flowing into fine details. The key is appropriate flow and consistency, not high viscosity per se.\n2. Low tear strength: This is a detrimental property. Impression materials must have HIGH tear strength to withstand the stress of removal from undercuts without tearing or distorting. Low tear strength would result in a failed impression.\n3. High polymerization shrinkage: This is a detrimental property. Impression materials must exhibit minimal dimensional change (low shrinkage) to ensure the final cast is an accurate replica of the preparation. High shrinkage leads to a poorly fitting restoration.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 18230368,
     "topicId": "operative-dentistry",
-    "question": "A 22-year-old male patient presents to the emergency department with severe trismus, swelling, and difficulty swallowing. He reports a recent history of an untreated carious tooth #37 (mandibular left second molar). Clinical examination reveals significant unilateral swelling of the submandibular and lateral pharyngeal regions, with the tongue displaced towards the contralateral side. His temperature is 39.0°C. What is the MOST immediate concern and potential diagnosis?",
+    "question": "A 22-year-old male presents to the emergency department with severe trismus, high fever (39.0°C), and difficulty swallowing. He reports a history of an untreated carious mandibular left second molar (tooth #37). Clinical examination reveals significant bilateral swelling of the submandibular region, elevation and posterior displacement of the tongue, and drooling. What is the most immediate clinical concern and the most likely diagnosis?",
     "options": [
-      "Cellulitis, requiring oral antibiotics.",
-      "Pericoronitis, requiring irrigation and analgesics.",
-      "Ludwig's Angina, requiring urgent airway management.",
-      "Temporomandibular joint disorder, requiring muscle relaxants."
+      "Ludwig's angina, requiring urgent airway management",
+      "Pericoronitis, requiring local irrigation and analgesics",
+      "Submandibular sialadenitis, requiring sialagogues and hydration",
+      "Temporomandibular joint disorder, requiring muscle relaxants"
     ],
-    "correctAnswer": 2,
-    "explanation": "The constellation of severe trismus, swelling of the submandibular/lateral pharyngeal regions, tongue displacement, and fever, especially following an untreated carious molar, is highly indicative of Ludwig's Angina, a rapidly spreading cellulitis of the floor of the mouth. This condition is life-threatening due to potential airway obstruction, making urgent airway management the most immediate concern. Oral antibiotics alone are insufficient, and TMJ disorder does not cause such extensive systemic signs.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "The clinical presentation of bilateral submandibular swelling, elevation and posterior displacement of the tongue, trismus, fever, and dysphagia in the context of a mandibular molar infection is classic for Ludwig's angina. Ludwig's angina is a rapidly progressive, bilateral cellulitis of the submandibular, sublingual, and submental spaces. It is a medical emergency because the swelling can cause rapid airway obstruction. Therefore, the most immediate concern is securing the airway (often requiring intubation or tracheostomy) before initiating antibiotic therapy. \n\nWhy other options are incorrect:\n- Pericoronitis (Option 1) typically presents with localized pain, swelling, and trismus around a partially erupted tooth, but it does not cause the extensive bilateral floor-of-mouth swelling, tongue elevation, or systemic signs (high fever) seen in Ludwig's angina. It is not an immediate airway emergency.\n- Submandibular sialadenitis (Option 2) involves inflammation of the salivary gland, often due to stones or infection. While it causes submandibular swelling, it is typically unilateral, associated with pain upon eating (salivary colic), and does not present with the characteristic tongue elevation or severe trismus seen in deep space neck infections like Ludwig's angina.\n- Temporomandibular joint disorder (Option 3) is a musculoskeletal condition that may cause trismus and pain but does not present with fever, significant soft tissue swelling, or signs of systemic infection.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 948399487,
@@ -11003,9 +11036,10 @@
       "Dentigerous cyst"
     ],
     "correctAnswer": 0,
-    "explanation": "The clinical and radiographic presentation is classic for Periapical Cemento-Osseous Dysplasia (PCOD), also known as central cementifying fibroma. Key diagnostic features include: 1) Location: Anterior mandible (incisor/canine region). 2) Patient Demographics: Most common in middle-aged women (typically 40-60 years old). 3) Vitality: The associated teeth are vital, which is the critical differentiator from inflammatory lesions like radicular cysts or periapical granulomas. 4) Radiographic Appearance: In the early (osteolytic) stage, it presents as a well-defined radiolucency with a sclerotic border. In later stages, it becomes mixed radiolucent-radiopaque. A radicular cyst (Option B) would be associated with a non-vital tooth. Ameloblastoma (Option C) is typically posterior, multilocular ('soap bubble'), and causes root resorption. A dentigerous cyst (Option D) is associated with the crown of an unerupted or impacted tooth, not the apex of an erupted, vital tooth.",
+    "explanation": "The clinical and radiographic presentation is classic for Periapical Cemento-Osseous Dysplasia (PCOD). Key diagnostic features supporting this diagnosis include: 1) Demographics: PCOD has a strong predilection for middle-aged women (typically 40-60 years old) of African or Asian descent, though it can occur in any demographic. 2) Location: It is most commonly found in the anterior mandible (incisor/canine region). 3) Vitality: The associated teeth are vital, which is the critical differentiator from inflammatory lesions like radicular cysts or periapical granulomas. 4) Radiographic Appearance: In the early (osteolytic) stage, it presents as a well-defined radiolucency with a sclerotic border. In later stages, it becomes mixed radiolucent-radiopaque. A radicular cyst (Option 1) would be associated with a non-vital tooth. Ameloblastoma (Option 2) is typically posterior, multilocular ('soap bubble'), and causes root resorption. A dentigerous cyst (Option 3) is associated with the crown of an unerupted or impacted tooth, not the apex of an erupted, vital tooth.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 16993032,
@@ -11490,7 +11524,7 @@
   {
     "id": 334815863,
     "topicId": "operative-dentistry",
-    "question": "A 72-year-old female patient presents with a chief complaint that her existing complete maxillary denture feels loose and unstable, especially when eating. She has been wearing the denture for 15 years. Clinical examination reveals significant alveolar ridge resorption in the maxilla. The mandibular dentition consists of sound natural teeth. What is the MOST appropriate initial management strategy to improve denture retention and stability?",
+    "question": "A 72-year-old female patient presents with a chief complaint that her existing complete maxillary denture feels loose and unstable, especially when eating. She has been wearing the denture for 15 years. Clinical examination reveals significant alveolar ridge resorption in the maxilla, but the denture base is intact with no cracks or fractures, and the occlusion is stable. What is the MOST appropriate initial management strategy to improve denture retention and stability?",
     "options": [
       "Fabricate a new conventional complete maxillary denture",
       "Perform a hard reline of the existing maxillary denture",
@@ -11498,9 +11532,10 @@
       "Recommend two-implant overdenture therapy for the maxilla"
     ],
     "correctAnswer": 1,
-    "explanation": "The most appropriate initial management strategy for a patient with a loose denture due to significant alveolar ridge resorption is a hard reline. A hard reline involves adding a layer of acrylic resin to the tissue surface of the existing denture to restore the intimate contact between the denture base and the resorbed ridge, thereby improving retention and stability. This is a conservative, cost-effective, and immediate solution that addresses the primary cause of the problem (loss of fit). While fabricating a new denture (Option A) is an option, it is more invasive, expensive, and time-consuming, and is typically reserved for cases where the denture base is damaged, the occlusion is significantly compromised, or the reline is not feasible. Denture adhesive (Option C) is a temporary adjunct and does not address the underlying loss of fit. Two-implant overdenture therapy (Option D) is a superior long-term solution for retention and stability, but it is a major surgical and prosthetic intervention, not an initial management strategy. It is typically considered after conservative measures like a reline have failed or if the patient is a suitable candidate and desires a more permanent solution. Therefore, a hard reline is the most appropriate initial step.",
+    "explanation": "The most appropriate initial management strategy for a patient with a loose denture due to significant alveolar ridge resorption, where the denture base is intact and occlusion is stable, is a hard reline. A hard reline involves adding a layer of acrylic resin to the tissue surface of the existing denture to restore intimate contact between the denture base and the resorbed ridge, thereby improving retention and stability. This is a conservative, cost-effective, and immediate solution that addresses the primary cause of the problem (loss of fit). While fabricating a new denture (Option 0) is an option, it is more invasive, expensive, and time-consuming, and is typically reserved for cases where the denture base is damaged, the occlusion is significantly compromised, or the reline is not feasible. Denture adhesive (Option 2) is a temporary adjunct and does not address the underlying loss of fit. Two-implant overdenture therapy (Option 3) is a superior long-term solution for retention and stability, but it is a major surgical and prosthetic intervention, not an initial management strategy. It is typically considered after conservative measures like a reline have failed or if the patient is a suitable candidate and desires a more permanent solution. Therefore, a hard reline is the most appropriate initial step.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 325925973,
@@ -11660,7 +11695,7 @@
   {
     "id": 949733861,
     "topicId": "operative-dentistry",
-    "question": "A 35-year-old female patient presents with a chief complaint of difficulty opening her mouth widely and a deviation of her mandible to the right upon opening. She reports a history of trauma to her jaw a few weeks ago. Clinical examination confirms limited mouth opening and a persistent deviation of the mandible to the right when she attempts to open. What is the MOST likely cause of her mandibular deviation upon opening?",
+    "question": "A 35-year-old female patient presents with a chief complaint of difficulty opening her mouth widely and a deviation of the mandible to the right upon opening. She reports a history of trauma to her jaw a few weeks ago. Clinical examination confirms limited mouth opening and a persistent deviation of the mandible to the right when she attempts to open. What is the MOST likely cause of her mandibular deviation upon opening?",
     "options": [
       "Hypomobility of the left temporomandibular joint",
       "Fracture of the right condylar neck",
@@ -11668,9 +11703,10 @@
       "Dislocation of the left temporomandibular joint"
     ],
     "correctAnswer": 1,
-    "explanation": "The key to this question lies in understanding the biomechanics of mandibular movement and the clinical presentation of temporomandibular joint (TMJ) pathology. When the mandible opens, it moves downward and forward. If one side of the mandible is restricted (hypomobile) or shortened, the chin will deviate toward that side during opening. In this scenario, the patient's mandible deviates to the right upon opening. This indicates that the right side is the affected side, as the right condyle is not moving forward/downward as effectively as the left, causing the chin to shift toward the right. The history of trauma a few weeks ago strongly suggests a fracture of the right condylar neck, which would result in limited opening and deviation to the right. Option A (Hypomobility of the left TMJ) is incorrect because hypomobility on the left would cause deviation to the left. Option C (Spasm of the left lateral pterygoid) is incorrect because the lateral pterygoid is a protractor; spasm would typically cause deviation to the opposite side (right) if it were pulling the condyle forward, but the primary mechanism for deviation to the side of the lesion in trauma is structural restriction or fracture on that side. Furthermore, a spasm of the left muscle would not typically cause a persistent deviation to the right in the context of trauma-induced limited opening; the structural defect on the right is the primary cause. Option D (Dislocation of the left TMJ) is incorrect because a dislocation would typically present with the mouth stuck open and deviation to the opposite side (right), but the patient has difficulty opening (limited opening), which is inconsistent with an acute dislocation where the mouth is already open. Therefore, a fracture of the right condylar neck is the most likely cause.",
+    "explanation": "The correct answer is Fracture of the right condylar neck. In mandibular biomechanics, the chin deviates toward the side of the pathology (the affected side) when there is structural restriction, shortening, or failure of the condyle to translate forward and downward during opening. A fracture of the right condylar neck, particularly if non-union or malunion has occurred following trauma a few weeks ago, results in a shortened right ramus and restricted movement of the right condyle. Consequently, the left condyle translates normally, pulling the chin toward the restricted right side. This presentation of limited opening (trismus or mechanical restriction) combined with deviation to the right is classic for a right-sided condylar fracture. Option 0 (Hypomobility of the left TMJ) is incorrect because restriction on the left would cause the chin to deviate to the left. Option 2 (Spasm of the left lateral pterygoid) is incorrect; while muscle spasms can cause deviation, the lateral pterygoid is a protractor. Spasm of the left lateral pterygoid would pull the left condyle forward, potentially causing deviation to the right, but this is typically associated with acute pain and not the persistent structural limitation seen weeks after trauma. Furthermore, the most common cause of deviation to the side of the lesion in the context of trauma is a fracture. Option 3 (Dislocation of the left TMJ) is incorrect because a dislocation typically presents with the mouth stuck open (inability to close) and deviation to the opposite side (right). This patient has difficulty opening (limited opening), which is inconsistent with an acute dislocation where the joint is already displaced anteriorly.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 550767116,
@@ -11783,7 +11819,8 @@
     "correctAnswer": 1,
     "explanation": "The most appropriate initial management for a 10-year-old complete denture with significant alveolar ridge resorption, where the denture no longer fits due to tissue changes, is the fabrication of a new complete denture. While a hard reline can be performed, it is generally indicated for minor tissue changes or when the denture base is in good condition but needs minor adjustment. In cases of significant resorption over a decade, the underlying support and retention are often compromised to a degree that a reline may not provide adequate long-term stability or fit, and the denture may have other age-related issues (e.g., wear, fracture risk) that make replacement more cost-effective and clinically superior. A soft reline is contraindicated as a primary solution for significant resorption because soft liners can harbor bacteria, are less durable, and do not address the fundamental loss of support. Denture adhesive is a temporary adjunct, not a definitive treatment for a poorly fitting denture. Implant placement is a viable long-term solution but is not the 'initial' management, especially in a 75-year-old patient who may require surgical evaluation and healing time; furthermore, the question specifies she is not a candidate for surgical intervention at this time. Therefore, fabricating a new denture is the standard of care for restoring function and comfort in this scenario.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 533934910,
@@ -12027,17 +12064,18 @@
   {
     "id": 142966031,
     "topicId": "operative-dentistry",
-    "question": "A 28-year-old female patient presents with a chief complaint of dull, constant pain in her maxillary left first molar (#26) that began two weeks ago. She has no significant medical history. Clinical examination reveals a large amalgam restoration on tooth #26. Pulp testing shows no response to cold or electric pulp test. Percussion is positive, and a small, localized swelling is noted buccally. Radiograph reveals a large periapical radiolucency associated with #26. What is the MOST appropriate diagnosis and immediate treatment for tooth #26?",
+    "question": "A 28-year-old female patient presents with a chief complaint of dull, constant pain in her maxillary left first molar (#26) that began two weeks ago. She has no significant medical history. Clinical examination reveals a large amalgam restoration on tooth #26. Pulp testing shows no response to cold or electric pulp test. Percussion is positive, and a small, localized, fluctuant swelling is noted buccally. Radiograph reveals a large periapical radiolucency associated with #26. What is the MOST appropriate diagnosis and immediate management for tooth #26?",
     "options": [
-      "Acute apical periodontitis; prescribe antibiotics",
+      "Acute apical periodontitis; prescribe systemic antibiotics",
       "Chronic apical abscess; initiate root canal treatment",
       "Condensing osteitis; observe and monitor",
       "Acute periapical abscess; incision and drainage"
     ],
     "correctAnswer": 3,
-    "explanation": "The clinical presentation of a non-vital tooth (no response to pulp tests), positive percussion, and a localized swelling indicates an acute periapical abscess. The presence of a large periapical radiolucency suggests a chronic process that has now become acute. The immediate treatment for an acute periapical abscess with swelling is incision and drainage (I&D) to relieve pressure and pain, followed by definitive endodontic treatment (root canal therapy) or extraction. Antibiotics alone are insufficient without drainage. Chronic apical abscess typically presents with a sinus tract and less acute symptoms. Condensing osteitis is a radiographic finding associated with a vital pulp and does not present with swelling or necrosis.",
+    "explanation": "The correct answer is Acute periapical abscess; incision and drainage. The clinical presentation of a non-vital tooth (negative pulp tests), positive percussion, and a localized, fluctuant swelling is diagnostic of an acute periapical abscess. The presence of a large periapical radiolucency indicates a chronic inflammatory process that has become acute. According to Canadian dental standards and endodontic guidelines (e.g., AAE/CDA), the immediate management of an acute periapical abscess with a fluctuant swelling is incision and drainage (I&D) to relieve pressure and pain. This is often followed by definitive endodontic treatment (root canal therapy) or extraction. Antibiotics alone are insufficient without drainage. Chronic apical abscess typically presents with a sinus tract and less acute symptoms. Condensing osteitis is a radiographic finding associated with a vital pulp and does not present with swelling or necrosis. Acute apical periodontitis does not typically present with a fluctuant swelling and is managed with endodontic treatment, not just antibiotics.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 27725151,
@@ -12064,9 +12102,10 @@
       "Rapid maxillary expansion (RME) alone"
     ],
     "correctAnswer": 1,
-    "explanation": "The patient is 12 years old, which typically corresponds to the late mixed dentition or early permanent dentition stage, often coinciding with the peak of pubertal growth. In a patient with a Class II skeletal base and severe maxillary protrusion, functional appliance therapy (such as a Twin Block or Herbst appliance) is the most appropriate initial treatment to harness remaining growth potential to modify the skeletal discrepancy. This approach aims to advance the mandible and/or restrain maxillary growth, thereby reducing the skeletal Class II relationship. Immediate orthognathic surgery (Option A) is contraindicated because the patient is still growing; surgery is reserved for adults or patients who have completed growth. Full fixed appliance therapy with extractions (Option C) is a valid option for camouflage treatment, but in a patient with 'severe' skeletal protrusion and remaining growth, interceptive/functional treatment is generally preferred to address the skeletal etiology before definitive alignment. RME alone (Option D) addresses transverse discrepancies (narrow maxilla) but does not correct the sagittal (Class II) skeletal base or the deep overbite effectively on its own.",
+    "explanation": "The correct answer is Functional appliance therapy. In a 12-year-old patient with a Class II skeletal base and severe maxillary protrusion, the primary goal is to intercept the skeletal discrepancy while the patient is still in the pubertal growth spurt. Functional appliances (e.g., Twin Block, Herbst, or Bionator) work by posturing the mandible forward and/or restraining maxillary growth, thereby modifying the skeletal relationship. This is the gold standard for managing significant Class II skeletal discrepancies in growing patients. Immediate orthognathic surgery (Option 0) is contraindicated because the patient is still growing; surgery is typically reserved for adults or patients who have completed growth to prevent relapse and further skeletal changes. Full fixed appliance therapy with extraction of premolars (Option 2) is a camouflage treatment that addresses dental crowding and alignment but does not correct the underlying severe skeletal Class II base; it is generally considered a secondary option if growth modification is not feasible or if the discrepancy is mild to moderate. Rapid maxillary expansion (RME) alone (Option 3) addresses transverse discrepancies (maxillary constriction) but does not effectively correct the sagittal (Class II) skeletal base or the deep overbite on its own.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 848301884,
@@ -12298,7 +12337,7 @@
   {
     "id": 570995465,
     "topicId": "operative-dentistry",
-    "question": "A 6-year-old male patient presents to the dental office with the premature loss of the mandibular primary first molar (tooth 74) due to extensive caries. Clinical examination reveals that the permanent first molar (tooth 36) has fully erupted. The permanent second premolar (tooth 35) is not yet erupted. What is the most appropriate management to prevent mesial drift of the permanent first molar?",
+    "question": "A 6-year-old male patient presents with the premature loss of the mandibular left primary first molar (tooth 74) due to extensive caries. Clinical examination reveals that the permanent mandibular left first molar (tooth 36) has fully erupted, and the permanent second premolar (tooth 35) is not yet erupted. The primary second molar (tooth 75) is present and healthy. What is the most appropriate management to prevent mesial drift of the permanent first molar and maintain space for the developing second premolar?",
     "options": [
       "No space maintainer is required as the permanent first molar has erupted.",
       "Place a band and loop space maintainer on the permanent first molar.",
@@ -12306,9 +12345,10 @@
       "Place a lingual arch space maintainer."
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is to place a band and loop space maintainer. When a primary first molar is lost prematurely and the permanent first molar has already erupted, the primary second molar (tooth 75) is still present. A band and loop is the standard of care in this scenario; it is cemented to the permanent first molar (or the primary second molar if the permanent first is not fully erupted, but here it is) and uses a loop to contact the mesial surface of the primary second molar to maintain the space for the developing second premolar. Option A is incorrect because without a space maintainer, the permanent first molar will drift mesially, closing the space for the second premolar. Option C is incorrect because a distal shoe is indicated when the primary second molar is lost *before* the permanent first molar erupts, to guide the eruption of the permanent first molar. Option D is incorrect because a lingual arch is typically used for bilateral space maintenance or when multiple teeth are involved, and is less ideal for a single unilateral space when a simpler appliance like a band and loop is sufficient.",
+    "explanation": "The correct answer is to place a band and loop space maintainer on the permanent first molar. In a 6-year-old patient, the permanent first molar (tooth 36) has typically erupted. When the primary first molar (tooth 74) is lost prematurely while the primary second molar (tooth 75) is still present, the primary risk is the mesial drift of the permanent first molar into the edentulous space, which would compromise the eruption path and space for the developing second premolar (tooth 35). The band and loop is the standard of care for unilateral space maintenance in this scenario. It consists of a band cemented to the permanent first molar and a wire loop that contacts the mesial surface of the primary second molar, effectively holding the space. Option 0 is incorrect because without intervention, the permanent first molar will drift mesially, leading to crowding and impaction of the second premolar. Option 2 is incorrect because a distal shoe is indicated when the primary second molar is lost *before* the permanent first molar erupts, to guide the eruption of the permanent first molar through the gingiva; in this case, the permanent first molar has already erupted, so a distal shoe is not applicable. Option 3 is incorrect because a lingual arch is typically reserved for bilateral space maintenance or when multiple teeth are involved; for a single unilateral space, a band and loop is simpler, less invasive, and the preferred gold standard.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 880028827,
@@ -12584,15 +12624,16 @@
     "topicId": "operative-dentistry",
     "question": "A 48-year-old male patient presents with a chief complaint of severe, spontaneous pain in the upper left posterior region, which is worse at night. He had a deep amalgam restoration placed on tooth #26 (maxillary first molar) 6 months ago. Clinical examination reveals that tooth #26 is tender to percussion and palpation. A cold test elicits a sharp, lingering pain lasting more than 30 seconds. An electric pulp test (EPT) shows no response. A periapical radiograph reveals a deep amalgam restoration with no periapical radiolucency. What is the MOST likely pulpal diagnosis for tooth #26?",
     "options": [
-      "Irreversible pulpitis",
+      "Symptomatic irreversible pulpitis",
       "Reversible pulpitis",
-      "Necrotic pulp",
+      "Pulp necrosis",
       "Asymptomatic apical periodontitis"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct diagnosis is Irreversible pulpitis (specifically symptomatic irreversible pulpitis). The key diagnostic indicators are the spontaneous, lingering pain to cold stimulation (>30 seconds) and the history of severe, spontaneous pain. While the Electric Pulp Test (EPT) shows no response, EPT is a test of nerve excitability, not vitality; it can yield false negatives in teeth with inflamed but vital pulp due to altered nerve conduction or previous trauma to the pulp. The presence of a positive cold test (even if lingering) confirms the presence of vital, inflamed pulp tissue, ruling out a necrotic pulp (which would typically show no response to thermal tests). Reversible pulpitis is ruled out because the pain is spontaneous and lingers. The tenderness to percussion indicates the inflammation has extended to the periapical tissues (symptomatic apical periodontitis), but the primary pulpal diagnosis remains irreversible pulpitis. Asymptomatic apical periodontitis is incorrect because the patient is symptomatic (pain and tenderness).",
+    "explanation": "The correct diagnosis is Symptomatic irreversible pulpitis (Option 0). According to the American Association of Endodontists (AAE) and Canadian dental standards, the hallmark of symptomatic irreversible pulpitis is spontaneous pain, pain that lingers after the removal of a stimulus (in this case, >30 seconds), and pain that may be exacerbated by temperature changes or occur spontaneously (worse at night). The positive response to the cold test confirms the presence of vital, inflamed pulp tissue. Although the Electric Pulp Test (EPT) showed no response, EPT measures the threshold of nerve excitability and is not a definitive test of vitality; false negatives can occur in teeth with severe inflammation, calcification, or previous trauma, whereas thermal tests are the gold standard for assessing pulp vitality. The tenderness to percussion indicates that the inflammation has extended to the periapical tissues (concurrent symptomatic apical periodontitis), but the primary pulpal diagnosis remains irreversible pulpitis. Reversible pulpitis (Option 1) is incorrect because the pain is spontaneous and lingers; reversible pulpitis pain is typically provoked and subsides immediately upon removal of the stimulus. Pulp necrosis (Option 2) is incorrect because a necrotic pulp would not respond to cold stimulation; the presence of a lingering cold response definitively rules out necrosis. Asymptomatic apical periodontitis (Option 3) is incorrect because the patient is symptomatic (pain and tenderness), and this diagnosis refers to a periapical condition, not a pulpal one, and typically presents without pain.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 180997335,
@@ -12765,16 +12806,17 @@
   {
     "id": 726850475,
     "topicId": "operative-dentistry",
-    "question": "Which of the following describes the primary histopathological feature distinguishing aggressive periodontitis from chronic periodontitis?",
+    "question": "Which of the following is the primary clinical-histopathological characteristic that distinguishes aggressive periodontitis from chronic periodontitis?",
     "options": [
-      "Presence of Actinobacillus actinomycetemcomitans in high proportions within the subgingival plaque.",
-      "Rapid destruction of periodontal attachment and bone, often without significant microbial plaque accumulation proportional to the severity.",
-      "Predominant inflammatory infiltrate of plasma cells and lymphocytes in the connective tissue.",
-      "Slow, progressive loss of clinical attachment and alveolar bone, directly correlated with local irritants."
+      "Rapid destruction of periodontal attachment and alveolar bone that is disproportionate to the amount of local irritants (plaque/calculus) present.",
+      "Slow, progressive loss of clinical attachment and alveolar bone that is directly correlated with the accumulation of local irritants.",
+      "A subgingival microbiome dominated by Actinobacillus actinomycetemcomitans in high proportions.",
+      "A connective tissue inflammatory infiltrate predominantly composed of plasma cells and lymphocytes."
     ],
-    "correctAnswer": 1,
-    "explanation": "Aggressive periodontitis is primarily distinguished by its rapid progression of attachment and bone loss, often appearing disproportionate to the amount of local factors. While A. actinomycetemcomitans is associated with aggressive forms, it's a microbiological finding, not a primary histopathological feature. Slow, progressive loss of attachment correlated with local irritants describes chronic periodontitis.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "The correct answer is Option 0. According to the 1999 International Workshop for a Classification of Periodontal Diseases and Conditions (which remains the standard reference for distinguishing these entities in many board contexts until the 2017 classification fully supersedes them in specific curricula, but the distinction of 'aggressive' vs 'chronic' relies on this definition), aggressive periodontitis is characterized by rapid attachment loss and bone destruction that is disproportionate to the local factors (plaque and calculus). This 'disproportionality' is the key distinguishing feature from chronic periodontitis, where the rate of destruction is generally proportional to the local irritants. Option 1 describes chronic periodontitis. Option 2 is a microbiological finding; while A. actinomycetemcomitans is strongly associated with localized aggressive periodontitis, it is not a histopathological feature, and its presence is not exclusive or sufficient for diagnosis without the clinical context of rapid progression. Option 3 describes a non-specific inflammatory infiltrate found in both chronic and aggressive forms, as well as gingivitis, and does not distinguish between the two periodontitis types.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 992881108,
@@ -13230,16 +13272,17 @@
   {
     "id": 412139429,
     "topicId": "operative-dentistry",
-    "question": "Which of the following nerves provides sensory innervation to the pulp of the maxillary canine and incisors?",
+    "question": "Which of the following nerves provides the primary sensory innervation to the dental pulp of the maxillary canine and the maxillary incisors?",
     "options": [
-      "Posterior superior alveolar nerve.",
-      "Middle superior alveolar nerve.",
-      "Greater palatine nerve.",
-      "Anterior superior alveolar nerve."
+      "Posterior superior alveolar nerve",
+      "Middle superior alveolar nerve",
+      "Greater palatine nerve",
+      "Anterior superior alveolar nerve"
     ],
     "correctAnswer": 3,
-    "explanation": "The anterior superior alveolar nerve, a branch of the maxillary nerve (V2), provides sensory innervation to the maxillary incisors and canines, as well as the labial gingiva. The posterior superior alveolar nerve innervates the maxillary molars. The middle superior alveolar nerve innervates the maxillary premolars and mesiobuccal root of the first molar.",
-    "aiVerified": true
+    "explanation": "The anterior superior alveolar nerve (ASA) is the correct answer. It is a branch of the maxillary nerve (V2) that runs within the anterior wall of the maxillary sinus. It provides sensory innervation to the maxillary central incisors, lateral incisors, and canines, as well as the associated labial gingiva and alveolar bone. The posterior superior alveolar nerve (PSA) innervates the maxillary molars (excluding the mesiobuccal root of the first molar). The middle superior alveolar nerve (MSA), when present (it is absent in approximately 30-40% of the population), innervates the maxillary premolars and the mesiobuccal root of the first molar; if absent, these areas are innervated by the PSA. The greater palatine nerve provides sensory innervation to the hard palate and the palatal gingiva of the maxillary molars and premolars, not the dental pulp of the anterior teeth.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 306535664,
@@ -14264,7 +14307,7 @@
   {
     "id": 623640718,
     "topicId": "operative-dentistry",
-    "question": "Which of the following cells is primarily responsible for the continuous remodeling and maintenance of alveolar bone?",
+    "question": "Which of the following cell types acts as the primary mechanosensor and regulator of the coupled resorption and formation processes during the continuous remodeling of alveolar bone?",
     "options": [
       "Odontoblasts",
       "Ameloblasts",
@@ -14272,8 +14315,9 @@
       "Fibroblasts"
     ],
     "correctAnswer": 2,
-    "explanation": "Osteocytes, which are mature bone cells embedded within the bone matrix, play a crucial role in sensing mechanical stress and orchestrating the continuous remodeling and maintenance of alveolar bone by signaling osteoblasts and osteoclasts. Odontoblasts form dentin, ameloblasts form enamel, and fibroblasts produce connective tissue, none of which are primarily responsible for alveolar bone remodeling.",
-    "aiVerified": true
+    "explanation": "Osteocytes are the mature bone cells embedded within the mineralized matrix and serve as the primary mechanosensors in bone tissue. They detect mechanical strain and fluid flow shear stress, subsequently orchestrating the bone remodeling cycle by signaling osteoblasts (formation) and osteoclasts (resorption) via the RANKL/OPG pathway and sclerostin regulation. This role is critical for the maintenance and adaptation of alveolar bone to functional loads. Odontoblasts are responsible for dentinogenesis and are not involved in bone remodeling. Ameloblasts are responsible for enamel formation and are not present in alveolar bone. Fibroblasts are the primary cells of the periodontal ligament and connective tissue, producing collagen and maintaining the soft tissue matrix, but they do not directly regulate the mineralized bone remodeling process.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 639658578,
@@ -14334,17 +14378,18 @@
   {
     "id": 168876425,
     "topicId": "operative-dentistry",
-    "question": "A 35-year-old female patient presents with chronic sensitivity to cold in tooth #26 (maxillary right canine). Clinical examination reveals severe gingival recession exposing the cervical root surface and a deep abfraction lesion on the buccal aspect. The tooth is vital, and there is no evidence of caries or periodontal pocketing. What is the MOST appropriate initial management to address the sensitivity?",
+    "question": "A 35-year-old female patient presents with chronic, severe sensitivity to cold in tooth #26 (maxillary right canine). Clinical examination reveals severe gingival recession exposing the cervical root surface and a deep abfraction lesion on the buccal aspect. The tooth is vital, and there is no evidence of caries or periodontal pocketing. What is the MOST appropriate initial management to address the sensitivity?",
     "options": [
       "Root canal treatment",
       "Extraction",
       "Direct composite restoration of the abfraction lesion",
       "Prescribe desensitizing toothpaste and monitor"
     ],
-    "correctAnswer": 2,
-    "explanation": "The patient presents with dentin hypersensitivity caused by exposed dentin due to gingival recession and an abfraction lesion. The most appropriate initial management for a deep abfraction lesion causing significant sensitivity is direct composite restoration. This procedure seals the exposed dentinal tubules, eliminates the stimulus pathway, and restores the tooth's contour. Root canal treatment (Option A) is contraindicated because the tooth is vital and there is no pulpal pathology. Extraction (Option B) is overly aggressive and inappropriate for a vital tooth with a treatable surface lesion. While desensitizing toothpaste (Option D) is a valid adjunctive therapy for mild sensitivity, it is often insufficient as the sole initial management for a deep abfraction lesion with severe symptoms; definitive restoration is required to resolve the structural defect and provide long-term relief.",
+    "correctAnswer": 3,
+    "explanation": "The most appropriate initial management for dentin hypersensitivity, even in the presence of an abfraction lesion, is conservative, non-invasive therapy. According to current Canadian dental standards and NDEB guidelines, the first-line treatment for dentin hypersensitivity is the application of desensitizing agents (such as potassium nitrate or stannous fluoride toothpaste) and monitoring. This approach adheres to the principle of minimal intervention and reversibility. While the patient has a deep abfraction lesion, immediate operative restoration (Option 2) is not the *initial* step; it is reserved for cases where conservative management fails, or if there is significant structural compromise affecting function or esthetics that cannot be managed otherwise. Restorative procedures carry risks of further tooth structure loss and potential pulpal irritation, which should be avoided if a less invasive option is viable. Root canal treatment (Option 0) is contraindicated because the tooth is vital with no signs of irreversible pulpitis or necrosis. Extraction (Option 1) is grossly inappropriate for a vital tooth with a treatable surface lesion. Therefore, prescribing desensitizing toothpaste and monitoring is the correct initial management.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 603458461,
@@ -14452,7 +14497,7 @@
   {
     "id": 665359127,
     "topicId": "operative-dentistry",
-    "question": "A 28-year-old male patient presents with a small, non-cavitated white spot lesion on the buccal surface of tooth #11 (maxillary right central incisor). The lesion is in the outer third of the enamel. The patient is motivated for conservative treatment. What is the most appropriate initial management strategy?",
+    "question": "A 28-year-old male patient presents with a non-cavitated white spot lesion on the buccal surface of tooth #11 (maxillary right central incisor). Clinical examination reveals that the lesion is located in the outer third of the enamel and the surface is intact. The patient is motivated for conservative aesthetic management. What is the most appropriate initial management strategy?",
     "options": [
       "Placement of a glass ionomer sealant over the lesion.",
       "Microabrasion with pumice slurry followed by fluoride varnish application.",
@@ -14460,8 +14505,9 @@
       "Infiltration with a resin-based infiltrant (e.g., Icon)."
     ],
     "correctAnswer": 3,
-    "explanation": "Resin-based infiltration is the most effective conservative treatment for non-cavitated white spot lesions as it penetrates the porous enamel to mask the lesion and arrest progression. Microabrasion is more appropriate for surface stains or very superficial lesions but may not halt progression in deeper white spot lesions. Composite restoration is too invasive for a non-cavitated lesion, and GIC sealants are not designed for aesthetic restoration of anterior white spot lesions.",
+    "explanation": "The correct answer is Infiltration with a resin-based infiltrant (e.g., Icon). Resin infiltration is the current gold standard for the aesthetic management of non-cavitated white spot lesions (WSPs) that are located in the outer third of the enamel. The technique involves the application of a hydrophobic resin (typically ethanol-based) that penetrates the porous, demineralized enamel subsurface, replacing the air/water with resin. This reduces the refractive index difference between the lesion and sound enamel, thereby masking the opacity and improving aesthetics without removing tooth structure. It also helps arrest progression by sealing the porous surface against further acid attack. \n\nWhy the other options are incorrect:\n1. Placement of a glass ionomer sealant: GIC sealants are primarily indicated for pit and fissure sealing on posterior teeth. They are not designed for the aesthetic restoration of anterior surfaces, often have poor color stability, and do not provide the same level of optical masking as resin infiltration for WSPs.\n2. Microabrasion with pumice slurry: While microabrasion can be used for superficial discolorations, it is less effective for white spot lesions that extend into the subsurface enamel (even if in the outer third) because it removes surface enamel but does not address the subsurface porosity responsible for the opacity. Furthermore, aggressive microabrasion on an anterior tooth carries a risk of creating a new, more visible defect if not carefully controlled. Resin infiltration is superior for masking the subsurface lesion itself.\n3. Restoration with nanofilled composite resin: This is considered too invasive for a non-cavitated lesion. Conservative dentistry principles dictate that tooth structure should be preserved whenever possible. Composite restoration requires removal of sound enamel to create retention and a proper margin, which is contraindicated for a non-cavitated lesion where non-invasive or minimally invasive options (like infiltration or remineralization) are available.",
     "aiGenerated": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   }
 ]

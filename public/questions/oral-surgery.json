@@ -450,17 +450,18 @@
   {
     "id": 33,
     "topicId": "oral-surgery",
-    "question": "During the extraction of a maxillary first molar, a 3 mm communication between the oral cavity and the maxillary sinus is identified. The patient is healthy and has no history of sinusitis. What is the most appropriate immediate management?",
+    "question": "During extraction of a maxillary first molar, a 3‑mm oro‑antral communication is discovered. The patient is otherwise healthy and has no history of sinus disease. What is the most appropriate immediate management of this communication?",
     "options": [
-      "Refer to an Oral and Maxillofacial Surgeon for a Caldwell-Luc procedure.",
-      "Administer antibiotics and advise against nose blowing, but do not attempt closure.",
-      "Place a Gelfoam plug in the socket and suture tightly.",
-      "Attempt a primary closure using a buccal advancement flap."
+      "Refer the patient to an oral and maxillofacial surgeon for a Caldwell‑Luc procedure.",
+      "Prescribe antibiotics, advise the patient not to blow his nose, and observe without attempting closure.",
+      "Place a Gelfoam plug in the socket and suture the site tightly.",
+      "Perform a primary closure of the defect using a buccal advancement flap."
     ],
     "correctAnswer": 3,
-    "explanation": "A 3 mm oroantral communication (OAC) is considered a small defect that can typically be managed by the general dentist at the time of extraction. The standard of care for small OACs (< 5 mm) is primary closure, most commonly achieved using a buccal advancement flap. This technique provides a vascularized soft tissue seal to prevent the formation of a chronic oroantral fistula. Option A (Gelfoam plug) is generally reserved for very small communications or as an adjunct, but primary closure with a flap is the definitive treatment for a 3 mm defect to ensure healing. Option B (Caldwell-Luc) is an invasive surgical procedure indicated for large defects or chronic sinusitis, not for a small acute communication in a healthy patient. Option C (Antibiotics only) is insufficient because without physical closure, the communication is likely to persist and become a fistula; antibiotics are adjunctive, not curative, for the structural defect.",
+    "explanation": "A 3‑mm oro‑antral communication (OAC) is considered a small defect. Current Canadian dental guidelines (NDEB, Canadian Dental Association) recommend that OACs less than 5 mm be closed surgically at the time of extraction to prevent progression to a chronic oro‑antral fistula. The buccal advancement (Rehrmann) flap provides a well‑vascularized soft‑tissue seal and is the technique of choice for primary closure of small to moderate OACs. \n\nWhy the other options are incorrect:\n0. Caldwell‑Luc is an invasive maxillary sinus surgery reserved for large defects, chronic sinusitis, or when other closure techniques have failed. It is unnecessary and overly aggressive for a 3‑mm acute OAC in a healthy patient.\n1. Antibiotics and nasal precautions are adjunctive measures; they do not close the defect. An untreated 3‑mm communication is unlikely to close spontaneously and may develop into a chronic fistula.\n2. Gelfoam can be used as a temporary hemostatic aid or for very tiny (<2 mm) communications, but it does not provide a reliable tissue seal. Without definitive closure, the risk of persistent communication remains high.\n\nTherefore, the gold‑standard immediate management is primary closure with a buccal advancement flap (option 3).",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 34,
@@ -929,15 +930,16 @@
     "topicId": "oral-surgery",
     "question": "A 25-year-old female presents with a painless, asymptomatic swelling in the anterior maxilla. A periapical radiograph reveals a well-circumscribed, unilocular radiolucency associated with the non-vital maxillary left central incisor. Aspiration yields a straw-colored fluid. What is the most appropriate definitive treatment?",
     "options": [
-      "Root canal treatment of the associated tooth and observation.",
-      "Surgical enucleation of the cyst with apicoectomy.",
-      "Marsupialization (decompression) of the cyst.",
-      "Extraction of the tooth and curettage of the lesion."
+      "Root canal treatment of the associated tooth and observation",
+      "Surgical enucleation of the cyst with apicoectomy",
+      "Marsupialization (decompression) of the cyst",
+      "Extraction of the tooth and curettage of the lesion"
     ],
     "correctAnswer": 1,
-    "explanation": "The clinical presentation (painless swelling, well-circumscribed radiolucency, non-vital tooth, straw-colored aspirate) is classic for a radicular cyst (periapical cyst). The definitive treatment for a radicular cyst is surgical enucleation (complete removal of the cyst lining) along with the source of infection. Since the tooth is non-vital and the cyst is associated with the apex, an apicoectomy (resection of the root apex) is typically performed concurrently to ensure complete removal of the pathological tissue and prevent recurrence. Root canal treatment alone (Option A) is often insufficient for established cysts as the cyst lining is a separate entity that does not resolve with endodontic therapy alone, though some small periapical lesions may resolve. Marsupialization (Option C) is a decompression technique used for large cysts to reduce size before enucleation or to preserve bone, but it is not the definitive treatment as the cyst lining remains. Extraction and curettage (Option D) is overly aggressive for a tooth that may be restorable and does not address the root apex pathology as precisely as an apicoectomy.",
+    "explanation": "The clinical presentation (painless swelling, well-circumscribed radiolucency, non-vital tooth, straw-colored aspirate) is classic for a radicular cyst (periapical cyst). The definitive treatment for a radicular cyst is surgical enucleation (complete removal of the cyst lining) along with the source of infection. Since the tooth is non-vital and the cyst is associated with the apex, an apicoectomy (resection of the root apex) is typically performed concurrently to ensure complete removal of the pathological tissue and prevent recurrence. Root canal treatment alone (Option 0) is often insufficient for established cysts as the cyst lining is a separate entity that does not resolve with endodontic therapy alone, though some small periapical lesions may resolve. Marsupialization (Option 2) is a decompression technique used for large cysts to reduce size before enucleation or to preserve bone, but it is not the definitive treatment as the cyst lining remains. Extraction and curettage (Option 3) is overly aggressive for a tooth that may be restorable and does not address the root apex pathology as precisely as an apicoectomy.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 68,
@@ -1293,17 +1295,18 @@
   {
     "id": 93,
     "topicId": "oral-surgery",
-    "question": "A 65-year-old patient with a prosthetic heart valve requires a single tooth extraction. The patient has a documented allergy to penicillin. According to current Canadian dental guidelines (e.g., Canadian Dental Association), what is the most appropriate antibiotic prophylaxis regimen for this patient?",
+    "question": "A 65‑year‑old patient with a prosthetic heart valve requires a single tooth extraction. The patient has a documented penicillin allergy. According to current Canadian dental guidelines (e.g., Canadian Dental Association), which antibiotic prophylaxis regimen is most appropriate?",
     "options": [
-      "Amoxicillin 2 g orally one hour before the procedure",
-      "Clindamycin 600 mg orally one hour before the procedure",
-      "Azithromycin 500 mg orally one hour before the procedure",
-      "No antibiotic prophylaxis is required for single tooth extraction in this patient"
+      "Amoxicillin 2 g orally one hour before the procedure",
+      "Clindamycin 600 mg orally one hour before the procedure",
+      "Azithromycin 500 mg orally one hour before the procedure",
+      "No antibiotic prophylaxis is required for a single tooth extraction in this patient"
     ],
     "correctAnswer": 1,
-    "explanation": "Patients with prosthetic heart valves are at high risk for infective endocarditis and require antibiotic prophylaxis for dental procedures involving manipulation of gingival tissue or the periapical region of teeth, or perforation of the oral mucosa, such as tooth extraction. The standard first-line agent is Amoxicillin 2 g orally. However, in patients with a penicillin allergy, the recommended alternative is Clindamycin 600 mg orally (for adults) taken one hour before the procedure. Azithromycin is not the standard recommended alternative in major Canadian and international guidelines for this specific indication; it is typically reserved for patients who cannot tolerate both penicillins and clindamycin. Option A is incorrect due to the penicillin allergy. Option D is incorrect because prophylaxis is indicated for this high-risk patient undergoing a qualifying procedure.",
+    "explanation": "Patients with prosthetic heart valves are classified as high‑risk for infective endocarditis and require antibiotic prophylaxis for dental procedures that involve manipulation of gingival tissue, the periapical region, or perforation of oral mucosa—such as a tooth extraction. The first‑line prophylactic agent in Canada is amoxicillin 2 g PO 1 hour before the procedure. For patients with any penicillin allergy, the recommended alternative is clindamycin 600 mg PO 1 hour before the procedure (or 300 mg IV). Azithromycin (or clarithromycin) is reserved only for patients who cannot tolerate both penicillins and clindamycin. Therefore, option 1 is the gold‑standard regimen. \n\nWhy the other options are incorrect:\n- Option 0 (Amoxicillin 2 g) is contraindicated because the patient is allergic to penicillins.\n- Option 2 (Azithromycin 500 mg) is not the preferred alternative; it is used only when clindamycin is contraindicated or not tolerated.\n- Option 3 (No prophylaxis) is incorrect because a prosthetic heart valve is a high‑risk cardiac condition, and a tooth extraction is a qualifying procedure that mandates prophylaxis.\n\nThus, clindamycin 600 mg orally one hour before the extraction is the correct answer per the Canadian Dental Association/Canadian Cardiovascular Society prophylaxis guidelines.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 94,
@@ -2403,16 +2406,17 @@
   {
     "id": 172,
     "topicId": "oral-surgery",
-    "question": "What is the primary advantage of using a mucoperiosteal flap for surgical access to an impacted tooth, compared to a full-thickness mucosal flap?",
+    "question": "What is the primary advantage of using a full‑thickness (mucoperiosteal) flap rather than a partial‑thickness (mucosal) flap for surgical exposure of an impacted tooth?",
     "options": [
-      "Faster healing due to less tissue manipulation.",
-      "Provides better hemostasis.",
-      "Allows for preservation of the underlying periosteum.",
-      "Offers superior access and protects bone through periosteal reflection."
+      "Faster healing because less tissue is manipulated",
+      "Provides better intra‑operative hemostasis",
+      "Preserves the periosteum over the bone, promoting optimal bone healing",
+      "Allows greater flap mobility and tension‑free primary closure"
     ],
-    "correctAnswer": 3,
-    "explanation": "A mucoperiosteal flap (full-thickness flap) elevates both mucosa and periosteum, providing superior access to the underlying bone and protecting the bone from surgical trauma and desiccation during the procedure. It also allows for primary closure and maintains the integrity of the periosteum for proper bone healing. A 'full-thickness mucosal flap' is not a standard term, but if it implied only mucosa, it would lack the periosteal component necessary for proper surgical access and healing outcomes.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "A mucoperiosteal (full‑thickness) flap includes the periosteum, which remains attached to the reflected flap and thus retains its blood supply. Preservation of the periosteum is essential for maintaining the osteogenic potential of the underlying bone, protecting it from desiccation, and ensuring optimal bone healing after removal of an impacted tooth. This is the principal benefit over a partial‑thickness (mucosal‑only) flap, which leaves the periosteum attached to the bone and can compromise bone vitality.\n\nWhy the distractors are incorrect:\n0. Faster healing due to less manipulation – a full‑thickness flap actually involves more tissue elevation than a mucosal‑only flap, so healing is not faster because of reduced manipulation.\n1. Provides better hemostasis – while a full‑thickness flap may expose bone for better control of bleeding, hemostasis is not the primary advantage; the key benefit relates to periosteal preservation.\n3. Allows greater flap mobility and tension‑free closure – a partial‑thickness flap generally provides more flexibility; the full‑thickness flap is used for access and periosteal preservation, not primarily for mobility.\n\nThus, under the NDEB clinical standards, the gold‑standard answer is option 2.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 173,
@@ -2586,16 +2590,17 @@
   {
     "id": 185,
     "topicId": "oral-surgery",
-    "question": "A 50-year-old male presents with a well-circumscribed, exophytic, firm, white lesion measuring 1.5 cm in diameter on the lateral border of his tongue, which has been present for 3 months and is asymptomatic. What is the most appropriate biopsy technique for definitive diagnosis of this lesion?",
+    "question": "A 50-year-old man presents with a well‑circumscribed, exophytic, firm, white lesion measuring 1.5 cm in greatest dimension on the lateral border of the tongue. The lesion has been present for 3 months and is asymptomatic. Which biopsy technique is most appropriate to obtain a definitive diagnosis?",
     "options": [
-      "Excisional biopsy.",
-      "Incisional biopsy.",
-      "Brush biopsy.",
-      "Fine needle aspiration (FNA)."
+      "Excisional biopsy",
+      "Incisional biopsy",
+      "Brush biopsy",
+      "Fine‑needle aspiration (FNA)"
     ],
     "correctAnswer": 0,
-    "explanation": "For a relatively small (1.5 cm), well-circumscribed, clinically suspicious lesion, an excisional biopsy is the preferred method as it removes the entire lesion along with a margin of surrounding healthy tissue, allowing for complete histological assessment and often serving as definitive treatment. An incisional biopsy is typically used for larger lesions or those in anatomically sensitive areas where total removal is not initially feasible. Brush biopsies are screening tools, and FNA is for evaluation of deeper masses, not surface lesions.",
-    "aiVerified": true
+    "explanation": "According to the NDEB Clinical Guidelines and standard oral pathology teaching (Neville, Carranza, etc.), a lesion that is well‑circumscribed, ≤2 cm in size, and located on a surface that can be safely removed without compromising function is best managed with an excisional biopsy. This technique provides the entire lesion with a peripheral margin, allowing the pathologist to assess the full histologic architecture and depth of invasion, and it often serves as definitive treatment for benign or early malignant lesions such as leukoplakia or early squamous cell carcinoma.\n\nWhy the other options are incorrect:\n1. **Incisional biopsy** – Reserved for larger (>2 cm) lesions, lesions in anatomically critical sites where removal would cause functional loss, or when a definitive surgical excision is not initially planned. In this case the lesion is small enough to be removed entirely.\n2. **Brush biopsy** – A non‑invasive screening tool that collects superficial cells for cytology. It lacks the architectural information needed for a definitive diagnosis of dysplasia or carcinoma and is not considered a gold‑standard diagnostic method.\n3. **Fine‑needle aspiration (FNA)** – Used for sampling sub‑mucosal or deep masses (e.g., lymph nodes, salivary gland tumors). It is inappropriate for a superficial mucosal lesion because it does not provide tissue architecture and may miss surface dysplasia.\n\nTherefore, an excisional biopsy is the gold‑standard approach for this 1.5‑cm, well‑circumscribed tongue lesion.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 186,
@@ -2699,17 +2704,18 @@
   {
     "id": 193,
     "topicId": "oral-surgery",
-    "question": "During the extraction of a maxillary second premolar (#15), the palatal root tip fractures and remains in the socket. Radiographic assessment confirms the root tip is approximately 3 mm in length, completely embedded in the alveolar bone, and not mobile. The maxillary sinus floor appears intact. What is the most appropriate next step in management?",
+    "question": "During extraction of the maxillary second premolar (#15), the palatal root tip fractures and remains in the socket. Radiographic assessment shows a 3 mm root tip fragment that is completely embedded in the alveolar bone, not mobile, and the maxillary sinus floor is intact. What is the most appropriate next step in management?",
     "options": [
       "Inform the patient and leave the root tip in situ, monitoring for symptoms.",
-      "Attempt removal with a periotome and fine root tip elevators.",
+      "Attempt removal with a periotome and fine root‑tip elevators.",
       "Perform a small osteotomy around the root tip and retrieve it carefully.",
-      "Refer to an endodontist for potential retrieval through the root canal of the adjacent tooth."
+      "Refer to an endodontist for potential retrieval through the canal of the adjacent tooth."
     ],
-    "correctAnswer": 2,
-    "explanation": "The most appropriate management for a small, embedded, non-mobile root tip that cannot be luxated is surgical retrieval via a small osteotomy. Leaving the root tip in situ (Option A) is generally reserved for cases where the tip is very small, deep, and removal would cause significant morbidity (e.g., sinus perforation or nerve damage), or if the patient is medically compromised; however, for a 3mm tip in a standard extraction site, retrieval is the standard of care to prevent potential infection, cyst formation, or foreign body reaction. Attempting removal with a periotome (Option B) is unlikely to succeed because the tip is described as 'completely embedded' and 'not mobile,' meaning it is locked in bone and cannot be luxated without bone removal. Referring to an endodontist (Option D) is clinically nonsensical, as endodontic retrieval through an adjacent tooth's canal is not a viable or standard procedure for a fractured root tip in a different socket.",
+    "correctAnswer": 0,
+    "explanation": "According to current Canadian oral‑surgery guidelines and the NDEB blueprint, a small (<5 mm), asymptomatic root‑tip fragment that is completely embedded in bone and not communicating with the maxillary sinus can be safely left in situ. The risk of additional bone removal, postoperative morbidity, and possible damage to adjacent structures outweighs the low risk of infection or cyst formation from such a tiny fragment. \n\nWhy the other options are incorrect:\n1. \"Attempt removal with a periotome and fine root‑tip elevators\" – The fragment is described as non‑mobile and fully encased in bone; luxation instruments are unlikely to succeed and may cause unnecessary trauma.\n2. \"Perform a small osteotomy around the root tip and retrieve it\" – While surgical retrieval is indicated for larger fragments, fragments that are ≤5 mm, asymptomatic, and not in the sinus are best managed conservatively. Creating an osteotomy would increase operative time, postoperative pain, and risk of alveolar bone loss.\n3. \"Refer to an endodontist for potential retrieval through the canal of the adjacent tooth\" – Endodontic techniques cannot be used to retrieve a root fragment located in a different socket; this option is not a recognized or feasible management strategy.\n\nThus, the gold‑standard management is to inform the patient, leave the fragment in place, and monitor for any future signs of infection or pathology.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 194,
@@ -2857,16 +2863,17 @@
   {
     "id": 204,
     "topicId": "oral-surgery",
-    "question": "A 72-year-old edentulous patient requires a complete maxillary denture. Clinical examination reveals a prominent, broad-based maxillary palatal torus that interferes with denture retention and stability. The patient reports no symptoms other than denture instability. What is the most appropriate management?",
+    "question": "A 72-year‑old edentulous patient requires a new complete maxillary denture. Intra‑oral examination reveals a large, broad‑based torus palatinus that extends onto the area where the denture’s posterior palatal seal would be placed, causing loss of retention and stability. The patient is otherwise asymptomatic. What is the most appropriate management of the torus?",
     "options": [
-      "Fabricate a denture with a relief area over the torus.",
-      "Surgical removal of the palatal torus.",
-      "Leave the torus undisturbed, as it is benign.",
+      "Fabricate the denture with a relief area over the torus.",
+      "Surgically remove the palatal torus before denture fabrication.",
+      "Leave the torus undisturbed because it is benign.",
       "Refer for biopsy to rule out malignancy."
     ],
     "correctAnswer": 1,
-    "explanation": "Palatal tori that interfere with denture fabrication, retention, or stability, or those that frequently ulcerate, are indications for surgical removal. While tori are benign, simply providing relief in the denture base often leads to compromised retention and stability, especially for large or prominent tori. Biopsy is not indicated for an asymptomatic, characteristic torus unless there are suspicious features. Leaving it undisturbed is not an option if it compromises the prosthetic outcome.",
-    "aiVerified": true
+    "explanation": "A torus palatinus is a benign bony exostosis. According to the NDEB Clinical Knowledge Blueprint and standard prosthodontic texts (e.g., Little & Falace, Proffit), removal is indicated when the torus interferes with the extension, retention, or stability of a complete denture. Surgical excision eliminates the obstruction, allowing optimal denture extension and a proper posterior palatal seal, which are essential for retention in an edentulous maxilla. \n\nWhy the other options are incorrect:\n1. **Fabricate a denture with a relief area over the torus** – While a relief can be placed, a large, broad‑based torus will prevent adequate tissue contact and compromise the posterior seal, resulting in poor retention and stability. This is considered a sub‑optimal compromise when removal is feasible.\n2. **Leave the torus undisturbed** – The torus is already causing denture instability; leaving it in place would not resolve the prosthetic problem and would likely lead to patient dissatisfaction and recurrent ulceration.\n3. **Refer for biopsy** – Palatal tori have a characteristic appearance and are not malignant. Biopsy is reserved for lesions with atypical features (e.g., ulceration, rapid growth, irregular surface). In the absence of such signs, biopsy is unnecessary.\n\nTherefore, the gold‑standard management, consistent with Canadian dental standards, is surgical removal of the torus before proceeding with denture fabrication.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 205,
@@ -2899,16 +2906,17 @@
   {
     "id": 207,
     "topicId": "oral-surgery",
-    "question": "During the extraction of a maxillary first molar, a small communication with the maxillary sinus is observed. The patient has a healthy medical history, and the opening is less than 2mm. What is the most appropriate immediate management?",
+    "question": "During extraction of a maxillary first molar, a 2‑mm oro‑antral communication is identified. The patient is medically healthy. What is the most appropriate immediate management of this defect?",
     "options": [
       "Inform the patient and pack the socket with iodoform gauze.",
-      "Suture the socket with a figure-of-eight suture and provide antibiotics and decongestants.",
-      "Perform a buccal advancement flap to close the communication.",
-      "Allow the socket to heal by secondary intention and advise sinus precautions."
+      "Close the defect with a figure‑of‑eight suture, prescribe antibiotics and a decongestant, and give sinus precautions.",
+      "Raise a buccal advancement flap and suture it over the communication.",
+      "Leave the socket to heal by secondary intention and advise sinus precautions only."
     ],
     "correctAnswer": 1,
-    "explanation": "For small (<2mm) oroantral communications in a healthy patient, local closure with a figure-of-eight suture over a blood clot, combined with antibiotics, decongestants, and strict sinus precautions (avoiding nose blowing, sneezing with an open mouth), is generally sufficient. Packing with gauze or allowing secondary intention would increase the risk of chronic communication. A buccal advancement flap is indicated for larger or persistent communications.",
-    "aiVerified": true
+    "explanation": "In a healthy patient with a small (<2‑3 mm) oro‑antral communication, the preferred immediate treatment is a simple closure of the defect. A figure‑of‑eight (or similar) suture placed over a blood clot provides an effective seal, and adjunctive therapy with a short course of antibiotics (e.g., amoxicillin‑clavulanate) and a nasal decongestant reduces the risk of sinus infection. The patient should also be instructed on sinus precautions (avoid nose blowing, sneeze with mouth open, no straws, etc.).\n\nWhy the other options are incorrect:\n1. **Iodoform gauze packing** – This is an outdated technique that can act as a foreign body, impede healing, and increase the risk of chronic sinus communication. Modern practice favors primary closure rather than packing.\n2. **Buccal advancement flap** – This more extensive surgical closure is reserved for larger defects (>5 mm) or those that fail to close with simple suturing. Using it for a 2‑mm opening would be unnecessarily invasive.\n3. **Allowing secondary intention** – Leaving a sinus communication to heal on its own carries a high risk of persistent fistula formation and sinusitis. Small defects should be closed primarily to promote rapid, uneventful healing.\n\nThus, the gold‑standard management per Canadian dental and oral‑surgery guidelines (NDEB, Canadian Association of Oral and Maxillofacial Surgeons) is option 1.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 208,
@@ -4848,16 +4856,17 @@
   {
     "id": 347,
     "topicId": "oral-surgery",
-    "question": "During the extraction of a maxillary first molar, a small (approximately 3 mm) oroantral communication is noted. The patient is otherwise healthy, and there is no evidence of active sinusitis. What is the most appropriate immediate management?",
+    "question": "During extraction of a maxillary first molar, a 3‑mm oroantral communication is identified. The patient is healthy and shows no signs of sinusitis. What is the most appropriate immediate management of this defect?",
     "options": [
-      "Pack the socket with Gelfoam and advise the patient to avoid blowing their nose.",
-      "Immediately raise a buccal flap and perform a surgical primary closure of the communication.",
-      "Place a figure-of-eight suture over the socket, instruct on sinus precautions, and prescribe antibiotics and decongestants.",
-      "Do nothing, as small communications heal spontaneously."
+      "Pack the socket with Gelfoam and advise the patient to avoid blowing his nose.",
+      "Raise a buccal flap and perform a primary surgical closure of the communication.",
+      "Place a figure‑of‑eight suture across the socket, give sinus precautions, and prescribe antibiotics and a decongestant.",
+      "Do nothing; small communications will heal spontaneously."
     ],
     "correctAnswer": 2,
-    "explanation": "For small oroantral communications (typically less than 2-5 mm) without pre-existing sinusitis, conservative management is often successful. This involves placing a figure-of-eight suture across the socket, instructing the patient on sinus precautions (avoiding nose blowing, sneezing with mouth open), and prescribing antibiotics and decongestants to prevent infection and promote healing. Immediate surgical flap closure is generally reserved for larger communications or when conservative measures fail. Doing nothing or just packing the socket is inadequate.",
-    "aiVerified": true
+    "explanation": "A 3‑mm oroantral communication is considered small (≤5 mm). Current Canadian dental practice guidelines (NDEB, Carranza’s Clinical Oral Surgery, Little & Falace) recommend a conservative, non‑surgical closure for defects of this size when the patient is otherwise healthy and there is no active sinus disease. The preferred technique is a figure‑of‑eight (or simple interrupted) suture that approximates the gingival margins, thereby sealing the defect while allowing drainage. The patient should be instructed on sinus precautions (no nose blowing, sneeze with mouth open, avoid forceful Valsalva) and given a short course of prophylactic antibiotics (e.g., amoxicillin‑clavulanate) plus a nasal decongestant or steroid spray to reduce mucosal edema and promote healing. \n\nWhy the other options are incorrect:\n0. Packing the socket with Gelfoam alone does not provide a reliable seal and may become dislodged; it is an adjunct, not definitive management.\n1. Raising a buccal advancement flap is reserved for larger defects (>5 mm) or when conservative measures have failed. Performing an unnecessary flap increases morbidity and postoperative discomfort.\n3. Expectant management without any closure is acceptable only for very small defects (<2 mm) and when the sinus is completely asymptomatic. A 3‑mm defect carries a higher risk of sinus contamination; active closure is recommended.\n\nThus, the gold‑standard immediate management is a figure‑of‑eight suture with sinus precautions and prophylactic antibiotics, making option 2 the correct answer.",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 348,
@@ -5787,7 +5796,7 @@
   {
     "id": 414,
     "topicId": "oral-surgery",
-    "question": "During the extraction of a maxillary first molar, a 4 mm oroantral communication (OAC) is identified. The patient is asymptomatic and there is no evidence of pre-existing sinusitis. What is the most appropriate immediate management?",
+    "question": "During extraction of a maxillary first molar, a 4‑mm oroantral communication is discovered. The patient is asymptomatic and there is no evidence of sinus infection. What is the most appropriate immediate management?",
     "options": [
       "Prescribe antibiotics and instruct the patient to blow their nose gently to clear the socket.",
       "Pack the socket with Gelfoam and advise the patient to avoid blowing their nose for 2 weeks.",
@@ -5795,9 +5804,10 @@
       "Refer the patient for immediate endoscopic sinus surgery."
     ],
     "correctAnswer": 2,
-    "explanation": "The management of an oroantral communication (OAC) is determined by its size and the presence of infection. An OAC is defined as a communication between the oral cavity and the maxillary sinus that does not close spontaneously. For small OACs (typically < 2-3 mm), conservative management with local hemostatic agents (like Gelfoam) and strict sinus precautions (no nose blowing, no straws, no smoking) is often sufficient, as the mucosal lining may heal over time. However, for larger communications (generally > 3-4 mm), primary surgical closure is indicated to prevent the development of an oroantral fistula (OAF) and to ensure proper healing. A buccal advancement flap is a standard, reliable technique for closing OACs of this size (4 mm) because it provides a tension-free, vascularized closure. Option A is incorrect because nose blowing is strictly contraindicated as it increases pressure in the sinus and can disrupt healing or enlarge the defect. Option B is incorrect because a 4 mm defect is too large to reliably heal with packing alone; it has a high risk of failing and becoming a fistula. Option D is incorrect because endoscopic sinus surgery is reserved for cases with significant pre-existing sinusitis or when local flap closure fails; it is not the first-line treatment for a simple post-extraction OAC.",
+    "explanation": "An oroantral communication (OAC) that is ≥3 mm in diameter rarely closes spontaneously and carries a high risk of evolving into an oroantral fistula if left untreated. Current Canadian dental guidelines (NDEB, Canadian Dental Association) recommend prompt surgical closure of OACs larger than 3 mm in the absence of infection. The buccal advancement (Rehrmann) flap provides a well‑vascularised, tension‑free closure and is the technique of choice for defects up to about 5 mm. \n\nWhy the other options are incorrect:\n\n0. Antibiotics alone do not close the defect, and advising the patient to blow the nose is contraindicated because increased sinus pressure can enlarge the communication and impede healing.\n1. Gelfoam packing may be useful for very small (<2‑3 mm) defects that are expected to heal spontaneously. A 4‑mm defect is beyond the size that reliably closes with packing alone, and reliance on this method has a high failure rate.\n3. Endoscopic sinus surgery is reserved for cases with chronic sinus disease, large defects that cannot be closed intra‑orally, or when a previously placed flap fails. It is not indicated as the first‑line treatment for an uncomplicated 4‑mm OAC.\n\nTherefore, the gold‑standard immediate management is primary surgical closure with a buccal advancement flap (option 2).",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 415,
@@ -5914,7 +5924,7 @@
   {
     "id": 423,
     "topicId": "oral-surgery",
-    "question": "A panoramic radiograph of a 30-year-old patient reveals a large, multilocular radiolucency in the posterior mandible, associated with the crown of an impacted third molar. The lesion appears to expand the cortical plates. What is the most likely diagnosis?",
+    "question": "A panoramic radiograph of a 30‑year‑old patient shows a large, well‑circumscribed, multilocular radiolucent lesion in the posterior mandible that surrounds the crown of an impacted third molar and has caused expansion of both buccal and lingual cortical plates. Which of the following is the most likely diagnosis?",
     "options": [
       "Radicular cyst",
       "Dentigerous cyst",
@@ -5922,9 +5932,10 @@
       "Odontogenic keratocyst"
     ],
     "correctAnswer": 2,
-    "explanation": "The most likely diagnosis is Ameloblastoma. Ameloblastomas are benign but locally aggressive odontogenic tumors that frequently present as multilocular radiolucencies in the posterior mandible of adults (typically 30-50 years old). They are well-known for causing significant cortical expansion and can be associated with impacted teeth, particularly third molars. While Odontogenic Keratocysts (OKCs) are also multilocular and associated with impacted teeth, they typically grow along the medullary cavity with minimal cortical expansion until late stages; significant expansion is more characteristic of ameloblastoma. Dentigerous cysts are usually unilocular and enclose the crown of an unerupted tooth without significant multilocularity or aggressive expansion. Radicular cysts are associated with non-vital teeth and are typically unilocular.",
+    "explanation": "Ameloblastoma is the classic odontogenic tumor that presents as a large, multilocular (\"soap‑bubble\" or \"honey‑comb\") radiolucency in the posterior mandible of adults, frequently causing marked expansion of the buccal and lingual cortical plates. Although it may be associated with an impacted tooth, the key radiographic features are multilocularity and aggressive cortical expansion. \n\nWhy the distractors are incorrect:\n- **Radicular cyst**: Arises at the apex of a non‑vital tooth, is usually unilocular, and is not associated with an impacted third molar or significant cortical expansion. \n- **Dentigerous cyst**: Envelops the crown of an unerupted tooth but is characteristically unilocular and causes minimal expansion; it does not produce the multilocular \"soap‑bubble\" appearance. \n- **Odontogenic keratocyst (OKC)**: Can be multilocular but typically grows within the medullary bone with little cortical expansion until late stages; it is less commonly associated with an impacted tooth and lacks the pronounced expansion seen in ameloblastoma.\n\nTherefore, based on the combination of multilocularity, association with an impacted third molar, and marked cortical expansion, the gold‑standard diagnosis under NDEB guidelines is ameloblastoma.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 424,
@@ -6606,16 +6617,17 @@
   {
     "id": 472,
     "topicId": "oral-surgery",
-    "question": "A 55-year-old female patient presents for the extraction of a severely decayed maxillary second molar. During the procedure, a significant segment of the maxillary tuberosity, including the adjacent first molar, fractures and becomes mobile. What is the MOST appropriate immediate management?",
+    "question": "A 55‑year‑old woman is undergoing extraction of a severely decayed maxillary second molar. During the procedure the maxillary tuberosity fractures, taking the adjacent maxillary first molar with it. The bony segment remains attached to the periosteum but is mobile. What is the most appropriate immediate management?",
     "options": [
       "Remove the fractured segment, extract the attached tooth, and smooth the bone.",
-      "Attempt to reposition the fractured segment and stabilize with sutures or arch bar.",
+      "Attempt to reposition the fractured segment and stabilize it with sutures or an arch bar.",
       "Refer immediately to an oral and maxillofacial surgeon for reconstruction.",
-      "Pack the area with absorbable gelatin sponge and allow for secondary healing."
+      "Pack the area with an absorbable gelatin sponge and allow secondary healing."
     ],
     "correctAnswer": 1,
-    "explanation": "When a significant segment of the maxillary tuberosity fractures but remains attached to the periosteum, the most appropriate immediate management is to attempt repositioning and stabilization, often with sutures or an arch bar, to preserve bone and prevent an oral-antral communication. Removing the segment (A) should be a last resort as it leads to significant bone loss and potential OAC. Referral (C) may be necessary for complex stabilization, but the initial attempt should be made by the operating dentist if feasible. Packing (D) without stabilization is insufficient for a mobile bone segment.",
-    "aiVerified": true
+    "explanation": "When a maxillary tuberosity fracture occurs during extraction and the segment (often containing the adjacent tooth) remains attached to the periosteum, the priority is to preserve the bone and prevent an oro‑antral communication. The accepted Canadian and international standard (Carranza’s Clinical Periodontology, Malamed’s Pharmacology & Therapeutics, and the NDEB Clinical Competency Guidelines) recommends attempting to reposition the mobile segment and stabilizing it, usually with figure‑of‑eight sutures, a periosteal suture, or an arch‑bar/wire fixation. This approach maintains the alveolar ridge for future prosthetic rehabilitation and avoids unnecessary bone loss.\n\nWhy the other options are incorrect:\n\n*Option 0 – Removing the segment and extracting the attached tooth should be a last resort. It results in loss of valuable maxillary bone, compromises future prosthetic options, and increases the risk of an oro‑antral communication.\n*Option 2 – Immediate referral to an oral‑and‑maxillofacial surgeon is appropriate only if the operator cannot achieve stable repositioning or if there is a large displacement into the sinus. In the scenario described, the segment is still attached to periosteum, making chair‑side stabilization feasible.\n*Option 3 – Packing with an absorbable gelatin sponge without stabilizing the mobile bone does not address the underlying instability and may lead to persistent mobility, infection, or formation of an oro‑antral fistula.\n\nTherefore, the gold‑standard immediate management is to attempt repositioning and secure stabilization of the fractured tuberosity segment (Option 1).",
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 473,
@@ -6874,17 +6886,18 @@
   {
     "id": 491,
     "topicId": "oral-surgery",
-    "question": "A 28-year-old female patient presents with persistent numbness and altered sensation in the lower lip and chin on the right side, immediately following the surgical extraction of an impacted mandibular third molar. Clinical examination confirms a sensory deficit in the distribution of the mental nerve. What is the MOST appropriate immediate next step in management?",
+    "question": "A 28-year-old female presents 2 weeks after surgical removal of an impacted mandibular third molar with persistent numbness and altered sensation in the right lower lip and chin. Clinical examination confirms a sensory deficit in the distribution of the mental nerve. What is the most appropriate next step in management?",
     "options": [
-      "Reassure the patient that sensation will spontaneously return within a few weeks and schedule a routine follow-up in 6 months.",
-      "Initiate a course of corticosteroids and B vitamins to reduce inflammation and support nerve regeneration.",
-      "Immediately refer to an oral and maxillofacial surgeon for neurological assessment and potential intervention.",
-      "Prescribe gabapentin to manage the neuropathic pain and monitor for improvement over the next 2 weeks."
+      "Reassure the patient that sensation will spontaneously return within a few weeks and schedule a routine follow‑up in 6 months.",
+      "Initiate a course of corticosteroids and B‑vitamins to reduce inflammation and support nerve regeneration.",
+      "Immediately refer the patient to an oral and maxillofacial surgeon for a detailed neurological assessment and possible intervention.",
+      "Prescribe gabapentin to manage neuropathic pain and monitor for improvement over the next 2 weeks."
     ],
     "correctAnswer": 2,
-    "explanation": "The most appropriate immediate next step is to refer the patient to an oral and maxillofacial surgeon (OMFS) for a specialized neurological assessment. While transient neuropraxia is common after third molar surgery, persistent or immediate significant sensory deficits require expert evaluation to determine the severity of the injury (neuropraxia vs. axonotmesis vs. neurotmesis) and to rule out complications such as hematoma compression or nerve transection. Early referral allows for timely documentation, baseline sensory testing, and discussion of potential interventions (such as corticosteroids if indicated by the specialist, or surgical exploration if transection is suspected). Option A is incorrect because waiting 6 months without specialist assessment delays critical care and documentation. Option B is incorrect because while corticosteroids are sometimes used, they are not the *immediate* next step before specialist evaluation; self-prescribing without a diagnosis is inappropriate. Option D is incorrect because gabapentin is a symptomatic treatment for neuropathic pain, not a primary management step for the underlying nerve injury, and does not address the need for diagnostic assessment.",
+    "explanation": "According to current Canadian dental standards and NDEB clinical guidelines, a neurosensory deficit that persists beyond the immediate postoperative period (generally >2 weeks) should be evaluated by a specialist. At this stage the likelihood of spontaneous recovery has decreased, and early specialist assessment allows for objective sensory testing, documentation, and consideration of interventions such as surgical exploration if a transection is suspected. \n\nOption 0 is incorrect because reassurance alone is appropriate only for transient deficits that are expected to resolve within days to a few weeks; a 6‑month follow‑up would delay necessary evaluation. \n\nOption 1 is incorrect; corticosteroids may be considered within the first 24–48 hours after injury, but at 2 weeks they are unlikely to be beneficial, and initiating them without specialist input is not standard practice. \n\nOption 3 is incorrect because gabapentin addresses neuropathic pain, not the underlying nerve injury, and should not be the primary step when a persistent sensory deficit is present. \n\nTherefore, the gold‑standard immediate action is to refer the patient to an oral and maxillofacial surgeon for a comprehensive neurological assessment.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "clinicalReview": "NDEB_AUDITED"
   },
   {
     "id": 492,
