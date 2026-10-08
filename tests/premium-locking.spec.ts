@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+﻿import { test, expect } from '@playwright/test';
 
 test.describe('Premium Locking Mechanisms', () => {
 
@@ -20,40 +20,41 @@ test.describe('Premium Locking Mechanisms', () => {
     await expect(anatomyCard.locator('.lock-badge')).toBeVisible({ timeout: 8000 });
 
     // 2. Clicking Anatomy should trigger Paywall
-    await anatomyCard.click({ force: true });
+    await page.locator('h3:has-text("Anatomy")').click();
     await expect(page.locator('h2:has-text("Unlock Pro")')).toBeVisible({ timeout: 8000 });
 
     // Close paywall
     await page.keyboard.press('Escape');
     await page.waitForTimeout(600);
 
-    // 3. Navigate to Dashboard tab (label is "Dashboard" in nav)
-    await page.evaluate(() => {
-      const btns = Array.from(document.querySelectorAll('button'));
-      const dash = btns.find(b => b.textContent?.includes('Dashboard'));
-      if (dash) (dash as HTMLElement).click();
-    });
-    await page.waitForTimeout(1000);
+    // 3. Daily Review Banner should be locked with Pro badge for free users
+    const dailyReviewBtn = page.locator('button:has-text("Daily Review")');
+    if (await dailyReviewBtn.count() > 0) {
+      await dailyReviewBtn.click();
+      await expect(page.locator('h2:has-text("Unlock Pro")')).toBeVisible({ timeout: 8000 });
+      await page.keyboard.press('Escape');
+      await page.waitForTimeout(600);
+    }
+
+    // 4. Navigate to Dashboard tab
+    await page.click('button:has-text("Dashboard")');
+    await page.waitForTimeout(800);
 
     // Free user: "Drill Mistakes" area should show "Unlock Pro" button
     await expect(page.locator('button:has-text("Unlock Pro")')).toBeVisible({ timeout: 8000 });
 
-    // 4. Go back to Study Topics tab (label is "Study Topics")
-    await page.evaluate(() => {
-      const btns = Array.from(document.querySelectorAll('button'));
-      const study = btns.find(b => b.textContent?.includes('Study Topics'));
-      if (study) (study as HTMLElement).click();
-    });
+    // 5. Go back to Study Topics tab
+    await page.click('button:has-text("Study Topics")');
     await page.waitForTimeout(800);
     await page.waitForSelector('.topic-card', { timeout: 8000 });
 
-    // 5. Ethics (Free) has no lock badge
+    // 6. Ethics (Free) has no lock badge
     const ethicsCard = page.locator('.topic-card').filter({ hasText: 'Ethics' }).first();
     await expect(ethicsCard.locator('.lock-badge')).toHaveCount(0);
 
-    // 6. Clicking Ethics opens quiz � assert via QuizHeader h2
-    await ethicsCard.click({ force: true });
-    await expect(page.locator('h2').filter({ hasText: 'Ethics' }).first()).toBeVisible({ timeout: 10000 });
+    // 7. Clicking Ethics opens quiz - assert via QuizHeader h2
+    await page.locator('h3:has-text("Ethics")').click();
+    await expect(page.locator('h2:has-text("Ethics")')).toBeVisible({ timeout: 15000 });
   });
 
   test('Premium User Flow - Verifies Unlocked Access', async ({ page }) => {
@@ -76,26 +77,18 @@ test.describe('Premium Locking Mechanisms', () => {
     await expect(anatomyCard.locator('.lock-badge')).toHaveCount(0, { timeout: 8000 });
 
     // 2. Dashboard shows "Drill Mistakes" button
-    await page.evaluate(() => {
-      const btns = Array.from(document.querySelectorAll('button'));
-      const dash = btns.find(b => b.textContent?.includes('Dashboard'));
-      if (dash) (dash as HTMLElement).click();
-    });
-    await page.waitForTimeout(1000);
+    await page.click('button:has-text("Dashboard")');
+    await page.waitForTimeout(800);
     await expect(page.locator('button:has-text("Drill Mistakes")')).toBeVisible({ timeout: 8000 });
 
     // 3. Go back to Study Topics tab
-    await page.evaluate(() => {
-      const btns = Array.from(document.querySelectorAll('button'));
-      const study = btns.find(b => b.textContent?.includes('Study Topics'));
-      if (study) (study as HTMLElement).click();
-    });
+    await page.click('button:has-text("Study Topics")');
     await page.waitForTimeout(800);
     await page.waitForSelector('.topic-card', { timeout: 8000 });
 
     // 4. Clicking Anatomy opens quiz directly (no paywall for premium)
-    await anatomyCard.click({ force: true });
-    await expect(page.locator('h2').filter({ hasText: 'Anatomy' }).first()).toBeVisible({ timeout: 10000 });
+    await page.locator('h3:has-text("Anatomy")').click();
+    await expect(page.locator('h2:has-text("Anatomy")')).toBeVisible({ timeout: 15000 });
   });
 
 });

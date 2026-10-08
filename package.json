@@ -11,7 +11,10 @@
     "android:sync": "npm run build && npx cap copy android",
     "deploy": "npm run build:mobile && npx cap sync android && npx cap sync ios && npm run build:web && npx gh-pages -d dist",
     "build:mobile": "vite build --base=./",
-    "build:web": "vite build --base=/ndeb-afk-prep/"
+    "build:web": "vite build --base=/ndeb-afk-prep/",
+    "test": "tsx tests/rigorous-unit-e2e.ts && playwright test",
+    "test:logic": "tsx tests/rigorous-unit-e2e.ts",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@capacitor-community/text-to-speech": "^8.0.2",
