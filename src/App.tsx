@@ -26,7 +26,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 import { hasAcceptedDisclaimer, acceptDisclaimer, logDailyVisit, usePremiumStatus } from './lib/storage';
 import { PaywallModal } from './PaywallModal';
-import { PrivacyPolicyModal, TermsOfUseModal } from './LegalModals';
+import { PrivacyPolicyModal, TermsOfUseModal, MedicalDisclaimerModal } from './LegalModals';
 import { ConfirmModal } from './ConfirmModal';
 import { Lock } from 'lucide-react';
 
@@ -94,6 +94,7 @@ function App() {
   const [showDisclaimer, setShowDisclaimer] = useState(false);
   const [showPrivacyPolicy, setShowPrivacyPolicy] = useState(false);
   const [showTermsOfUse, setShowTermsOfUse] = useState(false);
+  const [showLegalDisclaimer, setShowLegalDisclaimer] = useState(false);
 
   const [darkMode, setDarkMode] = useState(() => {
     const stored = localStorage.getItem('ndeb_theme');
@@ -811,6 +812,14 @@ function App() {
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1.25rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
             <button
               type="button"
+              onClick={() => setShowLegalDisclaimer(true)}
+              style={{ background: 'none', border: 'none', color: 'var(--accent-color, #0284c7)', fontSize: '0.8rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}
+            >
+              Medical Disclaimer
+            </button>
+            <span style={{ opacity: 0.4 }}>•</span>
+            <button
+              type="button"
               onClick={() => setShowTermsOfUse(true)}
               style={{ background: 'none', border: 'none', color: 'var(--accent-color, #0284c7)', fontSize: '0.8rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}
             >
@@ -838,6 +847,7 @@ function App() {
 
       <PrivacyPolicyModal isOpen={showPrivacyPolicy} onClose={() => setShowPrivacyPolicy(false)} />
       <TermsOfUseModal isOpen={showTermsOfUse} onClose={() => setShowTermsOfUse(false)} />
+        <MedicalDisclaimerModal isOpen={showLegalDisclaimer} onClose={() => setShowLegalDisclaimer(false)} />
 
           
     </div>
