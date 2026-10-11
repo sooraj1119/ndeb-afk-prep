@@ -608,8 +608,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The marked answer (irrigate with saline) aligns with NDEB AFK and standard ophthalmic emergency protocols; the explanation correctly justifies this choice and accurately critiques the other options without contradictions.",
-    "timestamp": "2026-10-11T05:43:24.158Z"
+    "comment": "The marked answer (irrigate with saline) aligns with Canadian dental and ophthalmic emergency guidelines as the first‑line action for a superficial corneal foreign body. The explanation correctly justifies this choice and appropriately critiques the other options without contradictions.",
+    "timestamp": "2026-10-11T06:15:16.979Z"
   },
   "emergencies.json:299": {
     "file": "emergencies.json",
@@ -704,8 +704,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The paper‑bag breathing technique is the accepted first‑line intervention for isolated anxiety‑induced hyperventilation in NDEB AFK resources, and the rationale correctly dismisses the other options.",
-    "timestamp": "2026-10-11T05:43:35.521Z"
+    "comment": "The paper‑bag breathing technique is appropriate for isolated anxiety‑induced hyperventilation in a healthy adult, and the explanation correctly justifies this choice while accurately dismissing the other options.",
+    "timestamp": "2026-10-11T06:15:20.186Z"
   },
   "emergencies.json:254": {
     "file": "emergencies.json",
@@ -716,8 +716,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The marked answer (chewable aspirin) aligns with NDEB AFK and Canadian dental emergency protocols as the first drug for suspected ACS. The rationale correctly prioritizes aspirin over nitroglycerin and correctly dismisses epinephrine and salbutamol. No contradictions are present.",
-    "timestamp": "2026-10-11T05:43:36.299Z"
+    "comment": "Aspirin is the guideline‑recommended first drug for suspected ACS in the dental office; the explanation correctly justifies this and appropriately dismisses the other options without contradictions.",
+    "timestamp": "2026-10-11T06:15:23.274Z"
   },
   "emergencies.json:464": {
     "file": "emergencies.json",
@@ -740,8 +740,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The marked answer (option 1) correctly reflects the standard anatomical description of the MB2 orifice relative to the MB1‑Palatal line, and the explanation accurately justifies this while correctly dismissing the distractors without contradictions.",
-    "timestamp": "2026-10-11T05:43:39.208Z"
+    "comment": "The marked answer (option 1) correctly reflects the typical mesial‑palatal position of the MB2 orifice relative to the MB1‑palatal line, and the explanation provides a sound, evidence‑based justification while correctly dismissing the other options. No contradictions are present.",
+    "timestamp": "2026-10-11T06:15:26.551Z"
   },
   "endodontics.json:196": {
     "file": "endodontics.json",
@@ -764,8 +764,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The marked answer correctly reflects the standard NDEB/Canadian endodontic teaching that the MB2 canal lies mesial to MB1 and palatal to the MB1‑palatal line; the explanation accurately justifies this and correctly dismisses the distractors without contradictions.",
-    "timestamp": "2026-10-11T05:43:41.938Z"
+    "comment": "The marked answer (option [1]) aligns with accepted Canadian and international endodontic anatomy references; the explanation correctly justifies this choice and accurately refutes the other options without contradictions.",
+    "timestamp": "2026-10-11T06:15:29.614Z"
   },
   "endodontics.json:220": {
     "file": "endodontics.json",
@@ -776,8 +776,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The marked answer (Palatal and slightly mesial) aligns with standard NDEB AFK anatomy for the MB2 canal in a maxillary first molar. The explanation correctly justifies this choice and appropriately refutes the distractors without contradictions.",
-    "timestamp": "2026-10-11T05:43:43.270Z"
+    "comment": "The marked answer (Palatal and slightly mesial) is the accepted description of MB2 location relative to MB1 in a maxillary first molar. The explanation correctly cites authoritative sources and clearly distinguishes why the other options are incorrect, with no internal inconsistencies.",
+    "timestamp": "2026-10-11T06:15:33.225Z"
   },
   "endodontics.json:246": {
     "file": "endodontics.json",
@@ -812,8 +812,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The radiographic apex is the standard, visible reference for working length determination; the explanation correctly justifies this and correctly dismisses the other options without contradictions.",
-    "timestamp": "2026-10-11T05:43:46.613Z"
+    "comment": "The radiographic apex is the only radiographically visible apical landmark and is universally used as the reference for working‑length measurement; the other options are not visible or reliable radiographically. The explanation correctly justifies this and correctly dismisses the distractors.",
+    "timestamp": "2026-10-11T06:15:36.408Z"
   },
   "endodontics.json:412765191": {
     "file": "endodontics.json",
@@ -836,8 +836,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The vital status, intact lamina dura, and small well‑defined radiolucency correctly point to early periapical cemento‑osseous dysplasia; other options are inconsistent with these findings. Explanation aligns with NDEB AFK standards and contains no contradictions.",
-    "timestamp": "2026-10-11T05:43:50.047Z"
+    "comment": "The marked answer (PCOD) is the best choice given a vital tooth with a well‑defined radiolucency and intact lamina dura; the rationale correctly distinguishes it from granuloma, cyst, and condensing osteitis despite minor omissions about typical demographic and site predilections.",
+    "timestamp": "2026-10-11T06:15:40.203Z"
   },
   "ethics.json:317101210": {
     "file": "ethics.json",
@@ -848,8 +848,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "MIH is the most appropriate diagnosis given the demarcated, rough, asymmetrical opacities limited to permanent incisors; the explanation correctly differentiates it from fluorosis, ECC, and AI and contains no contradictions.",
-    "timestamp": "2026-10-11T05:43:51.444Z"
+    "comment": "The marked answer (MIH) is the best choice given the demarcated, rough, asymmetrical white opacities on permanent incisors, and the explanation correctly distinguishes MIH from fluorosis, ECC, and amelogenesis imperfecta without contradictions.",
+    "timestamp": "2026-10-11T06:15:46.587Z"
   },
   "ethics.json:969625097": {
     "file": "ethics.json",
@@ -866,14 +866,14 @@
   "ethics.json:937374739": {
     "file": "ethics.json",
     "id": 937374739,
-    "markedAnswerIndex": 3,
-    "markedAnswerText": "0.5% Bupivacaine with 1:200,000 epinephrine",
+    "markedAnswerIndex": 0,
+    "markedAnswerText": "3% Mepivacaine without vasoconstrictor",
     "isAnswerCorrect": true,
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The selected anesthetic (0.5% bupivacaine with 1:200,000 epinephrine) aligns with NDEB guidelines for hypertensive patients, offering the lowest epinephrine concentration while providing adequate surgical anesthesia. The explanation correctly justifies this choice and appropriately critiques the other options without internal contradictions.",
-    "timestamp": "2026-10-11T05:43:55.368Z"
+    "comment": "The selected plain mepivacaine is the safest choice for an uncontrolled hypertensive patient; the rationale correctly highlights the risks of epinephrine‑containing solutions and the relative cardiotoxicity of bupivacaine. No contradictions are present.",
+    "timestamp": "2026-10-11T06:17:28.735Z"
   },
   "general-medicine.json:22": {
     "file": "general-medicine.json",
@@ -896,8 +896,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The marked answer aligns with current Canadian guidelines allowing simple extractions when INR ≤3.0–3.5, and the explanation correctly justifies this while accurately refuting the other options.",
-    "timestamp": "2026-10-11T05:43:57.768Z"
+    "comment": "The marked answer aligns with Canadian guidelines that allow simple extractions at INR ≤3.0–3.5 without stopping warfarin. The explanation correctly justifies this choice and appropriately critiques the other options, with no contradictions.",
+    "timestamp": "2026-10-11T06:16:11.778Z"
   },
   "general-medicine.json:244": {
     "file": "general-medicine.json",
@@ -920,8 +920,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The marked answer (Option 1) aligns with NDEB and nephrology guidelines recommending dental surgery on a non‑dialysis day, ideally the day after dialysis to avoid heparin‑related bleeding. The explanation correctly justifies this choice and explains why the other options are inappropriate, with no contradictions.",
-    "timestamp": "2026-10-11T05:44:00.198Z"
+    "comment": "The marked answer 'On a non‑dialysis day' aligns with Canadian guidelines for hemodialysis patients, and the explanation correctly justifies why the other options are less appropriate without internal contradictions.",
+    "timestamp": "2026-10-11T06:16:14.897Z"
   },
   "implants.json:44": {
     "file": "implants.json",
@@ -980,8 +980,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The CDA and provincial guidelines classify ultrasonic scaling as an AGP and require at least a fit‑tested N95/P2/FFP2 respirator. The explanation correctly distinguishes this from surgical, cloth, and fluid‑resistant procedure masks, with no contradictions.",
-    "timestamp": "2026-10-11T05:44:09.018Z"
+    "comment": "The CDA and provincial infection‑control guidelines require a fit‑tested N95/P2/FFP2 respirator for ultrasonic scaling, making option 3 the unequivocal correct choice; the explanation correctly justifies this and correctly dismisses the other options.",
+    "timestamp": "2026-10-11T06:16:17.886Z"
   },
   "infection-control.json:994473575": {
     "file": "infection-control.json",
@@ -992,8 +992,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The explorer, probe, and curette contact mucous membranes and are correctly classified as semi‑critical instruments; the explanation accurately distinguishes all categories and contains no contradictions.",
-    "timestamp": "2026-10-11T05:44:09.899Z"
+    "comment": "The explorer, probe, and curette contact mucous membranes or non‑intact skin, fitting the semi‑critical category per Canadian infection‑control guidelines. The explanation correctly justifies this and refutes the other options without contradictions.",
+    "timestamp": "2026-10-11T06:16:20.765Z"
   },
   "infection-control.json:488935786": {
     "file": "infection-control.json",
@@ -1004,8 +1004,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "Option 0 is the best choice; dental care proceeds under universal precautions without additional testing, antiviral prophylaxis, or referral. The explanation correctly justifies this and explains why the other options are inappropriate, despite a minor wording issue about \"assuming resolved\".",
-    "timestamp": "2026-10-11T05:44:11.797Z"
+    "comment": "The marked answer (proceed with surgery using standard precautions) aligns with Canadian infection‑control guidelines; the other options are unnecessary. The explanation correctly justifies this and identifies why the alternatives are inappropriate, with only a minor wording nuance that does not affect correctness.",
+    "timestamp": "2026-10-11T06:16:24.577Z"
   },
   "infection-control.json:789086169": {
     "file": "infection-control.json",
@@ -1016,8 +1016,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The marked answer (strict contact precautions with soap‑and‑water hand hygiene, gloves, and gown) aligns with Canadian infection‑control guidelines for C. difficile. The explanation correctly justifies this choice and accurately refutes the other options without internal contradictions.",
-    "timestamp": "2026-10-11T05:44:12.922Z"
+    "comment": "The marked answer aligns with Canadian infection‑control guidelines for C. difficile (contact precautions with soap‑and‑water hand hygiene, gloves, gown). The explanation correctly justifies this choice and accurately refutes the other options without internal contradictions.",
+    "timestamp": "2026-10-11T06:16:28.148Z"
   },
   "microbiology.json:193": {
     "file": "microbiology.json",
@@ -1028,8 +1028,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "Histoplasma capsulatum is the only organism that fits narrow‑based budding yeast within granulomas; other options are correctly excluded. Explanation is factually sound and consistent with the question.",
-    "timestamp": "2026-10-11T05:44:14.362Z"
+    "comment": "The marked answer (Histoplasma capsulatum) is the best choice given the narrow‑based budding yeast, granulomatous inflammation, and typical oral presentation. The explanation correctly distinguishes it from Candida, Cryptococcus, and Blastomyces and contains no contradictions.",
+    "timestamp": "2026-10-11T06:17:30.335Z"
   },
   "microbiology.json:342": {
     "file": "microbiology.json",
@@ -1160,8 +1160,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The marked answer (root canal therapy with a full‑coverage crown) aligns with NDEB AFK guidelines for irreversible pulpitis in a mature molar with extensive restoration. The explanation correctly justifies this choice and accurately dismisses the other options without contradictions.",
-    "timestamp": "2026-10-11T05:44:40.841Z"
+    "comment": "The lingering cold response indicates irreversible pulpitis in a mature permanent molar, making root canal therapy the appropriate definitive treatment; a full‑coverage crown is justified given the extensive existing restoration. The explanation correctly rules out antibiotics, pulpotomy, and restoration alone, and contains no internal contradictions.",
+    "timestamp": "2026-10-11T06:16:35.561Z"
   },
   "operative-dentistry.json:675581544": {
     "file": "operative-dentistry.json",
@@ -1172,8 +1172,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "Viscosity (flow) is indeed the primary determinant of fine‑detail capture; the explanation correctly distinguishes it from dimensional stability, hydrophilicity, and thixotropy and contains no contradictions.",
-    "timestamp": "2026-10-11T05:44:41.905Z"
+    "comment": "Viscosity (low flow resistance) is universally recognized as the primary property governing fine‑detail capture; the explanation correctly justifies this and appropriately discounts dimensional stability, thixotropy, and hydrophilicity.",
+    "timestamp": "2026-10-11T06:16:39.760Z"
   },
   "operative-dentistry.json:77508994": {
     "file": "operative-dentistry.json",
@@ -1208,8 +1208,8 @@
     "isExplanationAccurate": true,
     "overallPass": true,
     "auditVerdict": "PASS",
-    "comment": "The marked answer correctly reflects the 2018 AAP/EFP classification (Stage III/severe generalized periodontitis). The rationale accurately distinguishes it from aggressive periodontitis, moderate disease, and gingivitis, with no internal inconsistencies.",
-    "timestamp": "2026-10-11T05:44:53.406Z"
+    "comment": "The marked answer (Generalized severe periodontitis) aligns with the 2018 AAP/EFP staging/extents used by NDEB. The explanation correctly justifies why this choice is best and why the other options are inappropriate, with no internal inconsistencies.",
+    "timestamp": "2026-10-11T06:16:43.507Z"
   },
   "operative-dentistry.json:408694618": {
     "file": "operative-dentistry.json",
