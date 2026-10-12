@@ -248,7 +248,7 @@ export function TopicSelection({ onSelect }: Props) {
                 )}
               </div>
 
-              {progress && (
+              {progress && (progress.isFinished || progress.highestScore > 0) && (
                 <div style={{ marginTop: '1.5rem' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 600 }}>
                     <span style={{ color: 'var(--text-secondary)' }}>Best Score</span>

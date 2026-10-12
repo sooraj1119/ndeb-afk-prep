@@ -755,19 +755,24 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
   if (!initialized || topicQuestions.length === 0) {
-
-    return initialized ? (
-
-      <div style={{ padding: '2rem', textAlign: 'center', marginTop: '4rem' }}>
-
-        <h2>{isFlaggedMode ? "No flagged questions." : isSRSMode ? "No questions due for review." : "No questions available."}</h2>
-
-        <button onClick={onBack} className="primary-btn" style={{ marginTop: '2rem' }}>Go Back</button>
-
-      </div>
-
-    ) : null;
-
+    return (
+      <>
+        {initialized ? (
+          <div style={{ padding: '2rem', textAlign: 'center', marginTop: '4rem' }}>
+            <h2>{isFlaggedMode ? "No flagged questions." : isSRSMode ? (isPremium ? "No questions due for review." : "Daily SRS Review is a Pro feature.") : "No questions available."}</h2>
+            <button onClick={onBack} className="primary-btn" style={{ marginTop: '2rem' }}>Go Back</button>
+          </div>
+        ) : null}
+        <PaywallModal 
+          isOpen={showPaywall} 
+          onClose={() => { 
+            setShowPaywall(false); 
+            if (isSRSMode && !isPremium) onBack(); 
+          }} 
+          feature="Daily Spaced Repetition Review" 
+        />
+      </>
+    );
   }
 
   
