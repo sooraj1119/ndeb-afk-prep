@@ -93,11 +93,11 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
   });
 
   const completionPercentage = totalQuestionsAvailable > 0 
-    ? Math.round((totalAttemptedQuestions / totalQuestionsAvailable) * 100) 
+    ? Math.min(100, Math.max(0, Math.round((totalAttemptedQuestions / totalQuestionsAvailable) * 100))) 
     : 0;
 
   const averageAccuracy = totalAttemptedQuestions > 0 
-    ? Math.round((totalAnsweredCorrectly / totalAttemptedQuestions) * 100) 
+    ? Math.min(100, Math.max(0, Math.round((totalAnsweredCorrectly / totalAttemptedQuestions) * 100))) 
     : 0;
 
   // --- Pacing Engine Logic ---
@@ -426,11 +426,11 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           
           if (hasAttempted) {
              attemptedCount = topicProg.isFinished ? topicProg.totalQuestions : (topicProg.questionsAnswered || 0);
-             completionProgress = Math.round((attemptedCount / topicTotal) * 100);
+             completionProgress = Math.min(100, Math.max(0, Math.round((attemptedCount / topicTotal) * 100)));
              if (attemptedCount > 0) {
                  let correctCount = topicProg.isFinished ? topicProg.highestScore : (topicProg.currentScore || 0);
                  correctCount = Math.min(correctCount, attemptedCount);
-                 accuracy = Math.round((correctCount / attemptedCount) * 100);
+                 accuracy = Math.min(100, Math.max(0, Math.round((correctCount / attemptedCount) * 100)));
              }
           }
           

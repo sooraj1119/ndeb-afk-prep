@@ -246,10 +246,20 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
           const progress = getTopicProgress(topicId);
           if (progress && !progress.isFinished) {
             let loadedIndex = progress.currentIndex;
-            if (loadedIndex >= qList.length) loadedIndex = Math.max(0, qList.length - 1);
-            setCurrentIndex(loadedIndex);
-            setScore(progress.currentScore);
-            sessionStartRef.current = { index: loadedIndex, score: progress.currentScore };
+            if (loadedIndex >= qList.length) {
+              // Position exceeds current available question pool (e.g. downgraded from Premium).
+              // Cleanly restart at question 1 with score 0 for this tier.
+              loadedIndex = 0;
+              setCurrentIndex(0);
+              setScore(0);
+              sessionStartRef.current = { index: 0, score: 0 };
+              saveProgress(topicId, 0, qList.length, 0, false, 0);
+            } else {
+              const safeScore = Math.min(progress.currentScore, loadedIndex);
+              setCurrentIndex(loadedIndex);
+              setScore(safeScore);
+              sessionStartRef.current = { index: loadedIndex, score: safeScore };
+            }
           }
         }
 

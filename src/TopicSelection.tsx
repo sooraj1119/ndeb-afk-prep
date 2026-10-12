@@ -252,13 +252,13 @@ export function TopicSelection({ onSelect }: Props) {
                 <div style={{ marginTop: '1.5rem' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '0.5rem', fontWeight: 600 }}>
                     <span style={{ color: 'var(--text-secondary)' }}>Best Score</span>
-                    <span translate="no" style={{ color: 'var(--accent-color)' }}>{Math.round((progress.highestScore / progress.totalQuestions) * 100) || 0}%</span>
+                    <span translate="no" style={{ color: 'var(--accent-color)' }}>{progress.totalQuestions > 0 ? Math.min(100, Math.max(0, Math.round((progress.highestScore / progress.totalQuestions) * 100))) : 0}%</span>
                   </div>
                   <div style={{ width: '100%', height: '6px', background: 'var(--border-color)', borderRadius: '3px', overflow: 'hidden' }}>
                     <div style={{ 
                       height: '100%', 
                       background: 'var(--accent-color)', 
-                      width: `${(progress.highestScore / progress.totalQuestions) * 100}%`,
+                      width: `${progress.totalQuestions > 0 ? Math.min(100, Math.max(0, (progress.highestScore / progress.totalQuestions) * 100)) : 0}%`,
                       transition: 'width 1s ease-out'
                     }} />
                   </div>

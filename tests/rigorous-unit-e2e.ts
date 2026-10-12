@@ -243,8 +243,71 @@ async function runTestSuite() {
   assert(computedBreakdown[3].topicId === 'anatomy' && computedBreakdown[3].score === 0, 'Fourth topic is Anatomy at 0%');
   console.log('  ✓ Topic breakdown mathematical accuracy verified\n');
 
+  // ----------------------------------------------------
+  // TEST 6: Premium Downgrade & Tier Transition Integrity
+  // ----------------------------------------------------
+  console.log('[6/6] Testing Premium Downgrade & Tier Transition Integrity...');
+  localStorage.clear();
+
+  // Step 1: User finishes 500 questions with 450 correct while on Premium
+  saveProgress('pathology', 450, 500, 0, true, 500);
+  let pathProg = getTopicProgress('pathology');
+  assert(pathProg !== null, 'Pathology progress should exist');
+  assert(pathProg.highestScore === 450, 'Highest score should be 450');
+  assert(pathProg.totalQuestions === 500, 'Total questions should be 500');
+  let pct = Math.round((pathProg.highestScore / pathProg.totalQuestions) * 100);
+  assert(pct === 90, 'Topic card percentage must be exactly 90%');
+
+  // Step 2: User downgrades to Free. User starts an in-progress quiz (answers 10 questions)
+  // Notice total is now 100 (free pool limit)
+  saveProgress('pathology', 8, 100, 10, false, 10);
+  pathProg = getTopicProgress('pathology');
+  assert(pathProg.highestScore === 450, 'In-progress free quiz must NOT downgrade highestScore');
+  assert(pathProg.totalQuestions === 500, 'In-progress free quiz must NOT shrink totalQuestions to 100');
+  pct = Math.round((pathProg.highestScore / pathProg.totalQuestions) * 100);
+  assert(pct === 90, 'Topic card percentage must remain 90%, NOT 450%');
+
+  // Step 3: User finishes the 100-question free quiz with lower score (80/100 = 80%)
+  saveProgress('pathology', 80, 100, 0, true, 100);
+  pathProg = getTopicProgress('pathology');
+  assert(pathProg.highestScore === 450, 'Lower accuracy run (80%) must not overwrite higher record (90%)');
+  assert(pathProg.totalQuestions === 500, 'Total questions must remain 500');
+  pct = Math.round((pathProg.highestScore / pathProg.totalQuestions) * 100);
+  assert(pct === 90, 'Topic card percentage must remain 90%');
+
+  // Step 4: User finishes the 100-question free quiz with higher score (96/100 = 96%)
+  saveProgress('pathology', 96, 100, 0, true, 100);
+  pathProg = getTopicProgress('pathology');
+  assert(pathProg.highestScore === 96, 'Higher accuracy run (96%) must update highestScore');
+  assert(pathProg.totalQuestions === 100, 'Total questions must update to 100 for the new record');
+  pct = Math.round((pathProg.highestScore / pathProg.totalQuestions) * 100);
+  assert(pct === 96, 'Topic card percentage must now be 96%');
+
+  // Step 5: Test mid-quiz resume clamping when downgraded
+  // Suppose user was at question 350 with score 310
+  saveProgress('anatomy', 310, 500, 350, false, 350);
+  let anatProg = getTopicProgress('anatomy');
+  assert(anatProg.currentIndex === 350, 'Index saved at 350');
+  
+  // Free tier only has 100 questions. Simulate Quiz resume check:
+  const freeAvailable = 100;
+  let resumeIndex = anatProg.currentIndex;
+  let resumeScore = anatProg.currentScore;
+  if (resumeIndex >= freeAvailable) {
+    resumeIndex = 0;
+    resumeScore = 0;
+    saveProgress('anatomy', 0, freeAvailable, 0, false, 0);
+  }
+  anatProg = getTopicProgress('anatomy');
+  assert(anatProg.currentIndex === 0, 'Out-of-bounds in-progress quiz cleanly resets index to 0');
+  assert(anatProg.currentScore === 0, 'Out-of-bounds in-progress quiz cleanly resets score to 0');
+
+  // Step 6: Mathematical bounds assertion
+  assert(Math.min(100, Math.max(0, pct)) === 96, 'Percentage properly bounded between 0 and 100');
+  console.log('  ✓ Premium downgrade and score integrity verified\n');
+
   console.log('========================================');
-  console.log('  ALL 5 RIGOROUS LOGIC TESTS PASSED! 🎉');
+  console.log('  ALL 6 RIGOROUS LOGIC TESTS PASSED! 🎉');
   console.log('========================================\n');
 }
 

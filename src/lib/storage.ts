@@ -39,16 +39,37 @@ export const saveProgress = (
     const existingStr = localStorage.getItem(STORAGE_KEY);
     const existing: Record<string, TopicProgress> = existingStr ? JSON.parse(existingStr) : {};
     
-    const prevHigh = existing[topicId]?.highestScore || 0;
+    const prev = existing[topicId];
+    const prevHigh = prev?.highestScore || 0;
+    const prevTotal = prev?.totalQuestions || 0;
+    
+    let highestScore = prevHigh;
+    let totalQuestions = prevTotal > 0 ? prevTotal : total;
+    
+    if (isFinished) {
+      const prevRatio = prevTotal > 0 ? (prevHigh / prevTotal) : 0;
+      const newRatio = total > 0 ? (score / total) : 0;
+      
+      // Update high score if new accuracy ratio is strictly higher,
+      // or if equal accuracy ratio but over an equal or larger question set.
+      if (newRatio > prevRatio) {
+        highestScore = score;
+        totalQuestions = total;
+      } else if (newRatio === prevRatio && total >= prevTotal) {
+        highestScore = score;
+        totalQuestions = total;
+      }
+      // If newRatio < prevRatio, retain prevHigh and prevTotal intact!
+    }
     
     existing[topicId] = {
       topicId,
-      highestScore: isFinished ? Math.max(prevHigh, score) : prevHigh,
-      totalQuestions: total,
+      highestScore: Math.min(highestScore, totalQuestions),
+      totalQuestions,
       currentIndex: isFinished ? 0 : currentIndex,
       currentScore: isFinished ? 0 : score,
-      isFinished,
-      questionsAnswered: isFinished ? total : questionsAnswered
+      isFinished: isFinished || (prev?.isFinished && !isFinished ? false : prev?.isFinished || false),
+      questionsAnswered: isFinished ? total : Math.min(questionsAnswered, total)
     };
     
     localStorage.setItem(STORAGE_KEY, JSON.stringify(existing));
