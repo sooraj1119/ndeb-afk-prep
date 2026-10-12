@@ -28,7 +28,7 @@ export function Search() {
       setLoading(false);
     };
     init();
-  }, []);
+  }, [isPremium]);
   const [expandedId, setExpandedId] = useState<number | null>(null);
 
   const results = useMemo(() => {

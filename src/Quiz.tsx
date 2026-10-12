@@ -230,6 +230,12 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
           qList = allQs.filter((q: any) => mistakes.includes(q.topicId + '-' + q.id));
           setTopicName("Weakness Drilling");
         } else if (isSRSMode) {
+          if (!currentPremium) {
+            setShowPaywall(true);
+            setLoading(false);
+            setInitialized(true);
+            return;
+          }
           const dueIds = getDueSRSQuestions();
           qList = allQs.filter((q: any) => dueIds.includes(q.topicId + '-' + q.id));
           setTopicName("Daily SRS Review");
@@ -922,7 +928,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
 
-      <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature={`all ${getTotalQuestionCount().toLocaleString()} questions`} />
+      <PaywallModal isOpen={showPaywall} onClose={() => { setShowPaywall(false); if (isSRSMode && !isPremium) onBack(); }} feature={`all ${getTotalQuestionCount().toLocaleString()} questions`} />
       
       <ConfirmModal
         isOpen={showRestartConfirm}

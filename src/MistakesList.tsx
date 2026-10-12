@@ -27,7 +27,7 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
       setLoading(false);
     };
     init();
-  }, []);
+  }, [isPremium]);
 
   const handleRemove = (id: string) => {
     removeMistake(id);
