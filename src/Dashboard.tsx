@@ -82,8 +82,12 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
     // Only include real topics in the global stats
     if (!topics.find(t => t.id === p.topicId)) return;
 
-    const attempted = p.isFinished ? p.totalQuestions : (p.questionsAnswered || 0);
-    let correct = p.isFinished ? p.highestScore : (p.currentScore || 0);
+    const attempted = p.isFinished 
+      ? p.totalQuestions 
+      : (p.highestScore > 0 && p.totalQuestions > 0 ? p.totalQuestions : (p.questionsAnswered || 0));
+    let correct = p.isFinished 
+      ? p.highestScore 
+      : (p.highestScore > 0 && p.totalQuestions > 0 ? p.highestScore : (p.currentScore || 0));
     
     // Safety clamp to guarantee it never exceeds 100% mathematically
     correct = Math.min(correct, attempted);
@@ -425,10 +429,14 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           let attemptedCount = 0;
           
           if (hasAttempted) {
-             attemptedCount = topicProg.isFinished ? topicProg.totalQuestions : (topicProg.questionsAnswered || 0);
+             attemptedCount = topicProg.isFinished 
+               ? topicProg.totalQuestions 
+               : (topicProg.highestScore > 0 && topicProg.totalQuestions > 0 ? topicProg.totalQuestions : (topicProg.questionsAnswered || 0));
              completionProgress = Math.min(100, Math.max(0, Math.round((attemptedCount / topicTotal) * 100)));
              if (attemptedCount > 0) {
-                 let correctCount = topicProg.isFinished ? topicProg.highestScore : (topicProg.currentScore || 0);
+                 let correctCount = topicProg.isFinished 
+                   ? topicProg.highestScore 
+                   : (topicProg.highestScore > 0 && topicProg.totalQuestions > 0 ? topicProg.highestScore : (topicProg.currentScore || 0));
                  correctCount = Math.min(correctCount, attemptedCount);
                  accuracy = Math.min(100, Math.max(0, Math.round((correctCount / attemptedCount) * 100)));
              }

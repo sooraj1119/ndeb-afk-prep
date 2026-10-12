@@ -74,6 +74,8 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
 
   const isMistakesMode = topicId === 'mistakes';
 
+  const isSpecialMode = isSimulatedMode || isMistakesMode || isSRSMode || isFlaggedMode;
+
   
 
   const breakdownRef = useRef<Record<string, { correct: number; total: number }>>({});
@@ -94,7 +96,7 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
 
   const handleFinish = () => {
-    if (!isSimulatedMode && !isMistakesMode && !isSRSMode) {
+    if (!isSpecialMode) {
         saveProgress(topicId, score, topicQuestions.length, 0, true, topicQuestions.length);
     }
     if (isSimulatedMode) {
@@ -242,7 +244,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
           if (!currentPremium) qList = qList.slice(0, 100);
         }
         
-        if (!isSimulatedMode && !isMistakesMode && !isSRSMode) {
+        if (!isSpecialMode) {
           const progress = getTopicProgress(topicId);
           if (progress && !progress.isFinished) {
             let loadedIndex = progress.currentIndex;
@@ -385,7 +387,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
 
-    if (!isSimulatedMode && !isMistakesMode && !isSRSMode) {
+    if (!isSpecialMode) {
         saveProgress(topicId, newScore, topicQuestions.length, currentIndex, false, currentIndex + 1);
       checkAndAwardBadges(currentIndex + 1, newScore);
 
@@ -429,7 +431,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
 
-      if (!isSimulatedMode && !isMistakesMode && !isSRSMode) {
+      if (!isSpecialMode) {
         saveProgress(topicId, score, topicQuestions.length, nextIdx, false, currentIndex + 1);
 
       }
