@@ -21,7 +21,26 @@
       })();
     </script>
 
-    <style>iframe.skiptranslate,.goog-te-banner-frame,.VIpgJd-ZVi9od-ORHb-OEVmcd,.skiptranslate>iframe.skiptranslate{visibility:hidden!important;opacity:0!important;z-index:-99999!important;width:0!important;height:0!important;display:none!important;position:absolute!important;top:-9999px!important}body{margin-top:0!important;position:static!important;top:0!important}.goog-text-highlight{box-shadow:none!important;background:0 0!important}</style>
+    <style>html body [class*=VIpgJd],html body .VIpgJd-ZVi9od-aZ2wEe-wOHMyf,html body .VIpgJd-ZVi9od-aZ2wEe-OiiCO,html body .VIpgJd-ZVi9od-aZ2wEe,html body .VIpgJd-ZVi9od-ORHb-OEVmcd,html body .VIpgJd-yAWNEb-hvhgNd-THIOPb,html body .goog-te-banner-frame,html body .goog-te-balloon-frame,html body .goog-te-gadget,html body .goog-te-gadget-simple,html body .goog-te-gadget-icon,html body .goog-tooltip,html body .goog-tooltip-skiptranslate,html body #goog-gt-tt,html body #goog-gt-vt,html body #google_translate_element,html body iframe.skiptranslate,html body .skiptranslate>iframe.skiptranslate{visibility:hidden!important;opacity:0!important;z-index:-99999!important;pointer-events:none!important;width:0!important;max-width:0!important;height:0!important;max-height:0!important;display:none!important;position:absolute!important;top:-9999px!important;left:-9999px!important;overflow:hidden!important}body{margin-top:0!important;position:static!important;top:0!important}.goog-text-highlight{box-shadow:none!important;background:0 0!important}</style>
+    <script>
+      (function() {
+        function hideGTWidget() {
+          var els = document.querySelectorAll('[class*="VIpgJd"], .goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame');
+          for (var i = 0; i < els.length; i++) {
+            els[i].style.setProperty('display', 'none', 'important');
+            els[i].style.setProperty('visibility', 'hidden', 'important');
+            els[i].style.setProperty('opacity', '0', 'important');
+            els[i].style.setProperty('pointer-events', 'none', 'important');
+          }
+        }
+        if (typeof MutationObserver !== 'undefined') {
+          var observer = new MutationObserver(hideGTWidget);
+          observer.observe(document.documentElement, { childList: true, subtree: true });
+        }
+        window.addEventListener('DOMContentLoaded', hideGTWidget);
+        window.addEventListener('load', hideGTWidget);
+      })();
+    </script>
       <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.getRegistrations().then(function(registrations) {
@@ -32,12 +51,12 @@
         });
       }
     </script>
-    <script type="module" crossorigin src="/ndeb-afk-prep/assets/index-c-ViNFOJ.js"></script>
+    <script type="module" crossorigin src="/ndeb-afk-prep/assets/index-CCDQ6WRk.js"></script>
     <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/dist-Btb5Jv1E.js">
     <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/storage-fB0CLgV2.js">
     <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/dist-D0bZphAR.js">
     <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/revenuecat-DJdm8S4C.js">
-    <link rel="stylesheet" crossorigin href="/ndeb-afk-prep/assets/index-ttras30Q.css">
+    <link rel="stylesheet" crossorigin href="/ndeb-afk-prep/assets/index-DDHPg1A3.css">
   <link rel="manifest" href="/ndeb-afk-prep/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/ndeb-afk-prep/registerSW.js"></script></head>
 
   <body>
@@ -78,7 +97,7 @@
         };
       }
     </script>
-
+
 
     <script type="text/javascript">
       function googleTranslateElementInit() {
