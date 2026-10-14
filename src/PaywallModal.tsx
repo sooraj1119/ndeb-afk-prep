@@ -92,6 +92,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
           }}
         >
           <button
+            aria-label="Close Paywall"
             onClick={onClose}
             style={{
               position: 'absolute', top: '1rem', right: '1rem', zIndex: 10,

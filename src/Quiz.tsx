@@ -227,13 +227,18 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
           qList = allQs.filter((q: any) => flags.includes(q.topicId + '-' + q.id));
           setTopicName("Flagged Review");
         } else if (isMistakesMode) {
+          if (!currentPremium) {
+            setShowPaywall(true);
+            setInitialized(true);
+            return;
+          }
           const mistakes = getMistakes();
           qList = allQs.filter((q: any) => mistakes.includes(q.topicId + '-' + q.id));
           setTopicName("Weakness Drilling");
         } else if (isSRSMode) {
           if (!currentPremium) {
             setShowPaywall(true);
-                        setInitialized(true);
+            setInitialized(true);
             return;
           }
           const dueIds = getDueSRSQuestions();
@@ -241,8 +246,14 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
           setTopicName("Daily SRS Review");
         }
       } else {
+          const selectedTopic = topics.find(t => t.id === topicId);
+          if (selectedTopic?.isPremiumOnly && !currentPremium) {
+            setShowPaywall(true);
+            setInitialized(true);
+            return;
+          }
           qList = await loadTopicQuestions(topicId);
-          setTopicName(topics.find(t => t.id === topicId)?.name || "");
+          setTopicName(selectedTopic?.name || "");
         }
         
         if (!isSimulatedMode) {
@@ -753,12 +764,24 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
 
+  const isLockedForFreeUser = !isPremium && (isSRSMode || isMistakesMode || !!topics.find(t => t.id === topicId)?.isPremiumOnly);
+
   if (!initialized || topicQuestions.length === 0 || !question) {
     return (
       <>
         {initialized ? (
           <div style={{ padding: '2rem', textAlign: 'center', marginTop: '4rem' }}>
-            <h2>{isFlaggedMode ? "No flagged questions." : isSRSMode ? (isPremium ? "No questions due for review." : "Daily SRS Review is a Pro feature.") : "No questions available."}</h2>
+            <h2>
+              {isFlaggedMode 
+                ? "No flagged questions." 
+                : isSRSMode 
+                  ? (isPremium ? "No questions due for review." : "Daily SRS Review is a Pro feature.") 
+                  : isMistakesMode 
+                    ? (isPremium ? "No mistakes saved for review." : "Weakness Drilling is a Pro feature.")
+                    : (!isPremium && topics.find(t => t.id === topicId)?.isPremiumOnly) 
+                      ? "This topic is a Pro feature." 
+                      : "No questions available."}
+            </h2>
             <button onClick={onBack} className="primary-btn" style={{ marginTop: '2rem' }}>Go Back</button>
           </div>
         ) : null}
@@ -766,9 +789,9 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
           isOpen={showPaywall} 
           onClose={() => { 
             setShowPaywall(false); 
-            if (isSRSMode && !isPremium) onBack(); 
+            if (isLockedForFreeUser) onBack(); 
           }} 
-          feature="Daily Spaced Repetition Review" 
+          feature={isSRSMode ? "Daily Spaced Repetition" : isMistakesMode ? "Weakness Drilling" : (topics.find(t => t.id === topicId)?.name || "Pro Features")} 
         />
       </>
     );
@@ -932,7 +955,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
 
-      <PaywallModal isOpen={showPaywall} onClose={() => { setShowPaywall(false); if (isSRSMode && !isPremium) onBack(); }} feature={`all ${getTotalQuestionCount().toLocaleString()} questions`} />
+      <PaywallModal isOpen={showPaywall} onClose={() => { setShowPaywall(false); if (isLockedForFreeUser) onBack(); }} feature={isSRSMode ? "Daily Spaced Repetition" : isMistakesMode ? "Weakness Drilling" : (topics.find(t => t.id === topicId)?.name || `all ${getTotalQuestionCount().toLocaleString()} questions`)} />
       
       <ConfirmModal
         isOpen={showRestartConfirm}

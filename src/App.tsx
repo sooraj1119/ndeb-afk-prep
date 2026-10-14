@@ -24,6 +24,7 @@ import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, Shield
 
 import { AnimatePresence, motion } from 'framer-motion';
 
+import { topics } from './lib/data';
 import { hasAcceptedDisclaimer, acceptDisclaimer, logDailyVisit, usePremiumStatus } from './lib/storage';
 import { PaywallModal } from './PaywallModal';
 import { PrivacyPolicyModal, TermsOfUseModal, MedicalDisclaimerModal } from './LegalModals';
@@ -234,13 +235,16 @@ function App() {
 
 
   const handleTopicSelect = (topicId: string) => {
+    const isTopicPremium = topics.find(t => t.id === topicId)?.isPremiumOnly;
+    const isSpecialPro = topicId === 'srs_review' || topicId === 'mistakes' || topicId === 'mistakes_list';
+    if (!isPremium && (isTopicPremium || isSpecialPro)) {
+      setShowPaywall(true);
+      return;
+    }
 
     setSelectedTopic(topicId);
-
     setQuizFinished(false);
-
     setActiveTab('practice');
-
   };
 
 
