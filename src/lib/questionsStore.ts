@@ -18,11 +18,9 @@ export const loadAllQuestions = async (): Promise<void> => {
       manifestCache = await res.json();
     }
     if (manifestCache) {
-      for (const t of manifestCache) {
-        if (!cache[t.id]) {
-          await loadTopicQuestions(t.id).catch(() => []);
-        }
-      }
+      await Promise.all(
+        manifestCache.map(t => (!cache[t.id] ? loadTopicQuestions(t.id).catch(() => []) : Promise.resolve(cache[t.id])))
+      );
     }
   } catch (e) {
     console.error("Failed to load all questions", e);

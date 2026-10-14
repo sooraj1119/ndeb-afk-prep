@@ -114,8 +114,12 @@ function App() {
       if (showPaywall) { setShowPaywall(false); return; }
       if (showDisclaimer) { return; }
       if (confirmNav) { setConfirmNav(null); return; }
-      // 2. Handle active quiz state (just unmount it, Quiz.tsx handles saving on unmount)
-      if (selectedTopic && !quizFinished) {
+      // 2. Handle active quiz state (confirm before abandoning)
+      if (selectedTopic && !quizFinished && selectedTopic !== 'mistakes_list') {
+        setConfirmNav(() => () => { setSelectedTopic(null); });
+        return;
+      }
+      if (selectedTopic === 'mistakes_list') {
         setSelectedTopic(null);
         return;
       }
@@ -138,7 +142,7 @@ function App() {
 
 
 
-  const [isFrench, setIsFrench] = useState(() => document.cookie.includes('googtrans=/en/fr'));
+  const [isFrench] = useState(() => document.cookie.includes('googtrans=/en/fr'));
 
 
 
@@ -256,7 +260,11 @@ function App() {
 
 
   const confirmNavigation = (onConfirm: () => void) => {
-    onConfirm();
+    if (activeTab === 'practice' && selectedTopic && !quizFinished && selectedTopic !== 'mistakes_list') {
+      setConfirmNav(() => onConfirm);
+    } else {
+      onConfirm();
+    }
   };
 
   const resetState = () => {
@@ -848,6 +856,19 @@ function App() {
       <PrivacyPolicyModal isOpen={showPrivacyPolicy} onClose={() => setShowPrivacyPolicy(false)} />
       <TermsOfUseModal isOpen={showTermsOfUse} onClose={() => setShowTermsOfUse(false)} />
         <MedicalDisclaimerModal isOpen={showLegalDisclaimer} onClose={() => setShowLegalDisclaimer(false)} />
+      <ConfirmModal
+        isOpen={!!confirmNav}
+        title="Leave Quiz?"
+        message="Are you sure you want to leave? Your current quiz session will end."
+        confirmLabel="Leave"
+        confirmColor="#ef4444"
+        onConfirm={() => {
+          const action = confirmNav;
+          setConfirmNav(null);
+          action?.();
+        }}
+        onCancel={() => setConfirmNav(null)}
+      />
 
           
     </div>

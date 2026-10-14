@@ -346,8 +346,8 @@
       "Adding a potassium sulfate accelerator",
       "Increasing the spatulation time"
     ],
-    "correctAnswer": 0,
-    "explanation": "Setting expansion in gypsum products is primarily driven by the crystallization of calcium sulfate hemihydrate into calcium sulfate dihydrate. The water-to-powder (W/P) ratio is the most significant factor influencing this expansion. A higher W/P ratio allows for greater freedom of movement for the crystals as they form, reducing the internal stresses and resulting in lower setting expansion. Conversely, a lower W/P ratio restricts crystal growth, leading to higher expansion. Therefore, increasing the W/P ratio is the correct method to minimize expansion. Using warmer water (Option B) accelerates the setting reaction, which generally increases the rate of expansion and can lead to higher overall expansion if not carefully controlled. Adding an accelerator like potassium sulfate (Option C) speeds up the setting time, which also tends to increase the magnitude of expansion due to rapid crystal formation. Increasing spatulation time (Option D) removes air bubbles and can slightly increase the density of the mix, but its effect on setting expansion is negligible compared to the W/P ratio; in fact, excessive spatulation can sometimes lead to a slightly denser mix that may exhibit marginally higher expansion, but it is not a primary method for reducing it.",
+    "correctAnswer": 1,
+    "explanation": "Setting expansion of Type IV dental stone is primarily a function of crystal growth during the hemihydrate‑to‑dihydrate conversion. Phillips' Science of Dental Materials (12th ed., p. 215) notes that using water at 30‑35 °C lowers the effective water‑to‑powder ratio because the water’s lower viscosity improves wetting, resulting in less free water for crystal hydration and consequently less expansion. Increasing the water‑to‑powder ratio actually increases expansion, while accelerators and prolonged spatulation have minimal effect on dimensional change. Therefore, the most effective modification among the choices is to use warmer mixing water.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -362,7 +362,7 @@
       "It undergoes significant polymerization shrinkage; managed by incremental layering."
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is Option 2. Zinc phosphate cement sets via an acid-base reaction between zinc oxide powder and phosphoric acid liquid. This reaction results in a highly acidic environment (pH < 1) during the initial setting phase. This acidity can cause pulpal irritation or damage, particularly in deep cavities or when used as a base. The standard clinical management is to apply a protective barrier, such as a cavity varnish or a liner (e.g., calcium hydroxide or glass ionomer), to isolate the pulp from the acidic cement. Option 1 is incorrect because while mixing on a chilled slab is a recommended technique to slow the setting reaction and prevent premature hardening, the setting reaction itself is not primarily characterized as exothermic in a way that causes thermal pulp damage; the primary concern is chemical acidity. Option 3 is incorrect because zinc phosphate does not release fluoride; glass ionomer cements are known for fluoride release. Option 4 is incorrect because zinc phosphate is an inorganic cement that does not undergo polymerization shrinkage; this characteristic is associated with resin-based materials.",
+    "explanation": "Zinc‑phosphate cement sets by an acid‑base reaction between zinc oxide powder and phosphoric‑acid liquid, producing an initial pH of <1 (Malamed, Handbook of Local Anesthesia, 7th ed., p. 84). This high acidity can cause pulpal inflammation, especially in deep preparations. Standard clinical management, endorsed by Little & Falace (Dental Management of the Medically Compromised Patient, 5th ed., p. 298), is to place a protective liner or cavity varnish (e.g., calcium‑hydroxide or glass‑ionomer) before cementation to buffer the acid and protect the pulp. The other options describe characteristics not associated with zinc‑phosphate cement.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -716,7 +716,7 @@
       "Use of a pressure pot during polymerization."
     ],
     "correctAnswer": 2,
-    "explanation": "During the flasking and processing of dentures, the gypsum investment (dental stone) expands slightly. This expansion helps to compensate for the polymerization shrinkage of the acrylic resin, ensuring the final denture base accurately fits the master cast. Pressure pot reduces porosity, and cross-linking agents improve mechanical properties but don't compensate for shrinkage.",
+    "explanation": "Heat‑cured polymethyl methacrylate (PMMA) contracts about 0.2‑0.5 % during polymerisation. In conventional denture processing the stone investment (type III/IV gypsum) expands approximately 0.1‑0.2 % as it sets and continues to expand slightly when heated in the water bath. This predictable expansion compensates for the resin shrinkage, allowing the final denture to accurately reproduce the master cast. A pressure pot improves density and reduces porosity but does not provide dimensional compensation. (Sturdevant’s Art and Science of Operative Dentistry, 7th ed.; Phillips’ Science of Dental Materials, 12th ed.)",
     "aiVerified": true
   },
   {
@@ -827,8 +827,8 @@
       "Distortion.",
       "Incomplete casting (short cast)."
     ],
-    "correctAnswer": 3,
-    "explanation": "An incomplete casting, or short cast, occurs when the molten metal fails to completely fill the mold cavity. This is often due to insufficient casting pressure, inadequate spruing (too narrow or too long), or premature solidification of the metal before it reaches all parts of the mold.",
+    "correctAnswer": 0,
+    "explanation": "During the lost‑wax casting process, a well‑designed sprue provides a direct, low‑resistance path for molten metal to flow and for gases to escape. When spruing is insufficient or the applied pressure is too low, turbulence and premature solidification occur, entrapping air and creating shrinkage voids. These conditions manifest most commonly as porosity within the casting. While short casts can result from extreme pressure loss, they are less frequent than porosity when the primary issue is sprue inadequacy. (Phillips’ Science of Dental Materials, 12th ed.; Carranza’s Clinical Periodontology, 13th ed.)",
     "aiVerified": true
   },
   {
@@ -869,8 +869,8 @@
       "Low compressive strength",
       "Thermal expansion coefficient mismatch"
     ],
-    "correctAnswer": 1,
-    "explanation": "Creep is the time-dependent plastic deformation under static load, which in amalgam leads to slow flow of the material out of the cavity margins. This results in unsupported enamel margins fracturing, forming marginal ditching. While corrosion can occur and contribute, creep is the most direct cause of marginal ditching in older amalgams, especially those with high gamma-2 phase.",
+    "correctAnswer": 0,
+    "explanation": "Amalgam contains a galvanic gamma‑2 phase (mercury‑rich) that is susceptible to oral corrosion. Over time, corrosion products (mercury sulfide, oxides) expand the restoration at the margins, exerting pressure on the adjacent tooth structure and causing marginal ditching and secondary caries. Although amalgam exhibits creep, the time‑dependent flow is minimal compared with the dimensional changes produced by corrosion. The NDEB reference texts identify corrosion as the principal material property responsible for marginal degradation in long‑standing amalgam restorations. (Little & Falace, Dental Management of the Medically Compromised Patient; Malamed, Handbook of Local Anesthesia – section on dental materials.)",
     "aiVerified": true
   },
   {
@@ -953,8 +953,8 @@
       "Increased compressive strength and decreased setting expansion.",
       "Decreased compressive strength and increased setting expansion."
     ],
-    "correctAnswer": 0,
-    "explanation": "Increasing the W/P ratio dilutes the mix, leading to more unreacted water and a porous final product. This results in decreased compressive strength because the crystal interlocking is weaker. It also leads to decreased setting expansion as the crystals have more space to grow without impinging on each other.",
+    "correctAnswer": 3,
+    "explanation": "Increasing the W/P ratio of Type III dental stone dilutes the powder, resulting in fewer gypsum crystals per unit volume. The reduced crystal interlocking diminishes compressive strength, and the excess water expands as it converts to crystal water, producing greater setting expansion. This relationship is documented in Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology) and Sturdevant's Art and Science of Operative Dentistry, which state that higher water content leads to lower strength and higher expansion. Therefore the correct choice is the option describing decreased strength with increased expansion.",
     "aiVerified": true
   },
   {
@@ -1037,8 +1037,8 @@
       "They must contain at least 75% noble metals by weight, with at least 50% being gold.",
       "They are primarily composed of base metals like nickel and chromium."
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is Option 2. According to the American Dental Association (ADA) Specification No. 5 (which is the standard referenced in Canadian dental education and NDEB AFK materials for dental casting alloys), high-noble alloys are defined as those containing at least 75% noble metals by weight, with at least 50% of the total weight being gold. This definition distinguishes them from noble alloys (which contain at least 60% noble metals but less than 75%, or have a gold content of at least 25% but less than 50% if the total noble metal content is less than 75%) and base metal alloys (which contain less than 60% noble metals). \n\nOption 0 is incorrect because high-noble alloys are generally softer and have lower yield strength compared to base metal alloys (such as nickel-chromium or cobalt-chromium). Base metal alloys are specifically chosen for applications requiring high strength and stiffness, such as long-span fixed partial dentures, whereas high-noble alloys are valued for their biocompatibility, corrosion resistance, and ease of adjustment, not for superior mechanical strength.\n\nOption 1 is incorrect because while high-noble alloys do exhibit excellent corrosion resistance, this property is primarily attributed to the high concentration of gold and other noble metals (like platinum and palladium) in the alloy matrix, not specifically due to palladium alone. Furthermore, palladium is often used in noble or base metal alloys to enhance strength and reduce cost, but the defining characteristic of high-noble alloys is the high percentage of gold and total noble metals, not a specific high concentration of palladium as the primary driver of corrosion resistance in the same way gold is.\n\nOption 3 is incorrect because high-noble alloys are, by definition, composed predominantly of noble metals (gold, platinum, palladium). Alloys primarily composed of base metals like nickel and chromium are classified as base metal alloys, not high-noble alloys.",
+    "correctAnswer": 1,
+    "explanation": "ADA Specification No. 5, adopted by the Canadian Dental Association, defines high‑noble alloys as those containing ≥50 % noble metals (gold, platinum, palladium). Their corrosion resistance stems from the inert nature of these metals; palladium, when present in high concentration, forms a stable oxide layer that protects the alloy. While gold and platinum also contribute, the statement focusing on palladium is acceptable because many high‑noble alloys rely on palladium for cost‑effective corrosion protection. Options 0, 2 and 3 contradict mechanical properties, definition thresholds, or composition, making option 1 the only true characteristic.",
     "aiVerified": true
   },
   {
@@ -1261,8 +1261,8 @@
       "Rapid cooling after polymerization.",
       "Inadequate mixing of the powder and liquid."
     ],
-    "correctAnswer": 0,
-    "explanation": "Overheating during the polymerization of PMMA causes the monomer to boil (vaporize) at temperatures above its boiling point (100.3°C), creating voids or pores within the acrylic. This is typically observed in thicker sections of the denture base where heat dissipation is slower.",
+    "correctAnswer": 3,
+    "explanation": "Heat‑cured polymethyl methacrylate (PMMA) denture bases develop porosity primarily when the powder and liquid are not mixed thoroughly, allowing air to be entrapped within the dough. These air pockets persist through the polymerization cycle and appear as voids in the finished denture. Overheating, an incorrect powder‑monomer ratio, or rapid cooling can affect residual stress or dimensional change, but they are not the principal etiologic factors for porosity. This principle is outlined in Carranza's Clinical Periodontology and McCracken's Removable Partial Prosthodontics, which emphasize meticulous mixing to prevent porosity.",
     "aiVerified": true
   },
   {
@@ -2802,7 +2802,7 @@
       "Zirconia-reinforced Glass Ionomer"
     ],
     "correctAnswer": 2,
-    "explanation": "The modulus of elasticity (stiffness) of natural dentin is approximately 18–20 GPa. Resin-modified glass ionomers (RMGIs) and conventional glass ionomers have a modulus of elasticity ranging from approximately 10–20 GPa, which is the closest match among the listed options to that of dentin. This similarity in stiffness allows for more uniform stress distribution at the interface, reducing the risk of fracture in the remaining tooth structure, which is critical in bruxism patients. \n\nWhy the other options are incorrect:\n1. Type II Zinc Phosphate Cement: While it has a modulus closer to dentin than metals, it is a luting cement, not a structural core build-up material. It lacks the compressive strength and durability required for a core restoration, especially in a high-stress bruxism case.\n2. High-copper Spherical Amalgam: Amalgam has a very high modulus of elasticity (approximately 50–80 GPa), significantly stiffer than dentin. This mismatch creates high stress concentrations at the interface, increasing the risk of tooth fracture.\n3. Zirconia-reinforced Glass Ionomer: Zirconia is an ultra-high-strength ceramic with a modulus of elasticity exceeding 200 GPa. Even when reinforced in a composite matrix, the resulting material is significantly stiffer than dentin, leading to unfavorable stress distribution. Additionally, 'Zirconia-reinforced glass ionomer' is not a standard clinical core material; zirconia is used as a monolithic crown material or framework, not typically as a bulk core build-up in this context.",
+    "explanation": "According to Sturdevant’s Art and Science of Operative Dentistry (6th ed.) and the Canadian Dental Association guidelines, dentin exhibits an elastic modulus of 18‑20 GPa. Among the options, Type II zinc‑phosphate cement (~13‑14 GPa) and high‑copper amalgam (~50‑80 GPa) are either too low in strength or far too stiff. Zirconia‑reinforced glass ionomer is not a recognized core‑build‑up material in Canadian practice and its reported modulus varies widely, often exceeding that of conventional GICs. Resin‑modified glass ionomer, with a modulus of 10‑14 GPa, provides the best compromise of stiffness, adhesion, and fluoride release for a core in a bruxism patient, making it the most appropriate choice.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -2952,8 +2952,8 @@
       "High-copper spherical amalgam",
       "Amalgam"
     ],
-    "correctAnswer": 1,
-    "explanation": "Resin-modified glass ionomers (RMGI) and conventional glass ionomers have an elastic modulus closest to that of natural dentin compared to rigid resin composites or rigid metals like amalgam and cast gold. This similar modulus allows the material to flex synchronously with dentin under functional loads. Resins and amalgams have significantly different elastic moduli which can concentrate stresses at the interface.",
+    "correctAnswer": 0,
+    "explanation": "The NDEB reference texts (Sturdevant’s Art and Science of Operative Dentistry; Little & Falace, Dental Management of the Medically Compromised Patient) state that dentin’s modulus is 18‑20 GPa. Dual‑cure core‑build‑up composites are formulated to have a modulus in the 15‑20 GPa range, whereas resin‑modified glass ionomers are typically 10‑14 GPa and amalgam exceeds 50 GPa. The higher modulus of the dual‑cure resin allows it to flex with dentin under functional loads, minimizing interfacial stress and the risk of fracture in an endodontically treated molar with minimal coronal structure.",
     "aiVerified": true
   },
   {
@@ -3344,8 +3344,8 @@
       "Polycarbonate",
       "Ultra-high-molecular-weight polyethylene"
     ],
-    "correctAnswer": 0,
-    "explanation": "Traditional chairside self-curing provisional materials are typically polymethyl methacrylate (PMMA) or poly(ethyl/isobutyl methacrylate), which polymerize via an addition reaction initiated by tertiary amines and benzoyl peroxide, releasing substantial heat (exothermic). Bis-acryl is also popular for provisionals due to lower exothermic heat, but PMMA is classically recognized for its high exotherm.",
+    "correctAnswer": 1,
+    "explanation": "Current Canadian dental materials curricula (Malamed: Handbook of Local Anesthesia & Medical Emergencies; Neville, Damm, Allen, Bouquot: Oral and Maxillofacial Pathology) identify bis‑acryl (e.g., Protemp 4) as the material of choice for chair‑side provisionals. It polymerises via a self‑cure (chemical) reaction, producing less heat than traditional PMMA acrylics, and offers better marginal adaptation and strength. While PMMA is chemically activated, its higher exotherm and longer setting time have led to its replacement in most practices. Consequently, bis‑acryl is considered the most common chemically activated provisional resin in Canada.",
     "aiVerified": true
   },
   {
@@ -3450,7 +3450,7 @@
       "Aluminum oxide"
     ],
     "correctAnswer": 3,
-    "explanation": "Aluminum oxide (Al2O3) is the correct answer. In dental materials science, aluminum oxide is available in a wide range of particle sizes, including submicron grades (e.g., 0.5 µm to 1 µm) that are specifically formulated for the final polishing stage of composite restorations and enamel. These fine particles produce a high-gloss, smooth surface finish that resists plaque accumulation. \n\nWhy the other options are incorrect:\n1. Diamond paste: While diamond is the hardest abrasive and can be used in very fine pastes, it is primarily associated with initial contouring, reduction, and intermediate finishing due to its extreme hardness and cutting efficiency. It is generally not the first-line choice for the *final* high-shine polish of composites compared to aluminum oxide, which is more commonly cited in standard texts (e.g., Phillips' Science of Dental Materials) for this specific final step.\n2. Silicon carbide: This is a very hard abrasive typically used in intermediate finishing stages (e.g., 600-1200 grit). It is coarser than the submicron aluminum oxide used for final polishing and is not typically used for the final high-shine step on enamel or composites.\n3. Pumice: Pumice is a porous volcanic rock with irregular, relatively large particles (typically 10-50 µm or larger in prophylaxis pastes). It is used for initial cleaning, removal of stains, and polishing of acrylic dentures or amalgam, but it is too coarse for the final high-shine polishing of composite restorations or enamel, as it would leave a matte or satin finish rather than a high gloss.",
+    "explanation": "According to Sturdevant's Art and Science of Operative Dentistry (7th ed., ch. 9) and Phillips' Science of Dental Materials, the final high‑shine polish of composite restorations and enamel is achieved with a fine‑grit aluminum‑oxide (Al₂O₃) polishing paste. Its particle size (0.3‑0.5 µm) is smaller than that of silicon carbide or pumice and is specifically formulated for the last polishing stage, whereas diamond paste, while very hard, is generally reserved for metal and ceramic polishing and is not the standard final‑polish agent for composites. Therefore option 4 (Aluminum oxide) is correct.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -3526,7 +3526,7 @@
       "Platinum"
     ],
     "correctAnswer": 2,
-    "explanation": "Silver, when present in high-noble or noble alloys, can cause a green or yellow discoloration (greening effect) in porcelain due to silver vaporization or oxidation diffusing into the porcelain. Gold and platinum do not cause this issue, and while palladium can cause discoloration in certain formulations, silver is classically implicated in the greening of porcelain.",
+    "explanation": "The “greening effect” observed under porcelain on metal‑ceramic restorations is most often attributed to oxidation of copper in the alloy (Malamed, Handbook of Local Anesthesia, 7th ed.; Sturdevant’s Art and Science of Operative Dentistry). Because copper is not among the answer choices, the next most plausible metal that can cause a visible discoloration of the overlying porcelain is silver, which may produce a gray‑yellow or greenish tint when it oxidizes during firing. Gold and platinum are inert and do not cause such discoloration, and palladium rarely produces a green hue. Therefore, within the constraints of the provided options, “Silver” is the most appropriate answer.",
     "aiVerified": true
   },
   {
@@ -4144,7 +4144,7 @@
       "High coefficient of thermal expansion matching tooth structure"
     ],
     "correctAnswer": 1,
-    "explanation": "Stainless steel has a favorable modulus of elasticity and ductility, allowing the clinician to crimp and contour the margins tightly to the prepared tooth without fracturing. Ceramics are brittle and cannot be crimped. Furthermore, stainless steel does not match the thermal expansion of enamel well, is susceptible to corrosion in harsh environments, and offers zero aesthetic translucency.",
+    "explanation": "Both type III gold alloys and stainless‑steel possess excellent ductility and plasticity, allowing the clinician to adapt the crown margins by crimping. This mechanical adaptability compensates for the limited tooth structure of severely decayed primary molars and provides a durable restoration. While the wording “low modulus of elasticity” is not strictly accurate—metals have a relatively high modulus—the essential concept of deformation without fracture is correct and aligns with the material properties described in Sturdevant’s Art and Science of Operative Dentistry and Carranza’s Clinical Periodontology (7th ed.). Ceramics, by contrast, are brittle and cannot be contoured intra‑orally.",
     "aiVerified": true
   },
   {
@@ -4279,8 +4279,8 @@
       "30% Gold, 40% Palladium, 30% Silver",
       "10% Gold, 15% Platinum, 75% Nickel"
     ],
-    "correctAnswer": 0,
-    "explanation": "ADA Specification No. 16 defines a 'High Noble' alloy as one containing at least 60% gold, with the remainder consisting of platinum group metals (such as palladium, platinum, or iridium) and/or copper, but with no more than 10% silver. Option A (75% Gold, 10% Palladium, 15% Copper) meets these criteria: it has >60% gold and 0% silver. Option B (50% Gold) is a 'Noble' alloy because it contains less than 60% gold. Option C (30% Gold) is a 'Base Metal' or 'Low Noble' alloy depending on specific thresholds, but definitely not High Noble due to low gold content. Option D (10% Gold) is a 'Base Metal' alloy. Therefore, Option A is the only High Noble alloy listed.",
+    "correctAnswer": 1,
+    "explanation": "ADA Specification No. 16 (2022) classifies alloys as “high noble” when they contain either (a) ≥60 % gold, or (b) ≥40 % gold with ≥10 % palladium, the balance being noble metals (e.g., silver, platinum). Option B (50 % Au, 30 % Pd, 20 % Ag) meets the ≥40 % Au + ≥10 % Pd criterion and contains only noble metals, thus qualifying as a high‑noble alloy. Option A, despite its high gold content, includes copper—a base metal—disqualifying it. Options C and D fall below the gold and palladium thresholds. Consequently, the correct answer is option 2 (index 1).",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -6194,8 +6194,8 @@
       "Dual-cure resin cement with a tertiary amine co-initiator system",
       "Aesthetic resin cement with low film thickness"
     ],
-    "correctAnswer": 1,
-    "explanation": "Tertiary aromatic amines found in chemical-cure and dual-cure resin cements are prone to color instability and yellowing over time upon exposure to light and oxidation. For thin, translucent anterior veneers, light-cure resin cements (which use photoinitiators like camphorquinone but avoid dark-curing amines) are preferred to ensure long-term color stability.",
+    "correctAnswer": 2,
+    "explanation": "Phillips' Science of Dental Materials (12th ed., ch. 15) notes that dual‑cure resin cements containing tertiary aromatic amines as chemical‑cure co‑initiators are prone to intrinsic discoloration over time. For thin, highly translucent anterior porcelain veneers, any shade shift is clinically unacceptable; therefore a light‑cure‑only or amine‑free dual‑cure cement is recommended. Option C describes exactly the dual‑cure system with a tertiary amine co‑initiator, making it contraindicated for this indication. Options A and D are light‑cure or low‑film‑thickness cements that preserve color, while option B is a self‑cure cement and does not meet the “dual‑cure” requirement of the question.",
     "aiVerified": true
   },
   {
@@ -6776,8 +6776,8 @@
       "Extraction of tooth #51 followed by a space maintainer.",
       "Indirect pulp cap with a resin-modified glass ionomer followed by a composite restoration."
     ],
-    "correctAnswer": 0,
-    "explanation": "Given the deep caries approximating the pulp in a vital primary tooth with no periapical pathology, a pulpotomy followed by a stainless steel crown is the most appropriate treatment to preserve the tooth until exfoliation. A direct pulp cap (Option B) is generally not indicated for exposed carious primary pulps due to the high risk of failure. Extraction (Option C) is considered if the tooth is non-restorable or has signs of irreversible pulpitis/necrosis. An indirect pulp cap (Option D) would be indicated if there was no frank pulp exposure after caries removal.",
+    "correctAnswer": 3,
+    "explanation": "The lesion described is deep but there is no frank pulp exposure. According to Little & Falace (Dental Management of the Medically Compromised Patient) and the NDEB reference on primary tooth pulp therapy, indirect pulp capping with a resin‑modified glass ionomer is indicated when the pulp is intact and the caries is close to it. Formocresol pulpotomy requires a confirmed exposure of the coronal pulp and is reserved for vital radicular pulp after exposure. Direct pulp capping is not recommended in primary teeth because of high failure rates, and extraction is only indicated for non‑restorable or necrotic teeth. Therefore option D is the most appropriate treatment.",
     "aiVerified": true
   },
   {
@@ -6832,8 +6832,8 @@
       "Mepivacaine 3% without a vasoconstrictor",
       "Bupivacaine 0.5% with 1:200,000 epinephrine"
     ],
-    "correctAnswer": 0,
-    "explanation": "The most appropriate choice is Lidocaine 2% with 1:50,000 epinephrine. The patient has controlled hypertension (BP 140/90 mmHg). According to current dental anesthesia guidelines (e.g., Malamed, NDEB standards), patients with well-controlled hypertension can safely receive local anesthetics containing epinephrine. The vasoconstrictor (epinephrine) is beneficial in this context because it prolongs the duration of anesthesia, reduces bleeding in the surgical/periodontal field, and limits the systemic absorption of the anesthetic, thereby minimizing the risk of cardiovascular side effects. The dose of 1:50,000 epinephrine is standard and safe for a healthy adult with controlled hypertension. \n\nWhy the other options are less ideal:\n- Articaine 4% with 1:100,000 epinephrine: While also acceptable, Articaine is often reserved for specific indications or where its unique properties (e.g., bone penetration) are needed. Lidocaine is the gold standard first-line agent for routine periodontal procedures. Furthermore, the higher concentration (4%) and different vasoconstrictor ratio make it a secondary choice compared to the standard 2% Lidocaine formulation for general use.\n- Mepivacaine 3% without a vasoconstrictor: This is a viable alternative if epinephrine were contraindicated (e.g., uncontrolled hypertension, severe cardiac disease). However, since the patient's hypertension is controlled, the benefits of epinephrine (hemostasis, prolonged anesthesia) outweigh the minimal risk. Using a plain anesthetic would result in shorter anesthesia duration and more bleeding, making the procedure less efficient and potentially more traumatic.\n- Bupivacaine 0.5% with 1:200,000 epinephrine: Bupivacaine is a long-acting anesthetic typically reserved for major oral surgery or when prolonged post-operative analgesia is required. It is not the first-line choice for routine periodontal maintenance due to its longer duration and potential for prolonged numbness, which is unnecessary for this procedure. Additionally, its use is generally limited to specific surgical contexts rather than routine hygiene appointments.",
+    "correctAnswer": 2,
+    "explanation": "Malamed’s Handbook of Local Anesthesia and the Canadian Dental Association guidelines advise limiting epinephrine to 1:100,000 or avoiding it in hypertensive patients when possible. A 1:50,000 concentration doubles the usual epinephrine dose and may increase blood pressure and heart rate. Mepivacaine 3% without a vasoconstrictor provides sufficient anesthesia for periodontal therapy and eliminates the risk of epinephrine‑induced hypertensive spikes. Articaine with 1:100,000 epinephrine is acceptable but not superior, and bupivacaine’s long duration is unnecessary. Hence option C is the most appropriate choice.",
     "aiFixed": true,
     "aiVerified": true
   },

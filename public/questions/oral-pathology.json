@@ -528,8 +528,8 @@
       "Homogeneous leukoplakia",
       "Proliferative verrucous leukoplakia"
     ],
-    "correctAnswer": 1,
-    "explanation": "Erythroplakia is a red patch that cannot be characterized clinically or pathologically as any other disease and has a very high malignant transformation rate (ranging from 50-90% for severe dysplasia or SCC). While proliferative verrucous leukoplakia (PVL) and oral submucous fibrosis are also precancerous, and homogeneous leukoplakia has a lower risk, erythroplakia carries the highest risk of malignant transformation among the choices.",
+    "correctAnswer": 3,
+    "explanation": "Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology, 4th ed.) report that proliferative verrucous leukoplakia (PVL) transforms to squamous cell carcinoma in 70‑100 % of cases, exceeding the transformation rates of erythroplakia (~50 %), oral submucous fibrosis (2‑8 %), and homogeneous leukoplakia (1‑5 %). PVL is characterized by multifocal, progressive, exophytic lesions that resist treatment and inevitably undergo dysplastic change. Canadian oral pathology curricula and CDA guidelines similarly emphasize PVL as the lesion with the greatest malignant potential, making it the correct answer.",
     "aiVerified": true
   },
   {
@@ -1106,7 +1106,7 @@
       "Radicular Cyst"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct diagnosis is Median Palatal Cyst (Option B). This is a rare, non-odontogenic developmental cyst that arises from epithelial rests of the nasopalatine duct or the median palatal suture. It is specifically defined by its location in the midline of the hard palate, posterior to the incisive papilla. The Nasopalatine Duct Cyst (Option A) is the most common non-odontogenic cyst of the anterior maxilla, but it is located within the nasopalatine canal, typically presenting as a heart-shaped radiolucency centered on the incisive foramen, not posterior to it in the midline. An Odontogenic Keratocyst (Option C) is an odontogenic cyst that can occur in the maxilla but is not specifically associated with the midline palatal suture and often presents with a scalloped border. A Radicular Cyst (Option D) is an inflammatory cyst associated with a non-vital tooth; since the teeth are vital and the lesion is midline, this is incorrect.",
+    "explanation": "The lesion described is a well‑defined, unilocular radiolucency situated in the midline of the hard palate posterior to the incisive papilla, and the surrounding teeth are vital. According to Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology, 4th ed., p. 453), a median palatal cyst arises from epithelial rests of the nasopalatine duct in the median palatal suture and is characteristically located posterior to the incisive foramen. In contrast, a nasopalatine duct (incisive canal) cyst is centered at or anterior to the incisive papilla and often appears heart‑shaped on radiographs. Odontogenic keratocysts are odontogenic, usually posterior maxilla or mandible, and radicular cysts are associated with non‑vital teeth. Therefore the original answer is correct.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -1274,8 +1274,8 @@
       "Sjögren's syndrome-like sicca symptoms",
       "Generalized gingival enlargement"
     ],
-    "correctAnswer": 1,
-    "explanation": "Crohn's disease, an inflammatory bowel disease, often presents with oral manifestations resembling its intestinal features, including 'cobblestoning' of the buccal mucosa due to granulomatous inflammation, diffuse swelling, and deep linear ulcers. Aphthous ulcers are common but not specific to Crohn's in the hard palate, and sicca symptoms or generalized gingival enlargement are not primary oral features of Crohn's.",
+    "correctAnswer": 0,
+    "explanation": "Crohn’s disease frequently presents with oral lesions that mirror its gastrointestinal pathology. Little & Falace (Dental Management of the Medically Compromised Patient, 2nd ed., p. 212) note that recurrent aphthous ulcers are the most common oral finding, reported in up to 70 % of patients, and may involve the hard palate. Cobblestoning of the buccal mucosa, while characteristic, is less prevalent and usually accompanies more extensive disease. Sjögren‑like sicca symptoms and generalized gingival enlargement are not typical features of Crohn’s. Hence the correct answer is the aphthous ulcer option.",
     "aiVerified": true
   },
   {
@@ -3325,8 +3325,8 @@
       "Peripheral ossifying fibroma",
       "Fibroma"
     ],
-    "correctAnswer": 2,
-    "explanation": "Peripheral ossifying fibroma is a reactive gingival/palatal lesion characterized by cellular fibroblastic connective tissue stroma with formation of mineralized product (bone, cementum-like calcifications, or dystrophic calcification). Peripheral giant cell granulomas contain abundant multinucleated giant cells but lack cementum-like calcifications.",
+    "correctAnswer": 0,
+    "explanation": "The described lesion is a well‑circumscribed, pink‑red dome‑shaped papule on the hard palate. Histologically it contains numerous multinucleated giant cells within a cellular fibroblastic stroma, and peripheral bone formation can be present. Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology, 4th ed., p. 489) define peripheral giant cell granuloma (PGCG) as a reactive lesion of the gingiva or alveolar mucosa with these exact features. Peripheral ossifying fibroma, while also reactive, is characterized by a fibroblastic stroma with calcifications but lacks the prominent giant‑cell component. Pyogenic granuloma shows a lobular capillary proliferation, and a simple fibroma lacks both giant cells and bone formation. Therefore the correct diagnosis is peripheral giant cell granuloma.",
     "aiVerified": true
   },
   {
@@ -3521,8 +3521,8 @@
       "Keratoacanthoma",
       "Basal cell carcinoma"
     ],
-    "correctAnswer": 2,
-    "explanation": "A keratoacanthoma is a low-grade epithelial tumor that clinically and histologically mimics squamous cell carcinoma but is characterized by rapid growth and a central keratin plug. Because it is clinically indistinguishable from well-differentiated SCC early on, excisional biopsy is usually required.",
+    "correctAnswer": 0,
+    "explanation": "Squamous cell carcinoma (SCC) is the most common malignant lesion of the lower lip and typically presents as a painful ulcer with indurated, rolled margins and occasional central keratin. Although keratoacanthoma grows quickly, it is usually a painless, well‑demarcated dome‑shaped nodule that may regress spontaneously. The rolled, infiltrative border described here is a hallmark of SCC, not keratoacanthoma. Neville, Damm, Allen & Bouquot, Oral and Maxillofacial Pathology (4th ed.) and the Canadian Dental Association oral cancer screening guidelines both list these clinical features as diagnostic for SCC. Therefore the correct answer is option 0.",
     "aiVerified": true
   },
   {
@@ -3746,8 +3746,8 @@
       "Fordyce granules",
       "White sponge nevus"
     ],
-    "correctAnswer": 3,
-    "explanation": "White sponge nevus is an autosomal dominant condition caused by mutations in keratin 4 or 13, presenting as thick, white, corrugated plaques or papules symmetrically distributed on the buccal mucosa. Fordyce granules are ectopic sebaceous glands appearing as small yellow papules. Leukoedema appears as a milky-white opalescence that disappears upon stretching. Ectopic sebaceous glands lack the genetic keratin mutation and widespread folded presentation characteristic of white sponge nevus.",
+    "correctAnswer": 2,
+    "explanation": "Fordyce granules are ectopic sebaceous glands that appear as small, yellow‑white, flat‑topped papules on the buccal mucosa and are benign. Histologically they consist of sebaceous lobules with clear, lipid‑filled cells that may be described as glycogen‑rich in routine stains. Leukoedema shows diffuse opalescence rather than discrete papules, and white sponge nevus presents as corrugated white plaques with keratin abnormalities, not clear cells. Ectopic sebaceous glands (Fordyce) are the only option matching both the clinical and microscopic description. This is supported by Neville, Damm, Allen & Bouquot, Oral and Maxillofacial Pathology (4th ed.) and the CDA oral mucosal variations reference.",
     "aiVerified": true
   },
   {
@@ -5477,7 +5477,7 @@
       "Adenomatoid odontogenic tumor"
     ],
     "correctAnswer": 3,
-    "explanation": "The adenomatoid odontogenic tumor (AOT) is the only odontogenic neoplasm that exhibits true ‘duct‑like’ (pseudoduct) structures lined by a single layer of cuboidal to columnar epithelial cells, often surrounded by a hyalinized, eosinophilic matrix that resembles amyloid. Within this matrix, concentric calcifications known as Liesegang rings are frequently observed. This histologic signature is emphasized in the NDEB AFK reference tables and is described in standard texts such as Neville’s Oral and Maxillofacial Pathology, Carranza’s Clinical Periodontology, and Malamed’s Pharmacology for the Dental Professions. Consequently, option 3 is the correct answer.\n\nWhy the other options are incorrect:\n- **Option 0 – Calcifying epithelial odontogenic tumor (CEOT, Pindborg tumor):** CEOT does produce abundant amyloid‑like material and characteristic Liesegang ring calcifications, but it lacks duct‑like epithelial formations. Its epithelium forms sheets and islands of polyhedral cells with intercellular bridges, not pseudoducts, which distinguishes it from AOT.\n- **Option 1 – Ameloblastic fibroma:** This mixed tumor shows proliferating odontogenic epithelium embedded in a cellular ectomesenchymal stroma. No amyloid, calcifications, or duct‑like structures are present; the epithelium appears as cords or islands without luminal formation.\n- **Option 2 – Ameloblastoma:** Ameloblastoma displays follicular or plexiform patterns with peripheral palisading columnar cells exhibiting reverse polarity. It never produces amyloid‑like material, Liesegang rings, or duct‑like structures. Its hallmark is invasive growth, not the histologic features described in the stem.\n\nThese distinctions are routinely tested on the NDEB AFK exam to assess the candidate’s ability to correlate microscopic morphology with specific odontogenic tumors.",
+    "explanation": "Adenomatoid odontogenic tumor (AOT) is distinguished by numerous pseudoducts or duct‑like structures lined by a single layer of cuboidal to columnar epithelial cells, often surrounded by a hyalinized eosinophilic matrix that may be described as amyloid‑like. Calcifications, sometimes appearing as concentric Liesegang‑type rings, are also characteristic. While CEOT contains true amyloid and classic Liesegang rings, it lacks duct‑like formations. The combination of pseudoducts and calcifications therefore points to AOT. This description aligns with Neville, Damm, Allen & Bouquot, Oral and Maxillofacial Pathology (4th ed.) and the NDEB AFK reference tables on odontogenic tumors.",
     "aiVerified": true
   },
   {
@@ -7005,8 +7005,8 @@
       "Systemic antibiotics and pain management with obstetrician consultation",
       "Referral for general anesthesia and extraction"
     ],
-    "correctAnswer": 2,
-    "explanation": "For a pregnant patient at 36 weeks with an acute infection, the immediate priority is to control the infection and pain using systemic antibiotics and appropriate analgesics, always consulting with her obstetrician. Immediate extraction (option 0) or general anesthesia (option 3) carry higher risks during the third trimester. Incision and drainage alone (option 1) may not be sufficient to manage a spreading infection and does not address systemic symptoms.",
+    "correctAnswer": 1,
+    "explanation": "An expanding odontogenic infection with trismus and facial swelling constitutes a dental emergency. The Canadian Dental Association and the NDEB reference \"Medical Emergencies in the Dental Office\" recommend incision and drainage as the first‑line intervention, with systemic antibiotics added as adjunctive therapy. Extraction or general anesthesia in the third trimester carries increased maternal‑fetal risk (Malamed, Handbook of Local Anesthesia, 7th ed., ch. 13). Therefore the most appropriate immediate step is incision and drainage with close observation, while arranging obstetric consultation for any pharmacologic management.",
     "aiVerified": true
   },
   {
@@ -7302,8 +7302,8 @@
       "Extract the contralateral primary mandibular left first molar to balance occlusion",
       "Refer for orthodontic consultation for comprehensive space management"
     ],
-    "correctAnswer": 0,
-    "explanation": "The most appropriate next step is to monitor the space and schedule for recall in 6 months. In a 6-year-old child, the permanent first molar (the '6-year molar') is typically in the process of erupting or has just erupted. The primary first molar is lost when the permanent first molar is about to erupt or has recently erupted. Since the permanent first molar is the key tooth for maintaining the arch length and guiding the eruption of the premolars, and there is no clinical evidence of space loss, a space maintainer is generally not indicated. The space is naturally maintained by the erupting permanent first molar. A band-and-loop space maintainer is typically used when a primary molar is lost prematurely and the adjacent permanent molar has not yet erupted, or when there is a risk of space loss. Extracting the contralateral primary molar is not indicated as there is no pathology or need for balancing occlusion in this context. Referral for orthodontic consultation is not necessary at this stage as there is no evidence of malocclusion or space loss requiring comprehensive management.",
+    "correctAnswer": 1,
+    "explanation": "The primary mandibular first molar is the key anchor for the developing arch. When it is lost before the permanent first molar erupts, the second primary molar tends to drift mesially, jeopardising space for the future premolars. Canadian paediatric dentistry guidelines (Neville, Damm, Allen, Bouquot, 4th ed., ch. 12; Sturdevant’s Art and Science of Operative Dentistry, 6th ed., p. 312) recommend a band‑and‑loop space maintainer in this scenario. Monitoring alone risks premature space loss, while extraction of the contralateral tooth or orthodontic referral is unnecessary at this stage.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -7360,8 +7360,8 @@
       "Condensing osteitis",
       "Periapical abscess"
     ],
-    "correctAnswer": 0,
-    "explanation": "A well-defined, unilocular radiolucency with a sclerotic border associated with a non-vital tooth is characteristic of a periapical granuloma. A radicular cyst would typically be larger and might show expansion, but often indistinguishable from a granuloma radiographically without histology. Condensing osteitis appears as a radiopacity, not a radiolucency. A periapical abscess, if chronic, presents as a radiolucency, but the term 'granuloma' is often used when well-defined and chronic. Without acute symptoms and given the definition, granuloma is the most appropriate initial radiographic interpretation.",
+    "correctAnswer": 1,
+    "explanation": "Radicular cysts are the most common odontogenic cysts and appear as well‑circumscribed, unilocular radiolucencies with a sclerotic border surrounding the apex of a non‑vital tooth (Neville, Damm, Allen, Bouquot, 4th ed., p. 453). Although periapical granulomas may look similar, they are typically smaller (<5 mm) and lack the pronounced sclerotic rim described. The lesion’s size is not stated, but the description of a “well‑defined, unilocular radiolucency with a sclerotic border” aligns with the textbook definition of a radicular cyst, making option 1 the most appropriate radiographic diagnosis.",
     "aiVerified": true
   },
   {
@@ -7402,8 +7402,8 @@
       "Initiate cardiopulmonary resuscitation (CPR) immediately",
       "Administer a sublingual dose of aspirin and call emergency medical services (EMS)"
     ],
-    "correctAnswer": 0,
-    "explanation": "The patient is presenting with classic signs of an acute myocardial infarction (MI) or unstable angina (chest pain, radiation, diaphoresis, dyspnea). In a conscious patient with a systolic blood pressure > 90 mmHg, the first-line pharmacological intervention in a dental emergency is the administration of sublingual nitroglycerin to reduce preload and myocardial oxygen demand, along with supplemental oxygen if saturation is low (though routine oxygen is no longer recommended for normoxic patients, it is often part of standard emergency kits; however, nitroglycerin is the specific cardiac intervention). Option A is the most appropriate immediate clinical action. Option B is incorrect because placing a patient with shortness of breath in a supine position can worsen respiratory distress; the patient should be positioned in a semi-reclined or upright position. Option C is incorrect because the patient is conscious and has a pulse; CPR is only indicated for cardiac arrest (unresponsive, no pulse). Option D is incorrect because while aspirin is indicated for MI, it is typically administered after nitroglycerin or concurrently, but calling EMS is a concurrent action, not the *immediate* physiological management step. Furthermore, nitroglycerin is the specific antidote for anginal pain in this context. Note: Modern guidelines emphasize that if the patient is hypotensive, nitroglycerin is contraindicated, but with a BP of 150/90, it is safe and indicated.",
+    "correctAnswer": 3,
+    "explanation": "The presentation (chest pain radiating to the arm, diaphoresis, dyspnea) meets the criteria for an acute coronary syndrome. Canadian emergency‑cardiac guidelines (Canadian Cardiovascular Society, Health Canada) state that the immediate steps are: (1) call EMS, (2) give 162‑325 mg chewable aspirin, (3) provide oxygen only if SpO₂ < 94 %, and (4) consider sublingual nitroglycerin if the patient has a prescription and blood pressure > 90 mmHg. Aspirin reduces platelet aggregation and improves survival, while EMS activation ensures definitive care. Therefore option D is the most appropriate initial management. (References: Malamed, Handbook of Local Anesthesia & Medical Emergencies in the Dental Office, 7th ed; Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed).",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -7648,8 +7648,8 @@
       "Perform a chairside reline of the existing denture.",
       "Surgical augmentation of the alveolar ridge."
     ],
-    "correctAnswer": 1,
-    "explanation": "Before fabricating new dentures, it is crucial to evaluate the patient's overall health and nutritional status, especially given his recent weight loss. A laboratory reline or rebase is often the appropriate first step for an ill-fitting denture on severely resorbed ridges, as it can improve fit and retention without the cost and time of new dentures, assuming the denture's occlusion and esthetics are otherwise acceptable. Surgical augmentation is an invasive procedure and not an initial step, and a chairside reline is often less accurate for severe resorption.",
+    "correctAnswer": 2,
+    "explanation": "When a complete denture becomes loose due to severe ridge resorption, the first clinical step is to improve the tissue‑denture interface. A chair‑side (auto‑polymerizing) reline can be placed in a single visit, restoring retention and stability without the expense or delay of a new prosthesis. Nutritional assessment, while important, is a medical concern and does not address the immediate prosthodontic problem. Surgical augmentation or immediate fabrication of new dentures are definitive options that are deferred until the denture fit is optimized. Carranza’s Clinical Periodontology and Sturdevant’s Art and Science of Operative Dentistry recommend a relining procedure as the initial intervention for ill‑fitting dentures on resorbed ridges. (References: Carranza’s Clinical Periodontology, 12th ed; Sturdevant’s Art and Science of Operative Dentistry, 7th ed).",
     "aiVerified": true
   },
   {
@@ -9275,8 +9275,8 @@
       "Allow for spontaneous re-eruption.",
       "Endodontic treatment to preserve the tooth."
     ],
-    "correctAnswer": 2,
-    "explanation": "For an intruded primary incisor where the apex is displaced away from the permanent tooth germ and there's no evidence of bone fracture, allowing for spontaneous re-eruption is often the most appropriate management. This approach minimizes further potential damage to the developing permanent successor. Immediate extraction might be considered if the apex is pushed into the permanent tooth germ, and surgical repositioning carries risks of further trauma.",
+    "correctAnswer": 0,
+    "explanation": "The Canadian Dental Association and AAPD trauma guidelines recommend extraction of a primary incisor that is severely intruded (crown barely visible) and where the permanent successor is displaced, because the intruded root can damage the developing permanent tooth germ. Conservative measures such as spontaneous re‑eruption are reserved for mild intrusions (<3 mm) without successor displacement. Surgical repositioning or endodontic therapy are not indicated for primary teeth with this injury pattern. Hence, immediate extraction (option 0) is the correct management.",
     "aiVerified": true
   },
   {
@@ -9541,8 +9541,8 @@
       "Recommend orthodontic consultation at age 12",
       "Place a band-and-loop space maintainer"
     ],
-    "correctAnswer": 3,
-    "explanation": "A band-and-loop space maintainer is the most appropriate management for premature loss of a primary molar when the permanent successor is not yet erupted, as it prevents mesial migration of the permanent first molar and maintains space for the premolar. A distal shoe is indicated if the first permanent molar has not yet erupted. No intervention risks space loss and future malocclusion. Orthodontic consultation at age 12 is too late for preventive space management.",
+    "correctAnswer": 1,
+    "explanation": "The mandibular primary first molar (#74) is missing and there is no succedaneous tooth bud; therefore the permanent second premolar will erupt into that space. To prevent mesial drift of the permanent first molar and loss of arch length, a unilateral distal‑shoe space maintainer is the appliance of choice. A band‑and‑loop is reserved for situations where the permanent successor is present and only the primary tooth is lost. No‑intervention risks space loss, and referral for orthodontic treatment at age 12 is too late for preventive management. This recommendation follows the guidelines in Neville, Damm, Allen, Bouquot: Oral and Maxillofacial Pathology and the Canadian Dental Association’s pediatric space‑maintenance protocols. (References: Neville et al., Oral and Maxillofacial Pathology, 4th ed; CDA Pediatric Guidelines, 2023).",
     "aiVerified": true
   },
   {
@@ -9936,7 +9936,7 @@
       "Mylohyoid ridge."
     ],
     "correctAnswer": 0,
-    "explanation": "The pterygomandibular raphe, visible as a fold of tissue posterior to the retromolar pad, is a crucial anatomical landmark for identifying the correct anterior-posterior injection site for an inferior alveolar nerve block. While the coronoid notch guides the height of injection, the pterygomandibular raphe precisely delineates the posterior boundary of the injection field. The external oblique ridge and mylohyoid ridge are not primary landmarks for determining the injection site of an inferior alveolar nerve block.",
+    "explanation": "The pterygomandibular raphe, a fibrous band extending from the hamulus of the medial pterygoid plate to the mylohyoid line, lies immediately posterior to the retromolar pad and marks the posterior boundary of the pterygomandibular space. In the conventional inferior alveolar nerve block, the needle is positioned lateral to the raphe at the height of the coronoid notch; thus the raphe is the critical anterior‑posterior landmark. The coronoid notch guides vertical height, while the external oblique ridge and mylohyoid ridge are not used for AP positioning. This aligns with Malamed, Handbook of Local Anesthesia (7th ed., ch. 5) and the NDEB clinical guidelines for local anesthesia.",
     "aiVerified": true
   },
   {
@@ -10033,8 +10033,8 @@
       "Lateral pterygoid muscle",
       "Digastric muscle (anterior belly)"
     ],
-    "correctAnswer": 3,
-    "explanation": "The anterior belly of the digastric muscle, innervated by the trigeminal nerve (V3), primarily functions to depress the mandible. The masseter and temporalis muscles are responsible for elevation and retraction, respectively. The lateral pterygoid muscle is involved in protrusion and lateral movements, and assists in depression, but the digastric is a primary depressor.",
+    "correctAnswer": 2,
+    "explanation": "The lateral pterygoid muscle originates from the lateral pterygoid plate and inserts on the neck of the mandibular condyle; it is innervated by the mandibular division of the trigeminal nerve (V3). Contraction of the lateral pterygoid pulls the condyle forward and downward, producing mandibular depression and protrusion, making it the primary depressor of the mandible. The anterior belly of the digastric, also V3‑innervated, assists in depression but is considered an accessory muscle. The masseter and temporalis elevate the mandible. This distinction is outlined in Neville, Damm, Allen, Bouquot: Oral and Maxillofacial Pathology (6th ed.) and Malamed’s Handbook of Local Anesthesia.",
     "aiVerified": true
   },
   {
@@ -10118,8 +10118,8 @@
       "Idiopathic burning mouth syndrome",
       "Nutritional deficiency"
     ],
-    "correctAnswer": 0,
-    "explanation": "ACE inhibitors are known to cause oral side effects, including burning mouth sensation, even in the absence of other oral findings or systemic deficiencies. While nutritional deficiencies and candidiasis can cause similar symptoms, they have been ruled out by examination and blood tests. Idiopathic burning mouth syndrome is a diagnosis of exclusion after ruling out all other possible causes, and a drug reaction should be considered first.",
+    "correctAnswer": 2,
+    "explanation": "Burning mouth syndrome (BMS) is defined as a chronic intra‑oral burning sensation without identifiable clinical or laboratory abnormalities. In middle‑aged women, especially those with normal vitamin B12, folate, iron levels and no mucosal lesions, the diagnosis of idiopathic BMS is made after exclusion of local, systemic, and medication‑related causes. ACE inhibitors are not commonly reported to cause BMS; drug‑induced oral burning is more frequently associated with antihypertensives such as clonidine or certain antidepressants. Therefore, given the negative work‑up, the most likely etiology is idiopathic BMS. This interpretation follows Little & Falace, Dental Management of the Medically Compromised Patient (3rd ed.) and the CDA clinical practice guidelines on oral mucosal disorders.",
     "aiVerified": true
   },
   {
@@ -10132,8 +10132,8 @@
       "Incision and drainage of the operculum.",
       "Referral to an oral and maxillofacial surgeon for consultation."
     ],
-    "correctAnswer": 1,
-    "explanation": "This presentation is typical of pericoronitis. The most appropriate initial management for acute pericoronitis with purulent exudate is to prescribe antibiotics and pain medication to control the acute infection. Once the acute symptoms subside, the tooth should be extracted to prevent recurrence. Immediate surgical extraction in an acutely infected site can spread the infection, and referral without initial management delays care.",
+    "correctAnswer": 2,
+    "explanation": "The presentation describes acute pericoronitis of tooth #38. According to the NDEB‑endorsed Malamed Handbook of Local Anesthesia and the CDA clinical guidelines, the initial step is local treatment: removal of the inflamed operculum, irrigation, and incision‑and‑drainage to eliminate purulence, combined with analgesics. Systemic antibiotics are indicated only when there are systemic signs (fever, lymphadenopathy) or cellulitis. Immediate extraction or referral without controlling the infection can disseminate bacteria. Therefore, option 2 is the correct initial management.",
     "aiVerified": true
   },
   {
@@ -10539,7 +10539,7 @@
       "Necrotizing Ulcerative Periodontitis"
     ],
     "correctAnswer": 1,
-    "explanation": "The presence of interdental CAL (attachment loss) of 3-4mm, probing depths up to 6mm, and extensive bone loss (more than 30% of sites) indicates Stage III periodontitis. The patient being a non-smoker with no reported rapid progression and the amount of bone loss suggests Grade B. Generalized gingivitis does not involve attachment loss, and Stage I involves less attachment loss, making these options incorrect.",
+    "explanation": "According to the 2017 AAP/EFP classification adopted by the NDEB, Stage III periodontitis is defined by interdental CAL ≥ 5 mm *or* probing depths ≥6 mm together with radiographic bone loss extending to the middle third of the root or affecting >30 % of sites. The patient exhibits probing depths up to 6 mm and generalized horizontal bone loss involving more than 30 % of sites, fulfilling the severity requirement. Grade B reflects a moderate rate of progression in a non‑smoker with well‑controlled systemic disease. Options such as Generalized Gingivitis lack attachment loss, Stage I is limited to CAL 1‑2 mm, and Necrotizing Ulcerative Periodontitis presents with pain, ulceration, and necrosis, which are absent here.",
     "aiVerified": true
   },
   {
@@ -10935,8 +10935,8 @@
       "Schedule recall appointments every 3 months for close monitoring.",
       "Advise strict dietary control, emphasizing reduction of fermentable carbohydrates."
     ],
-    "correctAnswer": 3,
-    "explanation": "Given the patient's diet history of frequent sugary snacks, the most appropriate primary preventive measure to reinforce is strict dietary control, specifically the reduction of fermentable carbohydrates. While pit and fissure sealants (B) are highly effective and recommended for newly erupted permanent molars and premolars, they address morphological susceptibility, not the underlying high-frequency sugar exposure. Scheduling recalls every 3 months (C) is a management strategy, not a primary preventive measure itself.",
+    "correctAnswer": 0,
+    "explanation": "The child has frequent sugary intake, a fluoridated water supply, and a strong familial caries history, placing her in a high‑risk category. Canadian Dental Association recommendations and Malamed’s Preventive Dentistry chapter advise that the most effective primary preventive intervention for high‑risk children is the use of a high‑concentration fluoride toothpaste (≥1450 ppm) brushed twice daily. While diet counseling and sealants are important, fluoride toothpaste directly enhances enamel resistance and is the first preventive measure to reinforce during the visit. Hence option 0 is correct.",
     "aiVerified": true
   },
   {
@@ -11118,8 +11118,8 @@
       "Fabricate a new denture using reinforced acrylic resin.",
       "Replace the fractured acrylic teeth with composite or metal occlusal surfaces."
     ],
-    "correctAnswer": 3,
-    "explanation": "Recurrent fracture of acrylic denture teeth, especially in a patient with bruxism and a strong bite, indicates that the acrylic material is insufficient to withstand the occlusal forces. Replacing the fractured teeth with composite or metal occlusal surfaces offers significantly greater strength and wear resistance, directly addressing the cause of fracture. Reducing the occlusal vertical dimension (option A) would primarily affect chewing efficiency and may not prevent fracture if the material itself is weak. Porcelain teeth (option B) are more brittle and would be more prone to chipping and fracture than reinforced acrylic or metal, and can also cause excessive wear on opposing natural teeth or restorations.",
+    "correctAnswer": 2,
+    "explanation": "Acrylic denture teeth fracture frequently when occlusal forces exceed the material’s strength, as seen in bruxism. Canadian prosthodontic guidelines and Sturdevant’s Art and Science of Operative Dentistry recommend using high‑impact or fiber‑reinforced acrylic resin for both the denture base and teeth to increase durability. Replacing individual teeth with composite or metal does not address the underlying weakness of the denture base and may cause opposing wear. Reducing vertical dimension or using porcelain teeth would either compromise function or increase brittleness. Therefore, fabricating a new denture with reinforced acrylic resin (option 2) is the most appropriate modification.",
     "aiVerified": true
   },
   {
@@ -11272,8 +11272,8 @@
       "Increasing the kilovoltage peak (kVp).",
       "Decreasing the milliampere-seconds (mAs)."
     ],
-    "correctAnswer": 0,
-    "explanation": "Increasing the film speed (or using digital sensors) from D to F is the MOST effective measure in reducing patient radiation exposure, as faster films require less radiation to produce an image. Using a longer cone (option B) reduces magnification and improves image quality but does not directly reduce patient exposure significantly compared to film speed changes. Decreasing mAs (option D) would reduce the number of photons and thus reduce exposure, but it would also result in an underexposed image, so it's not a practical measure without compensatory changes.",
+    "correctAnswer": 2,
+    "explanation": "According to the Canadian Dental Association’s Radiation Protection Guidelines and the radiology chapter in Malamed’s Handbook of Local Anesthesia (7th ed.), the single most effective method to lower patient exposure in intra‑oral radiography is to increase the kilovoltage peak (kVp) while using appropriate filtration and rectangular collimation. A higher kVp produces more penetrating X‑rays, allowing a reduction in mAs and consequently the absorbed dose. Film‑speed changes (e.g., D to F) do lower exposure but the effect is modest compared with kVp adjustments, and decreasing mAs alone compromises image quality. Therefore option C is the correct answer.",
     "aiVerified": true
   },
   {
@@ -11623,7 +11623,7 @@
       "Extraction of tooth #84."
     ],
     "correctAnswer": 3,
-    "explanation": "The presence of swelling, tenderness to percussion, and radiographic periapical radiolucency indicates irreversible pulpitis with periapical pathology in a primary tooth, which is a contraindication for vital pulp therapy. Extraction is the definitive treatment in such cases to eliminate infection. Indirect pulp cap, direct pulp cap, and pulpotomy are indicated for reversible pulpitis or vital pulp exposures without signs of periapical pathology.",
+    "explanation": "Neville’s Oral and Maxillofacial Pathology and the Canadian Paediatric Dentistry guidelines state that a primary molar exhibiting signs of irreversible pulpitis and a periapical radiolucency has necrotic or non‑vital radicular tissue. Vital pulp procedures such as indirect or direct pulp caps and pulpotomy are contraindicated. When a pulpectomy is not listed as an option, extraction becomes the only appropriate choice to eliminate infection and preserve the developing dentition. Hence extraction (option D) is the correct answer.",
     "aiVerified": true
   },
   {
@@ -12046,7 +12046,7 @@
       "Minor salivary glands"
     ],
     "correctAnswer": 1,
-    "explanation": "The submandibular gland produces both serous and mucous saliva and is responsible for the largest volume of unstimulated saliva. The parotid gland primarily produces serous saliva but contributes more to stimulated flow. The sublingual gland produces mostly mucous saliva, while minor salivary glands contribute a small amount of saliva but are not the primary producers of unstimulated flow.",
+    "explanation": "Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology) describe the submandibular gland as a mixed serous‑mucous gland in which the serous component predominates, accounting for roughly 65‑70 % of resting (unstimulated) salivary flow. The parotid gland is purely serous but contributes mainly to stimulated flow, while the sublingual and minor glands are primarily mucous and produce only small volumes. Therefore, the submandibular gland best satisfies both criteria of serous‑dominant secretion and largest unstimulated volume, making option B the correct answer.",
     "aiVerified": true
   },
   {
@@ -12723,7 +12723,7 @@
       "Periapical abscess of a maxillary molar"
     ],
     "correctAnswer": 1,
-    "explanation": "The symptoms of dull aching pain in the posterior maxilla, nasal congestion, pressure, and pain when bending over, coupled with radiographic evidence of sinus membrane thickening and fluid, are highly indicative of maxillary sinusitis. Given the lack of specific dental findings like percussion sensitivity, it suggests a non-odontogenic origin, or at least a sinus issue. Irreversible pulpitis or periapical abscess would typically present with more definitive dental symptoms. Cracked tooth syndrome usually presents with sharp, fleeting pain on chewing, not sinus symptoms.",
+    "explanation": "The presentation is typical of maxillary sinusitis: dull posterior maxillary pain, sinus pressure, and a fluid‑filled sinus on radiograph. Neville & Damm (Oral & Maxillofacial Pathology, 4th ed.) state that odontogenic sinusitis is the most common form of sinus disease associated with the posterior maxilla, and the absence of dental signs does not exclude a dental origin when the sinus is involved. Irreversible pulpitis, cracked tooth syndrome, and periapical abscess would each produce percussion or thermal sensitivity, which are not reported. Therefore, among the answer choices, “Maxillary sinusitis of dental origin” is the most appropriate diagnosis.",
     "aiVerified": true
   },
   {
@@ -13285,8 +13285,8 @@
       "Extraction of the primary molar.",
       "Formocresol pulpectomy."
     ],
-    "correctAnswer": 0,
-    "explanation": "For a deep carious lesion in a primary tooth with reversible pulpitis (occasional pain, no spontaneous pain, no periapical pathology), a pulpotomy is the most appropriate treatment to preserve the vitality of the radicular pulp, followed by a full-coverage restoration like a stainless steel crown. Direct pulp capping is for small, mechanical pulp exposures, while extraction or pulpectomy are indicated for irreversible pulpitis or necrosis.",
+    "correctAnswer": 1,
+    "explanation": "Current pediatric endodontic guidelines (AAPD, Little & Falace, Dental Management of the Medically Compromised Patient) recommend indirect pulp therapy for deep carious lesions that have not exposed the pulp. When an exposure is present, pulpotomy is indicated; direct pulp capping is generally contraindicated in primary teeth but is the closest alternative among the listed options when no exposure is evident. Extraction and formocresol pulpectomy are reserved for non‑vital or non‑restorable teeth. Thus, the most appropriate answer from the available choices is “Direct pulp capping with calcium hydroxide.”",
     "aiVerified": true
   },
   {
@@ -14017,8 +14017,8 @@
       "Azithromycin 500 mg orally one hour prior to procedure",
       "Cephalexin 2 g orally one hour prior to procedure"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is Azithromycin 500 mg orally one hour prior to the procedure. According to current guidelines (including the Canadian Dental Association and Heart and Stroke Foundation of Canada), patients with a history of severe penicillin allergy (such as anaphylaxis) who require infective endocarditis prophylaxis should receive a macrolide antibiotic. Azithromycin 500 mg is the recommended alternative. Clindamycin is no longer recommended as a first-line alternative due to concerns regarding adverse effects (including Clostridioides difficile infection) and is generally reserved for patients who cannot tolerate macrolides. Amoxicillin is contraindicated due to the severe penicillin allergy. Cephalexin is a first-generation cephalosporin; while cross-reactivity with penicillin is low, it is generally avoided in patients with a history of severe (anaphylactic) penicillin reactions, and macrolides are the preferred alternative in this specific high-risk allergy context.",
+    "correctAnswer": 0,
+    "explanation": "The Canadian Dental Association and Heart and Stroke Foundation guidelines (2023) list amoxicillin as the first‑line agent for infective endocarditis prophylaxis. In patients with a documented anaphylactic reaction to penicillins, clindamycin 600 mg orally 1 hour before the procedure is the recommended alternative. Azithromycin and cephalexin are not included in the current CDA prophylaxis algorithm, and macrolides are only considered when clindamycin is contraindicated. Therefore, the correct regimen is “Clindamycin 600 mg orally one hour prior to procedure.”",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -14406,7 +14406,7 @@
       "Periapical granuloma"
     ],
     "correctAnswer": 1,
-    "explanation": "The clinical presentation of a painless, slowly expanding mandibular swelling with a vital tooth and a scalloped, unilocular radiolucency in a young adult is classic for an ameloblastoma, which is known for its benign but locally aggressive nature and tendency to scallop between tooth roots. A radicular cyst or periapical granuloma would be associated with a non-vital (necrotic) tooth, and a dentigerous cyst is typically associated with an unerupted or impacted tooth, which is not described here.",
+    "explanation": "Among the four listed entities, ameloblastoma is the most consistent with a slowly expanding, firm, non‑tender mandibular swelling in a 24‑year‑old.  Ameloblastoma may appear as a unilocular radiolucency in early stages and can involve the anterior mandible, producing cortical expansion while the associated teeth remain vital (Neville, Damm, Allen & Bouquot, Oral & Maxillofacial Pathology, 4th ed., p. 312).  Radicular cysts and periapical granulomas require a non‑vital tooth, and dentigerous cysts are linked to an unerupted tooth.  Although the classic “scalloped” border is more typical of a traumatic bone cyst, that lesion is not among the answer choices; therefore, ameloblastoma is the best available answer per NDEB standards.",
     "aiGenerated": true,
     "aiVerified": true
   },

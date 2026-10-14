@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 import React, { useEffect, useState } from 'react';
-import { getProgress, TopicProgress, usePremiumStatus, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt, awardBadge } from './lib/storage';
+import { getProgress, TopicProgress, usePremiumStatus, getFlaggedQuestions, getMistakes, getGamification, resetAllProgress, getHistory, QuizAttempt } from './lib/storage';
 import { topics } from './lib/data';
 import { getQuestions, getTotalQuestionCount } from './lib/questionsStore';
 import { motion } from 'framer-motion';
@@ -73,7 +73,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
     }
   }, []);
 
-  const totalQuestionsAvailable = questions.length;
+  const totalQuestionsAvailable = questions.length > 0 ? questions.length : getTotalQuestionCount();
   
   let totalAnsweredCorrectly = 0;
   let totalAttemptedQuestions = 0;
@@ -234,7 +234,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
               ) : (
                 <button 
                   onClick={() => setIsEditingDate(true)}
-                  style={{ background: 'white', color: '#15803d', border: '1px solid #bbf7d0', padding: '0.5rem 1rem', borderRadius: '20px', fontSize: '0.9rem', fontWeight: 600, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.4rem', boxShadow: '0 2px 5px rgba(0,0,0,0.05)' }}
+                  style={{ background: 'var(--surface-color)', color: '#16a34a', border: '1px solid var(--border-color)', padding: '0.5rem 1rem', borderRadius: '20px', fontSize: '0.9rem', fontWeight: 600, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.4rem', boxShadow: '0 2px 5px rgba(0,0,0,0.05)' }}
                 >
                   <Edit2 size={14} /> {examDate ? new Date(examDate).toLocaleDateString(undefined, {month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC'}) : "Set Exam Date"}
                 </button>
@@ -243,7 +243,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           </div>
           
           {examDate ? (
-            <div style={{ background: 'white', borderRadius: '12px', padding: '1.5rem', display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', marginTop: '0.5rem' }}>
+            <div style={{ background: 'var(--surface-color)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '1.5rem', display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', marginTop: '0.5rem' }}>
               <div style={{ textAlign: 'center' }}>
                 <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#16a34a', lineHeight: 1 }}><span translate="no">{dailyQuota}</span></div>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Questions / Day</div>
@@ -260,7 +260,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
               </div>
             </div>
           ) : (
-            <div style={{ background: 'white', borderRadius: '12px', padding: '1.5rem', textAlign: 'center', marginTop: '0.5rem' }}>
+            <div style={{ background: 'var(--surface-color)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '1.5rem', textAlign: 'center', marginTop: '0.5rem' }}>
               <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '1.05rem' }}>Set your exam date to instantly generate a personalized daily study quota.</p>
             </div>
           )}

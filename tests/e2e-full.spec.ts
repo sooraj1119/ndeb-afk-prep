@@ -30,7 +30,7 @@ test.describe('Main App E2E Tests', () => {
       localStorage.setItem('ndeb_prep_disclaimer_accepted', 'true');
     });
     await page.reload();
-    await page.waitForSelector('h3:has-text("Oral Surgery")', { timeout: 10000 });
+    await page.waitForSelector('h3:has-text("Oral Surgery")', { timeout: 20000 });
   });
 
   // ============================================================

@@ -93,7 +93,8 @@ export function Quiz({ topicId, onFinish, onBack }: Props) {
 
   const [score, setScore] = useState(0);
 
-  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
+  const [userAnswers, setUserAnswers] = useState<Record<number, number>>({});
+  const selectedAnswer = userAnswers[currentIndex] ?? null;
 
   const handleFinish = () => {
     if (!isSpecialMode) {
@@ -232,8 +233,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
         } else if (isSRSMode) {
           if (!currentPremium) {
             setShowPaywall(true);
-            setLoading(false);
-            setInitialized(true);
+                        setInitialized(true);
             return;
           }
           const dueIds = getDueSRSQuestions();
@@ -341,9 +341,9 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
   const handleSelect = (index: number) => {
 
-    if (!question || selectedAnswer !== null) return;
+    if (!question || userAnswers[currentIndex] !== undefined) return;
 
-    setSelectedAnswer(index);
+    setUserAnswers(prev => ({ ...prev, [currentIndex]: index }));
 
     const isAnsCorrect = index === question.correctAnswer;
 
@@ -417,7 +417,8 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
   const handlePrev = () => {
     if (currentIndex > 0) {
       setCurrentIndex(c => c - 1);
-      setSelectedAnswer(null);
+      stopSpeech();
+      setIsPlayingAudio(false);
     }
   };
 
@@ -428,8 +429,6 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
       const nextIdx = currentIndex + 1;
 
       setCurrentIndex(nextIdx);
-
-      setSelectedAnswer(null);
 
       stopSpeech();
 
@@ -521,7 +520,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
     setIsShuffled(prev => !prev);
 
-    setSelectedAnswer(null);
+    setUserAnswers({});
 
   };
 
@@ -554,7 +553,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
     setScore(0);
 
-    setSelectedAnswer(null);
+    setUserAnswers({});
 
   };
 
@@ -754,7 +753,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
 
 
-  if (!initialized || topicQuestions.length === 0) {
+  if (!initialized || topicQuestions.length === 0 || !question) {
     return (
       <>
         {initialized ? (
@@ -913,7 +912,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
         explanation={question.explanation}
 
-        correctAnswerText={question.options[question.correctAnswer]}
+        correctAnswerText={question?.options?.[question?.correctAnswer] || ''}
 
         isPlayingAudio={isPlayingAudio}
 

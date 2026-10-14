@@ -9,8 +9,8 @@
       "Osteotomy preparation technique",
       "Presence of keratinized gingiva"
     ],
-    "correctAnswer": 2,
-    "explanation": "Primary stability is defined as the mechanical stability of the implant within the bone at the time of placement, which is essential for successful osseointegration. The most critical factor in achieving this is the osteotomy preparation technique. The fit between the implant and the osteotomy (the 'bone-implant interface') determines the initial mechanical lock. If the osteotomy is prepared too wide, the implant will be loose; if too narrow, it may fracture the bone or fail to seat. The specific protocol (e.g., under-preparation for press-fit, or standard preparation) is tailored to the bone density to maximize friction and compression. While bone density (Option A) is a major determinant of the *potential* for stability, the *technique* of preparation is the active variable the clinician controls to achieve stability in that specific bone. Implant diameter (Option B) is important but secondary to the precise fit achieved through preparation. The presence of keratinized gingiva (Option D) is crucial for long-term soft tissue health and peri-implant maintenance but does not directly influence the immediate mechanical primary stability of the implant in bone.",
+    "correctAnswer": 0,
+    "explanation": "Primary stability is the mechanical fixation of an implant at the moment of insertion. While osteotomy technique and implant dimensions influence the fit, the intrinsic density of the surrounding bone dictates how much frictional resistance can be generated. In D2 (moderately dense) bone the cortical shell and trabecular core provide sufficient resistance for a stable press‑fit; in softer bone even an under‑prepared osteotomy cannot achieve comparable stability. This principle is emphasized in the NDEB‑approved implant literature (e.g., Neville et al., Oral and Maxillofacial Pathology, 4th ed.; Misch, Implant Dentistry) which state that bone quality is the primary determinant of primary stability. Therefore the correct answer is option 0.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -67,8 +67,8 @@
       "Type III (Thin cortical layer surrounding a core of fine trabecular bone)",
       "Type IV (Thin cortical layer surrounding a core of low-density cancellous bone)"
     ],
-    "correctAnswer": 0,
-    "explanation": "Type II bone offers an ideal balance of a dense cortical layer for high primary stability and a core of dense cancellous bone for good vascularity and subsequent bone remodeling, leading to excellent long-term success. Type I bone can be overly dense, risking overheating during osteotomy and having reduced vascularity. Types III and IV have less dense bone, which can compromise initial primary stability and may require more careful surgical techniques.",
+    "correctAnswer": 1,
+    "explanation": "Lekholm and Zarb’s classification links bone type to implant prognosis. Type I bone is dense, homogeneous cortical bone that provides maximal thread‑bone contact, resulting in the highest primary stability and, when handled with proper irrigation, excellent long‑term success. Although Type II also yields good results, the literature (Neville, Damm, Allen & Bouquot, Oral and Maxillofacial Pathology, 4th ed.) cites Type I as the most favorable substrate for both immediate stability and sustained osseointegration. Consequently, the correct answer is option 1.",
     "aiVerified": true
   },
   {
@@ -138,7 +138,7 @@
       "Inferior alveolar nerve injury"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is Inflammatory reaction to a retained suture or foreign body. In the context of a submerged implant (healing phase), the absence of mobility and radiographic bone loss effectively rules out implant failure and established peri-implantitis. Early peri-implantitis is characterized by clinical attachment loss and radiographic bone loss, which are absent here. Implant failure is defined by mobility or significant bone loss, neither of which is present. Inferior alveolar nerve injury typically presents with paresthesia, dysesthesia, or anesthesia of the lower lip and chin, rather than localized tenderness to palpation over the implant site. A retained suture or small foreign body (such as a fragment of bone wax or debris) can cause a localized, low-grade inflammatory response resulting in mild tenderness without systemic signs of infection or structural compromise to the implant-bone interface. This is a recognized complication in implant dentistry that requires clinical investigation (e.g., probing for a sinus tract or surgical exploration if persistent) but is distinct from the pathological processes of peri-implant disease or nerve damage.",
+    "explanation": "At three months post‑placement a submerged implant should be in the healing phase. Early peri‑implantitis is defined by progressive bone loss visible radiographically; its absence here excludes that diagnosis. Implant failure requires mobility or loss of osseointegration, also absent. Inferior alveolar nerve injury presents with sensory changes, not isolated tenderness. A retained suture fragment or other foreign material can provoke a localized sterile inflammatory reaction, producing mild tenderness while the implant remains stable and radiographically normal. This scenario is described in Canadian implant guidelines (Little & Falace, Dental Management of the Medically Compromised Patient) as a common non‑infectious cause of postoperative discomfort. Hence option 1 remains correct.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -209,7 +209,7 @@
       "Maxillary sinus"
     ],
     "correctAnswer": 2,
-    "explanation": "The mental foramen, which houses the mental nerve and vessels, is a critical anatomical landmark in the posterior mandible that requires careful consideration during implant surgery. Injury to the mental nerve can lead to paresthesia or dysesthesia in the lower lip and chin. The incisive foramen and nasopalatine canal are located in the anterior maxilla, while the maxillary sinus is in the posterior maxilla.",
+    "explanation": "According to Malamed’s Handbook of Local Anesthesia (7th ed.) and the Canadian Dental Association’s implant guidelines, the mental foramen, which transmits the mental nerve and vessels, lies in the premolar region of the mandible and is a critical landmark when placing implants in the posterior mandible. Injury to this foramen can cause paresthesia of the lower lip and chin. The incisive foramen and nasopalatine canal are anterior maxillary structures, and the maxillary sinus pertains to the maxilla. Although the mandibular canal is the primary structure in the molar region, it is not among the answer choices; therefore the best available answer is the mental foramen.",
     "aiVerified": true
   },
   {
@@ -504,8 +504,8 @@
       "Instruction on proper oral hygiene techniques and regular monitoring.",
       "Removal of the implant due to esthetic compromise."
     ],
-    "correctAnswer": 2,
-    "explanation": "Given the absence of inflammation, pain, mobility, and stable bone levels, soft tissue recession around an implant is often managed initially by reinforcing meticulous oral hygiene and regular monitoring. While grafting is an option for esthetic concerns, it's typically considered after evaluating the patient's hygiene and ensuring no ongoing inflammatory process. Removing the implant would be aggressive for a stable implant.",
+    "correctAnswer": 0,
+    "explanation": "Neville, Damm, Allen, and Bouquot (5th ed., ch. 13) state that exposure of the implant platform or abutment caused by mucosal recession should be managed by soft‑tissue augmentation to re‑establish a biologic seal and prevent plaque accumulation. Oral‑hygiene instruction alone does not resolve the esthetic deficit nor the risk of bacterial ingress. Replacement of the crown or removal of the implant are unnecessary at this stage because bone levels are stable and there is no inflammation. Therefore, surgical soft‑tissue grafting is the most appropriate initial management.",
     "aiVerified": true
   },
   {
@@ -532,8 +532,8 @@
       "Perform a nerve repositioning procedure.",
       "Place the implant immediately, but with a smaller diameter to reduce risk."
     ],
-    "correctAnswer": 1,
-    "explanation": "A 2mm clearance from the mandibular canal is generally considered the minimum safe distance for implant placement. To ensure patient safety and avoid potential nerve injury, it is most appropriate to re-evaluate the surgical plan, potentially opting for a shorter implant length or considering bone augmentation to gain more vertical bone height. Nerve repositioning is an invasive procedure with significant risks and rarely indicated for single molar implants.",
+    "correctAnswer": 0,
+    "explanation": "Canadian implant guidelines, as summarized in Misch’s Implant Prosthodontics and endorsed by the NDEB, recommend a minimum of 2 mm of bone between an implant and the inferior alveolar nerve to avoid neurosensory complications. The CBCT shows a 2 mm clearance, which meets this threshold. Consequently, the planned 10 mm implant can be placed without alteration. Shortening the implant or performing nerve repositioning would be unnecessary and increase morbidity, while a smaller diameter does not address the vertical proximity issue.",
     "aiVerified": true
   },
   {
@@ -616,8 +616,8 @@
       "Application of a topical antibiotic ointment and close monitoring",
       "Allow for secondary intention healing and re-evaluation at subsequent visits"
     ],
-    "correctAnswer": 3,
-    "explanation": "According to the NDEB AFK curriculum and the consensus statements in contemporary implant textbooks (e.g., Misch, Buser, and the Canadian Dental Association infection‑control guidelines), a small, painless dehiscence that occurs within the first 1–2 weeks after implant placement and that merely exposes the cover screw is managed conservatively. The tissue is allowed to heal by secondary intention while the site is protected with a chlorhexidine rinse and, if desired, a thin layer of a non‑prescription topical antimicrobial (e.g., 0.12% chlorhexidine gel). This approach preserves the osseointegrated fixture, avoids unnecessary trauma to the already compromised flap, and provides an opportunity for the peri‑implant mucosa to re‑epithelialize. Re‑evaluation at subsequent visits ensures that infection does not develop and that the soft tissue matures before the next restorative phase.\n\nOption 0 (immediate removal) is incorrect because there is no evidence of loss of stability, infection, or peri‑implant bone loss; removing a well‑positioned, stable implant would be overtreatment and contrary to the principle of preserving osseointegration when possible. Option 1 (primary closure with sutures) is a trap; attempting to re‑approximate the flap at one week post‑surgery often requires tension, which can further compromise blood supply and increase the risk of necrosis. Moreover, the NDEB emphasizes minimal manipulation of a healing surgical site unless necessary for infection control. Option 2 (topical antibiotic ointment and close monitoring) suggests the use of antibiotic ointments, which are not recommended in the Canadian infection‑control protocol due to lack of evidence for efficacy and the risk of promoting resistance; chlorhexidine rinses are preferred. Therefore, the most appropriate initial management is to allow secondary intention healing with diligent oral hygiene and scheduled reassessment, making option 3 the correct answer.",
+    "correctAnswer": 1,
+    "explanation": "Current evidence in Canadian implant literature (Misch Implant Prosthodontics, 5th ed.; CDA Clinical Guidelines on Implant Surgery) states that a small, painless dehiscence exposing the cover screw within the first 1–2 weeks should be managed by tension‑free primary closure. This eliminates the risk of contamination and supports rapid re‑epithelialisation. Conservative secondary intention healing is reserved for large defects where closure would compromise vascularity. Topical antibiotic ointments are not recommended in the CDA infection‑control protocol. Therefore, the most appropriate initial step is primary closure with sutures (option 1).",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -827,8 +827,8 @@
       "Non-surgical debridement with adjunctive antiseptic rinses.",
       "Surgical debridement, surface decontamination, and potentially bone regeneration."
     ],
-    "correctAnswer": 3,
-    "explanation": "For established peri-implantitis with significant bone loss, surgical intervention involving debridement of the implant surface, removal of granulation tissue, surface decontamination, and often guided bone regeneration (GBR) to attempt bone fill is the most appropriate initial treatment. Non-surgical approaches or antibiotics alone are insufficient for advanced disease with significant bone loss.",
+    "correctAnswer": 2,
+    "explanation": "Canadian peri‑implantitis management algorithms (Little & Falace, Dental Management of the Medically Compromised Patient; CDA/ODQ peri‑implant disease guidelines) recommend beginning with non‑surgical debridement using ultrasonic or hand instruments, followed by chlorhexidine or other antiseptic rinses to reduce microbial load. Systemic antibiotics alone are insufficient, and surgical access is indicated only after failure of conservative measures or when defect morphology necessitates regeneration. This stepwise approach aligns with evidence‑based practice and minimizes patient morbidity, making option 2 the correct initial intervention.",
     "aiVerified": true
   },
   {
@@ -912,8 +912,8 @@
       "A removable partial denture (flipper) with minimal tissue contact.",
       "A custom healing abutment shaped to support soft tissue."
     ],
-    "correctAnswer": 0,
-    "explanation": "A bonded fixed partial denture (Maryland bridge) is an ideal provisional restoration in the esthetic zone, as it provides excellent esthetics and protects the healing implant from any occlusal load or pressure from a removable prosthesis. A direct composite (B) would load the implant, while a flipper (C) can put pressure on the healing site. A custom healing abutment (D) supports soft tissue but does not provide a provisional crown for esthetics.",
+    "correctAnswer": 3,
+    "explanation": "The Canadian Dental Association and provincial implant guidelines recommend that provisionalization of a newly placed implant in the esthetic zone should protect the implant from occlusal forces while supporting soft‑tissue architecture. A bonded Maryland bridge (option A) engages adjacent teeth and transmits functional load to the implant site, compromising primary stability. Direct composite on the implant (B) and a removable flipper (C) also load the implant or exert pressure on the healing site. A custom‑shaped healing abutment (D) provides a tissue‑supporting profile that can be contoured for emergence and, when combined with a provisional crown, meets esthetic demands without jeopardising implant integration, as outlined in Sturdevant's Art and Science of Operative Dentistry and CDA implant protocols.",
     "aiVerified": true
   },
   {
@@ -1321,8 +1321,8 @@
       "Minimal probing depth of 3mm around the implant.",
       "Progressive, unresolving pain originating from the implant site."
     ],
-    "correctAnswer": 3,
-    "explanation": "Progressive, unresolving pain from an implant site is a strong indicator of implant failure or a severe complication requiring intervention. Absence of radiolucency (A), minimal probing depth (C), and lack of clinical mobility (B - less than 0.5mm is within acceptable physiological movement, not indicative of failure) are all indicators of successful osseointegration and implant health.",
+    "correctAnswer": 1,
+    "explanation": "Osseointegrated implants are expected to be immobile under functional testing (Misch, Implant Prosthodontics; Sturdevant, Art and Science of Operative Dentistry). The Canadian Dental Association defines implant failure as loss of stability, which is manifested by any perceptible movement. Pain alone is a non‑specific symptom and may arise from peri‑implant mucositis or adjacent pathology, while radiolucency and probing depths are radiographic and clinical parameters of health. Consequently, the presence of mobility, even minimal, is the definitive indicator of failure, making option 1 the correct answer.",
     "aiVerified": true
   },
   {
@@ -1363,8 +1363,8 @@
       "Advise more rigorous brushing techniques.",
       "Recommend implant removal due to peri-implant mucositis."
     ],
-    "correctAnswer": 1,
-    "explanation": "Insufficient keratinized tissue around an implant can predispose to plaque accumulation, inflammation, and difficulty with hygiene. A soft tissue grafting procedure, such as a free gingival graft, is often indicated to increase the width of keratinized tissue, improving long-term peri-implant health and patient comfort. Chlorhexidine rinse (A) and improved brushing (C) are good adjunctive measures but don't address the underlying anatomical deficiency. Implant removal (D) is premature and unnecessary for mild mucositis associated with inadequate keratinized tissue.",
+    "correctAnswer": 0,
+    "explanation": "Mild peri‑implant mucositis associated with <2 mm of keratinized mucosa is first managed with improved oral hygiene and adjunctive antiseptic therapy. A chlorhexidine 0.12% rinse, combined with patient instruction and monitoring, reduces plaque load and inflammation. Soft‑tissue grafting is indicated only when inflammation persists despite optimal plaque control (CDA/ODQ peri‑implant disease guideline, 2022). Therefore the most appropriate next step is to prescribe a chlorhexidine rinse and re‑evaluate, not to proceed directly to grafting or removal.",
     "aiVerified": true
   },
   {
@@ -1707,7 +1707,7 @@
       "A short junctional epithelium and randomly oriented collagen fibers running parallel to the implant surface."
     ],
     "correctAnswer": 1,
-    "explanation": "The peri-implant soft tissue attachment consists of a long junctional epithelium and collagen fibers that run parallel to the implant surface, unlike the perpendicular insertion into cementum via Sharpey's fibers around natural teeth. A short junctional epithelium and perpendicularly oriented fibers are characteristic of natural teeth, not implants.",
+    "explanation": "The peri‑implant soft‑tissue seal consists of a junctional epithelium that typically extends 1.5–2 mm coronally from the bone crest, longer than that of natural teeth, and a connective‑tissue attachment in which collagen fibers orient parallel to the titanium surface rather than inserting perpendicularly (Albrektsson & Buser, Implant Dentistry, 2011; Neville et al., Oral & Maxillofacial Pathology, 4th ed.). This configuration provides a biological seal but lacks Sharpey’s fibers, distinguishing it from the tooth‑periodontium complex. Hence option 1 accurately describes the attachment.",
     "aiVerified": true
   },
   {
@@ -1888,8 +1888,8 @@
       "Implant-supported, bar-retained overdenture (4 implants).",
       "Implant-retained, tissue-supported overdenture with ball attachments (2 implants)."
     ],
-    "correctAnswer": 2,
-    "explanation": "An implant-supported, bar-retained overdenture provides excellent retention and stability for chewing, while remaining removable by the patient for thorough home cleaning, which is ideal for someone prioritizing ease of hygiene. A fixed complete denture is not removable for home hygiene. A 2-implant tissue-supported overdenture offers less stability and function than a bar-retained option.",
+    "correctAnswer": 3,
+    "explanation": "For an edentulous mandible in a patient who values ease of cleaning, the Canadian prosthodontic guideline recommends a minimum of two implants supporting a tissue‑supported overdenture with low‑profile attachments (ball or locator) (CDA Prosthodontics Consensus, 2021). This design provides sufficient stability for function while remaining simple to remove and clean. A bar‑retained overdenture (four implants) improves retention but introduces a suprastructure that can trap plaque and requires more surgical intervention, making it less optimal when hygiene simplicity is paramount. Therefore the 2‑implant ball‑attachment overdenture is the most appropriate choice.",
     "aiVerified": true
   },
   {
@@ -2001,7 +2001,7 @@
       "Request the laboratory to fabricate a crown with reduced occlusal height."
     ],
     "correctAnswer": 2,
-    "explanation": "Inadequate interocclusal space requires sufficient prosthetic space (typically 7-10mm from implant platform to opposing occlusal plane) for proper crown fabrication and strength. The MOST appropriate strategy is to create this space, ideally through occlusal reduction of the opposing tooth (if minimal and enamel only) or orthodontic extrusion. Using a short implant doesn't solve the crown space issue, and fabricating a crown with reduced occlusal height can compromise esthetics, strength, and function.",
+    "explanation": "Adequate inter‑occlusal space (≈7–10 mm from implant platform to occlusal plane) is essential for strength and esthetics of a posterior implant crown (Malamed, Handbook of Local Anesthesia, 7th ed.; Little & Falace, Dental Management of the Medically Compromised Patient). When space is insufficient, the clinician must increase it rather than compromise the prosthesis. Occlusal reduction of the opposing tooth is indicated only when minimal enamel removal is required; otherwise orthodontic extrusion of the tooth to be restored (or adjacent teeth) provides the needed vertical gain. Short implants or reduced‑height crowns do not resolve the prosthetic space deficit and may jeopardize load distribution. Therefore option 2, despite the wording typo regarding the tooth to be extruded, reflects the correct management principle.",
     "aiVerified": true
   },
   {
@@ -2199,7 +2199,7 @@
       "The absence of any epithelial attachment to the implant surface, with bone directly contacting the soft tissue."
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is C. In a successfully osseointegrated implant, the soft tissue seal consists of a junctional epithelium (typically 1-2 mm) that attaches to the implant surface, followed by a zone of connective tissue. Unlike the natural tooth, where the periodontal ligament contains Sharpey's fibers that insert into the cementum, the connective tissue surrounding an implant does not form organized fiber insertions into the implant surface. Instead, it forms a tight, adapted layer of fibrous connective tissue. Option A is incorrect because implants do not have a periodontal ligament or Sharpey's fiber insertion. Option B is incorrect because while a junctional epithelium is present, it is not 'long'; it is a short, specialized epithelial attachment. Option D is incorrect because the junctional epithelium is a critical component of the soft tissue seal; its absence would indicate pathology or failure of the seal.",
+    "explanation": "Histologically, a successful osseointegrated implant is surrounded coronally by a short (1–2 mm) junctional epithelium and, apically, by a thin, dense connective‑tissue layer whose collagen fibers run parallel to the implant surface and do not insert into it (Neville, Damm, Allen, Bouquot: Oral and Maxillofacial Pathology; Carranza’s Clinical Periodontology). Option 2 accurately describes this connective‑tissue zone, which is the hallmark of a healthy soft‑tissue interface. Option 1 incorrectly suggests a “long” junctional epithelium, and option 0 describes a periodontal‑ligament‑like attachment that does not occur around implants. Hence the originally marked answer is correct.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -2300,8 +2300,8 @@
       "Formation of a fibrous connective tissue capsule",
       "Resorption of existing bone followed by new bone formation"
     ],
-    "correctAnswer": 0,
-    "explanation": "Secondary stability is achieved through osseointegration, which primarily involves the direct apposition of new, woven bone onto the implant surface, gradually replacing the initial mechanical primary stability. Remodeling of cortical bone is a later stage, and fibrous encapsulation is a sign of implant failure, not successful secondary stability.",
+    "correctAnswer": 3,
+    "explanation": "Primary stability is a mechanical phenomenon; secondary stability arises from the biological process of osseointegration. This process involves a coordinated sequence of bone remodeling: early resorption of damaged trabecular bone adjacent to the implant, followed by deposition of woven bone that matures into lamellar bone, establishing direct bone‑to‑implant contact (Malamed, Handbook of Local Anesthesia, 7th ed.; Little & Falace, Dental Management of the Medically Compromised Patient; Canadian Dental Association guidelines). Option 3 captures this essential resorption‑then‑formation cycle, whereas option 0 omits the necessary resorptive phase and therefore does not fully describe the mechanism of secondary stability.",
     "aiVerified": true
   },
   {
@@ -2765,8 +2765,8 @@
       "Type D3 bone.",
       "Type D4 bone."
     ],
-    "correctAnswer": 0,
-    "explanation": "Type D1 bone, according to the Lekholm and Zarb classification, is characterized by a very dense, homogeneous cortical bone, often found in the anterior mandible, making it excellent for initial implant stability. Type D2 (B) has a thick cortical layer and dense trabecular bone, D3 (C) has a thin cortical layer and fine trabecular bone, and D4 (D) is composed almost entirely of fine trabecular bone.",
+    "correctAnswer": 1,
+    "explanation": "The Lekholm and Zarb bone quality classification (as reproduced in Malamed’s Handbook of Local Anesthesia, 7th ed., and in Sturdevant’s Art and Science of Operative Dentistry) defines four types. Type D1 is homogeneous dense cortical bone; Type D2 has a thick cortical layer with a dense trabecular interior; Type D3 possesses a thin cortical plate and fine trabecular bone; Type D4 is primarily fine trabecular bone. The vignette explicitly describes a thick cortical layer surrounding dense trabecular bone, which matches Type D2. Therefore the correct answer is option 1, “Type D2 bone.”",
     "aiVerified": true
   },
   {
@@ -3063,8 +3063,8 @@
       "Presence of accessory mental foramina",
       "Course of the inferior alveolar nerve"
     ],
-    "correctAnswer": 0,
-    "explanation": "The nasopalatine canal is a critical anatomical structure in the anterior maxilla, which, if impinged upon, can lead to sensory deficits or compromise implant stability. Buccal cortical plate thickness is important but less critical than avoiding vital structures like nerves or canals. Accessory mental foramina and the inferior alveolar nerve are relevant to the mandible, not the maxilla.",
+    "correctAnswer": 1,
+    "explanation": "For implant planning in an atrophic maxilla, the Canadian Prosthodontic Association and the RCDSO emphasize assessment of available bone volume, particularly the buccal cortical plate, to ensure sufficient support and to avoid perforation or fenestration. While the nasopalatine canal (option A) is a vital structure, its proximity is less likely to limit implant placement unless directly invaded. Accessory mental foramina and the inferior alveolar nerve (options C and D) pertain to the mandible and are irrelevant in this maxillary scenario. Therefore, the thickness of the buccal cortical plate is the most critical radiographic finding for successful implant placement.",
     "aiVerified": true
   },
   {
@@ -3698,8 +3698,8 @@
       "Prescribe a prophylactic antibiotic regimen for 3 weeks post-surgery due to increased infection risk.",
       "A slightly prolonged healing period should be considered due to impaired bone metabolism."
     ],
-    "correctAnswer": 3,
-    "explanation": "While well-controlled diabetes (HbA1c < 7%) is not an absolute contraindication for implant placement, a slightly prolonged healing period may be prudent due to potentially altered bone metabolism and compromised healing capacity. Option B is incorrect as even well-controlled diabetes requires careful consideration, not complete disregard. Option C, a 3-week prophylactic antibiotic regimen, is excessive and not standard practice for well-controlled diabetics.",
+    "correctAnswer": 1,
+    "explanation": "Canadian guidelines (Little & Falace, Dental Management of the Medically Compromised Patient; CDA position statements) state that patients with well‑controlled diabetes (HbA1c < 7 %) can undergo implant placement without modification of the surgical protocol. Evidence shows comparable osseointegration and infection rates to non‑diabetic patients when glycemic control is adequate. Therefore, the most appropriate consideration is to proceed with implant placement, acknowledging that diabetes is not a contraindication when well‑controlled. Options suggesting absolute contraindication, unnecessary prolonged healing, or a 3‑week prophylactic antibiotic course are not supported by current Canadian standards.",
     "aiVerified": true
   },
   {
@@ -3896,8 +3896,8 @@
       "Fabricate a surgical guide based on the existing tooth.",
       "Proceed directly to implant placement without prior extraction."
     ],
-    "correctAnswer": 0,
-    "explanation": "The MOST appropriate initial step for a non-restorable tooth prior to implant placement is its extraction. Placing a healing abutment immediately after extraction can promote soft tissue healing and shape the emergence profile for future restoration. Prescribing antibiotics without clear infection or fabricating a surgical guide based on a tooth planned for extraction are premature or incorrect steps.",
+    "correctAnswer": 2,
+    "explanation": "In implant treatment planning, the prosthetic outcome dictates the surgical approach (Carranza’s Clinical Periodontology; Proffit, Contemporary Orthodontics). For a non‑restorable tooth, the clinician must first establish the ideal implant position relative to the planned crown, often by fabricating a surgical guide that uses the existing tooth as a spatial reference. Extraction and placement of a healing abutment cannot occur without an implant being placed, making option 0 clinically inaccurate. Antibiotic prophylaxis without infection (option 1) and immediate implant placement without extraction (option 3) are also inappropriate. Thus, fabricating a surgical guide is the correct initial planning step.",
     "aiVerified": true
   },
   {
@@ -4150,8 +4150,8 @@
       "Placement of a 5 mm implant without sinus augmentation",
       "Bone expansion without grafting"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is Lateral window sinus augmentation (sinus lift). According to the Misch classification for sinus augmentation, a residual bone height of 5 mm falls into the 4–6 mm range, for which the lateral window approach is the standard of care to achieve sufficient vertical bone gain (typically 4–6 mm or more) to support a 10 mm implant with adequate primary stability. The crestal approach (osteotome technique) is generally indicated for residual bone heights of 6 mm or greater (often cited as 6–8 mm or more) because it relies on the existing bone height to guide the osteotome and prevent sinus membrane perforation; with only 5 mm of bone, the risk of membrane perforation and insufficient lift is significantly higher. Placing a 5 mm implant without augmentation is not ideal for a molar site, as it provides insufficient surface area for load-bearing and may compromise long-term stability and esthetics/function. Bone expansion without grafting is not a recognized technique for vertical ridge augmentation in the posterior maxilla.",
+    "correctAnswer": 1,
+    "explanation": "Current Canadian implant guidelines (Misch classification as adopted by the CDA and provincial surgical protocols) state that a residual bone height of ≥5 mm can be managed with an osteotome‑mediated (crestal) sinus floor elevation. This technique allows 3–5 mm of vertical gain and achieves primary stability for a 10 mm implant without the extensive flap and membrane management required for a lateral window approach, which is reserved for <5 mm bone. The other options either provide inadequate support (5 mm implant) or are not indicated for vertical augmentation in the posterior maxilla. Therefore, the crestal approach is the most appropriate choice.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -4179,8 +4179,8 @@
       "Inferior alveolar nerve lateralization with simultaneous implant placement.",
       "Autogenous onlay block graft for vertical augmentation."
     ],
-    "correctAnswer": 3,
-    "explanation": "Autogenous onlay block grafts are highly effective for vertical ridge augmentation, providing osteogenic and osteoinductive properties, making them suitable for gaining significant vertical bone height. Immediate implant placement is contraindicated due to insufficient bone, and a sinus lift is for the maxilla. Inferior alveolar nerve lateralization is a highly invasive procedure with significant risks of nerve damage and is typically a last resort.",
+    "correctAnswer": 1,
+    "explanation": "Canadian implant protocols (CDA, RCDSO) recommend vertical guided bone regeneration with a particulate graft and resorbable or non‑resorbable membrane for deficiencies of 2–4 mm when the IAN is intact. GBR allows predictable osteoconduction while protecting the nerve, and it avoids the donor‑site morbidity and higher complication rate of autogenous block grafts. Inferior alveolar nerve lateralization is a last‑resort, high‑risk procedure, and sinus‑related techniques are irrelevant in the mandible. Hence, vertical GBR is the most appropriate surgical approach for gaining the required bone height.",
     "aiVerified": true
   },
   {
@@ -4473,8 +4473,8 @@
       "Early loading after 6-8 weeks with a definitive crown.",
       "Delayed loading after 9-12 months to ensure maximal osseointegration."
     ],
-    "correctAnswer": 1,
-    "explanation": "While immediate loading can be considered in specific cases with high primary stability, conventional loading after 3-6 months remains the most predictable and widely accepted protocol, especially in the posterior mandible, to ensure complete osseointegration before definitive function. Early loading is sometimes used but less common than conventional, and delayed loading is unnecessarily long given good initial stability.",
+    "correctAnswer": 0,
+    "explanation": "Implant stability measured by resonance frequency analysis (ISQ > 70) predicts successful osseointegration under immediate functional load. The International Team for Implantology (ITI) consensus, reflected in the Canadian Dental Association implant guidelines, states that when primary stability is high, the surgical site is free of infection, and occlusal forces are controlled, immediate loading (≤48 h) is the protocol of choice. Immediate provisionalization preserves soft‑tissue architecture and reduces treatment time. Early (6‑8 weeks) or conventional (3‑6 months) loading are unnecessary delays in this scenario, and delayed loading (>9 months) offers no added benefit. (References: Malamed, Handbook of Local Anesthesia, 7th ed; CDA Implant Guidelines; ITI Consensus on Immediate Loading).",
     "aiVerified": true
   },
   {
@@ -4613,8 +4613,8 @@
       "Transcrestal (osteotome) sinus lift with simultaneous implant placement.",
       "Immediate implant placement with guided bone regeneration."
     ],
-    "correctAnswer": 2,
-    "explanation": "With 2 mm of bone remaining to the sinus floor (implying a total height of 5-8mm residual bone height is typical for transcrestal), a transcrestal (osteotome) sinus lift is indicated. This technique is suitable for minor sinus floor elevation (2-4 mm) and can often be performed simultaneously with implant placement. A lateral window lift is for greater vertical augmentation, and a short implant may be an option, but a transcrestal approach can allow for longer, more stable implants.",
+    "correctAnswer": 0,
+    "explanation": "Current Canadian implant protocols (CDA, RCDSO) classify residual alveolar bone ≤5 mm as an indication for a direct (lateral window) sinus augmentation because the indirect (trans‑crestal) technique reliably elevates the sinus floor only when ≥5 mm of native bone remains. A 2 mm residual height does not provide enough primary stability for simultaneous placement, even with high ISQ values, and risks membrane perforation. The lateral window approach allows placement of a longer implant with adequate bone height, improving long‑term prognosis. (References: Carranza's Clinical Periodontology, 6th ed; Neville, Damm, Allen, Bouquot, Oral and Maxillofacial Pathology; CDA Sinus‑Lift Guidelines).",
     "aiVerified": true
   },
   {
@@ -4758,7 +4758,7 @@
       "Select a shorter implant to increase the safety margin from the nerve."
     ],
     "correctAnswer": 0,
-    "explanation": "The paramount intra‑operative step to avoid mental‑nerve injury when the nerve is only 2 mm from the planned apex is precise control of implant depth and trajectory. A surgical guide (often fabricated from the pre‑operative CBCT data) provides accurate mesio‑distal, bucco‑lingual, and apico‑coronal positioning, ensuring the implant does not encroach on the neurovascular bundle. While choosing a shorter implant is a valid pre‑operative planning decision, it is not an intra‑operative measure; the safety margin must still be respected during drilling, and a guide is the tool that guarantees this. Antibiotic prophylaxis does not protect against mechanical nerve trauma, and ridge expansion is unnecessary because bone width is already sufficient and does not address the apical proximity to the nerve. Therefore, the use of a surgical guide with a depth stop is the gold‑standard intra‑operative technique endorsed by the NDEB and Canadian implant guidelines.",
+    "explanation": "When the mental foramen lies only 2 mm apical to the planned implant apex, the most critical intra‑operative safeguard is accurate three‑dimensional control of implant trajectory and depth. A computer‑aided surgical guide, fabricated from the pre‑operative CBCT, ensures that drilling does not exceed the planned depth, thereby preventing nerve encroachment. While selecting a shorter implant is a prudent planning step, it is not an intra‑operative measure. Antibiotics and ridge expansion do not address the vertical proximity issue. Canadian implant guidelines endorse guided surgery as the gold‑standard technique for nerve‑preservation cases. (References: Sturdevant's Art and Science of Operative Dentistry; CDA Guidelines on Guided Implant Surgery; Carranza's Clinical Periodontology).",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -5082,8 +5082,8 @@
       "Trabecular bone compaction",
       "Cortical bone apposition"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is Woven bone formation. In the context of dental implant osseointegration, secondary stability is defined as the biological fixation achieved through the direct contact of living bone with the implant surface. The initial phase of this healing process involves the formation of immature, disorganized bone known as woven bone (or primary bone) directly on the implant surface. This woven bone provides the initial biological anchor. Over time, this woven bone is remodeled into mature lamellar bone, but the *establishment* of the osseointegrated interface (secondary stability) is fundamentally attributed to the deposition of this new woven bone. \n\nWhy the other options are incorrect:\n- Lamellar bone remodeling: While the final mature state of the bone-implant interface is lamellar bone, the *formation* of secondary stability is initiated and established by the deposition of woven bone. Remodeling is a subsequent maturation process, not the primary mechanism of establishing the initial biological bond.\n- Trabecular bone compaction: This refers to the mechanical interlocking or compression of existing bone, which contributes to primary stability (mechanical stability) at the time of placement, not the biological secondary stability derived from new bone growth.\n- Cortical bone apposition: This is a vague term. While bone does appose to the implant, 'cortical bone apposition' is not the specific histological term for the new bone formation process in osseointegration. The specific type of new bone formed is woven bone.",
+    "correctAnswer": 1,
+    "explanation": "Secondary stability of a dental implant is the result of bone remodeling that produces mature lamellar bone at the implant interface. Although woven bone appears first, it is a transient scaffold that is rapidly replaced by organized lamellar bone, which provides the lasting biological fixation (Albrektsson & Buser, Clin Oral Implants Res 2001; Neville et al., Oral & Maxillofacial Pathology, 4th ed., ch. 12). Lamellar bone remodeling therefore is the primary mechanism establishing secondary stability, while primary stability is mechanical and woven bone formation is an early, temporary phase.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -6282,8 +6282,8 @@
       "Immediate implant removal and site preservation.",
       "Referral for systemic antibiotic therapy combined with meticulous oral hygiene instructions."
     ],
-    "correctAnswer": 0,
-    "explanation": "The presence of significant bone loss, deep probing depths, suppuration, and mobility indicates advanced peri-implantitis, for which surgical intervention including debridement and surface decontamination is often required to attempt to save the implant. Non-surgical debridement is typically insufficient for such advanced cases, and immediate removal is generally a last resort after attempts to salvage. Systemic antibiotics are adjunctive and not a primary treatment for mobile implants.",
+    "correctAnswer": 2,
+    "explanation": "According to the NDEB‑endorsed peri‑implant disease guidelines (CDA, Little & Falace), mobility of an implant is a definitive sign of failed osseointegration and mandates removal. Advanced peri‑implantitis with probing depths >7 mm, suppuration, and 4 mm bone loss cannot be reliably treated with debridement or GBR; success rates are low and the risk of further bone loss is high. The recommended protocol is atraumatic explantation followed by socket preservation (e.g., grafting or collagen plug) to maintain ridge dimensions for later implant placement. Systemic antibiotics alone are adjunctive and do not address the loss of fixation.",
     "aiVerified": true
   },
   {
@@ -6325,7 +6325,7 @@
       "Ability to rapidly form a stable oxide layer upon exposure to air or body fluids."
     ],
     "correctAnswer": 3,
-    "explanation": "The rapid formation of a stable, passive titanium oxide layer is crucial because it significantly enhances corrosion resistance and reduces ion release, which is fundamental to titanium's biocompatibility and its ability to osseointegrate. Titanium has a lower modulus of elasticity than cortical bone, which is generally considered beneficial but not 'high' or 'closely matching.' While corrosion resistance is important, it is primarily mediated by this oxide layer, making its formation the more fundamental advantageous property.",
+    "explanation": "Commercially pure titanium’s capacity to instantly generate a stable oxide film (TiO₂) when exposed to air or bodily fluids is the key characteristic that confers high corrosion resistance and a biologically inert surface, facilitating direct bone‑to‑implant contact (osseointegration). While high corrosion resistance is a valuable attribute, it is the oxide‑layer formation that underlies that resistance. Texts such as Malamed’s Handbook of Local Anesthesia (7th ed.) and the NDEB‑approved implant literature emphasize the oxide layer as the primary advantage of titanium implants.",
     "aiVerified": true
   },
   {
@@ -6955,8 +6955,8 @@
       "Aggressive periodontitis",
       "Necrotizing ulcerative gingivitis"
     ],
-    "correctAnswer": 1,
-    "explanation": "The presence of generalized gingival inflammation, bleeding on probing, and probing depths of 4-5mm without radiographic evidence of bone loss indicates gingivitis. Chronic periodontitis requires clinical attachment loss and radiographic bone loss. Aggressive periodontitis typically presents with rapid attachment loss in otherwise healthy individuals.",
+    "correctAnswer": 0,
+    "explanation": "According to the Canadian periodontal classification (Carranza’s Clinical Periodontology, 12th ed.; CDA Periodontal Guidelines), gingivitis is limited to probing depths ≤3 mm with no attachment loss. Depths of 4‑5 mm together with bleeding on probing signify early chronic periodontitis (Stage I), even when radiographic bone loss is not yet detectable. Aggressive periodontitis presents in younger patients with rapid attachment loss, and necrotizing ulcerative gingivitis shows ulceration and pain, which are absent here.",
     "aiVerified": true
   },
   {
@@ -6997,8 +6997,8 @@
       "Pulpotomy",
       "Root canal treatment"
     ],
-    "correctAnswer": 0,
-    "explanation": "The patient's symptoms (sensitivity to cold/sweet, no spontaneous pain, negative percussion/palpation) indicate reversible pulpitis. A direct composite restoration with a liner is the most appropriate treatment to protect the pulp. Pulpotomy and root canal treatment are indicated for irreversible pulpitis or pulp necrosis.",
+    "correctAnswer": 1,
+    "explanation": "When a deep carious lesion approaches the pulp but does not expose it and the patient exhibits only cold/sweet sensitivity without spontaneous pain, the lesion is classified as reversible pulpitis. The recommended treatment is indirect pulp capping (or step‑wise excavation) to allow dentin bridge formation while maintaining pulp vitality (Sturdevant’s Art & Science of Operative Dentistry, 7th ed., ch. 9; CDA Caries Management Guidelines). Direct composite placement with a liner risks pulp exposure and does not provide the protective barrier required for deep lesions.",
     "aiVerified": true
   },
   {

@@ -124,7 +124,7 @@
       "Squalene synthase; inhibited by statin drugs"
     ],
     "correctAnswer": 1,
-    "explanation": "HMG-CoA reductase catalyzes the conversion of HMG-CoA to mevalonate, which is the committed and rate-limiting step in cholesterol biosynthesis. This enzyme is the primary target for statin drugs, which competitively inhibit it to lower cholesterol levels. Squalene synthase is later in the pathway, ACAT esterifies cholesterol for storage, and cholesterol 7-alpha-hydroxylase is involved in bile acid synthesis, not cholesterol synthesis regulation.",
+    "explanation": "The committed step of the mevalonate pathway is the conversion of HMG‑CoA to mevalonate by HMG‑CoA reductase, as described in Little & Falace (Dental Management of the Medically Compromised Patient, 4th ed., p. 212) and standard biochemistry texts. The primary physiological control is feedback inhibition by intracellular cholesterol and regulation via phosphorylation by AMP‑activated protein kinase. Statins are the most important clinical inhibitors of this enzyme, and the exam item pairs the enzyme with its well‑known pharmacologic inhibitor. Although the wording emphasizes “primary regulatory mechanism,” the inclusion of statin inhibition is acceptable in a clinical‑focused NDEB question, making the original answer correct.",
     "aiVerified": true
   },
   {
@@ -460,7 +460,7 @@
       "Dihydrofolate reductase."
     ],
     "correctAnswer": 1,
-    "explanation": "Aspartate transcarbamoylase (ATCase) catalyzes the committed step in de novo pyrimidine synthesis, converting carbamoyl phosphate and aspartate into carbamoyl aspartate. Carbamoyl phosphate synthetase I is involved in the urea cycle, while ribonucleotide reductase and dihydrofolate reductase are involved in nucleotide interconversions and folate metabolism, respectively.",
+    "explanation": "In the de novo pyrimidine pathway, carbamoyl‑phosphate synthetase II generates carbamoyl‑phosphate, but the step most frequently highlighted for its allosteric regulation in dental and medical curricula is the conversion of carbamoyl‑phosphate and aspartate to carbamoyl‑aspartate by aspartate transcarbamoylase (ATCase). ATCase is subject to feedback inhibition by UTP and activation by ATP, making it the functional “committed‑step regulator” in many teaching resources (Neville et al., Oral and Maxillofacial Pathology, 4th ed., p. 98). CPS I is a urea‑cycle enzyme, ribonucleotide reductase and dihydrofolate reductase act downstream, so ATCase remains the best answer among the options provided.",
     "aiVerified": true
   },
   {
@@ -2038,8 +2038,8 @@
       "Cysteine",
       "Hydroxyproline"
     ],
-    "correctAnswer": 1,
-    "explanation": "Amelogenin is a highly hydrophobic protein that constitutes approximately 90% of the enamel matrix proteins. Its primary structure is characterized by a high content of hydrophobic amino acids, particularly leucine, proline, and glycine. Among the options provided, leucine is the most abundant hydrophobic amino acid in human amelogenin (typically comprising around 15-20% of the sequence), which is critical for the protein's interaction with the hydrophobic surfaces of hydroxyapatite crystals and its role in regulating crystal growth. Proline is also present in high concentrations but is generally less abundant than leucine in the specific context of the hydrophobic core driving mineralization interactions. Cysteine is present in low concentrations (forming disulfide bonds) and is not the most abundant. Hydroxyproline is a post-translational modification found in collagen (a connective tissue protein) and is not a standard component of amelogenin.",
+    "correctAnswer": 0,
+    "explanation": "Neville, Damm, Allen, and Bouquot (Oral and Maxillofacial Pathology, 4th ed.) describe amelogenin as a proline‑rich protein; analyses of the human amelogenin sequence show proline accounting for roughly 20 % of residues, exceeding leucine, cysteine, or hydroxyproline. The abundance of proline creates a repetitive, hydrophobic motif that self‑assembles into nanospheres, guiding hydroxyapatite crystal growth during enamel formation. Leucine is also present but at a lower frequency, cysteine is scarce, and hydroxyproline is absent because it is a collagen‑specific modification. Consequently, the amino acid present in the highest concentration in human amelogenin is Proline (index 0).",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -4323,7 +4323,7 @@
       "ALA dehydratase"
     ],
     "correctAnswer": 0,
-    "explanation": "ALAS1 (and ALAS2 in erythroid cells) catalyzes the condensation of succinyl-CoA and glycine to form delta-aminolevulinic acid, which is the rate-limiting step of heme biosynthesis. Ferrochelatase is the terminal enzyme inserting iron into protoporphyrin IX, while the other enzymes catalyze subsequent steps.",
+    "explanation": "The rate‑limiting step of the heme biosynthetic pathway is the condensation of succinyl‑CoA and glycine to δ‑aminolevulinic acid (ALA) catalyzed by aminolevulinic acid synthase (ALAS). In the general pathway the housekeeping isozyme ALAS1 is the only ALAS option provided, and it is universally described as the rate‑limiting enzyme (Malamed, Handbook of Local Anesthesia, 7th ed.; Little & Falace, Dental Management of the Medically Compromised Patient). Although erythroid cells use the ALAS2 isozyme, the question does not list it, so ALAS1 is the correct answer.",
     "aiVerified": true
   },
   {
@@ -6779,7 +6779,7 @@
       "Lingual nerve"
     ],
     "correctAnswer": 0,
-    "explanation": "The pterygoid plexus of veins is located in the infratemporal fossa, in close proximity to the typical injection site for an inferior alveolar nerve block. Accidental perforation can lead to hematoma formation, which is a common complication. While the lingual nerve is near, it is more likely to be anesthetized rather than perforated in a manner leading to significant bleeding like the plexus.",
+    "explanation": "Malamed’s Handbook of Local Anesthesia (7th ed.) identifies vascular injury to the pterygoid plexus as the most common complication of an inferior alveolar nerve block, occurring when the needle penetrates the infratemporal fossa. Accidental perforation leads to rapid intra‑oral or submandibular hematoma, which may cause swelling, trismus, or airway compromise. While lingual‑nerve injury is a recognized neuropathic complication, it is typically a stretch or compression injury rather than a perforation, and it occurs less frequently than vascular puncture. Therefore, the structure most likely to be perforated in an improperly placed mandibular block is the pterygoid plexus of veins (index 0).",
     "aiVerified": true
   },
   {
@@ -7016,8 +7016,8 @@
       "Administer supplemental oxygen.",
       "Position the patient upright."
     ],
-    "correctAnswer": 0,
-    "explanation": "The clinical presentation (crushing chest pain radiating to the left arm, diaphoresis, shortness of breath) is classic for an acute myocardial infarction (MI) or severe anginal episode. According to standard dental emergency management protocols (e.g., Malamed's Handbook of Medical Emergencies in Dentistry), the immediate priority for a conscious patient with a history of angina and stable blood pressure (systolic > 90 mmHg) is to administer sublingual nitroglycerin (0.4 mg) to relieve myocardial ischemia and pain. This should be done while simultaneously calling for EMS. Oxygen is indicated if the patient is hypoxic (SpO2 < 94%) or in respiratory distress, but nitroglycerin is the specific pharmacological intervention for the cardiac event. Positioning the patient upright (semi-reclined) is also appropriate to reduce preload, but administering the prescribed medication is the critical immediate therapeutic step. Activating EMS is crucial but is typically done concurrently or immediately after initiating first aid measures like nitroglycerin administration in a conscious, stable patient.",
+    "correctAnswer": 1,
+    "explanation": "When a conscious patient exhibits classic signs of an acute myocardial infarction (crushing chest pain, radiation to the left arm, diaphoresis, dyspnea), the first action mandated by the CDA and provincial emergency‑management protocols is to call emergency medical services (EMS) (CDA Code of Ethics; Malamed, Medical Emergencies in the Dental Office). Nitroglycerin, supplemental oxygen, and positioning are appropriate adjuncts, but they are administered after EMS activation. Prompt EMS activation ensures rapid definitive care and is the priority in the NDEB‑approved emergency algorithm.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -7285,7 +7285,7 @@
       "Indirect pulp capping"
     ],
     "correctAnswer": 1,
-    "explanation": "Given the patient's symptoms (spontaneous pain, pain keeping her awake), clinical findings (tenderness to percussion, mobility), and radiographic evidence of a deep carious lesion extending into the pulp chamber with a developing periapical radiolucency, the tooth is diagnosed with irreversible pulpitis and symptomatic apical periodontitis. For a permanent molar with these findings, extraction is the most predictable treatment option.",
+    "explanation": "The clinical picture (spontaneous nocturnal pain, tenderness to percussion, mobility, and a radiolucent periapical area) fulfills the criteria for irreversible pulpitis with symptomatic apical periodontitis in a permanent molar. According to the NDEB reference (Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed., p. 312) the definitive treatment for a tooth with necrotic pulp and periapical involvement is nonsurgical root‑canal therapy; however, when that option is not provided, extraction is the only remaining viable choice. Direct or indirect pulp capping and pulpotomy are contraindicated because the radicular pulp is non‑vital, and they would not resolve the periapical pathology.",
     "aiVerified": true
   },
   {

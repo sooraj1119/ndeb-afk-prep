@@ -39,7 +39,7 @@ export function QuizHeader({
 }: QuizHeaderProps) {
   return (
     <>
-      <div style={{ width: '100%', height: '6px', background: '#e2e8f0', borderRadius: '3px', marginBottom: 'clamp(0.75rem, 3vw, 1.5rem)', overflow: 'hidden' }}>
+      <div style={{ width: '100%', height: '6px', background: 'var(--border-color)', borderRadius: '3px', marginBottom: 'clamp(0.75rem, 3vw, 1.5rem)', overflow: 'hidden' }}>
         <motion.div
           initial={{ width: 0 }}
           animate={{ width: `${progressPercentage}%` }}

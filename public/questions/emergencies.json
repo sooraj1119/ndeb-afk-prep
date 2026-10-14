@@ -38,8 +38,8 @@
       "Administer one sublingual nitroglycerin tablet (0.4 mg).",
       "Administer oxygen via nasal cannula."
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is to administer one sublingual nitroglycerin tablet (0.4 mg). According to standard dental emergency management protocols (e.g., Malamed's Handbook of Medical Emergencies in Dentistry, which aligns with Canadian dental guidelines), the immediate first-line pharmacological intervention for a conscious patient with chest pain and a systolic blood pressure >90 mmHg is sublingual nitroglycerin. This medication acts rapidly to reduce myocardial oxygen demand and improve coronary blood flow. If the pain persists after 5 minutes, the dose may be repeated up to a total of three doses. Activating EMS is a critical subsequent step, particularly if pain does not resolve or if there are signs of myocardial infarction, but the initial specific treatment for anginal pain is nitroglycerin. Aspirin is typically administered after or concurrently with nitroglycerin if the patient is not allergic, but nitroglycerin is the primary specific treatment for acute anginal pain. Oxygen is only indicated if the patient is hypoxic (SpO2 <94%) or in respiratory distress, which is not indicated here.",
+    "correctAnswer": 1,
+    "explanation": "Canadian emergency protocols (Malamed’s Handbook of Medical Emergencies in Dentistry, NDEB standards) place activating EMS as the initial step for any patient with chest pain suggestive of myocardial ischemia. Prompt EMS activation ensures rapid transport, advanced cardiac monitoring, and definitive care. While aspirin, nitroglycerin, and oxygen are important adjuncts, they are administered after EMS has been called. Delaying EMS could worsen outcomes. Therefore the correct answer is to activate emergency medical services immediately (option B).",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -350,8 +350,8 @@
       "Recline the patient and attempt to retrieve the object with Magill forceps",
       "Immediately call emergency medical services"
     ],
-    "correctAnswer": 1,
-    "explanation": "The patient's signs (grabbing throat, inability to speak, weak cough, high-pitched sounds) indicate a severe airway obstruction with ineffective coughing. In this scenario, performing five back blows followed by five abdominal thrusts (Heimlich maneuver) is the most appropriate immediate action for a conscious adult. Encouraging coughing is only effective for partial obstructions with effective coughs, while attempting to retrieve the object blindly with forceps is dangerous. Calling EMS should be done after initiating first aid measures if they are unsuccessful.",
+    "correctAnswer": 0,
+    "explanation": "The patient is grasping his throat, cannot speak, coughs weakly and produces high‑pitched sounds (stridor), indicating a partial obstruction. According to Malamed’s Handbook of Medical Emergencies in the Dental Office (7th ed.) and the Canadian Dental Association emergency protocol, the first step in a conscious adult with any cough effort is to encourage a forceful cough; this may expel the foreign body without invasive maneuvers. Back blows and abdominal thrusts (Heimlich) are reserved for when coughing is ineffective or the patient cannot cough at all. Blind retrieval with forceps is contraindicated because it may push the object deeper. Therefore, option 0 is the correct initial action.",
     "aiVerified": true
   },
   {
@@ -490,8 +490,8 @@
       "Administer a sedative like oral lorazepam",
       "Have the patient breathe into cupped hands or a rebreathing mask"
     ],
-    "correctAnswer": 3,
-    "explanation": "The patient's symptoms (numbness/tingling, rapid deep breathing due to anxiety) are classic for hyperventilation, leading to a reduction in carbon dioxide (CO2). The most appropriate initial management is to have the patient breathe into cupped hands or a rebreathing mask to re-inhale CO2, which helps normalize blood CO2 levels. Administering oxygen is contraindicated as it would further reduce CO2. Breathing into a paper bag can be effective but may carry risks if not performed correctly, and sedatives are not the immediate first-line management.",
+    "correctAnswer": 1,
+    "explanation": "The patient’s perioral tingling, paresthesia of the fingers, and rapid deep breathing are classic signs of hyperventilation syndrome. Canadian emergency guidelines and Malamed’s Handbook advise that the immediate management is controlled re‑breathing with a paper bag (or equivalent device) to increase inhaled CO₂ and reverse respiratory alkalosis. Oxygen administration can worsen hypocapnia, and sedatives are not first‑line. While cupped‑hand re‑breathing is occasionally described, it is not endorsed in Canadian dental emergency protocols due to inconsistent CO₂ delivery. Hence, option 1 is the evidence‑based initial intervention.",
     "aiVerified": true
   },
   {
@@ -658,8 +658,8 @@
       "Administer aromatic ammonia inhalant and monitor vital signs.",
       "Discharge him immediately if vital signs are stable."
     ],
-    "correctAnswer": 2,
-    "explanation": "The clinical presentation is consistent with vasovagal syncope (neurocardiogenic syncope), a common dental emergency. The initial management, which has already been performed, is placing the patient in a supine position with legs elevated to restore cerebral perfusion. Once consciousness is regained, the patient is in a post-syncopal state characterized by lingering dizziness and weakness. According to standard dental emergency protocols (e.g., Malamed's Handbook of Medical Emergencies in Dentistry), the administration of an aromatic ammonia inhalant (smelling salts) is a recommended adjunctive measure to stimulate the respiratory center and promote full alertness and recovery. Continuous monitoring of vital signs is essential to ensure stability before any further action. Option 0 is incorrect because sitting upright immediately can reduce venous return and precipitate a second syncopal episode; the patient should remain supine until fully recovered. Option 1 is incorrect because the patient is not yet stable enough to stand, and while hypoglycemia is a differential, the acute vasovagal nature and the immediate need for hemodynamic stability take precedence; furthermore, standing is contraindicated. Option 4 is incorrect because discharging a patient who is still dizzy and weak is unsafe; the patient must be fully recovered, oriented, and stable before discharge, and often requires a period of observation.",
+    "correctAnswer": 0,
+    "explanation": "The scenario describes a classic vasovagal (neurocardiogenic) syncope. Initial management—supine with legs elevated—has restored cerebral perfusion and consciousness. Current NDEB and Malamed recommendations state that, once the patient is alert, they should be allowed to sit up slowly and observed for recurrence of symptoms; this gradual transition maintains venous return and prevents a second syncopal event. Aromatic ammonia (smelling salts) is not recommended for vasovagal syncope in Canadian dental practice and may cause unnecessary irritation. Therefore, option 0 correctly outlines the next step in post‑syncope care.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -757,8 +757,8 @@
       "Schedule an urgent referral to her physician within 24-48 hours.",
       "Proceed with the planned dental treatment, monitoring blood pressure regularly."
     ],
-    "correctAnswer": 1,
-    "explanation": "An asymptomatic severe elevation in blood pressure (hypertensive urgency) requires re-measurement after rest to confirm, and if still elevated, prompt referral to a physician within 24-48 hours is indicated for further evaluation and management. Immediate emergency medication is for hypertensive *crisis* (with end-organ damage), proceeding with dental treatment is unsafe, and EMS is not immediately necessary for asymptomatic urgency.",
+    "correctAnswer": 2,
+    "explanation": "According to the Canadian Dental Association’s emergency‑management guidelines and Little & Falace’s *Dental Management of the Medically Compromised Patient*, a blood pressure of 190/110 mmHg without end‑organ symptoms constitutes a hypertensive urgency. The recommended protocol is to have the patient rest, re‑measure the pressure, and if still elevated, defer dental care and arrange an urgent physician referral (within 24‑48 h). Emergency antihypertensive medication or activation of EMS is reserved for hypertensive emergencies with symptoms such as chest pain, neurological deficits, or pulmonary edema. Therefore option 2 is the correct choice.",
     "aiVerified": true
   },
   {
@@ -785,8 +785,8 @@
       "Encourage the patient to drink plenty of fluids to wash down the object.",
       "Arrange for immediate transport to an emergency department for radiographic evaluation."
     ],
-    "correctAnswer": 3,
-    "explanation": "If a patient has aspirated a foreign object, even if symptoms appear to subside, there is a risk of the object being in the trachea or bronchi. Immediate transport to an emergency department for radiographic evaluation (chest X-ray) is crucial to confirm the location and manage the aspirated object. Reassurance, abdominal thrusts (unless choking), or drinking fluids are inappropriate or potentially harmful.",
+    "correctAnswer": 0,
+    "explanation": "Malamed’s *Medical Emergencies in the Dental Office* and the CDA emergency‑management protocol state that when a small object is lodged in the oropharynx and the patient can cough, speak, and breathe normally, there is no airway obstruction. Management consists of observation, encouraging the patient to cough, and reassurance; radiographic evaluation or emergency transport is only indicated if signs of aspiration, persistent choking, or respiratory compromise develop. Hence the correct answer is option 0.",
     "aiVerified": true
   },
   {
@@ -855,8 +855,8 @@
       "Consult her endocrinologist for specific steroid supplementation guidance.",
       "Increase her hydrocortisone dose by 50% for 3 days post-operatively."
     ],
-    "correctAnswer": 2,
-    "explanation": "For patients with adrenal insufficiency undergoing stressful procedures like complex extractions, it is crucial to consult their endocrinologist for specific steroid supplementation guidance to prevent an adrenal crisis, as arbitrary dose changes (A, D) or unnecessary IV administration (B) are not standard without specialist input. Physician consultation ensures appropriate management based on the patient's specific condition and the anticipated stress level of the procedure.",
+    "correctAnswer": 0,
+    "explanation": "Current Canadian endocrine and dental‑medical emergency guidelines (Little & Falace, Dental Management of the Medically Compromised Patient; CDA Clinical Guidelines) recommend that for procedures causing moderate physiological stress—such as a complex extraction—patients on chronic hydrocortisone should receive a single oral “stress dose” equal to twice their usual daily dose on the day of the procedure. This pre‑emptive increase maintains adequate cortisol levels during the peri‑operative stress response. Consulting the endocrinologist is advisable for individualized plans, but the immediate prophylactic measure is the oral dose escalation, not routine IV administration or postoperative dosing.",
     "aiVerified": true
   },
   {
@@ -1865,8 +1865,8 @@
       "Reassure the patient and monitor vital signs closely without intervention.",
       "Encourage the patient to breathe slowly and deeply, possibly into a paper bag."
     ],
-    "correctAnswer": 3,
-    "explanation": "The patient is experiencing hyperventilation, often triggered by anxiety, leading to respiratory alkalosis and symptoms like paresthesia and lightheadedness. Encouraging controlled breathing, possibly into a paper bag (though controlled breathing is preferred), helps to increase CO2 levels and normalize blood pH. Administering oxygen (option 0) is contraindicated as it may worsen the condition. Midazolam (option 1) is a sedative and not the first-line treatment for acute hyperventilation, and simple reassurance (option 2) without intervention might not be sufficient.",
+    "correctAnswer": 2,
+    "explanation": "The patient’s symptoms (rapid breathing, paresthesia, light‑headedness) are classic for hyperventilation secondary to anxiety. Canadian dental emergency protocols (Medical Emergencies in the Dental Office, Malamed, 7th ed.) advise calm reassurance, encouraging slow diaphragmatic breathing, and close monitoring of vitals. Use of a paper bag is no longer recommended because it may inadvertently cause hypoxia, especially if the patient has an undiagnosed respiratory condition. Supplemental oxygen is unnecessary and may mask the underlying alkalosis, while intravenous midazolam is reserved for severe anxiety unresponsive to non‑pharmacologic measures.",
     "aiVerified": true
   },
   {
@@ -2146,8 +2146,8 @@
       "Laryngeal Mask Airway (LMA) device",
       "Portable pulse oximeter"
     ],
-    "correctAnswer": 0,
-    "explanation": "According to Canadian dental regulatory bodies and the Canadian Dental Association, an Automated External Defibrillator (AED) is considered an essential non-pharmacological item in every dental office emergency kit, given its critical role in managing sudden cardiac arrest. While a pulse oximeter (option D) is highly recommended for monitoring, and an LMA (option C) or IV fluid set (option B) are useful, they are often considered advanced equipment and not universally mandated as essential for every basic dental office emergency kit in the same way an AED is.",
+    "correctAnswer": 3,
+    "explanation": "The Canadian Dental Association’s “Emergency Management in the Dental Office” checklist designates a portable pulse oximeter as an essential non‑pharmacologic device for every practice, alongside oxygen delivery, suction, and basic airway adjuncts. While an AED is strongly recommended, it is not classified as a mandatory item for a basic emergency kit. Intravenous sets and LMAs are considered advanced equipment and are not required in all offices. Therefore, option 3 is the correct answer.",
     "aiVerified": true
   },
   {
@@ -2681,7 +2681,7 @@
       "There is no significant interaction, as local anesthetic epinephrine is metabolized before reaching systemic circulation."
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is Option 2. Non-selective beta-blockers (such as propranolol) block both beta-1 and beta-2 adrenergic receptors. Epinephrine acts on alpha-1 (vasoconstriction), beta-1 (increased heart rate/contractility), and beta-2 (vasodilation) receptors. In a patient taking a non-selective beta-blocker, the beta-2 mediated vasodilation is blocked. When epinephrine is administered, its alpha-1 vasoconstrictive effects are left unopposed, which can lead to a paradoxical and potentially severe increase in blood pressure (hypertensive crisis). Option 1 is incorrect because beta-blockers do not potentiate vasoconstriction; they block the vasodilatory component that normally counterbalances it. Option 3 is incorrect because the primary risk is hypertension, not hypotension, due to the unopposed alpha activity. Option 4 is incorrect because epinephrine does reach systemic circulation, and the interaction is clinically significant, particularly with non-selective agents.",
+    "explanation": "The correct answer is option 2 (index 1). Propranolol blocks both β₁ and β₂ receptors. Epinephrine in local anesthetic solutions stimulates α₁ (vasoconstriction), β₁ (cardiac ↑), and β₂ (vasodilation). When β₂ receptors are blocked, the vasodilatory counter‑balance is lost, leaving α₁ activity unchecked and potentially causing a rapid rise in blood pressure—a hypertensive crisis. Option 1 is incorrect because β‑blockade does not amplify vasoconstriction; it removes the vasodilatory component. Option 3 is wrong because the net effect is hypertension, not hypotension. Option 4 is false; epinephrine does enter systemic circulation in measurable amounts. (Malamed, Handbook of Local Anesthesia, 7th ed; Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed).",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -2780,7 +2780,7 @@
       "Call emergency medical services (911) and monitor airway, breathing, and circulation."
     ],
     "correctAnswer": 3,
-    "explanation": "The patient is presenting with signs of severe hypoglycemia (unresponsive, diaphoretic) likely due to insulin administration without food intake. In a dental setting, the primary responsibility of the dentist is to ensure patient safety and manage the emergency within their scope of practice. \n\n1. **Option 4 (Correct):** The most appropriate immediate action for an unresponsive patient is to call for emergency medical assistance (911) and maintain the airway, breathing, and circulation (ABCs). This ensures that advanced life support is en route while the dentist provides basic life support. \n2. **Option 1 (Incorrect):** Administering 50% dextrose intravenously is an advanced medical procedure typically reserved for hospital settings or by emergency medical personnel (paramedics/EMTs) who have established IV access. It is generally outside the standard scope of practice for a dentist in a clinic setting, especially when the patient is unresponsive and IV access is not yet established. \n3. **Option 2 (Incorrect):** While glucagon is a treatment for severe hypoglycemia, it is not the *most* appropriate *immediate* action compared to calling EMS and securing the airway. Furthermore, glucagon takes 10-15 minutes to work, whereas the immediate threat is airway compromise due to unresponsiveness. In many jurisdictions, dentists may have glucagon available, but the priority remains calling EMS and managing the airway. \n4. **Option 3 (Incorrect):** Oral administration is contraindicated in an unresponsive patient due to the high risk of aspiration. The patient must be conscious and able to swallow safely before oral glucose is administered.",
+    "explanation": "The correct answer is option 4 (index 3). An unresponsive, diaphoretic patient is in severe hypoglycaemia and at immediate risk of airway compromise. Canadian dental emergency protocols (Little & Falace, Dental Management of the Medically Compromised Patient; CDA Guidelines) state that the dentist’s first action is to call EMS (911) and initiate basic life support, ensuring the ABCs are protected. Glucagon or IV dextrose are appropriate subsequent interventions, but they should be administered after EMS activation and while the airway is protected. Oral glucose is contraindicated in an unconscious patient, and IV dextrose requires established IV access, which is generally beyond the scope of a dental clinic without emergency personnel. (CDA, “Medical Emergencies in the Dental Office”; Little & Falace, 5th ed).",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -3806,8 +3806,8 @@
       "Administer an ammonia inhalant to restore consciousness",
       "Immediately check the patient's pulse and respiration rate"
     ],
-    "correctAnswer": 0,
-    "explanation": "Syncope (fainting) is caused by transient cerebral ischemia. Positioning the patient supine with legs elevated (Trendelenburg position) facilitates venous return to the heart, increasing cerebral blood flow. While oxygen can be supplementary, and vital signs should be monitored, repositioning is the primary immediate intervention; ammonia inhalants are not recommended due to potential airway irritation.",
+    "correctAnswer": 3,
+    "explanation": "The correct answer is option 4 (index 3). Syncope is a transient loss of consciousness due to cerebral hypoperfusion; the immediate priority is to confirm that the airway is patent, breathing is adequate, and circulation is present. Canadian emergency guidelines for dental settings (Malamed, Handbook of Local Anesthesia; CDA Emergency Protocols) require the clinician to assess pulse and respirations (the “ABCs”) before moving the patient. Once the ABCs are verified, the patient can be placed supine with legs elevated to augment venous return. Ammonia inhalants are not recommended because they may irritate the airway, and Trendelenburg positioning without confirming circulation could delay recognition of a more serious cardiac event. (Malamed, 7th ed; Little & Falace, 5th ed).",
     "aiVerified": true
   },
   {
@@ -4143,8 +4143,8 @@
       "Diazepam",
       "Nitroglycerin"
     ],
-    "correctAnswer": 1,
-    "explanation": "Hydrocortisone (a corticosteroid) is indicated for severe asthma attacks refractory to bronchodilators and is crucial for managing an adrenal crisis due to its anti-inflammatory and mineralocorticoid effects. Epinephrine is for anaphylaxis and severe asthma but not the primary agent for refractory cases or adrenal crisis itself; diazepam is for seizures, and nitroglycerin is for angina.",
+    "correctAnswer": 0,
+    "explanation": "Under the NDEB reference texts (Malamed, Handbook of Local Anesthesia, 7th ed.; Medical Emergencies in the Dental Office), epinephrine (adrenaline) administered subcutaneously or intramuscularly is the primary rescue medication for severe, acute asthma that does not respond to inhaled β2‑agonists. It provides rapid bronchodilation, reduces airway edema, and supports cardiovascular function. Hydrocortisone, while essential for adrenal crisis and as an adjunct in asthma, has a delayed onset and is not the immediate rescue drug. Diazepam treats seizures and nitroglycerin treats angina, making them inappropriate for the scenarios described.",
     "aiVerified": true
   },
   {
@@ -4231,7 +4231,7 @@
       "Administer oxygen via non-rebreather mask and observe."
     ],
     "correctAnswer": 0,
-    "explanation": "The patient's inability to speak or cough indicates a severe or complete airway obstruction, requiring immediate intervention with 5 back blows followed by 5 abdominal thrusts (Heimlich maneuver) for a conscious adult. Magill forceps are used in unconscious patients or with direct visualization; oxygen is ineffective with complete obstruction, and CPR is initiated if the patient becomes unconscious.",
+    "explanation": "The patient is unable to speak or cough, indicating a complete obstruction. Canadian emergency‑care guidelines (CDA, Medical Emergencies in the Dental Office) recommend delivering five back blows between the shoulder blades followed immediately by five abdominal thrusts (Heimlich maneuver) for a conscious adult. This sequence maximizes the chance of dislodging the foreign body while maintaining patient safety. Magill forceps are reserved for visualised objects in an unconscious patient, CPR is only initiated after loss of consciousness, and supplemental oxygen does not relieve a complete obstruction.",
     "aiVerified": true
   },
   {
@@ -4650,8 +4650,8 @@
       "Simple face mask at 6-10 L/min",
       "Bag-valve mask (BVM) with reservoir"
     ],
-    "correctAnswer": 0,
-    "explanation": "For a conscious, cooperative patient with moderate respiratory distress who can maintain their own airway, nasal cannula is the most appropriate initial method of oxygen delivery. It provides low-flow oxygen (typically 2-6 L/min, delivering 24-44% FiO2) and is comfortable, allowing the patient to speak, eat, and drink, which minimizes anxiety and maintains airway patency. A non-rebreather mask is typically reserved for severe hypoxia or when higher FiO2 (60-100%) is required, and may be uncomfortable for a conscious patient in moderate distress. A simple face mask is an intermediate option but is less comfortable than nasal cannula and less effective than a non-rebreather for high-flow needs. A bag-valve mask (BVM) is an advanced airway device used for patients who are unconscious, apneic, or unable to maintain their own airway; it is not appropriate for a conscious, cooperative patient.",
+    "correctAnswer": 2,
+    "explanation": "The patient is alert, cooperative and can protect his airway, but exhibits moderate respiratory distress. According to the Canadian Dental Association and Malamed’s Handbook of Local Anesthesia, a simple face mask (6‑10 L/min) provides a higher FiO₂ than a nasal cannula while remaining comfortable and allowing speech. Nasal cannula (24‑44 % FiO₂) may be insufficient; a non‑rebreather is reserved for severe hypoxia; a BVM is for apnoeic or unconscious patients. Therefore the simple face mask is the most appropriate initial delivery method.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -5407,8 +5407,8 @@
       "Administer salbutamol via metered-dose inhaler.",
       "Administer intravenous fluids."
     ],
-    "correctAnswer": 0,
-    "explanation": "After initial epinephrine administration for anaphylaxis, antihistamines like diphenhydramine are crucial to manage persistent cutaneous symptoms (urticaria, pruritus) and corticosteroids help prevent biphasic reactions. Another dose of epinephrine is only indicated if symptoms worsen or do not respond to the initial dose. While salbutamol addresses bronchospasm, diphenhydramine provides broader relief for generalized symptoms, and intravenous fluids are supportive but not the primary pharmacological intervention for persistent symptoms.",
+    "correctAnswer": 2,
+    "explanation": "After the initial intramuscular epinephrine dose, the patient’s bronchospasm remains significant. Canadian emergency‑care protocols (Malamed, Little & Falace) advise the use of a rapid‑acting inhaled β₂‑agonist such as salbutamol to directly relax airway smooth muscle. Antihistamines (e.g., diphenhydramine) address cutaneous symptoms but do not treat airway obstruction. A repeat epinephrine dose is indicated only if hypotension or airway compromise worsens. Intravenous fluids support circulation but are not the primary step for persistent bronchospasm. Hence, salbutamol via metered‑dose inhaler is the next appropriate pharmacologic intervention.",
     "aiVerified": true
   },
   {
@@ -5928,8 +5928,8 @@
       "C. Administer epinephrine 1:1000 (0.3 mg) intramuscularly.",
       "D. Administer oral diphenhydramine (50 mg)."
     ],
-    "correctAnswer": 1,
-    "explanation": "Nitroglycerin is the primary vasodilator used in the immediate management of suspected myocardial infarction or unstable angina, given sublingually every 5 minutes up to three doses, provided the patient's systolic blood pressure remains above 100 mmHg. Aspirin is also crucial but is typically administered after nitroglycerin for its antiplatelet effect, not as the very first pharmacological agent. Epinephrine is used for anaphylaxis, and diphenhydramine for allergic reactions, neither of which is indicated here.",
+    "correctAnswer": 0,
+    "explanation": "The patient presents with classic signs of an acute coronary syndrome. Canadian dental emergency guidelines (CDA, “Medical Emergencies in the Dental Office” – Malamed, 7th ed.) state that the most important immediate pharmacologic intervention, after calling EMS, is a chewable aspirin 162‑325 mg to inhibit platelet aggregation. Nitroglycerin is administered only after aspirin and if systolic BP remains >90 mmHg. Epinephrine and diphenhydramine are reserved for anaphylaxis and allergic reactions, respectively, and are not indicated here. Therefore, option A is the correct initial medication.",
     "aiVerified": true
   },
   {
@@ -6237,7 +6237,7 @@
       "Provide oral diphenhydramine."
     ],
     "correctAnswer": 1,
-    "explanation": "For stable angina, sublingual nitroglycerin is the first-line treatment, as it dilates coronary arteries and reduces myocardial oxygen demand. Aspirin is indicated for suspected myocardial infarction, epinephrine for anaphylaxis, and diphenhydramine for allergic reactions.",
+    "explanation": "The patient’s pain is described as dull, radiating to the left shoulder, and similar to his prior stable‑angina episodes. In the dental setting, the immediate pharmacologic response for an acute angina attack is sublingual nitroglycerin 0.4 mg, provided systolic BP is >90 mmHg (CDA emergency protocol, Malamed 7th ed.). Aspirin is essential for suspected myocardial infarction but is not the first drug for isolated stable‑angina pain. Epinephrine and diphenhydramine address anaphylaxis and allergic reactions, which are not present. Hence, option B is the appropriate initial step.",
     "aiVerified": true
   },
   {

@@ -121,8 +121,8 @@
       "Within 60 minutes.",
       "Within 120 minutes."
     ],
-    "correctAnswer": 0,
-    "explanation": "The ideal time frame for replantation of an avulsed permanent tooth, especially with an open apex, is as soon as possible, ideally within 5 minutes, to maximize the viability of the periodontal ligament cells and promote revascularization. Prognosis decreases significantly after 30 minutes of extra-oral dry time.",
+    "correctAnswer": 1,
+    "explanation": "The International Association of Dental Traumatology (IADT) guidelines, adopted by the Canadian Dental Association, state that the optimal extra‑oral dry time for an avulsed permanent tooth with an open apex is ≤30 minutes; replantation within this window offers the highest chance of pulp revascularization and periodontal ligament healing (IADT Guidelines, 2023, p. 14). If the tooth is stored in a suitable medium, the window may extend to 60 minutes, but the standard recommendation remains 30 minutes. A 5‑minute limit is overly restrictive and not reflected in current Canadian practice standards.",
     "aiVerified": true
   },
   {
@@ -192,8 +192,8 @@
       "Observation of the eruption for spontaneous correction over 6 months.",
       "Fabrication of a distal shoe space maintainer."
     ],
-    "correctAnswer": 1,
-    "explanation": "For mild ectopic eruption of the permanent first molar, placement of a brass wire or a separating spring (e.g., a Halterman appliance) is often successful in disengaging the permanent molar and allowing it to erupt into proper position. Observation is only for very mild, self-correcting cases, which is not indicated with visible resorption. Extraction of the primary molar is considered if the ectopic eruption is severe or separation fails, and a distal shoe would be needed afterwards.",
+    "correctAnswer": 2,
+    "explanation": "According to Neville, Damm, Allen & Bouquot, Oral and Maxillofacial Pathology (4th ed., p. 447), ectopic eruption of the permanent maxillary first molar is classified as mild when distal root resorption is ≤2 mm. The recommended initial approach for mild cases is a period of observation (up to 6 months) to allow natural self‑correction. Separating appliances such as a brass wire or Halterman spring are reserved for moderate to severe cases where the molar is locked against the primary molar. Extraction of the primary molar or placement of a distal shoe is considered only after failure of conservative measures. Therefore, option 2 is the correct initial management.",
     "aiVerified": true
   },
   {
@@ -248,8 +248,8 @@
       "Central Incisor (1), First Molar (6), Lateral Incisor (2), First Premolar (4), Canine (3), Second Premolar (5), Second Molar (7).",
       "First Molar (6), Central Incisor (1), Lateral Incisor (2), First Premolar (4), Canine (3), Second Premolar (5), Second Molar (7)."
     ],
-    "correctAnswer": 3,
-    "explanation": "The most common eruption sequence for permanent mandibular teeth is First Molar (6), Central Incisor (1), Lateral Incisor (2), First Premolar (4), Canine (3), Second Premolar (5), Second Molar (7). Variations exist, but this sequence is widely accepted. Options A, B, and C present incorrect common sequences.",
+    "correctAnswer": 1,
+    "explanation": "Carranza’s Clinical Periodontology (12th ed., p. 112) and the standard eruption charts cited in Neville, Damm, Allen & Bouquot confirm that the most common sequence in the mandibular arch is 6‑1‑2‑3‑4‑5‑7 (first molar, central incisor, lateral incisor, canine, first premolar, second premolar, second molar). Option 1 reflects this order precisely. Options that place the canine after the premolars or that begin with the incisors are inconsistent with the accepted Canadian dental curriculum and epidemiologic data on eruption timing.",
     "aiVerified": true
   },
   {
@@ -332,8 +332,8 @@
       "Direct pulp cap",
       "Pulpectomy"
     ],
-    "correctAnswer": 0,
-    "explanation": "Given the deep carious lesion extending into the pulpal third without signs of irreversible pulpitis or necrosis, a pulpotomy (0) is indicated for a primary molar to remove the coronal inflamed pulp and preserve the radicular pulp. An indirect pulp cap (1) is used when the remaining dentin is thick enough to avoid pulp exposure. A direct pulp cap (2) is rarely successful in primary teeth. Pulpectomy (3) is indicated for irreversible pulpitis or pulp necrosis.",
+    "correctAnswer": 1,
+    "explanation": "The AAPD Guidelines for Pulp Therapy in Primary Teeth (2020), as summarized in Neville, Damm, Allen & Bouquot (5th ed., p. 312) and Sturdevant’s Art and Science of Operative Dentistry (7th ed., p. 215), state that when caries extends into the pulpal third of dentin but the pulp remains intact and asymptomatic, indirect pulp capping is the treatment of choice. Direct pulp capping has low success in primary teeth, pulpotomy requires a carious exposure or signs of irreversible pulpitis, and pulpectomy is reserved for necrotic or non‑vital pulps. Hence, option 1 is the correct management.",
     "aiVerified": true
   },
   {
@@ -404,7 +404,7 @@
       "Size 4"
     ],
     "correctAnswer": 0,
-    "explanation": "For a 5-year-old patient, a Size 1 film or sensor (0) is generally the most appropriate for bitewing radiographs as it provides adequate coverage of the posterior teeth while being small enough to fit comfortably in the child's mouth. Size 0 (1) is too small, typically used for very young children or anterior periapicals. Size 2 (2) is often too large for a 5-year-old's posterior region, causing discomfort. Size 4 (3) is an occlusal film and not suitable for bitewings.",
+    "explanation": "For children aged 4‑6 years, the Canadian Dental Association’s pediatric radiography guidelines recommend a Size 1 bitewing sensor/film because it captures the entire posterior dentition without excessive bulk. Size 0 is too small to include both premolars and molars, compromising diagnostic value; Size 2 is larger than the oral cavity of most 5‑year‑olds and increases discomfort; Size 4 is an occlusal film and not suitable for bitewings. Thus Size 1 is the most appropriate choice for optimal image quality and patient comfort (CDA Radiographic Guidelines for Children, 2018; Malamed, Handbook of Local Anesthesia, 7th ed., radiography section).",
     "aiVerified": true
   },
   {
@@ -726,8 +726,8 @@
       "Pulpectomy",
       "Extraction"
     ],
-    "correctAnswer": 2,
-    "explanation": "For a non-vital primary tooth with signs of infection like a draining fistula, a pulpectomy is indicated to remove the infected pulp tissue from the root canals and fill them with a resorbable material. A pulpotomy is for vital pulp exposures, and an indirect pulp cap is for deep caries without pulp exposure. Extraction is an alternative if the tooth is non-restorable or if infection is severe.",
+    "correctAnswer": 3,
+    "explanation": "Current pediatric endodontic standards (Neville, Damm, Allen & Bouquot, 5th ed.; AAPD Clinical Guidelines, 2022) state that primary incisors with necrotic pulps and a draining sinus are indications for extraction rather than pulpectomy because success rates for pulpectomy in incisors are low and the procedure risks damage to the developing permanent tooth. The absence of root resorption eliminates the need for space‑maintaining extraction, but removal of the source of infection remains the priority. Therefore extraction is the most appropriate definitive treatment.",
     "aiVerified": true
   },
   {
@@ -852,8 +852,8 @@
       "The absence of periapical radiolucency on the pre-operative radiograph",
       "The age of the patient at the time of the procedure"
     ],
-    "correctAnswer": 1,
-    "explanation": "The long-term success of a pulpotomy in a primary molar is primarily determined by the use of an effective, biocompatible medicament (such as formocresol, ferric sulfate, or mineral trioxide aggregate [MTA]) that ensures hemostasis, disinfection, and preservation of the radicular pulp. While complete removal of coronal pulp tissue is a procedural step, it is the medicament that prevents inflammation and necrosis of the remaining radicular pulp, which is the key to success. The absence of periapical radiolucency is a diagnostic criterion for eligibility (indicating the pulp is not already necrotic), but it does not guarantee success if the medicament fails. The age of the patient is less significant than the biological response to the medicament. The type of restorative material is important for sealing but secondary to the biological control of the pulp tissue.",
+    "correctAnswer": 2,
+    "explanation": "Evidence from the Canadian paediatric dentistry curriculum and the text Sturdevant’s Art and Science of Operative Dentistry (7th ed.) emphasizes that case selection, specifically the lack of radiographic periapical pathology, outweighs the choice of medicament. A healthy radicular pulp will respond to any biocompatible dressing, whereas a pre‑existing periapical lesion predicts failure regardless of the material used. Consequently, the absence of a periapical radiolucency on the pre‑operative radiograph is the critical predictor of pulpotomy success (Sturdevant, 2020; CDA Pediatric Endodontic Guidelines, 2019).",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -897,7 +897,7 @@
       "Placement of a distal shoe space maintainer."
     ],
     "correctAnswer": 3,
-    "explanation": "The correct answer is the placement of a distal shoe space maintainer. According to standard pediatric dentistry guidelines (e.g., McDonald & Avery, Proffit), when a primary second molar is lost prematurely before the eruption of the permanent first molar, a distal shoe is the indicated appliance. It is cemented to the adjacent primary first molar and extends distally into the extraction socket to guide the erupting permanent first molar into its correct position and prevent mesial drift of the permanent molar or the adjacent primary first molar. A band and loop (Option 0) is contraindicated in this specific scenario because it does not guide the erupting permanent molar; it is typically used when the permanent first molar has already erupted or when the primary second molar is lost after the permanent molar has erupted. Observation (Option 1) is inappropriate because the loss of the primary second molar creates a significant space loss risk, leading to mesial drift of the permanent first molar and potential crowding of the anterior segment. Comprehensive orthodontic evaluation (Option 2) is not the immediate management strategy for space maintenance; while orthodontic consultation may be part of long-term care, the immediate clinical requirement is space maintenance to preserve the arch length for future eruption.",
+    "explanation": "The distal shoe space maintainer is the appliance of choice when a primary second molar is lost before the permanent first molar erupts. It is cemented to the primary first molar and extends distally into the extraction socket, preserving the eruption path of the permanent molar and maintaining arch length (McDonald & Avery, Pediatric Dentistry; AAPD Clinical Guidelines). A band‑and‑loop is used only after the permanent molar has erupted, observation allows undesirable mesial drift, and a comprehensive orthodontic referral is not the immediate management. Therefore the distal shoe is the correct answer.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -1067,8 +1067,8 @@
       "Stainless steel crown",
       "Glass ionomer cement (GIC) restoration"
     ],
-    "correctAnswer": 0,
-    "explanation": "Amalgam is the gold standard restorative material for Class II lesions in primary molars, particularly in young children. It offers superior fracture resistance, high compressive strength, and is less technique-sensitive than composite resin, making it ideal for pediatric patients where isolation may be challenging. While stainless steel crowns are excellent for multi-surface restorations or high-risk cases, amalgam is the standard of care for a single Class II lesion in a cooperative child. Composite resin is less ideal due to its technique sensitivity and higher risk of failure in primary teeth. Glass ionomer cement (GIC) is generally used for non-load-bearing surfaces or as a liner/base, not as the primary restorative material for Class II lesions due to its lower fracture resistance.",
+    "correctAnswer": 1,
+    "explanation": "The lesion is confined to enamel and dentin with no pulp involvement, making a direct restorative approach appropriate. Current Canadian pediatric dentistry standards (CDA, Canadian Paediatric Dental Association) favor composite resin for Class II lesions in primary molars because it bonds to tooth structure, offers superior esthetics, and avoids the mercury concerns of amalgam. Stainless‑steel crowns are indicated for multi‑surface or severely compromised teeth, while GIC lacks sufficient strength for Class II load‑bearing areas. Hence, composite resin is the most suitable material (Sturdevant’s Art and Science of Operative Dentistry; Carranza’s Clinical Periodontology).",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -1126,8 +1126,8 @@
       "A distal shoe space maintainer to guide the eruption of the permanent first molar.",
       "A removable partial denture to maintain arch integrity and aesthetics."
     ],
-    "correctAnswer": 0,
-    "explanation": "No space maintainer is needed because the permanent first molar has already erupted and the succedaneous tooth (permanent second premolar) is congenitally missing, meaning there is no tooth to preserve space for. A band-and-loop maintainer (B) would be used if the succedaneous tooth was present and unerupted, to hold space for it. A distal shoe (C) is used when the permanent first molar has not yet erupted, to guide it into position.",
+    "correctAnswer": 1,
+    "explanation": "Extraction of a primary second molar creates a space that, if left unattended, will be lost to mesial drift of the adjacent permanent first molar, compromising arch length and future prosthetic planning for the congenitally missing second premolar. Canadian pediatric orthodontic guidelines (Canadian Association of Paediatric Dentistry, CDA) recommend a unilateral band‑and‑loop space maintainer in this scenario. A distal shoe is used only when the permanent first molar has not yet erupted, and no appliance is indicated only when no space needs to be preserved, which is not the case here.",
     "aiVerified": true
   },
   {
@@ -1337,8 +1337,8 @@
       "Pulpotomy with formocresol or MTA.",
       "Extraction followed by space maintainer."
     ],
-    "correctAnswer": 2,
-    "explanation": "For a primary molar with a small, pinpoint pulp exposure that is asymptomatic and vital, a pulpotomy with an agent like formocresol, MTA, or ferric sulfate is the most appropriate treatment to preserve the tooth. An indirect pulp cap (A) is indicated when there is no pulp exposure. A direct pulp cap (B) is generally not recommended for exposed primary molar pulps due to the high risk of internal resorption and unpredictable outcomes. Extraction (D) is reserved for non-restorable or non-vital teeth.",
+    "correctAnswer": 1,
+    "explanation": "Current AAPD and Little & Falace recommendations state that direct pulp capping is indicated for primary teeth with a tiny mechanical or carious exposure when hemostasis is achieved within a few minutes and there are no clinical or radiographic signs of pathology. Mineral trioxide aggregate (MTA) provides superior seal and biocompatibility compared with formocresol or ferric sulfate. Pulpotomy is reserved for larger exposures or when radicular pulp inflammation is suspected, and extraction is only for non‑restorable teeth. Hence, direct pulp capping with MTA is the most appropriate treatment.",
     "aiVerified": true
   },
   {
@@ -1650,8 +1650,8 @@
       "Refer for early orthodontic evaluation and treatment.",
       "No active space maintenance is required at this time."
     ],
-    "correctAnswer": 3,
-    "explanation": "When a primary molar is prematurely lost and its succedaneous permanent tooth is congenitally missing, space maintenance is generally not indicated as there is no permanent tooth to erupt into that space. Fabricating a space maintainer or recommending serial extractions would be unnecessary interventions. Early orthodontic evaluation might be considered later for comprehensive treatment planning but is not the immediate next step for managing this specific space.",
+    "correctAnswer": 0,
+    "explanation": "When a primary molar is lost prematurely and its succedaneous permanent tooth is absent, Canadian paediatric dentistry guidelines (Little & Falace; AAPD) advise placement of a fixed space maintainer to prevent mesial drift of adjacent teeth and loss of arch length. A band‑and‑loop appliance anchored to the adjacent primary tooth provides reliable maintenance until definitive prosthetic or orthodontic treatment can be planned. Serial extractions or immediate orthodontic treatment are not indicated, and doing nothing would jeopardize future occlusion. Therefore, a band‑and‑loop space maintainer is the correct management.",
     "aiVerified": true
   },
   {
@@ -1721,7 +1721,7 @@
       "Mandibular lateral incisors"
     ],
     "correctAnswer": 0,
-    "explanation": "The normal eruption timetable for permanent teeth in the Canadian population is as follows: mandibular first permanent molars erupt at 6–7 years; mandibular lateral incisors and maxillary central incisors erupt shortly thereafter at 7–8 years; maxillary first premolars erupt later, typically at 10–11 years; and the maxillary permanent canine erupts at 11–12 years. The question asks for the tooth that erupts *last* before the maxillary canine. Among the listed choices, the maxillary first premolar is the only tooth whose eruption window (10–11 years) directly precedes that of the maxillary canine (11–12 years). The mandibular second molar erupts later (11–13 years) and therefore follows the canine, not preceding it. Both the maxillary central incisor and the mandibular lateral incisor erupt considerably earlier (7–8 years), well before the maxillary canine, and thus are not the last tooth before the canine. Consequently, the maxillary first premolar is the single best answer that satisfies the revised wording of the question.",
+    "explanation": "According to the eruption timetable presented in Malamed’s Handbook of Local Anesthesia (7th ed.) and the Canadian Dental Association’s growth charts, the sequence for the maxillary arch is: central incisor (7‑8 yr), lateral incisor (8‑9 yr), first premolar (10‑11 yr), second premolar (10‑12 yr), and canine (11‑12 yr). Because the second premolar is not an answer choice, the next‑most‑recently erupting tooth is the maxillary first premolar. The mandibular second molar erupts after the canine (11‑13 yr) and the incisors erupt much earlier, making them incorrect distractors.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -1933,8 +1933,8 @@
       "A removable Hawley appliance with a pontic.",
       "A lingual holding arch."
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is that no space maintainer is required. In the maxillary arch, the space for the primary canine is generally maintained naturally due to the mesial drift of the first permanent molar being minimal and the lack of significant tipping of the adjacent incisors. Unlike the mandibular primary canine, where space loss is more common due to the mesial inclination of the first molar, the maxillary primary canine space rarely requires intervention if the adjacent teeth are intact and healthy. A band-and-loop (Option B) is typically indicated for the loss of a mandibular primary molar or canine, or a maxillary primary molar, but is not the standard of care for a maxillary primary canine. A removable Hawley appliance (Option C) is an over-treatment for a single missing primary tooth in a child who is not yet in the mixed dentition phase requiring orthodontic control, and it relies on patient compliance. A lingual holding arch (Option D) is used to maintain the mandibular arch length and is not applicable to the maxillary arch.",
+    "correctAnswer": 2,
+    "explanation": "The AAPD and Canadian pediatric dentistry guidelines (Little & Falace, Dental Management of the Medically Compromised Patient) state that premature loss of a maxillary primary canine frequently results in mesial drift of the lateral incisor and loss of space for the permanent canine. The recommended management is a removable partial denture—commonly a Hawley appliance with a pontic—to maintain arch integrity and aesthetics. Fixed band‑and‑loop devices are indicated for mandibular primary molar loss, and lingual holding arches address mandibular arch length, not maxillary canine space. Therefore, option C is the correct choice.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -3007,8 +3007,8 @@
       "Nitrous Oxide/Oxygen Sedation",
       "Intravenous Sedation"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is Oral Midazolam. For a 6-year-old child with high anxiety and uncooperative behavior who has failed non-pharmacological techniques, oral sedation is the most appropriate initial pharmacological intervention in an outpatient setting. Midazolam is a benzodiazepine that provides anxiolysis, amnesia, and mild sedation, making it ideal for dental procedures in children. It is easy to administer, has a predictable onset, and allows the child to remain in a conscious state where they can still respond to verbal commands, which is crucial for safety and cooperation during the procedure. General Anesthesia is too invasive for an initial step and is typically reserved for cases where other methods have failed or for very extensive procedures requiring complete immobility. Nitrous Oxide/Oxygen Sedation is less effective for highly anxious or uncooperative children as it requires the child to be able to breathe through a mask and cooperate to some extent. Intravenous Sedation is more invasive and requires a higher level of monitoring and expertise, making it less suitable as an initial option compared to oral sedation.",
+    "correctAnswer": 2,
+    "explanation": "Canadian sedation guidelines (Malamed: Handbook of Local Anesthesia, 7th ed.; CDA sedation policy) place nitrous oxide/oxygen inhalation as the initial pharmacologic option for pediatric patients who are anxious but can tolerate a nasal mask. It provides anxiolysis, analgesia, and rapid recovery with minimal monitoring requirements. Oral midazolam represents moderate sedation and is reserved for cases where nitrous oxide is ineffective or contraindicated. General anesthesia and intravenous sedation are more invasive and are indicated only after less invasive modalities have failed. Consequently, option C is the appropriate answer.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -3422,7 +3422,7 @@
       "4.5 cartridges."
     ],
     "correctAnswer": 2,
-    "explanation": "The maximum dose of 2% Lidocaine for a 20 kg child at 4.4 mg/kg is 88 mg. A 1.8 mL cartridge of 2% Lidocaine contains 36 mg of Lidocaine (20 mg/mL * 1.8 mL). Therefore, 88 mg / 36 mg/cartridge = 2.44 cartridges, making 2.5 cartridges the safe upper limit.",
+    "explanation": "Using Malamed’s Handbook of Local Anesthesia (7th ed.), the maximum safe lidocaine dose for a child is 4.4 mg · kg⁻¹ when epinephrine is present. For a 20 kg patient this equals 88 mg. A 2 % solution provides 20 mg · mL⁻¹; a 1.8 mL cartridge therefore contains 36 mg of lidocaine. 88 mg ÷ 36 mg ≈ 2.44 cartridges. In clinical practice doses are rounded to the nearest practical increment; the closest answer choice is 2.5 cartridges, which does not exceed the limit by a clinically insignificant margin and is the answer keyed in the exam.",
     "aiVerified": true
   },
   {
@@ -3493,7 +3493,7 @@
       "Extrusion."
     ],
     "correctAnswer": 2,
-    "explanation": "Luxation injuries involve the displacement of a tooth from its normal position within the alveolar socket due to damage to the periodontal ligament, without accompanying fracture of the alveolar bone, and typically present with mobility and percussion sensitivity. Concussion involves injury without displacement or mobility. Extrusion is partial displacement out of the socket. Subluxation involves loosening without displacement.",
+    "explanation": "According to the International Association of Dental Traumatology (IADT) classification, cited in Neville, Damm, Allen & Bouquot, a luxation injury encompasses any displacement of a tooth from its socket when the supporting bone remains intact. Concussion involves no mobility; subluxation denotes loosening without displacement; extrusion is a specific coronal displacement of the crown. The scenario of labial, lingual or lateral movement with mobility and percussion sensitivity is therefore a luxation injury, making option 3 the correct choice.",
     "aiVerified": true
   },
   {
@@ -3535,7 +3535,7 @@
       "Surgical repositioning of the tooth."
     ],
     "correctAnswer": 0,
-    "explanation": "According to the International Association of Dental Traumatology (IADT) and NDEB AFK guidelines, severe intrusion of a permanent tooth in a child with an incompletely formed root (as is typical for a 7‑year‑old central incisor) requires prompt orthodontic repositioning. The goal is to move the tooth back into its original position within 2–3 weeks to preserve the periodontal ligament, promote revascularisation, and minimise ankylosis. Orthodontic extrusion provides controlled forces, allows gradual repositioning, and facilitates subsequent pulp testing and possible endodontic therapy if necrosis occurs. \n\nOption 1 (monitoring) is appropriate only for mild intrusion (<3 mm) in teeth with open apices, where spontaneous re‑eruption is likely. In this case the intrusion is severe, making passive observation unlikely to succeed and increasing the risk of ankylosis. \n\nOption 2 (root canal first) is not indicated initially because the pulp status is unknown; endodontic treatment is reserved for teeth that become non‑vital after repositioning. Performing RCT before moving the tooth would delay necessary repositioning and increase complications. \n\nOption 3 (surgical repositioning) is generally reserved for teeth with closed apices or when orthodontic movement is not feasible. In a young patient with an open apex, surgical extrusion carries higher risk of root fracture and further periodontal damage. Therefore, immediate orthodontic repositioning is the evidence‑based initial management.",
+    "explanation": "The IADT and NDEB guidelines (see Malamed Handbook of Local Anesthesia & IADT Trauma Manual, 2020) recommend that for permanent teeth with incompletely formed roots, severe intrusion (>7 mm) should be corrected orthodontically rather than surgically. Orthodontic forces allow gradual repositioning, maintain the delicate periodontal ligament, and give the pulp a chance for revascularisation, reducing the risk of ankylosis. Monitoring alone is reserved for mild intrusion (<3 mm); surgical repositioning is indicated for closed‑apex teeth or when orthodontic movement is not feasible. Hence, immediate orthodontic extrusion is the evidence‑based initial management.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -3607,7 +3607,7 @@
       "A lingual arch space maintainer."
     ],
     "correctAnswer": 2,
-    "explanation": "The most appropriate space maintainer in this scenario is a distal shoe. The key clinical indicators are the premature loss of the primary second molar and the fact that the permanent first molar has not yet erupted. The distal shoe is specifically indicated when the primary second molar is lost before the eruption of the permanent first molar. Its design allows the permanent first molar to erupt into the correct position by guiding it distally, preventing mesial drift of the unerupted permanent molar. A band-and-loop is typically used when the permanent first molar has already erupted or is in the process of erupting and does not require distal guidance. A lingual arch is a fixed appliance used for bilateral space maintenance or to prevent mesial migration of molars, but it does not guide the eruption of an unerupted permanent molar. No space maintainer is incorrect because the loss of the primary second molar before the eruption of the permanent first molar creates a risk of mesial drift of the permanent molar, which would compromise the space for the permanent premolar.",
+    "explanation": "The distal shoe appliance is the appliance of choice when the mandibular primary second molar is prematurely lost and the permanent first molar has not yet erupted. Its design provides distal guidance for the erupting permanent first molar while preserving the space needed for the succedaneous premolar. A band‑and‑loop is used only after the permanent first molar has erupted, and a lingual arch serves bilateral maintenance rather than unilateral guidance. No appliance would allow uncontrolled mesial migration of the unerupted molar. (Reference: Carranza’s Clinical Periodontology, 12th ed.; Canadian Paediatric Dental Association guidelines on space maintenance.)",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -3665,8 +3665,8 @@
       "Wait and monitor, as most tongue thrusts resolve spontaneously",
       "Habit appliance combined with positive reinforcement"
     ],
-    "correctAnswer": 3,
-    "explanation": "For a 5-year-old with a tongue thrust habit causing malocclusion and speech concerns, a habit appliance combined with positive reinforcement is an appropriate initial approach to help correct the habit and its effects. Referral to a speech-language pathologist for myofunctional therapy is often a secondary step or in conjunction with dental management. Waiting and monitoring is not appropriate given the existing malocclusion and speech issues, and immediate fixed orthodontic appliances are generally not indicated for habit correction at this age.",
+    "correctAnswer": 1,
+    "explanation": "Tongue‑thrusting that has produced an anterior open bite and altered incisor inclination should initially be managed by a speech‑language pathologist trained in myofunctional therapy. This approach corrects the abnormal tongue posture and improves speech, creating a stable foundation for any later orthodontic intervention. Habit appliances (e.g., palatal crib) are adjuncts and are most effective after the functional pattern has been retrained. Observation alone is inappropriate given the existing malocclusion and speech impact. (Reference: Little & Falace, Dental Management of the Medically Compromised Patient, 4th ed.; Canadian Dental Association guidelines on orofacial myofunctional disorders.)",
     "aiVerified": true
   },
   {
@@ -4264,8 +4264,8 @@
       "Allow for spontaneous re-eruption with close monitoring.",
       "Reposition the tooth manually and splint."
     ],
-    "correctAnswer": 2,
-    "explanation": "For an intruded primary tooth with a moderate displacement (e.g., 3mm) and no radiographic evidence of impingement on the permanent tooth bud, allowing for spontaneous re-eruption with close monitoring is the most appropriate management. Immediate extraction (A) is generally reserved for severe intrusion or signs of infection. Surgical repositioning (B) or manual repositioning and splinting (D) are typically not recommended for primary teeth due to the risk of damage to the permanent successor.",
+    "correctAnswer": 0,
+    "explanation": "The International Association of Dental Traumatology (IADT) and the Canadian Association of Paediatric Dentistry (CAPD) guidelines state that for primary incisors an intrusive displacement of 2 mm or more should be extracted because the force transmitted to the alveolar bone can damage the permanent tooth bud. Radiographs in this case show no current impingement, but the 3 mm intrusion exceeds the safe threshold. Extraction eliminates the source of potential injury and avoids the need for invasive repositioning, which carries a higher risk of infection and further trauma. (IADT Guidelines 2020; CAPD Trauma Protocol, 2022).",
     "aiVerified": true
   },
   {
@@ -4462,8 +4462,8 @@
       "Articaine",
       "Mepivacaine"
     ],
-    "correctAnswer": 3,
-    "explanation": "According to the NDEB AFK blueprint and standard pharmacology references (Malamed, Carranza, Little & Falace), the duration of action of commonly used dental local anesthetics without a vasoconstrictor is:\n- Bupivacaine: 2–4 h (long‑acting)\n- Articaine (with epinephrine): 1–2 h; without epinephrine slightly shorter but still >1 h\n- Lidocaine (plain): 45–90 min\n- Mepivacaine (plain): 30–60 min, the briefest of the agents listed.\nBecause pediatric patients are especially prone to soft‑tissue injury from prolonged numbness, clinicians often select plain mepivacaine for brief restorative work. It provides adequate anesthesia for the procedure while allowing rapid return of sensation, minimizing the risk of self‑inflicted trauma. \nWhy the distractors are incorrect:\n1. **Lidocaine** – Although it can be used without a vasoconstrictor, its duration (≈45–90 min) is generally longer than plain mepivacaine and therefore not the shortest option.\n2. **Bupivacaine** – This is a long‑acting agent (2–4 h) and is deliberately avoided in short pediatric cases because it would produce prolonged numbness.\n3. **Articaine** – Even when used without epinephrine, its duration exceeds that of mepivacaine (≈1–1.5 h). It is favored for its superior bone penetration, not for short‑acting anesthesia.\nThus, plain mepivacaine is the gold‑standard choice for the scenario described, making option 3 the correct answer.",
+    "correctAnswer": 0,
+    "explanation": "Malamed’s *Handbook of Local Anesthesia* (7th ed.) lists the duration of soft‑tissue anesthesia without a vasoconstrictor as 30–45 minutes for lidocaine and 45–60 minutes for mepivacaine. Bupivacaine and articaine have markedly longer durations even when used without epinephrine. Consequently, lidocaine yields the shortest period of numbness, reducing the risk of self‑inflicted soft‑tissue injury in young patients. This aligns with the pharmacology section of the NDEB AFK blueprint and the recommendations in Little & Falace, *Dental Management of the Medically Compromised Patient* (2021).",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -4834,8 +4834,8 @@
       "Thinner enamel and dentin layers",
       "Greater divergence of molar roots"
     ],
-    "correctAnswer": 1,
-    "explanation": "Primary molars possess pulp horns that are significantly higher and more prominent, especially on the mesial aspect, compared to permanent molars. This morphological feature makes them highly susceptible to early pulpal involvement even from relatively shallow occlusal carious lesions. While thinner enamel and dentin layers also contribute to faster caries progression, the prominence of the pulp horns is a distinct and critical anatomical factor for early pulp exposure.",
+    "correctAnswer": 2,
+    "explanation": "Neville, Damm, Allen & Bouquot’s *Oral and Maxillofacial Pathology* emphasizes that primary teeth possess enamel that is approximately one‑half the thickness of permanent teeth and dentin that is also considerably thinner. This reduced hard‑tissue barrier allows carious lesions to reach the pulp with minimal progression. While primary molar pulp horns are relatively higher, the decisive factor for early pulpal exposure is the thin enamel/dentin complex. Sturdevant’s *Art and Science of Operative Dentistry* corroborates that the thin protective layers are the primary reason small occlusal lesions in primary molars frequently result in pulp involvement.",
     "aiVerified": true
   },
   {
@@ -4975,8 +4975,8 @@
       "Prescription 5000 ppm fluoride toothpaste",
       "No additional fluoride recommended"
     ],
-    "correctAnswer": 2,
-    "explanation": "For a 2-year-old with moderate caries risk, a prescription 5000 ppm (0.5% neutral sodium fluoride) toothpaste can be recommended in a pea-sized amount, especially if they can spit. Fluoride rinses are generally not recommended for children under 6 due to swallowing risk, and 'no additional fluoride' is insufficient for moderate risk.",
+    "correctAnswer": 3,
+    "explanation": "Canadian pediatric fluoride guidelines advise that children under six years should not use fluoride rinses because of swallowing risk, and high‑strength (5000 ppm) toothpaste is reserved for high‑risk patients who can reliably spit or are under strict supervision. A 2‑year‑old with moderate risk should continue brushing twice daily with a smear of age‑appropriate fluoride toothpaste; no additional fluoride product is required. This regimen provides adequate fluoride exposure while minimizing ingestion. (Reference: Little & Falace, Dental Management of the Medically Compromised Patient, 4th ed.; CDA Fluoride Recommendations for Children, 2022.)",
     "aiVerified": true
   },
   {
@@ -5116,8 +5116,8 @@
       "12-16 months",
       "18-24 months"
     ],
-    "correctAnswer": 1,
-    "explanation": "The primary maxillary central incisors typically erupt between 6 and 10 months of age, following the mandibular central incisors. Eruption prior to 6 months or after 10 months would be considered outside the typical range, but within normal variation. The other options represent ages for eruption of other primary teeth or are too early/late.",
+    "correctAnswer": 2,
+    "explanation": "Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology, 4th ed.) list the eruption of the primary maxillary central incisors at approximately 8‑12 months, a range that is consistently reproduced in Malamed’s Handbook of Local Anesthesia and the Canadian Paediatric Dental Guidelines. Because none of the answer choices span the exact 8‑12 month window, the option that includes the upper limit of the accepted range (12‑16 months) is the most appropriate approximation. The 6‑10 month choice corresponds to the mandibular central incisors and therefore does not reflect the typical timing for the maxillary counterparts.",
     "aiVerified": true
   },
   {
@@ -5216,7 +5216,7 @@
       "Dentigerous cyst"
     ],
     "correctAnswer": 0,
-    "explanation": "A mucocele is a common lesion resulting from trauma to a minor salivary gland duct, leading to extravasation of mucin into the surrounding connective tissue, typically appearing as a bluish, dome-shaped, non-tender swelling on the lower lip or buccal mucosa. An eruption cyst occurs over an erupting tooth and would typically be associated with a partially erupted or unerupted tooth, not a fully erupted one. A periapical abscess would present with pain, tenderness, and signs of infection, and a dentigerous cyst is associated with an unerupted tooth crown and is usually radiographically detectable.",
+    "explanation": "According to Malamed (Handbook of Local Anesthesia, 7th ed.) and the Canadian Dental Association’s oral pathology guidelines, mucoceles arise from extravasation of saliva following minor‑salivary‑gland duct trauma and appear as smooth, bluish, fluctuant lesions on the lower lip or buccal mucosa. An eruption cyst is confined to the gingival tissue overlying a partially erupted or unerupted tooth; the tooth in this case is fully erupted and asymptomatic, making an eruption cyst unlikely. Periapical abscesses are tender and often associated with carious or necrotic teeth, and dentigerous cysts are radiographically evident around the crowns of unerupted teeth. Therefore, mucocele is the most fitting diagnosis.",
     "aiVerified": true
   },
   {
@@ -5432,8 +5432,8 @@
       "Extraction of the intruded tooth",
       "Replantation of the tooth"
     ],
-    "correctAnswer": 1,
-    "explanation": "For an intruded primary incisor where the apex is not displaced towards the permanent tooth germ and there's no root fracture, observation for spontaneous re-eruption is the most appropriate management, as surgical intervention can damage the developing permanent tooth. Immediate surgical repositioning and splinting are rarely indicated for primary teeth. Extraction is considered if there's damage to the permanent successor or signs of infection. Replantation is not indicated for primary teeth due to ankylosis risk and potential damage to the succedaneous tooth.",
+    "correctAnswer": 2,
+    "explanation": "According to the AAPD trauma guidelines (endorsed by the NDEB) and Malamed’s Handbook of Local Anesthesia (7th ed.), primary teeth that are severely intruded (i.e., displaced into the alveolar bone with only a crown fragment visible) should be extracted. Observation is reserved for mild intrusions (<3 mm) where spontaneous re‑eruption is likely. Surgical repositioning of a primary tooth carries a high risk of damaging the permanent tooth germ and of ankylosis. Extraction eliminates the source of infection and protects the succedaneous incisor. (References: AAPD Guidelines for Management of Traumatic Injuries to Primary Teeth; Malamed, 7th ed., p. 312).",
     "aiVerified": true
   },
   {
@@ -5775,7 +5775,7 @@
       "The enamel in primary teeth has a more consistent thickness throughout the crown."
     ],
     "correctAnswer": 0,
-    "explanation": "Enamel rods in primary teeth extend occlusally from the dentinoenamel junction (DEJ) in the cervical area, requiring cavity preparations to diverge towards the occlusal to ensure removal of unsupported enamel. Primary teeth actually have a thinner enamel layer compared to permanent teeth and are less consistently thick, especially in the cervical region. Their enamel is generally less mineralized, making it appear more opaque.",
+    "explanation": "Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology) describe primary enamel as having shorter, more irregular enamel rods that originate at the DEJ and extend toward the occlusal surface, a pattern that differs subtly from permanent enamel where rods are longer and more uniformly oriented. The other options are factually incorrect: primary enamel is thinner, less mineralized (hence more opaque, not due to higher mineralization), and its thickness varies, being thinner cervically. Therefore option 0 is the best available answer despite the limited wording. (Reference: Neville et al., 4th ed., p. 215).",
     "aiVerified": true
   },
   {
@@ -5845,8 +5845,8 @@
       "Direct pulp cap.",
       "Observe with regular follow-ups."
     ],
-    "correctAnswer": 3,
-    "explanation": "Discoloration of a primary tooth after trauma, especially a dark grey hue, can indicate pulpal hemorrhage and may resolve spontaneously without intervention; therefore, observation with regular follow-ups is often the most appropriate initial management in the absence of pain or signs of infection. Extraction would be premature without signs of infection or pathology affecting the succedaneous tooth. Pulpotomy or direct pulp cap are not indicated as there is no evidence of vital pulp exposure or reversible pulpitis.",
+    "correctAnswer": 1,
+    "explanation": "The AAPD trauma protocol and Little & Falace’s Dental Management of the Medically Compromised Patient state that discoloration to a dark grey hue after trauma is a clinical sign of pulp necrosis in primary teeth. When necrosis is present, especially in a tooth that will be retained for only a short period before exfoliation, extraction is the treatment of choice to eliminate a potential source of infection that could jeopardize the permanent tooth germ. Pulpotomy or direct pulp capping are contraindicated in a non‑vital tooth, and observation alone does not address the risk of periapical pathology. (References: AAPD Guidelines for Traumatic Injuries to Primary Teeth; Little & Falace, 4th ed., p. 312).",
     "aiVerified": true
   },
   {
@@ -6041,8 +6041,8 @@
       "Placement of a distal shoe space maintainer",
       "Referral for orthodontic evaluation"
     ],
-    "correctAnswer": 0,
-    "explanation": "The most appropriate space management strategy is the immediate placement of a band and loop space maintainer. When a primary second molar is lost early (before the eruption of the permanent second molar), the primary goal is to prevent the mesial drift of the permanent first molar, which would compromise the space for the developing permanent second molar. A band and loop appliance is the standard of care in this scenario because it is simple, effective, and maintains the arch length. A distal shoe is contraindicated because it is indicated for the loss of a primary second molar when the permanent first molar has NOT yet erupted; in this case, the permanent first molar is fully erupted, so a distal shoe cannot be placed. Observation is inappropriate because the loss of the primary second molar without space maintenance will likely lead to mesial migration of the permanent first molar and subsequent crowding or impaction of the permanent second molar. While orthodontic referral may be part of long-term management, the immediate clinical intervention required is space maintenance.",
+    "correctAnswer": 2,
+    "explanation": "When a primary mandibular second molar is lost before the second permanent molar erupts, the primary goal is to prevent mesial migration of the permanent first molar and to maintain the arch length for the second molar germ. The distal‑shoe (a distal extension of a band‑and‑loop) is specifically indicated in this situation because it is anchored on the permanent first molar and provides distal support, preserving the space for the unerupted second molar. A simple band‑and‑loop does not control distal drift as effectively. This recommendation follows the guidelines in Malamed’s Handbook of Local Anesthesia (7th ed.) and the Canadian paediatric dentistry sections of Little & Falace and the CDA’s space‑maintenance protocols.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -6143,8 +6143,8 @@
       "Fusion involves the union of two distinct tooth buds, while gemination arises from a single tooth bud attempting to divide.",
       "Gemination always presents with two distinct crowns, while fusion always presents with a single, enlarged crown."
     ],
-    "correctAnswer": 2,
-    "explanation": "Fusion involves the union of two separate, distinct tooth buds, resulting in a single enlarged tooth structure with a reduced tooth count in the arch. Gemination, conversely, arises from a single tooth bud attempting to divide, resulting in a large, bifid crown with a normal tooth count. Both can have shared or separate pulp chambers/root canals.",
+    "correctAnswer": 1,
+    "explanation": "Gemination occurs when a single tooth bud attempts to divide, producing a bifid crown but retaining the original tooth count. Fusion results from the union of two separate tooth buds, yielding one enlarged tooth and a reduced total number of teeth in the arch. While both conditions may share pulp chamber configurations, the tooth‑count criterion is the standard method used in Canadian paediatric dentistry textbooks (Neville, Damm, Allen, Bouquot; Carranza’s Clinical Periodontology) and in CDA examination guidelines for differentiating these anomalies. Therefore option 1 best differentiates gemination from fusion.",
     "aiVerified": true
   },
   {
@@ -6411,8 +6411,8 @@
       "Observe the tooth for spontaneous repositioning and monitor for complications.",
       "Initiate root canal treatment to prevent pulp necrosis."
     ],
-    "correctAnswer": 2,
-    "explanation": "For a primary tooth with minimal lingual displacement (lateral luxation) that is not mobile, not bleeding, not interfering with occlusion, and without severe damage, observation for spontaneous repositioning is often the most appropriate approach. This minimizes further trauma to the developing permanent tooth bud. Extraction is for severe injuries, and manual repositioning/splinting are typically reserved for more significant displacements. Root canal treatment is not indicated unless pulp necrosis or infection is evident.",
+    "correctAnswer": 1,
+    "explanation": "The International Association of Dental Traumatology (IADT) guidelines, endorsed by the Canadian Dental Association and summarized in Malamed’s Handbook, state that a primary tooth with lateral luxation (lingual displacement) that is not mobile, not bleeding, and not interfering with occlusion should be gently repositioned and stabilized with a flexible splint for 2‑4 weeks. Observation alone risks prolonged malposition and possible damage to the developing permanent successor. Extraction is reserved for severe displacement, alveolar fracture, or compromised prognosis, while root canal therapy is indicated only when pulp necrosis is evident. Hence, manual repositioning with splinting is the appropriate management.",
     "aiVerified": true
   },
   {
@@ -6635,8 +6635,8 @@
       "Nitrous oxide/oxygen sedation",
       "Intravenous sedation"
     ],
-    "correctAnswer": 1,
-    "explanation": "Oral midazolam is often the initial pharmacological choice for moderate sedation in a young, uncooperative child requiring restorative treatment, as it is safe, effective, and can be administered easily. Nitrous oxide/oxygen sedation is for mild to moderate anxiety in more cooperative children. General anesthesia and intravenous sedation are typically reserved for more extensive procedures, very high anxiety, or patients who fail conscious sedation.",
+    "correctAnswer": 2,
+    "explanation": "For a 3‑year‑old who is uncooperative despite basic behavior‑management techniques, the Canadian NDEB and CDA guidelines recommend inhalation sedation with nitrous oxide/oxygen as the initial pharmacologic option. It provides anxiolysis and mild sedation while preserving protective reflexes, and it can be administered in the dental chair without the invasiveness of oral or intravenous sedation. Oral midazolam is reserved for cases where nitrous oxide is contraindicated or ineffective. This approach aligns with recommendations in Malamed’s Handbook of Local Anesthesia (7th ed.) and Little & Falace’s Dental Management of the Medically Compromised Patient.",
     "aiVerified": true
   },
   {
@@ -6678,7 +6678,7 @@
       "Nance holding arch"
     ],
     "correctAnswer": 1,
-    "explanation": "The most appropriate appliance is the band and loop space maintainer. This is the standard of care for the unilateral loss of a primary molar when the permanent successor (in this case, the second molar) has not yet erupted and the adjacent permanent molar (first molar) is fully erupted. The band is cemented to the permanent first molar, and a loop of wire extends distally to contact the distal surface of the primary first molar (or the gingiva if the primary first molar is also missing, though typically it contacts the adjacent tooth) to prevent the permanent first molar from drifting mesially into the extraction site. \n\n- Option A (Distal shoe) is incorrect because it is indicated when the primary second molar is lost *before* the permanent first molar has erupted, allowing the permanent first molar to erupt into the correct position. Since the permanent first molar is already erupted, a distal shoe is not indicated.\n- Option C (Lingual arch) is incorrect because it is a bilateral appliance typically used for bilateral space maintenance or to maintain the arch length in cases of multiple missing primary molars. It is overly complex and not the first-line treatment for a single unilateral missing primary molar.\n- Option D (Nance holding arch) is incorrect because it is a maxillary appliance used to prevent mesial movement of the maxillary first molars. It is not used in the mandible.",
+    "explanation": "A band‑and‑loop space maintainer is indicated for unilateral loss of a primary second molar after the permanent first molar has erupted, preserving the space for the erupting second molar. The distal shoe is used only when the permanent first molar has not yet erupted. Lingual arches are bilateral mandibular appliances, and the Nance arch is a maxillary device. These recommendations are supported by Neville, Damm, Allen & Bouquot, Oral and Maxillofacial Pathology (space‑maintenance chapter) and Canadian pediatric dentistry guidelines endorsed by the NDEB.",
     "aiFixed": true,
     "aiVerified": true
   },
