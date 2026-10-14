@@ -103,12 +103,12 @@ export function TopicSelection({ onSelect }: Props) {
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
               <div style={{ background: (!isPremium || dueReviewCount > 0) ? 'rgba(255,255,255,0.2)' : 'var(--border-color)', padding: '0.6rem', borderRadius: '50%', flexShrink: 0 }}>
-              {!isPremium ? <Lock size={24} color="white" /> : <CalendarDays size={24} color={dueReviewCount > 0 ? "white" : "var(--text-secondary)"} />}
+              {!isPremium ? <Crown size={24} color="white" /> : <CalendarDays size={24} color={dueReviewCount > 0 ? "white" : "var(--text-secondary)"} />}
             </div>
             <div>
               <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
                 <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: 0, fontWeight: 700 }}>Daily Review (Spaced Repetition)</h3>
-                {!isPremium && <span data-testid="srs-pro-badge" style={{ background: '#ffffff', color: '#b45309', padding: '0.2rem 0.65rem', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.2)' }}><Crown size={12} fill="#b45309" /> PRO</span>}
+                {!isPremium && <span data-testid="srs-pro-badge" style={{ background: '#ffffff', color: '#b45309', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.04em', textTransform: 'uppercase', display: 'inline-flex', alignItems: 'center', gap: '5px', boxShadow: '0 2px 6px rgba(0,0,0,0.25)', border: '1px solid rgba(245, 158, 11, 0.4)' }}><Crown size={14} fill="#b45309" stroke="#b45309" /> PRO</span>}
               </div>
               <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>
                 {!isPremium ? "Unlock to practice missed questions using spaced repetition." : 
@@ -172,12 +172,12 @@ export function TopicSelection({ onSelect }: Props) {
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
               <div style={{ background: 'rgba(255,255,255,0.2)', padding: '0.6rem', borderRadius: '50%', flexShrink: 0 }}>
-              {!isPremium ? <Lock size={24} color="white" /> : <Flame size={24} color="white" />}
+              {!isPremium ? <Crown size={24} color="white" /> : <Flame size={24} color="white" />}
             </div>
             <div>
               <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
                 <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: 0, fontWeight: 700 }}>Review Mistakes</h3>
-                {!isPremium && <span data-testid="mistakes-pro-badge" style={{ background: '#ffffff', color: '#b91c1c', padding: '0.2rem 0.65rem', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.2)' }}><Crown size={12} fill="#b91c1c" /> PRO</span>}
+                {!isPremium && <span data-testid="mistakes-pro-badge" style={{ background: '#ffffff', color: '#b91c1c', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.04em', textTransform: 'uppercase', display: 'inline-flex', alignItems: 'center', gap: '5px', boxShadow: '0 2px 6px rgba(0,0,0,0.25)', border: '1px solid rgba(239, 68, 68, 0.4)' }}><Crown size={14} fill="#b91c1c" stroke="#b91c1c" /> PRO</span>}
               </div>
               <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>{mistakesCount} incorrect answer{mistakesCount === 1 ? '' : 's'} saved for review</p>
             </div>
