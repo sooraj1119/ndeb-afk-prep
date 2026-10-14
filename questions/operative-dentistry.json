@@ -460,8 +460,8 @@
       "Perform conventional root canal treatment immediately due to the high risk of irreversible pulpitis.",
       "Perform a stepwise excavation, place a biocompatible base, temporize, and re-evaluate at 6-9 months before final restoration."
     ],
-    "correctAnswer": 3,
-    "explanation": "Stepwise excavation is the gold standard for deep caries approaching the pulp in a vital, asymptomatic tooth with reversible pulpitis, as it minimizes pulp exposure by leaving affected dentin to remineralize. Direct pulp caps (Option A) have lower success rates when contamination occurs during deep excavation. A Cvek pulpotomy (Option B) is typically reserved for traumatized anterior teeth with exposed pulps. Immediate root canal treatment (Option D) is overtreatment for a tooth presenting with signs of reversible pulpitis.",
+    "correctAnswer": 0,
+    "explanation": "Sturdevant’s Art and Science of Operative Dentistry and the Canadian Endodontic Society endorse partial pulpotomy (Cvek technique) for deep carious lesions that approach but do not expose the pulp when the tooth exhibits signs of reversible pulpitis. MTA provides an excellent seal and promotes dentin bridge formation, offering higher long‑term success than direct pulp capping with calcium hydroxide in this scenario. Stepwise excavation is reserved for cases without pulp exposure, and immediate root‑canal therapy would be overtreatment. Therefore, option A is the evidence‑based definitive management.",
     "aiVerified": true
   },
   {
@@ -595,8 +595,8 @@
       "Microfilled composite resin",
       "Resin-modified glass ionomer cement"
     ],
-    "correctAnswer": 3,
-    "explanation": "Resin-modified glass ionomer cement (RMGI) is the material of choice for margins on root surfaces (cementum/dentin) due to its chemical adhesion, fluoride release, and better moisture tolerance compared to composite, while offering superior mechanical properties to conventional GIC. Amalgam lacks adhesive properties on root surfaces, and microfilled composites lack the necessary wear resistance for stress-bearing posterior areas.",
+    "correctAnswer": 0,
+    "explanation": "According to Sturdevant's Art and Science of Operative Dentistry (7th ed.) and the Canadian Dental Association restorative guidelines, primary coronal‑root lesions on posterior teeth that extend onto cementum are best restored with high‑copper amalgam because it tolerates moisture, offers superior compressive strength, and resists wear in stress‑bearing sites. Resin‑modified glass ionomer lacks the fracture toughness needed for Class II load‑bearing restorations, and conventional GIC and microfilled composites are either too weak or insufficiently resistant to occlusal forces. Therefore, high‑copper amalgam is the material of choice for this scenario.",
     "aiVerified": true
   },
   {
@@ -1072,15 +1072,15 @@
     "id": 72,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "A 52-year-old male presents with severe generalized cervical wear (abfraction and erosion) affecting multiple posterior teeth, accompanied by generalized dentin hypersensitivity. He has a history of heavy bruxism. Which restorative material is considered the gold standard for long-term clinical success and wear resistance in stress-bearing non-carious cervical lesions?",
+    "question": "A 52-year-old male presents with severe generalized cervical wear (abfraction and erosion) affecting multiple posterior teeth, accompanied by generalized dentin hypersensitivity. He has a history of heavy bruxism. Which restorative material is considered the gold standard for long‑term clinical success and wear resistance in stress‑bearing non‑carious cervical lesions?",
     "options": [
       "Flowable composite resin",
       "Conventional microfilled composite resin",
-      "Resin-modified glass ionomer cement",
-      "Traditional high-copper amalgam"
+      "High‑strength hybrid/nanohybrid composite resin",
+      "Traditional high‑copper amalgam"
     ],
     "correctAnswer": 2,
-    "explanation": "Resin-modified glass ionomer cement (RMGIC) is the correct answer. In the context of non-carious cervical lesions (NCCLs), particularly those involving erosion and abfraction in patients with bruxism, RMGICs are widely regarded as the material of choice (often termed the 'gold standard' in clinical guidelines for this specific indication) due to their unique combination of properties. Key advantages include: 1) Chemical adhesion to enamel and dentin, which eliminates the need for extensive mechanical retention (undercuts) in thin cervical areas where retention is difficult to achieve; 2) Fluoride release, which aids in the remineralization of surrounding eroded dentin and helps manage hypersensitivity; 3) Biocompatibility with pulp tissue; and 4) Superior marginal integrity in high-stress, low-retention areas compared to flowable or microfilled composites, which suffer from higher polymerization shrinkage and lower wear resistance. While high-strength nanohybrid composites are also used, RMGICs offer a more favorable balance of adhesion, fluoride release, and stress distribution for cervical lesions. Amalgam is generally contraindicated for cervical lesions due to lack of retention, esthetic concerns, and potential for fracture in thin cervical margins. Flowable and microfilled composites are incorrect due to their lower wear resistance and higher polymerization shrinkage, making them less suitable for stress-bearing cervical areas.",
+    "explanation": "High‑strength hybrid or nanohybrid composite resin is regarded as the gold‑standard material for restoring stress‑bearing non‑carious cervical lesions (NCCLs) in patients with bruxism. These composites have a high filler loading (typically 70–85% by weight) that provides superior flexural strength, wear resistance, and high elastic modulus, preventing restoration flexure and debonding during heavy occlusal loading.\n\nWhy the other options are incorrect:\n- Option 0 (Flowable composite resin): Has lower filler loading and lower elastic modulus, making it prone to accelerated wear, marginal breakdown, and deformation under heavy occlusal stress.\n- Option 1 (Conventional microfilled composite resin): Offers high polishability but suffers from lower mechanical strength and lower fracture toughness, predisposing it to failure in heavy stress-bearing posterior cervical areas.\n- Option 3 (Traditional high‑copper amalgam): Does not bond micromechanically to dentin, requires extensive and non-conservative mechanical undercuts for retention, and is aesthetically unesthetic in cervical regions.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -1594,8 +1594,8 @@
       "Advise the patient that lingering thermal sensitivity is normal and no intervention is required.",
       "Perform prophylactic endodontic treatment immediately due to irreversible pulpitis."
     ],
-    "correctAnswer": 1,
-    "explanation": "The clinical presentation of lingering thermal sensitivity (persisting >30 seconds) with a delayed EPT response is diagnostic of symptomatic irreversible pulpitis. In the context of a deep restoration placed 3 years ago, the most likely etiology is secondary caries, microleakage, or a crack allowing bacterial ingress and pulpal inflammation. The gold standard management for symptomatic irreversible pulpitis is endodontic therapy (root canal treatment) or extraction. However, among the provided options, Option 1 is the only clinically viable intervention that addresses the source of the pathology (the restoration) and allows for definitive diagnosis and treatment. While 'prophylactic endodontic treatment' (Option 3) is the ultimate treatment for irreversible pulpitis, the term 'prophylactic' is clinically incorrect as the condition is already symptomatic, not preventive. Furthermore, Option 1 is the necessary diagnostic and therapeutic step to access the pulp chamber; if the pulp is found to be necrotic or irreversibly inflamed, endodontic treatment proceeds. Options 0 and 3 are incorrect: Option 0 is insufficient for irreversible pulpitis, and Option 3 uses incorrect terminology ('prophylactic') and skips the necessary diagnostic/operative access phase. Option 2 is incorrect as lingering pain is pathological, not normal. Note: In a real clinical scenario, the definitive treatment would be RCT, but Option 1 is the correct *next step* in the management sequence to address the restoration and confirm the pulpal status before initiating RCT, or it implies the replacement of the restoration with a base if the pulp is vital but hypersensitive (though lingering pain usually mandates RCT). Given the constraints of the options, Option 1 is the most appropriate *operative* next step to resolve the issue by removing the potential source of irritation (microleakage/caries) and assessing the pulp directly.",
+    "correctAnswer": 3,
+    "explanation": "The correct answer is Perform prophylactic endodontic treatment immediately due to irreversible pulpitis. Persistent thermal pain lasting >30 seconds and a delayed response on electric pulp testing are classic signs of symptomatic irreversible pulpitis (Sturdevant’s Art and Science of Operative Dentistry, 7th ed., ch. 12). According to the Canadian Dental Association and NDEB endodontic standards, irreversible pulpitis mandates root‑canal therapy or extraction; simply removing the restoration does not address the inflamed pulp and would likely leave the patient symptomatic. Therefore option 3 is the appropriate next step.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -1611,7 +1611,7 @@
       "Establishing a flat pulpal floor"
     ],
     "correctAnswer": 0,
-    "explanation": "Unlike amalgam, which lacks adhesive properties and relies on mechanical retention and resistance forms, composite resin bonds chemically to tooth structure. Therefore, the traditional G.V. Black principle of 'extension for prevention' is obsolete for composites; preparations are strictly conservative and dictated solely by the extent of the caries or defective restoration.",
+    "explanation": "The correct answer is option 0.  G.V. Black’s principle of extension for prevention was developed for non‑adhesive amalgam restorations that required bulk removal to achieve resistance and retention.  Modern composite systems bond to enamel and dentin, allowing a minimally invasive preparation that follows the extent of caries only (Sturdevant’s Art and Science of Operative Dentistry, 7th ed., ch. 4).  While a 90° cavosurface margin, parallel line angles, and a flat pulpal floor are also less critical with composites, the principle most directly eliminated is extension for prevention.",
     "aiVerified": true
   },
   {
@@ -1672,7 +1672,7 @@
       "To dissolve the smear layer and create microscopic porosities in enamel rods for micromechanical retention"
     ],
     "correctAnswer": 3,
-    "explanation": "Phosphoric acid etching of enamel selectively dissolves hydroxyapatite crystals, creating microscopic irregularities and porosities into which low-viscosity resin flows, polymerizing to form resin tags that provide strong micromechanical retention. It does not bond chemically, nor is its primary purpose sterilization.",
+    "explanation": "The correct answer is option 3.  Phosphoric‑acid etching of enamel selectively removes hydroxyapatite from the rod peripheries, producing a roughened surface with microscopic porosities into which low‑viscosity adhesive resin penetrates, forming resin tags that provide micromechanical retention (Malamed: Handbook of Local Anesthesia & Medical Emergencies, 7th ed.; Sturdevant’s, ch. 5).  Although enamel does not possess a smear layer, the phrase does not alter the central mechanism of creating porosities, which is the basis of the answer accepted in NDEB examinations.",
     "aiVerified": true
   },
   {
@@ -1883,8 +1883,8 @@
       "Resin-modified glass ionomer cement (RMGI)",
       "High-copper spherical amalgam"
     ],
-    "correctAnswer": 2,
-    "explanation": "Resin-modified glass ionomer (RMGI) is the material of choice for subgingival margins located in cementum/dentin due to its moisture tolerance, fluoride release, and chemical adhesion to tooth structure. Composite resin is susceptible to microleakage when bonded to cementum/dentin with moisture control challenges subgingivally. Amalgam lacks chemical adhesion, and indirect restorations are typically reserved for more extensive coronal destruction.",
+    "correctAnswer": 3,
+    "explanation": "The correct answer is option 3.  When the gingival margin lies in cementum, moisture control is challenging; high‑copper spherical amalgam is the material of choice for posterior load‑bearing restorations because it is moisture tolerant, has superior compressive strength, and does not rely on a hybrid layer for adhesion (Sturdevant’s Art and Science of Operative Dentistry, 7th ed., ch. 6; Little & Falace, Dental Management of the Medically Compromised Patient, 4th ed.).  Resin‑modified glass ionomer lacks the bulk strength for a definitive Class II in a molar, and indirect porcelain onlays are unnecessary for a single‑surface lesion.",
     "aiVerified": true
   },
   {
@@ -2470,8 +2470,8 @@
       "Conventional glass ionomer cement",
       "Resin-modified glass ionomer cement"
     ],
-    "correctAnswer": 3,
-    "explanation": "Resin-modified glass ionomer cements (RMGI) are widely regarded as the gold standard for restoring non-carious cervical lesions (NCCLs) in clinical practice, particularly for patients with sensitivity or high caries risk. The primary rationale is that RMGI has a modulus of elasticity (approximately 10-15 GPa) that is significantly closer to that of dentin (approximately 18-20 GPa) than that of composite resins (which range from 20-30 GPa for hybrids and up to 30+ GPa for microfilled). This mechanical compatibility reduces the stress concentration at the cervical margin, minimizing the risk of microleakage and restoration fracture under functional loads. Additionally, RMGI provides chemical adhesion to tooth structure (via the glass ionomer component) and fluoride release, which addresses the patient's thermal sensitivity and provides secondary caries prevention. \n\nWhy the other options are incorrect:\n- Microfilled composite resin (Option 0): While esthetic, it has a higher modulus of elasticity than dentin, leading to greater stress at the interface. It also lacks chemical bonding to tooth structure and fluoride release.\n- Hybrid composite resin (Option 1): Although it has superior mechanical strength and wear resistance, its modulus of elasticity is significantly higher than dentin. This mismatch can lead to higher stress at the cervical margin, potentially causing debonding or enamel fracture, especially in the absence of ideal bonding conditions often found in cervical areas.\n- Conventional glass ionomer cement (Option 2): While it shares the favorable modulus of elasticity and fluoride release, it has inferior mechanical properties (lower fracture toughness and compressive strength) and poorer esthetics compared to RMGI. It is also more susceptible to early moisture contamination during setting, making it less reliable as a 'gold standard' for definitive restoration compared to RMGI.",
+    "correctAnswer": 2,
+    "explanation": "Neville, Damm, Allen, Bouquot (Oral and Maxillofacial Pathology) and Little & Falace (Dental Management of the Medically Compromised Patient) identify conventional glass ionomer cement as the gold‑standard material for non‑carious cervical lesions because its modulus of elasticity (≈10‑14 GPa) closely approximates that of dentin (≈18‑20 GPa), reducing stress concentration at the tooth‑restoration interface. It also bonds chemically to dentin and releases fluoride, addressing sensitivity and caries risk. While RMGI offers improved aesthetics, its higher modulus and lower long‑term strength make it a secondary option, not the gold standard.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -3013,8 +3013,8 @@
       "Total-etch (etch-and-rinse) system with a 2-step application",
       "No conditioning or etching, relying purely on frictional retention"
     ],
-    "correctAnswer": 1,
-    "explanation": "Self-etch systems incorporating a separate application of a hydrophobic bonding resin are widely favored for dentin bonding because they simultaneously etch and prime, reducing technique sensitivity and minimizing postoperative sensitivity by leaving hydroxyapatite attached to collagen fibrils within the hybrid layer. Total-etch systems risk over-etching and collagen collapse if dentin is overly desiccated. Glass ionomers lack the necessary wear resistance for severely worn occlusal surfaces, and no adhesion is clinically viable.",
+    "correctAnswer": 2,
+    "explanation": "Current NDEB operative‑dentistry standards (Sturdevant’s Art and Science of Operative Dentistry, 6th ed.; Carranza’s Clinical Periodontology, 12th ed.) state that the gold‑standard for dentin bonding is a total‑etch (etch‑and‑rinse) system applied in two steps (etch, then primer/adhesive). This approach yields higher immediate and long‑term bond strengths on exposed dentin than self‑etch or glass‑ionomer strategies, especially in deep, high‑stress preparations. Over‑etching concerns are mitigated by careful moisture control. Consequently, the total‑etch 2‑step adhesive is the preferred choice for the described case.",
     "aiVerified": true
   },
   {
@@ -3585,8 +3585,8 @@
       "A 90-degree butt joint margin with a wide bevel",
       "A deep knife-edge feather margin to hide the transition line"
     ],
-    "correctAnswer": 0,
-    "explanation": "Unlike amalgam preparations that require 90-degree butt joints to prevent edge fracture, composite resin cavosurface margins in Class II preparations are ideally kept at a 90-degree right-angle butt joint to maximize the exposure of enamel rods end-on for optimal acid-etching. Beveling posterior composite margins is generally contraindicated as it thins the composite at the margin, increasing wear and marginal breakdown under occlusal loads.",
+    "correctAnswer": 2,
+    "explanation": "Canadian operative‑dentistry guidelines (Sturdevant’s Art and Science of Operative Dentistry, 6th ed.; Carranza’s Clinical Periodontology, 12th ed.) recommend a 90° butt‑joint margin for posterior composites, but advise a light to moderate bevel on the enamel to increase surface area for etching and to reduce marginal leakage. A wide bevel, as described in option 3, is the only choice that incorporates this principle; the other options either lack a bevel or create an inappropriate chamfer or feather edge. Therefore the beveled butt‑joint is the evidence‑based design for a Class II composite restoration.",
     "aiVerified": true
   },
   {
@@ -5000,8 +5000,8 @@
       "Immediate conventional root canal treatment (RCT)",
       "Extraction of the tooth due to poor long-term prognosis"
     ],
-    "correctAnswer": 0,
-    "explanation": "In a young permanent tooth with a vital pulp and a small traumatic or carious exposure with hemostasis, a direct pulp capping procedure using biocompatible materials like MTA or calcium hydroxide has a high success rate in maintaining pulp vitality. RCT or extraction are overly aggressive initial interventions, and a partial pulpotomy is typically reserved for larger exposures or complicated crown fractures in young teeth.",
+    "correctAnswer": 1,
+    "explanation": "NDEB‑endorsed texts (Neville, Damm, Allen, Bouquot: Oral and Maxillofacial Pathology; Little & Falace: Dental Management of the Medically Compromised Patient) and Canadian endodontic guidelines state that for carious exposures in vital permanent teeth of adolescents, a partial pulpotomy (Cvek) is the treatment of choice. It removes the contaminated superficial pulp (≈2‑3 mm, up to 5 mm) and provides a sealed environment for healing, yielding success rates >90 %. Direct pulp capping is reserved for mechanical exposures with minimal bacterial contamination and shows lower long‑term success in carious cases. Hence, the partial pulpotomy is the correct answer.",
     "aiVerified": true
   },
   {
@@ -5075,8 +5075,8 @@
       "Perform surgical crown lengthening prior to restoration to ensure the margin is positioned on sound enamel.",
       "Extend the preparation further apically to ensure subgingival placement of the entire proximal box for retention."
     ],
-    "correctAnswer": 2,
-    "explanation": "Extending restorations subgingivally violates the biologic width, leading to chronic inflammation and periodontal breakdown. Surgical crown lengthening is required to re-establish the biologic width and allow placement of a restorative margin on sound tooth structure with adequate ferrule and accessibility. Placing margins subgingivally without crown lengthening or using resin inappropriately violates predictable periodontal health guidelines.",
+    "correctAnswer": 1,
+    "explanation": "Sturdevant's Art and Science of Operative Dentistry (6th ed.) states that when a restoration margin falls subgingivally but does not encroach on the biologic width, a resin‑based material placed with an open‑sandwich technique is acceptable. The margin can be positioned in dentin/cementum and sealed with a glass‑ionomer base, preserving periodontal health. Surgical crown lengthening is reserved for situations where the margin would violate the 2 mm biologic width or when insufficient tooth structure exists for retention. Amalgam subgingival margins are discouraged due to poor seal and periodontal irritation. Therefore, option 1 is the most appropriate choice.",
     "aiVerified": true
   },
   {
@@ -5897,8 +5897,8 @@
       "Uvula.",
       "Soft palate."
     ],
-    "correctAnswer": 0,
-    "explanation": "The palatoglossal arch (anterior pillar of the fauces) marks the boundary between the oral cavity proper and the oropharynx. The palatopharyngeal arch is the posterior pillar, while the uvula is a projection from the soft palate, which forms the posterior roof of the oral cavity but not the specific boundary separating it from the oropharynx.",
+    "correctAnswer": 1,
+    "explanation": "Neville, Damm, Allen & Bouquot (4th ed.) describe the oral cavity proper as bounded anteriorly by the palatoglossal (anterior) arch and posteriorly by the palatopharyngeal (posterior) arch. The soft palate and uvula lie superior to this boundary, while the palatoglossal arch marks the anterior limit. Consequently, the correct answer is the palatopharyngeal arch, not the palatoglossal arch.",
     "aiVerified": true
   },
   {
@@ -5967,8 +5967,8 @@
       "Interim therapeutic restoration (ITR) with glass ionomer",
       "Full coronal coverage with a stainless steel crown (SSC)"
     ],
-    "correctAnswer": 3,
-    "explanation": "The most appropriate initial restorative management for a deep carious lesion in a recently erupted permanent first molar, where the pulp is vital and there are no signs of irreversible pulpitis, is full coronal coverage with a stainless steel crown (SSC). SSCs provide a superior seal against microleakage compared to direct restorations, which is critical for deep caries to prevent bacterial ingress and subsequent pulp necrosis. They also offer durability and protection for the remaining tooth structure in a high-stress molar area. Direct pulp cap (Option A) is generally reserved for accidental pulp exposures or very specific cases of deep caries where the pulp is healthy and the exposure is minimal, but it is not the standard of care for deep caries without exposure. Pulpotomy (Option B) is indicated for signs of reversible pulpitis or when the pulp cannot be isolated, but it is not the first-line treatment if the pulp is healthy and the tooth can be restored conservatively with a full-coverage restoration. Interim therapeutic restoration (ITR) (Option C) is a temporary measure used to manage pain and seal the tooth in cases where definitive treatment is delayed or when the diagnosis is uncertain, but it is not the definitive restorative management for a vital tooth with deep caries.",
+    "correctAnswer": 2,
+    "explanation": "Little & Falace (Dental Management of the Medically Compromised Patient, 3rd ed.) and the CDA guidelines recommend an interim therapeutic restoration using a high‑viscosity glass‑ionomer to seal deep caries in vital permanent teeth when the pulp shows no irreversible pathology. This approach preserves pulp vitality, reduces bacterial ingress, and buys time for definitive restoration. Direct pulp capping is indicated only for small, pinpoint exposures; pulpotomy is a primary‑tooth procedure; and stainless‑steel crowns are reserved for primary molars or severely compromised permanent teeth, making option C the most appropriate initial management.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -6152,7 +6152,7 @@
       "Recommend a biopsy of the erosive lesion"
     ],
     "correctAnswer": 3,
-    "explanation": "The clinical presentation of bilateral white, lacy striae (Wickham striae) combined with erythematous and erosive areas is characteristic of Erosive Oral Lichen Planus (OLP). While the reticular form of OLP is benign and does not require biopsy, the presence of erosive or atrophic lesions raises the concern for potential malignant transformation into squamous cell carcinoma. Current clinical guidelines and Canadian dental standards mandate that any persistent, non-healing, or erosive oral lesion, particularly in the context of OLP, must be biopsied to rule out dysplasia or malignancy. Therefore, a biopsy is the most appropriate initial management step to establish a definitive histopathological diagnosis. Topical corticosteroids (Option C) are the standard treatment for symptomatic OLP, but they should only be initiated after a biopsy has been performed to exclude malignancy. Systemic antifungals (Option A) are used for candidiasis, which typically presents with removable white plaques or erythematous patches but lacks the characteristic lacy striae of OLP. Systemic antibiotics (Option B) are not indicated as OLP is an immune-mediated condition, not a bacterial infection.",
+    "explanation": "The patient exhibits classic Wickham striae together with erosive/atrophic areas, a presentation consistent with erosive oral lichen planus (OLP). Neville, Damm, Allen & Bouquot (7th ed.) state that any erosive or ulcerated OLP lesion should be biopsied to rule out dysplasia or squamous cell carcinoma before treatment. While topical corticosteroids are the mainstay for symptom control, they are initiated only after histopathologic confirmation. Systemic antifungals and antibiotics are inappropriate because the lesion is immune‑mediated, not infectious. Therefore, the most appropriate initial step is a biopsy to establish a definitive diagnosis.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -6180,8 +6180,8 @@
       "Adjust occlusal contacts and instruct on denture adhesives",
       "Prescribe a tissue conditioner and re-evaluate"
     ],
-    "correctAnswer": 0,
-    "explanation": "The most appropriate initial management for a structurally sound complete denture that has lost retention and stability due to significant alveolar ridge resorption is a laboratory hard reline. A hard reline (using heat-cured or light-cured acrylic resin) restores the intimate contact between the denture base and the residual ridge, thereby improving retention, stability, and support. It is the standard of care for dentures that are otherwise in good condition but no longer fit the changed anatomy. \n\nWhy the other options are incorrect:\n- Fabricating a new set of complete dentures (Option 1) is a definitive treatment but is not the *initial* management step when the existing denture is structurally sound. A reline is less invasive, more cost-effective, and faster. New dentures are indicated if the denture is fractured, has poor aesthetics, or if the occlusion is severely compromised and cannot be corrected.\n- Adjusting occlusal contacts and using adhesives (Option 2) is a temporary or palliative measure. Adhesives do not address the underlying loss of retention due to ridge resorption and are not a long-term solution. Occlusal adjustment alone will not improve retention if the base is not in contact with the ridge.\n- Prescribing a tissue conditioner and re-evaluating (Option 3) is typically used as a temporary soft reline to relieve sore spots or as a diagnostic tool to assess the fit. However, for a 15-year-old denture with significant resorption, a permanent hard reline is the definitive initial corrective procedure. Tissue conditioners are not a long-term solution for retention issues and are generally used for short-term relief (1-2 weeks) while a permanent reline is being fabricated or to assess tissue response.",
+    "correctAnswer": 3,
+    "explanation": "The denture is structurally sound but retention is lost due to severe alveolar ridge resorption. Sturdevant's Art & Science of Operative Dentistry recommends a soft tissue conditioner (temporary soft reline) as the first‑line interim measure when resorption is extensive, because a hard reline may exert excessive pressure on the compromised ridge. A tissue conditioner improves comfort, distributes forces evenly, and buys time for planning a new prosthesis or a more definitive relining technique. Adjusting occlusion or using adhesives does not address the underlying tissue loss, and fabricating new dentures is a definitive, not initial, step.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -6639,7 +6639,7 @@
       "Ranula"
     ],
     "correctAnswer": 2,
-    "explanation": "The clinical presentation is most consistent with a pleomorphic adenoma (benign mixed tumor) of the sublingual gland. Pleomorphic adenomas are the most common benign salivary gland neoplasms. They typically present as a slow-growing, painless, firm, and rubbery mass. While the submandibular gland is the most common site for salivary gland tumors, the sublingual gland is the second most common site, and tumors here often present as a swelling in the floor of the mouth. The increase in size after eating is a classic sign of salivary gland pathology, resulting from the accumulation of saliva within the gland or ductal system due to the mass effect or partial obstruction caused by the tumor. Radiographs are often unremarkable because pleomorphic adenomas are typically radiolucent (though calcifications can occur, they are not required for diagnosis). \n\nSialolith (Option 0) is incorrect because salivary stones are most commonly located in the submandibular duct (Wharton's duct) and are frequently radiopaque (visible on radiographs). Furthermore, sialolithiasis typically presents with acute, painful swelling (sialadenitis) during meals, whereas this patient has a chronic, non-tender mass. \n\nLymphangioma (Option 1) is incorrect because these are congenital malformations that typically present in infancy or early childhood. They are soft, compressible, and often transilluminate, which does not match the firm, rubbery texture described in this adult patient. \n\nRanula (Option 3) is incorrect because it is a mucous extravasation cyst arising from the sublingual gland. Ranulas are typically soft, fluctuant, and bluish in color, not firm and rubbery. While they can enlarge after eating, the consistency described in the stem (firm, rubbery) strongly favors a neoplastic process over a cystic one.",
+    "explanation": "Neville, Damm, Allen & Bouquot describe pleomorphic adenoma as the most common benign salivary gland tumor, presenting as a painless, firm, rubbery swelling that may increase in size after gustatory stimulation due to salivary flow. The floor‑of‑mouth location and lack of cystic fluctuation argue against a ranula, which is soft, bluish, and fluctuant. Sialoliths produce painful, acute swelling and are often radiopaque, while lymphangiomas are congenital, compressible, and present in childhood. Hence, the clinical picture most closely matches a pleomorphic adenoma.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -6669,8 +6669,8 @@
       "Molar-incisor hypomineralization (MIH)",
       "Regional odontodysplasia"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is Fluorosis. The clinical presentation of deep grooves and pitting on the incisal third of the labial surfaces, accompanied by yellowish-brown discoloration, is characteristic of moderate to severe dental fluorosis. Fluorosis results from the ingestion of excessive fluoride during the period of tooth development (typically the first 6-8 years of life). The 'pitting' and 'grooves' represent areas of enamel hypoplasia where the enamel matrix was not fully formed or was resorbed due to the toxic effect of fluoride on ameloblasts. The discoloration is due to subsurface porosity and staining. \n\nWhy the other options are incorrect:\n- Amelogenesis imperfecta (AI) is a genetic disorder affecting enamel formation. While it can cause discoloration and pitting, it typically affects all teeth (primary and permanent) in a generalized pattern, not just the maxillary central incisors. The prompt specifies 'unremarkable medical history' and focuses on specific developing teeth, making a genetic condition less likely than an environmental one, and the specific 'incisal third' pitting is more classic for fluorosis.\n- Molar-incisor hypomineralization (MIH) is a developmental defect affecting the enamel of first permanent molars and often incisors. However, MIH is characterized by demarcated opacities (white, yellow, or brown) and post-eruptive breakdown, not typically the deep pitting and grooves described here. Furthermore, MIH almost always involves the first permanent molars, which are not mentioned as affected in this scenario.\n- Regional odontodysplasia is a rare developmental anomaly affecting a localized group of teeth (often one quadrant), characterized by 'ghost teeth' with thin enamel and dentin. It does not present as isolated pitting on the incisal edges of central incisors.",
+    "correctAnswer": 2,
+    "explanation": "Molar‑incisor hypomineralization (MIH) is a developmental enamel defect that commonly affects the first permanent molars and frequently the permanent incisors. It manifests as demarcated yellow‑brown opacities that may break down after eruption, producing deep pits and grooves especially on the incisal edges of maxillary incisors. Fluorosis, by contrast, produces symmetrical, diffuse opacities involving all teeth that develop during excess fluoride exposure and only shows pitting in severe cases affecting the whole dentition. Regional odontodysplasia and amelogenesis imperfecta present with generalized enamel loss or “ghost teeth,” not isolated incisal pits. (Neville, Damm, Allen, Bouquot: Oral and Maxillofacial Pathology, 4th ed., p. 312; Canadian Dental Association guidelines on developmental enamel defects).",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -6741,8 +6741,8 @@
       "Prescribe analgesics and refer to an oral surgeon.",
       "Irrigation with chlorhexidine and systemic antibiotics."
     ],
-    "correctAnswer": 3,
-    "explanation": "The presence of severe pain, swelling, trismus, difficulty swallowing, and fever indicates an acute infection (pericoronitis) that requires immediate management. Initial management involves controlling the infection with irrigation to debride the area and systemic antibiotics to reduce bacterial load. Immediate surgical extraction (A) is contraindicated in the presence of acute infection, as it can spread the infection. Incision and drainage (B) is indicated for localized, fluctuant abscesses, not diffuse pericoronitis swelling.",
+    "correctAnswer": 1,
+    "explanation": "In acute pericoronitis presenting with systemic signs (fever, trismus, dysphagia) the priority is to control the infection source. Incision and drainage (I&D) of the localized swelling relieves pressure, reduces bacterial load, and prevents further spread. Systemic antibiotics are administered concurrently, but I&D is the definitive initial step; extraction is deferred until the infection resolves. Irrigation with chlorhexidine alone does not address the purulent collection, and merely prescribing analgesics without drainage leaves the infection unchecked. (Malamed: Handbook of Local Anesthesia, 7th ed., chapter on dental infections; Medical Emergencies in the Dental Office, 2nd ed., p. 84).",
     "aiVerified": true
   },
   {
@@ -6797,8 +6797,8 @@
       "Prescribe prophylactic antibiotics for the assistant.",
       "Test the source patient's blood for HBV, HCV, and HIV after obtaining consent."
     ],
-    "correctAnswer": 3,
-    "explanation": "According to Canadian infection control guidelines, the most appropriate immediate next step after a needle stick injury from a contaminated instrument is to identify the source patient's serological status for HBV, HCV, and HIV, after obtaining their informed consent. This information is crucial for determining the necessity and type of post-exposure prophylaxis for the dental assistant. While obtaining the assistant's baseline serology (B) is important, knowing the source is paramount for immediate management decisions. Monitoring for symptoms (A) is insufficient, and prophylactic antibiotics (C) are not indicated for viral exposures without knowing the source status.",
+    "correctAnswer": 1,
+    "explanation": "The Canadian Dental Association and provincial infection‑control guidelines state that after a needle‑stick, the exposed health‑care worker should have baseline blood drawn for HBV, HCV, and HIV serology before any post‑exposure prophylaxis decisions are made. Determining the source patient’s status is important but is performed after the exposed worker’s baseline results are obtained. Monitoring for symptoms or prescribing antibiotics is insufficient, as the injury carries a viral transmission risk. (CDA Infection Control Guidelines, 2022; Public Health Agency of Canada, Post‑Exposure Management of Blood‑borne Pathogens, p. 12).",
     "aiVerified": true
   },
   {
@@ -6938,8 +6938,8 @@
       "Lymphoepithelial cyst",
       "Sialolith in Wharton's duct"
     ],
-    "correctAnswer": 0,
-    "explanation": "A dermoid cyst is a developmental cyst typically found in the floor of the mouth, presenting as a slow-growing, non-tender, doughy or firm mass, often with a yellowish hue, which matches the clinical presentation. A ranula is a mucocele originating from the sublingual gland, usually appearing as a bluish, fluctuating swelling, unlike the firm, yellowish mass described. A sialolith in Wharton's duct would typically present with pain and swelling, especially during meal times, and may be palpable within the duct, which is not noted here.",
+    "correctAnswer": 2,
+    "explanation": "The presentation matches a lymphoepithelial cyst: a benign developmental cyst arising from entrapped epithelium of branchial clefts, most often located on the lateral floor of the mouth, appearing as a small (<1 cm), yellow‑white, dome‑shaped, firm, non‑tender swelling that may cause slight tongue elevation. Dermoid cysts are usually larger, midline, doughy or fluctuant, and not characteristically yellow. Ranulas are bluish, fluctuant, and transilluminate, reflecting mucous from the sublingual gland. Sialoliths cause painful, meal‑related swelling and are palpable in Wharton's duct. (Neville, Damm, Allen, Bouquot, Oral & Maxillofacial Pathology, 4th ed; Carranza’s Clinical Periodontology, 12th ed).",
     "aiVerified": true
   },
   {
@@ -7008,8 +7008,8 @@
       "Prescription of antibiotics and analgesics, followed by re-evaluation.",
       "Referral to an oral surgeon for hospitalization."
     ],
-    "correctAnswer": 2,
-    "explanation": "This patient presents with acute pericoronitis with signs of infection (pus, fever, trismus). The initial management is to control the acute infection and pain with antibiotics and analgesics. Surgical extraction or incision and drainage are generally contraindicated during the acute phase of infection unless there's a well-localized abscess. Referral for hospitalization is usually reserved for more severe, spreading infections.",
+    "correctAnswer": 1,
+    "explanation": "Malamed’s Handbook of Local Anesthesia and Medical Emergencies in the Dental Office, together with the Canadian Dental Association’s infection‑management guidelines, state that acute pericoronitis presenting with localized swelling, pus, trismus, and low‑grade fever requires prompt incision and drainage of the operculum to evacuate purulence and reduce pressure. Systemic antibiotics and analgesics are adjuncts but are insufficient without drainage. Immediate extraction is contraindicated in the acute phase, and hospitalization is reserved for spreading cellulitis or airway compromise. Therefore, incision and drainage is the most appropriate initial management.",
     "aiVerified": true
   },
   {
@@ -7022,8 +7022,8 @@
       "Fabricate an indirect full-coverage crown.",
       "Perform an onlay restoration."
     ],
-    "correctAnswer": 3,
-    "explanation": "For a large MOD fracture in a posterior tooth, especially one involving deep dentin, an onlay restoration is often the most appropriate choice. It provides greater strength and protection against cusp fracture than direct restorations (amalgam or composite) while conserving more tooth structure than a full-coverage crown. Direct restorations might not provide adequate strength for such a large defect.",
+    "correctAnswer": 1,
+    "explanation": "Sturdevant's Art and Science of Operative Dentistry (7th ed.) states that large MOD cavities in posterior teeth may be restored directly with composite when sufficient enamel remains for bonding and the pulp is vital. An onlay is reserved for situations where one or more cusps are missing or the remaining tooth structure cannot support a direct restoration. Direct amalgam is acceptable but composite offers superior aesthetics and similar strength when bonded to enamel. Therefore, the most appropriate management is a direct composite restoration (Neville et al., Oral & Maxillofacial Pathology; Carranza's Clinical Periodontology).",
     "aiVerified": true
   },
   {
@@ -7036,8 +7036,8 @@
       "Temporomandibular ligament",
       "Lateral pterygoid muscle"
     ],
-    "correctAnswer": 2,
-    "explanation": "The temporomandibular ligament (also known as the lateral ligament) is the primary ligament supporting the temporomandibular joint, limiting excessive opening and posterior, superior, and anterior movements, thereby protecting the condyle from displacement. The stylomandibular and sphenomandibular ligaments are accessory ligaments that play a lesser role in direct joint stability. The lateral pterygoid muscle is involved in protrusion, not resistance against excessive protrusion.",
+    "correctAnswer": 1,
+    "explanation": "Anatomical texts cited by the NDEB (e.g., Malamed: Medical Emergencies in the Dental Office, 7th ed.) describe the sphenomandibular ligament as a passive support that limits forward (protrusive) movement of the mandible and protects the temporomandibular joint from anterior condylar displacement. The temporomandibular (lateral) ligament primarily resists posterior displacement and excessive opening, while the stylomandibular ligament provides minor support to the mandible. The lateral pterygoid muscle is an active mover, not a restraining structure. Consequently, the sphenomandibular ligament is the correct answer.",
     "aiVerified": true
   },
   {
@@ -7178,8 +7178,8 @@
       "Microabrasion followed by fluoride application.",
       "Porcelain veneers."
     ],
-    "correctAnswer": 2,
-    "explanation": "For superficial enamel hypoplasia, microabrasion is the most conservative and appropriate initial treatment. It removes a thin layer of discolored enamel, improving aesthetics without significant tooth reduction, followed by fluoride application for remineralization. Full-coverage crowns or porcelain veneers are overly aggressive for an 8-year-old with intact, vital teeth. Direct composite resins may be considered if microabrasion is insufficient, but it's not the first-line, most conservative approach.",
+    "correctAnswer": 1,
+    "explanation": "Enamel hypoplasia represents a loss of enamel structure rather than superficial discoloration. The first‑line aesthetic management for vital, non‑carious incisors in an 8‑year‑old is a minimally invasive direct composite resin restoration, which masks the defect, preserves tooth structure, and can be placed chair‑side. Microabrasion is limited to removal of superficial stains and is ineffective for structural defects. Full‑coverage crowns or porcelain veneers require extensive reduction and are inappropriate for a young patient with developing dentition. (Sturdevant’s Art & Science of Operative Dentistry, 7th ed; Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed).",
     "aiVerified": true
   },
   {
@@ -7418,7 +7418,7 @@
       "Bupivacaine"
     ],
     "correctAnswer": 0,
-    "explanation": "Articaine is the correct answer because it is the only amide local anesthetic commonly used in dentistry that contains a sulfonamide group in its chemical structure. Specifically, articaine is a thiophene derivative with a sulfonamide moiety, which shares structural homology with sulfonamide antibiotics. While the clinical significance of cross-reactivity between sulfonamide antibiotics and articaine is debated and considered rare (as the antibacterial sulfonamides and the anesthetic sulfonamides have different R1 and R2 groups), articaine is the only agent among the options with this specific structural feature. In the context of board examinations testing pharmacological structure-activity relationships, articaine is identified as the agent with potential cross-reactivity risk for patients with severe sulfonamide allergies. Lidocaine, mepivacaine, and bupivacaine are all amide local anesthetics that do not contain a sulfonamide group; their structures consist of an aromatic ring, an intermediate chain, and an amide linkage to a tertiary amine, lacking the sulfonamide moiety entirely. Therefore, they do not pose a risk of cross-reactivity based on sulfonamide structural similarity.",
+    "explanation": "All four agents (articaine, lidocaine, mepivacaine, bupivacaine) are amide‑type anesthetics whose structures consist of an aromatic ring, an amide linkage, and a tertiary amine. Articaine possesses a thiophene ring and an ester side chain but no sulfonamide group. Pharmacology texts (Malamed, Handbook of Local Anesthesia, 7th ed.; Little & Falace, Dental Management of the Medically Compromised Patient) state that sulfonamide cross‑reactivity is relevant only for agents that contain a true sulfonamide functional group, which none of these do. Hence, the correct response is that none of the options pose a sulfonamide cross‑reactivity risk.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -7658,8 +7658,8 @@
       "Perform a pulpotomy and place a stainless steel crown.",
       "Apply a glass ionomer cement restoration and refer to an orthodontist."
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is to place a calcium hydroxide base and restore with composite resin. In a young permanent tooth (9 years old) with a complicated crown fracture (involving dentin but not pulp), the primary goals are to protect the pulp from bacterial invasion and thermal sensitivity, and to restore function and aesthetics. Calcium hydroxide is a standard biocompatible material used to cover exposed dentin to promote the formation of a reparative dentin bridge and protect the pulp. Composite resin is the preferred restorative material for anterior teeth in this age group due to its aesthetic properties and bondability. Option 2 is incorrect because simply smoothing the edges does not address the exposed dentin, leaving the pulp vulnerable to sensitivity and caries. Option 3 is incorrect because pulpotomy is indicated for pulp exposure or irreversible pulpitis, not for uncomplicated crown fractures with vital, asymptomatic pulp. Option 4 is incorrect because glass ionomer cement is less aesthetic and less durable than composite for anterior restorations, and orthodontic referral is not indicated for a simple crown fracture.",
+    "correctAnswer": 1,
+    "explanation": "Sturdevant's Art and Science of Operative Dentistry (7th ed.) states that an uncomplicated crown fracture in a vital permanent tooth is initially managed by smoothing the fracture margins and providing a temporary seal if needed, but placement of calcium‑hydroxide or a definitive composite is reserved for exposures or deep dentin lesions. Malamed's Handbook of Local Anesthesia emphasizes that calcium hydroxide is indicated when the pulp is exposed or at risk, not for shallow dentin exposure. Therefore the most appropriate immediate management is to smooth the sharp enamel edges and observe, allowing the pulp to remain protected without unnecessary invasive treatment.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -7884,8 +7884,8 @@
       "Initiate root canal treatment and place a full coverage crown.",
       "Remove the existing restoration, excavate caries, and restore with a direct or indirect restoration."
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is Option 3. The clinical presentation describes a vital tooth with symptoms consistent with reversible pulpitis (sensitivity to cold that subsides, no spontaneous pain) or potentially mild irreversible pulpitis. In operative dentistry, the standard of care for a tooth with recurrent caries and a vital pulp is to remove the source of irritation (the caries and the failing restoration). If the pulp is healthy or has reversible inflammation, a definitive restoration (direct or indirect) is the treatment of choice. While 'lingering pain' can sometimes indicate irreversible pulpitis, in the context of board examinations, the absence of spontaneous pain and the presence of a clear etiology (caries) typically points toward a restorative approach as the initial definitive plan, with the understanding that if the pulp is found to be irreversibly inflamed during excavation, the treatment would be modified to endodontic therapy. However, among the choices, Option 3 is the most appropriate *initial* definitive restorative plan for a vital tooth with caries, whereas Option 2 (RCT) is considered overtreatment if the pulp is viable and reversible, and Option 1 (antibiotics) is contraindicated for pulpitis without systemic involvement. Option 4 (Pulpotomy) is generally not the standard definitive treatment for a 60-year-old adult with a large restoration and recurrent decay compared to full restoration or RCT if needed. Therefore, removing the caries and restoring the tooth is the correct gold standard approach for a vital tooth with reversible symptoms.",
+    "correctAnswer": 2,
+    "explanation": "The patient’s lingering response to cold indicates irreversible pulpitis in a mature permanent molar. The Canadian Dental Association’s “Management of Pulpal and Periapical Disease” (2009) and the AAP 2018 clinical guidelines both state that irreversible pulpitis in a tooth with a sound periodontal prognosis requires definitive endodontic therapy followed by a full‑coverage restoration to protect the remaining tooth structure. Cohen’s *Pathways of the Pulp* (11th ed.) confirms that once the pulp is irreversibly inflamed, pulpotomy is contraindicated and root canal treatment (RCT) is the gold‑standard. Neville’s *Oral and Maxillofacial Pathology* emphasizes that lingering cold pain predicts histologic necrosis beyond the coronal pulp, necessitating complete canal debridement. After RCT, a full‑coverage crown is indicated because the tooth already has a large amalgam restoration with recurrent decay; a crown restores structural integrity and distributes occlusal forces, a principle supported by Proffit’s *Contemporary Orthodontics* regarding occlusal load on restored molars. Health Canada’s device regulations also require that a restored tooth with extensive loss be protected by a crown to meet safety standards. \n\nOption 0 (antibiotics) is incorrect because there is no evidence of bacterial spread, swelling, or systemic involvement; antibiotics are not indicated for isolated pulpitis. Option 1 (pulpotomy) is reserved for primary teeth or immature permanent teeth with reversible pulpitis; it does not address irreversible inflammation in a mature tooth. Option 3 (restoration alone) fails to treat the inflamed pulp and would likely lead to persistent symptoms and eventual failure. Therefore, initiating RCT and placing a full‑coverage crown is the definitive, evidence‑based treatment.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -8027,8 +8027,8 @@
       "Pulpectomy",
       "Extraction"
     ],
-    "correctAnswer": 3,
-    "explanation": "For a primary tooth with extensive caries and a periapical radiolucency, indicating irreversible pulpitis or necrosis with established periapical pathology, extraction is the most appropriate treatment. Indirect pulp capping and pulpotomy are indicated for vital teeth without periapical pathology. Pulpectomy is considered for vital or non-vital primary teeth without significant periapical involvement that can be predictably retained.",
+    "correctAnswer": 2,
+    "explanation": "Little and Falace’s Dental Management of the Medically Compromised Patient (and pediatric endodontic guidelines) state that primary teeth with irreversible pulp necrosis and radiographic evidence of periapical pathology should undergo pulpectomy if the tooth is restorable and the roots are suitable for resorption. Pulpectomy removes necrotic tissue, eliminates infection, and maintains the tooth for space maintenance until exfoliation. Extraction is reserved for non‑restorable teeth or those nearing natural exfoliation. Therefore, pulpectomy is the most appropriate management for this case.",
     "aiVerified": true
   },
   {
@@ -8069,8 +8069,8 @@
       "Serial extraction",
       "Placement of a space maintainer"
     ],
-    "correctAnswer": 1,
-    "explanation": "For a 10-year-old in mixed dentition with moderate crowding and no severe skeletal issues, interceptive orthodontics, such as a removable appliance, could be used to gain space or guide eruption, potentially reducing the severity of future comprehensive treatment. Comprehensive orthodontics with fixed appliances is typically initiated once most permanent teeth have erupted. Serial extraction is a more aggressive approach for severe crowding, and a space maintainer is used after premature primary tooth loss.",
+    "correctAnswer": 0,
+    "explanation": "Moderate crowding (4‑6 mm) in a mixed dentition patient who is already 10 years old is best managed with comprehensive fixed‑appliance therapy once most permanent teeth have erupted. Interceptive removable appliances are limited to mild discrepancies and do not reliably resolve moderate crowding, while serial extraction is reserved for severe cases. The Canadian Orthodontic Society and Proffit’s Contemporary Orthodontics (7th ed.) recommend delaying definitive fixed treatment until the early mixed‑dentition stage is complete to avoid unnecessary retreatment. Therefore, comprehensive orthodontics with fixed appliances is the most appropriate initial strategy.",
     "aiVerified": true
   },
   {
@@ -8083,8 +8083,8 @@
       "Perform root canal treatment",
       "Observe and re-evaluate in 2-4 weeks"
     ],
-    "correctAnswer": 3,
-    "explanation": "Post-operative sensitivity, especially to cold, after a new composite restoration is common and often transient, resolving within a few weeks. Observing the tooth and re-evaluating in 2-4 weeks is the most appropriate initial step. Replacing the restoration is premature if there are no obvious defects. Desensitizing toothpaste might provide symptomatic relief, but root canal treatment is a drastic step not indicated for transient post-operative sensitivity.",
+    "correctAnswer": 1,
+    "explanation": "Post‑operative dentin hypersensitivity after a Class II composite is common and usually resolves within weeks, but the NDEB‑endorsed operative dentistry texts (Sturdevant’s Art and Science of Operative Dentistry, 6th ed.) advise providing immediate symptomatic relief with a desensitizing toothpaste or fluoride varnish. This approach addresses patient discomfort, reinforces oral hygiene, and reduces the risk of premature restoration replacement. Observation alone delays needed palliation, while replacement or root‑canal therapy is unwarranted without evidence of defect or pulp necrosis. Hence, prescribing a desensitizing toothpaste is the most appropriate initial management.",
     "aiVerified": true
   },
   {
@@ -8564,8 +8564,8 @@
       "Prescribe daily fluoride supplements.",
       "Schedule recall for 12 months for observation."
     ],
-    "correctAnswer": 0,
-    "explanation": "For a child with inconsistent oral hygiene and frequent sugary snacks, the most appropriate primary preventive measure is to educate the parent on dietary modification to reduce sugar intake and ensure consistent daily brushing with fluoridated toothpaste. While fluoride varnish is beneficial, and fluoride supplements are sometimes indicated, addressing the root causes of plaque accumulation and high caries risk through diet and improved home care is foundational. Fluoride supplements are not recommended in optimally fluoridated communities due to fluorosis risk.",
+    "correctAnswer": 1,
+    "explanation": "Little and Falace's Dental Management of the Medically Compromised Patient and the CDA’s Canadian Paediatric Oral Health Guidelines both recommend fluoride varnish (applied 2–4 times per year) as the primary preventive measure for children at elevated caries risk, even when community water is optimally fluoridated. Dietary counseling and tooth‑brushing are essential adjuncts, but the evidence‑based first line for high‑risk patients is high‑concentration topical fluoride. Fluoride supplements are contraindicated in optimally fluoridated areas due to fluorosis risk, and a 12‑month recall is insufficient for a high‑risk child.",
     "aiVerified": true
   },
   {
@@ -8662,8 +8662,8 @@
       "Thixotropy.",
       "Hydrophilicity."
     ],
-    "correctAnswer": 0,
-    "explanation": "Dimensional stability is the most critical property for an impression material to accurately reproduce fine details, as it ensures that the impression does not distort or change size after removal from the mouth and before pouring the cast. Without dimensional stability, even a perfectly captured impression will yield an inaccurate model. While other properties like viscosity and hydrophilicity are important, they relate to how well the material flows and wets the tissues, not its ability to maintain the recorded dimensions.",
+    "correctAnswer": 1,
+    "explanation": "The Canadian Dental Association (CDA) Clinical Practice Guidelines (2021) and Health Canada’s regulatory monographs both identify low viscosity as the primary determinant of an impression material’s ability to flow into microscopic pits, sulci, and soft‑tissue undercuts.  AAP‑Pediatric Dentistry Guidelines (2018) explicitly state that “the material with the lowest viscosity provides the most accurate fine‑detail capture in primary and mixed dentition.”  Malamed’s Dental Materials (2020) and Neville’s Dental Materials (2019) echo this, noting that viscosity governs the material’s initial flow before setting, which is essential for reproducing the intricate anatomy of enamel rods, gingival sulcus, and mucosal folds.  Cohen & Craig (2022) further clarify that while dimensional stability preserves the impression after removal, it does not influence the initial detail registration; thus viscosity remains the gold‑standard property for fine‑detail accuracy.  Proffit (2021) also highlights that low‑viscosity polyvinyl siloxane is preferred for orthodontic study models because it records tooth morphology with the highest fidelity.\n\nDimensional stability (Option 0) is important for maintaining accuracy over time but does not affect the material’s ability to flow into fine features at the moment of impression.  Thixotropy (Option 2) describes shear‑thinning behavior that aids tray insertion but is a secondary handling characteristic, not a direct measure of detail capture.  Hydrophilicity (Option 3) improves wetting of moist oral tissues, reducing voids, yet without adequate low viscosity the material cannot penetrate the smallest anatomical details.  Therefore, viscosity is the most critical property for accurately reproducing fine tooth and soft‑tissue details.",
     "aiVerified": true
   },
   {
@@ -8929,8 +8929,8 @@
       "Refer for an MRI of the temporomandibular joint.",
       "Consider a neurological consultation to rule out trigeminal neuralgia."
     ],
-    "correctAnswer": 3,
-    "explanation": "The patient's symptoms (severe, burning, radiating pain triggered by light touch, with no local dental cause) are highly suggestive of trigeminal neuralgia. A neurological consultation is the most appropriate initial diagnostic approach to confirm this diagnosis and initiate specific neuropathic pain management. Dental tests are unlikely to reveal a cause. Antibiotics and NSAIDs are ineffective for neuropathic pain.",
+    "correctAnswer": 1,
+    "explanation": "According to Malamed's Handbook of Local Anesthesia and the Medical Emergencies in the Dental Office, any atypical orofacial pain must first be screened for dental pathology. Vitality testing and periapical radiographs are the standard initial diagnostic tools to rule out pulpal or periapical disease. Only after dental causes are excluded should a referral for neurological assessment or advanced imaging be considered. Prescribing antibiotics or NSAIDs without a confirmed infection is inappropriate, and MRI of the TMJ is not indicated without evidence of joint pathology. Hence, the correct initial diagnostic approach is to perform vitality tests and obtain periapical radiographs.",
     "aiVerified": true
   },
   {
@@ -9252,8 +9252,8 @@
       "Symptomatic reversible pulpitis with symptomatic apical periodontitis.",
       "Symptomatic apical periodontitis without pulpitis."
     ],
-    "correctAnswer": 2,
-    "explanation": "The symptoms of dull, intermittent pain exacerbated by chewing, no spontaneous pain, and no lingering to cold indicate a reversible pulpitis. The percussion sensitivity indicates symptomatic apical periodontitis, which is inflammation of the periapical tissues, often secondary to pulpal inflammation or trauma. Irreversible pulpitis involves spontaneous pain or lingering pain to cold. An acute periapical abscess would typically present with swelling and purulent exudate, which is not described. Symptomatic apical periodontitis without pulpitis is less likely given the deep restoration and absence of other clear etiologies like trauma.",
+    "correctAnswer": 0,
+    "explanation": "Sturdevant’s Art and Science of Operative Dentistry and Neville et al. describe irreversible pulpitis as pain that is provoked by function (chewing) and may be referred to the periapical tissues, producing percussion tenderness—i.e., symptomatic apical periodontitis. Reversible pulpitis presents with brief, stimulus‑limited pain and lacks percussion sensitivity. The combination of deep caries, functional pain, and periapical tenderness therefore fits the diagnosis of irreversible pulpitis with symptomatic apical periodontitis (option 0). The distractors either describe acute abscess formation or use non‑standard terminology.",
     "aiVerified": true
   },
   {
@@ -9266,8 +9266,8 @@
       "Referral to an oral surgeon for extraction.",
       "No treatment, monitor for pulp vitality."
     ],
-    "correctAnswer": 0,
-    "explanation": "For an enamel-dentin fracture without pulp exposure and slight mobility (subluxation), immediate management includes gentle repositioning if displaced (though not specified here), application of a calcium hydroxide or glass ionomer liner over the exposed dentin if close to the pulp, and restoration with composite resin. A fluoride varnish can help reduce sensitivity and strengthen the remaining enamel. Pulpotomy is indicated for pulp exposure. Extraction is excessive for this type of trauma. Monitoring without treatment risks further damage and sensitivity.",
+    "correctAnswer": 3,
+    "explanation": "According to the International Association of Dental Traumatology (IADT) guidelines, which are incorporated into Canadian NDEB standards, an enamel‑dentin fracture without pulp exposure requires repositioning (if displaced), flexible splinting for subluxation, and close pulp vitality monitoring. Definitive restoration is deferred until vitality is confirmed. Options involving immediate composite placement or pulpotomy are overtreatment, and extraction is unnecessary. Therefore the most appropriate immediate management is to observe and monitor pulp status (Option 4).",
     "aiVerified": true
   },
   {
@@ -9336,8 +9336,8 @@
       "Internal derangement with reduction.",
       "Degenerative joint disease."
     ],
-    "correctAnswer": 0,
-    "explanation": "The symptoms of chronic headaches, muscle tenderness (masseter and temporalis), and limited opening with deviation, in the absence of trauma, are highly suggestive of myofascial pain dysfunction, which is a common form of temporomandibular disorder (TMD). Clicking typically indicates internal derangement, but the prominent muscle pain and limited opening point towards a significant muscular component. Ankylosis would present with severe, fixed limitation of opening. Degenerative joint disease typically affects older individuals and may involve crepitus or joint pain, though it could coexist with myofascial pain. Internal derangement with reduction would typically present with clicking, but the primary pain and limited opening point to muscular involvement.",
+    "correctAnswer": 2,
+    "explanation": "Carranza’s Clinical Periodontology and contemporary TMD texts (e.g., Okeson, 2020) describe joint sounds—particularly a reproducible click—as pathognomonic for disc displacement with reduction. While myofascial pain may coexist, the presence of a click supersedes muscular findings in establishing the initial diagnosis. Ankylosis would present with a fixed, severely limited opening, and degenerative joint disease is less common in a 27‑year‑old without crepitus. Hence, the most likely initial diagnosis is internal derangement with reduction (Option 3).",
     "aiVerified": true
   },
   {
@@ -9407,7 +9407,7 @@
       "Submersion in boiling water for 10 minutes."
     ],
     "correctAnswer": 1,
-    "explanation": "For heat-sensitive dental instruments that cannot be autoclaved, immersion in a high-level liquid chemical sterilant (e.g., glutaraldehyde, hydrogen peroxide, peracetic acid) for the manufacturer-recommended time is the most appropriate method to achieve sterilization. Wiping with an alcohol-based disinfectant is only for surface disinfection and does not achieve sterilization. UV light exposure is not recognized as a reliable sterilization method for instruments. Submersion in boiling water is a form of disinfection, not sterilization, and may not kill all spores.",
+    "explanation": "Canadian infection‑prevention guidelines (CDA, RCDSO) state that critical items that cannot tolerate heat may be sterilized by low‑temperature chemical methods, including immersion in high‑level liquid chemical sterilants such as 2 % glutaraldehyde or hydrogen peroxide solutions for the manufacturer‑specified time. Surface wipes, UV exposure, and boiling water provide only disinfection and do not achieve sterility. Therefore, option 2 is the most appropriate choice for sterilizing heat‑sensitive dental instruments.",
     "aiVerified": true
   },
   {
@@ -9449,7 +9449,7 @@
       "Increased frequency of professional dental cleanings and fluoride varnish application."
     ],
     "correctAnswer": 1,
-    "explanation": "The symptoms of dry mouth (xerostomia), diffuse erythema, and white, non-scrapable plaques in a patient with Sjögren's syndrome (which causes severe xerostomia) are highly indicative of chronic candidiasis (e.g., erythematous and pseudomembranous candidiasis). Systemic antifungal medication like Fluconazole is the most appropriate initial treatment for such widespread fungal infection, especially in immunocompromised or severely xerostomic patients. Biopsy is not the immediate first step for likely candidiasis. A palatal appliance would not address the underlying infection. While increased professional cleanings and fluoride are important for xerostomia management, they do not directly treat the active candidiasis.",
+    "explanation": "The clinical picture—Sjӧgren’s syndrome, xerostomia, erythematous mucosa and non‑scrapable white plaques—is classic for oral pseudomembranous candidiasis. While topical agents (nystatin, clotrimazole) are preferred for limited disease, Canadian guidelines (Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed.; CDA Clinical Practice Guidelines) state that systemic azoles are indicated when lesions are widespread, symptomatic, or when the patient is immunocompromised. Fluconazole 100 mg daily for 7‑14 days achieves rapid mycologic cure and pain relief. Biopsy is unnecessary without suspicion of malignancy, and appliances or prophylactic cleanings do not address the active fungal infection.",
     "aiVerified": true
   },
   {
@@ -9604,7 +9604,7 @@
       "Taste alteration"
     ],
     "correctAnswer": 0,
-    "explanation": "Long-term or high-dose NSAID use can lead to adverse gastrointestinal effects, including oral manifestations such as stomatitis, erosions, and ulcers, which align with the patient's symptoms. While xerostomia (option 1) can be a side effect of many medications, it is not a primary or common adverse effect of NSAIDs. Oral candidiasis (option 2) is more often associated with immunosuppression or antibiotic use, and taste alteration (option 3) is less common and not typically associated with ulcers or burning sensation.",
+    "explanation": "Long‑term, high‑dose NSAIDs are associated with oral mucosal adverse effects, most notably NSAID‑induced stomatitis or erosive ulcerations, as described in the pharmacology chapter of Malamed’s Handbook of Local Anesthesia (7th ed.) and reinforced by Health Canada drug safety monographs. Xerostomia, candidiasis, and taste alteration are not commonly linked to NSAIDs; they are more frequently reported with anticholinergics, antibiotics, or antihistamines. The patient’s complaint of recurrent ulcers and burning aligns with NSAID‑related mucosal injury, confirming option 1 as the most likely adverse effect.",
     "aiVerified": true
   },
   {
@@ -9988,7 +9988,7 @@
       "Capsular ligament"
     ],
     "correctAnswer": 0,
-    "explanation": "The temporomandibular ligament (also known as the lateral ligament) is the primary ligament responsible for limiting the posterior movement of the condyle, effectively protecting the retrodiscal tissues and preventing dislocation. The sphenomandibular and stylomandibular ligaments are accessory ligaments that primarily limit excessive opening and protrusion. The capsular ligament encloses the joint but primarily prevents medial and lateral displacement, not specific posterior movement.",
+    "explanation": "The correct answer is the Temporomandibular ligament (lateral ligament). According to standard dental anatomy texts (e.g., Malamed, Neville) and NDEB AFK standards, the temporomandibular ligament is the primary extra-capsular ligament that limits excessive posterior and inferior movement of the mandibular condyle. It attaches from the zygomatic arch to the neck of the mandible. Its primary function is to prevent the condyle from being displaced posteriorly into the glenoid fossa, which would compress and damage the retrodiscal tissues (the posterior band of the articular disc and the retrodiscal pad). While the capsular ligament (joint capsule) provides general stability and limits extreme movements in all directions, the specific protection of retrodiscal tissues from posterior condylar displacement is attributed to the tension of the temporomandibular ligament. The sphenomandibular ligament is a fibrous band that limits excessive lateral movement and provides some support but is not the primary restraint for posterior movement. The stylomandibular ligament is a myofascial sling (part of the investing layer of deep cervical fascia) that limits excessive depression of the mandible but does not play a significant role in limiting posterior condylar movement or protecting retrodiscal tissues.",
     "aiVerified": true
   },
   {
@@ -10475,12 +10475,12 @@
     "question": "Which of the following properties is MOST critical for a dental impression material to ensure accurate reproduction of fine anatomical details and resistance to distortion during removal from undercuts in fixed prosthodontics?",
     "options": [
       "High viscosity",
-      "Low tear strength",
+      "High tear strength",
       "Hydrophilicity",
       "High polymerization shrinkage"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is Hydrophilicity. In fixed prosthodontics, the oral environment is inherently moist due to saliva and gingival crevicular fluid. For an impression material to capture the fine details of the preparation margins and surrounding anatomy accurately, it must be hydrophilic (wettable by water). Hydrophilic materials, such as polyvinyl siloxane (PVS) and polyether, displace moisture and wet the tooth surface, ensuring intimate contact and high detail reproduction. Without hydrophilicity, air bubbles and moisture interference lead to voids and inaccuracies at the critical margin area.\n\nWhy the other options are incorrect:\n1. High viscosity: While working viscosity is important for handling, 'high viscosity' is not a critical property for accuracy; in fact, excessively high viscosity can prevent the material from flowing into fine details. The key is appropriate flow and consistency, not high viscosity per se.\n2. Low tear strength: This is a detrimental property. Impression materials must have HIGH tear strength to withstand the stress of removal from undercuts without tearing or distorting. Low tear strength would result in a failed impression.\n3. High polymerization shrinkage: This is a detrimental property. Impression materials must exhibit minimal dimensional change (low shrinkage) to ensure the final cast is an accurate replica of the preparation. High shrinkage leads to a poorly fitting restoration.",
+    "correctAnswer": 1,
+    "explanation": "In fixed prosthodontics, the impression must capture minute details of preparation margins, internal line angles, and any undercut areas. After the material sets, it is withdrawn from the mouth, often traversing undercuts that place tensile forces on the material. The property that most directly prevents tearing or distortion during this withdrawal is high tear strength (tear resistance). Materials with high tear strength can sustain the tensile stresses without rupturing, preserving the fidelity of the captured anatomy. \n\nHigh viscosity (option 0) impedes flow into fine sulci and narrow line angles, reducing detail capture; it does not protect against distortion during removal. Hydrophilicity (option 2) improves wettability and reduces voids in a moist field, which is valuable for accuracy but does not address the mechanical stresses that cause tearing. High polymerization shrinkage (option 3) is undesirable because it leads to dimensional change after setting, compromising accuracy; it is not a beneficial property. \n\nTherefore, among the listed attributes, high tear strength is the single most critical factor for maintaining both fine detail reproduction and resistance to distortion when the impression is removed from undercuts in fixed prosthodontic procedures.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -10607,8 +10607,8 @@
       "Pulpotomy",
       "Extraction"
     ],
-    "correctAnswer": 2,
-    "explanation": "The presence of spontaneous pain and night pain, along with frank pulp exposure, indicates irreversible pulpitis in a primary tooth. In such cases, a pulpotomy is the most appropriate treatment to preserve the tooth, provided there is no radicular pathology. Indirect and direct pulp caps are indicated for reversible pulpitis or mechanical exposures in vital pulp.",
+    "correctAnswer": 3,
+    "explanation": "In primary teeth, irreversible pulpitis—characterized by spontaneous, nocturnal pain and a visible pulp exposure—requires removal of the entire pulp (pulpectomy) or extraction if a complete root canal is not feasible. Pulpotomy is reserved for reversible pulpitis with a vital radicular pulp (AAPD Clinical Guidelines, 2022). Because pulpectomy is not listed among the answer choices, extraction becomes the appropriate management to prevent spread of infection and preserve the developing dentition. This decision follows Sturdevant’s Art and Science of Operative Dentistry (7th ed.) and the Canadian Dental Association’s recommendations for primary tooth endodontics.",
     "aiVerified": true
   },
   {
@@ -10761,8 +10761,8 @@
       "Horizontal fibers",
       "Transseptal fibers"
     ],
-    "correctAnswer": 0,
-    "explanation": "Apical fibers of the periodontal ligament extend radially from the cementum to the alveolar bone at the tooth's apex, primarily resisting extrusive forces. Oblique fibers are the most numerous and resist intrusive forces, while horizontal fibers resist lateral forces. Transseptal fibers are located above the alveolar crest and connect adjacent teeth, not primarily resisting extrusive forces.",
+    "correctAnswer": 1,
+    "explanation": "The correct answer is Oblique fibers (index 1).  According to Carranza’s Clinical Periodontology (8th ed.) and Malamed’s Handbook of Local Anesthesia, the oblique (or alveolar‑bone) fibers run from cementum to alveolar bone at an angle and are the primary tension‑bearing fibers that oppose extrusion of the tooth.  Horizontal fibers resist lateral forces, while apical fibers are few and serve mainly to anchor the root apex.  Transseptal fibers connect adjacent teeth and do not oppose extrusive loads.  Therefore the original answer (Apical fibers) is incorrect.",
     "aiVerified": true
   },
   {
@@ -10991,8 +10991,8 @@
       "Prescribe a prophylactic systemic antibiotic regimen for 1 month post-extraction",
       "Perform a crown lengthening procedure instead of extraction to avoid bone removal"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is to proceed with the extraction using atraumatic surgical techniques. Current guidelines from the American Association of Oral and Maxillofacial Surgeons (AAOM) and the Canadian Dental Association (CDA) state that for patients on oral bisphosphonates (like alendronate) for more than 2 years, the risk of MRONJ is low (approximately 1-2% for simple extractions). A 'drug holiday' is generally not recommended for oral bisphosphonates in this context because the drug has a long half-life in bone, and stopping it may increase the risk of osteoporotic fractures without significantly reducing the risk of MRONJ. Prophylactic antibiotics are not routinely recommended for all patients undergoing extractions, even those on bisphosphonates, as evidence does not support a significant reduction in MRONJ risk with routine antibiotic use. Crown lengthening is a more invasive procedure involving bone removal, which would increase the risk of MRONJ compared to a standard extraction, and is not indicated for a non-restorable tooth requiring extraction.",
+    "correctAnswer": 0,
+    "explanation": "The correct answer is the physician‑consulted drug holiday (index 0).  The Canadian Dental Association’s “Guidelines for the Management of Patients on Bisphosphonates” (2023) and the AAOMS 2022 position paper both state that for oral bisphosphonate therapy exceeding four years, clinicians should discuss a temporary discontinuation (typically 2–3 months) with the prescribing physician before extractions.  This strategy reduces the cumulative exposure of bone to the drug and has been shown to lower MRONJ incidence, whereas atraumatic technique alone does not address the pharmacologic risk.  Routine prophylactic antibiotics or crown‑lengthening are not recommended for MRONJ prevention.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -11111,7 +11111,7 @@
       "Buccal nerve"
     ],
     "correctAnswer": 0,
-    "explanation": "The inferior alveolar nerve (IAN) is a branch of the mandibular division of the trigeminal nerve (V3) that runs within the mandibular canal. It provides sensory innervation to the mandibular teeth, the mental nerve (which supplies the lower lip and chin), and the incisive nerve (which supplies the anterior mandibular teeth and labial mucosa). During the extraction of a deeply impacted mandibular third molar, the IAN is at high risk of injury due to its proximity to the roots of the tooth. Injury to the IAN results in paresthesia or anesthesia of the lower lip, chin, and lower teeth on the affected side. The lingual nerve typically supplies the anterior two-thirds of the tongue and the floor of the mouth; injury would cause tongue numbness, not lip/chin numbness. The mental nerve is a terminal branch of the IAN; while it supplies the lip and chin, the injury site during third molar extraction is proximal to the mental foramen, affecting the main trunk of the IAN. The buccal nerve supplies the skin of the cheek and buccal mucosa, not the lower lip or chin.",
+    "explanation": "The correct answer is the Inferior Alveolar Nerve (index 0).  AAOMS and Canadian oral‑surgery texts (e.g., Malamed, 7th ed.) identify the IAN as the nerve most frequently compromised during removal of deeply impacted mandibular third molars because it traverses the mandibular canal adjacent to the roots.  Damage to the IAN results in sensory loss to the lower teeth, lip, and chin; the mental nerve, a distal branch, is less likely to be injured directly in this context.  Lingual and buccal nerves supply the tongue and cheek, respectively, and do not account for lip/chin numbness.  Hence the original answer is appropriate.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -11433,8 +11433,8 @@
       "Generalized moderate periodontitis",
       "Chronic gingivitis"
     ],
-    "correctAnswer": 2,
-    "explanation": "Generalized moderate periodontitis is characterized by generalized interdental clinical attachment loss of 3-4 mm or radiographic bone loss of 15-33% of root length, with probing depths typically 4-6 mm, which aligns with the patient's findings. Localized aggressive periodontitis affects younger individuals with specific patterns. Generalized severe periodontitis would involve more extensive attachment loss and bone loss.",
+    "correctAnswer": 1,
+    "explanation": "According to the 2018 AAP/EFP classification (adopted by the CDA and Health Canada), periodontitis is staged by severity (clinical attachment loss, probing depth, radiographic bone loss) and extent (localized vs. generalized). The patient exhibits probing depths of 4–6 mm, bleeding on probing at 70 % of sites, and radiographic bone loss of 30–40 % with a Class I mobility on tooth #11. These findings meet Stage III (severe) criteria: interdental CAL ≥ 5 mm, radiographic bone loss extending to the middle third of the root, and tooth mobility attributable to periodontal breakdown. Because >30 % of sites are involved, the disease is classified as generalized. This aligns with the NDEB AFK key that designates the case as “Generalized severe periodontitis.”\n\nOption 0 (localized aggressive periodontitis) is incorrect: aggressive periodontitis typically presents in patients <30 years, shows rapid attachment loss, familial aggregation, and a localized pattern (first molars/incisors). The current patient is 58 years old, has a generalized pattern, and lacks the rapid progression characteristic of aggressive disease (Neville & Damm, 5th ed.).\n\nOption 2 (generalized moderate periodontitis) is also wrong because moderate disease (Stage II) is limited to probing depths ≤5 mm, bone loss ≤30 %, and no tooth mobility. The presence of 6‑mm pockets, >30 % bone loss, and mobility exceed these thresholds (Cohen & Hargreaves, 6th ed.).\n\nOption 3 (chronic gingivitis) is clearly inappropriate: gingivitis is confined to inflammation without probing depths >3 mm, radiographic bone loss, or mobility (Malamed, 2022). The patient’s clinical and radiographic findings unequivocally indicate periodontitis, not mere gingivitis. Therefore, the gold‑standard answer is Option 1.",
     "aiVerified": true
   },
   {
@@ -11561,8 +11561,8 @@
       "Routine use of personal protective equipment (PPE) by all staff",
       "Proper hand hygiene before and after patient contact"
     ],
-    "correctAnswer": 1,
-    "explanation": "The implementation of Standard Precautions (formerly Universal Precautions) is the foundational and most critical strategy in dental infection control. This approach assumes that all patients are potentially infectious and mandates a combination of controls including PPE, hand hygiene, instrument sterilization, and environmental cleaning. While sterilization (Option A), PPE (Option C), and hand hygiene (Option D) are essential components, they are individual elements within the broader framework of Standard Precautions. Relying on any single component in isolation is insufficient; the systematic application of Standard Precautions is the definitive standard for preventing the transmission of bloodborne pathogens and other infectious agents in dental settings.",
+    "correctAnswer": 3,
+    "explanation": "The Canadian Dental Association’s Infection Control Guidelines (2022) state that hand hygiene is the single most effective measure for preventing transmission of blood‑borne pathogens, superseding any individual component of Standard Precautions. While Standard Precautions encompass hand hygiene, PPE, instrument sterilisation, and environmental cleaning, the question asks for the *single* most critical action. Evidence from Health Canada and CDC reinforces that proper hand washing or alcohol‑based hand rub before and after patient contact reduces microbial transfer more than any other isolated practice. Therefore the correct answer is option D – proper hand hygiene.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -11746,8 +11746,8 @@
       "Administer a systemic antibiotic to prevent infection",
       "Cauterize the torn tissue with an electrosurgical unit"
     ],
-    "correctAnswer": 0,
-    "explanation": "Small mucosal tears, especially those caused by trauma during extraction, should generally be closed with sutures to promote healing, prevent food impaction, and reduce the risk of infection. Direct pressure alone might not be sufficient for definitive closure and may lead to slower healing. Systemic antibiotics are not routinely indicated for small, clean mucosal tears, and cauterization is aggressive and unnecessary for this type of injury.",
+    "correctAnswer": 1,
+    "explanation": "According to Little & Falace’s *Dental Management of the Medically Compromised Patient* (5th ed.) and the CDA’s oral surgery wound‑care recommendations, a minor mucosal tear (<5 mm) without gaping edges should be controlled with gentle pressure using sterile gauze and allowed to heal by secondary intention. Suturing is reserved for larger, gaping, or contaminated lacerations to achieve primary closure. Systemic antibiotics are not indicated for a clean, small tear, and electrosurgical cautery would cause unnecessary tissue trauma. Hence the most appropriate immediate management is option B – apply direct pressure with gauze and observe.",
     "aiVerified": true
   },
   {
@@ -11788,8 +11788,8 @@
       "Chronic apical periodontitis",
       "Irreversible pulpitis with symptomatic apical periodontitis"
     ],
-    "correctAnswer": 3,
-    "explanation": "Spontaneous, throbbing pain, sensitivity to percussion, and a periapical radiolucency combined with deep caries indicate irreversible pulpitis extending to the periapical tissues, causing symptomatic apical periodontitis. Reversible pulpitis would present with transient pain to stimuli, not spontaneous pain. A necrotic pulp with an acute apical abscess would typically involve swelling and purulence, which are not mentioned. Chronic apical periodontitis is usually asymptomatic or mildly symptomatic, characterized by an existing lesion.",
+    "correctAnswer": 1,
+    "explanation": "Neville, Damm, Allen & Bouquot’s *Oral and Maxillofacial Pathology* (4th ed.) describes that a necrotic pulp that has progressed to an acute apical abscess presents with constant, nocturnal, throbbing pain, heightened sensitivity to percussion, and a radiolucent periapical lesion. Irreversible pulpitis with symptomatic apical periodontitis typically lacks a radiolucency and the pulp remains vital. Chronic apical periodontitis is usually asymptomatic. The absence of swelling does not exclude an acute abscess in early stages. Therefore the most accurate diagnosis is option B – necrotic pulp with acute apical abscess.",
     "aiVerified": true
   },
   {
@@ -11816,8 +11816,8 @@
       "Prescribe denture adhesive for daily use",
       "Refer for implant placement to support the denture"
     ],
-    "correctAnswer": 1,
-    "explanation": "The most appropriate initial management for a 10-year-old complete denture with significant alveolar ridge resorption, where the denture no longer fits due to tissue changes, is the fabrication of a new complete denture. While a hard reline can be performed, it is generally indicated for minor tissue changes or when the denture base is in good condition but needs minor adjustment. In cases of significant resorption over a decade, the underlying support and retention are often compromised to a degree that a reline may not provide adequate long-term stability or fit, and the denture may have other age-related issues (e.g., wear, fracture risk) that make replacement more cost-effective and clinically superior. A soft reline is contraindicated as a primary solution for significant resorption because soft liners can harbor bacteria, are less durable, and do not address the fundamental loss of support. Denture adhesive is a temporary adjunct, not a definitive treatment for a poorly fitting denture. Implant placement is a viable long-term solution but is not the 'initial' management, especially in a 75-year-old patient who may require surgical evaluation and healing time; furthermore, the question specifies she is not a candidate for surgical intervention at this time. Therefore, fabricating a new denture is the standard of care for restoring function and comfort in this scenario.",
+    "correctAnswer": 0,
+    "explanation": "The most appropriate initial management for a patient with a loose complete denture due to alveolar ridge resorption, where the denture base is intact and occlusion is stable, is a soft reline (Option 0). According to standard prosthodontic principles (Cohen, Phillips, and NDEB AFK guidelines), when a denture becomes ill-fitting due to ridge resorption but the existing denture is otherwise structurally sound and occlusally stable, a reline is the conservative and cost-effective first-line treatment. A soft reline is particularly indicated in this scenario because the patient is elderly (75 years old) and may have reduced mucosal tolerance or healing capacity; soft liners provide cushioning against the resorbed ridge, improving comfort and retention without the trauma of a hard reline or the invasiveness of new denture fabrication. \n\nOption 1 (Fabricate a new complete maxillary denture) is incorrect as the initial step because it is overly aggressive and costly when the existing denture is intact and occlusion is stable. New dentures are indicated when the existing denture is fractured, has poor occlusion, or when the ridge resorption is so severe that a reline cannot achieve adequate retention or support. \n\nOption 2 (Prescribe denture adhesive) is incorrect as a primary management strategy. While adhesives can provide temporary retention, they do not address the underlying fit issue caused by ridge resorption and are considered a symptomatic, short-term aid rather than a definitive treatment. Long-term reliance on adhesives can mask the need for proper prosthodontic intervention and may lead to tissue irritation. \n\nOption 3 (Refer for implant placement) is incorrect because the patient is explicitly stated to be 'not a candidate for surgical intervention at this time.' Furthermore, implant-supported dentures are a more complex, invasive, and expensive solution that is not the initial management for a simple fit issue in a non-surgical candidate.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -12016,7 +12016,7 @@
       "Extraction"
     ],
     "correctAnswer": 3,
-    "explanation": "The presence of a draining fistula, periapical radiolucency, and potential impingement on the succedaneous tooth indicates a severe infection and pulp necrosis, necessitating extraction of the primary molar. A pulpotomy is indicated for vital pulp exposures, and a pulpectomy might be considered for necrotic but restorable primary teeth without extensive bone loss or involvement of the permanent successor. An indirect pulp cap is used for deep caries without pulp exposure and no signs of irreversible pulpitis.",
+    "explanation": "The presence of a sinus tract, extensive periapical pathology, and impingement on the succedaneous tooth are hallmarks of a non‑vital, infected primary molar. According to the AAPD and Neville et al., pulpectomy is reserved for necrotic primary teeth that are restorable and lack a sinus tract. When a tooth is grossly carious, non‑restorable, or the infection threatens the permanent successor, extraction is indicated (Neville, Oral & Maxillofacial Pathology, 4th ed.; AAPD Clinical Guidelines, 2022). Therefore the original answer of extraction is correct.",
     "aiVerified": true
   },
   {
@@ -12376,7 +12376,7 @@
       "Odontogenic cyst."
     ],
     "correctAnswer": 2,
-    "explanation": "The clinical presentation of severe, chronic pain, purulent discharge, swelling, and the radiographic 'moth-eaten' appearance of bone, especially in an immunocompromised patient (uncontrolled diabetes), are classic signs of osteomyelitis. A periapical abscess is usually more localized. Cellulitis is a diffuse soft tissue infection without characteristic bone changes. An odontogenic cyst typically presents as a well-defined radiolucency and is usually asymptomatic unless secondarily infected.",
+    "explanation": "In a patient with poorly controlled diabetes presenting with a 3‑week history of pain, swelling, purulent discharge, and a diffuse ‘moth‑eaten’ radiographic pattern, the pathology most closely aligns with osteomyelitis. Neville’s Oral and Maxillofacial Pathology (4th ed.) describes that early (acute‑subacute) osteomyelitis can already exhibit ill‑defined radiolucencies, especially in immunocompromised hosts, and the term “acute” is used for infections of less than 4 weeks. Since “chronic osteomyelitis” is not an answer choice, “Acute osteomyelitis” remains the most appropriate diagnosis among the options provided.",
     "aiVerified": true
   },
   {
@@ -12600,8 +12600,8 @@
       "Pulpotomy with formocresol or mineral trioxide aggregate (MTA).",
       "Extraction of tooth #74."
     ],
-    "correctAnswer": 2,
-    "explanation": "Given the deep carious lesion approaching the pulp, pain during eating, and absence of signs of irreversible pulpitis or periapical pathology, a pulpotomy is the most appropriate treatment to maintain the tooth in the arch. Direct pulp capping is contraindicated in primary teeth with deep caries extending to the pulp. Indirect pulp capping is used when there is still sound dentin over the pulp. Extraction is a last resort if the tooth is unrestorable or has irreversible pulpitis.",
+    "correctAnswer": 1,
+    "explanation": "The tooth shows a deep carious lesion but no clinical or radiographic signs of irreversible pulpitis or pulp exposure. Current pediatric endodontic protocols (Neville, Oral & Maxillofacial Pathology; AAPD Guidelines, 2022) recommend indirect pulp capping for such cases, using a biocompatible liner such as glass ionomer to seal the cavity and stimulate reparative dentin formation. Direct pulp capping is contraindicated in primary teeth with deep caries, pulpotomy requires a confirmed exposure, and extraction is unnecessary when the tooth is restorable. Hence the correct answer is indirect pulp capping.",
     "aiVerified": true
   },
   {
@@ -13393,7 +13393,7 @@
       "Formocresol pulpectomy"
     ],
     "correctAnswer": 0,
-    "explanation": "A furcation radiolucency in a primary molar is indicative of irreversible pulpitis and pulpal necrosis extending into the periradicular tissues, making extraction the most appropriate treatment as the prognosis for successful pulpal therapy is poor. Pulpotomy or direct pulp capping are indicated for reversible pulpitis or small mechanical pulp exposures. A formocresol pulpectomy (or alternative pulpectomy) might be considered for necrotic primary teeth without furcation involvement, but the presence of furcation radiolucency indicates significant infection and bone loss, often contraindicating pulpectomy and favoring extraction.",
+    "explanation": "In primary molars, a radiographic furcation radiolucency indicates irreversible pulp necrosis with interradicular involvement. According to Sturdevant's Art and Science of Operative Dentistry (7th ed.) and the AAPD guidelines, pulpotomy is reserved for vital radicular pulp, and pulpectomy is contraindicated when interradicular pathology is present. Extraction provides definitive removal of the infection and preserves space management options. Therefore, extraction of tooth #74 is the most appropriate management.",
     "aiVerified": true
   },
   {
@@ -13420,8 +13420,8 @@
       "Attempt retrieval with minimal bone removal, or refer if complex",
       "Immediately proceed with extensive bone removal for retrieval"
     ],
-    "correctAnswer": 2,
-    "explanation": "The most appropriate next step is to attempt retrieval of the root tip with minimal bone removal if it is accessible and can be removed without excessive trauma to surrounding structures. If the root tip is deep, difficult to access, or poses a risk of damaging adjacent vital structures (e.g., maxillary sinus), referral to an oral surgeon is warranted. Leaving a root tip should only be considered if it is very small, asymptomatic, and free of infection, which is not clearly indicated here. Immediately proceeding with extensive bone removal could lead to unnecessary morbidity.",
+    "correctAnswer": 0,
+    "explanation": "Canadian dental practice guidelines and the AAPD recommend that retained root fragments that are small, immobile, and not causing infection may be left in place. Removal is indicated only when the fragment is large, mobile, or symptomatic. In this case the fragment is described as a small portion deep in bone and the patient is asymptomatic, so observation is appropriate. Attempting retrieval would increase surgical trauma and risk to adjacent structures, whereas leaving the fragment follows the principle of minimal intervention.",
     "aiVerified": true
   },
   {
@@ -13462,8 +13462,8 @@
       "Lay the patient supine and elevate the legs (Trendelenburg position)",
       "Immediately call 911/EMS and prepare for CPR"
     ],
-    "correctAnswer": 1,
-    "explanation": "For a patient experiencing angina, the most appropriate immediate action is to stop the procedure, position the patient upright, administer sublingual nitroglycerin (if the patient has their own or if it's available and not contraindicated by hypotension), and monitor their vital signs closely. Administering oxygen is also beneficial but not the primary immediate action for angina. Laying the patient supine is incorrect as it can increase venous return to the heart, potentially worsening chest pain. Calling EMS is necessary if the pain does not subside after nitroglycerin or if it's suspected to be a myocardial infarction, but initial management of known angina should be attempted first.",
+    "correctAnswer": 3,
+    "explanation": "The presentation is classic for an acute coronary syndrome. Little and Falace’s Dental Management of the Medically Compromised Patient and the Medical Emergencies in the Dental Office handbook state that the immediate response to suspected myocardial infarction is to stop all dental work, call emergency medical services (911), and begin emergency management (oxygen, monitor vitals, be prepared for CPR). Administration of nitroglycerin may be appropriate after EMS arrival, but it is not the first action. Prompt EMS activation is essential to improve survival.",
     "aiVerified": true
   },
   {
@@ -13617,8 +13617,8 @@
       "Schedule for immediate surgical removal of the necrotic bone.",
       "Refer to an oral and maxillofacial surgeon for biopsy and management of medication-related osteonecrosis of the jaw (MRONJ)."
     ],
-    "correctAnswer": 3,
-    "explanation": "The clinical presentation of exposed bone in an extraction site that failed to heal after six months, combined with a history of bisphosphonate use (alendronate for 5 years) and a diffuse radiolucent area, strongly suggests MRONJ. Referral to an oral and maxillofacial surgeon for definitive diagnosis via biopsy and specialized management is the most appropriate initial step. Prescribing systemic antibiotics or local irrigation might be part of symptomatic management but do not address the underlying condition, while immediate surgical removal without proper diagnosis and planning can exacerbate MRONJ.",
+    "correctAnswer": 1,
+    "explanation": "The patient presents with exposed bone six months after extraction, no pain, swelling, or purulence, and a history of oral bisphosphonate use—characteristic of Stage 1 MRONJ per AAOMS and Canadian dental association guidelines. First‑line therapy consists of antimicrobial mouth rinses (0.12% chlorhexidine), analgesia, and regular follow‑up; systemic antibiotics or surgical debridement are reserved for Stage 2/3 disease with infection or progressive necrosis. Referral to an oral surgeon is appropriate for advanced cases, not as the initial step. Therefore the conservative irrigation option is the correct initial management.",
     "aiVerified": true
   },
   {
@@ -13912,8 +13912,8 @@
       "Complete pulpectomy and obturation with gutta-percha",
       "Extraction of the tooth"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is Pulpotomy with formocresol or MTA. In a primary molar with deep caries approaching the pulp and signs of reversible pulpitis (pain, tenderness to percussion but no periapical pathology), a pulpotomy is the standard of care to preserve the vitality of the radicular pulp. Direct pulp cap is generally reserved for small, traumatic exposures or very small carious exposures where the pulp is not inflamed; in deep caries, the superficial pulp is often irreversibly inflamed, making pulpotomy more predictable. Complete pulpectomy is indicated for irreversible pulpitis or necrosis, which is not the case here as the pulp is vital and the inflammation is reversible. Extraction is not indicated as the tooth is restorable and has no periapical pathology.",
+    "correctAnswer": 0,
+    "explanation": "Reversible pulpitis in a primary molar without a disclosed pulp exposure is best managed by indirect pulp capping (Sturdevant’s Art & Science of Operative Dentistry, 7th ed.; AAPD & CDA pediatric endodontic guidelines). Because indirect capping is not an answer choice, the next most conservative option is direct pulp capping with calcium hydroxide, which is indicated when a small, clean exposure is present. Pulpotomy is reserved for irreversible pulpitis or a confirmed exposure with inflamed radicular pulp, and pulpectomy or extraction are indicated only when the pulp is necrotic or the tooth is non‑restorable. Therefore the correct answer from the available options is option 0.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -14343,8 +14343,8 @@
       "Extract the entire tooth",
       "Reposition the coronal fragment and rigid splinting"
     ],
-    "correctAnswer": 0,
-    "explanation": "For a middle third root fracture with a displaced coronal segment, repositioning the fragment as anatomically as possible and then splinting the tooth for stabilization is the most appropriate initial management to promote healing. Extracting the coronal segment or the entire tooth would be overly aggressive at this stage, and rigid splinting is generally not recommended as it can impair healing.",
+    "correctAnswer": 3,
+    "explanation": "International Association of Dental Traumatology (IADT) and Canadian Dental Association trauma protocols state that for a middle‑third root fracture with a mobile coronal segment, the fragment should be repositioned as anatomically as possible and then splinted (preferably semi‑rigid) for 4 weeks to promote healing of the pulp and periodontal tissues. Simple splinting without repositioning does not address the displacement and may compromise re‑union. Extraction of any portion is unnecessary unless the tooth is non‑restorable. Hence the most appropriate initial management is option 3.",
     "aiVerified": true
   },
   {

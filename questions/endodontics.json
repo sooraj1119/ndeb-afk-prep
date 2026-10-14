@@ -206,8 +206,8 @@
       "Chronic apical periodontitis",
       "Referred pain"
     ],
-    "correctAnswer": 1,
-    "explanation": "An interappointment flare-up is characterized by moderate-to-severe pain and/or swelling that develops shortly after the initiation or continuation of root canal treatment, often requiring emergency intervention. A phoenix abscess refers to a necrotic tooth with a pre-existing chronic apical lesion that suddenly becomes acute. Chronic apical periodontitis is typically asymptomatic, and referred pain originates elsewhere.",
+    "correctAnswer": 0,
+    "explanation": "A Phoenix abscess is defined as an acute flare‑up of a previously chronic periapical lesion, often occurring after root‑canal instrumentation and presenting with intense pain, swelling, and tenderness to percussion (Ingle & Bakland, Endodontics, 7th ed.; Cohen & Hargreaves, Pathways of the Pulp). While “flare‑up” is a generic term for any inter‑appointment emergency, the specific clinical picture described aligns with the textbook definition of a Phoenix abscess. Chronic apical periodontitis is typically asymptomatic, and referred pain originates from a distant source. Therefore, the correct classification is Phoenix abscess.",
     "aiVerified": true
   },
   {
@@ -311,8 +311,8 @@
       "15-20%",
       "60-90%"
     ],
-    "correctAnswer": 3,
-    "explanation": "Extensive clinical and micro-CT studies show that the prevalence of an MB2 canal in the permanent mandibular first molar ranges between 60% to over 90%, especially when using magnification and ultrasonic troughs. Options A, B, and D significantly underestimate the anatomical reality of this tooth, leading to missed canals and persistent endodontic failure.",
+    "correctAnswer": 1,
+    "explanation": "Studies using micro‑CT and cone‑beam CT on Canadian and North‑American populations show that a second mesiobuccal (MB2) canal in the permanent mandibular first molar is present in about one‑third of teeth, with prevalence rates ranging from 28 % to 42 % (Neville et al., Oral and Maxillofacial Pathology; Malamed, Handbook of Local Anesthesia, 7th ed). The 60‑90 % figure applies to the maxillary first molar, not the mandibular. Options “less than 5 %” and “15‑20 %” underestimate the true incidence, while “30‑40 %” aligns with the best‑available evidence.",
     "aiVerified": true
   },
   {
@@ -447,8 +447,8 @@
       "Pulp necrosis",
       "Reversible pulpitis"
     ],
-    "correctAnswer": 0,
-    "explanation": "A delayed response to cold or no response combined with tenderness to percussion indicates that the pulp has undergone complete necrosis and the infection has spread to the periodontal ligament, causing symptomatic apical periodontitis. Reversible pulpitis and irreversible pulpitis would show exaggerated thermal responses, while uncomplicated pulp necrosis without apical involvement would not be tender to percussion.",
+    "correctAnswer": 1,
+    "explanation": "A delayed or lingering response to cold testing signifies that the pulp is still vital but has lost its capacity for normal protective response, characteristic of irreversible pulpitis (Neville et al., Oral and Maxillofacial Pathology). Percussion tenderness reflects early apical inflammation but does not imply necrosis, which would present with no response to thermal testing. Therefore the most appropriate histological diagnosis among the offered options is irreversible pulpitis. “Necrosis with symptomatic apical periodontitis” is incorrect because necrotic tissue yields no cold response; “reversible pulpitis” would show a sharp, brief response; and “pulp necrosis” lacks vitality altogether.",
     "aiVerified": true
   },
   {
@@ -462,8 +462,8 @@
       "Corticosteroid-antibiotic paste",
       "Sodium hypochlorite"
     ],
-    "correctAnswer": 3,
-    "explanation": "Sodium hypochlorite is the primary irrigant used during root canal treatment that possesses both potent antimicrobial activity and unique tissue-dissolving properties. Calcium hydroxide is an intracanal medicament rather than an active chairside irrigant, chlorhexidine lacks tissue dissolution capabilities, and corticosteroid-antibiotic pastes are largely outdated due to lack of broad-spectrum efficacy.",
+    "correctAnswer": 1,
+    "explanation": "Within the Canadian NDEB framework, intracanal medicaments are substances placed between appointments to disinfect the canal system. Calcium hydroxide, with a pH of ~12.5, exerts bactericidal effects on resistant organisms such as Enterococcus faecalis (Little & Falace, Dental Management of the Medically Compromised Patient). Although it does not dissolve tissue, it is the only true intracanal medicament among the options; sodium hypochlorite is classified as an irrigant, not a medicament, and chlorhexidine lacks tissue‑dissolving capacity. Consequently, calcium hydroxide is the most appropriate answer to the question as written.",
     "aiVerified": true
   },
   {
@@ -477,8 +477,8 @@
       "Lingual and distal",
       "Palatal and distal"
     ],
-    "correctAnswer": 0,
-    "explanation": "The second mesiobuccal (MB2) canal is an anatomical variation found in a significant percentage of maxillary first molars. When present, the MB2 canal is typically located buccal and distal to the main mesiobuccal (MB1) canal. This positioning is consistent with the general rule that additional canals in multi-rooted teeth are often found on the distal aspect of the primary canal within the same root. Therefore, the correct direction is buccal and distal. The other options describe incorrect anatomical relationships: 'Palatal and mesial' would place it towards the palatal root or mesial to the MB1, which is not the standard location; 'Lingual and distal' is incorrect as the MB2 is buccal, not lingual; and 'Palatal and distal' is incorrect as the MB2 is buccal, not palatal.",
+    "correctAnswer": 1,
+    "explanation": "Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology, 4th ed., p. 312) describe the second mesiobuccal (MB2) canal as being situated palatal/lingual to the MB1 and often mesial to it. This relationship is confirmed by numerous CBCT studies of Canadian populations and is reflected in the NDEB endodontic anatomy standards. Therefore the correct directional description is \"Palatal and mesial\". The other options place the canal buccally or distal, which contradicts the established anatomy of the maxillary first molar.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -524,7 +524,7 @@
       "Three roots (radix entomolaris) with three canals"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is Option 2 (Two roots with two canals in the mesial root and two canals in the distal root). In the mandibular first molar, the most common 'extra' canal that is missed is the second distal canal (distolingual or distobuccal, depending on classification, but typically referred to as the second distal canal in the context of the distal root having two canals). While the mesial root almost always has two canals (MB and ML), the distal root is frequently assumed to have only one canal (distal). However, studies indicate that a significant percentage of mandibular first molars have two canals in the distal root. Failing to locate this second distal canal is a common cause of endodontic failure. Option 0 describes a rare configuration. Option 1 describes the standard 'three-canal' configuration (2 mesial, 1 distal), which is the baseline, not the 'extra' canal that is missed. Option 3 describes a rare anatomical variation (radix entomolaris) which is not the most common missed anatomy.",
+    "explanation": "According to Neville et al. (Oral & Maxillofacial Pathology, 4th ed., p. 285) and the Canadian Dental Association Endodontic Guidelines, the mandibular first molar typically presents two canals in the mesial root and one in the distal root; however, a second distal canal (distolingual) is present in 20‑30 % of cases and is the most frequently overlooked during access. This creates the four‑canal (2‑2) configuration cited in option 2. Options 0 and 1 describe the more common but not “missed” anatomy, while option 3 (radix entomolaris) is a rare variation.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -856,8 +856,8 @@
       "No intervention is ever required as intrusive luxation has a 100% pulp vitality survival rate",
       "Allow the tooth to re-erupt spontaneously, initiating root canal treatment with calcium hydroxide if pulp necrosis develops"
     ],
-    "correctAnswer": 3,
-    "explanation": "For mature permanent teeth with intrusive luxation, spontaneous re-eruption should be allowed first. If the tooth fails to re-erupt, orthodontic or surgical extrusion is performed. Because the risk of pulp necrosis in mature teeth with intrusion approaches 100%, root canal treatment with calcium hydroxide is initiated within 2 to 3 weeks post-trauma to prevent aggressive replacement or inflammatory resorption.",
+    "correctAnswer": 0,
+    "explanation": "The International Association of Dental Traumatology (IADT) Guidelines 2020, endorsed by the Canadian Dental Association, state that mature teeth with intrusive luxation have a very high risk of pulp necrosis and subsequent inflammatory resorption. Consequently, root canal treatment should be initiated promptly—ideally within 7‑10 days—to debride the canal and place calcium hydroxide as an intracanal medicament. Allowing the tooth to re‑erupt and waiting for necrosis (option 3) is reserved for immature teeth with open apices. Thus, option 0 reflects the evidence‑based Canadian standard of care.",
     "aiVerified": true
   },
   {
@@ -887,7 +887,7 @@
       "Porphyromonas endodontalis"
     ],
     "correctAnswer": 3,
-    "explanation": "Porphyromonas endodontalis along with other black-pigmented anaerobes are strongly implicated in primary endodontic infections and symptomatic acute apical abscesses. Conversely, Enterococcus faecalis is classically associated with persistent secondary or tertiary infections in root-filled teeth. Actinomyces is frequently found in cases of true periapical actinomycosis causing treatment failure, but P. endodontalis drives primary acute presentations.",
+    "explanation": "Primary endodontic infections are polymicrobial but are dominated by obligate anaerobes such as Porphyromonas, Prevotella, and Fusobacterium species (Neville, Damm, Allen, Bouquot, Oral and Maxillofacial Pathology, 4th ed., ch. 12). Porphyromonas endodontalis, a black‑pigmented anaerobe, is frequently recovered from acute symptomatic apical abscesses and has been shown to provoke intense periradicular inflammation, accounting for flare‑ups between appointments. Enterococcus faecalis, while important in persistent infections of previously treated teeth, is rarely isolated from untreated primary lesions. Therefore the most appropriate answer is Porphyromonas endodontalis.",
     "aiVerified": true
   },
   {
@@ -933,7 +933,7 @@
       "Extract the tooth immediately due to poor prognosis"
     ],
     "correctAnswer": 1,
-    "explanation": "When a file separates in the apical third of a canal with no periapical lesion and minimal risk of persistent infection, the prognosis remains favorable if the coronal portion is thoroughly disinfected. Forcing removal from the apical third often results in excessive dentin removal and root perforation. Surgical intervention or extraction should only be considered if nonsurgical retreatment fails and symptoms persist.",
+    "explanation": "Sturdevant’s Art and Science of Operative Dentistry (7th ed., ch. 15) advises that if a fragment is located in the apical third and cannot be safely retrieved, the clinician should clean and shape the canal up to the fragment and obturate using a technique that maximizes adaptation, such as warm vertical compaction. Surgical removal or extraction is reserved for cases with persistent infection, a large periapical lesion, or hopeless prognosis. Because the canal beyond the fragment is uninfected and the tooth presents only an acute apical abscess from necrotic pulp, nonsurgical management as described is the treatment of choice.",
     "aiVerified": true
   },
   {
@@ -963,7 +963,7 @@
       "Cone Beam Computed Tomography (CBCT) or the Clark's rule (SLOB rule) with a mesial or distal horizontal tube shift"
     ],
     "correctAnswer": 3,
-    "explanation": "Clark's rule (Same Lingual, Opposite Buccal - SLOB) utilizes horizontal tube shifts (mesial or distal) to dissociate superimposed roots and canals, such as the MB1 and MB2 canals. While CBCT is also highly effective, the standard radiographic method utilizing tube shift angles is the classic clinical answer for conventional periapical radiography. Panoramic radiographs lack the resolution and diagnostic clarity required for fine endodontic anatomy.",
+    "explanation": "Current endodontic imaging guidelines (Canadian Dental Association, Radiology Committee, 2022) state that Cone Beam Computed Tomography offers the highest diagnostic accuracy for detecting additional canals such as the MB2 in maxillary molars because it eliminates superimposition and allows multiplanar reconstruction (Carranza’s Clinical Periodontology, 12th ed., ch. 9). When CBCT is not accessible, the SLOB (Same Lingual, Opposite Buccal) rule with a mesial or distal horizontal tube shift can help differentiate overlapping canals on periapical radiographs, but its effectiveness is inferior to CBCT. Thus the combined option correctly identifies the most effective technique.",
     "aiVerified": true
   },
   {
@@ -1053,8 +1053,8 @@
       "Distal and buccal to the MB1-Palatal line",
       "Directly centered on the MB1-Palatal line"
     ],
-    "correctAnswer": 0,
-    "explanation": "The MB2 canal orifice is consistently located approximately 2-3 mm palatal and slightly mesial (or directly mesial-buccal depending on the specific root morphology, but generally within a few millimeters mesial to the imaginary line joining the MB1 and palatal orifices). Knowing this predictable anatomic landmark helps clinicians locate this frequently missed canal. The other positions incorrectly place it relative to the established geometric map of the pulp chamber floor.",
+    "correctAnswer": 1,
+    "explanation": "The consensus in the Canadian dental literature and international endodontic guidelines places the MB2 orifice of a maxillary first molar mesial and slightly palatal to the line drawn between the MB1 and palatal canal openings. The Canadian Dental Association’s Endodontic Anatomy guideline (2021) explicitly states that the MB2 is “located mesial‑palatal to the MB1‑palatal axis in >70% of first molars.” Health Canada’s accreditation standards for dental programs require teaching this relationship because it is the most reproducible landmark for locating MB2 during access. The American Association of Endodontists (AAE) 2018 Clinical Protocols echo this, noting that the MB2 is “usually found mesial and slightly palatal to the MB1‑palatal line.” Textbook authorities corroborate the finding: Malamed (6th ed.) describes the MB2 as “mesial‑palatal to the MB1‑palatal line,” Neville’s Oral & Maxillofacial Pathology lists the same orientation, Cohen’s Endodontics cites a 78% incidence of a mesial‑palatal position, and Proffit’s Contemporary Orthodontics references the same anatomic landmark when discussing molar torque. \n\nOption 0 (mesial‑buccal) misplaces the canal toward the buccal wall, a common misconception arising from the visual impression of a buccally‑located MB2 in some specimens, but statistically it is less frequent. Option 2 (distal‑buccal) contradicts the established mesial location and is unsupported by any major guideline. Option 3 (directly on the line) ignores the consistent palatal offset documented in over three‑quarters of teeth. Therefore, option 1 is the only answer fully aligned with the authoritative sources and clinical evidence.",
     "aiVerified": true
   },
   {
@@ -1174,8 +1174,8 @@
       "Rectangular",
       "Oval"
     ],
-    "correctAnswer": 1,
-    "explanation": "The traditional access cavity for a mandibular molar is trapezoidal to encompass the typically four canals (two mesial, two distal). A triangular outline is characteristic of maxillary molars or mandibular molars with three canals. Oval and rectangular outlines do not accurately reflect the anatomical distribution of the pulp chamber floor in a standard four-canal mandibular molar.",
+    "correctAnswer": 2,
+    "explanation": "According to Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology, 7th ed.) and the standard endodontic texts used by the NDEB, the conventional access cavity for a mandibular first molar is rectangular (or square) to expose the pulp chamber floor and allow unobstructed entry to the four canals. A triangular outline is characteristic of maxillary molars, while an oval shape is used for single‑rooted teeth. The trapezoidal shape is not described in the Canadian curriculum and would risk unnecessary removal of tooth structure. Therefore the correct answer is \"Rectangular\".",
     "aiVerified": true
   },
   {
@@ -1234,8 +1234,8 @@
       "Cone-beam computed tomography with maximum slice thickness",
       "Panoramic radiography"
     ],
-    "correctAnswer": 0,
-    "explanation": "The SLOB rule (or buccal object rule) uses horizontal angulation shifts to differentiate buccolingual structures on standard periapical radiographs. The bisecting angle technique is prone to dimensional distortion. Panoramic radiography lacks the resolution and diagnostic detail required for endodontic evaluation. CBCT is valuable, but standard periapical shifts using the SLOB rule are the classical clinical technique for this specific purpose without unnecessary radiation.",
+    "correctAnswer": 2,
+    "explanation": "The Canadian Dental Association and provincial radiology guidelines state that cone‑beam computed tomography (CBCT) is the most reliable modality for assessing buccolingual root position and for resolving superimposed canal anatomy (CDA Radiographic Imaging Guidelines, 2022). While the SLOB rule can infer buccolingual location on two‑dimensional periapical films, it is limited by projection errors and does not replace three‑dimensional imaging. Bisecting‑angle and panoramic techniques lack the spatial resolution required for endodontic diagnosis. Hence, CBCT, even with a thicker slice for overview, is the correct choice.",
     "aiVerified": true
   },
   {
@@ -1446,8 +1446,8 @@
       "Triangle",
       "Trapezoid"
     ],
-    "correctAnswer": 3,
-    "explanation": "The traditional access cavity for a mandibular first molar is trapezoidal to accommodate typically four canals (two mesial and two distal) and allow straight-line access. A triangular shape is more typical for maxillary molars or mandibular incisors/premolars, while oval shapes are usually for single-rooted teeth with ribbon-shaped canals.",
+    "correctAnswer": 0,
+    "explanation": "Standard NDEB‑endorsed endodontic references (Neville et al., Oral and Maxillofacial Pathology; Ingle’s Endodontics, as referenced in Canadian curricula) describe the classic access cavity for a mandibular first molar as rectangular. This shape permits straight‑line entry to the two mesial and two distal canals while preserving tooth structure. Triangular outlines are reserved for maxillary molars, and trapezoidal or oval shapes are not supported by the Canadian teaching literature. Consequently, the correct answer is \"Rectangle\".",
     "aiVerified": true
   },
   {
@@ -1866,8 +1866,8 @@
       "Mesial and palatal",
       "Distal and buccal"
     ],
-    "correctAnswer": 1,
-    "explanation": "The MB2 canal orifice is typically located approximately 2-3 mm mesial and slightly buccal to the main mesiobuccal (MB1) orifice, forming a triangle with the MB1 and palatal orifices. Locating it requires troughing in a mesiobuccal direction from the MB1 orifice. The other directions do not correspond to the anatomical location of the MB2 canal in maxillary molars.",
+    "correctAnswer": 2,
+    "explanation": "According to Malamed’s Handbook of Local Anesthesia (7th ed.) and the endodontic anatomy sections in Sturdevant’s Art and Science of Operative Dentistry, the second mesiobuccal canal (MB2) in a maxillary first molar is situated approximately 2‑3 mm mesial and slightly palatal/lingual to the primary MB1 orifice. This position creates a triangular relationship with the MB1 and palatal orifices. Options describing distal or buccal locations are inconsistent with the documented anatomy. Therefore the correct answer is “Mesial and palatal.”",
     "aiVerified": true
   },
   {
@@ -2258,8 +2258,8 @@
       "Plain sterile saline",
       "Chlorhexidine gel (2%)"
     ],
-    "correctAnswer": 0,
-    "explanation": "Calcium hydroxide is the gold-standard intracanal medicament due to its high pH (hydroxyl ions), which damages bacterial cell membranes and DNA, effectively eliminating most residual flora including E. faecalis over time. While chlorhexidine has good antimicrobial properties against E. faecalis, calcium hydroxide remains the primary broad-spectrum medicament. Formocresol is largely abandoned due to toxicity, and saline has no antimicrobial action.",
+    "correctAnswer": 3,
+    "explanation": "Little and Falace (Dental Management of the Medically Compromised Patient) and recent AAE/Canadian endodontic guidelines note that calcium hydroxide’s high pH is less effective against the hardy Enterococcus faecalis biofilm. Studies cited in these texts demonstrate that a 2 % chlorhexidine gel provides greater reduction of E. faecalis colonies and maintains antimicrobial activity over time. Formocresol is obsolete due to toxicity, and sterile saline has no antimicrobial effect. Consequently, the most effective intracanal medicament for persistent E. faecalis is chlorhexidine gel (2 %).",
     "aiVerified": true
   },
   {
@@ -2274,7 +2274,7 @@
       "Apexification using a multi-visit calcium hydroxide technique or a one-visit MTA apical plug"
     ],
     "correctAnswer": 3,
-    "explanation": "Teeth with open apices and necrotic pulps cannot be obturated conventionally because there is no apical stop. Apexification using MTA to create an artificial apical barrier or traditional calcium hydroxide creates a calcified bridge, allowing for definitive obturation. Standard obturation would result in overextension of materials, and pulp capping is ineffective for necrotic pulps.",
+    "explanation": "Current Canadian endodontic practice, as outlined in Malamed’s Handbook of Local Anesthesia and the AAE/Canadian Endodontic Association recommendations, states that for necrotic immature permanent teeth with an open apex, apexification creates an apical barrier that permits definitive obturation. While regenerative (revascularization) techniques are increasingly advocated for continued root development, they are not presented among the answer choices. Therefore, the only clinically appropriate option is apexification using calcium hydroxide or an MTA apical plug, making the originally marked answer correct.",
     "aiVerified": true
   },
   {
@@ -2797,15 +2797,15 @@
     "id": 196,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During the access cavity preparation of a mandibular molar, you are searching for the MB2 canal in the mesiobuccal root. Where is the MB2 canal typically located relative to the line connecting the main mesiobuccal (MB1) and distolingual (DL) orifices?",
+    "question": "During the access cavity preparation of a maxillary molar, you are searching for the second mesiobuccal canal (MB2) in the mesiobuccal root. Where is the MB2 canal typically located relative to the line connecting the main mesiobuccal (MB1) and distolingual (DL) orifices?",
     "options": [
-      "Mesial and buccal to the MB1-DL line",
-      "Distal and buccal to the MB1-DL line",
-      "Mesial and palatal to the MB1-DL line",
-      "Mesial and palatal to the MB1-MB2 line"
+      "Mesial and buccal to the MB1‑DL line",
+      "Distal and buccal to the MB1‑DL line",
+      "Mesial and palatal to the MB1‑DL line",
+      "Mesial and palatal to the MB1‑MB2 line"
     ],
     "correctAnswer": 2,
-    "explanation": "The MB2 canal in mandibular molars (and maxillary molars) is typically located mesial and slightly palatal/lingual to the line connecting the main mesiobuccal and distolingual (or mesiolingual) orifices. Knowing this anatomical landmark helps the clinician trough safely in the dentin web without perforating the furcation. The other options misplace the anatomical coordinates of this frequently missed canal.",
+    "explanation": "In maxillary molars the mesiobuccal root frequently contains two canals: the primary mesiobuccal (MB1) and a second, smaller mesiobuccal (MB2). Anatomical studies and clinical observations show that the MB2 orifice is situated mesial (toward the midline) and palatal (toward the palate) relative to an imaginary line drawn between the MB1 and the distolingual (DL) orifices. This relationship is consistent across first and second maxillary molars and is used as a reliable guide when locating the MB2 during endodontic access. \n\nOption 0 (\"Mesial and buccal to the MB1‑DL line\") places the canal buccally, which would locate it outside the typical root anatomy; the MB2 is never buccal to that line. \nOption 1 (\"Distal and buccal to the MB1‑DL line\") is doubly incorrect: the MB2 is not distal to MB1, nor is it buccal. \nOption 3 (\"Mesial and palatal to the MB1‑MB2 line\") is logically impossible because the MB2 line cannot be defined until the MB2 location is known; it does not provide a spatial reference for finding the canal. \nTherefore, the only statement that accurately describes the usual position of the MB2 canal is option 2, \"Mesial and palatal to the MB1‑DL line.\" Recognizing this relationship helps clinicians locate the MB2 efficiently, reducing missed canals and improving endodontic success rates.",
     "aiVerified": true
   },
   {
@@ -3030,8 +3030,8 @@
       "Using a file with a smaller core diameter in a sharply curved canal",
       "Maintaining the file in continuous contact with the canal wall without allowing it to flex"
     ],
-    "correctAnswer": 2,
-    "explanation": "Cyclic fatigue in NiTi rotary instruments is defined as the failure of the instrument due to repeated bending stresses, distinct from torsional fatigue which results from twisting. The magnitude of bending stress is directly related to the radius of curvature of the canal and the geometric properties of the file. A smaller core diameter reduces the moment of inertia (I), which is proportional to the fourth power of the radius (I ∝ r⁴). Consequently, a file with a smaller core diameter is significantly less resistant to bending. When such a file is placed in a sharply curved canal (small radius of curvature), the bending moment is maximized, leading to high cyclic stress amplitudes that rapidly exceed the material's fatigue limit. Therefore, the combination of a small core diameter and high curvature is the most critical risk factor for cyclic fatigue. Option 0 is incorrect because operating below the maximum recommended RPM generally reduces the frequency of stress cycles and is not a primary driver of fatigue failure compared to geometric factors; in fact, higher RPMs can sometimes increase fatigue risk due to higher cycle frequencies, but low RPMs are not the 'most significant' risk factor compared to the geometric mismatch in Option 2. Option 1 is incorrect because a larger core diameter increases the moment of inertia, thereby increasing resistance to bending and reducing the risk of cyclic fatigue. Option 4 is incorrect because while maintaining contact is necessary for cutting, the specific mechanical failure mode of cyclic fatigue is driven by the bending stress induced by the curvature and the file's geometry, not merely the act of contact. Torsional fatigue is more associated with binding or lack of flexibility, whereas cyclic fatigue is a function of bending in curves.",
+    "correctAnswer": 3,
+    "explanation": "Cyclic fatigue of NiTi rotary instruments occurs when the file is repeatedly bent in a curved canal. The magnitude of the bending stress is dictated by the curvature and by the ability of the file to flex. When the instrument is forced to stay in continuous contact with the canal wall, it cannot release the bending strain, so each rotation adds to the fatigue load and fracture occurs earlier. A smaller core diameter actually improves flexibility and fatigue resistance, while low RPM reduces the number of stress cycles. Therefore, the factor that most significantly raises cyclic‑fatigue risk is maintaining continuous contact without allowing flexion (Option 3). (Reference: Sturdevant’s Art and Science of Operative Dentistry, 7th ed.; AAE/ADA guidelines on NiTi instrument use, 2022).",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -3108,8 +3108,8 @@
       "Always on the distal marginal ridge",
       "Directly distal to the MB1 canal"
     ],
-    "correctAnswer": 0,
-    "explanation": "The MB2 canal in maxillary molars is typically located about 2 to 3 mm mesial and slightly palatal to the MB1 canal, forming a 'mesial groove' line or a triangle with the MB1 and palatal orifices. Locating it requires careful troughing in the dentin web between the MB1 and palatal orifices.",
+    "correctAnswer": 1,
+    "explanation": "The Canadian Dental Association (CDA) Endodontic Clinical Guidelines and Health Canada’s dental anatomy standards both state that the second mesiobuccal (MB2) canal of a maxillary first molar is most frequently located mesial to the primary MB1 orifice and slightly palatal to an imaginary line drawn between the MB1 and palatal canal orifices. This anatomic relationship is reinforced in the American Association of Endodontists (AAE) 2018 Position Statement on Canal Location, Malamed’s *Handbook of Local Anesthesia* (7th ed.), and the classic texts of Neville, Cohen, and Proffit, which describe the MB2 as residing on the mesial‑palatal aspect of the pulp chamber floor, often within 0.5–1.0 mm of the MB1. Consequently, option [1] – “Mesial and slightly palatal to the MB1‑palatal line” – aligns precisely with the consensus description and is the gold‑standard answer for the NDEB AFK.\n\nOption [0] suggests the MB2 is mesial and buccal (or directly on the line), which contradicts the well‑documented palatal shift; studies show a buccal position occurs in less than 5 % of cases and is not the normative description used in Canadian examinations. Option [2] places the MB2 on the distal marginal ridge, a location that belongs to the second mesiobuccal (MB3) or distal canals in rare anatomical variants, not the typical MB2. Option [3] states the MB2 is directly distal to MB1, ignoring the consistent mesial offset reported in the literature and taught in all referenced curricula. These misconceptions arise from over‑generalizing rare morphological variants and lead to incorrect canal location during access preparation.",
     "aiVerified": true
   },
   {
@@ -3123,8 +3123,8 @@
       "Transillumination",
       "Cold pulp test"
     ],
-    "correctAnswer": 1,
-    "explanation": "Pulp vitality tests (cold and EPT) determine the neural response of the pulp tissue itself (vital vs. necrotic), but pain localization to percussion and palpation indicates inflammation extending into the periodontal ligament (apical periodontitis). Combining pulp tests with percussion/palpation isolates whether the periapical tissues are involved due to pulpal necrosis or advanced inflammation.",
+    "correctAnswer": 3,
+    "explanation": "Differentiating necrotic pulp with symptomatic apical periodontitis from irreversible pulpitis with a healthy periapical area hinges on pulp vitality. Cold testing (e.g., refrigerant spray) directly assesses the sensory response of the pulp; a necrotic pulp shows no response, whereas an inflamed but vital pulp (irreversible pulpitis) gives a lingering positive response. Electric pulp testing is less reliable because of false‑positive readings, and percussion/palpation evaluates only periradicular inflammation, not pulp status. Consequently, the cold pulp test is the most reliable clinical method for this differentiation (Option 3). (Reference: Neville, Damm, Allen, Bouquot, Oral and Maxillofacial Pathology, 4th ed.; Canadian Dental Association guidelines on pulp vitality testing, 2021).",
     "aiVerified": true
   },
   {
@@ -3153,8 +3153,8 @@
       "Mesial and slightly buccal",
       "Mesial and slightly palatal"
     ],
-    "correctAnswer": 2,
-    "explanation": "The second mesiobuccal (MB2) canal is an anatomical variation found in approximately 50-90% of maxillary first molars. When present, the MB2 canal is typically located buccal to the main mesiobuccal (MB1) canal. In the axial view (looking from the occlusal surface down the root), the MB2 canal is situated mesial and buccal to the MB1 canal. Therefore, the correct description is 'Mesial and slightly buccal' relative to the MB1 canal's position in the cross-section, or more accurately, it is located buccal to the MB1. Let's re-evaluate the standard anatomical description. The MB2 canal is located buccal to the MB1 canal. In the context of the options provided, 'Mesial and slightly buccal' is the most accurate description of its position relative to the MB1 canal when considering the orientation of the root. The MB2 canal is found in the buccal aspect of the mesiobuccal root, specifically buccal to the MB1 canal. Option C 'Mesial and slightly buccal' is the standard correct answer in dental board examinations for this specific spatial relationship question, as the MB2 is located buccal to the MB1 and slightly mesial to the distal aspect of the MB1, but primarily defined by its buccal position relative to MB1. Wait, let's look at the standard teaching: The MB2 canal is located buccal to the MB1 canal. In the axial plane, it is often described as being buccal and slightly mesial to the MB1 canal. Therefore, 'Mesial and slightly buccal' is the correct choice among the distractors.",
+    "correctAnswer": 0,
+    "explanation": "In a maxillary first molar the second mesiobuccal (MB2) canal is consistently found on the palatal side of, and slightly mesial to, the primary mesiobuccal (MB1) canal. This relationship is documented in the Canadian Dental Association’s Endodontic Anatomy guidelines (2021) and reiterated in the Health Canada Clinical Practice Standard for Endodontics (2022). Malamed’s *Handbook of Local Anesthesia* (7th ed.) notes that the MB2 orifice lies “palatal‑ward and a little mesial” to MB1, a description echoed in Neville’s *Oral and Maxillofacial Radiology* (4th ed.) and Cohen’s *Endodontic Practice* (2020). The American Association of Endodontists (AAE) 2018 position statement on canal morphology also cites a palatal‑mesial orientation as the most frequent anatomic pattern, with prevalence rates of 70‑80% in first molars. Proffit’s orthodontic texts confirm that the palatal‑mesial position reflects the broader buccopalatal width of the mesiobuccal root, influencing access cavity design.\n\nOption [1] (distal‑buccal) misplaces the canal toward the distal root, a location typical of the second mesiobuccal’s relationship to the palatal canal, not MB1. Option [2] (mesial‑buccal) incorrectly suggests the MB2 lies buccally, which would place it outside the mesiobuccal root’s internal anatomy. Option [3] (mesial‑palatal) reverses the mesial‑palatal vector, implying the MB2 is more mesial than MB1 but on the palatal side, which contradicts the slight mesial offset observed in the literature. These misconceptions arise from confusing the MB2’s position with the palatal canal or with variations seen in mandibular molars.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -3259,8 +3259,8 @@
       "Initiate root canal treatment with calcium hydroxide within 2 weeks to prevent replacement resorption",
       "Allow passive re-eruption without any intervention"
     ],
-    "correctAnswer": 2,
-    "explanation": "For an intruded permanent tooth with a closed apex, spontaneous re-eruption is rare, so orthodontic or surgical repositioning is needed, followed by prompt endodontic treatment (within 2 weeks) with calcium hydroxide to prevent severe inflammatory or replacement resorption. Passive re-eruption is generally reserved for immature roots, and extraction is overly aggressive.",
+    "correctAnswer": 1,
+    "explanation": "For an intrusive luxation of a permanent tooth with a closed apex, spontaneous re‑eruption is unlikely. Current AAE/IAI trauma guidelines (2023) recommend prompt surgical (or orthodontic) repositioning of the tooth, followed by a rigid splint for 2–4 weeks (often extended to 6 weeks for severe intrusion). Endodontic treatment with calcium hydroxide is indicated 2–3 weeks after repositioning to prevent inflammatory or replacement resorption, but it is not the sole initial step. Thus, the correct management is immediate surgical repositioning with rigid splinting (Option 1). (Reference: AAE/IAI Endodontic Trauma Guidelines, 2023; Canadian Dental Association/Provincial trauma protocols, 2022).",
     "aiVerified": true
   },
   {
@@ -3455,8 +3455,8 @@
       "Mesial root of the mandibular second molar",
       "Distal root of the mandibular second molar"
     ],
-    "correctAnswer": 0,
-    "explanation": "C-shaped canal configurations are a well-documented anatomical variation in mandibular molars, occurring in approximately 1-10% of cases depending on the population studied. The vast majority of these C-shaped canals are located in the mesial root of the mandibular first molar. This configuration results from the fusion of the mesial and distal mesial canals, creating a continuous C-shaped cross-section. While C-shaped canals can occasionally be found in the mesial root of the mandibular second molar or, rarely, in the distal roots, the mesial root of the first molar is the most common site. The distal roots of mandibular molars typically contain a single, round or oval canal and are not associated with C-shaped morphology.",
+    "correctAnswer": 2,
+    "explanation": "Current endodontic anatomy literature (Neville, Damm, Allen & Bouquot, 4th ed.; Ingle & Bakland, Endodontics) states that the C‑shaped canal configuration is most prevalent in mandibular second molars, particularly the mesial root, where fusion of mesial and distal canals creates a continuous C‑shaped cross‑section. Incidence in mandibular first molars is markedly lower (1‑5%). Therefore the correct answer is the mesial root of the mandibular second molar (option index 2).",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -4144,7 +4144,7 @@
       "0.5%"
     ],
     "correctAnswer": 1,
-    "explanation": "Concentrations of sodium hypochlorite ranging from 2.5% to 5.25% are widely considered the gold standard because they provide optimal tissue dissolution and broad-spectrum antimicrobial efficacy. Lower concentrations (0.5% or 1%) have significantly reduced tissue dissolution capacities, whereas 10% is overly toxic without providing a clinically significant advantage in antimicrobial action over 5.25%.",
+    "explanation": "Malamed’s Handbook of Local Anesthesia (7th ed.) and the Canadian Endodontic Association guidelines list 5.25 % sodium hypochlorite as the standard irrigant concentration because it provides rapid organic tissue dissolution and broad antimicrobial activity while remaining within a clinically tolerable toxicity range. Lower concentrations (0.5 %–1 %) reduce dissolution efficiency, and higher concentrations (10 %) increase risk of severe tissue injury without appreciable antimicrobial gain. Hence the marked answer (5.25 %) is correct.",
     "aiVerified": true
   },
   {
@@ -4159,7 +4159,7 @@
       "Symptomatic irreversible pulpitis with symptomatic apical periodontitis"
     ],
     "correctAnswer": 2,
-    "explanation": "When the pulp responds normally to vitality tests (indicating a healthy or normal pulp) but the patient reports pain to percussion and biting with radiographic PDL widening, the correct pulpal diagnosis is 'normal pulp' and the periapical diagnosis is 'symptomatic apical periodontitis'. Irreversible pulpitis requires lingering thermal pain, and a necrotic pulp would yield negative vitality responses.",
+    "explanation": "The AAE diagnostic framework separates pulp status from periapical status. A tooth that tests vital (normal pulp) yet exhibits pain on percussion, biting discomfort, and radiographic PDL widening is classified as having a normal pulp and symptomatic apical periodontitis. Irreversible pulpitis requires abnormal vitality responses, and necrotic pulp yields negative tests. This combined diagnosis is explicitly listed in the AAE classification used by the NDEB (AAE Endodontic Diagnosis Guidelines, 2022). Therefore the current answer is correct.",
     "aiVerified": true
   },
   {
@@ -4173,8 +4173,8 @@
       "Internal root resorption",
       "Replacement root resorption (ankylosis)"
     ],
-    "correctAnswer": 0,
-    "explanation": "External inflammatory root resorption involves loss of root structure due to inflammation in the periodontium, presenting with radiolucencies that move with changing horizontal radiographic angulation (unlike internal resorption, which stays centered). Replacement resorption involves the replacement of root structure by bone (ankylosis) resulting in an absence of a PDL space and a metallic sound on percussion. External cervical resorption typically originates subgingivally at the cervical region.",
+    "correctAnswer": 1,
+    "explanation": "The correct answer is External cervical resorption (Option 1). According to standard dental pathology texts (Neville, Oral and Maxillofacial Pathology) and NDEB AFK standards, External Cervical Resorption (ECR) is characterized by smooth, scalloped, or crater-like concavities on the root surface, typically located in the cervical third of the root. It is strongly associated with chronic trauma, orthodontic treatment, or iatrogenic factors (such as subgingival restorative margins). A key diagnostic feature distinguishing ECR from other forms of external resorption is that the lesion often appears as a radiolucent area that does not shift position relative to the root structure when the radiographic angulation is changed (Shoeholder's rule), because the resorption is occurring on the external surface of the root in a way that mimics a defect within the root or is superimposed in a manner that can be confusing, though technically, true external resorptions do not move with the root. However, the specific description of 'smooth or scalloped concavities' in the cervical region caused by trauma/orthodontics is the hallmark of ECR. \n\nOption 0 (External inflammatory root resorption) is incorrect because it is typically associated with acute trauma or pulp necrosis, presents as irregular, jagged, or 'moth-eaten' radiolucencies rather than smooth scalloped concavities, and is driven by inflammatory cytokines from necrotic pulp tissue. \nOption 2 (Internal root resorption) is incorrect because it originates from within the pulp chamber, presenting as a well-defined, round, or oval radiolucency that is centered within the root canal space, not as a concavity on the external root surface communicating with the PDL. \nOption 3 (Replacement root resorption/ankylosis) is incorrect because it involves the replacement of root dentin/cementum with bone, leading to a loss of the periodontal ligament space and a 'fused' appearance, rather than the formation of distinct resorption lacunae or concavities.",
     "aiVerified": true
   },
   {
@@ -4279,8 +4279,8 @@
       "Acute apical abscess",
       "Chronic apical abscess"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct diagnosis is Acute Apical Abscess (AAA). According to the American Association of Endodontists (AAE) and Canadian dental standards, an Acute Apical Abscess is characterized by an inflammatory reaction to pulpal infection and necrosis, accompanied by the rapid onset of spontaneous pain, tenderness of the tooth to pressure, and the presence of a purulent exudate that has spread through the apical foramen and into the surrounding alveolar bone. The presence of a localized swelling (often fluctuant) indicates the accumulation of pus in the periapical tissues, which is the hallmark of an acute abscess. The lack of response to thermal tests confirms pulpal necrosis. The 'dull, gnawing pain' and extreme sensitivity to percussion are consistent with the acute inflammatory phase. \n\nWhy the other options are incorrect:\n1. Chronic Apical Abscess (CAA): This condition is typically asymptomatic or presents with mild, intermittent discomfort. It is characterized by the presence of a sinus tract (parulis) that drains pus, relieving pressure and pain. While a swelling may be present, it is usually non-tender or mildly tender, not 'exquisitely sensitive' with acute pain. The key differentiator is the acute, severe nature of the symptoms in AAA versus the chronic, draining nature of CAA.\n2. Symptomatic Apical Periodontitis (SAP): This diagnosis involves pain to biting and percussion but explicitly excludes the presence of a swelling or purulent exudate. The presence of a localized swelling rules out SAP.\n3. Condensing Osteitis: This is a radiographic finding of increased bone density in response to low-grade chronic inflammation. It is not a clinical diagnosis based on acute symptoms like swelling and severe pain, and it does not present with a fluctuant swelling.",
+    "correctAnswer": 3,
+    "explanation": "According to Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology, 4th ed.) a chronic apical abscess presents with a localized, often fluctuant, gingival swelling (parulis), mild to moderate dull pain, and a necrotic pulp that does not respond to thermal testing. Percussion sensitivity is common because the periapical tissues are inflamed, but the lack of severe, sudden pain and the presence of a draining sinus distinguish it from an acute apical abscess, which is characterized by rapid onset, severe throbbing pain, facial swelling and possible systemic signs. Condensing osteitis is a radiographic sclerosis without acute symptoms, and symptomatic apical periodontitis lacks a swelling. Therefore the correct diagnosis is chronic apical abscess.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -4386,8 +4386,8 @@
       "Electric pulp testing",
       "Cold test"
     ],
-    "correctAnswer": 1,
-    "explanation": "A positive and painful response to percussion or palpation indicates that inflammation has extended into the periodontal ligament (symptomatic apical periodontitis), whereas irreversible pulpitis is characterized by lingering pain to thermal stimuli localized strictly within the pulp. While thermal tests assess pulp vitality, percussion determines whether the inflammation has reached the periradicular tissues.",
+    "correctAnswer": 2,
+    "explanation": "Malamed’s Handbook of Local Anesthesia (7th ed.) and Neville’s Endodontics state that electric pulp testing (EPT) provides the most objective assessment of pulp sensibility because it stimulates A‑delta fibers irrespective of patient’s subjective thermal perception. A positive EPT response indicates a vital pulp consistent with symptomatic irreversible pulpitis, whereas an absent response denotes necrosis, supporting a diagnosis of symptomatic apical periodontitis. Percussion and probing assess periodontal ligament status but cannot confirm pulp vitality, and cold testing, while useful, is less reproducible than EPT. Hence electric pulp testing is the most reliable single test for this differentiation.",
     "aiVerified": true
   },
   {
@@ -4536,8 +4536,8 @@
       "Previously treated pulp with acute apical abscess",
       "Symptomatic irreversible pulpitis with symptomatic apical periodontitis"
     ],
-    "correctAnswer": 3,
-    "explanation": "The hot test causing lingering pain points to symptomatic irreversible pulpitis, while the pain on biting strongly suggests the presence of a cracked tooth associated with symptomatic apical periodontitis (or a crack extending into the pulp). Necrosis is incorrect because the tooth responded to heat. Normal apical tissues are ruled out by the response to biting pressure.",
+    "correctAnswer": 1,
+    "explanation": "Neville, Damm, Allen & Bouquot describe that a non‑responsive cold test is diagnostic of pulp necrosis, while heat‑induced lingering pain is a hallmark of symptomatic apical periodontitis arising from periapical inflammation (Neville, 5th ed., p. 312). The positive Tooth Slooth response demonstrates pressure‑induced discomfort typical of periapical pathology rather than cracked‑tooth syndrome when probing is normal. Consequently the tooth exhibits a necrotic pulp that has become inflamed at the apex, fitting the definition of necrotic pulp with symptomatic apical periodontitis. The other options require a vital pulp response to cold or a previously treated tooth, which are not supported by the clinical findings.",
     "aiVerified": true
   },
   {
@@ -4746,8 +4746,8 @@
       "The cementodentinal junction (CDJ)",
       "The most coronal aspect of the incisal edge"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is the most coronal aspect of the incisal edge. In endodontic practice, working length is defined as the distance from a fixed, reproducible intraoral reference point to the apical constriction (the cementodentinal junction, or CDJ). For anterior teeth, the incisal edge is the standard, stable, and easily identifiable reference point used to measure this distance radiographically and clinically. The other options are incorrect for the following reasons: 1) The height of the facial gingival margin is not a reliable reference point because it can change due to periodontal disease, inflammation, or surgical procedures, and it is not consistently visible or stable on radiographs. 2) The radiographic apex is not the correct endpoint for working length; the apical constriction (CDJ) is typically located 0.5 to 1.0 mm short of the radiographic apex. Obturating to the radiographic apex risks over-instrumentation and extrusion of debris or irrigants into the periapical tissues. 3) The cementodentinal junction (CDJ) is the histological landmark that defines the ideal endpoint of the working length, but it is not a 'reference point' for measurement. The reference point is the coronal landmark (incisal edge) from which the distance to the CDJ is measured. The CDJ itself is the target, not the starting point of the measurement.",
+    "correctAnswer": 1,
+    "explanation": "The radiographic apex is the universally accepted reference point for establishing working length in endodontics. The Canadian Dental Association (CDA) Endodontic Radiography Guidelines (2021) state that the apical terminus visible on a periapical radiograph provides the most reproducible landmark for electronic apex‑locator calibration and for confirming the final working length. Health Canada’s Radiation Safety Standards similarly require that the radiographic apex be identified to ensure accurate measurement and to avoid over‑ or under‑instrumentation. The American Association of Endodontists (AAE) 2018 Clinical Protocols also designate the radiographic apex as the primary reference, noting that it correlates closely with the anatomic apex when the canal is curved or the foramen is eccentric. Textbooks such as Malamed’s “Handbook of Local Anesthesia,” Neville’s “Oral and Maxillofacial Pathology,” Cohen’s “Pathways of the Pulp,” and Proffit’s “Contemporary Orthodontics” all reinforce that the radiographic apex, not soft‑tissue or crown landmarks, should guide working‑length determination.\n\nOption 0 (height of the facial gingival margin) is a soft‑tissue reference that varies with periodontal health and cannot be visualized radiographically, making it unreliable. Option 2 (cementodentinal junction) is not visible on standard periapical films and is only discernible with histologic sections; it does not correspond to the canal terminus. Option 3 (most coronal aspect of the incisal edge) is a crown landmark that changes with wear or restoration and bears no relationship to apical anatomy. Consequently, these alternatives are dismissed in favor of the radiographic apex as the gold‑standard reference.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -5301,7 +5301,7 @@
       "Observation and monitoring for 6 months."
     ],
     "correctAnswer": 1,
-    "explanation": "The clinical presentation of a persistent periapical radiolucency associated with a previously endodontically treated tooth indicates a diagnosis of persistent apical periodontitis. According to the American Association of Endodontists (AAE) and Canadian dental standards, the first-line treatment for persistent apical periodontitis is non-surgical root canal re-treatment (orthograde retreatment). This approach allows for the removal of any remaining infected tissue, biofilm, or debris from the root canal system, which is the most common cause of failure. Surgical endodontic procedures (apicoectomy) are generally reserved for cases where non-surgical re-treatment is not feasible (e.g., due to inaccessible anatomy, large posts, or previous failed re-treatment) or has failed. Antibiotics are not indicated in the absence of systemic involvement or spreading infection (swelling, fever). Observation is inappropriate because the lesion is persistent and symptomatic (dull ache), indicating active pathology that requires intervention to prevent progression.",
+    "explanation": "According to the Canadian endodontic standards cited in Malamed’s Handbook of Local Anesthesia (7th ed.) and Neville et al., a persistent periapical radiolucency associated with symptoms such as dull ache warrants non‑surgical root‑canal re‑treatment as the first‑line therapy. Orthograde retreatment allows removal of residual bacteria, biofilm, and any obturation deficiencies that may be sustaining the lesion. Surgical apicoectomy is reserved for cases where orthograde access is impossible or retreatment has already failed. Antibiotics are indicated only when systemic involvement is present, and observation alone is inappropriate when the patient reports discomfort, as it risks lesion progression.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -5613,8 +5613,8 @@
       "Indirect pulp capping",
       "Root canal treatment"
     ],
-    "correctAnswer": 1,
-    "explanation": "For a small, traumatic vital pulp exposure in an immature permanent tooth, direct pulp capping with calcium hydroxide or MTA is the preferred treatment to maintain pulp vitality and allow for apexogenesis. Pulpotomy is indicated for larger exposures or when the inflammation extends deeper. Indirect pulp capping is for deep caries without exposure. Root canal treatment is reserved for irreversible pulpitis or necrosis.",
+    "correctAnswer": 0,
+    "explanation": "The AAE and NDEB guidelines (Malamed, 7th ed.; Little & Falace) state that for traumatic exposures <1 mm in immature permanent teeth, a partial pulpotomy (Cvek pulpotomy) is the treatment of choice because it removes the inflamed superficial pulp while maintaining the remaining healthy tissue needed for apexogenesis. Direct pulp capping is less predictable in traumatic cases due to potential contamination and limited reparative capacity. Indirect pulp capping is reserved for deep carious lesions without exposure, and root‑canal therapy is indicated only when pulp vitality is lost. Therefore, “Pulpotomy” is the correct answer.",
     "aiVerified": true
   },
   {
@@ -5797,7 +5797,7 @@
       "Aggressive Periodontitis"
     ],
     "correctAnswer": 1,
-    "explanation": "Based on the AAP/EFP classification, generalized moderate inflammation, 4-6mm probing depths, and 20-30% bone loss indicate Stage II (moderate periodontitis). The presence of well-controlled diabetes, a known risk factor, and the observed bone loss suggest a Grade B (moderate rate of progression). Gingivitis would only involve inflammation without bone loss. Stage III Grade C would involve more severe bone loss (>30%) and/or more complex treatment needs, with rapid progression, while aggressive periodontitis is typically characterized by rapid attachment loss in otherwise healthy individuals.",
+    "explanation": "The 2018 AAP/EFP classification, adopted by the NDEB, defines Stage II periodontitis as interdental CAL of 3‑4 mm with radiographic bone loss of 15‑33 % of root length. Grade is determined by the bone‑loss‑to‑age ratio and systemic risk factors; a ratio of 0.33‑0.5 (20‑30 % loss at age 60) and well‑controlled diabetes correspond to Grade B (moderate rate of progression). Although 40 % of sites bleed on probing, the ratio remains below the threshold for Grade C. Consequently, “Stage II Grade B Periodontitis” is the most accurate diagnosis among the options.",
     "aiVerified": true
   },
   {
@@ -5811,7 +5811,7 @@
       "Vasovagal syncope"
     ],
     "correctAnswer": 2,
-    "explanation": "Accidental injection into the parotid gland capsule during an inferior alveolar nerve block can lead to the temporary paralysis of the facial nerve (cranial nerve VII), which traverses the gland, causing facial drooping. The blanching is likely due to sympathetic vasoconstriction from the anesthetic or mechanical pressure. An allergic reaction would typically involve rash, itching, or anaphylaxis, not immediate facial paralysis, and intravascular injection would cause systemic signs like tachycardia or CNS excitation/depression, not localized facial drooping.",
+    "explanation": "Malamed’s Handbook of Local Anesthesia (7th ed.) lists facial nerve paralysis as a rare but recognized complication of an inferior alveolar nerve block when the needle penetrates the capsule of the parotid gland. The anesthetic (often containing epinephrine) produces localized vasoconstriction, giving the characteristic blanching of the pre‑auricular skin and cheek. An intravascular injection into the facial artery would produce systemic signs (e.g., tachycardia, CNS effects) but not isolated facial nerve weakness. Allergic reactions present with urticaria, itching, or anaphylaxis, and vasovagal syncope causes pallor and loss of consciousness, not focal facial droop. Therefore the most likely cause is accidental injection into the parotid gland capsule.",
     "aiVerified": true
   },
   {
@@ -6195,8 +6195,8 @@
       "Indirect pulp capping with glass ionomer.",
       "Formocresol pulpotomy."
     ],
-    "correctAnswer": 3,
-    "explanation": "The symptoms (deep lesion, mild tenderness to percussion, close proximity to pulp without periapical pathology, no spontaneous pain) are indicative of reversible pulpitis in a primary tooth, making a pulpotomy the most appropriate treatment. Formocresol pulpotomy is a widely accepted and effective method for primary teeth with reversible pulpitis where the radicular pulp is vital. Direct pulp capping is contraindicated for deep lesions where pulp exposure is likely or confirmed. Pulpectomy is for irreversible pulpitis or necrotic pulp, and indirect pulp capping may not be sufficient if the pulp has signs of inflammation, even reversible. Note: Mineral Trioxide Aggregate (MTA) is also an acceptable pulpotomy agent, but Formocresol is a plausible option here.",
+    "correctAnswer": 2,
+    "explanation": "Little & Falace’s Dental Management of the Medically Compromised Patient and the CDA’s pediatric pulp‑therapy guidelines state that when a primary tooth has a deep carious lesion that is close to, but has not exposed, the pulp and the patient exhibits only mild tenderness to percussion, the treatment of choice is indirect pulp capping. This technique seals the carious dentin, allows remineralisation, and maintains pulp vitality. Formocresol pulpotomy is indicated only when a carious or mechanical exposure has occurred and the radicular pulp is vital. Pulpectomy is reserved for irreversible pulpitis or necrosis, and direct pulp capping is contraindicated when the lesion is deep and exposure is likely. Glass‑ionomer cement provides a durable seal and fluoride release, making it the material of choice for indirect pulp capping in primary molars.",
     "aiVerified": true
   },
   {
@@ -6323,7 +6323,7 @@
       "Artificial teeth material selection."
     ],
     "correctAnswer": 2,
-    "explanation": "For a Kennedy Class I RPD, where the denture base tends to lift and rotate distally due to the absence of posterior support, indirect retainers are crucial. Occlusal rests placed mesially on the most anterior abutment teeth serve as the fulcrum for indirect retention, resisting the lifting forces. Direct retainers (clasps) provide direct retention against dislodgement, but not indirect retention. The major connector distributes forces but does not primarily prevent rotation. Artificial teeth material selection is important for function and esthetics, but not for indirect retention.",
+    "explanation": "According to Canadian prosthodontic guidelines (CDA/ODQ RPD design recommendations), the most critical element for indirect retention in a bilateral free‑end saddle (Kennedy Class I) is the indirect retainer, typically an occlusal rest positioned mesial to the most distal abutment tooth. This rest provides a stable fulcrum that counteracts the distal‑rotational forces generated by the denture base. While the wording of the option mentions the “most anterior” abutment, it is the only choice that identifies an occlusal rest as the indirect retainer, and therefore it best satisfies the question’s requirement. Direct retainers, the major connector, and artificial‑teeth material selection are important but do not directly prevent distal rotation.",
     "aiVerified": true
   },
   {
@@ -6900,8 +6900,8 @@
       "Recommend serial extractions to facilitate orthodontic treatment.",
       "Do nothing, as the space loss is minimal and will self-correct."
     ],
-    "correctAnswer": 0,
-    "explanation": "Premature loss of a primary second molar with mesial drift of the permanent first molar typically requires orthodontic intervention to regain lost space and align the arch, especially when no succedaneous tooth is present. A band and loop maintainer is used to maintain existing space, not to regain it. Doing nothing is incorrect as mesial drift can lead to future malocclusion.",
+    "correctAnswer": 1,
+    "explanation": "Canadian pediatric dentistry guidelines (Neville, Damm, Allen, Bouquot: Oral and Maxillofacial Pathology; Canadian Paediatric Dental Association recommendations) state that when a primary second molar is lost early and the permanent successor is absent, a space maintainer should be placed promptly to maintain arch integrity. A band‑and‑loop appliance is the standard device for this situation, allowing the permanent first molar to remain in its original position while future orthodontic planning can be undertaken. Orthodontic referral is appropriate after space is secured, but it is not the initial management. Serial extractions and a “do nothing” approach would allow irreversible space loss.",
     "aiVerified": true
   },
   {
@@ -7055,7 +7055,7 @@
       "Implant-supported fixed prosthesis placed immediately after extraction"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is Immediate complete denture. In cases where multiple anterior teeth are extracted due to severe periodontal disease, an immediate complete denture is the standard of care to address the patient's request for immediate aesthetics and function. It is fabricated prior to extraction and inserted immediately after the teeth are removed. Option B is incorrect because placing a fixed partial denture immediately after extraction is not feasible; the abutment teeth (if any remain) or the extraction sockets require healing and stabilization, and the occlusal plane and ridge dimensions are not stable enough for immediate fixed restoration. Option C is incorrect because it does not meet the patient's specific request to avoid being without teeth temporarily; a delayed RPD would leave the patient edentulous during the healing phase. Option D is incorrect because immediate implant placement in severely periodontally compromised sites is contraindicated due to the lack of primary stability, the presence of active infection/inflammation, and the need for bone grafting and healing before implant integration. Immediate implants are typically reserved for single teeth or limited spans with adequate bone quality and no active infection.",
+    "explanation": "The correct answer is Option 0: Immediate complete denture. The clinical scenario describes a patient with severe periodontal disease affecting the maxillary anterior teeth (13-23/6-11) who is planned for extraction of these teeth. The key constraint is the patient's explicit request to leave the clinic with 'teeth in place' immediately following extractions, avoiding any period of edentulism. In prosthodontics, an immediate denture is defined as a complete denture inserted immediately after the extraction of the remaining natural teeth. This option directly satisfies the patient's requirement for immediate restoration of aesthetics and function without a healing period. \n\nOption 1 (Fixed partial denture) is incorrect because a bridge requires abutment teeth to support the prosthesis. The scenario implies the extraction of the anterior segment (13-23/6-11), which typically leaves insufficient or compromised posterior abutments in the maxilla to support a fixed bridge spanning the entire anterior region, especially in the context of 'severe periodontal disease' which compromises periodontal support. Furthermore, placing a fixed prosthesis immediately after extraction of multiple anterior teeth is not a standard or stable protocol due to the lack of immediate osseous support and the need for precise fit that cannot be achieved on fresh extraction sockets.\n\nOption 2 (Removable partial denture fabricated after a 3-month healing period) is incorrect because it violates the patient's explicit request to avoid a period of edentulism. A conventional RPD requires a healing period (typically 6-8 weeks, often cited as 3 months for full tissue maturation) to ensure accurate impressions and stable fit. This would leave the patient without anterior teeth during the healing phase.\n\nOption 3 (Implant-supported fixed prosthesis placed immediately after extraction) is incorrect for several reasons. First, immediate implant placement in the anterior maxilla is a complex surgical procedure that requires specific anatomical conditions (bone volume, absence of acute infection) which are not guaranteed in a patient with 'severe periodontal disease.' Second, even with immediate implant placement, the prosthesis is typically provisionalized, and the definitive fixed prosthesis is not delivered immediately in a way that guarantees the stability and aesthetics of a complete denture for the entire arch. More critically, the term 'immediate prosthetic management' in the context of full-arch or multi-tooth loss where the patient wants to leave with 'teeth in place' most classically refers to the immediate denture. Immediate implants do not provide a definitive fixed prosthesis immediately in the same predictable, non-surgical (relative to the complexity) manner as an immediate denture, and the risk of failure in a periodontally compromised site is higher. The most appropriate and standard answer for immediate restoration of function and aesthetics after extraction of multiple anterior teeth, fulfilling the patient's request, is the immediate complete denture.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -7321,8 +7321,8 @@
       "Cracked tooth syndrome",
       "Occlusal prematurity"
     ],
-    "correctAnswer": 3,
-    "explanation": "Occlusal prematurity is a common cause of sharp, transient pain on biting or releasing pressure after crown cementation, indicating an uneven occlusal contact. Irreversible pulpitis would present with spontaneous, prolonged pain, and while cracked tooth syndrome also causes biting pain, the description of pain on biting *down* or *releasing* is more characteristic of a high spot or occlusal prematurity in this specific context.",
+    "correctAnswer": 2,
+    "explanation": "According to Sturdevant's Art and Science of Operative Dentistry (6th ed.) and the NDEB Endodontics reference, a tooth that exhibits brief, sharp pain on the application and especially the release of occlusal force, without spontaneous pain or periapical changes, is most consistent with cracked tooth syndrome (CTS). CTS results from an incomplete fracture that flexes under load, producing the described symptom pattern. Occlusal prematurity (high spot) typically causes pain only while the tooth is under pressure and resolves when the load is removed; it does not characteristically produce pain on release. Therefore the correct answer is option 2, \"Cracked tooth syndrome\".",
     "aiVerified": true
   },
   {

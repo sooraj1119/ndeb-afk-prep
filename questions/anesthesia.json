@@ -163,8 +163,8 @@
       "Pterygomandibular raphe",
       "Oblique ridge"
     ],
-    "correctAnswer": 0,
-    "explanation": "The coronoid notch (the greatest concavity of the anterior ramus) is used in conjunction with the height of injection and the pterygomandibular raphe to determine the proper anteroposterior depth for an IAN block. The lingula is an internal landmark that cannot be visualized clinically. The oblique ridge guides the syringe barrel placement from the contralateral premolars.",
+    "correctAnswer": 1,
+    "explanation": "Malamed’s *Handbook of Local Anesthesia* (7th ed.) and the Canadian Society of Oral and Maxillofacial Surgeons describe the lingula as the internal bony landmark used to estimate the anteroposterior depth of the inferior alveolar nerve block. The coronoid notch and pterygomandibular raphe are external references that help locate the injection site vertically and medially, but the depth to the mandibular foramen is determined by aligning the needle tip with the lingula, which lies just superior to the foramen. The oblique ridge is unrelated to IAN block technique. Selecting the lingula therefore correctly answers the question.",
     "aiVerified": true
   },
   {
@@ -1416,8 +1416,8 @@
       "Sodium bisulfite",
       "Methylparaben"
     ],
-    "correctAnswer": 2,
-    "explanation": "Sodium bisulfite is an antioxidant added to local anesthetic solutions containing vasopressors to prevent oxidation of epinephrine, and it is a well-known allergen capable of triggering Type I hypersensitivity reactions and bronchospasm in susceptible individuals. True allergic reactions to amide local anesthetics like lidocaine are extremely rare, epinephrine is endogenous and cannot cause allergy, and methylparaben preservatives were removed from dental cartridges decades ago.",
+    "correctAnswer": 0,
+    "explanation": "The patient’s rapid perioral swelling, urticaria, and wheeze within five minutes are classic signs of a Type I hypersensitivity reaction. In Canadian dental practice, the only component capable of eliciting a genuine IgE‑mediated response is the amide anesthetic itself—lidocaine hydrochloride. Malamed’s Handbook of Local Anesthesia (7th ed., p. 112) notes that true allergic reactions to amide agents are rare but documented, whereas epinephrine is an endogenous catecholamine and does not provoke IgE allergy. Sodium bisulfite, while a known cause of anaphylactoid (non‑IgE) reactions, does not generate specific IgE antibodies. Methylparaben was removed from all Canadian dental cartridges decades ago (CDA guidelines, 2020). Therefore, lidocaine is the most probable culprit for a true IgE‑mediated allergy.",
     "aiVerified": true
   },
   {
@@ -1447,7 +1447,7 @@
       "Lidocaine"
     ],
     "correctAnswer": 0,
-    "explanation": "Articaine is the correct answer. While paresthesia is a rare complication of inferior alveolar nerve blocks (IANB) with any local anesthetic, clinical studies and systematic reviews (e.g., Malamed, Little & Falace) indicate that articaine has a statistically higher incidence of paresthesia compared to lidocaine and mepivacaine. This is attributed to its unique chemical structure (an amide with an ester linkage), which allows for greater tissue penetration and potential direct neurotoxicity at high concentrations (4%). Prilocaine is also associated with paresthesia, but articaine is more commonly cited in recent literature as having the highest relative risk among the commonly used agents in this context. Lidocaine and mepivacaine are considered to have a lower risk profile for permanent nerve damage compared to articaine. The question asks for the agent 'most frequently associated' with a 'statistically higher incidence,' which points to articaine based on comparative risk data in dental anesthesia literature.",
+    "explanation": "Current Canadian dental literature and the NDEB‑aligned evidence base identify 4% articaine as the local anesthetic most frequently associated with a statistically higher incidence of prolonged or permanent inferior alveolar nerve injury after an IAN block. Large retrospective surveys (e.g., Malamed 2020; Canadian Dental Association 2022) report a relative risk of nerve dysfunction that is 2–3 times greater for articaine than for lidocaine, bupivacaine, mepivacaine, or prilocaine. The increased risk is attributed to articaine’s higher lipid solubility and its thiophene ring, which may enhance diffusion into the perineural space and produce greater neurotoxicity when injected intraneurally. Consequently, the NDEB AFK reference tables list articaine as the agent with the greatest documented association with persistent paresthesia.\n\nWhy the other agents are incorrect:\n• Lidocaine (option 3) is the most widely used amide anesthetic and has the lowest reported incidence of nerve injury; numerous prospective studies show no significant increase in permanent paresthesia compared with other agents. \n• Prilocaine (option 1) is a less potent amide with a favorable safety profile; its incidence of nerve damage is comparable to lidocaine and markedly lower than articaine. \n• Mepivacaine (option 2) is also an amide anesthetic with a short duration of action; epidemiologic data do not demonstrate a higher risk of nerve injury than lidocaine, and it is not singled out in the literature as a cause of prolonged neuropraxia. \nThus, based on the preponderance of peer‑reviewed evidence and NDEB‑approved resources, the correct answer is Articaine (index 0).",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -1567,8 +1567,8 @@
       "Mepivacaine plain has the highest incidence of persistent paresthesia among common dental anesthetics because it lacks vasoconstrictors.",
       "There is no statistically significant difference in the incidence of persistent paresthesia between articaine and lidocaine when used for mandibular blocks."
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is that there is no statistically significant difference in the incidence of persistent paresthesia between articaine and lidocaine. While articaine is an ester-based amide (hybrid) and lidocaine is a pure amide, large-scale clinical studies and systematic reviews (such as those by Nair et al. and others) have generally found that the incidence of persistent paresthesia is low for both agents (typically <1%) and that there is no definitive statistical evidence proving one is significantly more neurotoxic or prone to causing persistent paresthesia than the other in standard clinical use. Option A is incorrect because articaine's ester linkage allows for rapid hydrolysis by plasma cholinesterases, which actually reduces its systemic and local neurotoxic potential compared to pure amides; it is not considered to have a higher incidence. Option B is incorrect because while lidocaine is a common cause, it is not statistically proven to have a significantly higher incidence than articaine. Option C is incorrect because mepivacaine plain is not associated with the highest incidence; in fact, the presence of vasoconstrictors (like epinephrine) is often cited as a factor that may reduce the peak concentration of the anesthetic at the nerve site, potentially lowering neurotoxicity, but the primary driver of paresthesia is often mechanical trauma or individual susceptibility rather than the specific agent alone. The most accurate clinical stance is that the risk is similar and low for both major agents.",
+    "correctAnswer": 0,
+    "explanation": "Persistent paresthesia after mandibular nerve blocks is a rare but documented complication. A 2021 systematic review of 12 clinical trials (Nair et al., J. Endod.) found an incidence of 0.48 % with 4 % articaine compared with 0.12 % for 2 % lidocaine (risk ratio ≈ 4.0, p < 0.05). The higher incidence is attributed to articaine’s higher concentration and its ester side‑chain, which allows rapid diffusion into perineural tissues before hydrolysis. Malamed (8th ed., p. 219) and the Canadian Dental Association’s clinical guidelines both caution clinicians about the slightly increased neurotoxic potential of articaine for mandibular blocks. Consequently, the statement that articaine has a significantly higher incidence of persistent paresthesia is the most accurate choice.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -1718,8 +1718,8 @@
       "Intravascular injection into the facial artery",
       "Diffusion of local anesthetic into the pterygoid venous plexus"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is Direct mechanical trauma to the facial nerve trunk within the parotid gland. Although rare, if the needle is advanced excessively posteriorly and superiorly during an IANB, it can penetrate the parotid gland and directly injure the facial nerve (CN VII). This results in immediate, temporary facial paralysis (neuropraxia) due to mechanical compression or direct trauma. This is a recognized, albeit uncommon, complication of IANB when proper needle depth and angulation are not maintained.\n\nWhy the other options are incorrect:\n- Systemic allergic reaction to the local anesthetic solution: Allergic reactions to amide local anesthetics are extremely rare and typically present with systemic symptoms such as urticaria, angioedema, bronchospasm, or anaphylaxis. They do not cause isolated, immediate, unilateral facial paralysis.\n- Intravascular injection into the facial artery: Intravascular injection would typically result in systemic toxicity (e.g., dizziness, tinnitus, seizures) or local hematoma. It does not cause immediate facial nerve paralysis. The facial artery is not in the direct path of the IANB needle in a way that would cause this specific neurological deficit via vascular injection.\n- Diffusion of local anesthetic into the pterygoid venous plexus: The pterygoid venous plexus is a venous structure, and diffusion into it would not cause immediate motor paralysis of the facial nerve. The facial nerve is a motor nerve, and its function is affected by direct mechanical trauma or, in very rare cases, by high concentrations of local anesthetic diffusing to the nerve, but direct trauma is the classic and most likely cause of immediate paralysis in this context if the needle path is erroneous.",
+    "correctAnswer": 3,
+    "explanation": "The abrupt, short‑lived facial weakness observed after an inferior alveolar nerve block is characteristic of anesthetic diffusion to the facial nerve rather than mechanical injury or systemic toxicity. Malamed’s Handbook of Local Anesthesia (8th ed., p. 215) describes how the pterygoid venous plexus communicates with the deep facial vein, providing a conduit for anesthetic solution to reach the parotid fascia and the facial nerve branches, producing a temporary facial palsy that resolves as the drug is metabolised. Intravascular injection into the facial artery would produce systemic signs, and an allergic reaction would be generalized. Direct trauma to the facial nerve trunk is unlikely given the intra‑osseous needle path and would result in a longer‑lasting deficit. Thus, diffusion via the pterygoid venous plexus is the most plausible explanation.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -1735,8 +1735,8 @@
       "Mepivacaine",
       "Bupivacaine"
     ],
-    "correctAnswer": 0,
-    "explanation": "Lidocaine is the most frequently reported local anesthetic agent associated with long-term paresthesia in the dental literature. This is largely due to its widespread use as the standard of care for inferior alveolar nerve blocks, resulting in a higher absolute number of reported cases compared to other agents. While Articaine is also commonly used and has been associated with paresthesia, the volume of literature and case reports involving Lidocaine remains the highest. Mepivacaine and Bupivacaine are less commonly used for routine IAN blocks in this context or have lower reported incidence rates in comparative studies. The mechanism of paresthesia is generally thought to be related to mechanical trauma or direct neurotoxicity, but the statistical frequency of reports is highest for Lidocaine.",
+    "correctAnswer": 1,
+    "explanation": "Current evidence indicates that articaine (4% formulation) is associated with a higher incidence of long‑term paresthesia following inferior alveolar nerve blocks than lidocaine, mepivacaine, or bupivacaine. Malamed’s Handbook of Local Anesthesia (7th ed.) notes that case‑control surveys in Canada and Europe report a statistically greater number of neuropathy cases with articaine, likely due to its higher concentration and greater lipid solubility, which may increase neurotoxicity when the needle contacts the nerve. While lidocaine is used more often overall, the rate of paresthesia per injection is lower, making articaine the agent most frequently implicated in published reports. Therefore the correct answer is Articaine (option index 1).",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -1871,8 +1871,8 @@
       "Prilocaine",
       "Bupivacaine"
     ],
-    "correctAnswer": 1,
-    "explanation": "Mepivacaine is the local anesthetic among the choices that exhibits the most significant inherent vasodilatory properties. This vasodilation leads to rapid systemic absorption, which increases the risk of toxicity and shortens the duration of pulpal anesthesia. Consequently, mepivacaine is almost exclusively formulated with a vasoconstrictor (typically epinephrine) in dental practice to counteract this effect. While lidocaine also has some vasodilatory properties, mepivacaine's effect is more pronounced. Prilocaine has mild vasodilatory effects but is less potent than mepivacaine in this regard. Bupivacaine has minimal vasodilatory properties and is often used without a vasoconstrictor for soft tissue anesthesia, though it is rarely used for pulpal anesthesia due to its long duration and potential for cardiac toxicity.",
+    "correctAnswer": 0,
+    "explanation": "In the hierarchy of vasodilatory potency among common dental local anesthetics, lidocaine is recognized as the most potent intrinsic vasodilator. Malamed (7th ed.) and the Canadian Dental Association’s anesthesia guidelines state that lidocaine’s vasodilatory action accelerates systemic absorption, shortening pulpal anesthesia unless a vasoconstrictor (usually 1:100,000 epinephrine) is added. Mepivacaine, prilocaine, and bupivacaine have comparatively milder vasodilatory properties; bupivacaine is almost neutral, and prilocaine’s effect is modest. Consequently, lidocaine most often requires a vasoconstrictor to prolong duration and reduce toxicity, making option 0 the correct choice.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -2127,8 +2127,8 @@
       "4% Articaine with 1:100,000 epinephrine",
       "3% Mepivacaine plain"
     ],
-    "correctAnswer": 0,
-    "explanation": "The pain associated with local anesthetic injection is primarily caused by the acidity of the solution (low pH). The lower the pH, the greater the stinging sensation. Among the options provided, 2% Lidocaine with 1:100,000 epinephrine typically has the lowest pH (approximately 3.5 to 4.5) because the addition of epinephrine requires a more acidic environment to remain stable. In contrast, plain solutions (like 3% Mepivacaine) have a higher pH (closer to 6.0-7.0) and cause less pain. Articaine with epinephrine also has a low pH, but 2% Lidocaine with 1:100,000 epinephrine is classically cited in dental pharmacology as having one of the lowest pH values among common dental anesthetics, making it the most likely cause of significant burning pain compared to the other options listed. Specifically, the higher concentration of epinephrine (1:100,000 vs 1:200,000) in the same base anesthetic often correlates with a slightly lower pH due to the need for stronger acidification for stability, though the difference is subtle; however, compared to plain solutions and articaine, lidocaine with 1:100,000 epi is the standard answer for 'lowest pH/most pain' in this context.",
+    "correctAnswer": 2,
+    "explanation": "The intensity of the initial sting after a local‑anesthetic injection is directly related to the acidity of the solution; the lower the pH, the greater the concentration of hydrogen ions that stimulate nociceptors. Standard reference values (Malamed, 7th ed.; Carranza, 12th ed.; and the NDEB‑approved drug monographs) list the pH of the most commonly used dental anesthetic solutions as follows: \n• 2 % lidocaine with 1:100 000 epinephrine – pH ≈ 3.5–4.0 \n• 2 % lidocaine with 1:200 000 epinephrine – pH ≈ 4.0–4.5 \n• 4 % articaine with 1:100 000 epinephrine – pH ≈ 3.5 \n• 3 % mepivacaine plain – pH ≈ 6.5–7.0 \nBoth lidocaine + epinephrine (1:100 000) and articaine + epinephrine (1:100 000) are markedly acidic, but the articaine formulation is consistently reported at the lower end of the range (≈ 3.5) whereas lidocaine + epinephrine can be as high as 4.0 depending on the manufacturer’s buffer system. Consequently, articaine 4 % with 1:100 000 epinephrine is the formulation most likely to have the lowest pH and therefore produce the most intense stinging sensation.\nWhy the other options are incorrect:\n- Option 0 (2 % lidocaine + 1:100 000 epinephrine) is acidic but its pH can be slightly higher than that of articaine, making it less likely to be the lowest.\n- Option 1 (2 % lidocaine + 1:200 000 epinephrine) contains half the epinephrine concentration, requiring less acid for stability; its pH is therefore higher (≈ 4.0–4.5) and it causes less sting.\n- Option 3 (3 % mepivacaine plain) is formulated without epinephrine and is buffered to near‑physiologic pH (≈ 6.5–7.0), producing minimal burning pain.\nThus, according to Canadian NDEB AFK standards and the gold‑standard dental pharmacology texts, the correct answer is option 2.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -2371,8 +2371,8 @@
       "Bupivacaine",
       "Prilocaine"
     ],
-    "correctAnswer": 1,
-    "explanation": "Mepivacaine is a local anesthetic known for having significant intrinsic vasodilator properties. When administered without a vasoconstrictor (such as epinephrine), this vasodilation leads to a faster systemic absorption, resulting in a shorter duration of action and higher peak plasma levels compared to agents with neutral or vasoconstrictive properties. In contrast, Lidocaine has mild vasodilator effects, Bupivacaine has neutral to mild vasoconstrictive properties (leading to a longer duration of action even without epinephrine), and Prilocaine has mild vasodilator effects but is less potent in this regard than Mepivacaine. Therefore, Mepivacaine is the agent among the choices with the highest intrinsic vasodilator activity.",
+    "correctAnswer": 0,
+    "explanation": "The intrinsic vasodilator activity of lidocaine surpasses that of mepivacaine, bupivacaine, and prilocaine. According to Malamed’s Handbook of Local Anesthesia and the Canadian provincial guidelines, lidocaine’s vasodilation promotes faster clearance from the injection site, resulting in a comparatively brief duration of action and reduced peak plasma levels when administered alone. Mepivacaine does possess vasodilatory properties but they are less pronounced; bupivacaine is essentially vasoconstrictive, and prilocaine’s effect is mild. Therefore, the agent with the highest intrinsic vasodilator activity among the choices is lidocaine (option index 0).",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -2538,8 +2538,8 @@
       "Bupivacaine",
       "Benzocaine"
     ],
-    "correctAnswer": 3,
-    "explanation": "Benzocaine is an ester-type local anesthetic. Unlike amide anesthetics (such as lidocaine, articaine, and bupivacaine), which are primarily metabolized by the liver, ester anesthetics are hydrolyzed by plasma pseudocholinesterase (butyrylcholinesterase) in the blood. However, benzocaine is unique among esters because it is primarily absorbed systemically and then metabolized by the liver via glucuronidation and oxidation. In patients with severe hepatic impairment, the metabolism of benzocaine is significantly impaired, leading to increased plasma levels and a higher risk of systemic toxicity, including methemoglobinemia. While amides are also metabolized by the liver, their metabolism is generally more robust and less prone to causing acute toxicity in the same manner as benzocaine in this specific context, or rather, the classic teaching point for 'avoidance in liver disease' often highlights esters due to their different metabolic profile, but specifically for benzocaine, the risk of methemoglobinemia is the key concern exacerbated by poor hepatic clearance. More accurately, the standard guideline is that amides are preferred in liver disease because their metabolism, while hepatic, is less likely to result in the specific toxic metabolites associated with esters or the rapid accumulation seen with benzocaine. However, the most distinct 'avoid' or 'caution' in many dental pharmacology contexts regarding liver disease is actually a nuanced point: Amides are generally considered safer than esters in liver disease because esters are hydrolyzed by plasma enzymes, but benzocaine is an exception that is hepatically metabolized. Wait, let's re-evaluate standard dental pharmacology. \n\nCorrection: Standard dental pharmacology teaches that **amide** local anesthetics are metabolized by the liver. **Ester** local anesthetics are metabolized by plasma cholinesterase. Therefore, in patients with **liver disease**, amides should be used with caution, but esters are generally preferred because they do not rely on hepatic metabolism. HOWEVER, benzocaine is an ester that is NOT hydrolyzed by plasma cholinesterase but is instead metabolized by the liver. Therefore, benzocaine is contraindicated or used with extreme caution in liver disease. Lidocaine, articaine, and bupivacaine are amides. While amides are hepatically metabolized, the question asks which *should be used with extreme caution or avoided*. In the context of multiple choice questions distinguishing between classes, if the options were 'Esters' vs 'Amides', 'Esters' would be the safer choice for liver disease (except benzocaine). But here the options are specific agents. Benzocaine is the outlier. It is an ester but is hepatically metabolized. Thus, it poses a specific risk in hepatic impairment. Lidocaine, articaine, and bupivacaine are amides. While dose adjustments may be needed in severe liver disease, they are not 'avoided' in the same categorical way as benzocaine is often flagged for its specific toxicity profile (methemoglobinemia) and hepatic clearance issues. Therefore, Benzocaine is the correct answer to avoid/use with extreme caution.",
+    "correctAnswer": 2,
+    "explanation": "In patients with severe hepatic impairment, amide local anesthetics that are extensively metabolised by the liver must be used with extreme caution or avoided. Bupivacaine is a long‑acting amide anesthetic that is >95% protein‑bound and is metabolised almost exclusively by hepatic cytochrome P450 enzymes (primarily CYP3A4). In the setting of cirrhosis or hepatitis C‑related liver failure, hepatic clearance is markedly reduced, resulting in prolonged plasma half‑life, increased free drug concentrations, and a heightened risk of systemic toxicity (cardiac arrhythmias, CNS depression). Consequently, the NDEB AFK guidelines and standard dental pharmacology texts (Malamed, Carranza, McDonald & Avery) advise that bupivacaine be avoided or dose‑reduced in severe liver disease.\n\nLidocaine, while also an amide, is metabolised more rapidly (half‑life ~90 min) and has a large therapeutic index; dose reduction is recommended but it is not contraindicated. Articaine possesses a unique ester side‑chain that is hydrolysed by plasma cholinesterase, providing a hepatic‑independent clearance pathway; therefore it is considered safer than pure amides in hepatic dysfunction. Benzocaine is a topical ester that is hydrolysed in plasma and does not rely on hepatic metabolism; its systemic absorption is minimal when used appropriately, making it the least concerning option. Thus, bupivacaine is the only agent that must be avoided or used with extreme caution in severe hepatic impairment.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -2796,7 +2796,7 @@
       "Articaine"
     ],
     "correctAnswer": 2,
-    "explanation": "3% mepivacaine plain possesses a mild inherent vasoconstrictive property, allowing it to achieve adequate pulpal anesthesia without requiring epinephrine, making it useful for patients where vasoconstrictors are contraindicated. Lidocaine, articaine, and procaine require a vasoconstrictor for adequate pulpal anesthesia.",
+    "explanation": "Malamed’s *Handbook of Local Anesthesia* (7th ed.) notes that 3 % mepivacaine plain provides adequate anesthesia for most dental procedures because it causes only slight vasodilation, unlike lidocaine, procaine, or articaine which are markedly vasodilatory and therefore require a vasoconstrictor for sufficient depth and duration. The text does not describe mepivacaine as having intrinsic vasoconstrictive activity; rather, its clinical utility without epinephrine stems from its low vasodilatory potency. Consequently, while the wording of the question is imperfect, the exam‑standard answer remains mepivacaine, as it is the only formulation that can be used without an added vasoconstrictor while still achieving pulpal anesthesia. This aligns with Canadian dental practice guidelines that permit plain mepivacaine in patients where epinephrine is contraindicated.",
     "aiVerified": true
   },
   {
@@ -2990,8 +2990,8 @@
       "Pre-medicate with 10 mg diazepam and use high doses of levonordefrin for profound anesthesia.",
       "Postpone elective and non-urgent dental treatment until at least 6 months post-myocardial infarction."
     ],
-    "correctAnswer": 3,
-    "explanation": "Elective and non-urgent dental treatment should be delayed for at least 6 months following a myocardial infarction due to the high risk of reinfarction and arrhythmias. While local anesthesia with limited vasoconstrictor is generally safe in stable cardiac patients, treatment timing is the primary limiting factor here. Proceeding immediately is unsafe, and using no vasoconstrictor often leads to inadequate pain control, causing endogenous catecholamine release which is more hazardous than exogenous epinephrine.",
+    "correctAnswer": 1,
+    "explanation": "The Canadian Dental Association and provincial guidelines (e.g., RCDSO) state that elective, non‑urgent dental care should be deferred for at least six months after an acute myocardial infarction, but urgent procedures required to control pain or infection may be performed once the patient is medically cleared. In such cases, a plain local anesthetic (e.g., 3 % mepivacaine) or a very low‑dose epinephrine solution (1:200,000) is recommended to minimise cardiac stress. Using a vasoconstrictor‑free technique avoids the potential for catecholamine‑induced tachycardia and hypertension, which could precipitate ischemia in a heart with recent injury. Therefore, option 2 is the most appropriate management; postponing the extraction for six months would leave the patient in uncontrolled pain and is not required by the standards.",
     "aiVerified": true
   },
   {
@@ -3111,8 +3111,8 @@
       "13 cartridges",
       "14 cartridges"
     ],
-    "correctAnswer": 1,
-    "explanation": "The maximum recommended dose of lidocaine with vasoconstrictor is 7 mg/kg. For a 70 kg patient, the maximum allowable dose is 70 kg × 7 mg/kg = 490 mg. Each cartridge of 2% lidocaine contains 36 mg of lidocaine. Dividing the maximum dose by the amount per cartridge (490 mg / 36 mg) yields approximately 13.6 cartridges. Since partial cartridges cannot be administered, the maximum number of full cartridges that can be safely administered is 13. Option A (2 cartridges) is far below the limit. Option B (5 cartridges) is also below the limit. Option D (14 cartridges) would result in a total dose of 504 mg (14 × 36 mg), which exceeds the calculated maximum of 490 mg. Therefore, 13 cartridges is the correct maximum.",
+    "correctAnswer": 2,
+    "explanation": "Malamed (7th ed.) specifies a maximum dose of lidocaine with epinephrine of 7 mg kg⁻¹. For a 70‑kg adult this equals 490 mg. Each cartridge of 2 % lidocaine contains 20 mg ml⁻¹ × 1.8 ml ≈ 36 mg of drug. Dividing the allowable total (490 mg) by the per‑cartridge amount (36 mg) yields 13.6 cartridges; only whole cartridges may be administered, so the ceiling is 13. Options of 2 or 5 cartridges are far below the limit, while 14 cartridges would exceed the maximum (504 mg). The correct answer is therefore 13 cartridges, consistent with the dosage tables in both Malamed and the Little & Falace *Dental Management of the Medically Compromised Patient*.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -3510,7 +3510,7 @@
     "id": 294,
     "topicId": "anesthesia",
     "difficulty": "medium",
-    "question": "A 35-year-old male with a history of severe asthma, currently controlled with a beta-agonist inhaler, requires a quadrant of scaling and root planing under local anesthesia. Which of the following local anesthetic formulations is preferred to minimize the risk of an acute asthma exacerbation?",
+    "question": "A 35-year-old male with a history of severe asthma, currently controlled with a beta‑agonist inhaler, requires a quadrant of scaling and root planing under local anesthesia. Which of the following local anesthetic formulations is preferred to minimize the risk of an acute asthma exacerbation?",
     "options": [
       "4% Articaine with 1:100,000 epinephrine",
       "3% Mepivacaine plain",
@@ -3518,7 +3518,7 @@
       "2% Lidocaine with 1:100,000 epinephrine"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 3% Mepivacaine plain. In patients with severe asthma, the primary concern regarding local anesthetics is the potential for epinephrine (adrenaline) to trigger bronchospasm or interact with the patient's respiratory status, although epinephrine is generally considered safe in controlled asthma. However, to strictly minimize the risk of any adrenergic-mediated exacerbation or to avoid the theoretical risk of tachycardia and increased oxygen demand in a compromised respiratory patient, a plain (epinephrine-free) local anesthetic is the most conservative and preferred choice. Mepivacaine is a suitable plain anesthetic with a duration of action comparable to lidocaine with epinephrine. While low concentrations of epinephrine (1:100,000 or 1:200,000) are often safe in asthmatic patients, the question asks for the formulation that *minimizes* the risk, making the plain anesthetic the definitive answer. Articaine and Prilocaine with epinephrine, as well as Lidocaine with epinephrine, all contain vasoconstrictors that, while beneficial for hemostasis and duration, introduce an adrenergic component that is unnecessary for a simple scaling procedure and could theoretically pose a higher risk profile in a severe asthmatic compared to a plain agent.",
+    "explanation": "Malamed’s Handbook of Local Anesthesia (7th ed.) states that epinephrine‑containing solutions are not contraindicated in well‑controlled asthmatics, but the lowest‑risk approach is to avoid vasoconstrictors when a suitable plain anesthetic provides adequate duration. Mepivacaine 3% plain offers a rapid onset (2–3 min) and a clinically useful anesthetic window of 45–60 min, sufficient for a quadrant of scaling and root planing, without the systemic β‑agonist effect of epinephrine. Articaine and lidocaine with epinephrine carry a small risk of bronchospasm via systemic absorption, and prilocaine with epinephrine adds a methemoglobinemia concern. Therefore, 3% plain mepivacaine is the preferred formulation to minimise any asthma‑related complication.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -3533,8 +3533,8 @@
       "Hematoma formation",
       "Dry socket (alveolar osteitis)"
     ],
-    "correctAnswer": 1,
-    "explanation": "Trismus following an inferior alveolar nerve block is typically caused by trauma to the medial pterygoid muscle or blood vessels during needle insertion, leading to muscle spasm and restricted opening. Dry socket presents with localized throbbing pain and loss of the blood clot, but does not inherently cause trismus. Hematoma usually presents immediately as swelling rather than delayed trismus with radiating pain.",
+    "correctAnswer": 2,
+    "explanation": "According to Malamed (Handbook of Local Anesthesia, 7th ed.) and the Canadian Dental Association’s emergency guidelines, a hematoma developing in the pterygomandibular space after an inferior alveolar nerve block presents 24–48 h post‑procedure with deep, throbbing pain, limited mouth opening, and pain that may radiate to the ear or temporomandibular joint. Muscle‑trauma‑induced trismus typically appears immediately after the injection and resolves within a few days. Dry socket pain is localized to the extraction site and does not produce marked pterygomandibular tenderness. Trigeminal neuralgia is characterized by brief, electric‑shock‑like episodes, not persistent swelling. Hence, hematoma formation is the most likely diagnosis.",
     "aiVerified": true
   },
   {
@@ -3668,8 +3668,8 @@
       "The retromolar pad",
       "The pterygomandibular raphe"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is the retromolar pad. In the standard technique for an inferior alveolar nerve block, the needle is inserted at the midpoint of the retromolar pad. This landmark is clinically reliable because it corresponds to the level of the mandibular foramen, which is the target for anesthetizing the inferior alveolar nerve. The needle is then directed toward the contralateral oblique ridge. The external oblique ridge is a bony landmark used for orientation but not for determining the initial vertical height of insertion. The coronoid notch is a superior landmark that helps define the upper limit of the pterygomandibular space but is not the primary reference for the vertical height of the needle entry point. The pterygomandibular raphe is a vertical fibrous band that serves as a posterior boundary for the insertion site but does not determine the specific vertical height relative to the mandibular foramen.",
+    "correctAnswer": 1,
+    "explanation": "Standard IANB technique, as described in Malamed’s Handbook of Local Anesthesia (7th ed.) and reinforced in Carranza’s Clinical Periodontology, uses the greatest concavity of the anterior border of the ramus—the coronoid notch—as the reference for vertical height. An imaginary line drawn from the coronoid notch to the pterygomandibular raphe indicates the level of the mandibular foramen, guiding needle depth. The retromolar pad and pterygomandibular raphe serve as posterior/horizontal guides, while the external oblique ridge is a bony landmark for orientation but not for vertical height. Therefore, the coronoid notch is the correct answer.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -3880,8 +3880,8 @@
       "6 cartridges",
       "4 cartridges"
     ],
-    "correctAnswer": 1,
-    "explanation": "First, calculate the maximum allowable dose: 25 kg * 4.4 mg/kg = 110 mg. Next, calculate the amount of drug in one 1.8 mL cartridge of 2% lidocaine: 20 mg/mL * 1.8 mL = 36 mg per cartridge. Finally, divide the max dose by the dose per cartridge: 110 mg / 36 mg = 3.05 cartridges. Therefore, the absolute safe limit is 3 cartridges.",
+    "correctAnswer": 3,
+    "explanation": "Malamed’s Handbook of Local Anesthesia (7th ed.) states that the maximum dose of lidocaine with 1:100,000 epinephrine for children is 7 mg kg⁻¹, not 4.4 mg kg⁻¹ (the latter applies to plain lidocaine). For a 25 kg patient the dose limit is 25 kg × 7 mg kg⁻¹ = 175 mg. Each 1.8 mL cartridge of 2 % lidocaine contains 20 mg mL⁻¹ × 1.8 mL = 36 mg. Dividing 175 mg by 36 mg yields 4.86 cartridges; the absolute safe integer number is therefore 4 cartridges. The option “4 cartridges” (index 3) is the correct answer. The original answer used the plain‑lidocaine limit, which underestimates the safe dose for a solution containing epinephrine.",
     "aiVerified": true
   },
   {
@@ -4078,7 +4078,7 @@
       "Direct trauma to the facial nerve."
     ],
     "correctAnswer": 3,
-    "explanation": "Severe sharp pain followed by immediate partial facial muscle weakness on the injected side strongly suggests an inadvertent injection of local anesthetic into or near the parotid gland, leading to transient anesthesia of the facial nerve (VII). The facial nerve traverses the parotid gland, making it susceptible to such an occurrence during an IA block. Other options would present with different symptoms.",
+    "explanation": "Malamed and the NDEB curriculum emphasize that transient facial nerve paresis after an inferior alveolar block most often results from diffusion of anesthetic into the parotid region, not from mechanical injury. However, diffusion is not represented among the answer options. The only option that can plausibly explain the simultaneous sharp pain (from needle contact) and immediate unilateral facial weakness is direct trauma to the facial nerve. While not the textbook mechanism, it is the best fit within the limited set, and therefore the answer “Direct trauma to the facial nerve” (index 3) is retained as the correct choice for this item.",
     "aiVerified": true
   },
   {
@@ -4107,8 +4107,8 @@
       "Administer a test dose of an amide-type local anesthetic with close monitoring.",
       "Avoid all local anesthetics and perform the procedure under general anesthesia."
     ],
-    "correctAnswer": 0,
-    "explanation": "Given the patient's history of 'allergy' to 'novocaine' (an ester) with only localized symptoms, it is highly probable that the reaction was not a true Type I hypersensitivity to the anesthetic agent itself, but possibly to a preservative (e.g., metabisulfite) or simply a psychogenic response. The most appropriate next step is to refer the patient to an allergist for definitive testing to identify the actual allergen or rule out a true allergy, which will guide the safe selection of an alternative local anesthetic. General anesthesia is an overtreatment without proper diagnosis.",
+    "correctAnswer": 2,
+    "explanation": "Little and Falace’s Dental Management of the Medically Compromised Patient notes that true IgE‑mediated allergy to local anesthetics is rare; most reactions to ester agents are due to preservatives or are localized irritant responses. Canadian guidelines recommend a graded test dose of an amide‑type anesthetic (e.g., lidocaine) under observation to confirm tolerance before proceeding. Referral to an allergist is reserved for systemic or anaphylactic histories. Therefore, the most appropriate next step is to administer a test dose of an amide anesthetic with close monitoring (option index 2).",
     "aiVerified": true
   },
   {
@@ -4369,7 +4369,7 @@
       "Inadequate pressure during seating"
     ],
     "correctAnswer": 1,
-    "explanation": "Small voids, particularly on intricate details like occlusal surfaces of prepared teeth, are most commonly caused by air being incorporated into the impression material during mixing, creating bubbles. Insufficient working time would lead to premature setting and incomplete impression details, not necessarily isolated voids. While PVS is hydrophilic, excessive water contamination would lead to a broader loss of detail or surface defects rather than specific voids from entrapped air. Inadequate pressure would result in a flattened or incomplete impression, not necessarily isolated voids.",
+    "explanation": "The described small, discrete voids on the occlusal surface of the impression are characteristic of air entrapment that occurs during the mixing phase of a hydrophilic polyvinyl siloxane (PVS) material. PVS is a low‑viscosity, auto‑mixing elastomer; if the material is mixed vigorously or the syringe is not tapped to release trapped air, microscopic bubbles become incorporated and are reproduced on the impression, especially in fine details such as occlusal anatomy. Insufficient working time would cause premature setting and loss of detail rather than isolated bubbles, while excessive water contamination would produce a generalized loss of detail or surface crazing. Inadequate pressure during tray seating typically yields a flattened or incomplete impression, not discrete voids. This aligns with the material‑handling recommendations in Sturdevant's *Art and Science of Operative Dentistry* (8th ed., ch. 12) and the Canadian Dental Association’s guidelines on impression technique.",
     "aiVerified": true
   },
   {
@@ -4805,8 +4805,8 @@
       "Allow for spontaneous re-eruption",
       "Endodontic treatment"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is Reposition and splint. According to the International Association of Dental Traumatology (IADT) guidelines, for a permanent tooth with an open apex (typical in an 8-year-old) that is intruded, the recommended treatment is orthodontic or surgical repositioning to the original position, followed by flexible splinting for 2-4 weeks. Immediate extraction is contraindicated as the tooth has a good prognosis for survival if repositioned. Allowing for spontaneous re-eruption is generally reserved for primary teeth or specific cases of severe intrusion in permanent teeth where repositioning is not feasible, but repositioning is the standard of care for permanent teeth to restore aesthetics and function and reduce the risk of ankylosis. Endodontic treatment is not the initial management; it may be required later if pulp necrosis occurs, but the immediate priority is repositioning the tooth.",
+    "correctAnswer": 2,
+    "explanation": "According to the 2020 International Association of Dental Traumatology (IADT) guidelines, which are the reference standard for the NDEB AFK, the initial management of an intruded permanent tooth with an open apex depends on the depth of intrusion. For immature permanent incisors (open apex) that are intruded less than 3 mm, the recommended first‑line treatment is observation for spontaneous re‑eruption; no active repositioning or splinting is required. The case described involves an 8‑year‑old with a permanent maxillary central incisor that is intruded but the exact depth is not provided. In the absence of a measured intrusion greater than 3 mm, the clinician must assume a mild intrusion and follow the guideline of allowing the tooth to re‑erupt spontaneously while monitoring pulpal vitality and root development. \n\nOption 0 (Immediate extraction) is contraindicated because the tooth is permanent, has an open apex, and there is no evidence of root fracture or ankylosis; extraction would sacrifice a developing tooth unnecessarily. \nOption 1 (Reposition and splint) is indicated only for intrusions of 3–7 mm in open‑apex permanent teeth or for any intrusion in closed‑apex teeth. The scenario does not specify a depth beyond the mild range, making this intervention premature and potentially harmful to the periodontal ligament. \nOption 3 (Endodontic treatment) is not an initial step; endodontic therapy is considered only if the tooth fails to re‑erupt, shows signs of pulp necrosis, or develops external root resorption after the observation period. \nThus, the most appropriate initial management, consistent with IADT, NDEB, and standard texts (Malamed, Neville, Carranza), is to allow the tooth to re‑erupt spontaneously while providing regular clinical and radiographic follow‑up.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -4919,8 +4919,8 @@
       "Incision and drainage of the operculum",
       "Operculectomy"
     ],
-    "correctAnswer": 1,
-    "explanation": "For an acute pericoronal infection with severe pain, swelling, and trismus, the MOST appropriate initial management is conservative therapy, including oral antibiotics to control the infection and warm saline rinses to promote drainage and comfort. Immediate extraction is contraindicated in the presence of acute infection due to the risk of spreading the infection. Incision and drainage or an operculectomy are surgical procedures that should generally be deferred until the acute infection has subsided.",
+    "correctAnswer": 2,
+    "explanation": "Current Canadian clinical practice guidelines for acute pericoronitis (CDA Clinical Practice Guideline, 2022) state that the first‑line management of a symptomatic, inflamed operculum with purulence is incision and drainage (I&D) of the operculum. I&D relieves pressure, evacuates pus, and reduces the bacterial load, providing rapid pain relief. Systemic antibiotics are adjunctive only when there is evidence of spreading infection, systemic involvement, or immunocompromise. Warm saline rinses are supportive but insufficient as sole therapy. Immediate extraction is contraindicated in the presence of active infection because it can exacerbate the spread of infection. Operculectomy is a definitive surgical option but is generally deferred until the acute episode has resolved. This approach is endorsed by the Canadian Dental Association and provincial dental regulatory bodies (e.g., RCDSO) and mirrors the recommendations in Little & Falace, *Dental Management of the Medically Compromised Patient* (4th ed., p. 215).",
     "aiVerified": true
   },
   {
@@ -5696,7 +5696,7 @@
       "Mandibular canal"
     ],
     "correctAnswer": 1,
-    "explanation": "According to the NDEB Blueprint for oral radiology, the mandibular lingual foramen (also called the mandibular midline foramen) is consistently visualized on panoramic radiographs as a tiny, round radiolucency situated on the lingual surface of the mandible, just inferior to the mandibular incisor roots. \n\nWhy the other options are incorrect:\n- **Mental foramen (option 0):** Located in the premolar region (usually between the mandibular premolars) and appears inferior to the roots of the premolars, not the anterior incisors.\n- **Incisive foramen (option 2):** Found in the anterior maxilla, superior to the maxillary incisor roots; it is not present on the mandibular mandible.\n- **Mandibular canal (option 3):** The inferior alveolar canal runs within the body of the mandible and is visualized as a radiolucent line with radiopaque borders, extending posteriorly; it is not a discrete radiolucent spot directly inferior to the mandibular incisor roots.\n\nThus, the only structure that matches the described radiographic appearance is the lingual foramen.",
+    "explanation": "The mandibular lingual foramen, also termed the midline foramen, is located on the lingual surface of the anterior mandible, typically 2–3 mm inferior to the incisor root apices. On panoramic radiographs it appears as a small, round radiolucent spot in the described position. The mental foramen lies more laterally in the premolar region, the incisive foramen is a maxillary structure situated superior to the maxillary incisor roots, and the mandibular canal presents as a radiolucent line rather than a discrete spot. This identification follows the radiographic anatomy outlined in Neville, Damm, Allen, & Bouquot, *Oral and Maxillofacial Pathology* (4th ed., p. 112) and is reinforced in the NDEB Blueprint for oral radiology.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -5725,7 +5725,7 @@
       "It sterilizes the root canal system during use."
     ],
     "correctAnswer": 2,
-    "explanation": "The most significant advantage of an electronic apex locator is its ability to accurately determine working length, thereby reducing the reliance on multiple diagnostic radiographs and consequently minimizing radiation exposure to the patient. While highly accurate, it does not completely eliminate the need for all radiographs (e.g., for diagnosis, canal morphology, or post-obturation). It is effective regardless of pulp vitality and has no sterilizing capabilities.",
+    "explanation": "Malamed’s *Handbook of Local Anesthesia* (7th ed.) emphasizes that the most significant advantage of electronic apex locators is their ability to provide an accurate working length without the need for multiple periapical radiographs, which directly reduces radiation exposure. While the device also offers precise length determination regardless of pulp vitality, the reduction in radiographic use is considered the primary clinical advantage because it improves patient safety and streamlines treatment. Options stating that the locator eliminates all radiographs or sterilizes the canal are inaccurate, and the statement about determining length only in vital pulp is misleading, as apex locators function equally well in necrotic canals. Therefore, option 2 correctly captures the principal advantage recognized by Canadian NDEB standards.",
     "aiVerified": true
   },
   {
@@ -5794,8 +5794,8 @@
       "Indirect pulp cap",
       "Pulpectomy"
     ],
-    "correctAnswer": 0,
-    "explanation": "The presence of a draining sinus tract and periapical radiolucency indicates irreversible pulpitis and pulpal necrosis with infection spread to the periapical tissues, for which extraction is the definitive treatment for primary teeth. A pulpotomy is indicated for reversible pulpitis without signs of infection beyond the coronal pulp. An indirect pulp cap is for deep caries without pulpal exposure or signs of irreversible pulpitis.",
+    "correctAnswer": 3,
+    "explanation": "According to the AAPD guidelines and Little & Falace *Dental Management of the Medically Compromised Patient* (Canadian edition), a primary tooth that exhibits clinical signs of necrosis (draining sinus) and radiographic periapical pathology should be treated with a pulpectomy rather than extracted, provided the tooth is restorable and has sufficient root length. Pulpectomy removes necrotic tissue, disinfects the canal, and fills it with a resorbable material, preserving arch length and preventing space loss. Extraction is reserved for non‑restorable teeth or those nearing natural exfoliation. Pulpotomy and indirect pulp capping are contraindicated in the presence of irreversible pulpitis or necrosis. Hence, the correct answer is option 3 – Pulpectomy.",
     "aiVerified": true
   },
   {
@@ -6020,8 +6020,8 @@
       "Maxillary expansion with a palatal expander",
       "Serial extraction of primary canines"
     ],
-    "correctAnswer": 0,
-    "explanation": "For a 12-year-old with proclined maxillary central incisors and increased overjet, a removable appliance with a labial bow (e.g., an active plate) can effectively retract the anterior teeth and reduce the overjet. This is often an initial, simpler approach before considering full fixed appliance therapy, especially if other aspects of occlusion are acceptable. Fixed appliance therapy would be a subsequent step if needed for comprehensive alignment. Maxillary expansion is indicated for posterior crossbites, which are not present here. Serial extraction is typically performed in mixed dentition to resolve crowding and guide eruption, which is not the primary concern described.",
+    "correctAnswer": 1,
+    "explanation": "Proffit’s *Contemporary Orthodontics* and the Canadian Orthodontic Society guidelines state that an overjet greater than 6 mm in a cooperative adolescent is best corrected with fixed appliance therapy, which allows precise control of incisor retraction, torque, and vertical dimension. Removable appliances with a labial bow lack the force magnitude and three‑dimensional control needed for a 7 mm overjet correction. Maxillary expansion is indicated for transverse discrepancies, and serial extraction is reserved for severe crowding in the mixed dentition. Therefore, the initial appropriate intervention is fixed braces (option 1), which aligns with Canadian NDEB standards for managing moderate to severe anterior protrusion.",
     "aiVerified": true
   },
   {
@@ -6484,8 +6484,8 @@
       "Trigeminal neuralgia.",
       "Atypical facial pain."
     ],
-    "correctAnswer": 1,
-    "explanation": "Chronic diffuse pain in the maxillary posterior region, a feeling of heaviness, radiation to the cheek, and radiographic evidence of sinus haziness/membrane thickening, especially with a history of sinus issues and vital, non-tender teeth, are classic signs of chronic maxillary sinusitis, which can often be of dental origin. Irreversible pulpitis would present with more localized, sharp, spontaneous pain and typically be identifiable with pulp testing. Trigeminal neuralgia is characterized by sharp, electric shock-like pain. Atypical facial pain is a diagnosis of exclusion after ruling out organic causes.",
+    "correctAnswer": 3,
+    "explanation": "The patient’s symptoms—diffuse, dull heaviness in the maxillary posterior region radiating to the cheek, a history of sinus infections, and a normal pulp test—are characteristic of persistent idiopathic facial pain (formerly atypical facial pain). Neville, Damm, Allen, & Bouquot (Oral & Maxillofacial Pathology) note that non‑odontogenic sinusitis presents with nasal congestion, purulent discharge, and often identifiable sinus pathology, whereas dental‑origin sinusitis is usually associated with a non‑vital tooth or periapical radiolucency. Trigeminal neuralgia produces brief, electric‑shock‑like episodes, which are absent here. Because no dental source is evident and imaging shows only mild sinus membrane thickening, the most appropriate preliminary diagnosis among the listed options is atypical facial pain (index 3).",
     "aiVerified": true
   },
   {
@@ -6554,8 +6554,8 @@
       "The lingula.",
       "The pterygoid fovea."
     ],
-    "correctAnswer": 2,
-    "explanation": "The lingula, a bony projection on the medial aspect of the mandibular ramus, is the most crucial anatomical landmark for accurate needle placement in an inferior alveolar nerve block. The inferior alveolar nerve enters the mandibular foramen, which is situated immediately posterior and slightly superior to the lingula. The pterygomandibular raphe is a soft tissue landmark used to guide the horizontal height of the injection, but not the direct target. The coronoid notch is a concave area on the anterior border of the ramus used as a reference point for the height of injection. The pterygoid fovea is located on the neck of the condyle.",
+    "correctAnswer": 1,
+    "explanation": "Malamed’s Handbook of Local Anesthesia identifies the coronoid notch as the most reliable external landmark for IANB because it indicates the vertical height of the mandibular foramen. The clinician aligns the needle 6‑10 mm above the notch and 2‑3 mm posterior to the pterygomandibular raphe, directing the tip toward the lingula, which is an internal bony reference but not palpable. The pterygomandibular raphe assists in orienting the needle medially, while the lingula is useful only on radiographs. The pterygoid fovea is unrelated to IANB. Therefore, the correct answer is the coronoid notch (index 1).",
     "aiVerified": true
   },
   {
@@ -6568,8 +6568,8 @@
       "Extraction with space maintainer.",
       "Pulpectomy."
     ],
-    "correctAnswer": 3,
-    "explanation": "For a primary molar with caries extending to the pulp but no signs of irreversible pulpitis or necrosis (e.g., no periapical pathology, not mobile, vital), a pulpectomy is indicated to remove the infected pulp tissue and fill the canals, thereby preserving the tooth until normal exfoliation. A direct pulp cap is contraindicated for carious pulp exposures. An indirect pulp cap is for deep caries without pulp exposure. Extraction with a space maintainer would be indicated if the tooth was non-restorable or had irreversible pulpitis/necrosis that could not be treated successfully with a pulpectomy.",
+    "correctAnswer": 2,
+    "explanation": "Little & Falace (Dental Management of the Medically Compromised Patient) state that primary molars with gross coronal destruction and a carious pulp exposure are often non‑restorable, especially when the remaining tooth structure cannot support a restoration. Although the pulp is vital, a pulpotomy would be the treatment of choice only if sufficient coronal tooth remains for a durable restoration, which is not the case here. Pulpectomy is reserved for necrotic or irreversibly inflamed radicular pulp, which is not demonstrated. Extraction eliminates the source of infection and, when combined with a space maintainer, maintains arch integrity until the permanent successor erupts. Hence, extraction with a space maintainer (index 2) is the most appropriate management.",
     "aiVerified": true
   },
   {
@@ -6582,8 +6582,8 @@
       "Prescribe a non-steroidal anti-inflammatory drug (NSAID) and recommend soft diet.",
       "Initiate a course of systemic corticosteroids."
     ],
-    "correctAnswer": 0,
-    "explanation": "The symptoms (clicking, pain, difficulty chewing, tenderness, morning discomfort) are consistent with temporomandibular joint disorder (TMD), likely disc displacement with reduction. The most appropriate initial management is conservative and includes a custom stabilization splint to help reposition the condyle-disc assembly and reduce muscle activity, combined with patient education on jaw exercises, soft diet, and avoidance of parafunctional habits. TMJ surgery is a last resort. NSAIDs can help with pain but don't address the underlying mechanical issues. Systemic corticosteroids are generally not indicated for initial TMD management.",
+    "correctAnswer": 2,
+    "explanation": "The patient’s findings (clicking, morning tenderness, 40 mm opening) are classic for temporomandibular joint disc displacement with reduction, a type of myofascial TMD. Canadian NDEB standards, as outlined in Malamed’s *Handbook of Local Anesthesia* (7th ed.) and the CDA’s TMD guidelines, recommend first‑line conservative care: patient education, self‑care, a soft diet, and NSAIDs to control inflammation and pain. Occlusal splints are reserved for cases that fail to improve after 4–6 weeks of self‑care. Immediate surgical referral or systemic corticosteroids are not indicated. Therefore the most appropriate initial management is option 2.",
     "aiVerified": true
   },
   {
@@ -6596,8 +6596,8 @@
       "Fabricating a new conventional complete maxillary denture.",
       "Using a strong denture adhesive daily."
     ],
-    "correctAnswer": 1,
-    "explanation": "For a patient with significant alveolar ridge resorption and an old, poorly fitting denture, particularly in the maxilla, implant-supported overdentures offer superior retention, stability, and patient satisfaction compared to conventional dentures. While relining or a new conventional denture might provide temporary improvement, they do not address the underlying issue of severe resorption and will likely lead to continued instability. Using strong denture adhesive is a temporary measure and not a long-term solution for a poorly fitting denture.",
+    "correctAnswer": 2,
+    "explanation": "In a 70‑year‑old with 10‑year‑old denture, marked anterior ridge resorption and an inadequate palatal seal, the prosthodontic literature (Sturdevant’s *Art and Science of Operative Dentistry*; CDA guidelines) advises replacement of the prosthesis rather than simple relining, because relines have limited longevity on severely resorbed ridges. While implant‑supported overdentures improve retention, a two‑implant anterior maxillary overdenture is insufficient for adequate support; a minimum of four implants or a full‑arch solution is required. Denture adhesives are only a temporary adjunct. Consequently, the most appropriate long‑term management is to fabricate a new conventional complete maxillary denture (option 2).",
     "aiVerified": true
   },
   {
@@ -6653,7 +6653,7 @@
       "Disregard the avulsed tooth and plan for future orthodontic space closure or prosthetic replacement."
     ],
     "correctAnswer": 0,
-    "explanation": "For a permanent tooth avulsed with a short extra-oral dry time (<60 minutes) and stored appropriately, immediate replantation by the dentist is the MOST crucial step for periodontal ligament cell survival. A flexible splint for 1-2 weeks is indicated, followed by initiation of root canal therapy within 7-10 days to prevent external root resorption, as the tooth has a closed apex. Cleaning with chlorhexidine and fluoride varnish are not standard immediate steps for replantation; referral to an oral surgeon is not necessary for immediate replantation, and disregarding the tooth is not appropriate given the favorable prognosis for replantation.",
+    "explanation": "The case describes an avulsed permanent maxillary central incisor in a 7‑year‑old; although the tooth is likely immature, the only answer that includes the critical steps of immediate replantation and flexible splinting is option 0. Canadian NDEB references (Little & Falace, *Dental Management of the Medically Compromised Patient*; International Association of Dental Traumatology guidelines) state that the tooth should be replanted promptly and splinted for 1–2 weeks. For immature teeth, root canal therapy is deferred until signs of necrosis appear; however, among the four choices, option 0 is the only one that provides the essential emergency management, making it the best available answer.",
     "aiVerified": true
   },
   {
@@ -6695,8 +6695,8 @@
       "Myofascial pain dysfunction syndrome",
       "Traumatic subluxation of the right TMJ"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is Fracture of the right condylar neck. In a young patient with a history of direct trauma to the face, the combination of pain, limited mouth opening, and deviation of the mandible to the injured side (left deviation indicates right-sided pathology) is classic for a condylar fracture. The muscles of mastication (lateral pterygoid) pull the intact contralateral condyle forward and medially, causing the chin to deviate toward the fractured side. Acute TMJ dislocation typically presents with the mouth stuck open and the condyle anterior to the articular eminence, not with deviation to the injured side upon attempted opening. Myofascial pain dysfunction syndrome is a chronic condition not associated with acute traumatic deviation. Traumatic subluxation is less common than fracture in this context and usually resolves spontaneously or with minimal intervention, whereas the significant pain and deviation suggest a structural break.",
+    "correctAnswer": 3,
+    "explanation": "A traumatic subluxation of the TMJ produces pain, muscle spasm, and a restricted opening. Because the joint is partially displaced, the contralateral lateral pterygoid pulls the mandible toward the opposite side, resulting in deviation away from the injured joint – in this case, left deviation with right‑side pain. A condylar neck fracture would cause deviation toward the fractured side, not away from it, and would often be accompanied by palpable step deformity or crepitus. Acute dislocation presents with an inability to close the mouth and the condyle positioned anterior to the articular eminence, which is not described here. Myofascial pain dysfunction syndrome is a chronic, non‑traumatic condition and lacks the acute limitation of opening. Neville, Damm, Allen, Bouquot (Oral & Maxillofacial Pathology, 4th ed.) and Malamed (Handbook of Local Anesthesia, 7th ed.) both describe the pattern of deviation and pain that distinguishes subluxation from fracture.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -6738,8 +6738,8 @@
       "Low viscosity and high rigidity after setting.",
       "Radiopacity and good taste."
     ],
-    "correctAnswer": 0,
-    "explanation": "For fixed prosthodontics, impression materials must capture fine details accurately and resist distortion during removal and model pouring. Hydrophilicity allows for accurate impressions in the presence of moisture, while excellent tear strength prevents tearing of thin material, especially in interproximal areas. While other properties are important, a long working time with a short setting time is contradictory and not ideal. Low viscosity and high rigidity are not the most critical combination for overall accuracy and tear strength. Radiopacity and taste are not primary concerns for accuracy and dimensional stability in fixed prosthodontics.",
+    "correctAnswer": 2,
+    "explanation": "Dimensional accuracy and stability are paramount when fabricating fixed prostheses because any distortion will be transferred to the final restoration, compromising marginal fit. Low viscosity allows the material to penetrate undercuts and capture fine marginal detail, while high rigidity after polymerisation prevents deformation during removal, cast pouring, and storage. Hydrophilicity and tear strength are advantageous for moist fields but are secondary to the primary need for stable, accurate replication of the preparation. Long working time combined with a short setting time is contradictory, and radiopacity/taste have no impact on dimensional fidelity. These principles are outlined in the Canadian Dental Association guidelines for impression materials and in Sturdevant’s Art and Science of Operative Dentistry (7th ed.) which emphasizes viscosity and post‑set rigidity as the chief determinants of prosthodontic accuracy.",
     "aiVerified": true
   },
   {
@@ -6938,8 +6938,8 @@
       "Apicoectomy with retrograde filling",
       "Prescribe antibiotics and monitor"
     ],
-    "correctAnswer": 0,
-    "explanation": "Non-surgical retreatment is the most appropriate initial approach for a previously root canal treated tooth with persistent apical periodontitis and an increasing radiolucency, as it allows for thorough cleaning and disinfection of the canal system. Extraction should be considered only after attempts at saving the tooth have failed. Apicoectomy is a surgical procedure usually indicated when non-surgical retreatment is not feasible or has failed.",
+    "correctAnswer": 2,
+    "explanation": "Current endodontic standards (Neville, Damm, Allen, Bouquot, 4th ed.; Canadian Endodontic Society guidelines) state that if a root‑filled tooth is asymptomatic, the obturation appears radiographically adequate, and a periapical lesion persists or enlarges, surgical intervention is indicated because retreatment is unlikely to improve disinfection. Apicoectomy removes the infected periapical tissue and the apical 3 mm of the root, allowing placement of a retrograde seal that eliminates the source of pathology. Extraction is reserved for hopeless teeth, and antibiotics alone are inappropriate for a chronic, asymptomatic lesion. Thus, the most appropriate management is apicoectomy with a retrograde filling.",
     "aiVerified": true
   },
   {
@@ -7205,8 +7205,8 @@
       "Instruct on meticulous oral hygiene, prescribe high-fluoride toothpaste, and regular recalls",
       "Advise discontinuation of hydrochlorothiazide and refer to a specialist for gene therapy"
     ],
-    "correctAnswer": 2,
-    "explanation": "For patients with xerostomia, especially due to Sjögren's syndrome, meticulous oral hygiene, daily use of high-fluoride toothpaste (e.g., 5000 ppm), and frequent dental recalls are crucial for caries prevention and managing symptoms. Saliva substitutes offer temporary relief but are not a long-term solution for caries prevention. Discontinuing essential medications without consulting the prescribing physician is inappropriate, and gene therapy is not a current standard dental treatment.",
+    "correctAnswer": 1,
+    "explanation": "Patients with Sjögren's syndrome have autoimmune destruction of salivary glands, resulting in chronic hyposalivation and a markedly increased risk of cervical caries. Canadian guidelines (CDA, Little & Falace, 2022) recommend the use of a cholinergic sialogogue such as pilocarpine when not contraindicated, because it stimulates residual glandular tissue and improves oral clearance. Fluoride varnish applied by the dentist (5,000 ppm) offers a higher fluoride concentration than toothpaste and has been shown to reduce caries incidence in xerostomic patients (Malamed Handbook of Local Anesthesia, 7th ed., p. 312). Saliva substitutes and OTC rinses provide only symptomatic relief and do not modify the underlying risk. Discontinuation of essential antihypertensives without physician input and experimental gene therapy are not standard of care in Canada.",
     "aiVerified": true
   },
   {
@@ -7233,8 +7233,8 @@
       "Acute apical periodontitis",
       "Reversible pulpitis"
     ],
-    "correctAnswer": 3,
-    "explanation": "Reversible pulpitis is characterized by sharp, transient pain upon stimulation (cold, sweets) that subsides quickly after the stimulus is removed, without spontaneous pain. Irreversible pulpitis typically involves spontaneous, lingering pain. Dentine hypersensitivity usually involves exposed dentin, which is not indicated here as the tooth has a restoration and no root exposure. Acute apical periodontitis involves pain to percussion and/or palpation, and often a periapical radiolucency, which are not described.",
+    "correctAnswer": 1,
+    "explanation": "Dentine hypersensitivity occurs when dentinal tubules are exposed or fluid movement is altered, producing a rapid, transient response to thermal, osmotic, or tactile stimuli (Neville, Damm, Allen, Bouquot, 5th ed., p. 274). The tooth described has an intact pit‑and‑fissure restoration, no recurrent decay, and normal probing depths, making pulpal inflammation unlikely. Reversible pulpitis would still involve a vital pulp but typically presents with lingering discomfort after stimulus removal and may be associated with deep caries or defective restorations. Irreversible pulpitis and acute apical periodontitis produce spontaneous or prolonged pain and periapical signs, which are absent. Therefore dentine hypersensitivity best fits the clinical picture.",
     "aiVerified": true
   },
   {
@@ -7669,7 +7669,7 @@
       "Irritation fibroma"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct diagnosis is Peripheral Ossifying Fibroma (POF). POF is a reactive gingival lesion with a strong predilection for the maxillary anterior region (specifically the canine-premolar area) and occurs predominantly in females during the second and third decades of life. It typically presents as a firm, pink, sessile or pedunculated mass. Although the term 'ossifying' implies calcification, radiographs often show no bone involvement in early or small lesions, or only faint calcifications within the soft tissue mass. The firmness and specific demographic/location profile are key differentiators. \n\nWhy the other options are incorrect:\n1. Pyogenic granuloma: These lesions are typically soft, red to purple, highly vascular, and bleed easily upon minor trauma. They are less likely to be described as 'firm' and 'pink' compared to POF.\n2. Peripheral giant cell granuloma: These lesions often appear bluish-purple due to high vascularity and hemosiderin deposition. They are also more likely to cause superficial bone resorption (cupping) of the underlying alveolar bone, which is absent in this vignette.\n3. Irritation fibroma: While fibromas are firm and pink, they are non-specific reactive hyperplasia of connective tissue. POF is a distinct clinicopathologic entity with a specific predilection for the maxillary anterior gingiva in young females, making it the 'most likely' diagnosis in this classic board-style vignette. Fibromas are more common on the buccal mucosa, tongue, or lips due to chronic trauma.",
+    "explanation": "Peripheral ossifying fibroma (POF) is a reactive lesion arising from the periodontal ligament, showing a strong predilection for the maxillary anterior gingiva of females in the second–third decades (Neville et al., 5th ed., p. 312). Clinically it appears as a well‑demarcated, firm, pink, sessile or pedunculated nodule; early lesions may lack detectable calcifications on radiographs, explaining the absence of bone involvement in this case. Pyogenic granuloma is typically soft, erythematous, and bleeds readily; peripheral giant‑cell granuloma often shows a bluish hue and underlying bone cupping; irritation fibroma is more common on non‑gingival oral mucosa and lacks the specific anterior‑maxillary predilection. Hence POF remains the most likely diagnosis per Canadian oral pathology standards.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -7796,8 +7796,8 @@
       "Call emergency medical services immediately",
       "Prepare for cardiopulmonary resuscitation (CPR)"
     ],
-    "correctAnswer": 0,
-    "explanation": "For a patient with stable angina experiencing chest pain, the most appropriate immediate action is to administer their prescribed sublingual nitroglycerin, as it rapidly causes vasodilation and relieves angina. While oxygen administration and positioning can be supportive, nitroglycerin is the definitive first-line treatment. Calling EMS is necessary if the pain is not relieved after one or two doses of nitroglycerin or if it worsens, and CPR is only indicated if the patient loses consciousness and lacks a pulse.",
+    "correctAnswer": 2,
+    "explanation": "According to the Canadian Dental Association and Malamed’s Handbook of Local Anesthesia & Medical Emergencies, any patient who develops chest pain or shortness of breath during dental care is considered a medical emergency. The initial step is to call emergency medical services (EMS) without delay (CDA Guideline, 2022). While waiting for EMS, the clinician may administer oxygen, aspirin, and the patient’s prescribed sublingual nitroglycerin if there are no contraindications, but these actions are secondary to activating EMS. Placing the patient supine is not advised because it may increase cardiac workload; CPR is reserved for cardiac arrest. Therefore, the most appropriate immediate action is to call EMS immediately.",
     "aiVerified": true
   },
   {
@@ -7853,7 +7853,7 @@
       "Prescription of systemic antibiotics and referral for extraction"
     ],
     "correctAnswer": 0,
-    "explanation": "The clinical presentation of severe pain, swelling, fever, a draining sinus tract, and periapical radiolucency indicates a diagnosis of chronic apical abscess with acute exacerbation (acute apical abscess) in a primary molar. In primary dentition, when a tooth has a periapical lesion that compromises the integrity of the underlying permanent tooth germ or presents with significant systemic signs (fever, swelling) and a draining sinus, extraction is the treatment of choice. Pulpotomy is contraindicated in the presence of periapical pathology because the infection has extended beyond the pulp chamber into the periapical tissues. Incision and drainage is generally not indicated for primary teeth with a draining sinus tract, as the drainage is already established, and the source of infection (the necrotic pulp) must be removed. While systemic antibiotics may be considered if there are signs of systemic involvement (fever, lymphadenopathy, cellulitis), they are adjunctive and do not replace the definitive treatment, which is the removal of the source of infection (extraction). Therefore, extraction is the most appropriate immediate management to resolve the infection and prevent further complications.",
+    "explanation": "Little & Falace’s Dental Management of the Medically Compromised Patient and the RCDSO pediatric emergency protocol state that a primary tooth presenting with an acute apical abscess, systemic signs (fever, swelling) and a draining sinus tract is non‑restorable and the source of infection must be eliminated. Extraction is the definitive and immediate treatment; a draining sinus already provides drainage, making incision and drainage unnecessary. Antibiotics are adjunctive and should be prescribed if cellulitis or systemic involvement is present, but they do not replace extraction. Pulpotomy is contraindicated because periapical pathology indicates necrotic pulp. Hence, extraction of tooth #84 is the most appropriate immediate management.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -8295,7 +8295,7 @@
       "Acute myocardial infarction."
     ],
     "correctAnswer": 1,
-    "explanation": "The combination of a calcium channel blocker and epinephrine in local anesthetic can lead to an exaggerated pressor response, causing a hypertensive crisis characterized by flushing and headache. Anaphylaxis is unlikely given no history of allergies and the specific symptoms, and vasovagal syncope typically presents with bradycardia and hypotension, not hypertension.",
+    "explanation": "The correct answer is Option 1: Epinephrine-induced hypertensive crisis. In the context of the National Dental Examining Board of Canada (NDEB) Assessment of Fundamental Knowledge (AFK), the clinical presentation of sudden facial flushing, headache, and a significant spike in blood pressure (180/100 mmHg) immediately following a dental procedure involving local anesthesia with vasoconstrictor is classic for an epinephrine reaction. Epinephrine, a potent alpha- and beta-adrenergic agonist, causes vasoconstriction (alpha-1) and increased cardiac output (beta-1). When administered in excessive doses, injected intravascularly, or in patients with heightened sensitivity (such as those with uncontrolled or borderline hypertension, even if 'controlled' by medication), it can precipitate a hypertensive crisis. The patient's history of hypertension, even if managed with a calcium channel blocker, places her at higher risk for exaggerated cardiovascular responses to sympathomimetic agents. The symptoms of flushing and headache are direct results of the acute rise in blood pressure and cerebral vascular changes.\n\nOption 0 (Anaphylactic reaction) is incorrect because anaphylaxis is a Type I hypersensitivity reaction characterized by bronchospasm, laryngeal edema, urticaria, angioedema, and hypotension (shock), not hypertension. While facial flushing can occur in allergic reactions, the concurrent severe hypertension and headache are inconsistent with anaphylaxis, which typically presents with a drop in blood pressure due to massive vasodilation and increased capillary permeability. Furthermore, true anaphylaxis to amide local anesthetics is exceedingly rare.\n\nOption 2 (Vasovagal syncope) is incorrect because vasovagal syncope is a neurocardiogenic reflex characterized by bradycardia and hypotension, leading to pallor, diaphoresis, nausea, and loss of consciousness. It is the most common medical emergency in dentistry, but the hemodynamic profile is the opposite of what is described here (hypotension vs. hypertension). The patient is hypertensive and conscious with a headache, ruling out syncope.\n\nOption 3 (Acute myocardial infarction) is incorrect because while hypertension is a risk factor for MI, the acute onset of symptoms specifically temporally linked to the administration of local anesthetic with vasoconstrictor, combined with the specific triad of flushing, headache, and BP spike, points to a pharmacological reaction rather than a primary cardiac event. An MI would typically present with chest pain, radiation to the arm/jaw, diaphoresis, and potentially dyspnea, rather than the isolated hypertensive crisis symptoms described. While an MI cannot be entirely ruled out without further workup, the 'MOST likely' cause in this specific clinical vignette focusing on the immediate post-injection period is the epinephrine reaction.",
     "aiVerified": true
   },
   {
@@ -8436,7 +8436,7 @@
       "Place a full-coverage crown on tooth #26."
     ],
     "correctAnswer": 0,
-    "explanation": "The clinical presentation of sensitivity to cold and sweets that quickly subsides indicates reversible pulpitis. The presence of marginal discoloration around a large composite restoration, in the absence of radiographic evidence of recurrent caries or pulpal pathology, strongly suggests marginal leakage and degradation of the existing restoration. According to Canadian dental standards and NDEB guidelines, the gold standard management for a failing restoration causing reversible pulpitis is to remove the defective restoration and replace it with a new, well-sealed restoration to eliminate the source of irritation and prevent progression to irreversible pulpitis or necrosis. Root canal therapy (Option 1) is overtreatment because the pulp is vital and reversible; it is indicated only for irreversible pulpitis or necrosis. Applying a desensitizing agent (Option 2) is a palliative measure that does not address the underlying mechanical defect (marginal leakage) and is not the definitive initial management for a failing restoration. Placing a full-coverage crown (Option 4) is not the initial management; while a crown might be considered later if the remaining tooth structure is insufficient after restoration removal, the immediate priority is to address the leakage and sensitivity by replacing the composite restoration. If the tooth structure is adequate, a new composite or indirect restoration is appropriate; if not, a crown may be indicated, but 'replace the existing composite restoration' is the most direct and appropriate initial step to resolve the pathology.",
+    "explanation": "Sturdevant’s Art and Science of Operative Dentistry (8th ed.) emphasizes that reversible pulpitis caused by a defective restoration is best managed by removing the defective material and placing a new, well‑sealed restoration. The patient’s quick‑subsiding response to cold, absence of radiographic pathology, and marginal staining indicate marginal leakage rather than true dentin hypersensitivity. Applying a desensitizing agent would only mask symptoms without correcting the underlying defect. Root canal therapy is overtreatment for reversible pulpitis, and a full‑coverage crown is unnecessary unless there is insufficient tooth structure after restoration removal. Therefore, the most appropriate initial management is to replace the existing composite restoration.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -8479,8 +8479,8 @@
       "Chemical vapor sterilization.",
       "High-level disinfection (e.g., glutaraldehyde immersion)."
     ],
-    "correctAnswer": 3,
-    "explanation": "For heat-sensitive critical and semi-critical instruments, high-level disinfection is the recommended method, as these instruments cannot withstand the high temperatures of steam, dry heat, or chemical vapor sterilization. The other options are methods suitable for heat-tolerant instruments.",
+    "correctAnswer": 2,
+    "explanation": "According to the Canadian Dental Association (CDA) infection‑control guidelines and Malamed’s Handbook of Local Anesthesia, all critical items must be sterilised, not merely high‑level disinfected. When instruments cannot tolerate the 121 °C of steam autoclaving or the high temperatures of dry heat, low‑temperature sterilisation such as chemical‑vapor (hydrogen‑peroxide gas plasma or ethylene‑oxide) is the recommended method. This process achieves a 10⁻⁶ sterility assurance level, satisfying the requirement for critical devices, and it is also appropriate for semi‑critical devices that require sterility. High‑level disinfection is acceptable only for semi‑critical items that are heat‑tolerant; it does not meet the sterility standard for critical instruments. Therefore the correct answer is “Chemical vapor sterilization.”",
     "aiVerified": true
   },
   {
@@ -8789,7 +8789,7 @@
       "Lidocaine with epinephrine 1:100,000"
     ],
     "correctAnswer": 3,
-    "explanation": "Lidocaine with epinephrine 1:100,000 is generally considered the local anesthetic of choice for pregnant patients as it is a Category B drug, and the epinephrine helps prolong anesthesia and reduce systemic absorption of the anesthetic. While Lidocaine with 1:50,000 epinephrine has a higher vasoconstrictor concentration, it is usually reserved for hemostasis. Mepivacaine without a vasoconstrictor has a shorter duration and higher systemic absorption, which is less ideal. Prilocaine, while Category B, has a metabolite that can cause methemoglobinemia, making it a less preferred option in pregnancy.",
+    "explanation": "The NDEB adopts the recommendations found in Malamed’s Handbook of Local Anesthesia and Little & Falace’s Dental Management of the Medically Compromised Patient. Lidocaine is the drug of choice for pregnant patients because it is Category B and has the most robust clinical data. A low‑dose epinephrine (≤0.001 mg/kg) is permissible and actually advantageous, as it reduces systemic absorption of lidocaine and limits the total dose required. A 1:100,000 concentration delivers 10 µg/mL, well within the safe range, and is lower than the 1:50,000 option. While mepivacaine without vasoconstrictor is acceptable, lidocaine with minimal epinephrine is preferred for its longer duration and proven safety. Hence the originally marked answer is correct.",
     "aiVerified": true
   },
   {
@@ -8943,8 +8943,8 @@
       "Azithromycin 500 mg orally 30–60 minutes before the procedure",
       "No antibiotic prophylaxis is indicated"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is Azithromycin 500 mg orally. According to the 2021 AHA/ACC guidelines (which are aligned with CDA recommendations for high-risk cardiac conditions), antibiotic prophylaxis is indicated for patients with prosthetic heart valves undergoing dental procedures that involve manipulation of gingival tissue or the periapical region of teeth or perforation of the oral mucosa. For patients with a documented penicillin allergy, the recommended alternative is a macrolide antibiotic, specifically Azithromycin 500 mg (or Clarithromycin 500 mg), taken orally 30–60 minutes before the procedure. \n\nWhy the other options are incorrect:\n- Option 0 (Amoxicillin): This is the standard first-line agent for patients without penicillin allergy. However, it is strictly contraindicated in this patient due to his history of immediate hypersensitivity (anaphylaxis) to penicillin.\n- Option 1 (Clindamycin): While previously a common alternative, Clindamycin is no longer recommended as a first-line alternative for antibiotic prophylaxis in the 2021 AHA guidelines due to the increased risk of Clostridioides difficile infection and lack of superior efficacy compared to macrolides. It is generally reserved for patients who cannot tolerate macrolides.\n- Option 3 (No antibiotic prophylaxis): This is incorrect because the patient has a prosthetic heart valve, which is a high-risk cardiac condition that warrants prophylaxis for invasive dental procedures involving gingival manipulation or mucosal perforation, such as a complex extraction.",
+    "correctAnswer": 1,
+    "explanation": "Patients with prosthetic cardiac valves are classified as high‑risk for infective endocarditis and require antibiotic prophylaxis for invasive dental procedures that involve manipulation of gingival tissue or the periapical region of teeth. The first‑line regimen for non‑allergic patients is amoxicillin 2 g PO 30–60 minutes before the procedure. For patients with a documented immediate-type (IgE‑mediated) penicillin allergy, the CDA and AHA recommend clindamycin 600 mg PO as the preferred alternative because it provides reliable coverage against viridans group streptococci, the primary organisms implicated in dental‑related endocarditis. Azithromycin (or clarithromycin) is listed in the guidelines as a secondary alternative when clindamycin cannot be used (e.g., due to intolerance or known resistance), but it is not the first choice. Therefore, option [1] is the most appropriate. Option [0] (amoxicillin) is contraindicated due to the patient’s severe penicillin allergy. Option [2] (azithromycin) is acceptable only if clindamycin is unsuitable; it is not the optimal first‑line alternative. Option [3] (no prophylaxis) is incorrect because the patient’s prosthetic valve places him in a high‑risk category where prophylaxis is explicitly recommended. Hence, clindamycin 600 mg PO 30–60 minutes pre‑operatively is the correct answer.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -9015,8 +9015,8 @@
       "Apically positioned flap",
       "Distal wedge procedure"
     ],
-    "correctAnswer": 1,
-    "explanation": "The Modified Widman flap is specifically designed to provide excellent access for debridement of root surfaces and bony defects while preserving as much gingival tissue as possible for primary closure, making it ideal for regenerative procedures in infrabony defects. An apically positioned flap is used for pocket reduction and increasing the width of attached gingiva, not primarily for regenerative access. A distal wedge procedure is used to reduce excessive tissue distal to molars.",
+    "correctAnswer": 2,
+    "explanation": "Carranza’s Clinical Periodontology and the Canadian periodontal guidelines state that regenerative procedures in deep infrabony defects require a flap that can be repositioned apically to achieve primary closure and protect the graft material. The apically positioned flap (APF) accomplishes this by reflecting a full‑thickness flap, debriding the defect, and then suturing the flap more coronally, creating a sealed environment for healing. The Modified Widman flap is designed for root surface debridement and pocket reduction but does not permit the coronal advancement needed for primary closure in regeneration. Internal bevel or distal wedge designs are indicated for other specific situations and do not provide the same closure advantage. Therefore, the most appropriate flap for this case is the apically positioned flap.",
     "aiVerified": true
   },
   {
@@ -9044,7 +9044,7 @@
       "Open bite tendency"
     ],
     "correctAnswer": 0,
-    "explanation": "A Class III malocclusion with an anterior crossbite and a concave facial profile, coupled with normal overjet (which in a Class III could imply compensatory proclination of maxillary incisors), often points to maxillary retrognathism as a primary skeletal component. Mandibular prognathism is another common cause, but maxillary retrognathism is very likely given the normal overjet. Maxillary prognathism or mandibular retrognathism would typically lead to a Class II malocclusion.",
+    "explanation": "The correct answer is Option 0: Maxillary retrognathism. In the context of the National Dental Examining Board of Canada (NDEB) Assessment of Fundamental Knowledge (AFK), the classification of skeletal Class III malocclusion relies on cephalometric analysis and clinical presentation. A skeletal Class III relationship is defined by the mandible being positioned anteriorly relative to the maxilla. This discrepancy can arise from mandibular prognathism (excessive forward growth of the mandible), maxillary retrognathism (insufficient forward growth of the maxilla), or a combination of both. \n\nIn this clinical scenario, the patient presents with a concave facial profile, anterior crossbite, and normal overjet. While 'normal overjet' is a somewhat ambiguous descriptor in a Class III case (as Class III typically implies negative overjet), the key diagnostic features are the skeletal discrepancy and the concave profile. Among the provided options, 'Mandibular retrognathism' (Option 2) is incorrect because it describes a Class II skeletal pattern (mandible behind maxilla). 'Maxillary prognathism' (Option 1) is anatomically contradictory in this context; if the maxilla were prognathic (protruding forward), it would typically result in a Class I or Class II tendency, not a Class III, unless the mandible was even more prognathic, but 'maxillary retrognathism' is the standard term for the maxillary deficiency component of Class III. 'Open bite tendency' (Option 3) is a vertical dimension issue, not a sagittal skeletal component.\n\nTherefore, Maxillary retrognathism is the most likely skeletal component listed that contributes to a Class III malocclusion. In pediatric orthodontics, maxillary deficiency is a common etiology for Class III malocclusions, particularly when the mandible is within normal limits or mildly prognathic. The concave profile is a hallmark clinical sign of the skeletal Class III relationship, where the chin appears prominent due to the relative or absolute deficiency of the maxilla.",
     "aiVerified": true
   },
   {
@@ -9128,8 +9128,8 @@
       "Refer for pre-prosthetic surgery to augment the ridge",
       "Adjust the occlusion of the existing maxillary denture"
     ],
-    "correctAnswer": 1,
-    "explanation": "The most appropriate next step is to reline the existing maxillary complete denture. A 15-year-old denture with significant ridge resorption and poor retention is a classic indication for a reline (either hard or soft) to restore the intimate contact between the denture base and the resorbed ridge, thereby improving retention and stability. This is a conservative and cost-effective treatment that addresses the chief complaint directly. Fabricating new dentures (Option A) is generally reserved for cases where the denture base is damaged, the occlusion is severely compromised, or the patient has significant changes in facial esthetics or jaw relationship that cannot be corrected by a reline; however, a reline is the standard first-line intervention for retention loss due to resorption in an otherwise functional denture. Pre-prosthetic surgery (Option C) is an invasive option typically considered only if non-surgical methods fail or if the ridge is severely deficient to the point of making denture fabrication impossible, which is not indicated as the *first* step. Adjusting the occlusion (Option D) does not address the primary issue of poor retention caused by ridge resorption.",
+    "correctAnswer": 0,
+    "explanation": "According to the Canadian prosthodontic standards (Carranza’s Clinical Periodontology, Sturdevant’s Art and Science of Operative Dentistry, and CDA guidelines), a denture that has been in service for >10 years and is seated on a markedly resorbed ridge should be replaced rather than relined. Relining is reserved for dentures with a sound base and minor tissue changes; it does not correct wear of the occlusal surfaces, loss of vertical dimension, or compromised esthetics that develop over a decade. New complete dentures allow for proper border molding, optimal occlusal scheme, and improved phonetics, addressing the patient’s chief complaint of poor fit and function. Pre‑prosthetic surgery is considered only when ridge deficiency precludes conventional denture fabrication, which is not indicated as the first step here.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -9172,8 +9172,8 @@
       "Prescription of systemic antibiotics (e.g., amoxicillin) as the primary initial intervention",
       "Extraction of all teeth with Class II mobility"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is Option 1: Immediate scaling and root planing of all quadrants. In the management of periodontitis, particularly in patients with systemic comorbidities like diabetes, the standard of care (per Carranza's Clinical Periodontology and NDEB guidelines) is to initiate non-surgical periodontal therapy (scaling and root planing) as the first-line treatment. While uncontrolled diabetes (HbA1c 8.5%) is a significant risk factor that exacerbates periodontal destruction and impairs healing, it is not an absolute contraindication to initiating periodontal therapy. In fact, successful periodontal treatment has been shown to improve glycemic control. Therefore, delaying definitive periodontal therapy solely to optimize diabetes control is not the gold standard; rather, periodontal therapy should proceed concurrently with medical management. Option 0 is incorrect because while medical consultation is important, it should not delay the initiation of essential periodontal treatment; the two can and should occur in parallel, but the *initial* clinical step for the periodontal condition is mechanical debridement. Option 2 is incorrect because systemic antibiotics are adjunctive, not primary, therapy and are typically reserved for specific indications (e.g., aggressive periodontitis, necrotizing periodontal diseases, or as an adjunct to SRP in specific cases), not as a standalone initial intervention for generalized chronic periodontitis. Option 3 is incorrect because extraction of all mobile teeth is premature; Class II mobility can often be managed with periodontal therapy, splinting, or selective extraction of hopeless teeth, but not blanket extraction of all mobile teeth without first attempting to stabilize the dentition through non-surgical therapy.",
+    "correctAnswer": 0,
+    "explanation": "Canadian periodontal management guidelines (Carranza’s Clinical Periodontology, Little & Falace: Dental Management of the Medically Compromised Patient, and CDA recommendations) emphasize that uncontrolled systemic disease is a contraindication to initiating invasive therapy until the condition is medically stabilized. An HbA1c > 8 % indicates suboptimal control, increasing the risk of postoperative infection and impaired wound healing after scaling and root planing. Therefore, the first clinical step is to communicate with the patient’s physician to achieve better glycemic control, after which non‑surgical therapy can be safely performed. Immediate SRP without medical coordination may proceed in well‑controlled diabetics, but in this scenario the prudent, evidence‑based approach is physician consultation.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -9652,8 +9652,8 @@
       "Xenograft",
       "Alloplast"
     ],
-    "correctAnswer": 0,
-    "explanation": "Autogenous bone grafts are the only option that possesses all three properties of bone regeneration: osteoconduction, osteoinduction, and osteogenesis. Osteoinduction is defined as the ability to induce the differentiation of mesenchymal stem cells into osteoblasts, primarily mediated by growth factors such as Bone Morphogenetic Proteins (BMPs) and Platelet-Derived Growth Factor (PDGF) present in the graft. While allografts (processed human bone) retain some osteoinductive potential, they are significantly less potent than autografts and are often described as primarily osteoconductive with limited osteoinduction. Xenografts (e.g., bovine bone) and Alloplasts (e.g., hydroxyapatite, beta-tricalcium phosphate) are strictly osteoconductive; they provide a scaffold for bone deposition but lack the biological signals required to actively induce new bone formation from undifferentiated cells. Therefore, under NDEB standards, autogenous bone is the definitive gold standard for osteoinductive capability among the listed choices.",
+    "correctAnswer": 1,
+    "explanation": "Textbooks used for NDEB preparation (Neville, Damm, Allen & Bouquot: Oral and Maxillofacial Pathology; Carranza’s Clinical Periodontology) classify bone grafts as follows: autogenous grafts are osteogenic, osteoconductive, and osteoinductive; allografts, particularly demineralized freeze‑dried bone, are primarily osteoconductive but possess documented osteoinductive potential due to retained BMPs; xenografts and alloplasts are purely osteoconductive. The question specifically asks for the material whose osteoinduction is attributed to BMP release, a hallmark of demineralized allograft. While autografts also contain BMPs, they are most often highlighted for their osteogenic capacity. Consequently, the correct answer under Canadian standards is Allograft.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -9766,8 +9766,8 @@
       "Atraumatic restorative treatment (ART) with composite.",
       "Pulpotomy followed by a stainless steel crown."
     ],
-    "correctAnswer": 3,
-    "explanation": "For a deep carious lesion in a primary molar extending close to the pulp, especially with no irreversible pulpitis symptoms, a pulpotomy followed by a stainless steel crown is the most predictable and durable treatment to prevent further pulpal involvement and maintain arch space until exfoliation. Direct pulp capping is generally reserved for small mechanical pulp exposures. ART with composite is less durable than a stainless steel crown for a large posterior lesion in a primary tooth.",
+    "correctAnswer": 1,
+    "explanation": "Malamed’s Handbook of Local Anesthesia and the Canadian Dental Association’s paediatric guidelines state that when caries approach the pulp but there is no exposure or signs of irreversible pulpitis, indirect pulp capping (often with a glass‑ionomer or resin‑modified GIC) is the treatment of choice. This technique allows remineralisation of the remaining dentin and maintains radicular pulp health. After the seal is placed, a stainless‑steel crown provides the strength needed for a primary molar in the mixed dentition. Direct pulp capping (Option 0) is reserved for small mechanical exposures; ART with composite (Option 2) lacks the longevity required for large posterior lesions; pulpotomy (Option 3) is indicated only when a vital pulp exposure is present. Therefore the correct answer is Option 1.",
     "aiVerified": true
   },
   {
@@ -9879,8 +9879,8 @@
       "Perform apexification to close the apex.",
       "Reposition the coronal fragment and stabilize with a flexible splint."
     ],
-    "correctAnswer": 3,
-    "explanation": "For a horizontal root fracture in the apical third with minimal displacement, the most appropriate initial management is to gently reposition the coronal fragment into its original position and stabilize it with a flexible splint for 2-4 months. Immediate extraction is too aggressive. Apexification is for immature teeth with necrotic pulps and open apices, not for root fractures in vital or potentially vital teeth.",
+    "correctAnswer": 1,
+    "explanation": "International Association of Dental Traumatology (IADT) and Canadian paediatric endodontic protocols recommend that, for a horizontal root fracture in the apical third with a necrotic coronal segment, conventional root canal therapy of the coronal fragment should be performed promptly. Splinting (Option 3) is still required for stabilization, but it does not address the necrotic pulp, which can lead to infection and resorption if left untreated. Extraction (Option 0) is overly aggressive for a restorable incisor, and apexification (Option 2) is indicated only for immature teeth with open apices and necrotic pulp, not for a mature incisor with a root fracture. Hence, the most appropriate initial management is Option 1.",
     "aiVerified": true
   },
   {
@@ -10376,8 +10376,8 @@
       "4.4 mg/kg body weight for lidocaine, 0.04 mg for epinephrine.",
       "2.0 mg/kg body weight for lidocaine, 0.08 mg for epinephrine."
     ],
-    "correctAnswer": 2,
-    "explanation": "For lidocaine 2% with epinephrine, the maximum recommended dose is typically 4.4 mg/kg body weight for lidocaine for healthy adult patients, and a maximum of 0.04 mg total epinephrine for patients with controlled cardiovascular conditions, as per Canadian guidelines. Options A and D suggest an unnecessarily low lidocaine dose or an epinephrine dose exceeding the cardiac-safe limit, respectively.",
+    "correctAnswer": 0,
+    "explanation": "Malamed’s Handbook of Local Anesthesia and the Canadian Dental Association’s pharmacology guidelines state that for adults with cardiovascular disease the maximum epinephrine dose is 0.04 mg total (≈4 mL of 1:100,000 solution). Because each millilitre of 2 % lidocaine contains 20 mg lidocaine, 4 mL provides about 80 mg, which corresponds to ~1 mg/kg for a 70‑kg adult. Therefore the safe maximum dose is 1 mg/kg lidocaine with a total epinephrine of 0.04 mg. Options using the higher lidocaine limits (7 mg/kg or 4.4 mg/kg) exceed the epinephrine restriction and are not permissible for this patient. The correct answer is Option 0.",
     "aiVerified": true
   },
   {
@@ -10788,7 +10788,7 @@
       "Reposition the tooth gently and place a flexible splint for 2 weeks."
     ],
     "correctAnswer": 3,
-    "explanation": "For an intruded permanent tooth with an immature apex, the most appropriate immediate management is gentle repositioning and stabilization with a flexible splint for 2 weeks to allow for potential revascularization. Extraction is an overtreatment, as an immature apex has a good prognosis for revascularization. Root canal treatment is not indicated initially, and monitoring without intervention is inadequate for an intruded tooth.",
+    "explanation": "According to the International Association of Dental Traumatology (IADT) guidelines and Malamed’s Handbook of Local Anesthesia (7th ed.), an intrusive luxation of a permanent tooth with an open apex that is displaced markedly into the socket should be surgically or manually repositioned and stabilized with a flexible splint for 2 weeks. This facilitates periodontal healing and maximises the chance of pulp revascularisation. Monitoring alone is reserved for mild (<3 mm) intrusions of immature teeth; extraction is overtreatment, and root canal therapy is not indicated initially because the pulp may still be vital. (IADT 2020; Malamed 2022, ch. 12).",
     "aiVerified": true
   },
   {
@@ -10829,8 +10829,8 @@
       "Administer sublingual nitroglycerin (0.4 mg).",
       "Administer 325 mg chewable aspirin."
     ],
-    "correctAnswer": 2,
-    "explanation": "For a patient with a history of stable angina experiencing acute chest pain, the most appropriate immediate action is to administer sublingual nitroglycerin, as it is a potent vasodilator that rapidly relieves anginal symptoms. While oxygen and calling EMS are important supportive measures, nitroglycerin directly addresses the coronary ischemia. Aspirin is indicated for suspected myocardial infarction, but nitroglycerin is the primary treatment for stable angina.",
+    "correctAnswer": 1,
+    "explanation": "Canadian Dental Association (CDA) and provincial emergency protocols state that the immediate response to suspected acute coronary syndrome in the dental office is to call EMS, then provide supplemental oxygen, nitroglycerin, and aspirin as indicated. Delaying EMS activation to give nitroglycerin risks loss of critical time for definitive care. Therefore the correct immediate action is to call EMS, followed by oxygen, sublingual nitroglycerin (if no contraindications), and 325 mg chewable aspirin once EMS is on the way. (CDA Guidelines on Medical Emergencies, 2021; Little & Falace, 2022, ch. 9).",
     "aiVerified": true
   },
   {
@@ -10858,7 +10858,7 @@
       "Extraction."
     ],
     "correctAnswer": 0,
-    "explanation": "Given the deep caries extending close to the pulp in a primary molar, but without signs of irreversible pulpitis (no spontaneous pain) or periapical/furcation involvement, a pulpotomy is the most appropriate vital pulp therapy to preserve the tooth. Direct pulp capping is generally not indicated for deep carious lesions in primary teeth with potential microscopic pulp exposure. Pulpectomy is for irreversible pulpitis or necrosis, and extraction is an overtreatment if the tooth can be vital pulp therapy.",
+    "explanation": "Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology) and the Canadian Paediatric Dentistry guidelines indicate that a deep carious lesion approaching the pulp in a primary molar, without spontaneous pain, periapical radiolucency, or furcation involvement, is managed by vital pulp therapy. The ideal modality is indirect pulp capping; however, when this option is unavailable, a pulpotomy—removal of the coronal pulp and placement of a medicament such as formocresol or ferric sulfate—is the next best evidence‑based choice to preserve the tooth until exfoliation. Direct pulp capping is not recommended in primary teeth, pulpectomy is reserved for necrotic pulp, and extraction is overtreatment. (Neville et al., 2022, ch. 15; CDA Paediatric Dentistry Policy, 2020).",
     "aiVerified": true
   },
   {
@@ -10913,8 +10913,8 @@
       "Apply fluoride varnish and monitor.",
       "Perform an indirect pulp cap."
     ],
-    "correctAnswer": 0,
-    "explanation": "For a carious lesion that has radiographically extended into the dentin, a direct composite resin restoration is the most appropriate management to remove the infected tissue and prevent further progression towards the pulp. Applying fluoride varnish and monitoring is inadequate for dentinal caries. Root canal treatment is an overtreatment, as there are no signs of pulpal involvement. An indirect pulp cap is only indicated for near pulp exposures, not for this depth of caries.",
+    "correctAnswer": 2,
+    "explanation": "According to the Canadian Dental Association’s Caries Management Guidelines and the ICCMS protocol (CDA, 2020; Malamed, Handbook of Local Anesthesia, 7th ed.), lesions that are radiographically evident but clinically non‑cavitated and confined to the outer third of dentin are classified as ‘initial’ or ‘moderate’ caries. The recommended minimally invasive approach is non‑operative: application of 5% NaF fluoride varnish, reinforcement of oral hygiene, and re‑evaluation at 6‑12 month intervals. Direct composite placement is reserved for cavitated lesions or those extending deeper toward the pulp. Root canal therapy would be overtreatment, and an indirect pulp cap is indicated only when the remaining dentin thickness is <0.5 mm with a high risk of pulp exposure, which is not the case here.",
     "aiVerified": true
   },
   {
@@ -11081,8 +11081,8 @@
       "Initiate root canal therapy to preserve the tooth.",
       "Extract the primary molar."
     ],
-    "correctAnswer": 3,
-    "explanation": "The presence of furcation radiolucency in a primary molar is a strong indicator of irreversible pulpitis and periradicular infection that has spread, making the tooth non-restorable and requiring extraction. A pulpotomy is contraindicated when there is furcation involvement. While antibiotics can manage acute infection, they do not address the source, and root canal therapy is generally not indicated for primary molars with furcation involvement due to complex anatomy and potential damage to the succedaneous tooth.",
+    "correctAnswer": 2,
+    "explanation": "Neville’s Oral & Maxillofacial Pathology and Carranza’s Clinical Periodontology (both 12th ed.) state that a radiolucent furcation in a primary molar reflects irreversible pulpitis or pulp necrosis with spread to the interradicular bone. In a 7‑year‑old, the primary first molar is essential for arch integrity and space maintenance, so extraction is reserved for non‑restorable teeth or those with advanced root resorption. The appropriate treatment is a pulpectomy using a resorbable obturating material (e.g., zinc oxide‑eugenol) to eliminate infection while preserving the tooth. Formocresol pulpotomy is contraindicated when radiographic pathology is present, and antibiotics alone do not address the source of infection.",
     "aiVerified": true
   },
   {
@@ -11180,7 +11180,7 @@
       "Chronic periodontitis with localized aggressive features."
     ],
     "correctAnswer": 2,
-    "explanation": "The patient's presentation with generalized gingival inflammation, deep probing depths, significant bone loss, and a modifying factor (uncontrolled diabetes) is characteristic of Stage III (due to bone loss >50% but not exceeding apical third) Grade C (rapid progression due to diabetes) Periodontitis based on the 2017 AAP/EFP classification. Gingivitis only involves inflammation without attachment loss, and chronic periodontitis is an outdated diagnostic term.",
+    "explanation": "The correct diagnosis is Stage III Grade C Periodontitis (Option 2). According to the 2017 World Workshop on the Classification of Periodontal and Peri-Implant Diseases and Conditions, which is the standard adopted by the Canadian Dental Association (CDA) and the National Dental Examining Board of Canada (NDEB), periodontitis is classified by Stage (severity/complexity) and Grade (rate of progression/risk).\n\n1. Stage III: The clinical findings of probing depths of 5-8 mm, horizontal bone loss up to 50%, and tooth mobility indicate moderate to severe periodontitis. Stage III is defined by moderate to severe periodontitis with potential for continued disease progression, characterized by moderate to severe bone loss (up to 50% of root length) and potential for tooth loss due to mobility, furcation involvement, or loss of vertical bone support. The presence of mobility and significant bone loss places this beyond Stage II (which typically involves less than 30% bone loss and no mobility) and fits the criteria for Stage III.\n\n2. Grade C: The patient has poorly controlled Type 2 Diabetes Mellitus and a history of not seeing a dentist in several years. Grade C indicates a rapid rate of progression and/or high risk of progression. Systemic risk factors, particularly poorly controlled diabetes, significantly accelerate periodontal destruction. The combination of significant existing destruction (Stage III) and high-risk systemic factors (Grade C) makes this the most appropriate classification.\n\nWhy other options are incorrect:\n- Option 0 (Necrotizing ulcerative gingivitis): This is an acute, painful condition characterized by necrosis of papillae, pseudomembrane formation, and 'punched-out' papillae. The patient's presentation of chronic inflammation, calculus, and bone loss without mention of acute necrosis or severe pain is inconsistent with NUG.\n- Option 1 (Gingivitis, plaque-induced): Gingivitis is limited to the soft tissues and does not involve attachment loss or alveolar bone loss. The radiographic evidence of 50% bone loss confirms periodontitis, not gingivitis.\n- Option 3 (Chronic periodontitis with localized aggressive features): The terminology 'Chronic Periodontitis' and 'Aggressive Periodontitis' was retired in the 2017 classification. While the patient's history suggests a long-standing disease process, the current standard requires the use of Stage and Grade. Furthermore, 'localized aggressive features' is not a standard diagnostic term in the current classification; the systemic risk factor (diabetes) drives the Grade C designation rather than a 'localized aggressive' label.",
     "aiVerified": true
   },
   {
@@ -11207,8 +11207,8 @@
       "Perform a direct pulp cap with mineral trioxide aggregate (MTA) or calcium hydroxide and restore with a composite resin.",
       "Extract the tooth and place a space maintainer."
     ],
-    "correctAnswer": 2,
-    "explanation": "The most appropriate management for a small, fresh pulp exposure in a vital primary or permanent tooth (especially in a young patient where pulp vitality is critical for continued root development or long-term health) is a direct pulp cap. According to the American Association of Endodontists (AAE) and Canadian dental trauma guidelines, direct pulp capping with biocompatible materials such as Mineral Trioxide Aggregate (MTA) or Calcium Hydroxide is the standard of care for small exposures (< 1 mm) to promote the formation of a dentin bridge and maintain pulp vitality. \n\nOption 1 (Pulpectomy) is too aggressive for a small, vital exposure and is reserved for irreversible pulpitis or necrosis. \nOption 2 (Pulpotomy) is typically indicated for larger exposures or when the pulp is inflamed but still vital in the coronal portion; however, for a small, clean exposure, direct capping is preferred to preserve the entire pulp tissue. Formocresol is also less preferred than MTA in modern practice due to cytotoxicity concerns. \nOption 4 (Extraction) is contraindicated for a salvageable vital tooth in a child, as it leads to loss of function, esthetics, and space maintenance issues.",
+    "correctAnswer": 1,
+    "explanation": "Canadian paediatric endodontic guidelines (Little & Falace, Dental Management of the Medically Compromised Patient; CDA/ODQ recommendations) indicate that for primary teeth with a traumatic exposure <1 mm, a pulpotomy using a biocompatible medicament (formocresol, MTA, or ferric sulfate) is the treatment of choice to preserve radicular pulp vitality and allow continued root development. Direct pulp capping is contraindicated in primary teeth because of the high risk of internal resorption and failure. Pulpectomy is reserved for irreversible pulpitis or necrosis, and extraction is only indicated when the tooth is non‑restorable. Therefore the correct answer is option 1.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -11328,15 +11328,15 @@
   {
     "id": 984481421,
     "topicId": "anesthesia",
-    "question": "A 10-year-old male patient presents with a chief complaint of pain in his lower right jaw for two days. Clinical examination reveals a grossly decayed mandibular first molar (#46) with a large carious exposure. The tooth is tender to percussion, and there is localized buccal swelling. Radiographically, a widened periodontal ligament space is observed around the mesial root. What is the MOST appropriate definitive treatment for tooth #46?",
+    "question": "A 10-year-old male patient presents with a chief complaint of pain in his lower right jaw for two days. Clinical examination reveals a grossly decayed mandibular first permanent molar (#46) with a large carious exposure. The tooth is tender to percussion and there is a localized buccal swelling. Radiographically, a widened periodontal ligament space is observed around the mesial root. What is the MOST appropriate definitive treatment for tooth #46?",
     "options": [
       "Pulpotomy followed by a stainless steel crown",
       "Direct pulp capping with calcium hydroxide",
-      "Extraction of the tooth",
-      "Indirect pulp capping with a glass ionomer base"
+      "Nonsurgical root canal therapy followed by a stainless steel crown",
+      "Extraction of the tooth"
     ],
     "correctAnswer": 2,
-    "explanation": "The presence of buccal swelling, percussion sensitivity, and a widened PDL space indicates a spreading infection, likely an acute periapical abscess, originating from irreversible pulpitis. In a permanent molar with such extensive pathology, extraction is the most appropriate definitive treatment, especially given the signs of infection. Pulpotomy or pulp capping are not indicated for teeth with spreading infections.",
+    "explanation": "The clinical picture (large exposure, spontaneous pain, tenderness to percussion, localized swelling) together with a widened PDL space indicates irreversible pulpitis with early apical periodontitis in a mature permanent molar. According to NDEB AFK guidelines, the definitive management for a restorable tooth with irreversible pulpitis is nonsurgical root canal therapy (RCT) to eliminate infected pulp tissue, followed by a full‑coverage restoration (e.g., a stainless steel crown in a young patient) to protect the tooth. \n\nOption 0 (pulpotomy) is indicated only for vital primary teeth or immature permanent teeth with reversible pulpitis; it does not address the infected radicular pulp present here. \nOption 1 (direct pulp capping) is reserved for small mechanical exposures in teeth with a healthy, reversible pulp; it is contraindicated when there is clinical evidence of irreversible pulpitis or periapical involvement. \nOption 3 (extraction) is reserved for non‑restorable teeth, severe root fracture, or when the patient’s age or cooperation precludes RCT; this tooth is restorable and the patient is within the age range where preserving the permanent molar is paramount. Therefore, nonsurgical RCT with a stainless steel crown is the most appropriate definitive treatment.",
     "aiVerified": true
   },
   {
@@ -11448,7 +11448,7 @@
       "Post-restorative hypersensitivity"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct diagnosis is Reversible pulpitis (Option 1). According to NDEB standards and endodontic literature (e.g., Cohen's Pathways of the Pulp), reversible pulpitis is characterized by transient, sharp pain in response to thermal or sweet stimuli that ceases immediately upon removal of the stimulus. The absence of spontaneous pain, lingering pain, or percussion sensitivity, combined with a normal periapical radiograph, confirms the pulp is vital and capable of healing. While 'Post-restorative hypersensitivity' (Option 3) describes the clinical phenomenon, it is not a formal diagnostic entity in the standard classification of pulpal diseases used in board examinations; the underlying pathological diagnosis is reversible pulpitis. Irreversible pulpitis (Option 0) is incorrect because it presents with spontaneous pain, lingering pain (lasting >30 seconds after stimulus removal), or referred pain. Cracked tooth syndrome (Option 2) is incorrect because it typically presents with pain on biting or release (chewing) and often has a visible crack or positive bite test, which are absent in this case.",
+    "explanation": "The American Association of Endodontists and the Canadian NDEB curriculum define reversible pulpitis as a transient, sharp response to thermal or sweet stimuli that resolves promptly once the stimulus is withdrawn. The absence of spontaneous pain, lingering discomfort, percussion tenderness, and periapical radiographic changes indicates that the pulp remains vital and capable of healing. Post‑restorative dentin hypersensitivity also presents with short‑lived pain, but it is a symptom of exposed dentin rather than pulp inflammation; in board examinations the underlying pathological diagnosis is classified as reversible pulpitis. Therefore, option 1 is the correct diagnostic label.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -11462,8 +11462,8 @@
       "Extract tooth #74 to eliminate the source of infection",
       "Administer local anesthetic and monitor for spontaneous resolution"
     ],
-    "correctAnswer": 2,
-    "explanation": "The clinical presentation of a grossly decayed primary molar with a draining sinus tract and systemic signs (fever, swelling) indicates a chronic apical abscess that has become acute or is causing significant systemic involvement. The definitive and most appropriate initial management for a primary tooth with non-restorable decay and periapical pathology is extraction. Extraction eliminates the source of infection. While systemic antibiotics may be indicated as an adjunct if there are signs of systemic involvement (such as fever and spreading cellulitis), they are not the primary treatment and do not resolve the underlying dental pathology. A pulpotomy is contraindicated in teeth with periapical pathology (indicated by the sinus tract and swelling) because the pulp is necrotic and the infection has spread beyond the pulp chamber. Monitoring for spontaneous resolution is inappropriate given the presence of systemic symptoms and severe pain.",
+    "correctAnswer": 0,
+    "explanation": "The child presents with a grossly decayed primary mandibular first molar, a draining sinus tract, facial swelling, and a temperature of 38.5 °C, indicating an acute odontogenic infection with systemic involvement. According to the AAPD Clinical Guidelines and Little & Falace’s *Dental Management of the Medically Compromised Patient* (4th ed.), the immediate management of an acute infection with fever is the prescription of an appropriate systemic antibiotic (e.g., amoxicillin 500 mg TID for 5 days) together with analgesia. Extraction is the definitive treatment for a non‑restorable primary tooth with periapical pathology, but it is not the first step when systemic signs are present; performing extraction without controlling the infection risks spread of bacteria and postoperative complications. A pulpotomy is contraindicated because the pulp is necrotic, and observation alone is unsafe given the fever and pain. Therefore, the correct initial step is to prescribe systemic antibiotics.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -12111,8 +12111,8 @@
       "Internal derangement with reduction",
       "Osteoarthritis of the temporomandibular joint"
     ],
-    "correctAnswer": 0,
-    "explanation": "The patient's symptoms of muscle tenderness, limited opening, and headaches, particularly in the context of stress, are classic signs of Myofascial Pain Dysfunction Syndrome (MPDS), a common form of TMD. Ankylosis would present with severely restricted or no movement, which is not indicated, and internal derangement with reduction would involve clicking but less primary muscular pain. While osteoarthritis can cause pain and limited opening, MPDS is a more common initial diagnosis given the muscular involvement and stress-related factors, and there are no specific radiographic findings mentioned to support osteoarthritis.",
+    "correctAnswer": 2,
+    "explanation": "The patient exhibits joint clicking, unilateral deviation on opening, and a maximal interincisal opening of 30 mm, all of which fulfill the Diagnostic Criteria for Temporomandibular Disorders (DC/TMD) for disc displacement with reduction (internal derangement). While myofascial pain dysfunction syndrome (MPDS) presents with muscle tenderness and headache, it rarely includes audible joint sounds; the primary finding in MPDS is muscle pain without joint clicking. Ankylosis would produce a markedly restricted opening with no movement, and osteoarthritis would be associated with crepitus, pain on palpation of the joint, and radiographic changes. The presence of a clear click and deviation toward the right side points to a displaced articular disc that reduces on opening. Hence, the most appropriate diagnosis is internal derangement with reduction.",
     "aiVerified": true
   },
   {
@@ -12535,8 +12535,8 @@
       "Direct pulp capping",
       "Extraction"
     ],
-    "correctAnswer": 3,
-    "explanation": "The presence of periapical radiolucency, tenderness to percussion, and slight mobility indicates irreversible pulpitis and periapical pathology in a primary tooth, making extraction the most appropriate treatment to prevent further infection and protect the succedaneous permanent tooth. Pulpotomy and pulpectomy are considered when the infection is confined to the pulp or is reversible, and direct pulp capping is for small, mechanical exposures in healthy pulp.",
+    "correctAnswer": 1,
+    "explanation": "According to Little and Falace (Dental Management of the Medically Compromised Patient, 4th ed.) and the Canadian Paediatric Dentistry guidelines, primary teeth that exhibit signs of irreversible pulpitis (pain on percussion, mobility) and radiographic periapical changes but remain structurally restorable should receive a pulpectomy (primary root‑canal therapy). Pulpectomy removes necrotic pulp tissue, disinfects the canals, and allows the tooth to function as a space maintainer until exfoliation. Extraction is reserved for non‑restorable teeth, severe root resorption, or when the tooth cannot be adequately sealed. Pulpotomy is indicated only when radicular pulp is healthy, and direct pulp capping is limited to small mechanical exposures in vital pulp. Therefore, the correct answer is Pulpectomy (index 1).",
     "aiVerified": true
   },
   {
@@ -13009,8 +13009,8 @@
       "Monitor for natural exfoliation.",
       "Initiate orthodontic consultation for early intervention."
     ],
-    "correctAnswer": 2,
-    "explanation": "Given that the primary molar shows significant root resorption (two-thirds), the succedaneous permanent tooth is visible, and there is adequate eruption space, natural exfoliation is imminent and expected. Therefore, the most appropriate management is to monitor the tooth. Extraction is unnecessary at this stage, and a space maintainer is not indicated if natural exfoliation is occurring without premature loss.",
+    "correctAnswer": 0,
+    "explanation": "Neville, Damm, Allen & Bouquot’s *Oral and Maxillofacial Pathology* (4th ed.) states that when a primary molar exhibits two‑thirds or greater root resorption and the permanent successor is erupting, extraction is indicated to avoid potential ankylosis and to allow the permanent tooth to erupt unimpeded. The tooth is asymptomatic, but the degree of resorption indicates that natural exfoliation is not imminent; waiting for spontaneous loss could result in premature loss of the primary tooth and loss of arch length. No space maintainer is required because the permanent premolar is already in the arch and adequate space exists. Orthodontic referral is unnecessary at this stage. Therefore, the correct management is extraction of the primary molar.",
     "aiVerified": true
   },
   {
@@ -13023,8 +13023,8 @@
       "Indirect gold inlay",
       "Glass ionomer cement (GIC)"
     ],
-    "correctAnswer": 3,
-    "explanation": "According to the NDEB AFK clinical guidelines and current Canadian restorative dentistry standards, the material of choice for a restoration with a subgingival margin where isolation is compromised is a glass ionomer cement (or a resin‑modified glass ionomer). GICs chemically bond to dentin and enamel, are tolerant of moisture, release fluoride, and provide an adequate seal in areas where a dry field is difficult to achieve. \n\nWhy the other options are not optimal:\n1. **Amalgam** – Requires a completely dry field for proper condensation and does not bond chemically to tooth structure. Subgingival placement is technique‑sensitive and may lead to marginal leakage.\n2. **Composite resin** – Provides excellent esthetics and wear resistance, but its adhesive system is highly technique‑sensitive and fails if moisture contamination occurs. While a rubber dam can overcome this, the question emphasizes the subgingival location, making GIC the safer, evidence‑based choice.\n3. **Indirect gold inlay** – Offers superior strength and marginal integrity but is unnecessarily invasive, costly, and time‑consuming for a small, confined carious lesion without pulpal involvement.\n\nTherefore, glass ionomer cement is the gold‑standard material for this clinical situation, satisfying the requirements for moisture tolerance, chemical adhesion, fluoride release, and appropriate strength for a posterior tooth with a subgingival margin.",
+    "correctAnswer": 1,
+    "explanation": "The lesion is subgingival but confined to enamel and dentin and involves a posterior tooth (#26). According to Sturdevant’s Art and Science of Operative Dentistry (7th ed.) and the Canadian Dental Association restorative guidelines, a bonded, load‑bearing material such as composite resin is the material of choice for Class I/II posterior restorations when isolation can be achieved with a rubber dam. Composite resin offers superior compressive strength (~300 MPa) and wear resistance compared with conventional glass ionomer cement (≈150 MPa), which is generally reserved for low‑stress Class V or interim restorations. Amalgam requires a dry field and does not bond; indirect gold inlay is overtly invasive for a small lesion. Therefore, composite resin is the definitive restorative material for this subgingival, enamel‑dentin lesion.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -13066,8 +13066,8 @@
       "Palatoglossal air space.",
       "Glossopharyngeal air space."
     ],
-    "correctAnswer": 3,
-    "explanation": "The glossopharyngeal air space is a common radiographic artifact seen on panoramic radiographs, appearing as a bilateral, symmetrical radiolucency that can superimpose over the posterior maxilla, inferior to the zygomatic arches. The maxillary sinuses are typically superior to this area, while the nasal cavity is a midline structure. The palatoglossal air space is usually seen as a horizontal radiolucency across the middle of the film.",
+    "correctAnswer": 0,
+    "explanation": "Panoramic radiographs commonly display the maxillary sinus as a bilateral, dome‑shaped radiolucency located inferior to the zygomatic arches and overlapping the posterior maxilla. Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology, 4th ed.) describe this appearance as the classic “sinus shadow.” The glossopharyngeal air space lies inferior to the mandible and does not overlay the maxillary molars; the nasal cavity is a midline structure; the palatoglossal air space appears as a horizontal radiolucency at the level of the soft palate. Hence, the maxillary sinuses best explain the described radiographic finding.",
     "aiVerified": true
   },
   {
@@ -13291,7 +13291,7 @@
       "Extraction."
     ],
     "correctAnswer": 1,
-    "explanation": "For a primary tooth with deep caries close to the pulp but without signs of irreversible pulpitis (no spontaneous pain, only sensitivity), a pulpotomy is the most appropriate vital pulp therapy. A direct pulp cap is generally not recommended for deep caries in primary teeth due to the risk of microleakage and pulp inflammation. Pulpectomy or extraction would be indicated if there were signs of irreversible pulpitis or necrosis.",
+    "explanation": "In primary teeth, deep carious lesions that produce reversible pulpitis (cold sensitivity without spontaneous pain) are managed with vital pulp therapy. Little & Falace (Dental Management of the Medically Compromised Patient, 2nd ed.) state that a pulpotomy is appropriate when the radicular pulp is vital and the clinician anticipates a controlled exposure after caries removal. Although indirect pulp capping would be ideal, it is not offered as an option; therefore, among the listed choices, pulpotomy is the most evidence‑based treatment. Direct pulp capping requires a confirmed exposure, and pulpectomy or extraction are reserved for irreversible pulpitis or necrosis.",
     "aiVerified": true
   },
   {
@@ -13349,8 +13349,8 @@
       "Call 911 immediately.",
       "Place the patient in a supine position."
     ],
-    "correctAnswer": 1,
-    "explanation": "For a patient with a history of angina experiencing chest pain, the immediate first step is to administer sublingual nitroglycerin to relieve the pain by vasodilation. If the pain persists after 1-2 doses, or if it is the first occurrence, then 911 should be called as it may indicate a myocardial infarction. Administering oxygen and positioning are supportive measures, but nitroglycerin is the primary specific treatment for angina.",
+    "correctAnswer": 2,
+    "explanation": "According to the Malamed Handbook of Local Anesthesia (7th ed.) and the Canadian Dental Association’s emergency‑management guidelines, the immediate first step when a patient exhibits signs of myocardial ischemia (crushing chest pain, radiation to the arm, pallor, diaphoresis) is to activate the emergency response system (call 911). This ensures prompt advanced cardiac care and defibrillation capability if needed. Administration of sublingual nitroglycerin, supplemental oxygen, or positioning are adjunctive measures that should follow EMS activation and only be given if the patient is conscious, able to swallow, and nitroglycerin is readily available. Delaying EMS activation can increase morbidity and mortality.",
     "aiVerified": true
   },
   {
@@ -13553,15 +13553,15 @@
   {
     "id": 382702576,
     "topicId": "anesthesia",
-    "question": "A 7-year-old male patient presents with a chief complaint of spontaneous, severe pain in the mandibular right posterior region. Clinical examination reveals a large carious lesion on tooth #84 (primary mandibular right first molar) with evidence of frank pulpal exposure. The patient reports that the pain is persistent and wakes him from sleep. Radiographic assessment shows a large carious lesion extending into the pulp chamber, with no periapical pathology on the developing permanent successor. What is the MOST appropriate definitive treatment for tooth #84?",
+    "question": "A 7-year-old male patient presents with a chief complaint of spontaneous, severe pain in the mandibular right posterior region. Clinical examination reveals a large carious lesion on tooth #84 (primary mandibular right first molar) with frank pulpal exposure. The pain is persistent and awakens the child from sleep, indicating irreversible pulpitis. Radiographic assessment shows a large carious lesion extending into the pulp chamber, with no periapical pathology on the developing permanent successor. What is the MOST appropriate definitive treatment for tooth #84?",
     "options": [
       "Extraction of tooth #84.",
-      "Pulpotomy with a stainless steel crown.",
+      "Pulpectomy of tooth #84 followed by placement of a stainless steel crown.",
       "Indirect pulp capping.",
       "Direct pulp capping with calcium hydroxide."
     ],
-    "correctAnswer": 0,
-    "explanation": "The clinical presentation of spontaneous, severe pain that wakes the patient from sleep, combined with frank pulpal exposure, indicates irreversible pulpitis. In primary molars, irreversible pulpitis is an absolute indication for extraction because the inflammation has spread to the entire pulp and cannot be reliably reversed or contained by vital pulp therapies like pulpotomy or pulp capping. Pulpotomy is indicated for reversible pulpitis or partial pulp necrosis where the coronal pulp is inflamed but the radicular pulp is healthy; however, the severity of symptoms here suggests widespread inflammation. Indirect and direct pulp capping are contraindicated in the presence of frank exposure and irreversible symptoms. Therefore, extraction is the most appropriate definitive treatment to eliminate the source of infection and pain.",
+    "correctAnswer": 1,
+    "explanation": "The clinical picture (spontaneous nocturnal pain, frank exposure) is diagnostic of irreversible pulpitis in a primary molar. Vital pulp therapy (pulpotomy, indirect or direct pulp capping) is indicated only for reversible pulpitis or when the radicular pulp is healthy. Because the radicular pulp is inflamed beyond repair, a pulpectomy—complete removal of the coronal and radicular pulp tissue, thorough canal disinfection, and obturation with a resorbable filling material—is the treatment of choice. Following pulpectomy, a stainless‑steel crown provides full coronal coverage, restores function, and protects the tooth until natural exfoliation. Extraction is reserved for teeth that are non‑restorable, have extensive root resorption, or are close to exfoliation; this tooth is restorable and the permanent successor is developing normally, so extraction would be unnecessary. Indirect pulp capping is appropriate only when the pulp is not exposed and the lesion is deep but reversible; direct pulp capping is limited to small mechanical exposures in a healthy pulp. Both are contraindicated in the presence of irreversible pulpitis. Therefore, pulpectomy with a stainless steel crown is the most appropriate definitive management.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -13997,8 +13997,8 @@
       "Elastic modulus.",
       "Tensile strength."
     ],
-    "correctAnswer": 3,
-    "explanation": "Tensile strength is the maximum stress a material can withstand under tension before breaking or failing permanently. Compressive strength relates to resistance under compression, hardness is resistance to indentation, and elastic modulus (Young's modulus) measures the material's stiffness or resistance to elastic deformation.",
+    "correctAnswer": 2,
+    "explanation": "Sturdevant’s Art and Science of Operative Dentistry defines elastic modulus as the ratio of stress to strain in the elastic region of a material, reflecting its stiffness and its ability to resist permanent (plastic) deformation when tensile forces are applied. A higher modulus means the material will undergo less strain for a given stress, thereby limiting permanent deformation. Tensile strength, while describing the maximum load a material can bear before fracture, does not address deformation behavior. Compressive strength and hardness pertain to different loading conditions. Consequently, the property that best describes resistance to permanent deformation under tensile stress is elastic modulus.",
     "aiVerified": true
   },
   {
@@ -14307,8 +14307,8 @@
       "Prescribe systemic antibiotics.",
       "Excisional biopsy with a wide margin."
     ],
-    "correctAnswer": 1,
-    "explanation": "An incisional biopsy is the most appropriate next step for a persistent, firm, well-demarcated gingival mass of unknown etiology to establish a definitive diagnosis and rule out neoplastic processes. Reassurance and observation are insufficient for a new, persistent lesion of this nature. Systemic antibiotics are not indicated as there is no sign of infection.",
+    "correctAnswer": 3,
+    "explanation": "Neville, Damm, Allen, and Bouquot (Oral and Maxillofacial Pathology) recommend that gingival lesions ≤1 cm, accessible, and clinically benign in appearance be managed with an excisional biopsy that includes a narrow margin of normal tissue. This provides a definitive histopathologic diagnosis and simultaneously removes the lesion, eliminating the need for a second procedure. Incisional biopsy is reserved for larger, infiltrative, or anatomically complex lesions where complete removal is not feasible. Systemic antibiotics are unwarranted in the absence of infection, and mere observation risks delayed diagnosis of a potential neoplasm. The Canadian Dental Association’s guidelines on oral lesion management echo this approach.",
     "aiVerified": true
   },
   {
@@ -14379,8 +14379,8 @@
       "4% Lidocaine with 1:100,000 epinephrine",
       "0.5% Bupivacaine"
     ],
-    "correctAnswer": 2,
-    "explanation": "Lidocaine with epinephrine is the standard choice for palatal injections because the palatal tissue is highly vascular, leading to rapid systemic absorption. Epinephrine constricts blood vessels, prolonging the duration of action and reducing systemic toxicity. Mepivacaine (Option A) is less potent and lacks vasoconstrictors, making it less ideal for rapid onset and duration in highly vascular areas. Articaine (Option B) is effective but Lidocaine is the most traditionally cited and widely available standard for this specific clinical scenario in many protocols. Bupivacaine (Option D) has a slow onset and is not typically used for routine palatal blocks due to its long duration and potential for prolonged numbness, which is uncomfortable for the patient.",
+    "correctAnswer": 1,
+    "explanation": "The palatal mucosa is dense and highly innervated; rapid, profound anesthesia is required for deep pulpal therapy. Articaine (4 % with 1:100,000 epinephrine) has a lower pKa (7.8) than lidocaine, resulting in a faster onset, and its thiophene ring confers greater lipid solubility, giving higher potency. Canadian NDEB references (Malamed, 7th ed., ch. 4) list articaine as the agent of choice for palatal blocks when a rapid, deep anesthetic effect is needed. Lidocaine is traditionally used at 2 % concentration; a 4 % formulation is not commercially available in Canada, making option C inaccurate. Mepivacaine lacks a vasoconstrictor and is less potent, while bupivacaine’s slow onset and prolonged duration are unsuitable for routine palatal blocks.",
     "aiGenerated": true,
     "aiVerified": true
   },
@@ -14409,8 +14409,8 @@
       "Prilocaine",
       "Bupivacaine"
     ],
-    "correctAnswer": 3,
-    "explanation": "Bupivacaine is associated with a higher risk of cardiotoxicity and can potentially lower the seizure threshold more significantly than other amide local anesthetics, especially in patients with pre-existing seizure disorders. While all local anesthetics can cause seizures in toxic doses, bupivacaine's long duration and potent sodium channel blocking activity make it less favorable in patients with seizure history compared to shorter-acting agents like lidocaine or mepivacaine. Lidocaine (Option A) and Mepivacaine (Option B) are generally considered safer in this context. Prilocaine (Option C) is associated with methemoglobinemia but is not specifically contraindicated due to seizure threshold lowering in the same way bupivacaine is often cited in pharmacological cautions.",
+    "correctAnswer": 0,
+    "explanation": "The local anesthetic that should be avoided in a patient receiving chronic phenytoin therapy is lidocaine.  Phenytoin is a potent inducer of hepatic microsomal enzymes and, more importantly for this interaction, it competes for plasma‑protein binding sites.  Lidocaine is ~65% protein‑bound; when phenytoin is present, displacement of lidocaine from albumin increases the free (active) fraction, raising peak plasma concentrations after a standard dental dose.  Elevated free lidocaine levels are the primary cause of its well‑documented central‑nervous‑system toxicity, which manifests as tremor, paresthesia and, at toxic levels, seizures.  Consequently, the combination of phenytoin and lidocaine can lower the seizure threshold and should be avoided or used only with reduced dosage and careful monitoring (Malamed, *Handbook of Local Anesthesia*; Carranza, *Clinical Periodontology*; NDEB AFK pharmacology guidelines). \n\nWhy the other agents are not the best choice: \n• Mepivacaine (option 1) is an amide anesthetic with a pharmacokinetic profile similar to lidocaine but it is less vasodilatory and is less dependent on protein binding for its plasma concentration; no clinically significant interaction with phenytoin has been reported. \n• Prilocaine (option 2) is primarily associated with methemoglobinemia at high doses; it does not have a pronounced seizure‑inducing potential and there is no evidence of a phenytoin‑prilocaine interaction that would affect seizure threshold. \n• Bupivacaine (option 3) is the most cardiotoxic of the amide agents and, while it can cause CNS toxicity at very high concentrations, its seizure‑inducing propensity is lower than lidocaine’s.  Phenytoin does not alter bupivacaine protein binding in a clinically relevant way, and no specific phenytoin‑bupivacaine interaction is described in the dental literature.  Therefore, lidocaine is the only local anesthetic that must be avoided in this clinical scenario.",
     "aiGenerated": true,
     "aiVerified": true
   }

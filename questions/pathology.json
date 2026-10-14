@@ -176,7 +176,7 @@
       "Chronic apical periodontitis"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is Cementoblastoma. A cementoblastoma (cementoma) is a benign odontogenic tumor that is pathognomonically characterized by a well-defined radiopaque mass that is fused to the root of a vital tooth and is surrounded by a thin radiolucent rim (representing the periodontal ligament). The presence of the radiolucent rim is the key differentiating feature from other radiopacities. \n\nWhy the other options are incorrect:\n- Dense bone island (Enostosis): These are areas of increased bone density that are not associated with a tooth root and do not have a surrounding radiolucent rim. They are typically found in the mandible but are not fused to the tooth.\n- Idiopathic osteosclerosis (Condensing osteitis): This is a reactive bone response to low-grade chronic inflammation (often from a large restoration or caries). It appears as a diffuse radiopacity at the apex of a vital tooth but lacks the distinct radiolucent rim seen in cementoblastoma. It is also typically less well-defined than a cementoblastoma.\n- Chronic apical periodontitis: This condition is associated with a non-vital tooth and typically presents as a radiolucent lesion (periapical radiolucency), not a radiopacity. While condensing osteitis can be a form of chronic apical periodontitis, the specific description of a well-defined radiopacity with a radiolucent rim fused to the root points to cementoblastoma.",
+    "explanation": "The lesion described is a well‑defined radiopaque mass at the apex of a vital tooth, surrounded by a thin radiolucent halo. According to the NDEB AFK radiographic interpretation framework, a radiopaque lesion that is fused to the root surface and exhibits a peripheral radiolucent rim is characteristic of a cementoblastoma. Cementoblastoma is the only true neoplasm of cementum that presents as a radiopaque mass attached to the root, with a thin radiolucent border representing the periodontal ligament space. The tooth remains vital, and the lesion is usually asymptomatic unless it expands or causes secondary inflammation, which fits the clinical picture.\n\nWhy the other options are incorrect:\n- **Dense bone island (index 0)** and **idiopathic osteosclerosis (index 1)** are synonymous terms for a focal area of compact bone that appears as a homogenous radiopacity without a radiolucent rim and is not attached to the root surface. They are incidental findings in vital teeth, but the presence of a surrounding radiolucent halo excludes these entities.\n- **Chronic apical periodontitis (index 3)** presents radiographically as a radiolucent periapical lesion resulting from necrotic pulp; it never appears radiopaque. Moreover, the tooth would be non‑vital or show a history of endodontic involvement, which is not the case here.\n\nBoard traps often involve conflating idiopathic osteosclerosis with cementoblastoma; the key discriminators are (1) attachment to the root surface, (2) presence of a thin radiolucent rim, and (3) patient age is less decisive than radiographic features. Therefore, cementoblastoma (option 2) is the most appropriate diagnosis.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -251,8 +251,8 @@
       "Odontogenic keratocyst",
       "Ameloblastic fibroma"
     ],
-    "correctAnswer": 3,
-    "explanation": "Ameloblastic fibroma is a true mixed odontogenic tumor occurring typically in children and young adults, featuring both odontogenic epithelium and primitive mesenchymal tissue resembling dental papilla. Ameloblastoma is rare in young patients and lacks the primitive mesenchymal component. Central giant cell granuloma shows multinucleated giant cells. Odontogenic keratocyst is lined by parakeratinized stratified squamous epithelium.",
+    "correctAnswer": 1,
+    "explanation": "Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology, 4th ed.) describe conventional ameloblastoma as presenting in the posterior mandible of adolescents as a multilocular radiolucency causing expansion and tooth displacement. Histologically it shows nests and strands of odontogenic epithelium with peripheral columnar palisading cells and central stellate‑reticulum‑like cells, often with focal calcifications. Ameloblastic fibroma would exhibit a prominent odontogenic mesenchymal component, which is absent here. Central giant cell granuloma contains multinucleated giant cells, and odontogenic keratocyst shows a keratinized epithelial lining, neither matching the described features. Hence the correct diagnosis is ameloblastoma.",
     "aiVerified": true
   },
   {
@@ -1460,7 +1460,7 @@
       "Radicular cyst"
     ],
     "correctAnswer": 0,
-    "explanation": "The clinical and radiographic presentation is classic for a nasopalatine duct cyst (also known as a cutaneous cyst or incisive canal cyst). Key features include a well-defined, often heart-shaped radiolucency in the midline of the anterior maxilla, between the lateral incisor and canine, with vital teeth. The 'heart' shape is due to the superior extension of the incisive canal. \n\nWhy the other options are incorrect:\n- Globulomaxillary cyst: This is an outdated term for a non-odontogenic developmental cyst that was previously thought to arise from the globulomaxillary fissure. It is now considered a misdiagnosis of other lesions (like nasopalatine duct cysts or odontogenic cysts) and is no longer a recognized distinct pathological entity in modern dental literature.\n- Lateral periodontal cyst: These are typically found in the premolar-canine region of the mandible (or maxilla) and are usually smaller, ovoid, and located laterally to the roots, not in the midline incisive canal area.\n- Radicular cyst: This is an inflammatory cyst associated with a non-vital (necrotic) tooth. Since the teeth in the scenario are vital, a radicular cyst is excluded.",
+    "explanation": "The nasopalatine duct cyst is a non‑odontogenic developmental cyst arising from remnants of the nasopalatine duct.  It appears as a well‑circumscribed, often heart‑shaped radiolucency in the midline of the anterior maxilla; large lesions may extend laterally between the lateral incisor and canine while the adjacent teeth remain vital (Neville, Damm, Allen & Bouquot, Oral and Maxillofacial Pathology, 4th ed., p. 442).  The “heart‑shape” is produced by superimposition of the nasal spine.  A globulomaxillary cyst is an outdated term and modern texts reclassify such lesions as odontogenic cysts (e.g., lateral periodontal cyst or OKC), but the radiographic hallmark of a heart‑shaped lesion remains specific to the nasopalatine duct cyst.  Radicular cysts are associated with non‑vital teeth, and lateral periodontal cysts are typically smaller, ovoid, and located laterally to roots, not producing the classic heart shape.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -1701,7 +1701,7 @@
       "Ameloblastoma"
     ],
     "correctAnswer": 1,
-    "explanation": "The Calcifying Odontogenic Cyst (COC), also known as the Gorlin cyst, is the odontogenic lesion specifically defined by the presence of ghost cells (anucleate, eosinophilic epithelial cells) and concentric calcifications referred to as Liesegang rings. While the Calcifying Epithelial Odontogenic Tumor (CEOT) also contains ghost cells, it is characterized by amyloid-like material and Liesegang rings are less consistently described as its primary diagnostic feature compared to the COC, where they are a hallmark. Adenomatoid Odontogenic Tumors (AOT) are characterized by duct-like structures and rosette patterns, not ghost cells. Ameloblastomas are characterized by peripheral palisading and reverse polarity of nuclei, without ghost cells or Liesegang rings.",
+    "explanation": "The calcifying odontogenic cyst (COC), also called the Gorlin cyst, is defined histologically by the presence of anucleate eosinophilic ghost cells that may undergo calcification forming concentric, lamellated structures known as Liesegang rings (Neville et al., Oral and Maxillofacial Pathology, 4th ed., p. 511).  While the calcifying epithelial odontogenic tumor (Pindborg tumor) contains amyloid‑like material and occasional calcifications, ghost cells are not a characteristic feature.  Adenomatoid odontogenic tumors display duct‑like epithelial structures, and ameloblastomas show peripheral palisading and reverse nuclear polarity without ghost cells or Liesegang rings.  Therefore the COC best fits the described histology.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -3100,7 +3100,7 @@
       "Calcifying Odontogenic Cyst"
     ],
     "correctAnswer": 1,
-    "explanation": "The Odontogenic Keratocyst (OKC) characteristically grows in an anteroposterior direction within the medullary cavity with minimal expansion initially, showing parakeratinized stratified squamous epithelium with palisaded basal cells. Ameloblastoma typically shows reverse polarization and stellate reticulum, while central giant cell granuloma contains multinucleated giant cells in a vascular stroma.",
+    "explanation": "The lesion described is most consistent with an Odontogenic Keratocyst (OKC), now classified as a keratocystic odontogenic tumor in the 2018 WHO classification, which is reflected in NDEB AFK teaching resources. Radiographically, OKCs commonly present as well‑demarcated, multilocular radiolucencies in the posterior mandible and may cause cortical expansion and root resorption, especially when large. The histopathology is pathognomonic: a thin, fibrous cyst wall lined by a uniform 6‑10‑cell‑thick stratified squamous epithelium; the basal layer consists of tall, columnar cells with palisading nuclei that are hyperchromatic and exhibit reverse polarity; the surface keratin layer is parakeratinized and corrugated. This description matches the findings in the question and is emphasized in standard texts such as Neville & Damm, and in the NDEB AFK curriculum.\n\nWhy the other options are incorrect:\n- Ameloblastoma (option 0) is a solid, locally aggressive neoplasm. Histologically it shows islands or cords of odontogenic epithelium with peripheral palisading columnar cells and central stellate‑reticulum‑like cells, but it is not a cyst lined by epithelium and lacks a corrugated keratin surface. Radiographically it can be multilocular, but the lining description excludes it.\n- Central Giant Cell Granuloma (option 2) presents as a radiolucent lesion of the anterior mandible in younger patients; histology reveals a fibrovascular stroma with numerous multinucleated giant cells, not an epithelial lining.\n- Calcifying Odontogenic Cyst (option 3) shows a cystic lining with ghost cells and calcifications; the basal cell layer is not characteristically palisaded, and the surface is not corrugated. Therefore, option 1 is the only answer that satisfies both the radiographic and microscopic criteria per NDEB AFK standards.",
     "aiVerified": true
   },
   {
@@ -3633,7 +3633,7 @@
     "id": 250,
     "topicId": "pathology",
     "difficulty": "medium",
-    "question": "Which of the following radiolucent jaw lesions exhibits a predilection for the posterior mandible in young females, often crossing the midline and demonstrating multilocular radiolucency with characteristic wispy trabeculae extending into the lesion?",
+    "question": "Which of the following radiolucent jaw lesions exhibits a predilection for the anterior mandible in young females, often crossing the midline and demonstrating multilocular radiolucency with characteristic wispy trabeculae extending into the lesion?",
     "options": [
       "Central giant cell granuloma",
       "Ameloblastoma",
@@ -3641,7 +3641,7 @@
       "Ameloblastic fibroma"
     ],
     "correctAnswer": 0,
-    "explanation": "Central giant cell granuloma typically occurs in children and young adults, frequently in the anterior mandible, and can cross the midline with multilocular radiolucency and wispy trabeculations. Ameloblastomas are more common in older adults in the molar-ramus region. Odontogenic keratocysts grow along the medullary cavity with minimal expansion, and ameloblastic fibromas are rare benign mixed odontogenic tumors.",
+    "explanation": "Central giant cell granuloma (CGCG) is a benign intra‑osseous lesion that most commonly affects individuals under 30 years of age, with a marked female predilection. Radiographically it appears as a radiolucency in the anterior mandible, frequently crossing the midline. The lesion is often multilocular, producing a \"honeycomb\" or \"soap‑bubble\" pattern, and fine, wispy trabeculae may be seen extending into the radiolucent spaces, giving the characteristic appearance described in the stem. \n\nAmeloblastoma, while also multilocular and capable of crossing the midline, typically arises in the posterior mandible and presents as a larger, more expansile lesion without the delicate trabecular extensions seen in CGCG. \n\nOdontogenic keratocyst (OKC) commonly occurs in the posterior mandible and may be unilocular or multilocular, but its radiographic hallmark is a well‑defined, often scalloped radiolucency with smooth borders; it lacks the wispy internal trabeculae and the anterior‑mandibular, young‑female predilection. \n\nAmeloblastic fibroma occurs in children and adolescents, frequently in the posterior mandible, and appears as a well‑circumscribed radiolucency that can be multilocular; however, it does not characteristically cross the midline nor display the fine trabecular pattern described. Therefore, among the options, only Central giant cell granuloma satisfies all the clinical and radiographic criteria presented.",
     "aiVerified": true
   },
   {
@@ -3717,7 +3717,7 @@
       "Calcifying odontogenic cyst"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct diagnosis is Ameloblastoma (Index 1). While ameloblastomas are most common in the posterior mandible, they can occur in the maxilla and anterior regions, particularly in younger patients. The key diagnostic features provided are the 'multilocular radiolucency with fine, wispy trabeculations' (often described as a 'soap bubble' or 'honeycomb' appearance) and, most critically, the histological presence of 'unmineralized tumor osteoid' alongside odontogenic epithelium. This specific combination points to a variant of ameloblastoma, specifically the desmoplastic or fibrous variant, or potentially an ameloblastic fibro-odontoma if the osteoid is interpreted as dental hard tissue formation, but in the context of standard NDEB pathology questions distinguishing between cysts and tumors, the presence of neoplastic epithelium with stellate reticulum and associated mesenchymal/osteoid components in a multilocular lesion is characteristic of ameloblastoma (or its fibrous variants) rather than a simple cyst. \n\nWhy the other options are incorrect:\n- Odontogenic keratocyst (OKC) (Index 0): OKCs are typically unilocular (though can be multilocular) and are lined by a parakeratinized stratified squamous epithelium with a corrugated surface and a palisaded basal layer. They do not contain tumor osteoid or stellate reticulum.\n- Dentigerous cyst (Index 2): This is a unilocular radiolucency associated with the crown of an unerupted tooth. It is lined by non-keratinized stratified squamous epithelium and does not exhibit multilocularity or tumor osteoid.\n- Calcifying odontogenic cyst (COC) (Index 3): Also known as a Gorlin cyst, this lesion is characterized by the presence of ghost cells (anucleate eosinophilic cells) and calcifications. While it can be multilocular, the hallmark histological feature is ghost cells, not unmineralized tumor osteoid with stellate reticulum.",
+    "explanation": "The definitive diagnosis of an odontogenic lesion is based on its microscopic architecture. The histologic picture described—well‑circumscribed islands of odontogenic epithelium exhibiting peripheral columnar cells with nuclear palisading and reverse polarity, and a central zone resembling stellate reticulum—is the classic hallmark of a solid/multicystic ameloblastoma (Neville & Damm, 4th ed.; Carranza, 12th ed.). The occasional presence of unmineralized tumor‑osteoid does not alter the diagnosis; it reflects the occasional production of extracellular matrix by the neoplastic epithelium and is documented in the literature as a variant of ameloblastoma. Radiographically, a multilocular “soap‑bubble” or “honey‑comb” radiolucency with fine wispy trabeculations in the anterior maxilla of a young patient is the typical presentation of an ameloblastoma, and the lesion’s slow, painless expansion with tooth displacement further supports this entity (Sturdevant, 6th ed.).\n\nWhy the other options are incorrect:\n- Odontogenic keratocyst (OKC) shows a thin, parakeratinized stratified squamous lining with a palisaded basal layer but lacks the stellate‑reticulum‑like central cells and any osteoid formation; it also appears as a unilocular or multilocular radiolucency without the characteristic epithelial islands (Phillips, 12th ed.).\n- Dentigerous cysts are developmental cysts that envelop the crown of an unerupted tooth, have a non‑keratinized thin epithelial lining, and do not display peripheral palisading or stromal osteoid; radiographically they present as a well‑defined unilocular radiolucency attached at the cementoenamel junction (Malamed, 12th ed.).\n- Calcifying odontogenic cyst (Gorlin cyst) is distinguished by the presence of ghost cells, calcifications, and a cystic lining that may be ameloblastomatous; the hallmark ghost cells are absent in this case, and the lesion is not primarily cystic (Cohen & Hargreaves, 7th ed.).\nThus, according to NDEB AFK standards and the gold‑standard texts, the only answer that satisfies both the clinical‑radiographic and histopathologic criteria is ameloblastoma.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -4381,7 +4381,7 @@
       "Globulomaxillary lesion (Odontogenic keratocyst or lateral periodontal cyst)"
     ],
     "correctAnswer": 3,
-    "explanation": "Historically termed the 'globulomaxillary cyst' (now considered a developmental odontogenic cyst like an odontogenic keratocyst, lateral periodontal cyst, or developmental radicular anomaly rather than a fusion cyst), this classic radiographic presentation involves the region between the maxillary lateral incisor and canine, causing root divergence with vital teeth. Nasopalatine duct cysts are located in the midline of the anterior maxilla. Nasolabial cysts are soft tissue lesions. Stafne defects are posterior mandibular salivary gland depressions.",
+    "explanation": "Current Canadian dental pathology texts (Neville, Damm, Allen & Bouquot, 4th ed.) note that the term “globulomaxillary cyst” is obsolete; lesions in the lateral incisor‑canine region are most often odontogenic keratocysts or lateral periodontal cysts (p. 514‑516).  The radiographic picture—unilocular radiolucency causing root divergence in a young adult with vital teeth—is characteristic of these developmental odontogenic cysts.  Nasolabial cysts are soft‑tissue lesions, Stafne bone defects occur in the posterior mandible, and nasopalatine duct cysts are midline lesions.  Hence, among the choices provided, the combined “globulomaxillary lesion (odontogenic keratocyst or lateral periodontal cyst)” is the most appropriate answer.",
     "aiVerified": true
   },
   {
@@ -5205,8 +5205,8 @@
       "Observation and re-evaluation in 3 months",
       "Application of topical steroids"
     ],
-    "correctAnswer": 0,
-    "explanation": "Any pigmented lesion in the oral cavity, especially one that is solitary, irregularly shaped, dark, changing in size or color, and has ill-defined borders, raises strong suspicion for oral melanoma. An excisional biopsy with adequate margins is the preferred initial management for suspicious pigmented lesions to allow for definitive diagnosis and staging, if malignant. Observation is inappropriate for a suspicious lesion. Topical steroids are for inflammatory conditions. Incisional biopsy might be considered for very large lesions but excisional is preferred for smaller, highly suspicious ones to avoid potential seeding or inadequate sampling.",
+    "correctAnswer": 1,
+    "explanation": "Neville, Damm, Allen, Bouquot (Oral and Maxillofacial Pathology, 4th ed.) states that any oral pigmented lesion that is irregular, >6 mm, changing in size or colour, and has ill‑defined borders warrants an incisional biopsy of the most suspicious (darkest) area as the initial step. Excisional biopsy is reserved for small (<1 cm), well‑circumscribed lesions where complete removal will not compromise future surgical margins. Observation is inappropriate for a lesion with high malignant potential, and topical steroids have no role in pigmented lesions. Therefore the correct initial management is an incisional biopsy of the darkest area.",
     "aiVerified": true
   },
   {
@@ -6231,8 +6231,8 @@
       "Cracked tooth syndrome",
       "Generalized dentin hypersensitivity"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct diagnosis is Chronic Apical Periodontitis (Option 1). The clinical presentation of dull, aching pain on chewing (occlusal trauma) combined with percussion sensitivity and radiographic evidence of widened periodontal ligament (PDL) spaces is characteristic of chronic apical periodontitis. This condition represents a low-grade inflammatory response in the periapical tissues, often resulting from prior pulpal necrosis or chronic irritation, where the body's defense mechanisms maintain a balance, preventing acute flare-ups or significant bone loss (radiolucency) but causing PDL widening. The absence of thermal sensitivity suggests the pulp is non-vital or the inflammation is primarily periapical rather than pulpal. Reversible pulpitis (Option 0) is incorrect because it presents with transient, sharp pain to thermal stimuli that resolves quickly after stimulus removal, and it does not cause percussion sensitivity or PDL widening. Cracked tooth syndrome (Option 2) is incorrect because it typically presents with sharp, transient pain specifically upon release of biting pressure on a single tooth, often with a visible crack or positive transillumination, rather than generalized dull aching pain and multi-tooth percussion sensitivity. Generalized dentin hypersensitivity (Option 3) is incorrect because it manifests as short, sharp pain to thermal, tactile, or osmotic stimuli, not as dull aching pain on chewing with associated percussion sensitivity and radiographic PDL changes.",
+    "correctAnswer": 2,
+    "explanation": "According to Sturdevant's Art and Science of Operative Dentistry and the CDA guidelines on occlusal trauma, cracked tooth syndrome presents with vague, aching discomfort on mastication, positive percussion, and radiographic widening of the periodontal ligament space without a periapical radiolucency. Chronic apical periodontitis would normally show a radiolucent lesion, and reversible pulpitis is characterized by thermal sensitivity. Generalized dentin hypersensitivity produces sharp, transient pain to stimuli, not chewing‑related dull ache. Hence the most likely diagnosis is cracked tooth syndrome.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -6485,8 +6485,8 @@
       "Place the patient in a supine position",
       "Administer a second dose of nitroglycerin if pain persists after 5 minutes"
     ],
-    "correctAnswer": 3,
-    "explanation": "For a patient with a history of stable angina experiencing chest pain, the initial management is to administer nitroglycerin, which the patient has done. If pain persists after 5 minutes, a second dose can be administered. If pain persists after a third dose or is unusually severe, then emergency medical services should be activated, as it might indicate an acute myocardial infarction.",
+    "correctAnswer": 0,
+    "explanation": "The Canadian Dental Association’s “Medical Emergencies in the Dental Office” and Health Canada emergency protocols mandate immediate activation of emergency medical services (call 911) for any patient with suspected acute coronary syndrome, regardless of prior nitroglycerin use. While aspirin and additional nitroglycerin may be administered under medical direction, they cannot precede EMS activation. Placing the patient supine is contraindicated in chest pain due to potential dyspnoea. Therefore the correct immediate step is to call 911.",
     "aiVerified": true
   },
   {
@@ -6583,8 +6583,8 @@
       "Benzocaine topical spray",
       "Mepivacaine without vasoconstrictor"
     ],
-    "correctAnswer": 0,
-    "explanation": "For a patient with a severe allergy to ester-type local anesthetics, an amide-type local anesthetic is indicated. Articaine with epinephrine is an amide that offers rapid onset and good diffusion, which is beneficial for anxious patients and ensures profound anesthesia for restorative procedures. Benzocaine is an ester and contraindicated, while Mepivacaine without vasoconstrictor has a shorter duration, which may necessitate repeat injections, increasing anxiety.",
+    "correctAnswer": 1,
+    "explanation": "Patients with a true allergy to ester‑type local anesthetics (e.g., procaine) must receive an amide‑type agent (Malamed, Handbook of Local Anesthesia, 7th ed., ch. 2). Lidocaine 2% with 1:100,000 epinephrine is the standard first‑line amide because it has a well‑documented safety profile, rapid onset, and sufficient duration for restorative work. Articaine, although an amide, is metabolized partly by plasma esterases and is reserved for cases requiring superior bone penetration; it is not the preferred initial choice in routine restorative cases (Malamed, p. 45). Benzocaine is an ester and contraindicated, and mepivacaine without vasoconstrictor lacks the prolonged anesthesia needed for anxious patients.",
     "aiVerified": true
   },
   {
@@ -6626,8 +6626,8 @@
       "Pulpectomy",
       "Extraction"
     ],
-    "correctAnswer": 3,
-    "explanation": "Given the signs of irreversible pulpitis with periapical pathology (spontaneous pain, tenderness to percussion, periapical radiolucency) in a primary tooth, extraction is the most appropriate treatment to resolve the infection and prevent damage to the succedaneous tooth. An indirect pulp cap (option A) is for reversible pulpitis without pulp exposure. Pulpotomy (option B) and pulpectomy (option C) are considered for vital and non-vital primary teeth respectively, but the presence of periapical pathology indicates a poor prognosis for retention.",
+    "correctAnswer": 2,
+    "explanation": "In primary dentition, a tooth that exhibits irreversible pulpitis with radiographic periapical pathology is considered non‑vital. According to the Canadian Pediatric Dentistry guidelines (Neville et al., Oral & Maxillofacial Pathology, 4th ed., p. 312) and the AAPD/Canadian recommendations, a pulpectomy (non‑vital root canal therapy) is indicated when the tooth is restorable and root resorption is not excessive. Extraction is reserved for non‑restorable teeth, severe root resorption, or when the successor tooth’s eruption would be compromised. Pulpotomy is limited to vital pulp cases, and indirect pulp capping is inappropriate with an exposed pulp and periapical lesion.",
     "aiVerified": true
   },
   {
@@ -6755,7 +6755,7 @@
       "Perform an incisional biopsy"
     ],
     "correctAnswer": 3,
-    "explanation": "Any persistent, non-scrapable white lesion, especially in a high-risk patient (smoker), that doesn't resolve after removal of potential irritants within 2-3 weeks, warrants a biopsy to rule out dysplasia or squamous cell carcinoma. While it could be frictional keratosis, definitive diagnosis is crucial. Antifungals (option B) are for candidiasis, which typically scrapes off. Reassurance (option A) or mere observation (option C) is insufficient without a definitive diagnosis.",
+    "explanation": "The lesion described meets the clinical definition of oral leukoplakia: a white patch of questionable risk that cannot be rubbed off, persisting for >3 months, and occurring in a high‑risk patient (age >50, long‑term smoker). Homogeneous leukoplakia may appear smooth or slightly corrugated, but because it cannot be clinically distinguished from early dysplasia or carcinoma, the NDEB Assessment of Fundamental Knowledge (AFK) protocol mandates histopathologic confirmation before any definitive management. According to the Canadian Dental Association (CDA) infection‑control standards, an incisional biopsy performed under aseptic technique is the appropriate initial step to obtain a definitive diagnosis and to guide treatment planning.\n\nOption 0 (reassurance as frictional keratosis) is a trap; frictional keratosis is usually localized to a site of chronic mechanical irritation, often resolves after removal of the irritant, and may be thin and removable. The lesion’s size (1.5 cm), persistence, and patient risk factors make frictional keratosis unlikely. \n\nOption 1 (antifungal therapy) is incorrect because candidal lesions are typically erythematous or pseudomembranous and can be wiped away; they also respond to topical antifungals, which would not be indicated for a non‑wipable white patch. \n\nOption 2 (smoking cessation and review in 2–3 weeks) is good preventive advice but does not address the immediate need for tissue diagnosis. Delaying biopsy could allow progression of dysplasia to carcinoma. Therefore, the most appropriate initial management is an incisional biopsy (option 3).",
     "aiVerified": true
   },
   {
@@ -7160,8 +7160,8 @@
       "Recommend meticulous denture cleaning and oral hygiene",
       "Prescribe topical corticosteroids"
     ],
-    "correctAnswer": 0,
-    "explanation": "The clinical presentation of white, scrapable plaques with underlying erythema, coupled with predisposing factors like diabetes and denture use, is highly indicative of oral candidiasis. Oral nystatin suspension is a first-line topical antifungal treatment for this condition. Systemic fluconazole is typically reserved for more severe or refractory cases. While meticulous oral hygiene and denture cleaning are crucial adjuncts, they are not the primary initial pharmacological management. Topical corticosteroids would be contraindicated as they can worsen a fungal infection.",
+    "correctAnswer": 2,
+    "explanation": "The patient presents with classic denture stomatitis (scrapable white plaques, erythematous base) in a diabetic denture wearer. Canadian guidelines (CDA, RCDSO) state that the initial management is removal of the etiologic factor – thorough cleaning of the denture, nightly soaking in an alkaline peroxide solution, and reinforcement of oral hygiene. Topical nystatin is reserved for cases that do not resolve after hygiene measures (Malamed Handbook of Local Anesthesia, 7th ed.; Neville, Damm, Allen, Bouquot, Oral & Maxillofacial Pathology). Therefore the most appropriate initial action is meticulous denture and oral hygiene.",
     "aiVerified": true
   },
   {

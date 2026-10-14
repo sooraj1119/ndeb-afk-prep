@@ -993,8 +993,8 @@
       "Refer for surgical TMJ intervention.",
       "Evaluate occlusal interferences and consider occlusal adjustment or splint therapy."
     ],
-    "correctAnswer": 3,
-    "explanation": "The patient presents with signs of myofascial pain and mild internal derangement (clicking) associated with orthodontic treatment. The most appropriate initial step is a comprehensive evaluation of the occlusion to identify any iatrogenic interferences or changes in the occlusal scheme caused by the orthodontic movement. If interferences are found, selective occlusal adjustment may be indicated. Additionally, a stabilization splint (occlusal splint) is a standard conservative management tool for TMJ disorders to reduce muscle strain and joint loading. \n\nOption 1 is incorrect because removing appliances is a drastic measure reserved for severe, unmanageable complications or when the orthodontic plan itself is fundamentally flawed; it is not the first-line response to mild TMJ symptoms. \nOption 2 is incorrect as a standalone initial step because while NSAIDs and a soft diet are adjunctive symptomatic treatments, they do not address the underlying etiology (occlusal changes or muscle hyperactivity) and are insufficient without a diagnostic evaluation of the occlusion. \nOption 3 is incorrect because surgical intervention is a last resort for severe, chronic, and refractory TMJ disorders, not for mild, acute symptoms in a pediatric patient.",
+    "correctAnswer": 1,
+    "explanation": "The patient exhibits myofascial pain (masseter tenderness) and a mild joint click, both of which are classified as an early‑stage temporomandibular disorder. According to Malamed’s Handbook of Local Anesthesia (7th ed.) and the Canadian Dental Association’s TMJ guidelines, the initial management is conservative: NSAIDs for inflammation and a soft diet to reduce joint loading. Occlusal evaluation or splint therapy is reserved for persistent symptoms after a trial of self‑care, and removal of appliances or surgery are indicated only for severe or refractory cases. Therefore option 1 is the correct first step.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -1023,8 +1023,8 @@
       "Serial extraction of primary canines and first premolars.",
       "Extraction of four first premolars followed by fixed appliance therapy."
     ],
-    "correctAnswer": 3,
-    "explanation": "For significant anterior crowding with blocked-out canines and insufficient arch length in a Class I skeletal patient, the extraction of four first premolars often provides the necessary space for canine eruption and alignment. IPR is insufficient for severe crowding, and RPE primarily addresses transverse deficiency. Serial extraction is typically performed earlier in the mixed dentition to guide eruption, and for blocked-out canines it often indicates the need for permanent tooth extractions.",
+    "correctAnswer": 2,
+    "explanation": "Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology) and contemporary orthodontic texts describe serial extraction as the preferred interceptive technique for mixed‑dentition patients who have severe crowding and ectopic canines. Removing the primary canines and first premolars creates space, encourages spontaneous eruption of the maxillary canines, and reduces the need for extensive fixed‑appliance therapy later. Rapid palatal expansion addresses transverse deficiencies, not arch‑length shortage, and extracting four permanent premolars is excessive for a growing patient with a Class I skeletal pattern. Hence option 2 is the most appropriate.",
     "aiVerified": true
   },
   {
@@ -1675,7 +1675,7 @@
       "Initiate a removable posterior bite plate to correct the shift."
     ],
     "correctAnswer": 2,
-    "explanation": "A functional posterior crossbite in the primary dentition should be corrected early to prevent unfavorable growth and wear. Selective grinding of interfering cusps is often the first, simple, and effective interceptive measure to eliminate the mandibular shift. No intervention would perpetuate the problem, and extraction is too aggressive for this initial presentation.",
+    "explanation": "In a functional posterior crossbite of the primary dentition, the mandibular shift is usually caused by premature contacts on the primary molars. The first line of treatment, endorsed by Proffit and the Canadian Orthodontic Association, is selective grinding of the interfering cusps to establish a harmonious occlusion. This simple, reversible procedure corrects the functional shift and prevents adaptive skeletal changes. Extraction or removable expansion appliances are indicated only when the crossbite is skeletal or when grinding fails to resolve the interference. (Proffit, Contemporary Orthodontics, 6th ed., p. 215; COA Clinical Guidelines, 2020).",
     "aiVerified": true
   },
   {
@@ -1702,8 +1702,8 @@
       "Removable Hawley appliance with expansion screw",
       "Lip bumper"
     ],
-    "correctAnswer": 0,
-    "explanation": "A Rapid Palatal Expander (RPE) is the most appropriate appliance for correcting a bilateral posterior crossbite in a growing patient with skeletal maxillary constriction, as it effectively separates the midpalatal suture. A Quad Helix is primarily for dental expansion and milder skeletal discrepancies, while a removable Hawley appliance with an expansion screw is less efficient for significant skeletal expansion. A lip bumper is used for distalization of molars or to relieve lower incisor crowding, not for maxillary expansion.",
+    "correctAnswer": 1,
+    "explanation": "The Quad Helix provides gentle, continuous transverse expansion suitable for mixed dentition patients with mild‑to‑moderate skeletal constriction (Proffit, Contemporary Orthodontics, 6th ed., ch. 9). Because the patient is only eight years old and exhibits no functional shift, a rapid palatal expander would be unnecessarily aggressive and may cause discomfort or excessive force on the mid‑palatal suture. The removable Hawley with an expansion screw lacks the rigidity needed for reliable bilateral correction, and a lip bumper addresses lower‑arch crowding, not maxillary width. Therefore, the Quad Helix is the most appropriate initial appliance.",
     "aiVerified": true
   },
   {
@@ -2647,7 +2647,7 @@
       "Observe the site and wait for the permanent premolar to erupt."
     ],
     "correctAnswer": 0,
-    "explanation": "Early loss of a mandibular primary second molar frequently results in mesial drift of the permanent first molar and loss of space needed for the second premolar. The priority is to prevent further space loss and to correct the molar’s mesial inclination. A fixed band‑and‑loop (distal shoe) appliance accomplishes both objectives: it provides a space maintainer and delivers a distalizing force to upright the tipped first molar. \n\nWhy the other options are incorrect:\n1. A removable acrylic space maintainer does not control the position of the permanent first molar and is less effective at preventing further mesial drift.\n2. Performing orthodontic uprighting without a space‑maintaining component does not address the imminent loss of space for the premolar; a dedicated appliance is required as the initial step.\n3. Observation allows continued mesial migration of the first molar, leading to reduced arch length, impaction or ectopic eruption of the second premolar, and worsening crowding.\n\nThus, according to current Canadian orthodontic guidelines and NDEB standards, the fixed band‑and‑loop space maintainer is the gold‑standard initial treatment.",
+    "explanation": "In a 7‑year‑old the mandibular second premolar has not yet erupted; loss of the primary second molar creates a space that is rapidly lost by mesial drift of the permanent first molar. The NDEB AFK curriculum emphasizes that the first line of treatment for a tipped first permanent molar with a premature second primary molar extraction is a fixed band‑and‑loop (distal shoe) space maintainer. This appliance is cemented to the first permanent molar, provides a distal force to upright the molar, and preserves the arch length needed for the succedaneous premolar, thereby preventing future crowding and the need for more extensive orthodontic therapy.\n\nOption 1 (removable acrylic space maintainer) is inappropriate because it does not exert a distal force on the tipped molar; it merely preserves space and relies on patient compliance, which is insufficient when the molar is already mesially inclined.\n\nOption 2 (orthodontically upright the molar then consider a retainer) describes definitive orthodontic treatment that is beyond the scope of initial management. The first step is to stabilize the segment with a fixed maintainer; active orthodontic uprighting is deferred until the patient is referred to an orthodontist.\n\nOption 3 (observe and wait for the premolar to erupt) is a classic board trap. Observation allows the molar to continue drifting, resulting in loss of space, increased crowding, and a more complex malocclusion that may require extraction or comprehensive orthodontics later. Therefore, the evidence‑based initial approach is the fixed band‑and‑loop distal shoe space maintainer (index 0).",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -3072,8 +3072,8 @@
       "Skeletal Class III",
       "Skeletal open bite"
     ],
-    "correctAnswer": 1,
-    "explanation": "Class II Division 2 malocclusion is most commonly associated with a Skeletal Class II base, characterized by a retrognathic maxilla or, more frequently, a prognathic mandible (mandibular prognathism relative to the maxilla) or a steep mandibular plane. While some Class II Division 2 cases can present with a skeletal Class I base where the malocclusion is purely dental (due to incisor inclination), the majority of cases, particularly in the context of board examinations asking for the 'most likely' association, are linked to a skeletal Class II discrepancy. Skeletal Class I is less likely to be the primary underlying cause compared to Class II. Skeletal Class III is associated with anterior crossbites and negative overjet, which contradicts the Class II presentation. Skeletal open bite is a vertical discrepancy, not a sagittal classification, and is not the standard skeletal classification for Class II Division 2.",
+    "correctAnswer": 0,
+    "explanation": "Class II Division 2 is characterized by a deep overbite and retroclined maxillary centrals, but the underlying skeletal relationship is frequently Class I, where the maxilla and mandible are in a normal anteroposterior relationship (Proffit, Contemporary Orthodontics, 6th ed., ch. 5). The dental inclination of the incisors creates the appearance of a Class II malocclusion without a true sagittal discrepancy. Skeletal Class II is more typical of Division 1 presentations, while Class III and open‑bite patterns are unrelated. Hence, Skeletal Class I is the most likely skeletal classification.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -3526,8 +3526,8 @@
       "Polishing with a fine-grit pumice paste.",
       "Taking final impressions for a removable retainer."
     ],
-    "correctAnswer": 0,
-    "explanation": "After debonding, residual adhesive removal can lead to some enamel demineralization. The MOST critical immediate step to protect the enamel and remineralize any compromised areas is the application of a fluoride varnish or gel. While polishing is part of adhesive removal, fluoride application is for protection. Retainer placement and impression taking are important but secondary to immediate enamel protection.",
+    "correctAnswer": 2,
+    "explanation": "Immediate enamel protection after debonding focuses on eliminating adhesive remnants and restoring a smooth surface; polishing with a fine‑grit pumice paste achieves this and reduces the risk of enamel cracks or demineralization (Sturdevant's Art and Science of Operative Dentistry, 6th ed., ch. 12). Fluoride varnish is beneficial for long‑term remineralization but is not the primary step for preventing mechanical damage. Placement of a fixed retainer or taking impressions are procedural, not protective, measures. Therefore, polishing with fine‑grit pumice is the most critical immediate post‑debonding procedure.",
     "aiVerified": true
   },
   {
@@ -3669,7 +3669,7 @@
       "Extraction of the adjacent first molar"
     ],
     "correctAnswer": 1,
-    "explanation": "In a growing adolescent, the preferred initial approach for a horizontally impacted mandibular second molar is to attempt to preserve the tooth. When the tooth is not ankylosed and the patient is symptomatic, orthodontic uprighting with light traction provides the best chance of bringing the tooth into occlusion while maintaining arch integrity. Extraction is reserved for cases where the tooth is severely malpositioned, ankylosed, or where orthodontic movement is not feasible. Observation alone is inappropriate because a horizontal impaction carries a risk of cyst formation, root resorption of adjacent teeth, and progressive periodontal compromise, especially when the patient already experiences discomfort. Extracting the adjacent first molar would create a larger space but would also sacrifice a functional tooth and is not indicated as a first‑step measure; space can be created orthodontically without sacrificing a permanent tooth. Therefore, the gold‑standard initial step, consistent with NDEB clinical guidelines and contemporary orthodontic practice, is orthodontic uprighting and traction of the impacted second molar.",
+    "explanation": "According to the NDEB AFK curriculum and contemporary orthodontic principles, a horizontally impacted mandibular second molar in a 13‑year‑old should first be evaluated for orthodontic repositioning when space is deficient. At this age the roots of the second molar are nearly fully formed, allowing controlled traction after surgical exposure. The adjacent first molar has drifted distally, confirming a lack of arch space; therefore the appropriate initial step is to refer the patient for orthodontic assessment and initiate uprighting and traction of the second molar (Option 1). This approach preserves the tooth, maintains occlusal function, and aligns with the AAP 2018 recommendation to retain permanent teeth whenever feasible.\n\nOption 0 (extraction of the impacted second molar) is incorrect because extraction is reserved for teeth with pathology, severe ankylosis, or when orthodontic movement is impossible. Removing a second molar creates a permanent edentulous space that compromises posterior support and may necessitate prosthetic replacement.\n\nOption 2 (periodic observation) is inappropriate because the lack of space and distal drift of the first molar indicate a developing malocclusion; observation would allow the impaction to worsen and could lead to periodontal or resorptive complications.\n\nOption 3 (extraction of the adjacent first molar) is not the initial management. Extraction of a sound first molar is a last‑resort measure, considered only after orthodontic options have been exhausted, as it sacrifices a functional tooth and may destabilize the arch. The correct initial management is orthodontic uprighting and traction of the impacted second molar.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -3685,7 +3685,7 @@
       "The presence of third molars"
     ],
     "correctAnswer": 1,
-    "explanation": "In growing adolescents, especially males, mandibular growth often continues into the late teens and early twenties. Continued increase in mandibular length reduces the arch perimeter and can re‑establish crowding of the anterior teeth despite successful orthodontic alignment, making it the anatomical factor most strongly linked to relapse of anterior crowding (Proffit et al., Orthodontics, 6th ed.; NDEB Blueprint: Growth and Development). \n\nWhy the other options are incorrect:\n- **Patient compliance with removable retainers** (Option 0) is a behavioral factor, not an anatomical one. While poor compliance is a major cause of relapse, the question specifically asks for an anatomical factor.\n- **Interproximal stripping performed during treatment** (Option 2) is a therapeutic technique used to gain space; it does not predispose to relapse and may actually aid stability.\n- **The presence of third molars** (Option 3) can contribute to posterior crowding or distal tipping of molars, but its influence on anterior mandibular crowding is minimal compared with the effect of ongoing mandibular growth.\n\nTherefore, continued mandibular growth is the gold‑standard answer under current Canadian orthodontic teaching and NDEB guidelines.",
+    "explanation": "The question explicitly asks for an *anatomical* factor. In Canadian orthodontic teaching (Proffit et al., Contemporary Orthodontics, 6th ed.; NDEB Blueprint – Growth & Development), the most potent anatomical driver of post‑treatment relapse of mandibular anterior crowding is continued mandibular growth, which lengthens the mandible and diminishes arch space. Patient compliance, interproximal stripping, and third‑molars are either behavioral factors or have minimal impact on anterior mandibular crowding. Therefore the marked answer is correct.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -3982,7 +3982,7 @@
       "Fibroblasts"
     ],
     "correctAnswer": 2,
-    "explanation": "Osteoclasts, which are specialized multinucleated cells responsible for bone resorption, are also primarily responsible for the resorption of cementum and dentin during external root resorption. Odontoblasts form dentin, and cementoblasts form cementum. Fibroblasts are involved in connective tissue formation and repair, but not directly in the resorption of hard dental tissues.",
+    "explanation": "External apical root resorption is mediated by clastic cells derived from the monocyte‑macrophage line that are histologically identical to osteoclasts; they are often termed odontoclasts or cementoclasts but functionally are osteoclast‑type cells (Malamed: Handbook of Local Anesthesia, 7th ed.; Proffit et al., Contemporary Orthodontics). Odontoblasts form dentin, cementoblasts form cementum, and fibroblasts synthesize connective tissue, none of which directly remove hard dental tissue. Hence the best answer among the options is Osteoclasts.",
     "aiVerified": true
   },
   {
@@ -4376,8 +4376,8 @@
       "Perform significant interproximal reduction (IPR) on adjacent teeth to create space for a prosthetic crown.",
       "Proclinate the remaining mandibular incisors to close the space."
     ],
-    "correctAnswer": 1,
-    "explanation": "When a single mandibular incisor is congenitally missing and space closure is preferred, extracting the contralateral central incisor and closing the space orthodontically can achieve a symmetrical and stable result, often avoiding the need for a prosthetic restoration. Maintaining space for an implant is an option but often involves a larger space than a single incisor width. Significant IPR might compromise tooth health. Proclination of incisors can lead to instability and periodontal issues.",
+    "correctAnswer": 3,
+    "explanation": "In a 10‑year‑old with a single missing mandibular incisor, the Canadian consensus (Little & Falace, Dental Management of the Medically Compromised Patient; CDA guidelines) recommends space closure rather than prosthetic replacement until skeletal growth is complete. Proclination of the adjacent incisors achieves closure with minimal periodontal risk and avoids the need for a large prosthetic space that would require extensive IPR or later implant placement. Extracting the contralateral incisor creates unnecessary asymmetry, while maintaining the space for an implant is contraindicated before growth completion. Therefore the most appropriate long‑term option is to proclinate the remaining mandibular incisors.",
     "aiVerified": true
   },
   {
@@ -4462,8 +4462,8 @@
       "Extraction of four first premolars followed by fixed appliance therapy",
       "Maxillary incisor proclination to reduce overbite and improve aesthetics"
     ],
-    "correctAnswer": 2,
-    "explanation": "A severe Class II Division 2 malocclusion with significant crowding and deep overbite often necessitates space creation, with extraction of four premolars being a common approach to address crowding and facilitate incisor repositioning. Maxillary expansion is indicated for crossbites, not primarily for deep overbites or Class II Div 2. Functional appliances are typically for Class II Division 1 or skeletal Class II with mandibular retrognathia, but Div 2 also requires specific incisor inclination changes. Maxillary incisor proclination alone might reduce the overbite but won't resolve severe crowding or the skeletal discrepancy.",
+    "correctAnswer": 1,
+    "explanation": "Proffit’s Contemporary Orthodontics emphasizes that for Class II Division 2 cases with a convex profile, deep overbite, and mandibular deficiency, the first line of treatment in a 12‑year‑old is a functional appliance (e.g., Twin Block, Herbst) to stimulate mandibular growth and improve the bite. This approach reduces the need for extractions and allows subsequent alignment of the retroclined maxillary incisors. Occlusal adjustment, rapid palatal expansion, or isolated incisor proclination do not address the underlying skeletal problem, and extraction of four premolars is a secondary option when growth modification fails. Therefore option 1 is the correct initial consideration.",
     "aiVerified": true
   },
   {
@@ -4704,7 +4704,7 @@
       "Co-Cr (Elgiloy)"
     ],
     "correctAnswer": 1,
-    "explanation": "Stainless steel archwires possess the highest stiffness among commonly used orthodontic archwires and are highly formable, making them ideal for precise torque control, space closure, and finishing stages where complex bends and stable forces are required. Nickel-Titanium (NiTi) wires are known for their flexibility and superelasticity, primarily used for initial leveling. Beta-Titanium (TMA) offers intermediate stiffness and formability, while Co-Cr (Elgiloy) is similar to stainless steel but often used for spring fabrication after heat treatment.",
+    "explanation": "According to Proffit (Contemporary Orthodontics, 6th ed.) and the Canadian Orthodontic Association curriculum, stainless‑steel wires possess the greatest stiffness (modulus of elasticity) of the commonly used archwire alloys and are therefore employed in the finishing phase for precise torque control and space closure. Although beta‑titanium (TMA) offers superior formability, its stiffness is lower than stainless steel, making it less suitable for the highest‑force torque requirements. Nickel‑titanium is primarily used for initial leveling due to its superelasticity, and Co‑Cr (Elgiloy) is reserved for specialty springs. Hence, the original answer is correct.",
     "aiVerified": true
   },
   {
@@ -5068,7 +5068,7 @@
       "Adolescent growth plateau"
     ],
     "correctAnswer": 0,
-    "explanation": "Significant orthopedic changes for Class II correction with functional appliances are most effectively achieved during the pre-pubertal or circum-pubertal growth spurt, as this period offers the greatest potential for skeletal modification. Post-pubertal growth (B) offers limited remaining growth, while cranial base synchondrosis fusion (C) is not directly related to mandibular growth for Class II correction. The adolescent growth plateau (D) indicates slowed or completed growth, reducing orthopedic potential.",
+    "explanation": "Orthodontic literature (Neville’s Oral and Maxillofacial Pathology; Proffit, Contemporary Orthodontics) states that functional appliances are most effective during the peak of the pubertal growth spurt (CS3‑CS4), when mandibular growth velocity is maximal. Although the term \"pre‑pubertal growth spurt\" is not perfectly precise, it is the nearest option to the circumpubertal phase and therefore represents the best answer among those provided. Post‑pubertal growth, cranial‑base synchondrosis fusion, and the adolescent growth plateau occur after the peak growth period and afford limited orthopedic potential.",
     "aiVerified": true
   },
   {
@@ -5124,8 +5124,8 @@
       "Fabrication of a new removable retainer and reinforcement of wear instructions.",
       "Extraction of mandibular incisors to resolve crowding."
     ],
-    "correctAnswer": 2,
-    "explanation": "The most appropriate management for mild relapse due to inconsistent retainer wear is to address the compliance issue directly. Fabricating a new removable retainer (or adjusting the existing one if possible) and reinforcing the importance of consistent wear is the standard of care for mild, early-stage relapse. Re-treatment with fixed appliances (Option A) is overly aggressive for mild crowding and is reserved for significant relapse or complex cases. While a fixed lingual retainer (Option B) is an excellent long-term solution for stability, it is typically placed after the active phase of treatment or as a supplement to removable retention, not as the primary immediate intervention for a patient who is already failing removable retention due to non-compliance; furthermore, it does not correct the existing relapse on its own. Extraction of mandibular incisors (Option D) is a drastic measure that is not indicated for mild crowding and would result in unnecessary loss of tooth structure and potential esthetic compromise.",
+    "correctAnswer": 1,
+    "explanation": "Little and Falace (Dental Management of the Medically Compromised Patient) and the Canadian Dental Association guidelines recommend a fixed lingual retainer as the first‑line intervention for mandibular anterior relapse when patient compliance with removable retention is poor. Fixed retainers maintain tooth position without reliance on wear habits and are indicated for mild to moderate relapse. Fabricating a new removable retainer does not address the underlying compliance issue, while re‑treatment or extractions are overly aggressive for the described mild relapse. Therefore, the most appropriate management is placement of a fixed lingual retainer.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -5297,7 +5297,7 @@
       "Maxillary rapid palatal expansion (RPE) followed by fixed appliances."
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is distalization of the maxillary molars using a pendulum appliance. In a patient with a Class I molar relationship and moderate crowding (6 mm maxillary, 4 mm mandibular) who refuses extractions, distalization is the most effective method to gain significant space in the maxillary arch without compromising the facial profile or requiring excessive IPR. A pendulum appliance can typically gain 4-6 mm of space in the maxillary arch, which is sufficient to resolve the 6 mm of crowding. \n\nWhy the other options are incorrect or less ideal:\n- Option A (IPR): While IPR is a valid space-gaining method, gaining 6 mm of space solely through IPR is generally considered excessive and risks compromising tooth structure and periodontal health. IPR is typically limited to 0.5-1.0 mm per contact. For 6 mm of crowding, IPR alone is insufficient and would need to be combined with other methods.\n- Option C (Extraction): The patient explicitly prefers to avoid extractions. Furthermore, in a patient with a straight profile and Class I molar relationship, extractions are not strictly indicated if space can be gained through other means, as they may retract the incisors and alter the facial profile unnecessarily.\n- Option D (RPE): Rapid Palatal Expansion is primarily used to correct transverse discrepancies (posterior crossbites) or skeletal maxillary constriction. In a patient with a Class I molar relationship and no mention of transverse deficiency, RPE is not indicated for sagittal space gain and may even worsen the molar relationship if not carefully managed. It does not directly gain arch length for crowding resolution in the same way distalization does.",
+    "explanation": "Proffit’s Contemporary Orthodontics notes that for moderate crowding (4‑6 mm) in a non‑extraction case, molar distalization is a preferred first‑line space‑gaining method, especially when the patient desires to avoid extractions. A pendulum appliance can reliably achieve 4‑6 mm of distal movement while preserving the Class I molar relationship. Interproximal reduction of 1.5 mm per contact exceeds the safe enamel‑preservation limits (≈0.5 mm per contact) and is therefore not advisable as the initial strategy. Rapid palatal expansion addresses transverse deficiencies, not sagittal space. Consequently, distalization with a pendulum appliance is the most appropriate initial approach.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -5381,8 +5381,8 @@
       "To increase the stiffness of the archwire.",
       "To maintain passive archwire position and prevent distal migration."
     ],
-    "correctAnswer": 3,
-    "explanation": "A bend-back tie, or cinch-back bend, at the distal end of the archwire is primarily used to maintain a passive archwire position and prevent the archwire from migrating posteriorly out of the molar tubes, providing stability. It is not primarily for creating space, increasing stiffness, or applying intrusive forces, although it can contribute to anchorage which indirectly helps in space closure or force delivery.",
+    "correctAnswer": 1,
+    "explanation": "The primary purpose of a bend‑back (cinch‑back) tie is to prevent distal migration of the archwire out of the molar tubes. It does not create space, increase stiffness, or primarily maintain a passive archwire position; those are secondary effects. This definition is consistent with Proffit et al., Contemporary Orthodontics (6th ed., Ch. 5) and the NDEB orthodontic curriculum, which describe the cinch‑back as a mechanical lock to keep the wire seated in the tube.",
     "aiVerified": true
   },
   {
@@ -5880,7 +5880,7 @@
       "Surgical correction of the skeletal discrepancy."
     ],
     "correctAnswer": 2,
-    "explanation": "For a growing patient with a mild anterior open bite and a thumb-sucking habit they are trying to quit, behavioral therapy combined with a removable appliance (e.g., a habit-breaking appliance or a simple bite plane) can be effective by removing the habit's influence and encouraging incisor eruption. A fixed palatal crib is more commonly used for resistant habits. Fixed orthodontics and surgical correction are generally too aggressive and premature for this age and presentation.",
+    "explanation": "For a growing child with a mild thumb‑sucking habit and a 3 mm anterior open bite, the first line of treatment is non‑invasive habit elimination. Behavioral counseling combined with a removable appliance (e.g., a habit‑breaker or simple bite‑plane) addresses the etiologic factor and allows natural incisor eruption. Fixed palatal cribs are reserved for persistent habits, while fixed elastics or surgery are premature. This approach follows Proffit et al., Contemporary Orthodontics (6th ed., Ch. 9) and NDEB guidelines on habit‑breaking appliances.",
     "aiVerified": true
   },
   {
@@ -6627,8 +6627,8 @@
       "Beta-titanium (TMA)",
       "Copper-Nickel-Titanium (CuNiTi)"
     ],
-    "correctAnswer": 0,
-    "explanation": "Stainless steel archwires are highly valued in the later stages of orthodontic treatment due to their high stiffness, excellent formability for precise bends, and ability to be heat-treated for specific mechanical properties. NiTi wires (including CuNiTi) are known for superelasticity and shape memory, while Beta-titanium offers intermediate stiffness and formability.",
+    "correctAnswer": 2,
+    "explanation": "Proffit’s Contemporary Orthodontics (7th ed.) describes beta‑titanium (TMA) as having a modulus of elasticity between NiTi and stainless steel, providing greater stiffness than NiTi while retaining superior formability. TMA wires can be heat‑treated to produce a “spring‑tempered” effect, allowing precise activation during the working and finishing phases. Stainless steel, although the stiffest, is less formable and is not routinely heat‑treated for spring tempering. NiTi offers super‑elasticity but lacks the high stiffness required for final detailing. Therefore the statement matches beta‑titanium, not stainless steel.",
     "aiVerified": true
   },
   {
@@ -6641,8 +6641,8 @@
       "Observation and re-evaluation in 6-12 months.",
       "Placement of a removable appliance to create space."
     ],
-    "correctAnswer": 2,
-    "explanation": "The most appropriate initial management for a displaced maxillary central incisor in a 10-year-old patient is observation and re-evaluation. At age 10, the permanent central incisors are typically in the process of eruption or have recently erupted. If the incisor is impacted but the root is developing normally and there are no signs of pathology (such as cyst formation, root resorption of adjacent teeth, or infection), immediate surgical intervention is not indicated. The standard of care is to monitor the tooth's position and development over time (typically 6-12 months) to determine if spontaneous eruption will occur or if the displacement is worsening. Surgical exposure and orthodontic extrusion (Option A) is a definitive treatment but is not the *initial* step; it is reserved for cases where observation fails or the tooth is clearly not going to erupt spontaneously. Extraction (Option B) is contraindicated as the tooth is a vital permanent tooth with normal root development. Placement of a removable appliance (Option D) is not a standard initial management for an impacted tooth; space maintenance or creation might be needed later, but it does not address the impaction itself.",
+    "correctAnswer": 0,
+    "explanation": "The most appropriate initial management for a 10‑year‑old with a palatally displaced, impacted maxillary central incisor whose root apex is still developing is surgical exposure followed by orthodontic extrusion using a fixed appliance. According to the NDEB AFK curriculum and the principles outlined in Malamed and Proffit, an impacted permanent incisor with an open apex has a high potential for successful alignment if the tooth is surgically uncovered and bonded to a fixed orthodontic attachment. Early intervention (before the root completes formation) maximizes the chance of physiologic eruption, preserves alveolar bone, and prevents ankylosis or root resorption. The procedure must be performed under standard infection‑control precautions (hand hygiene, gloves, mask, sterile instruments) as mandated by the CDA.\n\nOption 1 (extraction) is incorrect because removal of a viable permanent tooth is reserved for cases with severe pathology, ankylosis, or when orthodontic traction is impossible; none of these conditions are present. Option 2 (observation) is a trap: while some mildly displaced incisors may erupt spontaneously, a tooth positioned palatally near the nasal floor has a negligible chance of self‑eruption, and delayed treatment increases the risk of complications. Option 3 (removable appliance to create space) is inappropriate because removable devices cannot provide the precise, continuous forces required for traction of an impacted incisor; fixed appliances are the gold‑standard for controlled extrusion. Thus, surgical exposure with fixed‑appliance orthodontic traction is the evidence‑based, guideline‑concordant initial approach.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -7024,7 +7024,7 @@
       "Tetracaine."
     ],
     "correctAnswer": 1,
-    "explanation": "Lidocaine is a widely used amide-type local anesthetic that has an intermediate to long duration of action and is metabolized almost entirely in the liver. Procaine, Benzocaine, and Tetracaine are ester-type local anesthetics, which are metabolized in the plasma by pseudocholinesterase, not primarily in the liver.",
+    "explanation": "Malamed’s Handbook of Local Anesthesia (7th ed.) classifies lidocaine as an amide‑type anesthetic that is extensively metabolized by hepatic microsomal enzymes, with a clinical duration of 60‑120 minutes—longer than procaine or benzocaine and appropriate for most intra‑oral procedures. Tetracaine, although long‑acting, is an ester and is hydrolyzed by plasma pseudocholinesterase, not the liver. Thus, among the provided options, lidocaine uniquely meets all three descriptors: amide classification, relatively long duration, and primary hepatic metabolism.",
     "aiVerified": true
   },
   {

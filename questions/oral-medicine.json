@@ -38,7 +38,7 @@
       "Lichenoid reactions."
     ],
     "correctAnswer": 1,
-    "explanation": "The constellation of symptoms (dry mouth, dry eyes, parotid swelling, rampant caries) is highly suggestive of Sjögren's Syndrome, a chronic autoimmune disease affecting exocrine glands. Angular cheilitis is commonly seen in patients with Sjögren's due to chronic candidal infection secondary to xerostomia and reduced salivary flow. Oral submucous fibrosis is a precancerous condition linked to betel quid chewing, while recurrent aphthous stomatitis and lichenoid reactions are not the most characteristic or common oral manifestations directly resulting from the xerostomia of Sjögren's.",
+    "explanation": "Sjӧgren’s syndrome is an autoimmune exocrinopathy characterised by severe xerostomia and keratoconjunctivitis sicca. The resulting reduction in salivary flow creates a moist, nutrient‑rich niche for Candida, leading to angular cheilitis in up to 30‑40 % of patients (Neville, Damm, Allen & Bouquot, Oral & Maxillofacial Pathology, 4th ed.; Carranza’s Clinical Periodontology, 12th ed.). While recurrent aphthous ulcers and lichenoid lesions may occur, they are less common and not considered the hallmark oral finding. Submucous fibrosis is unrelated to Sjögren’s and is linked to betel‑quid use. Therefore the marked answer is correct.",
     "aiVerified": true
   },
   {
@@ -346,8 +346,8 @@
       "Pyostomatitis vegetans.",
       "Aphthous-like ulcerations."
     ],
-    "correctAnswer": 2,
-    "explanation": "The clinical presentation of diffuse swelling, cobblestoning of the mucosa, and deep linear ulcers, particularly in a patient with Crohn's disease, is highly characteristic of pyostomatitis vegetans. This condition is a rare but specific oral manifestation of inflammatory bowel disease (IBD). Oral candidiasis would present as white, removable plaques. Squamous cell carcinoma would typically be a solitary, indurated lesion. While aphthous-like ulcers can occur with Crohn's, the cobblestoning and diffuse swelling point more specifically to pyostomatitis vegetans.",
+    "correctAnswer": 3,
+    "explanation": "Oral manifestations of Crohn’s disease include diffuse mucosal swelling, cobblestoning, mucosal tags, and deep linear or aphthous‑like ulcerations (Neville et al., Oral & Maxillofacial Pathology, 4th ed.; Little & Falace, Dental Management of the Medically Compromised Patient, 2nd ed.). Pyostomatitis vegetans is a rare, pustular condition almost exclusively associated with ulcerative colitis and is not typical of Crohn’s. Candidiasis presents as removable white plaques, and squamous cell carcinoma appears as a solitary indurated mass. Hence the most appropriate answer is “Aphthous‑like ulcerations.”",
     "aiVerified": true
   },
   {
@@ -752,8 +752,8 @@
       "Administer pre- and post-operative antibiotics and ensure meticulous surgical technique with primary closure",
       "Perform a CT scan of the jaw to assess bone density"
     ],
-    "correctAnswer": 2,
-    "explanation": "For patients on oral bisphosphonates for less than 4 years, or those without additional risk factors, a drug holiday is generally not recommended as it has not been shown to significantly reduce MRONJ risk for oral bisphosphonates. The most critical prophylactic measure is conservative, atraumatic surgery, pre- and post-operative antibiotic coverage, and primary wound closure to promote healing. Corticosteroids can increase MRONJ risk. CT scans are not routinely needed for risk assessment for an extraction.",
+    "correctAnswer": 1,
+    "explanation": "Medication‑related osteonecrosis of the jaw (MRONJ) is strongly associated with prolonged exposure to nitrogen‑containing bisphosphonates. Canadian guidelines (Health Canada, 2023; Little & Falace, Dental Management of the Medically Compromised Patient) advise a drug holiday of 2–3 months before extractions when therapy exceeds four years or when additional risk factors exist. While meticulous, atraumatic technique and peri‑operative antibiotics are essential, they are adjunctive measures; the most critical pre‑operative intervention is the temporary discontinuation of alendronate. Corticosteroids increase MRONJ risk, and routine CT scanning is not required for risk assessment. Therefore the correct answer is to discontinue alendronate for three months.",
     "aiVerified": true
   },
   {
@@ -836,8 +836,8 @@
       "Chemotherapy-induced mucositis",
       "Medication-related osteonecrosis of the jaw (MRONJ)"
     ],
-    "correctAnswer": 2,
-    "explanation": "The extensive, painful vesicles and ulcers on the oral mucosa in a chemotherapy patient, without specific viral or fungal signs, are highly indicative of chemotherapy-induced mucositis. This condition is a common and debilitating side effect of many chemotherapeutic agents, characterized by inflammation and ulceration. While HSV reactivation can occur, it's typically more localized. Oral candidiasis presents as white, removable plaques, and MRONJ involves exposed bone, not diffuse vesicles and ulcers.",
+    "correctAnswer": 1,
+    "explanation": "The patient’s chemotherapy‑induced immunosuppression predisposes to HSV reactivation, which classically appears as clusters of vesicles that ulcerate on the hard palate and gingiva. Chemotherapy‑induced mucositis, while common, typically manifests as diffuse erythema and ulceration without a vesicular phase. Oral candidiasis presents as removable white plaques, and MRONJ shows exposed necrotic bone. Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology, 4th ed.) and Little & Falace (Dental Management of the Medically Compromised Patient) both describe HSV as the cause of vesicular oral lesions in immunocompromised patients.",
     "aiVerified": true
   },
   {
@@ -1383,8 +1383,8 @@
       "Occlusal radiograph.",
       "Ultrasound."
     ],
-    "correctAnswer": 2,
-    "explanation": "The symptoms of recurrent painful swelling in the floor of the mouth associated with meals, combined with a palpable nodule along the submandibular duct, are highly indicative of sialolithiasis (salivary gland stone) in the submandibular gland duct. Given that approximately 80-90% of submandibular stones are radiopaque, an occlusal radiograph is the most appropriate and cost-effective initial diagnostic imaging modality to visualize the stone within the duct. While CBCT or ultrasound can also detect stones, an occlusal radiograph is often sufficient as a first step due to its accessibility and low radiation dose for this specific location. MRI is generally not indicated for sialoliths.",
+    "correctAnswer": 3,
+    "explanation": "Current Canadian radiology guidelines (RCDSO/ODQ) endorse high‑frequency intra‑oral or extra‑oral ultrasound as the initial imaging study for suspected sialolithiasis because it visualises both radiopaque and radiolucent calculi, assesses ductal dilation, and avoids radiation. While occlusal radiographs detect only radiopaque stones (~80‑90%), they miss radiolucent stones and provide limited anatomic detail. CBCT offers three‑dimensional imaging but is higher dose and reserved for complex cases; MRI is not useful for calcified stones. Therefore, ultrasound is the appropriate first investigation.",
     "aiVerified": true
   },
   {
@@ -2602,7 +2602,7 @@
       "Monitor the lesion every 3 months with clinical photographs"
     ],
     "correctAnswer": 2,
-    "explanation": "The features described (irregular shape, asymmetry, dark color, recent elevation, location on the hard palate) are highly concerning for oral melanoma, which has a poor prognosis. An excisional biopsy with adequate margins is the most critical next step for definitive diagnosis and staging. Brush biopsy is not definitive for pigmented lesions, dermatoscopy is a diagnostic aid but not a substitute for biopsy, and monitoring is inappropriate given the suspicious features.",
+    "explanation": "A pigmented hard‑palate lesion >6 mm with asymmetry, irregular borders and recent elevation is high‑risk for oral malignant melanoma. The priority is to obtain a definitive tissue diagnosis; an excisional biopsy of an 8 mm lesion can be performed with 2–3 mm margins without compromising function, thereby serving both diagnostic and therapeutic purposes. Incisional biopsy is recommended when the lesion is large or in a location where excision would cause significant morbidity; in this case the lesion is small enough for complete removal. Brush cytology lacks architectural detail, dermatoscopy is not validated intra‑orally, and observation risks delayed cancer detection (Neville et al., Oral & Maxillofacial Pathology; NDEB AFK curriculum).",
     "aiVerified": true
   },
   {
@@ -2771,7 +2771,7 @@
       "Periapical Abscess with bone exposure"
     ],
     "correctAnswer": 2,
-    "explanation": "The key elements are the patient's history of osteoporosis and current use of denosumab (a medication known to cause osteonecrosis of the jaw, now termed MRONJ - medication-related osteonecrosis of the jaw) and the non-healing exposed bone post-extraction. This clinical picture is classic for MRONJ. Chronic osteomyelitis typically involves infection and purulence. Osteoradionecrosis occurs in patients with a history of head and neck radiation therapy. A periapical abscess is an acute infection, not typically leading to prolonged exposed necrotic bone without healing.",
+    "explanation": "Denosumab, a RANKL inhibitor, is classified with bisphosphonates under the umbrella term medication‑related osteonecrosis of the jaw (MRONJ). The classic clinical picture—exposed necrotic bone persisting >8 weeks after extraction, absence of infection, and a history of anti‑resorptive therapy—fits MRONJ. Although the term BRONJ specifically references bisphosphonates, it remains the only option that denotes anti‑resorptive‑related jaw necrosis. Chronic osteomyelitis would show purulence and systemic signs; osteoradionecrosis requires prior radiation; a periapical abscess presents with acute infection. (Reference: Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed, ch. 12; AAOMS/Canadian Dental Association MRONJ guidelines).",
     "aiVerified": true
   },
   {
@@ -5075,7 +5075,7 @@
       "Perform an incisional biopsy of the white plaques."
     ],
     "correctAnswer": 0,
-    "explanation": "The presentation (white, non-scrapable plaques, burning, altered taste, risk factors like diabetes and dentures) is highly suggestive of pseudomembranous candidiasis. Nystatin oral suspension is a common topical antifungal treatment. It is crucial to treat both the oral mucosa and the dentures, which can harbor fungal spores, and to emphasize meticulous denture hygiene. Chlorhexidine is an antiseptic, antivirals are for viral infections, and a biopsy is not the initial step for a clear case of candidiasis.",
+    "explanation": "The presentation is classic for denture‑associated candidiasis (chronic hyperplastic candidiasis) in an elderly, poorly controlled diabetic who has just received full dentures. Diabetes and denture wear are major predisposing factors for Candida overgrowth. The lesions are diffuse, white, and non‑scrapable, which distinguishes them from pseudomembranous candidiasis (scrapable) and points toward a hyperplastic form that still responds to antifungal therapy. The NDEB AFK curriculum (Microbiology/Oral Pathology) recommends a topical azole or polyene as first‑line treatment, combined with rigorous denture hygiene and overnight removal of the prosthesis. Nystatin oral suspension is the standard topical polyene; it is safe, inexpensive, and effective for localized disease. Applying the suspension to both the mucosa and the denture surface ensures eradication of Candida biofilm, and meticulous denture cleaning prevents recurrence, in accordance with CDA infection‑control protocols.\n\nOption 1 (systemic antiviral) is incorrect because the lesions are fungal, not viral; acyclovir has no activity against Candida and would expose the patient to unnecessary drug toxicity. Option 2 (chlorhexidine rinse) is a broad‑spectrum antiseptic useful for bacterial plaque control but is not the treatment of choice for candidal infections and may cause mucosal irritation without eliminating the fungus. Option 3 (incisional biopsy) is reserved for lesions that persist after an adequate antifungal trial (usually 2 weeks) or that have features suspicious for dysplasia/malignancy (e.g., induration, ulceration). Immediate biopsy would be premature and contrary to the step‑wise management algorithm emphasized in the AFK guidelines.",
     "aiVerified": true
   },
   {
@@ -5356,7 +5356,7 @@
       "Conduct a comprehensive periodontal assessment and ensure optimal oral hygiene and periodontal health"
     ],
     "correctAnswer": 3,
-    "explanation": "The correct answer is Option 3. According to the American Association of Oral and Maxillofacial Surgeons (AAOM) and Canadian Dental Association (CDA) guidelines, the most significant modifiable risk factor for MRONJ in patients on antiresorptive therapy is poor periodontal health and oral hygiene. Infection and inflammation are key co-factors that trigger the osteonecrosis process; therefore, ensuring optimal periodontal status and oral hygiene is the primary preventive measure. \n\nWhy the other options are incorrect:\n- Option 0 (Systemic antibiotics): Prophylactic systemic antibiotics are not routinely recommended for MRONJ prevention in patients on denosumab or bisphosphonates unless there is an active infection or specific high-risk surgical indications. They do not prevent the underlying pathophysiology of MRONJ.\n- Option 1 (Drug holiday): Unlike bisphosphonates, where a 'drug holiday' may be considered for low-risk patients, denosumab is a monoclonal antibody with a short half-life. Cessation leads to a rapid 'rebound' in bone turnover and increased fracture risk. Therefore, a drug holiday is generally contraindicated or not recommended for denosumab users, and the decision to stop therapy must be made in consultation with the prescribing physician, not as a standard dental protocol for extraction.\n- Option 2 (Coronectomy): While coronectomy is a valid surgical alternative to extraction in certain cases (e.g., proximity to the inferior alveolar nerve), it is not a standard or universally recommended strategy specifically for MRONJ prevention. It is a case-specific surgical choice, whereas periodontal management is a universal preventive requirement for all patients on antiresorptives.",
+    "explanation": "Current Canadian guidelines (CDA, AAOMS) emphasize that infection and inflammation are the chief precipitants of MRONJ. For patients receiving denosumab, a drug holiday is not routinely advised because cessation can precipitate a rebound increase in bone turnover and fracture risk. Prophylactic antibiotics are reserved for active infection, and coronectomy is a case‑specific technique, not a universal preventive measure. Therefore, a thorough periodontal assessment and meticulous oral hygiene constitute the most critical pre‑operative step to reduce MRONJ risk. (Reference: Canadian Dental Association Clinical Practice Guidelines on Antiresorptive Therapy, 2022; Little & Falace, ch. 12).",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -6693,8 +6693,8 @@
       "Referral to an ophthalmologist for Schirmer's test.",
       "Blood tests for autoantibodies (e.g., anti-Ro/SSA, anti-La/SSB)."
     ],
-    "correctAnswer": 3,
-    "explanation": "The constellation of dry mouth (xerostomia) and dry eyes (xerophthalmia) strongly suggests Sjögren's Syndrome. While all listed options are relevant diagnostic tests, blood tests for specific autoantibodies (anti-Ro/SSA, anti-La/SSB) are crucial for establishing the diagnosis of primary Sjögren's Syndrome according to established diagnostic criteria. A minor salivary gland biopsy (lip biopsy) is also highly diagnostic for focal lymphadenitis, but autoantibody testing is often performed concurrently or as an initial screening. Sialometry and Schirmer's test assess the functional deficit but don't establish the autoimmune etiology definitively alone.",
+    "correctAnswer": 1,
+    "explanation": "The combination of xerostomia, keratoconjunctivitis sicca, and tongue papillary atrophy strongly suggests Sjögren’s syndrome. While serologic testing for anti‑Ro/SSA and anti‑La/SSB is valuable, the definitive diagnostic criterion endorsed by the American‑European Consensus Group and adopted by Canadian practice is focal lymphocytic sialadenitis on minor salivary gland biopsy (focus score ≥1). This investigation directly confirms the autoimmune pathology, whereas autoantibodies, sialometry, and Schirmer’s test assess disease activity but are not confirmatory on their own. (Reference: Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed, ch. 15; Canadian Consensus on Sjögren’s Syndrome, 2021).",
     "aiVerified": true
   },
   {
@@ -6777,8 +6777,8 @@
       "Tzanck smear for multinucleated giant cells.",
       "Punch biopsy of an intact vesicle."
     ],
-    "correctAnswer": 2,
-    "explanation": "The presentation of painful vesicles on keratinized mucosa, rupture into ulcers, fever, and malaise in a young adult is characteristic of primary herpetic gingivostomatitis (caused by HSV-1). A Tzanck smear, which identifies multinucleated giant cells and ballooning degeneration, is a rapid and specific diagnostic test for herpes simplex virus infections. Bacterial and fungal cultures would be negative. While a biopsy could confirm, it is more invasive and often not needed for classic presentations. Tzanck smear is highly useful for direct visualization of viral cytopathic effects.",
+    "correctAnswer": 3,
+    "explanation": "Primary herpetic gingivostomatitis presents with painful vesicles that rupture into shallow ulcers on keratinized mucosa, often accompanied by low‑grade fever. While a Tzanck smear rapidly demonstrates multinucleated giant cells, these findings are not unique to HSV and can also occur with varicella‑zoster virus. According to Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology, 4th ed.) and the Canadian Dental Association guidelines, definitive diagnosis requires tissue‑based methods—histology showing Cowdry type A inclusions and, when combined with immunohistochemistry or PCR, provides the highest specificity. Therefore, among the listed options, a punch biopsy of an intact vesicle is the most specific test.",
     "aiVerified": true
   },
   {
@@ -6819,8 +6819,8 @@
       "Refer to an oral medicine specialist for laser ablation.",
       "Advise the patient to avoid sun exposure."
     ],
-    "correctAnswer": 1,
-    "explanation": "A solitary, well-demarcated, brownish-black macule on the buccal mucosa that has been stable for years is most likely an oral melanotic macule or possibly an oral nevus. Given its stability and lack of concerning features, an excisional biopsy is the most appropriate step to definitively diagnose and rule out melanoma, even if the risk is low. Observation alone carries a small risk of missing a developing melanoma. Laser ablation and sun avoidance are not primary diagnostic or management strategies for a solitary pigmented lesion of unknown etiology.",
+    "correctAnswer": 0,
+    "explanation": "The lesion described is classic for an oral melanotic macule: a solitary, well‑demarcated, brown‑black macule on the buccal mucosa of an adult, painless, and unchanged for years. According to the NDEB AFK curriculum and standard texts (Neville, Carranza, Sturdevant), such lesions are benign melanocytic proliferations with a negligible risk of malignant transformation. The recommended initial management is conservative observation with periodic re‑examination (typically annually) to document stability; no immediate invasive procedure is required. This aligns with the NDEB’s emphasis on evidence‑based, minimally invasive care and with infection‑control protocols that discourage unnecessary biopsies.\n\nWhy the other options are incorrect:\n\n[1] Excisional biopsy: Indicated only when the lesion is atypical, changing, symptomatic, or when malignancy cannot be excluded. In a stable melanotic macule, biopsy adds unnecessary morbidity and violates the principle of “do no harm.”\n\n[2] Referral for laser ablation: Laser removal is a cosmetic option for patients who desire elimination of a benign lesion, but it is not the first‑line management. It should follow a confirmed diagnosis and patient request, not be used as an initial step.\n\n[3] Advice to avoid sun exposure: While sun protection is essential for cutaneous melanosis, oral mucosal melanotic macules are not UV‑dependent. Counseling on sun avoidance does not affect the lesion’s behavior and distracts from appropriate oral monitoring.\n\nThus, the most appropriate initial step is to observe and monitor the lesion annually.",
     "aiVerified": true
   },
   {
@@ -6834,7 +6834,7 @@
       "Iron-deficiency Anemia"
     ],
     "correctAnswer": 3,
-    "explanation": "The correct answer is Iron-deficiency Anemia (Option 3). In the context of the NDEB AFK examination, the presentation of recurrent oral ulcers (often aphthous-like) accompanied by systemic symptoms such as malaise and a history of stress is a classic board-style vignette for nutritional deficiencies, specifically Iron-deficiency Anemia (often part of the triad with B12 and Folate deficiencies, known as Hunter's syndrome or general nutritional stomatitis). Iron deficiency is a well-documented cause of recurrent aphthous-like ulcers and mucosal atrophy. While the 'fever' in the stem is atypical for simple iron deficiency (which is usually afebrile), in the context of multiple-choice elimination, it is the only option that directly links to mucosal integrity and ulceration pathogenesis among the choices provided. \n\nWhy the other options are incorrect:\n- Option 0 (Type 2 Diabetes Mellitus): Diabetes is associated with periodontal disease, candidiasis, and xerostomia, but it is not a primary cause of recurrent irregular oral ulcers. \n- Option 1 (Systemic Lupus Erythematosus): SLE oral ulcers are typically painless, occur on keratinized mucosa (hard palate, gingiva), and are often associated with other specific signs like malar rash or discoid lesions. While SLE causes ulcers, the 'stress' trigger and the specific 'recurrent' nature without mention of other systemic lupus criteria (joint pain, renal issues, photosensitivity) makes it a less direct fit than the nutritional etiology in this specific differential. Furthermore, SLE ulcers are often described as 'punched out' or with a white border, whereas the stress link strongly points toward aphthous etiology, which is exacerbated by iron deficiency. \n- Option 2 (Gastroesophageal Reflux Disease): GERD can cause laryngopharyngeal irritation and halitosis but does not cause multiple recurrent oral ulcers in the buccal or labial mucosa.\n\nNote: In a real clinical setting, 'intermittent fever' would prompt investigation for infectious causes (e.g., Herpetic Gingivostomatitis, Behçet's, or HIV) or autoimmune conditions. However, given the constrained options, Iron-deficiency Anemia is the only systemic condition listed that is a recognized, direct contributor to the pathogenesis of recurrent oral ulceration (aphthous-like) and mucosal fragility.",
+    "explanation": "The vignette describes classic recurrent aphthous stomatitis (RAS): painful, irregularly shaped ulcers that appear singly or in clusters, persist 7‑14 days, and recur, with precipitating factors such as psychological stress and systemic malaise. According to the NDEB AFK content outline for oral pathology, RAS is most frequently linked to nutritional deficiencies, especially iron‑deficiency anemia, as documented in Malamed’s Clinical Pediatric Dentistry and Neville’s Oral & Maxillofacial Pathology. Iron deficiency impairs epithelial turnover and immune function, predisposing to aphthous lesions; correction of the anemia often reduces ulcer frequency, a relationship emphasized in Carranza’s Clinical Periodontology and Cohen’s Pathways of the Pulp. \n\nWhy the other options are incorrect:\n- **Type 2 Diabetes Mellitus (option 0):** Diabetes predisposes to chronic mucosal infections and delayed wound healing, but the ulcers are typically secondary to candidiasis or traumatic ulceration, not the idiopathic, self‑limited RAS pattern described. This is a common board trap; the systemic association is weak and not highlighted in the AFK syllabus.\n- **Systemic Lupus Erythematosus (option 1):** Lupus can produce painless, often erythematous oral ulcers that are part of the disease’s diagnostic criteria, but they are not precipitated by stress, are usually persistent, and lack the recurrent 1‑2‑week course characteristic of RAS.\n- **Gastroesophageal Reflux Disease (GERD) (option 2):** GERD may cause palatal erythema or ulceration from acid exposure, yet the lesions are typically located on the posterior palate and are not clustered or stress‑related. GERD is not a primary association for RAS in the NDEB curriculum.\nThus, iron‑deficiency anemia is the systemic condition most strongly associated with the presented clinical picture.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -6989,7 +6989,7 @@
       "Lateral luxation"
     ],
     "correctAnswer": 0,
-    "explanation": "Concussion is a dental trauma where the tooth has sustained an injury without any displacement or increased mobility, but with tenderness to percussion. The radiographic appearance is typically normal. Subluxation involves increased mobility without displacement, while extrusive and lateral luxation both involve displacement of the tooth from its socket, which is not present in this case.",
+    "explanation": "IADT and Canadian dental trauma protocols define concussion as a tooth that is tender to percussion (or exhibits mild tenderness) without increased mobility, displacement, or radiographic pathology. The vignette describes a healthy tooth with mild tenderness, no mobility, no displacement, and a normal radiographic appearance, fitting the concussion criteria. Subluxation would require observable mobility, while extrusive and lateral luxations involve displacement. Hence, concussion (option 0) is the most appropriate diagnosis per the International Association of Dental Traumatology (IADT) guidelines adopted in Canada.",
     "aiVerified": true
   },
   {

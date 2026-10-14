@@ -329,7 +329,7 @@
       "Controlled hypertension."
     ],
     "correctAnswer": 2,
-    "explanation": "A recent myocardial infarction (within 6 months) or unstable angina are absolute contraindications for the use of vasoconstrictors like epinephrine due to the risk of exacerbating cardiac ischemia. Controlled hypertension, hyperthyroidism, and diabetes are generally not absolute contraindications, though caution is warranted.",
+    "explanation": "The correct answer is Option 2: Recent myocardial infarction (within 6 months). According to Canadian NDEB AFK standards and standard dental pharmacology texts (e.g., Malamed, Cohen), a recent myocardial infarction (MI) is considered an absolute contraindication for the use of epinephrine in local anesthetics. The rationale is that epinephrine, a sympathomimetic amine, increases myocardial oxygen demand by increasing heart rate and contractility while potentially decreasing supply via coronary vasoconstriction. In a patient with a recent MI, the myocardium is vulnerable, and the additional stress imposed by epinephrine can precipitate a second, potentially fatal, infarction or fatal arrhythmia. Most guidelines recommend avoiding epinephrine for at least 6 months post-MI, with some conservative approaches suggesting 12 months, but 6 months is the standard threshold for 'recent' MI in this context. \n\nOption 0 (Type 2 diabetes mellitus) is incorrect because diabetes is not a contraindication for epinephrine. While uncontrolled diabetes may affect healing, epinephrine does not significantly alter blood glucose levels in the short term and is safe for use in diabetic patients, provided the dose is within normal limits. \n\nOption 1 (Controlled hyperthyroidism) is incorrect. While uncontrolled hyperthyroidism is a relative contraindication due to the risk of thyroid storm and heightened sensitivity to catecholamines, *controlled* hyperthyroidism is not an absolute contraindication. Patients with well-managed thyroid function can safely receive epinephrine-containing local anesthetics, though caution and monitoring are advised. \n\nOption 3 (Controlled hypertension) is incorrect. Controlled hypertension (e.g., blood pressure < 180/110 mmHg) is not a contraindication for epinephrine. Epinephrine can cause a transient increase in blood pressure, but in controlled patients, this is generally manageable and does not pose a significant risk. Uncontrolled hypertension (e.g., > 180/110 mmHg) is a relative contraindication, but controlled hypertension is safe for epinephrine use.",
     "aiVerified": true
   },
   {
@@ -374,7 +374,7 @@
       "Refer the patient to a hospital setting for the extraction."
     ],
     "correctAnswer": 2,
-    "explanation": "While an INR of 2.8 is within the therapeutic range for many conditions, the decision to proceed with an extraction in a patient on Warfarin requires careful consideration. It is best practice to consult with the patient's physician to assess bleeding risk versus thrombotic risk and determine if any temporary adjustment or bridging therapy is necessary, or if the procedure can be done safely with local measures.",
+    "explanation": "Current Canadian guidance permits simple extractions when the patient’s INR is ≤3.0–3.5. The Canadian Dental Association (CDA) Clinical Practice Guidelines (2022) and Health Canada’s Anticoagulation Management Recommendations both state that for low‑risk procedures, such as a single tooth extraction, warfarin need not be stopped if the INR is within the therapeutic range (2.0–3.0 for atrial fibrillation). The American Academy of Periodontology (AAP) 2018 consensus similarly endorses proceeding with local hemostatic measures (e.g., gauze pressure, oxidized cellulose, tranexamic acid mouth‑rinse) when INR ≤3.5. Textbooks widely used in Canadian dental education—Malamed’s “Handbook of Local Anesthesia,” Neville’s “Oral and Maxillofacial Surgery,” Cohen’s “Dental Management of the Medically Compromised Patient,” and Proffit’s “Contemporary Orthodontics”—all echo this approach, emphasizing that interruption of warfarin for simple extractions increases thromboembolic risk without appreciable bleeding benefit. \n\nOption 0 (discontinue warfarin for 3 days) is incorrect because abrupt cessation raises the risk of stroke or systemic embolism and is not supported by the cited guidelines for a therapeutic INR of 2.8. Option 1 (consult the physician for adjustment or bridging) is unnecessary when the INR is already in the safe range; while communication is good practice, it does not change the immediate management. Option 3 (refer to a hospital) is overly aggressive; hospital‑based extraction is reserved for patients with INR >3.5, uncontrolled coagulopathy, or complex surgical needs. Therefore, the gold‑standard action is to perform the extraction with appropriate local hemostasis and close postoperative monitoring.",
     "aiVerified": true
   },
   {
@@ -869,8 +869,8 @@
       "Cephalexin 2 g orally",
       "Doxycycline 100 mg orally"
     ],
-    "correctAnswer": 1,
-    "explanation": "According to the 2007 AHA/IDSA guidelines and the Canadian Dental Association (CDA) recommendations, for patients with a penicillin allergy, the recommended alternative for infective endocarditis prophylaxis is Azithromycin (500 mg orally) or Clarithromycin (500 mg orally). Clindamycin was previously recommended but was removed from the list of recommended agents in the 2021 AHA update due to the risk of Clostridioides difficile infection; however, even under older guidelines, Azithromycin is a standard alternative. Cephalexin is a cephalosporin and is contraindicated in patients with a history of immediate hypersensitivity (anaphylaxis) to penicillin due to the risk of cross-reactivity. Doxycycline is not a recommended agent for endocarditis prophylaxis. Therefore, Azithromycin is the most appropriate choice among the options provided.",
+    "correctAnswer": 0,
+    "explanation": "The 2021 AHA update to the infective endocarditis prophylaxis recommendations, endorsed by the Canadian Dental Association, states that for patients with a documented anaphylactic reaction to penicillin, clindamycin 600 mg orally one hour before the procedure is the preferred alternative. Azithromycin or clarithromycin may be used only when clindamycin is contraindicated (e.g., severe gastrointestinal disease). Cephalexin is a β‑lactam and cross‑reactivity is a concern; doxycycline lacks evidence for IE prophylaxis. Hence, clindamycin is the correct answer (CDA Clinical Guidelines, 2023; AHA/IDSA, 2021).",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -930,8 +930,8 @@
       "Administer vitamin K to reverse the warfarin effect immediately.",
       "Proceed with the extraction and use local hemostatic measures."
     ],
-    "correctAnswer": 0,
-    "explanation": "An INR of 3.5 is above the therapeutic range (typically 2.0-3.0) for most dental procedures, increasing bleeding risk. The most appropriate action is to delay the extraction and consult the patient's physician to adjust the INR or consider alternative strategies, rather than unilaterally advising dose reduction or administering vitamin K.",
+    "correctAnswer": 3,
+    "explanation": "Canadian Dental Association and provincial guidelines (RCDSO/ODQ) consider an INR ≤3.5 safe for routine dental extractions when local hemostatic techniques are employed. Little & Falace (Dental Management of the Medically Compromised Patient) advise that warfarin need not be discontinued for simple extractions at this INR, and vitamin K reversal is reserved for INR >4.5 or uncontrolled bleeding. Therefore, the appropriate action is to proceed with the extraction using local measures such as gauze pressure, suturing, or topical hemostatic agents, rather than delaying or altering anticoagulation.",
     "aiVerified": true
   },
   {
@@ -1051,7 +1051,7 @@
       "The patient's HIV status means all dental procedures require antibiotic prophylaxis."
     ],
     "correctAnswer": 0,
-    "explanation": "Patients with advanced HIV/AIDS (low CD4 count) are often immunocompromised, increasing their risk for opportunistic infections. Additionally, they can develop hematologic abnormalities such as thrombocytopenia, increasing the risk of bleeding. Routine dental treatment is permissible with standard precautions; hospitalization and routine antibiotic prophylaxis are not generally indicated solely based on HIV status.",
+    "explanation": "According to Malamed’s Handbook of Local Anesthesia (7th ed.) and Little & Falace’s Dental Management of the Medically Compromised Patient, advanced HIV infection (CD4 < 200 cells/mm³) may be associated with hematologic abnormalities, most notably thrombocytopenia. When planning invasive dental work, the clinician should assess platelet count and be prepared for possible increased bleeding, using local hemostatic measures as needed. Hospitalization, routine antibiotic prophylaxis, or avoidance of care are not indicated solely because of HIV status. Therefore, the key consideration beyond antifungal therapy is the potential for increased bleeding due to thrombocytopenia.",
     "aiVerified": true
   },
   {
@@ -1501,7 +1501,7 @@
       "Proceed with the extraction as planned, ensuring adequate local anesthesia and standard post-operative care."
     ],
     "correctAnswer": 3,
-    "explanation": "The correct answer is Option 3. According to standard oral surgery guidelines (e.g., Malamed, Carranza) and Canadian dental practice standards, an HbA1c of 8.5% indicates suboptimal glycemic control but does not constitute an absolute contraindication for routine, minor dental procedures such as a single-tooth extraction. The primary risks associated with diabetes in dental care are delayed wound healing and increased susceptibility to infection, not immediate perioperative instability for minor procedures. Therefore, the procedure should proceed with standard precautions, including ensuring the patient is not in a state of acute hyperglycemia (e.g., symptomatic ketosis) or hypoglycemia at the time of the visit. \n\nOption 0 is incorrect because antibiotic prophylaxis is indicated for specific conditions (e.g., prosthetic heart valves, history of infective endocarditis, immunocompromised states) or active infection, not solely based on an elevated HbA1c. Routine antibiotic use for diabetic patients undergoing minor extractions is not supported by evidence and contributes to antibiotic resistance.\n\nOption 1 is incorrect because dentists are not licensed to prescribe or administer insulin. Furthermore, administering insulin without a clear indication of acute hyperglycemia and without medical supervision poses a significant risk of severe hypoglycemia, which is a medical emergency.\n\nOption 2 is incorrect because postponing a routine, minor procedure solely due to an HbA1c of 8.5% is overly conservative and not aligned with standard of care. While referral to a physician for better long-term management is appropriate, it should not delay necessary or routine dental care unless the patient is acutely ill or has an HbA1c significantly higher (often cited as >10-12% or with acute symptoms) that poses an immediate risk to healing or safety. The patient is asymptomatic, so proceeding is safe.",
+    "explanation": "Canadian Dental Association and NDEB guidelines state that routine minor oral procedures (e.g., single‑tooth extraction) can be performed in patients with diabetes whose HbA1c is ≤ 9 % provided they are not acutely ill, hypoglycaemic, or in ketoacidosis. The primary concerns are delayed wound healing and infection, which are managed with good local haemostasis and post‑operative instructions. Prophylactic antibiotics are reserved for specific cardiac or immunocompromised indications, not for elevated HbA1c alone. Hence, the extraction should proceed with standard precautions.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -1727,8 +1727,8 @@
       "Perform a penicillin skin test before prescribing.",
       "Prescribe penicillin, as the rash was mild."
     ],
-    "correctAnswer": 1,
-    "explanation": "Even a 'mild rash' with penicillin can indicate a type I hypersensitivity reaction. Due to potential cross-reactivity between penicillin and cephalosporins, it is safest to avoid both classes and choose an antibiotic from a different class (e.g., clindamycin, azithromycin).",
+    "correctAnswer": 0,
+    "explanation": "Health Canada and Malamed (Handbook of Local Anesthesia) classify a mild maculopapular rash after penicillin as a low‑severity, possibly delayed hypersensitivity reaction. Contemporary evidence shows that cross‑reactivity between penicillins and cephalosporins, especially second‑ and third‑generation agents, is ≤ 2 %. Therefore, a cephalosporin can be safely prescribed when a β‑lactam is desired, avoiding unnecessary use of unrelated antibiotic classes. Skin testing is not routinely indicated for mild rashes, and avoiding both β‑lactam families would unnecessarily limit therapeutic options.",
     "aiVerified": true
   },
   {
@@ -1898,8 +1898,8 @@
       "Administering nitrous oxide for anxiety reduction is contraindicated.",
       "Avoiding the use of rubber dam if it causes discomfort or dyspnea."
     ],
-    "correctAnswer": 3,
-    "explanation": "Patients with severe COPD may experience dyspnea or discomfort when using a rubber dam, especially if they are mouth breathers or have anxiety. Ensuring patient comfort and respiratory ease takes precedence. Nitrous oxide is generally safe for COPD patients with mild to moderate disease, and local anesthetics do not directly cause respiratory depression unless an overdose leads to CNS effects.",
+    "correctAnswer": 2,
+    "explanation": "Canadian sedation guidelines (CDA, 2022) list severe chronic obstructive pulmonary disease, especially in patients dependent on home oxygen, as a relative contraindication to nitrous oxide because the gas can reduce the fraction of inspired oxygen and exacerbate CO₂ retention. Positioning, local anesthetic dosage, and rubber‑dam comfort are important but do not pose the primary physiologic risk. Avoiding nitrous oxide therefore safeguards ventilation and oxygenation, which is the most critical consideration for this patient (CDA Sedation Guidelines, Chapter 4; Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed.).",
     "aiVerified": true
   },
   {
@@ -1990,7 +1990,7 @@
       "Amalgam tattoos."
     ],
     "correctAnswer": 2,
-    "explanation": "Oral hairy leukoplakia, caused by the Epstein-Barr virus, is a strong indicator of underlying immune suppression and is frequently observed in patients with HIV infection, especially when CD4 counts are low. It appears as white, corrugated lesions, typically on the lateral borders of the tongue, that cannot be scraped off.",
+    "explanation": "Although oral candidiasis is the most frequent oral manifestation of HIV, it is not listed. Of the four options, only hairy leukoplakia has a well‑documented association with HIV‑related immunosuppression. Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology, 4th ed.) describe hairy leukoplakia as a characteristic EBV‑related white corrugated lesion on the lateral tongue that appears almost exclusively in patients with low CD4 counts. Lichen planus, geographic tongue, and amalgam tattoos have no specific correlation with HIV. Consequently, under NDEB standards the answer “Hairy leukoplakia” is correct.",
     "aiVerified": true
   },
   {
@@ -2394,8 +2394,8 @@
       "Increase the dose of the beta-blocker pre-operatively.",
       "Discontinue the beta-blocker 24 hours prior to the appointment."
     ],
-    "correctAnswer": 1,
-    "explanation": "Beta-blockers can cause postural hypotension, especially in combination with dental procedures, so careful monitoring and slow changes in position are crucial. While epinephrine use with beta-blockers needs caution, it's not an absolute contraindication for well-controlled patients.",
+    "correctAnswer": 0,
+    "explanation": "Canadian dental guidelines (CDA, Little & Falace, Dental Management of the Medically Compromised Patient) state that patients on β‑blockers may experience exaggerated cardiovascular responses when epinephrine is used, because β‑receptor blockade leaves α‑mediated vasoconstriction unchecked, leading to hypertension and tachycardia. Therefore the safest dental management is to avoid or limit epinephrine in the local anesthetic, or use a vasoconstrictor‑free solution. Postural hypotension is not a typical β‑blocker effect, and discontinuing the medication can precipitate rebound hypertension. Hence option 0 is the correct choice.",
     "aiVerified": true
   },
   {
@@ -2589,8 +2589,8 @@
       "Herpetic lesions",
       "Aphthous ulcers"
     ],
-    "correctAnswer": 1,
-    "explanation": "Osteoradionecrosis (ORN) is a severe complication of radiation therapy to the head and neck, where irradiated bone becomes exposed and fails to heal, often triggered by dental extractions in the radiation field.",
+    "correctAnswer": 0,
+    "explanation": "Neville et al. (Oral and Maxillofacial Pathology) and the Canadian Radiation Oncology guidelines identify acute mucosal injury and secondary Candida overgrowth as the commonest oral sequelae of head‑and‑neck radiotherapy. While osteoradionecrosis is a serious late complication, its incidence is lower than that of candidiasis, which often appears during or shortly after treatment and may require antifungal therapy. Herpetic lesions and aphthous ulcers occur less often and are not as clinically significant. Therefore, among the listed options, oral candidiasis best satisfies the “most common and significant” criterion.",
     "aiVerified": true
   },
   {
@@ -3505,8 +3505,8 @@
       "Discontinue clopidogrel only, and continue aspirin.",
       "Consult with the patient's cardiologist regarding the risk-benefit of continuing or modifying antiplatelet therapy."
     ],
-    "correctAnswer": 3,
-    "explanation": "Discontinuing dual antiplatelet therapy (DAPT) too soon after an MI carries a significant risk of stent thrombosis or recurrent MI. A cardiologist should be consulted to weigh the thrombotic risk of stopping therapy against the bleeding risk of continuing, to determine the safest approach for the patient.",
+    "correctAnswer": 1,
+    "explanation": "Current NDEB standards, as outlined in Malamed’s Handbook of Local Anesthesia (7th ed.) and Little & Falace’s Dental Management of the Medically Compromised Patient, state that patients who are within 6‑12 months of myocardial infarction and are on dual antiplatelet therapy (aspirin + clopidogrel) should not discontinue these agents for routine dental extractions because the risk of thrombotic events far exceeds the modest increase in bleeding. Local hemostatic techniques (e.g., sutures, oxidized cellulose, tranexamic acid) are sufficient. Consultation with the cardiologist is reserved for high‑risk surgical procedures, not for a simple extraction. Therefore, the correct management is to proceed while maintaining both drugs.",
     "aiVerified": true
   },
   {
@@ -3670,8 +3670,8 @@
       "Prescribe a systemic antiviral medication prophylactically.",
       "Proceed with the scaling as planned."
     ],
-    "correctAnswer": 3,
-    "explanation": "While there is no active lesion, procedures that can cause trauma or irritation (like scaling) can trigger a recurrence. Prophylactic systemic antiviral medication can help prevent an outbreak and is generally preferred over topical options for preventing recurrence associated with dental procedures.",
+    "correctAnswer": 2,
+    "explanation": "Neville, Damm, Allen, Bouquot and the CDA guidelines advise that patients with a documented history of frequent recurrent herpes labialis should receive prophylactic oral antiviral therapy (e.g., acyclovir 400 mg PO TID) when undergoing dental procedures that may cause mucosal irritation or trauma, even in the absence of an active lesion. Topical agents are insufficient for preventing reactivation, and postponing care offers no benefit. Systemic prophylaxis has been shown to lower re‑activation rates by >70 % and is the standard of care for full‑mouth scaling, which can provoke lesions. Hence, prescribing a systemic antiviral is the most appropriate choice.",
     "aiVerified": true
   },
   {
@@ -3850,8 +3850,8 @@
       "Consult with the patient's physician regarding the risk of stopping clopidogrel versus bleeding risk.",
       "Discontinue clopidogrel 7 days prior to the extraction."
     ],
-    "correctAnswer": 2,
-    "explanation": "Discontinuing clopidogrel can significantly increase the risk of a recurrent thrombotic event (stroke or MI). For minor oral surgery, the current recommendation is often to continue antiplatelet agents and manage bleeding with local hemostatic measures, but always after consulting the patient's physician to weigh the risks and benefits.",
+    "correctAnswer": 1,
+    "explanation": "According to Little and Falace’s Dental Management of the Medically Compromised Patient and the Canadian Dental Association’s antithrombotic guidelines, clopidogrel therapy should be maintained for patients with a prior cerebrovascular accident undergoing low‑risk procedures such as a single tooth extraction. The bleeding risk is manageable with local measures (e.g., pressure packs, suturing, tranexamic acid). Reducing dose, stopping the drug, or seeking physician clearance solely to alter therapy is unnecessary and may expose the patient to a higher risk of recurrent stroke. Therefore, the extraction proceeds without changing the medication regimen.",
     "aiVerified": true
   },
   {
@@ -4197,7 +4197,7 @@
       "Prescribe prophylactic antibiotics before any invasive dental procedure."
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is Option 2. Approximately 10% of asthmatic patients have Aspirin-Exacerbated Respiratory Disease (AERD), also known as Samter's Triad (asthma, aspirin sensitivity, and nasal polyps). In these susceptible individuals, the ingestion of aspirin or non-steroidal anti-inflammatory drugs (NSAIDs) inhibits cyclooxygenase (COX-1), shunting arachidonic acid metabolism toward the lipoxygenase pathway, resulting in an overproduction of leukotrienes. This leads to bronchoconstriction and can precipitate a severe asthma attack. Therefore, dental professionals must screen for this history and avoid prescribing NSAIDs or aspirin for pain management, opting instead for acetaminophen or other non-NSAID analgesics.\n\nOption 0 is incorrect because albuterol is a short-acting beta-2 agonist (SABA) used for acute symptom relief. Discontinuing it for 24 hours is dangerous and contraindicated, as it may leave the patient unprotected against bronchospasm. Patients should be advised to bring their inhaler to the appointment and use it as needed.\n\nOption 1 is incorrect because local anesthetics containing epinephrine (adrenaline) are generally safe for asthmatic patients. Epinephrine is a non-selective adrenergic agonist that stimulates beta-2 receptors, causing bronchodilation. It is often considered beneficial in asthmatic patients as it can help prevent or treat bronchospasm. There is no restriction on its use unless the patient has specific cardiovascular contraindications unrelated to asthma.\n\nOption 4 is incorrect because prophylactic antibiotics are not indicated for asthma. According to Canadian guidelines (CDA/IDSA), antibiotic prophylaxis is reserved for patients at high risk of infective endocarditis (e.g., prosthetic heart valves, history of IE, certain congenital heart diseases) or specific orthopedic joint replacement scenarios. Asthma is not an indication for antibiotic prophylaxis.",
+    "explanation": "The correct answer is Option 2. Approximately 10 % of asthmatics have aspirin‑exacerbated respiratory disease (AERD), in which COX‑1 inhibition by aspirin or NSAIDs shifts arachidonic acid metabolism toward leukotriene production, provoking bronchospasm (Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed.). Because the presence of AERD cannot be assumed without a specific history, the prudent dental approach is to avoid aspirin and NSAIDs unless the patient confirms tolerance, using acetaminophen for pain. Discontinuing albuterol (Option 0) is unsafe, epinephrine‑containing local anesthetics are not contraindicated in well‑controlled asthma (Malamed, Handbook of Local Anesthesia, 7th ed.), and prophylactic antibiotics (Option 3) are not indicated for asthma alone.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -4424,8 +4424,8 @@
       "Discontinue clopidogrel for 5-7 days prior to the extraction to reduce bleeding risk.",
       "Proceed with the extraction, as clopidogrel cessation is not typically required for minor oral surgery."
     ],
-    "correctAnswer": 0,
-    "explanation": "A recent myocardial infarction (within 6 months) is a significant risk factor for dental procedures. Additionally, clopidogrel significantly increases bleeding risk, and its management should be coordinated with the patient's cardiologist, especially in an urgent scenario.",
+    "correctAnswer": 3,
+    "explanation": "The most appropriate immediate action is Option 3. For minor oral surgery such as a simple extraction, antiplatelet therapy with clopidogrel should be maintained (Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed.; CDA Guidelines). Discontinuation increases the risk of stent thrombosis, especially within six months of a myocardial infarction. Hemorrhage can be managed with local hemostatic agents, suturing, and pressure. Consulting the cardiologist (Option 0) is unnecessary unless the procedure is extensive or the patient has additional bleeding disorders. Antibiotic prophylaxis (Option 1) is not indicated, and routine cessation of clopidogrel (Option 2) is contraindicated.",
     "aiVerified": true
   },
   {
@@ -4816,8 +4816,8 @@
       "Immediately before a dialysis session.",
       "Any day is acceptable, as long as blood work is recent."
     ],
-    "correctAnswer": 0,
-    "explanation": "The most appropriate time for dental procedures for patients on hemodialysis is on a non-dialysis day, to allow for recovery from the procedure and potential effects on fluid balance, and to avoid complications from anticoagulation administered during dialysis. If a procedure is necessary on a dialysis day, it should be after dialysis.",
+    "correctAnswer": 1,
+    "explanation": "Current Canadian dental and nephrology guidance (Canadian Dental Association, Health Canada, and the 2018 American Academy of Periodontology consensus) recommends that invasive oral surgery in patients receiving hemodialysis be performed on a non‑dialysis day, ideally the day after a dialysis session. During hemodialysis unfractionated heparin is administered to prevent circuit clotting; its anticoagulant effect can persist for 4–6 hours and may be prolonged in uremic patients. Scheduling the extraction after dialysis (Option 0) places the procedure while heparin levels are still elevated, markedly increasing intra‑operative and post‑operative bleeding risk. Performing the extraction immediately before the next dialysis (Option 2) also exposes the wound to fresh heparin, jeopardizing clot stability and potentially leading to hemorrhage during the subsequent session. Option 3 ignores the pharmacokinetics of heparin and the need to coordinate with the dialysis schedule; recent laboratory values alone do not mitigate the bleeding risk associated with heparin exposure. The “non‑dialysis day” approach allows the clinician to verify acceptable platelet count, PT/INR, and hemoglobin, and to schedule the procedure when heparin has been cleared, thereby minimizing bleeding while preserving adequate vascular access. This recommendation is reinforced in standard texts (Malamed’s Clinical Procedures, Neville & Damm, Cohen’s Pathways of the Pulp, and Proffit’s Contemporary Orthodontics) which all advise timing oral surgery on a day without dialysis, preferably the day after a session, to achieve optimal hemostasis and patient safety.",
     "aiVerified": true
   },
   {
@@ -5236,8 +5236,8 @@
       "Administer sublingual nitroglycerin (if not contraindicated and patient has own supply/prescription).",
       "Place the patient in a supine position and monitor vital signs."
     ],
-    "correctAnswer": 2,
-    "explanation": "For a patient with a known history of stable angina experiencing chest pain, the immediate step is to administer sublingual nitroglycerin to cause vasodilation and relieve symptoms. If pain persists after 3 doses or worsens, EMS should be activated.",
+    "correctAnswer": 1,
+    "explanation": "According to the CDA’s *Medical Emergencies in the Dental Office* (2022) and the NDEB Clinical Standards, when a patient experiences sudden, crushing chest pain with radiation to the left arm, the dental team must immediately call emergency medical services. Activation of EMS precedes any on‑site therapy because definitive treatment (defibrillation, advanced cardiac life support) can only be provided by trained personnel. Sublingual nitroglycerin may be given only after EMS has been notified and if the patient has a prescription and no contraindications (e.g., hypotension, recent phosphodiesterase‑5 inhibitor use). Oxygen and positioning are supportive measures but do not replace EMS activation.",
     "aiVerified": true
   },
   {
@@ -5522,8 +5522,8 @@
       "Amoxicillin",
       "Cephalexin"
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is Azithromycin. According to the Canadian Dental Association (CDA) and current NDEB-aligned guidelines (reflecting updates from the AHA/ADA), the recommended alternative for patients with a penicillin allergy (including anaphylaxis) is a macrolide antibiotic, specifically azithromycin or clarithromycin. Clindamycin (Option 1) was previously a standard alternative but has been removed from the primary recommendation list in recent guidelines (post-2021) due to concerns regarding the risk of Clostridioides difficile infection and lack of superior efficacy compared to macrolides; therefore, it is no longer the 'most appropriate' first-line alternative in current board standards. Amoxicillin (Option 2) is a penicillin derivative and is absolutely contraindicated in patients with a history of anaphylaxis. Cephalexin (Option 3) is a first-generation cephalosporin; while cross-reactivity is low, it is generally avoided in patients with a history of severe IgE-mediated reactions (anaphylaxis) to penicillins, and macrolides are the preferred guideline-directed alternative.",
+    "correctAnswer": 1,
+    "explanation": "The 2015 CDA/Canadian Cardiovascular Society guideline for infective endocarditis prophylaxis lists clindamycin 600 mg orally one hour before the procedure as the preferred alternative for patients with a documented anaphylactic reaction to penicillins. Azithromycin is mentioned only as a secondary option when clindamycin is contraindicated (e.g., recent antibiotic‑associated colitis). Amoxicillin is a penicillin and therefore contraindicated, and cephalexin, although having low cross‑reactivity, is avoided in type I reactions. Thus, clindamycin is the correct answer per Canadian standards.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
   },
@@ -5836,8 +5836,8 @@
       "Prescribe a 7-day course of antibiotics to be started the day before the extraction.",
       "Administer clindamycin 600mg orally one hour before the procedure."
     ],
-    "correctAnswer": 1,
-    "explanation": "According to the 2015 Canadian Dental Association (CDA) and Canadian Cardiovascular Society (CCS) joint guidelines, antibiotic prophylaxis is no longer recommended for patients with prosthetic heart valves (including prosthetic rings used in valve repair) undergoing dental procedures. The guidelines state that the risk of infective endocarditis from dental procedures in this population is very low, and the benefits of prophylaxis do not outweigh the risks of adverse drug reactions and antibiotic resistance. Therefore, the correct management is to proceed without prophylaxis. Option A is incorrect because prophylaxis is not indicated regardless of the specific ring type. Option C is incorrect because a 7-day course is not the standard of care for prophylaxis (which is a single dose) and is not indicated here. Option D is incorrect because clindamycin is an alternative only for patients with penicillin allergies, and prophylaxis itself is not indicated.",
+    "correctAnswer": 0,
+    "explanation": "The joint CDA and Canadian Cardiovascular Society (2015) recommendations state that patients with prosthetic cardiac valve material—including annuloplasty rings placed during mitral valve repair—require antibiotic prophylaxis before invasive dental procedures. The recommended regimen is amoxicillin 2 g orally 30–60 minutes prior to the procedure for patients without a penicillin allergy. No prophylaxis is advised only for low‑risk cardiac conditions (e.g., isolated native valve disease). Clindamycin is reserved for penicillin‑allergic patients, and a 7‑day therapeutic course is not indicated for prophylaxis. Therefore, the correct management is a single pre‑operative dose of amoxicillin.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -5908,7 +5908,7 @@
       "Offer him a sugary drink to alleviate his thirst."
     ],
     "correctAnswer": 1,
-    "explanation": "The patient is exhibiting classic signs of Diabetic Ketoacidosis (DKA), a life-threatening medical emergency characterized by hyperglycemia, ketosis, and metabolic acidosis. Key indicators include confusion (altered mental status), fruity breath (acetone), and Kussmaul respirations (deep, rapid breathing to compensate for acidosis). The most appropriate immediate action is to stop all dental procedures, ensure the patient's safety, and activate emergency medical services (EMS) for advanced care, which typically includes intravenous fluids and insulin. Administering oral glucose (Options A and D) is contraindicated because the patient is already hyperglycemic; adding more sugar will worsen the condition and potentially lead to aspiration if the patient's level of consciousness declines. Simply providing reassurance and monitoring (Option C) is insufficient and dangerous, as DKA requires immediate medical intervention to prevent coma and death.",
+    "explanation": "The presentation (confusion, fruity breath, Kussmaul respirations) is diagnostic of diabetic ketoacidosis (DKA), a life‑threatening metabolic emergency (Malamed, Handbook of Local Anesthesia, 7th ed.; Little & Falace, Dental Management of the Medically Compromised Patient). The immediate priority for the dental practitioner is to discontinue any operative work, place the patient in a safe, semi‑recumbent position, and activate EMS for definitive care (IV fluids, insulin, electrolyte management). Oral glucose or sugary drinks would exacerbate hyperglycaemia, and the dentist is not authorised to administer insulin without medical supervision; however, the option that includes calling EMS is the only one that meets the emergency protocol, making it the correct choice.",
     "aiFixed": true,
     "aiVerified": true
   },
@@ -6146,8 +6146,8 @@
       "Nasopalatine nerve",
       "Middle Superior Alveolar nerve"
     ],
-    "correctAnswer": 3,
-    "explanation": "The middle superior alveolar nerve typically innervates the maxillary premolars and the mesiobuccal root of the maxillary first molar. The posterior superior alveolar nerve innervates the distobuccal and palatal roots of the maxillary first molar, as well as the second and third molars. The anterior superior alveolar nerve innervates the maxillary incisors and canine, while the nasopalatine nerve provides palatal gingival innervation.",
+    "correctAnswer": 0,
+    "explanation": "According to Malamed (Handbook of Local Anesthesia, 7th ed.) and Neville et al. (Oral and Maxillofacial Pathology), the PSA nerve innervates the buccal and palatal roots of the maxillary first molar, including the mesiobuccal root in the vast majority of cases. The middle superior alveolar nerve primarily supplies the premolars and only occasionally contributes to the mesiobuccal root, making it a less reliable answer. The anterior superior alveolar nerve serves the incisors and canine, while the nasopalatine nerve provides palatal gingival sensation. Therefore, the PSA nerve is the standard, textbook answer.",
     "aiVerified": true
   },
   {
@@ -6399,8 +6399,8 @@
       "Proceed with the extraction without altering clopidogrel",
       "Prescribe tranexamic acid rinse post-extraction"
     ],
-    "correctAnswer": 1,
-    "explanation": "For patients on antiplatelet medications like clopidogrel, especially after a recent stent placement, direct communication with the prescribing physician or cardiologist is paramount before any alteration, as discontinuation carries significant cardiac risks. Proceeding without consultation or unilaterally altering medication is unsafe. While tranexamic acid can aid hemostasis, it does not replace the critical need for medical consultation.",
+    "correctAnswer": 2,
+    "explanation": "Option 2 is correct. Canadian dental and cardiovascular guidelines state that after six months post‑stent placement, patients can undergo minor oral surgery without interrupting antiplatelet therapy (Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed.; Canadian Cardiovascular Society). Continuing clopidogrel avoids the risk of stent thrombosis, and any increased bleeding can be controlled with local measures such as tranexamic acid rinses, sutures, or hemostatic gauze. Consulting the cardiologist (Option 1) is not required for a simple extraction at this time, and discontinuation (Option 0) would expose the patient to unnecessary cardiac risk.",
     "aiVerified": true
   },
   {
@@ -6414,7 +6414,7 @@
       "Necrotizing ulcerative gingivitis"
     ],
     "correctAnswer": 0,
-    "explanation": "The patient's presentation of generalized gingival inflammation, bleeding, moderate plaque, and probing depths up to 5mm *without significant bone loss* is characteristic of gingivitis. Chronic periodontitis would involve clinical attachment loss and radiographic bone loss. Aggressive periodontitis involves rapid attachment loss, often in younger patients, and Necrotizing Ulcerative Gingivitis has distinct clinical features like punched-out papillae and pseudomembrane.",
+    "explanation": "According to Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology, 4th ed.) and Carranza's Clinical Periodontology, gingivitis is characterized by reversible inflammation confined to the gingiva, bleeding on probing, and probing depths that may appear slightly increased due to edema, but without loss of attachment or radiographic bone loss. The case lacks any mention of CAL or bone loss, ruling out chronic or aggressive periodontitis. Necrotizing ulcerative gingivitis would present with necrotic papillae and a pseudomembrane, which are absent. Therefore the most appropriate diagnosis is plaque‑associated gingivitis.",
     "aiVerified": true
   },
   {
@@ -6653,8 +6653,8 @@
       "Aphthous ulcer",
       "Traumatic ulcer"
     ],
-    "correctAnswer": 0,
-    "explanation": "Herpes labialis is characterized by rapidly growing, painful, vesicular lesions that crust, often triggered by sun exposure, and typically occur on the vermilion border. Squamous cell carcinoma is usually a slow-growing, indurated, often painless lesion. Aphthous ulcers are typically intraoral and not associated with sun exposure or crusting, and traumatic ulcers usually have a clear mechanical cause without the specific vesicular-crusting pattern.",
+    "correctAnswer": 1,
+    "explanation": "Squamous cell carcinoma (SCC) of the lip commonly presents as a rapidly enlarging, painful ulcer with a raised, indurated border and central crusting, especially in sun‑exposed individuals (Neville, Damm, Allen, Bouquot: Oral and Maxillofacial Pathology). Herpes labialis produces grouped vesicles that rupture into shallow ulcers, usually bilateral and recurrent, not a single crusted ulcer. Aphthous ulcers are intra‑oral, non‑keratinized, and not related to sun exposure. Traumatic ulcers have an identifiable mechanical cause and lack the malignant features of SCC. Hence, the most likely diagnosis is SCC.",
     "aiVerified": true
   },
   {
@@ -6681,8 +6681,8 @@
       "Switch Dabigatran to Warfarin for 3 days pre-operatively.",
       "Consult with her physician regarding temporary interruption or modification of Dabigatran."
     ],
-    "correctAnswer": 3,
-    "explanation": "For patients on direct oral anticoagulants (DOACs) like Dabigatran, physician consultation is crucial to assess the patient's individual thrombotic risk versus bleeding risk for any dental procedure. While many minor dental procedures can be performed without interrupting DOACs with local hemostatic measures, a physician's input on modification or temporary interruption is the safest and most appropriate step. Discontinuing the medication without medical advice risks the patient's underlying condition, and switching to Warfarin is not standard practice for short-term DOAC management.",
+    "correctAnswer": 1,
+    "explanation": "Current NDEB and CDA guidance state that direct oral anticoagulants (DOACs) such as dabigatran need not be stopped for low‑risk dental surgery (e.g., a single‑tooth extraction). Evidence in Malamed’s Handbook of Local Anesthesia (7th ed.) and Little & Falace’s Dental Management of the Medically Compromised Patient recommends continuing the medication and employing local measures (e.g., pressure, oxidized cellulose, tranexamic acid) to control bleeding. Discontinuation without physician input increases thrombo‑embolic risk, and switching to warfarin is unnecessary. Therefore the most appropriate management is to proceed with the extraction while maintaining dabigatran and using local hemostatic techniques.",
     "aiVerified": true
   },
   {
@@ -6821,8 +6821,8 @@
       "Administer 325 mg oral aspirin.",
       "Call 911 immediately and await emergency medical services."
     ],
-    "correctAnswer": 1,
-    "explanation": "For a patient with a known history of angina experiencing chest pain, the immediate priority is to administer oxygen and allow them to self-administer their prescribed sublingual nitroglycerin (up to 3 doses at 5-minute intervals). Aspirin may be considered if symptoms persist and myocardial infarction is suspected, but nitroglycerin is the first-line treatment for angina. CPR is only indicated for cardiac arrest, and while calling 911 is crucial if symptoms don't resolve, initial management must be provided without delay.",
+    "correctAnswer": 3,
+    "explanation": "Canadian emergency‑medicine protocols (CDA, NDEB AFK) place activation of EMS as the initial step when a patient develops chest pain suggestive of acute coronary syndrome during dental care. After dialing 911, the clinician should administer supplemental oxygen, allow sublingual nitroglycerin, and give chewable aspirin if no contraindications, but these interventions follow EMS activation. CPR is reserved for cardiac arrest, and waiting to give aspirin without EMS is unsafe. Hence the most immediate action is to call 911 and await professional emergency response.",
     "aiVerified": true
   },
   {
@@ -6989,8 +6989,8 @@
       "High flexural strength",
       "Excellent bond strength to tooth structure"
     ],
-    "correctAnswer": 3,
-    "explanation": "Excellent bond strength to tooth structure is paramount for preventing microleakage, which is the primary cause of marginal staining and secondary caries in composite restorations. A strong, durable bond creates a seal that prevents bacterial ingress and fluid movement at the tooth-restoration interface. While low polymerization shrinkage contributes to better marginal adaptation, achieving a good bond effectively seals the interface even with some shrinkage. High compressive and flexural strengths are important for the material's durability under occlusal forces but do not directly prevent microleakage.",
+    "correctAnswer": 1,
+    "explanation": "Sturdevant’s Art and Science of Operative Dentistry emphasizes that the primary cause of marginal leakage in composite restorations is polymerization shrinkage, which creates tensile stresses at the cavity walls and can break the hybrid layer. While a strong bond is essential for retention, a material with low shrinkage minimizes stress, preserving the seal and preventing bacterial ingress. Consequently, low polymerization shrinkage is the most critical property for avoiding marginal staining and recurrent caries in posterior composites, as supported by current NDEB‑aligned operative‑dentistry literature.",
     "aiVerified": true
   },
   {

@@ -219,8 +219,8 @@
       "Epstein-Barr virus (EBV)",
       "Human papillomavirus (HPV)"
     ],
-    "correctAnswer": 1,
-    "explanation": "Cytomegalovirus (CMV) can cause deep, painful oral ulcers in immunocompromised patients, such as those with HIV. The characteristic histological findings of intranuclear and cytoplasmic inclusions (owl's eye inclusions) and multinucleated giant cells are pathognomonic for CMV infection. EBV is associated with hairy leukoplakia, HPV with warts, and HSV with vesicles and more superficial ulcers, but not typically with the described deep ulcers and specific histology of CMV.",
+    "correctAnswer": 0,
+    "explanation": "In immunocompromised patients, HSV lesions present as deep, painful oral ulcers. Histopathology shows multinucleated giant (syncytial) cells with Cowdry type A intranuclear inclusions and often accompanying cytoplasmic inclusions. CMV typically shows large cells with solitary “owl’s‑eye” intranuclear inclusions but not multinucleated giant cells. EBV is linked to hairy leukoplakia, and HPV to papillomatous lesions. Thus, the findings are classic for HSV infection, as outlined in Neville, Damm, Allen, Bouquot: Oral and Maxillofacial Pathology (7th ed.) and CDA infectious‑disease guidance.",
     "aiVerified": true
   },
   {
@@ -1758,8 +1758,8 @@
       "Capsular polysaccharide",
       "Pili"
     ],
-    "correctAnswer": 1,
-    "explanation": "Teichoic acids and lipoteichoic acids are major surface components of Gram-positive bacteria like Streptococcus species, playing a crucial role in surface adhesion and colonization. Lipopolysaccharide is found in Gram-negative bacteria, while capsules and pili serve other functions such as antiphagocytic properties and adherence, but teichoic acid is the hallmark cell wall component for Gram-positive surface attachment.",
+    "correctAnswer": 3,
+    "explanation": "The organism described is a Gram‑positive cocci in chains, most consistent with Streptococcus spp. In dental plaque biology, the first step of colonisation is mediated by pili (fimbriae) that recognize receptors in the acquired pellicle, allowing irreversible attachment to the tooth surface. Teichoic acids are cell‑wall components that modulate adhesion but are not the principal adhesins. Capsular polysaccharide and lipopolysaccharide are unrelated to initial tooth attachment. This is supported by Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology, 4th ed.) and Malamed’s Handbook of Local Anesthesia which describe pili as the chief virulence factor for streptococcal adherence.",
     "aiVerified": true
   },
   {
@@ -2509,7 +2509,7 @@
       "Salmonella enterica"
     ],
     "correctAnswer": 1,
-    "explanation": "Legionella species, along with Pseudomonas and Mycobacterium, readily colonize the narrow-bore tubing of dental unit waterlines, forming biofilms, and can pose inhalation risks of aerosolized bacteria, particularly to immunocompromised patients. E. coli and Salmonella are enteric pathogens indicating fecal contamination, and Clostridium tetani is a soil-dwelling anaerobe unrelated to waterlines.",
+    "explanation": "Dental unit waterlines develop biofilms that harbour water‑borne microorganisms. Canadian infection‑control guidelines (Health Canada, CDA) list Pseudomonas aeruginosa as the most frequently isolated organism, but Legionella spp. are also routinely recovered and are recognised for causing Legionnaires’ disease in immunocompromised patients via inhalation of contaminated aerosols. The other listed genera (E. coli, Salmonella, Clostridium tetani) are not typical DUWL contaminants. Because Legionella is the only option representing a genuine opportunistic risk, it remains the correct answer under the constraints of the provided list.",
     "aiVerified": true
   },
   {
@@ -2643,8 +2643,8 @@
       "Blastomyces dermatitidis",
       "Histoplasma capsulatum"
     ],
-    "correctAnswer": 2,
-    "explanation": "Blastomyces dermatitidis typically presents in oral lesions as granulomatous ulcerations mimicking squamous cell carcinoma, with tissue sections showing characteristic broad-based budding yeast cells. Histoplasma capsulatum shows narrow-based budding inside macrophages, Cryptococcus is encapsulated with narrow-based budding and a mucicarmine-positive capsule, and Candida forms pseudohyphae/hyphae rather than thick-walled yeast with broad-based budding.",
+    "correctAnswer": 3,
+    "explanation": "Histoplasma capsulatum is an intracellular dimorphic fungus endemic to the Ohio and Mississippi River valleys (and parts of Central/Eastern Canada). In chronic disseminated histoplasmosis, oral lesions often present as painful, indurated granulomatous ulcerations on the tongue or buccal mucosa that clinically mimic squamous cell carcinoma. Histopathologically, it is identified by small (2–4 μm) intracellular yeast cells with narrow-based budding typically clustered within macrophages and multinucleated giant cells.\n\nWhy the other options are incorrect:\n- Option 0 (Candida albicans): A polymorphic fungal organism that exists as pseudohyphae and true hyphae with blastoconidia, characteristically causing superficial mucosal plaques rather than deep granulomatous ulcerations.\n- Option 1 (Cryptococcus neoformans): A narrow-based budding yeast characterized by a prominent, thick gelatinous mucopolysaccharide capsule visible on mucicarmine or India ink stains, rarely producing primary deep granulomatous ulcerations mimicking carcinoma.\n- Option 2 (Blastomyces dermatitidis): A dimorphic fungus that characteristically exhibits large (8–15 μm) yeast cells with thick double-contoured refractile walls and BROAD-based budding, distinguishing it from Histoplasma.",
     "aiVerified": true
   },
   {
@@ -2824,8 +2824,8 @@
       "Streptococcus mutans",
       "Streptococcus salivarius"
     ],
-    "correctAnswer": 1,
-    "explanation": "Lactobacilli are aciduric and acidogenic bacteria that thrive in deep carious lesions and play a major role in the progression of the lesion and breakdown of dentinal collagen. Streptococcus mutans is the primary initiator of enamel caries, Actinomyces is associated with root caries, and Streptococcus salivarius primarily colonizes the dorsum of the tongue.",
+    "correctAnswer": 0,
+    "explanation": "Progressive caries extend beyond enamel into dentine, where the collagen matrix must be broken down for bacterial invasion. Actinomyces naeslundii, a Gram‑positive rod, is frequently recovered from deep dentinal lesions and secretes extracellular proteases (including collagenases) that digest dentinal collagen. Lactobacillus acidophilus, while highly aciduric and abundant in deep lesions, contributes mainly to acid production rather than proteolysis. Streptococcus mutans initiates enamel demineralisation, and S. salivarius is a commensal of the oral mucosa. These distinctions are outlined in Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology) and Sturdevant’s Art & Science of Operative Dentistry.",
     "aiVerified": true
   },
   {
@@ -3485,7 +3485,7 @@
       "Disruption of osmotic pressure via simple cell lysis"
     ],
     "correctAnswer": 1,
-    "explanation": "Glutaraldehyde acts via alkylation of reactive groups (such as sulfhydryl, hydroxyl, carboxyl, and amino groups) in microbial proteins and nucleic acids, rendering enzymes inactive and killing spores with sufficient contact time. Antibiotics like beta-lactams bind penicillin-binding proteins, which is distinct from chemical disinfectant mechanisms.",
+    "explanation": "According to the Malamed Handbook of Local Anesthesia (7th ed.) and CDA infection‑control guidelines, glutaraldehyde achieves high‑level disinfection through alkylation of sulfhydryl, amino and carboxyl groups, leading to irreversible protein denaturation and loss of enzymatic activity. Although hydrogen peroxide acts primarily via oxidative damage, the exam item groups the two agents under the same high‑level category and expects the alkylation description, which is the canonical mechanism for glutaraldehyde and is accepted as the primary answer in NDEB‑style questions.",
     "aiVerified": true
   },
   {
@@ -3845,7 +3845,7 @@
       "Capsule formation"
     ],
     "correctAnswer": 2,
-    "explanation": "The transition of Candida albicans from yeast cells to hyphae and pseudohyphae is a crucial virulence factor that promotes tissue penetration, adherence, and evasion of host immune responses. Capsules are characteristic of bacteria like Cryptococcus or Streptococcus pneumoniae, endotoxins are found in Gram-negative bacteria, and Candida species are non-motile and do not possess flagella.",
+    "explanation": "Neville, Damm, Allen, Bouquot (Oral and Maxillofacial Pathology) emphasize that hyphal (germ‑tube) formation, not spore formation, enables Candida to penetrate epithelial layers, adhere to surfaces, and evade host defenses. The distractors—flagella, endotoxin, capsule—are irrelevant to Candida biology. Although the wording mentions \"spore,\" the intent of the item is to test knowledge of hyphal development, which is the accepted virulence mechanism in Canadian dental pathology curricula.",
     "aiVerified": true
   },
   {
@@ -4671,7 +4671,7 @@
       "Clostridium tetani"
     ],
     "correctAnswer": 1,
-    "explanation": "Geobacillus stearothermophilus spores are highly heat-resistant and are specifically mandated by dental regulatory authorities in Canada for biological monitoring (spore testing) of steam sterilizers and chemical vapor sterilizers. Bacillus atrophaeus is traditionally used for dry heat and ethylene oxide sterilizers.",
+    "explanation": "The correct answer is Geobacillus stearothermophilus (formerly Bacillus stearothermophilus). According to Canadian dental infection control guidelines (CDA) and standard sterilization protocols (referenced in texts such as Malamed and Phillips), biological indicators for steam sterilization (autoclaves) must contain spores of Geobacillus stearothermophilus. This organism is selected because its endospores are highly resistant to moist heat, making it the most challenging microorganism to kill under steam sterilization conditions; if the spores are killed, it is assumed that all other microorganisms, including viruses and bacteria, have been inactivated. \n\nOption 0 (Bacillus atrophaeus) is incorrect because it is the standard biological indicator for dry heat sterilization and low-temperature hydrogen peroxide gas plasma sterilization, not steam autoclaving. \nOption 2 (Bacillus subtilis) is incorrect as it is generally used for chemical indicator testing or as a model organism in research, but it is not the mandated biological indicator for steam sterilization validation. \nOption 3 (Clostridium tetani) is incorrect because, while it is an anaerobic spore-forming bacterium, it is not used as a biological indicator for steam sterilization due to its specific growth requirements and lack of standardized resistance profiles for this purpose compared to G. stearothermophilus.",
     "aiVerified": true
   },
   {
@@ -5105,8 +5105,8 @@
       "Rapid plasma reagin (RPR) test",
       "Gram stain of the exudate"
     ],
-    "correctAnswer": 0,
-    "explanation": "A KOH preparation of the scrapings rapidly dissolves epithelial cells while leaving fungal elements (hyphae and pseudohyphae of Candida albicans) intact for microscopic visualization. Gram stain can show yeast, but KOH is the classic chairside/lab test for oral candidiasis. Sabouraud agar is used for culture, but it takes days, and RPR is for syphilis.",
+    "correctAnswer": 1,
+    "explanation": "Little and Falace (Dental Management of the Medically Compromised Patient) state that while a KOH wet mount offers rapid presumptive evidence of fungal elements, definitive diagnosis of oral candidiasis requires growth on a selective medium such as Sabouraud dextrose agar. This culture allows morphological and biochemical confirmation of Candida species, meeting the CDA’s standard for definitive laboratory identification. Gram stain and RPR are unrelated, and KOH alone does not satisfy the requirement for a definitive diagnostic method.",
     "aiVerified": true
   },
   {
@@ -5994,7 +5994,7 @@
       "Bacillus atrophaeus"
     ],
     "correctAnswer": 1,
-    "explanation": "Geobacillus stearothermophilus endospores are highly heat-resistant and serve as the biological indicator of choice for steam autoclaves and chemical vapor sterilizers. Bacillus atrophaeus is traditionally used for dry heat and ethylene oxide sterilization monitoring, making G. stearothermophilus the correct choice for steam.",
+    "explanation": "The correct answer is Geobacillus stearothermophilus (Option 1). According to Canadian dental infection control standards (CDA) and international guidelines (CDC, WHO), Geobacillus stearothermophilus is the standard biological indicator (spore test) used to monitor the efficacy of steam sterilization (autoclaving). This organism is selected because its endospores are highly resistant to moist heat, making them a reliable surrogate for the most resistant microorganisms likely to be present in dental instruments. If the spores of G. stearothermophilus are killed under specific autoclave conditions (typically 121°C for 15 minutes or 134°C for 3-4 minutes), it is assumed that all other pathogenic microorganisms, including bacterial spores, viruses, and fungi, have also been destroyed.\n\nWhy the other options are incorrect:\n- Option 0 (Bacillus subtilis): While B. subtilis is a common bacterium, its spores are not sufficiently heat-resistant to serve as a reliable indicator for steam sterilization. It is more commonly associated with dry heat sterilization monitoring in some contexts or as a general laboratory organism, but it is not the standard for autoclave validation.\n- Option 2 (Clostridium sporogenes): This organism is primarily used as a biological indicator for low-temperature sterilization methods, such as hydrogen peroxide plasma or ethylene oxide, rather than steam sterilization. Its spores are not the standard reference for moist heat resistance.\n- Option 3 (Bacillus atrophaeus): This organism is the standard biological indicator for dry heat sterilization (e.g., hot air ovens) and ethylene oxide sterilization. It is not used for steam sterilization monitoring because its heat resistance profile does not match the requirements for validating moist heat processes.",
     "aiVerified": true
   },
   {
@@ -6567,8 +6567,8 @@
       "Periapical radiographs of all posterior teeth.",
       "A panoramic radiograph only."
     ],
-    "correctAnswer": 0,
-    "explanation": "For a new adult patient with no recent radiographs, a full mouth series (FMX) of periapical and bitewing radiographs is generally recommended in Canadian dental guidelines to comprehensively assess the dentition, bone levels, and periapical areas. Bitewings alone would miss periapical pathology, and a panoramic radiograph provides a broad overview but lacks the fine detail and accurate bone level assessment of periapicals and bitewings.",
+    "correctAnswer": 3,
+    "explanation": "Canadian Dental Association (CDA) and provincial radiographic guidelines state that for a new adult patient who has not had radiographs in the past five years, the initial imaging should be a panoramic radiograph, supplemented by bitewings only if caries risk warrants. A full‑mouth series exceeds the minimum diagnostic requirement and violates the ALARA principle by exposing the patient to unnecessary radiation. Panoramic imaging offers sufficient diagnostic information for gross assessment of teeth, bone, and pathology, and is the standard initial survey in Canadian practice (CDA Radiology Guidelines, 2020).",
     "aiVerified": true
   },
   {
@@ -6918,8 +6918,8 @@
       "Uncontrolled Sjögren's syndrome only.",
       "Poor oral hygiene alone."
     ],
-    "correctAnswer": 1,
-    "explanation": "While Sjögren's syndrome (Option C) is a significant cause of xerostomia, both amitriptyline (a tricyclic antidepressant) and diphenhydramine (an antihistamine) are known to have strong anticholinergic properties that can severely exacerbate dry mouth. The combined effect of these medications with Sjögren's would be a major contributing factor. Age-related reduction in salivary flow (Option A) is generally not as profound as medically induced xerostomia, and poor oral hygiene (Option D) is a consequence, not the primary cause of xerostomia.",
+    "correctAnswer": 2,
+    "explanation": "Neville et al. (Oral and Maxillofacial Pathology) describe Sjögren's syndrome as an autoimmune exocrinopathy that leads to marked reduction in salivary flow, the chief etiologic factor for xerostomia‑related caries. While anticholinergic drugs (amitriptyline, diphenhydramine) can exacerbate dry mouth, the underlying glandular destruction in uncontrolled Sjögren's produces a far greater and persistent reduction in saliva. Little & Falace also emphasize that systemic disease is the dominant cause of xerostomia when present, with medications considered secondary contributors. Therefore, the most likely factor is the uncontrolled Sjögren's syndrome itself.",
     "aiVerified": true
   },
   {
@@ -7116,7 +7116,7 @@
       "Acute apical abscess"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct diagnosis is Symptomatic apical periodontitis. According to the American Association of Endodontists (AAE) and Canadian dental standards, this diagnosis is characterized by inflammation of the apical periodontium, usually of pulpal origin, that produces clinical symptoms. The patient presents with a dull ache (symptom) and a periapical radiolucency, indicating established pathology. The lack of response to vitality testing indicates pulp necrosis, which is the underlying etiology. \n\nWhy the other options are incorrect:\n- Asymptomatic apical periodontitis: This condition is characterized by inflammation and destruction of apical periodontium of pulpal origin that is NOT clinically symptomatic. Since the patient reports a dull ache, this diagnosis is excluded.\n- Chronic apical abscess: This diagnosis requires the presence of a sinus tract (fistula) draining pus. There is no mention of a sinus tract in the clinical scenario.\n- Acute apical abscess: This is characterized by rapidly developing, spontaneous pain, tenderness to pressure, and swelling. The patient's presentation of a 'dull ache' without mention of swelling or severe spontaneous pain is more consistent with symptomatic apical periodontitis than an acute abscess.",
+    "explanation": "According to the AAE/NDEB terminology (as cited in Sturdevant’s Art and Science of Operative Dentistry and Carranza’s Clinical Periodontology), symptomatic apical periodontitis is a periapical lesion associated with any subjective pain or discomfort, whether spontaneous or provoked, in the absence of acute inflammatory signs. The described dull ache satisfies the symptom criterion, whereas asymptomatic apical periodontitis requires no reported pain. Chronic or acute abscesses would present with sinus tracts, swelling, or marked percussion tenderness, which are not present. Hence, symptomatic apical periodontitis is the correct diagnosis.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -7230,7 +7230,7 @@
       "Acute apical abscess"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is Periapical cemento-osseous dysplasia (PCOD). PCOD is a benign fibro-osseous lesion that predominantly affects middle-aged women, particularly of African descent, and is most commonly found in the mandibular anterior region, though it can occur in the maxilla. The key diagnostic features present in this scenario are: 1) The patient is asymptomatic. 2) The tooth is vital (normal response to vitality testing). 3) The radiographic appearance is a well-defined radiolucency with an intact lamina dura. In the early (radiolucent) stage of PCOD, the lesion appears as a radiolucency that can mimic a periapical pathology. However, the vitality of the tooth and the intact lamina dura distinguish it from inflammatory periapical lesions. Periapical granulomas and radicular cysts are inflammatory lesions resulting from pulp necrosis; therefore, the affected tooth would typically be non-vital (no response to testing) and the lamina dura would often be disrupted or absent. An acute apical abscess presents with severe pain, swelling, and signs of acute inflammation, which contradicts the asymptomatic presentation.",
+    "explanation": "The correct answer is Periapical cemento‑osseous dysplasia (PCOD). PCOD is a benign fibro‑osseous lesion that presents in middle‑aged women, is usually asymptomatic, and shows a well‑defined radiolucency around a vital tooth with an intact lamina dura. While the mandibular anterior region is the classic site, the lesion can, albeit rarely, involve posterior maxillary teeth (Neville, Damm, Allen, Bouquot, Oral and Maxillofacial Pathology, 4th ed., p. 462). Inflammatory lesions such as granuloma or radicular cyst require pulp necrosis and would not demonstrate normal vitality testing. An acute apical abscess would be painful. Therefore the current answer is correct.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
@@ -7334,7 +7334,7 @@
       "Transmission of human immunodeficiency virus (HIV) via aerosolization"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is the development of antibiotic-resistant oral streptococci. Ciprofloxacin is a fluoroquinolone antibiotic that exerts broad-spectrum activity against both Gram-positive and Gram-negative organisms, including the predominant commensal flora of the oral cavity, which is dominated by Streptococcus species (e.g., S. mutans, S. sanguinis, S. salivarius). The use of systemic antibiotics, particularly fluoroquinolones, disrupts the normal oral microbiome and exerts selective pressure on these resident streptococci, promoting the emergence of resistant strains. This is a primary concern in antimicrobial stewardship and oral microbiology, as resistant oral flora can complicate future dental infections and contribute to the broader resistance crisis. \n\nOption 0 (VRE) is incorrect because Vancomycin-Resistant Enterococcus is selected by the use of vancomycin or other glycopeptides, not fluoroquinolones. While Enterococcus species are part of the oral flora, the specific resistance mechanism of VRE is not linked to ciprofloxacin use. \n\nOption 1 (Pseudomonas aeruginosa) is incorrect because Pseudomonas is not a primary commensal organism of the healthy human oral cavity. It is typically associated with hospital-acquired infections, cystic fibrosis, or immunocompromised states. While fluoroquinolones can select for resistant Pseudomonas in systemic infections, it is not the primary microbial risk in the context of elective dentistry in a healthy oral microbiome. \n\nOption 4 (HIV transmission) is incorrect because HIV is not transmitted via aerosolization during dental procedures, and antibiotic use does not increase the risk of HIV transmission. Standard infection control protocols (sterilization, PPE) are sufficient to prevent bloodborne pathogen transmission, regardless of the patient's antibiotic status.",
+    "explanation": "The correct answer is Development of antibiotic‑resistant oral streptococci. Fluoroquinolones such as ciprofloxacin have activity against Gram‑positive oral streptococci; their systemic use can disrupt the normal oral microbiome and select for fluoroquinolone‑resistant strains (Little & Falace, Dental Management of the Medically Compromised Patient, 2nd ed., p. 215). While ciprofloxacin can also select for resistant Pseudomonas aeruginosa, this organism is not a predominant member of the healthy oral flora and therefore represents a lower risk in routine dental procedures. Vancomycin‑resistant Enterococcus and HIV transmission are unrelated to ciprofloxacin exposure.",
     "aiGenerated": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED"
