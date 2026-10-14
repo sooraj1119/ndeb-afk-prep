@@ -48,7 +48,7 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
       <div className="glass-panel" style={{ padding: '2rem', marginBottom: '2rem', display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'flex-start', justifyContent: 'space-between', flexDirection: 'column', background: 'linear-gradient(to right, var(--surface-color), rgba(239, 68, 68, 0.1))' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', width: '100%' }}>
           {onBack && (
-            <button onClick={onBack} style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '50%', color: 'var(--text-primary)' }}>
+            <button id="mistakes-back-button" aria-label="Back to topics" onClick={onBack} style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '50%', color: 'var(--text-primary)' }}>
               <ArrowLeft size={24} />
             </button>
           )}

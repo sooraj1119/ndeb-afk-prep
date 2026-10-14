@@ -36,6 +36,15 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
     }
   }, [isOpen]);
 
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
+
   const handlePurchase = async (rcPackage: any) => {
     setPurchasing(rcPackage.identifier);
     const success = await purchasePackage(rcPackage);
@@ -92,6 +101,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
           }}
         >
           <button
+            id="paywall-close-button"
             aria-label="Close Paywall"
             onClick={onClose}
             style={{
