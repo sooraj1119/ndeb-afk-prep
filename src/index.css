@@ -226,40 +226,49 @@ body, html {
   }
 }
 
-/* ========================================= */
-/* Hide Google Translate Annoying Tooltips   */
-/* ========================================= */
-#goog-gt-tt, .goog-te-balloon-frame {
+/* ========================================================================== */
+/* Suppress Google Translate Floating Icon, Spinner, Tooltips & Banners       */
+/* ========================================================================== */
+html body [class*="VIpgJd"],
+html body .VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+html body .VIpgJd-ZVi9od-aZ2wEe-OiiCO,
+html body .VIpgJd-ZVi9od-aZ2wEe,
+html body .VIpgJd-ZVi9od-ORHb-OEVmcd,
+html body .VIpgJd-yAWNEb-hvhgNd-THIOPb,
+html body .goog-te-banner-frame,
+html body .goog-te-balloon-frame,
+html body .goog-te-gadget,
+html body .goog-te-gadget-simple,
+html body .goog-te-gadget-icon,
+html body .goog-tooltip,
+html body .goog-tooltip-skiptranslate,
+html body #goog-gt-tt,
+html body #goog-gt-vt,
+html body #google_translate_element,
+html body iframe.skiptranslate,
+html body .skiptranslate > iframe.skiptranslate {
   display: none !important;
-  opacity: 0 !important;
   visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  max-width: 0 !important;
+  max-height: 0 !important;
+  z-index: -99999 !important;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+  pointer-events: none !important;
+  overflow: hidden !important;
+}
+
+body {
+  top: 0px !important;
 }
 
 .goog-text-highlight {
   background-color: transparent !important;
   box-shadow: none !important;
-}
-
-/* Prevent Google Translate from shifting the body down */
-body {
-  top: 0 !important;
-}
-
-/* Hide Google Translate top banner completely */
-.goog-te-banner-frame.skiptranslate, .goog-te-banner-frame {
-    display: none !important;
-}
-body {
-    top: 0px !important;
-}
-/* Hide the Google Translate tooltip hover boxes */
-.goog-text-highlight {
-    background-color: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-#goog-gt-tt, .goog-te-balloon-frame {
-    display: none !important;
 }
 
 
