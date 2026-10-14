@@ -108,7 +108,7 @@ export function TopicSelection({ onSelect }: Props) {
             <div>
               <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
                 <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: 0, fontWeight: 700 }}>Daily Review (Spaced Repetition)</h3>
-                {!isPremium && <span data-testid="srs-pro-badge" style={{ background: '#eab308', color: '#854d0e', padding: '0.2rem 0.6rem', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px' }}><Crown size={12} /> PRO</span>}
+                {!isPremium && <span data-testid="srs-pro-badge" style={{ background: '#ffffff', color: '#b45309', padding: '0.2rem 0.65rem', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.2)' }}><Crown size={12} fill="#b45309" /> PRO</span>}
               </div>
               <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>
                 {!isPremium ? "Unlock to practice missed questions using spaced repetition." : 
@@ -177,7 +177,7 @@ export function TopicSelection({ onSelect }: Props) {
             <div>
               <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
                 <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: 0, fontWeight: 700 }}>Review Mistakes</h3>
-                {!isPremium && <span data-testid="mistakes-pro-badge" style={{ background: '#eab308', color: '#854d0e', padding: '0.2rem 0.6rem', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px' }}><Crown size={12} /> PRO</span>}
+                {!isPremium && <span data-testid="mistakes-pro-badge" style={{ background: '#ffffff', color: '#b91c1c', padding: '0.2rem 0.65rem', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.2)' }}><Crown size={12} fill="#b91c1c" /> PRO</span>}
               </div>
               <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>{mistakesCount} incorrect answer{mistakesCount === 1 ? '' : 's'} saved for review</p>
             </div>
