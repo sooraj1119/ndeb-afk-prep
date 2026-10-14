@@ -1,3 +1,4 @@
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface ConfirmModalProps {
@@ -21,7 +22,7 @@ export function ConfirmModal({
   onConfirm,
   onCancel,
 }: ConfirmModalProps) {
-  return (
+  const modalContent = (
     <AnimatePresence>
       {isOpen && (
         <>
@@ -90,4 +91,6 @@ export function ConfirmModal({
       )}
     </AnimatePresence>
   );
+
+  return typeof document !== 'undefined' ? createPortal(modalContent, document.body) : modalContent;
 }

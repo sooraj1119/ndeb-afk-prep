@@ -1,3 +1,4 @@
+import { createPortal } from 'react-dom';
 /* eslint-disable react-hooks/set-state-in-effect */
 import { getTotalQuestionCount } from './lib/questionsStore';
 import React, { useState, useEffect } from 'react';
@@ -70,7 +71,7 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
 
   if (!isOpen) return null;
 
-  return (
+  const content = (
     <AnimatePresence>
       <div style={{
         position: 'fixed',
@@ -273,5 +274,6 @@ export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Prop
       </div>
     </AnimatePresence>
   );
-}
 
+  return typeof document !== 'undefined' ? createPortal(content, document.body) : content;
+}

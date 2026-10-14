@@ -205,9 +205,10 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
         
         {/* Dynamic Study Pacing Engine */}
         <motion.div 
+          className="study-pacer-card"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          style={{ marginBottom: 'clamp(1rem, 4vw, 1.5rem)', background: 'linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)', borderRadius: 'var(--radius-lg)', padding: 'clamp(0.85rem, 3vw, 1.25rem) clamp(0.75rem, 3vw, 1rem)', border: '1px solid #bbf7d0', display: 'flex', flexDirection: 'column', gap: '1rem', boxShadow: '0 4px 15px rgba(22, 163, 74, 0.1)' }}
+          style={{ marginBottom: 'clamp(1rem, 4vw, 1.5rem)', borderRadius: 'var(--radius-lg)', padding: 'clamp(0.85rem, 3vw, 1.25rem) clamp(0.75rem, 3vw, 1rem)', display: 'flex', flexDirection: 'column', gap: '1rem' }}
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
@@ -215,8 +216,8 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
                 <CalendarDays size={24} />
               </div>
               <div>
-                <h3 style={{ margin: 0, fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', color: '#166534', fontWeight: 700 }}>Dynamic Study Pacer</h3>
-                <p style={{ margin: '0.2rem 0 0', color: '#15803d', fontSize: '0.95rem' }}>Automated planning for your exam date</p>
+                <h3 className="study-pacer-title" style={{ margin: 0, fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 700 }}>Dynamic Study Pacer</h3>
+                <p className="study-pacer-subtitle" style={{ margin: '0.2rem 0 0', fontSize: '0.95rem' }}>Automated planning for your exam date</p>
               </div>
             </div>
             
@@ -248,12 +249,12 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
                 <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#16a34a', lineHeight: 1 }}><span translate="no">{dailyQuota}</span></div>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Questions / Day</div>
               </div>
-              <div style={{ height: '50px', width: '1px', background: '#e5e7eb', display: typeof window !== 'undefined' && window.innerWidth > 500 ? 'block' : 'none' }} />
+              <div style={{ height: '50px', width: '1px', background: 'var(--border-color)', display: typeof window !== 'undefined' && window.innerWidth > 500 ? 'block' : 'none' }} />
               <div style={{ textAlign: 'center' }}>
                 <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#3b82f6', lineHeight: 1 }}>{daysLeft}</div>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Days Left</div>
               </div>
-              <div style={{ height: '50px', width: '1px', background: '#e5e7eb', display: typeof window !== 'undefined' && window.innerWidth > 500 ? 'block' : 'none' }} />
+              <div style={{ height: '50px', width: '1px', background: 'var(--border-color)', display: typeof window !== 'undefined' && window.innerWidth > 500 ? 'block' : 'none' }} />
               <div style={{ textAlign: 'center' }}>
                 <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)', fontWeight: 800, color: '#f59e0b', lineHeight: 1 }}><span translate="no">{totalBankQuestions - answeredSoFar}</span></div>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500, marginTop: '0.3rem' }}>Remaining in Bank</div>

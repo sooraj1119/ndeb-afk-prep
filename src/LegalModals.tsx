@@ -1,3 +1,4 @@
+import { createPortal } from 'react-dom';
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ShieldAlert, FileText, Lock } from 'lucide-react';
@@ -13,7 +14,7 @@ interface LegalModalProps {
 const BaseModal: React.FC<LegalModalProps> = ({ isOpen, onClose, title, icon, content }) => {
   if (!isOpen) return null;
 
-  return (
+  const modalNode = (
     <AnimatePresence>
       <div style={{
         position: 'fixed',
@@ -113,6 +114,8 @@ const BaseModal: React.FC<LegalModalProps> = ({ isOpen, onClose, title, icon, co
       </div>
     </AnimatePresence>
   );
+
+  return typeof document !== 'undefined' ? createPortal(modalNode, document.body) : modalNode;
 };
 
 export const MedicalDisclaimerModal: React.FC<{ isOpen: boolean; onClose: () => void }> = ({ isOpen, onClose }) => {
