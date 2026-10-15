@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 
 import type { Topic, Question } from "./types";
 import { Syringe, FileText, FlaskConical, Bone, Microscope, Atom, Bug, Layers, Scaling, Stethoscope, X, LifeBuoy, Handshake, Biohazard, Scissors, Activity, AlertCircle, Smile, Baby, ShieldCheck } from 'lucide-react';

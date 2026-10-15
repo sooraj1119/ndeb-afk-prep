@@ -13,7 +13,7 @@ interface Props {
   feature?: string;
 }
 
-export function PaywallModal({ isOpen, onClose, feature = "this feature" }: Props) {
+export function PaywallModal({ isOpen, onClose, feature: _feature = "this feature" }: Props) {
   const [packages, setPackages] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [purchasing, setPurchasing] = useState<string | null>(null);

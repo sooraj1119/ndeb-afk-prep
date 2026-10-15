@@ -1,6 +1,5 @@
-/* eslint-disable no-empty */
 /* eslint-disable react-hooks/set-state-in-effect */
-import React, { useState, useEffect, Suspense, useRef } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { App as CapacitorApp } from '@capacitor/app';
 import { Capacitor } from '@capacitor/core';
 import { SplashScreen } from '@capacitor/splash-screen';
@@ -170,8 +169,6 @@ function App() {
 
 
 
-  const isTogglingLang = useRef(false);
-  const [langToastVisible, setLangToastVisible] = useState(false);
 
   const toggleLanguage = () => {
     if (isFrench) {
@@ -328,22 +325,7 @@ function App() {
 
 
 
-      {/* Offline translation error toast */}
-      {langToastVisible && (
-        <div style={{
-          position: 'fixed', bottom: 'calc(env(safe-area-inset-bottom, 0px) + 1rem)',
-          left: '50%', transform: 'translateX(-50%)',
-          background: 'rgba(15,23,42,0.92)', color: 'white',
-          padding: '0.65rem 1.25rem', borderRadius: '999px',
-          fontSize: '0.85rem', fontWeight: 600,
-          boxShadow: '0 4px 24px rgba(0,0,0,0.25)',
-          zIndex: 99999, whiteSpace: 'nowrap',
-          backdropFilter: 'blur(8px)',
-          WebkitBackdropFilter: 'blur(8px)'
-        }}>
-          Translation unavailable — check your connection
-        </div>
-      )}
+      
 
             <PaywallModal isOpen={showPaywall} onClose={() => setShowPaywall(false)} feature="Pro Features" />
 

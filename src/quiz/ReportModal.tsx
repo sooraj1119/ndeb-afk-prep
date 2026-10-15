@@ -8,7 +8,7 @@ interface ReportModalProps {
   questionId: string | number;
 }
 
-export function ReportModal({ isOpen, onClose, questionId }: ReportModalProps) {
+export function ReportModal({ isOpen, onClose, questionId: _questionId }: ReportModalProps) {
   const [reason, setReason] = useState('');
   const [submitted, setSubmitted] = useState(false);
 

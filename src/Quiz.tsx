@@ -290,6 +290,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
     init();
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [topicId, isSimulatedMode, isFlaggedMode, isSRSMode]);
 
 
@@ -336,6 +337,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
     return () => clearInterval(timerId);
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isSimulatedMode, initialized, timeLeft]);
 
 
@@ -728,6 +730,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
     return () => window.removeEventListener('keydown', handleKeyDown);
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedAnswer, currentIndex, topicQuestions]);
 
 
@@ -760,6 +763,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
     return () => { document.removeEventListener('touchstart', onStart); document.removeEventListener('touchend', onEnd); };
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedAnswer, currentIndex]);
 
 

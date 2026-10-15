@@ -82,7 +82,7 @@ export const getProgress = (): Record<string, TopicProgress> => {
   try {
     const str = localStorage.getItem(STORAGE_KEY);
     return str ? JSON.parse(str) : {};
-  } catch (error) {
+  } catch {
     return {};
   }
 };
@@ -101,7 +101,7 @@ export const getFlaggedQuestions = (): any[] => {
     const parsed = JSON.parse(str);
     // Return deduplicated array
     return Array.isArray(parsed) ? Array.from(new Set(parsed)).filter(id => String(id).includes('-')) : [];
-  } catch (error) {
+  } catch {
     return [];
   }
 };
@@ -135,7 +135,7 @@ export const toggleFlagQuestion = (questionId: any): boolean => {
 export const hasAcceptedDisclaimer = (): boolean => {
   try {
     return localStorage.getItem(DISCLAIMER_KEY) === 'true';
-  } catch (error) {
+  } catch {
     return false;
   }
 };
@@ -154,7 +154,7 @@ export const getAllSRSData = (): Record<string, SRSData> => {
   try {
     const str = localStorage.getItem(SRS_KEY);
     return str ? JSON.parse(str) : {};
-  } catch (error) {
+  } catch {
     return {};
   }
 };
@@ -273,7 +273,7 @@ export const logDailyVisit = () => {
     data.lastVisitDate = today;
     localStorage.setItem(GAMIFICATION_KEY, JSON.stringify(data));
     return data.currentStreak;
-  } catch (e) {
+  } catch {
     return 0;
   }
 };
@@ -287,7 +287,7 @@ export const awardBadge = (badgeId: string) => {
       return true; // newly awarded
     }
     return false;
-  } catch (e) {
+  } catch {
     return false;
   }
 };
@@ -352,7 +352,7 @@ export const usePremiumStatus = () => {
 export const getIsPremium = (): boolean => {
   try {
     return localStorage.getItem(PREMIUM_KEY) === 'true';
-  } catch (error) {
+  } catch {
     return false;
   }
 };
@@ -383,7 +383,7 @@ export const getHistory = (): QuizAttempt[] => {
   try {
     const str = localStorage.getItem(HISTORY_KEY);
     return str ? JSON.parse(str) : [];
-  } catch (error) {
+  } catch {
     return [];
   }
 };
@@ -418,7 +418,7 @@ export const getActiveMockExam = (): ActiveMockExam | null => {
   try {
     const str = localStorage.getItem(MOCK_EXAM_KEY);
     return str ? JSON.parse(str) : null;
-  } catch (error) {
+  } catch {
     return null;
   }
 };
@@ -449,7 +449,7 @@ export const getMistakes = (): any[] => {
     if (!data) return [];
     const parsed = JSON.parse(data);
     return Array.isArray(parsed) ? Array.from(new Set(parsed)).filter(id => String(id).includes('-')) : [];
-  } catch (e) {
+  } catch {
     return [];
   }
 };
@@ -482,7 +482,7 @@ export const getExamDate = (): number | null => {
   try {
     const d = localStorage.getItem(EXAM_DATE_KEY);
     return d ? parseInt(d) : null;
-  } catch (error) {
+  } catch {
     return null;
   }
 };

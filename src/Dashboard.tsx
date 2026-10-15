@@ -63,7 +63,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
           setExamDateState(parsed);
           try {
             setTempDate(new Date(parsed).toISOString().split('T')[0]);
-          } catch (e) {
+          } catch {
             // Ignore RangeError on corrupted dates
           }
         } else {
@@ -407,7 +407,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
               No badges earned yet. Complete quizzes to unlock them!
             </div>
           ) : (
-            getGamification().badges.map((badge, idx) => (
+            getGamification().badges.map((badge) => (
               <div key={badge} className="glass-panel" style={{ padding: '0.75rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
                 <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2rem)' }}>{BADGE_META[badge]?.emoji || badge}</div>
                 <div style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{BADGE_META[badge]?.label || badge}</div>
@@ -420,7 +420,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
 
       <h3 style={{ fontSize: 'clamp(1.2rem, 4vw, 1.4rem)', color: 'var(--text-primary)', marginBottom: '1.5rem' }}>Topic Breakdown</h3>
       <div className="topic-grid">
-        {topics.map((topic, idx) => {
+        {topics.map((topic) => {
           const topicProg = progress[topic.id];
           const hasAttempted = !!topicProg;
             const topicTotal = questions.filter(q => q.topicId === topic.id).length || 500;
