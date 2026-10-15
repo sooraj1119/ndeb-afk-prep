@@ -178,9 +178,10 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
         const isCompleted = activeMock ? activeMock.currentIndex >= activeMock.questions.length : false;
 
+        const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
+        const hasPremiumQuestions = activeMock?.questions ? activeMock.questions.some((q: any) => premiumIds.includes(q.topicId)) : false;
 
-
-        if (activeMock && activeMock.questions.length > 0 && !isExpired && !isCompleted) {
+        if (activeMock && activeMock.questions.length > 0 && !isExpired && !isCompleted && (currentPremium || !hasPremiumQuestions)) {
 
           qList = activeMock.questions;
 
@@ -200,11 +201,12 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
         } else {
 
+          clearActiveMockExam();
+
           await loadAllQuestions();
 
           let fullList = [...getQuestions()];
-          if (!isPremium) {
-            const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
+          if (!currentPremium) {
             fullList = fullList.filter(q => !premiumIds.includes(q.topicId));
           }
           qList = fullList.sort(() => Math.random() - 0.5).slice(0, 100);
@@ -543,9 +545,10 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
 
     clearActiveMockExam();
 
+    const currentPremium = isPremium;
     let fullList = [...getQuestions()];
-    if (!isPremium) {
-      const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
+    const premiumIds = topics.filter(t => t.isPremiumOnly).map(t => t.id);
+    if (!currentPremium) {
       fullList = fullList.filter(q => !premiumIds.includes(q.topicId));
     }
     const qList = fullList.sort(() => Math.random() - 0.5).slice(0, 100);

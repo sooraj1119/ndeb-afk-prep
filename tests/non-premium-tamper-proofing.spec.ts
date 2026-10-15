@@ -69,6 +69,46 @@ test.describe('Non-Premium Access Control & Tamper Proofing', () => {
     expect(leakedQuestions.length).toBe(0);
   });
 
+  test('2b. Free User: Stale active mock exam containing premium topics is purged and re-generated free-only', async ({ page }) => {
+    // Seed an active mock exam with premium questions (e.g. leftover from prior Pro session)
+    await page.evaluate(() => {
+      const proMock = {
+        questions: [
+          { id: 101, topicId: 'anesthesia', question: 'Pro Q1', options: ['A','B','C','D'], correctAnswer: 0, explanation: '' },
+          { id: 102, topicId: 'pharmacology', question: 'Pro Q2', options: ['A','B','C','D'], correctAnswer: 1, explanation: '' },
+          { id: 103, topicId: 'ethics', question: 'Free Q3', options: ['A','B','C','D'], correctAnswer: 2, explanation: '' },
+        ],
+        currentIndex: 0,
+        score: 0,
+        endTime: Date.now() + 7200 * 1000
+      };
+      localStorage.setItem('ndeb_prep_active_mock', JSON.stringify(proMock));
+    });
+
+    // Start simulated exam as Free user
+    await page.locator('h3:has-text("Simulated Mock Exam")').click();
+    await expect(page.locator('h2:has-text("Simulated AFK Exam")')).toBeVisible({ timeout: 15000 });
+
+    // Verify the stale pro exam was purged and regenerated with 100 questions and 0 premium questions
+    const questions = await page.evaluate(() => {
+      const raw = localStorage.getItem('ndeb_prep_active_mock');
+      if (!raw) return [];
+      const parsed = JSON.parse(raw);
+      return parsed.questions || [];
+    });
+
+    expect(questions.length).toBe(100);
+
+    const premiumTopicIds = [
+      'anatomy', 'pharmacology', 'endodontics', 'anesthesia', 'pathology',
+      'prosthodontics', 'general-medicine', 'oral-medicine', 'implants',
+      'emergencies', 'orthodontics', 'pedodontics', 'infection-control'
+    ];
+
+    const leakedQuestions = questions.filter((q: any) => premiumTopicIds.includes(q.topicId));
+    expect(leakedQuestions.length).toBe(0);
+  });
+
   test('3. Free User: Search strictly excludes questions from all 13 Premium Topics and caps at 5', async ({ page }) => {
     await page.click('button:has-text("Search")');
     await page.waitForTimeout(800);
