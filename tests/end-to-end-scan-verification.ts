@@ -1,18 +1,12 @@
-﻿import assert from 'assert';
-import { getTotalQuestionCount, getQuestions, loadAllQuestions, loadTopicQuestions } from '../src/lib/questionsStore';
-import { 
-  getIsPremium, 
-  setIsPremium, 
-  getProgress, 
-  saveProgress, 
-  getTopicProgress, 
-  getDueSRSQuestions, 
-  logSRSAnswer, 
-  getMistakes, 
-  logMistake, 
-  removeMistake, 
-  getExamDate, 
-  setExamDate 
+import assert from 'assert';
+import { getTotalQuestionCount } from '../src/lib/questionsStore';
+import {
+  getProgress,
+  getMistakes,
+  logMistake,
+  removeMistake,
+  getExamDate,
+  setExamDate
 } from '../src/lib/storage';
 
 console.log('--- STARTING ROBUST END-TO-END SCAN TESTS ---');
@@ -41,7 +35,7 @@ console.log('  ✓ Question store reports correct 14,000 question bank count');
 
 // Test 2: Idempotent User Answer Scoring Simulation
 console.log('[Test 2] Idempotent Quiz Navigation and Score Integrity...');
-let userAnswers: Record<number, number> = {};
+const userAnswers: Record<number, number> = {};
 let score = 0;
 const mockQuestions = [
   { id: 1, topicId: 'ethics', question: 'Q1', options: ['A', 'B', 'C', 'D'], correctAnswer: 1 },

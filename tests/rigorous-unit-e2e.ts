@@ -37,7 +37,6 @@ import {
   logMistake,
   removeMistake,
   saveProgress,
-  getProgress,
   getTopicProgress,
   hasAcceptedDisclaimer,
   acceptDisclaimer,
@@ -292,10 +291,11 @@ async function runTestSuite() {
   // Free tier only has 100 questions. Simulate Quiz resume check:
   const freeAvailable = 100;
   let resumeIndex = anatProg.currentIndex;
-  let resumeScore = anatProg.currentScore;
+  let _resumeScore = anatProg.currentScore;
   if (resumeIndex >= freeAvailable) {
     resumeIndex = 0;
-    resumeScore = 0;
+    _resumeScore = 0;
+    void _resumeScore;
     saveProgress('anatomy', 0, freeAvailable, 0, false, 0);
   }
   anatProg = getTopicProgress('anatomy');

@@ -1,4 +1,3 @@
-import { getIsPremium, setIsPremium } from '../src/lib/storage';
 import { topics } from '../src/lib/data';
 
 function runTests() {
