@@ -1,12 +1,14 @@
 package com.ndeb.afkprep;
 
 import android.os.Bundle;
-import com.getcapacitor.BridgeActivity;
+import androidx.activity.EdgeToEdge;
 import androidx.core.splashscreen.SplashScreen;
+import com.getcapacitor.BridgeActivity;
 
 public class MainActivity extends BridgeActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        EdgeToEdge.enable(this);
         SplashScreen.installSplashScreen(this);
         super.onCreate(savedInstanceState);
     }

@@ -1,4 +1,4 @@
-﻿import type { CapacitorConfig } from '@capacitor/cli';
+import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.ndeb.afkprep',
@@ -15,8 +15,8 @@ const config: CapacitorConfig = {
       androidSpinnerStyle: "large",
       iosSpinnerStyle: "small",
       spinnerColor: "#0284c7",
-      splashFullScreen: true,
-      splashImmersive: true,
+      splashFullScreen: false,
+      splashImmersive: false,
       layoutName: "launch_screen",
       useDialog: true
     },
@@ -24,5 +24,3 @@ const config: CapacitorConfig = {
 };
 
 export default config;
-
-

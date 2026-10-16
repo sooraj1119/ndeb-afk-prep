@@ -15,6 +15,7 @@ interface Props {
   onStartFlaggedQuiz: () => void;
   onStartSRSQuiz?: () => void;
   onStartMistakesQuiz: () => void;
+  onOpenDisclaimer?: () => void;
 }
 
 const BADGE_META: Record<string, { emoji: string; label: string }> = {
@@ -35,7 +36,7 @@ const BADGE_META: Record<string, { emoji: string; label: string }> = {
 };
 
 
-export function Dashboard({ onStartFlaggedQuiz, onStartSRSQuiz, onStartMistakesQuiz, onOpenDisclaimer }: Props) {
+export function Dashboard({ onStartFlaggedQuiz, onStartSRSQuiz: _onStartSRSQuiz, onStartMistakesQuiz, onOpenDisclaimer }: Props) {
   const questions = getQuestions();
   const [progress, setProgress] = useState<Record<string, TopicProgress>>({});
   const [flaggedCount, setFlaggedCount] = useState(0);
