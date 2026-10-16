@@ -953,7 +953,10 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
         currentIndex={currentIndex}        isLastQuestion={currentIndex === topicQuestions.length - 1}
       />
       
-      <div style={{ textAlign: 'center', marginTop: '2rem', marginBottom: '1rem', padding: '1rem', opacity: 0.7 }}>
+      <div style={{ textAlign: 'center', marginTop: '2rem', marginBottom: '1rem', padding: '1rem', opacity: 0.85 }}>
+        <p style={{ margin: '0 0 0.4rem 0', fontSize: '0.78rem', color: 'var(--text-secondary)', fontStyle: 'italic' }}>
+          Educational study aid only • Explanations do not constitute medical or clinical dental advice.
+        </p>
         <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
           Found a mistake? Email our dental review board at <br/>
           <a href={`mailto:ndebpreppro@gmail.com?subject=Question Error Report ID: ${question?.id}`} style={{ color: 'var(--accent-color)', fontWeight: 600, textDecoration: 'none' }}>ndebpreppro@gmail.com</a>

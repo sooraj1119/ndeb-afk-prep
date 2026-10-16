@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { PaywallModal } from './PaywallModal';
 import { ConfirmModal } from './ConfirmModal';
 import { Lock } from 'lucide-react';
-import { Trophy, Target, BookOpen, Bookmark, Play, AlertOctagon, TrendingUp, XCircle, AlertCircle, CalendarDays, Edit2, Check } from 'lucide-react';
+import { Trophy, Target, BookOpen, Bookmark, Play, AlertOctagon, TrendingUp, XCircle, AlertCircle, CalendarDays, Edit2, Check, ShieldAlert } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 
@@ -35,7 +35,7 @@ const BADGE_META: Record<string, { emoji: string; label: string }> = {
 };
 
 
-export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
+export function Dashboard({ onStartFlaggedQuiz, onStartSRSQuiz, onStartMistakesQuiz, onOpenDisclaimer }: Props) {
   const questions = getQuestions();
   const [progress, setProgress] = useState<Record<string, TopicProgress>>({});
   const [flaggedCount, setFlaggedCount] = useState(0);
@@ -496,6 +496,58 @@ export function Dashboard({ onStartFlaggedQuiz, onStartMistakesQuiz }: Props) {
             </div>
           );
         })}
+      </div>
+
+      {/* Medical & Legal Disclaimer Card */}
+      <div className="glass-panel" style={{ 
+        padding: '1.25rem', 
+        marginTop: '3rem',
+        marginBottom: '1rem', 
+        borderLeft: '4px solid #eab308',
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        gap: '1rem',
+        background: 'linear-gradient(to right, var(--surface-color), rgba(234, 179, 8, 0.04))'
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', flex: 1, minWidth: '240px' }}>
+          <div style={{ background: 'rgba(234, 179, 8, 0.12)', padding: '0.7rem', borderRadius: '50%', color: '#eab308', flexShrink: 0 }}>
+            <AlertCircle size={24} />
+          </div>
+          <div>
+            <h4 style={{ margin: '0 0 0.25rem 0', color: 'var(--text-primary)', fontSize: '0.98rem', fontWeight: 700 }}>
+              Medical & Educational Disclaimer
+            </h4>
+            <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.83rem', lineHeight: 1.45 }}>
+              Strictly for educational AFK exam preparation. Does not constitute medical, dental, diagnostic, or clinical advice.
+            </p>
+          </div>
+        </div>
+        {onOpenDisclaimer && (
+          <button
+            type="button"
+            onClick={onOpenDisclaimer}
+            style={{
+              background: 'var(--surface-hover)',
+              border: '1px solid var(--border-color)',
+              color: 'var(--text-primary)',
+              padding: '0.65rem 1.15rem',
+              borderRadius: 'var(--radius-md)',
+              fontWeight: 600,
+              fontSize: '0.85rem',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.45rem',
+              transition: 'all 0.2s ease',
+              whiteSpace: 'nowrap'
+            }}
+          >
+            <ShieldAlert size={16} color="#eab308" />
+            View Disclaimer
+          </button>
+        )}
       </div>
 
       <div style={{ marginTop: '4rem', padding: '2rem', border: '1px solid rgba(239, 68, 68, 0.3)', borderRadius: 'var(--radius-lg)', background: 'rgba(239, 68, 68, 0.05)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>

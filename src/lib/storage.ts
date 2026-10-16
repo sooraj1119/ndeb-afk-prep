@@ -140,6 +140,14 @@ export const hasAcceptedDisclaimer = (): boolean => {
   }
 };
 
+export const resetDisclaimer = () => {
+  try {
+    localStorage.removeItem(DISCLAIMER_KEY);
+  } catch (error) {
+    console.error('Failed to reset disclaimer acceptance:', error);
+  }
+};
+
 export const acceptDisclaimer = () => {
   try {
     localStorage.setItem(DISCLAIMER_KEY, 'true');
@@ -437,7 +445,7 @@ export const clearActiveMockExam = () => {
   } catch (e) { void e; }
 };
 
-export const resetAllProgress = () => { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(FLAGS_KEY); localStorage.removeItem(SRS_KEY); localStorage.removeItem(GAMIFICATION_KEY); localStorage.removeItem(HISTORY_KEY); localStorage.removeItem(MOCK_EXAM_KEY); localStorage.removeItem(MISTAKES_KEY); localStorage.removeItem(EXAM_DATE_KEY); window.location.reload(); };
+export const resetAllProgress = () => { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(DISCLAIMER_KEY); localStorage.removeItem(FLAGS_KEY); localStorage.removeItem(SRS_KEY); localStorage.removeItem(GAMIFICATION_KEY); localStorage.removeItem(HISTORY_KEY); localStorage.removeItem(MOCK_EXAM_KEY); localStorage.removeItem(MISTAKES_KEY); localStorage.removeItem(EXAM_DATE_KEY); window.location.reload(); };
 
 // --- Mistakes Tracking ---
 

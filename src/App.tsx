@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 import React, { useState, useEffect, Suspense } from 'react';
+import { createPortal } from 'react-dom';
 import { App as CapacitorApp } from '@capacitor/app';
 import { Capacitor } from '@capacitor/core';
 import { SplashScreen } from '@capacitor/splash-screen';
@@ -332,105 +333,76 @@ function App() {
 
 
 
-      <AnimatePresence>
-
-        {showDisclaimer && (
-
-          <motion.div 
-
-            initial={{ opacity: 0 }}
-
-            animate={{ opacity: 1 }}
-
-            exit={{ opacity: 0 }}
-
-            style={{
-
-              position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
-
-              background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)',
-
-              zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem'
-
-            }}
-
-          >
-
-            <motion.div 
-
-              initial={{ scale: 0.9, y: 20 }}
-
-              animate={{ scale: 1, y: 0 }}
-
-              exit={{ scale: 0.9, y: 20 }}
-
-              className="glass-panel"
-
-              style={{ maxWidth: '600px', width: '100%', maxHeight: '95vh', overflowY: 'auto', padding: '1.25rem', background: 'var(--surface-color)' }}
-
+      {typeof document !== 'undefined' && createPortal(
+        <AnimatePresence>
+          {showDisclaimer && (
+            <div
+              style={{
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                background: 'rgba(0,0,0,0.65)',
+                backdropFilter: 'blur(8px)',
+                WebkitBackdropFilter: 'blur(8px)',
+                zIndex: 10000,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                padding: '1rem',
+              }}
             >
-
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#eab308', marginBottom: '1rem' }}>
-
-                <AlertTriangle size={24} style={{ flexShrink: 0 }} />
-
-                <h2 style={{ margin: 0, color: 'var(--text-primary)', fontSize: '1.2rem' }}>Medical Disclaimer</h2>
-
-              </div>
-
-              
-
-              <div style={{ color: 'var(--text-secondary)', lineHeight: 1.4, fontSize: '0.8rem', marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-
-                <p>
-
-                  <strong>For Educational Purposes Only.</strong> This application is strictly designed as a study aid for the Assessment of Fundamental Knowledge (AFK) examination.
-
-                </p>
-
-                <p>
-
-                  The questions and explanations provided within this app are generated utilizing Artificial Intelligence (AI) and simulated data. While every effort is made to ensure medical accuracy, <strong>AI can occasionally make mistakes or hallucinate facts.</strong>
-
-                </p>
-
-                <p>
-
-                  The information in this app <strong>does not constitute medical or clinical advice</strong>, diagnosis, or treatment. It must never be used as a substitute for professional clinical judgment, official dental guidelines, or peer-reviewed medical literature. Do not use this application for real-world patient care or clinical decision-making.
-
-                </p>
-
-                <p style={{ fontStyle: 'italic', opacity: 0.9, fontSize: '0.75rem', margin: '0.5rem 0' }}>
-
-                  <strong>Trademark Notice:</strong> NDEB&reg; and AFK&reg; are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study tool and is <strong>not affiliated with, endorsed by, or sponsored by the NDEB.</strong>
-
-                </p>
-
-              </div>
-
-
-
-              <button 
-
-                onClick={handleAcceptDisclaimer}
-
-                className="primary-btn"
-
-                style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', padding: '0.8rem', fontSize: '0.95rem' }}
-
+              <motion.div
+                initial={{ opacity: 0, scale: 0.92, y: 15 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                exit={{ opacity: 0, scale: 0.92, y: 15 }}
+                className="glass-panel"
+                style={{
+                  maxWidth: '560px',
+                  width: '100%',
+                  maxHeight: '90vh',
+                  overflowY: 'auto',
+                  padding: '1.5rem',
+                  background: 'var(--surface-color)',
+                  border: '1px solid var(--border-color)',
+                  borderRadius: '20px',
+                  boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
+                }}
               >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#eab308', marginBottom: '1rem' }}>
+                  <AlertTriangle size={26} style={{ flexShrink: 0 }} />
+                  <h2 style={{ margin: 0, color: 'var(--text-primary)', fontSize: '1.25rem', fontWeight: 700 }}>Medical Disclaimer</h2>
+                </div>
 
-                <ShieldCheck size={18} /> I Understand and Agree
+                <div style={{ color: 'var(--text-secondary)', lineHeight: 1.5, fontSize: '0.85rem', marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
+                  <p>
+                    <strong>For Educational Purposes Only.</strong> This application is strictly designed as an independent study aid for candidates preparing for the Assessment of Fundamental Knowledge (AFK) dental examination.
+                  </p>
+                  <p>
+                    The questions and explanations provided within this app are generated utilizing Artificial Intelligence (AI) and simulated clinical data. While every effort is made to maintain high academic accuracy, <strong>AI models can occasionally make mistakes or hallucinate facts.</strong>
+                  </p>
+                  <p>
+                    The information in this app <strong>does not constitute medical or dental clinical advice</strong>, diagnosis, or treatment. It must never be used as a substitute for professional clinical judgment, official dental protocols, or peer-reviewed literature. Do not use this application for real-world patient care or clinical decision-making.
+                  </p>
+                  <p style={{ fontStyle: 'italic', opacity: 0.9, fontSize: '0.78rem', margin: '0.25rem 0' }}>
+                    <strong>Trademark Notice:</strong> NDEB&reg; and AFK&reg; are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study tool and is <strong>not affiliated with, endorsed by, or sponsored by the NDEB.</strong>
+                  </p>
+                </div>
 
-              </button>
-
-            </motion.div>
-
-          </motion.div>
-
-        )}
-
-      </AnimatePresence>
+                <button
+                  onClick={handleAcceptDisclaimer}
+                  className="primary-btn"
+                  style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', padding: '0.85rem', fontSize: '1rem', fontWeight: 600, cursor: 'pointer' }}
+                >
+                  <ShieldCheck size={20} /> I Understand and Agree
+                </button>
+              </motion.div>
+            </div>
+          )}
+        </AnimatePresence>,
+        document.body
+      )}
 
 
 
@@ -625,7 +597,7 @@ function App() {
                 onStartSRSQuiz={() => handleTopicSelect('srs_review')}
 
                 onStartMistakesQuiz={() => handleTopicSelect('mistakes')}
-
+                onOpenDisclaimer={() => setShowLegalDisclaimer(true)}
               />
 
             </motion.div>

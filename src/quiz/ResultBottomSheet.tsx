@@ -107,6 +107,9 @@ export function ResultBottomSheet({
                 <div id="current-explanation-text" style={{ color: 'var(--text-primary)', lineHeight: '1.6', fontSize: '0.97rem' }}>
                   {explanation || `The correct answer is: ${correctAnswerText}`}
                 </div>
+                <div style={{ marginTop: '0.6rem', fontSize: '0.72rem', color: 'var(--text-secondary)', opacity: 0.7, fontStyle: 'italic' }}>
+                  Educational reference only • Does not substitute clinical judgment.
+                </div>
               </div>
             )}
 
