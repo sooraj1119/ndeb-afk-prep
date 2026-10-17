@@ -5,6 +5,7 @@ import { topics } from './lib/data';
 import { getQuestions, getTotalQuestionCount } from './lib/questionsStore';
 import { motion } from 'framer-motion';
 import { PaywallModal } from './PaywallModal';
+import { InfoTooltip } from './InfoTooltip';
 import { ConfirmModal } from './ConfirmModal';
 import { Lock } from 'lucide-react';
 import { Trophy, Target, BookOpen, Bookmark, Play, AlertOctagon, TrendingUp, XCircle, AlertCircle, CalendarDays, Edit2, Check, ShieldAlert } from 'lucide-react';
@@ -378,7 +379,17 @@ export function Dashboard({ onStartFlaggedQuiz, onStartSRSQuiz: _onStartSRSQuiz,
               <AlertCircle size={24} />
             </div>
             <div>
-              <h3 style={{ margin: '0 0 0.5rem 0', fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', color: 'var(--text-primary)' }}>Weakness Drilling</h3>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', margin: '0 0 0.5rem 0' }}>
+              <h3 style={{ margin: 0, fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', color: 'var(--text-primary)' }}>Weakness Drilling</h3>
+              <InfoTooltip
+                title="Weakness Drilling"
+                subtitle="Targeted Mistake Remediation"
+                description="Consolidates every question you answered incorrectly across all practice topics and mock exams into a dedicated study queue. As you answer them correctly during drill sessions, they are automatically removed from your mistakes pool."
+                tags={['Active Recall', 'Auto-clears on Success', 'Error Isolation']}
+                variant="default"
+                testId="info-tooltip-weakness-drilling"
+              />
+            </div>
               <p style={{ margin: 0, color: 'var(--text-secondary)' }}>You have <strong translate="no">{mistakesCount}</strong> past mistakes to conquer.</p>
             </div>
           </div>

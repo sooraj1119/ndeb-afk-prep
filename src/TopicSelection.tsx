@@ -8,6 +8,7 @@ import { PaywallModal } from './PaywallModal';
 import { Lock, Crown, Sparkles } from 'lucide-react';
 import { getTopicProgress, getDueSRSQuestions, getMistakes } from './lib/storage';
 import { loadAllQuestions } from './lib/questionsStore';
+import { InfoTooltip } from './InfoTooltip';
 
 
 interface Props {
@@ -108,6 +109,14 @@ export function TopicSelection({ onSelect }: Props) {
             <div>
               <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
                 <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: 0, fontWeight: 700 }}>Daily Review (Spaced Repetition)</h3>
+                <InfoTooltip
+                  title="SRS Daily Review"
+                  subtitle="SuperMemo-2 (SM-2) Spaced Repetition"
+                  description="Optimizes retention by scheduling question reviews right before you are likely to forget. Correct answers lengthen the review interval (1d -> 3d -> 6d), while missed answers immediately reset the interval to ensure weak areas are mastered."
+                  tags={['SuperMemo-2 Algorithm', 'Automated Daily Quotas', 'Long-term Memory']}
+                  variant="light"
+                  testId="info-tooltip-srs"
+                />
                 {!isPremium && <span data-testid="srs-pro-badge" style={{ background: '#ffffff', color: '#b45309', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.04em', textTransform: 'uppercase', display: 'inline-flex', alignItems: 'center', gap: '5px', boxShadow: '0 2px 6px rgba(0,0,0,0.25)', border: '1px solid rgba(245, 158, 11, 0.4)' }}><Crown size={14} fill="#b45309" stroke="#b45309" /> PRO</span>}
               </div>
               <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>
@@ -144,7 +153,17 @@ export function TopicSelection({ onSelect }: Props) {
               <Activity size={24} color="white" />
             </div>
             <div>
-              <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: '0 0 0.5rem 0', fontWeight: 700 }}>Simulated Mock Exam</h3>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '0.5rem' }}>
+                <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: 0, fontWeight: 700 }}>Simulated Mock Exam</h3>
+                <InfoTooltip
+                  title="Simulated Mock Exam"
+                  subtitle="Official AFK Examination Format"
+                  description="Simulates the official NDEB AFK examination environment. Generates 100 random questions proportionally sampled across all 22 topics, accompanied by a strict 2-hour countdown timer to benchmark pacing, endurance, and score readiness."
+                  tags={['100 Questions', '2.0-Hour Countdown', 'Proportional Topic Split']}
+                  variant="light"
+                  testId="info-tooltip-mock"
+                />
+              </div>
               <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>100 random questions | 2.0 hour timer</p>
             </div>
           </div>
@@ -177,6 +196,14 @@ export function TopicSelection({ onSelect }: Props) {
             <div>
               <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
                 <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: 0, fontWeight: 700 }}>Review Mistakes</h3>
+                <InfoTooltip
+                  title="Weakness Drilling"
+                  subtitle="Targeted Mistake Remediation"
+                  description="Automatically pools every question you've answered incorrectly across practice tests and study sessions. Practicing mistakes reinforces weak points until each question is answered correctly and removed from your queue."
+                  tags={['Targeted Recall', 'Auto-clears on Success', 'Personalized Pool']}
+                  variant="light"
+                  testId="info-tooltip-mistakes"
+                />
                 {!isPremium && <span data-testid="mistakes-pro-badge" style={{ background: '#ffffff', color: '#b91c1c', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.04em', textTransform: 'uppercase', display: 'inline-flex', alignItems: 'center', gap: '5px', boxShadow: '0 2px 6px rgba(0,0,0,0.25)', border: '1px solid rgba(239, 68, 68, 0.4)' }}><Crown size={14} fill="#b91c1c" stroke="#b91c1c" /> PRO</span>}
               </div>
               <p style={{ margin: 0, opacity: 0.9, fontSize: 'clamp(0.85rem, 4vw, 0.95rem)' }}>{mistakesCount} incorrect answer{mistakesCount === 1 ? '' : 's'} saved for review</p>
