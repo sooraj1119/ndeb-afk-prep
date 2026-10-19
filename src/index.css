@@ -66,7 +66,7 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
   overflow-x: clip;
   /* iOS safe areas padding on body */
-  padding-top: env(safe-area-inset-top);
+  padding-top: 0;
   padding-bottom: env(safe-area-inset-bottom);
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);

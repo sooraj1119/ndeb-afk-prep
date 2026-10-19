@@ -425,13 +425,13 @@ function App() {
         zIndex: 100,
 
         boxShadow: 'var(--shadow-sm)',
-        paddingTop: 'max(env(safe-area-inset-top, 0px), 28px)',
+        paddingTop: 'env(safe-area-inset-top, 0px)',
 
       }}>
 
         {/* Top row: logo + util buttons */}
 
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0.7rem 1rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0.45rem 1rem' }}>
 
           {/* Logo */}
 
