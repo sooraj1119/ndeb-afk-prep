@@ -51,6 +51,10 @@ test.describe('Contextual Info Tooltips Suite', () => {
     await expect(popover).toContainText('100 random questions');
     await expect(popover).toContainText('100 Questions');
     await expect(popover).toContainText('2.0-Hour Countdown');
+    // Ensure the word 'official' is NOT present anywhere in the tooltip
+    await expect(popover).not.toContainText('official');
+    await expect(popover).not.toContainText('Official');
+    await page.screenshot({ path: 'C:/Users/sooraj/.gemini/antigravity-ide/brain/ee8d00d2-7564-4956-993a-8957a8cfb141/mock_tooltip_verified.png' });
 
     // Confirm that clicking the tooltip did NOT start the exam timer or quiz
     await expect(page.locator('text=Time Remaining')).toHaveCount(0);
