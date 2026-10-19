@@ -157,8 +157,8 @@ export function TopicSelection({ onSelect }: Props) {
                 <h3 style={{ fontSize: 'clamp(1.1rem, 5vw, 1.3rem)', margin: 0, fontWeight: 700 }}>Simulated Mock Exam</h3>
                 <InfoTooltip
                   title="Simulated Mock Exam"
-                  subtitle="Official AFK Examination Format"
-                  description="Simulates the official NDEB AFK examination environment. Generates 100 random questions proportionally sampled across all 22 topics, accompanied by a strict 2-hour countdown timer to benchmark pacing, endurance, and score readiness."
+                  subtitle="Simulated AFK Examination Format"
+                  description="Simulates the NDEB AFK examination environment. Generates 100 random questions proportionally sampled across all 22 topics, accompanied by a strict 2-hour countdown timer to benchmark pacing, endurance, and score readiness."
                   tags={['100 Questions', '2.0-Hour Countdown', 'Proportional Topic Split']}
                   variant="light"
                   testId="info-tooltip-mock"
