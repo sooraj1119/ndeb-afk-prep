@@ -425,7 +425,7 @@ function App() {
         zIndex: 100,
 
         boxShadow: 'var(--shadow-sm)',
-        paddingTop: 'env(safe-area-inset-top, 0px)',
+        paddingTop: 'var(--nav-safe-top, max(env(safe-area-inset-top, 0px), 26px))',
 
       }}>
 
