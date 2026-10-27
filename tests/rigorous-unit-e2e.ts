@@ -306,9 +306,53 @@ async function runTestSuite() {
   assert(Math.min(100, Math.max(0, pct)) === 96, 'Percentage properly bounded between 0 and 100');
   console.log('  ✓ Premium downgrade and score integrity verified\n');
 
+  // ----------------------------------------------------
+  // TEST 7: Premium Upgrade & Continuous Resume (Always Start from Where We Left Off)
+  // ----------------------------------------------------
+  console.log('[7/7] Testing Continuous Resume (Start from Where We Left Off)...');
+  localStorage.clear();
+
+  // Step 1: User completes 100 free questions in Dental Materials with 85 correct
+  saveProgress('dental-materials', 85, 100, 0, true, 100);
+  let dmProg = getTopicProgress('dental-materials');
+  assert(dmProg !== null, 'Progress exists after completing 100 free questions');
+  assert(dmProg.isFinished === true, 'Quiz was marked isFinished on free tier');
+  assert(dmProg.highestScore === 85, 'Highest score is 85');
+  assert(dmProg.questionsAnswered === 100, 'Questions answered is 100');
+
+  // Step 2: User upgrades to Premium (pool expands to 650 questions)
+  const premiumPoolLength = 650;
+  let loadedIndex = 0;
+  let loadedScore = 0;
+
+  if (dmProg) {
+    if (!dmProg.isFinished) {
+      loadedIndex = dmProg.currentIndex;
+      loadedScore = dmProg.currentScore;
+    } else {
+      const previousAnswered = dmProg.questionsAnswered || dmProg.totalQuestions || 0;
+      if (previousAnswered > 0 && previousAnswered < premiumPoolLength) {
+        loadedIndex = previousAnswered; // 100 (which is Question 101)
+        loadedScore = Math.min(dmProg.highestScore || 0, loadedIndex); // 85
+        saveProgress('dental-materials', loadedScore, premiumPoolLength, loadedIndex, false, loadedIndex);
+      }
+    }
+  }
+
+  assert(loadedIndex === 100, 'Resumes at index 100 (Question 101)');
+  assert(loadedScore === 85, 'Retains score of 85 from previous 100 questions');
+  
+  dmProg = getTopicProgress('dental-materials');
+  assert(dmProg !== null && dmProg.currentIndex === 100, 'Saved currentIndex is 100');
+  assert(dmProg.totalQuestions === 650, 'Total questions expanded to 650');
+  assert(dmProg.isFinished === false, 'Quiz is in-progress on the full pool');
+
+  console.log('  ✓ Continuous resume from Question 101 on Premium upgrade verified\n');
+
   console.log('========================================');
-  console.log('  ALL 6 RIGOROUS LOGIC TESTS PASSED! 🎉');
+  console.log('  ALL 7 RIGOROUS LOGIC TESTS PASSED! 🎉');
   console.log('========================================\n');
+
 }
 
 runTestSuite().catch(err => {

@@ -44,7 +44,7 @@ export const saveProgress = (
     const prevTotal = prev?.totalQuestions || 0;
     
     let highestScore = prevHigh;
-    let totalQuestions = prevTotal > 0 ? prevTotal : total;
+    let totalQuestions = Math.max(prevTotal, total);
     
     if (isFinished) {
       const prevRatio = prevTotal > 0 ? (prevHigh / prevTotal) : 0;

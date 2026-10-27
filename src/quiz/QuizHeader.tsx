@@ -11,6 +11,7 @@ interface QuizHeaderProps {
   isShuffled: boolean;
   onToggleShuffle: () => void;
   onRestartMockExam: () => void;
+  onRestartTopic?: () => void;
   isFlagged: boolean;
   onToggleFlag: () => void;
   
@@ -29,6 +30,7 @@ export function QuizHeader({
   isShuffled,
   onToggleShuffle,
   onRestartMockExam,
+  onRestartTopic,
   isFlagged,
   onToggleFlag,
   
@@ -75,14 +77,22 @@ export function QuizHeader({
               <span style={{ fontSize: '0.85rem' }}>{isShuffled ? 'On' : 'Shuffle'}</span>
             </button>
           )}
-          {isSimulatedMode && (
+          {isSimulatedMode ? (
             <button
               onClick={onRestartMockExam}
               style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--error-color)', background: 'rgba(239, 68, 68, 0.1)', border: 'none', cursor: 'pointer', padding: '0.4rem 0.8rem', borderRadius: '20px', fontWeight: 600, fontSize: '0.85rem' }}
             >
               <RefreshCw size={16} /> <span className="desktop-only">Restart</span>
             </button>
-          )}
+          ) : (!isFlaggedMode && !isSRSMode && onRestartTopic && (
+            <button
+              onClick={onRestartTopic}
+              title="Restart from Question 1"
+              style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--text-secondary)', background: 'var(--surface-hover)', border: 'none', cursor: 'pointer', padding: '0.4rem 0.8rem', borderRadius: '20px', fontWeight: 600, fontSize: '0.85rem' }}
+            >
+              <RefreshCw size={15} /> <span className="desktop-only">Restart</span>
+            </button>
+          ))}
                     
           
           <button

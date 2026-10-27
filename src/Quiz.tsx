@@ -265,21 +265,36 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
         
         if (!isSpecialMode) {
           const progress = getTopicProgress(topicId);
-          if (progress && !progress.isFinished) {
-            let loadedIndex = progress.currentIndex;
-            if (loadedIndex >= qList.length) {
-              // Position exceeds current available question pool (e.g. downgraded from Premium).
-              // Cleanly restart at question 1 with score 0 for this tier.
-              loadedIndex = 0;
-              setCurrentIndex(0);
-              setScore(0);
-              sessionStartRef.current = { index: 0, score: 0 };
-              saveProgress(topicId, 0, qList.length, 0, false, 0);
+          if (progress) {
+            if (!progress.isFinished) {
+              let loadedIndex = progress.currentIndex;
+              if (loadedIndex >= qList.length) {
+                // Position exceeds current available question pool (e.g. downgraded from Premium).
+                // Cleanly restart at question 1 with score 0 for this tier.
+                loadedIndex = 0;
+                setCurrentIndex(0);
+                setScore(0);
+                sessionStartRef.current = { index: 0, score: 0 };
+                saveProgress(topicId, 0, qList.length, 0, false, 0);
+              } else {
+                const safeScore = Math.min(progress.currentScore, loadedIndex);
+                setCurrentIndex(loadedIndex);
+                setScore(safeScore);
+                sessionStartRef.current = { index: loadedIndex, score: safeScore };
+              }
             } else {
-              const safeScore = Math.min(progress.currentScore, loadedIndex);
-              setCurrentIndex(loadedIndex);
-              setScore(safeScore);
-              sessionStartRef.current = { index: loadedIndex, score: safeScore };
+              // Quiz was previously finished on a smaller question set (e.g. 100-question free preview),
+              // but now more questions are unlocked (e.g. 500+ questions on Premium).
+              // Seamlessly start from where we left off (e.g. Question 101)!
+              const previousAnswered = progress.questionsAnswered || progress.totalQuestions || 0;
+              if (previousAnswered > 0 && previousAnswered < qList.length) {
+                const resumeIndex = previousAnswered;
+                const carryScore = Math.min(progress.highestScore || progress.currentScore || 0, resumeIndex);
+                setCurrentIndex(resumeIndex);
+                setScore(carryScore);
+                sessionStartRef.current = { index: resumeIndex, score: carryScore };
+                saveProgress(topicId, carryScore, qList.length, resumeIndex, false, resumeIndex);
+              }
             }
           }
         }
@@ -540,6 +555,14 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
   };
 
 
+
+  const handleRestartTopic = () => {
+    setCurrentIndex(0);
+    setScore(0);
+    setUserAnswers({});
+    sessionStartRef.current = { index: 0, score: 0 };
+    saveProgress(topicId, 0, topicQuestions.length, 0, false, 0);
+  };
 
   const handleRestartMockExam = () => {
 
@@ -890,6 +913,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
         onToggleShuffle={handleToggleShuffle}
 
         onRestartMockExam={() => setShowRestartConfirm(true)}
+        onRestartTopic={() => setShowRestartConfirm(true)}
 
         isFlagged={isFlagged}
 
@@ -969,14 +993,20 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
       
       <ConfirmModal
         isOpen={showRestartConfirm}
-        title="Restart Mock Exam?"
-        message="Are you sure you want to restart this mock exam? Your current progress will be lost."
+        title={isSimulatedMode ? "Restart Mock Exam?" : "Restart Topic Quiz?"}
+        message={isSimulatedMode 
+          ? "Are you sure you want to restart this mock exam? Your current progress will be lost."
+          : "Are you sure you want to restart this topic from Question 1? Your best score on the Dashboard will be preserved."}
         confirmLabel="Restart"
         confirmColor="#ef4444"
         onCancel={() => setShowRestartConfirm(false)}
         onConfirm={() => {
           setShowRestartConfirm(false);
-          handleRestartMockExam();
+          if (isSimulatedMode) {
+            handleRestartMockExam();
+          } else {
+            handleRestartTopic();
+          }
         }}
       />
       
