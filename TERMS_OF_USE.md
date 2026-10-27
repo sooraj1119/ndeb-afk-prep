@@ -24,5 +24,8 @@ Certain premium features, question categories, and Daily Review capabilities req
 ## 4. Intellectual Property
 All software architecture, visual assets, original question compilations, and interface code belong to the application developer. You may not decompile, reverse engineer, or redistribute the proprietary software.
 
-## 5. Termination
+## 5. Right to Modify, Update, and Delete Content
+The developers reserve the right, at their sole discretion, to add, modify, update, replace, alter, suspend, or permanently delete any questions, explanations, study features, topic modules, or software functionalities at any time without prior notice or liability. We continually audit, revise, and update materials in accordance with modern dental educational standards.
+
+## 6. Termination
 Access to premium services may be revoked if these Terms of Use are breached.

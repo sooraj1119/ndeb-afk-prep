@@ -385,6 +385,9 @@ function App() {
                   <p>
                     The information in this app <strong>does not constitute medical or dental clinical advice</strong>, diagnosis, or treatment. It must never be used as a substitute for professional clinical judgment, official dental protocols, or peer-reviewed literature. Do not use this application for real-world patient care or clinical decision-making.
                   </p>
+                  <p>
+                    <strong>Right to Modify Content &amp; Services:</strong> The developer reserves the right, at its sole discretion, to add, modify, update, replace, suspend, or delete any questions, clinical rationales, study modes, topics, features, or content in this application at any time without prior notice or liability.
+                  </p>
                   <p style={{ fontStyle: 'italic', opacity: 0.9, fontSize: '0.78rem', margin: '0.25rem 0' }}>
                     <strong>Trademark Notice:</strong> NDEB&reg; and AFK&reg; are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study tool and is <strong>not affiliated with, endorsed by, or sponsored by the NDEB.</strong>
                   </p>

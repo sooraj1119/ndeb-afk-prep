@@ -145,7 +145,12 @@ export const MedicalDisclaimerModal: React.FC<{ isOpen: boolean; onClose: () => 
             Certain study materials, explanations, and question reviews within this app are synthesized and audited utilizing Artificial Intelligence. While rigorous verification procedures are conducted to maximize academic accuracy, generative AI models may occasionally produce factual inaccuracies, outdated guidelines, or hallucinations. Users are urged to cross-reference all clinical data with authoritative standard dental textbooks (e.g., Malamed, Little & Falace, Neville, Proffit) and official examination reference lists.
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>3. Trademark & Non-Affiliation Notice</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>3. Right to Modify &amp; Delete Content</h4>
+          <p>
+            The developers reserve the exclusive right, at their sole discretion, to add, modify, update, alter, suspend, or permanently delete any questions, clinical rationales, study modes, categories, features, or functionalities within this application at any time without prior notice or liability. Content is continuously audited, refined, and updated to reflect evolving dental guidelines.
+          </p>
+
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>4. Trademark &amp; Non-Affiliation Notice</h4>
           <p>
             <strong>NDEB&reg;</strong> and <strong>AFK&reg;</strong> are registered trademarks owned exclusively by the National Dental Examining Board of Canada (NDEB).
           </p>
@@ -244,7 +249,12 @@ export const TermsOfUseModal: React.FC<{ isOpen: boolean; onClose: () => void }>
             The software, user interface design, visual assets, software code, and educational content are the intellectual property of the developers. NDEB&reg; and AFK&reg; are registered trademarks of the National Dental Examining Board of Canada. This application is an independent examination prep tool and has no affiliation with the NDEB.
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>4. Limitation of Liability</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>4. Right to Modify &amp; Delete Content</h4>
+          <p>
+            The developers reserve the right to add, modify, update, alter, suspend, or permanently delete any portion of the service, question banks, study tools, topics, or software features at any time without prior notice or liability.
+          </p>
+
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>5. Limitation of Liability</h4>
           <p>
             The application is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind. Under no circumstances shall the developer be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this study tool, or exam performance outcomes.
           </p>
