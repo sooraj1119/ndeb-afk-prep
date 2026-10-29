@@ -259,9 +259,9 @@ export const TermsOfUseModal: React.FC<{ isOpen: boolean; onClose: () => void }>
             <li>Subscriptions automatically renew unless cancelled at least 24 hours prior to the end of the current billing cycle.</li>
             <li>Your account will be charged for renewal within 24 hours prior to the end of the current period at the specified plan rate.</li>
             <li>
-              You may manage or cancel subscriptions at any time in your store account settings:
-              <br />&bull; <strong>iOS:</strong> Go to Settings &gt; [Your Apple ID] &gt; Subscriptions.
-              <br />&bull; <strong>Android:</strong> Go to Google Play &gt; Profile Icon &gt; Payments &amp; Subscriptions.
+              You may manage or cancel subscriptions at any time in your store account settings (compliant with FTC Click-to-Cancel and California Automatic Renewal Law):
+              <br />&bull; <strong>iOS:</strong> Go to Settings &gt; [Your Apple ID] &gt; Subscriptions or online at <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noreferrer" style={{ color: 'var(--accent-color)' }}>Apple Subscriptions</a>.
+              <br />&bull; <strong>Android:</strong> Go to Google Play &gt; Profile Icon &gt; Payments &amp; Subscriptions or online at <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noreferrer" style={{ color: 'var(--accent-color)' }}>Google Play Subscriptions</a>.
             </li>
             <li>Any unused portion of a free trial, if offered, is forfeited upon purchasing a subscription.</li>
           </ul>
