@@ -14,7 +14,8 @@
     "build:web": "vite build --base=/ndeb-afk-prep/",
     "test": "tsx tests/rigorous-unit-e2e.ts && playwright test",
     "test:logic": "tsx tests/rigorous-unit-e2e.ts",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:ui": "tsx tests/rigorous-ui-e2e.ts"
   },
   "dependencies": {
     "@capacitor-community/text-to-speech": "^8.0.2",
