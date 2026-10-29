@@ -86,8 +86,8 @@ IN NO EVENT SHALL THE TOTAL AGGREGATE LIABILITY OF THE COMPANY ARISING OUT OF OR
 
 ---
 
-## 11. Statutory Consumer Rights Savings Clause
-Some jurisdictions (including the Province of Ontario and Quebec) do not allow the exclusion or limitation of certain warranties or statutory consumer rights. To the extent that such mandatory consumer protection legislation applies to you, nothing in these Terms shall limit or exclude any statutory consumer rights that cannot be disclaimed under applicable law.
+## 11. Statutory Consumer Rights Savings Clause (Worldwide)
+Some jurisdictions (including the Province of Ontario, Quebec, the European Union, the United Kingdom, and Australia) do not allow the exclusion or limitation of certain statutory warranties or consumer rights. To the extent that mandatory consumer protection legislation (including the UK Consumer Rights Act 2015, the EU Consumer Rights Directive, and the Australian Consumer Law) applies to you as a consumer, nothing in these Terms shall limit or exclude any non-waivable statutory consumer rights that cannot be disclaimed under applicable local law.
 
 ---
 
@@ -115,7 +115,12 @@ If any provision of these Terms is held to be unlawful, void, or for any reason 
 
 ---
 
-## 16. Apple App Store Additional Terms (Apple EULA Rider)
+## 16. International Trade & Export Sanctions Compliance
+You represent and warrant that:
+- (a) you are not located in, under the control of, or a national or resident of any country or region subject to a comprehensive trade embargo or sanctions by the Canadian Government, the United States Government (OFAC), or the United Nations; and
+- (b) you are not identified on any denied party, specially designated national (SDN), or prohibited entity list maintained by Canada, the United States, the European Union, or the United Nations.
+
+## 17. Apple App Store Additional Terms (Apple EULA Rider)
 If you downloaded the Application from the Apple App Store, the following terms apply:
 1. **Acknowledgment:** You acknowledge that this EULA is concluded between you and the Company only, and not with Apple Inc. ("Apple"). The Company, not Apple, is solely responsible for the Application and its content.
 2. **Maintenance and Support:** Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the Application.
@@ -126,11 +131,11 @@ If you downloaded the Application from the Apple App Store, the following terms 
 
 ---
 
-## 17. Language Election (Quebec / Canada)
+## 18. Language Election (Quebec / Canada)
 *Les parties aux présentes confirment leur volonté expresse que cette convention ainsi que tous les documents qui s'y rattachent soient rédigés en langue anglaise.*  
 The parties hereto confirm their express wish that this agreement and all related documents be drawn up in the English language.
 
 ---
 
-## 18. Contact & Legal Inquiries
+## 19. Contact & Legal Inquiries
 For legal inquiries, copyright claims, or questions regarding these terms, please contact: **ndebpreppro@gmail.com**.

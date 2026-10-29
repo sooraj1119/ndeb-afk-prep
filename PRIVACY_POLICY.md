@@ -3,7 +3,7 @@
 **Last Updated:** October 2026  
 **Published by:** Dental Prep Pro Publishing ("Company", "we", "us", "our")
 
-Welcome to **Dental Prep Pro: for NDEB AFK** (the "Application"). The Company respects your personal privacy and is committed to protecting it in compliance with the Canadian *Personal Information Protection and Electronic Documents Act* (PIPEDA), the European Union *General Data Protection Regulation* (GDPR), the *California Consumer Privacy Act* (CCPA), and applicable international privacy legislation.
+Welcome to **Dental Prep Pro: for NDEB AFK** (the "Application"). The Company respects your personal privacy and is committed to protecting it in compliance with the Canadian *Personal Information Protection and Electronic Documents Act* (PIPEDA), the European Union *General Data Protection Regulation* (GDPR), the UK Data Protection Act 2018 (UK GDPR), the *California Consumer Privacy Act* (CCPA), the Australian *Privacy Act 1988* (APPs), and applicable international privacy legislation.
 
 ---
 
@@ -34,7 +34,7 @@ If you reside within the European Economic Area (EEA), the United Kingdom, or Sw
 
 ---
 
-## 5. Your Rights (PIPEDA, GDPR & CCPA)
+## 5. Your Rights (PIPEDA, GDPR, UK GDPR, CCPA & Australian APPs)
 Depending on your jurisdiction, you have statutory privacy rights, including:
 - **Right to Erasure / Data Deletion:** You can erase 100% of your local study metrics, quiz logs, and cached configurations at any time by selecting **"Reset All Progress"** within the in-app settings or clearing the app’s cache in your device settings.
 - **Right to Access & Rectification:** Since we do not maintain personal accounts on external servers, all your study records are directly accessible and manageable on your local device.

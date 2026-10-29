@@ -190,7 +190,7 @@ export const PrivacyPolicyModal: React.FC<{ isOpen: boolean; onClose: () => void
         <>
           <p><strong>Last Updated:</strong> October 2026 &bull; Published by Dental Prep Pro Publishing</p>
           <p>
-            We respect your privacy and are committed to maintaining the highest standards of data protection. This Privacy Policy complies with Canada's Personal Information Protection and Electronic Documents Act (PIPEDA), the EU General Data Protection Regulation (GDPR), and the California Consumer Privacy Act (CCPA).
+            We respect your privacy and are committed to maintaining the highest standards of data protection. This Privacy Policy complies with Canada's Personal Information Protection and Electronic Documents Act (PIPEDA), the EU General Data Protection Regulation (GDPR), the UK Data Protection Act 2018 (UK GDPR), the California Consumer Privacy Act (CCPA), and the Australian Privacy Act 1988.
           </p>
 
           <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>1. Zero Personal Data Collection (No PII)</h4>
@@ -299,32 +299,37 @@ export const TermsOfUseModal: React.FC<{ isOpen: boolean; onClose: () => void }>
             IN NO EVENT SHALL THE TOTAL AGGREGATE LIABILITY OF THE DEVELOPER ARISING OUT OF OR RELATING TO THESE TERMS OR THE SERVICE EXCEED THE GREATER OF: (A) THE TOTAL AMOUNT ACTUALLY PAID BY YOU TO THE DEVELOPER FOR YOUR SUBSCRIPTION (IN THE APPLICABLE CURRENCY OF PURCHASE) IN THE TWELVE (12) MONTHS PRECEDING THE EVENT GIVING RISE TO LIABILITY, OR (B) ZERO ($0.00 IN ANY CURRENCY) IF YOU HAVE ONLY ACCESSED THE FREE TIER.
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>9. Statutory Consumer Rights Savings Clause</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>9. Statutory Consumer Rights Savings Clause (Worldwide)</h4>
           <p>
-            Some jurisdictions (including the Province of Ontario and Quebec) do not permit the exclusion of certain warranties or statutory consumer rights. To the extent mandatory consumer protection legislation applies to you, nothing in these Terms limits any statutory rights that cannot be disclaimed by law.
+            Some jurisdictions (including the Province of Ontario, Quebec, the European Union, the United Kingdom, and Australia) do not permit the exclusion or limitation of certain statutory warranties or consumer guarantees. To the extent mandatory consumer legislation (including the UK Consumer Rights Act 2015, the EU Consumer Rights Directive, and the Australian Consumer Law) applies to you, nothing in these Terms limits or excludes non-waivable consumer rights.
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>10. INDEMNIFICATION</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>10. International Trade &amp; Sanctions Compliance</h4>
+          <p>
+            You represent and warrant that you are not located in an embargoed country or on any Canadian, United States (OFAC), European Union, or United Nations denied or restricted party list.
+          </p>
+
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>11. INDEMNIFICATION</h4>
           <p>
             You agree to defend, indemnify, and hold harmless the developer, owners, contractors, and affiliates from and against any and all claims, damages, liabilities, losses, judgments, awards, costs, and expenses (including reasonable legal fees) arising out of or relating to: (a) your use or misuse of the application; (b) any breach by you of these Terms; (c) your violation of any third-party right; or (d) any clinical or patient care decisions made by you.
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>11. Class Action Waiver &amp; Dispute Resolution</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>12. Class Action Waiver &amp; Dispute Resolution</h4>
           <p>
             YOU AGREE THAT ALL CLAIMS OR DISPUTES ARISING OUT OF OR RELATING TO THESE TERMS OR THE APPLICATION MUST BE RESOLVED ON AN INDIVIDUAL BASIS AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, CONSOLIDATED, OR REPRESENTATIVE PROCEEDING.
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>12. Governing Law &amp; Exclusive Jurisdiction</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>13. Governing Law &amp; Exclusive Jurisdiction</h4>
           <p>
             These Terms shall be governed by and construed in accordance with the laws of the <strong>Province of Ontario and the federal laws of Canada</strong> applicable therein. You irrevocably submit to the exclusive personal jurisdiction of the provincial and federal courts located in <strong>Toronto, Ontario, Canada</strong>.
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>13. Severability, Survival &amp; Quebec Language Election</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>14. Severability, Survival &amp; Quebec Language Election</h4>
           <p>
             If any provision of these Terms is found to be invalid, illegal, or unenforceable, the remaining provisions shall continue in full force and effect. <em>Les parties aux pr&eacute;sentes confirment leur volont&eacute; expresse que cette convention ainsi que tous les documents qui s'y rattachent soient r&eacute;dig&eacute;s en langue anglaise.</em>
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>14. Contact Inquiries</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>15. Contact Inquiries</h4>
           <p>
             For any inquiries regarding these terms or copyright claims, please contact: <strong style={{ color: 'var(--accent-color)' }}>ndebpreppro@gmail.com</strong>.
           </p>
