@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.ndeb.afkprep',
-  appName: 'NDEB Prep',
+  appId: 'com.dentalpreppro.afk',
+  appName: 'Dental Prep Pro',
   webDir: 'dist',
   plugins: {
     SplashScreen: {

@@ -185,17 +185,34 @@ function App() {
 
 
   useEffect(() => {
-
-    if (!hasAcceptedDisclaimer()) {
-
-      setShowDisclaimer(true);
-
-    } else {
-
+    // If we just reloaded due to an in-app language switch, preserve disclaimer acceptance
+    const isLangToggle = typeof sessionStorage !== 'undefined' && sessionStorage.getItem('ndeb_lang_toggled') === 'true';
+    if (isLangToggle) {
+      sessionStorage.removeItem('ndeb_lang_toggled');
+      acceptDisclaimer();
       setStreak(logDailyVisit());
-
+      return;
     }
 
+    if (!hasAcceptedDisclaimer()) {
+      setShowDisclaimer(true);
+    } else {
+      setStreak(logDailyVisit());
+    }
+  }, []);
+
+  useEffect(() => {
+    const handleBeforeUnload = () => {
+      // Clear session disclaimer on reload/close so next app open/reload shows disclaimer,
+      // unless we are performing an internal language switch.
+      if (typeof sessionStorage !== 'undefined' && sessionStorage.getItem('ndeb_lang_toggled') !== 'true') {
+        sessionStorage.removeItem('ndeb_prep_disclaimer_session_accepted');
+      }
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
   }, []);
 
 
@@ -286,7 +303,7 @@ function App() {
       if (!questionsLoaded) {
       return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', backgroundColor: darkMode ? '#0f172a' : '#ffffff' }}>
-          <img src={splashImg} alt="NDEB AFK PREP PRO" style={{ width: '100%', maxWidth: '400px', objectFit: 'contain', padding: '1.5rem', animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' }} />
+          <img src={splashImg} alt="Dental Prep Pro: for NDEB AFK" style={{ width: '100%', maxWidth: '400px', objectFit: 'contain', padding: '1.5rem', animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' }} />
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '1rem' }}>
             <div style={{ width: '30px', height: '30px', border: '3px solid rgba(2, 132, 199, 0.2)', borderTop: '3px solid #0f172a', borderRadius: '50%', animation: 'spin 1s linear infinite' }}></div>
             <style>{`
@@ -372,24 +389,30 @@ function App() {
               >
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#eab308', marginBottom: '1rem' }}>
                   <AlertTriangle size={26} style={{ flexShrink: 0 }} />
-                  <h2 style={{ margin: 0, color: 'var(--text-primary)', fontSize: '1.25rem', fontWeight: 700 }}>Medical Disclaimer</h2>
+                  <h2 style={{ margin: 0, color: 'var(--text-primary)', fontSize: '1.25rem', fontWeight: 700 }}>Educational &amp; Medical Disclaimer</h2>
                 </div>
 
                 <div style={{ color: 'var(--text-secondary)', lineHeight: 1.5, fontSize: '0.85rem', marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
                   <p>
-                    <strong>For Educational Purposes Only.</strong> This application is strictly designed as an independent study aid for candidates preparing for the Assessment of Fundamental Knowledge (AFK) dental examination.
+                    <strong>1. For Educational Exam Preparation Only (No Clinical Advice):</strong> This application is strictly an independent educational study aid designed exclusively for candidates preparing for the Assessment of Fundamental Knowledge (AFK) dental examination. It does not provide medical, dental, diagnostic, surgical, or clinical advice. <strong>Strictly prohibited for real-world patient care, triage, or clinical decision-making.</strong>
                   </p>
                   <p>
-                    The questions and explanations provided within this app are generated utilizing Artificial Intelligence (AI) and simulated clinical data. While every effort is made to maintain high academic accuracy, <strong>AI models can occasionally make mistakes or hallucinate facts.</strong>
+                    <strong>2. Artificial Intelligence Notice &amp; Duty to Verify:</strong> Practice questions, clinical rationales, and explanations are synthesized using Artificial Intelligence (AI) and simulated case models. <strong>AI models can make errors, miscalculate dosages, or hallucinate facts.</strong> You agree to independently verify all clinical concepts, drug dosages, and guidelines against standard dental reference textbooks (e.g., Malamed, Neville, Little &amp; Falace).
                   </p>
                   <p>
-                    The information in this app <strong>does not constitute medical or dental clinical advice</strong>, diagnosis, or treatment. It must never be used as a substitute for professional clinical judgment, official dental protocols, or peer-reviewed literature. Do not use this application for real-world patient care or clinical decision-making.
+                    <strong>3. No Guarantee of Examination Results or Licensure:</strong> The developers make no warranty or guarantee, express or implied, that using this application will result in passing the NDEB AFK exam or achieving any specific score or license. You assume sole responsibility for your examination outcomes.
                   </p>
                   <p>
-                    <strong>Right to Modify Content &amp; Services:</strong> The developer reserves the right, at its sole discretion, to add, modify, update, replace, suspend, or delete any questions, clinical rationales, study modes, topics, features, or content in this application at any time without prior notice or liability.
+                    <strong>4. Right to Modify &amp; Delete Content:</strong> The developer reserves the absolute right, at its sole discretion, to add, modify, update, replace, alter, suspend, or delete any questions, clinical rationales, study modes, topics, features, or content at any time without prior notice or liability.
+                  </p>
+                  <p>
+                    <strong>5. Complete Release &amp; Limitation of Liability:</strong> Under no circumstances shall the developer or affiliates be liable for any direct, indirect, incidental, consequential, special, or punitive damages, exam failure fees, or clinical liabilities. Aggregate liability is strictly capped at the total amount actually paid by you for your subscription (in the applicable currency of purchase) in the preceding twelve (12) months, or zero ($0.00 in any currency) if you used the free tier.
                   </p>
                   <p style={{ fontStyle: 'italic', opacity: 0.9, fontSize: '0.78rem', margin: '0.25rem 0' }}>
-                    <strong>Trademark Notice:</strong> NDEB&reg; and AFK&reg; are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study tool and is <strong>not affiliated with, endorsed by, or sponsored by the NDEB.</strong>
+                    <strong>6. Trademark Notice &amp; Non-Affiliation:</strong> NDEB&reg; and AFK&reg; are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study resource published by third-party educators and is <strong>not affiliated with, associated with, sponsored by, or endorsed by the NDEB</strong> or CDAC.
+                  </p>
+                  <p style={{ fontSize: '0.78rem', color: 'var(--text-muted)', margin: 0 }}>
+                    By clicking &ldquo;I Understand and Agree&rdquo;, you acknowledge that you have read, understood, and agree to these terms, our Terms of Use (EULA), and Privacy Policy.
                   </p>
                 </div>
 
@@ -440,9 +463,9 @@ function App() {
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', cursor: 'pointer', flexShrink: 0 }} onClick={() => confirmNavigation(() => { setActiveTab('practice'); resetState(); })}>
 
-            <img src={`${import.meta.env.BASE_URL}icons/icon-192.webp`} alt="NDEB AFK Prep Logo" style={{ width: '36px', height: '36px', borderRadius: '8px', objectFit: 'cover', boxShadow: 'var(--shadow-sm)' }} />
+            <img src={`${import.meta.env.BASE_URL}icons/icon-192.webp`} alt="Dental Prep Pro Logo" style={{ width: '36px', height: '36px', borderRadius: '8px', objectFit: 'cover', boxShadow: 'var(--shadow-sm)' }} />
 
-            <h1 className="logo-text" style={{ fontSize: '1.1rem', margin: 0, fontWeight: 700, letterSpacing: '-0.02em', color: 'var(--text-primary)', whiteSpace: 'nowrap' }}>NDEB AFK Prep Pro</h1>
+            <h1 className="logo-text" style={{ fontSize: '1.1rem', margin: 0, fontWeight: 700, letterSpacing: '-0.02em', color: 'var(--text-primary)', whiteSpace: 'nowrap' }}>Dental Prep Pro</h1>
 
           </div>
 
@@ -756,26 +779,18 @@ function App() {
 
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', color: 'var(--text-primary)', fontWeight: 600 }}>
 
-            <ShieldCheck size={16} color="#eab308" /> NDEB AFK Prep Pro - Educational Tool
+            <ShieldCheck size={16} color="#eab308" /> Dental Prep Pro: for NDEB AFK • Educational Tool
 
           </div>
 
           <p style={{ margin: 0 }}>
-
-            <strong>Medical Disclaimer:</strong> This application is strictly for educational and exam preparation purposes. It does not constitute medical advice, diagnosis, or treatment. 
-
+            <strong>Medical &amp; Clinical Disclaimer:</strong> Strictly for independent educational exam preparation. Does not constitute medical, dental, or clinical advice. Never use for patient care or clinical diagnostics.
           </p>
-
           <p style={{ margin: 0 }}>
-
-            Questions and explanations are simulated and AI-generated to mimic the style of the NDEB AFK exam. AI models may occasionally hallucinate or provide inaccurate information. Do not use this application for clinical decision-making or real-world patient care.
-
+            Questions and explanations are simulated and AI-assisted. The developers make no guarantee or warranty that using this app will result in passing the NDEB AFK exam. Always verify clinical facts with standard peer-reviewed literature.
           </p>
-
           <p style={{ margin: 0, fontSize: '0.8rem', fontStyle: 'italic', opacity: 0.8 }}>
-
-            <strong>Trademark Notice:</strong> NDEB&reg; and AFK&reg; are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study tool and is not affiliated with, endorsed by, or sponsored by the NDEB.
-
+            <strong>Trademark Notice:</strong> NDEB&reg; and AFK&reg; are registered trademarks of the National Dental Examining Board of Canada. This application is an independent study tool and is not affiliated with, endorsed by, or sponsored by the NDEB or CDAC.
           </p>
 
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1.25rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
@@ -806,7 +821,7 @@ function App() {
 
           <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', opacity: 0.7 }}>
 
-            &copy; {new Date().getFullYear()} NDEB AFK Prep Pro. All rights reserved.
+            &copy; {new Date().getFullYear()} Dental Prep Pro: for NDEB AFK. All rights reserved.
 
           </div>
 

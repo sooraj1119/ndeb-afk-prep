@@ -1,20 +1,20 @@
-﻿# NDEB AFK Prep Pro - App Store & Google Play Metadata & Legal Assets
+﻿# Dental Prep Pro: for NDEB AFK - App Store & Google Play Metadata & Legal Assets
 
-This document provides ready-to-use, legally compliant metadata, descriptions, keywords, and required disclosures for submitting **NDEB AFK Prep Pro** to **Apple App Store Connect** and **Google Play Console**.
+This document provides ready-to-use, legally compliant metadata, descriptions, keywords, and required disclosures for submitting **Dental Prep Pro: for NDEB AFK** to **Apple App Store Connect** and **Google Play Console**.
 
 ---
 
 ## 1. Apple App Store Listing Details
 
 ### App Name (max 30 characters)
-`NDEB AFK Prep Pro`
+`Dental Prep Pro: for NDEB AFK`
 
 ### Subtitle (max 30 characters)
-`Study Guide for NDEB AFK`
+`Study Guide for Canadian AFK`
 
 ### Category
-* **Primary:** Medical
-* **Secondary:** Education
+* **Primary:** Education
+* **Secondary:** Reference
 
 ### Content Rating
 * **4+** (No unmoderated user content, no gambling, medical study reference tool)
@@ -26,26 +26,32 @@ This document provides ready-to-use, legally compliant metadata, descriptions, k
 `ndeb,afk,dental board,canada dentist,dental exam,inbde,dentistry prep,spaced repetition,dental mcq`
 
 ### Support URL
-`https://github.com/sooraj-kumar/dark-pulsar` (or your landing page)
+`https://sooraj-kumar.github.io/dark-pulsar/terms.html` (or your landing page)
 
 ### Marketing URL
-`https://github.com/sooraj-kumar/dark-pulsar`
+`https://sooraj-kumar.github.io/dark-pulsar/terms.html`
 
 ### Privacy Policy URL
-`https://github.com/sooraj-kumar/dark-pulsar/blob/master/PRIVACY_POLICY.md` (or hosted web link)
+`https://sooraj-kumar.github.io/dark-pulsar/privacy.html` (or hosted web link)
 
 ---
 
 ### Full Description (App Store & Google Play)
 
 ```text
-Prepare with confidence for the National Dental Examining Board of Canada’s Assessment of Fundamental Knowledge (AFK) examination. NDEB AFK Prep Pro is an independent, comprehensive study companion featuring over 14,000 clinical questions, intelligent spaced repetition, and in-depth rationales derived from standard dental literature.
+Prepare with confidence for the National Dental Examining Board of Canada’s Assessment of Fundamental Knowledge (AFK) examination. Dental Prep Pro is an independent, comprehensive study companion featuring over 14,000 clinical questions, intelligent spaced repetition, and in-depth rationales derived from standard dental literature.
 
 IMPORTANT DISCLAIMER & TRADEMARK NOTICE:
-NDEB® and AFK® are registered trademarks of the National Dental Examining Board of Canada. NDEB AFK Prep Pro is an independent educational tool developed by clinicians and educators. This application is NOT affiliated with, sponsored by, or endorsed by the National Dental Examining Board of Canada (NDEB). All content is designed strictly for educational and study aid purposes and does not constitute medical advice or clinical guidelines.
+NDEB® and AFK® are registered trademarks of the National Dental Examining Board of Canada. Dental Prep Pro is an independent educational tool developed by clinicians and educators. This application is NOT affiliated with, sponsored by, endorsed by, authorized by, or in any way officially associated with the National Dental Examining Board of Canada (NDEB). Practice questions are independent simulations and NOT actual confidential or proprietary NDEB exam items.
+
+NO MEDICAL OR CLINICAL ADVICE:
+All questions, rationales, and explanations are designed strictly for examination study aid purposes and do NOT constitute medical, dental, surgical, pharmacological, or clinical advice. Do not use this application for live patient care, clinical triage, or clinical decision-making.
+
+NO PASS GUARANTEE:
+The developers make no warranty or guarantee that using this application will result in passing the NDEB AFK exam or achieving dental licensure. Examination results depend solely on individual candidate diligence and competence.
 
 ══════════════════════════════════════════════════════════
-WHY CHOOSE NDEB AFK PREP PRO?
+WHY CHOOSE DENTAL PREP PRO?
 ══════════════════════════════════════════════════════════
 
 • 14,000+ COMPREHENSIVE QUESTIONS
@@ -70,15 +76,15 @@ Your study progress is saved securely on your device. Study anytime, anywhere wi
 SUBSCRIPTION & IN-APP PURCHASE INFORMATION
 ══════════════════════════════════════════════════════════
 
-NDEB AFK Prep Pro offers free access to foundational subjects and mock exams. Unlock full access to all 14,000+ questions, Spaced Repetition Daily Review, and advanced analytics with a Pro Subscription.
+Dental Prep Pro offers free access to foundational subjects and mock exams. Unlock full access to all 14,000+ questions, Spaced Repetition Daily Review, and advanced analytics with a Pro Subscription.
 
 • Payment will be charged to your Apple ID / Google Account at confirmation of purchase.
 • Subscription automatically renews unless auto-renew is cancelled at least 24 hours prior to the end of the current billing cycle.
 • Your account will be charged for renewal within 24 hours prior to the end of the current period.
 • You can manage and cancel your subscriptions in your App Store / Google Play account settings after purchase.
 
-Terms of Use (EULA): https://github.com/sooraj-kumar/dark-pulsar/blob/master/TERMS_OF_USE.md
-Privacy Policy: https://github.com/sooraj-kumar/dark-pulsar/blob/master/PRIVACY_POLICY.md
+Terms of Use (EULA): https://sooraj-kumar.github.io/dark-pulsar/terms.html/blob/master/TERMS_OF_USE.md
+Privacy Policy: https://sooraj-kumar.github.io/dark-pulsar/privacy.html
 ```
 
 ---

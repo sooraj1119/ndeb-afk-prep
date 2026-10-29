@@ -1,4 +1,4 @@
-# NDEB AFK Prep Pro - Full Question Bank
+# Dental Prep Pro: for NDEB AFK - Full Question Bank
 
 
 ## Topic: ANATOMY

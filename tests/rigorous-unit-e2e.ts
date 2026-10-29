@@ -40,6 +40,7 @@ import {
   getTopicProgress,
   hasAcceptedDisclaimer,
   acceptDisclaimer,
+  resetDisclaimer,
   logSRSAnswer,
   getDueSRSQuestions,
   getAllSRSData,
@@ -123,10 +124,14 @@ async function runTestSuite() {
   console.log('[3/5] Testing Progress, Flags, Mistakes & Disclaimer...');
   localStorage.clear();
 
-  // Disclaimer
+  // Disclaimer (shows each time app is opened / reset)
   assert(hasAcceptedDisclaimer() === false, 'Disclaimer initially false');
   acceptDisclaimer();
   assert(hasAcceptedDisclaimer() === true, 'Disclaimer accepted successfully');
+  resetDisclaimer();
+  assert(hasAcceptedDisclaimer() === false, 'Disclaimer reset resets acceptance to false');
+  acceptDisclaimer();
+  assert(hasAcceptedDisclaimer() === true, 'Disclaimer can be re-accepted');
 
   // Flagging (toggle)
   assert(getFlaggedQuestions().length === 0, 'Initial flags must be empty');

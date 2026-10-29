@@ -13,8 +13,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico'],
       manifest: {
-        name: 'NDEB AFK Prep Pro',
-        short_name: 'AFK Prep',
+        name: 'Dental Prep Pro: for NDEB AFK',
+        short_name: 'Dental Prep',
         description: 'NDEB AFK exam preparation â€” study smarter',
         theme_color: '#0284c7',
         background_color: '#f0f6ff',

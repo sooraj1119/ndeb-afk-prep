@@ -20,6 +20,17 @@ test.describe('1. Medical Disclaimer Modal', () => {
     const val = await page.evaluate(() => localStorage.getItem('ndeb_prep_disclaimer_accepted'));
     expect(val).toBe('true');
   });
+
+  test('1c. Modal is shown each time the app is opened in a new session', async ({ page, context }) => {
+    await page.locator('button:has-text("I Understand and Agree")').click();
+    await expect(page.locator('h2:has-text("Medical Disclaimer")')).toBeHidden();
+
+    // Opening a new tab / window represents opening the app again
+    const newPage = await context.newPage();
+    await newPage.goto('/');
+    await expect(newPage.locator('h2:has-text("Medical Disclaimer")')).toBeVisible({ timeout: 8000 });
+    await newPage.close();
+  });
 });
 
 test.describe('Main App E2E Tests', () => {

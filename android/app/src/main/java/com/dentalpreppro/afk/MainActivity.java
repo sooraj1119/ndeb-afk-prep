@@ -1,4 +1,4 @@
-package com.ndeb.afkprep;
+package com.dentalpreppro.afk;
 
 import android.os.Bundle;
 import androidx.activity.EdgeToEdge;

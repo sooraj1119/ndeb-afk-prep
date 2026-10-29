@@ -12,7 +12,7 @@
 -keepclassmembers class * extends com.getcapacitor.Plugin {
     @com.getcapacitor.PluginMethod public *;
 }
--keep public class com.ndeb.afkprep.MainActivity { *; }
+-keep public class com.dentalpreppro.afk.MainActivity { *; }
 
 # RevenueCat Purchases SDK
 -keep class com.revenuecat.purchases.** { *; }
