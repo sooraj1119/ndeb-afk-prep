@@ -26,13 +26,13 @@ This document provides ready-to-use, legally compliant metadata, descriptions, k
 `ndeb,afk,dental board,canada dentist,dental exam,inbde,dentistry prep,spaced repetition,dental mcq`
 
 ### Support URL
-`https://sooraj-kumar.github.io/dark-pulsar/terms.html` (or your landing page)
+`https://sooraj1119.github.io/ndeb-afk-prep/terms.html` (or your landing page)
 
 ### Marketing URL
-`https://sooraj-kumar.github.io/dark-pulsar/terms.html`
+`https://sooraj1119.github.io/ndeb-afk-prep/terms.html`
 
 ### Privacy Policy URL
-`https://sooraj-kumar.github.io/dark-pulsar/privacy.html` (or hosted web link)
+`https://sooraj1119.github.io/ndeb-afk-prep/privacy.html` (or hosted web link)
 
 ---
 
@@ -41,8 +41,8 @@ This document provides ready-to-use, legally compliant metadata, descriptions, k
 ```text
 Prepare with confidence for the National Dental Examining Board of Canada’s Assessment of Fundamental Knowledge (AFK) examination. Dental Prep Pro is an independent, comprehensive study companion featuring over 14,000 clinical questions, intelligent spaced repetition, and in-depth rationales derived from standard dental literature.
 
-IMPORTANT DISCLAIMER & TRADEMARK NOTICE:
-NDEB® and AFK® are registered trademarks of the National Dental Examining Board of Canada. Dental Prep Pro is an independent educational tool developed by clinicians and educators. This application is NOT affiliated with, sponsored by, endorsed by, authorized by, or in any way officially associated with the National Dental Examining Board of Canada (NDEB). Practice questions are independent simulations and NOT actual confidential or proprietary NDEB exam items.
+IMPORTANT DISCLAIMER, NON-AFFILIATION & NOMINATIVE FAIR USE TRADEMARK NOTICE:
+NDEB® and AFK® are registered trademarks of the National Dental Examining Board of Canada. Dental Prep Pro is an independent study tool developed by clinicians and educators. This application is NOT affiliated with, sponsored by, endorsed by, authorized by, or in any way officially associated with the National Dental Examining Board of Canada (NDEB). Practice questions are independent simulations and NOT actual confidential or proprietary NDEB exam items.
 
 NO MEDICAL OR CLINICAL ADVICE:
 All questions, rationales, and explanations are designed strictly for examination study aid purposes and do NOT constitute medical, dental, surgical, pharmacological, or clinical advice. Do not use this application for live patient care, clinical triage, or clinical decision-making.
@@ -81,10 +81,10 @@ Dental Prep Pro offers free access to foundational subjects and mock exams. Unlo
 • Payment will be charged to your Apple ID / Google Account at confirmation of purchase.
 • Subscription automatically renews unless auto-renew is cancelled at least 24 hours prior to the end of the current billing cycle.
 • Your account will be charged for renewal within 24 hours prior to the end of the current period.
-• You can manage and cancel your subscriptions in your App Store / Google Play account settings after purchase.
+• You can manage and cancel your subscriptions at any time in your store account settings (Apple: https://apps.apple.com/account/subscriptions | Google Play: https://play.google.com/store/account/subscriptions).
 
-Terms of Use (EULA): https://sooraj-kumar.github.io/dark-pulsar/terms.html/blob/master/TERMS_OF_USE.md
-Privacy Policy: https://sooraj-kumar.github.io/dark-pulsar/privacy.html
+Terms of Use (EULA): https://sooraj1119.github.io/ndeb-afk-prep/terms.html
+Privacy Policy: https://sooraj1119.github.io/ndeb-afk-prep/privacy.html
 ```
 
 ---
