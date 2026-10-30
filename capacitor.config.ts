@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.dentalpreppro.afk',
+  appId: 'com.ndeb.afkprep',
   appName: 'Dental Prep Pro',
   webDir: 'dist',
   plugins: {

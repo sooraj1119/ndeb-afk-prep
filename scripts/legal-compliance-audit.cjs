@@ -215,20 +215,20 @@ const buildGradle = fs.readFileSync('android/app/build.gradle', 'utf8');
 const pbxproj = fs.readFileSync('ios/App/App.xcodeproj/project.pbxproj', 'utf8');
 
 audit(
-  capConfig.includes("appId: 'com.dentalpreppro.afk'") && capConfig.includes("appName: 'Dental Prep Pro'"),
-  "capacitor.config.ts configured with com.dentalpreppro.afk",
+  capConfig.includes("appId: 'com.ndeb.afkprep'") && capConfig.includes("appName: 'Dental Prep Pro'"),
+  "capacitor.config.ts configured with com.ndeb.afkprep",
   "Mismatch in capacitor.config.ts"
 );
 
 audit(
-  buildGradle.includes('applicationId "com.dentalpreppro.afk"'),
-  "android/app/build.gradle configured with com.dentalpreppro.afk",
+  buildGradle.includes('applicationId "com.ndeb.afkprep"'),
+  "android/app/build.gradle configured with com.ndeb.afkprep",
   "Mismatch in build.gradle"
 );
 
 audit(
-  pbxproj.includes('PRODUCT_BUNDLE_IDENTIFIER = com.dentalpreppro.afk'),
-  "ios project.pbxproj configured with com.dentalpreppro.afk",
+  pbxproj.includes('PRODUCT_BUNDLE_IDENTIFIER = com.ndeb.afkprep'),
+  "ios project.pbxproj configured with com.ndeb.afkprep",
   "Mismatch in ios project.pbxproj"
 );
 
