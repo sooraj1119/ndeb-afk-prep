@@ -203,7 +203,12 @@ export const PrivacyPolicyModal: React.FC<{ isOpen: boolean; onClose: () => void
             All your educational progress data—including completed questions, quiz scores, flagged questions, spaced repetition intervals, and streak records—is stored exclusively on your device using local sandboxed storage (<code>localStorage</code>). Your study records never leave your device and are never transmitted to any central database.
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>3. Subscriptions &amp; Cross-Border Processing</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>3. No Collection of Patient Health Information (PHI / HIPAA / PHIPA)</h4>
+          <p>
+            This application is strictly an educational exam preparation tool. We do not collect, process, transmit, or store real-world Patient Health Information (PHI) under the US Health Insurance Portability and Accountability Act (HIPAA), Ontario's <em>Personal Health Information Protection Act</em> (PHIPA), or European health privacy regulations. Users must never input actual patient records, medical charts, radiographs, or personal health identifiers into this software.
+          </p>
+
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>4. Subscriptions &amp; Cross-Border Processing</h4>
           <p>
             All financial transactions and subscriptions are processed directly and securely through Apple (Apple App Store In-App Purchases) or Google (Google Play Billing). We never collect or store credit card numbers, billing addresses, or bank account details.
           </p>
@@ -211,17 +216,17 @@ export const PrivacyPolicyModal: React.FC<{ isOpen: boolean; onClose: () => void
             We utilize RevenueCat as an anonymous subscription validation layer. RevenueCat generates an anonymized, pseudonymous App User ID solely to verify whether an active subscription entitlement exists. Transaction validation tokens are processed on secure servers located in the <strong>United States</strong>.
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>4. Right to Erasure / Data Deletion</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>5. Right to Erasure / Data Deletion</h4>
           <p>
             In accordance with PIPEDA and GDPR rights, you maintain complete ownership and control of your data. You may permanently delete and wipe all stored progress and statistics at any time by tapping <strong>"Reset All Progress"</strong> in the Dashboard or by clearing the app cache.
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>5. Child Privacy (COPPA &amp; Age Restriction)</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>6. Child Privacy (COPPA &amp; Age Restriction)</h4>
           <p>
             The Application is strictly intended for adult dental graduates and healthcare candidates preparing for professional licensure. It is not directed to individuals under 18 years of age (or under 16 in the European Union).
           </p>
 
-          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>6. Designated Privacy Officer &amp; Contact</h4>
+          <h4 style={{ margin: '0.5rem 0 0', color: 'var(--text-primary)' }}>7. Designated Privacy Officer &amp; Contact</h4>
           <p>
             In accordance with Canadian PIPEDA Principle 4.1.4, our designated Privacy Officer is accountable for data protection governance. For inquiries or data requests, contact: <strong style={{ color: 'var(--accent-color)' }}>ndebpreppro@gmail.com</strong>.
           </p>
