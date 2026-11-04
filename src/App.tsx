@@ -20,7 +20,7 @@ const Dashboard = React.lazy(() => import('./Dashboard').then(m => ({ default: m
 const SearchComponent = React.lazy(() => import('./Search').then(m => ({ default: m.Search })));
 const MistakesList = React.lazy(() => import('./MistakesList').then(m => ({ default: m.MistakesList })));
 
-import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, ShieldCheck, Moon, Sun, Flame } from 'lucide-react';
+import { Stethoscope, LayoutDashboard, LibraryBig, Search, AlertTriangle, ShieldCheck, Moon, Sun, Flame, ChevronDown } from 'lucide-react';
 
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -387,9 +387,33 @@ function App() {
                   boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
                 }}
               >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#eab308', marginBottom: '1rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#eab308', marginBottom: '0.75rem' }}>
                   <AlertTriangle size={26} style={{ flexShrink: 0 }} />
                   <h2 style={{ margin: 0, color: 'var(--text-primary)', fontSize: '1.25rem', fontWeight: 700 }}>Educational &amp; Medical Disclaimer</h2>
+                </div>
+
+                <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '0.45rem',
+                  padding: '0.45rem 0.8rem',
+                  background: 'rgba(2, 132, 199, 0.08)',
+                  borderRadius: '10px',
+                  color: 'var(--accent-color, #0284c7)',
+                  fontSize: '0.78rem',
+                  fontWeight: 600,
+                  marginBottom: '1rem',
+                  border: '1px solid rgba(2, 132, 199, 0.15)'
+                }}>
+                  <motion.div
+                    animate={{ y: [0, 3, 0] }}
+                    transition={{ repeat: Infinity, duration: 1.5, ease: 'easeInOut' }}
+                    style={{ display: 'flex', alignItems: 'center' }}
+                  >
+                    <ChevronDown size={15} />
+                  </motion.div>
+                  <span>Scroll down to read all 6 sections</span>
                 </div>
 
                 <div style={{ color: 'var(--text-secondary)', lineHeight: 1.5, fontSize: '0.85rem', marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>

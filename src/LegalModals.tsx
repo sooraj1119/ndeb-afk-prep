@@ -1,7 +1,7 @@
 import { createPortal } from 'react-dom';
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ShieldAlert, FileText, Lock } from 'lucide-react';
+import { X, ShieldAlert, FileText, Lock, ChevronDown } from 'lucide-react';
 
 interface LegalModalProps {
   isOpen: boolean;
@@ -72,6 +72,29 @@ const BaseModal: React.FC<LegalModalProps> = ({ isOpen, onClose, title, icon, co
             >
               <X size={18} />
             </button>
+          </div>
+
+          <div style={{
+            padding: '0.45rem 1rem',
+            background: 'rgba(2, 132, 199, 0.08)',
+            borderBottom: '1px solid var(--border-color)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '0.45rem',
+            color: 'var(--accent-color, #0284c7)',
+            fontSize: '0.75rem',
+            fontWeight: 600,
+            letterSpacing: '0.01em'
+          }}>
+            <motion.div
+              animate={{ y: [0, 3, 0] }}
+              transition={{ repeat: Infinity, duration: 1.5, ease: 'easeInOut' }}
+              style={{ display: 'flex', alignItems: 'center' }}
+            >
+              <ChevronDown size={14} />
+            </motion.div>
+            <span>Scroll down to review full document</span>
           </div>
 
           <div style={{
