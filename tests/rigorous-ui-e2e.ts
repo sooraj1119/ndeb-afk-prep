@@ -204,6 +204,10 @@ async function runAllE2ETests() {
     assert(privacyContent.includes('GDPR'), 'Privacy policy covers EU/UK GDPR');
     assert(privacyContent.includes('CCPA'), 'Privacy policy covers California CCPA');
 
+    const privacyScreenshot = path.join(artifactDir, 'screenshot-e2e-privacy-modal.png');
+    await privacyContainer.screenshot({ path: privacyScreenshot });
+    console.log(`  📸 Saved screenshot: ${privacyScreenshot}`);
+
     // Close Privacy modal
     await page.locator('button[aria-label="Close modal"]').first().click();
     await privacyModalHeading.waitFor({ state: 'hidden', timeout: 5000 });
@@ -215,6 +219,11 @@ async function runAllE2ETests() {
     const disclaimerDetailHeading = page.locator('h3', { hasText: 'Disclaimer' });
     await disclaimerDetailHeading.waitFor({ state: 'visible', timeout: 5000 });
     assert(await disclaimerDetailHeading.isVisible(), 'Medical & Educational Disclaimer modal opened from footer');
+
+    const medicalContainer = disclaimerDetailHeading.locator('xpath=ancestor::div[contains(@style, "max-height: 85vh") or contains(@style, "border-radius: 24px")]');
+    const medicalScreenshot = path.join(artifactDir, 'screenshot-e2e-medical-modal.png');
+    await medicalContainer.screenshot({ path: medicalScreenshot });
+    console.log(`  📸 Saved screenshot: ${medicalScreenshot}`);
 
     // Close Medical Disclaimer modal
     await page.locator('button[aria-label="Close modal"]').first().click();
