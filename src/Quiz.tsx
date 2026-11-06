@@ -222,11 +222,9 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
         setTopicName("Simulated AFK Exam");
 
       } else if (isFlaggedMode || isMistakesMode || isSRSMode) {
-        await loadAllQuestions();
-        const allQs = getQuestions();
+        let targetIds: string[] = [];
         if (isFlaggedMode) {
-          const flags = getFlaggedQuestions();
-          qList = allQs.filter((q: any) => flags.includes(q.topicId + '-' + q.id));
+          targetIds = getFlaggedQuestions();
           setTopicName("Flagged Review");
         } else if (isMistakesMode) {
           if (!currentPremium) {
@@ -234,8 +232,7 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
             setInitialized(true);
             return;
           }
-          const mistakes = getMistakes();
-          qList = allQs.filter((q: any) => mistakes.includes(q.topicId + '-' + q.id));
+          targetIds = getMistakes();
           setTopicName("Weakness Drilling");
         } else if (isSRSMode) {
           if (!currentPremium) {
@@ -243,9 +240,17 @@ const [timeLeft, setTimeLeft] = useState(7200); // 2.0 hours
             setInitialized(true);
             return;
           }
-          const dueIds = getDueSRSQuestions();
-          qList = allQs.filter((q: any) => dueIds.includes(q.topicId + '-' + q.id));
+          targetIds = getDueSRSQuestions();
           setTopicName("Daily SRS Review");
+        }
+
+        if (targetIds.length === 0) {
+          qList = [];
+        } else {
+          const neededTopics = Array.from(new Set(targetIds.map(id => String(id).split('-')[0]))).filter(Boolean);
+          await Promise.all(neededTopics.map(t => loadTopicQuestions(t).catch(() => [])));
+          const allQs = getQuestions();
+          qList = allQs.filter((q: any) => targetIds.includes(q.topicId + '-' + q.id));
         }
       } else {
           const selectedTopic = topics.find(t => t.id === topicId);

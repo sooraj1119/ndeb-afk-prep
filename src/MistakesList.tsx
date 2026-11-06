@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getMistakes, removeMistake, usePremiumStatus } from './lib/storage';
-import { loadAllQuestions, getQuestions } from './lib/questionsStore';
+import { loadAllQuestions, loadTopicQuestions, getQuestions } from './lib/questionsStore';
 import { RefreshCw, Play, Trash2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -16,17 +16,37 @@ export function MistakesList({ onStartMistakesQuiz, onBack }: Props) {
   const [mistakes, setMistakes] = useState<any[]>([]);
 
   useEffect(() => {
+    let isMounted = true;
     const init = async () => {
-      setLoading(true);
-      await loadAllQuestions();
-      const mistakeIds = getMistakes();
-      const allQs = getQuestions();
-      let mQs = allQs.filter(q => mistakeIds.includes(q.topicId + '-' + q.id));
-      if (!isPremium) mQs = mQs.slice(0, 100);
-      setMistakes(mQs);
-      setLoading(false);
+      try {
+        setLoading(true);
+        const mistakeIds = getMistakes();
+        if (mistakeIds.length === 0) {
+          if (isMounted) {
+            setMistakes([]);
+            setLoading(false);
+          }
+          return;
+        }
+
+        const neededTopics = Array.from(new Set(mistakeIds.map(id => String(id).split('-')[0]))).filter(Boolean);
+        await Promise.all(neededTopics.map(t => loadTopicQuestions(t).catch(() => [])));
+
+        if (!isMounted) return;
+
+        const allQs = getQuestions();
+        let mQs = allQs.filter(q => mistakeIds.includes(q.topicId + '-' + q.id));
+        if (!isPremium) mQs = mQs.slice(0, 100);
+        setMistakes(mQs);
+      } catch (e) {
+        console.error('Failed to load mistakes:', e);
+        if (isMounted) setMistakes([]);
+      } finally {
+        if (isMounted) setLoading(false);
+      }
     };
     init();
+    return () => { isMounted = false; };
   }, [isPremium]);
 
   const handleRemove = (id: string) => {
