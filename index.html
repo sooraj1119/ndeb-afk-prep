@@ -51,7 +51,7 @@
         });
       }
     </script>
-    <script type="module" crossorigin src="/ndeb-afk-prep/assets/index-u67oHObN.js"></script>
+    <script type="module" crossorigin src="/ndeb-afk-prep/assets/index-D1P1Ja11.js"></script>
     <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/dist-Btb5Jv1E.js">
     <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/storage-S7KeKlFI.js">
     <link rel="modulepreload" crossorigin href="/ndeb-afk-prep/assets/dist-D0bZphAR.js">
@@ -79,9 +79,10 @@
       if (typeof Node === 'function' && Node.prototype) {
         const _removeChild = Node.prototype.removeChild;
         Node.prototype.removeChild = function(child) {
-          if (child.parentNode !== this) {
-            // Remove from the real parent instead of silently leaving ghost text
-            if (child.parentNode) child.parentNode.removeChild(child);
+          if (child && child.parentNode !== this) {
+            // Under Google Translate, nodes are reparented into <font> tags.
+            // DO NOT delete from child.parentNode as that deletes legitimate DOM elements.
+            // Safely bypass by returning child so React continues diffing without crash.
             return child;
           }
           return _removeChild.apply(this, arguments);
@@ -90,8 +91,16 @@
         const _insertBefore = Node.prototype.insertBefore;
         Node.prototype.insertBefore = function(newNode, refNode) {
           if (refNode && refNode.parentNode !== this) {
-            // Append rather than crash; this only fires when Translate reparented refNode
-            return _insertBefore.call(this, newNode, null);
+            // Under Google Translate, refNode might be inside a <font> tag.
+            // Safely append to this rather than crashing or reparenting destructively.
+            if (this && typeof this.appendChild === 'function') {
+              try {
+                return this.appendChild(newNode);
+              } catch (e) {
+                return newNode;
+              }
+            }
+            return newNode;
           }
           return _insertBefore.apply(this, arguments);
         };
