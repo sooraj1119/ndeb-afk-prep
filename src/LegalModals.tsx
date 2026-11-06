@@ -119,6 +119,8 @@ const BaseModal: React.FC<LegalModalProps> = ({ isOpen, onClose, title, icon, co
           }}>
             <button
               onClick={onClose}
+              type="button"
+              translate="no"
               style={{
                 background: 'var(--accent-color, #0284c7)',
                 color: 'white',
@@ -130,7 +132,7 @@ const BaseModal: React.FC<LegalModalProps> = ({ isOpen, onClose, title, icon, co
                 cursor: 'pointer'
               }}
             >
-              Close
+              <span translate="no">{typeof document !== 'undefined' && document.cookie.includes('googtrans=/en/fr') ? "Fermer" : "Close"}</span>
             </button>
           </div>
         </motion.div>

@@ -443,9 +443,10 @@ function App() {
                 <button
                   onClick={handleAcceptDisclaimer}
                   className="primary-btn"
+                  translate="no"
                   style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', padding: '0.85rem', fontSize: '1rem', fontWeight: 600, cursor: 'pointer' }}
                 >
-                  <ShieldCheck size={20} /> I Understand and Agree
+                  <ShieldCheck size={20} /> <span translate="no">{isFrench ? "Je comprends et j'accepte" : "I Understand and Agree"}</span>
                 </button>
               </motion.div>
             </div>
@@ -819,27 +820,33 @@ function App() {
 
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1.25rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
             <button
+              key="footer-btn-disclaimer"
               type="button"
+              translate="no"
               onClick={() => setShowLegalDisclaimer(true)}
               style={{ background: 'none', border: 'none', color: 'var(--accent-color, #0284c7)', fontSize: '0.8rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}
             >
-              Medical Disclaimer
+              <span translate="no">{isFrench ? 'Avis médical' : 'Medical Disclaimer'}</span>
             </button>
-            <span style={{ opacity: 0.4 }}>•</span>
+            <span key="footer-sep-1" translate="no" style={{ opacity: 0.4 }}>•</span>
             <button
+              key="footer-btn-terms"
               type="button"
+              translate="no"
               onClick={() => setShowTermsOfUse(true)}
               style={{ background: 'none', border: 'none', color: 'var(--accent-color, #0284c7)', fontSize: '0.8rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}
             >
-              Terms of Use (EULA)
+              <span translate="no">{isFrench ? "Conditions d'utilisation (CLUF)" : 'Terms of Use (EULA)'}</span>
             </button>
-            <span style={{ opacity: 0.4 }}>•</span>
+            <span key="footer-sep-2" translate="no" style={{ opacity: 0.4 }}>•</span>
             <button
+              key="footer-btn-privacy"
               type="button"
+              translate="no"
               onClick={() => setShowPrivacyPolicy(true)}
               style={{ background: 'none', border: 'none', color: 'var(--accent-color, #0284c7)', fontSize: '0.8rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}
             >
-              Privacy Policy
+              <span translate="no">{isFrench ? 'Politique de confidentialité' : 'Privacy Policy'}</span>
             </button>
           </div>
 

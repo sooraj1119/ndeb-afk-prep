@@ -14,6 +14,7 @@ interface Props {
 }
 
 export function PaywallModal({ isOpen, onClose, feature: _feature = "this feature" }: Props) {
+  const isFrench = typeof document !== "undefined" && document.cookie.includes("googtrans=/en/fr");
   const [packages, setPackages] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [purchasing, setPurchasing] = useState<string | null>(null);
@@ -261,8 +262,12 @@ export function PaywallModal({ isOpen, onClose, feature: _feature = "this featur
             <div style={{ marginTop: '1rem', textAlign: 'center', fontSize: '0.65rem', color: 'var(--text-secondary)', opacity: 0.8, lineHeight: 1.3 }}>
                Payment will be charged to your Apple/Google account at confirmation of purchase. Subscription automatically renews unless canceled at least 24 hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period. You can manage and cancel your subscriptions at any time in your store account settings (<a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noreferrer" style={{ color: 'var(--accent-color)', textDecoration: 'underline' }}>Apple Subscriptions</a> &bull; <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noreferrer" style={{ color: 'var(--accent-color)', textDecoration: 'underline' }}>Google Play Subscriptions</a>).
                <div style={{ marginTop: '0.5rem', display: 'flex', justifyContent: 'center', gap: '1rem' }}>
-                 <button onClick={() => setShowTerms(true)} style={{ background: 'none', border: 'none', color: 'var(--accent-color)', fontSize: '0.7rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}>Terms of Use</button>
-                 <button onClick={() => setShowPrivacy(true)} style={{ background: 'none', border: 'none', color: 'var(--accent-color)', fontSize: '0.7rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}>Privacy Policy</button>
+                 <button key="pw-terms" type="button" translate="no" onClick={() => setShowTerms(true)} style={{ background: 'none', border: 'none', color: 'var(--accent-color)', fontSize: '0.7rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}>
+                   <span translate="no">{isFrench ? "Conditions d'utilisation" : "Terms of Use"}</span>
+                 </button>
+                 <button key="pw-privacy" type="button" translate="no" onClick={() => setShowPrivacy(true)} style={{ background: 'none', border: 'none', color: 'var(--accent-color)', fontSize: '0.7rem', cursor: 'pointer', textDecoration: 'underline', padding: 0 }}>
+                   <span translate="no">{isFrench ? "Politique de confidentialité" : "Privacy Policy"}</span>
+                 </button>
                </div>
             </div>
             
