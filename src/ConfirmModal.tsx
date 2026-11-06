@@ -71,7 +71,7 @@ export function ConfirmModal({
                   fontWeight: 600, cursor: 'pointer', fontSize: '0.9rem',
                 }}
               >
-                {cancelLabel}
+                <span>{cancelLabel}</span>
               </button>
               <button
                 onClick={onConfirm}
@@ -83,7 +83,7 @@ export function ConfirmModal({
                   fontWeight: 700, cursor: 'pointer', fontSize: '0.9rem',
                 }}
               >
-                {confirmLabel}
+                <span>{confirmLabel}</span>
               </button>
             </div>
           </motion.div>

@@ -200,7 +200,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartSRSQuiz: _onStartSRSQuiz,
               className="primary-btn pulse-glow"
               style={{ padding: '0.8rem 1.5rem', background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.1rem', fontWeight: 700 }}
             >
-              <Lock size={20} /> Upgrade to Pro
+              <Lock size={20} /> <span>Upgrade to Pro</span>
             </button>
           )}
         </div>
@@ -557,7 +557,7 @@ export function Dashboard({ onStartFlaggedQuiz, onStartSRSQuiz: _onStartSRSQuiz,
             }}
           >
             <ShieldAlert size={16} color="#eab308" />
-            View Disclaimer
+            <span>View Disclaimer</span>
           </button>
         )}
       </div>

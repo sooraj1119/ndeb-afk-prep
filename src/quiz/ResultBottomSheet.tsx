@@ -77,7 +77,7 @@ export function ResultBottomSheet({
                       opacity: currentIndex === 0 ? 0.5 : 1
                     }}
                   >
-                    Prev
+                    <span>Prev</span>
                   </button>
                 )}
                 <button
@@ -85,7 +85,7 @@ export function ResultBottomSheet({
                   className="primary-btn"
                   style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', margin: 0 }}
                 >
-                  {!isLastQuestion ? 'Next' : 'Finish'} <ArrowRight size={18} />
+                  <span>{!isLastQuestion ? 'Next' : 'Finish'}</span> <ArrowRight size={18} />
                 </button>
               </div>
             </div>

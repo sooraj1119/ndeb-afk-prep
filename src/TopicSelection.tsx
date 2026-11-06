@@ -72,7 +72,7 @@ export function TopicSelection({ onSelect }: Props) {
                 onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 10px 25px rgba(245,158,11,0.4)'; }}
                 onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 8px 20px rgba(245,158,11,0.3)'; }}
                 >
-                  <Crown size={22} /> Upgrade to Pro
+                  <Crown size={22} /> <span>Upgrade to Pro</span>
                 </button>
               </div>
             )}
