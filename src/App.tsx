@@ -821,6 +821,7 @@ function App() {
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1.25rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
             <button
               key="footer-btn-disclaimer"
+              data-testid="footer-btn-disclaimer"
               type="button"
               translate="no"
               onClick={() => setShowLegalDisclaimer(true)}
@@ -831,6 +832,7 @@ function App() {
             <span key="footer-sep-1" translate="no" style={{ opacity: 0.4 }}>•</span>
             <button
               key="footer-btn-terms"
+              data-testid="footer-btn-terms"
               type="button"
               translate="no"
               onClick={() => setShowTermsOfUse(true)}
@@ -841,6 +843,7 @@ function App() {
             <span key="footer-sep-2" translate="no" style={{ opacity: 0.4 }}>•</span>
             <button
               key="footer-btn-privacy"
+              data-testid="footer-btn-privacy"
               type="button"
               translate="no"
               onClick={() => setShowPrivacyPolicy(true)}

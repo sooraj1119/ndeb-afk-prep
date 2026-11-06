@@ -82,7 +82,8 @@ export function TopicSelection({ onSelect }: Props) {
 
       <div style={{ display: 'grid', gap: 'clamp(0.75rem, 3vw, 1.25rem)', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', marginBottom: 'clamp(1.5rem, 4vw, 2rem)' }}>
         {/* Daily Review Banner */}
-        <motion.div 
+        <motion.div
+          data-testid="srs-review-banner"
           onClick={() => {
             if (!isPremium) setShowPaywall(true);
             else if (dueReviewCount > 0) onSelect('srs_review');
@@ -171,6 +172,7 @@ export function TopicSelection({ onSelect }: Props) {
         </motion.div>
 
         <motion.div 
+          data-testid="mistakes-banner"
           onClick={() => {
             if (!isPremium) setShowPaywall(true);
             else onSelect('mistakes_list');
@@ -230,6 +232,7 @@ export function TopicSelection({ onSelect }: Props) {
           return (
             <motion.div 
               key={topic.id}
+              data-testid={`topic-card-${topic.id}`}
               variants={itemVariants}
               onClick={() => {
                 if (topic.isPremiumOnly && !isPremium) {

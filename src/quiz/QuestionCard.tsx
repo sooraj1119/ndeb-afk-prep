@@ -91,6 +91,8 @@ export function QuestionCard({
               return (
                 <button
                   key={idx}
+                  data-testid={`quiz-option-${idx}`}
+                  className="quiz-option-btn"
                   onClick={() => onSelect(idx)}
                   disabled={isAnswered}
                   style={{

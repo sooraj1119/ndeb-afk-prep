@@ -263,11 +263,12 @@ async function runAllE2ETests() {
     // ------------------------------------------------------------------------
     console.log('\n[STAGE 6] Testing Active Quiz Session, Single Best Answer & Explanation...');
     // ------------------------------------------------------------------------
-    await operativeCard.scrollIntoViewIfNeeded();
-    await operativeCard.click({ force: true });
+    const topicCard = page.locator('[data-testid="topic-card-operative-dentistry"]').or(page.locator('.topic-card:has-text("Operative Dentistry")'));
+    await topicCard.scrollIntoViewIfNeeded();
+    await topicCard.click({ force: true });
 
-    await page.waitForSelector('button:has(span[translate="no"])', { timeout: 10000 });
-    const optionButtons = page.locator('button:has(span[translate="no"])');
+    await page.waitForSelector('button.quiz-option-btn', { timeout: 10000 });
+    const optionButtons = page.locator('button.quiz-option-btn');
     const optionCount = await optionButtons.count();
     assert(optionCount === 4, `Question has exactly 4 options per NDEB standards (found: ${optionCount})`);
 
@@ -316,6 +317,121 @@ async function runAllE2ETests() {
       await darkToggle.click();
       const isLight = await page.evaluate(() => !document.documentElement.classList.contains('dark'));
       assert(isLight, 'HTML root reverted to light mode');
+    }
+
+    // ------------------------------------------------------------------------
+    console.log('\n[STAGE 8] Testing Mistakes Screen Loading (Zero-Stall Verification)...');
+    // ------------------------------------------------------------------------
+    // Navigate back to topic selection via Study Topics tab
+    const studyTopicsTab = page.locator('button', { hasText: 'Study Topics' });
+    await studyTopicsTab.click();
+    const leaveModal = page.locator('button:has-text("Leave")');
+    if (await leaveModal.isVisible({ timeout: 2000 }).catch(() => false)) {
+      await leaveModal.click();
+    }
+    await page.waitForSelector('text=Select a Topic', { timeout: 8000 });
+
+    // For free user: clicking mistakes banner opens paywall
+    const mistakesBanner = page.locator('[data-testid="mistakes-banner"]').or(page.locator('h3:has-text("Review Mistakes")'));
+    await mistakesBanner.scrollIntoViewIfNeeded();
+    await mistakesBanner.click({ force: true });
+
+    const freeMistakesPw = page.locator('h2:has-text("Unlock Pro")');
+    await freeMistakesPw.waitFor({ state: 'visible', timeout: 5000 });
+    assert(await freeMistakesPw.isVisible(), 'Free user clicking mistakes properly triggers Pro paywall');
+    await page.click('#paywall-close-button');
+    await freeMistakesPw.waitFor({ state: 'hidden', timeout: 5000 });
+
+    // For Pro user: opens MistakesList cleanly with zero stall
+    await page.evaluate(() => localStorage.setItem('ndeb_prep_is_premium', 'true'));
+    await page.reload();
+    await page.waitForSelector('text=Select a Topic', { timeout: 8000 });
+
+    const mistakesBannerPro = page.locator('[data-testid="mistakes-banner"]').or(page.locator('h3:has-text("Review Mistakes")'));
+    await mistakesBannerPro.scrollIntoViewIfNeeded();
+    await mistakesBannerPro.click({ force: true });
+
+    // Must load immediately without infinite stall
+    const drillMistakesBtn = page.locator('button:has-text("Drill Mistakes")');
+    await drillMistakesBtn.waitFor({ state: 'visible', timeout: 5000 });
+    assert(await drillMistakesBtn.isVisible(), 'Mistakes screen loaded instantaneously without stalling and displayed Drill Mistakes button');
+
+    const mistakesActiveScreenshot = path.join(artifactDir, 'screenshot-e2e-mistakes-active.png');
+    await page.screenshot({ path: mistakesActiveScreenshot, fullPage: false });
+    console.log(`  📸 Saved screenshot: ${mistakesActiveScreenshot}`);
+
+    // Verify removing the mistake displays "All Caught Up!"
+    const removeBtn = page.locator('button[title="Remove from Mistakes"]').first();
+    if (await removeBtn.isVisible()) {
+      await removeBtn.click();
+      const allCaughtUp = page.locator('text=All Caught Up!');
+      await allCaughtUp.waitFor({ state: 'visible', timeout: 5000 });
+      assert(await allCaughtUp.isVisible(), 'Clearing mistakes displays All Caught Up empty state');
+      
+      const mistakesResolvedScreenshot = path.join(artifactDir, 'screenshot-e2e-mistakes-resolved.png');
+      await page.screenshot({ path: mistakesResolvedScreenshot, fullPage: false });
+      console.log(`  📸 Saved screenshot: ${mistakesResolvedScreenshot}`);
+    }
+
+    const mistakesBackBtn = page.locator('#mistakes-back-button');
+    await mistakesBackBtn.click();
+    await page.waitForSelector('text=Select a Topic', { timeout: 5000 });
+    assert(await page.locator('text=Select a Topic').isVisible(), 'Returned cleanly to topic selection');
+
+    // Reset premium
+    await page.evaluate(() => localStorage.removeItem('ndeb_prep_is_premium'));
+
+    // ------------------------------------------------------------------------
+    console.log('\n[STAGE 9] Testing French Language Footer Resilience...');
+    // ------------------------------------------------------------------------
+    const disclaimerFooterBtn = page.locator('[data-testid="footer-btn-disclaimer"]').or(page.locator('footer button:has-text("Medical Disclaimer")'));
+    await disclaimerFooterBtn.scrollIntoViewIfNeeded();
+    await disclaimerFooterBtn.click();
+
+    // Verify modal opens
+    const stage9ModalHeading = page.locator('h3', { hasText: 'Disclaimer' });
+    await stage9ModalHeading.waitFor({ state: 'visible', timeout: 5000 });
+    assert(await stage9ModalHeading.isVisible(), 'Legal modal opens cleanly from footer');
+
+    // Close modal
+    await page.click('button[aria-label="Close modal"]');
+    await stage9ModalHeading.waitFor({ state: 'hidden', timeout: 5000 });
+
+    // Verify all 3 footer buttons remain in DOM and did NOT disappear
+    let allFooterBtns = page.locator('footer button');
+    let footerCount = await allFooterBtns.count();
+    assert(footerCount >= 3, `Footer buttons remain intact after modal close (found: ${footerCount})`);
+
+    // Toggle language to French to test French translation resilience
+    const langBtn = page.locator('button[aria-label="Toggle language between English and French"]');
+    if (await langBtn.isVisible()) {
+      await langBtn.click();
+      await page.waitForTimeout(1000);
+
+      const frDisclaimerBtn = page.locator('[data-testid="footer-btn-disclaimer"]');
+      await frDisclaimerBtn.scrollIntoViewIfNeeded();
+      assert(await frDisclaimerBtn.isVisible(), 'French disclaimer button is visible in footer');
+      await frDisclaimerBtn.click();
+
+      const frModal = page.locator('h3', { hasText: 'Disclaimer' });
+      await frModal.waitFor({ state: 'visible', timeout: 5000 });
+      assert(await frModal.isVisible(), 'Legal modal opens in French mode');
+
+      await page.click('button[aria-label="Close modal"]');
+      await frModal.waitFor({ state: 'hidden', timeout: 5000 });
+
+      // Crucial assertion: Ensure all footer buttons STILL exist and did NOT disappear in French
+      allFooterBtns = page.locator('footer button');
+      footerCount = await allFooterBtns.count();
+      assert(footerCount >= 3, `French footer buttons remain completely intact after modal close (found: ${footerCount})`);
+
+      const frenchFooterScreenshot = path.join(artifactDir, 'screenshot-e2e-french-footer-intact.png');
+      await page.screenshot({ path: frenchFooterScreenshot, fullPage: false });
+      console.log(`  📸 Saved screenshot: ${frenchFooterScreenshot}`);
+
+      // Toggle back to English
+      await langBtn.click();
+      await page.waitForTimeout(500);
     }
 
     console.log('\n=====================================================');
