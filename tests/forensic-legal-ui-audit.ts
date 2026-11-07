@@ -7,7 +7,7 @@ import { chromium, Browser, Page } from 'playwright';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
-const artifactDir = 'C:/Users/sooraj/.gemini/antigravity/brain/265c7528-660d-4a69-82eb-89ab3869e8f8';
+const _artifactDir = 'C:/Users/sooraj/.gemini/antigravity/brain/265c7528-660d-4a69-82eb-89ab3869e8f8';
 
 const mimeTypes: Record<string, string> = {
   '.html': 'text/html',
@@ -66,7 +66,7 @@ function verify(condition: boolean, checkName: string, detail?: string) {
 async function runForensicAudit() {
   console.log('=================================================================');
   console.log('  FORENSIC SENIOR LAWYER UI & REGULATORY AUDIT');
-  console.log('  "LEAVE NO STONES UNTURNED" — FULL VERIFICATION');
+  console.log('  "LEAVE NO STONES UNTURNED" ï¿½ FULL VERIFICATION');
   console.log('=================================================================\n');
 
   const server = await createStaticServer(4175);

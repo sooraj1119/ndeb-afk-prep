@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getMistakes, removeMistake, usePremiumStatus } from './lib/storage';
-import { loadAllQuestions, loadTopicQuestions, getQuestions } from './lib/questionsStore';
+import { loadTopicQuestions, getQuestions } from './lib/questionsStore';
 import { RefreshCw, Play, Trash2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 

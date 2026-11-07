@@ -332,7 +332,7 @@ async function runAllE2ETests() {
     await page.waitForSelector('text=Select a Topic', { timeout: 8000 });
 
     // For free user: clicking mistakes banner opens paywall
-    const mistakesBanner = page.locator('[data-testid="mistakes-banner"]').or(page.locator('h3:has-text("Review Mistakes")'));
+    const mistakesBanner = page.locator('[data-testid="mistakes-banner"]');
     await mistakesBanner.scrollIntoViewIfNeeded();
     await mistakesBanner.click({ force: true });
 
@@ -347,7 +347,7 @@ async function runAllE2ETests() {
     await page.reload();
     await page.waitForSelector('text=Select a Topic', { timeout: 8000 });
 
-    const mistakesBannerPro = page.locator('[data-testid="mistakes-banner"]').or(page.locator('h3:has-text("Review Mistakes")'));
+    const mistakesBannerPro = page.locator('[data-testid="mistakes-banner"]');
     await mistakesBannerPro.scrollIntoViewIfNeeded();
     await mistakesBannerPro.click({ force: true });
 
