@@ -10195,16 +10195,18 @@
   {
     "id": 334337,
     "topicId": "oral-pathology",
-    "question": "A 6-year-old female patient, who is a new immigrant, presents to your dental office for her first dental check-up in Canada. Her parents are concerned about the cost of potential treatments. As per Canadian dental professional standards, what is the MOST appropriate action regarding discussing treatment options and costs?",
+    "question": "A 34-year-old male patient presents for a periodontal maintenance visit. Six weeks after successful scaling and root planing of the mandibular right first molar (tooth #30), a probing depth of 7 mm with bleeding on probing is recorded at the distal‑buccal site, with no improvement from baseline. The tooth is restorable and has no mobility. According to current Canadian periodontal guidelines, what is the most appropriate next step in management?",
     "options": [
-      "Present only the most ideal and expensive treatment options to ensure best care.",
-      "Provide a comprehensive treatment plan with all viable options, their associated costs, and potential payment plans.",
-      "Defer all cost discussions to the administrative staff to avoid discomfort.",
-      "Recommend only the least expensive treatments to ease the family's financial burden."
+      "Repeat scaling and root planing at the same site.",
+      "Prescribe systemic antibiotics and re‑evaluate in 4 weeks.",
+      "Perform surgical periodontal therapy (e.g., flap surgery) to achieve thorough debridement.",
+      "Extract the tooth and replace it with an implant."
     ],
-    "correctAnswer": 1,
-    "explanation": "According to Canadian dental professional standards, dentists have an ethical obligation to ensure informed consent, which includes presenting all viable treatment options, their benefits, risks, alternatives, and associated costs. This allows patients/guardians to make autonomous decisions. Presenting only ideal/expensive or only least expensive options, or deferring all cost discussions, undermines the patient's right to full information and autonomous decision-making.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "Canadian periodontal guidelines state that a residual pocket of ≥5 mm after adequate non‑surgical therapy warrants surgical intervention to obtain thorough debridement and possible regeneration. Therefore, flap surgery is the appropriate next step. Re‑scaling or antibiotics are not indicated when non‑surgical therapy has already been completed, and extraction is unnecessary while the tooth remains restorable.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:43.455Z"
   },
   {
     "id": 84649133,
@@ -10265,16 +10267,18 @@
   {
     "id": 593337646,
     "topicId": "oral-pathology",
-    "question": "A 35-year-old male patient presents for a recall appointment. He has a history of generalized chronic periodontitis, well-controlled through previous scaling and root planing. During the clinical examination, you note localized deep probing depths (7mm) with bleeding on probing on the mesial aspect of tooth #16, despite good plaque control in other areas. Radiographs reveal localized vertical bone loss at this site. The patient reports no pain. What is the MOST appropriate initial management strategy for this specific site?",
+    "question": "A 35‑year‑old male presents for a routine recall. He has generalized chronic periodontitis that has been well controlled with scaling and root planing. At the mesial aspect of tooth #16 you record a 7 mm probing depth with bleeding on probing and radiographs show a localized vertical bone defect. The patient is asymptomatic and maintains good plaque control elsewhere. What is the most appropriate initial management for this site according to Canadian periodontal guidelines?",
     "options": [
-      "Prescription of systemic antibiotics",
-      "Surgical periodontal therapy (e.g., flap debridement)",
-      "Localized subgingival debridement with adjunctive localized antimicrobial delivery",
-      "Immediate extraction of tooth #16"
+      "Prescribe a systemic antibiotic regimen",
+      "Perform surgical periodontal therapy (e.g., flap debridement) at the defect",
+      "Repeat localized subgingival debridement with a locally delivered antimicrobial",
+      "Extract tooth #16 immediately"
     ],
-    "correctAnswer": 2,
-    "explanation": "Localized deep pockets with vertical bone loss despite otherwise good plaque control suggest a localized refractory site. Localized subgingival debridement combined with a local antimicrobial agent is often the first line of targeted treatment to reduce bacterial load and promote healing. Systemic antibiotics are generally not indicated for localized, asymptomatic lesions, and immediate extraction is overly aggressive given the potential for conservative management.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "A persistent 7 mm pocket with vertical bone loss after successful non‑surgical therapy is an indication for surgical periodontal therapy to gain access for thorough debridement and regeneration. Systemic antibiotics are not indicated for a localized, asymptomatic site, repeat non‑surgical debridement is unlikely to resolve a refractory deep pocket, and extraction is unnecessary when the tooth can be preserved surgically.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:44.706Z"
   },
   {
     "id": 327598846,

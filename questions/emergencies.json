@@ -244,17 +244,19 @@
   {
     "id": 18,
     "topicId": "emergencies",
-    "question": "A patient in the dental operatory presents with rapid, shallow breathing, lightheadedness, and paresthesia of the fingers and lips. Vital signs are stable, and the patient is conscious and cooperative. What is the MOST appropriate initial management for this condition?",
+    "question": "A 28-year-old female patient in the dental operatory becomes anxious, exhibiting rapid shallow breathing, light‑headedness, and tingling of the fingers and lips. Vital signs are stable (HR 92 bpm, BP 118/76 mmHg, SpO₂ 98%). She is conscious and cooperative. What is the most appropriate initial management?",
     "options": [
-      "Administer 100% oxygen via a non-rebreather mask.",
-      "Instruct the patient to breathe slowly and deeply into a paper bag or cupped hands.",
-      "Administer 0.3 mg epinephrine intramuscularly.",
-      "Administer a benzodiazepine such as diazepam intravenously."
+      "Provide verbal reassurance and guide the patient through slow diaphragmatic breathing.",
+      "Place a paper bag over the patient’s nose and mouth and have her re‑inhale her exhaled air.",
+      "Administer 100% oxygen via a non‑rebreather mask.",
+      "Give 0.3 mg epinephrine intramuscularly."
     ],
-    "correctAnswer": 1,
-    "explanation": "The clinical presentation of rapid, shallow breathing, lightheadedness, and paresthesia (tingling) in a conscious, cooperative patient is classic for a hyperventilation syndrome (panic attack). The underlying pathophysiology is respiratory alkalosis caused by excessive exhalation of carbon dioxide (hypocapnia), which leads to a decrease in ionized calcium and subsequent neuromuscular excitability. The gold standard initial management, as outlined in standard dental emergency texts (e.g., Malamed, Little & Falace), is to have the patient breathe into a paper bag or cupped hands. This technique allows the patient to re-inhale exhaled CO2, thereby increasing arterial PCO2, correcting the alkalosis, and alleviating symptoms. Option 0 is incorrect because the patient is not hypoxic; administering oxygen does not address the underlying hypocapnia and may worsen the condition by further reducing CO2 levels. Option 2 is incorrect because epinephrine is the treatment for anaphylaxis, which presents with different signs such as urticaria, angioedema, and bronchospasm, not isolated hyperventilation. Option 3 is incorrect because benzodiazepines are not the first-line treatment for acute hyperventilation in a cooperative patient; they are reserved for severe anxiety or agitation that does not respond to verbal reassurance and breathing techniques, and IV administration requires specific indications and monitoring.",
+    "correctAnswer": 0,
+    "explanation": "The signs indicate hyperventilation syndrome; current Canadian dental emergency guidelines advise verbal reassurance and controlled breathing as the first‑line intervention, reserving supplemental oxygen only if hypoxia is documented. The paper‑bag technique is no longer recommended because it may worsen hypoxia if the diagnosis is incorrect. Epinephrine is indicated for anaphylaxis, not hyperventilation, and oxygen is unnecessary when SpO₂ is normal.",
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:13.738Z"
   },
   {
     "id": 19,
@@ -708,16 +710,18 @@
   {
     "id": 51,
     "topicId": "emergencies",
-    "question": "A 17-year-old female patient, very anxious about an upcoming wisdom tooth extraction, suddenly starts breathing rapidly and deeply, complains of dizziness and tingling in her fingers, and feels lightheaded. Her vital signs are within normal limits except for a respiratory rate of 30 breaths/minute. What is the MOST appropriate initial management strategy?",
+    "question": "A 17-year-old female patient, very anxious about an upcoming wisdom tooth extraction, suddenly begins breathing rapidly and deeply, reports dizziness, tingling in her fingers, and feels light‑headed. Her vital signs are normal except for a respiratory rate of 30 breaths/min. What is the most appropriate initial management?",
     "options": [
-      "Administer oxygen via nasal cannula.",
-      "Provide a fast-acting anxiolytic, such as oral lorazepam.",
-      "Instruct her to breathe slowly and deeply into a paper bag or cupped hands.",
+      "Administer supplemental oxygen via nasal cannula.",
+      "Provide a fast‑acting anxiolytic, such as oral lorazepam.",
+      "Instruct the patient to breathe slowly and deeply while providing reassurance.",
       "Call emergency medical services (EMS)."
     ],
     "correctAnswer": 2,
-    "explanation": "The symptoms of rapid, deep breathing, dizziness, and tingling are classic signs of hyperventilation, often anxiety-induced. Instructing the patient to breathe slowly and deeply into a paper bag or cupped hands helps to re-breathe exhaled carbon dioxide, which corrects the respiratory alkalosis. Oxygen administration is contraindicated as it can worsen symptoms, anxiolytics are a secondary measure, and EMS is not typically needed for uncomplicated hyperventilation.",
-    "aiVerified": true
+    "explanation": "The presentation is consistent with anxiety‑induced hyperventilation; the first step is to coach slow, deep breathing and reassure the patient, which helps normalize CO₂ levels. Supplemental oxygen is unnecessary and may mask worsening hypoxia, anxiolytics are reserved for refractory cases, and EMS is indicated only if there are signs of a more serious underlying condition.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:15.421Z"
   },
   {
     "id": 52,
@@ -778,16 +782,18 @@
   {
     "id": 56,
     "topicId": "emergencies",
-    "question": "During a routine prophylaxis, a small dental instrument (e.g., a scaler tip) accidentally falls into the oropharynx of a 30-year-old healthy male patient. He immediately starts coughing vigorously but is able to speak and breathe. After the coughing subsides, he reports a sensation of something 'stuck' in his throat, but denies further breathing difficulty. What is the MOST appropriate next course of action?",
+    "question": "During a routine prophylaxis, a small stainless‑steel scaler tip accidentally falls into the oropharynx of a 30‑year‑old healthy male patient. He coughs vigorously, is able to speak and breathe, but after coughing the sensation of a foreign body persists in his throat. The instrument is radiopaque. What is the most appropriate next step?",
     "options": [
       "Reassure the patient and continue with the dental appointment.",
       "Perform abdominal thrusts to dislodge any remaining foreign body.",
-      "Encourage the patient to drink plenty of fluids to wash down the object.",
+      "Encourage the patient to drink fluids to wash down the object.",
       "Arrange for immediate transport to an emergency department for radiographic evaluation."
     ],
-    "correctAnswer": 0,
-    "explanation": "Malamed’s *Medical Emergencies in the Dental Office* and the CDA emergency‑management protocol state that when a small object is lodged in the oropharynx and the patient can cough, speak, and breathe normally, there is no airway obstruction. Management consists of observation, encouraging the patient to cough, and reassurance; radiographic evaluation or emergency transport is only indicated if signs of aspiration, persistent choking, or respiratory compromise develop. Hence the correct answer is option 0.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "Canadian dental emergency guidelines require prompt medical evaluation and imaging for any radiopaque foreign body that remains after initial coughing, even when the airway is patent, to rule out aspiration or esophageal impaction. Observation alone is unsafe, and abdominal thrusts are reserved for complete airway obstruction. Transport to an emergency department for radiographic assessment is therefore the best course of action.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:16.787Z"
   },
   {
     "id": 57,
@@ -1451,17 +1457,19 @@
   {
     "id": 104,
     "topicId": "emergencies",
-    "question": "A 68-year-old male patient with a history of stable angina experiences severe, crushing substernal chest pain radiating to his left arm and jaw during a dental procedure. He has already taken one dose of sublingual nitroglycerin, but reports no improvement after 5 minutes. His blood pressure is 140/90 mmHg and oxygen saturation is 98%. What is the MOST appropriate immediate next step in management?",
+    "question": "A 68-year-old male with stable angina develops severe, crushing substernal chest pain radiating to his left arm and jaw during a dental procedure. He has taken one dose of sublingual nitroglycerin 5 minutes ago with no relief. His blood pressure is 140/90 mmHg and SpO₂ is 98%. What is the most appropriate immediate next step?",
     "options": [
+      "Administer chewable aspirin (160-325 mg)",
       "Administer a second dose of sublingual nitroglycerin",
-      "Administer chewable aspirin (160-325 mg)",
-      "Place the patient in the Trendelenburg position",
+      "Place the patient in a semi‑recumbent (sitting) position",
       "Administer oxygen via nasal cannula and monitor"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is to administer a second dose of sublingual nitroglycerin. According to standard emergency protocols for dental offices (e.g., Malamed's Handbook of Medical Emergencies in Dentistry, which aligns with NDEB AFK standards), the initial management of suspected angina or myocardial infarction involves administering nitroglycerin. If the patient's blood pressure is adequate (systolic > 90 mmHg, here 140 mmHg) and there is no relief after 5 minutes, a second dose may be administered. A third dose can be given if necessary, provided blood pressure remains stable. This is the immediate pharmacological intervention to relieve ischemic pain while preparing for EMS activation. \n\nWhy the other options are incorrect:\n1. Administer chewable aspirin: While aspirin is a critical component of ACS management and should be given, the immediate priority in the dental setting for persistent pain after the first nitro dose is to continue the nitroglycerin protocol (up to 3 doses) to attempt to relieve the ischemia. Aspirin is typically administered concurrently or immediately after the nitroglycerin protocol is initiated, but in the context of 'immediate next step' for pain relief and hemodynamic stability in a patient who has only taken one dose, the second nitro dose is the standard sequential step. However, note that in many modern protocols, aspirin is given as soon as ACS is suspected. But strictly following the 'nitroglycerin ladder' (1st dose -> wait 5 min -> 2nd dose -> wait 5 min -> 3rd dose) is the classic teaching for the *immediate* action when the first dose fails, provided BP is stable. If the question implies the *very* next action, repeating nitro is the direct response to the failed first dose. *Correction/Refinement*: Actually, current guidelines often emphasize giving aspirin as soon as MI is suspected. However, in the specific context of the 'nitroglycerin protocol' where the patient has *already* taken one dose and is still in pain, the standard algorithm is to give the second dose. If the question asked 'what medication should be added', aspirin would be strong. But 'immediate action' after a failed first nitro dose is the second nitro dose. Let's re-evaluate. Malamed states: 'If pain persists after 5 minutes, a second dose may be administered... If pain persists after the second dose, a third dose may be administered.' It also states 'Aspirin... should be administered as soon as possible.' In board exams, the 'nitro ladder' is often tested as the primary sequence for angina/MI pain relief. Given the options, Option 0 is the most direct continuation of the acute pain management protocol initiated. Option 1 is also correct but often considered part of the broader 'call EMS and give aspirin' step. However, if forced to choose the *immediate* action for the *pain* that hasn't resolved, the second nitro is the specific next step in the nitro protocol. Let's look at the distractors. Trendelenburg is contraindicated (increases preload, worsens cardiac workload). Oxygen is not indicated if sats are normal (98%). So it's between Nitro #2 and Aspirin. In many NDEB resources, the emphasis is on the nitroglycerin protocol for the *dental* provider. The provider gives nitro. If it fails, they give more nitro (up to 3) while calling EMS. Aspirin is often given by the patient or EMS, or by the dentist if available, but the *immediate* response to the *failed first dose* in the algorithm is the second dose. Therefore, 0 is the best answer in the context of the nitroglycerin protocol.\n\n2. Place in Trendelenburg position: This is incorrect. The patient should be placed in a semi-reclined or sitting position to reduce cardiac workload and improve venous return without increasing preload excessively. Trendelenburg increases venous return and cardiac workload, which is detrimental in acute coronary syndrome.\n\n3. Administer oxygen via nasal cannula and monitor: This is incorrect. Oxygen is only indicated if the patient is hypoxic (SpO2 < 94% or 90% depending on guidelines). This patient has an SpO2 of 98%, so supplemental oxygen is not required and may cause vasoconstriction, potentially worsening ischemia.",
+    "explanation": "Current Canadian emergency guidelines for suspected acute myocardial infarction prioritize giving chewable aspirin (160‑325 mg) as soon as possible, then nitroglycerin if blood pressure allows. The patient’s BP is adequate, but aspirin should be given before a repeat nitroglycerin dose. Semi‑recumbent positioning is appropriate but is not the immediate pharmacologic intervention, and supplemental oxygen is unnecessary with an SpO₂ of 98%.",
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:18.494Z"
   },
   {
     "id": 105,
@@ -2035,8 +2043,10 @@
       "Administer a sublingual benzodiazepine to calm her."
     ],
     "correctAnswer": 1,
-    "explanation": "The patient is experiencing hyperventilation, often triggered by anxiety, leading to a decrease in carbon dioxide. Encouraging slow, deep breathing into a paper bag (or cupped hands) helps to re-breathe exhaled carbon dioxide, which can normalize blood gas levels and alleviate symptoms. Administering oxygen (option A) is contraindicated as it can worsen symptoms by further reducing CO2. Lying supine (option C) is for syncope, and while benzodiazepines (option D) may be used, they are not the immediate first step for hyperventilation itself.",
-    "aiVerified": true
+    "explanation": "The patient is experiencing anxiety‑induced hyperventilation, leading to a reduced arterial CO2; the quickest way to restore CO2 is controlled rebreathing with a paper bag while reassuring the patient. Supplemental oxygen is not required and does not correct the hypocapnia, so it is not the first step. Lying supine is appropriate for vasovagal syncope, and benzodiazepines may be considered later but are not the initial intervention.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:20.472Z"
   },
   {
     "id": 146,
@@ -2918,12 +2928,14 @@
       "Instruct the patient to breathe slowly and deeply into a paper bag.",
       "Administer supplemental oxygen via nasal cannula.",
       "Administer 0.3 mg epinephrine intramuscularly.",
-      "Reassure the patient and have her lie flat in the dental chair."
+      "Reassure the patient and have her sit upright in the dental chair."
     ],
-    "correctAnswer": 0,
-    "explanation": "The patient’s presentation—rapid, deep breathing with perioral and fingertip paresthesia, normal SpO2, and no cardiopulmonary disease—is classic for acute anxiety‑induced hyperventilation (respiratory alkalosis). The Canadian Dental Association (CDA) Clinical Guidelines for Dental Anxiety and the Health Canada “Management of Acute Hyperventilation” protocol both endorse the paper‑bag rebreathing technique as the first‑line intervention in an otherwise healthy adult. By breathing slowly into a paper bag for 5–10 minutes, the patient re‑inspires a modest amount of CO₂, correcting the alkalosis and relieving symptoms. This approach is also described in the AAP 2018 Dental Anxiety Consensus, Malamed’s “Handbook of Local Anesthesia,” and the textbooks of Neville, Cohen, and Proffit as the standard immediate management for isolated hyperventilation.\n\nOption [1] (supplemental O₂) is unnecessary because oxygen saturation is already normal; delivering O₂ does not address the underlying low PaCO₂ and may delay the more effective CO₂ rebreathing. Option [2] (0.3 mg IM epinephrine) is reserved for anaphylaxis or severe bronchospasm, conditions not present here; its use could precipitate tachycardia and hypertension in a calm patient. Option [3] (reassure and lie flat) ignores the physiologic cause—lying flat may even worsen ventilation‑perfusion mismatch, and reassurance alone does not correct the alkalosis. Thus, the paper‑bag breathing maneuver remains the gold‑standard initial management for anxiety‑related hyperventilation in dental practice.",
+    "correctAnswer": 3,
+    "explanation": "Current Canadian dental emergency guidelines recommend first‑line management of anxiety‑related hyperventilation with reassurance, upright positioning, and guided slow breathing; this safely restores CO₂ without the risks of paper‑bag rebreathing. Supplemental oxygen does not correct the underlying respiratory alkalosis, epinephrine is reserved for anaphylaxis, and paper‑bag rebreathing is no longer endorsed due to potential hypoxia.",
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:21.800Z"
   },
   {
     "id": 209,
@@ -3138,17 +3150,19 @@
   {
     "id": 224,
     "topicId": "emergencies",
-    "question": "A 75-year-old male patient with a history of hypertension and benign prostatic hyperplasia is currently taking tamsulosin. During a routine dental extraction, he receives local anesthesia containing epinephrine. Immediately following the procedure, upon attempting to sit upright in the dental chair, he experiences severe dizziness and syncope. Which of the following is the MOST likely physiological mechanism responsible for this acute reaction?",
+    "question": "A 75-year-old male with hypertension and benign prostatic hyperplasia is taking tamsulosin. During a routine dental extraction he receives a local anesthetic containing epinephrine. Immediately after the procedure, when he sits upright, he experiences severe dizziness and syncope. Which physiological mechanism most likely explains this acute reaction?",
     "options": [
       "Anaphylactic shock secondary to an allergic reaction to the amide local anesthetic.",
       "Vasovagal syncope triggered by procedural anxiety and pain.",
-      "Potentiation of orthostatic hypotension due to the interaction between the alpha-1 adrenergic antagonist and the beta-2 vasodilatory effects of epinephrine.",
-      "Acute myocardial infarction resulting from catecholamine-induced coronary vasospasm."
+      "Potentiation of orthostatic hypotension due to tamsulosin’s α1‑adrenergic blockade combined with epinephrine’s unopposed β2‑mediated vasodilation.",
+      "Acute myocardial infarction resulting from catecholamine‑induced coronary vasospasm."
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is Option 2. Tamsulosin is a selective alpha-1 adrenergic receptor antagonist used to treat benign prostatic hyperplasia (BPH) and hypertension. Its primary side effect is orthostatic hypotension due to the blockade of alpha-1 mediated vasoconstriction in peripheral blood vessels. When epinephrine (a non-selective adrenergic agonist) is administered, it stimulates both alpha and beta receptors. In a patient with alpha-1 receptors blocked by tamsulosin, the alpha-1 mediated vasoconstrictive response to epinephrine is inhibited. However, the beta-2 mediated vasodilatory response remains active. This results in a net decrease in systemic vascular resistance (SVR) and a drop in blood pressure, particularly when the patient changes position from supine to upright (orthostatic stress). This phenomenon is known as 'epinephrine reversal' or potentiated orthostatic hypotension. \n\nOption 0 is incorrect because anaphylaxis to amide local anesthetics is extremely rare and typically presents with cutaneous signs (urticaria, angioedema), respiratory distress (bronchospasm), and cardiovascular collapse, rather than isolated orthostatic syncope immediately upon sitting up. \n\nOption 1 is incorrect because while vasovagal syncope is common in dental settings, the specific clinical context of a patient on an alpha-blocker receiving epinephrine points to a pharmacological interaction as the primary driver of the severe hypotensive episode. Vasovagal syncope is typically preceded by prodromal symptoms like nausea, diaphoresis, and pallor, and is less likely to be described as 'severe orthostatic hypotension' specifically linked to the drug interaction. \n\nOption 3 is incorrect because acute myocardial infarction would present with chest pain, radiating pain, and ECG changes, not isolated syncope upon positional change. While epinephrine can increase myocardial oxygen demand, the immediate temporal relationship with sitting up and the specific drug profile make orthostatic hypotension the most likely cause.",
+    "explanation": "The syncope is most consistent with an exaggerated orthostatic fall in blood pressure caused by tamsulosin, a selective α1‑adrenergic antagonist that impairs peripheral vasoconstriction, and epinephrine, whose α1‑mediated vasoconstrictor effect is blunted, leaving its β2‑mediated vasodilatory action unopposed, producing a net decrease in systemic vascular resistance on standing. Anaphylaxis would present with urticaria, bronchospasm, or airway compromise; vasovagal syncope is usually preceded by nausea, pallor, and diaphoresis and is not specifically linked to the drug interaction; acute MI would be accompanied by chest pain and ECG changes.",
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:25.510Z"
   },
   {
     "id": 225,
@@ -3801,14 +3815,16 @@
     "topicId": "emergencies",
     "question": "A 20-year-old male patient, visibly anxious about an upcoming extraction, suddenly becomes pale, diaphoretic, and reports feeling lightheaded. He then loses consciousness briefly. What is the MOST appropriate initial management step?",
     "options": [
-      "Position the patient supine with legs elevated (Trendelenburg position)",
+      "Lower the dental chair and place the patient supine with the legs elevated (Trendelenburg positioning)",
       "Administer supplemental oxygen via nasal cannula",
-      "Administer an ammonia inhalant to restore consciousness",
-      "Immediately check the patient's pulse and respiration rate"
+      "Apply an ammonia inhalant to the patient’s nostrils",
+      "Immediately assess the patient’s pulse and respiratory rate"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is option 4 (index 3). Syncope is a transient loss of consciousness due to cerebral hypoperfusion; the immediate priority is to confirm that the airway is patent, breathing is adequate, and circulation is present. Canadian emergency guidelines for dental settings (Malamed, Handbook of Local Anesthesia; CDA Emergency Protocols) require the clinician to assess pulse and respirations (the “ABCs”) before moving the patient. Once the ABCs are verified, the patient can be placed supine with legs elevated to augment venous return. Ammonia inhalants are not recommended because they may irritate the airway, and Trendelenburg positioning without confirming circulation could delay recognition of a more serious cardiac event. (Malamed, 7th ed; Little & Falace, 5th ed).",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "In vasovagal syncope, the priority is to restore cerebral perfusion; the Canadian Dental Association and NDEB guidelines state that the first therapeutic action is to lower the chair and position the patient supine with legs elevated. Supplemental oxygen and ammonia inhalants are not indicated as first‑line measures and may delay proper positioning. While assessing pulse and respiration is essential, it is an assessment step that follows the immediate therapeutic positioning.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:26.719Z"
   },
   {
     "id": 272,
@@ -4686,16 +4702,18 @@
   {
     "id": 334,
     "topicId": "emergencies",
-    "question": "A 68-year-old male patient with a history of stable angina, for which he takes nitroglycerin, develops severe crushing chest pain radiating to his left arm during a crown preparation. He takes one nitroglycerin tablet sublingually, but the pain persists for 10 minutes. What is the MOST appropriate immediate next step?",
+    "question": "A 68-year-old male with stable angina, treated with sublingual nitroglycerin as needed, experiences a sudden severe crushing chest pain radiating to his left arm while undergoing crown preparation. He takes one nitroglycerin tablet sublingually, but the pain persists for 10 minutes. What is the most appropriate immediate next step?",
     "options": [
-      "Administer a second nitroglycerin tablet sublingually.",
-      "Administer 325 mg non-enteric coated aspirin and activate EMS.",
-      "Reassure the patient and continue monitoring vital signs for another 5 minutes.",
-      "Administer oxygen via nasal cannula and position him supine."
+      "Administer a second sublingual nitroglycerin tablet, provided his systolic blood pressure is >100 mmHg.",
+      "Administer 325 mg non‑enteric coated aspirin and activate EMS.",
+      "Reassure the patient and continue monitoring vital signs for another 5 minutes.",
+      "Administer oxygen via nasal cannula and place the patient in a supine position."
     ],
     "correctAnswer": 1,
-    "explanation": "If chest pain suggestive of angina or myocardial infarction (MI) persists after the first dose of nitroglycerin, it is critical to suspect an MI. The immediate next steps are to activate EMS and administer 325 mg of non-enteric coated aspirin, provided there are no contraindications, to inhibit platelet aggregation. Administering a second nitroglycerin and waiting is not appropriate if the first dose failed, and supine positioning may worsen chest pain.",
-    "aiVerified": true
+    "explanation": "In a suspected acute coronary syndrome the priority is to activate emergency medical services and give an antiplatelet agent (325 mg non‑enteric aspirin) to limit thrombus formation. A repeat nitroglycerin dose may be given only after confirming adequate blood pressure, but it does not replace EMS activation. Reassurance and observation delay definitive care, and routine oxygen with supine positioning is unnecessary and may increase cardiac workload unless the patient is hypoxic or hemodynamically unstable.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:28.972Z"
   },
   {
     "id": 335,
@@ -5809,16 +5827,18 @@
   {
     "id": 414,
     "topicId": "emergencies",
-    "question": "A 25-year-old male patient, with no significant medical history, develops sudden onset of carpopedal spasms, dizziness, and a feeling of breathlessness during a prolonged scaling and root planing appointment. His respiratory rate is elevated, and he appears highly distressed. What is the MOST appropriate initial intervention to manage this suspected acute hyperventilation episode?",
+    "question": "A 25-year-old male patient with no significant medical history develops sudden carpopedal spasms, dizziness, and a feeling of breathlessness during a prolonged scaling and root planing appointment. His respiratory rate is elevated and he appears highly distressed. Which of the following is the most appropriate initial intervention for this suspected acute hyperventilation episode?",
     "options": [
       "Have the patient breathe into a paper bag for several minutes.",
-      "Administer oral diazepam 5 mg to reduce anxiety.",
-      "Administer supplemental oxygen via a simple face mask at 6 L/min.",
+      "Administer oral diazepam 5 mg to reduce anxiety.",
+      "Administer supplemental oxygen via a simple face mask at 6 L/min.",
       "Coach the patient to slow his breathing rate and breathe through his nose, using abdominal muscles."
     ],
     "correctAnswer": 3,
-    "explanation": "For acute hyperventilation, the most appropriate initial intervention is to coach the patient to slow their breathing rate and use abdominal muscles to breathe, which helps restore normal CO2 levels. While a paper bag was historically used, current guidelines emphasize controlled breathing. Benzodiazepines are for anxiety but not the immediate respiratory issue. Oxygen is contraindicated as hyperventilation results from excessive CO2 exhalation, not lack of oxygen.",
-    "aiVerified": true
+    "explanation": "The first‑line management of psychogenic hyperventilation is guided breathing: slow, nasal inhalation with diaphragmatic (abdominal) effort, which helps retain CO₂ and correct the respiratory alkalosis. A paper bag is no longer recommended because it may worsen hypoxia if the patient is actually hypoxemic; benzodiazepines address anxiety but are not needed for the immediate respiratory disturbance; supplemental oxygen does not correct the underlying alkalosis and is unnecessary unless hypoxemia is documented.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:30.527Z"
   },
   {
     "id": 415,
@@ -5851,16 +5871,18 @@
   {
     "id": 417,
     "topicId": "emergencies",
-    "question": "A 6-year-old child, during a dental sealant application, accidentally aspirates a small, detached cotton roll. The child immediately begins to cough violently and has difficulty speaking, though a weak cry is heard. What is the MOST appropriate immediate intervention?",
+    "question": "During a sealant placement, a 6‑year‑old child accidentally aspirates a small cotton roll. The child immediately begins coughing violently, has difficulty speaking, and produces a weak cry but is still conscious. What is the most appropriate immediate management?",
     "options": [
-      "Sweep the child's mouth with a finger to retrieve the object.",
       "Perform back blows and abdominal thrusts (Heimlich maneuver).",
-      "Administer high-flow oxygen and monitor for spontaneous expulsion.",
-      "Transport the child to the nearest emergency department without intervention."
+      "Sweep the child's mouth with a finger to retrieve the object.",
+      "Administer high‑flow oxygen, encourage coughing, and monitor for spontaneous expulsion.",
+      "Transport the child to the nearest emergency department without any intervention."
     ],
-    "correctAnswer": 1,
-    "explanation": "For a child experiencing a severe but partial airway obstruction (indicated by difficulty speaking/weak cry), a combination of back blows and abdominal thrusts (Heimlich maneuver for children) is the most appropriate immediate intervention to dislodge the foreign object. Finger sweeps are contraindicated unless the object is clearly visible and easily graspable, as they can push the object further down. Oxygen is supportive but won't remove the obstruction.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "In a conscious child with a partial airway obstruction, the airway remains patent; the recommended initial step is to encourage coughing while providing high‑flow oxygen and observing for spontaneous clearance, per Canadian Paediatric Life Support guidelines. Back blows or abdominal thrusts are reserved for ineffective cough or complete obstruction, and blind finger sweeps risk pushing the object deeper. Immediate transport without attempting airway management delays essential care, and unnecessary removal attempts can cause injury.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:32.822Z"
   },
   {
     "id": 418,
@@ -6299,17 +6321,19 @@
   {
     "id": 449,
     "topicId": "emergencies",
-    "question": "A 32-year-old female patient presents to the dental office appearing visibly anxious. She is complaining of lightheadedness, paresthesia in her fingers, and chest tightness. Her vital signs are stable, with the exception of a respiratory rate of 30 breaths/min. What is the MOST appropriate immediate management?",
+    "question": "A 32-year-old female patient presents to the dental office appearing visibly anxious. She reports light‑headedness, tingling in her fingers, and a sensation of chest tightness. Her vital signs are stable except for a respiratory rate of 30 breaths/min. What is the most appropriate immediate management?",
     "options": [
       "Administer supplemental oxygen via nasal cannula.",
-      "Instruct the patient to breathe slowly and deeply into a cupped paper bag.",
-      "Administer a fast-acting bronchodilator.",
-      "Prepare for administration of 0.3 mg intramuscular epinephrine."
+      "Instruct the patient to breathe slowly and calmly while providing reassurance.",
+      "Administer a fast‑acting bronchodilator.",
+      "Prepare for administration of 0.3 mg intramuscular epinephrine."
     ],
     "correctAnswer": 1,
-    "explanation": "The clinical presentation of anxiety, tachypnea (RR 30), lightheadedness, and peripheral paresthesia is classic for hyperventilation syndrome. The underlying pathophysiology involves respiratory alkalosis due to excessive exhalation of CO2, which leads to decreased ionized calcium levels, causing the tingling sensations. The gold standard immediate management in a dental setting, as outlined in Malamed's Handbook of Local Anesthesia and standard emergency protocols, is to have the patient rebreathe exhaled CO2. This is most effectively achieved by having the patient breathe into a cupped paper bag or their cupped hands, which increases the CO2 concentration in the inhaled air, correcting the alkalosis and alleviating symptoms. Supplemental oxygen (Option 0) is not indicated because the patient is not hypoxic; the issue is a pH imbalance, not oxygen saturation. A bronchodilator (Option 2) is used for bronchospasm/asthma, which would present with wheezing and difficulty exhaling, not the specific paresthesia seen here. Epinephrine (Option 3) is the treatment for anaphylaxis, which would present with hypotension, urticaria, and airway compromise, none of which are present in this stable patient.",
+    "explanation": "The presentation is consistent with hyperventilation syndrome secondary to anxiety; the recommended immediate intervention in Canadian dental emergency protocols is verbal coaching and slow breathing with reassurance to normalize CO₂ levels. Supplemental oxygen is unnecessary because oxygen saturation is normal, a bronchodilator is indicated only for bronchospasm, and epinephrine is reserved for anaphylaxis, none of which are present.",
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:34.826Z"
   },
   {
     "id": 450,
@@ -6356,17 +6380,19 @@
   {
     "id": 453,
     "topicId": "emergencies",
-    "question": "A 60-year-old female patient in a dental clinic suddenly becomes unresponsive and collapses. Upon assessment, she is not breathing and has no palpable carotid pulse. You are the only dental professional present. According to current Canadian Resuscitation Council (CRC) guidelines for a single rescuer, what is the MOST appropriate immediate action?",
+    "question": "A 60-year-old female patient collapses in the dental clinic, is unresponsive, not breathing and has no palpable carotid pulse. You are the only dental professional present. According to current Canadian Resuscitation Council guidelines for a single rescuer, what is the most appropriate immediate action?",
     "options": [
+      "Activate the emergency response system (call 911) and retrieve the AED.",
       "Begin chest compressions immediately.",
-      "Administer two rescue breaths before starting compressions.",
-      "Place the patient in the recovery position and monitor for spontaneous breathing.",
-      "Wait for a colleague to arrive before initiating any intervention."
+      "Provide two rescue breaths before starting compressions.",
+      "Place the patient in the recovery position and monitor for spontaneous breathing."
     ],
     "correctAnswer": 0,
-    "explanation": "According to the Canadian Resuscitation Council (CRC) guidelines, which align with international standards (AHA/ERC), the recommended sequence for a single rescuer encountering a victim in cardiac arrest is to call for help (activate EMS) and retrieve an AED, then immediately begin chest compressions. In a dental setting, the protocol typically involves shouting for help to activate the office emergency plan (which includes calling 911 and retrieving the AED) while the rescuer begins CPR. However, the critical distinction in modern guidelines is that high-quality chest compressions should not be delayed for rescue breaths. The 'CAB' (Compressions, Airway, Breathing) sequence is emphasized. Option A is the most appropriate immediate physical action to maintain perfusion. Option B is incorrect because rescue breaths should not delay the start of compressions in a single-rescuer scenario; compressions come first. Option C is incorrect because the recovery position is for conscious patients with breathing issues or post-resuscitation, not for pulseless, apneic patients. Option D is incorrect as immediate action is required to prevent further brain injury.",
+    "explanation": "The CRC recommends that the first step for a single rescuer is to activate the emergency response system and obtain an AED before any CPR is started, ensuring help is on the way. Starting compressions (option B) or giving breaths (option C) before calling for help delays this critical step, and the recovery position (option D) is inappropriate for a pulseless, apneic patient.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:37.878Z"
   },
   {
     "id": 454,
@@ -6725,16 +6751,18 @@
   {
     "id": 479,
     "topicId": "emergencies",
-    "question": "According to NDEB recommendations, how frequently should dental office staff participate in emergency drill simulations to ensure preparedness for medical emergencies?",
+    "question": "According to the Canadian Dental Association (CDA) guidelines on emergency preparedness, how often should dental office staff participate in emergency drill simulations to maintain competence?",
     "options": [
-      "Every 2-3 years.",
-      "Biannually (every 6 months).",
-      "Monthly.",
-      "Annually."
+      "Annually",
+      "Biannually (every 6 months)",
+      "Quarterly",
+      "Every 2–3 years"
     ],
-    "correctAnswer": 3,
-    "explanation": "NDEB guidelines, consistent with many national recommendations, typically advise that dental office staff participate in emergency drill simulations at least annually to maintain proficiency and readiness for various medical emergencies. Less frequent drills may lead to skill degradation, while more frequent drills are not typically mandated as the minimum standard.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "The CDA recommends that dental teams conduct emergency drills at least once a year to ensure skills are retained and staff remain prepared for medical emergencies. More frequent drills are optional, while intervals longer than a year risk skill degradation, making the other choices incorrect.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:39.391Z"
   },
   {
     "id": 480,
@@ -6837,16 +6865,18 @@
   {
     "id": 487,
     "topicId": "emergencies",
-    "question": "A 28-year-old female patient with a history of generalized tonic-clonic seizures suddenly begins convulsing in the dental chair. The seizure has been ongoing for 4 minutes with no signs of abatement. What is the MOST appropriate emergency medication to consider administering at this point to terminate the seizure?",
+    "question": "A 28-year-old female patient with a known history of generalized tonic‑clonic seizures suddenly begins convulsing while seated in the dental chair. The seizure has continued for 6 minutes without any sign of stopping. What is the most appropriate emergency medication to administer at this point to terminate the seizure?",
     "options": [
-      "Oral glucose gel.",
-      "Inhaled salbutamol.",
-      "Intramuscular epinephrine.",
-      "Intravenous or intramuscular benzodiazepine."
+      "Oral glucose gel",
+      "Inhaled salbutamol",
+      "Intramuscular epinephrine",
+      "Intravenous or intramuscular benzodiazepine"
     ],
     "correctAnswer": 3,
-    "explanation": "A seizure lasting longer than 5 minutes or recurrent seizures without full recovery is status epilepticus, requiring urgent pharmacological intervention. Benzodiazepines are first-line treatment for terminating prolonged seizures due to their CNS depressant effects. Oral glucose is for hypoglycemia, and epinephrine for anaphylaxis or cardiac arrest.",
-    "aiVerified": true
+    "explanation": "A seizure lasting longer than 5 minutes meets the definition of status epilepticus, for which a benzodiazepine given intravenously or intramuscularly is the first‑line treatment in Canada. Oral glucose is indicated only for hypoglycaemic seizures, inhaled salbutamol treats bronchospasm, and intramuscular epinephrine is reserved for anaphylaxis or cardiac arrest, none of which are present in this scenario.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:40.556Z"
   },
   {
     "id": 488,

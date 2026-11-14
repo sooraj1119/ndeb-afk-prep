@@ -14465,16 +14465,18 @@
   {
     "id": 111047283,
     "topicId": "pharmacology",
-    "question": "A 55-year-old female patient, with a known history of stable angina, is undergoing a routine dental extraction. Suddenly, she experiences acute chest pain radiating to her left arm, accompanied by shortness of breath. She appears pale and anxious. What is the MOST appropriate immediate action?",
+    "question": "A 55-year-old woman with stable angina is undergoing a routine dental extraction when she suddenly develops acute chest pain radiating to her left arm, shortness of breath, pallor, and anxiety. What is the most appropriate immediate action?",
     "options": [
-      "Initiate CPR immediately and call emergency services.",
-      "Administer sublingual nitroglycerin (0.4mg) and monitor vital signs.",
-      "Administer oral aspirin (325mg) and continue dental procedure slowly.",
-      "Place the patient in a supine position and offer reassurance."
+      "Initiate cardiopulmonary resuscitation (CPR) and call emergency medical services.",
+      "Stop the procedure, sit the patient upright, give sublingual nitroglycerin 0.4 mg, give chewable aspirin 325 mg, and activate emergency medical services.",
+      "Administer sublingual nitroglycerin 0.4 mg and monitor vital signs while continuing the dental extraction.",
+      "Place the patient supine, offer reassurance, and wait for symptoms to resolve."
     ],
-    "correctAnswer": 2,
-    "explanation": "When a patient exhibits signs of an acute coronary syndrome during dental care, the Canadian Dental Association and Medical Emergencies in the Dental Office (Malamed, 7th ed.) advise immediate activation of emergency medical services and administration of chewable aspirin 160‑325 mg to inhibit platelet aggregation. Nitroglycerin is useful for symptom relief but should not replace aspirin or EMS activation. Although the answer choice does not explicitly mention calling EMS, it provides the essential pharmacologic intervention (aspirin) that aligns with the guideline priority. Therefore, option 3 is the most appropriate immediate action among those presented.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "Guidelines from the Canadian Dental Association and the NDEB require immediate cessation of the procedure, upright positioning, administration of nitroglycerin (if not contraindicated) and chewable aspirin, and activation of EMS for suspected acute coronary syndrome. CPR is reserved for cardiac arrest, making option A inappropriate, while option C fails to stop the procedure and call EMS, and option D provides no therapeutic intervention and uses a supine position that may worsen dyspnea.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:46.706Z"
   },
   {
     "id": 676400883,

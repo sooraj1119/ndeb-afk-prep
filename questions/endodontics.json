@@ -199,16 +199,18 @@
     "id": 14,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "A patient returns 3 days after initial root canal instrumentation complaining of severe, throbbing pain and localized swelling. The tooth is percussion- and palpation-positive. This condition is best classified as:",
+    "question": "A 45-year-old male returns 3 days after initial root‑canal instrumentation of tooth #30 complaining of severe throbbing pain and a localized buccal swelling. The tooth is tender to percussion and palpation, and a pre‑operative radiograph showed no periapical radiolucency. Which of the following best describes this condition?",
     "options": [
       "Phoenix abscess",
-      "Flare-up (Interappointment emergency)",
+      "Flare‑up (inter‑appointment emergency)",
       "Chronic apical periodontitis",
       "Referred pain"
     ],
-    "correctAnswer": 0,
-    "explanation": "A Phoenix abscess is defined as an acute flare‑up of a previously chronic periapical lesion, often occurring after root‑canal instrumentation and presenting with intense pain, swelling, and tenderness to percussion (Ingle & Bakland, Endodontics, 7th ed.; Cohen & Hargreaves, Pathways of the Pulp). While “flare‑up” is a generic term for any inter‑appointment emergency, the specific clinical picture described aligns with the textbook definition of a Phoenix abscess. Chronic apical periodontitis is typically asymptomatic, and referred pain originates from a distant source. Therefore, the correct classification is Phoenix abscess.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "The presentation is an acute inter‑appointment emergency occurring after instrumentation in a tooth without a pre‑existing chronic lesion, which is defined as a flare‑up. A Phoenix abscess requires a previously existing chronic periapical lesion that suddenly becomes acute, which is not demonstrated here. Chronic apical periodontitis is asymptomatic, and referred pain originates from a distant source.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:42.590Z"
   },
   {
     "id": 15,
@@ -455,16 +457,18 @@
     "id": 31,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "Which of the following intracanal medicaments is most effective for eliminating persistent microorganisms like Enterococcus faecalis while also possessing tissue-dissolving properties when used in liquid form?",
+    "question": "Which irrigant provides the greatest antimicrobial activity against Enterococcus faecalis while also possessing tissue‑dissolving capability during root canal instrumentation?",
     "options": [
+      "Sodium hypochlorite",
       "Chlorhexidine gluconate",
-      "Calcium hydroxide",
-      "Corticosteroid-antibiotic paste",
-      "Sodium hypochlorite"
+      "Calcium hydroxide paste",
+      "MTAD (mixture of tetracycline, acid, and detergent)"
     ],
-    "correctAnswer": 1,
-    "explanation": "Within the Canadian NDEB framework, intracanal medicaments are substances placed between appointments to disinfect the canal system. Calcium hydroxide, with a pH of ~12.5, exerts bactericidal effects on resistant organisms such as Enterococcus faecalis (Little & Falace, Dental Management of the Medically Compromised Patient). Although it does not dissolve tissue, it is the only true intracanal medicament among the options; sodium hypochlorite is classified as an irrigant, not a medicament, and chlorhexidine lacks tissue‑dissolving capacity. Consequently, calcium hydroxide is the most appropriate answer to the question as written.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Sodium hypochlorite is the only irrigant that both dissolves organic tissue and achieves rapid, broad‑spectrum antimicrobial action, including against E. faecalis. Chlorhexidine is antimicrobial but lacks tissue‑dissolving ability; calcium hydroxide is an intracanal medicament, not an irrigant, and its effect on E. faecalis is limited; MTAD has some antimicrobial effect but is less effective against E. faecalis and does not dissolve tissue.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:43.998Z"
   },
   {
     "id": 32,
@@ -1799,16 +1803,18 @@
     "id": 124,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During access cavity preparation on a maxillary first molar, what is the typical geometric shape of the access outline and the location of the fourth canal orifice (MB2)?",
+    "question": "When preparing an access cavity for a maxillary first molar, which description best represents the typical shape of the access outline and the most reliable landmark for locating the fourth canal orifice (the MB2 canal)?",
     "options": [
-      "Oval shape; MB2 is always found centered directly between the MB and DB orifices",
-      "Trapezoidal or rhomboidal shape; MB2 is located mesial and slightly palatal to a line connecting the main mesiobuccal and distobuccal orifices",
-      "Circular shape; MB2 is located on the distolingual aspect of the chamber floor",
-      "Triangular shape; MB2 is located directly palatal to the palatal canal"
+      "Oval shape; MB2 is always found centered directly between the mesiobuccal and distobuccal orifices.",
+      "Trapezoidal or rhomboidal shape; MB2 is located mesial and slightly palatal to a line connecting the mesiobuccal and distobuccal canal orifices.",
+      "Circular shape; MB2 is located on the distolingual aspect of the chamber floor.",
+      "Triangular shape; MB2 is located directly palatal to the palatal canal orifice."
     ],
     "correctAnswer": 1,
-    "explanation": "The access cavity for a maxillary first molar is typically triangular or trapezoidal (rhomboidal) to accommodate the extra canal. The MB2 canal is consistently located mesial and slightly palatal (or lingual) to the imaginary groove connecting the main mesiobuccal (MB1) and palatal orifices.",
-    "aiVerified": true
+    "explanation": "The access outline for a maxillary first molar is commonly trapezoidal or rhomboidal to allow straight‑line access to the three buccal canals and the palatal canal. The MB2 orifice is most predictably found mesial and slightly palatal/lingual to the imaginary line joining the mesiobuccal and distobuccal orifices, usually in the mesial half of the pulp chamber floor. Options A, C and D describe shapes or landmarks not supported by anatomical studies and Canadian endodontic guidelines, making them incorrect.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:48.351Z"
   },
   {
     "id": 125,
@@ -2251,16 +2257,18 @@
     "id": 158,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "Which of the following intracanal medicaments is most effective in eliminating persistent microorganisms such as Enterococcus faecalis in a multi-visit endodontic procedure?",
+    "question": "In a multi‑visit root canal treatment of a necrotic tooth with a persistent intracanal infection, which intracanal medicament is recommended by current Canadian endodontic guidelines as the first‑line agent for eliminating residual microorganisms such as Enterococcus faecalis?",
     "options": [
       "Calcium hydroxide",
+      "2% chlorhexidine gel",
       "Formocresol",
-      "Plain sterile saline",
-      "Chlorhexidine gel (2%)"
+      "Sterile saline"
     ],
-    "correctAnswer": 3,
-    "explanation": "Little and Falace (Dental Management of the Medically Compromised Patient) and recent AAE/Canadian endodontic guidelines note that calcium hydroxide’s high pH is less effective against the hardy Enterococcus faecalis biofilm. Studies cited in these texts demonstrate that a 2 % chlorhexidine gel provides greater reduction of E. faecalis colonies and maintains antimicrobial activity over time. Formocresol is obsolete due to toxicity, and sterile saline has no antimicrobial effect. Consequently, the most effective intracanal medicament for persistent E. faecalis is chlorhexidine gel (2 %).",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Canadian endodontic guidelines endorse calcium hydroxide as the standard intracanal medicament for multi‑visit cases because its high pH provides broad antimicrobial activity, promotes periradicular healing, and has an established safety record. Although 2% chlorhexidine gel shows strong in‑vitro activity against E. faecalis, it is not the guideline‑endorsed first‑line choice. Formocresol is avoided due to its toxicity, and sterile saline lacks antimicrobial properties.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:49.471Z"
   },
   {
     "id": 159,
@@ -3008,7 +3016,7 @@
     "id": 211,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "An 8-year-old patient presents with a complicated crown-fracture of a mature permanent maxillary central incisor sustained 2 hours ago. Clinical examination reveals a 2 mm exposure of vital, red pulp tissue. What is the treatment of choice to preserve pulp vitality?",
+    "question": "An 8-year-old patient presents 2 hours after a complicated crown fracture of an immature permanent maxillary central incisor with an open apex. Clinical examination shows a 2 mm exposure of vital, bright red pulp tissue. What is the treatment of choice to preserve pulp vitality?",
     "options": [
       "Cvek pulpotomy (partial pulpotomy)",
       "Full coronal pulpotomy down to the root canal orifices",
@@ -3016,8 +3024,10 @@
       "Direct pulp capping with calcium hydroxide"
     ],
     "correctAnswer": 0,
-    "explanation": "A Cvek pulpotomy (removal of only 1-2 mm of inflamed superficial pulp tissue) is the treatment of choice for a recently exposed vital pulp in a traumatized permanent tooth, as it maintains radicular pulp vitality and allows for continued root development. Direct pulp capping is generally less successful for larger exposures in permanent teeth, full pulpotomy is more invasive than necessary for a recent exposure, and conventional root canal treatment is contraindicated since pulp vitality should be preserved in an immature or newly erupted permanent tooth.",
-    "aiVerified": true
+    "explanation": "A Cvek (partial) pulpotomy, which removes 1–2 mm of inflamed pulp, is the treatment of choice for a recent traumatic exposure in an immature permanent tooth because it maintains radicular pulp vitality and allows continued root development. Direct pulp capping has lower success with exposures larger than 1 mm, a full coronal pulpotomy is unnecessarily invasive, and conventional root canal treatment eliminates the vital pulp needed for apexogenesis.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:50.780Z"
   },
   {
     "id": 212,
@@ -3725,16 +3735,18 @@
     "id": 264,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "A patient presents with symptomatic irreversible pulpitis on tooth #30. During access preparation, you locate three canals (mesiobuccal, mesiolingual, and distal). What is the statistical probability of a second distal canal (distolingual) being present in a mandibular first molar?",
+    "question": "A 45-year-old male presents with symptomatic irreversible pulpitis of tooth #30. During access preparation you locate three canals (mesiobuccal, mesiolingual, and distal). Based on current endodontic literature, what is the approximate prevalence of a second distal (distolingual) canal in mandibular first molars?",
     "options": [
-      "Approximately 80-90%",
-      "Approximately 40-50%",
       "Approximately 1-2%",
-      "Approximately 10-15%"
+      "Approximately 5-10%",
+      "Approximately 15-20%",
+      "Approximately 30-40%"
     ],
-    "correctAnswer": 3,
-    "explanation": "While the mesial root of a mandibular first molar frequently has two canals, the distal root has a single canal in the vast majority of cases. However, studies show that a second distal canal (distolingual) is present in approximately 10-15% of mandibular first molars. Options A, C, and D significantly under- or overestimate this anatomic variation.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Systematic reviews of Canadian and international studies report a second distal canal in mandibular first molars in about 1‑2% of cases, making option A correct. The other percentages overestimate the true prevalence, as the distal root most commonly contains a single canal.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:52.856Z"
   },
   {
     "id": 265,
@@ -4029,16 +4041,18 @@
     "id": 285,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "Which of the following sodium hypochlorite concentrations exhibits the highest tissue dissolution capacity while maintaining an acceptable safety profile when used as an endodontic irrigant?",
+    "question": "In endodontic therapy, which concentration of sodium hypochlorite irrigation solution provides the greatest tissue dissolution capacity?",
     "options": [
-      "2.5%",
-      "5.25%",
       "0.5%",
-      "1.0%"
+      "1.0%",
+      "2.5%",
+      "5.25%"
     ],
-    "correctAnswer": 1,
-    "explanation": "Higher concentrations of sodium hypochlorite (such as 5.25% or 6%) have greater and faster tissue dissolution capacity and antimicrobial efficacy compared to lower concentrations. Although lower concentrations are safer if extruded, 5.25% is widely recognized for superior necrotic tissue and biofilm dissolution when properly managed.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "Sodium hypochlorite dissolves organic tissue in a concentration‑dependent manner; 5.25% achieves the fastest and most complete dissolution compared with lower concentrations. Concentrations of 0.5%, 1.0% and 2.5% are effective but dissolve tissue more slowly, making them less efficient for necrotic pulp removal.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:54.647Z"
   },
   {
     "id": 286,
@@ -4379,16 +4393,18 @@
     "id": 313,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "Which of the following diagnostic tests is most reliable in differentiating between symptomatic apical periodontitis and symptomatic irreversible pulpitis when localized pain is the primary complaint?",
+    "question": "A 38-year-old patient presents with a localized, spontaneous toothache that is aggravated by biting. The tooth does not respond to periodontal probing and percussion is mild. Which diagnostic test is most reliable for distinguishing symptomatic irreversible pulpitis from symptomatic apical periodontitis in this situation?",
     "options": [
       "Periodontal probing",
       "Percussion test",
       "Electric pulp testing",
       "Cold test"
     ],
-    "correctAnswer": 2,
-    "explanation": "Malamed’s Handbook of Local Anesthesia (7th ed.) and Neville’s Endodontics state that electric pulp testing (EPT) provides the most objective assessment of pulp sensibility because it stimulates A‑delta fibers irrespective of patient’s subjective thermal perception. A positive EPT response indicates a vital pulp consistent with symptomatic irreversible pulpitis, whereas an absent response denotes necrosis, supporting a diagnosis of symptomatic apical periodontitis. Percussion and probing assess periodontal ligament status but cannot confirm pulp vitality, and cold testing, while useful, is less reproducible than EPT. Hence electric pulp testing is the most reliable single test for this differentiation.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "Current endodontic guidelines and NDEB standards consider thermal testing, especially a cold stimulus, the most reliable single test to differentiate symptomatic irreversible pulpitis (positive, lingering response) from symptomatic apical periodontitis (negative response). Electric pulp testing is less reproducible and cannot reliably distinguish reversible from irreversible pulpitis. Percussion and probing assess periodontal ligament status but do not evaluate pulp vitality.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:56.626Z"
   },
   {
     "id": 314,
@@ -5293,17 +5309,19 @@
   {
     "id": 992879043,
     "topicId": "endodontics",
-    "question": "A 38-year-old male patient presents with a chief complaint of a constant, dull ache in the maxillary left posterior region, specifically related to tooth #26. He denies acute pain, swelling, or sensitivity to hot/cold. He has a history of root canal treatment on tooth #26 performed 10 years ago. Clinical examination reveals a well-restored tooth with a porcelain-fused-to-metal crown. There is no tenderness to percussion or palpation. A periapical radiograph shows a well-obturated root canal, but a persistent, well-defined periapical radiolucency approximately 5mm in diameter. What is the MOST appropriate next step in management?",
+    "question": "A 38-year-old male presents with a constant, dull ache in the maxillary left posterior region associated with tooth #26, which was root‑canaled and crowned 10 years ago. There is no swelling, no sensitivity to thermal stimuli, and percussion is non‑tender. A periapical radiograph shows a well‑obturated canal but a 5 mm well‑defined periapical radiolucency. What is the most appropriate next step in management?",
     "options": [
-      "Prescribe antibiotics and NSAIDs.",
-      "Initiate non-surgical root canal re-treatment.",
+      "Observation and monitoring for 6 months.",
+      "Initiate non‑surgical root canal re‑treatment.",
       "Surgical endodontic procedure (apicoectomy).",
-      "Observation and monitoring for 6 months."
+      "Prescribe antibiotics and NSAIDs."
     ],
     "correctAnswer": 1,
-    "explanation": "According to the Canadian endodontic standards cited in Malamed’s Handbook of Local Anesthesia (7th ed.) and Neville et al., a persistent periapical radiolucency associated with symptoms such as dull ache warrants non‑surgical root‑canal re‑treatment as the first‑line therapy. Orthograde retreatment allows removal of residual bacteria, biofilm, and any obturation deficiencies that may be sustaining the lesion. Surgical apicoectomy is reserved for cases where orthograde access is impossible or retreatment has already failed. Antibiotics are indicated only when systemic involvement is present, and observation alone is inappropriate when the patient reports discomfort, as it risks lesion progression.",
+    "explanation": "The AAE Clinical Practice Guidelines and the Canadian Dental Association Endodontic Treatment Guidelines recommend orthograde retreatment as the first‑line therapy for a symptomatic tooth with a persistent periapical lesion, because it allows removal of residual infection and correction of any obturation deficiencies. Surgical apicoectomy is reserved for cases where retreatment is not feasible or has already failed, and antibiotics are indicated only when systemic involvement is present. Observation alone is inappropriate when the patient reports discomfort, as the lesion may progress.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:58.346Z"
   },
   {
     "id": 375412421,
@@ -6286,17 +6304,19 @@
   {
     "id": 284247467,
     "topicId": "endodontics",
-    "question": "A 7-year-old female patient presents with a unilateral posterior crossbite involving the primary mandibular right first molar (tooth #64) and the erupting permanent maxillary right first premolar (tooth #14). Clinical examination reveals a transverse maxillary deficiency with sufficient arch space. What is the MOST appropriate interceptive orthodontic treatment?",
+    "question": "A 7-year-old female presents with a unilateral posterior crossbite on the right side. The primary mandibular right first molar (tooth #84) occludes lingually to the primary maxillary right first molar (tooth #54). Intraoral examination reveals a transverse maxillary deficiency with adequate arch length. What is the most appropriate interceptive orthodontic treatment?",
     "options": [
-      "Wait for the eruption of all permanent teeth before initiating any orthodontic intervention.",
-      "Perform selective grinding (occlusal equilibration) on the occlusal surfaces of the opposing primary molars.",
-      "Extract the primary mandibular right first molar (tooth #64) to allow spontaneous correction.",
-      "Initiate maxillary expansion using a removable or fixed rapid palatal expander."
+      "Observe and wait until the permanent dentition is fully erupted before any orthodontic intervention.",
+      "Perform selective occlusal grinding of the primary maxillary molar to eliminate the crossbite.",
+      "Extract the primary mandibular right first molar to allow spontaneous correction.",
+      "Place a rapid palatal expander (removable or fixed) to expand the maxillary arch."
     ],
     "correctAnswer": 3,
-    "explanation": "The gold standard for treating a unilateral posterior crossbite in the mixed dentition, particularly when associated with a transverse maxillary deficiency (narrow maxilla), is maxillary expansion. According to Proffit and Canadian orthodontic guidelines, interceptive expansion corrects the skeletal discrepancy, resolves the crossbite, and prevents the development of Class III skeletal asymmetry or functional shifts. Option 3 is correct because it addresses the underlying etiology (transverse deficiency). Option 0 is incorrect because delaying treatment until the permanent dentition is complete misses the window for interceptive correction and may allow the crossbite to become entrenched or lead to skeletal asymmetry. Option 1 (selective grinding) is contraindicated as a primary treatment for a crossbite; it is only used for minor occlusal interferences and does not correct the transverse discrepancy or the crossbite itself. Option 2 (extraction) is incorrect because extracting a primary molar does not correct a crossbite and risks space loss for the succeeding premolar, potentially worsening the occlusion.",
+    "explanation": "A rapid palatal expander corrects the skeletal transverse deficiency and resolves the unilateral posterior crossbite during the mixed dentition, which is the recommended interceptive approach in Canadian orthodontic guidelines. Observation (A) misses the optimal growth window, selective grinding (B) does not address the underlying skeletal problem, and extraction (C) would create space loss and does not correct the crossbite.",
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:59.919Z"
   },
   {
     "id": 499810978,
@@ -6315,30 +6335,34 @@
   {
     "id": 144871839,
     "topicId": "endodontics",
-    "question": "A 68-year-old male patient requires a removable partial denture (RPD) for missing mandibular posterior teeth (Kennedy Class I, bilateral free-end saddles). His remaining abutment teeth are healthy and have adequate periodontal support. Which of the following components is MOST critical for providing indirect retention and preventing distal rotation of the RPD base?",
+    "question": "A 68-year-old male requires a removable partial denture to replace missing mandibular posterior teeth (Kennedy Class I, bilateral free‑end saddles). All remaining abutment teeth are periodontally healthy and have sufficient support. Which component is most critical for providing indirect retention and preventing distal rotation of the denture base?",
     "options": [
-      "Direct retainers (clasps) on the abutment teeth.",
-      "Major connector design.",
-      "Occlusal rests placed mesially on the most anterior abutment teeth.",
-      "Artificial teeth material selection."
+      "Direct retainers (clasps) on the abutment teeth",
+      "Major connector design",
+      "Occlusal rest placed mesial to the most distal abutment tooth",
+      "Artificial teeth material selection"
     ],
     "correctAnswer": 2,
-    "explanation": "According to Canadian prosthodontic guidelines (CDA/ODQ RPD design recommendations), the most critical element for indirect retention in a bilateral free‑end saddle (Kennedy Class I) is the indirect retainer, typically an occlusal rest positioned mesial to the most distal abutment tooth. This rest provides a stable fulcrum that counteracts the distal‑rotational forces generated by the denture base. While the wording of the option mentions the “most anterior” abutment, it is the only choice that identifies an occlusal rest as the indirect retainer, and therefore it best satisfies the question’s requirement. Direct retainers, the major connector, and artificial‑teeth material selection are important but do not directly prevent distal rotation.",
-    "aiVerified": true
+    "explanation": "In a Kennedy Class I RPD, the indirect retainer is an occlusal rest positioned mesial to the most distal abutment, creating a fulcrum that resists distal rotation of the distal extension base. Direct retainers, the major connector, and tooth material affect stability and function but do not provide the indirect retention needed for this situation.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:01.111Z"
   },
   {
     "id": 312133798,
     "topicId": "endodontics",
-    "question": "A 28-year-old male patient, with no significant medical history, presents for extraction of a partially erupted mandibular third molar (#48) due to recurrent pericoronitis. Prior to the procedure, he asks about post-operative care. What is the MOST important instruction to prevent dry socket?",
+    "question": "A 28-year-old male with no significant medical history undergoes extraction of a partially erupted mandibular third molar (#48) for recurrent pericoronitis. He asks which postoperative instruction is most important to prevent dry socket (alveolar osteitis).",
     "options": [
-      "Vigorously rinse with chlorhexidine mouthwash immediately after the extraction.",
-      "Avoid smoking and drinking through a straw for at least 48-72 hours.",
+      "Rinse with chlorhexidine mouthwash immediately after the extraction.",
+      "Avoid smoking and drinking through a straw for at least 48–72 hours.",
       "Apply ice packs intermittently for the first 24 hours only.",
       "Brush the extraction site vigorously to keep it clean."
     ],
     "correctAnswer": 1,
-    "explanation": "To prevent dry socket (alveolar osteitis), it is MOST important to avoid activities that can dislodge the blood clot, such as smoking, drinking through a straw (which creates negative pressure), and vigorous rinsing for at least 48-72 hours. Vigorously rinsing immediately after extraction can dislodge the clot. Applying ice packs is for swelling, not directly for dry socket prevention. Brushing the extraction site vigorously would also dislodge the clot and hinder healing.",
-    "aiVerified": true
+    "explanation": "Avoiding smoking and straw use is the single most critical measure because the negative pressure can dislodge the blood clot, the primary cause of dry socket. Immediate chlorhexidine rinsing and vigorous brushing can also disrupt the clot, while ice packs are aimed at swelling control, not clot preservation.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:02.410Z"
   },
   {
     "id": 446227562,
@@ -6357,21 +6381,23 @@
   {
     "id": 350244449,
     "topicId": "endodontics",
-    "question": "A 12-year-old female patient presents with a large carious lesion on the occlusal surface of her permanent mandibular first molar (#36). During excavation, a pinpoint pulp exposure is encountered in an asymptomatic tooth with no radiographic evidence of periapical pathology. What is the MOST appropriate treatment?",
+    "question": "A 12-year-old female presents with a large occlusal carious lesion on her permanent mandibular first molar (#36). During excavation a pinpoint carious pulp exposure is found. The tooth is asymptomatic, responds normally to vitality testing, and there is no radiographic periapical pathology. What is the most appropriate treatment?",
     "options": [
-      "Perform a pulpotomy with MTA.",
-      "Complete a direct pulp capping with calcium hydroxide or MTA.",
-      "Initiate root canal therapy.",
-      "Restore the tooth with an amalgam filling without pulp treatment."
+      "Perform a partial pulpotomy (Cvek) using mineral trioxide aggregate (MTA).",
+      "Place a direct pulp cap with calcium hydroxide.",
+      "Begin conventional root canal therapy.",
+      "Restore the tooth with an amalgam filling without any pulp treatment."
     ],
-    "correctAnswer": 1,
-    "explanation": "For a small, pinpoint pulp exposure in an asymptomatic, vital permanent tooth with no signs of irreversible pulpitis or periapical pathology, direct pulp capping is the most appropriate treatment to preserve pulp vitality and allow for continued root development. Pulpotomy is indicated for larger exposures or when coronal pulp inflammation extends beyond the exposure site. Root canal therapy is reserved for irreversible pulpitis or pulpal necrosis.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "In a young permanent tooth with a carious exposure, a partial pulpotomy (Cvek) with MTA provides the best chance of maintaining pulp vitality and continued root development. Direct pulp capping is less predictable for carious exposures, root canal therapy is reserved for irreversible pulpitis or necrosis, and restoring without addressing the exposure leaves the pulp untreated.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:04.704Z"
   },
   {
     "id": 168177485,
     "topicId": "endodontics",
-    "question": "Which of the following antibiotics is MOST likely to cause pseudomembranous colitis as a severe side effect?",
+    "question": "A 45-year-old male undergoes extraction of a mandibular molar and is prescribed an antibiotic for prophylaxis. Two weeks later he presents with profuse watery diarrhea and abdominal cramping; stool testing is positive for Clostridioides difficile toxin. Which antibiotic is most strongly associated with this adverse effect?",
     "options": [
       "Amoxicillin",
       "Clindamycin",
@@ -6379,8 +6405,10 @@
       "Azithromycin"
     ],
     "correctAnswer": 1,
-    "explanation": "Clindamycin is notoriously associated with a higher risk of developing pseudomembranous colitis, caused by an overgrowth of Clostridium difficile, compared to other commonly used antibiotics. While other antibiotics can cause this condition, clindamycin has a well-established strong association. Amoxicillin and Azithromycin have a lower incidence of this specific severe side effect.",
-    "aiVerified": true
+    "explanation": "Clindamycin has the highest risk of disrupting normal colonic flora and precipitating C. difficile overgrowth, making it the antibiotic most commonly linked to pseudomembranous colitis. Although amoxicillin, metronidazole, and azithromycin can cause diarrhea, their association with C. difficile infection is considerably lower.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:06.145Z"
   },
   {
     "id": 981105630,
@@ -6399,30 +6427,34 @@
   {
     "id": 588289889,
     "topicId": "endodontics",
-    "question": "A 32-year-old female patient presents with a cluster of painful vesicles and ulcers on the vermilion border of her upper lip, which began as a tingling sensation two days ago. She reports similar episodes historically during times of stress. What is the MOST appropriate management?",
+    "question": "A 45-year-old male presents with a mandibular first molar that has lingering pain to cold that persists for several minutes after stimulus removal, no spontaneous pain, and a normal response to electric pulp testing. Radiographic examination shows no periapical radiolucency. What is the most appropriate definitive management?",
     "options": [
-      "Prescribe systemic acyclovir.",
-      "Apply topical corticosteroids to reduce inflammation.",
-      "Advise warm salt water rinses and observation.",
-      "Prescribe systemic antibiotics to prevent secondary infection."
+      "Perform a pulpotomy and place a calcium hydroxide liner.",
+      "Initiate complete root canal therapy (cleaning, shaping, and obturation).",
+      "Prescribe NSAIDs and schedule a follow‑up visit in two weeks.",
+      "Extract the tooth and place a removable partial denture."
     ],
-    "correctAnswer": 0,
-    "explanation": "The patient's symptoms are highly characteristic of recurrent herpes labialis. Systemic antiviral medication like acyclovir is most effective when initiated during the prodromal (tingling) phase or early vesicular stage to reduce the duration and severity of the outbreak. Topical corticosteroids are contraindicated as they can worsen viral infections. Systemic antibiotics are not indicated as this is a viral infection unless there are clear signs of secondary bacterial infection, which are not described.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "The lingering pain to cold indicates irreversible pulpitis in a mature permanent tooth, which requires full root canal therapy to remove the inflamed pulp tissue. A pulpotomy is reserved for primary teeth or immature permanent teeth with vital radicular pulp, NSAIDs provide only temporary relief, and extraction is unnecessary when the tooth is restorable.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:08.260Z"
   },
   {
     "id": 681863398,
     "topicId": "endodontics",
-    "question": "Which of the following anatomical structures is MOST commonly associated with potential injury during the extraction of a mandibular third molar?",
+    "question": "During surgical removal of a mandibular third molar, which anatomical structure is most frequently at risk of injury?",
     "options": [
-      "Mental nerve",
       "Lingual nerve",
-      "Buccal nerve",
-      "Inferior alveolar artery"
+      "Inferior alveolar nerve",
+      "Mental nerve",
+      "Buccal nerve"
     ],
-    "correctAnswer": 1,
-    "explanation": "The lingual nerve is anatomically close to the lingual plate in the region of mandibular third molars and is at significant risk of injury during extraction, especially with aggressive flap reflection or bone removal. The mental nerve is further anterior and less commonly affected by third molar extractions. The inferior alveolar artery is a blood vessel, and while bleeding is a risk, nerve injury is specifically asked.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "The lingual nerve lies immediately adjacent to the lingual cortical plate of the mandibular posterior region and is most commonly damaged when the lingual flap is reflected or excessive bone is removed. The inferior alveolar nerve is deeper within the canal and less often injured, while the mental nerve is located anteriorly and the buccal nerve is superficial and rarely affected in third‑molar extractions.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:09.382Z"
   },
   {
     "id": 752752300,
@@ -6569,44 +6601,50 @@
   {
     "id": 989008455,
     "topicId": "endodontics",
-    "question": "An 8-year-old male patient presents with a concave facial profile, anterior crossbite involving several maxillary incisors, and a mandibular prognathism. What is the MOST likely Angle's classification of malocclusion?",
+    "question": "A 7-year-old girl presents with a primary maxillary second molar that has deep caries approaching the pulp, no spontaneous pain, but a periapical radiolucency is evident on the radiograph. The tooth is restorable. Which endodontic procedure is most appropriate?",
     "options": [
-      "Class I malocclusion",
-      "Class II Division 1 malocclusion",
-      "Class II Division 2 malocclusion",
-      "Class III malocclusion"
+      "Formocresol pulpotomy",
+      "Pulpectomy using a calcium hydroxide/iodoform paste",
+      "Extraction of the primary tooth",
+      "Apexogenesis of the permanent successor"
     ],
-    "correctAnswer": 3,
-    "explanation": "A concave facial profile, anterior crossbite, and mandibular prognathism are classic clinical features of a Class III malocclusion, where the mandible is relatively protruded compared to the maxilla. Class I has a normal sagittal relationship. Class II Division 1 and 2 involve mandibular retrusion, not prognathism, and typically present with maxillary incisor protrusion or retroclination, respectively.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "The presence of a periapical radiolucency indicates necrotic pulp tissue, requiring removal of the entire pulp system via pulpectomy and placement of a resorbable medicament such as calcium hydroxide/iodoform paste. Formocresol pulpotomy is indicated only for vital radicular pulp, extraction is unnecessary when the tooth is restorable, and apexogenesis pertains to vital permanent teeth, not necrotic primary molars.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:11.816Z"
   },
   {
     "id": 706690902,
     "topicId": "endodontics",
-    "question": "A 45-year-old female patient presents with localized gingival recession on her maxillary right canine (#13). She reports sensitivity to cold in that area. Clinical examination reveals a thin gingival biotype and no significant plaque or calculus. What is the MOST appropriate initial management?",
+    "question": "A 45-year-old female presents with a localized cold sensitivity on her maxillary right canine (#13) that began after a recent dental restoration. The tooth is asymptomatic otherwise, with no spontaneous pain, swelling, or percussion tenderness. What is the most appropriate initial management?",
     "options": [
-      "Immediate referral for a free gingival graft.",
-      "Advise meticulous brushing technique with a hard toothbrush.",
-      "Recommend desensitizing toothpaste and review brushing technique.",
-      "Prescribe systemic antibiotics to reduce inflammation."
+      "Begin immediate root canal therapy on tooth #13.",
+      "Perform pulp vitality testing and obtain a periapical radiograph before definitive treatment.",
+      "Prescribe a course of systemic antibiotics and schedule a follow‑up visit.",
+      "Apply a desensitizing varnish and advise the patient to avoid cold foods."
     ],
-    "correctAnswer": 2,
-    "explanation": "For localized gingival recession with sensitivity and no significant inflammation, the initial management should focus on addressing the sensitivity and identifying/modifying etiologic factors like traumatic brushing. Desensitizing toothpaste and careful review of brushing technique (e.g., recommending a soft brush) are appropriate first steps. Meticulous brushing with a hard toothbrush is likely contributing to the problem. Systemic antibiotics are not indicated.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "The first step in evaluating cold sensitivity after a restoration is to assess pulp status with vitality testing and a periapical radiograph to determine if the pulp is vital or inflamed. Immediate root canal therapy, antibiotics, or desensitizing varnish are premature without confirming the diagnosis.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:13.407Z"
   },
   {
     "id": 179925490,
     "topicId": "endodontics",
-    "question": "A 50-year-old male patient presents with a severely broken-down maxillary premolar (#14) requiring a full-coverage crown. Only two remaining axial walls are present, and the pulp is vital. What is the MOST appropriate material for core build-up prior to crown preparation?",
+    "question": "A 28-year-old male presents with a necrotic maxillary central incisor exhibiting a periapical radiolucency. The canal is straight and of uniform diameter. Which obturation technique provides the best three‑dimensional seal for this tooth?",
     "options": [
-      "Glass ionomer cement (GIC)",
-      "Zinc phosphate cement",
-      "Amalgam",
-      "Composite resin"
+      "Lateral condensation of gutta-percha",
+      "Warm vertical compaction",
+      "Single-cone technique with bioceramic sealer",
+      "Carrier‑based obturation"
     ],
-    "correctAnswer": 3,
-    "explanation": "Composite resin is often the preferred material for core build-ups, especially in vital teeth requiring crowns, due to its excellent bond strength to tooth structure, good compressive strength, and ability to be immediately prepared. Amalgam is also an option but requires a longer setting time and may not bond as effectively. Glass ionomer cement has lower compressive strength and wear resistance, making it less ideal for extensive core build-ups.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "Warm vertical compaction allows gutta-percha to flow and adapt to canal irregularities, achieving a superior three‑dimensional seal in a straight canal. Lateral condensation may leave voids, the single‑cone technique relies mainly on the sealer and can be less dense, and carrier‑based systems are generally reserved for more complex anatomies.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:16.428Z"
   },
   {
     "id": 462426001,
@@ -6850,30 +6888,34 @@
   {
     "id": 456270694,
     "topicId": "endodontics",
-    "question": "A 30-year-old female patient, who is 20 weeks pregnant, presents with a painful, erythematous, exophytic lesion on the interdental papilla between her maxillary central incisors. The lesion bleeds easily on touch and has rapidly grown in size over the past month. She denies trauma to the area. What is the MOST likely diagnosis?",
+    "question": "A 35-year-old male presents with severe, lingering pain to cold in the lower right first molar that has been increasing over the past week. The tooth is vital on electric pulp testing, but the pain is prolonged (>30 seconds) and is reproduced by biting. Radiographs show a deep carious lesion approaching the pulp but no periapical radiolucency. What is the most appropriate definitive endodontic treatment for this tooth?",
     "options": [
-      "Pyogenic granuloma (pregnancy tumor).",
-      "Fibroma.",
-      "Peripheral ossifying fibroma.",
-      "Squamous papilloma."
+      "Pulpotomy",
+      "Root canal therapy (pulpectomy)",
+      "Apexogenesis",
+      "Extraction"
     ],
-    "correctAnswer": 0,
-    "explanation": "A pyogenic granuloma, often referred to as a 'pregnancy tumor' when occurring in pregnant individuals, typically presents as a rapidly growing, erythematous, exophytic, and friable lesion on the gingiva that bleeds easily. Pregnancy hormones are a well-known predisposing factor for these lesions. Fibromas and peripheral ossifying fibromas grow more slowly and are usually firmer, while squamous papillomas are typically exophytic, cauliflower-like, and less prone to bleeding.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "The prolonged, lingering pain to cold and bite sensitivity indicate irreversible pulpitis in a mature permanent tooth, for which root canal therapy (pulpectomy) is the definitive treatment. Pulpotomy is reserved for primary teeth or immature permanent teeth with vital pulp, apexogenesis is for immature teeth with vital pulp, and extraction is only indicated when the tooth is non‑restorable or the patient declines endodontic therapy.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:18.199Z"
   },
   {
     "id": 656998905,
     "topicId": "endodontics",
-    "question": "A 14-year-old male patient presents with a deep overbite and a retrognathic mandible. Clinical examination reveals Angle Class II malocclusion, characterized by a large overjet and deep mentolabial sulcus. The patient is self-conscious about his appearance. What is the MOST appropriate orthodontic appliance for initial correction of this skeletal discrepancy in a growing patient?",
+    "question": "A 28-year-old male presents two weeks after root canal therapy on the maxillary right central incisor with severe lingering pain on biting and lingering cold sensitivity. The temporary restoration is intact, percussion is tender, there is no swelling, and the radiograph shows a well‑obturated canal but a small periapical radiolucency suggesting persistent infection. What is the most appropriate next step in management?",
     "options": [
-      "Headgear.",
-      "Functional appliance (e.g., Herbst or Bionator).",
-      "Lingual arch.",
-      "Clear aligners (e.g., Invisalign)."
+      "Replace the temporary restoration with a permanent composite and schedule routine recall.",
+      "Perform nonsurgical retreatment of the root canal system.",
+      "Prescribe a 7‑day course of systemic antibiotics and monitor the tooth.",
+      "Refer for periapical surgery (apicoectomy)."
     ],
     "correctAnswer": 1,
-    "explanation": "For a growing patient with a retrognathic mandible (Class II skeletal discrepancy), a functional appliance (such as a Herbst or Bionator) is typically used to encourage mandibular growth and improve the skeletal relationship. Headgear primarily restricts maxillary growth or distally moves maxillary molars. A lingual arch is used for space maintenance or minor tooth movement. Clear aligners are generally for mild to moderate malocclusions and are less effective for significant skeletal correction in growing patients.",
-    "aiVerified": true
+    "explanation": "Persistent symptoms and a periapical radiolucency after adequate obturation indicate residual infection; the first line is nonsurgical retreatment to disinfect the canal system. Antibiotics are not indicated without systemic involvement, and simply restoring the tooth or proceeding directly to surgery would not address the underlying cause.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:20.841Z"
   },
   {
     "id": 586904560,

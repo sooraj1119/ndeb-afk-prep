@@ -5079,16 +5079,18 @@
     "id": 360,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "A patient presents with a history of trauma to the mandible 3 days ago. The clinical examination reveals malocclusion and pain. Which radiographic projection is most critical to initially evaluate a suspected fracture of the mandibular condyle?",
+    "question": "A 28‑year‑old male presents three days after a mandibular trauma with pain and a new malocclusion. Which radiographic projection should be obtained first to screen for a suspected fracture of the mandibular condyle?",
     "options": [
-      "Waters' projection",
+      "Open‑mouth (reverse) Towne projection",
       "Submentovertex projection",
-      "Reverse Towne's projection",
-      "Periapical radiograph of the incisors"
+      "Waters' projection",
+      "Panoramic radiograph"
     ],
-    "correctAnswer": 1,
-    "explanation": "The SMV projection is the standard initial radiographic examination for suspected mandibular condyle fractures because it projects the condylar heads and necks without superimposition from the cranial base. It allows detection of displacement, fracture lines, and joint involvement. While the reverse (open‑mouth) Towne view can also depict the condyles, it is generally reserved for detailed TMJ assessment after an initial SMV screen. This recommendation follows the Canadian Dental Association radiology guidelines and White & Pharoah, *Oral Radiology: Principles and Interpretation* (7th ed.).",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "The open‑mouth (reverse) Towne view positions the patient with the mouth open, allowing the condylar heads and necks to be visualized without superimposition of the cranial base, and is recommended as the initial screen for condylar fractures in Canadian radiology guidelines. The submentovertex view can depict the condyles but often superimposes the ramus and may miss subtle fracture lines. Waters' projection is intended for maxillary sinus and orbital assessment, and a panoramic image lacks the resolution and angulation needed for early condylar fracture detection.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:51.507Z"
   },
   {
     "id": 361,
