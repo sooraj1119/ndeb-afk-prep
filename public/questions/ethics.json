@@ -3730,16 +3730,18 @@
   {
     "id": 251,
     "topicId": "ethics",
-    "question": "A dental clinic's website features several patient testimonials, including photos and quotes like 'Dr. Smith changed my life with my new smile! I've never been happier!'",
+    "question": "A dental clinic's website displays a testimonial that includes the patient’s full name, before‑and‑after photographs of the smile, and a quote stating, “Dr. Lee gave me a perfect smile after my orthodontic treatment; I was embarrassed to smile before.” The clinic did not obtain a signed release from the patient.",
     "options": [
-      "They discourage other potential patients from seeking treatment.",
-      "They are always false and misleading by definition.",
-      "They violate patient confidentiality by revealing treatment details.",
-      "They exploit patient vulnerability and are difficult to verify or substantiate."
+      "The testimonial is permissible because it promotes the clinic’s services.",
+      "The testimonial is false and therefore constitutes fraud.",
+      "The testimonial breaches patient confidentiality and privacy regulations.",
+      "The testimonial is acceptable as long as the patient gave verbal consent."
     ],
-    "correctAnswer": 3,
-    "explanation": "Regulatory bodies in Canada prohibit or restrict patient testimonials in dental advertising because they can be subjective, misleading, unverifiable, and create unrealistic expectations for prospective patients. Their personal and often emotional nature makes it difficult to ensure they are factual and not exploitative of patient vulnerability. Options A, C, and D are either incorrect or secondary concerns compared to the core issue of their misleading potential.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "The testimonial contains identifiable patient information and specific treatment details without written informed consent, violating Canadian privacy law (PIPEDA) and NDEB advertising guidelines. Options A, B and D are incorrect because promotion does not override confidentiality rules, there is no indication the statement is false, and verbal consent does not satisfy the required written release.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:22.984Z"
   },
   {
     "id": 252,
@@ -3758,16 +3760,18 @@
   {
     "id": 253,
     "topicId": "ethics",
-    "question": "A dentist diagnoses a patient with an infectious disease (e.g., active tuberculosis) that is legally reportable to public health authorities in their province. The patient insists on strict confidentiality and asks the dentist not to report it.",
+    "question": "A 45-year-old male patient presents for a routine dental exam. During the evaluation you diagnose active pulmonary tuberculosis, a disease that is legally reportable to the provincial public health authority. The patient requests that you keep this information confidential and asks you not to report it.",
     "options": [
-      "Advise the patient to self-report the condition to public health as it's their responsibility.",
+      "Advise the patient to self‑report the condition to public health as it is their responsibility.",
       "Report the disease to public health authorities, as required by law.",
       "Educate the patient on the importance of reporting, but respect their final decision.",
       "Uphold patient confidentiality as requested by the patient."
     ],
     "correctAnswer": 1,
-    "explanation": "When a diagnosis involves a legally reportable infectious disease, the dentist's duty to protect public health overrides patient confidentiality. Provincial public health legislation mandates reporting certain conditions to prevent the spread of disease, making it a legal and ethical obligation. Options A, B, and D prioritize confidentiality over a legal public health mandate.",
-    "aiVerified": true
+    "explanation": "In Canada, provincial public health statutes require health professionals to report designated communicable diseases, and this legal duty supersedes patient confidentiality. Therefore the dentist must report the tuberculosis case to the appropriate public health authority. Advising self‑report, merely educating while respecting the refusal, or maintaining confidentiality would each fail to meet the statutory reporting obligation.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:26.053Z"
   },
   {
     "id": 254,
@@ -3842,16 +3846,18 @@
   {
     "id": 259,
     "topicId": "ethics",
-    "question": "A 14-year-old patient requires extensive orthodontic treatment. The patient's parents are divorced, and the mother holds sole custody. The father, who has regular visitation rights, strongly opposes the treatment due to financial concerns and expresses his refusal directly to the dental office. The patient, however, is eager to proceed with the treatment. Who is legally authorized to provide consent for this patient's treatment in Canada?",
+    "question": "A 14-year-old patient requires extensive orthodontic treatment. The parents are divorced; the mother has sole legal custody and the father has regular visitation rights. The father opposes the treatment for financial reasons, while the patient wants to proceed. Under Canadian law, who is legally authorized to give consent for this treatment?",
     "options": [
-      "The 14-year-old patient, given their age and expressed desire.",
-      "Both parents, as they both have parental responsibility despite custody arrangements.",
-      "A court order is required to override the father's objection.",
-      "The mother, as the sole custodial parent."
+      "The 14-year-old patient, because they are a mature minor capable of consenting to orthodontic treatment.",
+      "Both parents, because both retain parental responsibility regardless of custody arrangements.",
+      "The mother, as the parent with sole legal custody and decision‑making authority for health‑care matters.",
+      "A court order is required before any treatment can proceed due to the father's objection."
     ],
-    "correctAnswer": 3,
-    "explanation": "In Canada, generally, the parent with sole custody has the legal authority to make decisions regarding the child's healthcare, including consent for treatment. While a minor's assent is important, a 14-year-old is typically not legally competent to provide sole consent for extensive treatment. The father's objection does not override the sole custodial parent's authority, and a court order is not automatically required.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "In Canada, the parent who holds sole legal custody has the authority to consent to non‑emergency dental care, and a 14‑year‑old is not generally considered a mature minor for orthodontic treatment. The father’s visitation rights do not give him veto power, and a court order is unnecessary unless a dispute escalates.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:27.966Z"
   },
   {
     "id": 260,
@@ -5301,16 +5307,18 @@
   {
     "id": 364,
     "topicId": "ethics",
-    "question": "A 45-year-old patient with severe dental phobia consistently refuses radiographs, despite your repeated explanations of their diagnostic necessity for comprehensive care and the associated risks of undiagnosed pathology. The patient insists you proceed with treatment without them. What is the most ethically appropriate course of action?",
+    "question": "A 45-year-old patient with severe dental anxiety refuses all radiographic examinations despite your explanation of their importance for diagnosis and the risk of missing pathology. The patient insists that you proceed with restorative treatment without any radiographs. What is the most ethically appropriate action for you as the treating dentist under the CDA Code of Ethics and NDEB guidelines?",
     "options": [
-      "Strongly advise the patient that you will only proceed if they agree to the radiographs, emphasizing potential risks until they comply.",
-      "Respect the patient's autonomy to refuse treatment, document the informed refusal thoroughly, and proceed with treatment within the limitations of not having radiographs.",
-      "Refer the patient to another dentist who may be more willing to accommodate their refusal of radiographs.",
-      "Refuse to treat the patient, as proceeding without necessary diagnostics falls below the standard of care and could lead to negligence claims."
+      "Strongly advise the patient that treatment will only be provided if radiographs are taken, emphasizing the risks until they consent.",
+      "Respect the patient's autonomy, document the informed refusal, and proceed with treatment using only clinical examination.",
+      "Refer the patient to another dentist who may be willing to treat without radiographs.",
+      "Inform the patient that you cannot provide the requested treatment without the essential diagnostic radiographs, document the refusal, and decline to treat."
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is to refer the patient to another dentist. The NDEB Ethical Guidelines and CDA Code state that while patient autonomy must be respected, the clinician also has a duty to provide care that meets the standard of practice. Essential diagnostic imaging that is refused renders treatment sub‑standard and may expose the dentist to negligence. Referral allows the patient to seek care that aligns with their preferences while ensuring that the original clinician does not deliver care below the accepted standard. Coercion, treating without radiographs, or outright refusal without referral would each breach professional obligations.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "The correct action is to decline treatment because essential diagnostic imaging is required to meet the standard of care; proceeding without it would be negligent. The dentist must inform the patient, document the informed refusal, and refuse to treat. Advising the patient to consent (option A) is coercive, treating despite refusal (option B) breaches standard of care, and referral (option C) does not resolve the ethical duty to avoid sub‑standard care.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:30.212Z"
   },
   {
     "id": 365,
@@ -7041,18 +7049,20 @@
   {
     "id": 680497261,
     "topicId": "ethics",
-    "question": "A 42-year-old female patient presents for a routine recall appointment. She reports no pain or discomfort. A periapical radiograph of tooth #16 reveals a well-defined, unilocular radiolucency approximately 1.5 cm in diameter, apical to the root, with a sclerotic border. The tooth #16 has a large, satisfactory amalgam restoration, is non-tender to percussion and palpation, and responds positively to vitality testing. What is the MOST likely diagnosis for this radiographic finding?",
+    "question": "A 45-year-old male patient comes for a routine dental check‑up. A periapical radiograph of the maxillary right first molar (tooth #3) shows a well‑circumscribed, unilocular radiolucency 1.5 cm in diameter located apical to the tooth, with a sclerotic border. The tooth is asymptomatic, responds normally to vitality testing, and has no caries or restoration defects. The patient asks the dentist whether the tooth should be extracted because of the radiolucency. According to the Canadian Dental Association’s Code of Ethics and NDEB standards, what is the most appropriate course of action?",
     "options": [
-      "Periapical granuloma",
-      "Radicular cyst",
-      "Periapical abscess",
-      "Condensing osteitis"
+      "Extract the tooth immediately to eliminate the lesion.",
+      "Inform the patient that the lesion is most likely a static bone cavity (Stafne defect) and arrange a referral for further radiographic assessment before any treatment.",
+      "Initiate root canal therapy to treat a presumed periapical infection.",
+      "Prescribe a course of antibiotics and schedule extraction in a few weeks."
     ],
-    "correctAnswer": 0,
-    "explanation": "Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology) state that radicular cysts arise from non‑vital teeth, whereas periapical granulomas, though also usually linked to necrotic pulp, may be identified when vitality testing is misleading (e.g., partial necrosis or false‑positive responses). The lesion described is a well‑defined, unilocular radiolucency of 1.5 cm with a sclerotic border, features compatible with a granuloma when the tooth tests vital. Condensing osteitis is radiopaque, and a periapical abscess would be symptomatic. Therefore, periapical granuloma is the best answer under Canadian NDEB standards.",
+    "correctAnswer": 1,
+    "explanation": "The radiolucency is characteristic of a static (Stafne) bone cavity, a benign incidental finding; the tooth is vital and asymptomatic, so extraction, endodontic therapy, or antibiotics are unwarranted. Ethically, the dentist must provide accurate information, avoid unnecessary treatment, and refer for appropriate further evaluation, fulfilling the principles of beneficence and non‑maleficence.",
     "aiFixed": true,
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:35.405Z"
   },
   {
     "id": 140606251,

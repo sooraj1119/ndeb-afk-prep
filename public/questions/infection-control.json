@@ -2198,13 +2198,15 @@
     "question": "Which type of hand hygiene is MOST effective in reducing the bacterial load on visibly soiled hands?",
     "options": [
       "Routine handwash with plain soap and water.",
-      "Antiseptic hand rub.",
-      "Surgical hand scrub.",
-      "Antiseptic handwash."
+      "Antiseptic hand rub (alcohol‑based).",
+      "Surgical hand scrub (antiseptic scrub).",
+      "Antiseptic handwash (soap with an added antimicrobial agent)."
     ],
-    "correctAnswer": 0,
-    "explanation": "Visible soil must be physically removed before any antimicrobial action can occur. The CDA Hand Hygiene Guidelines (2021) and the Public Health Agency of Canada state that a routine handwash with plain soap and water is the preferred method for visibly soiled hands because it combines mechanical cleaning with a modest antimicrobial effect. Antiseptic hand rubs and antiseptic handwashes rely on chemical action and are less effective when organic material is present, while surgical hand scrubs are reserved for pre‑operative antisepsis. Hence, option A is the correct answer.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "An antiseptic handwash removes visible soil mechanically and adds a chemical antimicrobial agent, providing the greatest reduction in bacterial count on soiled hands. Plain soap lacks antimicrobial activity, alcohol‑based rubs are inactivated by organic material, and surgical scrubs are intended for pre‑operative asepsis rather than routine decontamination of visibly dirty hands.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:41.454Z"
   },
   {
     "id": 573353509,

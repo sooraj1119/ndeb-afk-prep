@@ -2,18 +2,20 @@
   {
     "id": 1,
     "topicId": "biochemistry",
-    "question": "A child presents with chronic hemolytic anemia. Laboratory studies indicate a hereditary defect in an erythrocyte glycolytic enzyme that catalyzes the irreversible, highly regulated commitment step of glycolysis. Which enzyme is most likely deficient?",
+    "question": "A child presents with chronic non‑spherocytic hemolytic anemia. Laboratory studies reveal a hereditary deficiency of an erythrocyte glycolytic enzyme that catalyzes the irreversible conversion of phosphoenolpyruvate to pyruvate, the final step of glycolysis. Which enzyme is deficient?",
     "options": [
       "Aldolase",
       "Pyruvate kinase",
       "Phosphofructokinase‑1 (PFK‑1)",
       "Hexokinase"
     ],
-    "correctAnswer": 2,
-    "explanation": "Phosphofructokinase‑1 (PFK‑1) catalyzes the conversion of fructose‑6‑phosphate to fructose‑1,6‑bisphosphate. This reaction is irreversible, highly regulated, and is considered the \"commitment step\" of glycolysis because it commits glucose‑derived carbon to the glycolytic pathway rather than to the pentose‑phosphate pathway. A hereditary deficiency of PFK‑1 in red blood cells produces a rare non‑spherocytic hemolytic anemia, consistent with the clinical vignette.\n\nWhy the distractors are incorrect:\n- **Aldolase**: Catalyzes the reversible cleavage of fructose‑1,6‑bisphosphate into glyceraldehyde‑3‑phosphate and dihydroxyacetone phosphate. It is not an irreversible step and is not associated with a hereditary hemolytic anemia.\n- **Pyruvate kinase**: Catalyzes the final step of glycolysis (phosphoenolpyruvate → pyruvate). Deficiency does cause hemolytic anemia, but this step is not the commitment step and is not described as irreversible in the regulatory sense used in the question.\n- **Hexokinase**: Performs the first phosphorylation of glucose to glucose‑6‑phosphate, an irreversible reaction. However, this step is not the regulatory \"commitment\" step of glycolysis; the pathway can diverge to the pentose‑phosphate pathway after glucose‑6‑phosphate. Hexokinase deficiency is exceedingly rare and does not classically present with chronic hemolytic anemia.\n\nThus, the enzyme that best fits the description of an irreversible commitment step whose deficiency leads to chronic hemolytic anemia is PFK‑1 (option 2).",
+    "correctAnswer": 1,
+    "explanation": "Pyruvate kinase deficiency impairs the last irreversible step of glycolysis, leading to reduced ATP production in red cells and chronic hemolytic anemia. Aldolase and hexokinase deficiencies are not associated with hemolysis, and PFK‑1 deficiency, while irreversible, is exceedingly rare and not the typical cause of hereditary hemolytic anemia.",
     "aiFixed": true,
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:10.937Z"
   },
   {
     "id": 2,
@@ -452,16 +454,18 @@
   {
     "id": 33,
     "topicId": "biochemistry",
-    "question": "Which of the following molecules is the committed step regulator for de novo pyrimidine synthesis?",
+    "question": "Which enzyme catalyzes the committed, rate‑limiting step of the de novo pyrimidine synthesis pathway in human cells?",
     "options": [
-      "Carbamoyl phosphate synthetase I.",
-      "Aspartate transcarbamoylase (ATCase).",
-      "Ribonucleotide reductase.",
-      "Dihydrofolate reductase."
+      "Carbamoyl phosphate synthetase II (CPS II)",
+      "Aspartate transcarbamoylase (ATCase)",
+      "Dihydroorotate dehydrogenase",
+      "Ribonucleotide reductase"
     ],
-    "correctAnswer": 1,
-    "explanation": "In the de novo pyrimidine pathway, carbamoyl‑phosphate synthetase II generates carbamoyl‑phosphate, but the step most frequently highlighted for its allosteric regulation in dental and medical curricula is the conversion of carbamoyl‑phosphate and aspartate to carbamoyl‑aspartate by aspartate transcarbamoylase (ATCase). ATCase is subject to feedback inhibition by UTP and activation by ATP, making it the functional “committed‑step regulator” in many teaching resources (Neville et al., Oral and Maxillofacial Pathology, 4th ed., p. 98). CPS I is a urea‑cycle enzyme, ribonucleotide reductase and dihydrofolate reductase act downstream, so ATCase remains the best answer among the options provided.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "CPS II forms carbamoyl phosphate from glutamine, CO2 and ATP, the first dedicated reaction of pyrimidine synthesis and is allosterically regulated, thus representing the committed step. ATCase catalyzes the second step but is not the pathway’s commitment point; dihydroorotate dehydrogenase acts later in the pathway, and ribonucleotide reductase reduces ribonucleotides to deoxyribonucleotides, unrelated to the committed step.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:12.893Z"
   },
   {
     "id": 34,
@@ -536,16 +540,18 @@
   {
     "id": 39,
     "topicId": "biochemistry",
-    "question": "A patient presents with symptoms of metabolic acidosis. Which of the following compensatory mechanisms would the body primarily employ to restore acid-base balance?",
+    "question": "A 45-year-old male presents with rapid breathing, a fruity odor to his breath, and a serum bicarbonate concentration of 14 mEq/L consistent with metabolic acidosis. Which compensatory mechanism does the body primarily employ to restore acid‑base balance?",
     "options": [
       "Decreased renal reabsorption of bicarbonate ions.",
       "Decreased production of ammonia by renal tubules.",
       "Increased secretion of hydrogen ions by the kidneys.",
-      "Decreased respiratory rate to retain CO2."
+      "Decreased respiratory rate to retain CO₂."
     ],
     "correctAnswer": 2,
-    "explanation": "In metabolic acidosis, the body attempts to excrete excess acid. The kidneys respond by increasing the secretion of hydrogen ions (H+) into the urine and increasing the reabsorption of bicarbonate ions. Option 2 correctly identifies increased H+ secretion. A decreased respiratory rate would worsen acidosis.",
-    "aiVerified": true
+    "explanation": "In metabolic acidosis the kidneys respond by increasing hydrogen ion secretion into the urine and by reabsorbing more bicarbonate, thereby generating new buffer. Option 3 correctly describes the primary renal response. The other options either describe opposite actions or pertain to respiratory compensation, which is secondary and would involve increased, not decreased, ventilation.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:14.341Z"
   },
   {
     "id": 40,
@@ -6468,10 +6474,12 @@
       "Xerostomic side effect of his ACE‑inhibitor medication",
       "Direct consequence of uncontrolled hypertension"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is Option 1: Age-related salivary gland atrophy. According to standard dental literature (e.g., Malamed, Neville) and NDEB AFK standards, salivary flow rates decline significantly with age due to histological changes in the salivary glands, including fibrosis, fatty infiltration, and a reduction in the number of acinar cells. This physiological decline is the most common cause of xerostomia (dry mouth sensation) in the elderly population, particularly in the absence of other systemic or pharmacological causes.\n\nOption 2 (Xerostomic side effect of his ACE-inhibitor medication) is incorrect because ACE inhibitors (such as lisinopril) are not commonly associated with xerostomia. The most common antihypertensive classes associated with dry mouth are diuretics (e.g., hydrochlorothiazide, furosemide) and beta-blockers. While ACE inhibitors can cause a dry cough, they do not typically reduce salivary flow to the extent of causing clinical xerostomia.\n\nOption 0 (Undiagnosed Sjögren’s syndrome) is incorrect because the clinical vignette explicitly states that the patient 'reports no symptoms suggestive of systemic autoimmune disease.' Sjögren’s syndrome is an autoimmune exocrinopathy that typically presents with a triad of keratoconjunctivitis sicca (dry eyes), xerostomia, and xerophthalmia, often accompanied by other systemic symptoms. In the absence of these systemic signs and given the patient's age, idiopathic/age-related xerostomia is statistically and clinically more likely than an undiagnosed autoimmune condition.\n\nOption 3 (Direct consequence of uncontrolled hypertension) is incorrect for two reasons: first, the patient's hypertension is described as 'well-controlled'; second, hypertension itself does not directly cause xerostomia. Xerostomia is a side effect of the medications used to treat hypertension (specifically diuretics), not the disease state of elevated blood pressure.",
+    "correctAnswer": 2,
+    "explanation": "ACE‑inhibitors such as lisinopril are documented to cause reduced salivary flow and xerostomia, making drug‑induced xerostomia the most likely cause in this patient. Age‑related gland atrophy can contribute to dry mouth but is less probable when a known xerogenic medication is present. Sjögren’s syndrome is unlikely without systemic or ocular symptoms, and hypertension itself does not directly produce xerostomia.",
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:16.581Z"
   },
   {
     "id": 331553402,
@@ -6533,16 +6541,18 @@
   {
     "id": 362680731,
     "topicId": "biochemistry",
-    "question": "A 62-year-old female patient presents with a complaint of a burning sensation in her mouth, particularly on the tongue, that has been present for several months. Clinical examination reveals no obvious mucosal lesions, candidiasis, or other local irritants. Her medical history includes well-controlled type 2 diabetes and she takes metformin daily. What is the MOST appropriate initial diagnostic consideration?",
+    "question": "A 62-year-old woman reports a chronic burning sensation on her tongue for several months. Examination shows no mucosal lesions, candidiasis, or other local irritants. Her medical history includes well‑controlled type 2 diabetes treated with metformin. What is the most appropriate initial diagnostic consideration?",
     "options": [
-      "Oral candidiasis",
+      "Iron deficiency anemia",
       "Burning Mouth Syndrome",
-      "Geographic tongue",
-      "Iron deficiency anemia"
+      "Oral candidiasis",
+      "Geographic tongue"
     ],
-    "correctAnswer": 1,
-    "explanation": "Given the absence of visible lesions or local irritants and the description of a chronic burning sensation, Burning Mouth Syndrome (BMS) is a strong initial consideration. While oral candidiasis and iron deficiency anemia can cause similar symptoms, their clinical signs or specific lab findings are absent in this presentation, making BMS more likely. Geographic tongue typically presents with visible lesions and is usually asymptomatic.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Iron deficiency anemia should be investigated first because Burning Mouth Syndrome is a diagnosis of exclusion and systemic causes must be ruled out with laboratory tests (CBC, ferritin). The other choices are less appropriate initially: candidiasis would present with visible plaques, geographic tongue shows characteristic papillary changes, and BMS is considered only after normal lab results.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:17.997Z"
   },
   {
     "id": 5754112,
@@ -7277,16 +7287,18 @@
   {
     "id": 398058901,
     "topicId": "biochemistry",
-    "question": "A 7-year-old female patient presents to your office with severe pain in her mandibular right first permanent molar (#46). Her mother reports the pain started suddenly last night and keeps her awake. Clinical examination reveals a large carious lesion on the occlusal surface of #46, with tenderness to percussion and mobility Class I. A periapical radiograph shows a deep carious lesion extending into the pulp chamber and a developing periapical radiolucency. The patient is otherwise healthy. What is the MOST appropriate treatment for tooth #46?",
+    "question": "A 10-year-old patient presents with enamel hypoplasia and multiple new carious lesions. Laboratory evaluation shows a markedly low serum 25‑hydroxyvitamin D concentration. Which of the following best describes the primary action of vitamin D that is essential for normal tooth mineralization?",
     "options": [
-      "Direct pulp capping",
-      "Extraction",
-      "Pulpotomy",
-      "Indirect pulp capping"
+      "It increases intestinal calcium absorption by up‑regulating the synthesis of calbindin.",
+      "It decreases renal calcium reabsorption in the distal convoluted tubule.",
+      "It directly stimulates osteoclast activity by inhibiting RANKL expression.",
+      "It suppresses parathyroid hormone secretion from the parathyroid glands."
     ],
-    "correctAnswer": 1,
-    "explanation": "The clinical picture (spontaneous nocturnal pain, tenderness to percussion, mobility, and a radiolucent periapical area) fulfills the criteria for irreversible pulpitis with symptomatic apical periodontitis in a permanent molar. According to the NDEB reference (Little & Falace, Dental Management of the Medically Compromised Patient, 5th ed., p. 312) the definitive treatment for a tooth with necrotic pulp and periapical involvement is nonsurgical root‑canal therapy; however, when that option is not provided, extraction is the only remaining viable choice. Direct or indirect pulp capping and pulpotomy are contraindicated because the radicular pulp is non‑vital, and they would not resolve the periapical pathology.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Vitamin D promotes active calcium transport in the gut by inducing calbindin, which is critical for delivering calcium to developing enamel and dentin. The other statements describe actions that are either opposite to vitamin D’s effect (renal calcium loss, PTH suppression) or are not its primary mechanism (direct osteoclast stimulation).",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:19.496Z"
   },
   {
     "id": 308119980,

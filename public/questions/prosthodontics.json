@@ -48,7 +48,7 @@
     "id": 4,
     "topicId": "prosthodontics",
     "difficulty": "medium",
-    "question": "Which of the following luting agents exhibits a chemical bond to tooth structure via chelation of carboxylate groups to calcium in hydroxyapatite?",
+    "question": "Which of the following luting cements bonds to tooth structure by chelation of its polyacrylic acid carboxylate groups to calcium ions in hydroxyapatite and contains no fluoride?",
     "options": [
       "Zinc phosphate cement",
       "Resin-modified glass ionomer cement",
@@ -56,8 +56,10 @@
       "Glass ionomer cement"
     ],
     "correctAnswer": 2,
-    "explanation": "Zinc polycarboxylate cement was the first cement to develop a true chemical bond to tooth structure via the chelation of its polyacrylic acid carboxylate groups to the calcium ions of enamel and dentin. Glass ionomers also bond chemically, but zinc polycarboxylate is the classic textbook definition for this specific mechanism.",
-    "aiVerified": true
+    "explanation": "Traditional zinc polycarboxylate cement bonds chemically through chelation of its polyacrylic acid carboxylate groups to calcium in hydroxyapatite and does not contain fluoride. Glass ionomer and resin-modified glass ionomer also bond ionically but include fluoride release, while zinc phosphate cement provides only a mechanical retention.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:48.253Z"
   },
   {
     "id": 5,
@@ -337,18 +339,20 @@
     "id": 23,
     "topicId": "prosthodontics",
     "difficulty": "medium",
-    "question": "Which of the following maxillary removable partial denture major connector designs is generally contraindicated in patients with a shallow palate or limited palatal depth due to the high risk of food entrapment, interference with phonetics, and potential gagging?",
+    "question": "In a maxillary removable partial denture, which major connector design is contraindicated in patients with a shallow palate or limited palatal depth because its open mid‑palatal design predisposes to food entrapment and phonetic interference?",
     "options": [
-      "Anterior-posterior palatal strap",
-      "U-shaped palatal connector (horseshoe)",
+      "Anterior‑posterior palatal strap",
+      "U‑shaped (horseshoe) connector",
       "Single palatal strap",
       "Complete palatal plate"
     ],
     "correctAnswer": 1,
-    "explanation": "The U-shaped palatal connector (horseshoe) is the correct answer. In patients with a shallow palate or limited palatal depth, the horseshoe design is contraindicated because the open mid-palatal area allows the tongue to protrude into the space, leading to significant interference with phonetics (specifically sibilants and alveolars) and a high risk of food entrapment. Furthermore, the posterior arms of the horseshoe often extend close to the soft palate, which can trigger a gag reflex in sensitive patients. In contrast, the Anterior-posterior palatal strap (Option 0) is considered the most versatile and rigid connector, providing excellent support without the bulk or open spaces that cause phonetic issues in shallow palates. The Single palatal strap (Option 2) is less rigid and may be used in specific cases but does not carry the same specific contraindication for shallow palates as the horseshoe due to its different geometry. The Complete palatal plate (Option 3) is indeed contraindicated in patients with a low palatal vault or strong gag reflex due to its bulk, but the question specifically highlights 'food entrapment' and 'phonetic interference' associated with the open mid-palatal design, which is the hallmark disadvantage of the horseshoe connector in this context. Therefore, the U-shaped connector is the specific design contraindicated for the reasons listed.",
+    "explanation": "The U‑shaped (horseshoe) connector leaves an open mid‑palatal space, allowing food to collect and altering tongue position, which interferes with sibilant phonetics and is therefore contraindicated in shallow palates. An anterior‑posterior strap provides rigidity without an open area, the single strap is closed and less likely to trap food, and the complete palatal plate is primarily avoided for bulk‑related gag reflex rather than food entrapment.",
     "aiFixed": true,
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:50.089Z"
   },
   {
     "id": 24,

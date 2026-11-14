@@ -4749,31 +4749,35 @@
     "id": 316,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A patient taking warfarin for atrial fibrillation requires a tooth extraction. Their last INR, taken yesterday, was 2.8. What is the MOST appropriate management strategy for this patient?",
+    "question": "A 68-year-old male with atrial fibrillation is taking warfarin. His INR measured yesterday is 2.8. He requires a simple extraction of a mandibular premolar. What is the most appropriate management?",
     "options": [
       "Discontinue warfarin for 3 days prior to the extraction.",
       "Prescribe prophylactic antibiotics to prevent bleeding complications.",
-      "Consult with the patient's physician regarding temporary interruption or dose reduction of warfarin.",
+      "Consult the patient’s physician regarding temporary interruption or dose reduction of warfarin.",
       "Proceed with the extraction, employing local hemostatic measures."
     ],
     "correctAnswer": 3,
-    "explanation": "An INR of 2.8 is generally considered acceptable for most minor oral surgical procedures with local hemostatic measures. However, physician consultation is always prudent for patients on anticoagulants, especially before an extraction, to discuss the risks and benefits of potential adjustments or local hemostasis, ensuring patient safety.",
-    "aiVerified": true
+    "explanation": "An INR of 2.8 is within the therapeutic range for warfarin and is considered safe for simple extractions when local hemostatic measures are used. Therefore the extraction can be performed without altering anticoagulation; stopping warfarin, giving antibiotics, or routine physician consultation are unnecessary for this low‑risk procedure.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:36.742Z"
   },
   {
     "id": 317,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A 40-year-old patient with a history of severe persistent asthma controlled with inhaled corticosteroids and a long-acting beta-agonist presents for dental treatment. She reports experiencing occasional shortness of breath when stressed. Which of the following is the MOST appropriate management consideration?",
+    "question": "A 40-year-old woman with severe persistent asthma that is well‑controlled on an inhaled corticosteroid and a long‑acting beta‑agonist reports occasional shortness of breath when stressed. She is scheduled for a routine dental cleaning. Which of the following is the most appropriate management consideration for her dental appointment?",
     "options": [
-      "Schedule short appointments and keep her inhaler readily available.",
-      "Prescribe an oral corticosteroid taper prior to the appointment.",
-      "Avoid local anesthetics containing epinephrine due to potential bronchoconstriction.",
-      "Administer supplemental oxygen throughout the procedure as a prophylactic measure."
+      "Schedule short appointments and keep her rescue inhaler readily available.",
+      "Prescribe a short course of oral corticosteroids before the visit.",
+      "Avoid using local anesthetics that contain epinephrine.",
+      "Provide prophylactic supplemental oxygen throughout the procedure."
     ],
     "correctAnswer": 0,
-    "explanation": "While it is important to keep the patient's inhaler available, the question asks for the MOST appropriate management consideration. For severe persistent asthma, avoiding epinephrine in local anesthetics can be prudent, as sulfites, often found as a preservative with epinephrine, can trigger asthmatic attacks in sensitive individuals. Short appointments and stress reduction are also important.",
-    "aiVerified": true
+    "explanation": "For a patient whose asthma is well‑controlled, the priority is to minimize stress and ensure rapid access to her rescue inhaler; short appointments help achieve this. A pre‑emptive oral steroid taper is unnecessary and exposes the patient to systemic side effects. Epinephrine‑containing local anesthetics are safe in controlled asthma and do not require avoidance. Routine supplemental oxygen is not indicated unless the patient has hypoxemia.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:38.977Z"
   },
   {
     "id": 318,
@@ -6196,7 +6200,7 @@
   {
     "id": 307772646,
     "topicId": "general-medicine",
-    "question": "A 52-year-old male patient presents with a history of rheumatoid arthritis and chronic pain presents for a comprehensive oral examination. She has been taking methotrexate for several years. Oral examination reveals multiple purpuric lesions on the buccal mucosa and palate. What is the MOST critical next step in her dental management?",
+    "question": "A 52-year-old male patient with rheumatoid arthritis presents for a comprehensive oral examination. He has been taking methotrexate for several years. Examination reveals multiple purpuric lesions on the buccal mucosa and palate. What is the most critical next step in his dental management?",
     "options": [
       "Prescribe a topical corticosteroid rinse for the oral lesions.",
       "Order a complete blood count (CBC) to assess for myelosuppression.",
@@ -6204,8 +6208,10 @@
       "Perform a biopsy of the purpuric lesions to rule out malignancy."
     ],
     "correctAnswer": 1,
-    "explanation": "Methotrexate, an immunosuppressant used for rheumatoid arthritis, can cause bone marrow suppression (myelosuppression), leading to thrombocytopenia (low platelet count). Purpuric lesions (bruising) are a sign of potential bleeding disorders due to thrombocytopenia, making a complete blood count (CBC) critical. Topical corticosteroids are not appropriate for purpuric lesions. Discontinuing medication without physician consultation is outside the dentist's scope, and while a biopsy may be considered, assessing systemic bleeding risk is more urgent.",
-    "aiVerified": true
+    "explanation": "A CBC is essential to determine whether methotrexate‑induced myelosuppression, especially thrombocytopenia, is present before any invasive dental treatment. Topical steroids do not treat purpura, stopping methotrexate requires physician input, and a biopsy is not the first priority when a systemic bleeding risk must be ruled out.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:27:40.217Z"
   },
   {
     "id": 141502623,

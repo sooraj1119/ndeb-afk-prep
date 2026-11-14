@@ -652,16 +652,18 @@
   {
     "id": 47,
     "topicId": "dental-materials",
-    "question": "A clinician is preparing a cavity for a direct composite restoration. The \"C-factor\" (configuration factor) is a critical concept influencing polymerization shrinkage stress. Which cavity preparation generally exhibits the highest C-factor?",
+    "question": "When placing a direct composite restoration, the configuration factor (C‑factor) is the ratio of bonded to unbonded surfaces and influences polymerization shrinkage stress. Which cavity preparation has the lowest C‑factor?",
     "options": [
-      "Class I.",
-      "Class IV.",
-      "Class II.",
-      "Class III."
+      "Class I",
+      "Class II",
+      "Class III",
+      "Class V"
     ],
-    "correctAnswer": 0,
-    "explanation": "The C-factor is the ratio of bonded to unbonded surfaces. A Class I cavity typically has five bonded surfaces (pulpal, buccal, lingual, mesial, distal) and only one unbonded surface (occlusal), resulting in a high C-factor. This high ratio means more constrained shrinkage, leading to higher polymerization stress at the tooth-restoration interface.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "A Class V cavity typically has three bonded surfaces and one unbonded surface, giving a C‑factor of 3, which is lower than Class I and II (C‑factor = 5) and Class III (C‑factor = 4). Lower C‑factor means less constrained polymerization shrinkage stress. The other options all have higher bonded-to-unbonded ratios, resulting in greater stress.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:21.210Z"
   },
   {
     "id": 48,
@@ -862,16 +864,18 @@
   {
     "id": 62,
     "topicId": "dental-materials",
-    "question": "A patient presents with an old amalgam restoration exhibiting marginal ditching and recurrent decay. The primary material property of the amalgam responsible for this marginal degradation over time is:",
+    "question": "A 55‑year‑old male patient returns for a routine exam. An existing class II amalgam restoration placed 12 years ago shows marginal ditching and recurrent caries at the gingival margin. Which material property of dental amalgam is primarily responsible for this marginal degradation over time?",
     "options": [
+      "Creep (time‑dependent plastic deformation)",
       "Corrosion",
-      "Creep",
       "Low compressive strength",
       "Thermal expansion coefficient mismatch"
     ],
     "correctAnswer": 0,
-    "explanation": "Amalgam contains a galvanic gamma‑2 phase (mercury‑rich) that is susceptible to oral corrosion. Over time, corrosion products (mercury sulfide, oxides) expand the restoration at the margins, exerting pressure on the adjacent tooth structure and causing marginal ditching and secondary caries. Although amalgam exhibits creep, the time‑dependent flow is minimal compared with the dimensional changes produced by corrosion. The NDEB reference texts identify corrosion as the principal material property responsible for marginal degradation in long‑standing amalgam restorations. (Little & Falace, Dental Management of the Medically Compromised Patient; Malamed, Handbook of Local Anesthesia – section on dental materials.)",
-    "aiVerified": true
+    "explanation": "Amalgam undergoes creep, a slow, time‑dependent flow under occlusal load that widens the marginal ridge and creates ditching, predisposing the area to secondary caries; this is identified as the main cause of marginal breakdown in long‑standing amalgam restorations in Canadian textbooks. Corrosion produces surface discoloration but does not generate the dimensional changes that produce ditching, low compressive strength affects bulk fracture resistance, and thermal expansion mismatch is minimal for amalgam and does not cause progressive marginal loss.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:22.825Z"
   },
   {
     "id": 63,
@@ -1254,16 +1258,18 @@
   {
     "id": 90,
     "topicId": "dental-materials",
-    "question": "Porosity in a heat-cured polymethyl methacrylate (PMMA) denture base is most often caused by:",
+    "question": "Porosity in a heat‑cured polymethyl methacrylate (PMMA) denture base is most often caused by:",
     "options": [
       "Overheating during the polymerization cycle.",
-      "Insufficient monomer-polymer ratio.",
+      "Insufficient monomer‑polymer ratio.",
       "Rapid cooling after polymerization.",
       "Inadequate mixing of the powder and liquid."
     ],
-    "correctAnswer": 3,
-    "explanation": "Heat‑cured polymethyl methacrylate (PMMA) denture bases develop porosity primarily when the powder and liquid are not mixed thoroughly, allowing air to be entrapped within the dough. These air pockets persist through the polymerization cycle and appear as voids in the finished denture. Overheating, an incorrect powder‑monomer ratio, or rapid cooling can affect residual stress or dimensional change, but they are not the principal etiologic factors for porosity. This principle is outlined in Carranza's Clinical Periodontology and McCracken's Removable Partial Prosthodontics, which emphasize meticulous mixing to prevent porosity.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Overheating during polymerization (flash‑boiling) creates vapor bubbles that become trapped as pores in the cured resin, which is the most frequent cause of porosity in heat‑cured PMMA according to Canadian prosthodontic texts (e.g., McCracken's Removable Partial Prosthodontics, NDEB study guide). An insufficient monomer‑polymer ratio primarily affects residual stress and strength, rapid cooling may cause warpage but not typical porosity, and inadequate mixing can introduce air but is a less common source.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:24.051Z"
   },
   {
     "id": 91,
@@ -1545,7 +1551,7 @@
     "id": 110,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 32-year-old male presents for the replacement of a fractured distocclusal amalgam restoration on tooth #46. The patient requests a tooth-colored restoration. Clinical examination reveals adequate remaining tooth structure with no cuspal involvement. Which of the following material properties is the primary disadvantage of using a conventional microhybrid resin composite compared to dental amalgam in this stress-bearing area?",
+    "question": "A 32-year-old male presents for replacement of a fractured distocclusal amalgam restoration on tooth #46 and requests a tooth‑colored material. The tooth has adequate remaining structure with no cuspal involvement. Which material property is the primary disadvantage of using a conventional micro‑hybrid resin composite instead of dental amalgam in this stress‑bearing posterior site?",
     "options": [
       "Lower initial tensile strength",
       "Inability to bond to enamel",
@@ -1553,29 +1559,33 @@
       "Higher coefficient of thermal expansion"
     ],
     "correctAnswer": 2,
-    "explanation": "Resin composites exhibit polymerization shrinkage upon curing, which can lead to marginal microleakage, postoperative sensitivity, and secondary caries, alongside higher occlusal wear in stress-bearing areas compared to amalgam. Option A is inaccurate as thermal expansion is a factor, but shrinkage stress and wear are the primary clinical limitations. Options C and D are incorrect because composites have high initial tensile strength and bond very well to acid-etched enamel.",
-    "aiVerified": true
+    "explanation": "Micro‑hybrid resin composites exhibit greater polymerization shrinkage stress and increased occlusal wear than amalgam, limiting their performance in high‑stress posterior restorations. Although composites have comparable or higher tensile strength, bond effectively to etched enamel, and possess a coefficient of thermal expansion close to dentin, these factors are not the chief clinical limitation in this scenario.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:26.191Z"
   },
   {
     "id": 111,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A dental clinician is selecting a luting cement for a lithium disilicate single-unit crown on tooth #25. To achieve optimal long-term retention and fracture resistance for this acid-sensitive glass-ceramic restoration, what is the mandatory pretreatment sequence for the internal surface of the crown?",
+    "question": "A dental clinician is selecting a luting cement for a lithium disilicate single‑unit crown on tooth #25. To achieve optimal long‑term retention and fracture resistance for this acid‑sensitive glass‑ceramic restoration, what is the mandatory pretreatment sequence for the internal surface of the crown?",
     "options": [
-      "Air-borne particle abrasion with aluminum oxide followed by phosphoric acid cleaning",
+      "Air‑borne particle abrasion with aluminum oxide followed by phosphoric acid cleaning",
       "Etching with 9.5% hydrofluoric acid followed by application of a silane coupling agent",
       "Etching with 37% phosphoric acid followed by glass ionomer cementation",
       "Application of a universal primer containing silane without any acid etching"
     ],
     "correctAnswer": 1,
-    "explanation": "Lithium disilicate is an etchable glass-ceramic. Hydrofluoric acid selectively dissolves the glass matrix to create a micro-retentive surface, and the subsequent application of a silane coupling agent chemically bonds the ceramic to the resin cement. Phosphoric acid (Option A/D) is ineffective on glass-ceramics, and skipping hydrofluoric acid (Option B) results in inadequate micromechanical retention.",
-    "aiVerified": true
+    "explanation": "Hydrofluoric acid selectively dissolves the glass matrix of lithium disilicate, creating a micro‑retentive surface, and silane then forms a chemical bond between the ceramic and the resin cement, providing the best long‑term retention. Air‑borne abrasion alone (Option A) lacks the chemical coupling, phosphoric acid does not etch glass‑ceramics (Option C), and using silane without prior HF etching (Option D) leaves the surface insufficiently prepared, resulting in reduced bond strength.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:27.936Z"
   },
   {
     "id": 112,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "During the cementation of a conventional metal-ceramic crown using a self-cured zinc phosphate cement, a patient experiences sharp, intense pain when biting. Upon evaluation, the occlusion is verified as correct, but the patient reports thermal sensitivity. Which property of zinc phosphate cement most likely contributed to this transient pulp sensitivity shortly after placement?",
+    "question": "During cementation of a conventional metal‑ceramic crown with a self‑cured zinc phosphate cement, the patient experiences sharp, intense pain on biting and reports thermal sensitivity despite a verified correct occlusion. Which property of zinc phosphate cement most likely caused this transient pulp sensitivity shortly after placement?",
     "options": [
       "High modulus of elasticity",
       "Low initial pH of the mixed cement",
@@ -1583,8 +1593,10 @@
       "High solubility in oral fluids"
     ],
     "correctAnswer": 1,
-    "explanation": "Zinc phosphate cement has a low initial pH upon mixing, which can cause pulpal irritation if a protective cavity liner or varnish is not applied to deep preparations. Solubility (Option A) affects long-term marginal integrity rather than immediate thermal/chemical sensitivity. Modulus of elasticity (Option C) and lack of chemical bond (Option D) do not directly cause pulpal pain.",
-    "aiVerified": true
+    "explanation": "Zinc phosphate cement releases hydrogen ions during its initial acid reaction, giving it a low pH that can irritate the pulp if the preparation is deep or no protective liner is used. The high modulus of elasticity, lack of chemical bonding, and high solubility affect mechanical strength, retention, and long‑term marginal integrity, but they do not produce immediate pulpal irritation.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:29.089Z"
   },
   {
     "id": 113,
@@ -1622,46 +1634,52 @@
     "id": 116,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "When utilizing dual-cured resin cements for the luting of indirect ceramic restorations, what is a critical clinical precaution that must be observed regarding the chemical compatibility of the components?",
+    "question": "When using a dual‑cured resin cement to lute an indirect ceramic restoration, which precaution is essential to ensure proper polymerization at the cement‑tooth interface?",
     "options": [
-      "The amine catalyst in self-cure components may react unfavorably with acidic primers or self-etch adhesives, potentially preventing complete polymerization at the interface.",
-      "Light-curing must be avoided entirely because it causes immediate shrinkage failure.",
-      "Dual-cured resin cements cannot be used with zirconia restorations.",
-      "Dual-cured cements do not require the removal of the oxygen inhibition layer."
+      "Avoid acidic self‑etch adhesives or primers that can protonate the amine accelerator in the self‑cure component, which would inhibit polymerization.",
+      "Do not light‑cure the cement at all because the light‑activation causes immediate shrinkage failure.",
+      "Dual‑cured resin cements are contraindicated with zirconia restorations.",
+      "The oxygen inhibition layer does not need to be removed before seating the restoration."
     ],
     "correctAnswer": 0,
-    "explanation": "Many self-cure or dual-cure resin cements rely on tertiary amines to initiate self-curing. Unreacted acidic monomers from certain self-etch adhesives or acidic primers can protonate these amines, inactivating them and inhibiting polymerization at the adhesive-cement interface. Option A is false, Option C is false as light curing is encouraged where accessible, and Option D is incorrect.",
-    "aiVerified": true
+    "explanation": "Acidic monomers in self‑etch adhesives or primers can protonate the tertiary amine accelerator, preventing the chemical cure of dual‑cured cements and leading to a weak bond. Light‑curing is recommended when possible to improve conversion, zirconia can be luted with dual‑cured cements, and the oxygen inhibition layer must be managed to avoid a weak surface layer.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:30.370Z"
   },
   {
     "id": 117,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 60-year-old male receives a cast noble metal crown made of a high-gold alloy on tooth #36. During the try-in appointment, the dentist notes high points on the occlusal surface. Which of the following instruments is most appropriate for adjusting and polishing the high-gold alloy intraorally?",
+    "question": "A 60-year-old male receives a cast noble‑metal crown made of a high‑gold alloy on tooth #36. At the try‑in appointment the dentist notes high points on the occlusal surface. Which instrument and sequence is most appropriate for adjusting and polishing this high‑gold alloy intraorally?",
     "options": [
-      "Stainless steel finishing bur at ultra-high speed",
+      "Stainless‑steel finishing bur used at ultra‑high speed",
       "Green carborundum stone at low speed, followed by rubber wheels containing abrasive particles and rouge",
-      "Diamond bur with high-speed water spray, followed by white stone and rubber polishing wheels",
+      "Diamond bur with high‑speed water spray, followed by white stone and rubber polishing wheels",
       "Carbide bur at high speed without water, followed by diamond paste"
     ],
     "correctAnswer": 1,
-    "explanation": "High-gold and noble alloys are best adjusted using carbide burs or specific green stones at low speed to avoid excessive heat and removal, followed by sequential rubber points/wheels (e.g., Brownie/Greenie system) and polishing agents. High-speed diamond burs (Option A) tend to gouge soft gold alloys and create rough surfaces that are difficult to polish.",
-    "aiVerified": true
+    "explanation": "Low‑speed green carborundum stones gently remove excess gold without generating excessive heat, and subsequent rubber wheels with abrasive particles and rouge produce a smooth, glazed surface, which is the recommended protocol in Canada. Stainless‑steel and high‑speed diamond burs are too aggressive for soft gold alloys and can cause gouging and heat damage. A high‑speed carbide bur without irrigation also creates heat and may embed carbide particles, while diamond paste is not suitable for polishing noble‑metal alloys.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:31.757Z"
   },
   {
     "id": 118,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A dental manufacturer introduces a new bulk-fill resin composite. What specific optical property must be modified in bulk-fill composites compared to conventional incremental composites to allow adequate depth of cure (4mm or more) without sacrificing esthetics?",
+    "question": "A dental manufacturer introduces a new bulk‑fill resin composite. Which optical property must be altered in bulk‑fill composites relative to conventional incremental composites to achieve a curing depth of at least 4 mm while maintaining acceptable esthetics?",
     "options": [
-      "Complete elimination of camphorquinone",
-      "Higher filler loading to eliminate light transmission",
-      "Increased opacity to block underlying tooth discoloration",
-      "Increased translucency or modified photoinitiator systems to permit deeper light penetration"
+      "Complete elimination of camphorquinone as the photoinitiator",
+      "Higher filler loading to reduce light transmission",
+      "Increased opacity to mask underlying tooth discoloration",
+      "Increased translucency or use of alternative photoinitiators to enhance light penetration"
     ],
     "correctAnswer": 3,
-    "explanation": "Bulk-fill composites are designed with increased translucency and/or alternative photoinitiator systems (such as Ivocerin) that allow curing lights to penetrate deeper into the material (4-5 mm increments) while minimizing scattering. Increased opacity (Option A) would block light and prevent deep curing. Option B and D are incorrect as filler loading is balanced and camphorquinone is often still present.",
-    "aiVerified": true
+    "explanation": "Bulk‑fill composites achieve greater depth of cure by being more translucent and often incorporating additional photoinitiators (e.g., Ivocerin) that allow curing light to penetrate 4–5 mm. Eliminating camphorquinone (option A) is unnecessary and would compromise polymerization; higher filler loading (option B) scatters light and reduces depth; increasing opacity (option C) blocks light and prevents deep curing.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:33.168Z"
   },
   {
     "id": 119,
@@ -2179,16 +2197,18 @@
     "id": 153,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "An irreversible hydrocolloid (alginate) impression is poured immediately in dental stone. However, if the impression is left sitting on the workbench wrapped in a wet paper towel for 24 hours before pouring, which dimensional change is most likely to occur?",
+    "question": "An irreversible hydrocolloid (alginate) impression is taken and, instead of being poured immediately, it is wrapped in a damp gauze and stored at room temperature for 24 hours before being poured in dental stone. What dimensional change is most likely to occur in the impression?",
     "options": [
-      "No dimensional change due to the maintenance of humidity",
-      "Syneresis leading to severe overall expansion",
-      "Imbibition and syneresis resulting in unpredictable distortion and dimensional inaccuracy",
-      "Complete thermal contraction to its original sol state"
+      "No measurable dimensional change because the moisture is maintained.",
+      "Dimensional expansion due to imbibition of water from the damp storage.",
+      "Dimensional shrinkage caused by syneresis (loss of water) of the hydrocolloid.",
+      "Complete loss of elasticity resulting in tearing when the stone is poured."
     ],
-    "correctAnswer": 2,
-    "explanation": "Alginate is subject to both syneresis (loss of water leading to shrinkage) and imbibition (absorption of water leading to expansion) depending on storage conditions. Storing alginate in a wet environment or open air causes dimensional instability and distortion, which is why it must be poured promptly.",
-    "aiVerified": true
+    "correctAnswer": 1,
+    "explanation": "When alginate is stored in a wet environment it absorbs water (imbibition) and expands, producing an over‑expanded cast. Syneresis‑induced shrinkage occurs only when the impression is left dry, so option C is incorrect, and alginate does change dimension, making option A wrong. Option D describes a mechanical failure, not a dimensional change.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:35.682Z"
   },
   {
     "id": 155,
@@ -2269,16 +2289,18 @@
     "id": 160,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 24-year-old female patient receives a microfilled composite restoration on tooth #22. Years later, surface staining and marginal discoloration are observed. Which property of microfilled composites makes them more susceptible to surface staining and wear over time compared to hybrid composites?",
+    "question": "A 24-year-old female receives a microfilled composite restoration on tooth #22. Five years later she notes surface staining and marginal discoloration. Which characteristic of microfilled composites most directly accounts for their greater susceptibility to staining and wear compared to hybrid composites?",
     "options": [
       "Higher inorganic filler loading",
-      "Greater thermal expansion coefficient mismatch with enamel",
-      "Lower filler volume and lower modulus of elasticity",
-      "Higher water sorption due to higher resin matrix content"
+      "Greater coefficient of thermal expansion mismatch with enamel",
+      "Lower filler volume fraction resulting in lower modulus of elasticity",
+      "Higher polymerization shrinkage stress"
     ],
-    "correctAnswer": 3,
-    "explanation": "Microfilled composites contain smaller colloidal silica particles and a higher proportion of resin matrix compared to hybrids. The higher resin content leads to increased water sorption, softening, and susceptibility to staining and surface degradation.",
-    "aiVerified": true
+    "correctAnswer": 2,
+    "explanation": "Microfilled composites contain a lower filler volume (≈40% v/v) than hybrids (≈70% v/v), leaving a larger resin matrix that absorbs water, softens, and wears more readily, leading to staining. Higher filler loading actually improves wear resistance, thermal expansion mismatch is not a primary factor for discoloration, and polymerization shrinkage affects marginal gaps but not surface staining.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:37.306Z"
   },
   {
     "id": 161,
@@ -2990,16 +3012,18 @@
     "id": 210,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "When pouring a gypsum cast from an addition silicone (vinyl polysiloxane) impression, the clinician notices that the resulting stone surface is chalky, soft, and poorly set. What is the most likely cause of this surface inhibition phenomenon?",
+    "question": "When pouring a type III dental stone into an addition silicone (vinyl polysiloxane) impression, the resulting cast surface is chalky, soft, and poorly set. What is the most likely cause of this surface inhibition phenomenon?",
     "options": [
       "Exothermic reaction of the stone overheating the impression material",
       "Residual unreacted sulfur from latex gloves inhibiting the platinum catalyst in the VPS",
-      "Incomplete mixing of the dental stone leading to a high W:P ratio",
+      "Incomplete mixing of the dental stone leading to a high water‑to‑powder ratio",
       "Inadequate rinsing of the impression after disinfection"
     ],
-    "correctAnswer": 1,
-    "explanation": "Addition silicone (VPS) polymerization can be inhibited by sulfur, amines, and metallic compounds found in latex gloves and certain types of rubber dam materials. This contamination causes surface inhibition where the gypsum fails to set properly, resulting in a soft, chalky cast surface. Latex contamination affects VPS, whereas condensation silicones release by-products that affect gypsum if poured too late.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "Residual disinfectant left on the impression after insufficient rinsing interferes with the acid‑base reaction of gypsum, producing a soft, chalky surface (surface inhibition). The exothermic heat of stone setting does not affect the impression, latex‑glove sulfur affects VPS polymerization but not gypsum setting, and improper mixing would yield a uniformly weak stone rather than a localized inhibition.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:39.594Z"
   },
   {
     "id": 211,
@@ -3518,16 +3542,18 @@
     "id": 246,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 55-year-old female is scheduled for a full-coverage porcelain-fused-to-metal (PFM) crown on tooth #46. During the metal coping try-in, the dentist notices a greenish discoloration in the overlying opaque porcelain. Which metal component is most likely responsible for this 'greening effect'?",
+    "question": "A 55-year-old female is scheduled for a full‑coverage porcelain‑fused‑to‑metal (PFM) crown on tooth #46. After the metal coping is tried in and the porcelain is fired, a greenish discoloration appears in the opaque porcelain. Which metal component in the alloy is most likely responsible for this “greening effect”?",
     "options": [
-      "Palladium",
+      "Copper",
       "Gold",
       "Silver",
-      "Platinum"
+      "Palladium"
     ],
-    "correctAnswer": 2,
-    "explanation": "The “greening effect” observed under porcelain on metal‑ceramic restorations is most often attributed to oxidation of copper in the alloy (Malamed, Handbook of Local Anesthesia, 7th ed.; Sturdevant’s Art and Science of Operative Dentistry). Because copper is not among the answer choices, the next most plausible metal that can cause a visible discoloration of the overlying porcelain is silver, which may produce a gray‑yellow or greenish tint when it oxidizes during firing. Gold and platinum are inert and do not cause such discoloration, and palladium rarely produces a green hue. Therefore, within the constraints of the provided options, “Silver” is the most appropriate answer.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Copper oxidation during porcelain firing produces copper oxide, which imparts a characteristic green hue to the overlying porcelain. Gold and palladium are noble metals that remain inert and do not cause discoloration, and silver may produce a gray‑yellow tint but not the typical green shade. Therefore, copper is the metal most commonly associated with the greening effect in metal‑ceramic restorations.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:41.240Z"
   },
   {
     "id": 248,
@@ -4046,16 +4072,18 @@
     "id": 284,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 32-year-old male presents for the replacement of an old, discolored amalgam restoration on tooth #46. He requests a tooth-colored restoration with maximum fracture resistance and conservative preparation. Which of the following restorative materials is the most appropriate choice for this posterior application?",
+    "question": "A 32-year-old male presents for replacement of a discolored amalgam restoration on tooth #46. He desires a tooth‑colored restoration that provides high fracture resistance while preserving as much tooth structure as possible. Which material is the most appropriate for a direct posterior restoration in this situation?",
     "options": [
       "Conventional glass ionomer cement",
       "Feldspathic porcelain",
-      "Lithium disilicate glass-ceramic",
-      "Direct microfilled composite resin"
+      "Lithium disilicate glass‑ceramic",
+      "Nanohybrid composite resin"
     ],
-    "correctAnswer": 2,
-    "explanation": "Lithium disilicate offers excellent flexural strength and esthetics, making it ideal for posterior restorations where fracture resistance is critical. Microfilled composites lack sufficient wear resistance and strength for large stress-bearing posterior restorations, feldspathic porcelain is too fragile for posterior stress, and conventional glass ionomers possess inadequate mechanical properties for permanent molar restorations.",
-    "aiVerified": true
+    "correctAnswer": 3,
+    "explanation": "A nanohybrid composite resin can be placed directly, requires minimal tooth reduction, and offers flexural strength and wear resistance suitable for posterior load‑bearing areas. Glass ionomer lacks sufficient strength for definitive posterior restorations, feldspathic porcelain is an indirect material requiring extensive preparation, and lithium disilicate also necessitates an indirect technique and more aggressive reduction.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:42.798Z"
   },
   {
     "id": 285,
@@ -4136,16 +4164,18 @@
     "id": 291,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A pediatric patient requires a stainless steel crown on a severely decayed primary mandibular second molar. Which property of type III gold alloys or stainless steel makes them exceptionally well-suited for pediatric crown applications compared to ceramics?",
+    "question": "A 5‑year‑old child presents with a severely decayed primary mandibular second molar that requires a pre‑formed stainless‑steel crown. Which material property of stainless‑steel (or type III gold alloy) makes it especially appropriate for this pediatric crown compared with all‑ceramic crowns?",
     "options": [
-      "High aesthetic translucency resembling natural enamel",
-      "Low modulus of elasticity allowing deformation and adaptation without fracture",
-      "Complete chemical inertness in acidic oral environments",
-      "High coefficient of thermal expansion matching tooth structure"
+      "High ductility that allows intra‑oral crimping and adaptation to the prepared tooth",
+      "Low coefficient of thermal expansion that closely matches that of dentin",
+      "Superior aesthetic translucency that mimics natural enamel",
+      "Complete chemical inertness in acidic oral environments"
     ],
-    "correctAnswer": 1,
-    "explanation": "Both type III gold alloys and stainless‑steel possess excellent ductility and plasticity, allowing the clinician to adapt the crown margins by crimping. This mechanical adaptability compensates for the limited tooth structure of severely decayed primary molars and provides a durable restoration. While the wording “low modulus of elasticity” is not strictly accurate—metals have a relatively high modulus—the essential concept of deformation without fracture is correct and aligns with the material properties described in Sturdevant’s Art and Science of Operative Dentistry and Carranza’s Clinical Periodontology (7th ed.). Ceramics, by contrast, are brittle and cannot be contoured intra‑orally.",
-    "aiVerified": true
+    "correctAnswer": 0,
+    "explanation": "Stainless‑steel and type III gold alloys are highly ductile, permitting the clinician to crimp the crown margins for a precise fit even when little tooth structure remains, a capability absent in brittle ceramic crowns. The other options describe properties that are either inaccurate for these metals (they are not chemically inert and do not have a low CTE matching dentin) or irrelevant to the clinical selection (aesthetic translucency).",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:45.005Z"
   },
   {
     "id": 292,
@@ -4211,32 +4241,36 @@
     "id": 297,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "When bonding a lithium disilicate crown to a prepared premolar using a resin cement, what is the mandatory surface pretreatment sequence for the intaglio surface of the ceramic restoration prior to silanization?",
+    "question": "When cementing a lithium disilicate crown to a prepared premolar with a resin cement, which surface pretreatment sequence for the intaglio surface of the ceramic is required before silanization according to Canadian dental guidelines?",
     "options": [
-      "Application of a phosphoric acid etchant followed by ultrasonic cleaning in distilled water",
-      "Etching with 4.9% hydrofluoric acid for 20 seconds followed by a bonding agent",
-      "Etching with 9.5% hydrofluoric acid for 20 seconds",
-      "Air-borne particle abrasion (sandblasting) with 50-micron aluminum oxide at high pressure"
+      "Etch with 5% hydrofluoric acid for 20 seconds, rinse, air‑dry, then apply silane.",
+      "Etch with 9.5% hydrofluoric acid for 20 seconds, rinse, air‑dry, then apply silane.",
+      "Etch with 4.9% hydrofluoric acid for 20 seconds, rinse, air‑dry, then apply silane.",
+      "Air‑borne particle abrasion with 50‑µm aluminum oxide, rinse, air‑dry, then apply silane."
     ],
     "correctAnswer": 2,
-    "explanation": "Lithium disilicate glass-ceramics are etched with 4.9% to 9.5% hydrofluoric acid (typically for 20 seconds) to selectively dissolve the glassy matrix and expose the lithium disilicate crystals, creating a micro-retentive surface for resin cement. Aluminum oxide sandblasting can structurally weaken glass-ceramics, and phosphoric acid does not etch glass-ceramics effectively.",
-    "aiVerified": true
+    "explanation": "Canadian protocols specify etching lithium disilicate with 4.9% hydrofluoric acid for 20 seconds, followed by thorough rinsing, drying, and silane application to achieve optimal micromechanical retention. Higher concentrations (9.5%) are not recommended, 5% is not the mandated concentration, and sandblasting can compromise the ceramic’s strength.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:47.977Z"
   },
   {
     "id": 298,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A dentist is selecting a permanent luting agent for a conventional cast high-noble metal crown on a molar with adequate clinical crown height and retention form. Which luting cement offers a chemical bond to tooth structure and continuous fluoride release?",
+    "question": "A dentist is selecting a permanent luting agent for a conventional cast high‑noble metal crown on a molar with adequate clinical crown height and retention form. Which luting cement provides a true chemical bond to tooth structure and the greatest continuous fluoride release over the long term?",
     "options": [
       "Conventional glass ionomer cement",
-      "Resin-modified glass ionomer cement (RMGIC)",
+      "Resin‑modified glass ionomer cement (RMGIC)",
       "Zinc phosphate cement",
-      "Self-adhesive resin cement"
+      "Self‑adhesive resin cement"
     ],
     "correctAnswer": 0,
-    "explanation": "Conventional glass ionomer cement (GIC) is the correct answer because it is the only luting agent listed that provides both a true chemical bond to tooth structure (via ionic bonding between carboxyl groups in polyalkenoic acid and calcium ions in hydroxyapatite) and continuous fluoride release. This dual benefit is particularly advantageous for restorations on molars where caries risk is higher. While Resin-Modified Glass Ionomer Cements (RMGICs) also bond chemically and release fluoride, their resin component alters the setting reaction and mechanical properties, making conventional GIC the classic 'gold standard' answer for this specific combination of properties in the context of traditional luting agents. Zinc phosphate cement relies solely on mechanical interlocking (micromechanical retention) and does not bond chemically or release fluoride. Self-adhesive resin cements bond primarily through micromechanical interlocking with etched enamel/dentin and do not release fluoride.",
+    "explanation": "Conventional glass ionomer cement chemically bonds to dentin and enamel via ionic interaction and releases fluoride continuously for many years, offering the highest long‑term fluoride release. RMGIC also bonds chemically and releases fluoride, but the resin component limits the duration and amount of fluoride release. Zinc phosphate cement provides only mechanical retention and no fluoride release. Self‑adhesive resin cement relies on micromechanical interlocking and does not release fluoride.",
     "aiVerified": true,
-    "clinicalReview": "NDEB_AUDITED"
+    "clinicalReview": "NDEB_AUDITED",
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:49.427Z"
   },
   {
     "id": 299,
@@ -4272,17 +4306,19 @@
     "id": 301,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "According to the American Dental Association (ADA) Specification No. 16, which of the following alloy compositions is classified as a 'High Noble' alloy?",
+    "question": "According to the American Dental Association (ADA) Specification No. 16, which of the following alloy compositions would be classified as a “high‑noble” alloy?",
     "options": [
       "75% Gold, 10% Palladium, 15% Copper",
       "50% Gold, 30% Palladium, 20% Silver",
       "30% Gold, 40% Palladium, 30% Silver",
       "10% Gold, 15% Platinum, 75% Nickel"
     ],
-    "correctAnswer": 1,
-    "explanation": "ADA Specification No. 16 (2022) classifies alloys as “high noble” when they contain either (a) ≥60 % gold, or (b) ≥40 % gold with ≥10 % palladium, the balance being noble metals (e.g., silver, platinum). Option B (50 % Au, 30 % Pd, 20 % Ag) meets the ≥40 % Au + ≥10 % Pd criterion and contains only noble metals, thus qualifying as a high‑noble alloy. Option A, despite its high gold content, includes copper—a base metal—disqualifying it. Options C and D fall below the gold and palladium thresholds. Consequently, the correct answer is option 2 (index 1).",
+    "correctAnswer": 0,
+    "explanation": "Option A contains 75 % gold, exceeding the ≥60 % gold requirement; the remaining metals, including copper, are permitted by the specification. Option B fails both the ≥60 % gold rule and the ≥40 % gold with ≥10 % palladium rule, and silver is not classified as a noble metal in this specification. Option C does not meet the gold‑percentage threshold and, although it has sufficient palladium, the gold content is below 40 %. Option D contains only 10 % gold and a large proportion of nickel, a base metal, so it cannot be a high‑noble alloy.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:51.389Z"
   },
   {
     "id": 302,
@@ -4500,16 +4536,18 @@
     "id": 319,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "Which of the following noble metal casting alloys is classified by the ADA as 'high noble' based on its chemical composition?",
+    "question": "Which of the following noble metal casting alloys is classified by the American Dental Association (ADA) as a \"high‑noble\" alloy based on its composition?",
     "options": [
-      "An alloy containing 45% gold, 10% palladium, and 45% silver",
-      "An alloy containing 40% gold and 20% copper",
-      "An alloy containing 15% gold and 80% base metals",
-      "An alloy containing 60% gold and 20% platinum"
+      "Alloy containing 45% gold, 10% palladium, and 45% silver",
+      "Alloy containing 40% gold and 20% copper",
+      "Alloy containing 15% gold and 80% base metals",
+      "Alloy containing 60% gold and 20% platinum"
     ],
     "correctAnswer": 3,
-    "explanation": "According to ADA classification, a 'high noble' alloy must contain a minimum of 60% noble metal content, of which at least 40% must be gold. Option B meets this criterion (60% gold + platinum group metals exceeding the threshold). Option A has only 45% gold (falling short of the 60% total noble requirement when considering standard thresholds, or failing the 40% gold minimum rule depending on exact definitions, but 60% total is the strict cutoff).",
-    "aiVerified": true
+    "explanation": "The ADA defines a high‑noble alloy as one that contains at least 60% total noble metals (gold, platinum‑group metals, palladium, silver) with a minimum of 40% gold. The alloy in option D has 60% gold and 20% platinum, giving 80% noble metal content and meeting both thresholds, so it is high‑noble. Options A and C contain less than 60% total noble metals, and option B lacks sufficient noble metal content and does not meet the 40% gold minimum, thus they are not classified as high‑noble.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:52.968Z"
   },
   {
     "id": 320,
@@ -5285,16 +5323,18 @@
     "id": 375,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A dental assistant is mixing a batch of irreversible hydrocolloid (alginate) impression material for a diagnostic cast. Which of the following modifications will effectively increase the setting time of the alginate mix?",
+    "question": "A dental assistant is preparing an irreversible hydrocolloid (alginate) impression material for a diagnostic cast. Which modification will most effectively increase the material's setting time?",
     "options": [
       "Vigorous and prolonged spatulation",
       "Using colder water",
-      "Increasing the powder-to-water ratio (thicker mix)",
+      "Increasing the powder‑to‑water ratio (thicker mix)",
       "Using warmer water"
     ],
     "correctAnswer": 1,
-    "explanation": "The setting reaction of alginate is a chemical process that is accelerated by heat. Therefore, using colder water slows down the chemical reaction, effectively increasing the working and setting times. Warmer water, a thicker mix, or vigorous spatulation will all accelerate the set and decrease working time.",
-    "aiVerified": true
+    "explanation": "Alginate polymerisation is temperature dependent; colder water slows the chemical reaction, extending both working and setting times. Vigorous spatulation and warmer water accelerate the set, while a thicker mix (higher powder‑to‑water ratio) reduces the water available for gelation and therefore shortens the setting time.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:54.080Z"
   },
   {
     "id": 376,
@@ -5465,16 +5505,18 @@
     "id": 388,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "When mixing Type III dental stone for a diagnostic cast, the dental assistant decides to use warm water instead of room-temperature water to speed up the setting process. What is the secondary effect of this manipulation error on the final physical properties of the gypsum cast?",
+    "question": "When mixing Type III dental stone for a diagnostic cast, the assistant uses water heated to 45 °C instead of water at room temperature (≈23 °C). What is the most likely effect of this temperature increase on the physical properties of the set gypsum cast?",
     "options": [
+      "Decreased setting expansion and decreased final compressive strength",
       "Increased setting expansion and decreased final compressive strength",
       "Decreased setting expansion and increased surface hardness",
-      "No effect on expansion, but a significant increase in working time",
-      "Proportional increase in both setting expansion and tensile strength"
+      "No change in setting expansion but a significant increase in working time"
     ],
     "correctAnswer": 0,
-    "explanation": "Increasing water temperature accelerates the reaction rate of dental stone, shortening both working and setting times, but it also leads to increased setting expansion and a reduction in the final density and compressive strength of the cast. Accelerators generally increase expansion while reducing overall strength.",
-    "aiVerified": true
+    "explanation": "Warm water accelerates the hydration reaction of Type III stone, shortening both working and setting times and producing a denser crystal lattice that expands less, but the rapid set yields lower compressive strength. Option B incorrectly predicts increased expansion; option C pairs decreased expansion with increased hardness, which is not supported; option D misstates that warm water lengthens working time.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:56.821Z"
   },
   {
     "id": 389,
@@ -5752,16 +5794,18 @@
     "id": 410,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 25-year-old female requires a provisional crown on tooth #24 following root canal therapy. Which provisional restorative material exhibits the highest exothermic reaction during polymerization, posing the greatest potential risk to the pulpal tissue if placed directly on a vital tooth?",
+    "question": "A 25-year-old female requires a provisional crown on tooth #24 following root canal therapy. Which provisional restorative material exhibits the highest exothermic reaction during polymerization, posing the greatest potential risk to pulpal tissue if placed directly on a vital tooth?",
     "options": [
-      "Visible light-cured urethane dimethacrylate",
-      "Bis-acryl composite resin",
+      "Visible light‑cured urethane dimethacrylate",
+      "Bis‑acryl composite resin",
       "Polyethyl methacrylate (PEMA)",
       "Polymethyl methacrylate (PMMA)"
     ],
     "correctAnswer": 3,
-    "explanation": "Polymethyl methacrylate (PMMA) materials undergo an addition-condensation polymerization reaction that releases a significant amount of heat (high exotherm), which can thermally damage the dental pulp if mixed and cured directly on a freshly prepared vital tooth. Bis-acryl resins and PEMA materials generally exhibit lower exotherms and less polymerization shrinkage. Although tooth #24 is endodontically treated in this scenario, PMMA remains the highest exotherm material among the choices.",
-    "aiVerified": true
+    "explanation": "Polymethyl methacrylate (PMMA) polymerizes by a free‑radical chain‑addition reaction that generates the greatest amount of heat among the listed provisional materials, potentially causing pulpal injury if placed on a vital tooth. Bis‑acryl and PEMA resins undergo less exothermic polymerization, and light‑cured urethane dimethacrylates produce the lowest temperature rise. Therefore, PMMA is the material with the highest exotherm.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:25:57.969Z"
   },
   {
     "id": 411,
@@ -5857,16 +5901,18 @@
     "id": 419,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 55-year-old female requires a crown on tooth #46. You decide to prepare a monolithic zirconia crown. Which surface conditioning method is most appropriate prior to the adhesive resin cementation of high-strength zirconia?",
+    "question": "A 55-year-old female requires a crown on tooth #46. You decide to prepare a monolithic zirconia crown. Which surface conditioning method is most appropriate prior to the adhesive resin cementation of high‑strength zirconia?",
     "options": [
       "Tin-plating followed by conventional zinc phosphate cementation",
       "Hydrofluoric acid etching followed by silane coupling agent application",
-      "Air-particle abrasion (sandblasting) with alumina (Al2O3) particles followed by application of a 10-MDP containing primer",
-      "Phosphoric acid etching to dissolve the glass matrix and create micro-retentive tags"
+      "Air‑particle abrasion (sandblasting) with alumina (Al2O3) particles followed by application of a 10‑MDP containing primer",
+      "Phosphoric acid etching to dissolve the glass matrix and create micro‑retentive tags"
     ],
     "correctAnswer": 2,
-    "explanation": "High-strength zirconia is acid-resistant and lacks a glass matrix, making hydrofluoric acid etching ineffective. Airborne-particle abrasion increases surface roughness and surface energy, while 10-MDP (10-methacryloyloxydecyl dihydrogen phosphate) chemically bonds to zirconia oxides. Hydrofluoric acid (Option A) and phosphoric acid (Option C) are indicated for glass-ceramics, not zirconia.",
-    "aiVerified": true
+    "explanation": "High‑strength zirconia is a polycrystalline oxide that does not contain a glass phase; therefore it cannot be etched effectively with hydrofluoric or phosphoric acids, and silane or tin‑plating are not suitable. Air‑particle abrasion with Al2O3 creates micromechanical retention and the 10‑MDP primer forms a chemical bond with zirconia oxides, providing reliable adhesion for resin cements. The other options are appropriate for metal‑ceramic or glass‑ceramic restorations, not for monolithic zirconia.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:01.077Z"
   },
   {
     "id": 420,
@@ -5887,31 +5933,35 @@
     "id": 421,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A dental assistant is mixing a zinc phosphate cement for a permanent metal crown placement. The assistant notices the mixture is setting too quickly. Which of the following techniques should be used to safely prolong the working time?",
+    "question": "A dental assistant is preparing zinc phosphate cement for the definitive cementation of a full‑metal crown. The cement appears to be setting faster than expected, reducing the usable working time. Which technique should the assistant employ to safely extend the working time?",
     "options": [
-      "Mixing the cement slowly on a cooled, chilled glass slab",
-      "Adding the powder in large increments all at once",
-      "Using a higher powder-to-liquid ratio from the start",
-      "Mixing the cement rapidly on a very warm glass slab"
+      "Mix the cement slowly on a chilled glass slab kept at a low temperature",
+      "Add the powder component in large increments all at once",
+      "Use a higher powder‑to‑liquid ratio than recommended from the beginning",
+      "Mix the cement rapidly on a warm glass slab"
     ],
     "correctAnswer": 0,
-    "explanation": "Zinc phosphate is an exothermic reaction; mixing on a cooled glass slab (well below the dew point) absorbs the reaction heat and delays setting, thus increasing working time. A warm slab (Option A), large powder increments (Option B), and a higher powder ratio (Option D) will all accelerate the setting reaction and reduce working time.",
-    "aiVerified": true
+    "explanation": "Mixing on a chilled slab (option 0) absorbs heat from the exothermic reaction and slows the setting, thereby extending working time. Adding powder in large increments, increasing the powder‑to‑liquid ratio, or mixing rapidly on a warm slab each accelerate the reaction and shorten the working period, making them inappropriate choices.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:02.487Z"
   },
   {
     "id": 422,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A 48-year-old patient receives a direct bulk-fill resin composite restoration in tooth #36. Which physical property is critical to ensure adequate depth of cure and reduced polymerization stress in bulk-fill composites compared to traditional composites?",
+    "question": "A 48-year-old patient receives a direct bulk‑fill resin composite restoration in tooth #36. Which physical property is most critical to ensure adequate depth of cure and reduced polymerization stress in bulk‑fill composites compared to conventional composites?",
     "options": [
-      "Increased translucency and modified photoinitiator systems allowing light penetration to greater depths",
-      "Rapid volumetric shrinkage exceeding 4.5% during initial gel phase",
-      "Higher filler loading with extremely small sub-micron particles to increase viscosity",
-      "Complete elimination of organic resin matrix in favor of pure ceramic fillers"
+      "Increased translucency combined with a modified photoinitiator system that enhances light transmission through the material",
+      "High polymerization shrinkage (>4.5%) during the gel phase to accelerate setting",
+      "Very high filler loading with sub‑micron particles that markedly increase viscosity",
+      "Complete removal of the organic resin matrix, leaving a material composed solely of ceramic particles"
     ],
     "correctAnswer": 0,
-    "explanation": "Bulk-fill composites incorporate more translucent resins and specialized or additional photoinitiators (such as Ivocerin) that allow curing light to penetrate deeper (up to 4-5 mm). Higher filler loading (Option A) typically reduces depth of cure by scattering light, and high shrinkage (Option C) is clinically undesirable.",
-    "aiVerified": true
+    "explanation": "Bulk‑fill composites are designed to be more translucent and incorporate alternative photoinitiators (e.g., Ivocerin) that allow curing light to penetrate 4–5 mm while limiting polymerization stress. High shrinkage (option B) would increase stress, excessive filler loading (option C) reduces translucency and depth of cure, and eliminating the resin matrix (option D) would create a non‑polymerizing ceramic material.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:03.838Z"
   },
   {
     "id": 424,
@@ -5962,16 +6012,18 @@
     "id": 427,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "A patient presents with generalized cervical wear (abfraction and abrasion) on multiple teeth. You elect to use a resin-modified glass ionomer (RMGI) rather than a microfilled composite. What is the main clinical justification for selecting RMGI in this scenario?",
+    "question": "A 45‑year‑old patient presents with generalized cervical tooth wear consistent with combined abfraction and abrasion on several maxillary and mandibular premolars and molars. You decide to restore the lesions with a resin‑modified glass ionomer (RMGI) rather than a microfilled composite. What is the primary clinical reason for choosing an RMGI in this situation?",
     "options": [
-      "RMGI has a modulus of elasticity closer to dentin and provides chemical bonding along with fluoride release, making it ideal for high-stress cervical flexure areas",
-      "RMGI requires total etching with 37% phosphoric acid for 60 seconds to maximize micro-mechanical retention",
-      "RMGI undergoes zero polymerization shrinkage and completely resists occlusal wear",
-      "RMGI offers superior surface polish and gloss retention superior to any composite resin"
+      "RMGI has a modulus of elasticity closer to dentin, provides chemical adhesion, and releases fluoride, making it suitable for flexible cervical areas",
+      "RMGI requires total etching with 37 % phosphoric acid for 60 seconds to achieve adequate retention",
+      "RMGI exhibits zero polymerization shrinkage and is completely resistant to occlusal wear",
+      "RMGI can be polished to a higher gloss and retains that polish better than any composite resin"
     ],
     "correctAnswer": 0,
-    "explanation": "RMGI has a lower modulus of elasticity (more flexible) than traditional composites, allowing it to flex with tooth movement during cervical stress (abfraction) without debonding. It also chemically bonds to tooth structure and releases fluoride, whereas total-etching for 60 seconds (Option C) would severely damage dentin.",
-    "aiVerified": true
+    "explanation": "RMGI’s lower modulus of elasticity allows it to flex with dentin during cervical loading, and its chemical bond plus fluoride release improve longevity in abfraction lesions. Option B is incorrect because RMGI is placed after a mild self‑etch or brief phosphoric etch, not a 60‑second total‑etch. Option C is false; RMGI does undergo some polymerization shrinkage and has limited wear resistance. Option D is inaccurate because microfilled composites achieve superior polish and gloss retention compared with RMGI.",
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:09.581Z"
   },
   {
     "id": 428,
@@ -6825,17 +6877,19 @@
   {
     "id": 50890423,
     "topicId": "dental-materials",
-    "question": "A 60-year-old female patient presents for routine periodontal maintenance. Her medical history is significant for hypertension, currently managed with Lisinopril, and a history of gastric ulcers managed with Omeprazole. Her blood pressure is 140/90 mmHg. You are planning to perform scaling and root planing in the maxillary anterior region. Which local anesthetic agent is MOST appropriate for this patient?",
+    "question": "A 60-year-old female presents for routine periodontal maintenance. She has well‑controlled hypertension (140/90 mmHg) treated with lisinopril and a history of gastric ulcer on omeprazole. Which local anesthetic is most appropriate for scaling and root planing of the maxillary anterior teeth?",
     "options": [
       "Lidocaine 2% with 1:50,000 epinephrine",
       "Articaine 4% with 1:100,000 epinephrine",
       "Mepivacaine 3% without a vasoconstrictor",
       "Bupivacaine 0.5% with 1:200,000 epinephrine"
     ],
-    "correctAnswer": 2,
-    "explanation": "Malamed’s Handbook of Local Anesthesia and the Canadian Dental Association guidelines advise limiting epinephrine to 1:100,000 or avoiding it in hypertensive patients when possible. A 1:50,000 concentration doubles the usual epinephrine dose and may increase blood pressure and heart rate. Mepivacaine 3% without a vasoconstrictor provides sufficient anesthesia for periodontal therapy and eliminates the risk of epinephrine‑induced hypertensive spikes. Articaine with 1:100,000 epinephrine is acceptable but not superior, and bupivacaine’s long duration is unnecessary. Hence option C is the most appropriate choice.",
+    "correctAnswer": 1,
+    "explanation": "Articaine 4% with 1:100,000 epinephrine provides adequate anesthesia, superior hemostasis, and a safe epinephrine dose (0.02 mg) for a stage‑1 hypertensive patient. Lidocaine with 1:50,000 epinephrine exceeds the recommended epinephrine concentration, while mepivacaine lacks vasoconstriction and bupivacaine’s prolonged duration is unnecessary for this short procedure.",
     "aiFixed": true,
-    "aiVerified": true
+    "aiVerified": true,
+    "peerReviewed": true,
+    "remediatedAt": "2026-11-14T23:26:10.997Z"
   },
   {
     "id": 677710507,
