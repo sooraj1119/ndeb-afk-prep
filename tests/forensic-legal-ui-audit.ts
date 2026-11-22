@@ -7,7 +7,8 @@ import { chromium, Browser, Page } from 'playwright';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
-const _artifactDir = 'C:/Users/sooraj/.gemini/antigravity/brain/265c7528-660d-4a69-82eb-89ab3869e8f8';
+const _artifactDir = process.env.ARTIFACT_DIR || path.join(projectRoot, 'tests', 'screenshots');
+if (!fs.existsSync(_artifactDir)) fs.mkdirSync(_artifactDir, { recursive: true });
 
 const mimeTypes: Record<string, string> = {
   '.html': 'text/html',
@@ -266,12 +267,14 @@ async function runForensicAudit() {
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.waitForTimeout(300);
 
-    const operativeCard = page.locator('h3', { hasText: 'Operative Dentistry' });
-    await operativeCard.click({ force: true });
+    const topicCard = page.locator('[data-testid="topic-card-operative-dentistry"]').or(page.locator('.topic-card:has-text("Operative Dentistry")'));
+    await topicCard.scrollIntoViewIfNeeded();
+    await topicCard.click({ force: true });
 
-    await page.waitForSelector('button:has(span[translate="no"])', { timeout: 10000 });
-    const options = page.locator('button:has(span[translate="no"])');
-    verify((await options.count()) === 4, 'Quiz renders exactly 4 single best answer options');
+    await page.waitForSelector('button.quiz-option-btn', { timeout: 10000 });
+    const options = page.locator('button.quiz-option-btn');
+    const optionCount = await options.count();
+    verify(optionCount === 4, 'Quiz renders exactly 4 single best answer options');
 
     // Select distractor
     await options.nth(1).click({ force: true });

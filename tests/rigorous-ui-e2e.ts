@@ -7,7 +7,8 @@ import { chromium, Browser, Page } from 'playwright';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
-const artifactDir = 'C:/Users/sooraj/.gemini/antigravity/brain/265c7528-660d-4a69-82eb-89ab3869e8f8';
+const artifactDir = process.env.ARTIFACT_DIR || path.join(projectRoot, 'tests', 'screenshots');
+if (!fs.existsSync(artifactDir)) fs.mkdirSync(artifactDir, { recursive: true });
 
 const mimeTypes: Record<string, string> = {
   '.html': 'text/html',
