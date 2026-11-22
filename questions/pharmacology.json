@@ -2553,15 +2553,15 @@
     "id": 122,
     "topicId": "pharmacology",
     "difficulty": "medium",
-    "question": "A 45‑year‑old man presents for multiple dental extractions. His medical history includes unstable angina and he is currently taking nitroglycerin, aspirin, and metoprolol. Which of the following local anesthetic formulations should be avoided or used only with extreme caution in this patient?",
+    "question": "A 65-year-old male patient presents to a hospital dental clinic requiring urgent palliative management of severe acute pain associated with tooth 46. His medical history includes unstable angina pectoris (ASA IV), for which he is under medical evaluation. Due to high cardiovascular risk and unstable cardiac status, local anesthetic solutions containing epinephrine are strictly contraindicated. Which of the following local anesthetic formulations is the SAFEST and MOST appropriate choice for this patient?",
     "options": [
+      "2% lidocaine with 1:100,000 epinephrine",
       "4% articaine with 1:200,000 epinephrine",
-      "2% prilocaine with 1:200,000 epinephrine",
-      "3% mepivacaine plain (no vasoconstrictor)",
-      "2% lidocaine with 1:100,000 epinephrine"
+      "0.5% bupivacaine with 1:200,000 epinephrine",
+      "3% mepivacaine plain"
     ],
     "correctAnswer": 3,
-    "explanation": "Patients with unstable angina have compromised coronary blood flow and are highly sensitive to any increase in myocardial oxygen demand. Epinephrine, a potent α‑ and β‑adrenergic agonist, can cause tachycardia, increased contractility, and coronary vasoconstriction, all of which may precipitate myocardial ischemia or arrhythmia in this population. \n\n* 2% lidocaine with 1:100,000 epinephrine contains the highest concentration of epinephrine among the choices. This formulation is therefore the most likely to provoke adverse cardiac events and should be avoided or used only with extreme caution in a patient with unstable angina. \n\n* 4% articaine with 1:200,000 epinephrine and 2% prilocaine with 1:200,000 epinephrine both contain epinephrine, but at a lower concentration (1:200,000). Current Canadian dental guidelines (NDEB, Malamed, and the Canadian Dental Association) state that low‑dose epinephrine (≤1:200,000) may be used cautiously in patients with stable cardiovascular disease, but it is still preferable to limit the total dose. In unstable angina, these agents are not absolutely contraindicated but require careful monitoring and dose limitation. \n\n* 3% mepivacaine plain contains no vasoconstrictor and is the safest option for this patient. Plain anesthetic eliminates the risk of epinephrine‑induced cardiac stress and is the recommended choice when a vasoconstrictor is contraindicated. \n\nThus, the lidocaine‑epinephrine 1:100,000 formulation is the only answer that is clearly contraindicated or demands extreme caution in a patient with unstable angina, making option 3 the correct answer.",
+    "explanation": "Option D is correct because in patients with unstable angina (ASA IV) where exogenous adrenergic vasoconstrictors are strictly contraindicated due to the risk of precipitating fatal dysrhythmias or acute myocardial infarction, 3% mepivacaine plain is the safest choice because it produces minimal intrinsic vasodilation and achieves reliable pulpal anesthesia without a vasoconstrictor. Formulations containing epinephrine, including 2% lidocaine with 1:100,000 epinephrine (Option A), 4% articaine with 1:200,000 epinephrine (Option B), and 0.5% bupivacaine with 1:200,000 epinephrine (Option C), are strictly contraindicated in unstable cardiac conditions due to their sympathomimetic stimulation of myocardial adrenergic receptors.",
     "peerReviewed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
@@ -2570,8 +2570,8 @@
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because in patients with unstable angina (ASA IV) where exogenous adrenergic vasoconstrictors are strictly contraindicated due to the risk of precipitating fatal dysrhythmias or acute myocardial infarction, 3% mepivacaine plain is the safest choice because it produces minimal intrinsic vasodilation and achieves reliable pulpal anesthesia without a vasoconstrictor. Formulations containing epinephrine, including 2% lidocaine with 1:100,000 epinephrine (Option A), 4% articaine with 1:200,000 epinephrine (Option B), and 0.5% bupivacaine with 1:200,000 epinephrine (Option C), are strictly contraindicated in unstable cardiac conditions due to their sympathomimetic stimulation of myocardial adrenergic receptors.",
+      "verifiedAt": "2026-11-22T04:47:32.389Z"
     }
   },
   {
@@ -3372,15 +3372,15 @@
     "id": 159,
     "topicId": "pharmacology",
     "difficulty": "medium",
-    "question": "A patient is prescribed Nystatin oral suspension for oral candidiasis. How should the patient be instructed to use this medication for maximum therapeutic efficacy?",
+    "question": "A patient is diagnosed with pseudomembranous candidiasis and prescribed nystatin oral suspension. How should the patient be instructed to use this medication to achieve maximum therapeutic efficacy?",
     "options": [
-      "Apply topically to the skin of the forearm",
-      "Gargle and spit out immediately",
-      "Swish around the mouth for as long as possible before swallowing or spitting",
-      "Swallow immediately without holding in the mouth"
+      "Dilute the oral suspension with water and swallow immediately.",
+      "Gargle the oral suspension and spit it out after a few seconds.",
+      "Swish the oral suspension thoroughly in the mouth for several minutes before swallowing.",
+      "Swallow the oral suspension immediately on an empty stomach without holding it in the mouth."
     ],
     "correctAnswer": 2,
-    "explanation": "Nystatin oral suspension works via topical contact with the fungal lesions in the oral cavity. Patients must swish the medication around the oral cavity for several minutes to maximize contact time with the fungi before swallowing (or spitting, depending on lesion location). Swallowing immediately or spitting too fast reduces local drug contact.",
+    "explanation": "Option C is correct because nystatin is poorly absorbed from the gastrointestinal tract and exerts its antifungal effect locally, requiring the patient to swish the suspension for several minutes to maximize drug contact with the oral mucosa before swallowing. Options A, B, and D are incorrect because diluting, spitting out immediately, or swallowing without intraoral retention prevents sufficient mucosal contact time necessary to eradicate Candida albicans.",
     "peerReviewed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
@@ -3388,8 +3388,8 @@
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because nystatin is poorly absorbed from the gastrointestinal tract and exerts its antifungal effect locally, requiring the patient to swish the suspension for several minutes to maximize drug contact with the oral mucosa before swallowing. Options A, B, and D are incorrect because diluting, spitting out immediately, or swallowing without intraoral retention prevents sufficient mucosal contact time necessary to eradicate Candida albicans.",
+      "verifiedAt": "2026-11-22T04:47:32.389Z"
     }
   },
   {
@@ -6208,23 +6208,23 @@
     "id": 292,
     "topicId": "pharmacology",
     "difficulty": "medium",
-    "question": "A patient taking a non-selective monoamine oxidase inhibitor (MAOI) for depression requires local anesthesia for an operative dental procedure. Which of the following vasoconstrictors should be avoided due to its indirect-acting sympathomimetic activity that can stimulate the release of stored norepinephrine?",
+    "question": "A 45-year-old patient taking a tricyclic antidepressant (TCA) for chronic neuropathic pain requires local anesthesia for restorative dental treatment on tooth 15. Which of the following vasoconstrictors is contraindicated due to an exaggerated 5- to 10-fold hypertensive response resulting from blocked catecholamine reuptake?",
     "options": [
       "Levonordefrin",
-      "Epinephrine",
+      "Epinephrine (administered within the 0.04 mg cardiac limit)",
       "Felypressin",
       "Phenylephrine"
     ],
     "correctAnswer": 0,
-    "explanation": "Option A is correct because levonordefrin possesses indirect-acting sympathomimetic properties that stimulate the release of endogenously stored norepinephrine, which can precipitate a hypertensive crisis in patients whose neuronal catecholamine stores are abnormally elevated by MAO inhibition. Epinephrine and phenylephrine are direct-acting sympathomimetics primarily metabolized by catechol-O-methyltransferase (COMT) rather than monoamine oxidase, making them acceptable when restricted to standard cardiac dose limits. Felypressin is a synthetic posterior pituitary hormone analogue that induces vasoconstriction through vascular V1 receptors independent of adrenergic pathways.",
+    "explanation": "Option A is correct because levonordefrin is a direct-acting alpha-1 adrenergic agonist that is contraindicated in patients taking tricyclic antidepressants, as TCAs block neuronal amine reuptake, triggering a dangerous 5- to 10-fold hypertensive pressor response. Options B, C, and D are incorrect because low-dose epinephrine (up to 0.04 mg) can be safely administered with cardiovascular monitoring, felypressin stimulates non-adrenergic V1 receptors without interacting with TCAs, and phenylephrine produces only a minimal pressor response without the severe potentiation seen with levonordefrin.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Option A is correct because levonordefrin possesses indirect-acting sympathomimetic properties that stimulate the release of endogenously stored norepinephrine, which can precipitate a hypertensive crisis in patients whose neuronal catecholamine stores are abnormally elevated by MAO inhibition. Epinephrine and phenylephrine are direct-acting sympathomimetics primarily metabolized by catechol-O-methyltransferase (COMT) rather than monoamine oxidase, making them acceptable when restricted to standard cardiac dose limits. Felypressin is a synthetic posterior pituitary hormone analogue that induces vasoconstriction through vascular V1 receptors independent of adrenergic pathways.",
-      "verifiedAt": "2026-11-18T19:21:44.476Z"
+      "clinicalRationale": "Option A is correct because levonordefrin is a direct-acting alpha-1 adrenergic agonist that is contraindicated in patients taking tricyclic antidepressants, as TCAs block neuronal amine reuptake, triggering a dangerous 5- to 10-fold hypertensive pressor response. Options B, C, and D are incorrect because low-dose epinephrine (up to 0.04 mg) can be safely administered with cardiovascular monitoring, felypressin stimulates non-adrenergic V1 receptors without interacting with TCAs, and phenylephrine produces only a minimal pressor response without the severe potentiation seen with levonordefrin.",
+      "verifiedAt": "2026-11-22T04:47:32.389Z"
     }
   },
   {
@@ -7140,23 +7140,23 @@
     "id": 340,
     "topicId": "pharmacology",
     "difficulty": "hard",
-    "question": "A 28-year-old pregnant patient in her second trimester presents with a painful irreversible pulpitis requiring emergency pulpectomy. She is anxious and in pain. Which of the following drugs is generally considered SAFE for pain control and anxiety management during pregnancy?",
+    "question": "A 28-year-old pregnant patient in her second trimester presents with severe odontogenic pain from symptomatic irreversible pulpitis on tooth 36 requiring an emergency pulpectomy. Which of the following medications is considered safe to administer to this patient according to Canadian clinical guidelines?",
     "options": [
-      "Tetracycline",
-      "Benzodiazepines (e.g., Triazolam)",
-      "Lidocaine with epinephrine (Category B)",
-      "Ibuprofen"
+      "Lidocaine 2% with 1:100,000 epinephrine",
+      "Triazolam",
+      "Ibuprofen",
+      "Tetracycline"
     ],
-    "correctAnswer": 2,
-    "explanation": "Lidocaine with epinephrine is classified as an FDA Pregnancy Category B drug and is generally considered safe for use during pregnancy, especially in the second trimester, with appropriate dosing. Tetracyclines are contraindicated due to risk of tooth discoloration. Ibuprofen should be avoided in the third trimester due to risk of premature ductus arteriosus closure, and used cautiously, if at all, earlier. Benzodiazepines are generally Category D/X and should be avoided due to risks of fetal abnormalities (first trimester) and neonatal depression.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because lidocaine 2% with 1:100,000 epinephrine is considered the local anesthetic of choice during pregnancy, possessing an established safety profile for procedural pain control without adverse fetal outcomes. Options B, C, and D are incorrect because triazolam is contraindicated due to risks of teratogenicity and neonatal central nervous system depression, ibuprofen carries risks of oligohydramnios and premature closure of the ductus arteriosus, and tetracycline causes intrinsic staining of developing fetal dentition and bone growth inhibition.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because lidocaine 2% with 1:100,000 epinephrine is considered the local anesthetic of choice during pregnancy, possessing an established safety profile for procedural pain control without adverse fetal outcomes. Options B, C, and D are incorrect because triazolam is contraindicated due to risks of teratogenicity and neonatal central nervous system depression, ibuprofen carries risks of oligohydramnios and premature closure of the ductus arteriosus, and tetracycline causes intrinsic staining of developing fetal dentition and bone growth inhibition.",
+      "verifiedAt": "2026-11-22T04:47:32.389Z"
     }
   },
   {
@@ -8538,23 +8538,23 @@
   {
     "id": 383088281,
     "topicId": "pharmacology",
-    "question": "A 50-year-old female patient presents for a recall appointment. During the oral cancer screening, you notice a white, non-scrapable lesion on the left buccal mucosa, approximately 1 cm in diameter. She reports no pain or discomfort associated with the lesion. She has a 20-year history of smoking. What is the MOST appropriate initial step in management?",
+    "question": "A 50-year-old female patient presents for a routine dental examination. Oral cancer screening reveals an asymptomatic, solitary, non-scrapable white plaque approximately 1 cm in diameter on the left buccal mucosa adjacent to tooth 36. The patient has a 20-year history of cigarette smoking. What is the MOST appropriate initial management?",
     "options": [
-      "Prescribe an antifungal rinse.",
-      "Reassure the patient and monitor at next recall.",
-      "Advise the patient to stop smoking and review in 2 weeks.",
-      "Perform an incisional biopsy or refer for biopsy."
+      "Prescribe a 14-day course of nystatin oral suspension",
+      "Reassure the patient and re-examine the lesion at the routine 6-month recall",
+      "Counsel the patient on smoking cessation and re-evaluate in 2 weeks",
+      "Perform an immediate scalpel incisional biopsy"
     ],
-    "correctAnswer": 3,
-    "explanation": "A non-scrapable white lesion (leukoplakia), especially in a patient with a significant smoking history, has malignant potential. The most appropriate initial step is to perform an incisional biopsy or refer the patient for a biopsy to establish a definitive diagnosis and rule out dysplasia or malignancy. Antifungal rinses are for candidiasis, which is usually scrapable, and monitoring without biopsy is inappropriate given the risk factors.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because Canadian oral pathology guidelines dictate that the mandatory initial management for an asymptomatic solitary white plaque in a smoker is elimination of the suspected etiologic irritant followed by clinical re-evaluation in 14 days. Options A, B, and D are incorrect because antifungal therapy is ineffective for hyperkeratotic non-candidal lesions, delaying evaluation until routine recall risks late detection of dysplasia or carcinoma, and immediate biopsy is premature before determining whether the lesion regresses upon irritant removal.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because Canadian oral pathology guidelines dictate that the mandatory initial management for an asymptomatic solitary white plaque in a smoker is elimination of the suspected etiologic irritant followed by clinical re-evaluation in 14 days. Options A, B, and D are incorrect because antifungal therapy is ineffective for hyperkeratotic non-candidal lesions, delaying evaluation until routine recall risks late detection of dysplasia or carcinoma, and immediate biopsy is premature before determining whether the lesion regresses upon irritant removal.",
+      "verifiedAt": "2026-11-22T04:47:32.389Z"
     }
   },
   {
@@ -8604,23 +8604,23 @@
   {
     "id": 804326211,
     "topicId": "pharmacology",
-    "question": "A 7-year-old female patient presents to your dental office with a chief complaint of a loose primary mandibular central incisor (tooth 71). Her mother reports that the tooth has been mobile for about a week, and her permanent mandibular central incisor (tooth 31) is erupting lingually behind it. Medical history is unremarkable. Clinical examination confirms significant mobility of tooth 71, with tooth 31 partially erupted lingually. What is the MOST appropriate management?",
+    "question": "A 7-year-old female presents with a loose primary mandibular central incisor (tooth 71). Her permanent successor (tooth 31) is erupting lingually behind it. Clinical examination confirms grade 2 mobility of tooth 71 with no signs of infection or discomfort. What is the MOST appropriate clinical management?",
     "options": [
-      "Extract the mobile primary tooth 71.",
-      "Advise to wait for spontaneous exfoliation of tooth 71.",
-      "Initiate orthodontic consultation for tooth 31.",
-      "Place a space maintainer after extraction of tooth 71."
+      "Extract the mobile primary incisor (tooth 71) under local anesthesia",
+      "Reassure the parent and allow tooth 71 to exfoliate spontaneously",
+      "Refer immediately for interceptive orthodontic arch expansion",
+      "Place a lingual arch space maintainer after extracting tooth 71"
     ],
-    "correctAnswer": 0,
-    "explanation": "When a permanent tooth is erupting and the corresponding primary tooth is significantly mobile and not exfoliating spontaneously, especially with lingual eruption, extraction of the primary tooth is indicated to allow the permanent tooth to erupt into its correct position. Waiting for spontaneous exfoliation risks further lingual displacement of the permanent tooth. A space maintainer is not needed as the permanent tooth is already erupting.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because a primary incisor exhibiting significant mobility will exfoliate spontaneously within a short period, allowing natural anterior tongue pressure to guide the lingually erupting tooth 31 into proper arch alignment. Options A, C, and D are incorrect because surgical extraction is overly invasive for an already mobile primary tooth, orthodontic intervention is premature during early mixed dentition self-correction, and space maintainers are contraindicated when the succedaneous tooth is already actively erupting.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because a primary incisor exhibiting significant mobility will exfoliate spontaneously within a short period, allowing natural anterior tongue pressure to guide the lingually erupting tooth 31 into proper arch alignment. Options A, C, and D are incorrect because surgical extraction is overly invasive for an already mobile primary tooth, orthodontic intervention is premature during early mixed dentition self-correction, and space maintainers are contraindicated when the succedaneous tooth is already actively erupting.",
+      "verifiedAt": "2026-11-22T04:47:32.389Z"
     }
   },
   {
@@ -9511,23 +9511,23 @@
   {
     "id": 642034336,
     "topicId": "pharmacology",
-    "question": "A 50-year-old female patient presents to your dental office with a chief complaint of a persistent burning sensation in her mouth, particularly on the tongue and palate, which has been present for several months. She reports no specific precipitating factors or relief with over-the-counter remedies. Her medical history includes well-controlled hypertension and type 2 diabetes. Clinical examination reveals no obvious mucosal lesions, erythema, or xerostomia. What is the MOST appropriate initial diagnostic consideration?",
+    "question": "A 62-year-old postmenopausal female presents with a constant, bilateral burning sensation affecting the anterior two-thirds of her tongue and hard palate that worsens toward the evening. Clinical examination shows completely normal mucosa without xerostomia, and comprehensive laboratory investigations (CBC, ferritin, vitamin B12, and fasting blood glucose) are unremarkable, confirming primary burning mouth syndrome. Which of the following is the MOST appropriate first-line pharmacological agent for topical management of her symptoms?",
     "options": [
-      "Allergic reaction to dental materials",
-      "Burning Mouth Syndrome (BMS)",
-      "Oral candidiasis",
-      "Vitamin B12 deficiency"
+      "Topical clonazepam (dissolved intraorally and expectorated)",
+      "Triamcinolone acetonide 0.1% oral paste",
+      "Nystatin 100,000 units/mL oral suspension",
+      "Chlorhexidine gluconate 0.12% oral rinse"
     ],
-    "correctAnswer": 1,
-    "explanation": "Given the absence of clinical lesions, persistent burning sensation without clear local cause, and the patient's age and medical history, Burning Mouth Syndrome (BMS) is the most appropriate initial diagnostic consideration, as it is a diagnosis of exclusion. While allergic reactions or candidiasis could cause burning, the lack of clinical signs or specific exposures makes them less likely without further evidence. Vitamin B12 deficiency can cause oral symptoms but typically presents with other systemic signs and specific mucosal changes.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because topical clonazepam (dissolved in the mouth and expectorated) is the first-line evidence-based pharmacotherapy for primary burning mouth syndrome, providing neuropathic symptom relief by modulating mucosal GABA receptors while avoiding systemic sedative adverse effects. Options B, C, and D are incorrect because topical corticosteroids are indicated for inflammatory mucocutaneous disorders rather than neuropathic pain, nystatin is ineffective when candidiasis has been excluded, and chlorhexidine is an antiseptic rinse that can irritate sensitive oral tissues and exacerbate burning symptoms.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because topical clonazepam (dissolved in the mouth and expectorated) is the first-line evidence-based pharmacotherapy for primary burning mouth syndrome, providing neuropathic symptom relief by modulating mucosal GABA receptors while avoiding systemic sedative adverse effects. Options B, C, and D are incorrect because topical corticosteroids are indicated for inflammatory mucocutaneous disorders rather than neuropathic pain, nystatin is ineffective when candidiasis has been excluded, and chlorhexidine is an antiseptic rinse that can irritate sensitive oral tissues and exacerbate burning symptoms.",
+      "verifiedAt": "2026-11-22T04:47:32.389Z"
     }
   },
   {
@@ -9555,23 +9555,23 @@
   {
     "id": 866792608,
     "topicId": "pharmacology",
-    "question": "Which of the following best describes the primary purpose of a 'safety culture' in a Canadian dental practice?",
+    "question": "Which of the following best describes the primary objective of establishing a 'safety culture' in a Canadian dental practice?",
     "options": [
-      "To minimize liability risks for the dental practitioner",
-      "To ensure adherence to strict financial protocols and billing codes",
-      "To foster an environment where all staff members are actively engaged in identifying and mitigating risks to patient and staff safety",
-      "To primarily focus on marketing strategies that highlight the practice's cleanliness"
+      "To enforce a punitive compliance model that penalizes individual staff members responsible for procedural errors",
+      "To prioritize defensive clinical documentation aimed primarily at mitigating professional malpractice liability",
+      "To foster an environment where all team members are empowered to proactively identify, report, and mitigate risks to patient and staff safety",
+      "To conduct retrospective incident audits exclusively after severe patient harm occurs to satisfy regulatory reporting mandates"
     ],
     "correctAnswer": 2,
-    "explanation": "A safety culture in a Canadian dental practice is fundamentally about creating an environment where every team member is committed to and responsible for identifying and addressing potential hazards to patient and staff safety. While minimizing liability is a positive outcome, it's not the primary purpose, and financial protocols or marketing are unrelated. This proactive approach ensures continuous improvement in safety standards and reduces errors.",
+    "explanation": "Option C is correct because a safety culture in Canadian healthcare fosters an open, non-punitive environment where every team member is actively engaged and empowered to identify hazards, report near-misses, and mitigate safety risks proactively. Options A, B, and D are incorrect because an effective safety culture avoids punitive blame systems that discourage reporting, transcends mere defensive legal documentation, and focuses on continuous proactive prevention rather than purely reactive post-incident compliance.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because a safety culture in Canadian healthcare fosters an open, non-punitive environment where every team member is actively engaged and empowered to identify hazards, report near-misses, and mitigate safety risks proactively. Options A, B, and D are incorrect because an effective safety culture avoids punitive blame systems that discourage reporting, transcends mere defensive legal documentation, and focuses on continuous proactive prevention rather than purely reactive post-incident compliance.",
+      "verifiedAt": "2026-11-22T04:47:32.389Z"
     }
   },
   {
@@ -12161,24 +12161,24 @@
   {
     "id": 802120822,
     "topicId": "pharmacology",
-    "question": "In the paralleling technique for intraoral radiography, what is the correct geometric relationship between the central ray of the x-ray beam, the long axis of the tooth, and the image receptor?",
+    "question": "In the paralleling technique for intraoral radiography, which of the following correctly describes the geometric relationship between the image receptor, the long axis of the tooth, and the central ray of the x-ray beam?",
     "options": [
-      "The central ray is perpendicular to the long axis of the tooth, and the image receptor is parallel to the long axis of the tooth.",
-      "The central ray is parallel to the long axis of the tooth, and the image receptor is perpendicular to the long axis of the tooth.",
-      "The central ray is perpendicular to the image receptor, and the image receptor is parallel to the long axis of the tooth.",
-      "The central ray is parallel to the image receptor, and the image receptor is perpendicular to the long axis of the tooth."
+      "The image receptor is placed parallel to the long axis of the tooth, and the central ray is directed perpendicular to both",
+      "The image receptor is placed perpendicular to the long axis of the tooth, and the central ray is directed parallel to the receptor",
+      "The image receptor is placed at an angle to the tooth, and the central ray is directed perpendicular to the imaginary bisector",
+      "The image receptor is placed parallel to the central ray, and both are oriented perpendicular to the long axis of the tooth"
     ],
-    "correctAnswer": 2,
-    "explanation": "The paralleling technique (also known as the bisecting angle technique's counterpart, though distinct) requires the image receptor to be placed parallel to the long axis of the tooth. To minimize distortion and magnification, the central ray of the x-ray beam must be directed perpendicular (at a 90-degree angle) to the image receptor. Since the receptor is parallel to the tooth, the beam is also perpendicular to the long axis of the tooth. Option A is incorrect because it implies the beam is perpendicular to the tooth but does not explicitly state the critical relationship to the receptor, and in practice, the beam is aligned to the receptor. Option B describes the bisecting angle technique where the receptor is placed at an angle (often perpendicular or near-perpendicular to the tooth in some contexts, but specifically the beam bisects the angle). Option D is incorrect because the beam must be perpendicular to the receptor to avoid distortion. Therefore, Option C is the most accurate description: the beam is perpendicular to the receptor, and the receptor is parallel to the tooth.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the paralleling technique geometrically requires the image receptor to be positioned parallel to the long axis of the tooth, with the central ray directed perpendicular (at a right angle) to both the tooth and receptor to minimize dimensional distortion. Options B, C, and D are incorrect because placing the receptor perpendicular or parallel to the beam produces severe geometric distortion, while directing the central ray perpendicular to the angle bisector defines the bisecting angle technique rather than the paralleling technique.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the paralleling technique geometrically requires the image receptor to be positioned parallel to the long axis of the tooth, with the central ray directed perpendicular (at a right angle) to both the tooth and receptor to minimize dimensional distortion. Options B, C, and D are incorrect because placing the receptor perpendicular or parallel to the beam produces severe geometric distortion, while directing the central ray perpendicular to the angle bisector defines the bisecting angle technique rather than the paralleling technique.",
+      "verifiedAt": "2026-11-22T04:47:32.389Z"
     }
   },
   {
@@ -14780,23 +14780,23 @@
   {
     "id": 553074467,
     "topicId": "pharmacology",
-    "question": "Which of the following dental cements is characterized by its ability to bond chemically to tooth structure and release fluoride, making it beneficial for caries-prone patients or as a base/liner?",
+    "question": "Which of the following traditional dental cements is characterized by its ability to bond chemically to calcium in tooth structure via ionic chelation while also providing sustained fluoride release?",
     "options": [
       "Glass ionomer cement",
       "Zinc phosphate cement",
       "Zinc polycarboxylate cement",
-      "Resin-modified glass ionomer cement"
+      "Zinc oxide-eugenol cement"
     ],
     "correctAnswer": 0,
-    "explanation": "Glass ionomer cement uniquely possesses the properties of chemical bonding to tooth structure and sustained fluoride release, providing a therapeutic benefit against recurrent caries. While resin-modified glass ionomer cements also release fluoride and bond, the direct question refers to the fundamental properties of the original material. Zinc phosphate cement provides strength but no chemical bond or fluoride release, while zinc polycarboxylate cement bonds chemically but does not release significant fluoride.",
+    "explanation": "Option A is correct because conventional glass ionomer cement bonds chemically to tooth structure through ionic chelation between polyacrylic acid carboxyl groups and hydroxyapatite calcium, while continuously releasing fluoride. Options B, C, and D are incorrect because zinc phosphate provides purely mechanical interlocking without chemical adhesion or fluoride, zinc polycarboxylate adheres chemically via chelation but lacks sustained fluoride release, and zinc oxide-eugenol provides pulpal sedation without chemical adhesion or fluoride release.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because conventional glass ionomer cement bonds chemically to tooth structure through ionic chelation between polyacrylic acid carboxyl groups and hydroxyapatite calcium, while continuously releasing fluoride. Options B, C, and D are incorrect because zinc phosphate provides purely mechanical interlocking without chemical adhesion or fluoride, zinc polycarboxylate adheres chemically via chelation but lacks sustained fluoride release, and zinc oxide-eugenol provides pulpal sedation without chemical adhesion or fluoride release.",
+      "verifiedAt": "2026-11-22T04:47:32.389Z"
     }
   },
   {
@@ -20173,23 +20173,23 @@
   {
     "id": 146062446,
     "topicId": "pharmacology",
-    "question": "A 52-year-old female patient presents with a chief complaint of chronic clicking and occasional locking of her left temporomandibular joint (TMJ). She reports a dull ache around her ear and jaw muscles, particularly in the mornings. Clinical examination reveals tenderness upon palpation of the left masseter and temporalis muscles, and an audible click during the opening phase that resolves with further opening. Her maximum comfortable opening is 35mm. What is the MOST likely initial diagnosis?",
+    "question": "A 32-year-old male presents with a sudden onset of severely restricted jaw opening that began two days ago. He reports a two-year history of reciprocal clicking in his right temporomandibular joint (TMJ) that abruptly stopped when the restricted opening occurred. Clinical examination reveals a maximum comfortable opening of 22 mm with mandibular deflection to the right upon opening, and marked restriction of lateral excursion to the left. No joint sounds are audible. What is the MOST likely diagnosis?",
     "options": [
-      "Myofascial pain dysfunction",
+      "Anterior disc displacement without reduction",
       "Anterior disc displacement with reduction",
-      "Ankylosis of the TMJ",
-      "Osteoarthritis of the TMJ"
+      "Myofascial pain dysfunction",
+      "Fibrous ankylosis of the TMJ"
     ],
-    "correctAnswer": 1,
-    "explanation": "The described clinical findings of an audible click during the opening phase that resolves with further opening, along with morning pain and muscle tenderness, are highly characteristic of anterior disc displacement with reduction. Myofascial pain dysfunction is often a co-existing condition, but the specific clicking pattern points to the disc derangement as the primary diagnosis for the joint sound. Ankylosis and osteoarthritis would present with different clinical signs, such as severe limitation of movement or crepitus, not a resolving click.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the sudden cessation of longstanding reciprocal clicking accompanied by severe opening limitation (22 mm), ipsilateral deflection on opening, and restricted contralateral excursion is pathognomonic for an anterior disc displacement without reduction (closed lock) preventing condylar translation. Options B, C, and D are incorrect because disc displacement with reduction presents with reciprocal clicking during normal translation, myofascial pain dysfunction lacks sudden mechanical translational blockage and unilateral deflection, and fibrous ankylosis is a chronic, progressive immobility resulting from severe joint trauma or infection rather than an acute disc lock.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the sudden cessation of longstanding reciprocal clicking accompanied by severe opening limitation (22 mm), ipsilateral deflection on opening, and restricted contralateral excursion is pathognomonic for an anterior disc displacement without reduction (closed lock) preventing condylar translation. Options B, C, and D are incorrect because disc displacement with reduction presents with reciprocal clicking during normal translation, myofascial pain dysfunction lacks sudden mechanical translational blockage and unilateral deflection, and fibrous ankylosis is a chronic, progressive immobility resulting from severe joint trauma or infection rather than an acute disc lock.",
+      "verifiedAt": "2026-11-22T04:47:32.390Z"
     }
   },
   {
@@ -20459,23 +20459,23 @@
   {
     "id": 878328950,
     "topicId": "pharmacology",
-    "question": "A 40-year-old female patient presents with a chief complaint of a constant, severe headache localized to her right temple, accompanied by pain and stiffness in her jaw, especially in the mornings. She reports clenching her teeth at night. Clinical examination reveals significant wear facets on her posterior teeth, tenderness in the temporalis muscle, and limited mouth opening due to pain. No joint sounds are noted. What is the MOST appropriate initial conservative management?",
+    "question": "A 40-year-old female presents with a dull, aching pain in her right cheek and temple that is most pronounced upon awakening, accompanied by jaw fatigue. She reports a history of nocturnal clenching. Clinical examination reveals tenderness upon palpation of the right masseter and temporalis muscles, occlusal wear facets, and a pain-free opening of 38 mm without temporomandibular joint sounds. What is the MOST appropriate INITIAL conservative management?",
     "options": [
-      "Prescribe a muscle relaxant and non-steroidal anti-inflammatory drugs (NSAIDs)",
-      "Fabricate an occlusal splint (nightguard)",
-      "Recommend warm compresses and soft diet",
-      "Refer to an oral and maxillofacial surgeon for TMJ evaluation"
+      "Prescribe a centrally acting skeletal muscle relaxant",
+      "Fabricate an immediate maxillary occlusal stabilization splint",
+      "Recommend patient education, a soft diet, and application of warm moist compresses",
+      "Refer to an oral and maxillofacial surgeon for joint arthrocentesis"
     ],
-    "correctAnswer": 0,
-    "explanation": "According to Carranza's Clinical Periodontology (7th ed.) and the Canadian TMD management guidelines, the first‑line approach for myofascial‑type temporomandibular disorders includes patient education, a soft diet, heat/ice, and analgesia with NSAIDs ± a short course of a muscle relaxant. These measures address muscle hyperactivity and inflammation while allowing the patient to modify parafunctional habits. An occlusal splint is considered a second‑line modality after 4–6 weeks of unsuccessful self‑care. Therefore option 0 is the most appropriate initial conservative management.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because Canadian clinical practice guidelines for temporomandibular disorders specify that initial conservative management for masticatory myofascial pain must begin with non-invasive self-care protocols, including patient education, jaw rest, a soft food diet, and warm moist heat. Options A, B, and D are incorrect because prescribing systemic muscle relaxants bypasses the foundational non-pharmacological stepladder, occlusal splint fabrication is an adjunctive therapy following initial self-care, and surgical referral is contraindicated for purely extracapsular muscular pain.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because Canadian clinical practice guidelines for temporomandibular disorders specify that initial conservative management for masticatory myofascial pain must begin with non-invasive self-care protocols, including patient education, jaw rest, a soft food diet, and warm moist heat. Options A, B, and D are incorrect because prescribing systemic muscle relaxants bypasses the foundational non-pharmacological stepladder, occlusal splint fabrication is an adjunctive therapy following initial self-care, and surgical referral is contraindicated for purely extracapsular muscular pain.",
+      "verifiedAt": "2026-11-22T04:47:32.390Z"
     }
   },
   {
@@ -21940,23 +21940,23 @@
   {
     "id": 528608831,
     "topicId": "pharmacology",
-    "question": "A 60-year-old female patient, a long-term smoker, presents with a firm, non-tender, white lesion on the lateral border of her tongue that does not rub off. She reports noticing it for approximately two months. Her medical history includes well-controlled hypertension. What is the MOST appropriate next step in management?",
+    "question": "A 60-year-old female patient with a 30 pack-year smoking history presents with a firm, non-tender, white plaque on the lateral border of her tongue that does not wipe off and has been present for two months. What is the most appropriate next step in clinical management?",
     "options": [
-      "Excisional biopsy of the lesion.",
-      "Reassure the patient and observe the lesion for six months.",
-      "Prescribe an antifungal rinse.",
-      "Recommend immediate cessation of smoking."
+      "Perform an incisional biopsy of the lesion",
+      "Perform an excisional biopsy of the lesion with 1 mm margins",
+      "Prescribe a topical nystatin oral suspension for two weeks",
+      "Reassure the patient and observe the lesion at a six-month recall"
     ],
     "correctAnswer": 0,
-    "explanation": "A persistent, non-scrapable white lesion on the lateral border of the tongue, especially in a smoker, is highly suspicious for dysplasia or early squamous cell carcinoma and warrants an excisional biopsy for definitive diagnosis. Prescribing an antifungal rinse is inappropriate as the lesion does not rub off, ruling out candidiasis. Observation without biopsy is negligent given the lesion's characteristics and location, and while smoking cessation is crucial for overall health, it does not replace the need for biopsy of a suspicious lesion.",
+    "explanation": "Option A is correct because a persistent, firm, non-scrapable white lesion on a high-risk site (lateral border of the tongue) in a smoker is highly suspicious for oral squamous cell carcinoma, necessitating an incisional biopsy to establish a definitive histopathologic diagnosis. Excisional biopsy is contraindicated for suspected malignancies because it risks compromising oncologic margins and interferes with definitive oncologic resection. Reassurance or topical antifungal therapy inappropriately delays necessary diagnostic intervention for a non-candidal, potentially malignant lesion.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because a persistent, firm, non-scrapable white lesion on a high-risk site (lateral border of the tongue) in a smoker is highly suspicious for oral squamous cell carcinoma, necessitating an incisional biopsy to establish a definitive histopathologic diagnosis. Excisional biopsy is contraindicated for suspected malignancies because it risks compromising oncologic margins and interferes with definitive oncologic resection. Reassurance or topical antifungal therapy inappropriately delays necessary diagnostic intervention for a non-candidal, potentially malignant lesion.",
+      "verifiedAt": "2026-11-22T04:47:32.390Z"
     }
   },
   {
@@ -22496,25 +22496,25 @@
   {
     "id": 603543519,
     "topicId": "pharmacology",
-    "question": "A 40-year-old male patient with well-controlled hypertension (taking a thiazide diuretic) and no other significant medical history requires the extraction of a non-restorable mandibular third molar. He reports mild anxiety. Which local anesthetic formulation is the MOST appropriate choice to ensure effective anesthesia for this surgical procedure while maintaining cardiovascular safety?",
+    "question": "A 42-year-old male with well-controlled hypertension managed with hydrochlorothiazide requires the surgical extraction of a partially impacted tooth 48. He reports mild dental anxiety. Which of the following local anesthetic formulations is the MOST appropriate choice to ensure profound, extended anesthesia for this procedure while maintaining cardiovascular safety and minimizing neurotoxicity risk?",
     "options": [
-      "Articaine 4% with epinephrine 1:100,000",
-      "Lidocaine 2% with epinephrine 1:50,000",
-      "Bupivacaine 0.5% with epinephrine 1:200,000",
+      "Articaine 4% with 1:100,000 epinephrine",
+      "Lidocaine 2% with 1:50,000 epinephrine",
+      "Bupivacaine 0.5% with 1:200,000 epinephrine",
       "Mepivacaine 3% without vasoconstrictor"
     ],
-    "correctAnswer": 0,
-    "explanation": "Articaine 4% with epinephrine 1:100,000 is the gold standard for mandibular molar extractions, particularly in patients with mild cardiovascular concerns like well-controlled hypertension. Articaine is an amide local anesthetic with a thiophene ring that increases its lipid solubility and allows it to penetrate cortical bone more effectively than lidocaine, resulting in higher success rates for inferior alveolar nerve blocks. The addition of epinephrine at 1:100,000 provides adequate hemostasis and prolongs the duration of anesthesia without posing significant cardiovascular risk to a patient with well-controlled hypertension (ASA I or II). Lidocaine 2% with epinephrine 1:50,000 is a viable alternative but is generally considered less effective for dense mandibular bone than articaine; furthermore, the higher concentration of epinephrine (1:50,000) is unnecessary for a routine extraction in a hypertensive patient when 1:100,000 suffices. Bupivacaine is not the first-line choice for routine extractions due to its significantly longer duration of action, which increases the risk of post-operative soft tissue trauma (e.g., lip or tongue biting) and is reserved for cases requiring prolonged post-operative analgesia. Mepivacaine 3% without vasoconstrictor is suboptimal because the absence of a vasoconstrictor leads to rapid systemic absorption, shorter duration of action, and increased intra-operative bleeding, which complicates the surgical field for a third molar extraction.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because bupivacaine 0.5% with 1:200,000 epinephrine provides long-acting pulpal and soft tissue anesthesia with extended postoperative analgesia for surgical extraction of tooth 48, while its low epinephrine concentration ensures cardiovascular safety in a hypertensive patient. Options A, B, and D are incorrect because Canadian guidelines (Haas/RCDSO) strongly caution against using 4% articaine for inferior alveolar nerve blocks due to increased lingual nerve paresthesia risks, 1:50,000 epinephrine carries an excessive vasoconstrictor load for hypertensive patients, and plain 3% mepivacaine has a short duration with zero postoperative analgesia.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because bupivacaine 0.5% with 1:200,000 epinephrine provides long-acting pulpal and soft tissue anesthesia with extended postoperative analgesia for surgical extraction of tooth 48, while its low epinephrine concentration ensures cardiovascular safety in a hypertensive patient. Options A, B, and D are incorrect because Canadian guidelines (Haas/RCDSO) strongly caution against using 4% articaine for inferior alveolar nerve blocks due to increased lingual nerve paresthesia risks, 1:50,000 epinephrine carries an excessive vasoconstrictor load for hypertensive patients, and plain 3% mepivacaine has a short duration with zero postoperative analgesia.",
+      "verifiedAt": "2026-11-22T04:47:32.390Z"
     }
   },
   {

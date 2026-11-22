@@ -4481,23 +4481,23 @@
     "id": 204,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "Which radiographic landmark is commonly superimposed over the maxillary molar roots on a periapical radiograph and can mimic a periapical pathology if not correctly identified?",
+    "question": "On a periapical radiograph of the permanent maxillary right molar region (teeth 16 and 17), which anatomical radiolucency is commonly superimposed over the root apices and may be misinterpreted as periapical inflammatory pathology?",
     "options": [
-      "Maxillary sinus",
-      "Incisive foramen",
-      "Mandibular canal",
-      "Mental foramen"
+      "Pneumatized alveolar recess of the maxillary sinus",
+      "Incisive (nasopalatine) foramen",
+      "Inferior meatus of the nasal fossa",
+      "Greater palatine foramen"
     ],
     "correctAnswer": 0,
-    "explanation": "The maxillary sinus frequently extends superiorly over the roots of the maxillary premolars and molars, creating a radiolucent shadow that can be mistaken for periapical pathosis. The incisive foramen is in the anterior maxilla, while the mental foramen and mandibular canal are located in the mandible.",
+    "explanation": "Option A is correct because the alveolar recess of the maxillary sinus frequently pneumatizes inferiorly between and around the root apices of teeth 16 and 17, creating a radiolucency that can mimic periapical rarefying osteitis if an intact lamina dura and periodontal ligament space are not recognized. Option B is incorrect because the incisive foramen is located in the anterior maxillary midline between teeth 11 and 21. Options C and D are incorrect because the inferior meatus is situated superior to the anterior maxillary dentition, and the greater palatine foramen is located palatally near the third molar alveolar process and rarely projects over first molar root apices.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the alveolar recess of the maxillary sinus frequently pneumatizes inferiorly between and around the root apices of teeth 16 and 17, creating a radiolucency that can mimic periapical rarefying osteitis if an intact lamina dura and periodontal ligament space are not recognized. Option B is incorrect because the incisive foramen is located in the anterior maxillary midline between teeth 11 and 21. Options C and D are incorrect because the inferior meatus is situated superior to the anterior maxillary dentition, and the greater palatine foramen is located palatally near the third molar alveolar process and rarely projects over first molar root apices.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -4620,23 +4620,23 @@
     "id": 210,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "A 55-year-old male presents with a non-healing extraction socket in the mandible accompanied by paresthesia of the lower lip. A panoramic radiograph shows a poorly defined radiolucency with ragged borders and no cortical boundary. What is the most appropriate next imaging step?",
+    "question": "A 55-year-old male presents with a non-healing extraction socket in the area of tooth 46 persisting for eight weeks, accompanied by new-onset paresthesia of the right lower lip and chin. A panoramic radiograph shows an ill-defined, non-corticated radiolucency with ragged, 'moth-eaten' margins surrounding the socket and invading the mandibular canal. According to Canadian imaging guidelines, what is the MOST appropriate next advanced imaging modality to evaluate this suspected malignancy?",
     "options": [
-      "Occlusal radiograph",
-      "Digital panoramic repeat",
-      "Cone Beam Computed Tomography (CBCT)",
-      "Bitewing series"
+      "Medical contrast-enhanced computed tomography (CT) or magnetic resonance imaging (MRI)",
+      "Cone-beam computed tomography (CBCT) of the mandible",
+      "Digital panoramic radiograph repeated at an increased exposure setting",
+      "Mandibular lateral oblique and occlusal plain radiographs"
     ],
-    "correctAnswer": 2,
-    "explanation": "The clinical presentation (paresthesia, non-healing socket) combined with poorly defined radiolucency strongly suggests a malignant process or osteomyelitis, requiring detailed 3D evaluation via CBCT or medical CT for precise borders and bone destruction. Standard 2D radiographs like occlusal or panoramic views lack the cross-sectional detail needed to assess complex osseous destruction. Bitewings are entirely inappropriate for this diagnostic task.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because a non-healing socket accompanied by mental nerve paresthesia and ragged cortical destruction indicates an aggressive mandibular malignancy; Canadian radiological guidelines (CAOMR and Health Canada Safety Code 30) mandate medical contrast-enhanced CT or MRI to accurately assess soft-tissue invasion, perineural spread, and cervical lymphadenopathy. Option B is incorrect because cone-beam computed tomography (CBCT) has poor soft-tissue contrast resolution and cannot evaluate soft-tissue margins or stage malignancy. Options C and D are incorrect because repeating 2D radiographs or obtaining occlusal views cannot delineate three-dimensional tumor boundaries, marrow infiltration, or nodal involvement.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because a non-healing socket accompanied by mental nerve paresthesia and ragged cortical destruction indicates an aggressive mandibular malignancy; Canadian radiological guidelines (CAOMR and Health Canada Safety Code 30) mandate medical contrast-enhanced CT or MRI to accurately assess soft-tissue invasion, perineural spread, and cervical lymphadenopathy. Option B is incorrect because cone-beam computed tomography (CBCT) has poor soft-tissue contrast resolution and cannot evaluate soft-tissue margins or stage malignancy. Options C and D are incorrect because repeating 2D radiographs or obtaining occlusal views cannot delineate three-dimensional tumor boundaries, marrow infiltration, or nodal involvement.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -6083,15 +6083,15 @@
     "id": 279,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "A 65-year-old male undergoes a routine panoramic radiograph that reveals a well‑demarcated, round radiolucency located below the inferior alveolar canal in the posterior mandible. The lesion is asymptomatic, the overlying cortical bone appears intact, and there are no associated dental or periodontal changes. What is the most likely diagnosis?",
+    "question": "A 65-year-old male presents for a routine dental examination. A panoramic radiograph reveals an incidental, well-demarcated, unilocular radiolucency with a well-defined cortical border located inferior to the mandibular canal near the mandibular angle, below teeth 47 and 48. The patient is completely asymptomatic, the cortical plates are intact, and all mandibular teeth are vital. What is the MOST likely diagnosis?",
     "options": [
-      "Stafne bone defect (static bone cyst)",
-      "Idiopathic osteosclerosis",
-      "Cementoblastoma",
-      "Paget disease of bone"
+      "Stafne bone defect (lingual salivary gland depression)",
+      "Odontogenic keratocyst",
+      "Unicystic ameloblastoma",
+      "Simple bone cyst (traumatic bone cyst)"
     ],
     "correctAnswer": 0,
-    "explanation": "Stafne bone defect (static bone cyst) is a developmental lingual mandibular concavity that contains salivary gland tissue. On panoramic radiographs it appears as a well‑circumscribed radiolucency situated below the inferior alveolar canal in the posterior mandible, with intact overlying cortical bone and no symptoms; it is discovered incidentally. \n\nWhy the other options are incorrect:\n- Idiopathic osteosclerosis presents as a radiopaque (dense bone island) lesion, not a radiolucency, and is usually found near tooth roots above the canal.\n- Cementoblastoma is a true neoplasm of cementum that appears as a radiopaque mass fused to a tooth root and is typically associated with pain or swelling.\n- Paget disease of bone produces a diffuse, mixed radiolucent‑radiopaque “cotton‑wool” appearance affecting multiple regions of the mandible and other bones, not a solitary, well‑defined radiolucency below the canal.\n\nThus, based on the radiographic characteristics and clinical presentation, the definitive diagnosis is a Stafne bone defect.",
+    "explanation": "Option A is correct because a well-demarcated, corticated radiolucency situated strictly inferior to the mandibular canal in the posterior mandible (below teeth 47 and 48) in an asymptomatic patient is the pathognomonic presentation of a Stafne bone defect. Option B is incorrect because odontogenic keratocysts develop from odontogenic remnants located superior to the mandibular canal in tooth-bearing alveolar bone and ramus areas. Options C and D are incorrect because ameloblastomas and simple bone cysts develop superior to the mandibular canal within the alveolar bone and typically cause tooth displacement, root resorption, or interradicular scalloping.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
@@ -6099,8 +6099,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because a well-demarcated, corticated radiolucency situated strictly inferior to the mandibular canal in the posterior mandible (below teeth 47 and 48) in an asymptomatic patient is the pathognomonic presentation of a Stafne bone defect. Option B is incorrect because odontogenic keratocysts develop from odontogenic remnants located superior to the mandibular canal in tooth-bearing alveolar bone and ramus areas. Options C and D are incorrect because ameloblastomas and simple bone cysts develop superior to the mandibular canal within the alveolar bone and typically cause tooth displacement, root resorption, or interradicular scalloping.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -6661,23 +6661,23 @@
     "id": 304,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "Which of the following anatomical structures appears as a radiopaque inverted 'Y' shaped line superior to the maxillary canine and premolar roots on a periapical radiograph?",
+    "question": "On a periapical radiograph of the permanent maxillary canine region (tooth 13), a distinct radiopaque inverted 'Y' landmark (Ennis' inverted Y) is observed superior to the root apex. Which anatomical structures intersect to create this radiographic feature?",
     "options": [
-      "Zygomatic process of the maxilla",
-      "Median palatine suture",
-      "Incisive canal",
-      "Border of the maxillary sinus and nasal cavity"
+      "Anteroinferior wall of the maxillary sinus and the lateral floor of the nasal cavity",
+      "Posterior wall of the maxillary sinus and the lateral pterygoid plate",
+      "Inferior border of the zygomatic process and the maxillary alveolar crest",
+      "Lateral cortical wall of the incisive canal and the median palatine suture"
     ],
-    "correctAnswer": 3,
-    "explanation": "The inverted 'Y' of the maxilla represents the intersection of the floor of the nasal cavity and the anterior wall of the maxillary sinus, typically viewed superior to the maxillary canine-premolar region. The incisive canal is in the midline between the central incisors. The zygomatic process appears as a U- or J-shaped radiopacity over the molars. The median palatine suture is a vertical radiolucent line between the central incisors.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Ennis' inverted 'Y' is an anatomical radiopaque landmark produced strictly superior to the maxillary canine apex (tooth 13 or 23) by the radiographic intersection of the cortical anteroinferior wall of the maxillary sinus and the cortical floor of the nasal cavity. Option B is incorrect because the posterior sinus wall and lateral pterygoid plate articulate posteriorly at the pterygomaxillary fissure. Options C and D are incorrect because the zygomatic process creates a U-shaped radiopacity over molar roots, while the incisive canal and median suture are midline structures unrelated to the canine apex.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Ennis' inverted 'Y' is an anatomical radiopaque landmark produced strictly superior to the maxillary canine apex (tooth 13 or 23) by the radiographic intersection of the cortical anteroinferior wall of the maxillary sinus and the cortical floor of the nasal cavity. Option B is incorrect because the posterior sinus wall and lateral pterygoid plate articulate posteriorly at the pterygomaxillary fissure. Options C and D are incorrect because the zygomatic process creates a U-shaped radiopacity over molar roots, while the incisive canal and median suture are midline structures unrelated to the canine apex.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -6754,24 +6754,24 @@
     "id": 308,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "When exposing a maxillary bitewing radiograph using the paralleling technique, what vertical angulation of the central X‑ray beam is recommended to avoid overlapping of the interproximal contacts?",
+    "question": "When exposing a posterior bitewing radiograph using an adhesive bitewing tab without a beam alignment instrument, what vertical angulation of the central X-ray beam is recommended to compensate for the slight palatal tilt of maxillary teeth and palate curvature?",
     "options": [
-      "-10 degrees",
+      "+10 degrees",
       "0 degrees",
-      "+20 degrees",
-      "+10 degrees"
+      "-10 degrees",
+      "+25 degrees"
     ],
-    "correctAnswer": 3,
-    "explanation": "Canadian dental radiography guidelines (NDEB, ADA, and standard texts such as White & Pharoah and Ingle) state that for a maxillary bitewing taken with the paralleling technique the central ray should be angled 10° upward (positive vertical angulation). This upward tilt compensates for the natural downward curvature of the palate and the slight inferior tilt of the maxillary arch, allowing the interproximal contacts to be projected without superimposition. \n\nWhy the distractors are wrong:\n- **-10 degrees**: A negative (downward) angulation is used for mandibular bitewings, not for the maxillary arch; applying it to a maxillary bitewing would cause the contacts to be separated excessively and the crowns to be foreshortened.\n- **0 degrees**: With the central ray perpendicular to the film, the curvature of the palate causes the contacts to overlap, producing a blurred interproximal area.\n- **+20 degrees**: An excessive upward angulation would over‑separate the contacts, distort the crown morphology, and increase the risk of cone‑cut errors.\n\nTherefore, the gold‑standard vertical angulation for a maxillary bitewing using the paralleling technique is **+10 degrees**.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because when utilizing bitewing tabs without an alignment instrument, a +10-degree vertical angulation of the central X-ray beam is standard to compensate for the slight palatal inclination of maxillary crowns and the slight curvature of the palate, ensuring equal visualization of maxillary and mandibular alveolar crests. Option B is incorrect because a 0-degree vertical angulation is used strictly when a rigid beam alignment device with an external aiming ring is employed. Options C and D are incorrect because a negative vertical angulation (-10 degrees) projects the beam upward and cuts off maxillary crowns, whereas +25 degrees results in severe vertical foreshortening and obscures the interproximal alveolar crests.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because when utilizing bitewing tabs without an alignment instrument, a +10-degree vertical angulation of the central X-ray beam is standard to compensate for the slight palatal inclination of maxillary crowns and the slight curvature of the palate, ensuring equal visualization of maxillary and mandibular alveolar crests. Option B is incorrect because a 0-degree vertical angulation is used strictly when a rigid beam alignment device with an external aiming ring is employed. Options C and D are incorrect because a negative vertical angulation (-10 degrees) projects the beam upward and cuts off maxillary crowns, whereas +25 degrees results in severe vertical foreshortening and obscures the interproximal alveolar crests.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -6847,25 +6847,25 @@
     "id": 312,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "A 12-year-old male patient is referred for orthodontic evaluation. A panoramic radiograph demonstrates a large, well-circumscribed radiolucency in the posterior mandible containing multiple small, tooth-like structures of varying sizes and shapes. Which of the following is the definitive diagnosis?",
+    "question": "A 12-year-old male presents for an orthodontic evaluation. A panoramic radiograph demonstrates a well-circumscribed, expansile radiolucency in the posterior left mandible containing multiple small radiopaque structures resembling rudimentary teeth, associated with the crown of an impacted tooth 37. Which of the following is the definitive diagnosis?",
     "options": [
-      "Complex odontoma",
-      "Odontogenic myxoma",
       "Ameloblastic fibro-odontoma",
-      "Compound odontoma"
+      "Compound odontoma",
+      "Complex odontoma",
+      "Odontogenic myxoma"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct diagnosis is Compound odontoma (Option 3). According to standard oral pathology references (e.g., Neville, Oral and Maxillofacial Pathology), odontomas are classified into two types based on histological and radiographic appearance: compound and complex. A compound odontoma is characterized by the presence of multiple small, tooth-like structures (denticles) that resemble normal teeth in shape and size, although they may vary slightly. These structures are composed of enamel, dentin, cementum, and pulp arranged in a normal pattern. Although compound odontomas are more common in the anterior maxilla, they can occur in the posterior mandible, as described in the stem. The key radiographic feature distinguishing it from a complex odontoma is the organized, tooth-like morphology of the calcified structures. In contrast, a Complex odontoma (Option 0) presents as a disorganized mass of dental tissues (enamel, dentin, cementum, and pulp) that does not resemble normal tooth morphology; it typically appears as a radiopaque mass with a radiolucent rim, often located in the posterior mandible. Odontogenic myxoma (Option 1) is a benign tumor that typically appears as a multilocular radiolucency (often described as 'soap bubble' or 'honeycomb') without the presence of tooth-like structures. Ameloblastic fibro-odontoma (Option 2) is a mixed odontogenic tumor that contains both soft tissue and hard tissue components; while it may contain calcified structures, they are usually amorphous or irregular rather than distinct, well-formed tooth-like structures, and it is less common than odontomas in this age group.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because an ameloblastic fibro-odontoma typically occurs in children and adolescents (average age 10-12 years) as an expansile, well-circumscribed radiolucency in the posterior mandible containing variable tooth-like calcified structures associated with an unerupted molar. Compound odontomas (Option B) are predominantly dense radiopaque masses with miniature tooth-like forms surrounded by only a narrow radiolucent rim and arise predilectly in the anterior maxilla. Complex odontomas (Option C) form disorganized, amorphous radiopaque conglomerate masses lacking tooth morphology, while odontogenic myxomas (Option D) are non-calcifying multilocular radiolucencies with classic 'soap-bubble' or 'honeycomb' internal trabeculation.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because an ameloblastic fibro-odontoma typically occurs in children and adolescents (average age 10-12 years) as an expansile, well-circumscribed radiolucency in the posterior mandible containing variable tooth-like calcified structures associated with an unerupted molar. Compound odontomas (Option B) are predominantly dense radiopaque masses with miniature tooth-like forms surrounded by only a narrow radiolucent rim and arise predilectly in the anterior maxilla. Complex odontomas (Option C) form disorganized, amorphous radiopaque conglomerate masses lacking tooth morphology, while odontogenic myxomas (Option D) are non-calcifying multilocular radiolucencies with classic 'soap-bubble' or 'honeycomb' internal trabeculation.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -7401,23 +7401,23 @@
     "id": 341,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "An 8-year-old child is brought to the clinic following a sports-related trauma to the anterior maxilla. The central incisors are tender to percussion but not displaced or mobile. Which radiographic projection is clinically mandated as the primary baseline diagnostic tool to assess for potential root fracture?",
+    "question": "An 8-year-old child presents following acute sports trauma to the anterior maxilla. Teeth 11 and 21 are tender to percussion but show no mobility or displacement. In addition to a standard parallel periapical radiograph, which radiographic view is guideline-recommended as part of the baseline trauma series to optimize detection of an oblique or horizontal root fracture?",
     "options": [
-      "Parallel periapical radiographs at multiple horizontal angles",
       "Maxillary occlusal projection",
-      "Cone-beam computed tomography (CBCT) of the entire maxilla",
-      "Panoramic radiograph"
+      "Periapical radiograph with altered horizontal tube angulation",
+      "Standard panoramic radiograph",
+      "Submentovertex skull projection"
     ],
     "correctAnswer": 0,
-    "explanation": "To adequately assess for a root fracture, periapical radiographs taken at multiple horizontal angles are necessary because a fracture line may only be visible when the X-ray beam is parallel to the fracture plane. A single panoramic radiograph lacks the necessary local resolution and detail. While CBCT is useful in complex trauma, standard periapical views are the first-line standard of care due to ALARA principles.",
+    "explanation": "Option A is correct because according to Canadian and IADT trauma guidelines, a steep anterior maxillary occlusal projection (or a periapical with varied vertical angulation) aligns the X-ray beam parallel to the oblique fracture plane of maxillary incisors, enabling visualization of root fractures that are invisible on standard periapicals. Option B is incorrect because altering horizontal tube angulation shifts objects buccolingually (SLOB rule) but fails to parallel transverse horizontal root fracture planes. Options C and D are incorrect because panoramic radiography lacks sharpness and suffers from spinal superimposition in the anterior maxilla, while submentovertex views assess the cranial base and zygomatic arches rather than dentoalveolar injuries.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because according to Canadian and IADT trauma guidelines, a steep anterior maxillary occlusal projection (or a periapical with varied vertical angulation) aligns the X-ray beam parallel to the oblique fracture plane of maxillary incisors, enabling visualization of root fractures that are invisible on standard periapicals. Option B is incorrect because altering horizontal tube angulation shifts objects buccolingually (SLOB rule) but fails to parallel transverse horizontal root fracture planes. Options C and D are incorrect because panoramic radiography lacks sharpness and suffers from spinal superimposition in the anterior maxilla, while submentovertex views assess the cranial base and zygomatic arches rather than dentoalveolar injuries.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -7863,23 +7863,23 @@
     "id": 362,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "A panoramic radiograph of a 60-year-old asymptomatic female reveals bilateral, well-defined radiolucencies in the posterior mandible below the inferior alveolar canal, with intact cortical borders. What is the most appropriate management for this finding?",
+    "question": "A routine panoramic radiograph of an asymptomatic 58-year-old male reveals a well-defined, unilocular, oval radiolucency with a dense, corticated border in the posterior right mandible located below the inferior alveolar canal, anterior to the mandibular angle. Diagnostic testing confirms that teeth 46 and 47 respond normally to thermal and electric pulp testing. What is the most appropriate management for this finding?",
     "options": [
-      "Immediate incisional biopsy",
-      "Reassurance and no further treatment (Stafne bone defect)",
-      "Prescription of broad-spectrum antibiotics",
-      "Enucleation and curettage"
+      "Reassurance and periodic clinical review without surgical or invasive intervention",
+      "Endodontic therapy of teeth 46 and 47 followed by periapical curettage",
+      "Surgical exploration, enucleation, and curettage under local anesthesia",
+      "Immediate incisional biopsy of the lesion to rule out an odontogenic keratocyst"
     ],
-    "correctAnswer": 1,
-    "explanation": "This classic presentation represents a static bone cyst (Stafne bone defect or developmental salivary gland inclusion defect), which is a normal anatomic variant containing salivary gland tissue and requires no treatment or biopsy if classic radiographic features are present. Biopsy, curettage, and antibiotics are completely unwarranted as this is not a pathologic cyst or infection.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the classic presentation of an asymptomatic, corticated radiolucency below the inferior alveolar canal in the posterior mandible with vital adjacent teeth is pathognomonic for a Stafne defect (lingual mandibular salivary gland depression), which is a developmental anatomical variation requiring no treatment. Endodontic therapy (Option B) is contraindicated because teeth 46 and 47 are completely vital and non-pathologic. Surgical enucleation (Option C) and incisional biopsy (Option D) represent unwarranted surgical overtreatment for a benign developmental bone concavity that typically contains normal salivary gland or adipose tissue.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the classic presentation of an asymptomatic, corticated radiolucency below the inferior alveolar canal in the posterior mandible with vital adjacent teeth is pathognomonic for a Stafne defect (lingual mandibular salivary gland depression), which is a developmental anatomical variation requiring no treatment. Endodontic therapy (Option B) is contraindicated because teeth 46 and 47 are completely vital and non-pathologic. Surgical enucleation (Option C) and incisional biopsy (Option D) represent unwarranted surgical overtreatment for a benign developmental bone concavity that typically contains normal salivary gland or adipose tissue.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -8443,23 +8443,23 @@
     "id": 388,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "Which of the following cellular components or molecules is considered the primary target for biological damage caused by ionizing radiation in dental radiography?",
+    "question": "Which of the following cellular components is the primary critical biological target responsible for lethal cell damage and heritable genetic mutations induced by diagnostic ionizing radiation?",
     "options": [
-      "Extracellular proteins",
-      "Mitochondrial DNA",
-      "Water molecules",
-      "Cell membrane lipids"
+      "Nuclear DNA",
+      "Intracellular water molecules",
+      "Plasma membrane phospholipids",
+      "Mitochondrial ribosomes"
     ],
-    "correctAnswer": 2,
-    "explanation": "Because the human body is composed of approximately 70-80% water, the indirect effect of radiation via the radiolysis of water is the predominant mechanism of biological damage in diagnostic radiology. This process produces free radicals and reactive oxygen species that subsequently damage critical cellular macromolecules. While direct DNA and macromolecular damage does occur, it is statistically less frequent than the indirect action mediated through water molecules.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because nuclear DNA is the primary critical radiosensitive target in radiobiology, where radiation-induced double-strand breaks lead to mitotic death, chromosomal aberrations, and stochastic oncogenic mutations. Intracellular water molecules (Option B) serve as the vehicle for indirect radiolysis—generating reactive hydroxyl radicals—rather than acting as the primary critical target. Plasma membrane phospholipids (Option C) and mitochondrial ribosomes (Option D) may suffer secondary oxidative injury, but they are not the primary biological targets responsible for cell death or radiation-induced mutagenesis.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because nuclear DNA is the primary critical radiosensitive target in radiobiology, where radiation-induced double-strand breaks lead to mitotic death, chromosomal aberrations, and stochastic oncogenic mutations. Intracellular water molecules (Option B) serve as the vehicle for indirect radiolysis—generating reactive hydroxyl radicals—rather than acting as the primary critical target. Plasma membrane phospholipids (Option C) and mitochondrial ribosomes (Option D) may suffer secondary oxidative injury, but they are not the primary biological targets responsible for cell death or radiation-induced mutagenesis.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -8673,23 +8673,23 @@
     "id": 400,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "An intraoral periapical radiograph of the mandibular molar region reveals a dense radiopacity directly continuous with the roots of the first molar, with a surrounding thin radiolucent halo. The tooth is completely asymptomatic and vital. What is the most appropriate management?",
+    "question": "A 21-year-old female presents with localized cortical expansion and mild dull pain in the left posterior mandible. A periapical radiograph reveals a dense, well-circumscribed radiopaque mass fused directly to the apex of the distal root of vital tooth 36, surrounded by a distinct, uniform radiolucent halo that obliterates the periodontal ligament space. What is the most appropriate definitive management?",
     "options": [
-      "Immediate root canal treatment",
-      "Extraction of the tooth",
-      "Periodic clinical and radiographic monitoring",
-      "Surgical enucleation and biopsy"
+      "Complete surgical enucleation of the lesion, typically accompanied by extraction of tooth 36",
+      "Periodic clinical and radiographic monitoring every 12 months without intervention",
+      "Non-surgical root canal treatment of tooth 36 followed by full-coverage crown placement",
+      "Segmental block resection of the mandible with 1-cm margins"
     ],
-    "correctAnswer": 2,
-    "explanation": "Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology, 4th ed.) describe idiopathic osteosclerosis as a well‑defined radiopaque area continuous with the root surface, often surrounded by a thin radiolucent rim, occurring in vital, asymptomatic teeth. Unlike cementoblastoma, it does not produce pain, swelling, or root resorption and therefore does not merit endodontic therapy, extraction, or surgical removal. The standard of care, endorsed by the Canadian Dental Association, is periodic clinical and radiographic review to ensure stability. Hence option 2 is correct.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the clinical and radiographic features describe a cementoblastoma—a true benign odontogenic neoplasm fused to a vital tooth root surrounded by a radiolucent capsule—which possesses unlimited growth potential and requires complete surgical enucleation, usually necessitating extraction of the involved tooth or root amputation. Periodic monitoring (Option B) is inappropriate because this progressive neoplasm continues to expand, destroying cortical bone and adjacent structures. Non-surgical endodontic therapy (Option C) fails to halt neoplastic growth, while radical segmental resection (Option D) represents excessively aggressive overtreatment for an encapsulated, benign odontogenic lesion.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the clinical and radiographic features describe a cementoblastoma—a true benign odontogenic neoplasm fused to a vital tooth root surrounded by a radiolucent capsule—which possesses unlimited growth potential and requires complete surgical enucleation, usually necessitating extraction of the involved tooth or root amputation. Periodic monitoring (Option B) is inappropriate because this progressive neoplasm continues to expand, destroying cortical bone and adjacent structures. Non-surgical endodontic therapy (Option C) fails to halt neoplastic growth, while radical segmental resection (Option D) represents excessively aggressive overtreatment for an encapsulated, benign odontogenic lesion.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -9179,23 +9179,23 @@
     "id": 422,
     "topicId": "radiology",
     "difficulty": "medium",
-    "question": "Which radiographic landmark is most commonly superimposed over the apices of the maxillary molars on a periapical radiograph, frequently complicating interpretation?",
+    "question": "On an intraoral periapical radiograph of the maxillary molar region (teeth 16 and 17), which anatomical landmark is most commonly superimposed over the molar root apices, appearing as an expansive radiolucency delineated by a thin, radiopaque cortical border that frequently complicates endodontic interpretation?",
     "options": [
-      "Maxillary sinus",
-      "Mental foramen",
-      "Genial tubercles",
-      "Incisive foramen"
+      "Floor of the maxillary sinus",
+      "Nasal fossa",
+      "Incisive foramen",
+      "Greater palatine foramen"
     ],
     "correctAnswer": 0,
-    "explanation": "The maxillary sinus is a large anatomical cavity that often extends inferiorly above the roots of the maxillary premolars and molars. Its thin corticated borders are frequently visible overlying the molar apices. The incisor foramen is anterior, the mental foramen is in the mandibular premolar region, and genial tubercles are found in the anterior mandible.",
+    "explanation": "Option A is correct because the floor of the maxillary sinus is located directly in the posterior maxilla and routinely pneumatizes between or superimposes over the roots of teeth 16 and 17, creating an antral halo or radiolucency that can easily be misinterpreted as periapical pathology. The nasal fossa (Option B) and incisive foramen (Option C) are anterior maxillary landmarks situated near the maxillary central and lateral incisors, making superimposition over molar apices anatomically impossible. The greater palatine foramen (Option D) is situated in the posterior hard palate lingual to the molars and does not project over the root apices on standard periapical views.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the floor of the maxillary sinus is located directly in the posterior maxilla and routinely pneumatizes between or superimposes over the roots of teeth 16 and 17, creating an antral halo or radiolucency that can easily be misinterpreted as periapical pathology. The nasal fossa (Option B) and incisive foramen (Option C) are anterior maxillary landmarks situated near the maxillary central and lateral incisors, making superimposition over molar apices anatomically impossible. The greater palatine foramen (Option D) is situated in the posterior hard palate lingual to the molars and does not project over the root apices on standard periapical views.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -10268,23 +10268,23 @@
   {
     "id": 757756174,
     "topicId": "radiology",
-    "question": "A 58-year-old male with a history of hypertension controlled with ramipril and Type 2 diabetes controlled with metformin requires extraction of tooth 38. He is currently taking clopidogrel (Plavix) due to a previous stent placement. What is the MOST appropriate management of his anticoagulant medication prior to extraction?",
+    "question": "A 58-year-old male with hypertension controlled with ramipril and Type 2 diabetes managed with metformin requires surgical extraction of tooth 38. He takes clopidogrel 75 mg once daily following coronary artery stent placement 18 months ago. According to Canadian dental guidelines (CDA and RCDSO), what is the most appropriate management of his antiplatelet therapy prior to the extraction?",
     "options": [
-      "Proceed with extraction without altering clopidogrel",
-      "Discontinue clopidogrel for 5 days",
-      "Consult with the patient's physician regarding clopidogrel",
-      "Double the dose of clopidogrel"
+      "Proceed with the extraction without altering the clopidogrel regimen, utilizing local hemostatic measures",
+      "Discontinue clopidogrel for 5 to 7 days prior to the extraction to prevent hemorrhage",
+      "Bridge the patient with subcutaneous low-molecular-weight heparin prior to the extraction",
+      "Reduce the clopidogrel dose by 50% for 3 days leading up to the dental procedure"
     ],
     "correctAnswer": 0,
-    "explanation": "The Canadian Dental Association’s Clinical Guidelines on Antiplatelet Therapy (2022) state that for simple or routine extractions, patients on clopidogrel (or dual antiplatelet therapy) should not discontinue the medication, as the bleeding risk is minimal and the cardiovascular risk of interruption is significant. Little & Falace’s Dental Management of the Medically Compromised Patient reinforces that physician consultation is reserved for major oral surgery, not for a single extraction. Consequently, the correct management is to proceed with the extraction while maintaining the patient’s clopidogrel regimen.",
+    "explanation": "Option A is correct because Canadian clinical guidelines (CDA and RCDSO) recommend that dental surgical extractions proceed without interrupting single antiplatelet therapy such as clopidogrel, as the risk of catastrophic stent thrombosis and myocardial infarction far outweighs minor postoperative bleeding, which is reliably managed with local hemostatic agents (e.g., gelatin sponge, sutures, and tranexamic acid). Discontinuing clopidogrel for 5 to 7 days (Option B) significantly elevates the risk of life-threatening coronary thromboembolism and is strongly contraindicated. Low-molecular-weight heparin bridging (Option C) is indicated exclusively for selected high-thromboembolic-risk patients taking vitamin K antagonist anticoagulants, not antiplatelet agents, and dose reduction (Option D) is non-standard, lacks pharmacological evidence, and leaves the patient vulnerable to stent thrombosis.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Canadian clinical guidelines (CDA and RCDSO) recommend that dental surgical extractions proceed without interrupting single antiplatelet therapy such as clopidogrel, as the risk of catastrophic stent thrombosis and myocardial infarction far outweighs minor postoperative bleeding, which is reliably managed with local hemostatic agents (e.g., gelatin sponge, sutures, and tranexamic acid). Discontinuing clopidogrel for 5 to 7 days (Option B) significantly elevates the risk of life-threatening coronary thromboembolism and is strongly contraindicated. Low-molecular-weight heparin bridging (Option C) is indicated exclusively for selected high-thromboembolic-risk patients taking vitamin K antagonist anticoagulants, not antiplatelet agents, and dose reduction (Option D) is non-standard, lacks pharmacological evidence, and leaves the patient vulnerable to stent thrombosis.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {
@@ -11333,15 +11333,15 @@
   {
     "id": 226489506,
     "topicId": "radiology",
-    "question": "A 28-year-old male patient presents with a painful, expanding swelling in the anterior mandible. Radiographic evaluation shows a multilocular radiolucency with a 'soap bubble' appearance that has caused cortical expansion and perforation. Which of the following tumors is most consistent with these radiographic and clinical findings?",
+    "question": "A 24-year-old male presents with a rapidly expanding, painful swelling in the anterior mandible that crosses the midline between teeth 33 and 43. A panoramic radiograph reveals an expansile, multilocular radiolucency with cortical thinning, perforation, and root resorption of the involved incisors. Which of the following is the most likely diagnosis?",
     "options": [
-      "Ameloblastoma",
       "Central giant cell granuloma",
-      "Odontogenic myxoma",
-      "Carcinoma"
+      "Conventional ameloblastoma",
+      "Odontogenic keratocyst",
+      "Odontogenic myxoma"
     ],
     "correctAnswer": 0,
-    "explanation": "Ameloblastoma is a locally aggressive odontogenic tumor that classically presents as a multilocular radiolucency with a 'soap bubble' or 'honeycomb' appearance, often causing significant cortical expansion and perforation. While central giant cell granulomas can also appear multilocular, they are less likely to cause the degree of cortical perforation seen in aggressive ameloblastomas, and odontogenic myxomas typically show a 'tennis racket' or fine trabecular pattern rather than large soap-bubble loculations.",
+    "explanation": "Option A is correct because an aggressive central giant cell granuloma classically occurs in patients under 30 years of age with a marked predilection for the anterior mandible (frequently crossing the midline), presenting as a rapidly expanding, painful multilocular radiolucency with cortical perforation and root resorption. Conventional ameloblastoma (Option B) typically affects older adults (fourth to fifth decades), is characteristically painless, and arises predominantly in the posterior mandible and ramus. Odontogenic keratocysts (Option C) predominantly involve the posterior mandible and characteristically grow anteroposteriorly within the medullary bone without causing early cortical perforation or marked expansion. Odontogenic myxomas (Option D) are slow-growing, painless lesions of the posterior mandible displaying delicate 'stepladder' or 'tennis-racket' trabeculae.",
     "aiGenerated": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
@@ -11349,8 +11349,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because an aggressive central giant cell granuloma classically occurs in patients under 30 years of age with a marked predilection for the anterior mandible (frequently crossing the midline), presenting as a rapidly expanding, painful multilocular radiolucency with cortical perforation and root resorption. Conventional ameloblastoma (Option B) typically affects older adults (fourth to fifth decades), is characteristically painless, and arises predominantly in the posterior mandible and ramus. Odontogenic keratocysts (Option C) predominantly involve the posterior mandible and characteristically grow anteroposteriorly within the medullary bone without causing early cortical perforation or marked expansion. Odontogenic myxomas (Option D) are slow-growing, painless lesions of the posterior mandible displaying delicate 'stepladder' or 'tennis-racket' trabeculae.",
+      "verifiedAt": "2026-11-22T04:47:32.565Z"
     }
   },
   {

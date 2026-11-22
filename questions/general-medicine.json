@@ -3030,23 +3030,23 @@
     "id": 132,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "Which oral manifestation is most commonly associated with HIV infection?",
+    "question": "In an adult patient with untreated human immunodeficiency virus (HIV) infection, which of the following is epidemiologically the MOST common oral opportunistic lesion?",
     "options": [
-      "Lichen planus.",
-      "Geographic tongue.",
-      "Hairy leukoplakia.",
-      "Amalgam tattoos."
+      "Linear gingival erythema.",
+      "Oral hairy leukoplakia.",
+      "Oral candidiasis (pseudomembranous or erythematous).",
+      "Kaposi sarcoma."
     ],
     "correctAnswer": 2,
-    "explanation": "Although oral candidiasis is the most frequent oral manifestation of HIV, it is not listed. Of the four options, only hairy leukoplakia has a well‑documented association with HIV‑related immunosuppression. Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology, 4th ed.) describe hairy leukoplakia as a characteristic EBV‑related white corrugated lesion on the lateral tongue that appears almost exclusively in patients with low CD4 counts. Lichen planus, geographic tongue, and amalgam tattoos have no specific correlation with HIV. Consequently, under NDEB standards the answer “Hairy leukoplakia” is correct.",
+    "explanation": "Option C is correct because oral candidiasis is epidemiologically the most frequent oral manifestation of HIV infection, presenting in over 80% to 90% of untreated or advanced immunocompromised patients. Option B is incorrect because while oral hairy leukoplakia has high diagnostic specificity for HIV, it occurs less frequently than candidiasis. Options A and D are incorrect because linear gingival erythema and Kaposi sarcoma are recognized HIV-associated conditions but have a substantially lower prevalence than candidiasis.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Oral hairy leukoplakia, an opportunistic Epstein-Barr virus reactivation on the lateral border of the tongue, is strongly and characteristically associated with HIV infection.",
-      "verifiedAt": "2026-11-18T05:56:03.155Z"
+      "clinicalRationale": "Option C is correct because oral candidiasis is epidemiologically the most frequent oral manifestation of HIV infection, presenting in over 80% to 90% of untreated or advanced immunocompromised patients. Option B is incorrect because while oral hairy leukoplakia has high diagnostic specificity for HIV, it occurs less frequently than candidiasis. Options A and D are incorrect because linear gingival erythema and Kaposi sarcoma are recognized HIV-associated conditions but have a substantially lower prevalence than candidiasis.",
+      "verifiedAt": "2026-11-22T04:47:32.483Z"
     }
   },
   {
@@ -6807,23 +6807,23 @@
     "id": 296,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A patient with a history of a prosthetic heart valve requires a dental extraction. According to current guidelines (e.g., AHA 2017), which antibiotic regimen is MOST appropriate for infective endocarditis prophylaxis?",
+    "question": "A 58-year-old male with a mechanical prosthetic aortic valve and no known drug allergies is scheduled for the extraction of tooth 38. According to current Canadian Dental Association and American Heart Association guidelines, which antibiotic regimen is indicated to prevent infective endocarditis?",
     "options": [
-      "Azithromycin 500mg orally 1 hour before the procedure.",
-      "Amoxicillin 2g orally 30-60 minutes before the procedure.",
-      "No prophylaxis is needed for prosthetic heart valves.",
-      "Clindamycin 600mg orally 30-60 minutes before the procedure."
+      "Cephalexin 2 g orally 30 to 60 minutes prior to the procedure.",
+      "Azithromycin 500 mg orally 30 to 60 minutes prior to the procedure.",
+      "No antibiotic prophylaxis is recommended for prosthetic heart valves.",
+      "Amoxicillin 2 g orally 30 to 60 minutes prior to the procedure."
     ],
-    "correctAnswer": 1,
-    "explanation": "Patients with prosthetic heart valves are at high risk for infective endocarditis. Amoxicillin 2g orally (or ampicillin/cefazolin/ceftriaxone parenterally) is the recommended first-line antibiotic prophylaxis for dental procedures involving manipulation of gingival tissue or the periapical region.",
+    "correctAnswer": 3,
+    "explanation": "Option D is correct because current Canadian Dental Association and 2021 AHA guidelines specify oral amoxicillin 2 g taken 30 to 60 minutes before the procedure as the first-line regimen for patients with high-risk cardiac conditions, including prosthetic heart valves, who have no penicillin allergy. Options A and B are incorrect because cephalexin and azithromycin are alternative regimens reserved exclusively for individuals with an established penicillin allergy. Option C is incorrect because prosthetic heart valves are among the highest-risk cardiac conditions for which infective endocarditis prophylaxis remains mandatory.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Amoxicillin 2g orally administered 30 to 60 minutes prior to invasive procedures is the standard first-line antibiotic prophylaxis regimen for patients with high-risk cardiac conditions, including prosthetic heart valves.",
-      "verifiedAt": "2026-11-18T06:00:06.824Z"
+      "clinicalRationale": "Option D is correct because current Canadian Dental Association and 2021 AHA guidelines specify oral amoxicillin 2 g taken 30 to 60 minutes before the procedure as the first-line regimen for patients with high-risk cardiac conditions, including prosthetic heart valves, who have no penicillin allergy. Options A and B are incorrect because cephalexin and azithromycin are alternative regimens reserved exclusively for individuals with an established penicillin allergy. Option C is incorrect because prosthetic heart valves are among the highest-risk cardiac conditions for which infective endocarditis prophylaxis remains mandatory.",
+      "verifiedAt": "2026-11-22T04:47:32.484Z"
     }
   },
   {
@@ -7014,23 +7014,23 @@
     "id": 305,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "Which of the following is an absolute contraindication to dental treatment?",
+    "question": "Which of the following clinical findings represents an absolute contraindication to providing routine elective dental treatment in an outpatient dental clinic?",
     "options": [
-      "History of infective endocarditis.",
-      "Patient undergoing radiation therapy to the head and neck.",
-      "Acute myocardial infarction within the last 3 months.",
-      "Uncontrolled hypertension (BP >180/110 mmHg)."
+      "Severe uncontrolled hypertension with a blood pressure reading exceeding 180/110 mmHg.",
+      "History of an uncomplicated myocardial infarction that occurred 4 months ago.",
+      "Well-controlled type 2 diabetes mellitus with a glycated hemoglobin (HbA1c) level of 7.2%.",
+      "Documented past history of successfully treated infective endocarditis 3 years ago."
     ],
-    "correctAnswer": 2,
-    "explanation": "An acute myocardial infarction within 3-6 months is generally considered an absolute contraindication to elective dental treatment due to the high risk of reinfarction. Uncontrolled hypertension is a relative contraindication, and the others require significant modifications but are not absolute contraindications to all treatment.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because severe uncontrolled hypertension (>180/110 mmHg) represents hypertensive urgency or crisis, which is an absolute contraindication to routine elective dental treatment due to the heightened risk of acute stroke or myocardial infarction. Option B is incorrect because current guidelines permit elective dental treatment 30 to 60 days following an uncomplicated myocardial infarction if the patient is stable and asymptomatic. Options C and D are incorrect because well-controlled diabetes and a past history of infective endocarditis (managed with appropriate antibiotic prophylaxis) do not contraindicate elective dental care.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "According to Malamed and Little & Falace, recent myocardial infarction (<3 to 6 months) is an absolute contraindication to elective outpatient dental care due to elevated re-infarction risk. Uncontrolled hypertension is a relative contraindication, while infective endocarditis history requires antibiotic prophylaxis.",
-      "verifiedAt": "2026-11-18T06:01:09.238Z"
+      "clinicalRationale": "Option A is correct because severe uncontrolled hypertension (>180/110 mmHg) represents hypertensive urgency or crisis, which is an absolute contraindication to routine elective dental treatment due to the heightened risk of acute stroke or myocardial infarction. Option B is incorrect because current guidelines permit elective dental treatment 30 to 60 days following an uncomplicated myocardial infarction if the patient is stable and asymptomatic. Options C and D are incorrect because well-controlled diabetes and a past history of infective endocarditis (managed with appropriate antibiotic prophylaxis) do not contraindicate elective dental care.",
+      "verifiedAt": "2026-11-22T04:47:32.484Z"
     }
   },
   {
@@ -8701,23 +8701,23 @@
     "id": 379,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "A patient with a history of Hepatitis C requests dental treatment. What is the primary concern for the dental team?",
+    "question": "A 52-year-old patient with chronic hepatitis C and known liver cirrhosis is scheduled for the surgical extraction of tooth 47. Under Canadian Dental Association and Health Canada guidelines, which of the following is the PRIMARY clinical concern for the treating dentist?",
     "options": [
-      "Risk of transmission of the virus to healthcare providers.",
-      "Decreased efficacy of local anesthetics.",
-      "Increased risk of oral cancer.",
-      "Potential for impaired wound healing."
+      "Cross-infection of healthcare providers requiring barrier precautions beyond standard Routine Practices.",
+      "Increased risk of prolonged post-operative hemorrhage due to coagulopathy and thrombocytopenia.",
+      "Decreased clinical efficacy of amide local anesthetics during inferior alveolar nerve blocks.",
+      "Bacterial superinfection caused by transmission of viral particles through dental unit waterlines."
     ],
-    "correctAnswer": 0,
-    "explanation": "Hepatitis C is a blood-borne virus, posing a risk of transmission to healthcare providers through percutaneous injury or mucous membrane exposure. Standard precautions are critical. While chronic liver disease can affect wound healing, the primary immediate concern during treatment is infection control.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because chronic hepatitis C with cirrhosis impairs the hepatic synthesis of clotting factors and frequently causes hypersplenism-induced thrombocytopenia, resulting in a significantly heightened risk of post-operative hemorrhage. Option A is incorrect because under Canadian Routine Practices, universal infection control procedures apply equally to all patients without additional barrier segregation. Options C and D are incorrect because hepatic dysfunction delays drug metabolism and increases systemic toxicity rather than reducing anesthetic efficacy, and hepatitis C is a bloodborne virus that is not transmitted through dental unit waterlines.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Percutaneous bloodborne transmission to healthcare personnel represents the primary occupational risk associated with hepatitis C, managed via strict adherence to Canadian routine infection control practices.",
-      "verifiedAt": "2026-11-18T06:03:30.546Z"
+      "clinicalRationale": "Option B is correct because chronic hepatitis C with cirrhosis impairs the hepatic synthesis of clotting factors and frequently causes hypersplenism-induced thrombocytopenia, resulting in a significantly heightened risk of post-operative hemorrhage. Option A is incorrect because under Canadian Routine Practices, universal infection control procedures apply equally to all patients without additional barrier segregation. Options C and D are incorrect because hepatic dysfunction delays drug metabolism and increases systemic toxicity rather than reducing anesthetic efficacy, and hepatitis C is a bloodborne virus that is not transmitted through dental unit waterlines.",
+      "verifiedAt": "2026-11-22T04:47:32.484Z"
     }
   },
   {
@@ -8839,23 +8839,23 @@
     "id": 385,
     "topicId": "general-medicine",
     "difficulty": "medium",
-    "question": "When managing a patient with chronic obstructive pulmonary disease (COPD) for dental treatment, which of the following positions should generally be avoided?",
+    "question": "When treating a 64-year-old patient with moderate chronic obstructive pulmonary disease (COPD) in the dental clinic, which patient position in the dental chair is MOST appropriate to maintain adequate respiratory function?",
     "options": [
-      "Trendelenburg position",
-      "Semi-supine position",
-      "Upright position",
-      "Supine position"
+      "Full supine (horizontal) position.",
+      "Trendelenburg position with the head lowered below the level of the feet.",
+      "Semi-upright (semi-supine) position with the chair back elevated approximately 45 degrees.",
+      "Prone position with the torso fully supported."
     ],
-    "correctAnswer": 3,
-    "explanation": "Patients with severe COPD often experience orthopnea and difficulty breathing when lying flat. The supine position should generally be avoided; a semi-supine or upright position is usually more comfortable and allows for better respiration.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because placing a patient with chronic obstructive pulmonary disease in a semi-upright position (approximately 45 degrees) prevents the abdominal contents from pressing against the diaphragm, thereby preserving thoracic volume and preventing orthopnea. Options A and B are incorrect because full supine and Trendelenburg positions severely compromise diaphragmatic excursion and precipitate acute respiratory distress in patients with limited pulmonary reserve. Option D is incorrect because a prone position is physically impractical for dental care and severely restricts thoracic wall expansion.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Patients with COPD experience compromised diaphragmatic excursion and orthopnea in the supine position; dental care should generally be rendered in an upright or semi-supine position.",
-      "verifiedAt": "2026-11-18T06:03:30.546Z"
+      "clinicalRationale": "Option C is correct because placing a patient with chronic obstructive pulmonary disease in a semi-upright position (approximately 45 degrees) prevents the abdominal contents from pressing against the diaphragm, thereby preserving thoracic volume and preventing orthopnea. Options A and B are incorrect because full supine and Trendelenburg positions severely compromise diaphragmatic excursion and precipitate acute respiratory distress in patients with limited pulmonary reserve. Option D is incorrect because a prone position is physically impractical for dental care and severely restricts thoracic wall expansion.",
+      "verifiedAt": "2026-11-22T04:47:32.484Z"
     }
   },
   {
@@ -10190,23 +10190,23 @@
   {
     "id": 389869002,
     "topicId": "general-medicine",
-    "question": "A 50-year-old male patient presents with a slowly enlarging, firm, painless swelling in the anterior floor of his mouth. The swelling has been present for several months and has a bluish, translucent appearance. He reports no trauma or systemic symptoms. What is the MOST likely diagnosis?",
+    "question": "A 24-year-old male presents with a painless, slowly enlarging, bluish, translucent swelling in the floor of the mouth, located lateral to the lingual frenum. Palpation reveals a soft, fluctuant, non-tender mass measuring 2.5 cm that transilluminates. What is the MOST likely diagnosis?",
     "options": [
-      "Mucocele",
-      "Ranula",
-      "Sialolithiasis",
-      "Lipoma"
+      "Dermoid cyst.",
+      "Sialolithiasis.",
+      "Pleomorphic adenoma.",
+      "Ranula."
     ],
-    "correctAnswer": 1,
-    "explanation": "A ranula is a mucocele that occurs specifically in the floor of the mouth, typically associated with the sublingual gland, presenting as a bluish, translucent, painless swelling. A mucocele is generally smaller and occurs in minor salivary glands, most commonly on the lower lip. Sialolithiasis (salivary gland stone) would typically cause pain and swelling, especially during eating, and a lipoma is a yellow, soft, mobile mass.",
+    "correctAnswer": 3,
+    "explanation": "Option D is correct because a ranula is a mucus extravasation phenomenon originating from the sublingual gland that characteristically presents as a soft, fluctuant, bluish-translucent, painless swelling in the lateral floor of the mouth. Option A is incorrect because a dermoid cyst typically presents as a doughy, yellowish midline floor-of-mouth mass rather than a lateral bluish fluctuance. Options B and C are incorrect because sialolithiasis is characterized by episodic mealtime pain and a hard calcified obstruction, while pleomorphic adenoma presents as a firm, solid neoplasm without fluid fluctuance or translucency.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "A ranula is the designated diagnostic term for a large mucus extravasation phenomenon (mucocele) specifically located in the floor of the mouth arising from the sublingual salivary gland or duct.",
-      "verifiedAt": "2026-11-18T06:06:41.495Z"
+      "clinicalRationale": "Option D is correct because a ranula is a mucus extravasation phenomenon originating from the sublingual gland that characteristically presents as a soft, fluctuant, bluish-translucent, painless swelling in the lateral floor of the mouth. Option A is incorrect because a dermoid cyst typically presents as a doughy, yellowish midline floor-of-mouth mass rather than a lateral bluish fluctuance. Options B and C are incorrect because sialolithiasis is characterized by episodic mealtime pain and a hard calcified obstruction, while pleomorphic adenoma presents as a firm, solid neoplasm without fluid fluctuance or translucency.",
+      "verifiedAt": "2026-11-22T04:47:32.484Z"
     }
   },
   {
@@ -10300,23 +10300,23 @@
   {
     "id": 132202865,
     "topicId": "general-medicine",
-    "question": "A 7-year-old male patient presents to your office with a chief complaint of a \"loose front tooth\" for the past two weeks. Clinical examination reveals mobility of tooth 51 (primary maxillary right central incisor) and the permanent successor, tooth 11, is visible erupting lingually. The patient has no pain or infection. What is the MOST appropriate management?",
+    "question": "A 7-year-old male presents with tooth 51 exhibiting grade 1 mobility. Clinical examination reveals that the permanent successor, tooth 11, is actively erupting palatally to tooth 51. What is the MOST appropriate clinical management?",
     "options": [
-      "Referral to an orthodontist.",
-      "Wait for spontaneous exfoliation of tooth 51.",
       "Immediate extraction of tooth 51.",
-      "Application of a space maintainer."
+      "Observation to permit spontaneous exfoliation of tooth 51.",
+      "Placement of a fixed maxillary bilateral space maintainer.",
+      "Immediate referral for comprehensive orthodontic therapy."
     ],
-    "correctAnswer": 1,
-    "explanation": "This scenario describes a common 'shark tooth' presentation where the permanent incisor erupts lingually while the primary tooth is still present. Since the primary tooth is mobile and there is no pain or infection, waiting for spontaneous exfoliation is often the first and most appropriate step, as the tongue pressure usually guides the permanent tooth into a more favorable position. Immediate extraction is not necessary unless the primary tooth is very firm and significantly impeding eruption, and orthodontic referral or space maintainers are not indicated at this initial stage.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because when a maxillary permanent central incisor (tooth 11) erupts palatally behind an over-retained primary predecessor (tooth 51), immediate extraction of tooth 51 is indicated to prevent the permanent incisor from erupting into an inlocked anterior crossbite. Option B is incorrect because unlike mandibular permanent incisors which are guided labially by the tongue, palatally erupting maxillary incisors become trapped in crossbite if left to exfoliate spontaneously. Options C and D are incorrect because space maintainers are unnecessary when the successor is actively erupting, and extraction of the primary tooth typically permits spontaneous self-correction without immediate comprehensive orthodontic referral.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "When a primary incisor (#51) is already mobile and undergoing normal physiologic exfoliation, observation to allow spontaneous exfoliation is the conservative standard of care, avoiding unnecessary surgical extraction.",
-      "verifiedAt": "2026-11-18T06:06:41.496Z"
+      "clinicalRationale": "Option A is correct because when a maxillary permanent central incisor (tooth 11) erupts palatally behind an over-retained primary predecessor (tooth 51), immediate extraction of tooth 51 is indicated to prevent the permanent incisor from erupting into an inlocked anterior crossbite. Option B is incorrect because unlike mandibular permanent incisors which are guided labially by the tongue, palatally erupting maxillary incisors become trapped in crossbite if left to exfoliate spontaneously. Options C and D are incorrect because space maintainers are unnecessary when the successor is actively erupting, and extraction of the primary tooth typically permits spontaneous self-correction without immediate comprehensive orthodontic referral.",
+      "verifiedAt": "2026-11-22T04:47:32.484Z"
     }
   },
   {

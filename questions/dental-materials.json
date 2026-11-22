@@ -1376,23 +1376,23 @@
   {
     "id": 63,
     "topicId": "dental-materials",
-    "question": "Which statement regarding conventional glass ionomer cements (GICs) is FALSE?",
+    "question": "Which of the following describes the primary setting mechanism of conventional glass ionomer restorative cements?",
     "options": [
-      "They release fluoride ions over time.",
-      "Their primary setting reaction is polymerization.",
-      "They are highly susceptible to desiccation during initial setting.",
-      "They bond chemically to tooth structure."
+      "Acid-base reaction between fluoroaluminosilicate glass and polyalkenoic acid",
+      "Free-radical addition polymerization initiated by visible light or chemical catalysts",
+      "Condensation polymerization releasing water and alcohol as reaction byproducts",
+      "Chelation reaction between zinc oxide powder and eugenol liquid"
     ],
-    "correctAnswer": 1,
-    "explanation": "Conventional GICs set via an acid-base reaction between polyacrylic acid and fluoroaluminosilicate glass powder, forming a salt matrix. They do not set primarily by polymerization, which distinguishes them from resin-modified GICs and composite resins. The other statements are true characteristics of conventional GICs.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because conventional glass ionomer cements set entirely via an aqueous acid-base reaction where polymeric polyalkenoic acid attacks fluoroaluminosilicate glass particles, causing cross-linking of polyacid chains by calcium and aluminum ions. Option B is incorrect because free-radical polymerization is the reaction mechanism of resin-based composites and resin-modified glass ionomers, not conventional glass ionomers. Options C and D are incorrect because condensation polymerization characterizes condensation silicone impression materials, while zinc oxide and eugenol set via a distinct zinc eugenolate chelation reaction.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because conventional glass ionomer cements set entirely via an aqueous acid-base reaction where polymeric polyalkenoic acid attacks fluoroaluminosilicate glass particles, causing cross-linking of polyacid chains by calcium and aluminum ions. Option B is incorrect because free-radical polymerization is the reaction mechanism of resin-based composites and resin-modified glass ionomers, not conventional glass ionomers. Options C and D are incorrect because condensation polymerization characterizes condensation silicone impression materials, while zinc oxide and eugenol set via a distinct zinc eugenolate chelation reaction.",
+      "verifiedAt": "2026-11-22T04:47:32.528Z"
     }
   },
   {
@@ -3081,23 +3081,23 @@
     "id": 139,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "When bonding a lithium disilicate crown to a prepared maxillary premolar using a total-etch resin cement, which surface treatment is specifically required for the intaglio surface of the crown prior to silanation?",
+    "question": "A full-coverage monolithic zirconia crown is fabricated for tooth 16. To achieve durable adhesive resin bonding to a preparation with compromised mechanical retention, which surface treatment is required for the intaglio surface of the zirconia restoration prior to cementation?",
     "options": [
-      "Phosphoric acid etching for 60 seconds",
-      "Application of a silane coupling agent directly without acid",
-      "Air-borne particle abrasion with aluminum oxide",
-      "Etching with 9.5% hydrofluoric acid for 20 seconds"
+      "Airborne-particle abrasion with 50-µm aluminum oxide followed by the application of a 10-MDP-containing primer",
+      "Etching with 9.5% hydrofluoric acid for 20 seconds followed by the application of a silane coupling agent",
+      "Etching with 37% phosphoric acid for 60 seconds followed by the application of an unfilled resin adhesive",
+      "Airborne-particle abrasion with glass beads followed by the application of a silane coupling agent"
     ],
-    "correctAnswer": 3,
-    "explanation": "Lithium disilicate glass-ceramics contain a glassy matrix that must be selectively etched using 9.5% hydrofluoric acid for 20 seconds to dissolve the glass phase and create micromechanical retention. Aluminum oxide blasting can structurally weaken glass-ceramics, phosphoric acid does not dissolve the silicate glass matrix, and silane requires an etched surface to bond effectively.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because polycrystalline zirconia lacks a glass matrix and requires airborne-particle abrasion with aluminum oxide to generate micromechanical roughness, followed by a primer containing 10-MDP which chemically bonds to zirconium oxide. Option B is incorrect because hydrofluoric acid etching and silanation are effective exclusively for silica-based glass ceramics (e.g., lithium disilicate) and cannot etch polycrystalline zirconia. Options C and D are incorrect because phosphoric acid contaminates zirconia bonding sites by neutralizing available zirconium binding oxides, while glass beads with silane fail to achieve adequate mechanical retention or chemical adhesion.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because polycrystalline zirconia lacks a glass matrix and requires airborne-particle abrasion with aluminum oxide to generate micromechanical roughness, followed by a primer containing 10-MDP which chemically bonds to zirconium oxide. Option B is incorrect because hydrofluoric acid etching and silanation are effective exclusively for silica-based glass ceramics (e.g., lithium disilicate) and cannot etch polycrystalline zirconia. Options C and D are incorrect because phosphoric acid contaminates zirconia bonding sites by neutralizing available zirconium binding oxides, while glass beads with silane fail to achieve adequate mechanical retention or chemical adhesion.",
+      "verifiedAt": "2026-11-22T04:47:32.528Z"
     }
   },
   {
@@ -5487,23 +5487,23 @@
     "id": 248,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "An irreversible hydrocolloid (alginate) impression is left on the dental counter for two hours in a normal room environment prior to pouring. Which of the following phenomena is most likely to occur?",
+    "question": "An assistant mistakenly immerses a freshly disinfected irreversible hydrocolloid (alginate) impression in a bowl of water for 60 minutes prior to pouring dental stone. Which phenomenon is most likely to occur as a result of this extended immersion?",
     "options": [
-      "Complete dissolution of the set gel",
-      "Plastic deformation without dimensional change",
-      "Syneresis and dimensional shrinkage",
-      "Imbibition and dimensional expansion"
+      "Imbibition, leading to water absorption and dimensional expansion of the impression",
+      "Syneresis, leading to fluid exudation and dimensional shrinkage of the impression",
+      "Hysteresis, leading to thermal liquefaction of the gel matrix",
+      "Desiccation, leading to brittle fracture of the interdental details"
     ],
-    "correctAnswer": 2,
-    "explanation": "Alginate is primarily composed of water. When left exposed to air, it undergoes syneresis (loss of water through evaporation), leading to dimensional shrinkage and distortion. Imbibition is the absorption of water, which occurs if the impression is stored in excess moisture.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because alginate is an irreversible hydrocolloid gel that absorbs water when submerged in an aqueous environment via imbibition, leading to dimensional expansion and cast distortion. Option B is incorrect because syneresis refers to the spontaneous exudation of fluid and gel shrinkage occurring in dry or open-air environments. Options C and D are incorrect because hysteresis describes the temperature lag between liquefaction and gelation in reversible hydrocolloids, and desiccation occurs through water loss to air rather than immersion.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because alginate is an irreversible hydrocolloid gel that absorbs water when submerged in an aqueous environment via imbibition, leading to dimensional expansion and cast distortion. Option B is incorrect because syneresis refers to the spontaneous exudation of fluid and gel shrinkage occurring in dry or open-air environments. Options C and D are incorrect because hysteresis describes the temperature lag between liquefaction and gelation in reversible hydrocolloids, and desiccation occurs through water loss to air rather than immersion.",
+      "verifiedAt": "2026-11-22T04:47:32.528Z"
     }
   },
   {
@@ -7212,23 +7212,23 @@
     "id": 329,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "During the manipulation of high-copper amalgam, the operator notices that the mix appears crumbly, dull, and sets too rapidly with excessive heat evolution. This clinical presentation is most indicative of which of the following errors?",
+    "question": "Following mechanical trituration of a high-copper dental amalgam capsule, the mass appears shiny, excessively soft, warm to the touch, and exhibits a markedly shortened working time. Which manipulation error is most indicative of this presentation?",
     "options": [
-      "Mercury excess",
       "Over-trituration",
       "Under-trituration",
-      "Delayed expansion due to moisture contamination"
+      "Inadequate condensation pressure",
+      "Moisture contamination of a zinc-containing alloy"
     ],
-    "correctAnswer": 1,
-    "explanation": "Over-trituration of dental amalgam causes the mix to be excessively warm, set too rapidly, exhibit decreased working time, and have increased contraction. Under-trituration results in a grainy, dull mix with reduced strength and increased creep. Moisture contamination in zinc-containing amalgams causes delayed expansion and hydrogen gas production days later.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because excessive frictional heat generated during over-trituration causes amalgam to become warm, shiny, sticky, and set prematurely with a marked reduction in working time. Option B is incorrect because under-trituration produces a dull, dry, crumbly, and weak mix that sets slowly due to inadequate alloy wetting. Options C and D are incorrect because inadequate condensation pressure causes voids and weak compressive strength without altering mix appearance in the capsule, and moisture contamination of zinc-containing alloys causes secondary delayed expansion days later rather than an immediate warm, sticky mass.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because excessive frictional heat generated during over-trituration causes amalgam to become warm, shiny, sticky, and set prematurely with a marked reduction in working time. Option B is incorrect because under-trituration produces a dull, dry, crumbly, and weak mix that sets slowly due to inadequate alloy wetting. Options C and D are incorrect because inadequate condensation pressure causes voids and weak compressive strength without altering mix appearance in the capsule, and moisture contamination of zinc-containing alloys causes secondary delayed expansion days later rather than an immediate warm, sticky mass.",
+      "verifiedAt": "2026-11-22T04:47:32.528Z"
     }
   },
   {
@@ -7581,23 +7581,23 @@
     "id": 349,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "When bonding a lithium disilicate crown to a prepared tooth using a resin cement protocol, which chemical agent is universally applied to the internal surface of the ceramic restoration to enhance bonding via micromechanical interlocking and chemical adhesion?",
+    "question": "When preparing the intaglio surface of a lithium disilicate glass-ceramic restoration for adhesive resin cementation, which surface conditioning protocol is recommended to achieve optimal micromechanical retention and chemical bonding?",
     "options": [
-      "Hydrofluoric acid followed by a silane coupling agent",
-      "Sodium hypochlorite followed by copper sulfate",
-      "Sulfuric acid followed by unfilled bonding resin",
-      "37% Phosphoric acid followed by zinc phosphate"
+      "5% Hydrofluoric acid etching followed by a silane coupling agent",
+      "37% Phosphoric acid etching followed by a silane coupling agent",
+      "Airborne-particle abrasion with 50 µm aluminum oxide followed by a 10-MDP primer",
+      "37% Phosphoric acid etching followed by an unfilled bonding resin alone"
     ],
     "correctAnswer": 0,
-    "explanation": "Hydrofluoric acid selectively dissolves the glass matrix of glass-ceramics like lithium disilicate, creating a porous, retentive surface for micromechanical interlocking. A silane coupling agent is then applied to chemically bind the inorganic silica network of the ceramic to the organic matrix of the resin cement.",
+    "explanation": "Option A is correct because lithium disilicate is an etchable glass-ceramic requiring ~5% hydrofluoric acid to selectively dissolve the glassy matrix for micromechanical interlocking, followed by a silane coupling agent to establish chemical bonding between ceramic silica and resin cement. Option B is incorrect because 37% phosphoric acid only cleans ceramic surfaces without creating necessary micromechanical surface roughness. Options C and D are incorrect because airborne-particle abrasion and 10-MDP are indicated for non-etchable polycrystalline zirconia and induce microcracks in glass-ceramics, while omitting silane severely compromises ceramic-to-resin bond strength.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because lithium disilicate is an etchable glass-ceramic requiring ~5% hydrofluoric acid to selectively dissolve the glassy matrix for micromechanical interlocking, followed by a silane coupling agent to establish chemical bonding between ceramic silica and resin cement. Option B is incorrect because 37% phosphoric acid only cleans ceramic surfaces without creating necessary micromechanical surface roughness. Options C and D are incorrect because airborne-particle abrasion and 10-MDP are indicated for non-etchable polycrystalline zirconia and induce microcracks in glass-ceramics, while omitting silane severely compromises ceramic-to-resin bond strength.",
+      "verifiedAt": "2026-11-22T04:47:32.528Z"
     }
   },
   {
@@ -9575,23 +9575,23 @@
     "id": 442,
     "topicId": "dental-materials",
     "difficulty": "medium",
-    "question": "Which of the following dual-cure resin cements is typically contraindicated for the cementation of a translucent anterior porcelain veneer?",
+    "question": "When cementing thin, translucent feldspathic porcelain veneers on teeth 11 and 21, which type of resin cement is indicated to ensure optimal long-term aesthetic color stability?",
     "options": [
-      "Light-cure resin cement",
-      "Self-cure resin cement containing tertiary aromatic amines",
-      "Dual-cure resin cement with a tertiary amine co-initiator system",
-      "Aesthetic resin cement with low film thickness"
+      "Light-cure resin cement with an aliphatic amine or amine-free photoinitiator system",
+      "Dual-cure resin cement containing a tertiary aromatic amine catalyst system",
+      "Self-cure (chemically cured) composite resin cement with benzoyl peroxide",
+      "Self-adhesive dual-cure resin cement containing acidic phosphate monomers"
     ],
-    "correctAnswer": 2,
-    "explanation": "Phillips' Science of Dental Materials (12th ed., ch. 15) notes that dual‑cure resin cements containing tertiary aromatic amines as chemical‑cure co‑initiators are prone to intrinsic discoloration over time. For thin, highly translucent anterior porcelain veneers, any shade shift is clinically unacceptable; therefore a light‑cure‑only or amine‑free dual‑cure cement is recommended. Option C describes exactly the dual‑cure system with a tertiary amine co‑initiator, making it contraindicated for this indication. Options A and D are light‑cure or low‑film‑thickness cements that preserve color, while option B is a self‑cure cement and does not meet the “dual‑cure” requirement of the question.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because light-cure resin cements utilize aliphatic amine or amine-free photoinitiator systems that provide superior long-term aesthetic color stability without the oxidative yellowing seen with aromatic tertiary amines. Option B is incorrect because dual-cure cements contain aromatic tertiary amines that undergo progressive oxidation and visible darkening through translucent veneers over time. Options C and D are incorrect because self-cure and self-adhesive dual-cure cements exhibit substantial color instability and high opacity, making them contraindicated for aesthetic veneer cementation.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because light-cure resin cements utilize aliphatic amine or amine-free photoinitiator systems that provide superior long-term aesthetic color stability without the oxidative yellowing seen with aromatic tertiary amines. Option B is incorrect because dual-cure cements contain aromatic tertiary amines that undergo progressive oxidation and visible darkening through translucent veneers over time. Options C and D are incorrect because self-cure and self-adhesive dual-cure cements exhibit substantial color instability and high opacity, making them contraindicated for aesthetic veneer cementation.",
+      "verifiedAt": "2026-11-22T04:47:32.528Z"
     }
   },
   {
@@ -10673,15 +10673,15 @@
   {
     "id": 897868145,
     "topicId": "dental-materials",
-    "question": "A 35-year-old female patient presents for a routine dental cleaning. During the intraoral examination, a 0.5 cm, soft, fluctuant, non-tender nodule is identified on the labial mucosa adjacent to the mandibular left cuspid. The lesion has a bluish-pink color and has been present for several months without significant change in size. The patient reports no history of trauma to the area. What is the most likely diagnosis?",
+    "question": "A 35-year-old female presents for a routine dental examination. Intraoral examination reveals a 0.5 cm, soft, fluctuant, non-tender nodule with a bluish-translucent appearance on the lower labial mucosa adjacent to tooth 33. The lesion has been present for several weeks and occasionally fluctuates in size. What is the most likely diagnosis?",
     "options": [
-      "Fibroma",
+      "Irritation fibroma",
       "Mucocele",
-      "Periapical granuloma",
+      "Lipoma",
       "Torus mandibularis"
     ],
     "correctAnswer": 1,
-    "explanation": "The clinical presentation of a soft, fluctuant, non-tender, bluish-pink nodule on the labial mucosa is classic for a mucocele (specifically a mucous extravasation phenomenon). Mucoceles are common benign lesions resulting from the rupture or obstruction of a minor salivary gland duct, leading to the accumulation of mucin in the surrounding connective tissue. They are most frequently found on the lower lip or labial mucosa. \n\nWhy the other options are incorrect:\n- Fibroma: A fibroma is a reactive hyperplasia of connective tissue. It typically presents as a firm, pink, sessile or pedunculated nodule that matches the color of the surrounding mucosa, not as a soft, bluish, fluctuant lesion.\n- Periapical granuloma: This is an inflammatory lesion associated with the apex of a non-vital tooth. It is located within the bone (intraosseous) and is not palpable as a soft tissue nodule on the labial mucosa unless there is significant cortical plate destruction and sinus tract formation, which would present differently (often with pain, swelling, or drainage).\n- Torus mandibularis: This is a bony exostosis (bony growth) found on the lingual aspect of the mandible, typically in the premolar region. It is hard, bony, and located on the lingual side, not the labial side, and does not present as a soft, bluish nodule.",
+    "explanation": "Option B is correct because a soft, fluctuant, non-tender, bluish-translucent nodule on the lower labial mucosa that periodically fluctuates in size is pathognomonic for a mucocele (mucus extravasation phenomenon) caused by minor salivary duct rupture. Option A is incorrect because an irritation fibroma is a firm, pale pink, solid nodule that does not fluctuate in size. Options C and D are incorrect because lipomas present as yellowish, doughy soft-tissue masses, and a torus mandibularis is a hard bony exostosis located on the lingual aspect of the mandible.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
@@ -10689,8 +10689,8 @@
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because a soft, fluctuant, non-tender, bluish-translucent nodule on the lower labial mucosa that periodically fluctuates in size is pathognomonic for a mucocele (mucus extravasation phenomenon) caused by minor salivary duct rupture. Option A is incorrect because an irritation fibroma is a firm, pale pink, solid nodule that does not fluctuate in size. Options C and D are incorrect because lipomas present as yellowish, doughy soft-tissue masses, and a torus mandibularis is a hard bony exostosis located on the lingual aspect of the mandible.",
+      "verifiedAt": "2026-11-22T04:47:32.528Z"
     }
   },
   {

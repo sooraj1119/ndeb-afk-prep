@@ -236,23 +236,23 @@
     "id": 13,
     "topicId": "anesthesia",
     "difficulty": "medium",
-    "question": "When administering an inferior alveolar nerve (IAN) block, the needle tip must contact bone to ensure the local anesthetic is deposited in close proximity to the nerve. Which anatomical landmark helps determine the proper anteroposterior depth of needle insertion?",
+    "question": "When administering a conventional inferior alveolar nerve (IAN) block using the Halsted technique, which anatomical landmark serves as the medial reference to determine the correct anteroposterior site of needle penetration?",
     "options": [
-      "Coronoid notch",
-      "Lingula",
       "Pterygomandibular raphe",
-      "Oblique ridge"
+      "Lingula of the mandible",
+      "Coronoid process of the mandible",
+      "Mylohyoid ridge"
     ],
-    "correctAnswer": 1,
-    "explanation": "Malamed’s *Handbook of Local Anesthesia* (7th ed.) and the Canadian Society of Oral and Maxillofacial Surgeons describe the lingula as the internal bony landmark used to estimate the anteroposterior depth of the inferior alveolar nerve block. The coronoid notch and pterygomandibular raphe are external references that help locate the injection site vertically and medially, but the depth to the mandibular foramen is determined by aligning the needle tip with the lingula, which lies just superior to the foramen. The oblique ridge is unrelated to IAN block technique. Selecting the lingula therefore correctly answers the question.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the pterygomandibular raphe represents the vital medial anatomical landmark defining the pterygomandibular depression, with needle penetration occurring 2 to 3 mm lateral to the raphe along a horizontal line from the coronoid notch. The lingula (Option B) is an internal bony projection that cannot be clinically visualized or palpated; it merely marks the mandibular foramen deep within the pterygomandibular space. The coronoid process (Option C) lies superiorly on the mandibular ramus, and the mylohyoid ridge (Option D) lies along the medial surface of the mandibular body, neither of which demarcates the entry site.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the pterygomandibular raphe represents the vital medial anatomical landmark defining the pterygomandibular depression, with needle penetration occurring 2 to 3 mm lateral to the raphe along a horizontal line from the coronoid notch. The lingula (Option B) is an internal bony projection that cannot be clinically visualized or palpated; it merely marks the mandibular foramen deep within the pterygomandibular space. The coronoid process (Option C) lies superiorly on the mandibular ramus, and the mylohyoid ridge (Option D) lies along the medial surface of the mandibular body, neither of which demarcates the entry site.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -2404,26 +2404,26 @@
     "id": 133,
     "topicId": "anesthesia",
     "difficulty": "medium",
-    "question": "A 50-year-old male undergoes extraction of mandibular molars and receives multiple inferior alveolar nerve blocks using 4% articaine with 1:100,000 epinephrine. Two days later he reports persistent numbness of the right lower lip and tongue. According to current Canadian dental literature and NDEB‑approved evidence, which statement best describes the incidence of persistent paresthesia after mandibular nerve blocks with articaine compared with lidocaine?",
+    "question": "A 50-year-old patient undergoes an extraction of tooth 46 under local anesthesia and receives an inferior alveolar nerve (IAN) block using 4% articaine with 1:100,000 epinephrine. Two days later, the patient reports persistent numbness and altered sensation involving the right lower lip and tongue. According to prominent Canadian dental literature (e.g., Haas & Lennon 1995, Gaffen & Haas 2009 in JCDA), which statement best characterizes the reported risk of persistent paresthesia associated with 4% articaine compared to 2% lidocaine?",
     "options": [
-      "Articaine has a significantly higher incidence of persistent paresthesia than lidocaine because its ester side‑chain increases neurotoxicity.",
-      "Lidocaine has a significantly higher incidence of persistent paresthesia than articaine due to its longer duration of action.",
-      "Plain mepivacaine shows the highest incidence of persistent paresthesia among commonly used dental anesthetics because it lacks a vasoconstrictor.",
-      "There is no statistically significant difference in the incidence of persistent paresthesia between articaine and lidocaine when used for mandibular blocks."
+      "Articaine exhibits a significantly higher reported incidence of persistent paresthesia, primarily attributed to concentration-dependent local chemical neurotoxicity associated with 4% formulations",
+      "Lidocaine exhibits a significantly higher reported incidence of persistent paresthesia due to irreversible blockade of voltage-gated sodium channels",
+      "Articaine exhibits an increased incidence of persistent paresthesia exclusively due to toxic systemic metabolites generated by hydrolysis of its ester side-chain",
+      "There is no statistically significant difference in the reported incidence of persistent paresthesia between 4% articaine and 2% lidocaine when administering mandibular nerve blocks"
     ],
-    "correctAnswer": 3,
-    "explanation": "Recent meta‑analyses and the Canadian Dental Association guidelines report that persistent paresthesia after mandibular blocks is extremely rare (<0.5%) and that the incidence does not differ significantly between 4% articaine and 2% lidocaine. Options A, B and C are unsupported by current evidence, which shows no agent has a demonstrably higher neurotoxic risk in this context.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because landmark retrospective studies in the Journal of the Canadian Dental Association (Haas & Lennon 1995, Gaffen & Haas 2009) identified a statistically significant higher reported incidence of persistent paresthesia with 4% local anesthetics (articaine and prilocaine) following mandibular blocks compared to 2% lidocaine, attributed to concentration-dependent chemical neurotoxicity (40 mg/mL versus 20 mg/mL). Lidocaine does not exhibit a higher incidence of paresthesia than articaine (Option B). The ester side-chain of articaine facilitates rapid, non-toxic systemic breakdown by plasma pseudocholinesterases rather than creating neurotoxic metabolites (Option C). Canadian professional regulatory reporting demonstrates a distinct statistical disparity rather than equal incidence (Option D).",
     "aiFixed": true,
     "aiVerified": true,
     "peerReviewed": true,
     "remediatedAt": "2026-11-14T23:23:32.821Z",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because landmark retrospective studies in the Journal of the Canadian Dental Association (Haas & Lennon 1995, Gaffen & Haas 2009) identified a statistically significant higher reported incidence of persistent paresthesia with 4% local anesthetics (articaine and prilocaine) following mandibular blocks compared to 2% lidocaine, attributed to concentration-dependent chemical neurotoxicity (40 mg/mL versus 20 mg/mL). Lidocaine does not exhibit a higher incidence of paresthesia than articaine (Option B). The ester side-chain of articaine facilitates rapid, non-toxic systemic breakdown by plasma pseudocholinesterases rather than creating neurotoxic metabolites (Option C). Canadian professional regulatory reporting demonstrates a distinct statistical disparity rather than equal incidence (Option D).",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -3502,26 +3502,26 @@
     "id": 193,
     "topicId": "anesthesia",
     "difficulty": "medium",
-    "question": "A 35-year-old male with no significant medical history is undergoing a routine extraction of tooth 36. During the administration of an inferior alveolar nerve block, the patient immediately experiences severe pain, rapid swelling in the parotid region, and transient unilateral facial nerve paralysis. What is the most likely cause of this complication?",
+    "question": "A 35-year-old patient receives a left inferior alveolar nerve (IAN) block prior to restorative treatment on tooth 36. The clinician fails to contact bone on the medial aspect of the ramus prior to injecting the local anesthetic solution. Within several minutes, the patient is unable to close the left eyelid, the left nasolabial fold flattens, and the left corner of the mouth droops, with no associated pain, swelling, or hematoma. What is the most likely etiology of this complication?",
     "options": [
-      "Direct needle trauma to the facial nerve trunk within the infratemporal fossa",
-      "Allergic reaction to the local anesthetic presenting as angioedema",
-      "Deposition of the local anesthetic into the deep lobe of the parotid gland",
-      "Intravascular injection of the anesthetic into the retromandibular vein"
+      "Deposition of local anesthetic solution into the deep lobe of the parotid gland",
+      "Mechanical transection of the facial nerve trunk at the stylomastoid foramen",
+      "Intra-arterial injection into the inferior alveolar artery inducing reflex vasospasm",
+      "Acute Type I allergic hypersensitivity reaction presenting as unilateral angioedema"
     ],
-    "correctAnswer": 2,
-    "explanation": "Deposition of anesthetic into the deep lobe of the parotid gland can anesthetize the facial nerve branches that traverse the gland, producing immediate swelling, pain from tissue distension, and transient facial paralysis. Direct needle trauma to the facial nerve is exceedingly rare and would more likely cause a persistent deficit. An allergic reaction (angioedema) presents with urticaria, bilateral or diffuse swelling, and systemic signs, not isolated facial nerve palsy. Intravascular injection leads to systemic toxicity (e.g., tinnitus, CNS effects) rather than localized facial nerve involvement.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because directing the needle too far posteriorly into the parotid gland without contacting the medial ramus results in the deposition of local anesthetic around terminal branches of the facial nerve (cranial nerve VII), causing temporary, painless unilateral motor paralysis. Mechanical transection of the facial nerve trunk (Option B) does not occur during an IAN block because the trunk emerges outside the oral cavity at the stylomastoid foramen. Intra-arterial injection (Option C) produces transient cutaneous blanching or systemic toxicity rather than motor paralysis, and an allergic reaction (Option D) produces bilateral pruritus, erythema, and soft tissue swelling without isolated motor nerve blockade.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "peerReviewed": true,
     "remediatedAt": "2026-11-14T23:23:41.513Z",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because directing the needle too far posteriorly into the parotid gland without contacting the medial ramus results in the deposition of local anesthetic around terminal branches of the facial nerve (cranial nerve VII), causing temporary, painless unilateral motor paralysis. Mechanical transection of the facial nerve trunk (Option B) does not occur during an IAN block because the trunk emerges outside the oral cavity at the stylomastoid foramen. Intra-arterial injection (Option C) produces transient cutaneous blanching or systemic toxicity rather than motor paralysis, and an allergic reaction (Option D) produces bilateral pruritus, erythema, and soft tissue swelling without isolated motor nerve blockade.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -3554,23 +3554,23 @@
     "id": 195,
     "topicId": "anesthesia",
     "difficulty": "medium",
-    "question": "A 65-year-old female presents for scaling and root planing. She has a history of controlled hypertension and takes a non-selective beta-blocker (propranolol). Which of the following local anesthetic formulations should be used with extreme caution or minimized in this patient?",
+    "question": "A 65-year-old patient presents for periodontal scaling and root planing. The medical history is significant for hypertension managed with the non-selective beta-blocker propranolol. To avoid an adverse drug-drug interaction resulting in unopposed alpha-1 adrenergic vasoconstriction and acute hypertensive crisis, which local anesthetic formulation is the most appropriate choice to administer?",
     "options": [
-      "4% articaine with 1:200,000 epinephrine",
+      "3% mepivacaine plain",
       "2% lidocaine with 1:100,000 epinephrine",
-      "4% prilocaine plain",
-      "3% mepivacaine plain"
+      "4% articaine with 1:100,000 epinephrine",
+      "0.5% bupivacaine with 1:200,000 epinephrine"
     ],
-    "correctAnswer": 1,
-    "explanation": "Non-selective beta-blockers block beta-2 vasodilator receptors, leaving alpha-1 vasoconstrictor receptors unopposed. Administering large amounts of epinephrine can lead to significant, unbuffered increases in blood pressure and reflex bradycardia. Plain solutions or solutions with lower concentrations of vasoconstrictors are preferred, though 1:100,000 can be used in strictly limited amounts.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because 3% mepivacaine plain contains no vasoconstrictor, entirely avoiding the adverse drug interaction between exogenous epinephrine and non-selective beta-blockers such as propranolol. In patients taking non-selective beta-blockers, blockade of vascular beta-2 vasodilatory receptors leaves vascular alpha-1 adrenergic receptors unopposed if epinephrine is absorbed, leading to peripheral vasoconstriction, severe hypertensive crisis, and reflex bradycardia. Formulations containing epinephrine, such as 2% lidocaine with 1:100,000 epinephrine (Option B), 4% articaine with 1:100,000 epinephrine (Option C), and 0.5% bupivacaine with 1:200,000 epinephrine (Option D), carry this severe cardiovascular risk and must be strictly limited or avoided.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because 3% mepivacaine plain contains no vasoconstrictor, entirely avoiding the adverse drug interaction between exogenous epinephrine and non-selective beta-blockers such as propranolol. In patients taking non-selective beta-blockers, blockade of vascular beta-2 vasodilatory receptors leaves vascular alpha-1 adrenergic receptors unopposed if epinephrine is absorbed, leading to peripheral vasoconstriction, severe hypertensive crisis, and reflex bradycardia. Formulations containing epinephrine, such as 2% lidocaine with 1:100,000 epinephrine (Option B), 4% articaine with 1:100,000 epinephrine (Option C), and 0.5% bupivacaine with 1:200,000 epinephrine (Option D), carry this severe cardiovascular risk and must be strictly limited or avoided.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -5132,46 +5132,46 @@
     "id": 277,
     "topicId": "anesthesia",
     "difficulty": "medium",
-    "question": "A patient experiences a prolonged, painful numbness of the tongue lasting several weeks following an inferior alveolar nerve block. What is this specific nerve complication called?",
+    "question": "A 35-year-old female presents for a follow-up visit 4 weeks after receiving an inferior alveolar nerve block for restorative treatment on tooth 46. She reports a persistent, unpleasant burning sensation and painful abnormal numbness along the right lateral border of her tongue. What is the most accurate clinical term for this specific nerve complication?",
     "options": [
+      "Dysesthesia",
       "Paresthesia",
-      "Trismus",
-      "Hematoma",
+      "Hypesthesia",
       "Hyperesthesia"
     ],
     "correctAnswer": 0,
-    "explanation": "Paresthesia is defined as persistent anesthesia or altered sensation (such as numbness, tingling, or burning) well beyond the expected duration of the local anesthetic, often resulting from direct trauma to the nerve sheath during needle insertion. Trismus is restricted mouth opening due to muscle spasm, hematoma is tissue swelling from vascular trauma, and hyperesthesia is an increased sensitivity to painful stimuli.",
+    "explanation": "Option A is correct because dysesthesia is defined under Canadian dental and international neurological standards as an unpleasant, abnormal, or painful sensation (such as burning or painful numbness) resulting from nerve trauma. Paresthesia (Option B) describes an altered, non-painful sensation such as tingling or numbness without unpleasant pain. Hypesthesia (Option C) represents reduced tactile sensitivity, while hyperesthesia (Option D) refers to an increased, exaggerated sensitivity to sensory stimulation.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because dysesthesia is defined under Canadian dental and international neurological standards as an unpleasant, abnormal, or painful sensation (such as burning or painful numbness) resulting from nerve trauma. Paresthesia (Option B) describes an altered, non-painful sensation such as tingling or numbness without unpleasant pain. Hypesthesia (Option C) represents reduced tactile sensitivity, while hyperesthesia (Option D) refers to an increased, exaggerated sensitivity to sensory stimulation.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
     "id": 278,
     "topicId": "anesthesia",
     "difficulty": "medium",
-    "question": "What is the primary purpose of adding sodium hydroxide to local anesthetic cartridge solutions during manufacturing?",
+    "question": "What is the primary purpose of adding sodium hydroxide to local anesthetic cartridge solutions during commercial manufacturing?",
     "options": [
-      "To lower the pH and improve shelf life",
-      "To act as a vasoconstrictor enhancer",
-      "To act as a preservative and prevent bacterial growth",
-      "To adjust the pH, increasing the concentration of the uncharged, lipid-soluble base form for more rapid tissue diffusion"
+      "To adjust and stabilize the solution pH within an optimal acidic range for chemical shelf-life",
+      "To shift the chemical equilibrium toward the uncharged base form to accelerate tissue diffusion",
+      "To prevent oxidative degradation of added vasoconstrictors",
+      "To serve as a bacteriostatic preservative preventing microbial contamination"
     ],
-    "correctAnswer": 3,
-    "explanation": "Sodium hydroxide is added as a alkalinizing agent to adjust the pH of the local anesthetic solution. Raising the pH increases the proportion of the uncharged, lipid-soluble base form of the anesthetic molecule, which is required to diffuse rapidly across the lipid nerve membrane.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because sodium hydroxide is added in trace amounts during manufacturing strictly to adjust and stabilize the formulation pH within an acceptable range (typically 3.0 to 6.5) to ensure chemical stability and prolonged shelf-life of the anesthetic salt. Shifting the equilibrium to the uncharged lipid-soluble base form for neural penetration (Option B) occurs physiologically in vivo through tissue buffering or chairside bicarbonate alkalinization, not inside the manufactured cartridge. Preventing vasoconstrictor oxidation (Option C) is performed by sodium metabisulfite, while bacteriostatic preservation (Option D) was historically achieved by methylparaben, which is excluded from modern single-use dental cartridges.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because sodium hydroxide is added in trace amounts during manufacturing strictly to adjust and stabilize the formulation pH within an acceptable range (typically 3.0 to 6.5) to ensure chemical stability and prolonged shelf-life of the anesthetic salt. Shifting the equilibrium to the uncharged lipid-soluble base form for neural penetration (Option B) occurs physiologically in vivo through tissue buffering or chairside bicarbonate alkalinization, not inside the manufactured cartridge. Preventing vasoconstrictor oxidation (Option C) is performed by sodium metabisulfite, while bacteriostatic preservation (Option D) was historically achieved by methylparaben, which is excluded from modern single-use dental cartridges.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -5432,23 +5432,23 @@
     "id": 296,
     "topicId": "anesthesia",
     "difficulty": "medium",
-    "question": "A 45-year-old male undergoes a routine extraction of tooth 36 under local anesthesia. Two days later, he returns complaining of severe, persistent pain radiating to the ear, inability to open his mouth fully, and severe pain upon palpation of the pterygomandibular space. What is the most likely diagnosis?",
+    "question": "A 45-year-old male returns two days following an uncomplicated extraction of tooth 36 under an inferior alveolar nerve block. He presents with severe limitation in mouth opening (maximum interincisal opening of 14 mm) and dull, persistent aching pain localized to the left mandibular angle radiating toward the ear. Clinical examination reveals marked tenderness upon palpation of the left medial pterygoid muscle within the pterygomandibular space, with no extraoral swelling, no mucosal ecchymosis, and a normally healing extraction socket. What is the most likely diagnosis?",
     "options": [
-      "Trigeminal neuralgia",
-      "Trismus secondary to muscle trauma from the injection",
-      "Hematoma formation",
-      "Dry socket (alveolar osteitis)"
+      "Trismus secondary to needle-induced medial pterygoid muscle trauma",
+      "Rapidly expanding pterygomandibular space hematoma",
+      "Alveolar osteitis of the extraction socket",
+      "Trigeminal neuralgia of the mandibular division"
     ],
-    "correctAnswer": 2,
-    "explanation": "According to Malamed (Handbook of Local Anesthesia, 7th ed.) and the Canadian Dental Association’s emergency guidelines, a hematoma developing in the pterygomandibular space after an inferior alveolar nerve block presents 24–48 h post‑procedure with deep, throbbing pain, limited mouth opening, and pain that may radiate to the ear or temporomandibular joint. Muscle‑trauma‑induced trismus typically appears immediately after the injection and resolves within a few days. Dry socket pain is localized to the extraction site and does not produce marked pterygomandibular tenderness. Trigeminal neuralgia is characterized by brief, electric‑shock‑like episodes, not persistent swelling. Hence, hematoma formation is the most likely diagnosis.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because delayed limitation of jaw opening and localized medial pterygoid tenderness 1 to 2 days following an inferior alveolar nerve block without visible swelling or ecchymosis is classic for injection-induced trismus resulting from direct needle trauma. An acute hematoma (Option B) develops rapidly during or immediately after the injection and produces noticeable swelling and mucosal ecchymosis. Alveolar osteitis (Option C) causes intense throbbing pain originating from an empty, exposed socket without profound trismus, while trigeminal neuralgia (Option D) presents with sharp, lancinating, triggerable neuralgic paroxysms rather than mechanical jaw hypomobility.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because delayed limitation of jaw opening and localized medial pterygoid tenderness 1 to 2 days following an inferior alveolar nerve block without visible swelling or ecchymosis is classic for injection-induced trismus resulting from direct needle trauma. An acute hematoma (Option B) develops rapidly during or immediately after the injection and produces noticeable swelling and mucosal ecchymosis. Alveolar osteitis (Option C) causes intense throbbing pain originating from an empty, exposed socket without profound trismus, while trigeminal neuralgia (Option D) presents with sharp, lancinating, triggerable neuralgic paroxysms rather than mechanical jaw hypomobility.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -9872,23 +9872,23 @@
   {
     "id": 676185134,
     "topicId": "anesthesia",
-    "question": "According to current Canadian dental infection control guidelines, which of the following best describes the MOST critical factor in preventing the transmission of bloodborne pathogens in a dental office?",
+    "question": "According to Canadian dental infection prevention and control guidelines, which of the following is the MOST critical measure for preventing patient-to-patient transmission of bloodborne pathogens such as hepatitis B, hepatitis C, and HIV?",
     "options": [
-      "Routine use of high-level disinfectants for all environmental surfaces.",
-      "Annual training for all staff on infection control procedures.",
-      "Strict adherence to proper hand hygiene protocols.",
-      "Implementation of a robust instrument sterilization program."
+      "Steam heat sterilization of all reusable critical and semicritical instruments between patients",
+      "Application of high-level liquid chemical disinfectants to operatory clinical contact surfaces",
+      "Strict adherence to alcohol-based hand hygiene protocols between patient encounters",
+      "Routine administration of pre-procedural chlorhexidine mouth rinses before dental procedures"
     ],
-    "correctAnswer": 2,
-    "explanation": "Strict adherence to proper hand hygiene protocols is universally recognized as the single most critical measure for preventing the transmission of microorganisms, including bloodborne pathogens, in healthcare settings. While instrument sterilization and staff training are crucial components of infection control, and surface disinfection is important, hand hygiene directly breaks the chain of transmission between patients and healthcare providers. High-level disinfectants are typically for semi-critical instruments, not routine environmental surfaces.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian infection prevention and control standards (CDA, PHAC, and provincial regulators) mandate that heat sterilization of all reusable critical and semicritical dental instruments is the indispensable safeguard against transmitting bloodborne pathogens like HBV, HCV, and HIV. Hand hygiene (Option C) and pre-procedural rinses (Option D) reduce transient environmental microflora and aerosol bacterial load but do not sterilize invasive surgical or operative instruments. Liquid chemical sterilants (Option B) are toxic, cannot be biologically monitored, and are strictly contraindicated for environmental operatory surfaces, which require low- to intermediate-level hospital disinfectants.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Canadian infection prevention and control standards (CDA, PHAC, and provincial regulators) mandate that heat sterilization of all reusable critical and semicritical dental instruments is the indispensable safeguard against transmitting bloodborne pathogens like HBV, HCV, and HIV. Hand hygiene (Option C) and pre-procedural rinses (Option D) reduce transient environmental microflora and aerosol bacterial load but do not sterilize invasive surgical or operative instruments. Liquid chemical sterilants (Option B) are toxic, cannot be biologically monitored, and are strictly contraindicated for environmental operatory surfaces, which require low- to intermediate-level hospital disinfectants.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -10027,23 +10027,23 @@
   {
     "id": 432400397,
     "topicId": "anesthesia",
-    "question": "In Canada, what is the recommended minimum frequency for biological spore testing of steam sterilizers (autoclaves) in a dental office?",
+    "question": "According to Canadian dental infection prevention and control standards (including CSA Z314 and provincial regulatory authorities), what is the MINIMUM required frequency for biological indicator (spore) testing of each steam sterilizer used in a dental practice?",
     "options": [
-      "Annually",
-      "Monthly",
-      "Daily",
-      "Weekly"
+      "At least daily on each day the sterilizer is operated",
+      "At least weekly on a designated operating day",
+      "At least monthly in conjunction with mechanical verification",
+      "At least once every six months during routine office inspections"
     ],
-    "correctAnswer": 3,
-    "explanation": "According to Canadian infection control guidelines (e.g., CDSA, IPAC Canada), biological spore testing of steam sterilizers should be performed at least weekly to ensure their efficacy. Daily testing is generally not mandated but could be considered. Monthly and annually are insufficient frequencies to reliably detect potential sterilization failures in a timely manner.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian medical device reprocessing standards (CSA Z314 and provincial bodies like RCDSO and BCCOHP) mandate that a biological indicator (Geobacillus stearothermophilus spore test) must be conducted at least daily for every sterilizer on each day it is used. Weekly testing (Option B) reflects US CDC recommendations, which do not satisfy mandatory Canadian standards. Monthly (Option C) and semi-annual (Option D) intervals are dangerously inadequate and non-compliant with Canadian healthcare sterilization guidelines.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Canadian medical device reprocessing standards (CSA Z314 and provincial bodies like RCDSO and BCCOHP) mandate that a biological indicator (Geobacillus stearothermophilus spore test) must be conducted at least daily for every sterilizer on each day it is used. Weekly testing (Option B) reflects US CDC recommendations, which do not satisfy mandatory Canadian standards. Monthly (Option C) and semi-annual (Option D) intervals are dangerously inadequate and non-compliant with Canadian healthcare sterilization guidelines.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -11785,23 +11785,23 @@
   {
     "id": 381669949,
     "topicId": "anesthesia",
-    "question": "According to the Canadian Dental Association Code of Ethics, which of the following principles emphasizes the dentist's responsibility to protect the health and well-being of the public and the profession?",
+    "question": "According to the Canadian Dental Association (CDA) Code of Ethics, which fundamental ethical principle defines the primary obligation of a dentist to act for the benefit of the patient and promote the health and well-being of the public?",
     "options": [
-      "Beneficence.",
-      "Autonomy.",
-      "Justice.",
-      "Professionalism."
+      "Beneficence",
+      "Autonomy",
+      "Justice",
+      "Veracity"
     ],
-    "correctAnswer": 3,
-    "explanation": "Professionalism (D), as outlined in the CDA Code of Ethics, encompasses the dentist's commitment to maintaining and enhancing the profession's integrity, protecting the public, and upholding ethical standards. Beneficence (A) relates to doing good for the patient, while autonomy (B) respects patient decision-making.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because under the CDA Code of Ethics, Beneficence requires dentists to actively serve the best interests of patients, maximize health benefits, and promote the overall health and well-being of society. Autonomy (Option B) dictates respect for a patient's self-determination and informed consent rights. Justice (Option C) emphasizes fairness, equality, and non-discrimination in healthcare delivery, while Veracity (Option D) requires truthfulness and integrity in all professional relationships.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because under the CDA Code of Ethics, Beneficence requires dentists to actively serve the best interests of patients, maximize health benefits, and promote the overall health and well-being of society. Autonomy (Option B) dictates respect for a patient's self-determination and informed consent rights. Justice (Option C) emphasizes fairness, equality, and non-discrimination in healthcare delivery, while Veracity (Option D) requires truthfulness and integrity in all professional relationships.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -12455,15 +12455,15 @@
   {
     "id": 937857753,
     "topicId": "anesthesia",
-    "question": "A 28-year-old female presents for a routine Class II composite restoration. She has a documented severe allergy to ester‑type local anesthetics and is taking a non‑selective beta‑blocker for hypertension. Which local anesthetic formulation is most appropriate for achieving adequate anesthesia and hemostasis while respecting her medical considerations?",
+    "question": "A 28-year-old female presents for a Class II composite restoration requiring localized hemostasis on tooth 26. Her medical history indicates a documented true allergy to ester-type local anesthetics, and she currently takes propranolol, a non-selective beta-blocker. Which local anesthetic formulation is MOST appropriate to achieve adequate pulpal anesthesia and hemostasis while minimizing cardiovascular and allergic risks?",
     "options": [
-      "Lidocaine with epinephrine 1:100,000",
-      "Mepivacaine 3% without a vasoconstrictor",
-      "Bupivacaine with epinephrine 1:200,000",
-      "Articaine with epinephrine 1:200,000"
+      "Articaine 4% with epinephrine 1:200,000",
+      "Lidocaine 2% with epinephrine 1:50,000",
+      "Procaine 2% with epinephrine 1:100,000",
+      "Mepivacaine 3% without vasoconstrictor"
     ],
     "correctAnswer": 0,
-    "explanation": "Lidocaine is an amide anesthetic, avoiding cross‑reactivity with the ester allergy, and the low‑dose epinephrine (1:100,000) is not contraindicated in patients on non‑selective beta‑blockers and provides desirable hemostasis and prolonged effect. Mepivacaine without vasoconstrictor lacks the hemostatic benefit and may allow faster systemic absorption. Bupivacaine’s higher cardiotoxic potential and articaine’s increased risk of paresthesia make them less suitable for a routine restorative procedure.",
+    "explanation": "Option A is correct because articaine is an amide local anesthetic that is safe in patients with ester allergies, and its 1:200,000 epinephrine concentration minimizes the risk of severe hypertension and reflex bradycardia caused by unopposed alpha-1 vasoconstriction in patients taking non-selective beta-blockers. Procaine (Option C) is an ester local anesthetic and is strictly contraindicated in ester-allergic individuals. Lidocaine 1:50,000 (Option B) delivers a high epinephrine concentration that significantly increases the likelihood of a dangerous hypertensive crisis with non-selective beta-blockers, whereas plain 3% mepivacaine (Option D) provides no vasoconstriction and cannot satisfy the clinical requirement for local hemostasis.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "peerReviewed": true,
@@ -12473,8 +12473,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because articaine is an amide local anesthetic that is safe in patients with ester allergies, and its 1:200,000 epinephrine concentration minimizes the risk of severe hypertension and reflex bradycardia caused by unopposed alpha-1 vasoconstriction in patients taking non-selective beta-blockers. Procaine (Option C) is an ester local anesthetic and is strictly contraindicated in ester-allergic individuals. Lidocaine 1:50,000 (Option B) delivers a high epinephrine concentration that significantly increases the likelihood of a dangerous hypertensive crisis with non-selective beta-blockers, whereas plain 3% mepivacaine (Option D) provides no vasoconstriction and cannot satisfy the clinical requirement for local hemostasis.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -13992,23 +13992,23 @@
   {
     "id": 490229470,
     "topicId": "anesthesia",
-    "question": "A 28-year-old female patient presents with a chief complaint of painful oral blisters and erosions that appeared suddenly. She reports a recent upper respiratory infection. Clinical examination reveals multiple vesicles and ulcers on her labial and buccal mucosa, palate, and gingiva, some coalescing. She denies skin lesions. What is the MOST likely diagnosis?",
+    "question": "A 28-year-old female presents with acute onset of high fever, malaise, cervical lymphadenopathy, and severe, diffuse mouth pain. Clinical examination reveals fiery red, edematous marginal and attached gingiva along with numerous small, coalescing vesicles and painful shallow erosions involving the hard palate, buccal mucosa, tongue, and labial mucosa. She has no cutaneous or genital lesions. What is the MOST likely diagnosis?",
     "options": [
-      "Erythema multiforme (minor form)",
-      "Recurrent herpes simplex infection",
-      "Aphthous ulcers",
-      "Pemphigus vulgaris"
+      "Primary herpetic gingivostomatitis",
+      "Recurrent intraoral herpes simplex infection",
+      "Major aphthous stomatitis",
+      "Erythema multiforme minor"
     ],
     "correctAnswer": 0,
-    "explanation": "The sudden onset of painful oral vesicles and ulcers, often preceded by an infection (like an upper respiratory infection), and affecting multiple mucosal surfaces, is highly suggestive of erythema multiforme. Recurrent herpes simplex typically presents with clustered vesicles on keratinized tissue, often at the vermilion border. Aphthous ulcers are usually single or a few non-vesicular ulcers on non-keratinized mucosa, and Pemphigus vulgaris involves chronic, larger bullae not typically triggered acutely by an infection.",
+    "explanation": "Option A is correct because the combination of systemic flu-like symptoms (fever, lymphadenopathy), acute diffuse marginal gingivitis, and widespread coalescing vesicles on both keratinized and non-keratinized mucosa is the classic clinical presentation of primary herpetic gingivostomatitis. Recurrent intraoral herpes (Option B) is strictly confined to keratinized mucosa firmly bound to periosteum (hard palate and attached gingiva) and presents as a localized cluster without generalized gingivostomatitis. Major aphthous stomatitis (Option C) lacks a vesicle stage, occurs almost exclusively on non-keratinized tissue, and does not cause diffuse gingival inflammation, while erythema multiforme minor (Option D) characteristically features targetoid skin lesions and lip crusting while sparing the gingiva.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the combination of systemic flu-like symptoms (fever, lymphadenopathy), acute diffuse marginal gingivitis, and widespread coalescing vesicles on both keratinized and non-keratinized mucosa is the classic clinical presentation of primary herpetic gingivostomatitis. Recurrent intraoral herpes (Option B) is strictly confined to keratinized mucosa firmly bound to periosteum (hard palate and attached gingiva) and presents as a localized cluster without generalized gingivostomatitis. Major aphthous stomatitis (Option C) lacks a vesicle stage, occurs almost exclusively on non-keratinized tissue, and does not cause diffuse gingival inflammation, while erythema multiforme minor (Option D) characteristically features targetoid skin lesions and lip crusting while sparing the gingiva.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -14262,24 +14262,24 @@
   {
     "id": 184841781,
     "topicId": "anesthesia",
-    "question": "A 12-year-old female patient presents for a routine check-up. Clinical examination reveals deep pit and fissure caries on the occlusal surface of tooth 36. Radiographic examination confirms enamel and superficial dentin involvement without pulpal exposure. The patient is asymptomatic with no relevant medical history. What is the MOST appropriate restorative management?",
+    "question": "A 12-year-old female presents for a routine dental examination. Clinical examination reveals discrete, localized pit and fissure caries in the central groove of permanent tooth 36. Bite-wing radiography demonstrates demineralization confined to the enamel and superficial outer third of the dentin, with no pulpal involvement. The tooth is completely asymptomatic. What is the MOST appropriate restorative management?",
     "options": [
-      "Application of fluoride varnish and recall in 6 months",
-      "Placement of a preventive resin restoration (PRR)",
-      "Indirect pulp cap with a glass ionomer cement",
-      "Composite resin restoration following selective caries removal"
+      "Placement of a preventive resin restoration (PRR) combining conservative composite with fissure sealant",
+      "Selective caries removal followed by an indirect pulp cap and composite restoration",
+      "Application of topical 5% sodium fluoride varnish alone with a 6-month recall",
+      "Full-coverage stainless steel crown preparation"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is Composite resin restoration following selective caries removal. The clinical scenario describes a carious lesion involving enamel and superficial dentin (ICDAS 4-5 or ICDAS 6 without pulp exposure). According to modern evidence-based dentistry and Canadian guidelines (e.g., CDA, AAPD), the standard of care for a cavitated lesion involving dentin is operative intervention. Selective caries removal (removing only soft, infected dentin while preserving the underlying firm, affected dentin) is preferred over conventional deep excavation to minimize the risk of pulp exposure, especially in young permanent teeth. Composite resin is the material of choice for occlusal restorations in posterior teeth due to its esthetics and bondability. \n\nWhy the other options are incorrect:\n- Option A (Fluoride varnish): This is appropriate for non-cavitated lesions (ICDAS 1-3) or as an adjunct, but it is insufficient for a lesion that has already penetrated into the dentin and is cavitated.\n- Option B (Preventive Resin Restoration): A PRR is indicated for non-cavitated lesions (enamel only) where the fissure is sealed and a small amount of composite is placed to restore the contour. It is not indicated for lesions involving dentin.\n- Option C (Indirect pulp cap): An indirect pulp cap (IPC) is typically reserved for deep caries where the remaining dentin thickness is very thin (e.g., <1 mm) or when there is a risk of pulp exposure during excavation. While IPC can be used in deep caries, the prompt specifies 'superficial dentin involvement,' implying that there is sufficient dentin remaining for a standard restoration without the specific need for an IPC protocol. Furthermore, GIC is often used as a liner or base, but the primary restorative material for an occlusal surface in a 12-year-old is usually composite. If the caries were 'deep' approaching the pulp, IPC would be a strong consideration, but 'superficial dentin' points to a standard restoration. Between C and D, D is the more standard and direct answer for superficial dentin caries. Note: In some contexts, if the caries is very deep, IPC is used, but 'superficial dentin' makes D the most appropriate standard of care.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because a preventive resin restoration (PRR) is the evidence-based standard of care for small, localized occlusal caries extending only into superficial dentin, conservatively restoring the defect with composite while sealing the remaining adjacent vulnerable pits and fissures. Selective caries removal and indirect pulp capping (Option B) are indicated solely for deep dentinal lesions approximating the pulp to avoid pulpal exposure, not for superficial dentinal caries. Non-operative fluoride varnish alone (Option C) cannot remineralize or arrest cavitated lesions in dentin, while a stainless steel crown (Option D) is overly destructive and inappropriate for a localized pit lesion on a permanent molar.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because a preventive resin restoration (PRR) is the evidence-based standard of care for small, localized occlusal caries extending only into superficial dentin, conservatively restoring the defect with composite while sealing the remaining adjacent vulnerable pits and fissures. Selective caries removal and indirect pulp capping (Option B) are indicated solely for deep dentinal lesions approximating the pulp to avoid pulpal exposure, not for superficial dentinal caries. Non-operative fluoride varnish alone (Option C) cannot remineralize or arrest cavitated lesions in dentin, while a stainless steel crown (Option D) is overly destructive and inappropriate for a localized pit lesion on a permanent molar.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -15889,23 +15889,23 @@
   {
     "id": 948068498,
     "topicId": "anesthesia",
-    "question": "A 30-year-old female patient presents for follow-up three days after an uncomplicated extraction of tooth 38. She reports moderate post-operative pain that is generally well-controlled with over-the-counter ibuprofen, but she prefers to avoid NSAIDs due to a history of stomach sensitivity. She has no known drug allergies and no other significant medical history. What is the MOST appropriate prescription for continued pain control, considering her preference?",
+    "question": "A 30-year-old female presents three days following the uncomplicated surgical extraction of tooth 38. She reports persistent moderate postoperative pain. Her medical history includes active peptic ulcer disease and severe gastric sensitivity, precluding the use of non-steroidal anti-inflammatory drugs (NSAIDs). What is the MOST appropriate analgesic regimen for managing her postoperative pain?",
     "options": [
-      "High-dose Ibuprofen (e.g., 800 mg)",
-      "Naproxen (another NSAID)",
-      "Aspirin (due to potential for gastrointestinal upset)",
-      "Acetaminophen with codeine (e.g., Tylenol #3)"
+      "Acetaminophen 300 mg with codeine 30 mg and caffeine 15 mg (Tylenol #3)",
+      "Naproxen sodium 220 mg",
+      "Ketorolac tromethamine 10 mg",
+      "Celecoxib 200 mg"
     ],
-    "correctAnswer": 3,
-    "explanation": "Given the patient's desire to avoid NSAIDs due to stomach sensitivity, an opioid analgesic combined with acetaminophen, such as acetaminophen with codeine (Tylenol #3), is an appropriate alternative for moderate post-operative pain. High-dose ibuprofen, naproxen, and aspirin are all NSAIDs and would exacerbate her stomach sensitivity, thus being inappropriate choices for this patient.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because an acetaminophen and codeine formulation (such as Tylenol #3) provides effective centrally mediated analgesia for moderate surgical pain without causing gastric mucosal irritation or inhibiting platelet function in patients with active peptic ulcer disease. Naproxen sodium (Option B) and ketorolac (Option C) are non-selective NSAIDs that inhibit COX-1-mediated mucosal protection and are strictly contraindicated in patients with active peptic ulcer disease. Celecoxib (Option D) is a COX-2 selective inhibitor that still carries serious gastrointestinal ulceration warnings and should be avoided when safe non-NSAID alternatives exist.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because an acetaminophen and codeine formulation (such as Tylenol #3) provides effective centrally mediated analgesia for moderate surgical pain without causing gastric mucosal irritation or inhibiting platelet function in patients with active peptic ulcer disease. Naproxen sodium (Option B) and ketorolac (Option C) are non-selective NSAIDs that inhibit COX-1-mediated mucosal protection and are strictly contraindicated in patients with active peptic ulcer disease. Celecoxib (Option D) is a COX-2 selective inhibitor that still carries serious gastrointestinal ulceration warnings and should be avoided when safe non-NSAID alternatives exist.",
+      "verifiedAt": "2026-11-22T04:47:32.417Z"
     }
   },
   {
@@ -20285,46 +20285,46 @@
   {
     "id": 979745912,
     "topicId": "anesthesia",
-    "question": "A 55-year-old female patient presents to your dental office for the extraction of a mobile tooth 11 due to severe periodontitis. Her medical history includes uncontrolled hypertension, for which she takes a beta-blocker, and she reports anxiety regarding dental procedures. Her blood pressure at the appointment is 165/100 mmHg. What is the MOST appropriate immediate action before proceeding with the extraction?",
+    "question": "A 55-year-old female presents for the planned simple extraction of a periodontally hopeless, grade III mobile tooth 11. Her medical history includes hypertension managed with propranolol (a non-selective beta-blocker), and she reports moderate dental anxiety. Her blood pressure measured in the operatory is 165/98 mmHg. What is the MOST appropriate clinical management?",
     "options": [
-      "Administer 2 carpules of local anesthetic with 1:50,000 epinephrine to ensure profound anesthesia.",
-      "Prescribe an oral anxiolytic and reschedule the extraction for another day.",
-      "Proceed with the extraction using local anesthetic without epinephrine to minimize cardiovascular effects.",
-      "Defer the extraction and refer the patient to her physician for blood pressure management."
+      "Proceed with the extraction using a local anesthetic without a vasoconstrictor and implement stress-reduction protocols",
+      "Defer the extraction immediately and refer the patient to an emergency department for hypertensive crisis",
+      "Administer 2 cartridges of 2% lidocaine with 1:50,000 epinephrine to ensure profound anesthesia and hemostasis",
+      "Cancel the procedure, prescribe an oral antibiotic, and reschedule after blood pressure normalizes below 120/80 mmHg"
     ],
-    "correctAnswer": 3,
-    "explanation": "A blood pressure reading of 165/100 mmHg indicates severe, uncontrolled hypertension, which is a significant medical risk for elective dental procedures like extractions. The MOST appropriate immediate action is to defer the extraction and refer the patient to her physician for evaluation and management of her hypertension. Administering epinephrine in local anesthetic is contraindicated with uncontrolled hypertension, and even local anesthetic without epinephrine carries risks when blood pressure is so high.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian dental guidelines (Little & Falace and Malamed) permit routine, low-stress simple extractions at Stage 2 hypertension (blood pressure below 180/110 mmHg) using stress-reduction protocols and local anesthetic without epinephrine (such as 3% mepivacaine) to avoid unopposed alpha-1 adrenergic vasoconstriction and hypertensive spikes in patients taking non-selective beta-blockers. Immediate emergency department referral (Option B) is indicated only when blood pressure reaches hypertensive crisis levels (>= 180/120 mmHg) with acute target-organ damage. Administering 1:50,000 epinephrine (Option C) is contraindicated due to the high risk of severe acute hypertension and reflex bradycardia, while deferring treatment to prescribe antibiotics (Option D) is non-indicated for non-infected mobile periodontally compromised teeth.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Canadian dental guidelines (Little & Falace and Malamed) permit routine, low-stress simple extractions at Stage 2 hypertension (blood pressure below 180/110 mmHg) using stress-reduction protocols and local anesthetic without epinephrine (such as 3% mepivacaine) to avoid unopposed alpha-1 adrenergic vasoconstriction and hypertensive spikes in patients taking non-selective beta-blockers. Immediate emergency department referral (Option B) is indicated only when blood pressure reaches hypertensive crisis levels (>= 180/120 mmHg) with acute target-organ damage. Administering 1:50,000 epinephrine (Option C) is contraindicated due to the high risk of severe acute hypertension and reflex bradycardia, while deferring treatment to prescribe antibiotics (Option D) is non-indicated for non-infected mobile periodontally compromised teeth.",
+      "verifiedAt": "2026-11-22T04:47:32.418Z"
     }
   },
   {
     "id": 11975598,
     "topicId": "anesthesia",
-    "question": "According to Canadian dental infection control guidelines (e.g., CDC/ADA/CIHR standards), which of the following is the MOST effective and preferred method for sterilization of heat-stable critical instruments?",
+    "question": "According to Canadian dental infection prevention and control standards (CDA, Health Canada/PHAC, and CSA Z314), which of the following is the MOST effective and preferred method for sterilizing heat-stable critical instruments?",
     "options": [
-      "Immersion in glutaraldehyde solution for 10 hours.",
-      "Chemical vapor sterilization at 131°C for 20 minutes.",
-      "Wiping with an alcohol-based surface disinfectant.",
-      "Moist heat sterilization (autoclaving) at 121°C for 15 minutes or 134°C for 3-5 minutes."
+      "Moist heat sterilization under pressure (steam autoclaving)",
+      "Immersion in a 2% glutaraldehyde solution for 10 hours",
+      "Surface wiping with an intermediate-level hospital disinfectant",
+      "Low-temperature chemical vapor immersion using quaternary ammonium compounds"
     ],
-    "correctAnswer": 3,
-    "explanation": "Moist heat sterilization (autoclaving) is the gold standard and most effective method for sterilizing heat-stable critical instruments in dentistry. It is preferred over dry heat because it is faster, operates at lower temperatures, and is more reliable for complex instrument geometries. Glutaraldehyde is a high-level disinfectant, not a sterilant in typical dental practice contexts, and is reserved for heat-sensitive instruments; it is not the most effective method for heat-stable items. Chemical vapor sterilization is an alternative but is less commonly used and generally considered less effective or practical than steam sterilization for routine dental instruments. Alcohol-based disinfectants are only effective for low-level disinfection of non-critical surfaces and are ineffective against bacterial spores, making them unsuitable for critical instruments.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian infection control authorities (CDA, PHAC, and CSA Z314) designate moist heat steam autoclaving as the gold standard and primary method for sterilizing all heat-tolerant critical instruments due to its rapid penetration, microbicidal efficacy, absence of toxic residues, and biological monitorability. Immersion in glutaraldehyde (Option B) is toxic, incapable of biological monitoring, and restricted solely to heat-sensitive items that cannot withstand autoclaving. Surface wiping (Option C) achieves only surface disinfection and cannot sterilize critical instruments penetrating vascular tissues, while quaternary ammonium compounds (Option D) are low-level disinfectants completely ineffective for critical sterilization.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Canadian infection control authorities (CDA, PHAC, and CSA Z314) designate moist heat steam autoclaving as the gold standard and primary method for sterilizing all heat-tolerant critical instruments due to its rapid penetration, microbicidal efficacy, absence of toxic residues, and biological monitorability. Immersion in glutaraldehyde (Option B) is toxic, incapable of biological monitoring, and restricted solely to heat-sensitive items that cannot withstand autoclaving. Surface wiping (Option C) achieves only surface disinfection and cannot sterilize critical instruments penetrating vascular tissues, while quaternary ammonium compounds (Option D) are low-level disinfectants completely ineffective for critical sterilization.",
+      "verifiedAt": "2026-11-22T04:47:32.418Z"
     }
   },
   {

@@ -1294,23 +1294,23 @@
     "id": 57,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "What is the primary function of the wedge when placing a sectional matrix system for a Class II composite restoration on a posterior tooth?",
+    "question": "What is the primary function of the interproximal wedge when placing a sectional matrix system for a Class II direct composite resin restoration?",
     "options": [
-      "To permanently widen the interproximal bone",
-      "To adapt the matrix band tightly against the gingival margin and mechanically separate the teeth to compensate for the thickness of the matrix band",
-      "To cure the composite resin faster via thermal conduction",
-      "To prevent moisture contamination from the sublingual caruncle"
+      "To establish the anatomical convexity and height of the proximal contact",
+      "To adapt the matrix band against the gingival cavosurface margin and provide transient tooth separation to compensate for band thickness",
+      "To reduce polymerization shrinkage stress along the bonded pulpal floor",
+      "To protect the pulp from thermal conduction during light polymerization"
     ],
     "correctAnswer": 1,
-    "explanation": "Wedging serves a dual purpose: it presses the matrix band tightly against the gingival cavosurface margin to prevent overhangs, and it physically separates the adjacent teeth temporarily to ensure a tight interproximal contact once the band is removed and the teeth rebound.",
+    "explanation": "Option B is correct because the wedge serves two critical functions in posterior direct composite restorations: adapting the matrix band tightly against the gingival cavosurface margin to prevent resin flash or overhangs, and producing transient tooth separation to compensate for matrix band thickness, ensuring a snug proximal contact. Establishing the proximal anatomical contour and contact position is the primary function of the contoured matrix band and separating ring rather than the wedge. Mitigating polymerization shrinkage stress is achieved through incremental layering techniques rather than wedging, and thermal pulp protection depends on adequate remaining dentin thickness rather than interdental wedges.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because the wedge serves two critical functions in posterior direct composite restorations: adapting the matrix band tightly against the gingival cavosurface margin to prevent resin flash or overhangs, and producing transient tooth separation to compensate for matrix band thickness, ensuring a snug proximal contact. Establishing the proximal anatomical contour and contact position is the primary function of the contoured matrix band and separating ring rather than the wedge. Mitigating polymerization shrinkage stress is achieved through incremental layering techniques rather than wedging, and thermal pulp protection depends on adequate remaining dentin thickness rather than interdental wedges.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -2033,23 +2033,23 @@
     "id": 90,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "During the placement of a posterior direct composite restoration using a incremental layering technique, what is the primary purpose of placing composite in oblique increments of 2 mm or less?",
+    "question": "When restoring a deep Class II cavity preparation on tooth 26 with direct composite resin, what is the primary biomechanical rationale for orienting resin increments obliquely rather than horizontally across opposing cavity walls?",
     "options": [
-      "To improve the bond strength to dentin",
-      "To ensure complete curing by the LED light-curing unit",
-      "To match the natural dentin and enamel shades more accurately",
-      "To reduce the C-factor and polymerization shrinkage stress"
+      "To enhance the thickness of the hybrid layer formed by the dentin bonding agent",
+      "To maximize the depth of light penetration from the curing unit",
+      "To increase the ultimate flexural strength of the polymerized composite resin",
+      "To reduce the cavity configuration factor (C-factor) and minimize polymerization shrinkage stress"
     ],
     "correctAnswer": 3,
-    "explanation": "Incremental layering reduces the configuration factor (C-factor) and minimizes polymerization shrinkage stress exerted on the cavity walls, which prevents microleakage, postoperative sensitivity, and marginal staining. While light penetration and shade matching are important, the primary mechanical reason for small increments is stress reduction.",
+    "explanation": "Option D is correct because placing composite in oblique increments prevents simultaneous bridging between opposing cavity walls (such as buccal and lingual walls), thereby reducing the configuration factor (C-factor) and allowing unbonded resin surfaces to deform, which relieves polymerization shrinkage stress and prevents cuspal deflection. Hybrid layer development is governed by the application and infiltration of the dentin adhesive system rather than increment geometry; depth of light penetration is controlled by maintaining increment thickness at 2 mm or less regardless of whether the placement is horizontal or oblique; and flexural strength is an intrinsic material property of the cured resin that is not influenced by increment orientation.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because placing composite in oblique increments prevents simultaneous bridging between opposing cavity walls (such as buccal and lingual walls), thereby reducing the configuration factor (C-factor) and allowing unbonded resin surfaces to deform, which relieves polymerization shrinkage stress and prevents cuspal deflection. Hybrid layer development is governed by the application and infiltration of the dentin adhesive system rather than increment geometry; depth of light penetration is controlled by maintaining increment thickness at 2 mm or less regardless of whether the placement is horizontal or oblique; and flexural strength is an intrinsic material property of the cured resin that is not influenced by increment orientation.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -2148,15 +2148,15 @@
     "id": 95,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "A patient presents with a partially erupted mandibular second molar that is heavily carious and has limited access for rubber dam isolation. Which specific type of rubber dam clamp is most appropriate for securing the tooth due to its design features, including serrated, offset jaws that allow engagement of the tooth's cervical margin despite the lack of full eruption?",
+    "question": "A 19-year-old patient requires rubber dam isolation for a direct restoration on a partially erupted, structurally compromised tooth 47 with minimal supragingival tooth structure. Which of the following rubber dam clamps is MOST appropriate for securing this tooth due to its apically directed, active jaws?",
     "options": [
-      "Winged clamp #2",
-      "Maxillary molar clamp #W7",
-      "Active jaw clamp #W8A",
-      "Butterfly clamp #212"
+      "Winged premolar clamp 2",
+      "Flat-jawed mandibular molar clamp W7",
+      "Wingless active molar clamp W8A",
+      "Cervical butterfly clamp 212"
     ],
     "correctAnswer": 2,
-    "explanation": "The Active jaw clamp #W8A (often referred to as the 'active' or 'offset' clamp) is specifically designed with serrated, offset jaws. This design allows the clamp to engage the tooth at a lower angle, making it ideal for partially erupted teeth or teeth with significant decay where the cervical margin is difficult to access with standard clamps. The offset mechanism provides better leverage and grip on the tooth's surface. In contrast, the Winged clamp #2 is a standard molar clamp with straight jaws, suitable for fully erupted teeth. The Maxillary molar clamp #W7 is designed for maxillary molars and has a different jaw configuration. The Butterfly clamp #212 is typically used for anterior teeth or premolars and is not suitable for the robust grip required for a mandibular molar.",
+    "explanation": "Option C is correct because clamp W8A is a wingless molar clamp designed with active, subgingivally directed jaws that reach below the height of contour to engage the root trunk of partially erupted or severely broken-down molars like tooth 47. Clamp 2 is intended for isolating premolars rather than molars; clamp W7 is a flat-jawed clamp designed for fully erupted mandibular molars with established supragingival undercuts; and clamp 212 is a double-bowed butterfly clamp specifically indicated for Class V cervical restorations on anterior teeth and premolars.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
@@ -2164,8 +2164,8 @@
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because clamp W8A is a wingless molar clamp designed with active, subgingivally directed jaws that reach below the height of contour to engage the root trunk of partially erupted or severely broken-down molars like tooth 47. Clamp 2 is intended for isolating premolars rather than molars; clamp W7 is a flat-jawed clamp designed for fully erupted mandibular molars with established supragingival undercuts; and clamp 212 is a double-bowed butterfly clamp specifically indicated for Class V cervical restorations on anterior teeth and premolars.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -2984,23 +2984,23 @@
     "id": 132,
     "topicId": "operative-dentistry",
     "difficulty": "medium",
-    "question": "Which of the following internal preparation features provides primary resistance form for a Class I amalgam restoration?",
+    "question": "Which of the following internal preparation features provides essential resistance form for a Class I amalgam restoration on tooth 36?",
     "options": [
-      "Rounding all internal line angles to decrease stress concentration",
-      "Creating bevels on the occlusal cavosurface margins at a 45-degree angle",
-      "Flat pulpal and gingival floors perpendicular to the long axis of the tooth",
-      "A divergent occlusal wall configuration toward the marginal ridges"
+      "Rounding internal line angles to minimize stress concentration in tooth structure",
+      "Placing a 45-degree bevel along the occlusal cavosurface margin",
+      "Preparing outward divergent buccal and lingual cavity walls",
+      "Establishing sharp, well-defined point angles at the pulpal floor"
     ],
-    "correctAnswer": 2,
-    "explanation": "Resistance form is designed to prevent both the restoration and the remaining tooth structure from fracturing under masticatory forces. Flat pulpal and gingival floors perpendicular to occlusal forces help distribute forces evenly along the long axis of the tooth. Divergent walls reduce resistance form by weakening marginal enamel, and bevels are contraindicated for occlusal amalgam.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because rounding internal line angles decreases stress concentration within both the dentin and the restorative material, which is a foundational element of resistance form preventing fracture of tooth 36 under masticatory loading. Placing a 45-degree bevel is strictly contraindicated in amalgam cavity preparations because amalgam possesses low edge strength and requires a butt-joint (90-degree) cavosurface margin to prevent marginal fracture; outward divergent walls compromise mechanical retention without contributing to resistance form; and sharp internal angles concentrate occlusal stresses, significantly increasing the likelihood of cuspal fracture.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "A flat floor perpendicular to the tooth's long axis provides primary resistance form by distributing occlusal forces evenly, although Class I preparations technically lack a gingival floor. Option C is the designated single best answer.",
-      "verifiedAt": "2026-11-18T04:13:50.570Z"
+      "clinicalRationale": "Option A is correct because rounding internal line angles decreases stress concentration within both the dentin and the restorative material, which is a foundational element of resistance form preventing fracture of tooth 36 under masticatory loading. Placing a 45-degree bevel is strictly contraindicated in amalgam cavity preparations because amalgam possesses low edge strength and requires a butt-joint (90-degree) cavosurface margin to prevent marginal fracture; outward divergent walls compromise mechanical retention without contributing to resistance form; and sharp internal angles concentrate occlusal stresses, significantly increasing the likelihood of cuspal fracture.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -9538,23 +9538,23 @@
   {
     "id": 307878426,
     "topicId": "operative-dentistry",
-    "question": "A 30-year-old female patient presents with a history of generalized sensitivity to cold drinks, particularly on the buccal surfaces of her posterior teeth. Clinical examination reveals multiple, shallow, saucer-shaped lesions on the cervical third of teeth 14, tooth 15, tooth 24, tooth 25, tooth 34, tooth 35, tooth 44, and tooth 45. These lesions are located at the cemento-enamel junction and appear smooth and polished. There is no evidence of caries. What is the MOST likely etiology of these lesions?",
+    "question": "A 30-year-old female presents with generalized dentin hypersensitivity to cold liquids. Clinical examination reveals multiple shallow, broad, saucer-shaped lesions on the cervical buccal third of teeth 14, 15, 24, 25, 34, 35, 44, and 45. The lesions exhibit smooth, glazed surfaces with rounded margins and no evidence of plaque or caries. The patient reports drinking warm lemon water daily. What is the MOST likely etiology of these lesions?",
     "options": [
-      "Abrasion from aggressive toothbrushing",
-      "Erosion due to acidic diet",
-      "Abfraction from occlusal stress",
-      "Attrition from parafunctional habits"
+      "Mechanical abrasion from horizontal toothbrushing",
+      "Chemical erosion from dietary acid exposure",
+      "Biomechanical abfraction from eccentric occlusal stress",
+      "Physiological attrition from parafunctional grinding"
     ],
-    "correctAnswer": 0,
-    "explanation": "Shallow, saucer-shaped, smooth, and polished lesions on the cervical third of multiple teeth, particularly on buccal surfaces, are classic signs of abrasion, most commonly caused by aggressive or improper toothbrushing techniques. Erosion typically presents as cupped lesions or generalized loss of tooth structure from chemical processes (acid), often without mechanical wear features. Abfraction lesions are typically wedge-shaped defects at the CEJ caused by occlusal stress, while attrition is wear on incisal/occlusal surfaces from tooth-to-tooth contact.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because chemical erosion produces broad, shallow, saucer-shaped defects with smooth, rounded, glazed surfaces on enamel and dentin caused by non-bacterial acid dissolution, consistent with the patient's daily consumption of lemon water. Toothbrush abrasion characteristically presents as sharp, well-demarcated, V-shaped or wedge-shaped notches with distinct line angles; abfraction lesions are typically deep, narrow, wedge-shaped cervical defects localized to teeth subject to excessive eccentric occlusal loading and tensile flexure; and attrition results in flat, matching wear facets on contacting occlusal or incisal surfaces rather than cervical defects.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Smooth, polished cervical defects located at the CEJ across all premolars in all four quadrants are characteristic of mechanical toothbrush abrasion from vigorous horizontal brushing. Tooth notation utilizes FDI two-digit system (14-45), though the informal '#' prefix should be omitted in strict Canadian NDEB exam format.",
-      "verifiedAt": "2026-11-18T04:37:25.204Z"
+      "clinicalRationale": "Option B is correct because chemical erosion produces broad, shallow, saucer-shaped defects with smooth, rounded, glazed surfaces on enamel and dentin caused by non-bacterial acid dissolution, consistent with the patient's daily consumption of lemon water. Toothbrush abrasion characteristically presents as sharp, well-demarcated, V-shaped or wedge-shaped notches with distinct line angles; abfraction lesions are typically deep, narrow, wedge-shaped cervical defects localized to teeth subject to excessive eccentric occlusal loading and tensile flexure; and attrition results in flat, matching wear facets on contacting occlusal or incisal surfaces rather than cervical defects.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -10474,15 +10474,15 @@
   {
     "id": 974766756,
     "topicId": "operative-dentistry",
-    "question": "A 40-year-old female patient presents for a routine recall. A panoramic radiograph reveals an incidental finding of a well-circumscribed, unilocular radiolucency with a sclerotic border in the anterior mandible, apical to the mandibular incisors. The teeth in the area are vital and asymptomatic. What is the MOST likely diagnosis?",
+    "question": "A 40-year-old female presents for a routine dental examination. A panoramic radiograph reveals an incidental finding of multiple well-circumscribed, unilocular radiolucencies with fine sclerotic borders located at the apices of teeth 32, 31, 41, and 42. Thermal and electric pulp testing reveals that all four mandibular incisors are vital and asymptomatic, with no history of trauma. What is the MOST likely diagnosis?",
     "options": [
-      "Periapical cyst",
-      "Radicular cyst",
-      "Traumatic bone cyst",
-      "Periapical cemento-osseous dysplasia (PCOD)"
+      "Periapical granuloma",
+      "Simple bone cyst",
+      "Odontogenic keratocyst",
+      "Periapical cemento-osseous dysplasia"
     ],
     "correctAnswer": 3,
-    "explanation": "Periapical cemento-osseous dysplasia (PCOD) is the most likely diagnosis given the classic demographic and radiographic presentation. PCOD is a benign fibro-osseous lesion that predominantly affects middle-aged women (typically 40-60 years old) of African, Asian, or Hispanic descent, though it can occur in any ethnicity. It is characteristically located in the anterior mandible, apical to the incisors and canines. The lesion is asymptomatic and the associated teeth remain vital, which is a key differentiator from inflammatory periapical lesions. Radiographically, PCOD progresses through three stages: an early radiolucent stage (which matches the description in the stem), a mixed radiolucent-radiopaque stage, and a late radiopaque stage. The presence of a sclerotic border is consistent with the early radiolucent phase of PCOD. \n\nThe other options are incorrect for the following reasons:\n1. Periapical cyst (Option 0) and Radicular cyst (Option 1) are inflammatory lesions that arise from the pulp necrosis of non-vital teeth. Since the teeth in the scenario are explicitly stated to be vital, these diagnoses are excluded. Furthermore, 'periapical cyst' and 'radicular cyst' are often used interchangeably, making them redundant distractors, but both are clinically invalid due to tooth vitality.\n2. Traumatic bone cyst (Option 2), also known as a simple bone cyst, is a unilocular radiolucency that can occur in the anterior mandible. However, it is more common in younger patients (teens to 20s) and is not as strongly associated with the specific demographic (middle-aged female) and location (anterior mandible apical to incisors) as PCOD. Additionally, traumatic bone cysts often have scalloped borders between roots, whereas PCOD in the early stage presents as a well-circumscribed radiolucency with a sclerotic rim. The combination of age, sex, location, and vital teeth makes PCOD the gold standard diagnosis.",
+    "explanation": "Option D is correct because early (osteolytic) stage periapical cemento-osseous dysplasia (PCOD) characteristically manifests as well-circumscribed radiolucencies at the apices of mandibular anterior teeth (teeth 32, 31, 41, and 42) in middle-aged females, with all involved teeth remaining pulpally vital and asymptomatic. Periapical granuloma is caused by pulpal necrosis and is ruled out by the confirmed vitality of the mandibular incisors; simple bone cysts typically present as larger radiolucent cavities that scallop between the roots of posterior teeth rather than discrete apical lesions on anterior teeth; and odontogenic keratocysts are aggressive developmental cysts with distinctive histologic features that rarely present as multiple small circumscribed apical lesions localized to vital mandibular incisors.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
@@ -10490,8 +10490,8 @@
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Periapical cemento-osseous dysplasia in its early osteolytic stage characteristically presents as an asymptomatic periapical radiolucency associated with vital mandibular incisors in middle-aged females. Radicular cysts are excluded because the associated teeth test vital.",
-      "verifiedAt": "2026-11-18T04:35:16.582Z"
+      "clinicalRationale": "Option D is correct because early (osteolytic) stage periapical cemento-osseous dysplasia (PCOD) characteristically manifests as well-circumscribed radiolucencies at the apices of mandibular anterior teeth (teeth 32, 31, 41, and 42) in middle-aged females, with all involved teeth remaining pulpally vital and asymptomatic. Periapical granuloma is caused by pulpal necrosis and is ruled out by the confirmed vitality of the mandibular incisors; simple bone cysts typically present as larger radiolucent cavities that scallop between the roots of posterior teeth rather than discrete apical lesions on anterior teeth; and odontogenic keratocysts are aggressive developmental cysts with distinctive histologic features that rarely present as multiple small circumscribed apical lesions localized to vital mandibular incisors.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -10541,23 +10541,23 @@
   {
     "id": 804214717,
     "topicId": "operative-dentistry",
-    "question": "Which of the following classes of antibiotics is MOST likely to cause gastrointestinal upset and pseudomembranous colitis as a significant adverse effect?",
+    "question": "Which of the following classes of antibiotics carries the highest risk of inducing Clostridioides difficile-associated pseudomembranous colitis, leading to its complete exclusion from the 2021 Canadian Dental Association and American Heart Association antibiotic prophylaxis guidelines?",
     "options": [
-      "Penicillins.",
-      "Cephalosporins.",
-      "Clindamycin.",
-      "Macrolides."
+      "Penicillins",
+      "Cephalosporins",
+      "Lincosamides",
+      "Macrolides"
     ],
     "correctAnswer": 2,
-    "explanation": "Clindamycin is notoriously associated with a higher risk of developing pseudomembranous colitis, an severe infection caused by *Clostridioides difficile*, compared to other antibiotic classes due to its broad-spectrum activity disrupting normal gut flora. While other antibiotics like penicillins (A), cephalosporins (B), and macrolides (D) can also cause gastrointestinal upset, clindamycin carries a significantly elevated risk for *C. difficile* infection.",
+    "explanation": "Option C is correct because lincosamides (specifically clindamycin) are associated with a disproportionately high risk of causing Clostridioides difficile-associated pseudomembranous colitis, resulting in their complete removal from the 2021 Canadian Dental Association (CDA) and American Heart Association (AHA) antibiotic prophylaxis regimens. Penicillins (such as amoxicillin 2 g orally) remain the first-line prophylactic regimen of choice due to their favorable safety profile and low relative risk of colitis; cephalosporins (such as cephalexin 2 g) serve as acceptable alternatives in penicillin-allergic patients without a history of anaphylaxis or angioedema; and macrolides (such as azithromycin or clarithromycin 500 mg) provide safe alternative prophylaxis in penicillin-allergic patients without the severe colitis risk seen with lincosamides.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Clindamycin carries the highest relative risk for Clostridioides difficile-induced pseudomembranous colitis among dental antibiotics. This major adverse effect led Health Canada and the CDA/AHA to completely remove clindamycin from antibiotic prophylaxis regimens in 2021.",
-      "verifiedAt": "2026-11-18T04:35:16.583Z"
+      "clinicalRationale": "Option C is correct because lincosamides (specifically clindamycin) are associated with a disproportionately high risk of causing Clostridioides difficile-associated pseudomembranous colitis, resulting in their complete removal from the 2021 Canadian Dental Association (CDA) and American Heart Association (AHA) antibiotic prophylaxis regimens. Penicillins (such as amoxicillin 2 g orally) remain the first-line prophylactic regimen of choice due to their favorable safety profile and low relative risk of colitis; cephalosporins (such as cephalexin 2 g) serve as acceptable alternatives in penicillin-allergic patients without a history of anaphylaxis or angioedema; and macrolides (such as azithromycin or clarithromycin 500 mg) provide safe alternative prophylaxis in penicillin-allergic patients without the severe colitis risk seen with lincosamides.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -12840,23 +12840,23 @@
   {
     "id": 521349555,
     "topicId": "operative-dentistry",
-    "question": "During a routine restorative procedure, a dental assistant accidentally sustains a percutaneous injury with a contaminated needle. The patient's medical history indicates no known bloodborne pathogens. What is the MOST appropriate immediate first step following this exposure, according to Canadian dental infection prevention and control guidelines?",
+    "question": "During a routine restorative procedure, a dental assistant sustains a percutaneous puncture injury from a contaminated local anesthetic needle. What is the MOST appropriate immediate first step following this exposure incident, according to Canadian dental infection prevention and control guidelines?",
     "options": [
-      "Immediately clean the wound with soap and water and encourage bleeding.",
-      "Inform the patient about the exposure incident.",
-      "Report the incident to the local public health unit.",
-      "Initiate post-exposure prophylaxis (PEP) immediately."
+      "Immediately wash the puncture site gently with soap and water, allowing the wound to bleed freely without squeezing",
+      "Vigorously squeeze the wound margins to express contaminated blood and apply a chemical disinfectant",
+      "Immediately administer antiretroviral post-exposure prophylaxis (PEP) at chairside",
+      "Draw a blood sample from the source patient in the dental operatory for serological testing"
     ],
     "correctAnswer": 0,
-    "explanation": "According to Canadian dental infection prevention and control guidelines, the immediate first step after a percutaneous injury is to thoroughly clean the wound with soap and water and encourage bleeding to reduce the viral load. Informing the patient and considering PEP are subsequent steps that occur after initial first aid and risk assessment.",
+    "explanation": "Option A is correct because Canadian infection prevention and control guidelines (RCDSO, CDA, Health Canada) dictate that the immediate first aid step following a percutaneous exposure is to wash the wound gently with soap and water and allow it to bleed freely without squeezing or harsh scrubbing. Squeezing or applying concentrated chemical disinfectants is strictly contraindicated because it causes microvascular tissue trauma and can promote the deeper inoculation of bloodborne pathogens; antiretroviral post-exposure prophylaxis (PEP) requires formal clinical evaluation and prescription by an emergency medical physician rather than chairside administration; and obtaining blood samples from source patients falls outside the dental scope of practice and must be managed by an authorized medical testing facility.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Immediate first aid by washing the puncture site thoroughly with soap and water is the critical first action following an occupational percutaneous exposure, followed by reporting and medical evaluation.",
-      "verifiedAt": "2026-11-18T04:42:42.900Z"
+      "clinicalRationale": "Option A is correct because Canadian infection prevention and control guidelines (RCDSO, CDA, Health Canada) dictate that the immediate first aid step following a percutaneous exposure is to wash the wound gently with soap and water and allow it to bleed freely without squeezing or harsh scrubbing. Squeezing or applying concentrated chemical disinfectants is strictly contraindicated because it causes microvascular tissue trauma and can promote the deeper inoculation of bloodborne pathogens; antiretroviral post-exposure prophylaxis (PEP) requires formal clinical evaluation and prescription by an emergency medical physician rather than chairside administration; and obtaining blood samples from source patients falls outside the dental scope of practice and must be managed by an authorized medical testing facility.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -13792,23 +13792,23 @@
   {
     "id": 693351649,
     "topicId": "operative-dentistry",
-    "question": "A 68-year-old female patient, with a history of controlled hypertension (on ACE inhibitors) and Type 2 Diabetes (controlled by metformin), requires multiple extractions. She reports no allergies. What is the MOST appropriate local anesthetic agent to use, considering her medical history?",
+    "question": "A 68-year-old female patient with a history of controlled hypertension (taking an ACE inhibitor) and type 2 diabetes mellitus requires multiple dental extractions. She reports no drug allergies. To achieve profound surgical anesthesia while minimizing cardiovascular vasoconstrictor load within safe limits, which local anesthetic agent is MOST appropriate?",
     "options": [
-      "Lidocaine with epinephrine 1:100,000",
-      "Bupivacaine with epinephrine 1:50,000",
-      "Mepivacaine 3% plain",
-      "Articaine with epinephrine 1:200,000"
+      "4% Articaine with 1:200,000 epinephrine",
+      "2% Lidocaine with 1:50,000 epinephrine",
+      "3% Mepivacaine plain",
+      "0.5% Bupivacaine with 1:200,000 epinephrine"
     ],
     "correctAnswer": 0,
-    "explanation": "Lidocaine with epinephrine 1:100,000 is a safe and effective choice for patients with controlled hypertension and diabetes, as the vasoconstrictor aids in hemostasis and prolongs anesthesia while being well-tolerated when administered carefully. Mepivacaine 3% plain lacks a vasoconstrictor, which is undesirable for multiple extractions due to increased bleeding and shorter duration. Bupivacaine with epinephrine 1:50,000 has a higher concentration of epinephrine which should be used cautiously in medically compromised patients.",
+    "explanation": "Option A is correct because 4% articaine with 1:200,000 epinephrine provides profound surgical anesthesia and bone penetration while delivering half the vasoconstrictor load (0.005 mg/mL) of 1:100,000 solutions, permitting up to 4.4 cartridges within the 0.04 mg cardiac limit for patients with cardiovascular disease. In contrast, 2% lidocaine with 1:50,000 epinephrine carries an excessive vasoconstrictor concentration (0.02 mg/mL) reaching the cardiac limit after just one cartridge, 3% mepivacaine plain lacks the vasoconstriction necessary for surgical hemostasis and adequate duration across multiple extractions, and 0.5% bupivacaine has a delayed onset and elevated cardiotoxicity risk if inadvertently injected intravascularly.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Per Malamed and Little & Falace, 2% lidocaine with 1:100,000 epinephrine is the standard first-line anesthetic for multiple extractions; epinephrine is safe in well-controlled hypertension up to the cardiac dose (0.04 mg).",
-      "verifiedAt": "2026-11-18T04:43:59.816Z"
+      "clinicalRationale": "Option A is correct because 4% articaine with 1:200,000 epinephrine provides profound surgical anesthesia and bone penetration while delivering half the vasoconstrictor load (0.005 mg/mL) of 1:100,000 solutions, permitting up to 4.4 cartridges within the 0.04 mg cardiac limit for patients with cardiovascular disease. In contrast, 2% lidocaine with 1:50,000 epinephrine carries an excessive vasoconstrictor concentration (0.02 mg/mL) reaching the cardiac limit after just one cartridge, 3% mepivacaine plain lacks the vasoconstriction necessary for surgical hemostasis and adequate duration across multiple extractions, and 0.5% bupivacaine has a delayed onset and elevated cardiotoxicity risk if inadvertently injected intravascularly.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -17778,23 +17778,23 @@
   {
     "id": 519323734,
     "topicId": "operative-dentistry",
-    "question": "A 7-year-old female patient presents with a chief complaint of pain in her lower right jaw. Clinical examination reveals severe caries on tooth 85 (mandibular right second primary molar) with a draining sinus tract on the buccal gingiva. Radiographically, there is a periapical radiolucency associated with tooth 85 and no succedaneous permanent premolar visible beneath it. What is the MOST appropriate management?",
+    "question": "A 7-year-old female patient presents with pain and a draining buccal sinus tract adjacent to tooth 85. Clinical examination reveals extensive caries, and radiographic evaluation demonstrates interradicular radiolucency confined to the coronal half of intact roots, with congenital absence (agenesis) of the succedaneous tooth 45. What is the MOST appropriate management to resolve infection and maintain arch integrity?",
     "options": [
-      "Pulpectomy of tooth 85",
-      "Amalgam restoration of tooth 85",
-      "Extraction of tooth 85",
-      "Referral for orthodontic evaluation"
+      "Pulpectomy followed by a stainless steel crown restoration on tooth 85",
+      "Extraction of tooth 85 followed by observation without space maintenance",
+      "Direct pulp capping of tooth 85 with mineral trioxide aggregate",
+      "Coronal pulpotomy of tooth 85 using formocresol"
     ],
-    "correctAnswer": 2,
-    "explanation": "The presence of a draining sinus tract, periapical radiolucency, and the absence of a succedaneous tooth indicate an irreversible pulpal pathology and potential damage to the underlying bone, making extraction the most appropriate treatment. A pulpectomy might be considered if a succedaneous tooth was present and the infection was localized. An amalgam restoration is inappropriate for a tooth with irreversible pulpitis and a sinus tract.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because a pulpectomy using a resorbable filling paste followed by a stainless steel crown effectively eradicates pulpal infection, resolves the draining sinus tract, and preserves tooth 85 as a natural space maintainer when succedaneous tooth 45 is congenitally absent. Simple extraction without space management leads to mesial migration of tooth 46 and arch length loss, direct pulp capping is strictly contraindicated in necrotic primary teeth with periradicular pathology, and pulpotomy is ineffective once necrosis and infection have extended into the radicular pulp.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "In a 7-year-old patient with an infected, non-vital primary molar (#85) and agenesis of the succedaneous premolar, planned extraction allows favorable spontaneous mesial drift and space closure by the developing first permanent molar (#46).",
-      "verifiedAt": "2026-11-18T04:50:47.538Z"
+      "clinicalRationale": "Option A is correct because a pulpectomy using a resorbable filling paste followed by a stainless steel crown effectively eradicates pulpal infection, resolves the draining sinus tract, and preserves tooth 85 as a natural space maintainer when succedaneous tooth 45 is congenitally absent. Simple extraction without space management leads to mesial migration of tooth 46 and arch length loss, direct pulp capping is strictly contraindicated in necrotic primary teeth with periradicular pathology, and pulpotomy is ineffective once necrosis and infection have extended into the radicular pulp.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -18289,15 +18289,15 @@
   {
     "id": 408694618,
     "topicId": "operative-dentistry",
-    "question": "A 75-year-old female patient presents with a chief complaint that her existing maxillary complete denture feels loose and unstable, especially during eating. She has had the denture for 10 years, and it was comfortable initially. Clinical examination reveals significant alveolar ridge resorption in the maxilla. The denture base is intact, the occlusion is stable, and the patient is not a candidate for surgical intervention at this time. What is the MOST appropriate initial management?",
+    "question": "A 75-year-old female patient presents complaining that her maxillary complete denture feels loose and unstable during mastication. The denture was fabricated 10 years ago and has never been relined or adjusted. Clinical examination reveals severe residual ridge resorption of the maxilla, pronounced wear of the acrylic artificial teeth, and a significant loss of vertical dimension of occlusion. The patient is not a candidate for pre-prosthetic surgery or dental implants. What is the MOST appropriate definitive management?",
     "options": [
-      "Perform a soft reline of the existing maxillary denture",
-      "Fabricate a new complete maxillary denture",
-      "Prescribe denture adhesive for daily use",
-      "Refer for implant placement to support the denture"
+      "Fabrication of a new maxillary complete denture",
+      "Chairside application of a temporary soft denture reline",
+      "Prescription of daily commercial denture adhesive",
+      "Laboratory hard reline of the existing complete denture"
     ],
     "correctAnswer": 0,
-    "explanation": "The most appropriate initial management for a patient with a loose complete denture due to alveolar ridge resorption, where the denture base is intact and occlusion is stable, is a soft reline (Option 0). According to standard prosthodontic principles (Cohen, Phillips, and NDEB AFK guidelines), when a denture becomes ill-fitting due to ridge resorption but the existing denture is otherwise structurally sound and occlusally stable, a reline is the conservative and cost-effective first-line treatment. A soft reline is particularly indicated in this scenario because the patient is elderly (75 years old) and may have reduced mucosal tolerance or healing capacity; soft liners provide cushioning against the resorbed ridge, improving comfort and retention without the trauma of a hard reline or the invasiveness of new denture fabrication. \n\nOption 1 (Fabricate a new complete maxillary denture) is incorrect as the initial step because it is overly aggressive and costly when the existing denture is intact and occlusion is stable. New dentures are indicated when the existing denture is fractured, has poor occlusion, or when the ridge resorption is so severe that a reline cannot achieve adequate retention or support. \n\nOption 2 (Prescribe denture adhesive) is incorrect as a primary management strategy. While adhesives can provide temporary retention, they do not address the underlying fit issue caused by ridge resorption and are considered a symptomatic, short-term aid rather than a definitive treatment. Long-term reliance on adhesives can mask the need for proper prosthodontic intervention and may lead to tissue irritation. \n\nOption 3 (Refer for implant placement) is incorrect because the patient is explicitly stated to be 'not a candidate for surgical intervention at this time.' Furthermore, implant-supported dentures are a more complex, invasive, and expensive solution that is not the initial management for a simple fit issue in a non-surgical candidate.",
+    "explanation": "Option A is correct because a 10-year-old prosthesis exhibiting severe retention loss from ridge resorption, significant tooth wear, and diminished vertical dimension of occlusion has exceeded its functional lifespan and requires total replacement to restore proper occlusion, esthetics, and tissue adaptation. A soft reline is strictly a temporary tissue-conditioning measure that degrades rapidly and cannot restore lost vertical dimension, denture adhesive cannot compensate for major base-tissue discrepancies or occlusal wear, and a laboratory hard reline cannot correct worn artificial teeth or collapsed vertical dimension.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
@@ -18306,8 +18306,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "When an existing complete denture has stable occlusion and an intact base, a soft reline (tissue conditioner) provides immediate retention and mucosal cushioning as appropriate initial management.",
-      "verifiedAt": "2026-11-18T04:52:59.712Z"
+      "clinicalRationale": "Option A is correct because a 10-year-old prosthesis exhibiting severe retention loss from ridge resorption, significant tooth wear, and diminished vertical dimension of occlusion has exceeded its functional lifespan and requires total replacement to restore proper occlusion, esthetics, and tissue adaptation. A soft reline is strictly a temporary tissue-conditioning measure that degrades rapidly and cannot restore lost vertical dimension, denture adhesive cannot compensate for major base-tissue discrepancies or occlusal wear, and a laboratory hard reline cannot correct worn artificial teeth or collapsed vertical dimension.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -21150,24 +21150,24 @@
   {
     "id": 869089861,
     "topicId": "operative-dentistry",
-    "question": "A 30-year-old male patient presents with a chief complaint of intermittent sharp pain in his upper left posterior teeth when consuming cold drinks. The pain is intense but subsides immediately after the stimulus is removed. Clinical examination reveals no obvious caries or fractures, and probing depths are within normal limits. Radiographs show no periapical pathology. What is the MOST likely diagnosis?",
+    "question": "A 30-year-old male patient presents with intermittent sharp discomfort in the maxillary left posterior region provoked by cold fluids. The pain is sharp but resolves completely within 1 to 2 seconds immediately following removal of the thermal stimulus. Clinical examination reveals a shallow occlusal composite restoration with defective margins on tooth 26, no pain to percussion or palpation, and normal probing depths. Periapical radiographs show normal periodontal ligament space and no periapical radiolucency. What is the MOST likely pulpal diagnosis for tooth 26?",
     "options": [
-      "Irreversible pulpitis",
       "Reversible pulpitis",
-      "Cracked tooth syndrome",
-      "Dentine hypersensitivity"
+      "Symptomatic irreversible pulpitis",
+      "Pulp necrosis",
+      "Normal pulp"
     ],
-    "correctAnswer": 3,
-    "explanation": "The key to this diagnosis is the nature of the pain and the absence of other pathology. Dentine hypersensitivity is defined as a short, sharp pain arising from exposed dentine, in response to stimuli (usually thermal, evaporative, tactile, or osmotic) that, when taken individually or in combination, cannot be attributed to any other dental or oral condition. The pain is transient and ceases immediately upon removal of the stimulus. In contrast, reversible pulpitis typically presents with a lingering pain (seconds to minutes) after the stimulus is removed, although it is still reversible. Irreversible pulpitis is characterized by spontaneous pain or pain that lingers for a prolonged period (minutes to hours) after the stimulus is removed. Cracked tooth syndrome usually presents with pain on release (chewing) and often has a visible crack or positive bite test, which is not described here. Therefore, given the immediate cessation of pain and lack of other findings, dentine hypersensitivity is the most accurate diagnosis.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because reversible pulpitis is clinically defined under standard AAE and NDEB diagnostic criteria by non-lingering, sharp pain that ceases immediately (within 1–2 seconds) upon removal of a thermal stimulus. Symptomatic irreversible pulpitis is characterized by pain that lingers prolonged after stimulus removal or occurs spontaneously, pulp necrosis presents with complete absence of response to thermal and electric pulp testing, and normal pulp does not elicit sharp, hyper-reactive discomfort upon exposure to mild thermal stimuli.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Sharp, non-lingering pain to cold across multiple posterior teeth with intact crowns and absence of caries, cracks, or periapical pathology is characteristic of dentine hypersensitivity.",
-      "verifiedAt": "2026-11-18T04:59:20.183Z"
+      "clinicalRationale": "Option A is correct because reversible pulpitis is clinically defined under standard AAE and NDEB diagnostic criteria by non-lingering, sharp pain that ceases immediately (within 1–2 seconds) upon removal of a thermal stimulus. Symptomatic irreversible pulpitis is characterized by pain that lingers prolonged after stimulus removal or occurs spontaneously, pulp necrosis presents with complete absence of response to thermal and electric pulp testing, and normal pulp does not elicit sharp, hyper-reactive discomfort upon exposure to mild thermal stimuli.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -21195,23 +21195,23 @@
   {
     "id": 481615937,
     "topicId": "operative-dentistry",
-    "question": "According to Canadian dental infection control guidelines, what is the recommended method for sterilizing heat-sensitive instruments that cannot withstand autoclaving?",
+    "question": "According to Canadian dental infection prevention and control (IPAC) standards (Health Canada, RCDSO, and CDA), what is the required management for critical and semi-critical instruments that are sensitive to heat and cannot withstand steam autoclaving?",
     "options": [
-      "Immersion in glutaraldehyde for 10 minutes.",
-      "Use of an ultrasonic cleaner with disinfectant solution.",
-      "Cold sterilization using a high-level disinfectant for the manufacturer's recommended immersion time.",
-      "Wiping with an alcohol-based surface disinfectant."
+      "Replace them with heat-tolerant reusable alternatives or single-use disposable devices",
+      "Submerge them in a liquid chemical sterilant (such as 2% glutaraldehyde) for 10 hours",
+      "Clean them in an ultrasonic bath using enzymatic detergent followed by alcohol surface disinfection",
+      "Process them through an automated instrument washer-disinfector without thermal drying"
     ],
-    "correctAnswer": 2,
-    "explanation": "For heat-sensitive instruments that cannot be autoclaved, cold sterilization using a high-level disinfectant (e.g., glutaraldehyde, hydrogen peroxide-based solutions) for the manufacturer's recommended immersion time is the appropriate method to achieve sterilization. Immersion in glutaraldehyde for only 10 minutes typically achieves high-level disinfection, not sterilization. An ultrasonic cleaner is for cleaning, not sterilization.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian IPAC guidelines mandate that heat-sensitive critical and semi-critical items be replaced with heat-tolerant alternatives or single-use disposables, as liquid chemical immersion ('cold sterilization') cannot be biologically monitored with spore tests, poses toxic hazards, and cannot maintain sterility after packaging. Liquid chemical sterilants like glutaraldehyde cannot be verified by biological indicators and are not accepted for routine processing, ultrasonic enzymatic cleaning achieves only pre-cleaning rather than sterilization, and washer-disinfectors provide high-level thermal disinfection rather than true sterilization.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Canadian IPAC standards require prolonged immersion in a high-level chemical disinfectant/sterilant for the manufacturer-recommended duration (typically 6-10 hours) to achieve cold sterilization.",
-      "verifiedAt": "2026-11-18T04:59:20.184Z"
+      "clinicalRationale": "Option A is correct because Canadian IPAC guidelines mandate that heat-sensitive critical and semi-critical items be replaced with heat-tolerant alternatives or single-use disposables, as liquid chemical immersion ('cold sterilization') cannot be biologically monitored with spore tests, poses toxic hazards, and cannot maintain sterility after packaging. Liquid chemical sterilants like glutaraldehyde cannot be verified by biological indicators and are not accepted for routine processing, ultrasonic enzymatic cleaning achieves only pre-cleaning rather than sterilization, and washer-disinfectors provide high-level thermal disinfection rather than true sterilization.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {
@@ -21772,24 +21772,24 @@
   {
     "id": 468775406,
     "topicId": "operative-dentistry",
-    "question": "A 70-year-old female patient presents with a chief complaint of dry mouth and multiple new carious lesions, particularly at the cementoenamel junction of several teeth. Her medical history includes Sjögren's syndrome, and she is taking a diuretic. Clinical examination confirms severe xerostomia and active root caries. What is the MOST appropriate initial management strategy for this patient's condition?",
+    "question": "A 70-year-old female patient presents with severe xerostomia and active, leathery root caries at the cervical margins of teeth 13, 14, 23, and 33. Her medical history includes Sjögren syndrome and hypertension managed with hydrochlorothiazide. Stimulated salivary flow is severely diminished at < 0.1 mL/min. What is the MOST appropriate initial preventive and medical management strategy for this patient?",
     "options": [
-      "Recommend frequent consumption of sugary beverages to stimulate saliva flow.",
-      "Prescribe systemic antibiotics to eliminate cariogenic bacteria.",
-      "Advise strict oral hygiene, fluoride varnish applications, and salivary substitutes.",
-      "Recommend complete extraction of all affected teeth and fabrication of dentures."
+      "Prescription of 1.1% (5,000 ppm) sodium fluoride dentifrice, in-office 5% sodium fluoride varnish, and saliva substitutes",
+      "Prescription of 0.12% chlorhexidine gluconate oral rinse as the sole preventive agent without topical fluoride",
+      "Immediate preparation of all affected teeth for full-coverage crowns prior to medical stabilization",
+      "Systemic antibiotic therapy with amoxicillin to eradicate cariogenic oral biofilm"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is Option C. Patients with Sjögren's syndrome and xerostomia are at high risk for rapid caries progression, particularly root caries. The standard of care for initial management involves non-invasive preventive measures: rigorous oral hygiene, high-fluoride products (such as fluoride varnish or prescription toothpaste) to remineralize and strengthen enamel/root surfaces, and the use of salivary substitutes or stimulants to manage dryness. Option A is incorrect because sugary beverages provide a substrate for cariogenic bacteria, worsening the condition. Option B is incorrect because systemic antibiotics are not indicated for the management of dental caries or xerostomia. Option D is incorrect because extraction of all teeth is an extreme and inappropriate initial response; conservative and restorative dentistry should be prioritized to preserve natural dentition.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because high-concentration topical fluoride (5,000 ppm dentifrice and 5% sodium fluoride varnish) combined with salivary substitutes delivers optimal remineralization and acid resistance for exposed root surfaces in patients with severe salivary hypofunction. Chlorhexidine alone lacks remineralizing capability and is insufficient to arrest root caries without intensive fluoride therapy, immediate full-coverage crown preparation without medical stabilization leads to rapid recurrent margin failure, and systemic antibiotics are ineffective and strictly contraindicated for biofilm-mediated dental caries.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "In medically induced severe xerostomia with active root caries, initial management focuses on preventive remineralization (5% NaF varnish, high-fluoride dentifrice), meticulous oral hygiene, and salivary substitutes. Extraction or systemic antibiotics are clinically inappropriate.",
-      "verifiedAt": "2026-11-18T05:00:02.943Z"
+      "clinicalRationale": "Option A is correct because high-concentration topical fluoride (5,000 ppm dentifrice and 5% sodium fluoride varnish) combined with salivary substitutes delivers optimal remineralization and acid resistance for exposed root surfaces in patients with severe salivary hypofunction. Chlorhexidine alone lacks remineralizing capability and is insufficient to arrest root caries without intensive fluoride therapy, immediate full-coverage crown preparation without medical stabilization leads to rapid recurrent margin failure, and systemic antibiotics are ineffective and strictly contraindicated for biofilm-mediated dental caries.",
+      "verifiedAt": "2026-11-22T04:47:32.450Z"
     }
   },
   {

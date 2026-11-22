@@ -5072,25 +5072,25 @@
   {
     "id": 230,
     "topicId": "implants",
-    "question": "A 35-year-old male patient presents with a missing mandibular first molar. A CBCT scan reveals sufficient bone width and height, but the proposed implant path is in close proximity to the mental foramen. Which of the following radiographic measurements is the MOST crucial to determine the safety of implant placement in this specific anatomical region?",
+    "question": "A 35-year-old male is being treatment planned for a single dental implant to replace a missing mandibular right first molar (tooth 46). Cross-sectional CBCT reformats are evaluated to determine the osteotomy dimensions. Which of the following radiographic anatomical measurements is the MOST critical to ensure neurological safety during implant placement in this site?",
     "options": [
-      "Buccolingual width of the alveolar ridge",
-      "Mesiodistal angulation of the adjacent teeth",
-      "Vertical distance from the implant apex to the inferior alveolar nerve canal",
-      "Vertical distance from the implant apex to the superior border of the mental foramen"
+      "Vertical distance from the planned implant apex to the superior border of the mental foramen",
+      "Mesiodistal distance from the planned implant body to the adjacent crown of tooth 45",
+      "Vertical distance from the planned implant apex to the superior border of the inferior alveolar nerve canal",
+      "Transverse thickness of the lingual cortical plate at the level of the mylohyoid ridge"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is Option 3. In the region of the mandibular first molar, the mental foramen is the critical anatomical landmark representing the exit point of the mental nerve, a terminal branch of the inferior alveolar nerve (IAN). The mental nerve is highly susceptible to injury during implant placement in this area, leading to paresthesia or anesthesia of the lower lip and chin. While the IAN canal is a general safety concern in the posterior mandible, the mental foramen is the specific, immediate, and most vulnerable structure in the first molar region. Therefore, the vertical distance from the proposed implant apex to the superior border of the mental foramen is the most crucial measurement to ensure a safe margin (typically at least 2 mm) and avoid direct trauma to the nerve. Option 0 (Buccolingual width) is important for implant stability and prosthetic design but does not address the neurovascular safety concern highlighted in the stem. Option 1 (Mesiodistal angulation) is relevant for prosthetic alignment and avoiding contact with adjacent teeth but is not the primary safety factor regarding nerve injury. Option 2 (Distance to IAN canal) is a valid safety measurement, but in the specific context of the first molar and the mental foramen, the distance to the foramen itself is the more precise and critical determinant of safety, as the nerve exits the canal at this point and is less protected by bone.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because the mandibular first molar (tooth 46) is positioned directly coronal to the inferior alveolar nerve canal, requiring a mandatory safety margin of at least 2 mm between the osteotomy apex and the superior border of the canal to prevent nerve compression or transection. The mental foramen is located anteriorly in the mandibular premolar region (teeth 44 and 45) and is not adjacent to the first molar site. Mesiodistal spacing to tooth 45 ensures proper prosthetic emergence and interproximal bone preservation rather than neurological safety, while lingual cortical thickness assesses ridge contour and lingual concavity rather than nerve distance.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because the mandibular first molar (tooth 46) is positioned directly coronal to the inferior alveolar nerve canal, requiring a mandatory safety margin of at least 2 mm between the osteotomy apex and the superior border of the canal to prevent nerve compression or transection. The mental foramen is located anteriorly in the mandibular premolar region (teeth 44 and 45) and is not adjacent to the first molar site. Mesiodistal spacing to tooth 45 ensures proper prosthetic emergence and interproximal bone preservation rather than neurological safety, while lingual cortical thickness assesses ridge contour and lingual concavity rather than nerve distance.",
+      "verifiedAt": "2026-11-22T04:47:32.594Z"
     }
   },
   {
@@ -6089,23 +6089,23 @@
   {
     "id": 276,
     "topicId": "implants",
-    "question": "A 62-year-old female presents with a non-restorable mandibular right first molar (tooth 46) secondary to an extensive vertical root fracture. She is in good health and desires an implant-supported fixed restoration. Periapical radiographs show adequate bone height above the inferior alveolar canal. What is the MOST appropriate initial step in treatment planning for this patient?",
+    "question": "A 62-year-old female presents with a non-restorable permanent mandibular right first molar (tooth 46) secondary to an extensive vertical root fracture. She is in good health and desires an implant-supported fixed restoration. Periapical radiographs demonstrate adequate bone height above the inferior alveolar canal. What is the MOST appropriate initial step in treatment planning for this patient?",
     "options": [
-      "Comprehensive clinical examination and prosthetically driven 3D CBCT diagnostic planning.",
-      "Immediate empirical prescription of prophylactic amoxicillin prior to surgical consultation.",
-      "Immediate surgical guide fabrication directly over the mobile, fractured coronal tooth segments.",
-      "Immediate flap reflection and blind implant placement without pre-operative radiographic stent fabrication."
+      "Perform a comprehensive clinical evaluation and prosthetically driven three-dimensional (3D) CBCT diagnostic planning.",
+      "Proceed directly with tooth extraction and immediate implant placement based solely on the two-dimensional periapical radiograph.",
+      "Fabricate a static surgical template directly on diagnostic stone casts prior to obtaining cross-sectional imaging.",
+      "Prescribe prophylactic amoxicillin 2 g orally to be taken one hour prior to the initial surgical consultation."
     ],
     "correctAnswer": 0,
-    "explanation": "Option A is correct because comprehensive clinical assessment paired with prosthetically driven 3D CBCT imaging represents the indispensable initial step in evaluating bone volume, angulation, and vital anatomical boundaries. Option B is incorrect because prescribing prophylactic antibiotics prior to diagnostic planning violates antimicrobial stewardship principles. Options C and D are incorrect because fabricating guides on fractured teeth or placing implants without pre-operative planning violates established prosthetically driven surgical protocols.",
+    "explanation": "Option A is correct because the standard of care for implant therapy requires a comprehensive clinical evaluation combined with prosthetically driven 3D CBCT imaging to evaluate cross-sectional ridge width, bone volume, angulation, and vital structures before finalizing the surgical plan. Relying solely on two-dimensional periapical radiographs fails to detect horizontal ridge defects, submandibular fossa undercuts, or true buccolingual trajectory. Fabricating a surgical guide without cross-sectional 3D data prevents accurate prosthetically guided placement, and empirical antibiotic prophylaxis is not indicated for initial diagnostic examinations.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Option A is correct because comprehensive clinical assessment paired with prosthetically driven 3D CBCT imaging represents the indispensable initial step in evaluating bone volume, angulation, and vital anatomical boundaries. Option B is incorrect because prescribing prophylactic antibiotics prior to diagnostic planning violates antimicrobial stewardship principles. Options C and D are incorrect because fabricating guides on fractured teeth or placing implants without pre-operative planning violates established prosthetically driven surgical protocols.",
-      "verifiedAt": "2026-11-18T19:21:44.808Z"
+      "clinicalRationale": "Option A is correct because the standard of care for implant therapy requires a comprehensive clinical evaluation combined with prosthetically driven 3D CBCT imaging to evaluate cross-sectional ridge width, bone volume, angulation, and vital structures before finalizing the surgical plan. Relying solely on two-dimensional periapical radiographs fails to detect horizontal ridge defects, submandibular fossa undercuts, or true buccolingual trajectory. Fabricating a surgical guide without cross-sectional 3D data prevents accurate prosthetically guided placement, and empirical antibiotic prophylaxis is not indicated for initial diagnostic examinations.",
+      "verifiedAt": "2026-11-22T04:47:32.594Z"
     }
   },
   {
@@ -6133,23 +6133,23 @@
   {
     "id": 278,
     "topicId": "implants",
-    "question": "A 45-year-old male presents for a 3-month follow-up after receiving a single implant in the mandibular left first molar position. Clinically, there is mild gingival redness around the healing abutment, and probing depths are 3mm with no bleeding on probing. Radiographs show stable crestal bone levels. What is the MOST appropriate diagnosis?",
+    "question": "A 45-year-old male presents for a 3-month post-restoration follow-up of a single implant restoring the mandibular left first molar (tooth 36). Clinical examination reveals localized erythema and edema of the peri-implant marginal mucosa, with bleeding on gentle probing and a probing depth of 3 mm. Periapical radiographs demonstrate stable crestal bone levels consistent with initial remodeling and no progressive bone loss. What is the MOST appropriate diagnosis?",
     "options": [
+      "Peri-implant health",
       "Peri-implantitis",
-      "Early implant failure",
       "Peri-implant mucositis",
-      "Normal peri-implant health"
+      "Early implant failure"
     ],
-    "correctAnswer": 3,
-    "explanation": "According to the 2018 AAP classification of peri‑implant diseases (adopted by the NDEB AFK syllabus) and the criteria outlined in standard texts (e.g., Carranza & Newman, Sturdevant), peri‑implant health is defined by the absence of clinical inflammation (no bleeding or suppuration on probing), probing depths ≤5 mm, and stable crestal bone levels after the initial remodeling phase. In this case the patient presents 3 months post‑placement with only mild gingival erythema, probing depths of 3 mm, no bleeding on probing, and radiographic bone stability. The erythema alone, without bleeding, is consistent with normal soft‑tissue healing around a healing abutment and does not meet the diagnostic threshold for peri‑implant mucositis, which requires bleeding on probing or suppuration. Consequently, the appropriate diagnosis is “Normal peri‑implant health” (option 3).\n\nWhy the other options are incorrect:\n• Peri‑implantitis (option 0) requires both clinical inflammation (bleeding/suppuration) and progressive bone loss beyond initial remodeling. Bone levels are unchanged and there is no bleeding, so this diagnosis is ruled out.\n• Early implant failure (option 1) is characterized by loss of osseointegration manifested by mobility, pain, or radiographic bone loss within the first few months. The implant is stable, asymptomatic, and shows no bone loss, thus it is not a failure.\n• Peri‑implant mucositis (option 2) is defined by bleeding on probing (or suppuration) with no additional bone loss. The absence of bleeding on probing excludes this condition. The question tests the examinee’s ability to differentiate subtle clinical signs and apply the precise AAP/NDEB criteria, a common board trap.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because according to the 2017 AAP/EFP consensus classification, peri-implant mucositis is defined by clinical signs of peri-implant mucosal inflammation (erythema, swelling) and bleeding on gentle probing without progressive marginal bone loss. Peri-implant health is excluded because it strictly requires the absence of visual erythema and absence of bleeding on probing. Peri-implantitis requires progressive marginal bone loss beyond physiological remodeling in conjunction with bleeding on probing, and early implant failure involves clinical mobility and loss of osseointegration.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because according to the 2017 AAP/EFP consensus classification, peri-implant mucositis is defined by clinical signs of peri-implant mucosal inflammation (erythema, swelling) and bleeding on gentle probing without progressive marginal bone loss. Peri-implant health is excluded because it strictly requires the absence of visual erythema and absence of bleeding on probing. Peri-implantitis requires progressive marginal bone loss beyond physiological remodeling in conjunction with bleeding on probing, and early implant failure involves clinical mobility and loss of osseointegration.",
+      "verifiedAt": "2026-11-22T04:47:32.594Z"
     }
   },
   {
@@ -6177,23 +6177,23 @@
   {
     "id": 280,
     "topicId": "implants",
-    "question": "A 58-year-old female patient presents with a missing maxillary left lateral incisor. Clinical examination reveals insufficient bone volume for standard implant placement, specifically a buccal concavity. She desires an implant-supported restoration. What is the MOST appropriate surgical approach to address the bone deficiency prior to or concurrently with implant placement?",
+    "question": "A 58-year-old female presents with an edentulous space at the site of the maxillary left lateral incisor (tooth 22). Clinical and CBCT examinations reveal a localized horizontal ridge deficiency characterized by a pronounced buccal concavity that prevents standard implant placement. She desires an implant-supported restoration. What is the MOST appropriate surgical technique to reconstruct this horizontal bone defect?",
     "options": [
-      "Guided bone regeneration (GBR) using a bone graft and barrier membrane.",
-      "Immediate implant placement with provisional restoration.",
-      "Placement of a shorter, narrower implant to avoid grafting.",
-      "Extraction of adjacent teeth to gain more bone volume."
+      "Guided bone regeneration (GBR) using a particulate bone graft and a barrier membrane",
+      "Placement of a short 6-mm implant to circumvent the buccal bone deficiency",
+      "Transcrestal sinus floor elevation with particulate bone grafting",
+      "Distraction osteogenesis of the anterior maxillary alveolar ridge"
     ],
     "correctAnswer": 0,
-    "explanation": "Guided bone regeneration (GBR) utilizing bone grafting material and a barrier membrane is the MOST appropriate surgical approach to augment insufficient bone volume, such as a buccal concavity, for future implant placement. Immediate implant placement with a provisional restoration would be contraindicated due to insufficient bone, while using a shorter/narrower implant may compromise prognosis, and extracting adjacent healthy teeth is unwarranted.",
+    "explanation": "Option A is correct because guided bone regeneration (GBR) utilizing particulate bone graft material and a resorbable or non-resorbable barrier membrane is the gold standard, evidence-based surgical procedure for reconstructing localized horizontal alveolar ridge deficiencies and buccal concavities. Placing a short implant addresses inadequate vertical bone height rather than deficient buccolingual width and would result in exposed implant threads or malposition. Sinus floor elevation is anatomically restricted to the posterior maxilla, and distraction osteogenesis is indicated for extensive vertical segmental defects across multiple teeth rather than a single-tooth horizontal concavity.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because guided bone regeneration (GBR) utilizing particulate bone graft material and a resorbable or non-resorbable barrier membrane is the gold standard, evidence-based surgical procedure for reconstructing localized horizontal alveolar ridge deficiencies and buccal concavities. Placing a short implant addresses inadequate vertical bone height rather than deficient buccolingual width and would result in exposed implant threads or malposition. Sinus floor elevation is anatomically restricted to the posterior maxilla, and distraction osteogenesis is indicated for extensive vertical segmental defects across multiple teeth rather than a single-tooth horizontal concavity.",
+      "verifiedAt": "2026-11-22T04:47:32.594Z"
     }
   },
   {
@@ -6222,23 +6222,23 @@
   {
     "id": 282,
     "topicId": "implants",
-    "question": "A 70-year-old male patient presents with a history of long-term anticoagulant therapy (warfarin) for atrial fibrillation. He requires a single implant in the posterior mandible. His INR is stable at 2.5. What is the MOST appropriate management strategy regarding his anticoagulant medication for implant surgery?",
+    "question": "A 70-year-old male with chronic non-valvular atrial fibrillation managed on warfarin therapy requires surgical placement of a single dental implant at the site of tooth 36. An international normalized ratio (INR) test performed 24 hours prior to surgery is 2.5. According to Canadian Dental Association (CDA) and Thrombosis Canada guidelines, what is the MOST appropriate management strategy regarding his anticoagulant medication?",
     "options": [
-      "Discontinue warfarin 7 days prior to surgery.",
-      "Proceed with surgery without altering warfarin, but ensure local hemostasis.",
-      "Increase warfarin dosage to prevent thrombosis during surgery.",
-      "Switch to a direct oral anticoagulant (DOAC) 2 days prior to surgery."
+      "Discontinue warfarin 5 days prior to surgery and resume the regular dose 24 hours postoperatively.",
+      "Proceed with implant surgery without altering the warfarin dose, and utilize local hemostatic measures.",
+      "Discontinue warfarin 3 days prior to surgery and initiate bridging therapy with subcutaneous low-molecular-weight heparin.",
+      "Withhold warfarin for 24 hours preoperatively and administer oral vitamin K to reduce the INR below 1.5."
     ],
     "correctAnswer": 1,
-    "explanation": "For minor oral surgical procedures like single implant placement, a stable INR up to 3.0-3.5 typically allows for continuation of warfarin with meticulous local hemostasis measures. Discontinuation of warfarin carries a higher risk of thromboembolic events, while increasing the dosage or switching to DOACs for this specific scenario are generally not recommended due to increased bleeding risk or complexity.",
+    "explanation": "Option B is correct because according to CDA and Thrombosis Canada guidelines, patients on therapeutic warfarin with a stable INR ≤ 3.0 undergoing minor oral surgical procedures (including single implant placement) should continue their medication without interruption, managing bleeding through local hemostatic measures such as gelatin sponges, sutures, and tranexamic acid mouthwash. Discontinuing warfarin or reversing it with vitamin K exposes the patient to an unacceptable risk of arterial thromboembolism and stroke. Bridging with low-molecular-weight heparin is not indicated for low-bleeding-risk outpatient dental procedures because it significantly increases surgical bleeding complications without providing superior thromboembolic protection.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because according to CDA and Thrombosis Canada guidelines, patients on therapeutic warfarin with a stable INR ≤ 3.0 undergoing minor oral surgical procedures (including single implant placement) should continue their medication without interruption, managing bleeding through local hemostatic measures such as gelatin sponges, sutures, and tranexamic acid mouthwash. Discontinuing warfarin or reversing it with vitamin K exposes the patient to an unacceptable risk of arterial thromboembolism and stroke. Bridging with low-molecular-weight heparin is not indicated for low-bleeding-risk outpatient dental procedures because it significantly increases surgical bleeding complications without providing superior thromboembolic protection.",
+      "verifiedAt": "2026-11-22T04:47:32.594Z"
     }
   },
   {
@@ -6266,45 +6266,45 @@
   {
     "id": 284,
     "topicId": "implants",
-    "question": "A 65-year-old female patient presents with a completely edentulous mandible and currently uses a conventional complete denture with poor retention. She desires improved stability and function. Radiographs show adequate bone volume for two implants in the canine regions. What is the MOST appropriate implant-supported prosthetic option for this patient's initial treatment?",
+    "question": "A 65-year-old female presents with a completely edentulous mandible and reports significant instability and lack of retention with her conventional complete denture. Radiographic examination reveals adequate bone height and width in the interforaminal region for implant placement at the mandibular canine sites (teeth 33 and 43). Based on the McGill Consensus statement, what is the first-choice standard of care treatment to restore this patient's mandibular arch?",
     "options": [
-      "Two-implant-retained overdenture.",
-      "Full-arch fixed partial denture supported by 4-6 implants.",
-      "Conventional complete denture with adhesive.",
-      "Single implant to support a fixed crown."
+      "Two-implant-retained mandibular overdenture",
+      "Four-implant-supported fixed complete prosthesis",
+      "Fabrication of a new conventional mandibular complete denture with a soft liner",
+      "Subperiosteal implant-supported complete mandibular prosthesis"
     ],
     "correctAnswer": 0,
-    "explanation": "For an edentulous mandible with poor conventional denture retention, a two-implant-retained overdenture is often the MOST appropriate and cost-effective initial implant-supported prosthetic option, significantly improving stability and patient satisfaction. A full-arch fixed prosthesis is a more complex and expensive option, while a conventional denture with adhesive does not address the underlying retention issue, and a single implant is insufficient for an edentulous arch.",
+    "explanation": "Option A is correct because the McGill Consensus Statement on Overdentures established that a two-implant-retained mandibular overdenture is the first-choice standard of care for an edentulous mandible, offering significant improvements in retention, stability, chewing efficiency, and quality of life over conventional dentures. While a four-implant fixed complete prosthesis is a viable restorative option, it requires additional implants, greater bone volume, and significantly higher financial investment, making it an alternative rather than the baseline first-choice standard. Fabricating another conventional denture fails to overcome anatomical retention loss in a resorbed ridge, and subperiosteal implants are obsolete with high long-term complication rates.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the McGill Consensus Statement on Overdentures established that a two-implant-retained mandibular overdenture is the first-choice standard of care for an edentulous mandible, offering significant improvements in retention, stability, chewing efficiency, and quality of life over conventional dentures. While a four-implant fixed complete prosthesis is a viable restorative option, it requires additional implants, greater bone volume, and significantly higher financial investment, making it an alternative rather than the baseline first-choice standard. Fabricating another conventional denture fails to overcome anatomical retention loss in a resorbed ridge, and subperiosteal implants are obsolete with high long-term complication rates.",
+      "verifiedAt": "2026-11-22T04:47:32.594Z"
     }
   },
   {
     "id": 285,
     "topicId": "implants",
-    "question": "What is the primary purpose of modifying the implant surface topography (e.g., sandblasting, acid-etching)?",
+    "question": "What is the primary biological and biomechanical purpose of modifying dental implant surface micro-topography through techniques such as sandblasting and acid-etching?",
     "options": [
-      "To increase the overall diameter of the implant.",
-      "To enhance osseointegration by increasing surface area and promoting cell attachment.",
-      "To reduce the cost of implant manufacturing.",
-      "To improve the esthetic appearance of the implant."
+      "To achieve primary mechanical stability during surgical insertion through macro-mechanical interlocking with bone",
+      "To enhance osseointegration by increasing bone-to-implant contact and promoting osteoblast adhesion and differentiation",
+      "To reduce peri-implant bacterial adhesion and plaque accumulation along the transmucosal implant collar",
+      "To eliminate the microgap at the implant-abutment connection interface and prevent microleakage"
     ],
     "correctAnswer": 1,
-    "explanation": "Surface modifications like sandblasting and acid-etching primarily aim to create a rougher, more complex surface topography, which increases the surface area for bone apposition and provides optimal conditions for osteoblast attachment and differentiation, thereby enhancing osseointegration. These modifications do not alter implant diameter, reduce cost, or improve the implant's esthetic appearance inside the bone.",
+    "explanation": "Option B is correct because sandblasting and acid-etching create a moderately rough micro-topography that increases the effective surface area, stabilizes the initial fibrin clot, and promotes osteoblast attachment and osteogenesis, thereby accelerating osseointegration and maximizing bone-to-implant contact (BIC). Primary mechanical stability is governed by macroscopic implant geometry (thread pitch, depth, and taper) rather than microscopic surface roughness. Moderately rough surfaces actually increase bacterial retention if exposed to the oral cavity, which is why smooth or polished surfaces are preferred for transmucosal margins, and microgaps are eliminated through precision engineering of internal conical connections rather than surface etching.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because sandblasting and acid-etching create a moderately rough micro-topography that increases the effective surface area, stabilizes the initial fibrin clot, and promotes osteoblast attachment and osteogenesis, thereby accelerating osseointegration and maximizing bone-to-implant contact (BIC). Primary mechanical stability is governed by macroscopic implant geometry (thread pitch, depth, and taper) rather than microscopic surface roughness. Moderately rough surfaces actually increase bacterial retention if exposed to the oral cavity, which is why smooth or polished surfaces are preferred for transmucosal margins, and microgaps are eliminated through precision engineering of internal conical connections rather than surface etching.",
+      "verifiedAt": "2026-11-22T04:47:32.594Z"
     }
   },
   {
@@ -7771,23 +7771,23 @@
   {
     "id": 352,
     "topicId": "implants",
-    "question": "A 60-year-old female patient presents with a non-restorable mandibular right first molar due to a vertical root fracture. Which of the following conditions represents a *relative contraindication* for immediate implant placement into this extraction site?",
+    "question": "A 60-year-old female presents with a non-restorable mandibular right first molar (tooth 46) secondary to a vertical root fracture. Which of the following clinical findings represents an ABSOLUTE contraindication to immediate (Type 1) implant placement into the fresh extraction socket?",
     "options": [
-      "Absence of acute infection.",
-      "Presence of adequate interradicular bone.",
-      "Thick gingival biotype.",
-      "Inadequate primary stability of the implant in the socket."
+      "Active cigarette smoking of 15 cigarettes per day",
+      "Well-controlled type 2 diabetes mellitus with a glycated hemoglobin (HbA1c) of 6.8%",
+      "Presence of a thin periodontal phenotype with a 2-mm buccal bone dehiscence",
+      "Inability to achieve primary implant stability within apical or interradicular bone"
     ],
     "correctAnswer": 3,
-    "explanation": "Inadequate primary stability is a critical relative contraindication for immediate implant placement, as it significantly compromises osseointegration and increases the risk of implant failure. Absence of acute infection, adequate interradicular bone, and a thick gingival biotype are generally favorable conditions for immediate placement.",
+    "explanation": "Option D is correct because achieving primary mechanical stability (typically ≥ 30-35 Ncm) is a mandatory biological prerequisite for osseointegration; if apical or interradicular bone cannot provide primary stability, immediate implant placement is absolutely contraindicated, requiring ridge preservation and delayed placement instead. Cigarette smoking and controlled diabetes (HbA1c < 7%) are relative risk factors that may impair wound healing but do not absolutely preclude implant therapy. A thin periodontal phenotype or localized buccal dehiscence is a local anatomical risk factor that can be managed concurrently with guided bone regeneration rather than precluding immediate placement.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because achieving primary mechanical stability (typically ≥ 30-35 Ncm) is a mandatory biological prerequisite for osseointegration; if apical or interradicular bone cannot provide primary stability, immediate implant placement is absolutely contraindicated, requiring ridge preservation and delayed placement instead. Cigarette smoking and controlled diabetes (HbA1c < 7%) are relative risk factors that may impair wound healing but do not absolutely preclude implant therapy. A thin periodontal phenotype or localized buccal dehiscence is a local anatomical risk factor that can be managed concurrently with guided bone regeneration rather than precluding immediate placement.",
+      "verifiedAt": "2026-11-22T04:47:32.594Z"
     }
   },
   {
@@ -10663,23 +10663,23 @@
   {
     "id": 483,
     "topicId": "implants",
-    "question": "A 60-year-old male patient presents with a missing maxillary right central incisor. He has a history of controlled hypertension and desires an implant. Clinical examination reveals adequate bone width and height. However, the patient expresses concern about the surgical procedure and potential discomfort. Which surgical technique is MOST appropriate to minimize patient discomfort and optimize precision for single implant placement in this aesthetic zone?",
+    "question": "A 60-year-old male presents for replacement of missing tooth 11 with a dental implant. Clinical and radiographic examinations reveal adequate bone width and height with preserved soft-tissue contours in the aesthetic zone. The patient expresses severe anxiety regarding surgical trauma, postoperative pain, and aesthetic outcomes. Which surgical technique is MOST appropriate to optimize three-dimensional implant positioning precision while minimizing patient discomfort?",
     "options": [
-      "Guided implant surgery using a surgical template.",
-      "Transcrestal sinus lift.",
-      "Freehand implant placement.",
-      "Conventional flapless surgery."
+      "Static computer-assisted guided implant surgery using a rigid surgical template.",
+      "Freehand implant placement following full-thickness mucoperiosteal flap reflection.",
+      "Freehand flapless implant placement without a surgical template.",
+      "Staged ridge augmentation followed by delayed two-stage implant placement."
     ],
     "correctAnswer": 0,
-    "explanation": "Guided implant surgery using a surgical template offers optimal precision, minimizes trauma, and can often be performed flapless, significantly reducing post-operative discomfort and swelling, which is ideal for a patient concerned about the procedure and for critical aesthetic zone placement. Freehand placement relies solely on the surgeon's skill and has lower precision. Conventional flapless surgery still lacks the precision of guided surgery. A transcrestal sinus lift is a specific procedure for sinus augmentation, not general implant placement.",
+    "explanation": "Option A is correct because static computer-assisted guided implant surgery utilizes a rigid template to ensure optimal three-dimensional prosthetic positioning in the aesthetic zone of tooth 11 while enabling a minimally invasive flapless or mini-flap protocol that reduces surgical trauma, operative time, and postoperative patient discomfort. Freehand placement with full-thickness flap reflection (Option B) increases postoperative swelling, pain, and soft-tissue morbidity. Freehand flapless placement without a guide (Option C) carries an unacceptably high risk of blind angular deviation and aesthetic failure, while staged ridge augmentation (Option D) is clinically contraindicated because the patient already possesses sufficient native bone volume.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because static computer-assisted guided implant surgery utilizes a rigid template to ensure optimal three-dimensional prosthetic positioning in the aesthetic zone of tooth 11 while enabling a minimally invasive flapless or mini-flap protocol that reduces surgical trauma, operative time, and postoperative patient discomfort. Freehand placement with full-thickness flap reflection (Option B) increases postoperative swelling, pain, and soft-tissue morbidity. Freehand flapless placement without a guide (Option C) carries an unacceptably high risk of blind angular deviation and aesthetic failure, while staged ridge augmentation (Option D) is clinically contraindicated because the patient already possesses sufficient native bone volume.",
+      "verifiedAt": "2026-11-22T04:47:32.594Z"
     }
   },
   {

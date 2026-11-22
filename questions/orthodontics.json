@@ -640,23 +640,23 @@
   {
     "id": 30,
     "topicId": "orthodontics",
-    "question": "A 10-year-old female patient presents with congenitally missing maxillary lateral incisors. Clinical examination confirms sufficient space for her permanent canines to erupt adjacent to the central incisors, but insufficient space for prosthetic replacement of the laterals without further intervention. What is the MOST appropriate long-term orthodontic-restorative treatment approach?",
+    "question": "An 11-year-old female presents with congenitally missing teeth 12 and 22. Her permanent canines (teeth 13 and 23) are erupting mesially into direct contact with the central incisors (teeth 11 and 21). Orthodontic assessment reveals an Angle Class II molar relationship, a balanced facial profile, and ideal alignment of the mandibular arch with no crowding. What is the MOST appropriate orthodontic-restorative treatment plan?",
     "options": [
-      "Maintain/create space orthodontically for future prosthetic replacement of the lateral incisors.",
-      "Close the spaces orthodontically by bringing canines mesially and recontouring them to resemble lateral incisors.",
-      "Extract the permanent canines to create space for incisor alignment.",
-      "No treatment, as the missing teeth do not affect function."
+      "Orthodontic space closure with canine substitution (mesialization of teeth 13 and 23) and subsequent aesthetic recontouring/restoration to resemble lateral incisors.",
+      "Orthodontic space opening and distalization of teeth 13 and 23 to allow future implant placement at age 21.",
+      "Extraction of teeth 13 and 23 followed by removable partial denture placement.",
+      "Maintenance of existing anterior spaces without orthodontic intervention until skeletal maturity."
     ],
     "correctAnswer": 0,
-    "explanation": "For congenitally missing maxillary lateral incisors, the two main options are space closure or space opening for future prosthetics. If there is insufficient space for prosthetics without intervention, the most appropriate approach is to orthodontically create and maintain adequate space for future prosthetic replacement. Closing the spaces by moving canines mesially is an option, but not always ideal aesthetically or functionally without significant recontouring. Extracting permanent canines is generally contraindicated. Ignoring the issue can lead to further malocclusion and functional problems.",
+    "explanation": "Option A is correct because canine substitution (space closure) is the treatment of choice in a patient with missing teeth 12 and 22 who presents with an Angle Class II molar relationship, a balanced facial profile, and teeth 13 and 23 already erupting mesially adjacent to teeth 11 and 21; this finishes in a functional Class II molar occlusion while avoiding a decade of space maintenance and alveolar ridge atrophy prior to implant eligibility. Orthodontic space opening for implants (Option B) is contraindicated as it forces unnecessary maxillary distalization in a Class II malocclusion and causes significant crestal bone resorption during the prolonged waiting period until skeletal maturity. Extracting the permanent canines (Option C) unnecessarily sacrifices critical permanent teeth and compromises aesthetic and functional arch integrity, while avoiding treatment (Option D) allows malocclusion and compromised aesthetics to persist.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "An orthodontic-restorative approach for congenitally missing lateral incisors requires creating and preserving adequate space and root divergence for future implant or prosthetic placement after growth cessation.",
-      "verifiedAt": "2026-11-18T06:21:28.707Z"
+      "clinicalRationale": "Option A is correct because canine substitution (space closure) is the treatment of choice in a patient with missing teeth 12 and 22 who presents with an Angle Class II molar relationship, a balanced facial profile, and teeth 13 and 23 already erupting mesially adjacent to teeth 11 and 21; this finishes in a functional Class II molar occlusion while avoiding a decade of space maintenance and alveolar ridge atrophy prior to implant eligibility. Orthodontic space opening for implants (Option B) is contraindicated as it forces unnecessary maxillary distalization in a Class II malocclusion and causes significant crestal bone resorption during the prolonged waiting period until skeletal maturity. Extracting the permanent canines (Option C) unnecessarily sacrifices critical permanent teeth and compromises aesthetic and functional arch integrity, while avoiding treatment (Option D) allows malocclusion and compromised aesthetics to persist.",
+      "verifiedAt": "2026-11-22T04:47:32.616Z"
     }
   },
   {
@@ -7219,23 +7219,23 @@
   {
     "id": 327,
     "topicId": "orthodontics",
-    "question": "What is the primary biological reason for the common use of clear aligners over removable retainers for active tooth movement?",
+    "question": "Which statement BEST describes the biomechanical force delivery characteristics and periodontal tissue response associated with thermoplastic clear aligners during active orthodontic tooth movement?",
     "options": [
-      "Clear aligners exert continuous, light forces for predictable movement",
-      "Removable retainers are designed only for passive retention, not active movement",
-      "Clear aligners are more comfortable and aesthetically pleasing",
-      "Removable retainers cause more plaque accumulation"
+      "They deliver interrupted forces that decay rapidly due to viscoelastic stress relaxation of the polymer, permitting periodontal ligament recovery and vascular reperfusion between activations.",
+      "They deliver continuous, unvarying light forces that maintain constant capillary pressure in the periodontal ligament throughout the entire wear cycle.",
+      "They deliver intermittent forces generated exclusively during mastication and swallowing without resting force application.",
+      "They deliver heavy continuous forces designed to produce widespread undermining resorption along the entire alveolar compression surface."
     ],
     "correctAnswer": 0,
-    "explanation": "Clear aligners are designed to deliver a series of precise, light, and continuous forces that are biologically optimal for predictable orthodontic tooth movement. While some removable retainers can incorporate active components, their primary role is retention, and they are generally less efficient for comprehensive active movement than aligners. Comfort and aesthetics are patient advantages, but not the primary biological reason for their effectiveness in movement. Plaque accumulation can occur with both types of appliances.",
+    "explanation": "Option A is correct because thermoplastic clear aligners deliver interrupted forces that exhibit rapid decay over the first 24 to 48 hours due to viscoelastic stress relaxation of the polymer; biologically, this force reduction allows capillary reperfusion and periodontal ligament recovery before the next sequential aligner is introduced. Aligners do not deliver continuous, unvarying forces (Option B) because polymer stress relaxation inherently causes force dissipation over time. Intermittent forces (Option C) are characteristic of removable functional appliances or headgear that exert force only when worn or active, while heavy continuous forces that induce extensive undermining resorption (Option D) cause hyalinization and tissue damage rather than predictable physiological tooth movement.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Continuous, light orthodontic forces maintain capillary blood flow in the periodontal ligament, facilitating direct frontal bone resorption rather than undermining resorption and tissue necrosis.",
-      "verifiedAt": "2026-11-18T06:35:48.216Z"
+      "clinicalRationale": "Option A is correct because thermoplastic clear aligners deliver interrupted forces that exhibit rapid decay over the first 24 to 48 hours due to viscoelastic stress relaxation of the polymer; biologically, this force reduction allows capillary reperfusion and periodontal ligament recovery before the next sequential aligner is introduced. Aligners do not deliver continuous, unvarying forces (Option B) because polymer stress relaxation inherently causes force dissipation over time. Intermittent forces (Option C) are characteristic of removable functional appliances or headgear that exert force only when worn or active, while heavy continuous forces that induce extensive undermining resorption (Option D) cause hyalinization and tissue damage rather than predictable physiological tooth movement.",
+      "verifiedAt": "2026-11-22T04:47:32.616Z"
     }
   },
   {
@@ -7396,23 +7396,23 @@
   {
     "id": 335,
     "topicId": "orthodontics",
-    "question": "An 8-year-old female patient presents with a congenitally missing maxillary lateral incisor (right side). The maxillary right central incisor has a diastema to the left, and the primary canine is still present. The permanent canine is palpable high in the vestibule. What is the MOST appropriate initial management strategy?",
+    "question": "An 8-year-old female patient presents with congenitally missing tooth 12. Clinical examination reveals tooth 11 with a midline diastema, retained tooth 53, and an unerupted tooth 13 that is palpable high in the labial vestibule. What is the MOST appropriate initial management strategy?",
     "options": [
-      "Immediate extraction of the primary canine and orthodontic space closure",
-      "Maintain the primary canine and prepare for prosthetic replacement of the lateral incisor",
-      "Allow the permanent canine to erupt and monitor its position",
-      "Extract the primary canine and guide the permanent canine into the lateral incisor position"
+      "Extract tooth 53 immediately to initiate orthodontic space closure",
+      "Place a fixed resin-bonded prosthesis to replace tooth 12",
+      "Retain tooth 53 and monitor the eruption and developmental position of tooth 13",
+      "Perform surgical exposure and orthodontic traction of tooth 13"
     ],
-    "correctAnswer": 3,
-    "explanation": "For a congenitally missing maxillary lateral incisor in a growing patient, extracting the primary canine and orthodontically guiding the permanent canine into the lateral incisor position (canine substitution) is a common and often successful strategy, especially if the permanent canine has favorable morphology and color. This avoids the need for prosthetic replacement long-term. Immediate extraction and space closure might lead to a smaller arch. Maintaining the primary canine is not a long-term solution. Simply monitoring the permanent canine without guidance may result in its impaction or ectopic eruption.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because in an 8-year-old patient in the mixed dentition, retaining tooth 53 and monitoring the eruption trajectory of tooth 13 is the indicated conservative approach before committing to definitive space opening or closure. Immediate extraction of tooth 53 (Option A) or surgical exposure and traction (Option D) is premature and unnecessarily invasive for an asymptomatic, developing canine. Definitive prosthetic replacement (Option B) is contraindicated in an actively growing dental arch.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Extracting the primary canine (tooth 53) at age 8 intercepts the eruptive path of the permanent canine (tooth 13), guiding it mesially into the congenitally missing lateral incisor site for canine substitution.",
-      "verifiedAt": "2026-11-18T06:35:48.216Z"
+      "clinicalRationale": "Option C is correct because in an 8-year-old patient in the mixed dentition, retaining tooth 53 and monitoring the eruption trajectory of tooth 13 is the indicated conservative approach before committing to definitive space opening or closure. Immediate extraction of tooth 53 (Option A) or surgical exposure and traction (Option D) is premature and unnecessarily invasive for an asymptomatic, developing canine. Definitive prosthetic replacement (Option B) is contraindicated in an actively growing dental arch.",
+      "verifiedAt": "2026-11-22T04:47:32.616Z"
     }
   },
   {
@@ -8749,15 +8749,15 @@
   {
     "id": 396,
     "topicId": "orthodontics",
-    "question": "A 7-year-old male patient presents following the premature extraction of tooth 74 due to severe dental caries. Tooth 36 has fully erupted, and tooth 75 has tipped mesially, resulting in 3 mm of space loss in the tooth 74 quadrant. What is the MOST appropriate initial management?",
+    "question": "A 7-year-old male patient presents following the premature extraction of tooth 74 due to severe dental caries. Tooth 36 has fully erupted, and tooth 75 has tipped mesially, resulting in 3 mm of space loss in the mandibular left quadrant. What is the MOST appropriate initial management?",
     "options": [
-      "Use an active space-regaining appliance followed by space maintenance",
-      "Place a passive band-and-loop space maintainer without tooth movement",
-      "Observe periodically until eruption of tooth 34, expecting spontaneous space recovery",
-      "Extract opposing tooth 54 to prevent supraeruption and maintain occlusal harmony"
+      "Fabricate an active space-regaining appliance followed by space maintenance",
+      "Place a passive band-and-loop space maintainer on tooth 75 without prior tooth movement",
+      "Observe periodically until eruption of tooth 34 without active appliance intervention",
+      "Place a passive lower lingual holding arch to maintain current arch dimensions"
     ],
     "correctAnswer": 0,
-    "explanation": "Option A is correct because once premature loss of tooth 74 has led to space loss from mesial tipping of tooth 75 and tooth 36, an active space-regaining appliance must be utilized to recover arch length before placing a passive maintainer. A passive band-and-loop maintainer (Option B) can only preserve existing space and cannot distalize tipped teeth. Dental arches do not exhibit spontaneous space reopening (Option C), and extracting healthy tooth 54 (Option D) causes unnecessary tooth loss and further occlusal collapse.",
+    "explanation": "Option A is correct because when 3 mm of space has already been lost due to mesial tipping of tooth 75 following premature loss of tooth 74, an active space-regaining appliance is required to re-establish adequate arch length for succedaneous tooth 34 prior to space maintenance. Passive appliances such as a band-and-loop (Option B) or lower lingual holding arch (Option D) cannot regain lost space and will maintain the malposition. Observation alone (Option C) will result in persistent arch length deficiency and impaction or ectopic eruption of tooth 34.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
@@ -8765,30 +8765,30 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Option A is correct because once premature loss of tooth 74 has led to space loss from mesial tipping of tooth 75 and tooth 36, an active space-regaining appliance must be utilized to recover arch length before placing a passive maintainer. A passive band-and-loop maintainer (Option B) can only preserve existing space and cannot distalize tipped teeth. Dental arches do not exhibit spontaneous space reopening (Option C), and extracting healthy tooth 54 (Option D) causes unnecessary tooth loss and further occlusal collapse.",
-      "verifiedAt": "2026-11-18T19:21:44.837Z"
+      "clinicalRationale": "Option A is correct because when 3 mm of space has already been lost due to mesial tipping of tooth 75 following premature loss of tooth 74, an active space-regaining appliance is required to re-establish adequate arch length for succedaneous tooth 34 prior to space maintenance. Passive appliances such as a band-and-loop (Option B) or lower lingual holding arch (Option D) cannot regain lost space and will maintain the malposition. Observation alone (Option C) will result in persistent arch length deficiency and impaction or ectopic eruption of tooth 34.",
+      "verifiedAt": "2026-11-22T04:47:32.616Z"
     }
   },
   {
     "id": 397,
     "topicId": "orthodontics",
-    "question": "A 9-year-old female patient presents with a skeletal Class II malocclusion (ANB = 6 degrees), a prominent overjet of 7mm, and a deep bite. She is in the mixed dentition and has a growing skeletal pattern. Her parents are concerned about the esthetics and potential for trauma to the maxillary incisors. What is the MOST appropriate initial treatment approach for this patient?",
+    "question": "A 9-year-old female patient presents with a skeletal Class II malocclusion (ANB = 6 degrees), an overjet of 7 mm, and a deep impinging bite in the mixed dentition. Her parents are concerned about facial aesthetics and the risk of traumatic injury to her maxillary incisors. What is the MOST appropriate initial treatment approach?",
     "options": [
-      "Wait until all permanent teeth have erupted before initiating any treatment.",
-      "Initiate comprehensive fixed orthodontic treatment with extraction of premolars.",
-      "Prescribe a functional appliance (e.g., Herbst or Bionator) to encourage mandibular growth.",
-      "Extract the maxillary central incisors to reduce the overjet."
+      "Delay all orthodontic intervention until the permanent dentition is fully erupted",
+      "Initiate comprehensive fixed appliance therapy with extraction of maxillary premolars",
+      "Deliver a functional orthopedic appliance to modify mandibular growth and reduce overjet",
+      "Plan for surgical mandibular advancement via bilateral sagittal split osteotomy"
     ],
     "correctAnswer": 2,
-    "explanation": "In a growing patient with a skeletal Class II malocclusion and significant overjet, a functional appliance (Option C) is the most appropriate initial treatment to encourage mandibular growth, reduce the overjet, and correct the skeletal discrepancy during the growth spurt. Waiting (Option A) would miss the optimal window for growth modification.",
+    "explanation": "Option C is correct because Phase 1 interceptive treatment using a functional orthopedic appliance (such as a Twin Block or Bionator) in an actively growing 9-year-old effectively reduces excessive overjet, corrects deep bite, and significantly lowers the risk of traumatic dental injury to maxillary incisors. Delaying treatment until the permanent dentition (Option A) leaves prominent incisors vulnerable to fracture throughout childhood. Comprehensive premolar extractions (Option B) and orthognathic surgery (Option D) are inappropriate during the mixed dentition while substantial skeletal growth potential remains.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "In a growing 9-year-old with a skeletal Class II discrepancy and severe overjet (7 mm) predisposing to dental trauma, Phase I growth modification using a functional appliance is indicated. The clinical premise complies with NDEB guidelines.",
-      "verifiedAt": "2026-11-18T06:35:37.103Z"
+      "clinicalRationale": "Option C is correct because Phase 1 interceptive treatment using a functional orthopedic appliance (such as a Twin Block or Bionator) in an actively growing 9-year-old effectively reduces excessive overjet, corrects deep bite, and significantly lowers the risk of traumatic dental injury to maxillary incisors. Delaying treatment until the permanent dentition (Option A) leaves prominent incisors vulnerable to fracture throughout childhood. Comprehensive premolar extractions (Option B) and orthognathic surgery (Option D) are inappropriate during the mixed dentition while substantial skeletal growth potential remains.",
+      "verifiedAt": "2026-11-22T04:47:32.616Z"
     }
   },
   {
@@ -8816,23 +8816,23 @@
   {
     "id": 399,
     "topicId": "orthodontics",
-    "question": "A 7-year-old female patient presents with a severe anterior open bite (5mm), a constricted maxillary arch, and protruded maxillary incisors. Her mother reports a persistent thumb-sucking habit that has continued since infancy. What is the MOST important initial step in managing this patient's malocclusion?",
+    "question": "A 7-year-old female patient presents with a 5 mm anterior open bite, a constricted maxillary arch, and flared maxillary incisors. Her parent reports a persistent thumb-sucking habit that has continued since infancy. What is the MOST appropriate initial interceptive management for this patient's malocclusion?",
     "options": [
-      "Fabricate a palatal crib or habit-breaking appliance.",
-      "Initiate fixed appliance therapy to correct the open bite.",
-      "Wait until the permanent dentition erupts to assess the severity.",
-      "Recommend extraction of the maxillary incisors."
+      "Fabricate and cement a fixed palatal crib habit-breaking appliance",
+      "Initiate comprehensive full-arch fixed orthodontic appliance therapy",
+      "Delay all orthodontic intervention until the permanent dentition has fully erupted",
+      "Fabricate a removable maxillary flat bite plate without a tongue or habit barrier"
     ],
     "correctAnswer": 0,
-    "explanation": "The MOST important initial step is to eliminate the persistent thumb-sucking habit, as it is the primary etiological factor causing the anterior open bite, constricted maxilla, and incisor protrusion. A palatal crib or habit-breaking appliance (Option A) is effective for this purpose. Fixed appliance therapy (Option B) will likely fail or relapse if the habit persists, and waiting (Option C) is inappropriate.",
+    "explanation": "Option A is correct because the definitive initial step in managing an anterior open bite and maxillary constriction secondary to a persistent digit-sucking habit in an early mixed dentition patient is a fixed palatal crib to eliminate the non-nutritive habit. Comprehensive fixed appliance therapy (Option B) is ineffective and prone to relapse without habit cessation. Delaying intervention until full permanent eruption (Option C) allows progressive skeletal deformation of the maxilla and alveolus. A flat bite plate without a habit barrier (Option D) does not prevent thumb insertion.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Etiological habit cessation using a habit-breaking appliance (e.g., palatal crib) is the mandatory initial step to facilitate spontaneous dentoalveolar correction in a 7-year-old child. The question meets Canadian dental standards.",
-      "verifiedAt": "2026-11-18T06:35:37.103Z"
+      "clinicalRationale": "Option A is correct because the definitive initial step in managing an anterior open bite and maxillary constriction secondary to a persistent digit-sucking habit in an early mixed dentition patient is a fixed palatal crib to eliminate the non-nutritive habit. Comprehensive fixed appliance therapy (Option B) is ineffective and prone to relapse without habit cessation. Delaying intervention until full permanent eruption (Option C) allows progressive skeletal deformation of the maxilla and alveolus. A flat bite plate without a habit barrier (Option D) does not prevent thumb insertion.",
+      "verifiedAt": "2026-11-22T04:47:32.616Z"
     }
   },
   {
@@ -8926,15 +8926,15 @@
   {
     "id": 404,
     "topicId": "orthodontics",
-    "question": "Which type of extraoral headgear is primarily indicated for the restriction of vertical maxillary growth and the distalization of maxillary molars?",
+    "question": "Which type of extraoral headgear is primarily indicated for the restriction of vertical maxillary growth and the distalization of maxillary molars in a hyperdivergent Class II patient?",
     "options": [
-      "Cervical pull headgear",
+      "Cervical-pull headgear",
       "High-pull headgear",
-      "Reverse-pull headgear (face mask)",
-      "Bite turbos"
+      "Reverse-pull headgear (facemask)",
+      "Straight-pull (combination) headgear"
     ],
     "correctAnswer": 1,
-    "explanation": "High-pull headgear is the correct answer because it applies a force vector directed superiorly and posteriorly. This vector is specifically designed to restrict vertical maxillary growth (counteracting hyperdivergent growth patterns) while simultaneously distalizing the maxillary molars. Cervical pull headgear applies a force vector directed inferiorly and posteriorly, which tends to extrude the maxillary molars and increase vertical facial height, making it contraindicated for vertical restriction. Reverse-pull headgear (face mask) is used to protract the maxilla, not restrict its growth or distalize molars. Bite turbos are intraoral appliances used to open the bite and do not provide the extraoral anchorage required for significant skeletal modification or molar distalization in this context.",
+    "explanation": "Option B is correct because high-pull headgear directs force superiorly and posteriorly above the center of resistance of the maxilla and maxillary molars, providing vertical intrusion or growth restriction of the maxilla along with molar distalization. Cervical-pull headgear (Option A) directs force inferiorly and posteriorly below the center of resistance, extruding molars and opening the bite, which is contraindicated in hyperdivergent patients. Reverse-pull headgear (Option C) protracts the maxilla in Class III malocclusions. Straight-pull headgear (Option D) directs forces purely horizontally without vertical intrusive control.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
@@ -8942,8 +8942,8 @@
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "High-pull headgear provides an intrusive (superior) and distal force vector that restricts vertical maxillary growth and distalizes maxillary molars in hyperdivergent Class II patients.",
-      "verifiedAt": "2026-11-18T06:38:46.106Z"
+      "clinicalRationale": "Option B is correct because high-pull headgear directs force superiorly and posteriorly above the center of resistance of the maxilla and maxillary molars, providing vertical intrusion or growth restriction of the maxilla along with molar distalization. Cervical-pull headgear (Option A) directs force inferiorly and posteriorly below the center of resistance, extruding molars and opening the bite, which is contraindicated in hyperdivergent patients. Reverse-pull headgear (Option C) protracts the maxilla in Class III malocclusions. Straight-pull headgear (Option D) directs forces purely horizontally without vertical intrusive control.",
+      "verifiedAt": "2026-11-22T04:47:32.616Z"
     }
   },
   {
@@ -9192,23 +9192,23 @@
   {
     "id": 416,
     "topicId": "orthodontics",
-    "question": "A 9-year-old male patient presents with a 3mm anterior open bite. Clinical examination reveals normal tongue posture at rest, but a mild habit of thumb sucking that he is trying to quit. Cephalometric analysis shows a high mandibular plane angle and increased lower facial height. What is the MOST appropriate initial treatment approach?",
+    "question": "A 9-year-old male patient presents with a 3 mm anterior open bite. Clinical examination reveals normal resting tongue posture and a persistent thumb-sucking habit. Cephalometric analysis demonstrates a high mandibular plane angle and increased lower anterior facial height. What is the MOST appropriate initial treatment approach?",
     "options": [
-      "Initiation of fixed orthodontic treatment with vertical elastics.",
-      "Fabrication of a fixed palatal crib to eliminate the thumb-sucking habit.",
-      "Behavioral therapy and a removable appliance to encourage incisor eruption.",
-      "Surgical correction of the skeletal discrepancy."
+      "Initiate fixed orthodontic appliance therapy with anterior vertical elastics to extrude incisors",
+      "Fabricate and cement a fixed palatal crib appliance to eliminate the digit habit",
+      "Prescribe a removable appliance combined with behavioral monitoring",
+      "Delay treatment until skeletal maturity for combined orthognathic surgery"
     ],
-    "correctAnswer": 2,
-    "explanation": "For a growing child with a mild thumb‑sucking habit and a 3 mm anterior open bite, the first line of treatment is non‑invasive habit elimination. Behavioral counseling combined with a removable appliance (e.g., a habit‑breaker or simple bite‑plane) addresses the etiologic factor and allows natural incisor eruption. Fixed palatal cribs are reserved for persistent habits, while fixed elastics or surgery are premature. This approach follows Proffit et al., Contemporary Orthodontics (6th ed., Ch. 9) and NDEB guidelines on habit‑breaking appliances.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because a fixed palatal crib is the evidence-based appliance of choice to eliminate a digit-sucking habit in a 9-year-old, allowing spontaneous correction of the anterior open bite. Extruding anterior teeth with vertical elastics (Option A) in a hyperdivergent patient is unstable and fails to address the underlying habit etiology. Removable appliances (Option C) have high failure rates due to poor patient compliance with digit habits. Deferring care for orthognathic surgery (Option D) is inappropriate because the open bite is environmental and highly responsive to interceptive therapy during active growth.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "For a cooperative 9-year-old patient actively trying to quit a mild digit habit, conservative behavioral therapy paired with a removable reminder appliance is the appropriate first-line, least-invasive approach prior to fixed crib therapy.",
-      "verifiedAt": "2026-11-18T06:39:47.824Z"
+      "clinicalRationale": "Option B is correct because a fixed palatal crib is the evidence-based appliance of choice to eliminate a digit-sucking habit in a 9-year-old, allowing spontaneous correction of the anterior open bite. Extruding anterior teeth with vertical elastics (Option A) in a hyperdivergent patient is unstable and fails to address the underlying habit etiology. Removable appliances (Option C) have high failure rates due to poor patient compliance with digit habits. Deferring care for orthognathic surgery (Option D) is inappropriate because the open bite is environmental and highly responsive to interceptive therapy during active growth.",
+      "verifiedAt": "2026-11-22T04:47:32.616Z"
     }
   },
   {
@@ -9349,24 +9349,24 @@
   {
     "id": 423,
     "topicId": "orthodontics",
-    "question": "A 5-year-old patient presents with the premature bilateral loss of the mandibular primary first molars due to extensive caries. The permanent mandibular incisors have erupted, but the permanent first molars have not yet fully erupted. What is the most appropriate space-maintaining appliance to prevent mesial drift of the permanent first molars and maintain space for the succedaneous premolars?",
+    "question": "A 5-year-old patient presents following the premature bilateral extraction of teeth 74 and 84 due to extensive dental caries. Teeth 75 and 85 are intact and fully erupted. The permanent mandibular incisors have erupted, but teeth 36 and 46 have not yet erupted. Which of the following is the MOST appropriate space maintainer to preserve arch length for the succedaneous premolars?",
     "options": [
-      "Bilateral band and loop space maintainers",
-      "Lower lingual holding arch",
-      "Nance holding arch",
-      "Removable acrylic partial denture"
+      "Bilateral band-and-loop space maintainers banded on teeth 75 and 85",
+      "A lower lingual holding arch banded on teeth 75 and 85",
+      "Bilateral distal shoe space maintainers",
+      "A removable mandibular acrylic space maintainer"
     ],
-    "correctAnswer": 1,
-    "explanation": "The most appropriate appliance is the lower lingual holding arch (LLHA). This appliance is indicated for the maintenance of space in the mandible when multiple teeth are lost or when there is a risk of mesial drift of the permanent first molars. It is typically used when the permanent incisors have erupted (as in this case) and the permanent first molars are not yet fully erupted or are not suitable for banding. The LLHA is cemented to the mandibular incisors and first molars (or premolars if erupted) and prevents the mesial movement of the posterior teeth, thereby preserving space for the succedaneous premolars. \n\n- Bilateral band and loop space maintainers are typically used for the loss of a single primary molar. They are less effective for bilateral loss or when there is a high risk of mesial drift of the first molars, as they do not provide the same level of posterior anchorage as the LLHA.\n- The Nance holding arch is used in the maxilla, not the mandible, to prevent mesial drift of the maxillary first molars.\n- A removable acrylic partial denture is not the first-line treatment for space maintenance in a 5-year-old child due to compliance issues, potential for tissue irritation, and the risk of interfering with the development of the alveolar ridge. Fixed appliances are preferred for space maintenance in children.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because bilateral band-and-loop space maintainers banded on the primary second molars (teeth 75 and 85) are the standard indicated appliances for bilateral loss of teeth 74 and 84 prior to the eruption of permanent first molars (teeth 36 and 46). A lower lingual holding arch (Option B) is contraindicated until permanent first molars are fully erupted to serve as stable abutments. Distal shoe appliances (Option C) are indicated for premature loss of primary second molars, not first molars. A removable partial appliance (Option D) has high failure rates due to poor compliance and fracture risks in a 5-year-old patient.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "A lower lingual holding arch is the appliance of choice for bilateral premature loss of mandibular primary molars once the permanent mandibular incisors have erupted, preventing lingual tipping of incisors and mesial drift of molars.",
-      "verifiedAt": "2026-11-18T06:39:47.825Z"
+      "clinicalRationale": "Option A is correct because bilateral band-and-loop space maintainers banded on the primary second molars (teeth 75 and 85) are the standard indicated appliances for bilateral loss of teeth 74 and 84 prior to the eruption of permanent first molars (teeth 36 and 46). A lower lingual holding arch (Option B) is contraindicated until permanent first molars are fully erupted to serve as stable abutments. Distal shoe appliances (Option C) are indicated for premature loss of primary second molars, not first molars. A removable partial appliance (Option D) has high failure rates due to poor compliance and fracture risks in a 5-year-old patient.",
+      "verifiedAt": "2026-11-22T04:47:32.616Z"
     }
   },
   {

@@ -7553,23 +7553,23 @@
     "id": 340,
     "topicId": "oral-pathology",
     "difficulty": "medium",
-    "question": "A 30-year-old female presents with a well-circumscribed, asymptomatic radiolucency in the mandibular premolar region. The associated teeth are vital, and the lesion appears as a pear-shaped radiolucency between the roots of the mandibular canine and first premolar, causing divergence of the roots. What is the most likely diagnosis?",
+    "question": "A 48-year-old female presents for a routine dental examination. A periapical radiograph reveals an asymptomatic, well-circumscribed, round unilocular radiolucency 0.8 cm in diameter located along the lateral root surfaces between the mandibular right canine (tooth 43) and first premolar (tooth 44). Both teeth respond normally to electric pulp testing and cold testing. What is the most likely diagnosis?",
     "options": [
-      "Stafne bone defect",
+      "Radicular cyst",
       "Odontogenic keratocyst",
-      "Ameloblastoma",
+      "Stafne bone defect",
       "Lateral periodontal cyst"
     ],
     "correctAnswer": 3,
-    "explanation": "The lateral periodontal cyst typically presents as a small, asymptomatic radiolucency on the lateral aspect of a vital root, most commonly in the mandibular premolar region. Odontogenic keratocysts and ameloblastomas are more aggressive and less localized, while Stafne defects occur below the inferior alveolar canal in the posterior mandible.",
+    "explanation": "Option D is correct because a lateral periodontal cyst characteristically presents as an asymptomatic, well-circumscribed unilocular radiolucency along the lateral root surface of vital teeth, with a distinct predilection for the mandibular canine-premolar region (teeth 43 and 44). Radicular cysts are associated exclusively with non-vital teeth, odontogenic keratocysts occur predominantly in the posterior mandible with high recurrence rates, and Stafne bone defects are lingual salivary depressions located below the inferior alveolar canal.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because a lateral periodontal cyst characteristically presents as an asymptomatic, well-circumscribed unilocular radiolucency along the lateral root surface of vital teeth, with a distinct predilection for the mandibular canine-premolar region (teeth 43 and 44). Radicular cysts are associated exclusively with non-vital teeth, odontogenic keratocysts occur predominantly in the posterior mandible with high recurrence rates, and Stafne bone defects are lingual salivary depressions located below the inferior alveolar canal.",
+      "verifiedAt": "2026-11-22T04:47:32.549Z"
     }
   },
   {
@@ -7599,23 +7599,23 @@
     "id": 342,
     "topicId": "oral-pathology",
     "difficulty": "medium",
-    "question": "A panoramic radiograph of a 14-year-old asymptomatic male reveals a multilocular radiolucency in the posterior mandibular body extending up into the ramus, causing root resorption of the adjacent second molar. Histologic examination demonstrates a fibrous connective tissue stroma containing multinucleated giant cells. Blood tests show normal serum calcium and parathyroid hormone levels. What is the most appropriate diagnosis?",
+    "question": "A 16-year-old male presents with a progressively enlarging, expansile, painful swelling in the anterior mandible of two months' duration. Clinical examination demonstrates cortical plate expansion and mobility of teeth 31, 32, and 33. A panoramic radiograph demonstrates a multilocular radiolucency crossing the midline and causing root divergence and resorption of tooth 33. Histopathologic biopsy reveals multinucleated giant cells within a cellular fibrous stroma containing extravasated red blood cells, and serum calcium and parathyroid hormone levels are normal. What is the most appropriate diagnosis?",
     "options": [
-      "Brown tumor of hyperparathyroidism",
       "Ameloblastoma",
+      "Brown tumor of hyperparathyroidism",
       "Central giant cell granuloma",
       "Cherubism"
     ],
     "correctAnswer": 2,
-    "explanation": "Central giant cell granuloma can present as an aggressive multilocular radiolucency in young patients mimicking a neoplasm. Brown tumor is ruled out by normal calcium and PTH levels, cherubism is typically bilateral and symmetrical in the jaws of younger children, and ameloblastoma lacks multinucleated giant cells.",
+    "explanation": "Option C is correct because an aggressive central giant cell granuloma typically occurs in patients under 30 years old as a painful, expansile radiolucency crossing the mandibular midline with root resorption, characterized histologically by multinucleated giant cells with normal serum calcium and PTH. Brown tumor of hyperparathyroidism has identical histopathology but exhibits elevated serum calcium and PTH, cherubism presents as bilateral symmetric lesions in young children, and ameloblastoma exhibits odontogenic epithelial islands with stellate reticulum rather than giant cells.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because an aggressive central giant cell granuloma typically occurs in patients under 30 years old as a painful, expansile radiolucency crossing the mandibular midline with root resorption, characterized histologically by multinucleated giant cells with normal serum calcium and PTH. Brown tumor of hyperparathyroidism has identical histopathology but exhibits elevated serum calcium and PTH, cherubism presents as bilateral symmetric lesions in young children, and ameloblastoma exhibits odontogenic epithelial islands with stellate reticulum rather than giant cells.",
+      "verifiedAt": "2026-11-22T04:47:32.549Z"
     }
   },
   {
@@ -7668,23 +7668,23 @@
     "id": 345,
     "topicId": "oral-pathology",
     "difficulty": "medium",
-    "question": "A young patient presents with multiple impacted supernumerary teeth, delayed eruption of permanent teeth, and hypoplasia or absence of the clavicles, allowing abnormal mobility of the shoulders. What syndrome is associated with these oral and systemic findings?",
+    "question": "A 15-year-old male presents with delayed eruption of his permanent dentition. A panoramic radiograph reveals prolonged retention of primary teeth and multiple impacted supernumerary teeth throughout the maxilla and mandible. Physical examination reveals a narrow thorax, hypoplasia of the clavicles allowing hypermobility and anterior approximation of the shoulders, and delayed closure of the cranial fontanelles. What is the most likely diagnosis?",
     "options": [
-      "Stafne defect",
+      "Gorlin-Goltz syndrome",
       "Peutz-Jeghers syndrome",
       "Gardner syndrome",
       "Cleidocranial dysplasia"
     ],
     "correctAnswer": 3,
-    "explanation": "Cleidocranial dysplasia is an autosomal dominant condition caused by RUNX2 mutations, classically featuring clavicular hypoplasia and multiple impacted supernumerary teeth. Gardner syndrome features multiple osteomas and intestinal polyposis, and Peutz-Jeghers features perioral melanotic macules.",
+    "explanation": "Option D is correct because cleidocranial dysplasia (caused by RUNX2 mutations) classically presents with hypoplastic or absent clavicles, hypermobile shoulders, delayed cranial suture closure, prolonged primary tooth retention, and multiple impacted supernumerary teeth. Gorlin-Goltz syndrome features multiple odontogenic keratocysts and basal cell carcinomas, Peutz-Jeghers syndrome involves mucocutaneous pigmentation and intestinal hamartomas, and Gardner syndrome is characterized by osteomas, epidermoid cysts, and familial colorectal polyposis.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because cleidocranial dysplasia (caused by RUNX2 mutations) classically presents with hypoplastic or absent clavicles, hypermobile shoulders, delayed cranial suture closure, prolonged primary tooth retention, and multiple impacted supernumerary teeth. Gorlin-Goltz syndrome features multiple odontogenic keratocysts and basal cell carcinomas, Peutz-Jeghers syndrome involves mucocutaneous pigmentation and intestinal hamartomas, and Gardner syndrome is characterized by osteomas, epidermoid cysts, and familial colorectal polyposis.",
+      "verifiedAt": "2026-11-22T04:47:32.549Z"
     }
   },
   {
@@ -10790,23 +10790,23 @@
   {
     "id": 333478486,
     "topicId": "oral-pathology",
-    "question": "A 28-year-old female patient, 36 weeks pregnant, presents to your dental office with a painful, infected mandibular third molar (tooth 48) exhibiting trismus and facial swelling. She reports no known drug allergies. What is the MOST appropriate immediate management?",
+    "question": "A 28-year-old female who is 36 weeks pregnant presents to the dental clinic with acute pericoronitis and a spreading space infection originating from partially erupted tooth 48. She exhibits marked unilateral facial swelling, severe trismus (maximal interincisal opening of 15 mm), and a body temperature of 38.3°C. She has no known drug allergies. What is the MOST appropriate immediate management?",
     "options": [
-      "Immediate extraction under local anesthesia",
-      "Incision and drainage with close observation",
-      "Systemic antibiotics and pain management with obstetrician consultation",
-      "Referral for general anesthesia and extraction"
+      "Perform immediate surgical extraction of tooth 48 under local anesthesia in the dental chair",
+      "Prescribe ibuprofen for inflammation and defer definitive care until after delivery",
+      "Refer urgently to an oral and maxillofacial surgeon or hospital emergency department, initiating pregnancy-safe systemic antibiotic therapy (amoxicillin) in consultation with her obstetrician",
+      "Administer nitrous oxide sedation and perform localized subgingival debridement and irrigation"
     ],
-    "correctAnswer": 1,
-    "explanation": "An expanding odontogenic infection with trismus and facial swelling constitutes a dental emergency. The Canadian Dental Association and the NDEB reference \"Medical Emergencies in the Dental Office\" recommend incision and drainage as the first‑line intervention, with systemic antibiotics added as adjunctive therapy. Extraction or general anesthesia in the third trimester carries increased maternal‑fetal risk (Malamed, Handbook of Local Anesthesia, 7th ed., ch. 13). Therefore the most appropriate immediate step is incision and drainage with close observation, while arranging obstetric consultation for any pharmacologic management.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because a spreading fascial space odontogenic infection with trismus and fever at 36 weeks gestation represents a maternal and fetal medical emergency requiring urgent hospital or maxillofacial referral, obstetrician consultation, and pregnancy-safe systemic antibiotics (amoxicillin first line). Outpatient surgical extraction in the dental chair is hazardous due to severe trismus and physiological instability, ibuprofen and other NSAIDs are strictly contraindicated in the third trimester due to risk of premature ductus arteriosus closure, and local irrigation alone fails to halt spreading fascial space cellulitis.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because a spreading fascial space odontogenic infection with trismus and fever at 36 weeks gestation represents a maternal and fetal medical emergency requiring urgent hospital or maxillofacial referral, obstetrician consultation, and pregnancy-safe systemic antibiotics (amoxicillin first line). Outpatient surgical extraction in the dental chair is hazardous due to severe trismus and physiological instability, ibuprofen and other NSAIDs are strictly contraindicated in the third trimester due to risk of premature ductus arteriosus closure, and local irrigation alone fails to halt spreading fascial space cellulitis.",
+      "verifiedAt": "2026-11-22T04:47:32.550Z"
     }
   },
   {
@@ -14868,45 +14868,45 @@
   {
     "id": 482237558,
     "topicId": "oral-pathology",
-    "question": "An 8-year-old male patient presents to your dental office with his parents, who are concerned about his anterior teeth. Clinical examination reveals that his maxillary right central incisor is erupting lingually to the mandibular central incisor, creating a crossbite. The patient has adequate space in the arch. What is the MOST appropriate initial management?",
+    "question": "An 8-year-old male presents with his parents, who are concerned about the alignment of his anterior teeth. Clinical examination reveals that the maxillary right permanent central incisor (tooth 11) is actively erupting in lingual crossbite relative to the mandibular central incisor (tooth 41). There is adequate arch perimeter and space available for tooth 11 to move labially. What is the MOST appropriate interceptive management?",
     "options": [
-      "Wait for all permanent teeth to erupt and assess",
-      "Initiate comprehensive fixed orthodontic treatment",
-      "Extract the maxillary right central incisor",
-      "Place a removable anterior inclined plane appliance"
+      "Monitor until all permanent teeth have erupted before initiating orthodontic intervention",
+      "Initiate full-arch comprehensive fixed orthodontic appliances in both arches",
+      "Perform serial extraction of the adjacent primary canines and primary molars",
+      "Place an anterior inclined bite plane appliance or removable appliance with a finger spring to tip tooth 11 labially"
     ],
     "correctAnswer": 3,
-    "explanation": "An anterior crossbite in an 8-year-old, especially with adequate space, should be corrected early to prevent abnormal wear, gingival recession, and unfavorable jaw growth. A removable anterior inclined plane appliance is a simple and effective interceptive orthodontic treatment for this specific type of problem. Waiting for all permanent teeth or initiating comprehensive fixed orthodontics is not the most appropriate initial management for this specific issue. Extraction is an unnecessary and aggressive treatment.",
+    "explanation": "Option D is correct because an isolated anterior crossbite of tooth 11 with adequate arch space should be intercepted promptly using an anterior inclined plane or a removable appliance with a finger spring to prevent traumatic occlusion, incisal wear, and labial gingival recession on tooth 41. Monitoring until the permanent dentition fully erupts allows secondary traumatic damage to progress, full fixed appliances represent unnecessary overtreatment for a localized mixed-dentition defect, and serial extraction is indicated for severe arch length discrepancies, not localized crossbites with adequate space.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because an isolated anterior crossbite of tooth 11 with adequate arch space should be intercepted promptly using an anterior inclined plane or a removable appliance with a finger spring to prevent traumatic occlusion, incisal wear, and labial gingival recession on tooth 41. Monitoring until the permanent dentition fully erupts allows secondary traumatic damage to progress, full fixed appliances represent unnecessary overtreatment for a localized mixed-dentition defect, and serial extraction is indicated for severe arch length discrepancies, not localized crossbites with adequate space.",
+      "verifiedAt": "2026-11-22T04:47:32.550Z"
     }
   },
   {
     "id": 670028241,
     "topicId": "oral-pathology",
-    "question": "A 75-year-old female patient presents to your dental office for a routine check-up. She reports a history of dry mouth due to medication side effects. Clinical examination reveals multiple carious lesions located at the cementoenamel junction of several teeth, with soft, leathery dentin. Her oral hygiene is fair. What is the MOST appropriate management approach for these lesions?",
+    "question": "A 75-year-old female presents for a routine dental examination reporting severe dry mouth secondary to polypharmacy. Clinical examination reveals active carious lesions with soft, leathery dentin at the cementoenamel junction of teeth 13, 14, 23, and 43. The affected teeth test vital, and her oral hygiene is fair. What is the MOST appropriate initial clinical management approach for these lesions?",
     "options": [
-      "Initiate aggressive full coverage crowns",
-      "Perform pulpectomies for all affected teeth",
-      "Place composite restorations and prescribe a high-fluoride toothpaste",
-      "Recommend increased sugar intake to stimulate salivary flow"
+      "Restoration with resin-modified glass ionomer cement and prescription of 1.1% sodium fluoride (5,000 ppm) dentifrice",
+      "Restoration with direct microfilled composite resin and prescription of 0.12% chlorhexidine gluconate oral rinse alone",
+      "Full-coverage ceramic crown preparation and cementation on all affected teeth",
+      "Topical application of 5% sodium fluoride varnish every six months without operative intervention"
     ],
-    "correctAnswer": 2,
-    "explanation": "For root caries in a patient with xerostomia, conservative management with composite restorations combined with preventive measures like high-fluoride toothpaste is highly effective. The fluoride helps remineralize affected areas and prevent new lesions, while restorations address existing cavitation. Full coverage crowns are overly aggressive for initial root caries. Pulpectomies are only indicated if the pulp is irreversibly inflamed or necrotic. Increased sugar intake would exacerbate caries, not stimulate healthy salivary flow.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because resin-modified glass ionomer cement provides essential chemical adhesion and continuous fluoride release in xerostomic patients, which, combined with 5,000 ppm fluoride dentifrice, represents the Canadian standard for arresting and restoring active root caries. Option B is incorrect because composite resin lacks fluoride release and undergoes high polymerization stress at dentinal margins, while chlorhexidine alone does not remineralize carious root dentin. Options C and D are incorrect because full-coverage crowns are excessively aggressive with high risk of recurrent margin failure in dry mouth, whereas fluoride varnish alone without debridement and restoration is ineffective for soft, cavitated lesions.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because resin-modified glass ionomer cement provides essential chemical adhesion and continuous fluoride release in xerostomic patients, which, combined with 5,000 ppm fluoride dentifrice, represents the Canadian standard for arresting and restoring active root caries. Option B is incorrect because composite resin lacks fluoride release and undergoes high polymerization stress at dentinal margins, while chlorhexidine alone does not remineralize carious root dentin. Options C and D are incorrect because full-coverage crowns are excessively aggressive with high risk of recurrent margin failure in dry mouth, whereas fluoride varnish alone without debridement and restoration is ineffective for soft, cavitated lesions.",
+      "verifiedAt": "2026-11-22T04:47:32.550Z"
     }
   },
   {
@@ -15464,23 +15464,23 @@
   {
     "id": 728059925,
     "topicId": "oral-pathology",
-    "question": "A 45-year-old female patient presents for a recall appointment. Her medical history includes well-controlled hypertension. Clinical examination reveals generalized gingival inflammation, probing depths ranging from 4-6mm, bleeding on probing in 80% of sites, and localized recession with moderate calculus and plaque accumulation. Radiographs show horizontal bone loss consistent with her age. What is the MOST appropriate diagnosis?",
+    "question": "A 45-year-old female presents for a comprehensive periodontal examination. She is a non-smoker with well-controlled hypertension. Clinical examination reveals generalized interdental clinical attachment loss of 3 to 4 mm, probing depths of 4 to 5 mm, and bleeding on probing in 45% of sites. Periapical radiographs demonstrate horizontal bone loss confined to the coronal third of the root (15% to 25% bone loss) across 40% of her dentition, with no tooth loss from periodontitis. According to the 2017 AAP/EFP classification, what is the MOST appropriate periodontal diagnosis?",
     "options": [
-      "Gingivitis",
-      "Aggressive periodontitis",
-      "Chronic periodontitis",
-      "Necrotizing ulcerative gingivitis"
+      "Generalized Periodontitis, Stage II, Grade B",
+      "Generalized Periodontitis, Stage I, Grade A",
+      "Generalized Periodontitis, Stage III, Grade C",
+      "Biofilm-induced generalized gingivitis on an intact periodontium"
     ],
-    "correctAnswer": 2,
-    "explanation": "The presence of generalized gingival inflammation, probing depths of 4-6mm, bleeding on probing, and radiographic evidence of horizontal bone loss indicates chronic periodontitis. Gingivitis involves inflammation without attachment loss, while aggressive periodontitis typically shows rapid attachment loss in otherwise healthy individuals. Necrotizing ulcerative gingivitis presents with painful, punched-out papillae and pseudomembrane, which is not described.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because interdental attachment loss of 3–4 mm, probing depths ≤5 mm, and horizontal bone loss limited to 15%–25% (coronal third) define Stage II, while involvement of >30% of teeth indicates a generalized extent and a bone loss-to-age ratio of approximately 0.44 (between 0.25 and 1.0) confirms Grade B progression. Option B is incorrect because Stage I requires attachment loss of only 1–2 mm and bone loss <15%. Options C and D are incorrect because Stage III Grade C requires attachment loss ≥5 mm with bone loss reaching the mid-root and rapid progression, whereas gingivitis requires an intact periodontium without attachment or bone loss.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because interdental attachment loss of 3–4 mm, probing depths ≤5 mm, and horizontal bone loss limited to 15%–25% (coronal third) define Stage II, while involvement of >30% of teeth indicates a generalized extent and a bone loss-to-age ratio of approximately 0.44 (between 0.25 and 1.0) confirms Grade B progression. Option B is incorrect because Stage I requires attachment loss of only 1–2 mm and bone loss <15%. Options C and D are incorrect because Stage III Grade C requires attachment loss ≥5 mm with bone loss reaching the mid-root and rapid progression, whereas gingivitis requires an intact periodontium without attachment or bone loss.",
+      "verifiedAt": "2026-11-22T04:47:32.550Z"
     }
   },
   {
@@ -16437,15 +16437,15 @@
   {
     "id": 680447178,
     "topicId": "oral-pathology",
-    "question": "A 58-year-old male patient, a former smoker who quit 5 years ago, presents for a consultation regarding replacement of his missing mandibular right first molar (tooth 46). He is medically healthy. Clinical examination reveals adequate interocclusal space and attached gingiva. Radiographic examination shows sufficient bone height and width in the area of tooth 46 for implant placement. What is the MOST critical anatomical structure to assess via cross-sectional imaging (CBCT) prior to implant placement in this specific location to prevent iatrogenic injury?",
+    "question": "A 58-year-old male presents for implant treatment planning to replace missing tooth 46. Preoperative two-dimensional radiography reveals adequate vertical bone height coronal to the mandibular canal. Cross-sectional cone beam computed tomography (CBCT) is specifically indicated in this region to evaluate which anatomical feature to prevent life-threatening surgical complications?",
     "options": [
-      "The mental foramen and the course of the inferior alveolar nerve",
-      "The maxillary sinus floor",
-      "The lingual cortical plate and sublingual artery",
-      "The periodontal ligament space of the adjacent teeth"
+      "Lingual cortical plate concavity housing branches of the sublingual and submental arteries",
+      "Anterior loop of the inferior alveolar nerve and its relationship to the mental foramen",
+      "Incisive canal pathway traversing the anterior mandibular parasymphysis",
+      "Mylohyoid ridge prominence and insertion of the medial pterygoid muscle"
     ],
     "correctAnswer": 0,
-    "explanation": "The most critical anatomical structure to assess for mandibular molar implant placement is the inferior alveolar nerve (IAN). Injury to the IAN can result in paresthesia or anesthesia of the lower lip, chin, and mental region. While the mental foramen is a landmark, the entire course of the nerve within the mandibular canal must be evaluated using CBCT to determine the safe distance from the bone floor to the nerve canal. The maxillary sinus is relevant for maxillary implants, not mandibular. The lingual plate is important to avoid perforation, but IAN injury is generally considered the most significant and common complication risk in this region. The PDL space is relevant for avoiding damage to adjacent teeth but is secondary to major neurovascular structures.",
+    "explanation": "Option A is correct because the posterior mandibular molar region at tooth 46 frequently exhibits a pronounced lingual cortical undercut (submandibular fossa), where accidental cortical plate perforation during osteotomy can lacerate sublingual or submental arterial branches and cause life-threatening upper airway obstruction from a massive floor-of-mouth hematoma. Option B is incorrect because the mental foramen and anterior loop are situated anteriorly in the mandibular premolar region (teeth 44 and 45). Options C and D are incorrect because the incisive canal is restricted to the anterior symphysis, and the mylohyoid ridge and medial pterygoid muscle attachments do not present an acute hemorrhagic hazard.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
@@ -16453,8 +16453,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the posterior mandibular molar region at tooth 46 frequently exhibits a pronounced lingual cortical undercut (submandibular fossa), where accidental cortical plate perforation during osteotomy can lacerate sublingual or submental arterial branches and cause life-threatening upper airway obstruction from a massive floor-of-mouth hematoma. Option B is incorrect because the mental foramen and anterior loop are situated anteriorly in the mandibular premolar region (teeth 44 and 45). Options C and D are incorrect because the incisive canal is restricted to the anterior symphysis, and the mylohyoid ridge and medial pterygoid muscle attachments do not present an acute hemorrhagic hazard.",
+      "verifiedAt": "2026-11-22T04:47:32.550Z"
     }
   },
   {
@@ -16770,23 +16770,23 @@
   {
     "id": 634846644,
     "topicId": "oral-pathology",
-    "question": "A 7-year-old female patient presents to your dental office with her parents after falling from her bicycle. She sustained trauma to her maxillary anterior teeth. Clinical examination reveals the permanent maxillary right central incisor is displaced lingually and is firm in its new position. There is no crown fracture, but bleeding is noted from the gingival sulcus. Radiographically, the tooth appears intruded and displaced palatally, with no root fracture. What is the MOST appropriate immediate management for this tooth?",
+    "question": "A 7-year-old female presents with her parents following trauma to her anterior maxilla from a bicycle accident one hour ago. Clinical examination reveals that permanent tooth 11 is displaced palatally and is locked firmly into the alveolar bone with sulcular bleeding, but no crown fracture is present. Periapical radiographs show widening of the periodontal ligament space laterally, an intact root with an open apex, and alveolar bone comminution consistent with lateral luxation. What is the MOST appropriate immediate management for tooth 11?",
     "options": [
-      "Replant the tooth into its original position and splint.",
-      "Extract the tooth due to potential damage to the permanent successor.",
-      "Reposition the tooth manually with local anesthesia and splint.",
-      "Observe the tooth for spontaneous repositioning over several weeks."
+      "Reposition the tooth gently with digital manipulation under local anesthesia and apply a flexible splint for 4 weeks",
+      "Perform immediate pulpectomy and fill the root canal system with non-setting calcium hydroxide paste",
+      "Leave the tooth untreated and observe for spontaneous orthodontic realignment over several months",
+      "Perform immediate surgical extraction of tooth 11 and place a temporary bonded bridge"
     ],
-    "correctAnswer": 2,
-    "explanation": "For a permanent tooth that is displaced lingually (or palatally) and firm, the most appropriate immediate management is to manually reposition the tooth into its correct anatomical position under local anesthesia and then stabilize it with a flexible splint for 2-4 weeks. Replanting (A) is for avulsed teeth, not luxated ones. Extracting the tooth (B) is too aggressive for a luxated permanent tooth without root fracture.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian and IADT pediatric trauma guidelines mandate that an acutely laterally luxated permanent tooth locked into bone be disengaged and gently repositioned digitally under local anesthesia, followed by flexible splinting for 4 weeks due to associated alveolar bone fracture. Option B is incorrect because an immature permanent incisor with an open apex has significant revascularization potential, making prophylactic pulpectomy contraindicated. Options C and D are incorrect because spontaneous repositioning applies only to mild primary tooth injuries or minor intrusions, and extraction of a restorable, salvageable permanent incisor is inappropriate.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Canadian and IADT pediatric trauma guidelines mandate that an acutely laterally luxated permanent tooth locked into bone be disengaged and gently repositioned digitally under local anesthesia, followed by flexible splinting for 4 weeks due to associated alveolar bone fracture. Option B is incorrect because an immature permanent incisor with an open apex has significant revascularization potential, making prophylactic pulpectomy contraindicated. Options C and D are incorrect because spontaneous repositioning applies only to mild primary tooth injuries or minor intrusions, and extraction of a restorable, salvageable permanent incisor is inappropriate.",
+      "verifiedAt": "2026-11-22T04:47:32.550Z"
     }
   },
   {
@@ -16903,23 +16903,23 @@
   {
     "id": 473038219,
     "topicId": "oral-pathology",
-    "question": "A 16-year-old male patient presents for evaluation of a painless swelling in the anterior mandible. His parents noticed it six months ago, and it has slowly enlarged. Clinical examination reveals a firm, non-tender expansion of the buccal and lingual cortical plates in the mandibular incisor region. The overlying mucosa is normal. All mandibular anterior teeth are vital and show no mobility or caries. Radiographically, a well-defined, unilocular radiolucency with a sclerotic border is observed, associated with the apices of the mandibular incisors. What is the MOST likely diagnosis?",
+    "question": "A 16-year-old male presents with a painless, slowly enlarging swelling in the anterior mandible that has been present for six months. Clinical examination reveals a hard, non-tender expansion of both the buccal and lingual cortical plates in the region of teeth 32, 31, 41, and 42. The overlying mucosa is normal, and all associated teeth test vital to cold and electric pulp testing. Radiographic examination reveals a well-defined, unilocular radiolucency with corticated borders causing divergence of the roots of teeth 31 and 41. What is the MOST likely diagnosis?",
     "options": [
-      "Periapical granuloma",
-      "Traumatic bone cyst",
       "Ameloblastoma",
+      "Simple bone cyst (traumatic bone cyst)",
+      "Radicular cyst",
       "Dentigerous cyst"
     ],
-    "correctAnswer": 1,
-    "explanation": "The clinical presentation of a painless, slowly enlarging swelling in the anterior mandible of an adolescent, combined with a well-defined unilocular radiolucency and vital associated teeth, is highly suggestive of a traumatic bone cyst (also known as a simple bone cyst). Periapical granuloma (A) is a sequela of pulp necrosis and associated with non-vital teeth. Ameloblastoma (C) is an aggressive odontogenic tumor that typically presents as a multilocular radiolucency. A dentigerous cyst (D) is associated with the crown of an impacted tooth.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because ameloblastoma (frequently unicystic in young patients) characteristically presents as an asymptomatic, slowly enlarging lesion that produces true bicortical expansion (notably involving the lingual plate) and divergence of adjacent vital teeth. Option B is incorrect because a simple bone cyst typically presents as an incidental radiolucency that scallops between roots without causing progressive buccal and lingual cortical expansion. Options C and D are incorrect because radicular cysts arise exclusively from non-vital pulps, whereas dentigerous cysts develop strictly around the crown of an impacted or unerupted tooth rather than around the apices of erupted vital incisors.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because ameloblastoma (frequently unicystic in young patients) characteristically presents as an asymptomatic, slowly enlarging lesion that produces true bicortical expansion (notably involving the lingual plate) and divergence of adjacent vital teeth. Option B is incorrect because a simple bone cyst typically presents as an incidental radiolucency that scallops between roots without causing progressive buccal and lingual cortical expansion. Options C and D are incorrect because radicular cysts arise exclusively from non-vital pulps, whereas dentigerous cysts develop strictly around the crown of an impacted or unerupted tooth rather than around the apices of erupted vital incisors.",
+      "verifiedAt": "2026-11-22T04:47:32.550Z"
     }
   },
   {
@@ -18381,24 +18381,24 @@
   {
     "id": 933649870,
     "topicId": "oral-pathology",
-    "question": "A 45-year-old female patient presents for the restoration of a large, deep occlusal carious lesion on tooth 46 (mandibular right first molar). Clinical examination reveals that the lesion extends beyond the dentinoenamel junction, but vitality tests are within normal limits, and there is no pain on percussion. Radiographically, the lesion appears to be close to the pulp but no periapical pathology is evident. The patient has good oral hygiene and no relevant medical history. What is the MOST appropriate restorative material for this tooth in a load-bearing area?",
+    "question": "A 45-year-old female presents for operative treatment of an extensive, deep occlusal carious lesion on tooth 46. The tooth responds normally to cold vitality testing and is non-tender to percussion. Radiographs show the lesion extending into the inner third of dentin approximating the pulp chamber, with no periapical pathology. Following complete excavation of infected dentin, a thin layer of remaining sound dentin overlies the pulp. What is the MOST appropriate restorative approach for this load-bearing site?",
     "options": [
-      "Glass Ionomer Cement (GIC) as a definitive restoration.",
-      "Composite resin with an etch-and-rinse adhesive.",
-      "Flowable composite as the sole restorative material.",
-      "Amalgam restoration with a protective base."
+      "Placement of a protective base followed by a dental amalgam restoration",
+      "Direct placement of composite resin using a three-step etch-and-rinse adhesive without a base",
+      "Placement of conventional glass ionomer cement as the definitive restoration",
+      "Bulk placement of flowable composite resin as the definitive restoration"
     ],
-    "correctAnswer": 1,
-    "explanation": "The most appropriate restorative material for a large, deep occlusal carious lesion in a load-bearing area (mandibular first molar) in a patient with good oral hygiene is composite resin. Modern composite resins, when used with proper adhesive protocols (such as etch-and-rinse or self-etch adhesives), provide excellent mechanical strength, wear resistance, and esthetics, making them suitable for posterior restorations. Glass Ionomer Cement (GIC) is generally not recommended as a definitive restoration for large occlusal lesions in high-stress areas due to its lower fracture resistance and wear characteristics compared to composite or amalgam. Flowable composite is not suitable as the sole restorative material for large occlusal restorations because it has lower strength and wear resistance than bulk-fill or conventional composite resins. Amalgam with a protective base is a viable option, but composite resin is often preferred in modern dentistry for its esthetic and bonding properties, especially in patients with good oral hygiene and no contraindications to adhesive dentistry.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because deep dentinal preparations approximating the pulp require a biocompatible protective base (such as resin-modified glass ionomer) to insulate against thermal and chemical trauma, followed by dental amalgam which delivers proven wear resistance and compressive strength in high-stress occlusal areas. Option B is incorrect because applying total-etch phosphoric acid directly to deep dentin without a protective liner causes severe pulpal irritation and cytotoxicity from unpolymerized resin monomers. Options C and D are incorrect because conventional glass ionomer and bulk flowable composite lack the fracture toughness and wear resistance necessary to withstand posterior occlusal masticatory forces.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because deep dentinal preparations approximating the pulp require a biocompatible protective base (such as resin-modified glass ionomer) to insulate against thermal and chemical trauma, followed by dental amalgam which delivers proven wear resistance and compressive strength in high-stress occlusal areas. Option B is incorrect because applying total-etch phosphoric acid directly to deep dentin without a protective liner causes severe pulpal irritation and cytotoxicity from unpolymerized resin monomers. Options C and D are incorrect because conventional glass ionomer and bulk flowable composite lack the fracture toughness and wear resistance necessary to withstand posterior occlusal masticatory forces.",
+      "verifiedAt": "2026-11-22T04:47:32.550Z"
     }
   },
   {

@@ -795,23 +795,23 @@
   {
     "id": 37,
     "topicId": "oral-medicine",
-    "question": "A 33-year-old pregnant patient (second trimester) develops multiple pyogenic granulomas on her gingiva. These lesions are exophytic, red, bleeding easily, and rapidly growing. What is the most appropriate management approach?",
+    "question": "A 33-year-old female in her second trimester of pregnancy presents with a rapidly growing, exophytic, pedunculated vascular gingival mass between teeth 11 and 21 that bleeds profusely on gentle probing. Intraoral examination reveals significant generalized plaque accumulation and calculus. What is the most appropriate initial management approach?",
     "options": [
-      "Immediate surgical excision due to rapid growth.",
-      "Observation and reassurance, as they often regress postpartum.",
-      "Prescribe systemic corticosteroids to reduce inflammation.",
-      "Referral for chemotherapy due to their 'granulomatous' nature."
+      "Meticulous oral hygiene instruction, thorough scaling and debridement, and clinical observation until postpartum",
+      "Immediate wide surgical excision under local anesthesia with 5-mm margins",
+      "Prescription of a 14-day course of high-dose systemic corticosteroids",
+      "Intralesional injection of sclerosing agents combined with prophylactic systemic antibiotics"
     ],
-    "correctAnswer": 1,
-    "explanation": "Pyogenic granulomas are reactive hyperplastic lesions, and during pregnancy, they are often referred to as 'pregnancy tumors' due to hormonal influences. They are benign and frequently regress spontaneously postpartum, making observation and reassurance the most appropriate initial management during pregnancy unless they cause significant functional impairment or severe bleeding. Immediate surgical excision is usually deferred until after delivery. Systemic corticosteroids are generally not indicated, and chemotherapy is entirely inappropriate for a benign reactive lesion.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because a pregnancy-associated pyogenic granuloma (granuloma gravidarum) represents an exaggerated vascular inflammatory response to local irritants influenced by gestational hormones; initial management focuses on meticulous plaque removal, professional debridement, and observation, as lesions often spontaneously regress postpartum. Immediate surgical excision (Option B) is reserved only for lesions causing severe functional impairment or uncontrollable hemorrhage, because excision during pregnancy carries a high rate of recurrence due to ongoing hormonal stimulation. Systemic corticosteroids (Option C) are contraindicated during pregnancy for localized benign reactive lesions, and intralesional sclerotherapy (Option D) is an inappropriate, unapproved intervention with potential fetal and maternal risks.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because a pregnancy-associated pyogenic granuloma (granuloma gravidarum) represents an exaggerated vascular inflammatory response to local irritants influenced by gestational hormones; initial management focuses on meticulous plaque removal, professional debridement, and observation, as lesions often spontaneously regress postpartum. Immediate surgical excision (Option B) is reserved only for lesions causing severe functional impairment or uncontrollable hemorrhage, because excision during pregnancy carries a high rate of recurrence due to ongoing hormonal stimulation. Systemic corticosteroids (Option C) are contraindicated during pregnancy for localized benign reactive lesions, and intralesional sclerotherapy (Option D) is an inappropriate, unapproved intervention with potential fetal and maternal risks.",
+      "verifiedAt": "2026-11-22T04:47:32.575Z"
     }
   },
   {
@@ -2204,23 +2204,23 @@
   {
     "id": 101,
     "topicId": "oral-medicine",
-    "question": "A 48-year-old male presents with a chief complaint of chronic burning sensation on his tongue, particularly affecting the anterior two-thirds and dorsal surface. He reports that the sensation is worse in the evening and is not relieved by eating or drinking. Clinical examination reveals no visible lesions, erythema, edema, or other abnormalities. His medical history is unremarkable, and he takes no medications. Which of the following is the most likely diagnosis?",
+    "question": "A 48-year-old female presents with a chief complaint of a persistent, bilateral burning sensation of the oral mucosa, predominantly affecting the anterior two-thirds and tip of the tongue. She notes that the burning worsens progressively throughout the day, peaking in the evening. Comprehensive clinical examination reveals completely normal mucosal architecture without erythema, ulceration, or depapillation, and complete blood count, ferritin, vitamin B12, and fasting glucose levels are all normal. Which of the following is the most likely diagnosis?",
     "options": [
-      "Oral Candidiasis",
-      "Geographic Tongue",
-      "Burning Mouth Syndrome (BMS)",
-      "Anterior Lingual Periodontitis"
+      "Burning mouth syndrome",
+      "Erythematous candidiasis",
+      "Geographic tongue (benign migratory glossitis)",
+      "Iron deficiency glossitis"
     ],
-    "correctAnswer": 2,
-    "explanation": "The classic presentation of Burning Mouth Syndrome (BMS) involves a chronic burning or dysesthetic sensation in the oral mucosa, most commonly the tongue, in the absence of any identifiable clinical lesions or underlying medical conditions. Oral Candidiasis would typically present with visible white patches or erythema, while Geographic Tongue is characterized by migratory areas of depapillation. Anterior Lingual Periodontitis is not a recognized clinical entity.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because burning mouth syndrome is a chronic neuropathic orofacial pain disorder characterized by a daily burning sensation of clinically normal oral mucosa (predominantly the anterior tongue) that worsens toward the evening, diagnosed after excluding systemic and local etiologies via normal hematological investigations. Erythematous candidiasis (Option B) presents with distinct, visible mucosal erythema, angular cheilitis, and responds to antifungal therapy. Geographic tongue (Option C) exhibits visible, shifting erythematous patches with elevated, yellowish-white circinate borders due to filiform papilla loss. Iron deficiency glossitis (Option D) produces visible, generalized mucosal pallor, smooth tongue depapillation, and abnormal serum ferritin levels.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because burning mouth syndrome is a chronic neuropathic orofacial pain disorder characterized by a daily burning sensation of clinically normal oral mucosa (predominantly the anterior tongue) that worsens toward the evening, diagnosed after excluding systemic and local etiologies via normal hematological investigations. Erythematous candidiasis (Option B) presents with distinct, visible mucosal erythema, angular cheilitis, and responds to antifungal therapy. Geographic tongue (Option C) exhibits visible, shifting erythematous patches with elevated, yellowish-white circinate borders due to filiform papilla loss. Iron deficiency glossitis (Option D) produces visible, generalized mucosal pallor, smooth tongue depapillation, and abnormal serum ferritin levels.",
+      "verifiedAt": "2026-11-22T04:47:32.575Z"
     }
   },
   {
@@ -2358,23 +2358,23 @@
   {
     "id": 108,
     "topicId": "oral-medicine",
-    "question": "A 38-year-old female presents with white, lacy, reticular lesions on her bilateral buccal mucosa. She reports occasional mild discomfort but no significant pain. The lesions are symmetrical and non-scrapable. No other oral or skin lesions are noted. Which of the following is the most appropriate management for this condition?",
+    "question": "A 38-year-old female presents for a routine dental recall examination. Intraoral examination reveals asymptomatic, bilateral, lacy white striations (Wickham striae) on the buccal mucosa that do not wipe away with gauze. The patient reports no pain, mucosal tenderness, or food sensitivity, and examination reveals no ulcerations or cutaneous lesions. What is the most appropriate management for this condition?",
     "options": [
-      "Prescription of systemic antifungal medication",
-      "Application of topical corticosteroids",
-      "Surgical excision of the lesions",
-      "Referral for photodynamic therapy"
+      "Clinical reassurance and periodic monitoring without active pharmacotherapy",
+      "Topical application of a high-potency corticosteroid gel",
+      "Prescription of a 14-day course of systemic fluconazole",
+      "Surgical excision of the bilateral affected mucosal tissues"
     ],
-    "correctAnswer": 1,
-    "explanation": "The description of white, lacy, reticular lesions on the buccal mucosa is characteristic of Reticular Oral Lichen Planus (OLP), which is usually asymptomatic or causes mild discomfort. For symptomatic OLP, topical corticosteroids are the first-line treatment to manage inflammation and discomfort. Antifungals are for candidiasis, surgical excision is not indicated for reticular OLP, and photodynamic therapy is not a standard treatment.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because asymptomatic reticular oral lichen planus is a chronic benign immune-mediated condition that requires only clinical reassurance and periodic monitoring, avoiding active pharmacological or surgical intervention. Topical corticosteroid therapy (Option B) is indicated exclusively for symptomatic, erosive, or ulcerative lichen planus to manage pain and represents inappropriate overtreatment for asymptomatic reticular striae. Systemic antifungal therapy (Option C) is indicated for oral candidiasis, not lichen planus, and surgical excision (Option D) is contraindicated due to the multifocal, bilateral nature of the disease and high risk of postoperative scarring and recurrence.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because asymptomatic reticular oral lichen planus is a chronic benign immune-mediated condition that requires only clinical reassurance and periodic monitoring, avoiding active pharmacological or surgical intervention. Topical corticosteroid therapy (Option B) is indicated exclusively for symptomatic, erosive, or ulcerative lichen planus to manage pain and represents inappropriate overtreatment for asymptomatic reticular striae. Systemic antifungal therapy (Option C) is indicated for oral candidiasis, not lichen planus, and surgical excision (Option D) is contraindicated due to the multifocal, bilateral nature of the disease and high risk of postoperative scarring and recurrence.",
+      "verifiedAt": "2026-11-22T04:47:32.575Z"
     }
   },
   {
@@ -3084,23 +3084,23 @@
   {
     "id": 141,
     "topicId": "oral-medicine",
-    "question": "A 52-year-old female presents with bilateral, asymptomatic, white, lace-like striations on her buccal mucosa that do not scrape off. Some areas show mild erythema. She denies any pain or discomfort. What is the most appropriate initial diagnostic step?",
+    "question": "A 52-year-old female presents for a routine dental hygiene appointment. Intraoral examination reveals bilateral, lace-like white striations on the buccal mucosa that do not wipe off with gauze. The patient is completely asymptomatic, reporting no pain, burning, or mucosal sensitivity, and the tissue displays no erosion or ulceration. What is the most appropriate initial diagnostic approach?",
     "options": [
-      "Referral for incisional biopsy.",
-      "Prescription for a topical antifungal agent.",
-      "Application of a high-potency topical corticosteroid.",
-      "Reassurance and observation for 6 months."
+      "Clinical diagnosis based on pathognomonic features, coupled with reassurance and 6-month periodic review",
+      "Immediate scalpel incisional biopsy of the buccal mucosa to confirm the diagnosis histopathologically",
+      "Exfoliative cytologic smear of the bilateral buccal mucosa to rule out epithelial dysplasia",
+      "Routine direct immunofluorescence testing of perilesional mucosa prior to monitoring"
     ],
     "correctAnswer": 0,
-    "explanation": "Given the classic presentation of oral lichen planus, an incisional biopsy is the most appropriate initial step for definitive diagnosis, especially since some forms have malignant potential or can mimic other conditions. Topical antifungals are for fungal infections and would be ineffective here. While topical corticosteroids are a treatment for symptomatic oral lichen planus, a definitive diagnosis is crucial before starting long-term medication, and observation is not sufficient given the need to rule out dysplasia.",
+    "explanation": "Option A is correct because classic, bilateral, non-scrapable reticular Wickham striae in an asymptomatic patient are pathognomonic for oral lichen planus, allowing for a definitive clinical diagnosis and periodic 6-month recall without routine surgical biopsy. Immediate incisional biopsy (Option B) represents unwarranted surgical overtreatment for classic asymptomatic reticular lesions, being reserved for atypical, solitary, erosive, or persistent ulcerated presentations. Exfoliative cytology (Option C) is non-diagnostic for subepithelial inflammatory conditions like lichen planus, and direct immunofluorescence (Option D) is reserved for differentiating vesiculobullous autoimmune diseases (such as pemphigus vulgaris or mucous membrane pemphigoid) rather than classic reticular lichen planus.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because classic, bilateral, non-scrapable reticular Wickham striae in an asymptomatic patient are pathognomonic for oral lichen planus, allowing for a definitive clinical diagnosis and periodic 6-month recall without routine surgical biopsy. Immediate incisional biopsy (Option B) represents unwarranted surgical overtreatment for classic asymptomatic reticular lesions, being reserved for atypical, solitary, erosive, or persistent ulcerated presentations. Exfoliative cytology (Option C) is non-diagnostic for subepithelial inflammatory conditions like lichen planus, and direct immunofluorescence (Option D) is reserved for differentiating vesiculobullous autoimmune diseases (such as pemphigus vulgaris or mucous membrane pemphigoid) rather than classic reticular lichen planus.",
+      "verifiedAt": "2026-11-22T04:47:32.575Z"
     }
   },
   {
@@ -6499,23 +6499,23 @@
   {
     "id": 297,
     "topicId": "oral-medicine",
-    "question": "A patient presents with a solitary, asymptomatic, flat, brown-to-black lesion on the left buccal mucosa, measuring 5 mm in diameter. The borders are regular, and the color is homogenous. The lesion has been present for several years without change. What is the most appropriate initial management?",
+    "question": "A 46-year-old male presents with a solitary, asymptomatic, flat, brown-to-black macule on the left buccal mucosa measuring 4 mm in diameter. The lesion has regular, well-demarcated borders and uniform pigmentation, and the patient confirms that it has remained completely unchanged for over 5 years. What is the most appropriate initial management?",
     "options": [
-      "Immediate excisional biopsy due to suspicion of melanoma",
-      "Referral to an oncologist",
-      "Photographic documentation and periodic clinical review",
-      "Application of a bleaching agent to lighten the lesion"
+      "Baseline photographic documentation and periodic clinical review to monitor for changes",
+      "Immediate wide excisional biopsy with 5-mm surgical margins",
+      "Urgent referral to a medical oncologist for oncological staging",
+      "Cryosurgical ablation of the pigmented lesion under local anesthesia"
     ],
-    "correctAnswer": 2,
-    "explanation": "This description is consistent with an oral melanotic macule, which is a benign pigmented lesion. For stable, small, well-demarcated, homogenous brown-to-black lesions that have been present for years, photographic documentation and periodic clinical review for any changes in size, shape, or color (ABCDE criteria) is the appropriate initial management. Immediate biopsy is indicated for suspicious features of melanoma (asymmetry, border irregularity, color variation, diameter >6mm, evolving). Bleaching is not a diagnostic or therapeutic approach.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because a solitary, flat, uniformly pigmented macule with regular margins that has remained clinically stable for years on low-risk buccal mucosa is consistent with an oral melanotic macule, which is appropriately managed with baseline photographic documentation and periodic clinical monitoring to confirm stability. Immediate wide excisional biopsy (Option B) is an excessively aggressive initial procedure for a long-standing, clinically benign macule that lacks ABCDE criteria of melanoma. Urgent referral to an oncologist (Option C) is unwarranted in the absence of suspicious malignant features such as rapid enlargement, border irregularity, or ulceration. Cryosurgical ablation (Option D) is contraindicated because it destructively eliminates the lesion without obtaining a tissue specimen for histopathological assessment should diagnostic uncertainty arise.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because a solitary, flat, uniformly pigmented macule with regular margins that has remained clinically stable for years on low-risk buccal mucosa is consistent with an oral melanotic macule, which is appropriately managed with baseline photographic documentation and periodic clinical monitoring to confirm stability. Immediate wide excisional biopsy (Option B) is an excessively aggressive initial procedure for a long-standing, clinically benign macule that lacks ABCDE criteria of melanoma. Urgent referral to an oncologist (Option C) is unwarranted in the absence of suspicious malignant features such as rapid enlargement, border irregularity, or ulceration. Cryosurgical ablation (Option D) is contraindicated because it destructively eliminates the lesion without obtaining a tissue specimen for histopathological assessment should diagnostic uncertainty arise.",
+      "verifiedAt": "2026-11-22T04:47:32.575Z"
     }
   },
   {
@@ -6808,23 +6808,23 @@
   {
     "id": 312,
     "topicId": "oral-medicine",
-    "question": "A 65-year-old patient with Sjögren's Syndrome experiences severe xerostomia and has rampant dental caries despite meticulous oral hygiene. She reports limited relief from artificial saliva products. Which pharmacological agent would be most appropriate to stimulate salivary flow in this patient?",
+    "question": "A 65-year-old female with primary Sjögren syndrome experiences severe xerostomia and rampant cervical dental caries on tooth 13, tooth 12, and tooth 11 despite meticulous oral hygiene. She reports minimal symptomatic relief from carboxymethylcellulose-based saliva substitutes. Which pharmacological agent is most appropriate to stimulate residual salivary gland secretion in this patient?",
     "options": [
-      "Lorazepam",
+      "Atropine",
       "Pilocarpine",
-      "Amoxicillin",
-      "Ibuprofen"
+      "Propantheline",
+      "Diphenhydramine"
     ],
     "correctAnswer": 1,
-    "explanation": "For patients with Sjögren's Syndrome experiencing severe xerostomia and inadequate relief from topical measures, parasympathomimetic agents like Pilocarpine are often prescribed to stimulate residual salivary gland function. Pilocarpine acts on muscarinic acetylcholine receptors. Lorazepam is an anxiolytic and not used for xerostomia. Amoxicillin is an antibiotic and ibuprofen is an NSAID, neither of which stimulate salivary flow.",
+    "explanation": "Option B is correct because pilocarpine is a parasympathomimetic muscarinic acetylcholine receptor agonist that directly stimulates functioning salivary acinar cells to increase salivary flow in Sjögren syndrome. In contrast, atropine and propantheline are muscarinic receptor antagonists that inhibit salivation, and diphenhydramine is a first-generation antihistamine with anticholinergic properties that exacerbates xerostomia.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because pilocarpine is a parasympathomimetic muscarinic acetylcholine receptor agonist that directly stimulates functioning salivary acinar cells to increase salivary flow in Sjögren syndrome. In contrast, atropine and propantheline are muscarinic receptor antagonists that inhibit salivation, and diphenhydramine is a first-generation antihistamine with anticholinergic properties that exacerbates xerostomia.",
+      "verifiedAt": "2026-11-22T04:47:32.575Z"
     }
   },
   {
@@ -7557,23 +7557,23 @@
   {
     "id": 346,
     "topicId": "oral-medicine",
-    "question": "A 3-year-old child presents with a soft, fluctuant, bluish swelling approximately 2 cm in diameter located on the floor of the mouth lateral to the midline. The swelling has been slowly increasing in size over several weeks and is asymptomatic. Which of the following is the most likely diagnosis?",
+    "question": "A 3-year-old child presents with an asymptomatic, soft, fluctuant, translucent bluish swelling measuring 2 cm in diameter located in the floor of the mouth lateral to the midline. The swelling has been slowly enlarging over several weeks and elevates the sublingual fold. Which of the following is the most likely diagnosis?",
     "options": [
+      "Dermoid cyst",
       "Lymphangioma",
-      "Squamous cell carcinoma",
-      "Mucocele",
+      "Hemangioma",
       "Ranula"
     ],
     "correctAnswer": 3,
-    "explanation": "Option D is correct because a ranula is the specific diagnostic term for a large mucus extravasation pseudocyst arising from the sublingual gland located characteristically in the floor of the mouth lateral to the midline. Option A presents as a pebbly 'frog egg' or diffuse lymphatic malformation, Option B is exceedingly rare in pediatric patients and presents as an indurated, ulcerated mass, and Option C is a general term typically applied to minor salivary gland extravasations elsewhere in the oral cavity (most commonly the lower lip).",
+    "explanation": "Option D is correct because a ranula is a mucus extravasation phenomenon arising specifically from the sublingual gland, classically presenting as a soft, fluctuant, translucent bluish swelling located lateral to the midline in the floor of the mouth. In contrast, a dermoid cyst typically presents as a doughy midline floor-of-mouth mass, a lymphangioma classically demonstrates a pebbly 'frog-egg' surface of clustered vesicular lymphatic channels, and a hemangioma exhibits significant blanching under diascopy.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Option D is correct because a ranula is the specific diagnostic term for a large mucus extravasation pseudocyst arising from the sublingual gland located characteristically in the floor of the mouth lateral to the midline. Option A presents as a pebbly 'frog egg' or diffuse lymphatic malformation, Option B is exceedingly rare in pediatric patients and presents as an indurated, ulcerated mass, and Option C is a general term typically applied to minor salivary gland extravasations elsewhere in the oral cavity (most commonly the lower lip).",
-      "verifiedAt": "2026-11-18T19:21:44.783Z"
+      "clinicalRationale": "Option D is correct because a ranula is a mucus extravasation phenomenon arising specifically from the sublingual gland, classically presenting as a soft, fluctuant, translucent bluish swelling located lateral to the midline in the floor of the mouth. In contrast, a dermoid cyst typically presents as a doughy midline floor-of-mouth mass, a lymphangioma classically demonstrates a pebbly 'frog-egg' surface of clustered vesicular lymphatic channels, and a hemangioma exhibits significant blanching under diascopy.",
+      "verifiedAt": "2026-11-22T04:47:32.575Z"
     }
   },
   {
@@ -8220,23 +8220,23 @@
   {
     "id": 377,
     "topicId": "oral-medicine",
-    "question": "A 75-year-old female complains of severe dry mouth, difficulty speaking, and swallowing. She is on multiple medications for hypertension, depression, and allergies. Her salivary flow rate is significantly reduced.",
+    "question": "A 75-year-old female presents with severe xerostomia, dysarthria, and dysphagia. Her medical history is significant for hypertension, major depressive disorder, and allergic rhinitis, for which she takes amlodipine, sertraline, and diphenhydramine. Oral examination reveals dry, sticky mucosa and a resting whole salivary flow rate of less than 0.1 mL/min. What is the most appropriate initial clinical management strategy for this patient?",
     "options": [
-      "Recommend sialogogues (e.g., pilocarpine, cevimeline) and artificial saliva substitutes.",
-      "Prescribe a systemic antiviral.",
-      "Initiate systemic corticosteroids to reduce inflammation.",
-      "Advise only increasing water intake."
+      "Consult the patient's physician to review and consider modifying xerostomic medications, accompanied by topical saliva substitutes and neutral fluoride therapy.",
+      "Prescribe systemic pilocarpine 5 mg three times daily to stimulate salivary gland secretion.",
+      "Recommend frequent sucking on hard sucrose-containing citrus lozenges to stimulate gustatory salivary flow.",
+      "Prescribe systemic diphenhydramine 25 mg twice daily to reduce oral mucosal inflammation."
     ],
     "correctAnswer": 0,
-    "explanation": "For severe xerostomia, after addressing potential medication-related causes, the most effective initial management involves using sialogogues (if residual salivary gland function exists) to stimulate saliva production, and artificial saliva substitutes to provide lubrication and comfort. Increasing water intake helps but is often insufficient. Antivirals or corticosteroids are not indicated for medication-induced xerostomia.",
+    "explanation": "Option A is correct because the first-line management for medication-induced xerostomia in an elderly patient with polypharmacy is consulting the prescribing physician to adjust or substitute xerostomic agents while providing palliative topical saliva substitutes and caries prevention. Option B is inappropriate as first-line therapy because systemic sialogogues like pilocarpine carry adverse cardiovascular risks in hypertensive patients taking multiple systemic medications. Option C is contraindicated because sucrose lozenges rapidly induce rampant dental caries in xerostomic environments, and Option D is incorrect because diphenhydramine possesses potent anticholinergic activity that worsens xerostomia.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the first-line management for medication-induced xerostomia in an elderly patient with polypharmacy is consulting the prescribing physician to adjust or substitute xerostomic agents while providing palliative topical saliva substitutes and caries prevention. Option B is inappropriate as first-line therapy because systemic sialogogues like pilocarpine carry adverse cardiovascular risks in hypertensive patients taking multiple systemic medications. Option C is contraindicated because sucrose lozenges rapidly induce rampant dental caries in xerostomic environments, and Option D is incorrect because diphenhydramine possesses potent anticholinergic activity that worsens xerostomia.",
+      "verifiedAt": "2026-11-22T04:47:32.575Z"
     }
   },
   {
@@ -10339,24 +10339,24 @@
   {
     "id": 474,
     "topicId": "oral-medicine",
-    "question": "A 45-year-old male presents with a chief complaint of chronic, diffuse gingival soreness and bleeding. Clinical examination reveals widespread erythema and desquamation of the attached gingiva. The superficial epithelium can be peeled away with gentle lateral pressure (positive Nikolsky sign). The patient reports no skin lesions or other systemic symptoms. Which of the following conditions is the MOST likely initial diagnosis to consider for biopsy?",
+    "question": "A 55-year-old female presents with a 6-month history of chronic gingival soreness and bleeding during brushing. Clinical examination reveals diffuse erythema, ulceration, and desquamation strictly confined to the attached and marginal gingiva of the maxilla and mandible. Gentle lateral air-water syringe pressure causes blister formation and separation of the superficial epithelium (positive Nikolsky sign), with no other mucosal or cutaneous lesions present. Which of the following conditions is the MOST likely clinical diagnosis to confirm by perilesional biopsy?",
     "options": [
-      "Erosive Lichen Planus",
-      "Pemphigus Vulgaris",
-      "Mucous Membrane Pemphigoid",
-      "Necrotizing Ulcerative Gingivitis"
+      "Erosive lichen planus",
+      "Pemphigus vulgaris",
+      "Mucous membrane pemphigoid",
+      "Necrotizing ulcerative gingivitis"
     ],
-    "correctAnswer": 1,
-    "explanation": "The clinical presentation of chronic, diffuse desquamative gingivitis with a positive Nikolsky sign (epithelial peeling with lateral pressure) in the absence of skin lesions is most characteristic of Pemphigus Vulgaris (PV). PV is an autoimmune blistering disease caused by IgG autoantibodies against desmoglein 3 (and sometimes desmoglein 1), leading to acantholysis (loss of intercellular connections) within the epithelium. This results in fragile, flaccid blisters that rupture easily, leaving painful erosions and a positive Nikolsky sign. While Mucous Membrane Pemphigoid (MMP) is a common cause of desquamative gingivitis, it is a subepithelial blistering disease; the epithelium remains intact over the blister, and the Nikolsky sign is typically negative or ambiguous because the separation occurs at the basement membrane zone, not within the epithelium. Erosive Lichen Planus presents with Wickham striae and erosions but does not typically exhibit a positive Nikolsky sign or diffuse desquamation of the attached gingiva in the same manner. Necrotizing Ulcerative Gingivitis (NUG) is characterized by punched-out interdental papillae, pseudomembranes, and severe pain, not diffuse desquamation with a positive Nikolsky sign. Therefore, PV is the most likely diagnosis requiring biopsy to confirm acantholysis and intercellular IgG deposition.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because mucous membrane pemphigoid is a subepithelial autoimmune blistering disorder that has a strong predilection for the attached gingiva, where chronic desquamative gingivitis is frequently the sole presenting manifestation with epithelial separation under lateral pressure. Option A is incorrect because erosive lichen planus classically demonstrates surrounding peripheral Wickham striae and does not characteristically exhibit full epithelial desquamative blistering. Option B is incorrect because pemphigus vulgaris predominantly produces widespread flaccid intraepithelial bullae and erosions on non-keratinized movable mucosa rather than lesions strictly isolated to the attached gingiva, and Option D is incorrect because necrotizing ulcerative gingivitis characteristically features necrotic, 'punched-out' interdental papillae, pseudomembranes, and severe pain.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because mucous membrane pemphigoid is a subepithelial autoimmune blistering disorder that has a strong predilection for the attached gingiva, where chronic desquamative gingivitis is frequently the sole presenting manifestation with epithelial separation under lateral pressure. Option A is incorrect because erosive lichen planus classically demonstrates surrounding peripheral Wickham striae and does not characteristically exhibit full epithelial desquamative blistering. Option B is incorrect because pemphigus vulgaris predominantly produces widespread flaccid intraepithelial bullae and erosions on non-keratinized movable mucosa rather than lesions strictly isolated to the attached gingiva, and Option D is incorrect because necrotizing ulcerative gingivitis characteristically features necrotic, 'punched-out' interdental papillae, pseudomembranes, and severe pain.",
+      "verifiedAt": "2026-11-22T04:47:32.575Z"
     }
   },
   {
@@ -10626,23 +10626,23 @@
   {
     "id": 487,
     "topicId": "oral-medicine",
-    "question": "A 25-year-old healthy male presents with a sudden onset of multiple painful vesicles on his hard palate and attached gingiva. These vesicles quickly rupture, leaving small, shallow ulcers. He also has a low-grade fever and malaise. Which of the following diagnostic tests is most specific for this condition?",
+    "question": "A 25-year-old male presents with acute onset of multiple painful, clustered vesicles that rapidly ruptured into small, shallow, coalescing ulcers on the hard palate and attached gingiva adjacent to tooth 14 and tooth 15. He also reports a low-grade fever and regional lymphadenopathy. Which of the following diagnostic procedures is most specific to confirm this condition?",
     "options": [
-      "Bacterial culture of the ulcers.",
-      "Fungal culture of the ulcers.",
-      "Tzanck smear for multinucleated giant cells.",
-      "Punch biopsy of an intact vesicle."
+      "Bacterial culture of the ulcer base",
+      "Fungal culture on Sabouraud dextrose agar",
+      "Tzanck smear demonstrating multinucleated giant cells",
+      "Punch biopsy of the palatal mucoperiosteum"
     ],
-    "correctAnswer": 3,
-    "explanation": "Primary herpetic gingivostomatitis presents with painful vesicles that rupture into shallow ulcers on keratinized mucosa, often accompanied by low‑grade fever. While a Tzanck smear rapidly demonstrates multinucleated giant cells, these findings are not unique to HSV and can also occur with varicella‑zoster virus. According to Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology, 4th ed.) and the Canadian Dental Association guidelines, definitive diagnosis requires tissue‑based methods—histology showing Cowdry type A inclusions and, when combined with immunohistochemistry or PCR, provides the highest specificity. Therefore, among the listed options, a punch biopsy of an intact vesicle is the most specific test.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because a Tzanck smear (or viral PCR) is the recognized, minimally invasive diagnostic test that confirms herpes simplex virus infection by demonstrating characteristic viral cytopathic effects, specifically multinucleated giant cells and ballooning degeneration. Option A and Option B are incorrect because bacterial and fungal cultures cannot detect herpesviruses and will merely isolate non-pathogenic commensal oral microflora. Option D is incorrect because a punch biopsy is clinically inappropriate and excessively invasive on the tightly bound mucoperiosteum of the hard palate and attached gingiva for an acute, self-limiting viral infection.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because a Tzanck smear (or viral PCR) is the recognized, minimally invasive diagnostic test that confirms herpes simplex virus infection by demonstrating characteristic viral cytopathic effects, specifically multinucleated giant cells and ballooning degeneration. Option A and Option B are incorrect because bacterial and fungal cultures cannot detect herpesviruses and will merely isolate non-pathogenic commensal oral microflora. Option D is incorrect because a punch biopsy is clinically inappropriate and excessively invasive on the tightly bound mucoperiosteum of the hard palate and attached gingiva for an acute, self-limiting viral infection.",
+      "verifiedAt": "2026-11-22T04:47:32.575Z"
     }
   },
   {

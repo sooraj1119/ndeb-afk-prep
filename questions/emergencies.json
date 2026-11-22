@@ -2016,23 +2016,23 @@
   {
     "id": 92,
     "topicId": "emergencies",
-    "question": "A 28-year-old pregnant female in her second trimester experiences a mild asthmatic attack. Which of the following emergency medications is generally considered safe and indicated for initial management in pregnant patients?",
+    "question": "A 28-year-old female in her second trimester of pregnancy develops acute mild wheezing, dyspnea, and coughing during restorative dental treatment. Her vital signs are stable, and she has a history of mild asthma. Which of the following medications is the MOST appropriate first-line emergency intervention to relieve her acute bronchospasm?",
     "options": [
-      "Salbutamol (albuterol) inhaler",
-      "Epinephrine (for mild asthma)",
-      "Tetracycline antibiotics",
-      "Large doses of NSAIDs"
+      "Inhaled short-acting beta-2 agonist (salbutamol).",
+      "Inhaled long-acting beta-2 agonist (salmeterol).",
+      "Intramuscular epinephrine (1:1,000).",
+      "Oral systemic corticosteroid (prednisone)."
     ],
     "correctAnswer": 0,
-    "explanation": "Salbutamol (albuterol) is a short-acting beta-2 agonist and is the bronchodilator of choice for acute asthma attacks, even in pregnancy, as the benefits outweigh the risks. Epinephrine is reserved for severe, life-threatening asthma or anaphylaxis. Tetracyclines and large doses of NSAIDs are generally contraindicated or used with caution in pregnancy.",
+    "explanation": "Option A is correct because an inhaled short-acting beta-2 agonist such as salbutamol is the safest and most effective first-line emergency rescue medication for acute bronchospasm during pregnancy, rapidly relaxing bronchial smooth muscle with negligible maternal-fetal systemic exposure. Inhaled long-acting beta-2 agonists like salmeterol (Option B) have a delayed onset of action and are contraindicated for acute rescue relief. Intramuscular epinephrine (Option C) is reserved for life-threatening anaphylaxis or refractory status asthmaticus because it can induce uterine vasoconstriction and compromise uteroplacental blood flow, while oral prednisone (Option D) requires 4 to 6 hours to exert therapeutic effects and is ineffective for acute emergency bronchodilation.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because an inhaled short-acting beta-2 agonist such as salbutamol is the safest and most effective first-line emergency rescue medication for acute bronchospasm during pregnancy, rapidly relaxing bronchial smooth muscle with negligible maternal-fetal systemic exposure. Inhaled long-acting beta-2 agonists like salmeterol (Option B) have a delayed onset of action and are contraindicated for acute rescue relief. Intramuscular epinephrine (Option C) is reserved for life-threatening anaphylaxis or refractory status asthmaticus because it can induce uterine vasoconstriction and compromise uteroplacental blood flow, while oral prednisone (Option D) requires 4 to 6 hours to exert therapeutic effects and is ineffective for acute emergency bronchodilation.",
+      "verifiedAt": "2026-11-22T04:47:32.607Z"
     }
   },
   {
@@ -2214,15 +2214,15 @@
   {
     "id": 101,
     "topicId": "emergencies",
-    "question": "A 35-year-old female patient with a known history of peanut allergy accidentally ingests a trace amount of peanuts from a snack in the dental waiting room. She immediately develops generalized urticaria, pruritus, and a sensation of warmth. Her vital signs are stable, and there is no evidence of respiratory distress, angioedema, or hemodynamic instability. What is the MOST appropriate initial management?",
+    "question": "A 35-year-old female with a documented severe peanut allergy accidentally consumes a pastry containing peanuts in the dental waiting room. Within minutes, she develops acute generalized urticaria, pruritus, cutaneous erythema, and mild throat tightness. What is the MOST appropriate initial pharmacologic intervention?",
     "options": [
-      "Administer oral diphenhydramine",
-      "Administer intramuscular epinephrine",
-      "Place the patient in the Trendelenburg position",
-      "Monitor vital signs closely and observe without pharmacological intervention"
+      "Administer intramuscular epinephrine (1:1,000) into the anterolateral thigh.",
+      "Administer oral diphenhydramine (50 mg).",
+      "Administer inhaled salbutamol (2 puffs).",
+      "Administer intravenous hydrocortisone (100 mg)."
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is Administer oral diphenhydramine. According to Canadian dental emergency management guidelines (e.g., Malamed's Handbook of Medical Emergencies in Dentistry), the management of an allergic reaction is stratified by severity. This patient presents with mild symptoms (cutaneous: urticaria, pruritus) and stable vital signs, without signs of anaphylaxis (which requires involvement of two or more organ systems, such as respiratory compromise, hypotension, or gastrointestinal distress). For mild allergic reactions, an oral antihistamine (such as diphenhydramine 25-50 mg) is the appropriate first-line pharmacological intervention to alleviate symptoms. Intramuscular epinephrine (Option 1) is the gold standard for anaphylaxis but is not indicated for isolated cutaneous symptoms with stable vitals, as it carries significant cardiovascular risks. The Trendelenburg position (Option 2) is generally contraindicated or unnecessary in stable patients and is not a primary treatment for allergic reactions; it is sometimes used in syncope but can worsen respiratory mechanics if airway edema develops. Observation alone (Option 3) is insufficient because the patient is symptomatic and requires active pharmacological management to prevent progression and relieve discomfort, although close monitoring is always required alongside treatment.",
+    "explanation": "Option A is correct because Canadian clinical guidelines (CSACI) mandate immediate intramuscular epinephrine into the anterolateral thigh (vastus lateralis) as the first-line therapy for acute systemic allergic reactions following confirmed allergen exposure, as it halts mediator release, maintains vascular tone, and prevents fatal upper airway collapse. Oral diphenhydramine (Option B) has a 30- to 60-minute onset, treats only pruritus and cutaneous symptoms, and cannot prevent or reverse life-threatening laryngeal edema or shock. Inhaled salbutamol (Option C) relieves only lower airway bronchospasm without addressing systemic mediator release or upper airway edema, while intravenous hydrocortisone (Option D) has a delayed onset of several hours and is incapable of providing acute emergency stabilization.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
@@ -2230,8 +2230,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Canadian clinical guidelines (CSACI) mandate immediate intramuscular epinephrine into the anterolateral thigh (vastus lateralis) as the first-line therapy for acute systemic allergic reactions following confirmed allergen exposure, as it halts mediator release, maintains vascular tone, and prevents fatal upper airway collapse. Oral diphenhydramine (Option B) has a 30- to 60-minute onset, treats only pruritus and cutaneous symptoms, and cannot prevent or reverse life-threatening laryngeal edema or shock. Inhaled salbutamol (Option C) relieves only lower airway bronchospasm without addressing systemic mediator release or upper airway edema, while intravenous hydrocortisone (Option D) has a delayed onset of several hours and is incapable of providing acute emergency stabilization.",
+      "verifiedAt": "2026-11-22T04:47:32.607Z"
     }
   },
   {
@@ -3983,23 +3983,23 @@
   {
     "id": 181,
     "topicId": "emergencies",
-    "question": "A 30-year-old healthy male patient, with no known history of asthma, develops sudden onset of severe dyspnea, wheezing, and coughing after inhaling a strong disinfectant odor during his dental visit. He appears anxious and is struggling to breathe. What is the MOST appropriate initial step in management?",
+    "question": "A 30-year-old male with no prior respiratory history develops sudden acute dyspnea, audible wheezing, and persistent coughing after inhaling an aerosolized surface disinfectant spray in the operatory. He is anxious, tachypneic, and struggling to breathe. What is the MOST appropriate initial step in clinical management?",
     "options": [
-      "Call emergency medical services (EMS) immediately.",
-      "Administer oral antihistamine (e.g., diphenhydramine).",
-      "Administer a fast-acting bronchodilator (e.g., salbutamol) via inhaler.",
-      "Reassure the patient and encourage slow, deep breaths."
+      "Administer a fast-acting inhaled beta-2 agonist (salbutamol) and maintain the patient in an upright position.",
+      "Administer oral diphenhydramine (50 mg) and monitor for cutaneous symptoms.",
+      "Place the patient in a supine position and administer 100% oxygen via a bag-valve-mask.",
+      "Instruct the patient to re-breathe exhaled air into a paper bag to treat respiratory alkalosis."
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is Option 0: Call emergency medical services (EMS) immediately. According to Canadian dental emergency management guidelines (CDA/NDEB standards) and standard textbooks such as Malamed's 'Handbook of Medical Emergencies in the Dental Office,' the management of a patient experiencing severe respiratory distress (severe dyspnea, wheezing, struggling to breathe) that does not resolve immediately upon removal from the offending agent requires immediate activation of the emergency medical system. The patient is exhibiting signs of a severe acute respiratory event (potentially severe bronchospasm, laryngospasm, or anaphylaxis) that exceeds the scope of basic dental office management. While the patient is described as having no history of asthma, the severity of the symptoms ('struggling to breathe', 'severe dyspnea') indicates a life-threatening emergency. The dentist's primary role is to stabilize the patient (positioning, oxygen if available and trained) and summon professional medical help. \n\nOption 1 (Oral antihistamine) is incorrect because oral medications have a slow onset of action (30-60 minutes) and are inappropriate for acute, severe respiratory distress. Furthermore, if the reaction is anaphylactic, epinephrine is the first-line treatment, not antihistamines, and oral administration is contraindicated in a patient struggling to breathe due to aspiration risk and delayed efficacy.\n\nOption 2 (Administer salbutamol) is incorrect for two main reasons. First, the patient has 'no known history of asthma,' so he likely does not have a personal inhaler available in the office. Second, even if a universal inhaler were available, the administration of a bronchodilator is a specific treatment for asthma/bronchospasm. In a patient with 'severe' distress and 'struggling to breathe,' the priority is securing advanced medical care. Relying solely on a bronchodilator without calling EMS for a patient in severe distress is a deviation from the standard of care for severe emergencies. Additionally, if the cause is laryngospasm or anaphylaxis, salbutamol alone is insufficient.\n\nOption 3 (Reassure and encourage slow breaths) is incorrect because the patient is in severe distress. While reassurance is part of the initial response, it is insufficient as the *most appropriate initial step* for a patient who is 'struggling to breathe' with 'severe dyspnea.' This approach delays critical intervention. In cases of mild anxiety or mild bronchospasm, this might be appropriate, but the severity described mandates immediate EMS activation.",
+    "explanation": "Option A is correct because immediate administration of an inhaled short-acting beta-2 agonist (salbutamol) alongside upright patient positioning rapidly relaxes bronchial smooth muscle and relieves acute irritant-induced bronchospasm. Oral diphenhydramine (Option B) is ineffective because irritant-induced reactive airway spasm is non-allergic (not mediated by histamine release) and oral absorption is far too slow for an acute respiratory emergency. Supine positioning (Option C) restricts diaphragmatic excursion and exacerbates dyspnea in a conscious patient, while paper bag rebreathing (Option D) is strictly contraindicated because bronchospasm produces true hypoxia rather than psychogenic hyperventilation.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because immediate administration of an inhaled short-acting beta-2 agonist (salbutamol) alongside upright patient positioning rapidly relaxes bronchial smooth muscle and relieves acute irritant-induced bronchospasm. Oral diphenhydramine (Option B) is ineffective because irritant-induced reactive airway spasm is non-allergic (not mediated by histamine release) and oral absorption is far too slow for an acute respiratory emergency. Supine positioning (Option C) restricts diaphragmatic excursion and exacerbates dyspnea in a conscious patient, while paper bag rebreathing (Option D) is strictly contraindicated because bronchospasm produces true hypoxia rather than psychogenic hyperventilation.",
+      "verifiedAt": "2026-11-22T04:47:32.607Z"
     }
   },
   {
@@ -4626,23 +4626,23 @@
   {
     "id": 210,
     "topicId": "emergencies",
-    "question": "A 60-year-old male patient collapses in the waiting room and is unresponsive, pulseless, and not breathing normally. There is an Automated External Defibrillator (AED) immediately available. What is the MOST appropriate first action after confirming unresponsiveness and absence of normal breathing/pulse?",
+    "question": "A 60-year-old male collapses in the dental clinic reception area. The dental team immediately confirms that the patient is unresponsive, apnoeic, and pulseless, and a staff member is dispatched to call 911. An Automated External Defibrillator (AED) is already present at the patient's side. What is the MOST appropriate next action?",
     "options": [
-      "Begin chest compressions immediately.",
-      "Attach AED pads and follow prompts.",
-      "Administer two rescue breaths.",
-      "Call emergency medical services (911)."
+      "Power on the AED, attach the electrode pads, and follow the voice prompts.",
+      "Deliver 2 minutes (5 cycles) of chest compressions before attaching the AED.",
+      "Administer two rescue breaths using a bag-valve-mask resuscitator before rhythm analysis.",
+      "Perform a blind finger sweep of the oropharynx to clear potential foreign body obstruction."
     ],
     "correctAnswer": 0,
-    "explanation": "According to Canadian Heart & Stroke Foundation guidelines for adult cardiac arrest, after confirming unresponsiveness and absence of normal breathing/pulse, the most appropriate first action is to immediately begin high-quality chest compressions. Calling 911 should be done simultaneously or immediately after initiating compressions, and AED application follows as soon as available, but compressions are paramount to maintain vital organ perfusion.",
+    "explanation": "Option A is correct because Heart & Stroke Foundation of Canada and AHA Basic Life Support guidelines mandate that when an AED is immediately on hand at a witnessed adult cardiac arrest, the rescuer must power on the device, apply the electrode pads, and follow the prompts for rhythm analysis without delay. Delaying defibrillation to perform 2 minutes of chest compressions (Option B) is an obsolete strategy that significantly lowers survival in witnessed ventricular fibrillation arrests where an AED is already on site. Delivering rescue breaths first (Option C) violates the C-A-B resuscitation sequence and postpones critical defibrillation, while blind finger sweeps (Option D) are strictly contraindicated due to the risk of impacting foreign bodies and injuring soft tissues.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Heart & Stroke Foundation of Canada and AHA Basic Life Support guidelines mandate that when an AED is immediately on hand at a witnessed adult cardiac arrest, the rescuer must power on the device, apply the electrode pads, and follow the prompts for rhythm analysis without delay. Delaying defibrillation to perform 2 minutes of chest compressions (Option B) is an obsolete strategy that significantly lowers survival in witnessed ventricular fibrillation arrests where an AED is already on site. Delivering rescue breaths first (Option C) violates the C-A-B resuscitation sequence and postpones critical defibrillation, while blind finger sweeps (Option D) are strictly contraindicated due to the risk of impacting foreign bodies and injuring soft tissues.",
+      "verifiedAt": "2026-11-22T04:47:32.607Z"
     }
   },
   {
@@ -4780,23 +4780,23 @@
   {
     "id": 217,
     "topicId": "emergencies",
-    "question": "Following a significant medical emergency in the dental office, what is the *most critical* aspect of documentation to ensure legal protection and continuity of care?",
+    "question": "Following the stabilization and emergency medical services (EMS) hospital transfer of a patient who experienced a severe medical emergency in the dental clinic, which of the following represents the MOST critical documentation requirement in the patient's permanent dental record?",
     "options": [
-      "Detailed chronological record of all events, interventions, and patient responses.",
-      "Recording only the patient's chief complaint and vital signs.",
-      "Documenting only the name of the emergency medical services personnel.",
-      "A brief summary of the incident for insurance purposes."
+      "A contemporaneous chronological record of the timeline, clinical assessments, administered medications with dosages, patient responses, and transfer-of-care details.",
+      "A narrative summary entry completed at the end of the clinical day detailing the emergency outcome and post-transfer instructions, without specific intervention timestamps.",
+      "An administrative incident report maintained in clinic risk management files instead of documenting the adverse event in the patient's permanent dental chart.",
+      "A concise clinical note recording only baseline vital signs, the suspected medical diagnosis, and the receiving hospital's name."
     ],
     "correctAnswer": 0,
-    "explanation": "Thorough and accurate documentation is paramount following a medical emergency. A detailed, chronological record of all events, specific interventions performed, drugs administered (including dose and route), patient responses, and the time of EMS arrival provides crucial legal protection and ensures continuity of care for subsequent medical professionals. Recording only chief complaint (B), EMS personnel name (C), or a brief summary (D) are insufficient for comprehensive medical-legal purposes and effective patient management.",
+    "explanation": "Option A is correct because Canadian dental regulatory authorities (e.g., RCDSO) and medicolegal standards require that medical emergency documentation be contemporaneous and contain an exact chronological timeline, including serial vital signs, exact drug dosages and administration routes, clinical responses, and EMS handover details. A delayed narrative summary lacking specific intervention timestamps (Option B) impairs clinical continuity and fails medicolegal scrutiny during adverse event reviews. Maintaining an administrative incident report without documenting the event in the permanent dental record (Option C) violates professional record-keeping regulations, while recording only baseline vitals and the hospital name (Option D) omits vital clinical interventions and therapeutic monitoring.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Canadian dental regulatory authorities (e.g., RCDSO) and medicolegal standards require that medical emergency documentation be contemporaneous and contain an exact chronological timeline, including serial vital signs, exact drug dosages and administration routes, clinical responses, and EMS handover details. A delayed narrative summary lacking specific intervention timestamps (Option B) impairs clinical continuity and fails medicolegal scrutiny during adverse event reviews. Maintaining an administrative incident report without documenting the event in the permanent dental record (Option C) violates professional record-keeping regulations, while recording only baseline vitals and the hospital name (Option D) omits vital clinical interventions and therapeutic monitoring.",
+      "verifiedAt": "2026-11-22T04:47:32.607Z"
     }
   },
   {
@@ -5070,23 +5070,23 @@
   {
     "id": 230,
     "topicId": "emergencies",
-    "question": "What is the primary pharmacological action of sublingual nitroglycerin in managing an acute angina attack?",
+    "question": "What is the PRIMARY pharmacological and hemodynamic mechanism of sublingual nitroglycerin in relieving acute anginal chest pain during a dental emergency?",
     "options": [
-      "It acts as a positive inotrope to strengthen heart contractions.",
-      "It causes systemic vasoconstriction to increase blood pressure.",
-      "It causes vasodilation, primarily of coronary arteries, to improve myocardial oxygen supply.",
-      "It has a potent analgesic effect on chest pain directly."
+      "Systemic venodilation resulting in reduced venous return (preload) and decreased myocardial oxygen demand.",
+      "Selective coronary arteriolar dilation resulting in increased coronary blood flow and myocardial oxygen supply.",
+      "Systemic arteriolar vasoconstriction resulting in elevated diastolic aortic perfusion pressure.",
+      "Negative inotropic myocardial depression via direct blockade of cardiac voltage-gated calcium channels."
     ],
-    "correctAnswer": 2,
-    "explanation": "Sublingual nitroglycerin primarily works by causing vasodilation, particularly of the coronary arteries, which increases blood flow and improves oxygen supply to the ischemic heart muscle, thereby relieving angina pain. It also causes systemic venous dilation, reducing preload and myocardial oxygen demand. It is not a positive inotrope (A), nor does it cause systemic vasoconstriction (B). While it relieves pain, its primary action is through vasodilation, not direct analgesia (D).",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because sublingual nitroglycerin acts primarily as a systemic venodilator at clinical doses, increasing venous capacitance and reducing venous return (preload) and ventricular wall stress, which significantly diminishes myocardial oxygen demand. While nitroglycerin causes some collateral coronary vasodilation, increasing myocardial oxygen supply via coronary arteriolar dilation (Option B) is not its principal anti-anginal mechanism; in fact, potent arteriolar dilators can induce coronary steal. Nitroglycerin does not cause systemic vasoconstriction (Option C), nor does it act as a calcium channel blocker to depress myocardial contractility (Option D).",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because sublingual nitroglycerin acts primarily as a systemic venodilator at clinical doses, increasing venous capacitance and reducing venous return (preload) and ventricular wall stress, which significantly diminishes myocardial oxygen demand. While nitroglycerin causes some collateral coronary vasodilation, increasing myocardial oxygen supply via coronary arteriolar dilation (Option B) is not its principal anti-anginal mechanism; in fact, potent arteriolar dilators can induce coronary steal. Nitroglycerin does not cause systemic vasoconstriction (Option C), nor does it act as a calcium channel blocker to depress myocardial contractility (Option D).",
+      "verifiedAt": "2026-11-22T04:47:32.607Z"
     }
   },
   {
@@ -5643,23 +5643,23 @@
   {
     "id": 256,
     "topicId": "emergencies",
-    "question": "A 40-year-old male patient, minutes after receiving multiple carpules of 4% articaine with epinephrine for extensive dental treatment, reports perioral tingling, lightheadedness, and then experiences muscle twitching followed by slurred speech. What is the MOST appropriate initial response?",
+    "question": "A 40-year-old male receives local anesthesia prior to restorative therapy. Minutes after administration of three cartridges of 4% articaine with 1:100,000 epinephrine, he reports perioral numbness, metallic taste, and dizziness, followed by visible facial muscle twitching and slurred speech. What is the MOST appropriate initial management step?",
     "options": [
-      "Administer epinephrine intramuscularly.",
-      "Administer additional local anesthetic to counter the effect.",
-      "Administer supplemental oxygen and consider calling EMS.",
-      "Induce vomiting to expel the drug."
+      "Cease the dental procedure immediately, administer 100% supplemental oxygen, and alert emergency medical services (EMS).",
+      "Administer intramuscular epinephrine (0.3 mg 1:1,000) into the anterolateral thigh.",
+      "Administer sublingual nitroglycerin (0.4 mg) and place the patient in an upright sitting position.",
+      "Administer 25 g of oral glucose and assess blood glucose level."
     ],
-    "correctAnswer": 2,
-    "explanation": "Symptoms like perioral tingling, lightheadedness, muscle twitching, and slurred speech are indicative of local anesthetic toxicity, requiring immediate administration of supplemental oxygen and monitoring. If symptoms progress, EMS should be called for advanced care, including potential lipid emulsion therapy. Epinephrine is for anaphylaxis, additional LA would worsen toxicity, and inducing vomiting is ineffective and dangerous.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the patient exhibits early central nervous system manifestations of Local Anesthetic Systemic Toxicity (LAST); immediate cessation of the procedure, early EMS activation, and administration of 100% oxygen are paramount to prevent hypoxemia and acidosis, which rapidly worsen CNS and cardiovascular toxicity. Administering intramuscular epinephrine (Option B) is contraindicated because LAST is not an allergic reaction, and exogenous epinephrine increases myocardial workload, arrhythmia risk, and systemic toxicity. Sublingual nitroglycerin (Option C) is inappropriate because it exacerbates peripheral vasodilation and hypotension in LAST, while administering oral glucose (Option D) inappropriately delays critical airway and respiratory management for a clear toxicity syndrome.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the patient exhibits early central nervous system manifestations of Local Anesthetic Systemic Toxicity (LAST); immediate cessation of the procedure, early EMS activation, and administration of 100% oxygen are paramount to prevent hypoxemia and acidosis, which rapidly worsen CNS and cardiovascular toxicity. Administering intramuscular epinephrine (Option B) is contraindicated because LAST is not an allergic reaction, and exogenous epinephrine increases myocardial workload, arrhythmia risk, and systemic toxicity. Sublingual nitroglycerin (Option C) is inappropriate because it exacerbates peripheral vasodilation and hypotension in LAST, while administering oral glucose (Option D) inappropriately delays critical airway and respiratory management for a clear toxicity syndrome.",
+      "verifiedAt": "2026-11-22T04:47:32.607Z"
     }
   },
   {
@@ -9663,23 +9663,23 @@
   {
     "id": 438,
     "topicId": "emergencies",
-    "question": "A 20-year-old anxious female patient experiences rapid, deep breathing, dizziness, and tingling sensations in her fingers and around her mouth during a routine dental procedure. What is the MOST appropriate initial management?",
+    "question": "A 22-year-old apprehensive female patient begins hyperventilating during local anesthesia administration, exhibiting tachypnea, lightheadedness, perioral paresthesia, and carpopedal spasm. According to modern Canadian dental emergency protocols (Malamed), what is the MOST appropriate initial management?",
     "options": [
-      "A. Administer supplemental oxygen via nasal cannula.",
-      "B. Instruct the patient to breathe slowly and deeply into a paper bag or cupped hands.",
-      "C. Administer a sedative such as oral diazepam.",
-      "D. Immediately call emergency medical services (911)."
+      "Position the patient upright, provide calm reassurance, and guide her to breathe slowly at a rate of 4 to 6 breaths per minute through pursed lips.",
+      "Administer 100% supplemental oxygen at 6 L/min via a non-rebreather face mask.",
+      "Instruct the patient to seal and re-breathe tightly into a paper bag.",
+      "Place the patient in a supine Trendelenburg position and immediately activate emergency medical services (911)."
     ],
-    "correctAnswer": 1,
-    "explanation": "The symptoms described are classic for hyperventilation syndrome, often caused by anxiety, leading to excessive carbon dioxide exhalation and respiratory alkalosis. Instructing the patient to breathe slowly into a paper bag or cupped hands helps re-breathe exhaled carbon dioxide, normalizing blood CO2 levels. Oxygen is generally not indicated and can worsen symptoms. Sedatives are not the immediate first-line management, and 911 is usually not necessary for uncomplicated hyperventilation.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the modern standard of care for acute hyperventilation syndrome emphasizes terminating dental treatment, positioning the patient upright, providing reassurance, and coaching slow, controlled breathing (e.g., pursed-lip or 4 to 6 breaths per minute) to naturally restore arterial carbon dioxide levels. Administering supplemental oxygen (Option B) is contraindicated because the patient is already hyperoxic and oxygen administration fails to correct hypocapnia and respiratory alkalosis. Rebreathing into a paper bag (Option C) is clinically obsolete and contraindicated in Canadian emergency standards due to the proven risk of inducing severe, potentially fatal hypoxia. Placing the patient supine or in Trendelenburg (Option D) restricts diaphragmatic movement, worsens respiratory distress, and is inappropriate for a conscious, hyperventilating patient.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the modern standard of care for acute hyperventilation syndrome emphasizes terminating dental treatment, positioning the patient upright, providing reassurance, and coaching slow, controlled breathing (e.g., pursed-lip or 4 to 6 breaths per minute) to naturally restore arterial carbon dioxide levels. Administering supplemental oxygen (Option B) is contraindicated because the patient is already hyperoxic and oxygen administration fails to correct hypocapnia and respiratory alkalosis. Rebreathing into a paper bag (Option C) is clinically obsolete and contraindicated in Canadian emergency standards due to the proven risk of inducing severe, potentially fatal hypoxia. Placing the patient supine or in Trendelenburg (Option D) restricts diaphragmatic movement, worsens respiratory distress, and is inappropriate for a conscious, hyperventilating patient.",
+      "verifiedAt": "2026-11-22T04:47:32.607Z"
     }
   },
   {
@@ -10575,15 +10575,15 @@
   {
     "id": 479,
     "topicId": "emergencies",
-    "question": "According to the Canadian Dental Association (CDA) guidelines on emergency preparedness, how often should dental office staff participate in emergency drill simulations to maintain competence?",
+    "question": "According to Canadian provincial dental regulatory standards (e.g., RCDSO) and clinical emergency protocols (Malamed), what is the MINIMUM recommended frequency for conducting simulated medical emergency mock drills within the dental office to maintain team competency?",
     "options": [
-      "Annually",
-      "Biannually (every 6 months)",
-      "Quarterly",
-      "Every 2–3 years"
+      "Every 6 months (semi-annually).",
+      "Annually (every 12 months).",
+      "Every 2 years, aligned with Basic Life Support (BLS) recertification.",
+      "Monthly."
     ],
     "correctAnswer": 0,
-    "explanation": "The CDA recommends that dental teams conduct emergency drills at least once a year to ensure skills are retained and staff remain prepared for medical emergencies. More frequent drills are optional, while intervals longer than a year risk skill degradation, making the other choices incorrect.",
+    "explanation": "Option A is correct because Canadian dental regulatory authorities (e.g., RCDSO) and standard dental emergency literature (Malamed) recommend that dental teams conduct mock emergency drills at least semi-annually (every 6 months) to maintain clinical competence, review emergency drug kits, and ensure role readiness. An annual schedule (Option B) is insufficient to prevent skill degradation and does not meet Canadian regulatory expectations for emergency preparedness. Aligning drills exclusively with biennial BLS recertification every two years (Option C) creates unacceptable gaps in emergency responsiveness and team coordination, while monthly drills (Option D) exceed standard regulatory mandates for general dental facilities.",
     "aiVerified": true,
     "peerReviewed": true,
     "remediatedAt": "2026-11-14T23:26:39.391Z",
@@ -10592,8 +10592,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Annual emergency simulation drills and team reviews align with Canadian standard-of-care recommendations and annual BLS recertification requirements for dental practice teams.",
-      "verifiedAt": "2026-11-18T06:20:45.627Z"
+      "clinicalRationale": "Option A is correct because Canadian dental regulatory authorities (e.g., RCDSO) and standard dental emergency literature (Malamed) recommend that dental teams conduct mock emergency drills at least semi-annually (every 6 months) to maintain clinical competence, review emergency drug kits, and ensure role readiness. An annual schedule (Option B) is insufficient to prevent skill degradation and does not meet Canadian regulatory expectations for emergency preparedness. Aligning drills exclusively with biennial BLS recertification every two years (Option C) creates unacceptable gaps in emergency responsiveness and team coordination, while monthly drills (Option D) exceed standard regulatory mandates for general dental facilities.",
+      "verifiedAt": "2026-11-22T04:47:32.607Z"
     }
   },
   {

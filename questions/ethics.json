@@ -5069,23 +5069,23 @@
   {
     "id": 221,
     "topicId": "ethics",
-    "question": "A dentist, Dr. Lee, is transitioning to retirement and plans to sell her practice. She informs her patients that their records will be transferred to the new dentist, Dr. Chen, who is taking over the practice, unless they explicitly object. Is this approach ethically and legally sound in Canada?",
+    "question": "A Canadian dentist is retiring and selling their practice to a successor dentist who will assume clinic operations. Regarding the transfer of patient dental records to the purchasing dentist, which of the following statements represents the correct legal and ethical protocol under Canadian privacy legislation and provincial dental regulatory guidelines?",
     "options": [
-      "Yes, patient records are the property of the practice and can be transferred with the sale.",
-      "No, explicit patient consent is generally required before transferring records to a new dentist.",
-      "No, patient records must be destroyed upon a dentist's retirement to protect privacy.",
-      "Yes, as long as patients are given an opportunity to object, it is acceptable."
+      "Each patient must provide express affirmative written consent before their records can be released to the purchasing dentist.",
+      "Records may be transferred to the successor dentist after providing patients with advance notice and a reasonable opportunity to object.",
+      "The retiring dentist must personally maintain physical possession of all records until the mandatory 10-year retention period expires.",
+      "Dental records are proprietary commercial assets and may be transferred to the purchaser without notifying patients."
     ],
     "correctAnswer": 1,
-    "explanation": "In Canada, patient privacy laws generally require explicit, informed consent for the transfer of personal health information, including dental records, to a new practitioner, even when selling a practice. While informing patients and providing an opt-out option is a common practice, the gold standard is explicit consent. Patient records are not simply practice property to be transferred without consent, nor should they be destroyed without appropriate retention periods.",
+    "explanation": "Option B is correct because under Canadian health privacy legislation (such as Ontario's PHIPA s. 42(2)) and provincial dental regulatory guidelines, a retiring dentist selling a practice may transfer patient records to a successor custodian provided patients receive advance notice and a reasonable opportunity to object or transfer care elsewhere. Option A is incorrect because requiring express affirmative written consent from every patient is not legally required for practice sales and would severely compromise continuity of care. Options C and D are incorrect because custody can be legally transferred to a successor custodian without the vendor holding files for 10 years, and records cannot be transferred without notifying patients.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because under Canadian health privacy legislation (such as Ontario's PHIPA s. 42(2)) and provincial dental regulatory guidelines, a retiring dentist selling a practice may transfer patient records to a successor custodian provided patients receive advance notice and a reasonable opportunity to object or transfer care elsewhere. Option A is incorrect because requiring express affirmative written consent from every patient is not legally required for practice sales and would severely compromise continuity of care. Options C and D are incorrect because custody can be legally transferred to a successor custodian without the vendor holding files for 10 years, and records cannot be transferred without notifying patients.",
+      "verifiedAt": "2026-11-22T04:47:32.495Z"
     }
   },
   {
@@ -5934,24 +5934,24 @@
   {
     "id": 260,
     "topicId": "ethics",
-    "question": "During a routine dental examination, a 32-year-old patient discloses that they have recently tested positive for HIV. The patient requests that this information remain strictly confidential, citing fear of job discrimination. The dentist is aware that HIV is a reportable disease in their province. What is the dentist's primary legal and ethical obligation in this situation?",
+    "question": "During a comprehensive examination, a 32-year-old patient discloses a recent medical diagnosis of human immunodeficiency virus (HIV) infection. The patient expresses severe fear of stigma and requests that the dentist tell no one. What is the dentist's primary legal and ethical obligation in this situation?",
     "options": [
-      "Maintain absolute confidentiality as requested by the patient, as patient autonomy is the paramount ethical principle.",
-      "Inform the patient's employer directly to prevent potential workplace transmission.",
-      "Report the patient's HIV status to the provincial public health authority, as it is a mandatory reportable disease.",
-      "Document the conversation in the patient's chart but take no further action, as the patient has not given consent to disclose."
+      "Submit a mandatory communicable disease report detailing the diagnosis to the local public health officer.",
+      "Maintain absolute confidentiality by omitting any mention of the HIV infection from the dental chart as requested.",
+      "Document the HIV diagnosis in the patient's confidential dental chart and maintain confidentiality without reporting to external third parties.",
+      "Refuse to provide routine dental treatment unless the patient signs a disclosure authorization for all clinic staff."
     ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is to maintain absolute confidentiality. Canadian public‑health statutes (e.g., Ontario’s Health Protection and Promotion Act, Alberta Health Act) do not list HIV as a reportable condition, and the CDA Code of Ethics emphasizes that confidentiality is only overridden by explicit legal mandates. Consequently, a dentist must keep the patient’s HIV status private, document it, and obtain consent before any disclosure. Disclosing to an employer or failing to report would breach privacy laws (PIPEDA, provincial equivalents) and professional standards, while merely documenting without reporting is appropriate because no reporting requirement exists.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because the dentist is ethically and legally obligated to document all relevant medical conditions in the confidential dental record for safe clinical management while maintaining doctor-patient confidentiality within the circle of care. Option A is incorrect because statutory reporting of communicable diseases is the legal duty of the diagnosing laboratory or physician, not a dental practitioner recording an established medical history. Options B and D are incorrect because omitting health data compromises patient safety and violates recordkeeping standards, while refusing treatment or coercing disclosure constitutes prohibited discrimination under Canadian human rights legislation.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because the dentist is ethically and legally obligated to document all relevant medical conditions in the confidential dental record for safe clinical management while maintaining doctor-patient confidentiality within the circle of care. Option A is incorrect because statutory reporting of communicable diseases is the legal duty of the diagnosing laboratory or physician, not a dental practitioner recording an established medical history. Options B and D are incorrect because omitting health data compromises patient safety and violates recordkeeping standards, while refusing treatment or coercing disclosure constitutes prohibited discrimination under Canadian human rights legislation.",
+      "verifiedAt": "2026-11-22T04:47:32.495Z"
     }
   },
   {
@@ -6817,23 +6817,23 @@
   {
     "id": 301,
     "topicId": "ethics",
-    "question": "A dentist observes a 7-year-old patient with multiple intraoral lacerations, bruising on the face, and inconsistent explanations from the accompanying guardian. The dentist strongly suspects child abuse. What is the primary ethical and legal obligation of the dentist in this situation?",
+    "question": "A patient covered by a private dental insurance plan that reimburses 80% of treatment fees requests that the dentist waive the remaining 20% co-payment for a crown on tooth 16, stating they cannot afford out-of-pocket costs. Under Canadian provincial dental regulatory authority standards of practice, which of the following is the dentist's legal and ethical obligation?",
     "options": [
-      "Document the findings thoroughly in the patient's chart and confront the guardian for a more detailed explanation.",
-      "Report the suspicion directly to the appropriate child protection agency, as mandated by law in Canada.",
-      "Inform the patient's family physician to seek their opinion and discuss the possibility of referral to social services.",
-      "Continue with urgent dental treatment and monitor the situation for further signs before taking any external action."
+      "Accept the request, provided the patient signs an internal financial hardship waiver agreement.",
+      "Submit a claim with an inflated fee so that the insurer's 80% reimbursement covers the full normal cost of treatment.",
+      "Waive the co-payment, as fee determination and collection policies are entirely within the treating dentist's professional discretion.",
+      "Decline the request, because routinely waiving a co-payment without the insurer's knowledge constitutes fraudulent billing."
     ],
-    "correctAnswer": 1,
-    "explanation": "Under Canadian law, healthcare professionals, including dentists, have a legal and ethical duty to report suspected child abuse directly to child protection authorities, without needing to confirm abuse or notify the parents. Confronting the guardian or delaying a report can put the child at further risk and does not fulfill the legal obligation.",
+    "correctAnswer": 3,
+    "explanation": "Option D is correct because Canadian dental regulatory authorities and jurisprudence define routinely waiving patient co-payments without notifying the insurer as fraudulent billing and professional misconduct, as it misrepresents the actual fee charged for the service. Option A is incorrect because an internal financial hardship agreement does not relieve the dentist of the statutory obligation to report the true fee charged to the third-party payor. Options B and C are incorrect because submitting an inflated fee represents overt fraud, and professional fee discretion does not permit deceptive billing practices that violate regulatory standards.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because Canadian dental regulatory authorities and jurisprudence define routinely waiving patient co-payments without notifying the insurer as fraudulent billing and professional misconduct, as it misrepresents the actual fee charged for the service. Option A is incorrect because an internal financial hardship agreement does not relieve the dentist of the statutory obligation to report the true fee charged to the third-party payor. Options B and C are incorrect because submitting an inflated fee represents overt fraud, and professional fee discretion does not permit deceptive billing practices that violate regulatory standards.",
+      "verifiedAt": "2026-11-22T04:47:32.495Z"
     }
   },
   {
@@ -9131,23 +9131,23 @@
   {
     "id": 766355008,
     "topicId": "ethics",
-    "question": "A 9-year-old male patient has early loss of tooth 74 due to extensive caries. Clinically, there is insufficient space for the eruption of the permanent premolar, and the contralateral arch is symmetrical. Radiographically, the succedaneous premolar is present and developing normally. What is the MOST appropriate management to prevent space loss?",
+    "question": "A 7-year-old male patient presents following the premature extraction of tooth 74 due to severe caries. Clinical examination reveals adequate arch length and space for the succedaneous premolar, and the permanent mandibular incisors have not fully erupted. Radiographically, tooth 34 exhibits less than one-third root development with significant overlying alveolar bone. What is the MOST appropriate appliance to maintain space in this quadrant?",
     "options": [
-      "Refer for comprehensive orthodontic treatment immediately.",
-      "Observe and monitor the space until the permanent premolar is ready to erupt.",
-      "Place a fixed lingual arch space maintainer.",
-      "Fabricate and cement a band and loop space maintainer."
+      "Passive lingual holding arch",
+      "Distal shoe space maintainer",
+      "Removable acrylic partial maintainer",
+      "Band and loop space maintainer"
     ],
     "correctAnswer": 3,
-    "explanation": "Given the early loss of a primary molar and insufficient space for the succedaneous permanent premolar, a band and loop space maintainer is the most appropriate device to hold the space. A fixed lingual arch is used for bilateral space maintenance or anchorage, which is not indicated for a single unilateral space loss. Observation would lead to further space loss, and comprehensive orthodontic treatment is premature at this stage.",
+    "explanation": "Option D is correct because a unilateral band and loop space maintainer is the standard appliance for the premature unilateral loss of a primary first molar (tooth 74) when space is intact and the succedaneous tooth has less than one-half of its root formed. Option A is contraindicated prior to the complete eruption of the permanent mandibular incisors because the archwire can deflect their eruption pathway or become trapped sublingually. Options B and C are incorrect because a distal shoe is indicated exclusively for the loss of a primary second molar prior to eruption of the adjacent permanent first molar, while removable appliances have poor compliance in young children and are not first-line for unilateral single-tooth loss.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because a unilateral band and loop space maintainer is the standard appliance for the premature unilateral loss of a primary first molar (tooth 74) when space is intact and the succedaneous tooth has less than one-half of its root formed. Option A is contraindicated prior to the complete eruption of the permanent mandibular incisors because the archwire can deflect their eruption pathway or become trapped sublingually. Options B and C are incorrect because a distal shoe is indicated exclusively for the loss of a primary second molar prior to eruption of the adjacent permanent first molar, while removable appliances have poor compliance in young children and are not first-line for unilateral single-tooth loss.",
+      "verifiedAt": "2026-11-22T04:47:32.495Z"
     }
   },
   {
@@ -9575,25 +9575,25 @@
   {
     "id": 643858135,
     "topicId": "ethics",
-    "question": "A 25-year-old female patient presents for a routine dental check-up. Her medical history is unremarkable. A periapical radiograph of the mandibular right quadrant reveals a well-defined, unilocular radiolucency approximately 1.5 cm in diameter, surrounding the apex of the non-carious, vital tooth 45. The tooth is asymptomatic and responds normally to vitality testing. What is the MOST appropriate next step in the management of this lesion?",
+    "question": "A 25-year-old female presents for a routine dental examination. A periapical radiograph of the mandibular right quadrant reveals a well-defined, unilocular radiolucency approximately 1.5 cm in diameter intimately associated with the apex of tooth 45. Tooth 45 is non-carious, asymptomatic, and responds normally to thermal and electric pulp vitality tests. What is the MOST appropriate next step in the management of this lesion?",
     "options": [
-      "Initiate root canal treatment on tooth 45.",
-      "Extract tooth 45 and perform a biopsy of the lesion.",
-      "Recommend observation with periodic radiographic follow-up.",
-      "Refer for surgical enucleation and histopathological examination of the lesion."
+      "Initiate non-surgical root canal treatment on tooth 45",
+      "Recommend periodic radiographic observation at 12-month intervals",
+      "Extract tooth 45 and curette the periapical tissue",
+      "Refer for surgical biopsy and histopathological examination"
     ],
-    "correctAnswer": 2,
-    "explanation": "Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology) describe early‑stage periapical cemental dysplasia as a radiolucent lesion around the apex of a vital tooth, asymptomatic and requiring no surgical intervention. The lesion is self‑limiting; the standard of care is periodic radiographic monitoring to confirm stability. Surgical enucleation is reserved for lesions that show growth or become symptomatic. Therefore option 2 is the appropriate management; options 0, 1, and 3 represent overtreatment not supported by the lesion’s benign, non‑inflammatory nature.",
+    "correctAnswer": 3,
+    "explanation": "Option D is correct because a solitary 1.5 cm unilocular radiolucency associated with a vital tooth must undergo surgical biopsy and histopathological examination to rule out potentially aggressive benign odontogenic lesions such as an odontogenic keratocyst or ameloblastoma. Option A is contraindicated because tooth 45 is vital, demonstrating that the lesion is non-inflammatory and not of endodontic origin. Options B and C are incorrect because extraction of an intact vital tooth is unjustified overtreatment, while passive observation of an expanding uncharacterized radiolucency risks extensive bone destruction.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because a solitary 1.5 cm unilocular radiolucency associated with a vital tooth must undergo surgical biopsy and histopathological examination to rule out potentially aggressive benign odontogenic lesions such as an odontogenic keratocyst or ameloblastoma. Option A is contraindicated because tooth 45 is vital, demonstrating that the lesion is non-inflammatory and not of endodontic origin. Options B and C are incorrect because extraction of an intact vital tooth is unjustified overtreatment, while passive observation of an expanding uncharacterized radiolucency risks extensive bone destruction.",
+      "verifiedAt": "2026-11-22T04:47:32.495Z"
     }
   },
   {
@@ -9666,24 +9666,24 @@
   {
     "id": 96316005,
     "topicId": "ethics",
-    "question": "A 50-year-old male patient presents to your dental office with a chief complaint of a severe acute apical abscess on tooth 37, accompanied by significant facial swelling and pain. His medical history is significant for a severe penicillin allergy (anaphylaxis). What is the MOST appropriate first-line antibiotic to prescribe for this infection?",
+    "question": "A 50-year-old male presents to the dental clinic with an acute apical abscess associated with tooth 37, presenting with localized facial swelling, mild trismus, and systemic malaise. His medical history confirms an immediate-type hypersensitivity reaction (anaphylaxis) to penicillin. Following appropriate endodontic debridement, which of the following is the MOST appropriate oral antibiotic to prescribe according to Canadian dental guidelines?",
     "options": [
       "Amoxicillin",
       "Clindamycin",
-      "Metronidazole",
+      "Metronidazole as monotherapy",
       "Azithromycin"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is Clindamycin (Index 1). In the management of acute dental infections, particularly those involving anaerobic bacteria (such as acute apical abscesses with swelling), Clindamycin is the gold-standard alternative for patients with a history of severe penicillin allergy (anaphylaxis). It provides excellent coverage against oral anaerobes and has no cross-reactivity with penicillins. \n\nWhy the other options are incorrect:\n- Amoxicillin (Index 0): This is a penicillin derivative. It is strictly contraindicated in patients with a history of anaphylaxis to penicillin due to the risk of life-threatening cross-reactivity.\n- Metronidazole (Index 2): While effective against anaerobes, Metronidazole is generally not used as a monotherapy for acute dental infections because it lacks sufficient activity against the aerobic and facultative anaerobic bacteria often present in mixed dental infections. It is typically used in combination with other agents (like Amoxicillin) for specific conditions like necrotizing periodontal disease or when anaerobic coverage needs to be augmented.\n- Azithromycin (Index 3): While Azithromycin is an alternative for penicillin-allergic patients, it is generally considered less effective than Clindamycin for severe dental infections involving significant anaerobic load and tissue swelling. Current Canadian guidelines (e.g., CDA, NDEB resources) often favor Clindamycin for severe cases or when anaerobic coverage is the primary concern in penicillin-allergic patients, whereas Azithromycin may be reserved for milder cases or when Clindamycin is not tolerated. However, given the 'severe' nature and 'significant swelling' described, Clindamycin is the more robust and traditionally accepted board answer for this specific clinical scenario.",
+    "correctAnswer": 3,
+    "explanation": "Option D is correct because azithromycin is the recommended first-line oral antibiotic for acute odontogenic infections in patients with an immediate-type severe allergy (anaphylaxis) to penicillin under Canadian clinical guidelines. Option B is contraindicated as first-line therapy because clindamycin carries a high risk of inducing severe or fatal Clostridioides difficile colitis and is no longer recommended. Options A and C are incorrect because amoxicillin is strictly contraindicated in patients with a history of penicillin-induced anaphylaxis, and metronidazole lacks essential coverage against facultative aerobic bacteria when prescribed as monotherapy.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because azithromycin is the recommended first-line oral antibiotic for acute odontogenic infections in patients with an immediate-type severe allergy (anaphylaxis) to penicillin under Canadian clinical guidelines. Option B is contraindicated as first-line therapy because clindamycin carries a high risk of inducing severe or fatal Clostridioides difficile colitis and is no longer recommended. Options A and C are incorrect because amoxicillin is strictly contraindicated in patients with a history of penicillin-induced anaphylaxis, and metronidazole lacks essential coverage against facultative aerobic bacteria when prescribed as monotherapy.",
+      "verifiedAt": "2026-11-22T04:47:32.495Z"
     }
   },
   {
@@ -10244,23 +10244,23 @@
   {
     "id": 804159059,
     "topicId": "ethics",
-    "question": "An 80-year-old female patient, who resides in a long-term care facility, presents with a chief complaint of chronic dry mouth. Her medical history includes multiple medications for hypertension, depression, and arthritis. Clinical examination reveals generalized oral dryness, increased plaque accumulation, and erythematous patches on the dorsal surface of the tongue. What is the MOST appropriate initial step in managing her xerostomia?",
+    "question": "An 80-year-old female residing in a long-term care facility presents with a chief complaint of chronic dry mouth and difficulty eating dry food. Her medical history includes multiple anticholinergic medications for hypertension, depression, and osteoarthritis. Clinical examination reveals dry, sticky oral mucosa, absence of salivary pooling in the floor of the mouth, and cervical plaque accumulation. What is the MOST appropriate initial step in managing her xerostomia?",
     "options": [
-      "Prescribe pilocarpine",
-      "Immediately refer to her physician for medication review",
-      "Recommend over-the-counter saliva substitutes and frequent water sips",
-      "Initiate antifungal therapy for candidiasis"
+      "Prescribe systemic pilocarpine hydrochloride 5 mg three times daily",
+      "Immediately request that her physician discontinue her essential medications",
+      "Recommend frequent water sips, oral hydration, and carboxymethylcellulose-based saliva substitutes",
+      "Initiate systemic corticosteroid therapy to reduce salivary gland inflammation"
     ],
-    "correctAnswer": 1,
-    "explanation": "In elderly patients, polypharmacy is the leading cause of xerostomia. Little & Falace’s *Dental Management of the Medically Compromised Patient* (2022, Ch. 9) advise that the initial management step is a medication review with the prescribing physician to identify and possibly substitute xerogenic drugs. Symptomatic measures (saliva substitutes) are appropriate after the drug cause has been addressed. Therefore, the most appropriate initial step is an immediate referral for medication review, not the provision of over‑the‑counter saliva substitutes.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because initial management of medication-induced xerostomia in elderly patients focuses on non-invasive palliative relief through frequent hydration, oral lubricants, and saliva substitutes according to Canadian geriatric dental care principles. Option A is inappropriate as an initial step because systemic sialogogues like pilocarpine are reserved for refractory symptoms and carry significant cardiovascular and cholinergic adverse effects. Options B and D are incorrect because abruptly discontinuing essential systemic medications poses severe health risks and over-triages chronic xerostomia, while corticosteroids are ineffective and contraindicated for drug-induced hyposalivation.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because initial management of medication-induced xerostomia in elderly patients focuses on non-invasive palliative relief through frequent hydration, oral lubricants, and saliva substitutes according to Canadian geriatric dental care principles. Option A is inappropriate as an initial step because systemic sialogogues like pilocarpine are reserved for refractory symptoms and carry significant cardiovascular and cholinergic adverse effects. Options B and D are incorrect because abruptly discontinuing essential systemic medications poses severe health risks and over-triages chronic xerostomia, while corticosteroids are ineffective and contraindicated for drug-induced hyposalivation.",
+      "verifiedAt": "2026-11-22T04:47:32.495Z"
     }
   },
   {

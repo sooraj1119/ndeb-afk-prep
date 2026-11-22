@@ -912,23 +912,23 @@
   {
     "id": 42,
     "topicId": "biochemistry",
-    "question": "A young child presents with brittle bones, blue sclera, and fragile teeth (dentinogenesis imperfecta). Genetic testing confirms a mutation in a gene encoding for Type I collagen. Which of the following post-translational modifications is *most critically* affected in the pathogenesis of such conditions?",
+    "question": "A 5-year-old child presents with a history of recurrent bone fractures after minor trauma, blue sclera, and opalescent, amber-colored teeth with obliterated pulp chambers (dentinogenesis imperfecta). Genetic testing confirms a diagnosis of osteogenesis imperfecta type I. Which of the following molecular defects is the primary cause of this condition?",
     "options": [
-      "Hydroxylation of proline and lysine residues",
-      "Acetylation of lysine residues",
-      "Glycosylation of asparagine residues",
-      "Phosphorylation of serine and threonine residues"
+      "Point mutation resulting in the substitution of glycine within the triple-helical domain of Type I collagen",
+      "Impaired post-translational hydroxylation of proline and lysine residues in procollagen",
+      "Defective extracellular cleavage of procollagen N-terminal and C-terminal propeptides",
+      "Deficiency of the copper-dependent enzyme lysyl oxidase preventing collagen cross-linking"
     ],
     "correctAnswer": 0,
-    "explanation": "Hydroxylation of proline and lysine residues, requiring Vitamin C as a cofactor, is essential for collagen triple helix stability. Defects in this process, often due to genetic mutations affecting collagen structure or enzyme activity, lead to conditions like osteogenesis imperfecta and fragile dentin. The other modifications are important for other proteins or specific collagen functions but are not the primary defect in collagen stability.",
+    "explanation": "Option A is correct because osteogenesis imperfecta is caused by mutations in the COL1A1 or COL1A2 genes that substitute glycine with bulkier amino acids within the repeating Gly-X-Y triplet, disrupting the assembly and stability of the Type I collagen triple helix. Option B is incorrect because impaired hydroxylation of proline and lysine residues is the biochemical hallmark of scurvy (ascorbic acid deficiency), not osteogenesis imperfecta. Options C and D describe defective propeptide cleavage and impaired covalent cross-linking, which characterize subtypes of Ehlers-Danlos syndrome rather than classic osteogenesis imperfecta.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because osteogenesis imperfecta is caused by mutations in the COL1A1 or COL1A2 genes that substitute glycine with bulkier amino acids within the repeating Gly-X-Y triplet, disrupting the assembly and stability of the Type I collagen triple helix. Option B is incorrect because impaired hydroxylation of proline and lysine residues is the biochemical hallmark of scurvy (ascorbic acid deficiency), not osteogenesis imperfecta. Options C and D describe defective propeptide cleavage and impaired covalent cross-linking, which characterize subtypes of Ehlers-Danlos syndrome rather than classic osteogenesis imperfecta.",
+      "verifiedAt": "2026-11-22T04:47:32.509Z"
     }
   },
   {
@@ -2681,23 +2681,23 @@
     "id": 123,
     "topicId": "biochemistry",
     "difficulty": "medium",
-    "question": "A 10-year-old child presents with frequent fasting hypoglycemia, hepatomegaly, and hyperuricemia. Genetic testing confirms von Gierke disease (Glycogen Storage Disease Type I). Which specific enzyme defect is responsible for this condition?",
+    "question": "A 10-year-old child presents with severe fasting hypoglycemia, lactic acidosis, hepatomegaly, and hyperuricemia. Diagnostic metabolic testing confirms von Gierke disease (Glycogen Storage Disease Type I). Which enzyme is deficient in this disorder?",
     "options": [
-      "Acid maltase",
-      "Glycogen phosphorylase",
+      "Lysosomal alpha-1,4-glucosidase (acid maltase)",
+      "Glycogen debranching enzyme (amylo-1,6-glucosidase)",
       "Glucose-6-phosphatase",
-      "Lysosomal alpha-1,4-glucosidase"
+      "Hepatic glycogen phosphorylase"
     ],
     "correctAnswer": 2,
-    "explanation": "Von Gierke disease is caused by a deficiency of glucose-6-phosphatase, an essential enzyme in both glycogenolysis and gluconeogenesis located in the liver and kidneys, leading to severe fasting hypoglycemia and hepatomegaly due to glycogen accumulation. Glycogen phosphorylase deficiency causes McArdle disease (muscle-specific), and lysosomal alpha-1,4-glucosidase (acid maltase) deficiency causes Pompe disease.",
+    "explanation": "Option C is correct because von Gierke disease (GSD Type I) is caused by a genetic deficiency of glucose-6-phosphatase, preventing the final step of both glycogenolysis and gluconeogenesis and producing severe fasting hypoglycemia and hepatomegaly. Option B is incorrect because glycogen debranching enzyme deficiency causes Cori disease (GSD Type III), which presents with normal blood lactate levels and milder hypoglycemia. Options A and D are incorrect because lysosomal alpha-1,4-glucosidase deficiency causes Pompe disease (GSD Type II) manifesting with severe cardiomyopathy, while hepatic glycogen phosphorylase deficiency causes Hers disease (GSD Type VI).",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because von Gierke disease (GSD Type I) is caused by a genetic deficiency of glucose-6-phosphatase, preventing the final step of both glycogenolysis and gluconeogenesis and producing severe fasting hypoglycemia and hepatomegaly. Option B is incorrect because glycogen debranching enzyme deficiency causes Cori disease (GSD Type III), which presents with normal blood lactate levels and milder hypoglycemia. Options A and D are incorrect because lysosomal alpha-1,4-glucosidase deficiency causes Pompe disease (GSD Type II) manifesting with severe cardiomyopathy, while hepatic glycogen phosphorylase deficiency causes Hers disease (GSD Type VI).",
+      "verifiedAt": "2026-11-22T04:47:32.509Z"
     }
   },
   {
@@ -10445,23 +10445,23 @@
   {
     "id": 758624326,
     "topicId": "biochemistry",
-    "question": "Which of the following anatomical structures is most likely to be perforated during an improperly administered mandibular block (inferior alveolar nerve block)?",
+    "question": "During the administration of a conventional inferior alveolar nerve block, posterior over-insertion of the needle past the posterior border of the mandibular ramus risks penetrating which anatomical structure, potentially resulting in transient facial paralysis?",
     "options": [
       "Pterygoid plexus of veins",
-      "Parotid gland",
+      "Parotid gland capsule",
       "Submandibular gland",
-      "Lingual nerve"
+      "Deep temporal tendon"
     ],
-    "correctAnswer": 0,
-    "explanation": "Malamed’s Handbook of Local Anesthesia (7th ed.) identifies vascular injury to the pterygoid plexus as the most common complication of an inferior alveolar nerve block, occurring when the needle penetrates the infratemporal fossa. Accidental perforation leads to rapid intra‑oral or submandibular hematoma, which may cause swelling, trismus, or airway compromise. While lingual‑nerve injury is a recognized neuropathic complication, it is typically a stretch or compression injury rather than a perforation, and it occurs less frequently than vascular puncture. Therefore, the structure most likely to be perforated in an improperly placed mandibular block is the pterygoid plexus of veins (index 0).",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because posterior over-insertion of the needle during an inferior alveolar nerve block penetrates the parotid gland capsule, where deposition of anesthetic solution blocks the terminal branches of the facial nerve (cranial nerve VII) and induces transient unilateral facial paralysis. Option A is incorrect because the pterygoid plexus of veins resides in the infratemporal fossa and is susceptible to injury during an over-inserted posterior superior alveolar (PSA) block, producing a hematoma. Options C and D are incorrect because the submandibular gland is located inferior to the mylohyoid muscle in the floor of the mouth, while the deep temporal tendon inserts onto the anterior border of the ramus.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because posterior over-insertion of the needle during an inferior alveolar nerve block penetrates the parotid gland capsule, where deposition of anesthetic solution blocks the terminal branches of the facial nerve (cranial nerve VII) and induces transient unilateral facial paralysis. Option A is incorrect because the pterygoid plexus of veins resides in the infratemporal fossa and is susceptible to injury during an over-inserted posterior superior alveolar (PSA) block, producing a hematoma. Options C and D are incorrect because the submandibular gland is located inferior to the mylohyoid muscle in the floor of the mouth, while the deep temporal tendon inserts onto the anterior border of the ramus.",
+      "verifiedAt": "2026-11-22T04:47:32.509Z"
     }
   },
   {
