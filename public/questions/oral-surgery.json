@@ -90,23 +90,23 @@
   {
     "id": 5,
     "topicId": "oral-surgery",
-    "question": "A 70-year-old female patient, who has been taking oral alendronate (Fosamax) for osteoporosis for 8 years, requires the extraction of a necrotic mandibular molar. She is otherwise healthy. What is the most appropriate management approach for this patient?",
+    "question": "A 70-year-old female patient who has been taking oral alendronate for osteoporosis for 8 years requires the extraction of non-restorable tooth 36. She has no other medical conditions and is not taking corticosteroids or antiangiogenic medications. What is the most appropriate management approach for this patient in general dental practice?",
     "options": [
-      "Refer the patient to an oral and maxillofacial surgeon for a comprehensive risk assessment and management plan.",
-      "Proceed with the extraction, ensuring atraumatic technique and primary closure of the site.",
-      "Prescribe prophylactic antibiotics for one week prior to and two weeks after the extraction.",
-      "Advise the patient to discontinue alendronate for three months before and three months after the extraction."
+      "Refer the patient to an oral and maxillofacial surgeon for management in a hospital facility.",
+      "Proceed with the extraction using an atraumatic surgical technique, smooth sharp bone margins, and achieve primary soft tissue closure.",
+      "Prescribe prophylactic systemic amoxicillin for two weeks prior to and two weeks after the extraction.",
+      "Advise the patient to discontinue oral alendronate for three months before the extraction."
     ],
-    "correctAnswer": 0,
-    "explanation": "Patients on bisphosphonates, especially for an extended period, are at risk for medication-related osteonecrosis of the jaw (MRONJ). For extractions, a comprehensive risk assessment and management plan by an oral and maxillofacial surgeon is essential to mitigate this risk, which may include reviewing current medications, patient health, and formulating a surgical approach. Simply proceeding with extraction, prescribing antibiotics alone, or recommending a 'drug holiday' without specialist consultation are not considered best practices and can lead to increased risk of MRONJ.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because under Canadian Association of Oral and Maxillofacial Surgeons (CAOMS) and CDA guidelines, osteoporotic patients on oral bisphosphonates have a very low risk of MRONJ (~0.1%) and should be managed in general dental practice using atraumatic extraction, bone contouring, primary closure, and thorough informed consent. Option A is incorrect because routine extractions in low-risk osteoporosis patients do not mandate referral to an oral and maxillofacial surgeon. Option C is incorrect because extended prophylactic antibiotic regimens are not indicated for routine extractions in low-risk patients, and Option D is incorrect because an alendronate 'drug holiday' does not significantly reduce short-term MRONJ risk due to the multi-year skeletal half-life of bisphosphonates.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because under Canadian Association of Oral and Maxillofacial Surgeons (CAOMS) and CDA guidelines, osteoporotic patients on oral bisphosphonates have a very low risk of MRONJ (~0.1%) and should be managed in general dental practice using atraumatic extraction, bone contouring, primary closure, and thorough informed consent. Option A is incorrect because routine extractions in low-risk osteoporosis patients do not mandate referral to an oral and maxillofacial surgeon. Option C is incorrect because extended prophylactic antibiotic regimens are not indicated for routine extractions in low-risk patients, and Option D is incorrect because an alendronate 'drug holiday' does not significantly reduce short-term MRONJ risk due to the multi-year skeletal half-life of bisphosphonates.",
+      "verifiedAt": "2026-11-22T04:47:32.585Z"
     }
   },
   {
@@ -4973,24 +4973,24 @@
   {
     "id": 226,
     "topicId": "oral-surgery",
-    "question": "A 70 kg adult patient with well-controlled hypertension (ASA II, taking an ACE inhibitor) requires the surgical extraction of tooth 36. What is the maximum number of cartridges of 2% lidocaine with 1:100,000 epinephrine that can be safely administered for routine local anesthesia in this patient?",
+    "question": "A 70 kg adult patient with well-controlled hypertension (ASA II, taking an ACE inhibitor) requires the surgical extraction of tooth 36. What is the maximum number of 1.8 mL cartridges of 2% lidocaine with 1:100,000 epinephrine that can be safely administered for local anesthesia in this patient based on Canadian vasoconstrictor guidelines?",
     "options": [
-      "2 cartridges.",
-      "4 cartridges.",
-      "6 cartridges.",
-      "8 cartridges."
+      "2 cartridges",
+      "4 cartridges",
+      "7 cartridges",
+      "11 cartridges"
     ],
-    "correctAnswer": 3,
-    "explanation": "Option D is correct because in an ASA II patient with well-controlled hypertension, epinephrine is not restricted to the 0.04 mg cardiac dose; rather, the maximum recommended dose (MRD) of lidocaine (4.4 mg/kg up to 300 mg, or ~36 mg per 1.8 mL cartridge) is the limiting factor, permitting up to 8.3 cartridges (~8 cartridges) in a 70 kg patient. Two cartridges (Option A) corresponds to the 0.04 mg cardiac dose reserved strictly for severe cardiovascular disease (ASA III/IV). Four cartridges (Option B) and 6 cartridges (Option C) significantly underestimate the safe therapeutic ceiling for this patient.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian clinical standards and Malamed guidelines restrict epinephrine to a cardiac dose of 0.04 mg in patients with cardiovascular disease (ASA II/III); at 0.018 mg epinephrine per 1.8 mL cartridge (1:100,000), a maximum of 2 cartridges (0.036 mg) can be safely administered. Option B (4 cartridges) represents the cardiac limit if 1:200,000 epinephrine were used (0.009 mg/cartridge). Option C (7 cartridges) and Option D (11 cartridges) calculate maximum dosages based on lidocaine toxicity alone (4.5 mg/kg limit) and healthy adult epinephrine limits (0.2 mg), both of which dangerously exceed safe cardiovascular vasoconstrictor thresholds for this patient.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Option D is correct because in an ASA II patient with well-controlled hypertension, epinephrine is not restricted to the 0.04 mg cardiac dose; rather, the maximum recommended dose (MRD) of lidocaine (4.4 mg/kg up to 300 mg, or ~36 mg per 1.8 mL cartridge) is the limiting factor, permitting up to 8.3 cartridges (~8 cartridges) in a 70 kg patient. Two cartridges (Option A) corresponds to the 0.04 mg cardiac dose reserved strictly for severe cardiovascular disease (ASA III/IV). Four cartridges (Option B) and 6 cartridges (Option C) significantly underestimate the safe therapeutic ceiling for this patient.",
-      "verifiedAt": "2026-11-18T19:21:44.796Z"
+      "clinicalRationale": "Option A is correct because Canadian clinical standards and Malamed guidelines restrict epinephrine to a cardiac dose of 0.04 mg in patients with cardiovascular disease (ASA II/III); at 0.018 mg epinephrine per 1.8 mL cartridge (1:100,000), a maximum of 2 cartridges (0.036 mg) can be safely administered. Option B (4 cartridges) represents the cardiac limit if 1:200,000 epinephrine were used (0.009 mg/cartridge). Option C (7 cartridges) and Option D (11 cartridges) calculate maximum dosages based on lidocaine toxicity alone (4.5 mg/kg limit) and healthy adult epinephrine limits (0.2 mg), both of which dangerously exceed safe cardiovascular vasoconstrictor thresholds for this patient.",
+      "verifiedAt": "2026-11-22T04:47:32.585Z"
     }
   },
   {
@@ -6164,23 +6164,23 @@
   {
     "id": 280,
     "topicId": "oral-surgery",
-    "question": "Three days following the extraction of a mandibular first molar, a 42-year-old patient reports severe, throbbing pain in the extraction site that radiates to the ear, accompanied by a foul taste and odour. Clinical examination reveals a partially empty socket with exposed bone, and no signs of purulence. What is the most appropriate management of this condition?",
+    "question": "Three days following the uncomplicated extraction of the permanent mandibular right first molar (tooth 46), a 42-year-old patient reports severe, throbbing pain radiating to the ipsilateral ear, accompanied by halitosis. Clinical examination reveals a socket devoid of an organized blood clot with exposed, exquisitely sensitive bone, but no erythema, swelling, or purulence. What is the MOST appropriate management?",
     "options": [
-      "Prescribe a course of systemic antibiotics and pain medication.",
-      "Gently irrigate the socket with saline and place a medicated dressing.",
-      "Re-suture the extraction socket to achieve primary closure.",
-      "Immediately refer for re-extraction of the tooth root tip."
+      "Prescribe a 7-day course of systemic amoxicillin 500 mg every 8 hours and an opioid analgesic.",
+      "Gently irrigate the socket with warm saline and place an intra-alveolar sedative medicated dressing.",
+      "Curette the alveolar socket aggressively under local anesthesia to induce fresh hemorrhage and clot formation.",
+      "Reflect a mucoperiosteal flap, debride the bony walls, and advance the soft tissue to achieve primary closure."
     ],
     "correctAnswer": 1,
-    "explanation": "The patient's symptoms are classic for alveolar osteitis (dry socket). Management involves gentle irrigation to remove debris and placing a soothing, medicated dressing (e.g., iodoform gauze with eugenol) to protect the exposed bone and relieve pain. Systemic antibiotics are not indicated unless there is evidence of infection, which is not the primary issue in dry socket. Re-suturing can worsen the condition, and re-extraction is unnecessary and traumatic.",
+    "explanation": "Option B is correct because alveolar osteitis (dry socket) is a self-limiting condition caused by premature fibrinolysis of the blood clot, and the standard of care consists of gentle saline irrigation to remove food debris followed by placement of a sedative dressing (such as an eugenol-based paste) for palliative pain relief. Systemic antibiotics are inappropriate because alveolar osteitis is not a spreading bacterial infection. Aggressive curettage exposes viable bone to further trauma and intensifies pain, while surgical flap advancement over an inflamed, necrotic socket is contraindicated and risks secondary infection.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because alveolar osteitis (dry socket) is a self-limiting condition caused by premature fibrinolysis of the blood clot, and the standard of care consists of gentle saline irrigation to remove food debris followed by placement of a sedative dressing (such as an eugenol-based paste) for palliative pain relief. Systemic antibiotics are inappropriate because alveolar osteitis is not a spreading bacterial infection. Aggressive curettage exposes viable bone to further trauma and intensifies pain, while surgical flap advancement over an inflamed, necrotic socket is contraindicated and risks secondary infection.",
+      "verifiedAt": "2026-11-22T04:47:32.585Z"
     }
   },
   {
@@ -6626,23 +6626,23 @@
   {
     "id": 301,
     "topicId": "oral-surgery",
-    "question": "A 40-year-old male presents with a non-tender, firm, dome-shaped swelling on the palate, approximately 1.5 cm in diameter, located near the midline in the posterior hard palate. It has been present for several years and has slowly increased in size. The overlying mucosa is intact and normal in color. There is no associated pain or dysphagia. What is the most likely diagnosis?",
+    "question": "A 40-year-old male presents with a painless, firm, dome-shaped swelling measuring 1.5 cm in diameter on the posterolateral hard palate, lateral to the midline. It has been present for several years with slow, progressive enlargement, and the overlying mucosa is intact and normal in color. Adjacent teeth 16 and 17 test vital and are asymptomatic. What is the MOST likely diagnosis?",
     "options": [
       "Torus palatinus",
-      "Salivary gland tumor (pleomorphic adenoma)",
+      "Pleomorphic adenoma",
       "Nasopalatine duct cyst",
-      "Periapical abscess from an adjacent tooth"
+      "Periapical abscess originating from tooth 16"
     ],
-    "correctAnswer": 0,
-    "explanation": "The clinical presentation of a non-tender, firm, slow-growing, dome-shaped swelling on the midline of the posterior hard palate, with normal overlying mucosa, is highly characteristic of a torus palatinus. A salivary gland tumor could present as a palatal swelling but is less common at the midline and often has a different consistency. A nasopalatine duct cyst typically presents in the anterior palate and may be more compressible or fluctuating. A periapical abscess would be painful, tender, and associated with a non-vital tooth.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because pleomorphic adenoma is the most common benign minor salivary gland tumor of the oral cavity and typically presents as a painless, slow-growing, firm, dome-shaped submucosal nodule with intact normal mucosa in the posterolateral palate. Torus palatinus presents strictly on the hard palate midline as a bony-hard exostosis rather than a firm soft-tissue nodule. Nasopalatine duct cysts are restricted to the anterior midline maxilla between teeth 11 and 21, and a periapical abscess presents as an acute, fluctuant, painful swelling associated with a non-vital tooth.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because pleomorphic adenoma is the most common benign minor salivary gland tumor of the oral cavity and typically presents as a painless, slow-growing, firm, dome-shaped submucosal nodule with intact normal mucosa in the posterolateral palate. Torus palatinus presents strictly on the hard palate midline as a bony-hard exostosis rather than a firm soft-tissue nodule. Nasopalatine duct cysts are restricted to the anterior midline maxilla between teeth 11 and 21, and a periapical abscess presents as an acute, fluctuant, painful swelling associated with a non-vital tooth.",
+      "verifiedAt": "2026-11-22T04:47:32.585Z"
     }
   },
   {
@@ -7066,23 +7066,23 @@
   {
     "id": 322,
     "topicId": "oral-surgery",
-    "question": "During the extraction of a periodontally involved maxillary second molar, a large segment of the maxillary tuberosity, including the tooth, becomes mobile and detaches from the surrounding bone. What is the most appropriate initial management strategy for this complication?",
+    "question": "During the planned extraction of a periodontally compromised maxillary left second molar (tooth 27), the tooth and an attached segment of the maxillary tuberosity fracture and completely detach from the surrounding bony bed, remaining attached only to the palatal and buccal gingiva. What is the MOST appropriate management strategy for this complication?",
     "options": [
-      "Attempt to continue the extraction, accepting the loss of the tuberosity segment.",
-      "Remove the tooth with the detached tuberosity, then perform primary closure of the soft tissues.",
-      "Reposition the detached tuberosity segment with the tooth attached, stabilize it with sutures, and defer the extraction to a later stage.",
-      "Section the molar and attempt to remove it in pieces, leaving the tuberosity attached."
+      "Reposition the detached tuberosity and tooth 27, and stabilize them to adjacent tooth 26 using a flexible composite splint.",
+      "Dissect and remove the detached tuberosity bone segment along with tooth 27, smooth sharp bony margins, and achieve primary soft-tissue closure.",
+      "Section the crown of tooth 27, leave the detached tuberosity bone in situ, and suture the gingiva over the retained fragments.",
+      "Reposition the detached tuberosity segment and secure it strictly with simple interrupted mucosal sutures without tooth splinting."
     ],
-    "correctAnswer": 2,
-    "explanation": "The most appropriate initial management for a maxillary tuberosity fracture during extraction is to reposition and stabilize the fractured segment, with the tooth still attached, using sutures or an arch bar, and then defer the extraction. This promotes healing of the bone and soft tissue, preserving the tuberosity for future prosthetic support. Removing the segment or continuing the extraction would lead to significant bone loss, and sectioning the tooth is not feasible once the segment is mobile.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because when a fractured tuberosity segment has completely separated from the alveolar base and is associated with a mobile, periodontally infected tooth, the bone fragment and tooth must be excised together to prevent osteonecrosis, followed by smoothing sharp bone edges and achieving tension-free primary closure. Attempting to preserve a completely avulsed bone segment associated with a contaminated, infected tooth risks severe osteomyelitis and graft sequestration. Suturing alone or using a flexible splint cannot provide the rigid osseous immobilization required for bone re-vascularization, and leaving detached bone fragments beneath closed soft tissue leads to chronic infection.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because when a fractured tuberosity segment has completely separated from the alveolar base and is associated with a mobile, periodontally infected tooth, the bone fragment and tooth must be excised together to prevent osteonecrosis, followed by smoothing sharp bone edges and achieving tension-free primary closure. Attempting to preserve a completely avulsed bone segment associated with a contaminated, infected tooth risks severe osteomyelitis and graft sequestration. Suturing alone or using a flexible splint cannot provide the rigid osseous immobilization required for bone re-vascularization, and leaving detached bone fragments beneath closed soft tissue leads to chronic infection.",
+      "verifiedAt": "2026-11-22T04:47:32.585Z"
     }
   },
   {

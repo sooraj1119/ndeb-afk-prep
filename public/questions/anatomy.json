@@ -1669,25 +1669,25 @@
     "id": 215,
     "topicId": "anatomy",
     "difficulty": "medium",
-    "question": "A patient experiences anesthesia of the skin over the tip of the nose (nasal bridge) following a fracture of the maxilla. This implies potential damage to which nerve?",
+    "question": "A 32-year-old male presents following midfacial trauma resulting in a displaced fracture of the anterior wall of the maxillary sinus and orbital floor. Clinical examination reveals numbness of the ipsilateral lower eyelid, lateral aspect of the nose, and upper lip. Which nerve has MOST likely been damaged?",
     "options": [
+      "Infraorbital nerve",
       "Infratrochlear nerve",
       "External nasal nerve",
-      "Infraorbital nerve",
       "Zygomaticofacial nerve"
     ],
-    "correctAnswer": 1,
-    "explanation": "The external nasal nerve, a terminal branch of the anterior ethmoidal nerve (from V1), supplies sensory innervation to the skin of the nasal bridge and tip. The infraorbital nerve supplies the midface/upper lip, the infratrochlear supplies the medial canthus, and the zygomaticofacial supplies the cheek prominence.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the infraorbital nerve (a branch of CN V2) traverses the infraorbital groove and canal in the maxillary sinus roof and orbital floor, providing sensory innervation to the lower eyelid, lateral nose, and upper lip. Distractor B (infratrochlear nerve) and distractor C (external nasal nerve) are terminal branches of the ophthalmic division (CN V1) supplying the medial canthus and nasal tip/dorsum respectively, whereas distractor D (zygomaticofacial nerve) traverses the zygomatic bone to supply the malar prominence.",
     "peerReviewed": true,
     "isClinical": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the infraorbital nerve (a branch of CN V2) traverses the infraorbital groove and canal in the maxillary sinus roof and orbital floor, providing sensory innervation to the lower eyelid, lateral nose, and upper lip. Distractor B (infratrochlear nerve) and distractor C (external nasal nerve) are terminal branches of the ophthalmic division (CN V1) supplying the medial canthus and nasal tip/dorsum respectively, whereas distractor D (zygomaticofacial nerve) traverses the zygomatic bone to supply the malar prominence.",
+      "verifiedAt": "2026-11-22T04:47:32.356Z"
     }
   },
   {
@@ -1794,50 +1794,50 @@
     "id": 229,
     "topicId": "anatomy",
     "difficulty": "medium",
-    "question": "A patient presents with a lesion in the cavernous sinus. Which of the following cranial nerves is typically the *first* to show clinical signs of compression due to its central location within the sinus?",
+    "question": "A 45-year-old female presents with septic cavernous sinus thrombosis secondary to an untreated periapical abscess of tooth 13. Clinical examination reveals ptosis, a dilated pupil unresponsive to light, and complete limitation of upward, downward, and inward ocular movement in the right eye, while lateral ocular movement is preserved. Which cranial nerve situated in the lateral wall of the cavernous sinus has been affected?",
     "options": [
+      "Oculomotor nerve (CN III)",
       "Trochlear nerve (CN IV)",
       "Abducent nerve (CN VI)",
-      "Ophthalmic division of trigeminal nerve (CN V1)",
-      "Oculomotor nerve (CN III)"
+      "Ophthalmic nerve (CN V1)"
     ],
-    "correctAnswer": 1,
-    "explanation": "The abducent nerve (CN VI) runs freely through the center of the cavernous sinus, adjacent to the internal carotid artery, making it the most vulnerable and usually the first cranial nerve affected by intracavernous lesions like aneurysms or thrombosis. CN III, CN IV, and CN V1 run in the lateral wall of the sinus and are generally affected later.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the oculomotor nerve (CN III) travels within the lateral wall of the cavernous sinus and innervates the levator palpebrae superioris, pupillary sphincter (via ciliary ganglion parasympathetics), and the superior, inferior, and medial recti and inferior oblique muscles. Distractor B (trochlear nerve) innervates only the superior oblique muscle controlling downward and inward gaze, distractor C (abducent nerve) traverses the cavernous sinus lumen rather than its lateral wall and mediates lateral rectus abduction, and distractor D (ophthalmic nerve) provides pure sensory innervation to the upper face and orbit without motor control of ocular motility.",
     "peerReviewed": true,
     "isClinical": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the oculomotor nerve (CN III) travels within the lateral wall of the cavernous sinus and innervates the levator palpebrae superioris, pupillary sphincter (via ciliary ganglion parasympathetics), and the superior, inferior, and medial recti and inferior oblique muscles. Distractor B (trochlear nerve) innervates only the superior oblique muscle controlling downward and inward gaze, distractor C (abducent nerve) traverses the cavernous sinus lumen rather than its lateral wall and mediates lateral rectus abduction, and distractor D (ophthalmic nerve) provides pure sensory innervation to the upper face and orbit without motor control of ocular motility.",
+      "verifiedAt": "2026-11-22T04:47:32.370Z"
     }
   },
   {
     "id": 230,
     "topicId": "anatomy",
     "difficulty": "medium",
-    "question": "A fracture of the pterion is considered a medical emergency because it frequently lacerates which underlying blood vessel, leading to an epidural hematoma?",
+    "question": "During a surgical exploration of the infratemporal fossa, a clinician identifies an arterial trunk arising from the first part of the maxillary artery that ascends vertically between the two roots of the auriculotemporal nerve before traversing the foramen spinosum. Which vessel is being observed?",
     "options": [
-      "Superficial temporal artery",
-      "Maxillary artery",
       "Middle meningeal artery",
-      "Sphenoparietal sinus"
+      "Inferior alveolar artery",
+      "Deep temporal artery",
+      "Buccal artery"
     ],
-    "correctAnswer": 2,
-    "explanation": "The pterion overlies the anterior division of the middle meningeal artery, which grooves the inner table of the skull in this region. A fracture here can easily tear this vessel, resulting in a rapidly expanding arterial epidural hematoma. The other vessels are not intimately related to the thin bone of the pterion.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the middle meningeal artery arises from the mandibular (first) part of the maxillary artery, is characteristically encircled by the bifurcating roots of the auriculotemporal nerve, and enters the middle cranial fossa through the foramen spinosum. Distractor B (inferior alveolar artery) also originates from the first part of the maxillary artery but descends toward the mandibular foramen, while distractor C (deep temporal artery) and distractor D (buccal artery) arise from the pterygoid (second) part of the maxillary artery to supply the temporalis and buccinator muscles, respectively.",
     "peerReviewed": true,
     "isClinical": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the middle meningeal artery arises from the mandibular (first) part of the maxillary artery, is characteristically encircled by the bifurcating roots of the auriculotemporal nerve, and enters the middle cranial fossa through the foramen spinosum. Distractor B (inferior alveolar artery) also originates from the first part of the maxillary artery but descends toward the mandibular foramen, while distractor C (deep temporal artery) and distractor D (buccal artery) arise from the pterygoid (second) part of the maxillary artery to supply the temporalis and buccinator muscles, respectively.",
+      "verifiedAt": "2026-11-22T04:47:32.370Z"
     }
   },
   {
@@ -3578,23 +3578,23 @@
   {
     "id": 645396818,
     "topicId": "anatomy",
-    "question": "A 65-year-old male patient presents to your dental office with a chief complaint of difficulty chewing and a popping sound from his right temporomandibular joint (TMJ). He reports that sometimes his jaw locks open briefly. Clinical examination reveals tenderness over the right preauricular area and a palpable click upon opening and closing. What is the MOST likely diagnosis?",
+    "question": "A 45-year-old female presents with a chief complaint of clicking in her right temporomandibular joint (TMJ) during mastication. Clinical examination reveals an audible reciprocal click during opening and closing, a maximum incisal opening of 44 mm with a transient S-shaped deviation that corrects at full opening, and no history of jaw locking. What is the MOST likely diagnosis?",
     "options": [
       "Anterior disc displacement with reduction",
-      "Myofascial pain dysfunction",
-      "Capsulitis",
-      "Osteoarthritis of the TMJ"
+      "Anterior disc displacement without reduction",
+      "Subluxation of the temporomandibular joint",
+      "Osteoarthritis of the temporomandibular joint"
     ],
     "correctAnswer": 0,
-    "explanation": "Anterior disc displacement with reduction typically presents with a reciprocal click (audible sound on opening and closing) and sometimes intermittent locking, as the disc momentarily displaces and then reduces back into position. Capsulitis would primarily cause localized pain and tenderness without the characteristic clicking or locking. Myofascial pain dysfunction is characterized by muscle pain and tenderness, often without joint sounds. Osteoarthritis usually involves crepitus (grinding sound) and progressive limited movement, not typically a \"popping\" or intermittent locking.",
+    "explanation": "Option A is correct because the pathognomonic diagnostic criteria for anterior disc displacement with reduction include reciprocal clicking upon opening and closing, accompanied by a normal range of mandibular opening (>40 mm) with an S-shaped deviation pathway. Distractor B (anterior disc displacement without reduction) presents with severe limitation of mouth opening (<35 mm, closed lock) and absence of joint clicks, distractor C (subluxation) involves hypermobility where the condyle translates beyond the articular eminence resulting in an open lock or momentary catching, and distractor D (osteoarthritis) is characterized by joint crepitus and radiographic bony changes rather than reproducible reciprocal clicking.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the pathognomonic diagnostic criteria for anterior disc displacement with reduction include reciprocal clicking upon opening and closing, accompanied by a normal range of mandibular opening (>40 mm) with an S-shaped deviation pathway. Distractor B (anterior disc displacement without reduction) presents with severe limitation of mouth opening (<35 mm, closed lock) and absence of joint clicks, distractor C (subluxation) involves hypermobility where the condyle translates beyond the articular eminence resulting in an open lock or momentary catching, and distractor D (osteoarthritis) is characterized by joint crepitus and radiographic bony changes rather than reproducible reciprocal clicking.",
+      "verifiedAt": "2026-11-22T04:47:32.370Z"
     }
   },
   {
@@ -4138,15 +4138,15 @@
   {
     "id": 281973799,
     "topicId": "anatomy",
-    "question": "A 55-year-old man presents with persistent dryness of his right eye and loss of sensation over the right forehead and upper eyelid after a lacerating injury to the right supraorbital region. Which nerve is most likely injured?",
+    "question": "A 55-year-old male sustains a deep laceration across the superior orbital rim at the right supraorbital notch. Clinical examination reveals cutaneous anesthesia over the right forehead and anterior scalp extending to the vertex and over the upper eyelid, with intact corneal reflexes and normal lacrimal secretion. Which nerve has MOST likely been severed?",
     "options": [
-      "Ophthalmic division of the trigeminal nerve (V1)",
-      "Maxillary division of the trigeminal nerve (V2)",
-      "Mandibular division of the trigeminal nerve (V3)",
-      "Facial nerve (VII)"
+      "Supraorbital nerve",
+      "Supratrochlear nerve",
+      "Infratrochlear nerve",
+      "Lacrimal nerve"
     ],
     "correctAnswer": 0,
-    "explanation": "The ophthalmic division (V1) gives rise to the lacrimal, supraorbital and supratrochlear nerves; injury proximal to these branches would produce both reduced lacrimation and loss of sensation in the forehead and upper eyelid. The maxillary and mandibular divisions supply the mid‑face and lower face, respectively, and do not affect lacrimal secretion. The facial nerve carries motor fibers to the orbicularis oculi and parasympathetic fibers to the lacrimal gland but does not provide cutaneous sensation to the forehead.",
+    "explanation": "Option A is correct because the supraorbital nerve (a terminal branch of the frontal nerve from CN V1) exits through the supraorbital notch/foramen to provide cutaneous sensation to the upper eyelid, forehead, and scalp up to the interauricular vertex. Distractor B (supratrochlear nerve) exits more medially to supply only the bridge of the nose and medial forehead, distractor C (infratrochlear nerve) is a nasociliary branch supplying the skin of the medial canthus and lacrimal caruncle, and distractor D (lacrimal nerve) supplies the lateral upper eyelid and conveys secretomotor parasympathetics from CN VII to the lacrimal gland.",
     "aiVerified": true,
     "peerReviewed": true,
     "remediatedAt": "2026-11-14T23:22:38.266Z",
@@ -4155,8 +4155,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the supraorbital nerve (a terminal branch of the frontal nerve from CN V1) exits through the supraorbital notch/foramen to provide cutaneous sensation to the upper eyelid, forehead, and scalp up to the interauricular vertex. Distractor B (supratrochlear nerve) exits more medially to supply only the bridge of the nose and medial forehead, distractor C (infratrochlear nerve) is a nasociliary branch supplying the skin of the medial canthus and lacrimal caruncle, and distractor D (lacrimal nerve) supplies the lateral upper eyelid and conveys secretomotor parasympathetics from CN VII to the lacrimal gland.",
+      "verifiedAt": "2026-11-22T04:47:32.370Z"
     }
   },
   {
@@ -4365,24 +4365,24 @@
   {
     "id": 372815345,
     "topicId": "anatomy",
-    "question": "A 50-year-old female patient presents for root canal treatment on her permanent mandibular first molar. The clinician is aware that mandibular first molars frequently exhibit anatomical variations, including an additional canal in the distal root. In a typical two-rooted mandibular first molar, where is an additional canal MOST commonly found?",
+    "question": "A 50-year-old female requires root canal treatment on permanent mandibular left first molar (tooth 36). Diagnostic periapical radiographs confirm a two-rooted anatomy with two canals in the mesial root and one canal in the distal root. When a fourth canal is identified in the distal root of a two-rooted permanent mandibular first molar, what is its anatomical location?",
     "options": [
-      "Mesial root, mesiolingual canal",
-      "Mesial root, distobuccal canal",
-      "Distal root, distolingual canal",
-      "Distal root, mesiobuccal canal"
+      "Distolingual canal",
+      "Middle mesial canal",
+      "Radix paramolaris canal",
+      "Radix entomolaris canal"
     ],
-    "correctAnswer": 2,
-    "explanation": "Extensive anatomical surveys reported in Neville, Damm, Allen & Bouquot’s *Oral and Maxillofacial Pathology* show that an extra canal is most commonly located in the distal root of the mandibular first molar, specifically the distolingual (DL) canal, occurring in roughly 10‑20 % of specimens. While a middle mesial canal can be present, its prevalence is considerably lower (≈2‑5 %). The mesial root’s standard configuration already includes mesiobuccal and mesiolingual canals, making the mesiolingual option a routine canal rather than an additional one. Consequently, the current answer “Distal root, distolingual canal” is accurate under Canadian NDEB standards.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because when a two-rooted permanent mandibular first molar (tooth 36) has two canals in the distal root, they are routinely arranged as a distobuccal canal and a distolingual canal, with the distolingual canal representing the most common additional distal canal (present in approximately 30-35% of cases). Distractor B (middle mesial canal) is an anatomical variation occurring within the mesial root between the mesiobuccal and mesiolingual canals, while distractors C and D (radix paramolaris and radix entomolaris) describe distinct supernumerary third roots (located mesiobuccally and distolingually, respectively) rather than an additional canal within a two-rooted configuration.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because when a two-rooted permanent mandibular first molar (tooth 36) has two canals in the distal root, they are routinely arranged as a distobuccal canal and a distolingual canal, with the distolingual canal representing the most common additional distal canal (present in approximately 30-35% of cases). Distractor B (middle mesial canal) is an anatomical variation occurring within the mesial root between the mesiobuccal and mesiolingual canals, while distractors C and D (radix paramolaris and radix entomolaris) describe distinct supernumerary third roots (located mesiobuccally and distolingually, respectively) rather than an additional canal within a two-rooted configuration.",
+      "verifiedAt": "2026-11-22T04:47:32.370Z"
     }
   },
   {
@@ -4857,15 +4857,15 @@
   {
     "id": 185438121,
     "topicId": "anatomy",
-    "question": "During a surgical extraction of a mandibular third molar, a dentist identifies a small, sharp, unilateral bony projection on the lingual aspect of the mandible, located superior to the mylohyoid line in the premolar-molar region. Which of the following is the most likely anatomical identification of this structure?",
+    "question": "During a routine clinical examination of a 42-year-old male, the dentist identifies asymptomatic, smooth, nodular bony protuberances on the lingual aspect of the mandible bilaterally, located superior to the mylohyoid line lingual to teeth 33, 34, 43, and 44. The overlying mucosa is intact, pink, and non-ulcerated. What is the MOST likely clinical identification of these structures?",
     "options": [
-      "Mandibular exostosis",
       "Torus mandibularis",
-      "Genial tubercle",
-      "Mandibular foramen"
+      "Genial tubercles",
+      "Peripheral osteoma",
+      "Stafne defect"
     ],
     "correctAnswer": 0,
-    "explanation": "Mandibular exostoses are focal, benign bony outgrowths that appear as small, pointed projections on the lingual surface of the mandible, most often in the premolar‑molar area and are frequently unilateral. In contrast, a torus mandibularis is usually a broader, smoother, often bilateral ridge that may extend over several teeth. The genial tubercle is confined to the anterior symphysis, and the mandibular foramen is an opening on the medial ramus, not a projection. Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology, 4th ed.) describe exostoses with the exact morphology given in the stem, supporting option 0 as the correct identification.",
+    "explanation": "Option A is correct because tori mandibulares are common, benign, developmental exostoses classically presenting as bilateral, smooth, nodular bony outgrowths on the lingual cortex of the mandible superior to the mylohyoid ridge in the canine-premolar region. Distractor B (genial tubercles) represents midline bony spines on the lingual aspect of the mandibular symphysis serving as muscle attachments, distractor C (peripheral osteoma) presents as a solitary, progressive, unilateral neoplastic bony growth, and distractor D (Stafne defect) is an asymptomatic lingual cortical bone depression located inferior to the mandibular canal in the molar-angle region.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
@@ -4874,8 +4874,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because tori mandibulares are common, benign, developmental exostoses classically presenting as bilateral, smooth, nodular bony outgrowths on the lingual cortex of the mandible superior to the mylohyoid ridge in the canine-premolar region. Distractor B (genial tubercles) represents midline bony spines on the lingual aspect of the mandibular symphysis serving as muscle attachments, distractor C (peripheral osteoma) presents as a solitary, progressive, unilateral neoplastic bony growth, and distractor D (Stafne defect) is an asymptomatic lingual cortical bone depression located inferior to the mandibular canal in the molar-angle region.",
+      "verifiedAt": "2026-11-22T04:47:32.370Z"
     }
   },
   {
@@ -5350,24 +5350,24 @@
   {
     "id": 754107829,
     "topicId": "anatomy",
-    "question": "A 30-year-old male patient presents to the emergency department after a motor vehicle accident. He has significant midfacial trauma, and clinical examination reveals mobility of the entire maxilla, including the palate and maxillary teeth, relative to the cranial base. There is no evidence of cerebrospinal fluid leakage. Which Le Fort fracture classification BEST describes this injury?",
+    "question": "A 30-year-old male presents to the emergency department following midfacial trauma. On clinical examination, grasping the maxillary anterior teeth and applying gentle anteroposterior manipulation demonstrates independent mobility of the hard palate and maxillary dentoalveolar complex, while the nasal bridge, zygomatic arches, and infraorbital rims remain stable. The patient has no periorbital ecchymosis or cerebrospinal fluid leakage. Which Le Fort fracture classification BEST describes this injury?",
     "options": [
       "Le Fort I",
       "Le Fort II",
       "Le Fort III",
       "Zygomaticomaxillary complex fracture"
     ],
-    "correctAnswer": 2,
-    "explanation": "The clinical presentation of mobility of the entire maxilla, including the palate and teeth, relative to the cranial base is the hallmark of a Le Fort III fracture (also known as craniofacial disjunction). This fracture pattern involves horizontal fractures through the zygomaticofrontal sutures, the lateral orbital walls, the pterygoid plates, and the nasal bones, effectively separating the midface from the skull base. Le Fort I (floating palate) involves a horizontal fracture above the teeth but below the nasal floor, leaving the zygoma and orbits attached to the skull. Le Fort II (pyramidal fracture) involves the nasal bones, medial orbital walls, and infraorbital rims, but the zygomatic arches remain attached to the skull, so the entire maxilla is not mobile relative to the cranial base in the same global sense as Le Fort III. A Zygomaticomaxillary complex (ZMC) fracture involves the zygoma and its connections to the maxilla, frontal bone, and temporal bone, but does not typically result in the complete mobility of the maxilla relative to the cranial base described in the scenario.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because a Le Fort I (horizontal) fracture involves a transverse fracture line passing through the maxilla superior to the palatal vault and alveolar ridge, resulting in isolated mobility of the hard palate and maxillary dentition with a stable upper midface. Distractor B (Le Fort II) is a pyramidal fracture involving mobility of the nasal complex and infraorbital rims, distractor C (Le Fort III) represents complete craniofacial disjunction with midfacial flattening and frequent cerebrospinal fluid rhinorrhea, and distractor D (zygomaticomaxillary complex fracture) involves tetrapod disruption of the zygoma and lateral orbital wall without bilateral mobile palatal separation.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because a Le Fort I (horizontal) fracture involves a transverse fracture line passing through the maxilla superior to the palatal vault and alveolar ridge, resulting in isolated mobility of the hard palate and maxillary dentition with a stable upper midface. Distractor B (Le Fort II) is a pyramidal fracture involving mobility of the nasal complex and infraorbital rims, distractor C (Le Fort III) represents complete craniofacial disjunction with midfacial flattening and frequent cerebrospinal fluid rhinorrhea, and distractor D (zygomaticomaxillary complex fracture) involves tetrapod disruption of the zygoma and lateral orbital wall without bilateral mobile palatal separation.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -6973,23 +6973,23 @@
   {
     "id": 167867243,
     "topicId": "anatomy",
-    "question": "A 65-year-old male patient presents with chronic pain and stiffness in his neck and shoulders. Radiographic examination reveals degenerative changes in the cervical spine. Which muscle, commonly involved in head posture and sternoclavicular movements, would MOST likely be affected by these changes and contribute to his symptoms?",
+    "question": "A 65-year-old male presents with chronic stiffness and pain across his posterior neck and superior shoulder girdle. Radiographs confirm extensive degenerative spondylosis of the cervical vertebrae. Which muscle, originating from the nuchal ligament and cervical and thoracic spinous processes and inserting onto the clavicle and scapular spine, is MOST likely contributing to these postural symptoms?",
     "options": [
       "Trapezius",
-      "Platysma",
-      "Orbicularis oris",
-      "Sternocleidomastoid"
+      "Sternocleidomastoid",
+      "Levator scapulae",
+      "Splenius capitis"
     ],
-    "correctAnswer": 3,
-    "explanation": "The sternocleidomastoid muscle is a large, superficial muscle of the neck that plays a significant role in head rotation, flexion, and lateral flexion, and its function can be severely affected by cervical spine issues, leading to pain and stiffness. While the trapezius muscle is also involved in neck and shoulder movement, the sternocleidomastoid is more directly linked to head posture and is a common source of referred pain in cervical spine degeneration. Platysma is a superficial facial expression muscle, and orbicularis oris is a circumoral muscle.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the trapezius muscle originates along the external occipital protuberance, nuchal ligament, and spinous processes of C7–T12, and inserts onto the lateral third of the clavicle, acromion, and scapular spine, directly linking cervical spine movement to the shoulder girdle. Distractor B (sternocleidomastoid) originates from the manubrium and medial clavicle and inserts onto the mastoid process without attaching to cervical vertebrae or the scapula, distractor C (levator scapulae) originates from cervical transverse processes C1–C4 and inserts onto the superior scapular angle without attaching to the spinous processes or clavicle, and distractor D (splenius capitis) inserts onto the mastoid process and occiput without any attachment to the shoulder girdle.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the trapezius muscle originates along the external occipital protuberance, nuchal ligament, and spinous processes of C7–T12, and inserts onto the lateral third of the clavicle, acromion, and scapular spine, directly linking cervical spine movement to the shoulder girdle. Distractor B (sternocleidomastoid) originates from the manubrium and medial clavicle and inserts onto the mastoid process without attaching to cervical vertebrae or the scapula, distractor C (levator scapulae) originates from cervical transverse processes C1–C4 and inserts onto the superior scapular angle without attaching to the spinous processes or clavicle, and distractor D (splenius capitis) inserts onto the mastoid process and occiput without any attachment to the shoulder girdle.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -9052,23 +9052,23 @@
   {
     "id": 570814405,
     "topicId": "anatomy",
-    "question": "A 70-year-old female patient with osteoporosis is undergoing dental implant planning. Her bone density is a concern. Which of the following physiological processes is primarily responsible for the continuous turnover and remodeling of alveolar bone?",
+    "question": "A 70-year-old female with osteoporosis is evaluated for dental implant placement in the edentulous site of missing tooth 36. To assess bone quality and healing potential, the clinician reviews alveolar osseous physiology. Which mechanism is primarily responsible for the continuous lifelong physiological renewal and structural adaptation of mature alveolar bone?",
     "options": [
-      "Osteogenesis imperfecta",
-      "Bone remodeling involving osteoblasts and osteoclasts",
-      "Cartilaginous ossification",
-      "Hematopoiesis within bone marrow"
+      "Coupled osteoclastic resorption and osteoblastic deposition",
+      "Endochondral ossification of a cartilaginous precursor",
+      "Primary intramembranous woven bone formation",
+      "Dystrophic calcification of extracellular matrix"
     ],
-    "correctAnswer": 1,
-    "explanation": "Bone remodeling is the continuous process of bone turnover, involving the coordinated action of osteoclasts (resorption) and osteoblasts (formation), which is crucial for maintaining bone integrity and density. Osteogenesis imperfecta is a genetic disorder causing brittle bones, not a normal physiological process. Cartilaginous ossification is a developmental process of bone formation, and hematopoiesis is blood cell formation within bone marrow.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because mature alveolar bone undergoes continuous physiological renewal through targeted remodeling mediated by the tightly coupled actions of basic multicellular units (BMUs), wherein osteoclasts resorb bone and osteoblasts subsequently synthesize and mineralize new lamellar bone. Distractor B (endochondral ossification) is the developmental process responsible for long bones and synchondroses from a cartilage template, distractor C (primary intramembranous woven bone formation) occurs during initial embryonic osteogenesis and early fracture callus healing rather than mature renewal, and distractor D (dystrophic calcification) is a pathological deposition of calcium salts in necrotic or degenerating soft tissues.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because mature alveolar bone undergoes continuous physiological renewal through targeted remodeling mediated by the tightly coupled actions of basic multicellular units (BMUs), wherein osteoclasts resorb bone and osteoblasts subsequently synthesize and mineralize new lamellar bone. Distractor B (endochondral ossification) is the developmental process responsible for long bones and synchondroses from a cartilage template, distractor C (primary intramembranous woven bone formation) occurs during initial embryonic osteogenesis and early fracture callus healing rather than mature renewal, and distractor D (dystrophic calcification) is a pathological deposition of calcium salts in necrotic or degenerating soft tissues.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -9231,23 +9231,23 @@
   {
     "id": 242249331,
     "topicId": "anatomy",
-    "question": "A 68-year-old female patient presents with chronic temporomandibular joint pain and limited mouth opening. The dentist observes difficulty in the initial depression phase of mandibular movement. Which muscle is primarily responsible for the initial depression of the mandible?",
+    "question": "A 68-year-old female presents with restricted mandibular movement following TMJ trauma. Clinical examination reveals normal initial hinge rotation (0–20 mm), but severe restriction during wider depression and anterior translation of the mandible. Which muscle of mastication is primarily responsible for pulling the mandibular condyle and articular disc anteriorly along the articular eminence during wide mouth opening?",
     "options": [
-      "Temporalis muscle",
-      "Masseter muscle",
+      "Lateral pterygoid muscle",
       "Medial pterygoid muscle",
-      "Lateral pterygoid muscle"
+      "Masseter muscle",
+      "Temporalis muscle"
     ],
-    "correctAnswer": 3,
-    "explanation": "The lateral pterygoid muscle is the primary muscle responsible for the initial depression (opening) of the mandible, as well as protrusion and lateral movements. The temporalis, masseter, and medial pterygoid muscles are primarily involved in elevation (closing) of the mandible and contribute to protrusion and retraction but not initial depression.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the inferior head of the lateral pterygoid muscle contracts bilaterally to pull the condyles and articular discs anteriorly and inferiorly down the articular eminence, mediating the translational phase required for wide mandibular depression and protrusion. Distractor B (medial pterygoid), distractor C (masseter), and distractor D (temporalis) are mandibular elevators whose primary action is to close the jaw, with the posterior fibers of temporalis retracting the mandible rather than facilitating depression or translation.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the inferior head of the lateral pterygoid muscle contracts bilaterally to pull the condyles and articular discs anteriorly and inferiorly down the articular eminence, mediating the translational phase required for wide mandibular depression and protrusion. Distractor B (medial pterygoid), distractor C (masseter), and distractor D (temporalis) are mandibular elevators whose primary action is to close the jaw, with the posterior fibers of temporalis retracting the mandible rather than facilitating depression or translation.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -9344,23 +9344,23 @@
   {
     "id": 979157276,
     "topicId": "anatomy",
-    "question": "A 40-year-old female patient presents with a chief complaint of chronic headaches. Clinical examination reveals significant attrition on her posterior teeth and hypertrophied masseter muscles. She reports clenching and grinding her teeth, especially at night. What is the MOST likely underlying physiological cause for her chief complaint?",
+    "question": "A 40-year-old female presents with a chief complaint of chronic morning headaches localized to the temporal and preauricular regions. Clinical examination reveals severe occlusal attrition on teeth 16, 26, 36, and 46, accompanied by bilateral hypertrophy and tenderness of the masseter and temporalis muscles on palpation. What is the MOST likely physiological etiology of her headaches?",
     "options": [
-      "Increased sympathetic nervous system activity",
-      "Imbalance in growth hormone secretion",
-      "Disruption of vagal nerve pathways",
-      "Elevated parathyroid hormone levels"
+      "Sustained myogenic contraction of the masticatory muscles",
+      "Neurovascular vasodilation of meningeal arteries",
+      "Extracranial entrapment of the greater occipital nerve",
+      "Granulomatous vasculitis of the superficial temporal artery"
     ],
     "correctAnswer": 0,
-    "explanation": "Bruxism (teeth clenching and grinding) is often linked to stress and increased sympathetic nervous system activity, leading to muscle hyperactivity, attrition, and headaches. Imbalance in growth hormone, disruption of vagal nerve pathways, or elevated parathyroid hormone levels are not directly associated with the etiology of bruxism or its common clinical manifestations like masseter hypertrophy and attrition.",
+    "explanation": "Option A is correct because nocturnal clenching and bruxism cause chronic muscle fatigue and sustained isometric contraction of the masticatory elevators (masseter and temporalis), resulting in myogenic tension-type headaches presenting with temporal tenderness and muscle hypertrophy. Distractor B (neurovascular vasodilation) describes the pathophysiology of migraine headaches, which present with unilateral pulsating pain, photophobia, and nausea; distractor C (greater occipital nerve entrapment) causes occipital neuralgia characterized by sharp, shooting pain radiating from the skull base; and distractor D (granulomatous vasculitis) describes temporal arteritis, which occurs in individuals over 50 years of age with systemic symptoms and markedly elevated inflammatory markers.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because nocturnal clenching and bruxism cause chronic muscle fatigue and sustained isometric contraction of the masticatory elevators (masseter and temporalis), resulting in myogenic tension-type headaches presenting with temporal tenderness and muscle hypertrophy. Distractor B (neurovascular vasodilation) describes the pathophysiology of migraine headaches, which present with unilateral pulsating pain, photophobia, and nausea; distractor C (greater occipital nerve entrapment) causes occipital neuralgia characterized by sharp, shooting pain radiating from the skull base; and distractor D (granulomatous vasculitis) describes temporal arteritis, which occurs in individuals over 50 years of age with systemic symptoms and markedly elevated inflammatory markers.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -9874,23 +9874,23 @@
   {
     "id": 878163035,
     "topicId": "anatomy",
-    "question": "A 35-year-old female patient reports a sharp, radiating pain that originates from her mandibular right molar region and extends towards her ear. The pain is triggered by cold stimuli but subsides quickly. Clinical examination reveals a deep occlusal restoration on the mandibular right first molar with no periapical tenderness or swelling. What is the MOST likely diagnosis?",
+    "question": "A 35-year-old female patient presents with spontaneous, throbbing pain in the mandibular right quadrant that radiates toward her right ear. Thermal testing of tooth 46 elicits sharp pain that lingers for over 30 seconds following the removal of the cold stimulus. Clinical examination reveals a deep occlusal restoration on tooth 46 with no tenderness to percussion or swelling. What is the MOST likely pulpal diagnosis?",
     "options": [
-      "Irreversible pulpitis",
+      "Symptomatic irreversible pulpitis",
       "Reversible pulpitis",
-      "Acute periapical abscess",
-      "Trigeminal neuralgia"
+      "Pulp necrosis",
+      "Asymptomatic irreversible pulpitis"
     ],
-    "correctAnswer": 1,
-    "explanation": "Reversible pulpitis is characterized by sharp, transient pain, often triggered by cold, that subsides quickly once the stimulus is removed, typically associated with deep caries or restorations. Irreversible pulpitis involves lingering or spontaneous pain, and an acute periapical abscess would present with swelling and periapical tenderness.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because spontaneous pain radiating to the ear combined with exaggerated, lingering thermal pain lasting greater than 30 seconds is diagnostic of symptomatic irreversible pulpitis mediated by unmyelinated C-fibers. Reversible pulpitis (Option B) is characterized by transient, strictly localized pain that subsides within seconds after stimulus removal without radiation. Pulp necrosis (Option C) would yield no response to thermal vitality testing, whereas asymptomatic irreversible pulpitis (Option D) by definition presents without clinical pain symptoms.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because spontaneous pain radiating to the ear combined with exaggerated, lingering thermal pain lasting greater than 30 seconds is diagnostic of symptomatic irreversible pulpitis mediated by unmyelinated C-fibers. Reversible pulpitis (Option B) is characterized by transient, strictly localized pain that subsides within seconds after stimulus removal without radiation. Pulp necrosis (Option C) would yield no response to thermal vitality testing, whereas asymptomatic irreversible pulpitis (Option D) by definition presents without clinical pain symptoms.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -10072,23 +10072,23 @@
   {
     "id": 496208986,
     "topicId": "anatomy",
-    "question": "A 68-year-old male patient presents with a chief complaint of a firm, painful lump on the right side of his neck, inferior to the angle of the mandible. He reports difficulty and pain when turning his head and jaw. Clinical examination reveals a palpable, tender mass in the submandibular region. Which of the following lymph node groups is MOST likely involved?",
+    "question": "A 68-year-old male patient presents with a firm, tender mass on the right side of his neck situated immediately inferior to the angle of the mandible and deep to the anterior border of the sternocleidomastoid muscle. He experiences pain and muscular resistance when rotating his head to the left. Which of the following lymph node groups is MOST likely involved?",
     "options": [
-      "Superficial parotid lymph nodes",
-      "Deep cervical lymph nodes",
+      "Submandibular lymph nodes",
+      "Superior deep cervical lymph nodes",
       "Submental lymph nodes",
-      "Submandibular lymph nodes"
+      "Superficial parotid lymph nodes"
     ],
-    "correctAnswer": 3,
-    "explanation": "The submandibular lymph nodes are located inferior to the angle of the mandible and are the primary drainage site for infections or pathologies originating from the oral cavity, including teeth and the floor of the mouth. Superficial parotid nodes are near the ear, and submental nodes drain the chin and lower lip, neither matching the location and presentation.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because the jugulodigastric node, the principal node of the superior deep cervical lymph node group, is located immediately inferior to the angle of the mandible and deep to the anterior border of the sternocleidomastoid muscle, producing pain during contralateral neck rotation. Submandibular lymph nodes (Option A) are located within the submandibular triangle along the inferior border of the mandibular body. Submental lymph nodes (Option C) lie in the submental triangle between the anterior bellies of the digastric, while superficial parotid lymph nodes (Option D) reside within the parotid fascia anterior to the ear.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because the jugulodigastric node, the principal node of the superior deep cervical lymph node group, is located immediately inferior to the angle of the mandible and deep to the anterior border of the sternocleidomastoid muscle, producing pain during contralateral neck rotation. Submandibular lymph nodes (Option A) are located within the submandibular triangle along the inferior border of the mandibular body. Submental lymph nodes (Option C) lie in the submental triangle between the anterior bellies of the digastric, while superficial parotid lymph nodes (Option D) reside within the parotid fascia anterior to the ear.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -10206,23 +10206,23 @@
   {
     "id": 133465689,
     "topicId": "anatomy",
-    "question": "A 30-year-old female patient presents to your dental office with severe pain in her mandibular left first molar. She is healthy, and clinical examination confirms pulpitis. An Inferior Alveolar Nerve (IAN) block is administered. Which of the following landmarks is MOST crucial for accurately depositing local anesthetic solution to achieve effective anesthesia of the mandibular molars and premolars?",
+    "question": "A 30-year-old female patient presents with severe pain in tooth 36 requiring endodontic therapy. To achieve effective pulpal anesthesia using a conventional inferior alveolar nerve (IAN) block, the needle must enter the pterygomandibular space to deposit local anesthetic solution immediately adjacent to which anatomical landmark?",
     "options": [
-      "Coronoid notch.",
-      "Pterygomandibular raphe.",
-      "Lingula of the mandible.",
-      "Retromolar pad."
+      "Coronoid notch",
+      "Pterygomandibular raphe",
+      "Lingula of the mandible",
+      "Retromolar pad"
     ],
-    "correctAnswer": 0,
-    "explanation": "Malamed’s *Handbook of Local Anesthesia* (7th ed., p. 122‑124) identifies the coronoid notch as the most reliable external landmark for the IAN block; the syringe is positioned 6‑10 mm above this notch, lateral to the pterygomandibular raphe, and directed toward the mandibular foramen. The pterygomandibular raphe serves as a secondary reference line, while the lingula is an internal bony landmark not palpable intra‑orally and therefore not the chief guide for needle placement. The retromolar pad is useful for supplemental techniques but does not determine the primary IAN block site. Consequently, the coronoid notch is the crucial landmark.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because the lingula of the mandible is the prominent bony projection on the medial surface of the ramus directly guarding the mandibular foramen, serving as the definitive target landmark adjacent to which local anesthetic must be deposited in the pterygomandibular space. The coronoid notch (Option A) is merely a clinical palpation landmark on the anterior ramus used to determine the height of injection (6-10 mm above the occlusal plane). The pterygomandibular raphe (Option B) marks the medial border of needle insertion, and the retromolar pad (Option D) is an intraoral soft tissue landmark used for occlusal alignment rather than anesthetic deposition.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because the lingula of the mandible is the prominent bony projection on the medial surface of the ramus directly guarding the mandibular foramen, serving as the definitive target landmark adjacent to which local anesthetic must be deposited in the pterygomandibular space. The coronoid notch (Option A) is merely a clinical palpation landmark on the anterior ramus used to determine the height of injection (6-10 mm above the occlusal plane). The pterygomandibular raphe (Option B) marks the medial border of needle insertion, and the retromolar pad (Option D) is an intraoral soft tissue landmark used for occlusal alignment rather than anesthetic deposition.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -10582,23 +10582,23 @@
   {
     "id": 341383742,
     "topicId": "anatomy",
-    "question": "The Cusp of Carabelli is a non-functional accessory cusp most commonly found on which tooth?",
+    "question": "The Cusp of Carabelli is an accessory anatomical tubercle characteristically located on the palatal surface of the mesiopalatal cusp of which permanent tooth?",
     "options": [
-      "Permanent mandibular first molar.",
-      "Permanent maxillary first molar.",
-      "Primary maxillary second molar.",
-      "Permanent maxillary canine."
+      "Tooth 17",
+      "Tooth 16",
+      "Tooth 36",
+      "Tooth 46"
     ],
     "correctAnswer": 1,
-    "explanation": "The Cusp of Carabelli is a common morphological variant presenting as a small, non-functional accessory cusp. It is most frequently found on the mesiopalatal cusp of the permanent maxillary first molar. While it can also be present, albeit less commonly, on the primary maxillary second molar, its highest prevalence is in the permanent maxillary first molar. Mandibular molars and maxillary canines do not typically exhibit this feature.",
+    "explanation": "Option B is correct because the Cusp of Carabelli is a non-functional developmental tubercle characteristically found on the mesiopalatal cusp of permanent maxillary first molars (tooth 16 and tooth 26). Permanent maxillary second molars such as tooth 17 (Option A) typically exhibit a reduced or absent distopalatal cusp without a Carabelli tubercle. Permanent mandibular first molars, represented by tooth 36 and tooth 46 (Options C and D), feature five developmental cusps with a distinct distal cusp on the buccal aspect, but never possess a Cusp of Carabelli.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because the Cusp of Carabelli is a non-functional developmental tubercle characteristically found on the mesiopalatal cusp of permanent maxillary first molars (tooth 16 and tooth 26). Permanent maxillary second molars such as tooth 17 (Option A) typically exhibit a reduced or absent distopalatal cusp without a Carabelli tubercle. Permanent mandibular first molars, represented by tooth 36 and tooth 46 (Options C and D), feature five developmental cusps with a distinct distal cusp on the buccal aspect, but never possess a Cusp of Carabelli.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -11250,24 +11250,24 @@
   {
     "id": 502523186,
     "topicId": "anatomy",
-    "question": "A 30-year-old male patient presents to the emergency department after sustaining a direct blow to the right side of his face. Clinical examination reveals a palpable depression over the right zygomatic arch. The patient reports difficulty closing his mouth and notes that his chin deviates to the left when he attempts to do so. Which anatomical structure is MOST likely fractured, causing this specific functional impairment?",
+    "question": "A 30-year-old male patient presents to the emergency department after sustaining blunt trauma to the right side of his face. Clinical examination reveals localized flattening over the right malar prominence, circumorbital ecchymosis, and severe limitation in mandibular opening (trismus). Which anatomical structure is MOST likely fractured, causing this mechanical restriction in jaw opening?",
     "options": [
-      "Left mandibular condyle",
       "Right zygomatic arch",
-      "Right mandibular angle",
-      "Left mandibular coronoid process"
+      "Right mandibular condyle",
+      "Right coronoid process",
+      "Right mandibular angle"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is the Right zygomatic arch. The clinical presentation of a palpable depression over the zygomatic arch combined with trismus (difficulty closing the mouth) and contralateral chin deviation upon closure is pathognomonic for a depressed fracture of the zygomatic arch. The zygomatic arch forms the lateral boundary of the infratemporal fossa. When fractured and depressed medially, the arch impinges upon the coronoid process of the mandible, which is located directly inferior to it. This mechanical obstruction prevents the full elevation (closure) of the mandible on the affected (right) side. Consequently, the unopposed action of the left lateral pterygoid and other closing muscles pulls the chin toward the unaffected (left) side during the attempt to close the jaw. This is a classic 'mechanical lock' scenario distinct from neuromuscular deviations seen in condylar fractures. The Left mandibular condyle (Option 0) is incorrect because a condylar fracture typically results in deviation of the chin toward the affected side upon opening (due to unopposed lateral pterygoid pull) and may cause malocclusion, but it does not cause a palpable zygomatic depression or mechanical trismus from arch impingement. The Right mandibular angle (Option 2) is incorrect because a fracture here would not cause a depression over the zygomatic arch, nor would it typically cause the specific contralateral deviation on closure described; it might cause local swelling and pain but not the mechanical interference with the coronoid process. The Left mandibular coronoid process (Option 4) is incorrect because the injury is on the right side, and a fracture of the coronoid process itself is rare and would not explain the palpable depression of the zygomatic arch.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because a depressed fracture of the right zygomatic arch displaces bone medially, directly impinging upon the coronoid process of the mandible and the temporalis tendon to mechanically restrict mandibular depression and cause trismus. Fractures of the mandibular condyle (Option B) typically present with preauricular pain, premature occlusal contact, and mandibular deviation toward the injured side upon opening rather than malar depression. Isolated coronoid process fractures (Option C) and mandibular angle fractures (Option D) do not cause a palpable depression over the lateral midface.",
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because a depressed fracture of the right zygomatic arch displaces bone medially, directly impinging upon the coronoid process of the mandible and the temporalis tendon to mechanically restrict mandibular depression and cause trismus. Fractures of the mandibular condyle (Option B) typically present with preauricular pain, premature occlusal contact, and mandibular deviation toward the injured side upon opening rather than malar depression. Isolated coronoid process fractures (Option C) and mandibular angle fractures (Option D) do not cause a palpable depression over the lateral midface.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -12720,23 +12720,23 @@
   {
     "id": 111059887,
     "topicId": "anatomy",
-    "question": "A 28-year-old male patient presents to your dental office for evaluation of a persistent white lesion on his left buccal mucosa. He reports being a heavy smoker and alcohol consumer for 10 years. Clinically, a well-demarcated, non-scrapable white patch, approximately 1.5 cm in diameter, is observed. It is non-tender to palpation. What is the MOST appropriate next step in the management of this lesion?",
+    "question": "A 28-year-old male patient presents for a routine dental recall examination. Clinical examination reveals an asymptomatic, well-demarcated, non-scrapable white plaque measuring 1.5 cm on his left buccal mucosa along the occlusal plane. The patient reports smoking one pack of cigarettes per day for the past 10 years. What is the MOST appropriate initial step in the management of this lesion?",
     "options": [
-      "Advise patient on smoking cessation and re-evaluate in 2-4 weeks",
-      "Perform an incisional biopsy of the lesion",
-      "Apply topical antifungal medication for two weeks",
-      "Prescribe a course of systemic antibiotics"
+      "Provide smoking cessation counseling and re-evaluate the lesion in 2 to 3 weeks",
+      "Perform an immediate scalpel incisional biopsy",
+      "Prescribe a topical nystatin oral suspension for 14 days",
+      "Prescribe a 7-day course of systemic amoxicillin"
     ],
-    "correctAnswer": 1,
-    "explanation": "Given the patient's history of heavy smoking and alcohol consumption, and the clinical appearance of a non-scrapable white lesion (leukoplakia), an incisional biopsy is the MOST appropriate next step to rule out dysplasia or malignancy. While smoking cessation is crucial, merely advising and re-evaluating without a definitive diagnosis is risky for potentially premalignant lesions. Antifungal medication is for candidiasis, which is usually scrapable, and antibiotics are not indicated for white lesions of this nature.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because standard Canadian clinical protocols require eliminating suspected local irritants via smoking cessation counseling followed by re-evaluation in 2 to 3 weeks to determine whether a benign tobacco-induced keratosis resolves spontaneously. Performing an immediate incisional biopsy (Option B) is premature and unnecessarily invasive for a non-indurated, homogenous lesion before testing for resolution after habit cessation. Topical nystatin (Option C) is ineffective because hyperkeratotic plaques are not candidal infections, and systemic antibiotics (Option D) have no indication in the management of non-infectious mucosal white lesions.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because standard Canadian clinical protocols require eliminating suspected local irritants via smoking cessation counseling followed by re-evaluation in 2 to 3 weeks to determine whether a benign tobacco-induced keratosis resolves spontaneously. Performing an immediate incisional biopsy (Option B) is premature and unnecessarily invasive for a non-indurated, homogenous lesion before testing for resolution after habit cessation. Topical nystatin (Option C) is ineffective because hyperkeratotic plaques are not candidal infections, and systemic antibiotics (Option D) have no indication in the management of non-infectious mucosal white lesions.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -16657,23 +16657,23 @@
   {
     "id": 299216858,
     "topicId": "anatomy",
-    "question": "A 50-year-old male patient, with a history of angina pectoris, experiences chest pain during a routine dental procedure. He reports that the pain is similar to his usual angina, radiating to his left arm, but is not relieved by his self-administered nitroglycerin spray after 5 minutes. His blood pressure is 140/90 mmHg, and pulse is 85 bpm. What is the MOST appropriate immediate next step?",
+    "question": "A 50-year-old male patient with a history of stable angina pectoris experiences retrosternal chest pain radiating to his left arm during restorative dental treatment. He immediately self-administers one sublingual spray of nitroglycerin (0.4 mg). After 5 minutes, his pain persists unchanged, and his vital signs are blood pressure 140/90 mmHg and pulse 85 bpm. What is the MOST appropriate immediate next step?",
     "options": [
-      "Administer a second dose of nitroglycerin spray.",
-      "Reposition the patient supine and provide oxygen.",
-      "Administer aspirin (160-325 mg chewable) and activate emergency medical services (EMS).",
-      "Continue with the dental procedure, monitoring vital signs closely."
+      "Administer a second dose of sublingual nitroglycerin spray",
+      "Administer chewable aspirin (160-325 mg) and activate emergency medical services (EMS)",
+      "Place the patient in a fully supine position and provide 100% oxygen",
+      "Resume the restorative dental treatment while monitoring vital signs"
     ],
-    "correctAnswer": 2,
-    "explanation": "Chest pain unresponsive to a single dose of nitroglycerin after 5 minutes, especially with radiation to the arm, is highly suspicious for myocardial infarction (MI). The most appropriate immediate action is to administer chewable aspirin (antiplatelet effect) and activate EMS. Administering more nitroglycerin without relief is delaying critical care, and continuing the procedure is dangerous.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because standard dental emergency protocols specify that if stable anginal chest pain persists 5 minutes after an initial dose and the systolic blood pressure remains adequate (>90-100 mmHg), a second dose of sublingual nitroglycerin (0.4 mg) should be promptly administered, up to a maximum of 3 doses within 15 minutes. Activating EMS and administering chewable aspirin (Option B) is indicated if the chest pain fails to resolve after three doses of nitroglycerin or if signs of acute myocardial infarction develop. Placing the patient supine (Option C) is contraindicated because it increases venous return and myocardial workload, while resuming the procedure (Option D) dangerously ignores active myocardial ischemia.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because standard dental emergency protocols specify that if stable anginal chest pain persists 5 minutes after an initial dose and the systolic blood pressure remains adequate (>90-100 mmHg), a second dose of sublingual nitroglycerin (0.4 mg) should be promptly administered, up to a maximum of 3 doses within 15 minutes. Activating EMS and administering chewable aspirin (Option B) is indicated if the chest pain fails to resolve after three doses of nitroglycerin or if signs of acute myocardial infarction develop. Placing the patient supine (Option C) is contraindicated because it increases venous return and myocardial workload, while resuming the procedure (Option D) dangerously ignores active myocardial ischemia.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -17081,23 +17081,23 @@
   {
     "id": 499314318,
     "topicId": "anatomy",
-    "question": "A 45-year-old female patient presents with generalized moderate periodontitis. After initial non-surgical periodontal therapy, including scaling and root planing, a re-evaluation reveals persistent localized probing depths of 6-7mm with bleeding on probing on the buccal aspect of her maxillary right first molar, despite good oral hygiene. Radiographs show horizontal bone loss in the area. What is the MOST appropriate next step in management?",
+    "question": "A 45-year-old female patient presents for periodontal re-evaluation 6 weeks after completing non-surgical scaling and root planing. Clinical examination reveals persistent localized probing depths of 6 to 7 mm with bleeding on probing on the buccal aspect of tooth 16, despite excellent oral hygiene. Radiographic examination reveals suprabony pockets associated with horizontal bone loss. What is the MOST appropriate next step in management?",
     "options": [
-      "Advise continued meticulous oral hygiene and re-evaluate in 3 months.",
-      "Refer for systemic antibiotic therapy.",
-      "Recommend periodontal surgical intervention (e.g., osseous surgery or guided tissue regeneration).",
-      "Prescribe a chlorhexidine gluconate mouthrinse for long-term use."
+      "Guided tissue regeneration using a barrier membrane",
+      "Routine supportive periodontal therapy and re-evaluation in 6 months",
+      "Resective periodontal surgery with osseous recontouring",
+      "Long-term maintenance with 0.12% chlorhexidine gluconate mouthrinse"
     ],
     "correctAnswer": 2,
-    "explanation": "Persistent localized probing depths of 6-7mm with bleeding on probing after initial non-surgical therapy and good oral hygiene indicate refractory sites or anatomical challenges that may benefit from periodontal surgical intervention. Surgical options like osseous surgery or guided tissue regeneration can reduce pocket depth and facilitate better plaque control. Continued monitoring or systemic antibiotics are generally not sufficient for localized persistent deep pockets. Long-term chlorhexidine use is not a definitive solution for deep pockets and has side effects.",
+    "explanation": "Option C is correct because persistent deep probing depths (≥6 mm) with bleeding on probing following initial non-surgical therapy in areas of horizontal bone loss require resective periodontal surgery (such as an apically positioned flap with osseous recontouring) to reduce pocket depths and establish cleansable architecture. Guided tissue regeneration (Option A) is strictly indicated for vertical (infrabony) defects and cannot regenerate bone in horizontal bone loss patterns. Continued maintenance without surgical intervention (Option B) allows progressive periodontal breakdown, and long-term chlorhexidine rinse (Option D) cannot penetrate subgingival pockets deeper than 3-4 mm and causes mucosal desquamation and tooth staining.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because persistent deep probing depths (≥6 mm) with bleeding on probing following initial non-surgical therapy in areas of horizontal bone loss require resective periodontal surgery (such as an apically positioned flap with osseous recontouring) to reduce pocket depths and establish cleansable architecture. Guided tissue regeneration (Option A) is strictly indicated for vertical (infrabony) defects and cannot regenerate bone in horizontal bone loss patterns. Continued maintenance without surgical intervention (Option B) allows progressive periodontal breakdown, and long-term chlorhexidine rinse (Option D) cannot penetrate subgingival pockets deeper than 3-4 mm and causes mucosal desquamation and tooth staining.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -17742,23 +17742,23 @@
   {
     "id": 59485498,
     "topicId": "anatomy",
-    "question": "A 28-year-old male patient presents to the emergency department after a motor vehicle accident. He reports severe pain and difficulty closing his mouth. Clinical examination reveals a deviation of the mandible to the left upon opening, occlusal discrepancy, and palpable tenderness over the right temporomandibular joint area and left angle of the mandible. Radiographic examination (panoramic and CBCT) confirms a fracture of the right condylar neck and a displaced fracture of the left mandibular angle. What is the MOST appropriate initial management strategy for these fractures?",
+    "question": "A 28-year-old male patient presents to the emergency department following a direct blow to the right side of his face. Clinical examination reveals preauricular tenderness, an anterior open bite, premature posterior contact on the right side, and marked deviation of the mandible toward the right upon mouth opening. Computed tomography confirms an isolated fracture of the right condylar neck. The deviation of the mandible to the right upon opening is primarily caused by the loss of function of which muscle?",
     "options": [
-      "Immediate open reduction and internal fixation of both fractures.",
-      "Referral to an oral and maxillofacial surgeon for definitive treatment planning.",
-      "Observation with a soft diet and analgesics.",
-      "Intermaxillary fixation for 6 weeks."
+      "Left lateral pterygoid",
+      "Right lateral pterygoid",
+      "Right medial pterygoid",
+      "Right masseter"
     ],
     "correctAnswer": 1,
-    "explanation": "Given the complex nature of multiple, displaced mandibular fractures, the MOST appropriate initial management is referral to an oral and maxillofacial surgeon (OMFS) for definitive treatment planning. While surgical intervention (option A) or intermaxillary fixation (option D) may be part of the definitive treatment, they are not the immediate 'next step' for a general practitioner in an emergency setting. Observation (option C) would be insufficient for displaced fractures causing occlusal discrepancy.",
+    "explanation": "Option B is correct because the right lateral pterygoid muscle inserts into the pterygoid fovea of the condylar neck; fracture disruption prevents it from protruding the right condyle forward, allowing the unopposed anterior translation of the intact left lateral pterygoid (Option A) to deviate the mandible toward the injured (right) side upon opening. The right medial pterygoid (Option C) and right masseter (Option D) function primarily as elevators of the mandible during jaw closure rather than drivers of condylar protrusion and translation during opening.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because the right lateral pterygoid muscle inserts into the pterygoid fovea of the condylar neck; fracture disruption prevents it from protruding the right condyle forward, allowing the unopposed anterior translation of the intact left lateral pterygoid (Option A) to deviate the mandible toward the injured (right) side upon opening. The right medial pterygoid (Option C) and right masseter (Option D) function primarily as elevators of the mandible during jaw closure rather than drivers of condylar protrusion and translation during opening.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -17940,23 +17940,23 @@
   {
     "id": 403089564,
     "topicId": "anatomy",
-    "question": "A 68-year-old male patient, a long-term smoker, presents for a recall examination. He reports an asymptomatic white lesion on the lateral border of his tongue that has been present for several months. Clinical examination reveals a non-scrapable, homogenous white plaque approximately 1.5 cm in diameter. There is no induration or ulceration. What is the MOST appropriate diagnostic approach?",
+    "question": "During a surgical procedure in the floor of the mouth to excise a sialolith from the middle third of the submandibular (Wharton's) duct, the clinician must protect adjacent neurovascular structures. Which nerve courses in close proximity to the duct, crossing from its lateral to medial side by looping inferior to it?",
     "options": [
-      "Prescribe nystatin rinse and re-evaluate in two weeks.",
-      "Perform an incisional biopsy of the lesion.",
-      "Advise strict oral hygiene instructions and monitor at next recall.",
-      "Apply topical steroids and review in one month."
+      "Hypoglossal nerve",
+      "Glossopharyngeal nerve",
+      "Lingual nerve",
+      "Mylohyoid nerve"
     ],
-    "correctAnswer": 1,
-    "explanation": "Given the patient's history of smoking and the clinical appearance of a non-scrapable, persistent white lesion (leukoplakia) on a high-risk site like the lateral border of the tongue, an incisional biopsy is the MOST appropriate diagnostic approach to rule out dysplasia or malignancy. Nystatin rinse is for fungal infections, which this non-scrapable lesion is unlikely to be, and monitoring without biopsy is negligent for a suspicious lesion in a high-risk patient.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because the lingual nerve (a branch of the mandibular division of the trigeminal nerve, CN V3) travels anteriorly in the floor of the mouth, crossing lateral to the submandibular duct, looping inferiorly beneath it, and ascending medially into the tongue. The hypoglossal nerve (Option A, CN XII) courses inferior and deep to the hyoglossus muscle and does not loop around the submandibular duct. The glossopharyngeal nerve (Option B, CN IX) enters the posterior third of the tongue deep to the styloglossus muscle, while the mylohyoid nerve (Option D) travels along the mylohyoid groove of the mandibular ramus to innervate the mylohyoid muscle and the anterior belly of the digastric.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because the lingual nerve (a branch of the mandibular division of the trigeminal nerve, CN V3) travels anteriorly in the floor of the mouth, crossing lateral to the submandibular duct, looping inferiorly beneath it, and ascending medially into the tongue. The hypoglossal nerve (Option A, CN XII) courses inferior and deep to the hyoglossus muscle and does not loop around the submandibular duct. The glossopharyngeal nerve (Option B, CN IX) enters the posterior third of the tongue deep to the styloglossus muscle, while the mylohyoid nerve (Option D) travels along the mylohyoid groove of the mandibular ramus to innervate the mylohyoid muscle and the anterior belly of the digastric.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {
@@ -21134,23 +21134,23 @@
   {
     "id": 272992678,
     "topicId": "anatomy",
-    "question": "A 58-year-old female patient presents with a chief complaint of difficulty speaking and swallowing, and an increasingly dry mouth. Her medical history includes Sjögren's syndrome, for which she is on medication. Clinical examination reveals significantly reduced salivary flow, erythematous and atrophic oral mucosa, and extensive cervical caries. What is the MOST appropriate management strategy for her xerostomia?",
+    "question": "A 58-year-old female patient presents with severe oral dryness, burning sensations, and difficulty speaking and swallowing. Her medical history is significant for primary Sjögren syndrome. Clinical examination reveals atrophic, erythematous oral mucosa, absence of salivary pooling in the floor of the mouth, and active cervical demineralization. What is the MOST appropriate management strategy for her oral condition?",
     "options": [
-      "Prescribe systemic antibiotics to prevent infection",
-      "Recommend frequent sips of water, sugar-free chewing gum, and consider salivary substitutes or sialogogues",
-      "Advise strict avoidance of brushing and flossing to prevent further irritation",
-      "Refer for surgical removal of salivary glands"
+      "Prescribe an alcohol-containing chlorhexidine mouthrinse to eliminate cariogenic bacteria and maintain mucosal hydration",
+      "Prescribe a systemic anticholinergic medication to stimulate residual salivary gland secretion",
+      "Prescribe a first-generation antihistamine to suppress autoimmune glandular inflammation",
+      "Recommend salivary substitutes, sugar-free xylitol products, high-concentration topical fluoride, and a cholinergic sialogogue (e.g., pilocarpine)"
     ],
-    "correctAnswer": 1,
-    "explanation": "For a patient with Sjögren's syndrome experiencing xerostomia, the MOST appropriate management involves palliative measures such as frequent sips of water, sugar-free chewing gum, and the use of salivary substitutes or sialogogues (e.g., pilocarpine, cevimeline) to stimulate salivary flow. Systemic antibiotics are not indicated for xerostomia itself. Avoiding brushing and flossing would worsen oral health, and surgical removal of salivary glands would exacerbate, not alleviate, xerostomia.",
+    "correctAnswer": 3,
+    "explanation": "Option D is correct because Canadian clinical practice guidelines for Sjögren-induced xerostomia recommend a multi-faceted approach comprising palliative hydration (salivary substitutes, xylitol products), aggressive caries prevention (high-concentration topical fluorides), and parasympathomimetic sialogogues (e.g., pilocarpine) to stimulate residual salivary parenchymal tissue. Alcohol-containing mouthrinses (Option A) are contraindicated as alcohol causes severe mucosal desiccation and irritates already atrophic oral tissues. Anticholinergic medications (Option B) and antihistamines (Option C) possess potent xerogenic properties that competitively inhibit muscarinic receptors and significantly worsen salivary hypofunction.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because Canadian clinical practice guidelines for Sjögren-induced xerostomia recommend a multi-faceted approach comprising palliative hydration (salivary substitutes, xylitol products), aggressive caries prevention (high-concentration topical fluorides), and parasympathomimetic sialogogues (e.g., pilocarpine) to stimulate residual salivary parenchymal tissue. Alcohol-containing mouthrinses (Option A) are contraindicated as alcohol causes severe mucosal desiccation and irritates already atrophic oral tissues. Anticholinergic medications (Option B) and antihistamines (Option C) possess potent xerogenic properties that competitively inhibit muscarinic receptors and significantly worsen salivary hypofunction.",
+      "verifiedAt": "2026-11-22T04:47:32.371Z"
     }
   },
   {

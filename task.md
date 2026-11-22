@@ -1,21 +1,21 @@
-# NDEB AFK Question Audit Log: oral-pathology-76 to 90
+# NDEB AFK Question Audit Log: oral-medicine-116 to 130
 
 ## Overview
-Audit of 15 multiple-choice questions for the NDEB Assessment of Fundamental Knowledge (AFK) against Canadian dental standards (CDA, Health Canada, Neville, Malamed, Little & Falace).
+Comprehensive quality assurance audit of 15 multiple-choice questions for the NDEB Assessment of Fundamental Knowledge (AFK) against Canadian dental standards (CDA, Health Canada, Neville, Malamed, Little & Falace).
 
 ## Item-by-Item Findings
-- oral-pathology-76: PASS. Pemphigus vulgaris targets desmoglein 3. Agrees: true.
-- oral-pathology-77: PASS. Periapical cemento-osseous dysplasia in vital mandibular anterior teeth. Agrees: true.
-- oral-pathology-78: PASS. Lateral/ventral tongue is most common oral SCC site. Agrees: true.
-- oral-pathology-79: FLAG. "Median palatal cyst" is an obsolete fissural entity under modern WHO/Neville guidelines (posterior NPDC). Flawed distractors (both NPDC and Median palatal cyst present).
-- oral-pathology-80: PASS. Classic OKC/KCOT histology. KCOT (WHO 2005) synonymous with OKC (WHO 2017/2022). Agrees: true.
-- oral-pathology-81: PASS. Irritation fibroma of buccal mucosa. Agrees: true.
-- oral-pathology-82: PASS. Homogenous leukoplakia in floor of mouth. Agrees: true.
-- oral-pathology-83: PASS. Pemphigus vulgaris intraepithelial split / IgG intercellular. Agrees: true.
-- oral-pathology-84: PASS. Adenomatoid odontogenic tumor with duct-like structures. Agrees: true.
-- oral-pathology-85: PASS. Erythroplakia has highest malignancy risk (>85-90%). Agrees: true.
-- oral-pathology-86: PASS. Squamous cell carcinoma of lateral tongue. Agrees: true.
-- oral-pathology-87: PASS. Ranula is the specific floor-of-mouth extravasation pseudocyst. Agrees: true.
-- oral-pathology-88: PASS. Paget's disease of bone (cotton wool, elevated ALP, osteosarcoma risk). Agrees: true.
-- oral-pathology-89: PASS. Fordyce granules (ectopic sebaceous glands). Agrees: true.
-- oral-pathology-90: PASS. Acute pseudomembranous candidiasis post-antibiotics. Agrees: true.
+- oral-medicine-116: PASS. Secondary Sjögren's Syndrome (RA + xerostomia). Agrees: true, Compliant: true. Best Option: C.
+- oral-medicine-117: PASS. Traumatic fibroma (focal fibrous hyperplasia) on buccal mucosa adjacent to FDI tooth 16. Agrees: true, Compliant: true. Best Option: A.
+- oral-medicine-118: PASS. Incisional/excisional biopsy with histopathology is definitive for OSCC. Agrees: true, Compliant: true. Best Option: C.
+- oral-medicine-119: PASS. Radiation-induced mucositis initial palliative management (analgesia, nutrition, oral hygiene). Agrees: true, Compliant: true. Best Option: C.
+- oral-medicine-120: PASS. Minor recurrent aphthous stomatitis (MiRAS) on non-keratinized mucosa healing in 7-10 days. Agrees: true, Compliant: true. Best Option: B.
+- oral-medicine-121: PASS. Symptomatic oral lichen planus: biopsy + topical corticosteroids. Agrees: true, Compliant: true. Best Option: A.
+- oral-medicine-122: PASS. Burning mouth syndrome (BMS) with unremarkable mucosa relieved by eating. Agrees: true, Compliant: true. Best Option: B.
+- oral-medicine-123: PASS. Stage 2 MRONJ: conservative management (chlorhexidine, oral antibiotics, conservative sequestrectomy). Agrees: true, Compliant: true. Best Option: B.
+- oral-medicine-124: PASS. Synergistic tobacco and alcohol use is primary risk factor for oral tongue SCC. Agrees: true, Compliant: true. Best Option: D.
+- oral-medicine-125: PASS. Minor labial salivary gland biopsy definitive for Sjögren's syndrome. Agrees: true, Compliant: true. Best Option: A.
+- oral-medicine-126: PASS. Pemphigus vulgaris (fragile bullae, positive Nikolsky sign, desmoglein antibodies). Agrees: true, Compliant: true. Best Option: B.
+- oral-medicine-127: PASS. Denture stomatitis: topical nystatin + denture disinfection (chlorhexidine/bleach soak). Agrees: true, Compliant: true. Best Option: A.
+- oral-medicine-128: PASS. Trigeminal neuralgia (unilateral electric shocks triggered by light touch/chewing). Agrees: true, Compliant: true. Best Option: C.
+- oral-medicine-129: PASS. Oral hairy leukoplakia (EBV in HIV-positive patient, non-scrapable corrugated lateral tongue). Agrees: true, Compliant: true. Best Option: B.
+- oral-medicine-130: PASS. Erythema multiforme (bloody crusted lips, diffuse oral ulcers, target lesions post-infection). Agrees: true, Compliant: true. Best Option: C.

@@ -2438,23 +2438,23 @@
   {
     "id": 112,
     "topicId": "pedodontics",
-    "question": "A 9-year-old male patient presents with a retained mandibular primary second molar (85) that is infra-occluded and does not exfoliate. Radiographs show a distinct lack of periodontal ligament space and fusion of the root to the alveolar bone. The adjacent permanent first molar (36) is tilted mesially. What is the MOST appropriate management for the retained primary molar?",
+    "question": "A 9-year-old male patient presents with an infra-occluded tooth 85 that has failed to exfoliate. Radiographs reveal localized obliteration of the periodontal ligament space with root-to-bone fusion, and adjacent tooth 46 is tilted mesially into the space. Developing succedaneous tooth 45 is present. What is the MOST appropriate management for tooth 85?",
     "options": [
-      "Extraction of the ankylosed primary molar.",
-      "Orthodontic extrusion of the primary molar.",
-      "Placement of a stainless steel crown to build up its occlusal height.",
-      "Periodic observation and monitoring until natural exfoliation."
+      "Surgical extraction of tooth 85 followed by space regaining and maintenance",
+      "Orthodontic extrusion of tooth 85 to level the occlusal plane",
+      "Placement of a stainless steel crown on tooth 85 to restore occlusal height",
+      "Periodic observation and monitoring until spontaneous exfoliation occurs"
     ],
     "correctAnswer": 0,
-    "explanation": "The description of infra-occlusion, lack of periodontal ligament space, and fusion of the root to the alveolar bone are classic signs of ankylosis, which prevents natural exfoliation. Given the mesial tilting of the adjacent permanent molar, extraction of the ankylosed primary molar is indicated to allow for orthodontic uprighting of the permanent molar and eruption of the succedaneous permanent premolar. Orthodontic extrusion is not possible for an ankylosed tooth. A stainless steel crown would not address the ankylosis or the space issues, and observation is not appropriate given the impact on adjacent teeth and eruption.",
+    "explanation": "Option A is correct because an ankylosed, infra-occluded primary molar (tooth 85) causing space loss and mesial tipping of adjacent permanent tooth 46 requires prompt surgical extraction to allow eruption of succedaneous tooth 45 and prevent severe arch length deficiency, followed by space regaining. Orthodontic extrusion (Option B) is impossible because ankylosed teeth lack a functional periodontal ligament and will act as absolute anchorage. Restoring occlusal height with a crown (Option C) does not arrest progressive infra-occlusion relative to adjacent alveolar growth. Spontaneous exfoliation (Option D) is severely delayed or absent in ankylosed teeth.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "An ankylosed primary molar causing infraocclusion and mesial tipping of adjacent permanent teeth cannot be orthodontically extruded and should be extracted to prevent severe arch length loss. FDI tooth notation (85, 36) and clinical presentation adhere to NDEB standards.",
-      "verifiedAt": "2026-11-18T06:46:28.694Z"
+      "clinicalRationale": "Option A is correct because an ankylosed, infra-occluded primary molar (tooth 85) causing space loss and mesial tipping of adjacent permanent tooth 46 requires prompt surgical extraction to allow eruption of succedaneous tooth 45 and prevent severe arch length deficiency, followed by space regaining. Orthodontic extrusion (Option B) is impossible because ankylosed teeth lack a functional periodontal ligament and will act as absolute anchorage. Restoring occlusal height with a crown (Option C) does not arrest progressive infra-occlusion relative to adjacent alveolar growth. Spontaneous exfoliation (Option D) is severely delayed or absent in ankylosed teeth.",
+      "verifiedAt": "2026-11-22T04:47:32.626Z"
     }
   },
   {
@@ -2615,23 +2615,23 @@
   {
     "id": 120,
     "topicId": "pedodontics",
-    "question": "An 18-month-old female patient presents with several brown, cavitated lesions on her maxillary anterior teeth. Her parents report giving her a bottle of milk at bedtime nightly. Clinical examination confirms extensive carious lesions. What is the MOST appropriate initial step in managing this condition?",
+    "question": "An 18-month-old female patient presents with extensive brown, cavitated carious lesions on teeth 51, 52, 61, and 62. Her parents report giving her a bottle containing cow's milk at bedtime every night. What is the MOST appropriate initial step in managing this patient's early childhood caries?",
     "options": [
-      "Apply fluoride varnish and instruct parents to stop nighttime bottle feeding with milk.",
-      "Schedule for immediate full-mouth rehabilitation under general anesthesia.",
-      "Prescribe antibiotics to reduce bacterial load.",
-      "Recommend a high-sugar, low-acid diet to strengthen enamel."
+      "Provide parental dietary counseling to eliminate bedtime bottle feeding and apply 5% sodium fluoride varnish",
+      "Schedule immediate full-mouth dental rehabilitation under general anesthesia",
+      "Prescribe a 10-day course of systemic antibiotics to reduce the oral cariogenic bacterial load",
+      "Perform immediate surgical extractions of teeth 51, 52, 61, and 62 under local anesthesia"
     ],
     "correctAnswer": 0,
-    "explanation": "The most appropriate initial step for Early Childhood Caries (ECC) involves immediate preventive measures like fluoride varnish application and educating parents on eliminating cariogenic habits, such as nighttime bottle feeding with milk. While full-mouth rehabilitation may be necessary, it's not the immediate *initial* step and behavioral changes are crucial. Antibiotics are not indicated for caries, and a high-sugar diet would exacerbate the condition.",
+    "explanation": "Option A is correct because the essential initial management of early childhood caries involves dietary counseling to stop nocturnal bottle feeding with fermentable carbohydrates and professional application of 5% sodium fluoride varnish to arrest active demineralization according to CDA guidelines. Comprehensive rehabilitation under general anesthesia (Option B) or extractions (Option D) may become necessary for advanced cavitations, but eliminating the primary behavioral etiology and stabilizing active disease must precede or accompany restorative planning. Systemic antibiotics (Option C) have no efficacy or indication in treating dental caries.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "The initial management of early childhood caries (ECC) in an 18-month-old involves immediate cessation of nocturnal fermentable carbohydrate bottle feeding combined with professional topical fluoride varnish application and parent education.",
-      "verifiedAt": "2026-11-18T06:46:28.694Z"
+      "clinicalRationale": "Option A is correct because the essential initial management of early childhood caries involves dietary counseling to stop nocturnal bottle feeding with fermentable carbohydrates and professional application of 5% sodium fluoride varnish to arrest active demineralization according to CDA guidelines. Comprehensive rehabilitation under general anesthesia (Option B) or extractions (Option D) may become necessary for advanced cavitations, but eliminating the primary behavioral etiology and stabilizing active disease must precede or accompany restorative planning. Systemic antibiotics (Option C) have no efficacy or indication in treating dental caries.",
+      "verifiedAt": "2026-11-22T04:47:32.626Z"
     }
   },
   {
@@ -3767,23 +3767,23 @@
   {
     "id": 172,
     "topicId": "pedodontics",
-    "question": "A 7-year-old male patient presents with a localized, discoloured, non-cavitated area of enamel hypoplasia on the labial surface of his permanent maxillary right central incisor (tooth 11). The tooth is vital, asymptomatic, and structurally intact. Which of the following is the MOST appropriate initial management strategy?",
+    "question": "A 7-year-old male patient presents with a localized, discoloured, non-cavitated area of enamel hypoplasia on the labial surface of tooth 11. The tooth is vital, asymptomatic, and structurally intact. Which of the following is the MOST appropriate initial management strategy?",
     "options": [
-      "Conservative aesthetic management with microabrasion or resin infiltration",
-      "Immediate placement of a full-coverage porcelain-fused-to-metal crown",
-      "Elective pulpectomy followed by internal bleaching to address discolouration",
-      "Surgical extraction of tooth 11 followed by a removable partial denture"
+      "Conservative aesthetic intervention with enamel microabrasion or resin infiltration",
+      "Placement of a full-coverage porcelain-fused-to-metal crown",
+      "Preparation and placement of an indirect porcelain laminate veneer",
+      "Application of 38% silver diamine fluoride to the labial defect"
     ],
     "correctAnswer": 0,
-    "explanation": "Option A is correct because conservative, minimally invasive interventions such as enamel microabrasion or resin infiltration are the first-line therapies for non-cavitated, localized enamel hypoplasia or hypomineralization on permanent anterior teeth (tooth 11) in young children. Option B is incorrect because aggressive full-coverage crown preparation in a 7-year-old risks pulpal exposure due to large pulp horns and immature root development. Options C and D are incorrect because pulpectomy is contraindicated in a vital tooth, and extraction of a restorable, vital permanent incisor is unacceptable.",
+    "explanation": "Option A is correct because localized, non-cavitated enamel hypoplasia on an intact, vital tooth 11 in a 7-year-old child should be managed with minimally invasive techniques such as enamel microabrasion or resin infiltration to enhance aesthetics while preserving tooth structure. Full-coverage crowns (Option B) and indirect veneers (Option C) require aggressive tooth reduction that jeopardizes the large pulp chamber of an immature permanent tooth with an open apex. Silver diamine fluoride (Option D) is contraindicated for anterior aesthetic defects because it causes permanent, unsightly black staining.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Option A is correct because conservative, minimally invasive interventions such as enamel microabrasion or resin infiltration are the first-line therapies for non-cavitated, localized enamel hypoplasia or hypomineralization on permanent anterior teeth (tooth 11) in young children. Option B is incorrect because aggressive full-coverage crown preparation in a 7-year-old risks pulpal exposure due to large pulp horns and immature root development. Options C and D are incorrect because pulpectomy is contraindicated in a vital tooth, and extraction of a restorable, vital permanent incisor is unacceptable.",
-      "verifiedAt": "2026-11-18T19:21:44.850Z"
+      "clinicalRationale": "Option A is correct because localized, non-cavitated enamel hypoplasia on an intact, vital tooth 11 in a 7-year-old child should be managed with minimally invasive techniques such as enamel microabrasion or resin infiltration to enhance aesthetics while preserving tooth structure. Full-coverage crowns (Option B) and indirect veneers (Option C) require aggressive tooth reduction that jeopardizes the large pulp chamber of an immature permanent tooth with an open apex. Silver diamine fluoride (Option D) is contraindicated for anterior aesthetic defects because it causes permanent, unsightly black staining.",
+      "verifiedAt": "2026-11-22T04:47:32.626Z"
     }
   },
   {
@@ -3811,23 +3811,23 @@
   {
     "id": 174,
     "topicId": "pedodontics",
-    "question": "A 3-year-old male patient has no clinical signs of eruption of his permanent mandibular first molars. Which of the following statements regarding the radiographic appearance of these teeth at this age is MOST accurate?",
+    "question": "A 3-year-old male patient presents for a routine dental examination. Neither tooth 36 nor tooth 46 has erupted into the oral cavity. Which of the following statements regarding the normal radiographic appearance and development of teeth 36 and 46 at this age is MOST accurate?",
     "options": [
-      "The crowns of the permanent mandibular first molars are typically fully calcified, but root formation has not yet begun.",
-      "The permanent mandibular first molars are usually not visible on radiographs at this age.",
-      "The crown of the permanent mandibular first molar is typically visible with initial evidence of root formation.",
-      "The roots of the permanent mandibular first molars are usually fully formed, but the crown is still developing."
+      "The crowns are completely calcified, but root formation has not yet initiated",
+      "Follicular crypts are present, but crown calcification has not yet commenced",
+      "Crown calcification is complete with distinct radiographic evidence of root bifurcation formation",
+      "Root apex closure is complete while crown enamel maturation continues"
     ],
-    "correctAnswer": 2,
-    "explanation": "At 3 years of age, the crown of the permanent mandibular first molar is typically visible radiographically and often shows initial evidence of root formation, as these teeth begin calcification around birth. The crowns are usually not fully calcified without any root formation (Option A). They are definitely visible on radiographs (Option B) at this age. Roots are not fully formed (Option D) as eruption typically occurs around 6 years of age.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because according to established dental development chronologies (Logan & Kronfeld), the crowns of teeth 36 and 46 initiate calcification at birth and complete crown enamel formation by 2.5 to 3 years of age, while root formation has not yet begun radiographically. Crown calcification begins at birth, making the statement that calcification has not commenced (Option B) incorrect. Root elongation and bifurcation development (Option C) initiate later, around age 3.5 to 4 years during active pre-eruptive movement. Root apex closure (Option D) is not completed until 9 to 10 years of age, roughly three years after clinical eruption.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "By 3 years of age, crown calcification of the permanent mandibular first molars is complete and initial radicular bifurcation/formation becomes radiographically evident. The distractor options represent distinct developmental stages without format flaws.",
-      "verifiedAt": "2026-11-18T06:49:47.057Z"
+      "clinicalRationale": "Option A is correct because according to established dental development chronologies (Logan & Kronfeld), the crowns of teeth 36 and 46 initiate calcification at birth and complete crown enamel formation by 2.5 to 3 years of age, while root formation has not yet begun radiographically. Crown calcification begins at birth, making the statement that calcification has not commenced (Option B) incorrect. Root elongation and bifurcation development (Option C) initiate later, around age 3.5 to 4 years during active pre-eruptive movement. Root apex closure (Option D) is not completed until 9 to 10 years of age, roughly three years after clinical eruption.",
+      "verifiedAt": "2026-11-22T04:47:32.626Z"
     }
   },
   {
@@ -4031,15 +4031,15 @@
   {
     "id": 184,
     "topicId": "pedodontics",
-    "question": "A 6-year-old male patient presents with severe mobility (Grade III) of his maxillary left primary central incisor. The tooth is asymptomatic, there is no history of trauma, and the permanent successor is palpable. Radiographic examination reveals significant root resorption consistent with normal physiological exfoliation. What is the MOST appropriate management?",
+    "question": "A 6-year-old male patient presents with Grade III mobility of tooth 61. The tooth is asymptomatic, there is no history of trauma, and succedaneous tooth 21 is palpable labially. Radiographic examination reveals extensive root resorption consistent with normal physiological exfoliation. What is the MOST appropriate management?",
     "options": [
-      "Extract the primary incisor",
-      "Splint the primary incisor to adjacent teeth",
-      "Monitor for natural exfoliation",
-      "Perform an indirect pulp cap"
+      "Perform immediate extraction of tooth 61 under local anesthesia",
+      "Splint tooth 61 to adjacent teeth using a flexible composite splint",
+      "Reassure the parent and patient and monitor for natural physiological exfoliation",
+      "Prescribe a course of systemic amoxicillin to treat suspected acute infection"
     ],
     "correctAnswer": 2,
-    "explanation": "The clinical presentation of a 6-year-old with a mobile primary central incisor, significant root resorption, and a palpable permanent successor is indicative of normal physiological exfoliation. In the absence of pain, infection, or trauma, the standard of care is to monitor the tooth for natural exfoliation. Extraction is not indicated unless the tooth is painful, infected, or poses a significant aspiration risk (which is rare for anterior teeth in this age group, though parents are often advised to be cautious). Splinting is contraindicated as it interferes with the natural exfoliation process and the eruption of the permanent tooth. An indirect pulp cap is a treatment for deep caries or pulp exposure, which is not present in this scenario.",
+    "explanation": "Option C is correct because Grade III mobility secondary to advanced physiological root resorption in an asymptomatic 6-year-old with an emerging successor (tooth 21) is a normal developmental finding that requires only parental reassurance and monitoring for spontaneous shedding. Routine extraction (Option A) is unnecessary and invasive for an asymptomatic tooth that will exfoliate naturally without impeding successor eruption. Splinting (Option B) is contraindicated as it impedes natural shedding and can deflect erupting tooth 21. Antibiotic therapy (Option D) is inappropriate for non-infectious, physiological tooth mobility.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
@@ -4047,8 +4047,8 @@
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Severe mobility resulting from physiological root resorption with an asymptomatic presentation and a palpable permanent successor requires only monitoring for natural shedding. Surgical extraction is unnecessary and contraindicated without secondary complications.",
-      "verifiedAt": "2026-11-18T06:49:47.057Z"
+      "clinicalRationale": "Option C is correct because Grade III mobility secondary to advanced physiological root resorption in an asymptomatic 6-year-old with an emerging successor (tooth 21) is a normal developmental finding that requires only parental reassurance and monitoring for spontaneous shedding. Routine extraction (Option A) is unnecessary and invasive for an asymptomatic tooth that will exfoliate naturally without impeding successor eruption. Splinting (Option B) is contraindicated as it impedes natural shedding and can deflect erupting tooth 21. Antibiotic therapy (Option D) is inappropriate for non-infectious, physiological tooth mobility.",
+      "verifiedAt": "2026-11-22T04:47:32.626Z"
     }
   },
   {
@@ -5722,23 +5722,23 @@
   {
     "id": 261,
     "topicId": "pedodontics",
-    "question": "A 5-year-old female patient has a persistent tongue thrust habit. Clinical examination reveals an anterior open bite, proclination of maxillary incisors, and retroclination of mandibular incisors. Her mother expresses concern about her speech development. What is the MOST appropriate initial approach to manage this habit?",
+    "question": "A 5-year-old patient presents for a routine dental examination. Clinical examination reveals an anterior open bite and a simple tongue thrust swallow pattern. The patient has no history of digit sucking and no speech articulation difficulties. What is the MOST appropriate initial management strategy?",
     "options": [
-      "Orthodontic appliance therapy (e.g., palatal crib)",
-      "Refer to a speech-language pathologist for myofunctional therapy",
-      "Wait and monitor, as most tongue thrusts resolve spontaneously",
-      "Habit appliance combined with positive reinforcement"
+      "Observation and monitoring during transition to the permanent dentition",
+      "Insertion of a fixed palatal crib appliance",
+      "Immediate referral for myofunctional therapy",
+      "Placement of a removable Hawley appliance with an acrylic bite plane"
     ],
-    "correctAnswer": 1,
-    "explanation": "Tongue‑thrusting that has produced an anterior open bite and altered incisor inclination should initially be managed by a speech‑language pathologist trained in myofunctional therapy. This approach corrects the abnormal tongue posture and improves speech, creating a stable foundation for any later orthodontic intervention. Habit appliances (e.g., palatal crib) are adjuncts and are most effective after the functional pattern has been retrained. Observation alone is inappropriate given the existing malocclusion and speech impact. (Reference: Little & Falace, Dental Management of the Medically Compromised Patient, 4th ed.; Canadian Dental Association guidelines on orofacial myofunctional disorders.)",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because in a 5-year-old child in the primary dentition, an anterior tongue thrust swallow is typically a physiological transitional stage that spontaneously resolves upon the eruption of the permanent incisors, making watchful monitoring the standard initial approach. Appliance therapy such as a palatal crib (Option B) or Hawley appliance (Option D) is contraindicated in the primary dentition due to compliance issues and potential disruption of normal growth. Myofunctional therapy (Option C) is ineffective in preschool-aged children due to cognitive and neuromuscular developmental immaturity.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "In a 5-year-old child in the primary dentition with parental concern regarding speech development, habit appliances are premature; referral to a speech-language pathologist for myofunctional and speech evaluation is the most appropriate initial management.",
-      "verifiedAt": "2026-11-18T06:52:08.654Z"
+      "clinicalRationale": "Option A is correct because in a 5-year-old child in the primary dentition, an anterior tongue thrust swallow is typically a physiological transitional stage that spontaneously resolves upon the eruption of the permanent incisors, making watchful monitoring the standard initial approach. Appliance therapy such as a palatal crib (Option B) or Hawley appliance (Option D) is contraindicated in the primary dentition due to compliance issues and potential disruption of normal growth. Myofunctional therapy (Option C) is ineffective in preschool-aged children due to cognitive and neuromuscular developmental immaturity.",
+      "verifiedAt": "2026-11-22T04:47:32.626Z"
     }
   },
   {
@@ -7459,23 +7459,23 @@
   {
     "id": 339,
     "topicId": "pedodontics",
-    "question": "During a routine bitewing radiographic examination of a 7-year-old female patient, the dentist observes that the permanent mandibular second premolar is developing distally to the primary second molar roots, with adequate eruption space. What does this radiographic finding MOST likely indicate?",
+    "question": "During a routine bitewing radiographic examination of a 7-year-old patient, the developing tooth germ of the permanent mandibular left second premolar (tooth 35) is observed positioned distally to the roots of the primary mandibular left second molar (tooth 75). What does this radiographic finding MOST likely indicate?",
     "options": [
-      "An impacted permanent second premolar",
-      "Normal physiological development",
-      "Ectopic eruption of the permanent second premolar",
-      "A need for immediate orthodontic intervention"
+      "Normal physiological eruption sequence",
+      "Ectopic development of the premolar",
+      "Ankylosis of tooth 75",
+      "Impaction of the adjacent permanent first molar"
     ],
     "correctAnswer": 1,
-    "explanation": "It is a normal physiological process for developing permanent premolars to be positioned distally and often slightly lingually to the roots of their primary predecessors. As the primary molar roots resorb, the permanent premolar migrates mesially into its proper position. Impaction or ectopic eruption would involve unusual angulation, position, or lack of eruption space, none of which are described. Therefore, immediate orthodontic intervention is not warranted.",
+    "explanation": "Option B is correct because premolars physiologically develop within the interradicular space between the divergent roots of primary molars; positioning distal to the primary molar roots indicates ectopic development of the tooth germ. Normal physiological development (Option A) occurs directly between the divergent roots of the primary predecessor. Ankylosis of tooth 75 (Option C) is characterized by loss of the periodontal ligament space and infraocclusion, not displacement of the succedaneous follicle. Impaction (Option D) cannot be diagnosed at age 7 because premolars do not normally erupt until ages 10 to 12.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Developing mandibular second premolars frequently exhibit a distal inclination or position relative to primary molar roots at age 7 and spontaneously upright during eruption, representing normal physiological development.",
-      "verifiedAt": "2026-11-18T06:56:16.804Z"
+      "clinicalRationale": "Option B is correct because premolars physiologically develop within the interradicular space between the divergent roots of primary molars; positioning distal to the primary molar roots indicates ectopic development of the tooth germ. Normal physiological development (Option A) occurs directly between the divergent roots of the primary predecessor. Ankylosis of tooth 75 (Option C) is characterized by loss of the periodontal ligament space and infraocclusion, not displacement of the succedaneous follicle. Impaction (Option D) cannot be diagnosed at age 7 because premolars do not normally erupt until ages 10 to 12.",
+      "verifiedAt": "2026-11-22T04:47:32.626Z"
     }
   },
   {
@@ -8749,23 +8749,23 @@
   {
     "id": 397,
     "topicId": "pedodontics",
-    "question": "A mother of a 2-year-old child expresses concern about her child's diet and frequent snacking, contributing to a high caries risk. The child consumes fruit juice multiple times a day. What is the MOST appropriate dietary counseling advice regarding fruit juice intake?",
+    "question": "A parent of a 2-year-old child expresses concern regarding the child's diet and frequent snacking, which places the child at high caries risk. The child consumes 100% fruit juice multiple times per day. According to Canadian dental and pediatric guidelines, what is the MOST appropriate dietary counseling advice regarding fruit juice intake?",
     "options": [
-      "Limit fruit juice to 4-6 ounces per day and consume it with meals.",
-      "Offer fruit juice freely throughout the day as a healthy beverage.",
-      "Substitute all fruit juice with sugary sports drinks.",
-      "Recommend 100% fruit juice as an alternative to water."
+      "Limit 100% fruit juice to a maximum of 120 mL (4 oz) per day, consumed only with meals.",
+      "Dilute fruit juice with equal parts water and offer it continuously in a sippy cup throughout the day.",
+      "Provide up to 250 mL (8 oz) of fruit juice daily as a healthy substitute for whole fruits.",
+      "Allow unrestricted fruit juice intake as long as it contains no added sugars or artificial sweeteners."
     ],
     "correctAnswer": 0,
-    "explanation": "Limiting fruit juice to 4-6 ounces per day and consuming it with meals minimizes exposure time to sugars and acids, reducing caries risk. Offering fruit juice freely (B) or as an alternative to water (D) significantly increases caries risk due to frequent sugar exposure. Sugary sports drinks (C) are generally worse than fruit juice.",
+    "explanation": "Option A is correct because Canadian Paediatric Society and CDA guidelines recommend limiting 100% fruit juice to a maximum of 120 mL (4 oz) per day for children aged 1 to 3 years, consumed with meals to minimize prolonged enamel acid exposure and early childhood caries. Diluting juice in a sippy cup for frequent sipping (Option B) prolongs contact time and enamel demineralization throughout the day. Offering 250 mL daily (Option C) exceeds the recommended limit for toddlers and inappropriately displaces dietary fiber. Unrestricted 100% juice (Option D) significantly increases caries risk regardless of whether sugars are naturally occurring or added.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Canadian and AAP/AAPD guidelines recommend restricting 100% fruit juice to no more than 4–6 ounces per day for young children and consuming it strictly with meals.",
-      "verifiedAt": "2026-11-18T06:57:16.926Z"
+      "clinicalRationale": "Option A is correct because Canadian Paediatric Society and CDA guidelines recommend limiting 100% fruit juice to a maximum of 120 mL (4 oz) per day for children aged 1 to 3 years, consumed with meals to minimize prolonged enamel acid exposure and early childhood caries. Diluting juice in a sippy cup for frequent sipping (Option B) prolongs contact time and enamel demineralization throughout the day. Offering 250 mL daily (Option C) exceeds the recommended limit for toddlers and inappropriately displaces dietary fiber. Unrestricted 100% juice (Option D) significantly increases caries risk regardless of whether sugars are naturally occurring or added.",
+      "verifiedAt": "2026-11-22T04:47:32.626Z"
     }
   },
   {
@@ -9015,23 +9015,23 @@
   {
     "id": 409,
     "topicId": "pedodontics",
-    "question": "Which of the following describes a key anatomical difference in the enamel of primary teeth compared to permanent teeth?",
+    "question": "Which of the following describes a characteristic anatomical feature of the enamel in primary teeth compared to permanent teeth?",
     "options": [
-      "The enamel rods in primary teeth extend occlusally from the DEJ.",
-      "Primary teeth have a thicker layer of enamel.",
-      "Primary teeth enamel is more opaque due to higher mineralization.",
-      "The enamel in primary teeth has a more consistent thickness throughout the crown."
+      "Enamel rods in the cervical third incline apically toward the gingiva.",
+      "Enamel thickness is relatively uniform across the entire crown.",
+      "Enamel is significantly thicker occlusally, reaching 2.5 mm at the cusp tips.",
+      "Enamel exhibits a higher degree of mineralization and mineral density."
     ],
-    "correctAnswer": 0,
-    "explanation": "Neville, Damm, Allen & Bouquot (Oral and Maxillofacial Pathology) describe primary enamel as having shorter, more irregular enamel rods that originate at the DEJ and extend toward the occlusal surface, a pattern that differs subtly from permanent enamel where rods are longer and more uniformly oriented. The other options are factually incorrect: primary enamel is thinner, less mineralized (hence more opaque, not due to higher mineralization), and its thickness varies, being thinner cervically. Therefore option 0 is the best available answer despite the limited wording. (Reference: Neville et al., 4th ed., p. 215).",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because primary tooth enamel has a relatively uniform thickness of approximately 1 mm across the entire crown, unlike permanent teeth where enamel is significantly thicker at the cusp tips (2.0 to 2.5 mm) and tapers cervically. Enamel rods in the cervical third of primary teeth incline occlusally rather than apically (Option A). Primary enamel is approximately half the thickness of permanent enamel, not 2.5 mm (Option C). Primary enamel is less mineralized and more porous than permanent enamel (Option D), resulting in a whiter appearance and faster caries progression.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Enamel rods in the cervical third of primary crowns extend occlusally from the DEJ, unlike permanent teeth where cervical rods incline apically toward the gingiva.",
-      "verifiedAt": "2026-11-18T06:57:59.847Z"
+      "clinicalRationale": "Option B is correct because primary tooth enamel has a relatively uniform thickness of approximately 1 mm across the entire crown, unlike permanent teeth where enamel is significantly thicker at the cusp tips (2.0 to 2.5 mm) and tapers cervically. Enamel rods in the cervical third of primary teeth incline occlusally rather than apically (Option A). Primary enamel is approximately half the thickness of permanent enamel, not 2.5 mm (Option C). Primary enamel is less mineralized and more porous than permanent enamel (Option D), resulting in a whiter appearance and faster caries progression.",
+      "verifiedAt": "2026-11-22T04:47:32.626Z"
     }
   },
   {
@@ -10036,21 +10036,21 @@
     "topicId": "pedodontics",
     "question": "Which of the following is a characteristic morphological feature of primary molar crowns compared to permanent molar crowns?",
     "options": [
-      "A more prominent cervical bulge.",
-      "A significantly larger pulp chamber in proportion to crown size.",
-      "A generally thicker enamel layer.",
-      "Less divergent roots."
+      "A prominent cervical ridge, especially on the buccal surface",
+      "A proportionately smaller pulp chamber relative to crown size",
+      "A thicker and more heavily mineralized layer of enamel",
+      "A wider occlusal table relative to total buccolingual crown diameter"
     ],
     "correctAnswer": 0,
-    "explanation": "Primary molars exhibit a distinct and prominent cervical bulge, particularly on the buccal and lingual surfaces, which is important for restorative procedures like stainless steel crowns. While primary teeth do have relatively larger pulp chambers and thinner enamel, and more divergent roots, the prominent cervical bulge is a unique morphological crown feature. Primary tooth enamel is generally thinner, not thicker, and their roots are more divergent, not less.",
+    "explanation": "Option A is correct because primary molar crowns exhibit a prominent cervical ridge, most marked on the buccal surface of primary first molars (teeth 54, 64, 74, and 84), with distinct constriction at the cementoenamel junction. Primary molars have proportionately larger pulp chambers and higher pulp horns, making Option B incorrect. The enamel and dentin layers in primary teeth are approximately half the thickness of permanent teeth (Option C). The occlusal table of primary molars is proportionately narrower buccolingually due to sharp convergence of the buccal and lingual surfaces (Option D).",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Primary molar crowns characteristically feature a prominent cervical ridge/bulge (particularly on the buccal surface) and marked cervical constriction compared to permanent molars. In contrast, primary molars possess thinner enamel and more widely divergent roots to house succedaneous tooth buds.",
-      "verifiedAt": "2026-11-18T06:59:02.024Z"
+      "clinicalRationale": "Option A is correct because primary molar crowns exhibit a prominent cervical ridge, most marked on the buccal surface of primary first molars (teeth 54, 64, 74, and 84), with distinct constriction at the cementoenamel junction. Primary molars have proportionately larger pulp chambers and higher pulp horns, making Option B incorrect. The enamel and dentin layers in primary teeth are approximately half the thickness of permanent teeth (Option C). The occlusal table of primary molars is proportionately narrower buccolingually due to sharp convergence of the buccal and lingual surfaces (Option D).",
+      "verifiedAt": "2026-11-22T04:47:32.626Z"
     }
   },
   {

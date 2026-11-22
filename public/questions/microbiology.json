@@ -2873,23 +2873,23 @@
     "id": 134,
     "topicId": "microbiology",
     "difficulty": "medium",
-    "question": "A 45-year-old male presents with a hard, slowly enlarging swelling in the submandibular region with multiple draining sinus tracts discharging yellowish granules ('sulfur granules'). Gram stain of the granules reveals branching, Gram-positive filaments. What is the most likely causative organism?",
+    "question": "Four weeks following the difficult surgical extraction of tooth 46, a 52-year-old male presents with a firm, non-tender, 'woody' induration at the right angle of the mandible. Examination reveals a cutaneous sinus tract discharging purulent exudate with macroscopic yellowish granules. Microscopic analysis of the granules demonstrates tangled masses of Gram-positive, branching filamentous rods that are non-acid-fast and obligate/facultative anaerobes. What is the MOST likely causative microorganism?",
     "options": [
+      "Nocardia asteroides",
       "Mycobacterium tuberculosis",
-      "Staphylococcus aureus",
       "Actinomyces israelii",
-      "Candida albicans"
+      "Fusobacterium nucleatum"
     ],
     "correctAnswer": 2,
-    "explanation": "Actinomyces israelii is an anaerobic, branching Gram-positive bacterium that causes actinomycosis, classically characterized by wooden-hard swellings and sinus tracts discharging sulfur granules. Staphylococcus aureus causes purulent abscesses without sulfur granules, Mycobacterium causes tuberculosis, and Candida is a fungus.",
+    "explanation": "Option C is correct because Actinomyces israelii is an endogenous, slow-growing, Gram-positive, non-acid-fast, anaerobic filamentous rod that characteristically produces cervicofacial actinomycosis with 'sulfur granules' and woody induration following oral mucosal trauma or extraction. Option A is incorrect because Nocardia asteroides consists of aerobic, partially acid-fast branching filaments that primarily produce pulmonary or disseminated infections rather than classic endogenous odontogenic cervicofacial sinus tracts. Options B and D are incorrect because Mycobacterium tuberculosis is an obligate aerobe and acid-fast bacillus causing tuberculous lymphadenitis without sulfur granules, while Fusobacterium nucleatum is a Gram-negative spindle-shaped anaerobic rod that does not form branching filaments.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option C is correct because Actinomyces israelii is an endogenous, slow-growing, Gram-positive, non-acid-fast, anaerobic filamentous rod that characteristically produces cervicofacial actinomycosis with 'sulfur granules' and woody induration following oral mucosal trauma or extraction. Option A is incorrect because Nocardia asteroides consists of aerobic, partially acid-fast branching filaments that primarily produce pulmonary or disseminated infections rather than classic endogenous odontogenic cervicofacial sinus tracts. Options B and D are incorrect because Mycobacterium tuberculosis is an obligate aerobe and acid-fast bacillus causing tuberculous lymphadenitis without sulfur granules, while Fusobacterium nucleatum is a Gram-negative spindle-shaped anaerobic rod that does not form branching filaments.",
+      "verifiedAt": "2026-11-22T04:47:32.517Z"
     }
   },
   {
@@ -7544,23 +7544,23 @@
     "id": 358,
     "topicId": "microbiology",
     "difficulty": "medium",
-    "question": "During the sterilization monitoring of a prevacuum steam autoclave in a dental office, which biological indicator spore is universally mandated for weekly spore testing?",
+    "question": "According to Canadian infection prevention and control (IPAC) guidelines and CSA Z314 standards, dynamic air-removal steam sterilizers (autoclaves) in dental offices must undergo biological monitoring daily using which of the following indicator bacterial spores?",
     "options": [
       "Bacillus atrophaeus",
       "Geobacillus stearothermophilus",
-      "Bacillus subtilis",
-      "Clostridium sporogenes"
+      "Clostridium sporogenes",
+      "Pseudomonas aeruginosa"
     ],
     "correctAnswer": 1,
-    "explanation": "Geobacillus stearothermophilus spores are used for monitoring steam sterilization (autoclaves) and chemical vapor sterilizers because they are highly resistant to moist heat. Bacillus atrophaeus is used for dry heat and ethylene oxide sterilizers.",
+    "explanation": "Option B is correct because endospores of Geobacillus stearothermophilus are exceptionally resistant to moist heat and are mandated for daily biological indicator spore testing of steam autoclaves under Canadian IPAC and CSA Z314 standards. Option A is incorrect because Bacillus atrophaeus endospores are used specifically for the monitoring of dry-heat and ethylene oxide sterilization cycles. Options C and D are incorrect because Clostridium sporogenes and Pseudomonas aeruginosa are not approved or utilized as biological indicators for validating dental steam sterilization processes.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because endospores of Geobacillus stearothermophilus are exceptionally resistant to moist heat and are mandated for daily biological indicator spore testing of steam autoclaves under Canadian IPAC and CSA Z314 standards. Option A is incorrect because Bacillus atrophaeus endospores are used specifically for the monitoring of dry-heat and ethylene oxide sterilization cycles. Options C and D are incorrect because Clostridium sporogenes and Pseudomonas aeruginosa are not approved or utilized as biological indicators for validating dental steam sterilization processes.",
+      "verifiedAt": "2026-11-22T04:47:32.517Z"
     }
   },
   {
@@ -10001,23 +10001,23 @@
   {
     "id": 302557956,
     "topicId": "microbiology",
-    "question": "Which of the following anatomical structures is responsible for proprioception and tactile discrimination of the teeth and their supporting structures?",
+    "question": "Which of the following neural receptors located within the periodontal ligament is primarily responsible for dental proprioception, directional sensitivity, and tactile load discrimination during mastication?",
     "options": [
-      "Free nerve endings in the pulp",
-      "Pacinian corpuscles in the periodontal ligament",
-      "Meissner's corpuscles in the gingiva",
-      "Merkel cells in the oral epithelium"
+      "Pacinian corpuscles",
+      "Ruffini-like mechanoreceptors",
+      "Free unmyelinated nerve endings",
+      "Meissner-like corpuscles"
     ],
     "correctAnswer": 1,
-    "explanation": "The periodontal ligament (PDL) contains a rich supply of mechanoreceptors, including Pacinian corpuscles, which are critical for proprioception and tactile discrimination of the teeth, allowing for precise control of masticatory forces. Free nerve endings in the pulp are primarily nociceptors (pain receptors). Meissner's corpuscles and Merkel cells are found in the oral epithelium and dermis, responsible for light touch and pressure, but not directly for tooth proprioception.",
+    "explanation": "Option B is correct because slowly adapting, dendritic Ruffini-like mechanoreceptors situated within the periodontal ligament serve as the principal receptors mediating dental proprioception and discrimination of occlusal loading forces. Option A is incorrect because Pacinian corpuscles are rapidly adapting lamellated vibration receptors that are absent in the normal human periodontal ligament. Options C and D are incorrect because free unmyelinated nerve endings in the periodontium and pulp primarily mediate nociceptive (pain) sensation, while Meissner-like corpuscles provide superficial light-touch sensation rather than functional occlusal load proprioception.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because slowly adapting, dendritic Ruffini-like mechanoreceptors situated within the periodontal ligament serve as the principal receptors mediating dental proprioception and discrimination of occlusal loading forces. Option A is incorrect because Pacinian corpuscles are rapidly adapting lamellated vibration receptors that are absent in the normal human periodontal ligament. Options C and D are incorrect because free unmyelinated nerve endings in the periodontium and pulp primarily mediate nociceptive (pain) sensation, while Meissner-like corpuscles provide superficial light-touch sensation rather than functional occlusal load proprioception.",
+      "verifiedAt": "2026-11-22T04:47:32.517Z"
     }
   },
   {

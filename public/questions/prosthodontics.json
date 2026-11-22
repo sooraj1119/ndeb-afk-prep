@@ -468,23 +468,23 @@
     "id": 21,
     "topicId": "prosthodontics",
     "difficulty": "medium",
-    "question": "When designing a removable partial denture (RPD) for a Kennedy Class II mandibular arch, the dentist decides to place an indirect retainer. What is the primary mechanical purpose of this indirect retainer?",
+    "question": "A 62-year-old male patient is being rehabilitated with a mandibular removable partial denture for a Kennedy Class II modification 1 arch, missing teeth 35, 36, 37, and 46. The primary fulcrum line passes through the most distal occlusal rests on tooth 34 and tooth 47. An indirect retainer is planned on the mesio-occlusal rest of tooth 43. What is the primary mechanical function of this indirect retainer?",
     "options": [
-      "To prevent displacement of the distal extension base away from the residual ridge during rotation around the fulcrum line",
-      "To prevent horizontal translation of the denture base during mastication",
-      "To provide primary support and distribute occlusal loads evenly across the remaining teeth",
-      "To prevent displacement of the distal extension base away from the residual ridge during tissue-ward movement"
+      "To resist rotational displacement of the distal extension denture base away from the residual ridge tissues",
+      "To resist vertical displacement of the distal extension denture base toward the supporting residual ridge tissues",
+      "To prevent horizontal lateral translation and cross-arch dislodgement during mastication",
+      "To provide primary vertical support against occlusal loads applied to the artificial teeth"
     ],
     "correctAnswer": 0,
-    "explanation": "An indirect retainer in a distal extension RPD is placed perpendicular to and anterior to the fulcrum line to prevent lifting or displacement of the distal extension base away from the tissues during sticky food dislodgement. It does not prevent tissue-ward movement (which is handled by rests and major connectors) or horizontal translation (handled by rigid components acting as bracing elements).",
+    "explanation": "Option A is correct because an indirect retainer functions as a class II lever situated anterior to the fulcrum line to counteract rotational dislodgement of the distal extension base away from the basal seat during mastication of sticky foods. Resisting movement toward the supporting tissues is provided by primary occlusal rests and the residual ridge mucosa, lateral stability against horizontal forces is supplied by rigid clasp arms and minor connectors, and primary vertical support is derived from the rests and broad denture base coverage.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "An indirect retainer prevents lifting of the distal extension base away from the residual ridge around the fulcrum line; however, this item substantially duplicates question prosthodontics-12.",
-      "verifiedAt": "2026-11-18T05:02:13.816Z"
+      "clinicalRationale": "Option A is correct because an indirect retainer functions as a class II lever situated anterior to the fulcrum line to counteract rotational dislodgement of the distal extension base away from the basal seat during mastication of sticky foods. Resisting movement toward the supporting tissues is provided by primary occlusal rests and the residual ridge mucosa, lateral stability against horizontal forces is supplied by rigid clasp arms and minor connectors, and primary vertical support is derived from the rests and broad denture base coverage.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -1493,24 +1493,24 @@
     "id": 66,
     "topicId": "prosthodontics",
     "difficulty": "medium",
-    "question": "A 50-year-old patient requires a full-coverage crown on tooth 11 with high esthetic demands. The remaining coronal tooth structure is moderately discolored due to a previous root canal treatment. Which of the following core-crown combinations provides the optimal balance of masking ability and esthetics?",
+    "question": "A 50-year-old patient requires a full-coverage crown on endodontically treated tooth 11, which has significant coronal tooth loss and moderate internal dentin discoloration. The patient exhibits a high smile line and has high esthetic expectations. Which post, core, and crown combination provides the optimal balance of fracture resistance, masking ability, and anterior esthetics?",
     "options": [
-      "Feldspathic porcelain crown over a titanium custom post and core",
-      "Zirconia-reinforced lithium disilicate crown over a gold alloy post and core",
-      "Glass-ceramic crown over a silver amalgam core",
-      "High-translucency monolithic lithium disilicate crown over a tooth-colored resin composite core"
+      "A glass-fiber post, a tooth-colored resin composite core, and a layered lithium disilicate crown",
+      "A cast gold alloy post and core with a high-translucency feldspathic porcelain crown",
+      "A custom titanium post, a silver amalgam core, and a monolithic glass-ceramic crown",
+      "A prefabricated stainless steel post, a conventional glass ionomer core, and a monolithic lithium disilicate crown"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is Option B. In cases of moderate discoloration of the underlying tooth structure, the primary challenge is masking the dark substrate while maintaining esthetics. A gold alloy post and core is highly opaque and effectively masks the discoloration of the root canal treated tooth. When combined with a zirconia-reinforced lithium disilicate (e.g., e.max CAD) crown, the high opacity of the core prevents the dark tooth structure from showing through the ceramic, allowing for a natural esthetic result without requiring excessive thickness of the crown material. \n\nOption A is incorrect because feldspathic porcelain is highly translucent and requires a light-colored substrate; a titanium post is also metallic and may show a grayish hue, making this combination poor for masking moderate discoloration. \n\nOption C is incorrect because silver amalgam is dark and would significantly compromise the esthetics of a glass-ceramic crown, which is also relatively translucent. \n\nOption D is incorrect because while a tooth-colored resin composite core is esthetic, it lacks the opacity of a metal core. A high-translucency monolithic lithium disilicate crown over a composite core may not provide sufficient masking for moderately discolored tooth structure, potentially leading to a grayish or dark appearance at the cervical margin or incisal edge.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because a glass-fiber post shares an elastic modulus similar to dentin to minimize root fracture risk, while a tooth-colored composite core provides an optimal optical foundation that masks discoloration without casting dark shadows beneath an esthetic layered lithium disilicate crown. Cast gold and titanium/amalgam cores cause metallic show-through and dark gingival margins under all-ceramic restorations, and conventional glass ionomer lacks the tensile and compressive strength required for an anterior structural core.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Zirconia-reinforced lithium disilicate over a gold alloy post and core provides sufficient opacity and warm reflective undertones to mask endodontic discoloration without dark metal shine-through.",
-      "verifiedAt": "2026-11-18T05:05:44.908Z"
+      "clinicalRationale": "Option A is correct because a glass-fiber post shares an elastic modulus similar to dentin to minimize root fracture risk, while a tooth-colored composite core provides an optimal optical foundation that masks discoloration without casting dark shadows beneath an esthetic layered lithium disilicate crown. Cast gold and titanium/amalgam cores cause metallic show-through and dark gingival margins under all-ceramic restorations, and conventional glass ionomer lacks the tensile and compressive strength required for an anterior structural core.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -2305,23 +2305,23 @@
     "id": 102,
     "topicId": "prosthodontics",
     "difficulty": "medium",
-    "question": "A patient presents with localized burning and inflammation of the hard palate beneath a maxillary complete denture. Microbiological swab confirms the presence of Candida albicans. What is the clinical diagnosis and primary etiology?",
+    "question": "A 66-year-old female patient presents with localized burning beneath her maxillary complete denture. Clinical examination reveals localized pinpoint hyperemic erythematous lesions confined to the palatal mucosa surrounding minor salivary gland duct orifices. The patient admits to wearing the prosthesis continuously, including during sleep, and a microbiological swab confirms the presence of Candida albicans. What is the correct clinical diagnosis and classification for this condition?",
     "options": [
-      "Median rhomboid glossitis associated with a localized developmental defect",
-      "Nicotine stomatitis caused by heat and tobacco smoke",
-      "Denture stomitis (Type II) caused by chronic colonization of Candida under a poorly fitting, continuously worn prosthesis",
-      "Contact dermatitis caused by residual monomer in the acrylic resin base"
+      "Denture stomatitis (Newton Type I) associated with localized Candida albicans colonization and nocturnal denture wear",
+      "Denture stomatitis (Newton Type II) characterized by generalized diffuse erythema of the denture-bearing mucosa",
+      "Denture stomatitis (Newton Type III) characterized by inflammatory papillary hyperplasia of the hard palate",
+      "Contact allergic stomatitis caused by delayed hypersensitivity to residual methyl methacrylate monomer"
     ],
-    "correctAnswer": 2,
-    "explanation": "Denture stomitis is commonly associated with Candida albicans infection, often exacerbated by continuous wear of the denture and poor oral/prosthesis hygiene. Treatment involves antifungal therapy, tissue conditioning, and instructing the patient to leave the dentures out at night.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Newton Type I denture stomatitis is clinically defined by localized pinpoint hyperemia or focal mucosal inflammation beneath a denture, commonly triggered by chronic Candida albicans colonization and continuous nocturnal wear. Newton Type II is characterized by generalized, diffuse erythema involving the entire denture-bearing palatal mucosa, Newton Type III presents as nodular inflammatory papillary hyperplasia, and true contact allergy to acrylic monomer is exceedingly rare and produces acute generalized mucosal erythema and burning immediately following prosthesis insertion.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Newton Type II denture stomatitis presents as diffuse erythema under the maxillary denture base and is primarily caused by Candida albicans colonization and overnight prosthesis wear.",
-      "verifiedAt": "2026-11-18T05:05:13.413Z"
+      "clinicalRationale": "Option A is correct because Newton Type I denture stomatitis is clinically defined by localized pinpoint hyperemia or focal mucosal inflammation beneath a denture, commonly triggered by chronic Candida albicans colonization and continuous nocturnal wear. Newton Type II is characterized by generalized, diffuse erythema involving the entire denture-bearing palatal mucosa, Newton Type III presents as nodular inflammatory papillary hyperplasia, and true contact allergy to acrylic monomer is exceedingly rare and produces acute generalized mucosal erythema and burning immediately following prosthesis insertion.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -3111,23 +3111,23 @@
     "id": 140,
     "topicId": "prosthodontics",
     "difficulty": "medium",
-    "question": "A patient presents with a severely atrophic mandibular ridge. Which impression technique is most appropriate for a complete denture to maximize retention and stability?",
+    "question": "A 72-year-old male patient presents with a severely resorbed, knife-edge mandibular residual ridge requiring a new complete denture. To achieve optimal retention and stability while protecting the atrophic tissues from accelerated bone resorption, which secondary impression technique is MOST appropriate?",
     "options": [
-      "Physiologic impression using a custom tray with polyether material.",
-      "Selective pressure impression using a custom tray with zinc oxide eugenol paste.",
-      "Mucostatic impression using a custom tray with light-bodied material.",
-      "Mucocompressive impression using a stock tray with irreversible hydrocolloid."
+      "A selective pressure impression using a custom tray relieved over the ridge crest while loading the buccal shelf",
+      "A mucocompressive impression using an unspaced custom tray with high-viscosity compound across the entire ridge",
+      "A mucostatic impression using a non-perforated stock tray with irreversible hydrocolloid",
+      "A closed-mouth functional impression using an unbordered stock tray with heavy-body polyether"
     ],
     "correctAnswer": 0,
-    "explanation": "For a severely atrophic mandibular ridge, the NDEB prosthodontic standards recommend a physiologic (functional) impression technique performed with a custom tray and a low‑modulus elastomer such as polyether or PVS (McCracken's Removable Partial Prosthodontics, 7th ed., pp. 345‑347). This technique captures tissue compressibility during function, providing optimal support. Selective‑pressure impressions are also performed with elastomeric materials; zinc‑oxide‑eugenol paste is rigid and unsuitable for directing selective pressure. Consequently, option 0 is the only answer that aligns with Canadian prosthodontic guidelines.",
+    "explanation": "Option A is correct because the selective pressure impression technique uses a custom tray with relief over the easily resorbed, knife-edge ridge crest while directing masticatory forces onto the cortical bone of the buccal shelf, the primary stress-bearing area in the mandible. Mucocompressive impressions displace tissues excessively and accelerate ridge resorption, mucostatic impressions lack border molding and peripheral seal, and unbordered closed-mouth techniques fail to record functional sulcus depth and contours.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "A physiologic functional impression using an elastomeric wash (such as polyether) in a custom tray captures dynamic peripheral muscle extensions and maximal vestibule width and depth without mucosal distortion or the brittleness of ZOE.",
-      "verifiedAt": "2026-11-18T05:09:15.174Z"
+      "clinicalRationale": "Option A is correct because the selective pressure impression technique uses a custom tray with relief over the easily resorbed, knife-edge ridge crest while directing masticatory forces onto the cortical bone of the buccal shelf, the primary stress-bearing area in the mandible. Mucocompressive impressions displace tissues excessively and accelerate ridge resorption, mucostatic impressions lack border molding and peripheral seal, and unbordered closed-mouth techniques fail to record functional sulcus depth and contours.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -4486,23 +4486,23 @@
     "id": 200,
     "topicId": "prosthodontics",
     "difficulty": "hard",
-    "question": "A 65-year-old male patient presents with significant atrophy of the posterior maxilla, requiring implant placement to support a fixed partial denture replacing teeth 14, tooth 15, and tooth 16. A pre-operative CBCT scan confirms insufficient vertical bone height in the region. What is the most common adjunctive surgical procedure required prior to or concomitant with implant placement in this specific anatomical area?",
+    "question": "A 65-year-old male patient presents with edentulism in the right posterior maxilla, seeking an implant-supported fixed prosthesis to replace teeth 14, 15, and 16. A pre-operative cone beam computed tomography (CBCT) scan demonstrates adequate ridge width (8 mm) but severe vertical deficiency beneath the maxillary sinus, with only 3 mm of residual alveolar bone height below the sinus floor. What is the MOST appropriate adjunctive surgical procedure to achieve sufficient vertical bone volume for implant placement in this site?",
     "options": [
-      "Sinus augmentation (sinus lift).",
-      "Lateral ridge augmentation.",
-      "Mandibular distraction osteogenesis.",
-      "Inferior alveolar nerve repositioning."
+      "Maxillary sinus floor augmentation (sinus lift)",
+      "Horizontal guided bone regeneration (GBR) using a collagen membrane",
+      "Alveolar ridge split with expansion osteotomy",
+      "Subnasal floor elevation"
     ],
     "correctAnswer": 0,
-    "explanation": "Significant atrophy of the posterior maxilla often results in inadequate bone height due to the proximity of the maxillary sinus. Therefore, sinus augmentation (sinus lift) is the most common and often essential adjunctive surgical procedure to create sufficient vertical bone for implant placement in this region. Inferior alveolar nerve repositioning is for the mandible, mandibular distraction osteogenesis is for larger mandibular bone defects, and lateral ridge augmentation addresses horizontal bone deficiency.",
+    "explanation": "Option A is correct because maxillary sinus floor augmentation (sinus lift) is the definitive surgical procedure to gain vertical bone height in the posterior maxilla when alveolar pneumatization or crestal resorption leaves inadequate residual bone (< 4–5 mm) beneath the antral floor. Horizontal guided bone regeneration and ridge split procedures specifically address narrow ridge width rather than vertical sinus pneumatization, and subnasal floor elevation is anatomically restricted to the anterior maxilla beneath the piriform aperture.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Vertical bone deficiency in the atrophic posterior maxilla (teeth 14-16) resulting from sinus pneumatization and crestal resorption is standardly and predictably managed via maxillary sinus floor augmentation (sinus lift).",
-      "verifiedAt": "2026-11-18T05:12:54.908Z"
+      "clinicalRationale": "Option A is correct because maxillary sinus floor augmentation (sinus lift) is the definitive surgical procedure to gain vertical bone height in the posterior maxilla when alveolar pneumatization or crestal resorption leaves inadequate residual bone (< 4–5 mm) beneath the antral floor. Horizontal guided bone regeneration and ridge split procedures specifically address narrow ridge width rather than vertical sinus pneumatization, and subnasal floor elevation is anatomically restricted to the anterior maxilla beneath the piriform aperture.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -4719,23 +4719,23 @@
     "id": 210,
     "topicId": "prosthodontics",
     "difficulty": "hard",
-    "question": "During the clinical try-in appointment for complete dentures, a 68-year-old female patient complains of muscle fatigue around the jaw, clicking sounds during speech, and difficulty closing her lips comfortably. What is the most likely issue related to the vertical dimension of occlusion (VDO)?",
+    "question": "During the teeth try-in appointment for complete dentures, a 68-year-old female patient reports masticatory muscle fatigue and tension. The dentist observes clicking of the artificial teeth during sibilant sound pronunciation ('s' and 'ch'), strained lip closure at rest, and an interocclusal rest space (freeway space) measuring 0 mm. What is the MOST likely clinical discrepancy?",
     "options": [
-      "Incorrect centric relation record.",
-      "Excessive VDO.",
-      "Insufficient VDO.",
-      "Insufficient freeway space."
+      "Excessive vertical dimension of occlusion (VDO)",
+      "Insufficient vertical dimension of occlusion (VDO)",
+      "Centric occlusion not coincident with centric relation",
+      "Occlusal plane oriented too low relative to the retromolar pad"
     ],
-    "correctAnswer": 1,
-    "explanation": "Clicking sounds during speech (when teeth meet), muscle fatigue, and difficulty closing lips comfortably are classic signs of an excessive vertical dimension of occlusion (VDO). An excessive VDO means there is insufficient freeway space, leading to constant muscle strain and inappropriate tooth contact during function. Insufficient VDO would present with a collapsed facial appearance and difficulty speaking clearly.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because an excessive vertical dimension of occlusion (VDO) completely encroaches upon the interocclusal rest space (freeway space = 0 mm), causing teeth to contact and click during speech, continuous muscle fatigue, and strained lip competence. Insufficient VDO produces overclosure, excessive freeway space, facial collapse, and angular cheilitis, while centric relation discrepancy and improper occlusal plane height cause localized occlusal instability or cheek biting rather than tooth clicking and eliminated freeway space.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Excessive vertical dimension of occlusion encroaches upon the interocclusal rest space and closest speaking space, causing masticatory muscle fatigue, tooth clicking during speech, and lip incompetence.",
-      "verifiedAt": "2026-11-18T05:12:54.909Z"
+      "clinicalRationale": "Option A is correct because an excessive vertical dimension of occlusion (VDO) completely encroaches upon the interocclusal rest space (freeway space = 0 mm), causing teeth to contact and click during speech, continuous muscle fatigue, and strained lip competence. Insufficient VDO produces overclosure, excessive freeway space, facial collapse, and angular cheilitis, while centric relation discrepancy and improper occlusal plane height cause localized occlusal instability or cheek biting rather than tooth clicking and eliminated freeway space.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -5714,23 +5714,23 @@
     "id": 253,
     "topicId": "prosthodontics",
     "difficulty": "hard",
-    "question": "A 65-year-old female presents with new complete dentures and reports difficulty pronouncing 's' and 'sh' sounds, often producing a 'th' sound. Upon examination, you note the anterior teeth are slightly anterior to their ideal position. What is the most likely specific cause of this phonetic difficulty?",
+    "question": "A 65-year-old female presents with newly fabricated complete dentures reporting difficulty articulating sibilant sounds, frequently producing a 'th' sound instead of an 's' sound. Clinical examination reveals excessive horizontal overlap (overjet) with the maxillary anterior teeth positioned too far labially. What is the primary phonetic mechanism responsible for this distortion?",
     "options": [
-      "Inadequate posterior palatal seal.",
-      "Insufficient vertical dimension of occlusion.",
-      "Anterior teeth set too far labially, reducing tongue space and altering the sibilant groove.",
-      "Insufficient interincisal distance (overjet) and excessive horizontal overlap."
+      "Inadequate posterior palatal seal allowing escape of air during speech.",
+      "Excessive vertical dimension of occlusion causing premature tooth contacts.",
+      "Maxillary anterior teeth set too far labially, creating excessive horizontal overlap that obligates the tongue to reach forward between the teeth.",
+      "Fabrication of an excessively thick anterior palatal resin base that narrows the median longitudinal groove of the tongue."
     ],
     "correctAnswer": 2,
-    "explanation": "Difficulty with sibilant sounds like 's' and 'sh' (producing a 'th' sound) is frequently caused by inadequate tongue space, often due to the anterior teeth being set too far labially. This reduces the 'sibilant groove' space between the tongue and the palatal surfaces of the anterior teeth. Insufficient VDO typically causes clicking and facial collapse. Inadequate PPS affects retention. Incorrect interincisal distance could be a factor but the primary issue here is tongue space alteration.",
+    "explanation": "Option C is correct because positioning maxillary anterior teeth too far labially creates excessive horizontal overlap (overjet), obligating the tongue to reach forward between the incisal edges to articulate, which substitutes a 'th' sound for 's'. In contrast, an inadequate posterior palatal seal (Option A) compromises denture retention rather than sibilant phonetics, excessive vertical dimension of occlusion (Option B) causes tooth clicking during speech, and an excessively thick palatal base (Option D) constricts the central air channel to produce a whistling sound rather than a lisp.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Anterior teeth placed excessively labial prevent the tongue from properly narrowing the sibilant airflow groove against the palate, causing 's' sounds to sound like 'th'.",
-      "verifiedAt": "2026-11-18T05:13:42.641Z"
+      "clinicalRationale": "Option C is correct because positioning maxillary anterior teeth too far labially creates excessive horizontal overlap (overjet), obligating the tongue to reach forward between the incisal edges to articulate, which substitutes a 'th' sound for 's'. In contrast, an inadequate posterior palatal seal (Option A) compromises denture retention rather than sibilant phonetics, excessive vertical dimension of occlusion (Option B) causes tooth clicking during speech, and an excessively thick palatal base (Option D) constricts the central air channel to produce a whistling sound rather than a lisp.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -7957,25 +7957,25 @@
     "id": 350,
     "topicId": "prosthodontics",
     "difficulty": "hard",
-    "question": "A 72-year-old edentulous patient presents for final impressions for complete dentures. The patient has a broad, flat mandibular ridge with minimal undercuts. Which impression material is generally considered the MOST suitable for capturing the fine details and achieving optimal border molding for this type of ridge?",
+    "question": "A 72-year-old edentulous patient presents for secondary (final) wash impressions for complete dentures following border molding of a custom tray. Clinical examination reveals a severely resorbed, broad, flat mandibular alveolar ridge with no significant tissue undercuts. Which impression material is considered the MOST appropriate for this specific clinical situation?",
     "options": [
-      "Vinyl polysiloxane (VPS) impression material.",
-      "Alginate (irreversible hydrocolloid).",
-      "Zinc oxide eugenol (ZOE) impression paste.",
-      "Polyether impression material."
+      "Vinyl polysiloxane putty",
+      "Irreversible hydrocolloid (alginate)",
+      "Zinc oxide-eugenol (ZOE) impression paste",
+      "Polyether impression material"
     ],
-    "correctAnswer": 3,
-    "explanation": "Polyether impression material is the most suitable choice for final impressions in this clinical scenario. Polyethers are elastomeric impression materials known for their high dimensional stability, excellent hydrophilicity, and superior detail reproduction. They are particularly well-suited for edentulous ridges because they can be used with a border-molding technique (often using a separate border-molding material or the polyether itself if it has sufficient body) to capture functional movements of the soft tissues. The material's rigidity allows for precise removal from the mouth without significant distortion, provided there are no significant undercuts (as stated in the stem: 'minimal undercuts'). This rigidity also ensures that the fine details of the ridge are accurately recorded. In contrast, Zinc oxide eugenol (ZOE) paste is a non-elastic material that is generally not recommended for final impressions of edentulous ridges because it cannot capture functional border movements and is difficult to remove without damaging the tissue or the impression if there are any undercuts, even minimal ones. Furthermore, ZOE is typically used for primary impressions or as a base for other materials, not as a standalone final impression material for complete dentures due to its lack of elasticity and potential for tissue irritation. Alginate is less accurate and has poorer dimensional stability compared to polyethers, making it less ideal for final impressions where high precision is required. Vinyl polysiloxane (VPS) is also an excellent material with high accuracy and flexibility, but polyether is often preferred in traditional prosthodontic teaching for its superior hydrophilicity and detail reproduction in wet environments, and its rigidity which aids in border definition. However, both VPS and polyether are acceptable, but polyether is often cited as the gold standard for detail in final impressions of edentulous ridges in many Canadian dental curricula and board examinations due to its specific properties.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because zinc oxide-eugenol (ZOE) impression paste is the classic mucostatic wash material indicated for flat edentulous mandibular ridges with minimal undercuts, registering fine mucosal detail without tissue displacement. In contrast, vinyl polysiloxane putty (Option A) exerts excessive pressure and displaces delicate movable tissues, irreversible hydrocolloid (Option B) lacks the dimensional stability and tear strength required for definitive edentulous impressions, and polyether (Option D) possesses high rigidity and stiffness that can tear borders and fracture stone casts upon retrieval.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Polyether provides high dimensional stability, hydrophilicity for recording fine mucosal detail, and adequate body to perform monophase border molding when undercuts are minimal. Its inherent rigidity is well tolerated in flat ridges with minimal undercuts, whereas ZOE cannot border-mold.",
-      "verifiedAt": "2026-11-18T05:19:19.929Z"
+      "clinicalRationale": "Option C is correct because zinc oxide-eugenol (ZOE) impression paste is the classic mucostatic wash material indicated for flat edentulous mandibular ridges with minimal undercuts, registering fine mucosal detail without tissue displacement. In contrast, vinyl polysiloxane putty (Option A) exerts excessive pressure and displaces delicate movable tissues, irreversible hydrocolloid (Option B) lacks the dimensional stability and tear strength required for definitive edentulous impressions, and polyether (Option D) possesses high rigidity and stiffness that can tear borders and fracture stone casts upon retrieval.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -11593,23 +11593,23 @@
   {
     "id": 857689763,
     "topicId": "prosthodontics",
-    "question": "When interpreting a panoramic radiograph for an adult patient, which of the following anatomical structures is most likely to be superimposed over the mandibular molars, potentially obscuring pathology?",
+    "question": "When interpreting a panoramic radiograph for an adult patient, which normal anatomical structure characteristically projects as a dense radiopaque band superimposed over the cervical and root thirds of the mandibular molars, potentially obscuring periodontal bone levels or apical pathology?",
     "options": [
-      "Maxillary sinuses",
+      "Maxillary sinus",
       "Zygomatic arch",
       "Hyoid bone",
       "External oblique ridge"
     ],
-    "correctAnswer": 2,
-    "explanation": "White & Pharoah’s Oral Radiology (7th ed.) and the Canadian Dental Association’s radiographic interpretation guidelines note that the hyoid bone, situated inferior to the mandible, is commonly superimposed over the mandibular premolar‑molar area on panoramic radiographs. This superimposition can obscure lesions. The external oblique ridge is an intrinsic mandibular cortical feature and does not overlay the molar roots. Maxillary sinuses and the zygomatic arch are superior to the maxilla. Hence, the hyoid bone is the correct answer.",
+    "correctAnswer": 3,
+    "explanation": "Option D is correct because the external oblique ridge descends from the anterior border of the mandibular ramus and superimposes as a dense radiopaque band across the cervical and root thirds of mandibular molars (teeth 37, 38, 47, and 48), which can obscure crestal bone loss or apical lesions. In contrast, the maxillary sinus (Option A) and zygomatic arch (Option B) are midfacial structures projecting over the maxillary posterior region, while the hyoid bone (Option C) projects inferior and posterior to the inferior border of the mandible.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "The hyoid bone commonly superimposes over the lower border and posterior molar apices of the mandible on panoramic radiographs, particularly with an extended neck posture.",
-      "verifiedAt": "2026-11-18T05:26:50.504Z"
+      "clinicalRationale": "Option D is correct because the external oblique ridge descends from the anterior border of the mandibular ramus and superimposes as a dense radiopaque band across the cervical and root thirds of mandibular molars (teeth 37, 38, 47, and 48), which can obscure crestal bone loss or apical lesions. In contrast, the maxillary sinus (Option A) and zygomatic arch (Option B) are midfacial structures projecting over the maxillary posterior region, while the hyoid bone (Option C) projects inferior and posterior to the inferior border of the mandible.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -12303,23 +12303,23 @@
   {
     "id": 226922443,
     "topicId": "prosthodontics",
-    "question": "A 28-year-old female patient presents for extraction of tooth 48 due to recurrent pericoronitis. Radiographic examination reveals a fully erupted, mesioangular impacted mandibular third molar with roots in close proximity to the inferior alveolar nerve canal. Her medical history is non-contributory. What is the MOST important pre-surgical consideration for minimizing potential complications?",
+    "question": "A 28-year-old female presents with recurrent pericoronitis associated with a partially erupted, mesioangularly impacted tooth 48. A panoramic radiograph demonstrates diversion of the inferior alveolar canal and darkening of the apical portion of the roots of tooth 48, suggesting intimate contact with the inferior alveolar nerve. What is the MOST appropriate pre-surgical step to evaluate the three-dimensional relationship of the nerve and minimize complications?",
     "options": [
-      "Prescribing a prophylactic antibiotic regimen for 7 days prior to surgery.",
-      "Performing an immediate coronectomy to avoid nerve injury.",
-      "Administering a local anesthetic containing a vasoconstrictor to reduce bleeding.",
-      "Obtaining a cone-beam computed tomography (CBCT) scan of the area."
+      "Prescribing a 7-day course of prophylactic amoxicillin prior to surgery",
+      "Performing an immediate coronectomy without further radiographic assessment",
+      "Exposing a mandibular cross-sectional occlusal radiograph",
+      "Obtaining a localized cone-beam computed tomography (CBCT) scan"
     ],
     "correctAnswer": 3,
-    "explanation": "When mandibular third molar roots are in close proximity to the inferior alveolar nerve canal, a CBCT scan is crucial to assess the 3D relationship between the roots and the nerve, providing detailed information that minimizes the risk of nerve injury during extraction. Prophylactic antibiotics are generally not indicated for routine third molar extractions. Coronectomy is an alternative procedure but requires specific indications and is not the most important pre-surgical consideration for minimizing potential complications in this scenario.",
+    "explanation": "Option D is correct because localized cone-beam computed tomography (CBCT) is indicated under Canadian Safety Code 30 to evaluate the three-dimensional spatial relationship between the roots of tooth 48 and the inferior alveolar canal when high-risk panoramic signs are present. In contrast, routine 7-day pre-surgical antibiotic prophylaxis (Option A) violates Canadian antimicrobial stewardship guidelines, performing an immediate coronectomy without 3D imaging (Option B) is premature without confirming true canal proximity or root morphology, and an occlusal radiograph (Option C) cannot adequately resolve the vertical depth or neurovascular canal relationship in the posterior mandible.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "When plain radiography demonstrates close proximity between mandibular third molar roots and the inferior alveolar canal, CBCT imaging is indicated to evaluate 3D anatomical relationships and determine risk for coronectomy versus extraction.",
-      "verifiedAt": "2026-11-18T05:30:06.696Z"
+      "clinicalRationale": "Option D is correct because localized cone-beam computed tomography (CBCT) is indicated under Canadian Safety Code 30 to evaluate the three-dimensional spatial relationship between the roots of tooth 48 and the inferior alveolar canal when high-risk panoramic signs are present. In contrast, routine 7-day pre-surgical antibiotic prophylaxis (Option A) violates Canadian antimicrobial stewardship guidelines, performing an immediate coronectomy without 3D imaging (Option B) is premature without confirming true canal proximity or root morphology, and an occlusal radiograph (Option C) cannot adequately resolve the vertical depth or neurovascular canal relationship in the posterior mandible.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -12964,23 +12964,23 @@
   {
     "id": 800667855,
     "topicId": "prosthodontics",
-    "question": "A 68-year-old female patient presents with a chief complaint of severe dry mouth, difficulty swallowing, and recurrent candidiasis. She takes multiple medications for hypertension, osteoarthritis, and depression. Clinical examination reveals generalized oral dryness, erythematous mucosa, and diminished salivary flow. What is the MOST appropriate initial management strategy?",
+    "question": "A 68-year-old female presents with severe dry mouth and difficulty swallowing associated with medication-induced xerostomia from multiple antihypertensive, analgesic, and antidepressant drugs. Clinical examination reveals desiccated, sticky oral mucosa, absent salivary pooling in the floor of the mouth, and cervical plaque accumulation. What is the MOST appropriate initial palliative management strategy to provide immediate symptomatic relief?",
     "options": [
-      "Prescribe a systemic antifungal medication for candidiasis.",
-      "Recommend sugar-free chewing gum and artificial saliva substitutes.",
-      "Refer to her physician to review and potentially adjust her current medications.",
-      "Instruct her to increase her daily water intake significantly."
+      "Contact her physician to immediately discontinue her essential systemic medications",
+      "Recommend sugar-free salivary stimulants (e.g., xylitol chewing gum) and artificial saliva substitutes",
+      "Prescribe systemic pilocarpine therapy as the first-line intervention",
+      "Instruct the patient that increasing daily plain water intake alone will sufficiently restore mucosal lubrication"
     ],
-    "correctAnswer": 2,
-    "explanation": "While all options might play a role, the MOST appropriate initial management strategy for severe xerostomia with polypharmacy is to refer to the patient's physician to review and potentially adjust her medications, as many common drugs (antihypertensives, antidepressants, NSAIDs) cause xerostomia as a side effect. Addressing the root cause is paramount. Prescribing antifungals (A) treats the symptom but not the underlying dryness. Sugar-free gum and artificial saliva (B) are palliative measures.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because initial management of medication-induced xerostomia prioritizes immediate palliative relief using artificial saliva substitutes and sugar-free salivary stimulants (such as xylitol gum) to lubricate mucosal tissues and facilitate swallowing. In contrast, discontinuing essential cardiovascular or psychiatric medications (Option A) is unsafe and outside dental scope, systemic sialogogues like pilocarpine (Option C) are second-line pharmacologic agents with significant adverse cholinergic effects, and drinking plain water alone (Option D) lacks the viscosity and mucin protection necessary to moisten desiccated oral tissues.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "For medication-induced xerostomia resulting from polypharmacy, the definitive initial step is consulting the patient's physician to review and potentially substitute or reduce xerogenic medications.",
-      "verifiedAt": "2026-11-18T05:33:13.106Z"
+      "clinicalRationale": "Option B is correct because initial management of medication-induced xerostomia prioritizes immediate palliative relief using artificial saliva substitutes and sugar-free salivary stimulants (such as xylitol gum) to lubricate mucosal tissues and facilitate swallowing. In contrast, discontinuing essential cardiovascular or psychiatric medications (Option A) is unsafe and outside dental scope, systemic sialogogues like pilocarpine (Option C) are second-line pharmacologic agents with significant adverse cholinergic effects, and drinking plain water alone (Option D) lacks the viscosity and mucin protection necessary to moisten desiccated oral tissues.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -13119,15 +13119,15 @@
   {
     "id": 990825690,
     "topicId": "prosthodontics",
-    "question": "A patient with a documented allergy to ester-type local anesthetics presents for a dental procedure. The clinician is considering the use of a local anesthetic that contains a vasoconstrictor. Which of the following agents is the most appropriate choice, considering both the allergy profile and the mechanism of action of the vasoconstrictor?",
+    "question": "A 42-year-old patient with a documented true allergy to ester-type local anesthetics requires a routine 45-minute restorative procedure on tooth 46. Which local anesthetic formulation is the MOST appropriate choice to provide adequate pulpal anesthesia without risk of allergic cross-reactivity or prolonged soft-tissue paresthesia?",
     "options": [
-      "Lidocaine with epinephrine",
-      "Mepivacaine plain",
-      "Articaine with epinephrine",
-      "Bupivacaine with epinephrine"
+      "2% Lidocaine with 1:100,000 epinephrine",
+      "3% Mepivacaine plain",
+      "2% Procaine with 1:100,000 epinephrine",
+      "0.5% Bupivacaine with 1:200,000 epinephrine"
     ],
     "correctAnswer": 0,
-    "explanation": "The patient has an allergy to ester-type local anesthetics (e.g., procaine, tetracaine, benzocaine). Amide-type local anesthetics (e.g., lidocaine, mepivacaine, articaine, bupivacaine) are generally safe for patients with ester allergies, as cross-reactivity is rare. The key distinction in this question lies in the vasoconstrictor. Epinephrine is a catecholamine and is not an ester or amide local anesthetic; it does not share the metabolic pathway (ester hydrolysis) that triggers ester allergies. Therefore, lidocaine with epinephrine is a safe and standard choice. While mepivacaine plain is also safe regarding the allergy, the question asks for the most appropriate choice considering the vasoconstrictor mechanism, and lidocaine is the most commonly used first-line agent. Articaine is an amide but has a unique structure with an ester bond in its side chain; however, it is still classified as an amide and is generally considered safe in ester-allergic patients, but lidocaine is the more standard, unambiguous answer for a general 'safe amide with vasoconstrictor' scenario in board exams unless specific pharmacokinetic advantages of articaine are highlighted. Bupivacaine is a long-acting amide but is less commonly used as a first-line agent for routine dental procedures due to its longer duration and potential for cardiotoxicity in high doses. The primary teaching point is that epinephrine is safe in ester-allergic patients, and lidocaine is the prototypical safe amide.",
+    "explanation": "Option A is correct because 2% lidocaine with 1:100,000 epinephrine is an intermediate-acting amide local anesthetic that is safe in patients with ester allergies and provides approximately 60 minutes of pulpal anesthesia, ideal for routine operative dentistry on tooth 46. In contrast, 3% mepivacaine plain (Option B) provides insufficient duration of pulpal anesthesia for mandibular block procedures, 2% procaine (Option C) is an ester-type anesthetic that is strictly contraindicated due to allergen cross-reactivity, and 0.5% bupivacaine (Option D) is a long-acting agent that creates unnecessary risk of prolonged soft-tissue numbness and accidental biting trauma.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
@@ -13135,8 +13135,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Lidocaine with epinephrine is an amino-amide local anesthetic possessing zero cross-allergenicity with ester anesthetics while containing an alpha/beta-adrenergic vasoconstrictor.",
-      "verifiedAt": "2026-11-18T05:33:13.106Z"
+      "clinicalRationale": "Option A is correct because 2% lidocaine with 1:100,000 epinephrine is an intermediate-acting amide local anesthetic that is safe in patients with ester allergies and provides approximately 60 minutes of pulpal anesthesia, ideal for routine operative dentistry on tooth 46. In contrast, 3% mepivacaine plain (Option B) provides insufficient duration of pulpal anesthesia for mandibular block procedures, 2% procaine (Option C) is an ester-type anesthetic that is strictly contraindicated due to allergen cross-reactivity, and 0.5% bupivacaine (Option D) is a long-acting agent that creates unnecessary risk of prolonged soft-tissue numbness and accidental biting trauma.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -13252,23 +13252,23 @@
   {
     "id": 251552032,
     "topicId": "prosthodontics",
-    "question": "A 50-year-old male patient presents with severe, acute pain and swelling in the submandibular region. He reports a history of a chronic, intermittent swelling in the area, particularly noticeable during meals. Clinical examination reveals a firm, tender swelling in the floor of the mouth and a visible calculus in the opening of Wharton's duct. What is the MOST appropriate initial management?",
+    "question": "A 50-year-old male presents with acute pain and swelling of the left submandibular space that intensifies during meal times. He is afebrile with normal vital signs. Clinical examination reveals a tender left floor of the mouth and a visible, hard calculus lodged at the orifice of Wharton's duct, with clear saliva expressed upon milking. What is the MOST appropriate initial management?",
     "options": [
-      "Prescribe antibiotics and warm compresses",
-      "Surgical removal of the submandibular gland",
-      "Sialolithotomy (removal of the calculus)",
-      "Perform a biopsy of the swelling"
+      "Prescribe a 7-day course of empiric oral amoxicillin-clavulanate",
+      "Perform complete surgical excision of the left submandibular gland",
+      "Transoral removal of the calculus via ductal milking or simple sialolithotomy",
+      "Perform an incisional biopsy of the floor of the mouth swelling"
     ],
-    "correctAnswer": 0,
-    "explanation": "The presentation is consistent with acute sialadenitis secondary to sialolithiasis (stone in Wharton's duct). Initial management for an acute flare-up involves conservative measures such as antibiotics to control infection, warm compresses, hydration, and sialagogues to promote salivary flow. While sialolithotomy is the definitive treatment for the stone, it is usually deferred until the acute infection subsides.",
+    "correctAnswer": 2,
+    "explanation": "Option C is correct because a visible sialolith lodged at the orifice of Wharton's duct requires immediate mechanical relief of the obstruction via transoral milking or simple sialolithotomy under local anesthesia. In contrast, empiric antibiotic therapy (Option A) is contraindicated in an afebrile patient without purulent discharge under Canadian antimicrobial stewardship guidelines, complete submandibular gland excision (Option B) is overly invasive and reserved for refractory intraglandular disease, and incisional biopsy (Option D) is inappropriate for a benign obstructive ductal calculus.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "In acute obstructive bacterial sialadenitis presenting with severe pain and tender swelling, initial medical management with systemic antibiotics, warm compresses, and hydration is required to resolve acute infection prior to surgical stone retrieval.",
-      "verifiedAt": "2026-11-18T05:31:53.992Z"
+      "clinicalRationale": "Option C is correct because a visible sialolith lodged at the orifice of Wharton's duct requires immediate mechanical relief of the obstruction via transoral milking or simple sialolithotomy under local anesthesia. In contrast, empiric antibiotic therapy (Option A) is contraindicated in an afebrile patient without purulent discharge under Canadian antimicrobial stewardship guidelines, complete submandibular gland excision (Option B) is overly invasive and reserved for refractory intraglandular disease, and incisional biopsy (Option D) is inappropriate for a benign obstructive ductal calculus.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -13960,23 +13960,23 @@
   {
     "id": 224086185,
     "topicId": "prosthodontics",
-    "question": "A 7-year-old male patient presents to your dental office with a chief complaint of difficulty chewing due to pain in his lower right jaw. His mother reports he fell off his bicycle yesterday. Clinical examination reveals a step deformity in the right mandibular body region and significant swelling. He is unable to fully close his mouth. What is the MOST immediate next step in managing this patient?",
+    "question": "A 7-year-old male presents to a dental office following a bicycle fall yesterday. Clinical examination reveals marked swelling of the right mandibular body, an intraoral step deformity between tooth 84 and tooth 85 with mucosal laceration, and an acute anterior open bite. What is the MOST appropriate immediate next step in management?",
     "options": [
-      "Prescribe antibiotics and pain medication",
-      "Refer to an oral and maxillofacial surgeon for definitive management",
-      "Attempt closed reduction of the fracture",
-      "Order a panoramic radiograph and a PA cephalometric radiograph"
+      "Prescribe oral antibiotics and analgesics and re-evaluate in one week",
+      "Immediately refer to an oral and maxillofacial surgeon for definitive evaluation and management",
+      "Attempt immediate chairside closed reduction and intermaxillary fixation with arch bars",
+      "Order a posteroanterior (PA) cephalometric radiograph to assess facial asymmetry"
     ],
-    "correctAnswer": 3,
-    "explanation": "A step deformity, swelling, and trismus strongly suggest a mandibular fracture, but the NDEB trauma protocol (Neville, Carranza) requires radiographic confirmation prior to specialist referral. Panoramic (OPG) and PA cephalometric views provide a rapid, low‑dose assessment of the mandibary body and ramus in a pediatric patient. Ordering imaging first does not delay care; it equips the oral‑maxillofacial surgeon with essential diagnostic information. Prescribing medication alone or attempting reduction without a definitive diagnosis would be contrary to standard of care.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because an acute displaced pediatric mandibular fracture presenting with a step deformity and malocclusion is an urgent surgical condition requiring immediate referral to an oral and maxillofacial surgeon for specialized reduction, fixation, and growth-plate preservation. In contrast, outpatient medical management with antibiotics alone (Option A) delays necessary fracture reduction and risks infection, chairside reduction and arch bar fixation (Option C) is unsafe in a general dental clinic without specialized pediatric surgical facilities, and ordering a PA cephalometric radiograph (Option D) is inappropriate because cephalometry is an orthodontic diagnostic tool rather than a maxillofacial trauma imaging standard.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Suspected pediatric mandibular fractures require immediate diagnostic imaging (panoramic and posteroanterior projections) to assess fracture location and displacement prior to surgical intervention.",
-      "verifiedAt": "2026-11-18T05:34:21.788Z"
+      "clinicalRationale": "Option B is correct because an acute displaced pediatric mandibular fracture presenting with a step deformity and malocclusion is an urgent surgical condition requiring immediate referral to an oral and maxillofacial surgeon for specialized reduction, fixation, and growth-plate preservation. In contrast, outpatient medical management with antibiotics alone (Option A) delays necessary fracture reduction and risks infection, chairside reduction and arch bar fixation (Option C) is unsafe in a general dental clinic without specialized pediatric surgical facilities, and ordering a PA cephalometric radiograph (Option D) is inappropriate because cephalometry is an orthodontic diagnostic tool rather than a maxillofacial trauma imaging standard.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -15285,23 +15285,23 @@
   {
     "id": 23060716,
     "topicId": "prosthodontics",
-    "question": "A 28-year-old female patient presents with a chief complaint of a painless, slow-growing swelling on the buccal aspect of her anterior maxilla, noticed approximately 6 months ago. She denies any trauma or pain. Clinical examination reveals a firm, non-tender, sessile nodule, about 1.5 cm in diameter, with a smooth surface, appearing pinkish and slightly paler than the surrounding gingiva. Radiographs show no associated bone loss. What is the MOST likely diagnosis?",
+    "question": "A 28-year-old female presents with a painless, slow-growing gingival mass on the facial aspect of the anterior maxilla between tooth 11 and tooth 12, noticed 6 months ago. Clinical examination reveals a firm, pink, non-tender, sessile nodule measuring 1.5 cm in diameter that does not bleed on probing. A periapical radiograph shows faint, scattered radiopaque calcifications within the soft tissue mass and an intact alveolar crest. What is the MOST likely clinical diagnosis?",
     "options": [
       "Peripheral ossifying fibroma",
       "Pyogenic granuloma",
-      "Fibroma (Irritation fibroma)",
+      "Irritation fibroma (traumatic fibroma)",
       "Peripheral giant cell granuloma"
     ],
-    "correctAnswer": 2,
-    "explanation": "A painless, slow-growing, firm, sessile nodule with a smooth surface, often paler than surrounding gingiva, is highly characteristic of an irritation fibroma, which is a reactive hyperplasia of fibrous connective tissue. Peripheral ossifying fibroma typically involves bone formation and often presents with more redness or ulceration, as does pyogenic granuloma which is highly vascular and often bright red and bleeds easily.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the peripheral ossifying fibroma occurs exclusively on the gingiva (predominantly in the anterior maxilla of young females) and characteristically displays central radiopaque calcifications within the soft tissue mass on radiographs. In contrast, pyogenic granuloma (Option B) is an erythematous, highly vascular lesion that bleeds readily upon palpation, irritation fibroma (Option C) typically arises from chronic biting trauma on the buccal mucosa and lacks radiopaque calcifications, and peripheral giant cell granuloma (Option D) presents as a dark red-to-purple mass that typically produces superficial 'cupping' bone resorption rather than internal calcifications.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Irritation fibroma (focal fibrous hyperplasia) is the most common benign soft-tissue nodule in the oral cavity, typically presenting as a slow-growing, smooth, pale pink, non-tender sessile mass. All four options are classic distinct reactive soft-tissue lesions.",
-      "verifiedAt": "2026-11-18T05:36:32.873Z"
+      "clinicalRationale": "Option A is correct because the peripheral ossifying fibroma occurs exclusively on the gingiva (predominantly in the anterior maxilla of young females) and characteristically displays central radiopaque calcifications within the soft tissue mass on radiographs. In contrast, pyogenic granuloma (Option B) is an erythematous, highly vascular lesion that bleeds readily upon palpation, irritation fibroma (Option C) typically arises from chronic biting trauma on the buccal mucosa and lacks radiopaque calcifications, and peripheral giant cell granuloma (Option D) presents as a dark red-to-purple mass that typically produces superficial 'cupping' bone resorption rather than internal calcifications.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -17420,23 +17420,23 @@
   {
     "id": 460713269,
     "topicId": "prosthodontics",
-    "question": "A 32-year-old female patient presents with a chief complaint of sensitivity on her upper left second premolar (tooth 25). Clinical examination reveals a deep Class II caries extending into dentin, close to the pulp, with no pulpal exposure. The tooth is vital and responds normally to pulp testing. What is the MOST appropriate restorative material for the deepest portion of the cavity preparation before placing a composite resin?",
+    "question": "A 32-year-old female presents with mild cold sensitivity associated with tooth 25. Clinical and radiographic examinations reveal deep Class II caries extending into dentin within 1 mm of the pulp chamber without pulpal exposure. The tooth tests vital and responds normally to cold. Following caries excavation, what is the MOST appropriate base material to place over the deepest dentin prior to restoring with composite resin?",
     "options": [
+      "Zinc oxide-eugenol cement",
+      "Resin-modified glass ionomer cement",
       "Zinc phosphate cement",
-      "Glass ionomer cement",
-      "Calcium hydroxide liner",
-      "Zinc oxide-eugenol cement"
+      "Calcium hydroxide suspension liner"
     ],
-    "correctAnswer": 2,
-    "explanation": "When a deep Class II lesion approaches the pulp without exposure, the NDEB endorses a calcium hydroxide liner as the first layer because of its high pH, antibacterial effect, and ability to induce tertiary dentin (Sturdevant’s Art and Science of Operative Dentistry, 7th ed., ch. 12). It is placed 0.2‑0.5 mm thick and then covered by a resin‑modified glass ionomer or composite. Glass ionomer, zinc phosphate, and ZOE lack the biologic pulp‑protective properties and are therefore unsuitable as the primary liner in this clinical situation.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because resin-modified glass ionomer (RMGI) cement is the definitive protective base indicated for deep dentinal cavity preparations without pulpal exposure, providing chemical adhesion, thermal insulation, fluoride release, and an insoluble seal beneath composite resin. In contrast, zinc oxide-eugenol (Option A) is strictly contraindicated because free eugenol inhibits composite resin polymerization, zinc phosphate (Option C) is pulpotoxic and lacks dentin bonding, and calcium hydroxide (Option D) is a soluble liner indicated only for microscopic pulpal exposures that degrades and dissolves beneath resin restorations.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "In deep cavity preparations (<0.5 mm remaining dentin thickness), calcium hydroxide liner is applied to the deepest point over the pulp to stimulate tertiary dentin bridge formation prior to basing and composite restoration.",
-      "verifiedAt": "2026-11-18T05:42:12.301Z"
+      "clinicalRationale": "Option B is correct because resin-modified glass ionomer (RMGI) cement is the definitive protective base indicated for deep dentinal cavity preparations without pulpal exposure, providing chemical adhesion, thermal insulation, fluoride release, and an insoluble seal beneath composite resin. In contrast, zinc oxide-eugenol (Option A) is strictly contraindicated because free eugenol inhibits composite resin polymerization, zinc phosphate (Option C) is pulpotoxic and lacks dentin bonding, and calcium hydroxide (Option D) is a soluble liner indicated only for microscopic pulpal exposures that degrades and dissolves beneath resin restorations.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -17884,25 +17884,25 @@
   {
     "id": 444671097,
     "topicId": "prosthodontics",
-    "question": "A 75-year-old female patient presents with a 10-year-old complete maxillary denture that feels loose and produces a clicking sound during mastication. Clinical examination reveals significant alveolar ridge resorption and a poor fit of the denture base, but the denture material is intact with no cracks or fractures. What is the MOST appropriate initial management?",
+    "question": "A 75-year-old female presents with a 10-year-old maxillary complete denture that is loose, unstable, and clicks during mastication. Clinical examination reveals severe alveolar ridge resorption, severely worn artificial denture teeth with loss of vertical dimension of occlusion, and an unstable occlusal relationship. What is the MOST appropriate clinical management?",
     "options": [
-      "Fabricate a new set of complete dentures.",
-      "Prescribe denture adhesive for improved retention.",
-      "Perform a hard reline of the existing denture.",
-      "Refer to an oral surgeon for pre-prosthetic surgery."
+      "Fabricate a new set of complete dentures",
+      "Perform an indirect laboratory hard reline of the existing denture",
+      "Prescribe denture adhesive to improve retention and stability",
+      "Refer the patient for surgical pre-prosthetic vestibuloplasty"
     ],
-    "correctAnswer": 2,
-    "explanation": "The most appropriate initial management for a complete denture with significant ridge resorption and poor fit, where the denture base is structurally intact, is a hard reline. A hard reline involves adding a layer of heat-cured acrylic resin to the intaglio surface of the denture to restore the intimate contact with the resorbed ridge, thereby enhancing retention, stability, and phonetics (addressing the clicking sound). This is a conservative, cost-effective, and immediate solution that addresses the chief complaint without the invasiveness or cost of new dentures. Fabricating new dentures (Option 0) is a more invasive and expensive option typically reserved for cases where the denture base is damaged, the occlusion is severely compromised, or the patient has significant changes in facial esthetics that a reline cannot address; it is not the *initial* management of choice for a well-fitting but loose denture due to resorption. Denture adhesive (Option 1) is a temporary adjunct and does not address the underlying fit issue; it is not a definitive treatment. Pre-prosthetic surgery (Option 3) is indicated for severe ridge deformities that cannot be managed with prosthetic means alone, but it is not the initial step without first attempting conservative prosthetic management like a reline.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because complete dentures have an expected clinical lifespan of 5 to 7 years; a 10-year-old prosthesis with severe alveolar ridge resorption, severely worn artificial teeth, and loss of vertical dimension of occlusion cannot be rehabilitated by relining and requires complete denture replacement. In contrast, hard relining (Option B) is contraindicated because it only modifies the impression surface and cannot correct worn teeth, lost vertical dimension, or unstable occlusion, denture adhesive (Option C) cannot overcome gross structural and occlusal failure, and pre-prosthetic vestibuloplasty (Option D) is an invasive surgical procedure not indicated before fabricating conventional replacement dentures.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "A hard reline re-establishes retention, stability, and tissue adaptation in an intact denture base where loosening causes clicking during mastication.",
-      "verifiedAt": "2026-11-18T05:41:18.781Z"
+      "clinicalRationale": "Option A is correct because complete dentures have an expected clinical lifespan of 5 to 7 years; a 10-year-old prosthesis with severe alveolar ridge resorption, severely worn artificial teeth, and loss of vertical dimension of occlusion cannot be rehabilitated by relining and requires complete denture replacement. In contrast, hard relining (Option B) is contraindicated because it only modifies the impression surface and cannot correct worn teeth, lost vertical dimension, or unstable occlusion, denture adhesive (Option C) cannot overcome gross structural and occlusal failure, and pre-prosthetic vestibuloplasty (Option D) is an invasive surgical procedure not indicated before fabricating conventional replacement dentures.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -20014,23 +20014,23 @@
   {
     "id": 933807727,
     "topicId": "prosthodontics",
-    "question": "A 19-year-old female patient presents for a pre-orthodontic evaluation. Her medical history is unremarkable. Clinical examination reveals a Class I molar relationship with significant anterior crowding and impacted maxillary canines. A panoramic radiograph shows both tooth 13 and tooth 23 are horizontally impacted high in the palate, clearly superior to the apices of the lateral incisors. What is the MOST appropriate next step in her management?",
+    "question": "A 19-year-old female presents for comprehensive orthodontic treatment. Clinical examination reveals a Class I molar relationship with severe maxillary anterior crowding and unerupted teeth 13 and 23. Radiographic evaluation confirms that both tooth 13 and tooth 23 are palatally impacted with completely closed root apices. What is the MOST appropriate initial step in her orthodontic management?",
     "options": [
-      "Begin fixed orthodontic treatment immediately",
-      "Observation and re-evaluation in 6 months",
-      "Extract the impacted maxillary canines",
-      "Surgical exposure and orthodontic bonding of impacted canines"
+      "Initiate comprehensive fixed orthodontic treatment to level, align, and open space in the arch",
+      "Perform immediate surgical exposure and orthodontic bonding of teeth 13 and 23",
+      "Observe and monitor with panoramic radiographs every 12 months",
+      "Surgically extract teeth 13 and 23 followed by prosthetic replacement"
     ],
-    "correctAnswer": 3,
-    "explanation": "For impacted maxillary canines, especially in a young patient with space available, surgical exposure and orthodontic bonding is the standard treatment to guide them into the arch. Observation is not suitable for horizontally impacted canines in an adult, as they are unlikely to erupt spontaneously. Extraction is a last resort, usually when orthodontic treatment is not feasible.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because standard orthodontic principles require placing fixed appliances first to align the arch, establish anchorage, and open adequate space before palatally impacted canines can be surgically uncovered and tracted. In contrast, immediate surgical exposure and bonding (Option B) is contraindicated without an established space and rigid anchorage unit, periodic observation (Option C) is ineffective in an adult with closed root apices and horizontal impactions, and extracting healthy teeth 13 and 23 (Option D) is contraindicated because canines are essential for arch aesthetics, lip support, and functional canine guidance.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Surgical exposure combined with orthodontic bracket bonding and traction is the standard evidence-based treatment to bring palatally impacted maxillary canines (13 and 23) into functional occlusion.",
-      "verifiedAt": "2026-11-18T05:47:10.419Z"
+      "clinicalRationale": "Option A is correct because standard orthodontic principles require placing fixed appliances first to align the arch, establish anchorage, and open adequate space before palatally impacted canines can be surgically uncovered and tracted. In contrast, immediate surgical exposure and bonding (Option B) is contraindicated without an established space and rigid anchorage unit, periodic observation (Option C) is ineffective in an adult with closed root apices and horizontal impactions, and extracting healthy teeth 13 and 23 (Option D) is contraindicated because canines are essential for arch aesthetics, lip support, and functional canine guidance.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {
@@ -20813,24 +20813,24 @@
   {
     "id": 409010348,
     "topicId": "prosthodontics",
-    "question": "A 7-year-old female presents after falling on a playground, sustaining trauma to her anterior maxilla. Clinical examination reveals that the permanent maxillary right central incisor (tooth 11) is displaced palatally and apically with limited mobility, an intact crown, and no gingival laceration. Radiographic examination confirms palatal and apical displacement of tooth 11 with an intact root and an open apex. What is the MOST appropriate immediate management?",
+    "question": "A 7-year-old female presents after falling on a playground, sustaining trauma to her anterior maxilla. Clinical examination reveals that the permanent maxillary right central incisor (tooth 11) is intruded into the alveolar bone with limited mobility, an intact crown, and no gingival laceration. Radiographic examination confirms apical displacement of tooth 11 with an intact root and an open apex. What is the MOST appropriate initial management?",
     "options": [
-      "Gently reposition tooth 11 with digital pressure and place a flexible splint for 4 weeks.",
-      "Perform immediate pulpectomy and root canal instrumentation on tooth 11.",
-      "Surgically extract tooth 11 to prevent injury to adjacent structures.",
-      "Observe tooth 11 without intervention to allow for spontaneous repositioning."
+      "Perform immediate digital repositioning under local anesthesia and place a flexible splint for 4 weeks.",
+      "Perform immediate pulpectomy and initiate apexification therapy on tooth 11.",
+      "Perform immediate surgical repositioning and rigid splinting of tooth 11 for 8 weeks.",
+      "Observe tooth 11 without active repositioning to allow for spontaneous re-eruption."
     ],
-    "correctAnswer": 0,
-    "explanation": "Option A is correct because lateral luxation with palatal and apical displacement locks the root apex into the alveolar bone, requiring immediate gentle digital repositioning and flexible splinting for 4 weeks per International Association of Dental Traumatology (IADT) guidelines. Immediate pulpectomy is contraindicated in immature permanent teeth because pulpal revascularization remains possible unless persistent necrosis is diagnosed, extraction is overly destructive for a salvageable permanent incisor, and spontaneous repositioning does not occur in apically locked permanent teeth.",
+    "correctAnswer": 3,
+    "explanation": "Option D is correct because according to International Association of Dental Traumatology (IADT) guidelines, intruded permanent teeth with immature open apices have substantial eruptive potential and should be observed for spontaneous re-eruption. Immediate digital or surgical repositioning is reserved for mature teeth or severe intrusions, while flexible splinting applies to subluxation or lateral luxation rather than intrusion. Immediate pulpectomy is contraindicated in immature teeth because pulpal revascularization is possible, and endodontic intervention is indicated only if pulp necrosis and infection subsequently develop.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Option A is correct because lateral luxation with palatal and apical displacement locks the root apex into the alveolar bone, requiring immediate gentle digital repositioning and flexible splinting for 4 weeks per International Association of Dental Traumatology (IADT) guidelines. Immediate pulpectomy is contraindicated in immature permanent teeth because pulpal revascularization remains possible unless persistent necrosis is diagnosed, extraction is overly destructive for a salvageable permanent incisor, and spontaneous repositioning does not occur in apically locked permanent teeth.",
-      "verifiedAt": "2026-11-18T19:21:44.647Z"
+      "clinicalRationale": "Option D is correct because according to International Association of Dental Traumatology (IADT) guidelines, intruded permanent teeth with immature open apices have substantial eruptive potential and should be observed for spontaneous re-eruption. Immediate digital or surgical repositioning is reserved for mature teeth or severe intrusions, while flexible splinting applies to subluxation or lateral luxation rather than intrusion. Immediate pulpectomy is contraindicated in immature teeth because pulpal revascularization is possible, and endodontic intervention is indicated only if pulp necrosis and infection subsequently develop.",
+      "verifiedAt": "2026-11-22T04:47:32.469Z"
     }
   },
   {

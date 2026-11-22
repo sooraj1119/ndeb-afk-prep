@@ -510,23 +510,23 @@
   {
     "id": 24,
     "topicId": "periodontology",
-    "question": "Which cellular component of the periodontal ligament is primarily responsible for the continuous remodeling of cementum, bone, and the ligament itself?",
+    "question": "Which cellular component of the periodontal ligament consists of multipotent progenitor cells capable of differentiating into cementoblasts, osteoblasts, and fibroblasts to support the continuous remodeling of the attachment apparatus?",
     "options": [
       "Undifferentiated mesenchymal cells",
-      "Fibroblasts",
-      "Osteoblasts",
-      "Epithelial cell rests of Malassez"
+      "Mature periodontal ligament fibroblasts",
+      "Epithelial cell rests of Malassez",
+      "Multinucleated osteoclasts"
     ],
-    "correctAnswer": 1,
-    "explanation": "According to Carranza's Clinical Periodontology and Neville et al. (Oral and Maxillofacial Pathology), the periodontal ligament is populated chiefly by fibroblasts, which synthesize and remodel the extracellular matrix and coordinate the remodeling of cementum and adjacent bone. While undifferentiated mesenchymal (stem) cells reside in the PDL, they serve as progenitors; the active remodeling activity is performed by fibroblasts. Osteoblasts and cementoblasts are specialized cells derived from these progenitors, and the epithelial rests of Malassez have a limited role in tissue turnover. Therefore, fibroblasts are the primary cellular component responsible for continuous remodeling.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because undifferentiated ectomesenchymal progenitor cells within the periodontal ligament are multipotent stem cells that differentiate into osteoblasts, cementoblasts, and fibroblasts, enabling physiological remodeling of bone, cementum, and connective tissue. Option B is incorrect because mature fibroblasts are terminal connective tissue cells responsible primarily for collagen matrix turnover in the ligament itself. Options C and D are incorrect because epithelial cell rests of Malassez are non-pluripotent remnants of Hertwig's epithelial root sheath, and multinucleated osteoclasts originate from hematopoietic precursors dedicated exclusively to bone resorption.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because undifferentiated ectomesenchymal progenitor cells within the periodontal ligament are multipotent stem cells that differentiate into osteoblasts, cementoblasts, and fibroblasts, enabling physiological remodeling of bone, cementum, and connective tissue. Option B is incorrect because mature fibroblasts are terminal connective tissue cells responsible primarily for collagen matrix turnover in the ligament itself. Options C and D are incorrect because epithelial cell rests of Malassez are non-pluripotent remnants of Hertwig's epithelial root sheath, and multinucleated osteoclasts originate from hematopoietic precursors dedicated exclusively to bone resorption.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -2475,23 +2475,23 @@
     "id": 112,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "A patient with a history of rheumatic fever without high-risk cardiac conditions is scheduled for non-surgical scaling and root planing. According to current American Heart Association (AHA) and Canadian guidelines, is antibiotic prophylaxis recommended prior to this procedure?",
+    "question": "A 45-year-old patient with a documented history of acute rheumatic fever without residual cardiac valvular dysfunction presents for periodontal scaling and root planing. According to current Canadian Dental Association (CDA) and American Heart Association (AHA) guidelines, what is the appropriate infective endocarditis prophylaxis protocol?",
     "options": [
-      "Yes, only if bleeding is anticipated during the procedure",
-      "No, antibiotic prophylaxis is not recommended for routine scaling and root planing",
-      "Yes, single dose of Amoxicillin 2g orally 1 hour prior",
-      "Yes, Clindamycin 600mg orally 1 hour prior"
+      "Prophylaxis is not indicated because a history of rheumatic fever without valvular dysfunction is not a high-risk cardiac condition",
+      "Single dose of Amoxicillin 2 g orally 30 to 60 minutes prior to the procedure",
+      "Single dose of Azithromycin 500 mg orally 30 to 60 minutes prior to the procedure",
+      "Prophylaxis is not indicated because non-surgical scaling and root planing does not produce bacteremia"
     ],
-    "correctAnswer": 1,
-    "explanation": "Current guidelines restrict antibiotic prophylaxis for dental procedures strictly to patients at the highest risk of adverse outcomes from infective endocarditis (e.g., prosthetic heart valves, previous infective endocarditis, cyanotic congenital heart disease). Rheumatic fever without pre-existing valvular disease or high-risk status does not require prophylaxis for routine periodontal therapy.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because current Canadian Dental Association (CDA) and AHA guidelines restrict infective endocarditis prophylaxis to high-risk cardiac conditions (such as prosthetic valves, previous endocarditis, or specific cyanotic congenital heart defects); a history of rheumatic fever without valvular dysfunction is not an indication. Options B and C are incorrect because prophylactic antibiotic regimens (such as Amoxicillin 2 g or Azithromycin 500 mg in penicillin-allergic patients) are unwarranted for non-high-risk cardiac profiles. Option D is incorrect because subgingival scaling and root planing involves significant gingival manipulation that routinely produces transient bacteremia, which would require prophylaxis if high-risk cardiac criteria were met.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because current Canadian Dental Association (CDA) and AHA guidelines restrict infective endocarditis prophylaxis to high-risk cardiac conditions (such as prosthetic valves, previous endocarditis, or specific cyanotic congenital heart defects); a history of rheumatic fever without valvular dysfunction is not an indication. Options B and C are incorrect because prophylactic antibiotic regimens (such as Amoxicillin 2 g or Azithromycin 500 mg in penicillin-allergic patients) are unwarranted for non-high-risk cardiac profiles. Option D is incorrect because subgingival scaling and root planing involves significant gingival manipulation that routinely produces transient bacteremia, which would require prophylaxis if high-risk cardiac criteria were met.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -4134,23 +4134,23 @@
     "id": 190,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "A 62-year-old chronic smoker presents with a 7 mm probing depth, Class II furcation involvement, and 2 mm of mobility on tooth 46. The patient asks about long-term prognosis. Which of the following factors generally has the most significant negative impact on the long-term prognosis of a multi-rooted tooth?",
+    "question": "A 62-year-old patient presents with generalized periodontitis. Clinical examination of tooth 46 reveals a 7 mm probing depth, Class II buccal furcation involvement, and Grade I mobility. When determining the long-term periodontal prognosis of this multi-rooted tooth, which local anatomical factor is most detrimental to successful periodontal maintenance?",
     "options": [
-      "Smoking status",
-      "Patient age",
-      "Presence of a Class II furcation invasion",
-      "Loss of periodontal support resulting in unfavorable crown-to-root ratio and furcation involvement"
+      "Class II furcation involvement",
+      "Patient chronological age",
+      "Width of attached keratinized gingiva",
+      "Presence of supragingival calculus"
     ],
-    "correctAnswer": 3,
-    "explanation": "While all listed factors negatively affect prognosis, extensive attachment loss leading to furcation involvement combined with an unfavorable crown-to-root ratio severely limits the tooth's load-bearing capacity and cleansability, making it the most critical local anatomical determinant.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Class II furcation invasion creates an anatomical defect that severely limits both patient home hygiene and professional instrumentation, making it the most significant local predictor of progressive attachment loss and tooth mortality in multi-rooted molars. Option B is incorrect because advanced chronological age alone does not negatively impair periodontal healing or long-term prognosis. Options C and D are incorrect because the width of keratinized tissue does not determine attachment stability when plaque control is maintained, and supragingival calculus is easily debrided during routine supportive periodontal therapy.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Class II furcation invasion creates an anatomical defect that severely limits both patient home hygiene and professional instrumentation, making it the most significant local predictor of progressive attachment loss and tooth mortality in multi-rooted molars. Option B is incorrect because advanced chronological age alone does not negatively impair periodontal healing or long-term prognosis. Options C and D are incorrect because the width of keratinized tissue does not determine attachment stability when plaque control is maintained, and supragingival calculus is easily debrided during routine supportive periodontal therapy.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -4342,23 +4342,23 @@
     "id": 199,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "A 35-year-old male smoker presents with sudden onset of severe gingival pain, spontaneous bleeding, punched-out interdental papillae covered by a grayish pseudomembrane, and fetor oris. There is no fever or lymphadenopathy. What is the most appropriate initial clinical management for this condition?",
+    "question": "A 24-year-old university student presents with sudden, excruciating gingival pain, spontaneous bleeding, punched-out interdental papillae covered by a pseudomembrane, and fetor oris. Which clinical or radiographic finding definitively differentiates necrotizing periodontitis (NP) from necrotizing gingivitis (NG)?",
     "options": [
-      "Vigorous subgingival scaling and root planing under local anesthesia at the acute visit",
-      "Immediate surgical gingivectomy to re-establish physiologic papillary contour",
-      "Prescription of systemic amoxicillin while postponing mechanical intervention",
-      "Gentle superficial mechanical debridement, oral hygiene instructions, and oxygenating mouthrinses"
+      "Loss of clinical attachment and alveolar bone resorption",
+      "Presence of a grayish-white pseudomembranous slough over ulcerated papillae",
+      "Rapid onset of localized, severe gingival pain accompanied by fetor oris",
+      "History of heavy tobacco smoking, sleep deprivation, and psychological stress"
     ],
-    "correctAnswer": 3,
-    "explanation": "Option D is correct because initial management of acute necrotizing gingivitis without systemic symptoms requires gentle superficial debridement to remove necrotic pseudomembrane and plaque, combined with oral hygiene instructions and oxygenating or antimicrobial rinses, while avoiding unnecessary systemic antibiotics. Vigorous subgingival scaling is contraindicated during the initial acute stage because it causes severe pain and risks bacteremia in ulcerated tissues. Immediate gingivectomy is contraindicated during active acute infection, and prescribing systemic amoxicillin while delaying mechanical debridement is ineffective and violates Canadian antimicrobial stewardship guidelines.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the definitive diagnostic criterion distinguishing necrotizing periodontitis (NP) from necrotizing gingivitis (NG) is the rapid loss of clinical attachment and alveolar bone resorption, whereas NG remains strictly confined to the gingival soft tissues. Options B, C, and D are incorrect because necrotic pseudomembranes over ulcerated papillae, severe localized pain with fetor oris, and predisposing risk factors (such as smoking, malnutrition, and psychological stress) are classical clinical features common to both NG and NP.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Option D is correct because initial management of acute necrotizing gingivitis without systemic symptoms requires gentle superficial debridement to remove necrotic pseudomembrane and plaque, combined with oral hygiene instructions and oxygenating or antimicrobial rinses, while avoiding unnecessary systemic antibiotics. Vigorous subgingival scaling is contraindicated during the initial acute stage because it causes severe pain and risks bacteremia in ulcerated tissues. Immediate gingivectomy is contraindicated during active acute infection, and prescribing systemic amoxicillin while delaying mechanical debridement is ineffective and violates Canadian antimicrobial stewardship guidelines.",
-      "verifiedAt": "2026-11-18T19:21:44.732Z"
+      "clinicalRationale": "Option A is correct because the definitive diagnostic criterion distinguishing necrotizing periodontitis (NP) from necrotizing gingivitis (NG) is the rapid loss of clinical attachment and alveolar bone resorption, whereas NG remains strictly confined to the gingival soft tissues. Options B, C, and D are incorrect because necrotic pseudomembranes over ulcerated papillae, severe localized pain with fetor oris, and predisposing risk factors (such as smoking, malnutrition, and psychological stress) are classical clinical features common to both NG and NP.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -4641,23 +4641,23 @@
     "id": 212,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "During a periodontal examination of a 30-year-old female, you note localized recession of 3mm on the facial aspect of tooth 33. The interproximal bone height is intact, with no loss of interdental attachment, and the recession extends beyond the mucogingival junction with no root surface step. According to Cairo's classification, what type of recession defect is this?",
+    "question": "During a periodontal examination of a 30-year-old female, localized gingival recession of 3 mm is noted on the facial aspect of tooth 33. The recession extends apical to the mucogingival junction into the alveolar mucosa, while interproximal bone height and soft tissue attachment remain intact. According to Miller's classification of marginal tissue recession, which class does this defect represent?",
     "options": [
-      "RT1",
-      "RT2",
-      "RT4",
-      "RT3"
+      "Class I",
+      "Class II",
+      "Class III",
+      "Class IV"
     ],
-    "correctAnswer": 0,
-    "explanation": "Cairo's RT1 (Recession Type 1) is defined as gingival recession associated with clinical attachment loss with no loss of interdental attachment (interproximal cemento-enamel junction is not clinically detectable at mesial and distal). RT2 involves interdental attachment loss less than or equal to the buccal loss, and RT3 involves interdental loss greater than the buccal loss.",
+    "correctAnswer": 1,
+    "explanation": "Option B is correct because Miller Class II recession extends to or beyond the mucogingival junction into the alveolar mucosa with no loss of interproximal bone or soft tissue attachment. Option A is incorrect because Miller Class I recession does not extend to the mucogingival junction. Options C and D are incorrect because Miller Class III and Class IV defects exhibit interdental bone and soft tissue loss, which are absent in this patient.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "A",
+      "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because Miller Class II recession extends to or beyond the mucogingival junction into the alveolar mucosa with no loss of interproximal bone or soft tissue attachment. Option A is incorrect because Miller Class I recession does not extend to the mucogingival junction. Options C and D are incorrect because Miller Class III and Class IV defects exhibit interdental bone and soft tissue loss, which are absent in this patient.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -4733,23 +4733,23 @@
     "id": 217,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "A 60-year-old chronic smoker with well-controlled type 2 diabetes presents with a 7 mm probing depth on the mid-buccal of tooth 13. Recession is 3 mm, and the gingival margin is apical to the mucogingival junction, with the interproximal bone remaining at the cemento-enamel junction. How is this recession defect classified using the Cairo Recession Classification system?",
+    "question": "A 60-year-old patient presents with 3 mm of mid-buccal gingival recession on tooth 13. Clinical examination reveals intact interproximal bone with no detectable loss of interproximal clinical attachment. The gingival thickness is 0.6 mm (periodontal probe visible through the sulcular tissue) and keratinized tissue width is 1 mm. According to the 2018 AAP/EFP classification of mucogingival conditions, how is this defect correctly classified?",
     "options": [
-      "RT4",
-      "RT1",
-      "RT3",
-      "RT2"
+      "RT1 with a thin periodontal phenotype",
+      "RT1 with a thick periodontal phenotype",
+      "RT2 with a thin periodontal phenotype",
+      "RT3 with a thick periodontal phenotype"
     ],
-    "correctAnswer": 1,
-    "explanation": "Cairo’s Recession‑Type (RT) classification, as outlined in the Canadian Dental Association guidelines and Neville, Damm, Allen & Bouquot (Oral & Maxillofacial Pathology, 4th ed.), defines RT1 as recession where the interproximal CEJ‑to‑bone distance equals the CEJ‑to‑bone distance on the buccal (i.e., no interproximal attachment loss). In this case the interproximal bone is at the CEJ, indicating zero interproximal loss, while the buccal recession is 3 mm. Therefore the lesion is RT1. RT2 requires interproximal loss ≤ buccal loss, but any loss at all; RT3 requires interproximal loss greater than buccal loss. RT4 is not a recognized Cairo class. The correct answer is RT1.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the defect is classified as Cairo Recession Type 1 (RT1) due to completely intact interproximal clinical attachment, and exhibits a thin periodontal phenotype evidenced by a gingival thickness under 1 mm (probe visible through tissue) and narrow keratinized tissue. Option B is incorrect because a thick phenotype requires gingival thickness of 1 mm or greater and wider keratinized tissue. Options C and D are incorrect because Cairo RT2 and RT3 require documented interproximal clinical attachment loss, which is not present in this clinical scenario.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the defect is classified as Cairo Recession Type 1 (RT1) due to completely intact interproximal clinical attachment, and exhibits a thin periodontal phenotype evidenced by a gingival thickness under 1 mm (probe visible through tissue) and narrow keratinized tissue. Option B is incorrect because a thick phenotype requires gingival thickness of 1 mm or greater and wider keratinized tissue. Options C and D are incorrect because Cairo RT2 and RT3 require documented interproximal clinical attachment loss, which is not present in this clinical scenario.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -6328,23 +6328,23 @@
     "id": 295,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "A 28-year-old female presents with severe pain, spontaneous gingival bleeding, and a fetid breath odor of 2 days' duration. Clinical examination reveals 'punched-out' interdental papillae covered by a pseudomembranous slough. What is the most appropriate initial emergency management?",
+    "question": "A 28-year-old female presents with severe pain, spontaneous gingival bleeding, and a fetid breath odor of 2 days' duration. Clinical examination reveals 'punched-out' interdental papillae covered by a pseudomembranous slough in the mandibular anterior region. The patient is afebrile with no regional lymphadenopathy. What is the most appropriate initial emergency management?",
     "options": [
-      "Supragingival scaling only, without chemical adjuncts",
-      "Immediate extraction of all involved anterior teeth",
-      "Gentle debridement, prescription of systemic metronidazole, and chlorhexidine rinses",
-      "Full-mouth periodontal flap surgery and osseous recontouring"
+      "Gentle superficial debridement, oral hygiene instruction, and 0.12% chlorhexidine rinses without systemic antibiotics",
+      "Prescription of systemic metronidazole 250 mg three times daily while postponing mechanical instrumentation",
+      "Immediate full-thickness flap elevation and interdental osseous recontouring under local anesthesia",
+      "Vigorous deep subgingival scaling and root planing accompanied by systemic amoxicillin 500 mg"
     ],
-    "correctAnswer": 2,
-    "explanation": "The patient presents with Necrotizing Ulcerative Gingivitis (NUG). Initial emergency management requires gentle debridement of necrotic tissue, antimicrobial mouthrinses (chlorhexidine), and systemic antibiotics (typically metronidazole) if systemic symptoms like malaise or fever are present. Periodontal surgery is never indicated in the acute phase, and extraction is unwarranted. Supragingival scaling alone is insufficient for treating the acute necrotic lesions.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian clinical guidelines and antibiotic stewardship protocols dictate that localized necrotizing gingivitis in an afebrile patient without systemic involvement should be managed solely with gentle mechanical debridement, oral hygiene instruction, and antimicrobial rinses such as 0.12% chlorhexidine. Option B is incorrect because prescribing systemic antibiotics alone without mechanical debridement violates antibiotic stewardship and fails to resolve the microbial etiology. Options C and D are incorrect because periodontal flap surgery and aggressive deep root planing are contraindicated during the acute ulcerative phase of necrotizing diseases.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Canadian clinical guidelines and antibiotic stewardship protocols dictate that localized necrotizing gingivitis in an afebrile patient without systemic involvement should be managed solely with gentle mechanical debridement, oral hygiene instruction, and antimicrobial rinses such as 0.12% chlorhexidine. Option B is incorrect because prescribing systemic antibiotics alone without mechanical debridement violates antibiotic stewardship and fails to resolve the microbial etiology. Options C and D are incorrect because periodontal flap surgery and aggressive deep root planing are contraindicated during the acute ulcerative phase of necrotizing diseases.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -6676,23 +6676,23 @@
     "id": 310,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "A patient presents for periodontal evaluation. Periodontal probing reveals a 7 mm probing depth on the mesial of tooth 15, with the base of the pocket located apical to the mucogingival junction. There is no furcation involvement. How is this specific defect classified?",
+    "question": "A patient presents for periodontal evaluation. Clinical and radiographic examination reveals a 7 mm probing depth on the mesial surface of tooth 15, with the base of the periodontal pocket located apical to the adjacent alveolar bone crest. How is this specific defect classified?",
     "options": [
       "Infrabony (intra-alveolar) pocket",
-      "Gingival pocket",
-      "Pseudopocket",
-      "Suprabony pocket"
+      "Suprabony (supracrestal) pocket",
+      "Pseudopocket (gingival pocket)",
+      "Mucogingival deformity"
     ],
     "correctAnswer": 0,
-    "explanation": "An infrabony (or intra-alveolar) pocket occurs when the base of the pocket is located apical to the crest of the alveolar bone. A suprabony pocket has its base coronal to the alveolar crest. A gingival pocket (pseudopocket) occurs due to gingival enlargement without epithelial attachment migration.",
+    "explanation": "Option A is correct because an infrabony (intra-alveolar) pocket is defined strictly by the base of the pathological pocket being located apical to the adjacent alveolar bone crest. A suprabony pocket has its base coronal to the alveolar crest, a pseudopocket involves gingival enlargement without attachment or bone loss, and a mucogingival deformity refers to mucosal relationships rather than crestal pocket depth.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because an infrabony (intra-alveolar) pocket is defined strictly by the base of the pathological pocket being located apical to the adjacent alveolar bone crest. A suprabony pocket has its base coronal to the alveolar crest, a pseudopocket involves gingival enlargement without attachment or bone loss, and a mucogingival deformity refers to mucosal relationships rather than crestal pocket depth.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -7828,23 +7828,23 @@
     "id": 363,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "When utilizing a gracey curette for subgingival root debridement on the mesial surface of a maxillary molar, which cutting edge must be utilized?",
+    "question": "When utilizing an area-specific Gracey curette (such as Gracey 11/12) for subgingival root debridement on the mesial surface of tooth 16, which cutting edge is the functional working cutting edge?",
     "options": [
-      "The upper cutting edge",
-      "The outer cutting edge",
+      "The upper (inner) cutting edge",
       "Both cutting edges simultaneously",
-      "The lower cutting edge"
+      "The rounded non-cutting back of the blade",
+      "The lower (outer) cutting edge"
     ],
     "correctAnswer": 3,
-    "explanation": "Gracey curettes are area-specific instruments designed with only one cutting edge per working end—the lower cutting edge. The terminal shank must be parallel to the long axis of the tooth surface being instrumented to correctly engage this lower edge.",
+    "explanation": "Option D is correct because area-specific Gracey curettes have an offset blade angled at 60 to 70 degrees to the terminal shank, which designates the lower (outer) cutting edge as the sole functional working cutting edge. The upper (inner) cutting edge is angled away from the root surface to protect adjacent soft tissues, while universal curettes—unlike Gracey curettes—utilize both cutting edges simultaneously at a 90-degree angle.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because area-specific Gracey curettes have an offset blade angled at 60 to 70 degrees to the terminal shank, which designates the lower (outer) cutting edge as the sole functional working cutting edge. The upper (inner) cutting edge is angled away from the root surface to protect adjacent soft tissues, while universal curettes—unlike Gracey curettes—utilize both cutting edges simultaneously at a 90-degree angle.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -9009,23 +9009,23 @@
     "id": 420,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "Which of the following systemic conditions is classified as a systemic disorder that directly affects the periodontal supporting tissues independently of dental plaque biofilm accumulation?",
+    "question": "According to the 2017 World Workshop Classification of Periodontal Diseases and Conditions, which of the following is classified as a disorder that causes destruction of periodontal supporting tissues INDEPENDENTLY of dental plaque biofilm-induced inflammation?",
     "options": [
-      "Smoking-associated periodontal destruction",
-      "Well-controlled Type 2 Diabetes Mellitus",
-      "Generalized aggressive periodontitis (historical term)",
-      "Papillon-Lefèvre syndrome"
+      "Papillon-Lefèvre syndrome",
+      "Chediak-Higashi syndrome",
+      "Leukocyte adhesion deficiency",
+      "Langerhans cell histiocytosis"
     ],
     "correctAnswer": 3,
-    "explanation": "Papillon-Lefèvre syndrome is a rare genetic disorder (autosomal recessive mutations in the CSTA gene) that causes severe periodontitis leading to premature loss of both primary and permanent dentitions, independent of plaque levels. Diabetes and smoking modify the plaque-induced inflammatory response rather than acting as independent primary causes. Aggressive periodontitis is now subsumed under Stage III/IV Grade C periodontitis.",
+    "explanation": "Option D is correct because under the 2017 World Workshop Classification, Langerhans cell histiocytosis is classified as a neoplasm that causes destruction of periodontal attachment and alveolar bone independently of dental plaque biofilm. In contrast, Papillon-Lefèvre syndrome, Chediak-Higashi syndrome, and Leukocyte adhesion deficiency are genetic immunologic disorders that cause severe periodontitis by dysregulating the host immune response to dental plaque biofilm.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because under the 2017 World Workshop Classification, Langerhans cell histiocytosis is classified as a neoplasm that causes destruction of periodontal attachment and alveolar bone independently of dental plaque biofilm. In contrast, Papillon-Lefèvre syndrome, Chediak-Higashi syndrome, and Leukocyte adhesion deficiency are genetic immunologic disorders that cause severe periodontitis by dysregulating the host immune response to dental plaque biofilm.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -9286,23 +9286,23 @@
     "id": 434,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "A 68-year-old male with a history of myocardial infarction 6 months ago requires non-surgical periodontal therapy with scaling and root planing. He takes low-dose aspirin daily. What is the standard Canadian dental management guideline regarding his antiplatelet therapy before the procedure?",
+    "question": "A 68-year-old male with a history of myocardial infarction 6 months ago presents for non-surgical periodontal therapy with subgingival scaling and root planing in the maxillary right quadrant (teeth 18 to 14). He takes daily low-dose aspirin (81 mg) as prescribed by his cardiologist. According to Canadian Dental Association (CDA) and Canadian Cardiovascular Society (CCS) guidelines, what is the most appropriate management regarding his antiplatelet therapy?",
     "options": [
-      "Stop aspirin 7 days prior to scaling and root planing",
-      "Double the aspirin dose to prevent clotting during the procedure",
-      "Switch aspirin to warfarin immediately",
-      "Continue aspirin therapy without interruption, as the bleeding risk is manageable with local hemostatic measures"
+      "Discontinue aspirin 7 to 10 days prior to periodontal instrumentation",
+      "Discontinue aspirin 24 to 48 hours prior to the appointment and resume the following day",
+      "Coordinate with his physician to bridge aspirin with low-molecular-weight heparin",
+      "Continue aspirin therapy without interruption, managing bleeding with local hemostatic measures"
     ],
     "correctAnswer": 3,
-    "explanation": "According to current guidelines, patients taking low-dose aspirin for secondary cardiovascular prevention should continue their medication uninterrupted for routine periodontal scaling and root planing, because the risk of a thromboembolic event outweighs the risk of prolonged, uncontrollable local bleeding, which can be managed with local measures (pressure, gelatin sponges, tranexamic acid).",
+    "explanation": "Option D is correct because Canadian clinical consensus guidelines state that low-dose aspirin (81 mg) should not be discontinued prior to routine dental procedures like scaling and root planing, as the serious risk of rebound thromboembolism significantly outweighs the minor risk of localized bleeding manageable with local hemostatics. Discontinuing aspirin 7–10 days or 24–48 hours exposes the patient to acute arterial thrombosis, and low-molecular-weight heparin bridging is reserved strictly for high-risk anticoagulated patients (e.g., mechanical heart valves on warfarin), not antiplatelet therapy.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because Canadian clinical consensus guidelines state that low-dose aspirin (81 mg) should not be discontinued prior to routine dental procedures like scaling and root planing, as the serious risk of rebound thromboembolism significantly outweighs the minor risk of localized bleeding manageable with local hemostatics. Discontinuing aspirin 7–10 days or 24–48 hours exposes the patient to acute arterial thrombosis, and low-molecular-weight heparin bridging is reserved strictly for high-risk anticoagulated patients (e.g., mechanical heart valves on warfarin), not antiplatelet therapy.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -9425,23 +9425,23 @@
     "id": 442,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "Which of the following local anatomical factors is considered a major predisposing risk factor for plaque retention and the development of localized severe attachment loss on the mesial root of maxillary first molars?",
+    "question": "Which of the following local anatomical factors is considered a major predisposing risk factor for subgingival plaque retention and localized severe periodontal attachment loss on the mesiobuccal root of tooth 16?",
     "options": [
-      "Mesial root concavity",
+      "Deep longitudinal root concavity",
       "Enamel pearl",
       "Cervical enamel projection",
       "Palatogingival groove"
     ],
     "correctAnswer": 0,
-    "explanation": "Maxillary first molars characteristically exhibit a deep developmental depression (concavity) on the mesial surface of the root, extending from the furcation to the cemento-enamel junction, which makes plaque removal extremely difficult during home care and professional scaling. Palatogingival grooves are predominantly found on maxillary incisors, cervical enamel projections on molars lead to furcation involvement, and enamel pearls occur most frequently on maxillary molars but are less prevalent root morphology risks compared to the mesial concavity.",
+    "explanation": "Option A is correct because the mesiobuccal root of the maxillary first molar (tooth 16) commonly presents with a deep longitudinal developmental root concavity on its furcal and outer surfaces, which promotes biofilm accumulation and severely hinders subgingival instrumentation. Cervical enamel projections and enamel pearls are developmental ectopic enamel structures located predominantly at molar furcations, whereas palatogingival grooves are developmental anomalies found on maxillary incisors (teeth 12 and 22).",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the mesiobuccal root of the maxillary first molar (tooth 16) commonly presents with a deep longitudinal developmental root concavity on its furcal and outer surfaces, which promotes biofilm accumulation and severely hinders subgingival instrumentation. Cervical enamel projections and enamel pearls are developmental ectopic enamel structures located predominantly at molar furcations, whereas palatogingival grooves are developmental anomalies found on maxillary incisors (teeth 12 and 22).",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -9494,23 +9494,23 @@
     "id": 446,
     "topicId": "periodontology",
     "difficulty": "medium",
-    "question": "A 42-year-old female presents with localized severe recession (Miller Class III / RT2) on tooth 33. She complains of severe cervical dentin hypersensitivity and esthetic concerns. Which of the following periodontal plastic surgical procedures offers the highest predictability for complete root coverage in this specific defect?",
+    "question": "A 42-year-old female presents with localized gingival recession classified as Cairo RT2 (Miller Class III) on tooth 33, displaying interdental clinical attachment loss that is less than the buccal attachment loss. She is concerned about sensitivity and esthetics. Which of the following periodontal plastic surgical procedures offers the highest predictability for achieving maximal root coverage and soft tissue thickness in this defect?",
     "options": [
       "Coronally advanced flap alone",
       "Lateral sliding flap",
-      "Free gingival graft",
+      "Free gingival graft alone",
       "Subepithelial connective tissue graft"
     ],
     "correctAnswer": 3,
-    "explanation": "The subepithelial connective tissue graft combined with a coronally advanced flap is considered the gold standard and most predictable procedure for achieving complete root coverage, even in RT2 (Miller Class III) defects where interproximal bone loss is present. A free gingival graft increases keratinized tissue width but has poor esthetics and lower root coverage predictability, while a coronally advanced flap alone lacks sufficient thickness without a graft in severe recessions.",
+    "explanation": "Option D is correct because a subepithelial connective tissue graft (SCTG), typically combined with a coronally advanced flap, is the gold standard procedure providing the highest predictability and percentage of root coverage and tissue thickness in Cairo RT2 (Miller Class III) recession defects. Coronally advanced flaps alone and lateral sliding flaps have poor predictability when interdental bone support is diminished, while a free gingival graft is primarily indicated to widen keratinized tissue rather than achieve predictable root coverage.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because a subepithelial connective tissue graft (SCTG), typically combined with a coronally advanced flap, is the gold standard procedure providing the highest predictability and percentage of root coverage and tissue thickness in Cairo RT2 (Miller Class III) recession defects. Coronally advanced flaps alone and lateral sliding flaps have poor predictability when interdental bone support is diminished, while a free gingival graft is primarily indicated to widen keratinized tissue rather than achieve predictable root coverage.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {
@@ -9977,24 +9977,24 @@
     "id": 469,
     "topicId": "periodontology",
     "difficulty": "hard",
-    "question": "A 42-year-old female patient with a history of generalized Stage III Grade B periodontitis completed active periodontal therapy one year ago. She currently presents with probing depths of 4 mm or less, no bleeding on probing, and a plaque score of 10%. She is a non-smoker with no systemic risk factors. According to current evidence-based guidelines for periodontal maintenance, what is the most appropriate recall interval for this patient?",
+    "question": "A 42-year-old female with a history of generalized Stage III Grade B periodontitis completed active periodontal therapy one year ago. She currently presents with probing depths of 4 mm or less, no bleeding on probing, and a plaque score of 10%. She is a non-smoker with no systemic risk factors. According to evidence-based periodontal guidelines, what is the most appropriate supportive periodontal therapy recall interval for this patient?",
     "options": [
       "Every 3 months",
       "Every 6 months",
       "Every 9 months",
       "Every 12 months"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is Every 6 months. According to the 2017 World Workshop on the Classification of Periodontal and Peri-Implant Diseases and Conditions and subsequent evidence-based guidelines (such as those from the American Academy of Periodontology and Canadian Dental Association), patients with a history of moderate to severe periodontitis (Stage III or IV) who have responded well to therapy and are currently stable (no bleeding on probing, probing depths ≤4 mm, good oral hygiene) are typically recommended for periodontal maintenance (SPT) at 3- to 6-month intervals. While 3-month intervals are often recommended for patients with persistent inflammation, high risk, or poor compliance, a 6-month interval is considered appropriate and evidence-based for a stable patient with excellent hygiene and no active disease signs. A 12-month interval is generally reserved for patients with no history of periodontitis or those with very low risk and excellent long-term stability, which is less conservative for a Stage III history. 9-month intervals are not standardly recommended in major guidelines.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because patients successfully treated for Stage III periodontitis require supportive periodontal therapy every 3 months, as pathogenic subgingival microbiota return to pre-treatment baseline levels within 9 to 12 weeks even in compliant patients. Recall intervals of 6, 9, or 12 months are clinically inadequate for treated Stage III periodontitis and carry a high risk of recurrent attachment loss and disease progression.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because patients successfully treated for Stage III periodontitis require supportive periodontal therapy every 3 months, as pathogenic subgingival microbiota return to pre-treatment baseline levels within 9 to 12 weeks even in compliant patients. Recall intervals of 6, 9, or 12 months are clinically inadequate for treated Stage III periodontitis and carry a high risk of recurrent attachment loss and disease progression.",
+      "verifiedAt": "2026-11-22T04:47:32.537Z"
     }
   },
   {

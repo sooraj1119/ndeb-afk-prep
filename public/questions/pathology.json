@@ -4663,23 +4663,23 @@
     "id": 210,
     "topicId": "pathology",
     "difficulty": "medium",
-    "question": "A 25-year-old male presents with multiple impacted supernumerary teeth, osteomas of the skull and facial bones, and multiple epidermoid cysts of the skin. This clinical constellation is pathognomonic for which syndrome?",
+    "question": "A 25-year-old male presents with multiple impacted supernumerary teeth, osteomas of the skull and facial bones, and multiple epidermoid cysts of the skin. Which of the following conditions is MOST consistent with this clinical presentation?",
     "options": [
       "Gardner syndrome",
       "Peutz-Jeghers syndrome",
-      "Stafne syndrome",
+      "Cleidocranial dysplasia",
       "Gorlin-Goltz syndrome"
     ],
     "correctAnswer": 0,
-    "explanation": "Gardner syndrome is an autosomal dominant variant of familial adenomatous polyposis (FAP) characterized by osteomas, supernumerary teeth, epidermoid cysts, and a near-100% risk of malignant transformation of colorectal polyps. Gorlin-Goltz features multiple odontogenic keratocysts and basal cell carcinomas; Peutz-Jeghers features perioral melanotic macules and intestinal hamartomatous polyps; Stafne syndrome is a developmental salivary gland depression of the mandible.",
+    "explanation": "Option A is correct because Gardner syndrome is an autosomal dominant condition characterized by multiple colorectal adenomatous polyps, skeletal osteomas, impacted supernumerary teeth, and cutaneous epidermoid cysts. Peutz-Jeghers syndrome manifests with mucocutaneous melanin pigmentation and hamartomatous polyps without osteomas or supernumerary teeth; cleidocranial dysplasia features multiple supernumerary teeth and delayed eruption but presents with clavicular hypoplasia rather than osteomas or epidermoid cysts; and Gorlin-Goltz syndrome is characterized by multiple odontogenic keratocysts, bifid ribs, and basal cell carcinomas rather than osteomas.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Gardner syndrome is an autosomal dominant condition characterized by multiple colorectal adenomatous polyps, skeletal osteomas, impacted supernumerary teeth, and cutaneous epidermoid cysts. Peutz-Jeghers syndrome manifests with mucocutaneous melanin pigmentation and hamartomatous polyps without osteomas or supernumerary teeth; cleidocranial dysplasia features multiple supernumerary teeth and delayed eruption but presents with clavicular hypoplasia rather than osteomas or epidermoid cysts; and Gorlin-Goltz syndrome is characterized by multiple odontogenic keratocysts, bifid ribs, and basal cell carcinomas rather than osteomas.",
+      "verifiedAt": "2026-11-22T04:47:32.431Z"
     }
   },
   {
@@ -7153,23 +7153,23 @@
     "id": 328,
     "topicId": "pathology",
     "difficulty": "medium",
-    "question": "A 55-year-old male presents with generalized bone pain. Laboratory investigations reveal elevated serum alkaline phosphatase, normal calcium and phosphate levels, and skull radiographs demonstrate a 'cotton-wool' appearance. Which of the following complications is most specifically associated with this disease?",
+    "question": "A 55-year-old male presents with generalized bone pain, progressive enlargement of the maxilla resulting in an ill-fitting denture, and elevated serum alkaline phosphatase with normal calcium and phosphate levels. Radiographs of the skull demonstrate a classic 'cotton-wool' appearance. Which of the following complications is MOST specifically associated with this condition?",
     "options": [
-      "Spontaneous resolution by age 20",
+      "Severe hypocalcemia resulting in tetany",
       "Malignant transformation to osteosarcoma",
-      "Development of multiple odontomas",
-      "Pathognomonic micrognathia"
+      "Development of multiple brown tumors of bone",
+      "Diffuse pulp canal obliteration across the dentition"
     ],
     "correctAnswer": 1,
-    "explanation": "The patient has Paget disease of bone (osteitis deformans), which is characterized by excessive bone resorption followed by disorganized bone formation. A well-known and serious complication is malignant transformation into osteosarcoma. Multiple odontomas are associated with Gardner syndrome, and the disease does not spontaneously resolve.",
+    "explanation": "Option B is correct because approximately 1% of patients with Paget disease of bone (osteitis deformans) develop secondary osteosarcoma, an aggressive malignancy characterized by sudden bone destruction and poor prognosis. Severe hypocalcemia does not occur because serum calcium and phosphate concentrations typically remain within normal reference ranges in Paget disease; brown tumors of bone are osteoclast-mediated lesions specific to primary or secondary hyperparathyroidism; and diffuse pulp obliteration is characteristic of dentin dysplasia type I, whereas Paget disease characteristically causes hypercementosis and loss of lamina dura.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because approximately 1% of patients with Paget disease of bone (osteitis deformans) develop secondary osteosarcoma, an aggressive malignancy characterized by sudden bone destruction and poor prognosis. Severe hypocalcemia does not occur because serum calcium and phosphate concentrations typically remain within normal reference ranges in Paget disease; brown tumors of bone are osteoclast-mediated lesions specific to primary or secondary hyperparathyroidism; and diffuse pulp obliteration is characteristic of dentin dysplasia type I, whereas Paget disease characteristically causes hypercementosis and loss of lamina dura.",
+      "verifiedAt": "2026-11-22T04:47:32.431Z"
     }
   },
   {
@@ -8555,23 +8555,23 @@
   {
     "id": 293999286,
     "topicId": "pathology",
-    "question": "According to Canadian dental infection prevention and control guidelines, what is the recommended minimum frequency for biological monitoring of steam sterilizers (autoclaves)?",
+    "question": "According to Canadian dental infection prevention and control (IPAC) guidelines, what is the minimum required frequency for biological monitoring (spore testing) of steam sterilizers?",
     "options": [
-      "Daily",
-      "Monthly",
-      "Annually",
-      "Weekly"
+      "Daily for each day the sterilizer is operated",
+      "Weekly during routine clinic operation",
+      "Monthly as part of preventative equipment maintenance",
+      "Semi-annually during manufacturer calibration"
     ],
-    "correctAnswer": 3,
-    "explanation": "Canadian dental infection prevention and control guidelines, as well as those from organizations like the CDAC, recommend weekly biological monitoring of steam sterilizers to ensure their effectiveness. Daily monitoring is often recommended for implantable devices, but weekly is the standard for general dental practice. Monthly or annual monitoring is insufficient to detect potential sterilization failures in a timely manner.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian dental infection prevention and control standards (CSA Z314-18, RCDSO, CDSA, and provincial IPAC frameworks) mandate that biological monitoring using Geobacillus stearothermophilus spores must be performed daily for each day the steam sterilizer is used, as well as in every load containing an implantable device. Weekly biological testing reflects United States CDC guidelines but does not meet Canadian regulatory requirements. Monthly or semi-annual intervals fail to provide the necessary quality assurance to prevent the release of unsterile instruments into patient care.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Canadian dental infection prevention and control standards (CSA Z314-18, RCDSO, CDSA, and provincial IPAC frameworks) mandate that biological monitoring using Geobacillus stearothermophilus spores must be performed daily for each day the steam sterilizer is used, as well as in every load containing an implantable device. Weekly biological testing reflects United States CDC guidelines but does not meet Canadian regulatory requirements. Monthly or semi-annual intervals fail to provide the necessary quality assurance to prevent the release of unsterile instruments into patient care.",
+      "verifiedAt": "2026-11-22T04:47:32.431Z"
     }
   },
   {
@@ -9348,23 +9348,23 @@
   {
     "id": 961457319,
     "topicId": "pathology",
-    "question": "A 7-year-old female patient presents with a chief complaint of a rapidly enlarging, painless swelling on the buccal gingiva adjacent to her permanent mandibular left first molar. The tooth has a large carious lesion extending close to the pulp, but is asymptomatic. Radiographic examination reveals a well-defined, unilocular radiolucency surrounding the crown of the unerupted permanent mandibular left second premolar, which is located apical to the roots of the first molar. What is the MOST likely diagnosis?",
+    "question": "A 9-year-old female presents for a routine orthodontic assessment. Radiographic examination reveals an asymptomatic, well-defined, unilocular radiolucency with a corticated border surrounding the crown of the unerupted tooth 35, attached at the cemento-enamel junction. The preceding primary tooth 75 had exfoliated normally, and the adjacent teeth are vital and caries-free. What is the MOST likely diagnosis?",
     "options": [
-      "Periapical cyst",
+      "Radicular cyst",
       "Dentigerous cyst",
       "Odontogenic keratocyst",
-      "Radicular cyst"
+      "Ameloblastoma"
     ],
     "correctAnswer": 1,
-    "explanation": "A dentigerous cyst, also known as a follicular cyst, is a developmental odontogenic cyst that originates from the follicular epithelium around the crown of an unerupted tooth, typically attached at the cementoenamel junction. The clinical and radiographic findings of a well-defined radiolucency surrounding the crown of an unerupted tooth strongly support this diagnosis. Periapical and radicular cysts are inflammatory cysts typically associated with the apex of non-vital teeth. An odontogenic keratocyst (OKC) can also be associated with unerupted teeth, but its characteristic is often multilocular and more aggressive growth, though a unilocular presentation is possible, a dentigerous cyst is more common in this scenario and age group.",
+    "explanation": "Option B is correct because a dentigerous (follicular) cyst is a developmental odontogenic lesion that characteristically appears as an asymptomatic, well-demarcated unilocular radiolucency surrounding the crown of an unerupted tooth (such as tooth 35) attached precisely at the cemento-enamel junction. A radicular cyst originates from an inflammatory response to pulpal necrosis at the apex of a non-vital tooth, which is ruled out by the vitality and absence of pathology in adjacent teeth. Odontogenic keratocysts and unicystic ameloblastomas may occur in pericoronal relationships but typically attach more apically along the root rather than at the cemento-enamel junction and are significantly less prevalent in pediatric premolar sites.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option B is correct because a dentigerous (follicular) cyst is a developmental odontogenic lesion that characteristically appears as an asymptomatic, well-demarcated unilocular radiolucency surrounding the crown of an unerupted tooth (such as tooth 35) attached precisely at the cemento-enamel junction. A radicular cyst originates from an inflammatory response to pulpal necrosis at the apex of a non-vital tooth, which is ruled out by the vitality and absence of pathology in adjacent teeth. Odontogenic keratocysts and unicystic ameloblastomas may occur in pericoronal relationships but typically attach more apically along the root rather than at the cemento-enamel junction and are significantly less prevalent in pediatric premolar sites.",
+      "verifiedAt": "2026-11-22T04:47:32.431Z"
     }
   },
   {

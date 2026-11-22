@@ -49,24 +49,24 @@
     "id": 3,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During the cleaning and shaping of a curved mesial canal in a mandibular molar, a clinician notices that the working length has seemingly shortened and tactile resistance is lost against the outer wall of the curve. What procedural error has most likely occurred?",
+    "question": "During the cleaning and shaping of a curved mesial canal of tooth 36, the clinician detects a sudden loss of tactile resistance along the outer wall of the curvature, accompanied by immediate intracanal hemorrhage and unstable electronic apex locator readings. What procedural error has most likely occurred?",
     "options": [
-      "Perforation",
-      "Ledging",
-      "Transportation",
-      "Zipping"
+      "Root perforation",
+      "Canal ledging",
+      "Apical zipping",
+      "Canal transportation"
     ],
-    "correctAnswer": 1,
-    "explanation": "The clinical scenario describes 'ledging.' Ledging occurs when a file is forced through the outer wall of a curved canal, creating a false pathway or ledge that prevents the instrument from reaching the true apical terminus. This results in a perceived shortening of the working length and a loss of tactile feedback against the outer wall. Transportation (Option C) is the opposite error, where the file cuts into the inner wall of the curve, often leading to a loss of the original canal curvature. Perforation (Option A) involves creating an unintended communication between the root canal and the external root surface, which is a more severe iatrogenic event than ledging. Zipping (Option D) is not a standard term for this specific procedural error in endodontics.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because a root perforation presents clinically with a sudden loss of tactile resistance as the instrument breaches the outer root wall, accompanied by immediate hemorrhage and erratic electronic apex locator readings. Canal ledging presents with a solid stop short of working length without tactile loss or wall penetration. Canal transportation and apical zipping alter the original canal curvature and apical foramen morphology without creating an artificial communication with the periodontium.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because a root perforation presents clinically with a sudden loss of tactile resistance as the instrument breaches the outer root wall, accompanied by immediate hemorrhage and erratic electronic apex locator readings. Canal ledging presents with a solid stop short of working length without tactile loss or wall penetration. Canal transportation and apical zipping alter the original canal curvature and apical foramen morphology without creating an artificial communication with the periodontium.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -257,23 +257,23 @@
     "id": 12,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During access cavity preparation on a maxillary first molar, you locate the MB2 canal. Which of the following anatomical descriptions best represents the typical location of the MB2 canal relative to the MB1 and Palatal canals?",
+    "question": "During access cavity preparation of tooth 16, the clinician is searching for the second mesiobuccal (MB2) canal orifice. Which of the following anatomical descriptions best represents the typical location of the MB2 canal orifice relative to the MB1 orifice and the line connecting the MB1 and palatal orifices?",
     "options": [
-      "Mesial and buccal to the line connecting MB1 and P",
-      "Distal and palatal to the line connecting MB1 and P",
-      "Mesial and slightly palatal to the line connecting MB1 and P",
-      "Distal and buccal to the line connecting MB1 and P"
+      "1 to 3 mm palatal to the MB1 orifice and slightly mesial to the MB1–palatal line",
+      "1 to 3 mm buccal to the MB1 orifice and slightly distal to the MB1–palatal line",
+      "1 to 3 mm palatal to the MB1 orifice and slightly distal to the MB1–palatal line",
+      "1 to 3 mm distal to the MB1 orifice and directly on the MB1–distobuccal line"
     ],
-    "correctAnswer": 2,
-    "explanation": "The MB2 canal is typically located about 2-3 mm mesial and slightly palatal (or mesiopalatal) to the main mesiobuccal (MB1) canal, forming a roughly triangular or trapezoidal shape with the MB1, DB, and Palatal canals. Locating it requires careful troughing mesial and palatal to the MB1 orifice. The other options misrepresent this classic anatomical spatial relationship.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the MB2 canal orifice is anatomically located 1 to 3 mm palatal to the MB1 orifice and slightly mesial to an imaginary line connecting the MB1 and palatal orifices. Distractors placing MB2 buccal to MB1 or distal to the MB1–palatal line represent anatomical inaccuracies that increase the risk of iatrogenic perforation into the furcation. Describing MB2 as palatal to the bucco-palatal line itself is geometrically invalid.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the MB2 canal orifice is anatomically located 1 to 3 mm palatal to the MB1 orifice and slightly mesial to an imaginary line connecting the MB1 and palatal orifices. Distractors placing MB2 buccal to MB1 or distal to the MB1–palatal line represent anatomical inaccuracies that increase the risk of iatrogenic perforation into the furcation. Describing MB2 as palatal to the bucco-palatal line itself is geometrically invalid.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -535,23 +535,23 @@
     "id": 24,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During cleaning and shaping of a curved root canal, you notice a significant accumulation of dentinal debris in the apical portion, leading to a loss of working length. What is this procedural error called, and what instrument is primarily used to prevent it?",
+    "question": "During cleaning and shaping of a curved canal of tooth 46, packed dentinal debris in the apical third causes a sudden loss of working length. What is this procedural complication called, and which instrument is primarily used to prevent and resolve it?",
     "options": [
-      "Zipping; prevented by excessive apical pressure",
-      "Zipping; prevented by pre-flaring the coronal third",
-      "Transportation/Blockage; prevented by recapitulation and irrigation",
-      "Ledging; prevented by using stiffer stainless steel files"
+      "Canal blockage; prevented by recapitulation with a small hand file (ISO size 10)",
+      "Canal transportation; prevented by recapitulation with a large Hedstrom file (ISO size 35)",
+      "Canal ledging; prevented by using rigid stainless steel instruments with heavy apical force",
+      "Apical zipping; prevented by using aggressive rotary nickel-titanium instruments at full length"
     ],
-    "correctAnswer": 2,
-    "explanation": "Apical blockage occurs when dentin chips pack into the apical extent of the canal, resulting in loss of working length; it is managed and prevented by frequent recapitulation with a small file and copious irrigation. Ledging and zipping are distinct aberrations related to canal straightening forces and lack of glide path establishment, not simple debris accumulation.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the compaction of dentinal shavings and tissue remnants in the apical canal space is defined as canal blockage, which is prevented and managed by frequent recapitulation using a small-sized hand instrument (such as an ISO size 10 K-file) accompanied by copious irrigation. Canal transportation, ledging, and zipping refer to mechanical deviations of the canal path rather than debris obstruction. Using rigid instruments or heavy apical force exacerbates canal aberrations rather than preventing procedural errors.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the compaction of dentinal shavings and tissue remnants in the apical canal space is defined as canal blockage, which is prevented and managed by frequent recapitulation using a small-sized hand instrument (such as an ISO size 10 K-file) accompanied by copious irrigation. Canal transportation, ledging, and zipping refer to mechanical deviations of the canal path rather than debris obstruction. Using rigid instruments or heavy apical force exacerbates canal aberrations rather than preventing procedural errors.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -1046,23 +1046,23 @@
     "id": 46,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During access cavity preparation of a maxillary molar, which root is most likely to contain two root canals?",
+    "question": "During endodontic access and canal negotiation of tooth 16, which root anatomically exhibits the highest incidence of containing two root canals?",
     "options": [
-      "All roots have an equal chance",
       "Distobuccal root",
       "Palatal root",
+      "Radix paramolaris",
       "Mesiobuccal root"
     ],
     "correctAnswer": 3,
-    "explanation": "The mesiobuccal root of the maxillary first and second molars frequently harbors a second canal (MB2), with an incidence often exceeding 60%. The palatal and distobuccal roots overwhelmingly present with a single canal and a single foramen.",
+    "explanation": "Option D is correct because the mesiobuccal root of the permanent maxillary first molar (tooth 16) contains two canals (MB1 and MB2) in 70% to 95% of clinical cases. The distobuccal and palatal roots consistently possess a single canal in over 98% of cases. A supernumerary root such as a radix paramolaris is exceptionally rare in maxillary molars and typically houses only a single canal.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "D",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option D is correct because the mesiobuccal root of the permanent maxillary first molar (tooth 16) contains two canals (MB1 and MB2) in 70% to 95% of clinical cases. The distobuccal and palatal roots consistently possess a single canal in over 98% of cases. A supernumerary root such as a radix paramolaris is exceptionally rare in maxillary molars and typically houses only a single canal.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -1301,23 +1301,23 @@
     "id": 57,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "Following a traumatic intrusion injury of a mature permanent maxillary central incisor in a 14-year-old patient, what is the recommended immediate management regarding endodontic treatment?",
+    "question": "A 14-year-old patient presents following a traumatic intrusion injury of a fully formed permanent tooth 11 with a closed apex. What is the recommended management regarding endodontic treatment according to Canadian dental trauma guidelines?",
     "options": [
-      "Immediate root canal treatment within 7 days to prevent inflammatory resorption",
-      "Immediate extraction and placement of an implant",
-      "No intervention is ever required as intrusive luxation has a 100% pulp vitality survival rate",
-      "Allow the tooth to re-erupt spontaneously, initiating root canal treatment with calcium hydroxide if pulp necrosis develops"
+      "Initiate root canal treatment within 7 to 14 days post-injury to prevent progressive inflammatory resorption",
+      "Defer endodontic intervention and monitor for spontaneous revascularization over six months",
+      "Perform an immediate partial pulpotomy using mineral trioxide aggregate",
+      "Perform immediate extraction and socket preservation due to a hopeless prognosis"
     ],
     "correctAnswer": 0,
-    "explanation": "The International Association of Dental Traumatology (IADT) Guidelines 2020, endorsed by the Canadian Dental Association, state that mature teeth with intrusive luxation have a very high risk of pulp necrosis and subsequent inflammatory resorption. Consequently, root canal treatment should be initiated promptly—ideally within 7‑10 days—to debride the canal and place calcium hydroxide as an intracanal medicament. Allowing the tooth to re‑erupt and waiting for necrosis (option 3) is reserved for immature teeth with open apices. Thus, option 0 reflects the evidence‑based Canadian standard of care.",
+    "explanation": "Option A is correct because mature permanent teeth with closed apices inevitably undergo pulp necrosis following intrusion, requiring pulpectomy within 7 to 14 days to prevent aggressive external inflammatory root resorption. Deferring treatment to monitor for revascularization is only indicated for immature teeth with open apices. Vital pulp therapy is ineffective because the neurovascular bundle is completely severed at the apex, and immediate extraction is contraindicated as mature intruded teeth can be repositioned and successfully maintained.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because mature permanent teeth with closed apices inevitably undergo pulp necrosis following intrusion, requiring pulpectomy within 7 to 14 days to prevent aggressive external inflammatory root resorption. Deferring treatment to monitor for revascularization is only indicated for immature teeth with open apices. Vital pulp therapy is ineffective because the neurovascular bundle is completely severed at the apex, and immediate extraction is contraindicated as mature intruded teeth can be repositioned and successfully maintained.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -1486,23 +1486,23 @@
     "id": 65,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During access preparation of a mandibular incisor, you notice that the root canal treatment fails to locate a second canal, and persistent bleeding or an off-center path suggests a strip perforation. What anatomical feature of mandibular incisors predisposes them to this procedural error?",
+    "question": "During endodontic access and canal preparation of tooth 31, excessive lateral dentin removal results in a strip perforation. What anatomical characteristic of mandibular incisor roots predisposes them to this procedural error?",
     "options": [
-      "Extreme root convergence and pronounced facial-lingual root flatness",
-      "C-shaped root configurations exclusively in all age groups",
-      "Widely flared cervical margins and divergent multi-rooted anatomy",
-      "Presence of prominent palatal pits"
+      "Narrow mesiodistal root dimension with proximal developmental concavities",
+      "Narrow faciolingual root dimension with thick proximal dentinal walls",
+      "Circular cross-sectional root anatomy with uniform dentinal thickness",
+      "Broad mesiodistal root dimension with an absence of developmental grooves"
     ],
     "correctAnswer": 0,
-    "explanation": "Mandibular incisors frequently present with two canals (one facial, one lingual) housed within a root that is extremely narrow in the mesiodistal dimension while being elongated faciolingually. Over-flaring during access preparation often cuts excessively into the danger zone (mesial or distal walls), leading to strip perforation. They do not have palatal pits (which are characteristic of maxillary incisors).",
+    "explanation": "Option A is correct because mandibular incisors (tooth 31) have roots that are wide faciolingually but distinctly narrow and flattened mesiodistally, featuring developmental concavities on proximal surfaces that leave thin dentin vulnerable to strip perforation. Describing the roots as narrow faciolingually or broad mesiodistally is anatomically incorrect. Mandibular incisors possess oval or ribbon-shaped roots rather than circular roots with uniform dentin thickness.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because mandibular incisors (tooth 31) have roots that are wide faciolingually but distinctly narrow and flattened mesiodistally, featuring developmental concavities on proximal surfaces that leave thin dentin vulnerable to strip perforation. Describing the roots as narrow faciolingually or broad mesiodistally is anatomically incorrect. Mandibular incisors possess oval or ribbon-shaped roots rather than circular roots with uniform dentin thickness.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -1532,24 +1532,24 @@
     "id": 67,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "A patient presents with a symptomatic necrotic mandibular first molar. During access preparation, the clinician locates four canals: mesiobuccal (MB), mesiolingual (ML), distobuccal (DB), and distolingual (DL). Assuming the MB and ML canals merge into a single root, and the DB and DL canals merge into a separate single root, which of the following best describes the root configuration according to Vertucci's classification?",
+    "question": "During root canal treatment of tooth 46, radiographic and clinical examination of the mesial root reveals two separate canal orifices (mesiobuccal and mesiolingual) that join in the apical third and exit through a single apical foramen. According to Vertucci's classification, which canal configuration is present in this root?",
     "options": [
-      "Type I: Two separate roots with two separate canals each",
-      "Type II: Two separate roots, each with two canals that merge into one before exiting the apex",
-      "Type III: Two separate roots, each with two canals that remain separate to the apex",
-      "Type IV: Two separate roots, each with a single canal"
+      "Type II (2-1 configuration)",
+      "Type I (1 configuration)",
+      "Type IV (2 configuration)",
+      "Type V (1-2 configuration)"
     ],
-    "correctAnswer": 1,
-    "explanation": "Vertucci's classification system categorizes root canal anatomy based on the number of roots and canals and their convergence. In the described scenario, the mandibular first molar has two roots (mesial and distal). The mesial root contains two canals (MB and ML) that merge into a single canal before exiting the apex. The distal root contains two canals (DB and DL) that also merge into a single canal before exiting the apex. This configuration, where two canals in a single root merge into one (2-1 pattern) in both roots, corresponds to Type II anatomy. Type I is 1-1 (one canal per root), Type III is 2-2 (two separate canals per root), and Type IV is 1-1 (one canal per root, but often used for single-rooted teeth or specific variations, though strictly Type I is the standard 1-1). Therefore, Type II is the correct classification for this 2-1/2-1 configuration.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Vertucci Type II describes a canal configuration within an individual root where two separate canals leave the pulp chamber and converge in the apical third to exit through a single apical foramen (2-1). Vertucci Type I consists of a single continuous canal from chamber to apex (1), Type IV consists of two distinct canals that remain separate throughout the root exiting via two distinct foramina (2), and Type V consists of one canal dividing into two separate canals with distinct apical foramina (1-2).",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because Vertucci Type II describes a canal configuration within an individual root where two separate canals leave the pulp chamber and converge in the apical third to exit through a single apical foramen (2-1). Vertucci Type I consists of a single continuous canal from chamber to apex (1), Type IV consists of two distinct canals that remain separate throughout the root exiting via two distinct foramina (2), and Type V consists of one canal dividing into two separate canals with distinct apical foramina (1-2).",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -2525,23 +2525,23 @@
     "id": 114,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During access cavity preparation on a mandibular molar, you encounter calcified pulp chambers. Which of the following ultrasonic tips and operational techniques is most appropriate to safely locate hidden canal orifices without causing a strip perforation?",
+    "question": "During access cavity refinement of tooth 46 with extensive pulp chamber calcification, which of the following ultrasonic techniques is most appropriate to locate hidden canal orifices while minimizing the risk of perforation?",
     "options": [
-      "Diamond-coated, high-power tips directed toward the furcation wall",
-      "Surgical round burs used dry at maximum RPM",
-      "Uncoated, specialized stainless-steel micro-tips used with water spray along developmental grooves",
-      "High-speed carbide bur advanced blindly until bleeding is observed"
+      "Specialized ultrasonic troughing tips operated at low power without water coolant under magnification along developmental grooves",
+      "Diamond-coated ultrasonic tips operated at maximum power with continuous water spray directed toward the furcal floor",
+      "Smooth-ended ultrasonic tips operated at high power with continuous water spray along the outer axial walls",
+      "Long-shank round burs operated at high speed with water spray to explore the pulp chamber floor"
     ],
-    "correctAnswer": 2,
-    "explanation": "Specialized ultrasonic tips that are non-diamond coated (or have safe ends) used with proper coolant (water spray) and moderate power are designed for troughing along developmental grooves to locate calcified canals. Directing forces toward the furcation (external wall) risks strip perforation, and using high-speed burs blindly in deep pulp chambers severely compromises tactile control and visibility.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because troughing for calcified canal orifices is performed at low-to-medium ultrasonic power under magnification without water coolant, allowing clear visualization of the darker developmental grooves and dentinal map. Continuous water spray obscures subtle color contrasts between calcified tertiary dentin and the pulpal floor, while high power or directing instruments toward the furcal floor dramatically increases the risk of iatrogenic perforation. High-speed burs lack the tactile feedback and microscopic precision necessary for safe negotiation of calcified pulp chambers.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because troughing for calcified canal orifices is performed at low-to-medium ultrasonic power under magnification without water coolant, allowing clear visualization of the darker developmental grooves and dentinal map. Continuous water spray obscures subtle color contrasts between calcified tertiary dentin and the pulpal floor, while high power or directing instruments toward the furcal floor dramatically increases the risk of iatrogenic perforation. High-speed burs lack the tactile feedback and microscopic precision necessary for safe negotiation of calcified pulp chambers.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -3449,15 +3449,15 @@
     "id": 158,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "In a multi‑visit root canal treatment of a necrotic tooth with a persistent intracanal infection, which intracanal medicament is recommended by current Canadian endodontic guidelines as the first‑line agent for eliminating residual microorganisms such as Enterococcus faecalis?",
+    "question": "During endodontic retreatment of tooth 21 presenting with persistent apical periodontitis associated with Enterococcus faecalis, which intracanal medicament is most effective for eradicating this microorganism?",
     "options": [
-      "Calcium hydroxide",
-      "2% chlorhexidine gel",
-      "Formocresol",
-      "Sterile saline"
+      "2% chlorhexidine gluconate gel",
+      "Calcium hydroxide paste",
+      "Formocresol solution",
+      "Ledermix paste"
     ],
     "correctAnswer": 0,
-    "explanation": "Canadian endodontic guidelines endorse calcium hydroxide as the standard intracanal medicament for multi‑visit cases because its high pH provides broad antimicrobial activity, promotes periradicular healing, and has an established safety record. Although 2% chlorhexidine gel shows strong in‑vitro activity against E. faecalis, it is not the guideline‑endorsed first‑line choice. Formocresol is avoided due to its toxicity, and sterile saline lacks antimicrobial properties.",
+    "explanation": "Option A is correct because 2% chlorhexidine gluconate gel is effective against Enterococcus faecalis due to its broad-spectrum bactericidal action and dentinal substantivity. Calcium hydroxide is ineffective against E. faecalis because the organism utilizes a functioning proton pump to maintain cellular pH homeostasis in high-alkaline environments up to pH 11.5. Formocresol is contraindicated due to tissue toxicity and potential mutagenicity, while corticosteroid-antibiotic pastes like Ledermix do not eradicate persistent enterococcal biofilms.",
     "aiVerified": true,
     "peerReviewed": true,
     "remediatedAt": "2026-11-14T23:26:49.471Z",
@@ -3466,8 +3466,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because 2% chlorhexidine gluconate gel is effective against Enterococcus faecalis due to its broad-spectrum bactericidal action and dentinal substantivity. Calcium hydroxide is ineffective against E. faecalis because the organism utilizes a functioning proton pump to maintain cellular pH homeostasis in high-alkaline environments up to pH 11.5. Formocresol is contraindicated due to tissue toxicity and potential mutagenicity, while corticosteroid-antibiotic pastes like Ledermix do not eradicate persistent enterococcal biofilms.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -4820,15 +4820,15 @@
     "id": 220,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During access cavity preparation of a maxillary first molar, the clinician is searching for the second mesiobuccal (MB2) canal. In relation to the main mesiobuccal (MB1) canal, where is the MB2 canal typically located?",
+    "question": "During access cavity preparation of tooth 26, the clinician searches for the second mesiobuccal (MB2) canal orifice. In relation to the primary mesiobuccal (MB1) canal orifice, where is the MB2 orifice typically located?",
     "options": [
-      "Palatal and slightly mesial",
-      "Distal and slightly buccal",
-      "Mesial and slightly buccal",
-      "Mesial and slightly palatal"
+      "1 to 3 mm palatal and slightly mesial",
+      "1 to 3 mm palatal and slightly distal",
+      "1 to 3 mm buccal and slightly mesial",
+      "1 to 3 mm buccal and slightly distal"
     ],
     "correctAnswer": 0,
-    "explanation": "In a maxillary first molar the second mesiobuccal (MB2) canal is consistently found on the palatal side of, and slightly mesial to, the primary mesiobuccal (MB1) canal. This relationship is documented in the Canadian Dental Association’s Endodontic Anatomy guidelines (2021) and reiterated in the Health Canada Clinical Practice Standard for Endodontics (2022). Malamed’s *Handbook of Local Anesthesia* (7th ed.) notes that the MB2 orifice lies “palatal‑ward and a little mesial” to MB1, a description echoed in Neville’s *Oral and Maxillofacial Radiology* (4th ed.) and Cohen’s *Endodontic Practice* (2020). The American Association of Endodontists (AAE) 2018 position statement on canal morphology also cites a palatal‑mesial orientation as the most frequent anatomic pattern, with prevalence rates of 70‑80% in first molars. Proffit’s orthodontic texts confirm that the palatal‑mesial position reflects the broader buccopalatal width of the mesiobuccal root, influencing access cavity design.\n\nOption [1] (distal‑buccal) misplaces the canal toward the distal root, a location typical of the second mesiobuccal’s relationship to the palatal canal, not MB1. Option [2] (mesial‑buccal) incorrectly suggests the MB2 lies buccally, which would place it outside the mesiobuccal root’s internal anatomy. Option [3] (mesial‑palatal) reverses the mesial‑palatal vector, implying the MB2 is more mesial than MB1 but on the palatal side, which contradicts the slight mesial offset observed in the literature. These misconceptions arise from confusing the MB2’s position with the palatal canal or with variations seen in mandibular molars.",
+    "explanation": "Option A is correct because the MB2 canal orifice in maxillary first molars (tooth 26) is typically located 1 to 3 mm palatal and slightly mesial to the main MB1 orifice, situated along the mesial subpulpal groove. Distractors placing the orifice distal or buccal to the MB1 orifice reflect anatomical misconceptions that direct troughing away from the true canal path and toward the furcation or axial walls.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
@@ -4836,8 +4836,8 @@
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the MB2 canal orifice in maxillary first molars (tooth 26) is typically located 1 to 3 mm palatal and slightly mesial to the main MB1 orifice, situated along the mesial subpulpal groove. Distractors placing the orifice distal or buccal to the MB1 orifice reflect anatomical misconceptions that direct troughing away from the true canal path and toward the furcation or axial walls.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -6264,23 +6264,23 @@
     "id": 289,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During the cleaning and shaping of a curved root canal, a clinician inadvertently creates a ledging error. Which of the following procedural steps is critical to correct and bypass the ledge?",
+    "question": "During cleaning and shaping of a curved mesial canal in tooth 36, a clinician detects loss of working length and an obstruction indicative of a ledge. Which procedural sequence is most appropriate to bypass the ledge and re-establish canal patency?",
     "options": [
-      "Pre-curving a small stainless steel file (e.g., #10 or tooth 15) and using a short, picking motion combined with EDTA",
-      "Immediately obturating up to the point of the ledge and placing a surgical retrofill",
-      "Using a large NiTi rotary file at high speed to aggressively plane away the ledge",
-      "Using Gates-Glidden drills deep into the apical third to straighten the path"
+      "Pre-curving the apical 1 to 2 mm of a size 10 stainless steel hand file, lubricating with EDTA, and systematically rotating the file until the tip slips into the original canal lumen",
+      "Using a small Gates-Glidden drill past the obstruction to aggressively plane down the dentinal shoulder",
+      "Using a continuous-rotation nickel-titanium instrument with apical pressure to bore through the obstruction",
+      "Obturating immediately up to the level of the ledge and scheduling root-end resection"
     ],
     "correctAnswer": 0,
-    "explanation": "To bypass a ledge, a small, pre-curved stainless steel file should be used with gentle apical-coronal and rotational motions, aiming to slip past the ledge into the original canal space, aided by a chelating agent like EDTA. Using large NiTi files or Gates-Glidden drills in the apical third will only worsen transportation, perforation, or instrument separation.",
+    "explanation": "Option A is correct because bypassing a canal ledge requires placing a distinct 1 to 2 mm curve at the tip of a flexible size 08 or 10 stainless steel hand file, coating it with EDTA lubricant, and probing gently until the original canal lumen is caught. Gates-Glidden drills (Option B) and rotary nickel-titanium files (Option C) lack directional control past a ledge and will cause canal transportation, ledging, or strip perforation. Immediate obturation and surgical resection (Option D) is inappropriate before attempting conservative orthograde negotiation.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because bypassing a canal ledge requires placing a distinct 1 to 2 mm curve at the tip of a flexible size 08 or 10 stainless steel hand file, coating it with EDTA lubricant, and probing gently until the original canal lumen is caught. Gates-Glidden drills (Option B) and rotary nickel-titanium files (Option C) lack directional control past a ledge and will cause canal transportation, ledging, or strip perforation. Immediate obturation and surgical resection (Option D) is inappropriate before attempting conservative orthograde negotiation.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -6334,23 +6334,23 @@
     "id": 294,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "When performing sodium hypochlorite (NaOCl) irrigation during root canal therapy, which concentration is most commonly recommended for balancing tissue dissolution efficacy and cytotoxicity?",
+    "question": "When selecting a sodium hypochlorite (NaOCl) concentration for root canal irrigation in endodontic therapy, which concentration provides an optimal clinical compromise between adequate organic tissue dissolution efficacy and lower periapical tissue cytotoxicity?",
     "options": [
-      "10.0%",
-      "5.25%",
-      "1.0%",
-      "0.5%"
+      "2.5%",
+      "0.1%",
+      "6.0%",
+      "10.0%"
     ],
-    "correctAnswer": 1,
-    "explanation": "Malamed’s Handbook of Local Anesthesia (7th ed.) and the Canadian Endodontic Association guidelines list 5.25 % sodium hypochlorite as the standard irrigant concentration because it provides rapid organic tissue dissolution and broad antimicrobial activity while remaining within a clinically tolerable toxicity range. Lower concentrations (0.5 %–1 %) reduce dissolution efficiency, and higher concentrations (10 %) increase risk of severe tissue injury without appreciable antimicrobial gain. Hence the marked answer (5.25 %) is correct.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because an intermediate concentration of 2.5% sodium hypochlorite maintains robust antimicrobial activity and effective organic tissue dissolution capacity while exhibiting substantially lower cytotoxicity to periapical tissues compared to concentrated formulations. Very low concentrations such as 0.1% (Option B) have negligible tissue-dissolving ability and rapidly deplete in the presence of organic debris. High concentrations such as 6.0% (Option C) and 10.0% (Option D) cause severe caustic periapical tissue necrosis upon extrusion and degrade dentin flexural strength.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because an intermediate concentration of 2.5% sodium hypochlorite maintains robust antimicrobial activity and effective organic tissue dissolution capacity while exhibiting substantially lower cytotoxicity to periapical tissues compared to concentrated formulations. Very low concentrations such as 0.1% (Option B) have negligible tissue-dissolving ability and rapidly deplete in the presence of organic debris. High concentrations such as 6.0% (Option C) and 10.0% (Option D) cause severe caustic periapical tissue necrosis upon extrusion and degrade dentin flexural strength.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -6449,23 +6449,23 @@
     "id": 299,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "A 24-year-old patient presents with a fractured maxillary central incisor due to trauma 2 hours ago. The clinical examination reveals a 2mm pulp exposure with a bright red, bleeding surface. The root apex is completely open (Blunderbuss canal). What is the most appropriate treatment procedure?",
+    "question": "An 8-year-old patient presents to the dental clinic 2 hours after sustaining dental trauma to tooth 11. Clinical examination reveals an Ellis Class III fracture with a 1.5 mm vital pulp exposure that bleeds bright red. Radiographs confirm an immature root with thin dentinal walls and an open apex (blunderbuss canal). What is the most appropriate treatment for tooth 11?",
     "options": [
-      "Direct pulp capping with calcium hydroxide",
-      "Complete coronal and radicular pulpotomy",
-      "Standard root canal therapy with gutta-percha obturation",
-      "Cvek pulpotomy using calcium hydroxide or MTA"
+      "Partial pulpotomy (Cvek technique) using mineral trioxide aggregate (MTA) or calcium hydroxide",
+      "Complete pulpectomy followed by immediate obturation with gutta-percha and sealer",
+      "Direct pulp capping with a light-cured resin-modified glass ionomer",
+      "Complete pulpectomy followed by apexification with calcium hydroxide"
     ],
-    "correctAnswer": 3,
-    "explanation": "A Cvek pulpotomy (partial pulpotomy) involves removing only 1-2 mm of inflamed pulp tissue beneath the exposure site, preserving the remaining radicular pulp to allow continued root development (apexogenesis). Standard RCT is impossible due to open apices, direct pulp capping is less predictable for exposures larger than 1mm, and a full pulpotomy is unnecessary when the radicular pulp is healthy.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because a partial (Cvek) pulpotomy removes 1 to 2 mm of inflamed pulp beneath the traumatic exposure, preserving healthy radicular pulp vitality to allow continued physiologic root maturation and apexogenesis in an immature permanent tooth. Immediate gutta-percha obturation (Option B) is contraindicated due to open blunderbuss apices and fragile root walls prone to fracture. Direct pulp capping (Option C) is inappropriate for traumatic exposures greater than 1 mm, and apexification (Option D) sacrifices remaining vital radicular pulp tissue, leaving thin, fracture-prone dentinal walls.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because a partial (Cvek) pulpotomy removes 1 to 2 mm of inflamed pulp beneath the traumatic exposure, preserving healthy radicular pulp vitality to allow continued physiologic root maturation and apexogenesis in an immature permanent tooth. Immediate gutta-percha obturation (Option B) is contraindicated due to open blunderbuss apices and fragile root walls prone to fracture. Direct pulp capping (Option C) is inappropriate for traumatic exposures greater than 1 mm, and apexification (Option D) sacrifices remaining vital radicular pulp tissue, leaving thin, fracture-prone dentinal walls.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -6636,23 +6636,23 @@
     "id": 310,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During root canal preparation of a mandibular molar, you suspect a ledged instrument has been created in the mesiobuccal canal short of the working length. What is the most appropriate next step to manage this procedural error?",
+    "question": "During root canal preparation of tooth 46, a ledge is inadvertently created in the mesiobuccal canal 2 mm short of the working length. What is the most appropriate next step to manage this procedural error?",
     "options": [
-      "Precurve a small stainless steel file (such as a #10 or tooth 15), insert it short of the ledge, and use a delicate picking motion to negotiate the original path",
-      "Immediately obturate the canal at the level of the ledge",
-      "Perform a periradicular surgery without attempting to renegotiate the canal",
-      "Continue filing aggressively with a larger stainless steel file to bypass the ledge"
+      "Pre-curve the apical tip of a small stainless steel hand file (such as a size 10 or 15 file), apply EDTA lubricant, and use a delicate probing motion to negotiate past the ledge",
+      "Obturate the root canal immediately at the level of the ledge and place a coronal seal",
+      "Perform periradicular surgery immediately without attempting conservative negotiation",
+      "Use a rigid nickel-titanium rotary file at high rotational speed to drill directly through the ledge"
     ],
     "correctAnswer": 0,
-    "explanation": "A ledge is managed by taking a small, precurved stainless steel file, placing it slightly short of the ledged depth, and using gentle watch-winding and picking motions to slide off the ledge and back into the original canal lumen. Forcing a large file will worsen the ledge or cause a perforation. Abandoning treatment or obturating prematurely compromises the prognosis.",
+    "explanation": "Option A is correct because conservative negotiation using a pre-curved small stainless steel hand file (size 10 or 15) with an EDTA chelator and gentle exploratory movements is the established clinical standard to locate and bypass a ledge. Immediate obturation at the level of the ledge (Option B) compromises disinfection and leaves untreated necrotic tissue apically. Periradicular surgery (Option C) is premature prior to attempting conservative bypass, while running a rigid rotary instrument aggressively (Option D) will gouge dentin or cause an irreversible root perforation.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because conservative negotiation using a pre-curved small stainless steel hand file (size 10 or 15) with an EDTA chelator and gentle exploratory movements is the established clinical standard to locate and bypass a ledge. Immediate obturation at the level of the ledge (Option B) compromises disinfection and leaves untreated necrotic tissue apically. Periradicular surgery (Option C) is premature prior to attempting conservative bypass, while running a rigid rotary instrument aggressively (Option D) will gouge dentin or cause an irreversible root perforation.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -6682,23 +6682,23 @@
     "id": 312,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "A patient presents with acute apical abscess associated with a mandibular premolar. The patient has a severe, documented systemic allergy to penicillin (anaphylaxis). Which of the following is the most appropriate antibiotic to prescribe if systemic involvement is present?",
+    "question": "A 35-year-old patient presents with an acute apical abscess associated with tooth 35, accompanied by diffuse facial swelling and fever (38.5°C). The patient has a documented history of severe Type I hypersensitivity (anaphylaxis) to penicillin. In accordance with current Canadian dental guidelines, which of the following is the most appropriate oral antibiotic to prescribe in conjunction with local endodontic debridement?",
     "options": [
-      "Ampicillin",
-      "Cephalexin",
-      "Clindamycin",
-      "Amoxicillin with clavulanic acid"
+      "Azithromycin (500 mg loading dose on day 1, followed by 250 mg once daily for 4 days)",
+      "Cephalexin (500 mg every 6 hours for 7 days)",
+      "Clindamycin (300 mg every 6 hours for 7 days)",
+      "Amoxicillin with clavulanic acid (875/125 mg every 12 hours for 7 days)"
     ],
-    "correctAnswer": 2,
-    "explanation": "For patients with a severe (type I/anaphylactic) penicillin allergy, clindamycin has traditionally been a primary alternative for odontogenic infections, as cross-reactivity with cephalosporins and penicillins can occasionally occur. Amoxicillin, Augmentin, and ampicillin are all beta-lactams and are strictly contraindicated. Cephalexin may have cross-reactivity in patients with severe penicillin allergies.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because current Canadian dental and Health Canada guidelines recommend azithromycin (or clarithromycin) for odontogenic infections with systemic involvement in patients with a history of severe Type I penicillin allergy. Cephalexin (Option B) carries a risk of cross-reactivity and is contraindicated in patients with a history of severe anaphylaxis to penicillins. Clindamycin (Option C) is strictly deprecated due to its high association with fatal Clostridioides difficile colitis, and amoxicillin with clavulanate (Option D) is a penicillin derivative strictly contraindicated in penicillin-allergic patients.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because current Canadian dental and Health Canada guidelines recommend azithromycin (or clarithromycin) for odontogenic infections with systemic involvement in patients with a history of severe Type I penicillin allergy. Cephalexin (Option B) carries a risk of cross-reactivity and is contraindicated in patients with a history of severe anaphylaxis to penicillins. Clindamycin (Option C) is strictly deprecated due to its high association with fatal Clostridioides difficile colitis, and amoxicillin with clavulanate (Option D) is a penicillin derivative strictly contraindicated in penicillin-allergic patients.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -7052,23 +7052,23 @@
     "id": 328,
     "topicId": "endodontics",
     "difficulty": "medium",
-    "question": "During cleaning and shaping of a maxillary second premolar, you suspect that you have created a ledge in the root canal system. Which of the following procedural steps is most critical in managing and bypassing this ledge?",
+    "question": "During cleaning and shaping of tooth 15, the clinician encounters a solid stop short of working length, indicating canal ledging. Which of the following procedural steps is most critical to bypass and manage this ledge?",
     "options": [
-      "Obturating immediately at the level of the ledge to prevent further complications",
-      "Switching immediately to rotary nickel-titanium files of the same working length",
-      "Using larger stainless steel files with heavy apical pressure to force past the obstruction",
-      "Precurving a small stainless steel file (e.g., #10 or tooth 15) and using short, picking motions short of the ledge"
+      "Precurving the apical tip of a small stainless steel hand file (ISO size 10 or 15) and using gentle probing motions with a lubricant",
+      "Operating a rotary nickel-titanium file at high speed with firm apical pressure to cut through the obstruction",
+      "Using a large, rigid stainless steel hand file (ISO size 35) to plane away the ledge",
+      "Obturating the canal immediately at the level of the ledge to seal the existing space"
     ],
-    "correctAnswer": 3,
-    "explanation": "Managing a ledge requires returning to a small, precurved stainless steel file and using gentle, short picking or sliding motions to negotiate past the ledge into the original canal space. Heavy apical pressure worsens the ledge or causes perforation, and rotary files lack the tactile control and flexibility needed for this specific navigation. Obturating short of the apex compromises the endodontic prognosis.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because bypassing a canal ledge requires precurving the apical 1 to 2 mm of a small-sized stainless steel hand file (ISO size 10 or 15) and gently probing past the obstruction with the aid of a lubricant before carefully rasping to reduce the ledge. Rotary nickel-titanium files cannot be precurved to bypass ledges and are prone to fracture when forced against obstructions. Large, rigid stainless steel files exacerbate ledging or cause canal perforation, and premature obturation at the ledge leaves untreated infected apical canal space.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because bypassing a canal ledge requires precurving the apical 1 to 2 mm of a small-sized stainless steel hand file (ISO size 10 or 15) and gently probing past the obstruction with the aid of a lubricant before carefully rasping to reduce the ledge. Rotary nickel-titanium files cannot be precurved to bypass ledges and are prone to fracture when forced against obstructions. Large, rigid stainless steel files exacerbate ledging or cause canal perforation, and premature obturation at the ledge leaves untreated infected apical canal space.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -9199,24 +9199,24 @@
   {
     "id": 612398102,
     "topicId": "endodontics",
-    "question": "In the context of Canadian dental law and ethics, if a dental hygienist performs a clinical procedure on a patient without obtaining valid informed consent, the act is legally classified as which of the following?",
+    "question": "A Canadian dentist performs root canal therapy on tooth 46. Although the patient consented to undergoing the root canal procedure, the dentist failed to disclose the material risk of instrument separation, which subsequently occurred during treatment. Under Canadian health law and jurisprudence (Reibl v. Hughes), a legal action based on the failure to obtain adequate informed consent in this situation is classified as which of the following?",
     "options": [
-      "Breach of contract",
       "Professional negligence",
       "Battery",
-      "Falsification of records"
+      "Breach of contract",
+      "Criminal assault"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is Battery. In Canadian common law and dental jurisprudence, performing a medical or dental procedure without the patient's valid informed consent is considered an intentional tort known as battery. It is an unauthorized touching of the patient's body. \n\nWhy the other options are incorrect:\n- Breach of contract: While a dental treatment plan may involve a contractual relationship, the specific tort for unauthorized physical contact is battery, not a civil breach of contract.\n- Professional negligence: Negligence involves a failure to meet the standard of care (e.g., performing a procedure poorly or carelessly). It does not require the absence of consent; one can be negligent even with consent. Conversely, a procedure performed with consent but with perfect technique is not negligence, but it is still battery if the consent was invalid or absent.\n- Falsification of records: This is a separate administrative or criminal offense involving the alteration of documentation. While a hygienist might falsify records to cover up the lack of consent, the act of performing the procedure itself is battery.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the Supreme Court of Canada in Reibl v. Hughes established that a healthcare professional's failure to disclose material risks and alternatives vitiates informed consent and constitutes professional negligence (a breach of the standard of care). Battery (Option B) is strictly confined to intentional, non-consensual contact where no consent was provided whatsoever or where the procedure performed was completely different from what was authorized. Breach of contract (Option C) applies to commercial terms rather than tortious clinical disclosure duties, and criminal assault (Option D) requires criminal intent to inflict harm, exceeding the civil malpractice standard.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the Supreme Court of Canada in Reibl v. Hughes established that a healthcare professional's failure to disclose material risks and alternatives vitiates informed consent and constitutes professional negligence (a breach of the standard of care). Battery (Option B) is strictly confined to intentional, non-consensual contact where no consent was provided whatsoever or where the procedure performed was completely different from what was authorized. Breach of contract (Option C) applies to commercial terms rather than tortious clinical disclosure duties, and criminal assault (Option D) requires criminal intent to inflict harm, exceeding the civil malpractice standard.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -9829,23 +9829,23 @@
   {
     "id": 981105630,
     "topicId": "endodontics",
-    "question": "A 25-year-old male patient presents with severe generalized bone loss affecting his first molars and incisors, despite minimal plaque accumulation. He reports no significant medical history and non-smoking status. Family history reveals his older brother had similar early tooth loss. What is the MOST likely diagnosis?",
+    "question": "A 22-year-old medically healthy non-smoker presents for a periodontal evaluation. Clinical and radiographic examinations reveal severe interproximal clinical attachment loss (CAL ≥ 5 mm) and angular vertical bone loss localized exclusively to the permanent first molars and incisors (teeth 16, 11, 21, 26, 36, 31, 41, and 46). The extent of tissue destruction is severely disproportionate to the minimal plaque present. According to the 2017 AAP/EFP World Workshop Classification, what is the definitive diagnosis?",
     "options": [
-      "Chronic periodontitis",
-      "Necrotizing ulcerative periodontitis",
-      "Aggressive periodontitis",
-      "Gingivitis"
+      "Periodontitis: Stage III, Grade C, with a molar-incisor pattern",
+      "Periodontitis: Stage I, Grade A, generalized pattern",
+      "Necrotizing periodontitis associated with systemic compromise",
+      "Biofilm-induced gingivitis on an intact periodontium"
     ],
-    "correctAnswer": 2,
-    "explanation": "The clinical presentation of severe bone loss in a young patient, primarily affecting molars and incisors, with minimal plaque and calculus, and a family history, is highly indicative of aggressive periodontitis. Chronic periodontitis typically progresses slower and is more directly related to plaque accumulation. Gingivitis is inflammation of the gingiva without attachment loss.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because the 2017 AAP/EFP classification categorizes severe interproximal attachment loss (CAL ≥ 5 mm) localized specifically to the first molars and incisors with rapid progression exceeding expectations for biofilm levels as Periodontitis: Stage III, Grade C, with a molar-incisor pattern (previously termed localized aggressive periodontitis). Stage I, Grade A (Option B) represents mild, slowly progressing disease with CAL of only 1 to 2 mm. Necrotizing periodontitis (Option C) requires painful ulceration and necrosis of the interdental papillae, and gingivitis (Option D) does not exhibit clinical attachment or alveolar bone loss.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because the 2017 AAP/EFP classification categorizes severe interproximal attachment loss (CAL ≥ 5 mm) localized specifically to the first molars and incisors with rapid progression exceeding expectations for biofilm levels as Periodontitis: Stage III, Grade C, with a molar-incisor pattern (previously termed localized aggressive periodontitis). Stage I, Grade A (Option B) represents mild, slowly progressing disease with CAL of only 1 to 2 mm. Necrotizing periodontitis (Option C) requires painful ulceration and necrosis of the interdental papillae, and gingivitis (Option D) does not exhibit clinical attachment or alveolar bone loss.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {
@@ -10568,25 +10568,25 @@
   {
     "id": 456270694,
     "topicId": "endodontics",
-    "question": "A 35-year-old male presents with severe, lingering pain to cold in the lower right first molar that has been increasing over the past week. The tooth is vital on electric pulp testing, but the pain is prolonged (>30 seconds) and is reproduced by biting. Radiographs show a deep carious lesion approaching the pulp but no periapical radiolucency. What is the most appropriate definitive endodontic treatment for this tooth?",
+    "question": "A 35-year-old patient presents with severe, lingering pain to cold stimulation in tooth 46 that has progressively worsened over the past week. Pain persists for greater than 30 seconds following thermal removal, and the tooth is tender to percussion and mastication. Radiographs show a deep occlusal carious lesion approaching the pulp chamber, fully formed roots with closed apices, and a normal periapical appearance. What is the most appropriate definitive endodontic treatment for tooth 46?",
     "options": [
-      "Pulpotomy",
-      "Root canal therapy (pulpectomy)",
-      "Apexogenesis",
-      "Extraction"
+      "Non-surgical root canal therapy (pulpectomy and obturation)",
+      "Direct pulp capping with calcium hydroxide",
+      "Coronal pulpotomy with mineral trioxide aggregate",
+      "Regenerative endodontic procedure (revascularization)"
     ],
-    "correctAnswer": 1,
-    "explanation": "The prolonged, lingering pain to cold and bite sensitivity indicate irreversible pulpitis in a mature permanent tooth, for which root canal therapy (pulpectomy) is the definitive treatment. Pulpotomy is reserved for primary teeth or immature permanent teeth with vital pulp, apexogenesis is for immature teeth with vital pulp, and extraction is only indicated when the tooth is non‑restorable or the patient declines endodontic therapy.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because tooth 46 exhibits symptomatic irreversible pulpitis with symptomatic apical periodontitis in a mature permanent tooth, for which complete non-surgical root canal therapy (pulpectomy and obturation) is the definitive endodontic standard of care. Direct pulp capping (Option B) is contraindicated in mature permanent teeth presenting with severe, spontaneous, lingering thermal pain indicative of extensive irreversible pulp inflammation. Coronal pulpotomy (Option C) in mature permanent teeth is considered an interim or emergency intervention rather than definitive therapy. Regenerative endodontics (Option D) is indicated strictly for non-vital immature permanent teeth with open apices, not vital mature teeth.",
     "aiVerified": true,
     "peerReviewed": true,
     "remediatedAt": "2026-11-14T23:27:18.199Z",
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "B",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Verified clinically concordant under Canadian dental standards (CDA/NDEB).",
-      "verifiedAt": "2026-11-15T09:26:23.913Z"
+      "clinicalRationale": "Option A is correct because tooth 46 exhibits symptomatic irreversible pulpitis with symptomatic apical periodontitis in a mature permanent tooth, for which complete non-surgical root canal therapy (pulpectomy and obturation) is the definitive endodontic standard of care. Direct pulp capping (Option B) is contraindicated in mature permanent teeth presenting with severe, spontaneous, lingering thermal pain indicative of extensive irreversible pulp inflammation. Coronal pulpotomy (Option C) in mature permanent teeth is considered an interim or emergency intervention rather than definitive therapy. Regenerative endodontics (Option D) is indicated strictly for non-vital immature permanent teeth with open apices, not vital mature teeth.",
+      "verifiedAt": "2026-11-22T04:47:32.404Z"
     }
   },
   {

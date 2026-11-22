@@ -993,23 +993,23 @@
   {
     "id": 227027961,
     "topicId": "infection-control",
-    "question": "According to Canadian infection control guidelines, what is the recommended minimum frequency for flushing dental unit waterlines (DUWLs) between patients?",
+    "question": "According to Canadian infection prevention and control (IPAC) guidelines, what is the recommended minimum duration for flushing dental unit waterlines (DUWLs) attached to handpieces between patients?",
     "options": [
-      "20-30 seconds",
-      "1-2 minutes",
-      "At the beginning and end of each day only",
-      "5-10 minutes"
+      "20 to 30 seconds",
+      "1 to 2 minutes",
+      "3 to 4 minutes",
+      "5 to 10 minutes"
     ],
     "correctAnswer": 0,
-    "explanation": "Flushing dental unit waterlines for 20-30 seconds between patients helps to remove transient microorganisms and any material that may have been drawn into the lines from the patient's mouth. This practice is part of standard infection control protocols to minimize cross-contamination. Flushing only at the beginning and end of the day is insufficient for patient-to-patient cross-contamination control.",
+    "explanation": "Option A is correct because Canadian Dental Association (CDA) and provincial IPAC guidelines specify that dental unit waterlines (DUWLs) connected to handpieces, ultrasonic scalers, and air/water syringes must be discharged for a minimum of 20 to 30 seconds between patients to clear retractile oral fluids. Flushing for 1 to 2 minutes (Option B) is the standard recommendation at the beginning of each clinic day, not between patients. Durations of 3 to 4 minutes (Option C) and 5 to 10 minutes (Option D) are excessive for routine between-patient turnover and do not reflect Canadian IPAC protocols.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Canadian infection prevention and control guidelines (CDA and Health Canada) specify flushing dental unit waterlines for 20-30 seconds between patients to clear retracted oral fluids and microbes.",
-      "verifiedAt": "2026-11-18T07:04:41.968Z"
+      "clinicalRationale": "Option A is correct because Canadian Dental Association (CDA) and provincial IPAC guidelines specify that dental unit waterlines (DUWLs) connected to handpieces, ultrasonic scalers, and air/water syringes must be discharged for a minimum of 20 to 30 seconds between patients to clear retractile oral fluids. Flushing for 1 to 2 minutes (Option B) is the standard recommendation at the beginning of each clinic day, not between patients. Durations of 3 to 4 minutes (Option C) and 5 to 10 minutes (Option D) are excessive for routine between-patient turnover and do not reflect Canadian IPAC protocols.",
+      "verifiedAt": "2026-11-22T04:47:32.637Z"
     }
   },
   {
@@ -1523,15 +1523,15 @@
   {
     "id": 119256617,
     "topicId": "infection-control",
-    "question": "A dental hygienist is performing ultrasonic scaling, which generates a high volume of aerosols. According to the Canadian Dental Association (CDA) and provincial infection‑control guidelines, what is the minimum level of respiratory protection that must be worn by the dental team member during this procedure?",
+    "question": "A dental healthcare provider is performing ultrasonic scaling on a patient, generating substantial aerosols and splatter. According to Canadian dental infection prevention and control (IPAC) standards, what is the MINIMUM level of medical mask protection required for this aerosol-generating procedure?",
     "options": [
-      "A standard surgical mask",
-      "A cloth mask",
-      "A procedure mask with a fluid‑resistant layer",
-      "An N95 filtering facepiece respirator (or equivalent P2/FFP2)"
+      "ASTM Level 1 surgical mask",
+      "ASTM Level 2 surgical mask",
+      "ASTM Level 3 surgical mask",
+      "Fit-tested elastomeric half-mask respirator"
     ],
     "correctAnswer": 2,
-    "explanation": "The Canadian Dental Association’s Infection‑Control Guidelines (2022) classify ultrasonic scaling as an aerosol‑generating procedure but state that the minimum respiratory protection is a fluid‑resistant surgical or procedure mask; a fit‑tested N95/P2 respirator is reserved for situations with a known or suspected airborne pathogen (e.g., active tuberculosis, COVID‑19 patient). This recommendation is echoed in the RCDSO provincial protocol and the Health Canada Occupational Health and Safety guidance, which both emphasize that a procedure mask provides sufficient filtration for routine dental AGPs while maintaining comfort and compliance. Cloth masks are excluded, and standard surgical masks without fluid resistance do not meet the required barrier level.",
+    "explanation": "Option C is correct because Canadian Dental Association (CDA) and provincial regulatory authorities (such as the RCDSO) require a minimum of an ASTM Level 3 surgical/procedure mask (or a fit-tested N95 respirator) during aerosol-generating procedures to provide maximum fluid resistance (160 mm Hg) and filtration against splatter. ASTM Level 1 masks (Option A) provide low barrier protection (80 mm Hg) suitable only for examinations without splatter. ASTM Level 2 masks (Option B) provide moderate protection (120 mm Hg) for minimal splatter, which is inadequate for high-volume aerosols. Elastomeric respirators (Option D) exceed the minimum regulatory standard and are not routinely required for non-airborne communicable disease settings.",
     "aiFixed": true,
     "aiVerified": true,
     "clinicalReview": "NDEB_AUDITED",
@@ -1540,8 +1540,8 @@
       "reasonedBestOption": "C",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Baseline Canadian infection control standards require a fluid-resistant surgical or procedure mask (ASTM Level 2 or 3) along with eye protection as the minimum respiratory barrier for routine aerosol-generating ultrasonic scaling.",
-      "verifiedAt": "2026-11-18T07:04:10.766Z"
+      "clinicalRationale": "Option C is correct because Canadian Dental Association (CDA) and provincial regulatory authorities (such as the RCDSO) require a minimum of an ASTM Level 3 surgical/procedure mask (or a fit-tested N95 respirator) during aerosol-generating procedures to provide maximum fluid resistance (160 mm Hg) and filtration against splatter. ASTM Level 1 masks (Option A) provide low barrier protection (80 mm Hg) suitable only for examinations without splatter. ASTM Level 2 masks (Option B) provide moderate protection (120 mm Hg) for minimal splatter, which is inadequate for high-volume aerosols. Elastomeric respirators (Option D) exceed the minimum regulatory standard and are not routinely required for non-airborne communicable disease settings.",
+      "verifiedAt": "2026-11-22T04:47:32.637Z"
     }
   },
   {
@@ -3969,24 +3969,24 @@
   {
     "id": 627830224,
     "topicId": "infection-control",
-    "question": "A dental clinic is preparing instruments for a patient. The external chemical indicator on a specific instrument package has changed color, indicating that the sterilization cycle parameters were met. However, the biological indicator from the previous day's sterilization cycle has not yet been processed and verified. According to standard infection control protocols, what is the most appropriate action regarding the instruments from the previous day's cycle?",
+    "question": "A dental practice processes a load of routine non-implantable restorative instruments in a steam autoclave. The physical cycle parameters (time, temperature, pressure) were met, and internal chemical indicators changed to their pass endpoints. The daily biological indicator test is currently incubating and pending results. According to Canadian IPAC standards (CSA Z314 and RCDSO), what is the MOST appropriate management of these instruments?",
     "options": [
-      "Use the instruments immediately because the external chemical indicator confirms sterilization.",
-      "Use the instruments but re-sterilize them immediately after the procedure.",
-      "Do not use the instruments from the previous day's cycle until the biological indicator result is verified as negative.",
-      "Use the instruments from the previous day's cycle and process the biological indicator immediately after the patient visit."
+      "Release the instruments for clinical use, as routine non-implantable loads do not require quarantine pending biological indicator results.",
+      "Quarantine the entire load until the biological indicator result is verified as negative.",
+      "Release the instruments only after an external Type 1 chemical indicator confirms cycle parameter verification.",
+      "Reprocess the entire load through an immediate unwrapped flash sterilization cycle."
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is to withhold the instruments until the biological indicator (BI) result is verified. While external chemical indicators (ECIs) confirm that the physical parameters of the sterilization cycle (temperature, time, pressure) were achieved, they do not confirm the actual death of microorganisms. The biological indicator is the gold standard for verifying the sterility of a sterilization cycle. Standard infection control guidelines (such as those from the CDC and Canadian dental associations) dictate that instruments should not be used from a cycle until the BI for that specific cycle has been processed and confirmed negative. If the BI fails, all instruments from that cycle must be re-sterilized. Using instruments based solely on the ECI is insufficient because it does not account for potential biological failures (e.g., spore contamination, improper loading). Therefore, the safest and most compliant action is to wait for the BI verification before using the instruments.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because under Canadian IPAC standards (CSA Z314 and RCDSO guidelines), routine non-implantable instrument loads are released for clinical use once physical cycle parameters (time, temperature, pressure) and internal chemical indicators have passed, without requiring quarantine during biological indicator (BI) incubation. Quarantine pending negative BI verification is strictly mandatory only for loads containing implantable devices (Option B). External Type 1 chemical indicators (Option C) merely demonstrate exposure to the sterilization process and cannot verify that internal sterilization parameters were achieved. Immediate reprocessing (Option D) is unnecessary when cycle parameters and chemical indicators have successfully passed.",
     "aiFixed": true,
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Sterilized loads with unverified biological indicator results must not be released for patient care until negative spore growth is confirmed; note that external chemical indicators only verify process exposure rather than cycle parameters.",
-      "verifiedAt": "2026-11-18T07:08:23.612Z"
+      "clinicalRationale": "Option A is correct because under Canadian IPAC standards (CSA Z314 and RCDSO guidelines), routine non-implantable instrument loads are released for clinical use once physical cycle parameters (time, temperature, pressure) and internal chemical indicators have passed, without requiring quarantine during biological indicator (BI) incubation. Quarantine pending negative BI verification is strictly mandatory only for loads containing implantable devices (Option B). External Type 1 chemical indicators (Option C) merely demonstrate exposure to the sterilization process and cannot verify that internal sterilization parameters were achieved. Immediate reprocessing (Option D) is unnecessary when cycle parameters and chemical indicators have successfully passed.",
+      "verifiedAt": "2026-11-22T04:47:32.637Z"
     }
   },
   {
@@ -5501,23 +5501,23 @@
   {
     "id": 223191347,
     "topicId": "infection-control",
-    "question": "A 62-year-old female patient presents with generalized root surface caries and reports experiencing significant xerostomia due to multiple medications. Her oral hygiene is generally good, but her salivary flow is visibly reduced. What is the MOST important long-term preventive strategy for managing her increased caries risk?",
+    "question": "A 62-year-old patient presents with generalized root surface caries and severe medication-induced xerostomia. Salivary flow is visibly diminished, placing the patient at extreme caries risk. What is the MOST effective long-term chemical preventive measure to arrest and prevent root caries in this patient?",
     "options": [
-      "Recommend frequent sips of water throughout the day and use of a salivary substitute.",
-      "Advise reducing consumption of all acidic foods and beverages.",
-      "Suggest switching to a sugar-free chewing gum to stimulate salivary flow.",
-      "Prescribe a daily high-concentration topical fluoride gel or varnish for home use."
+      "Prescribe a 1.1% sodium fluoride (5,000 ppm) dentifrice for daily at-home brushing.",
+      "Prescribe a 5% sodium fluoride varnish for daily self-application at home.",
+      "Recommend an over-the-counter alcohol-containing essential oil mouthrinse twice daily.",
+      "Advise frequent sipping of lemon-flavoured water throughout the day to stimulate salivation."
     ],
-    "correctAnswer": 3,
-    "explanation": "For patients with xerostomia and high caries risk, daily application of a high-concentration topical fluoride product (gel or varnish) for home use is the most effective long-term strategy for caries prevention, as it enhances remineralization and acid resistance. While frequent water sips, salivary substitutes, and dietary modifications are beneficial, they do not provide the direct caries-inhibiting effect of high-concentration fluoride in a compromised salivary environment. Sugar-free gum helps, but again, fluoride is paramount.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian clinical practice guidelines recommend high-concentration 1.1% sodium fluoride (5,000 ppm F) dentifrice for daily at-home brushing as the most effective intervention to arrest and prevent root surface caries in patients with severe xerostomia. 5% sodium fluoride varnish (Option B) is approved by Health Canada strictly for in-office professional application and is contraindicated for daily home use. Alcohol-containing mouthwashes (Option C) exacerbate oral mucosal dryness and burning in xerostomic patients. Frequent sipping of lemon-flavoured water (Option D) exposes root surfaces to continuous acid attacks, accelerating dental erosion and demineralization.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "For high-risk xerostomic patients presenting with active root surface caries, high-concentration topical fluoride (such as daily 1.1% NaF 5,000 ppm) provides the strongest evidence-based remineralization and protection.",
-      "verifiedAt": "2026-11-18T07:10:00.035Z"
+      "clinicalRationale": "Option A is correct because Canadian clinical practice guidelines recommend high-concentration 1.1% sodium fluoride (5,000 ppm F) dentifrice for daily at-home brushing as the most effective intervention to arrest and prevent root surface caries in patients with severe xerostomia. 5% sodium fluoride varnish (Option B) is approved by Health Canada strictly for in-office professional application and is contraindicated for daily home use. Alcohol-containing mouthwashes (Option C) exacerbate oral mucosal dryness and burning in xerostomic patients. Frequent sipping of lemon-flavoured water (Option D) exposes root surfaces to continuous acid attacks, accelerating dental erosion and demineralization.",
+      "verifiedAt": "2026-11-22T04:47:32.637Z"
     }
   },
   {
@@ -6990,23 +6990,23 @@
   {
     "id": 761042513,
     "topicId": "infection-control",
-    "question": "Regarding hand hygiene in a dental setting, which of the following situations MOST reliably indicates the need for an alcohol-based hand rub (ABHR) rather than soap and water?",
+    "question": "Regarding hand hygiene in a dental practice, which of the following clinical scenarios represents the primary indication for using an alcohol-based hand rub (70% to 90%) rather than washing with soap and water?",
     "options": [
-      "Hands are visibly soiled with blood or bodily fluids.",
-      "After performing a surgical procedure.",
-      "Before donning gloves for a routine examination with non-visibly soiled hands.",
-      "After removing gloves following a procedure where the gloves remained intact."
+      "Routine hand hygiene before donning gloves when hands are not visibly soiled",
+      "Hands are visibly contaminated with blood or saliva following a surgical extraction",
+      "Hands are visibly soiled with dental plaster, stone, or impression material",
+      "Immediately after using the clinic washroom or restroom facilities"
     ],
-    "correctAnswer": 2,
-    "explanation": "ABHR is effective for routine hand hygiene when hands are not visibly soiled. Soap and water are mandatory when hands are visibly soiled with blood or bodily fluids (Option A). After surgical procedures (Option B), surgical hand antisepsis (more rigorous than routine ABHR) is typically performed. After removing intact gloves (Option D), either ABHR or soap and water can be used, but ABHR is preferred if hands are not visibly soiled, making Option C the most specific case where ABHR is reliably indicated over soap and water due to the absence of visible soiling.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian IPAC guidelines (PHAC, CDA, and RCDSO) designate alcohol-based hand rub (ABHR containing 70% to 90% alcohol) as the preferred standard of care for routine hand hygiene when hands are not visibly soiled, including immediately prior to donning gloves. Washing with liquid soap and running water is strictly required when hands are visibly soiled with blood or bodily fluids (Option B), contaminated with particulate matter or debris (Option C), or following personal washroom use (Option D).",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Alcohol-based hand rub (70-90%) is the standard and preferred method for hand hygiene when hands are not visibly soiled, such as immediately prior to donning examination gloves. Visibly soiled hands require soap and running water.",
-      "verifiedAt": "2026-11-18T07:13:34.425Z"
+      "clinicalRationale": "Option A is correct because Canadian IPAC guidelines (PHAC, CDA, and RCDSO) designate alcohol-based hand rub (ABHR containing 70% to 90% alcohol) as the preferred standard of care for routine hand hygiene when hands are not visibly soiled, including immediately prior to donning gloves. Washing with liquid soap and running water is strictly required when hands are visibly soiled with blood or bodily fluids (Option B), contaminated with particulate matter or debris (Option C), or following personal washroom use (Option D).",
+      "verifiedAt": "2026-11-22T04:47:32.637Z"
     }
   },
   {
@@ -7166,23 +7166,23 @@
   {
     "id": 113533160,
     "topicId": "infection-control",
-    "question": "According to the Public Health Agency of Canada (PHAC) guidelines, which of the following is the most critical factor in determining the frequency of biological indicator testing for steam sterilizers in a dental office?",
+    "question": "According to Canadian infection prevention and control (IPAC) standards and CSA Z314 guidelines, what is the MINIMUM recommended frequency for biological indicator (spore) monitoring of steam sterilizers in an active dental practice?",
     "options": [
-      "The type of dental practice (e.g., general vs. specialty).",
-      "The volume of instruments processed per day.",
-      "The manufacturer's recommendations for the specific sterilizer model.",
-      "Provincial regulatory requirements, typically at least weekly and with every implantable load."
+      "Daily for each sterilizer used, and with every load containing implantable devices",
+      "Weekly for each sterilizer used, and with every load containing surgical instruments",
+      "Monthly for each sterilizer used, and whenever a mechanical malfunction occurs",
+      "Once per manufacturer-recommended service interval or every 40 sterilization cycles"
     ],
-    "correctAnswer": 3,
-    "explanation": "While manufacturer's recommendations (Option C) are important, the most critical factor and the minimum standard for biological indicator testing frequency for steam sterilizers in Canada is dictated by provincial or territorial regulatory requirements, which typically mandate at least weekly testing and with every load containing implantable devices. This ensures compliance and patient safety. Other factors (Options A, B) do not supersede these regulatory mandates.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian IPAC standards (CSA Z314 and provincial dental regulatory authorities such as RCDSO and BCCOHP) mandate that biological indicator (spore) testing be conducted at least daily on each day the sterilizer is used, as well as with every load containing implantable devices. Weekly spore testing (Option B) reflects the United States CDC guideline, which does not meet Canadian regulatory standards. Monthly testing (Option C) and cycle-interval testing (Option D) fail to provide acceptable quality assurance for sterilizer efficacy and violate Canadian regulatory requirements.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Biological indicator testing frequency is governed by provincial regulatory authorities (aligned with CSA Z314 and PHAC standards), requiring routine monitoring and mandatory testing for every load containing implantable devices.",
-      "verifiedAt": "2026-11-18T07:13:34.425Z"
+      "clinicalRationale": "Option A is correct because Canadian IPAC standards (CSA Z314 and provincial dental regulatory authorities such as RCDSO and BCCOHP) mandate that biological indicator (spore) testing be conducted at least daily on each day the sterilizer is used, as well as with every load containing implantable devices. Weekly spore testing (Option B) reflects the United States CDC guideline, which does not meet Canadian regulatory standards. Monthly testing (Option C) and cycle-interval testing (Option D) fail to provide acceptable quality assurance for sterilizer efficacy and violate Canadian regulatory requirements.",
+      "verifiedAt": "2026-11-22T04:47:32.637Z"
     }
   },
   {
@@ -7299,23 +7299,23 @@
   {
     "id": 644406282,
     "topicId": "infection-control",
-    "question": "When developing a comprehensive infection prevention and control program for a Canadian dental office, which of the following is the primary foundational document that provides overarching guidance and standards?",
+    "question": "When establishing an infection prevention and control (IPAC) program in a Canadian dental practice, which of the following establishes the legally binding mandatory standards that dentists must follow?",
     "options": [
-      "World Health Organization (WHO) Guidelines on Hand Hygiene in Health Care.",
-      "Provincial/Territorial dental regulatory authority (CDHO, ODA, etc.) guidelines.",
-      "Public Health Agency of Canada (PHAC) infection control guidelines.",
-      "Centers for Disease Control and Prevention (CDC) Dental Infection Control Guidelines."
+      "Standards of practice and guidelines published by the provincial or territorial dental regulatory authority.",
+      "Infection prevention and control guidance documents published by the Public Health Agency of Canada.",
+      "Clinical practice guidelines and recommendations issued by the Canadian Dental Association.",
+      "Dental infection prevention and control guidelines established by the United States Centers for Disease Control and Prevention."
     ],
-    "correctAnswer": 2,
-    "explanation": "In Canada, the Public Health Agency of Canada (PHAC) provides the overarching national guidelines and standards for infection prevention and control across all healthcare settings, including dentistry. While provincial regulatory authorities (Option B) adapt and enforce these, and WHO (Option A) and CDC (Option D) offer international guidance, PHAC documents form the primary federal foundation upon which provincial standards are built.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because in Canada, the regulation of healthcare professions falls strictly under provincial and territorial jurisdiction, making the standards of practice issued by the provincial dental regulatory authority legally binding and mandatory. Options B, C, and D are incorrect because while the Public Health Agency of Canada, Canadian Dental Association, and Centers for Disease Control and Prevention publish authoritative guidance, they are voluntary advisory organizations rather than statutory regulatory bodies.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "C",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "The Public Health Agency of Canada (PHAC) establishes the foundational federal infection prevention and control standards upon which provincial dental regulatory authorities build clinical practice standards.",
-      "verifiedAt": "2026-11-18T07:13:34.425Z"
+      "clinicalRationale": "Option A is correct because in Canada, the regulation of healthcare professions falls strictly under provincial and territorial jurisdiction, making the standards of practice issued by the provincial dental regulatory authority legally binding and mandatory. Options B, C, and D are incorrect because while the Public Health Agency of Canada, Canadian Dental Association, and Centers for Disease Control and Prevention publish authoritative guidance, they are voluntary advisory organizations rather than statutory regulatory bodies.",
+      "verifiedAt": "2026-11-22T04:47:32.637Z"
     }
   },
   {
@@ -7477,23 +7477,23 @@
   {
     "id": 127490415,
     "topicId": "infection-control",
-    "question": "A 32-year-old male dentist is preparing to administer local anesthesia using a syringe with a disposable needle. To minimize the risk of percutaneous injury, what is the MOST appropriate technique for handling and disposing of the used needle?",
+    "question": "After administering a local anesthetic injection using a standard reusable aspirating syringe and disposable needle, what is the MOST appropriate protocol to prevent a percutaneous injury during disassembly and disposal?",
     "options": [
-      "Recap the needle using a two-handed scoop technique immediately after injection.",
-      "Recap the needle using a one-handed scoop technique immediately after injection.",
-      "Carefully remove the needle from the syringe and place it directly into the sharps container.",
-      "Activate the safety mechanism on the needle (if applicable) and immediately dispose of the entire syringe-needle unit into a sharps container."
+      "Recap the needle using a one-handed scoop technique before removing it from the syringe.",
+      "Recap the needle using a two-handed technique holding the cap firmly in the non-dominant hand.",
+      "Unscrew and remove the uncapped needle using gloved fingers and place it directly into a sharps container.",
+      "Discard the entire assembled syringe and attached needle directly into a biomedical sharps container."
     ],
-    "correctAnswer": 3,
-    "explanation": "Activating the safety mechanism (if present) and immediately disposing of the entire syringe-needle unit into a designated sharps container without recapping is the safest practice to prevent percutaneous injuries. Recapping, even with a one-handed scoop technique, still carries a risk of injury and should be avoided unless absolutely necessary for specific procedures or transport, and only then with extreme caution. Removing the needle manually increases the risk of injury.",
+    "correctAnswer": 0,
+    "explanation": "Option A is correct because Canadian IPAC guidelines (CDA and RCDSO) require that contaminated dental needles be recapped immediately after use using a one-handed scoop technique or an approved recapping device to shield the needle before disassembly. Two-handed recapping (Option B) is strictly prohibited as it is a major cause of percutaneous sharps injuries. Removing an uncapped needle directly from the syringe (Option C) exposes the clinician to severe needle-stick hazards. Reusable metallic aspirating syringes must be sterilized and reused, not discarded into sharps containers with the needle (Option D).",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
-      "reasonedBestOption": "D",
+      "reasonedBestOption": "A",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Under occupational safety and infection control hierarchy of controls, activating an engineered safety mechanism and immediately disposing of the needle unit into sharps provides the highest protection against percutaneous injury.",
-      "verifiedAt": "2026-11-18T07:17:04.049Z"
+      "clinicalRationale": "Option A is correct because Canadian IPAC guidelines (CDA and RCDSO) require that contaminated dental needles be recapped immediately after use using a one-handed scoop technique or an approved recapping device to shield the needle before disassembly. Two-handed recapping (Option B) is strictly prohibited as it is a major cause of percutaneous sharps injuries. Removing an uncapped needle directly from the syringe (Option C) exposes the clinician to severe needle-stick hazards. Reusable metallic aspirating syringes must be sterilized and reused, not discarded into sharps containers with the needle (Option D).",
+      "verifiedAt": "2026-11-22T04:47:32.637Z"
     }
   },
   {
@@ -10704,23 +10704,23 @@
   {
     "id": 681855306,
     "topicId": "infection-control",
-    "question": "A 30-year-old female dental assistant is tasked with reprocessing instruments after a restorative procedure. She places the instruments directly into the ultrasonic cleaner with disinfectant solution without prior rinsing. What is the MOST likely negative consequence of this action?",
+    "question": "A dental assistant is preparing contaminated surgical and restorative instruments for automated cleaning in an ultrasonic unit. According to Canadian infection prevention and control (IPAC) guidelines, which of the following represents the correct protocol?",
     "options": [
-      "Increased risk of instrument corrosion due to disinfectant exposure.",
-      "Ineffective cleaning because organic debris can hinder disinfectant action.",
-      "Damage to the ultrasonic cleaner's transducer from prolonged exposure to debris.",
-      "Excessive foaming in the ultrasonic cleaner, making visualization difficult."
+      "Pre-rinse and vigorously scrub instruments under running water before placing them in a hospital-grade surface disinfectant.",
+      "Submerge instruments in a dedicated enzymatic cleaning solution without manual pre-rinsing of contaminated sharps.",
+      "Operate the ultrasonic bath with the lid off using high-level chemical sterilant to eliminate heat sterilization.",
+      "Place instruments in a diluted household bleach solution to rapidly dissolve organic bioburden."
     ],
     "correctAnswer": 1,
-    "explanation": "Instruments should be rinsed thoroughly under running water immediately after use to remove gross debris and blood. Placing instruments directly into an ultrasonic cleaner with disinfectant without prior rinsing allows organic debris (blood, tissue, saliva) to remain on the instruments. This debris acts as a physical barrier, protecting microorganisms from the disinfectant and interfering with the ultrasonic cleaning process, making it ineffective. While some foaming (D) might occur, the primary concern is ineffective cleaning, and corrosion (A) is more related to material compatibility and solution choice.",
+    "explanation": "Option B is correct because Canadian IPAC guidelines mandate the use of dedicated enzymatic cleaning solutions in ultrasonic baths and advise against manual pre-rinsing or scrubbing of contaminated sharps to minimize the risk of percutaneous injuries. Option A is incorrect because manual pre-rinsing increases sharps injury risk and surface disinfectants are not formulated for ultrasonic cleaning. Options C and D are incorrect because operating an ultrasonic cleaner without a lid aerosolizes pathogens, and chemical soaks or bleach do not replace downstream heat sterilization and damage instruments.",
     "aiVerified": true,
     "ndebReasoningAudit": {
       "status": "PASS",
       "reasonedBestOption": "B",
       "agrees": true,
       "compliant": true,
-      "clinicalRationale": "Placing un-rinsed instruments directly into an ultrasonic cleaning unit allows gross organic debris to absorb cavitation energy, inactivate cleaning solutions, and protect underlying microbes, severely compromising cleaning efficacy.",
-      "verifiedAt": "2026-11-18T07:21:00.152Z"
+      "clinicalRationale": "Option B is correct because Canadian IPAC guidelines mandate the use of dedicated enzymatic cleaning solutions in ultrasonic baths and advise against manual pre-rinsing or scrubbing of contaminated sharps to minimize the risk of percutaneous injuries. Option A is incorrect because manual pre-rinsing increases sharps injury risk and surface disinfectants are not formulated for ultrasonic cleaning. Options C and D are incorrect because operating an ultrasonic cleaner without a lid aerosolizes pathogens, and chemical soaks or bleach do not replace downstream heat sterilization and damage instruments.",
+      "verifiedAt": "2026-11-22T04:47:32.637Z"
     }
   },
   {

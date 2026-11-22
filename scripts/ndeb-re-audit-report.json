@@ -1,0 +1,141 @@
+{
+  "timestamp": "2026-11-22T02:15:21.461Z",
+  "totalQuestions": 14000,
+  "passedCount": 13765,
+  "flaggedCount": 235,
+  "passRate": "98.32%",
+  "topics": {
+    "anatomy": {
+      "total": 1000,
+      "passed": 977,
+      "flagged": 23,
+      "passRate": "97.70%"
+    },
+    "pharmacology": {
+      "total": 1000,
+      "passed": 986,
+      "flagged": 14,
+      "passRate": "98.60%"
+    },
+    "endodontics": {
+      "total": 500,
+      "passed": 481,
+      "flagged": 19,
+      "passRate": "96.20%"
+    },
+    "anesthesia": {
+      "total": 1000,
+      "passed": 984,
+      "flagged": 16,
+      "passRate": "98.40%"
+    },
+    "pathology": {
+      "total": 500,
+      "passed": 496,
+      "flagged": 4,
+      "passRate": "99.20%"
+    },
+    "operative-dentistry": {
+      "total": 1000,
+      "passed": 986,
+      "flagged": 14,
+      "passRate": "98.60%"
+    },
+    "prosthodontics": {
+      "total": 1000,
+      "passed": 981,
+      "flagged": 19,
+      "passRate": "98.10%"
+    },
+    "general-medicine": {
+      "total": 500,
+      "passed": 493,
+      "flagged": 7,
+      "passRate": "98.60%"
+    },
+    "ethics": {
+      "total": 500,
+      "passed": 493,
+      "flagged": 7,
+      "passRate": "98.60%"
+    },
+    "biochemistry": {
+      "total": 500,
+      "passed": 497,
+      "flagged": 3,
+      "passRate": "99.40%"
+    },
+    "microbiology": {
+      "total": 500,
+      "passed": 497,
+      "flagged": 3,
+      "passRate": "99.40%"
+    },
+    "dental-materials": {
+      "total": 500,
+      "passed": 493,
+      "flagged": 7,
+      "passRate": "98.60%"
+    },
+    "periodontology": {
+      "total": 500,
+      "passed": 486,
+      "flagged": 14,
+      "passRate": "97.20%"
+    },
+    "oral-pathology": {
+      "total": 1000,
+      "passed": 989,
+      "flagged": 11,
+      "passRate": "98.90%"
+    },
+    "radiology": {
+      "total": 500,
+      "passed": 487,
+      "flagged": 13,
+      "passRate": "97.40%"
+    },
+    "oral-medicine": {
+      "total": 500,
+      "passed": 490,
+      "flagged": 10,
+      "passRate": "98.00%"
+    },
+    "oral-surgery": {
+      "total": 500,
+      "passed": 495,
+      "flagged": 5,
+      "passRate": "99.00%"
+    },
+    "implants": {
+      "total": 500,
+      "passed": 491,
+      "flagged": 9,
+      "passRate": "98.20%"
+    },
+    "emergencies": {
+      "total": 500,
+      "passed": 491,
+      "flagged": 9,
+      "passRate": "98.20%"
+    },
+    "orthodontics": {
+      "total": 500,
+      "passed": 491,
+      "flagged": 9,
+      "passRate": "98.20%"
+    },
+    "pedodontics": {
+      "total": 500,
+      "passed": 490,
+      "flagged": 10,
+      "passRate": "98.00%"
+    },
+    "infection-control": {
+      "total": 500,
+      "passed": 491,
+      "flagged": 9,
+      "passRate": "98.20%"
+    }
+  }
+}
